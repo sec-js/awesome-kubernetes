@@ -3,6 +3,50 @@
 !!! info "Architectural Context"
     Detailed reference for Customer Success Stories. Cloud Native Projects in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Cloud Platform](#cloud-platform)
+  - [Bioinformatics](#bioinformatics)
+    - [High-Performance Computing](#high-performance-computing)
+  - [DevOps and Automation](#devops-and-automation)
+    - [Continuous Integration](#continuous-integration)
+  - [Healthcare Tech](#healthcare-tech)
+    - [Medical Imaging Platforms](#medical-imaging-platforms)
+1. [Data Management](#data-management)
+  - [Bioinformatics](#bioinformatics-1)
+    - [AI Diagnostics](#ai-diagnostics)
+    - [Medical Imaging Platforms](#medical-imaging-platforms-1)
+  - [Healthcare Tech](#healthcare-tech-1)
+    - [AI Diagnostics](#ai-diagnostics-1)
+1. [Domain APIs](#domain-apis)
+  - [Automotive](#automotive)
+    - [Open Source Labs](#open-source-labs)
+1. [Infrastructure Orchestration](#infrastructure-orchestration)
+  - [Cloud Security](#cloud-security)
+    - [Runtime Security](#runtime-security)
+  - [Container Platforms](#container-platforms)
+    - [Kubernetes at Scale](#kubernetes-at-scale)
+  - [Edge Computing](#edge-computing)
+    - [GitOps Operations](#gitops-operations)
+  - [Open Source Software](#open-source-software)
+    - [Enterprise Portals](#enterprise-portals)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Organizational Culture](#organizational-culture)
+  - [Migration Journeys](#migration-journeys)
+    - [BMW Group](#bmw-group)
+1. [System Architecture](#system-architecture)
+  - [Automotive Systems](#automotive-systems)
+    - [Software-Defined Vehicles](#software-defined-vehicles)
+  - [Industrial Engineering](#industrial-engineering)
+    - [Hardware Integration](#hardware-integration)
+    - [Quality Management](#quality-management)
+  - [Messaging Systems](#messaging-systems)
+    - [Event-Driven Microservices](#event-driven-microservices)
+  - [Open Source Software](#open-source-software-1)
+    - [Compliance and Logistics](#compliance-and-logistics)
+    - [Strategic Governance](#strategic-governance)
+
 ## Cloud Platform
 
 ### Bioinformatics

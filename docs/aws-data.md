@@ -6,10 +6,10 @@
 
 ## Introduction
 
-- [aws.amazon.com/big-data](http://aws.amazon.com/big-data)
-- [blogs.aws.amazon.com/bigdata](http://blogs.aws.amazon.com/bigdata)
+- [aws.amazon.com/big-data](https://aws.amazon.com/big-data)
+- [blogs.aws.amazon.com/bigdata](https://blogs.aws.amazon.com/bigdata)
 - [Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming](https://aws.amazon.com/blogs/big-data/querying-amazon-kinesis-streams-directly-with-sql-and-spark-streaming)
-- [Using Spark SQL for ETL](http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
+- [Using Spark SQL for ETL](https://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL)
 - [whizlabs.com: AWS Kinesis vs Kafka Apache](https://www.whizlabs.com/blog/kinesis-vs-kafka)
 
 ## AWS Data Lake

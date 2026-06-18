@@ -1,4 +1,4 @@
-# Nubenetes: The Intelligent Cloud Native Archive 🧠☁️
+# Nubenetes: The Intelligent Cloud Native Archive
 
 [![Automated Agentic Curation](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/01.1.agentic_cron.yml)
 [![V2 Health Monitor](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml/badge.svg)](https://github.com/nubenetes/awesome-kubernetes/actions/workflows/02.2.agentic_v2_health.yml)
@@ -134,14 +134,14 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 ## 2. Repository Metrics and Evolution
 
 ### 2.1. The "Heart" of Nubenetes
-(Stats as of 2026-06-17)
+(Stats as of 2026-06-18)
 
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18639+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5890+** |
+| **Total Commits** | **5898+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -179,7 +179,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2331 | 9,627 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2339 | 9,660 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -195,8 +195,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 10000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9627]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2331]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9660]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2339]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -206,7 +206,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 205 | 846 | Active Curation |
+| 2026-06 | 213 | 879 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -343,7 +343,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 ### 5.1. V1: The Exhaustive Archive
 - **Purpose:** Preservation of all technical knowledge since 2018.
 - **SEO Guard:** Deployed at the domain root (`/`) to preserve 6+ years of historical backlinks and deep-links.
-- **Fallback Access:** Also available at [nubenetes.com/v1/](https://nubenetes.com/v1/).
+- **Fallback Access:** Also available at [nubenetes.com/v1/](https://nubenetes.com/v1).
 - **Source of Truth:** The `docs/` directory.
 - **YouTube Mosaic:** Kept as a flat, historically ordered list of channel logos (11 per row) using simple inline width styling (`{: style="width:7%"}`). Newly added channels are appended at the end of this list.
 
@@ -364,7 +364,7 @@ Nubenetes operates with two distinct editions to serve different engineering nee
 - **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
-- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2/)
+- **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2)
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -403,7 +403,7 @@ To scale to 10,000+ resources while staying within GitHub's 6-hour execution lim
 | **V2 AI Curator** | **Intelligence** | On-demand / Manual | Generates summaries and hierarchy using Gemini AI. |
 | **V2 Publisher** | **Aesthetics** | Automatic on Push | Fast-track rendering of the portal (V2 Portal). |
 
-#### 🚀 Decoupled Execution Strategy
+#### Decoupled Execution Strategy
 By separating these domains, Nubenetes ensures **100% Resilience**:
 1.  **Isolation of Failures**: A GitHub API rate limit in the Metadata Engine does not stop the AI Curator from processing already cached data.
 2.  **Quota Optimization**: Health checks use high-concurrency async HTTP, while the AI Curator uses structured batching to protect Gemini TPM/RPM.
@@ -484,12 +484,12 @@ To maintain a high-performance "Single Source of Truth", Nubenetes implements au
 #### Intelligent Cleaning Observability
 
 ```log
-# 1. PROGRESS TRACKING & PARALLEL EXECUTION
+# 1. PROGRESS TRACKING and PARALLEL EXECUTION
 [14:01:20] [*] Queue: 17110 links prioritized for validation.
 [14:01:25] [>] Progress: [45/17110] links validated...
 [14:01:29] [>] Progress: [90/17110] links validated...
 
-# 2. SEMANTIC DRIFT (Optimized & Deduplicated): Detecting silent content updates via SHA256
+# 2. SEMANTIC DRIFT (Optimized and Deduplicated): Detecting silent content updates via SHA256
 [14:01:32] [!] DRIFT DETECTED: https://lzone.de
 [14:01:33] [!] DRIFT DETECTED: https://hackerone.com/reports/1249583
 # Meaning: Content changed significantly. Flagged for AI re-evaluation (only logged once per unique URL).
@@ -562,7 +562,7 @@ The "Platinum" tier represents the highest level of autonomous maintenance, focu
 #### Advanced Safety and Standard Hardening
 - **Structural Integrity Audit**: [Safety Guard](src/safety_guard.py) enforces [Mandate 30](GEMINI.md) by blocking ampersands (`&`) and emojis in section titles to ensure cross-platform rendering.
 - **Anchor & TOC Validation**: Verifies that Table of Contents links point to valid, strictly lowercase anchors.
-- **Rendering Risk Detection**: Ensures HTML blocks like `<center>` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
+- **Rendering Risk Detection**: Ensures HTML blocks like `<center markdown="1">` include the mandatory `markdown="1"` attribute ([Mandate 19](GEMINI.md)).
 
 #### Infrastructure Auto-Sync
 - **Workflow UI Synchronization**: The [UI Sync Engine](src/sync_workflow_ui.py) automatically updates the [GitHub Actions Interface](.github/workflows/01.1.agentic_cron.yml) whenever [Curation Sources](data/curation_sources.yaml) are added or modified ([Mandate 11](GEMINI.md)).
@@ -676,16 +676,23 @@ graph TD
         AC["Agentic Curator"]
     end
 
-    subgraph "Agentic Tiering (Multi-Agent)"
+    subgraph "Agentic Tiering and Debate (Multi-Agent)"
         AA["Analyst Agent (Flash)"]
         AV["Auditor Agent (Pro)"]
         MCP[["MCP Grounding (Search)"]]
+        DBT["Consensus and Debate (Flash and Pro)"]
     end
 
     AC -->|"Raw Discovery"| AA
     AA -->|"Initial Classification"| AV
     AV <-->|"Deep Context Search"| MCP
-    AV -->|"Verified Metadata"| DB[("Unified DB")]
+    
+    AA -->|"Borderline (Score 70-85)"| DBT
+    AV -->|"Selective Audit (3-4 Stars)"| DBT
+    DBT <-->|"Live Proof Search"| MCP
+    
+    DBT -->|"Consensus Metadata"| DB[("Unified DB")]
+    AV -->|"Verified Metadata"| DB
 
     LC["Link Cleaner"] -->|"Health Sync"| DB
     V2["V2 Optimizer"] -->|"Elite Selection"| DB
@@ -734,6 +741,8 @@ The following matrix defines our strategic model tiering across all workflows:
 | **PR Guardian** | PR Presubmit | **Gemini Flash/Lite** | Tier 1 | Rapid syntax and mandate format linting. | **Medium** |
 | **Curator (X/RSS)** | Agentic Curator | **Gemini Pro** | Tier 2 | Deep reasoning for human/social context. | **Low (Burst)** |
 | **Auditor** | V2 Elite Builder | **Gemini Pro** | Tier 2 | High-fidelity verification of [ELITE] resources. | **Medium** |
+| **Debater Personas** | Curation / V2 Builder | **Gemini Flash/Lite** | Tier 1 | Independent multi-perspective evaluations and rebuttals. | **High** |
+| **Debate Synthesis** | Curation / V2 Builder | **Gemini Pro** | Tier 2 | High-fidelity final consensus and summary synthesis. | **Medium** |
 
 ### 8.2. Core Agent Definitions
 The heart of the new Nubenetes is a suite of AI Agents that operate on our `develop` branch:
@@ -755,7 +764,11 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Resilience:** asynchronous health checks with 3x retry and identity rotation.
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
-4.  **Resilient Architecture Core**:
+4.  **DebatePanelEngine ([`src/v2_debate.py`](src/v2_debate.py))**:
+    - **Persona-based Evaluation**: Coordinates specialized opinions across Security Architect, SRE, and AI Engineer personas.
+    - **Consensus Resolution**: Resolves high score-divergences (>= 15 points) using a round-robin debate structure.
+    - **Auto-Corrective Memory**: Appends resolution logs to `src/memory/health_learning.json` for persistent, few-shot alignment.
+5.  **Resilient Architecture Core**:
     - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
     - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
     - **Programmatic Smart Injection (Option B)**: The system extracts document headers and has Gemini Flash choose the target header, performing the actual line insertion using Python. This bypasses the need for Gemini Pro to rewrite entire documents, slashing API usage and preventing 429 errors.
@@ -766,6 +779,42 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Fast-Track Sequential Model**: Optimized for stability and speed, bypassing the complexity of distributed systems and leveraging the pre-computed metadata from the inventory.
     - **Pip Caching**: All workflows utilize `cache: pip` for lightning-fast execution and reduced compute costs.
     - **AI PR Guardian**: Enforces the `PULL_REQUEST_TEMPLATE.md` checklist automatically on community contributions.
+
+### 8.3. Multi-Agent Consensus and Debate Protocol
+
+To eliminate individual LLM rating bias, resolve borderline cases, and prevent architectural rating drift, Nubenetes employs a structured multi-agent debate process. This ensures that resources included in the V2 Elite portal meet the high-density requirements of a 2026 Cloud Architect.
+
+```mermaid
+graph TD
+    A["New Resource Found"] --> B["Persona 1: Security Architect"]
+    A --> C["Persona 2: Cloud Native SRE"]
+    A --> D["Persona 3: AI Platform Engineer"]
+    B --> E["Independent Evaluations"]
+    C --> E
+    D --> E
+    E -->|Scores Diverge >= 15 points| F["Trigger Debate Round"]
+    E -->|Scores Converge| G["Accept / Reject Directly"]
+    F --> H["Round-Robin Discussion: Argue Pros and Cons"]
+    H --> I["Consensus Reached and Final Score Assigned"]
+    I --> J["Save Decision to Persistent Memory JSON"]
+```
+
+#### 8.3.1. Panel of Expert Personas
+The panel consists of three distinct virtual expert roles, each prompting Gemini with specialized priorities:
+*   **Security Architect**: Evaluates license changes (e.g., transitions from permissive MIT/Apache 2.0 to restrictive BSL/SSPL), supply-chain compliance, vulnerability history, and enterprise readiness.
+*   **Cloud Native SRE**: Prioritizes production readiness, high availability, performance overhead, community activity (commits and stars), and operational scalability.
+*   **AI Platform Engineer**: Judges developer productivity, ease of integration with the modern AI stack (e.g., Model Context Protocol (MCP) tools), and overall 2026 Cloud Native architectural relevance.
+
+#### 8.3.2. Protocol Execution Flow
+The debate protocol executes asynchronously in three distinct phases:
+1.  **Phase 1: Independent Evaluation**: Each expert persona independently evaluates the resource (using Google Search Grounding to check the live state of the project). They assign an architectural impact score (0–100) and write a 1–2 sentence justification.
+2.  **Phase 2: Divergence Assessment and Rebuttal**: If the difference between the highest and lowest assigned scores is **$\ge 15$ points**, a debate round is triggered. Each expert receives the scores and justifications of their peers and is asked to defend or revise their score in a rebuttal round.
+3.  **Phase 3: Consensus and Synthesis**: The final consensus score is the average of the revised scores of the three personas. A fourth agent (Curation Synthesis Agent) compiles the justifications and rebuttals, generating a refined, high-density technical summary (2–5 sentences) and selecting precise ecosystem tags (e.g., `[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`, `[EMERGING]`).
+
+#### 8.3.3. Integration Points
+*   **Discovery Ingestion**: Hooked into [`src/agentic_curator.py`](src/agentic_curator.py) for new links with borderline initial scores between `70` and `85`.
+*   **V2 Portal Auditing**: Hooked into [`src/v2_optimizer.py`](src/v2_optimizer.py) during builds for high-impact candidates (`[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`) or borderline candidates (3–4 stars).
+*   **Persistent Memory Log**: The final consensus score, justifications, rebuttals, and metadata are saved to `src/memory/health_learning.json` under `resolved_debates` to serve as few-shot training examples for future curation runs.
 
 ---
 
@@ -952,7 +1001,7 @@ Every Pull Request targeting the `develop` branch is subjected to a **blocking p
 - **Self-Healing Auto-Corrective Commits**: The [PR Guardian](src/pr_guardian.py) automatically applies auto-formatting directly to modified markdown files on the PR branch, addressing minor styling and normalization issues:
     *   *URL Normalization*: Strips social tracking parameters (e.g., `utm_source`) and enforces a zero-trailing-slash policy on new links via [normalize_url](src/gemini_utils.py#L241).
     *   *Heading Cleanups*: Replaces ampersands (`&` -> `and`) and strips emojis (e.g. `🧠`, `🌟`) in H2-H6 headers to ensure rendering standards.
-    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center>` HTML tags to allow MkDocs parsing.
+    *   *HTML Center Attributes*: Automatically adds the mandatory `markdown="1"` attribute to `<center markdown="1">` HTML tags to allow MkDocs parsing.
     *   *Auto-Push*: If auto-fixes are applied, the bot commits and pushes the formatting changes back to the head branch ref dynamically.
 - **README Integrity Gate**: A dedicated "Hard Safety Gate" ([`src/safety_readme.py`](src/safety_readme.py)) executes to verify that all 15 mandatory sections are preserved and correctly numbered.
 

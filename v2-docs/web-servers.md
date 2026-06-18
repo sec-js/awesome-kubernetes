@@ -1,7 +1,40 @@
-# Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
+# Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
 !!! info "Architectural Context"
-    Detailed reference for Web Servers & Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more in the context of Networking & Service Mesh.
+    Detailed reference for Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more in the context of Networking & Service Mesh.
+
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Infrastructure](#infrastructure)
+    - [Load Balancing](#load-balancing)
+1. [Infrastructure](#infrastructure-1)
+  - [Web Servers](#web-servers)
+    - [Apache HTTP Server](#apache-http-server)
+    - [App Servers](#app-servers)
+    - [CICD Integration](#cicd-integration)
+    - [NGINX Handbooks](#nginx-handbooks)
+    - [Reverse Proxy](#reverse-proxy)
+1. [Infrastructure Security](#infrastructure-security)
+  - [Inbound Traffic Management](#inbound-traffic-management)
+    - [Traefik](#traefik)
+1. [NGINXConfig](#nginxconfig)
+  - [Community Tools](#community-tools)
+1. [Networking](#networking)
+  - [Load Balancing](#load-balancing-1)
+    - [HAProxy](#haproxy)
+  - [Multi-Cluster](#multi-cluster)
+    - [DNS](#dns)
+1. [Traffic Management](#traffic-management)
+  - [Kubernetes Ingress Controllers](#kubernetes-ingress-controllers)
+    - [Alternative Ingress](#alternative-ingress)
+    - [Traefik Ingress](#traefik-ingress)
+  - [Load Balancing and Reverse Proxy](#load-balancing-and-reverse-proxy)
+    - [HAProxy Administration](#haproxy-administration)
+    - [Nginx Playground](#nginx-playground)
 
 ## Architectural Foundations
 
@@ -40,7 +73,7 @@
   - **(2025)** [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal for NGINX Unit, a dynamic, lightweight application server designed to run polyglot microservices simultaneously. Dynamically configured on the fly via JSON REST APIs without service disruption.
 #### CICD Integration
 
-  - **(2020)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[APACHECONF CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical configuration repository detailing reverse-proxy deployment configurations for Jenkins behind Apache. Due to more than 4 years of inactivity, it is maintained as a legacy setup reference.
+  - **(2020)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dac7b8da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 13 L 30 7 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-dac7b8da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[APACHECONF CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical configuration repository detailing reverse-proxy deployment configurations for Jenkins behind Apache. Due to more than 4 years of inactivity, it is maintained as a legacy setup reference.
 #### NGINX Handbooks
 
   - **(2021)** [freecodecamp.org: The NGINX Handbook 🌟](https://www.freecodecamp.org/news/the-nginx-handbook) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A master handbook exploring NGINX server architecture. Reviews custom security header injections, performance caching designs, proxy configurations, and advanced debugging processes for production environments.
@@ -65,7 +98,7 @@
 
 #### HAProxy
 
-  - **(2025)** [HAProxy](http://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
 ### Multi-Cluster
 
 #### DNS
@@ -80,7 +113,7 @@
   - **(2020)** [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Skipper, an open-source HTTP router and reverse proxy designed for highly customized routing scenarios. It highlights Skipper's unique strength in dynamically modifying requests using an extensible filter chain, though it occupies a niche compared to market-dominant ingress engines.
 #### Traefik Ingress
 
-  - **(2026)** [Traefik](http://traefik.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical repository and site for Traefik, a modern cloud-native reverse proxy and ingress controller designed for dynamic service discovery. It automatically listens to platform API registries (such as Kubernetes and Consul) to dynamically update routing tables without manual reloads.
+  - **(2026)** [Traefik](https://traefik.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical repository and site for Traefik, a modern cloud-native reverse proxy and ingress controller designed for dynamic service discovery. It automatically listens to platform API registries (such as Kubernetes and Consul) to dynamically update routing tables without manual reloads.
   - **(2020)** [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory engineering guide outlining the mechanics of deploying Traefik to route internal cluster traffic. The resource demonstrates how Traefik processes Custom Resource Definitions (CRDs) to define advanced routing rules, headers, and SSL termination points transparently.
   - **(2020)** [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural examination of combining Traefik's edge ingress capabilities with the granular micro-segmentation of the Istio Service Mesh. This dual-layer approach optimizes ingress pathing while maintaining strict mTLS and telemetry enforcement across internal pod networks.
 ### Load Balancing and Reverse Proxy

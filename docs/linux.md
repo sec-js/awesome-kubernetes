@@ -104,7 +104,7 @@
 
 ## Linux Blogs
 
-- [The Linux Foundation](http://www.linuxfoundation.org)
+- [The Linux Foundation](https://www.linuxfoundation.org)
 - [tecmint.com 🌟](https://www.tecmint.com)
 - [nixCraft 🌟](https://www.cyberciti.biz)
 - [unixmen.com 🌟](https://www.unixmen.com)
@@ -118,23 +118,23 @@
 - [systemcodegeeks.com](https://www.systemcodegeeks.com)
 - [linuxnix.com](https://www.linuxnix.com)
 - [learnitguide.net 🌟](https://www.learnitguide.net)
-- [FOSS Force](http://fossforce.com)
-- [linuxhomenetworking.com](http://www.linuxhomenetworking.com)
-- [linuxtoday.com](http://www.linuxtoday.com)
-- [unixetc.co.uk](http://unixetc.co.uk)
-- [LWN.net](http://lwn.net)
-- [Linux-tutorial.info](http://www.linux-tutorial.info)
+- [FOSS Force](https://fossforce.com)
+- [linuxhomenetworking.com](https://www.linuxhomenetworking.com)
+- [linuxtoday.com](https://www.linuxtoday.com)
+- [unixetc.co.uk](https://unixetc.co.uk)
+- [LWN.net](https://lwn.net)
+- [Linux-tutorial.info](https://www.linux-tutorial.info)
 - [The Lone Sysadmin](https://lonesysadmin.net)
-- [LinuxLinks.com](http://www.linuxlinks.com)
-- [unixmages.com](http://unixmages.com)
-- [The Geek Stuff](http://www.thegeekstuff.com)
+- [LinuxLinks.com](https://www.linuxlinks.com)
+- [unixmages.com](https://unixmages.com)
+- [The Geek Stuff](https://www.thegeekstuff.com)
 - [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) A study notes book for the common knowledge and tasks of a Linux system admin.
 
 ## Spanish Linux Blogs
 
-- [systemadmin.es](http://systemadmin.es)
-- [muylinux.com](http://www.muylinux.com)
-- [linuxadictos.com](http://www.linuxadictos.com)
+- [systemadmin.es](https://systemadmin.es)
+- [muylinux.com](https://www.muylinux.com)
+- [linuxadictos.com](https://www.linuxadictos.com)
 
 ## Youtube
 
@@ -264,13 +264,13 @@
 - [datafix.com.au: BASHing data - Data ops on the Linux command line 🌟](https://datafix.com.au/BASHing)
 - [medium: How to trigger an action at the end of the Shell/Bash script](https://medium.com/bash-tips-and-tricks/how-to-trigger-an-action-at-the-end-of-the-shell-bash-script-52b0ba9c157e) Using Bash/Shell trap, a built-in command to define any action to be executed before exiting the Bash or Shell script. You can define multiple actions and per signal.
 - [redhat.com: Bash scripting: How to read data from text files](https://www.redhat.com/en/blog/data-text-files) Here's how to extract data from a text file such as reading in a list of servers to test connectivity to them.
-- [pement.org: Over 100 sed one-liners](http://www.pement.org/sed/sed1line.txt)
+- [pement.org: Over 100 sed one-liners](https://www.pement.org/sed/sed1line.txt)
 - [github: Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md)
 - [rexegg.com: Regex Syntax Tricks](https://www.rexegg.com/regex-tricks.php)
-- [pement.org: Handy one-line scripts for AWK](http://www.pement.org/awk/awk1line.txt)
-- [robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
+- [pement.org: Handy one-line scripts for AWK](https://www.pement.org/awk/awk1line.txt)
+- [robertmuth.blogspot.com: Better Bash Scripting in 15 Minutes](https://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html)
 - [cyberciti.biz: How To Bash Shell Find Out If a Variable Is Empty Or Not](https://www.cyberciti.biz/faq/unix-linux-bash-script-check-if-variable-is-empty)
-- [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls)
+- [Bash Pitfalls 🌟](https://mywiki.wooledge.org/BashPitfalls)
 - [cyberciti.biz: Bash For Loop Examples](https://www.cyberciti.biz/faq/bash-for-loop)
 - [opensource.com: Parsing config files with Bash](https://opensource.com/article/21/6/bash-config) Separating config files from code enables anyone to change their configurations without any special programming skills.
 - [cloudsavvyit.com: How to Use Multi-Threaded Processing in Bash Scripts](https://www.cloudsavvyit.com/12277/how-to-use-multi-threaded-processing-in-bash-scripts)
@@ -337,7 +337,7 @@
 - [github.com/cyberus-technology/virtualbox-kvm: KVM Backend for VirtualBox 🌟](https://github.com/cyberus-technology/virtualbox-kvm) This repository contains a KVM backend for the open source virtualization tool VirtualBox. With this backend, Linux KVM is used as the underlying hypervisor.
 
 ## Linux and Kubernetes
-  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to kubernetes-troubleshooting topic)*
+  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) - *(Related to kubernetes-troubleshooting topic)*
 
 - [tldp.org: The Linux System Administrator's Guide 🌟](https://tldp.org/LDP/sag/html/index.html)
 - [How Linux PID namespaces work with containers 🌟](https://www.redhat.com/en/blog/linux-pid-namespaces)
@@ -348,9 +348,9 @@
 
 ### Blogs
 
-- [climagic.org](http://www.climagic.org)
-- [Linux 101 Hacks](http://linux.101hacks.com)
-- [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell#)
+- [climagic.org](https://www.climagic.org)
+- [Linux 101 Hacks](https://linux.101hacks.com)
+- [linuxjourney.com commandline](https://linuxjourney.com/lesson/the-shell)
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ### CommandLineFu
@@ -385,14 +385,14 @@
 
 ## Linux Networking
 
-- [ntop](http://www.ntop.org)
-- [ngrep](http://ngrep.sourceforge.net)
-- [Angry IP Scanner (or simply ipscan)](http://angryip.org) to Nmap and cross-platform
-- [cyberciti.biz - ss: Display Linux TCP / UDP Network and Socket Information](http://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html)
-- [cyberciti.biz - SS Utility: Quick Intro](http://www.cyberciti.biz/files/ss.html)
-- [binarytides.com - 10 examples of Linux ss command to monitor network connections](http://www.binarytides.com/linux-ss-command)
-- [unix.stackexchange.com: ss - linux socket statistics utility output format](http://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)
-- [stackoverflow.com: difference between netstat and ss in linux?](http://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)
+- [ntop](https://www.ntop.org)
+- [ngrep](https://ngrep.sourceforge.net)
+- [Angry IP Scanner (or simply ipscan)](https://angryip.org) to Nmap and cross-platform
+- [cyberciti.biz - ss: Display Linux TCP / UDP Network and Socket Information](https://www.cyberciti.biz/tips/linux-investigate-sockets-network-connections.html)
+- [cyberciti.biz - SS Utility: Quick Intro](https://www.cyberciti.biz/files/ss.html)
+- [binarytides.com - 10 examples of Linux ss command to monitor network connections](https://www.binarytides.com/linux-ss-command)
+- [unix.stackexchange.com: ss - linux socket statistics utility output format](https://unix.stackexchange.com/questions/252744/ss-linux-socket-statistics-utility-output-format)
+- [stackoverflow.com: difference between netstat and ss in linux?](https://stackoverflow.com/questions/11763376/difference-between-netstat-and-ss-in-linux)
 - [Linux networking examples and tutorials for advanced users](https://github.com/knorrie/network-examples) Includes lab examples for lxc, bgp, vpn, & more
 - [blog.pandorafms.org: Useful Network commands](https://blog.pandorafms.org/network-commands) VNStat, ping, traceroute, ping, arp, curl and wget, netstat, whois, ssh, tcpdump, ngrep, nmap, netcat, lsof, iptraf
 - [Diferencias entre servidor proxy y servidor proxy inverso](https://www.redeszone.net/tutoriales/servidores/diferencias-proxy-vs-proxy-inverso)

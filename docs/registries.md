@@ -81,7 +81,7 @@
 
 - [guides.sonatype.com: secure docker registries](https://help.sonatype.com/index.html)
 - [support.sonatype.com: SSL Certificate Guide](https://support.sonatype.com/hc/en-us/articles/213465768-SSL-Certificate-Guide)
-- [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022#ConfiguringSSL-InboundSSL-ConfiguringtoServeContentviaHTTPS)
+- [help.sonatype.com: Inbound SSL - Configuring to Serve Content via HTTPS](https://help.sonatype.com/en/sonatype-nexus-repository.html/security/configuring-ssl?_ga=2.250230211.411976214.1575978022-1513910029.1575978022)
 - [nginx.com: Using Free Let’s Encrypt SSL/TLS Certificates with NGINX](https://www.f5.com/products/nginx)
 
 #### Add Insecure Registry to Docker

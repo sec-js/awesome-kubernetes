@@ -275,7 +275,7 @@
   - [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper) - A blog post comparing the costs of different Azure networking services to help users make more cost-effective decisions.
   - [Manage Azure IPAM with Terraform](https://mattias.engineer/blog/2025/azure-ipam-with-terraform) 🌟 - A blog post detailing how to provision and utilize Azure IPAM (IP Address Management) service using Terraform. It explains the benefits of IPAM in simplifying IP address allocation across teams and environments by abstracting the complexity of IP ranges, allowing consumers to request a specific number of addresses from a shared pool.
   - [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) 🌟 - This blog post outlines the development of a comprehensive DDoS response strategy by leveraging the capabilities of Azure DDoS Protection. It details the types of DDoS attacks (Volumetric, Protocol, and Resource), and explains how Azure DDoS Protection, in conjunction with Azure Web Application Firewall (WAF), provides mitigation. The post emphasizes the importance of incident detection, communication protocols, and the overall creation of a robust plan to ensure the availability and performance of online services.
-  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](http://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) - *(Related to kubernetes topic)*
+  - [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](https://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) - *(Related to kubernetes topic)*
   - [Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) - *(Related to finops topic)*
   - [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) - This Microsoft Community Hub blog post provides a comprehensive guide to understanding Azure data transfer pricing. It breaks down costs by various use cases including VM to VM (same VNet, across VNets, same region, and global peering), VM to Private Endpoint, VM to Internal Standard Load Balancer, VM to Internet, and hybrid connectivity. The article aims to clarify the complexities of Azure networking charges for effective budget management.
 
@@ -313,7 +313,7 @@
   - [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups) - This article explains how Azure Proximity Placement Groups can be used to physically co-locate Azure compute resources, ensuring low latency between them. It discusses use cases for latency-sensitive applications like manufacturing systems and in-memory computations, and includes details on testing the effectiveness of these groups.
 
 - [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview)
-- [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
+- [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](https://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html)
 
 ## Azure Load Testing
 
@@ -476,7 +476,7 @@
 - [learn.microsoft.com: Classic subscription administrator roles, Azure roles, and Azure AD roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
 - [learn.microsoft.com: Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](https://learn.microsoft.com/en-us/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings?view=o365-worldwide)
 - [learn.microsoft.com: Azure subscription and service limits, quotas, and constraints](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits)
-    - [learn.microsoft.com: Azure Active Directory limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-active-directory-limits)
+    - [learn.microsoft.com: Azure Active Directory limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [itnext.io: Secure Azure Cosmos DB access by using Azure Managed Identities](https://itnext.io/secure-azure-cosmos-db-access-by-using-azure-managed-identities-55f9fdf48fda) Getting rid of passwords (or connection strings) while accessing Azure services and instead making use of Managed Identities is a way to increase the security of your workloads. Learn how to use Managed Identities in this article.
 - [youtube.com: Azure Service Principal - SPN | Houssem Dellai](https://www.youtube.com/watch?v=-F9yzj4Kjeo&ab_channel=HoussemDellai)
 - [youtube.com: How to create Service Principals in Azure Portal | Raaviblog](https://www.youtube.com/watch?v=Hg-YsUITnck)
@@ -502,8 +502,8 @@
 - [docs.microsoft.com: Use the portal to create an Azure AD application and service principal that can access resource](https://learn.microsoft.com/en-us/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 - [medium.com/medialesson: Assigning Azure built-in roles vs Azure AD built-in roles with Azure CLI](https://medium.com/medialesson/assigning-azure-built-in-roles-vs-azure-ad-built-in-roles-with-azure-cli-d1cbf56fcdbe) Depending on what action you are trying to perform in Azure you might require either to be member of a certain Azure role or a certain Azure AD role. For example **if we want an identity to create an app registration in Azure AD we need the role Application Administrator which is part of the Azure AD roles.** When we want to create a resource in a certain resource group we need the Contributor role which is part of the Azure AD and typically scoped to a either a subscription, a resource group or a distinct resource.
 - [microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1](https://github.com/microsoftgraph/msgraph-sdk-powershell)
-- [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure)
-- [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli)
+- [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](https://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure)
+- [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](https://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli)
 - [==nathannellans.com: App Registrations, Enterprise Apps, and Service Principals== 🌟](https://www.nathannellans.com/post/app-registrations-enterprise-apps-and-service-principals)
     - [==nathannellans.com: Application Registrations and Enterprise Apps - Part 2== 🌟](https://www.nathannellans.com/post/app-registration-enterprise-apps-part-2)
 
@@ -553,7 +553,7 @@
 - [azurebrains.com: Despliega tu Azure Function App con Terraform y Azure DevOps 🌟](https://blog.azurebrains.com/2021/03/25/despliega-azure-function-terraform-azuredevops)
 
 ## Azure Monitor
-  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor#reference-for-monitoring-azure-services) - This Microsoft Learn article outlines how to plan, configure, and optimize monitoring for Azure cloud environments. It covers integrating data from other clouds, on-premises, and edge locations, and details monitoring responsibilities based on deployment models (IaaS, PaaS, SaaS). The article emphasizes defining a monitoring strategy to detect, diagnose, and predict issues.
+  - [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) - This Microsoft Learn article outlines how to plan, configure, and optimize monitoring for Azure cloud environments. It covers integrating data from other clouds, on-premises, and edge locations, and details monitoring responsibilities based on deployment models (IaaS, PaaS, SaaS). The article emphasizes defining a monitoring strategy to detect, diagnose, and predict issues.
 
 - [techcommunity.microsoft.com: Azure Monitor Logs Next Evolution: Multi-tier logging](https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-logs-next-evolution-multi-tier-logging/4200871)
 
@@ -639,7 +639,7 @@
 
 - [Abhisheksinhacoder/collection-of-useful-scripts](https://github.com/Abhisheksinha1506/Collection-of-Useful-Scripts)
 - [jrussellfreelance/powershell-scripts](https://github.com/jrussellfreelance/powershell-scripts)
-- [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories)
+- [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&type=Repositories)
 - [systemcenterdudes.com: Create Operational SCCM Collection Using Powershell Script](https://www.systemcenterdudes.com/create-operational-sccm-collection-using-powershell-script)
     - [prae1809/PowerShell-Scripts: OperationalCollections](https://github.com/prae1809/PowerShell-Scripts/tree/master/OperationalCollections) This script will create a set of 134 SCCM collections for your various needs. These collections can be used for operational tasks afterward.
 - [==github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts==](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) Microsoft Signed PowerShell scripts
@@ -667,7 +667,7 @@
 ## Azure CLI. AZ CLI
 
 - [argonsys.com: How to query Azure resources using the Azure CLI](https://argonsys.com/microsoft-cloud/library/how-to-query-azure-resources-using-the-azure-cli)
-- [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://learn.microsoft.com/en-us/en-us/azure/virtual-machines/linux/expand-disks#resize-without-downtime-preview)
+- [docs.microsoft.com: Expand virtual hard disks on a Linux VM with the Azure CLI](https://learn.microsoft.com/en-us/en-us/azure/virtual-machines/linux/expand-disks)
 - [techcommunity.microsoft.com: Announcing template-based previews of Azure CLI and Azure PowerShell for Key Vault deployments](https://techcommunity.microsoft.com/blog/azuretoolsblog/announcing-template-based-previews-of-azure-cli-and-azure-powershell-for-key-vau/3933802)
 - [build5nines.com: Azure Resource Tags: Important Organization Strategies and Tips 🌟](https://build5nines.com/azure-resource-tags-important-organization-strategies-and-tips)
 - [build5nines.com: Azure CLI: Check if Blob Exists in Azure Storage](https://build5nines.com/azure-cli-check-if-blob-exists-in-azure-storage)

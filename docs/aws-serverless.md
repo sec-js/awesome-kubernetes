@@ -5,13 +5,13 @@
 
 ## Introduction
 
-- [you can use Python with AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
-- [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](http://www.giantflyingsaucer.com/blog/?p=5730)
-- [AWS Lambda, Echo, and the Future of Cloud Automation](http://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
-- [Serverless: The Future of Software Architecture?](https://acg-notice.pluralsight.com/#.uk7setw47)
+- [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html)
+- [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](https://www.giantflyingsaucer.com/blog/?p=5730)
+- [AWS Lambda, Echo, and the Future of Cloud Automation](https://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation) A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon's Echo to launch entire AWS environments by using just your voice
+- [Serverless: The Future of Software Architecture?](https://acg-notice.pluralsight.com)
 - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)
-- [AWS Lambda Limits](http://docs.aws.amazon.com/lambda/latest/dg/limits.html)
-- [blog.powerupcloud.com: AWS inventory details in CSV using lambda](http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
+- [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/limits.html)
+- [blog.powerupcloud.com: AWS inventory details in CSV using lambda](https://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)
 - [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)
 - [Youtube channel: AWS Serverless](https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA)
 - [Using Amazon EFS for AWS Lambda in your serverless applications](https://aws.amazon.com/blogs/compute/using-amazon-efs-for-aws-lambda-in-your-serverless-applications)

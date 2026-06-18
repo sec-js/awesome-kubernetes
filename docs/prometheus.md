@@ -222,14 +222,14 @@ Thanos Metrics with prometheus in Kubernetes environments.
 - [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage)
 - [**Cortex**:](https://cortexmetrics.io) Provides horizontally scalable, highly available, multi-tenant, long term storage for Prometheus. Cortex allows for storing time series data in a key-value store like Cassandra, AWS DynamoDB, or Google BigTable. It offers a Prometheus compatible query API, and you can push metrics into a write endpoint. This makes it best suited for cloud environments and multi-tenant scenarios like service providers building hosted and managed platforms.
     - [github.com/cortexproject/cortex](https://github.com/cortexproject/cortex)
-    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
+    - [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works)
 - [**Thanos**:](https://thanos.io) Open source, **highly available Prometheus setup with long term storage capabilities**.
     - Thanos stores time series data in an object store like AWS S3, Google Cloud Storage, etc. Thanos pushes metrics through a side-car container from each Prometheus server through the gRPC store API to the query service in order to provide a global query view.
     - [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) How to deploy a HA Prometheus setup with Unlimited Data Retention Capabilities on aws cloud S3 with Thanos Metrics.
     - [Highly Available Prometheus Metrics for Distributed SQL with Thanos on GKE](https://blog.yugabyte.com/highly-available-prometheus-metrics-for-distributed-sql-with-thanos-on-gke)
     - [infracloud.io: Achieving multi-tenancy in monitoring with Prometheus & the mighty Thanos Receiver](https://www.infracloud.io/blogs/multi-tenancy-monitoring-thanos-receiver)
     - [particule.io: Multi-Cluster Monitoring with Thanos](https://particule.io/en/blog/thanos-monitoring)
-    - [Thanos Architecture Overview 🌟](https://github.com/thanos-io/thanos#architecture-overview)
+    - [Thanos Architecture Overview 🌟](https://github.com/thanos-io/thanos)
     - [enmilocalfunciona.io: Aprende a configurar Thanos usando docker-compose](https://www.enmilocalfunciona.io/aprende-a-configurar-thanos-usando-docker-compose)
     - [goatlas-io/atlas](https://github.com/goatlas-io/atlas) Atlas provides the ability to easily run a secure distributed Thanos deployment.
     - [==thanos-io/kube-thanos: Kubernetes specific configuration for deploying Thanos==](https://github.com/thanos-io/kube-thanos)
@@ -304,7 +304,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher)
 - [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry)
 - [medium: OpenTelemetry Specification v1.0.0, Tracing Edition](https://medium.com/opentelemetry/opentelemetry-specification-v1-0-0-tracing-edition-72dd08936978)
-- [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)
+- [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)
 - [medium: Tracing in eDreams ODIGEO Lodging with Open Telemetry and Grafana Tempo](https://medium.com/edreams-odigeo-tech/tracing-in-edreams-odigeo-lodging-with-open-telemetry-and-grafana-tempo-bd1f20ddf49d)
 - [newrelic.com: Understand OpenTelemetry Part 4: Instrument a Java App with OpenTelemetry](https://newrelic.com/blog/apm/java-opentelemetry)
 - https://github.com/jenkinsci/opentelemetry-plugin Publish Jenkins performances metrics to an OpenTelemetry endpoint, including distributed traces of job executions and health metrics of the controller.
@@ -327,7 +327,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 #### Micrometer Collector
 
-- [**Micrometer** Collector](http://micrometer.io)
+- [**Micrometer** Collector](https://micrometer.io)
 
 ## Prometheus Alarms and Event Tracking
 
@@ -396,7 +396,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 
 ## Prometheus SaaS Solutions
 
-- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works/)
+- [Weave Cortex SaaS (Hosted Prometheus - Public Cloud)](https://www.weave.works)
 - [logz.io](https://logz.io)
     - [logz.io: Logz.io’s Prometheus-as-a-Service is Generally Available 🌟](https://logz.io/blog/prometheus-as-a-service-launch)
 - [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus)
@@ -504,19 +504,19 @@ tag_keys = ["brokerName"]
 - Defautl /etc/telegraf/telegraf.conf file is modified to allow Prometheus to collect ActiveMQ metrics by pulling Telegraf metrics:
 
 ```text
-  # # Configuration for the Prometheus client to spawn
+# # Configuration for the Prometheus client to spawn
   [[outputs.prometheus_client]]
-  #   ## Address to listen on
+# ## Address to listen on
       listen = ":9273"
-      ## Path to publish the metrics on.
+## Path to publish the metrics on.
       path = "/metrics"
   ...
   ...
-  # # Gather ActiveMQ metrics
+# # Gather ActiveMQ metrics
   [[inputs.activemq]]
-  #   ## ActiveMQ WebConsole URL
+# ## ActiveMQ WebConsole URL
   url = "http://127.0.0.1:8161"
-  #   ## Credentials for basic HTTP authentication
+# ## Credentials for basic HTTP authentication
   username = "admin"
   password = "admin"
   ...
@@ -527,10 +527,10 @@ tag_keys = ["brokerName"]
 
 ```text
   scrape_configs:
-  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+# The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
-      # metrics_path defaults to '/metrics'
-      # scheme defaults to 'http'.
+# metrics_path defaults to '/metrics'
+# scheme defaults to 'http'.
       static_configs:
       - targets: ['localhost:9090']
   - job_name: 'broker'
@@ -547,13 +547,13 @@ tag_keys = ["brokerName"]
     - [prometheus-2.17.1.linux-amd64](https://prometheus.io)
     - [apache-artemis-2.11.0](https://artemis.apache.org/components/artemis)
     - [apache-maven-3.6.3](https://maven.apache.org)
-- ActiveMQ Artemis can export metrics to several monitoring systems via [Artemis Prometheus Metrics Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin), which uses [Micrometer Collector](https://micrometer.io). Check [this link](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html).
+- ActiveMQ Artemis can export metrics to several monitoring systems via [Artemis Prometheus Metrics Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin), which uses [Micrometer Collector](https://micrometer.io). Check [this link](https://activemq.apache.org/components/artemis/documentation/latest/metrics.html).
 - Unfortunately, there's no Grafana Dashboard available for this plugin. In consequence [a new Grafana Dashboard has to be developed from scratch](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana).
 - [Artemis Prometheus Metrics Plugin](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) is the recommended approach. Use [JMX Exporter](https://github.com/prometheus/jmx_exporter) to export other metrics.
 - References:
     - [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html)
     - [Apache ActiveMQ Artemis Management Console](https://artemis.apache.org/components/artemis/documentation/latest/management-console.html)
-    - [Apache ActiveMQ Artemis Metrics](http://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
+    - [Apache ActiveMQ Artemis Metrics](https://activemq.apache.org/components/artemis/documentation/latest/metrics.html)
 
 #### Deployment and Configuration
 
@@ -688,11 +688,11 @@ isbroker/web/
 
 ```text
 scrape_configs:
-  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+# The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
   - job_name: 'prometheus'
 
-    # metrics_path defaults to '/metrics'
-    # scheme defaults to 'http'.
+# metrics_path defaults to '/metrics'
+# scheme defaults to 'http'.
 
     static_configs:
     - targets: ['localhost:9090']

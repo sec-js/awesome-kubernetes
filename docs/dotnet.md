@@ -43,7 +43,7 @@
 
 - [devblogs.microsoft.com: Getting Started with DevOps and .NET MAUI](https://devblogs.microsoft.com/dotnet/devops-for-dotnet-maui) .NET Multi-platform App UI (.NET MAUI) unifies Android, iOS, macOS, and Windows UI frameworks into a single framework so you can write one app that runs natively on many platforms. we will look at how easy it is to implement basic DevOps pipelines for .NET MAUI apps using GitHub Actions and Azure DevOps.
 
-## Polly .NET resilience and transient-fault-handling library 
+## Polly .NET resilience and transient-fault-handling library
 
 - [App-vNext/Polly](https://github.com/App-vNext/Polly) Polly is a .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner.
 - [medium: Microservices Resilience and Fault Tolerance with applying Retry and Circuit-Breaker patterns using Polly](https://medium.com/aspnetrun/microservices-resilience-and-fault-tolerance-with-applying-retry-and-circuit-breaker-patterns-c32e518db990)
@@ -67,7 +67,7 @@
 
 - [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers)
 
-## Deploying ASP.NET Core applications to Kubernetes 
+## Deploying ASP.NET Core applications to Kubernetes
 
 - [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes)
 

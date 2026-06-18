@@ -1,4 +1,4 @@
-# Hashicorp Terraform & Packer. Kubernetes Boilerplates
+# Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
 {==*"It's not controversial to provision resources with code. It shouldn't be controversial to deploy and manage resources with code" (Jaana Dogan)*==}
 
@@ -248,8 +248,8 @@
 - [youtube: Terrraform + Ansible: Automating configuration in infrastructure](https://www.youtube.com/watch?v=DeNflzdjxVM)
 - [medium.com/@oamdev2020: Glue Terraform Ecosystem into Kubernetes World 🌟](https://medium.com/@oamdev2020/glue-terraform-ecosystem-into-kubernetes-world-3e5d6feb461e)
 - [==terraform.io: Provisioners==](https://developer.hashicorp.com/terraform/language/provisioners) **Provisioners can be used to model specific actions on the local machine or on a remote machine in order to prepare servers or other infrastructure objects for service.**
-    - [==terraform.io: Creation-Time Provisioners== 🌟](https://developer.hashicorp.com/terraform/language/provisioners#creation-time-provisioners)
-    - [terraform.io: Destroy-Time Provisioners 🌟](https://developer.hashicorp.com/terraform/language/provisioners#destroy-time-provisioners)
+    - [==terraform.io: Creation-Time Provisioners== 🌟](https://developer.hashicorp.com/terraform/language/provisioners)
+    - [terraform.io: Destroy-Time Provisioners 🌟](https://developer.hashicorp.com/terraform/language/provisioners)
 - [faun.pub: The Lifecycle of a Terraform Resource — Lifecycle Meta-Argument](https://faun.pub/the-lifecycle-of-a-terraform-resource-lifecycle-meta-argument-3cc4555ec976) we will take a look at the various stages a Terraform resource goes through during its lifetime. We will look at the default resource behavior, before looking at the lifecycle meta-argument which can allow you to customize that behavior.
 - [medium.com/@dugouchet.a: Manage your terraform like a container](https://medium.com/@dugouchet.a/manage-your-terraform-like-a-container-d2acbc46d7d4)
 - [medium.com/spacelift: Terraform vs. Kubernetes: Key Differences and Comparison](https://medium.com/spacelift/terraform-vs-kubernetes-key-differences-and-comparison-a42847e8be1c)
@@ -276,7 +276,7 @@
 - [github.com/DhruvinSoni30/Terraform_multiple_modules](https://github.com/DhruvinSoni30/Terraform_multiple_modules) **How to work with multiple terraform modules?**
 - [spacelift.io: Terraform Files – How to Structure a Terraform Project](https://spacelift.io/blog/terraform-files)
 - [==youtube - freecodecamp.org: Learn Terraform with Azure by Building a Dev Environment – Full Course for Beginners==](https://www.youtube.com/watch?si=zB9HD1MCp3SbLQwL&v=V53AHWun17s&feature=youtu.be)
-- [==youtube - freecodecamp.org: Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners==](https://www.youtube.com/watch?v=iRaai1IBlB0&t=3s)
+- [==youtube - freecodecamp.org: Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners==](https://www.youtube.com/watch?v=iRaai1IBlB0)
 - [devdosvid.blog: Hello Terraform Data; Goodbye Null Resource](https://devdosvid.blog/2023/04/16/hello-terraform-data-goodbye-null-resource) Native built-in replacement for null_resource with Terraform 1.4
 - [==build5nines.com: Why HashiCorp Terraform is Essential for SREs and DevOps Engineers==](https://build5nines.com/why-hashicorp-terraform-is-essential-for-sres-and-devops-engineers)
 - [infoq.com: CDK for Terraform Improves HCL Conversion and Terraform Cloud Interactions](https://www.infoq.com/news/2023/04/cdk-terraform-convert)
@@ -296,7 +296,7 @@
 - [praveendandu24.medium.com: Mastering Terraform: From Essential Commands to Effortless EC2 Instance Provisioning](https://praveendandu24.medium.com/mastering-terraform-from-essential-commands-to-effortless-ec2-instance-provisioning-d2d25659450c)
 - [faun.pub: Import your existing cloud infra into Terraform](https://faun.pub/import-your-existing-cloud-infra-into-terraform-ca70da146152) Import manually created cloud resources into Terraform and also generate configuration for the imported resources
 - [gravitydevops.com: Terraform: A Step-by-Step Guide from Basics to Advanced Techniques](https://gravitydevops.com/terraform-tutorials-basic-to-advanced-2025)
-- [==ikunalsingh.hashnode.dev: Dynamic Operations in Terraform with Functions - Use templatefile to dynamically generate a script==](https://ikunalsingh.hashnode.dev/dynamic-operations-in-terraform-with-functions#heading-use-templatefile-to-dynamically-generate-a-script) Streamline Your Infrastructure Management: Learn How to Perform Dynamic Operations in Terraform with Functions
+- [==ikunalsingh.hashnode.dev: Dynamic Operations in Terraform with Functions - Use templatefile to dynamically generate a script==](https://ikunalsingh.hashnode.dev/dynamic-operations-in-terraform-with-functions) Streamline Your Infrastructure Management: Learn How to Perform Dynamic Operations in Terraform with Functions
 - [blog.gruntwork.io: How to use Terraform as a team](https://www.gruntwork.io/blog/how-to-use-terraform-as-a-team) Collaboration, coding guidelines, and workflow for Terraform projects
 - [kkamalesh117.medium.com: Terraform Variables & Providers (Part-1)](https://kkamalesh117.medium.com/terraform-variables-providers-c66f68747050)
     - [kkamalesh117.medium.com: Terraform Variables (Part-2)](https://kkamalesh117.medium.com/terraform-variables-part-2-75ef8543fb2f)
@@ -485,7 +485,7 @@
 - [opensource.com: How I use Terraform and Helm to deploy the Kubernetes Dashboard 🌟](https://opensource.com/article/21/8/terraform-deploy-helm) Terraform can deploy Helm Charts. Is it right for you?
 
 ## Terraform Infracost
-  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - This article details the integration of InfraCost into Terraform Pull Requests (PRs) to provide real-time cost visibility for infrastructure changes. It addresses concerns about workflow slowdowns and emphasizes how this practice helps avoid unexpected cloud bills, enables smarter decisions, and builds accountability within engineering teams.
+  - [InfraCost + Terraform PRs: Making Cost Awareness Effortless](https://www.linkedin.com/pulse/infracost-terraform-prs-making-cost-awareness-martin-jackson-a6sge) - This article details the integration of InfraCost into Terraform Pull Requests (PRs) to provide real-time cost visibility for infrastructure changes. It addresses concerns about workflow slowdowns and emphasizes how this practice helps avoid unexpected cloud bills, enables smarter decisions, and builds accountability within engineering teams.
 
 - [Infracost 🌟](https://github.com/infracost/infracost) If you use Terraform to provision your Kubernetes clusters, you might find infracost interesting. Infracost estimates hourly and monthly costs for a Terraform project. It helps you to see the cost breakdown and compare different deployment options upfront.
 - [A Guide to Cloud Cost Optimization with HashiCorp Terraform 🌟](https://www.hashicorp.com/blog/a-guide-to-cloud-cost-optimization-with-hashicorp-terraform) The Terraform AWS provider now supports Code Signing for AWS Lambda, which involves digitally signing code artifacts and verifying at deployment.
@@ -813,7 +813,7 @@
 - [techcommunity.microsoft.com: Simplifying Onboarding to Microsoft Defender for Cloud with Terraform](https://techcommunity.microsoft.com/blog/microsoftdefendercloudblog/simplifying-onboarding-to-microsoft-defender-for-cloud-with-terraform/3974789)
 - [techcommunity.microsoft.com: Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit chat app in AKS using Terraform](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-app-in-aks-using-ter/4024070)
 - [build5nines.com: Terraform: Deploy Azure App Service with Key Vault Secret Integration](https://build5nines.com/terraform-deploy-azure-app-service-with-key-vault-secret-integration)
-- [youtube: Using Azure Storage for Terraform State - Best Practices | Ned in the cloud](https://www.youtube.com/watch?v=iVyKvopGnrQ&t=737s)
+- [youtube: Using Azure Storage for Terraform State - Best Practices | Ned in the cloud](https://www.youtube.com/watch?v=iVyKvopGnrQ)
 - [hashicorp.com: Build secure AI applications on Azure with HashiCorp Terraform and Vault](https://www.hashicorp.com/blog/build-secure-ai-applications-on-azure-with-hashicorp-terraform-and-vault)
 - [==techcommunity.microsoft.com: Introducing Azure Verified Modules!== 🌟](https://techcommunity.microsoft.com/blog/azuretoolsblog/introducing-azure-verified-modules/4045946)
     - [youtube: Introducing Azure Verified Modules for Terraform | Ned in the Cloud](https://www.youtube.com/watch?v=6OeRByC-sBs)
@@ -889,47 +889,47 @@
     - [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
     - [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
 
-	``` tf
-	# 07-aks-cluster.tf
+``` tf
+# 07-aks-cluster.tf
 
-	# Network Profile
-	# Kubenet is a kubernetes network configuration plugin for your AKS cluster. Nodes get an IP address from
-	# the AKS subnet, and pods receive an IP address from a separate address space entirely. The source IP address
-	# of the traffic is NAT'd to the node's IP address.
+# Network Profile
+# Kubenet is a kubernetes network configuration plugin for your AKS cluster. Nodes get an IP address from
+# the AKS subnet, and pods receive an IP address from a separate address space entirely. The source IP address
+# of the traffic is NAT'd to the node's IP address.
 
-	# With kubenet there's NO Pod-to-Pod communication because they don't have their own public IPs.
-	# User Defined Routing (UDR) and IP forwarding is used for communication between pods across nodes.
+# With kubenet there's NO Pod-to-Pod communication because they don't have their own public IPs.
+# User Defined Routing (UDR) and IP forwarding is used for communication between pods across nodes.
 
-	# Kubenet is the preferred method since you get more pods per node and the AKS Cluster scales to a bigger number.
-	# With kubenet Max Number of Pods per Node: 110
-	# With Kubenet and CIDR =/24 : 251 nodes * 110 pods per node = 27.610 pods
-    # With Azure CNI (instead of kubenet) and CIDR =/24 : 8 nodes * 30 pods per node = 240 pods
+# Kubenet is the preferred method since you get more pods per node and the AKS Cluster scales to a bigger number.
+# With kubenet Max Number of Pods per Node: 110
+# With Kubenet and CIDR =/24 : 251 nodes * 110 pods per node = 27.610 pods
+# With Azure CNI (instead of kubenet) and CIDR =/24 : 8 nodes * 30 pods per node = 240 pods
 
-	# If we have limited IP addresses to work with, we can fit more pods in the limited IP address space because we can
-	# fit more pods per node.
+# If we have limited IP addresses to work with, we can fit more pods in the limited IP address space because we can
+# fit more pods per node.
 
-	# The Service CIDR, Pod CIDR, and Docker Bridge Access can be any address range.
-	# The DNS Service IP must be any IP address that's within the Service CIDR address range.
+# The Service CIDR, Pod CIDR, and Docker Bridge Access can be any address range.
+# The DNS Service IP must be any IP address that's within the Service CIDR address range.
 
-	# Network settings (service_cidr, pod_cidr, docker_bridge_cidr, dns_service_ip) are commented. The below values
-	# correspond to the applied default values when these settings are note set up.
+# Network settings (service_cidr, pod_cidr, docker_bridge_cidr, dns_service_ip) are commented. The below values
+# correspond to the applied default values when these settings are note set up.
 
-	# Default network settings with kubenet when they are not configured:
-    # Azure AKS VNet      = "10.0.0.0/8"
-	# Azure AKS Subnet    = "10.240.0.0/16"
-    # service_cidr        = "10.0.0.0/16"
-	# pod_cidr            = "10.244.0.0/16"
-	# docker_bridge_cidr  = "172.17.0.1/16" # Default. You can reuse this range across different AKS Clusters
-	# dns_service_ip      = "10.0.0.10"
+# Default network settings with kubenet when they are not configured:
+# Azure AKS VNet = "10.0.0.0/8"
+# Azure AKS Subnet = "10.240.0.0/16"
+# service_cidr = "10.0.0.0/16"
+# pod_cidr = "10.244.0.0/16"
+# docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS Clusters
+# dns_service_ip = "10.0.0.10"
 
-	network_profile {  # (1)
-	load_balancer_sku = "Standard"
-	network_plugin = "kubenet"  # use Azure CNI network plugin when windows node pools are required (not supported by kubenet)
-	#service_cidr = "10.0.0.0/16"
-	#dns_service_ip = "10.0.0.10"
-	#docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.
-	}
-	```
+network_profile {  # (1)
+load_balancer_sku = "Standard"
+network_plugin = "kubenet"  # use Azure CNI network plugin when windows node pools are required (not supported by kubenet)
+# service_cidr = "10.0.0.0/16"
+# dns_service_ip = "10.0.0.10"
+# docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.
+}
+```
 
 	1. :man_raising_hand: Network Profile
 
@@ -1054,7 +1054,7 @@
 
 ## Enforce Policy with Sentinel
 
-- [learn.hashicorp.com: Enforce Policy with Sentinel](https://developer.hashicorp.com/terraform/tutorials/policy#sentinel)
+- [learn.hashicorp.com: Enforce Policy with Sentinel](https://developer.hashicorp.com/terraform/tutorials/policy)
 
 ## Reverse terraform with Terraformer
 

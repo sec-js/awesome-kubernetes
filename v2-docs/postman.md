@@ -3,6 +3,44 @@
 !!! info "Architectural Context"
     Detailed reference for Test Automation with Postman. API Testing in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [API Development](#api-development)
+  - [Testing and Debugging](#testing-and-debugging)
+    - [Getting Started](#getting-started)
+    - [Postman Proxy](#postman-proxy)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Microservices](#microservices)
+    - [Internal Developer Platforms](#internal-developer-platforms)
+1. [Quality Assurance](#quality-assurance)
+  - [API Testing Automation](#api-testing-automation)
+    - [Postman Guides](#postman-guides)
+      - [Testing Frameworks](#testing-frameworks)
+1. [Security and Governance](#security-and-governance)
+  - [API Lifecycle](#api-lifecycle)
+    - [Secrets Management](#secrets-management)
+1. [Software Architecture](#software-architecture)
+  - [Business Rules](#business-rules)
+    - [Containerization](#containerization)
+    - [Decision Engines](#decision-engines)
+1. [Software Testing](#software-testing)
+  - [API Automation](#api-automation)
+    - [KIE Server](#kie-server)
+  - [API Security](#api-security)
+    - [Postman Integrations](#postman-integrations)
+  - [API Testing](#api-testing)
+    - [CI-CD](#ci-cd)
+    - [CLI Tools](#cli-tools)
+    - [Java Frameworks](#java-frameworks)
+    - [Open Source](#open-source)
+    - [Postman](#postman)
+    - [Productivity](#productivity)
+  - [Performance Testing](#performance-testing)
+    - [API Testing](#api-testing-1)
+
 ## API Development
 
 ### Testing and Debugging
@@ -77,7 +115,7 @@
   - **(2026)** [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial for engineering highly dynamic, data-driven test suites inside Postman. Highlights variable scoping, pre-request scripts, and test scripting to dynamically adapt across environments.
 #### CLI Tools
 
-  - **(2026)** [==Newman==](https://github.com/postmanlabs/newman) <span class='md-tag md-tag--info'>⭐ 7227</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Newman is a command-line collection runner for Postman. Developed with Node.js, it facilitates direct integration of Postman test suites into Jenkins, GitLab CI, and GitHub Actions environments.
+  - **(2026)** [==Newman==](https://github.com/postmanlabs/newman) <span class='md-tag md-tag--info'>⭐ 7227</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c00a7314" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 8 L 30 10 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-c00a7314)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Newman is a command-line collection runner for Postman. Developed with Node.js, it facilitates direct integration of Postman test suites into Jenkins, GitLab CI, and GitHub Actions environments.
 #### Java Frameworks
 
   - **(2026)** [techwebspace.com: Get Started with the REST Assured Framework: An Example-based Guide](https://www.techwebspace.com/get-started-with-the-rest-assured-framework-an-example-based-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exhaustive, code-based architectural guide detailing REST Assured, a Java DSL engine for automated API validation. It highlights domain-specific testing structures that integrate cleanly into JUnit/TestNG ecosystems.

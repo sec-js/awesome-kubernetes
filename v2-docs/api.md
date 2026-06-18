@@ -3,6 +3,134 @@
 !!! info "Architectural Context"
     Detailed reference for APIs with SOAP, REST and gRPC in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [API and Integration Testing](#api-and-integration-testing)
+  - [Mocking and Virtualization](#mocking-and-virtualization)
+    - [Microcks](#microcks)
+1. [API Architectures](#api-architectures)
+  - [GraphQL](#graphql)
+    - [Adoption](#adoption)
+    - [Federation](#federation)
+    - [Hasura](#hasura)
+    - [Specification](#specification)
+  - [Patterns](#patterns)
+    - [Comparison](#comparison)
+  - [REST](#rest)
+    - [Design Principles](#design-principles)
+    - [Implementation](#implementation)
+    - [Introduction](#introduction)
+  - [RPC](#rpc)
+    - [Open-RPC](#open-rpc)
+    - [gRPC](#grpc)
+    - [gRPC-Web](#grpc-web)
+  - [Real-Time](#real-time)
+    - [History](#history)
+    - [Socket.IO](#socketio)
+    - [WebSockets](#websockets)
+1. [API Management](#api-management)
+  - [API Discovery](#api-discovery)
+    - [Marketplaces](#marketplaces)
+  - [API Documentation](#api-documentation)
+    - [Tooling](#tooling)
+  - [API Strategy](#api-strategy)
+    - [Business Design](#business-design)
+  - [Platform Engineering](#platform-engineering)
+    - [API Strategy](#api-strategy-1)
+1. [API Security](#api-security)
+  - [Design](#design)
+    - [Best Practices](#best-practices)
+  - [Enterprise](#enterprise)
+    - [Implementation](#implementation-1)
+  - [Protection](#protection)
+    - [Tools](#tools)
+  - [Testing](#testing)
+    - [Lab](#lab)
+  - [Threat-Modeling](#threat-modeling)
+    - [Risks](#risks)
+1. [API Testing](#api-testing)
+  - [Concepts](#concepts)
+    - [Introduction](#introduction-1)
+  - [Implementation](#implementation-2)
+    - [Python](#python)
+  - [Performance](#performance)
+    - [Continuous Integration](#continuous-integration)
+  - [Tooling](#tooling-1)
+    - [Comparison](#comparison-1)
+1. [API Tooling](#api-tooling)
+  - [All-in-One](#all-in-one)
+    - [APIDog](#apidog)
+  - [CLI Utilities](#cli-utilities)
+    - [cURL](#curl)
+  - [Codegen](#codegen)
+    - [OpenAPI](#openapi)
+  - [Design](#design-1)
+    - [SwaggerHub](#swaggerhub)
+  - [Mocking](#mocking)
+    - [Mockapy](#mockapy)
+    - [Mockoon](#mockoon)
+1. [Application Integration](#application-integration)
+  - [API Design](#api-design)
+    - [API Lifecycle](#api-lifecycle)
+    - [Architecture Comparisons](#architecture-comparisons)
+    - [Best Practices](#best-practices-1)
+    - [Fundamentals](#fundamentals)
+    - [Hands-on Deployment](#hands-on-deployment)
+    - [Protocols and Formats](#protocols-and-formats)
+    - [Public Directories](#public-directories)
+    - [Strategic Governance](#strategic-governance)
+    - [Versioning and Evolution](#versioning-and-evolution)
+  - [API Gateways](#api-gateways)
+    - [Architecture Comparisons](#architecture-comparisons-1)
+    - [Best Practices](#best-practices-2)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [API Management](#api-management-1)
+    - [SaaS Platforms](#saas-platforms)
+  - [System Design](#system-design)
+    - [Microservices Patterns](#microservices-patterns)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Serverless APIs](#serverless-apis)
+1. [Cloud Services](#cloud-services)
+  - [Media Streaming](#media-streaming)
+    - [API Infrastructure](#api-infrastructure)
+1. [Enterprise Architecture](#enterprise-architecture)
+  - [Case Studies](#case-studies)
+    - [Financial Sector](#financial-sector)
+1. [Event-Driven](#event-driven)
+  - [AsyncAPI](#asyncapi)
+    - [Simulation](#simulation)
+    - [Specification](#specification-1)
+    - [Trends](#trends)
+1. [Microservices](#microservices)
+  - [Design Patterns](#design-patterns)
+    - [Process Automation](#process-automation)
+1. [Observability](#observability)
+  - [Data Ingestion](#data-ingestion)
+    - [WebSockets IoT](#websockets-iot)
+1. [Public Resources](#public-resources)
+  - [Catalogs](#catalogs)
+    - [Web Services](#web-services)
+1. [Quality Assurance](#quality-assurance)
+  - [API Design](#api-design-1)
+    - [Network Debugging](#network-debugging)
+1. [Software Development](#software-development)
+  - [Java](#java)
+    - [REST APIs](#rest-apis)
+1. [Software Engineering](#software-engineering)
+  - [API Design](#api-design-2)
+    - [Industry Surveys](#industry-surveys)
+    - [Protocol Selection](#protocol-selection)
+    - [SOAP vs REST](#soap-vs-rest)
+    - [gRPC Protocol](#grpc-protocol)
+  - [API Integration](#api-integration)
+    - [Public Directories](#public-directories-1)
+  - [API Management](#api-management-2)
+    - [Testing](#testing-1)
+
 ## API and Integration Testing
 
 ### Mocking and Virtualization
@@ -92,12 +220,12 @@
 
 #### Marketplaces
 
-  - **(2021)** [any-api.com](https://marketplace.apilayer.com/?utm_source=any-api&utm_medium=any-api-redirection&utm_campaign=any-api-redirection) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory hosting documentation for public REST APIs. Offers standardized, unified interfaces for integrating third-party APIs into enterprise services, though recently transitioned towards centralized commercial API marketplaces.
+  - **(2021)** [any-api.com](https://marketplace.apilayer.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory hosting documentation for public REST APIs. Offers standardized, unified interfaces for integrating third-party APIs into enterprise services, though recently transitioned towards centralized commercial API marketplaces.
 ### API Documentation
 
 #### Tooling
 
-  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
+  - **(2021)** [openapi-comment-parser](https://github.com/bee-travels/openapi-comment-parser) <span class='md-tag md-tag--info'>⭐ 256</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4d4eae7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 6 L 30 9 L 40 2 L 50 3" fill="none" stroke="url(#spark-grad-4d4eae7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A Node.js CLI tool and library that extracts JSDoc-style comments from source code files to generate valid OpenAPI (Swagger) specifications automatically, streamlining API contract maintenance during local development.
 ### API Strategy
 
 #### Business Design
@@ -141,8 +269,8 @@
 
 #### Introduction (1)
 
-  - **(2021)** [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&t=1s&ab_channel=SoftwareDiagnosticsCenter) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide introducing core API testing ideas, highlighting payload verification, contract checks, header evaluation, and fundamental client-server assertion steps.
-  - **(2020)** [softwaretestingportal.com: API Testing, Key Terminologies and more...](http://www.softwaretestingportal.com/2020/03/31/api-testing) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An entry-level guide to testing terminologies. Covers verification patterns, HTTP return code checks, payload matching, and mock assertions for backend integration cycles.
+  - **(2021)** [youtube: API Testing Part 1- API Core Concepts](https://www.youtube.com/watch?v=b0D_bkcT4a4&ab_channel=SoftwareDiagnosticsCenter) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video guide introducing core API testing ideas, highlighting payload verification, contract checks, header evaluation, and fundamental client-server assertion steps.
+  - **(2020)** [softwaretestingportal.com: API Testing, Key Terminologies and more...](https://www.softwaretestingportal.com/2020/03/31/api-testing) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An entry-level guide to testing terminologies. Covers verification patterns, HTTP return code checks, payload matching, and mock assertions for backend integration cycles.
 ### Implementation (2)
 
 #### Python
@@ -207,12 +335,12 @@
 
   - **(2024)** [==postman.com: What is an API?==](https://www.postman.com/what-is-an-api) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Postman’s foundational guide explaining the mechanics of Application Programming Interfaces (APIs). It covers request-response patterns, typical protocols, payloads (JSON/XML), and the strategic business value of exposing software interfaces. It serves as an industry-standard primer for developers starting with web services.
   - **(2022)** [**Youtube Playlist: Introduction to APIs**](https://www.youtube.com/playlist?list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A comprehensive video playlist introducing the structural components of modern APIs. Topics covered include REST design principles, authentication mechanisms (OAuth2, API Keys), request headers, and standard response codes. This visual guide is optimal for engineers looking for an intuitive walk-through of API mechanics.
-  - **(2020)** [You Bet That APIs Power DevOps Tools](http://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the hidden layer of REST and gRPC APIs driving automation in modern DevOps tools. From infrastructure provisioning (Terraform) to CI/CD pipelines (GitHub Actions) and container orchestration (Kubernetes API), software engineering relies on reliable API layers to control underlying hardware and virtual assets. It underscores that understanding API structures is foundational for automated platform engineering.
+  - **(2020)** [You Bet That APIs Power DevOps Tools](https://seguridad-informacion.blogspot.com/2020/07/you-bet-that-apis-power-devops-tools.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the hidden layer of REST and gRPC APIs driving automation in modern DevOps tools. From infrastructure provisioning (Terraform) to CI/CD pipelines (GitHub Actions) and container orchestration (Kubernetes API), software engineering relies on reliable API layers to control underlying hardware and virtual assets. It underscores that understanding API structures is foundational for automated platform engineering.
 #### Hands-on Deployment
 
   - **(2023)** [==freecodecamp.org: REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js==](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical, comprehensive handbook walking through REST API design and development using JavaScript, Node.js, and Express.js. Beyond routing, it covers crucial real-world topics including structured error handling, token-based authentication (JWTs), database connection pooling, and payload validation middleware. This serves as an end-to-end curriculum for building production-ready Node.js APIs.
   - **(2022)** [**youtube: Local CRUD API Express App with Docker in 5 min**](https://www.youtube.com/watch?v=UxZiDZsQoZI&ab_channel=TinyStacks) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A brief, highly practical video tutorial demonstrating how to dockerize a Node.js Express CRUD API in under 5 minutes. The walkthrough covers standard Dockerfile configurations, mapping local development ports, and configuring volume mounts for rapid local iteration. It is an excellent quick reference for local environment containerization.
-  - **(2021)** [jitendrazaa.com: Create SOAP message using Java](http://www.jitendrazaa.com/blog/java/create-soap-message-using-java) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A hands-on code tutorial detailing how to programmatically construct, manipulate, and send SOAP messages using the Java SAAJ (SOAP with Attachments API for Java) library. The post walks through manual DOM creation, namespace mapping, and processing raw XML responses. This is a critical technical reference for engineers maintaining legacy Enterprise Java middleware integrations.
+  - **(2021)** [jitendrazaa.com: Create SOAP message using Java](https://www.jitendrazaa.com/blog/java/create-soap-message-using-java) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A hands-on code tutorial detailing how to programmatically construct, manipulate, and send SOAP messages using the Java SAAJ (SOAP with Attachments API for Java) library. The post walks through manual DOM creation, namespace mapping, and processing raw XML responses. This is a critical technical reference for engineers maintaining legacy Enterprise Java middleware integrations.
 #### Protocols and Formats
 
   - **(2023)** [==redhat.com: An Architect's guide to APIs: SOAP, REST, GraphQL, and gRPC 🌟==](https://www.redhat.com/en/blog/apis-soap-rest-graphql-grpc) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural guide comparing the four most common web communication protocols: SOAP, REST, GraphQL, and gRPC. It breaks down the network characteristics, payload sizes, typing capabilities, and typical use cases for each. REST is presented as the modern web default, GraphQL for complex client-driven data fetching, gRPC for high-performance low-latency inter-service microservice communication, and SOAP for enterprise legacy transactions.
@@ -221,7 +349,7 @@
   - **(2024)** [geeksforgeeks.org: Basics of SOAP – Simple Object Access Protocol](https://www.geeksforgeeks.org/computer-networks/basics-of-soap-simple-object-access-protocol) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the structural foundations of Simple Object Access Protocol (SOAP). It describes key architectural elements such as the SOAP Envelope, Header, Body, and Fault structures alongside the WSDL (Web Services Description Language) interface definitions. While largely replaced by REST and JSON in modern applications, SOAP remains critical in highly secure financial and enterprise systems.
 #### Public Directories
 
-  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441446</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
+  - **(2024)** [==github.com/public-apis/public-apis: Try Public APIs for free 🌟==](https://github.com/public-apis/public-apis) <span class='md-tag md-tag--info'>⭐ 441446</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55c819f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 11 L 30 6 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-a55c819f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching for mock datasets or utility endpoints to build prototypes. It demonstrates the utility of community-led open-source curation for modern software experimentation.
   - **(2023)** [**freecodecamp.org: Public APIs Developers Can Use in Their Projects**](https://www.freecodecamp.org/news/public-apis-for-developers) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces a handpicked list of highly functional public APIs suited for portfolio projects and app prototypes. The compilation features modern REST APIs that do not require complex OAuth authorization flows, covering categories like machine learning, weather forecasting, financial data, and geolocation. It serves as an accessible entry-point for learning API integration patterns.
 #### Strategic Governance
 
@@ -237,7 +365,7 @@
 #### Architecture Comparisons (1)
 
   - **(2022)** [==infoq.com: Modern API Development and Deployment, from API Gateways to Sidecars==](https://www.infoq.com/presentations/api-design-implement-document) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A technical presentation addressing modern patterns in API deployment, tracing the evolution from monolithic centralized API gateways to lightweight sidecar proxies in a service mesh. The speaker explains how sidecar patterns decouple security, routing, and observability from the application code, delegating these duties directly to container proxy layers (such as Envoy). This shift optimizes latency and simplifies localized team deployments.
-  - **(2023)** [**blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?**](https://blog.hubspot.com/website/api-gateway-vs-load-balancer#:~:text=An%20API%20gateway%20vs.,network%20traffic%20across%20multiple%20servers) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Contracts the key functional boundaries between an API Gateway and a traditional Load Balancer. While a load balancer acts on Layer 4 or Layer 7 to distribute incoming raw network traffic uniformly across targets, an API gateway is application-aware, performing protocol translation, rate-limiting, authentication, and request orchestration. This clarification is key when designing layered public-facing ingress networks.
+  - **(2023)** [**blog.hubspot.com: API Gateway vs. Load Balancer: What's The Difference?**](https://blog.hubspot.com/website/api-gateway-vs-load-balancer) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Contracts the key functional boundaries between an API Gateway and a traditional Load Balancer. While a load balancer acts on Layer 4 or Layer 7 to distribute incoming raw network traffic uniformly across targets, an API gateway is application-aware, performing protocol translation, rate-limiting, authentication, and request orchestration. This clarification is key when designing layered public-facing ingress networks.
 #### Best Practices (2)
 
   - **(2023)** [**thenewstack.io: 5 Ways to Succeed with an API Gateway**](https://thenewstack.io/5-ways-to-succeed-with-an-api-gateway) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines five essential patterns for deploying API Gateways in microservices architectures. The guide highlights key functions like rate-limiting, SSL termination, authentication offloading, and dynamic routing to ensure secure and performant service endpoints. It contrasts standalone gateway appliances with service mesh ingress configurations, advising on how to avoid single-point-of-failure bottlenecks.
@@ -371,7 +499,7 @@
 
 #### Web Services
 
-  - **(2025)** [free-web-services.com](http://free-web-services.com) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A public directory index mapping legacy web services and free APIs. Helpful for basic testing, though modern developers often prefer containerized local mocks for CI integration consistency.
+  - **(2025)** [free-web-services.com](https://free-web-services.com) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A public directory index mapping legacy web services and free APIs. Helpful for basic testing, though modern developers often prefer containerized local mocks for CI integration consistency.
 ## Quality Assurance
 
 ### API Design (1)

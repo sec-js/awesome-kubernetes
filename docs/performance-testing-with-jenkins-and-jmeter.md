@@ -25,7 +25,7 @@
 
 ## Performance testing of microservices running on Kubernetes
   - [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) - *(Related to kubernetes-troubleshooting topic)*
-  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) - *(Related to openshift topic)*
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) - *(Related to openshift topic)*
 
 - [dev.to: The most elegant way to performance test your microservices running on Kubernetes](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) you'll learn how to measure the performance of backend applications running on Kubernetes & how to use Vegeta, a versatile HTTP load testing and benchmarking tool written in Golang
 - [garden.io: Performance testing on a microservice architecture](https://docs.garden.io)
@@ -53,7 +53,7 @@
 - [blazemeter.com](https://www.blazemeter.com)
 - [flood.io](https://flood.io)
 
-## Jenkins & JMeter
+## Jenkins and JMeter
 
 - [jenkinsci/performance-plugin](https://github.com/jenkinsci/performance-plugin)
     - [plugins.jenkins.io: performance](https://plugins.jenkins.io/performance)
@@ -82,7 +82,7 @@
 
 - [How to Use Gatling With Maven](https://dzone.com/articles/how-to-use-gatling-with-maven) Learn all the details of how to integrate the Gatling performance testing framework with a Maven project in this tutorial.
 
-## Jenkins & Gatling
+## Jenkins and Gatling
 
 - [gatling.io: Jenkins plugin](https://gatling.io/docs/current/extensions/jenkins_plugin)
 - [baeldung.com: Run Gatling Tests From Jenkins](https://www.baeldung.com/jenkins-run-gatling-tests)

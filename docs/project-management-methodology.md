@@ -31,7 +31,7 @@
 - [dzone: Project Management Methodology: A Beginner's Guide](https://dzone.com/articles/best-emerging-project-management-methodologies-in) Using a specific methodology can help a Project Manager steer a project in the right direction and work in a structured manner.
 - [dzone: A Complete Guide to the Project Management Lifecycle](https://dzone.com/articles/a-complete-guide-to-project-management-life-cycle) If you know about the product management lifecycle but aren't familiar with each of its phases, take a look at how they break down.
 - [dzone: Top 40 Project Management Terms and Concepts of 2019](https://dzone.com/articles/top-40-project-management-terms-and-concepts-of-20)
-- [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2)
+- [blog.scrumstudy.com: Scrum and Kanban, alike or different?](https://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2)
 - [scrum.org: What Happens To The Sprint Backlog Items That Are Not Done?](https://www.scrum.org/resources/blog/vlog-what-happens-sprint-backlog-items-are-not-done)
 - [cio.com: Agile vs. waterfall: Project methodologies compared](https://www.cio.com/article/194093/agile-vs-waterfall-project-methodologies-compared.html) Agile and waterfall each offer unique benefits and drawbacks. Here are the pros and cons of each method, and how to know which is right for your organization’s projects.
 - [scrum.org: Make Sure You Don’t Build High Performing Teams Just to Deliver Wrong Things Faster](https://www.scrum.org/resources/blog/make-sure-you-dont-build-high-performing-teams-just-deliver-wrong-things-faster)
@@ -177,7 +177,7 @@
 ## MVP Minimum Viable Product
 
 - [Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product)
-- [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
+- [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](https://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html)
 - [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable)
 - [bloo.media: Producto Mínimo Viable ¿Qué es y cómo crearlo?](https://bloo.media/blog/producto-minimo-viable-mvp)
 - [blog.asmartbear.com: I hate MVPs. So do your customers. Make it SLC instead 🌟](https://blog.asmartbear.com/slc.html)
@@ -193,8 +193,8 @@
 
 ### Promotion-Based Development
 
-- [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
-- [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
+- [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development) When you write code to increase your visibility with management, let things break so that you can be the hero that fixes them and generally work on things that lead to a corner office asap
+- [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](https://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)
 - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)
 
 ## Culture and Leadership

@@ -3,6 +3,21 @@
 !!! info "Architectural Context"
     Detailed reference for About Nubenetes in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Automation and Orchestration](#automation-and-orchestration)
+  - [Templating Engine](#templating-engine)
+    - [Jinja](#jinja)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes Development](#kubernetes-development)
+    - [Go Client-Go](#go-client-go)
+      - [Generics](#generics)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Kubernetes](#kubernetes)
+    - [Terraform Boilerplates](#terraform-boilerplates)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+
 ## The Nubenetes Engineering Manifest
 
 !!! quote "The Positive Sum Game"

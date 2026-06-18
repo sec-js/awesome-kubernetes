@@ -3,6 +3,69 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [API Gateway](#api-gateway)
+      - [Architecture](#architecture)
+      - [Cross-Account Patterns](#cross-account-patterns)
+    - [Architecture Best Practices](#architecture-best-practices)
+    - [CDN](#cdn)
+      - [CloudFront](#cloudfront)
+      - [Edge Security](#edge-security)
+    - [DNS and Domain Management](#dns-and-domain-management)
+      - [Route 53](#route-53)
+    - [Direct Connect](#direct-connect)
+      - [BGP Routing](#bgp-routing)
+    - [EC2 Networking](#ec2-networking)
+      - [ENA](#ena)
+    - [IP Range Utilities](#ip-range-utilities)
+    - [Kubernetes Networking](#kubernetes-networking)
+      - [Controllers](#controllers)
+    - [Load Balancing](#load-balancing)
+      - [Announcements](#announcements)
+      - [Application Load Balancer](#application-load-balancer)
+      - [Configuration Updates](#configuration-updates)
+      - [Deep Dive](#deep-dive)
+      - [Documentation](#documentation)
+      - [Network Load Balancer](#network-load-balancer)
+      - [Serverless Integration](#serverless-integration)
+    - [Network Management](#network-management)
+    - [Networking Concepts](#networking-concepts)
+    - [Networking Pitfalls](#networking-pitfalls)
+    - [Networking Tutorials](#networking-tutorials)
+    - [Performance Optimization](#performance-optimization)
+    - [RDS](#rds)
+      - [VPC Integration](#vpc-integration)
+    - [Remote Access VPN](#remote-access-vpn)
+    - [Reverse Proxy](#reverse-proxy)
+      - [NGINX Plus](#nginx-plus)
+    - [Security](#security)
+      - [DDoS Resiliency](#ddos-resiliency)
+      - [EC2 Connect](#ec2-connect)
+      - [Gateway Load Balancer](#gateway-load-balancer)
+      - [WAF](#waf)
+    - [VPC](#vpc)
+      - [CLI Administration](#cli-administration)
+      - [Fundamentals](#fundamentals)
+      - [VPC Endpoints](#vpc-endpoints)
+    - [VPC Architecture](#vpc-architecture)
+    - [VPN and Overlay Networks](#vpn-and-overlay-networks)
+      - [Tailscale](#tailscale)
+  - [Azure Networking](#azure-networking)
+    - [Hybrid Connectivity](#hybrid-connectivity)
+1. [Networking](#networking)
+  - [Performance](#performance)
+    - [Diagnostics](#diagnostics)
+1. [Software Engineering](#software-engineering)
+  - [Deployment Patterns](#deployment-patterns)
+    - [Blue-Green](#blue-green)
+      - [ALB](#alb)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -63,7 +126,7 @@
   - **(2016)** [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the high-performance ENA interface designed for AWS EC2 instances. Live architectures rely heavily on ENA for low-latency network performance and SR-IOV-enabled network virtualization up to 100 Gbps. Crucial for understanding network throughput bottlenecks in heavy database and distributed systems workloads.
 #### IP Range Utilities
 
-  - **(2018)** [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.
+  - **(2018)** [github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json](https://github.com/seligman/aws-ip-ranges) <span class='md-tag md-tag--info'>⭐ 286</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51d1c97d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 8 L 30 8 L 40 5 L 50 13" fill="none" stroke="url(#spark-grad-51d1c97d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.
 #### Kubernetes Networking
 
 ##### Controllers
@@ -85,7 +148,7 @@
   - **(2016)** [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed architectural retrospective on AWS ELB, tracing its path from Classic Load Balancer (CLB) to specialized Application (ALB) and Network (NLB) balancers. While archived, it provides unmatched technical insights into early AWS software-defined networking design.
 ##### Documentation
 
-  - **(2020)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.
+  - **(2020)** [docs.aws.amazon.com: What Is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.
 ##### Network Load Balancer
 
   - **(2021)** [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly critical real-world analysis detailing the edge-case limitations of AWS Network Load Balancers under extreme load. Outlines connection resets, silent drops, and target group scaling constraints. Live systems use this data to plan high-throughput gRPC and WebSocket infrastructure.
@@ -104,10 +167,10 @@
   - **(2019)** [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs highly complex pitfalls in AWS network implementations, specifically Route 53 routing loops and VPC peering scaling bottlenecks. While historic guides suggest basic VPC peers, live production systems demand Transit Gateways and PrivateLink to scale securely without IP overlap.
 #### Networking Tutorials
 
-  - **(2020)** [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.
+  - **(2020)** [AWS Cloud Networking – Zero to Hero](https://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.
 #### Performance Optimization
 
-  - **(2018)** [Find the fastest region from your location](http://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.
+  - **(2018)** [Find the fastest region from your location](https://aws-latency.altaircp.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.
 #### RDS
 
 ##### VPC Integration
@@ -139,7 +202,7 @@
 
 ##### CLI Administration
 
-  - **(2014)** [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.
+  - **(2014)** [linuxjournal.com: AWS EC2 VPC CLI](https://www.linuxjournal.com/content/aws-ec2-vpc-cli)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.
 ##### Fundamentals
 
   - **(2019)** [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level introductory guide detailing the core components of Amazon VPCs, including Subnets, Route Tables, Internet Gateways, and Security Groups. Ideal for engineers transitioning from traditional infrastructure to virtualized cloud networks.

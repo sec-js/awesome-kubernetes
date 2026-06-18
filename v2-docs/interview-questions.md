@@ -3,6 +3,68 @@
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [System Design](#system-design)
+    - [Scalability](#scalability)
+1. [Career and Interview Preparation](#career-and-interview-preparation)
+  - [Interview Prep](#interview-prep)
+    - [API and Automation Testing](#api-and-automation-testing)
+    - [AWS Platforms](#aws-platforms)
+    - [Ansible](#ansible)
+    - [Aviation and Career Tools](#aviation-and-career-tools)
+    - [Database and SQL](#database-and-sql)
+    - [DevOps and CICD](#devops-and-cicd)
+    - [Git and Version Control](#git-and-version-control)
+    - [Java Memory Management](#java-memory-management)
+    - [Kubernetes](#kubernetes)
+    - [Linux Internals](#linux-internals)
+    - [Low Latency Programming](#low-latency-programming)
+    - [Microservices Design](#microservices-design)
+    - [Selenium Automation](#selenium-automation)
+    - [Terraform](#terraform)
+    - [Terraform Cloud](#terraform-cloud)
+  - [Reference Vaults](#reference-vaults)
+    - [Git and Version Control](#git-and-version-control-1)
+  - [Resource Vaults](#resource-vaults)
+    - [System Design](#system-design-1)
+1. [Career and Leadership](#career-and-leadership)
+  - [DevOps Architecture](#devops-architecture)
+    - [Interview Prep](#interview-prep-1)
+1. [Data Engineering](#data-engineering)
+  - [Event Streaming](#event-streaming)
+    - [Apache Kafka](#apache-kafka)
+1. [DevOps](#devops)
+  - [Automation](#automation)
+    - [Python](#python)
+  - [CI-CD](#ci-cd)
+    - [Jenkins](#jenkins)
+  - [Container Orchestration](#container-orchestration)
+    - [Kubernetes](#kubernetes-1)
+1. [Management](#management)
+  - [Agile](#agile)
+    - [Scrum](#scrum)
+1. [Software Engineering](#software-engineering)
+  - [Data Formats](#data-formats)
+    - [JSON](#json)
+  - [Java](#java)
+    - [Interview Preparation](#interview-preparation)
+  - [Python](#python-1)
+    - [Interactive](#interactive)
+1. [Software Testing](#software-testing)
+  - [API Automation](#api-automation)
+    - [QA Methodology](#qa-methodology)
+    - [REST Assured](#rest-assured)
+  - [Fundamentals](#fundamentals)
+    - [QA Methodology](#qa-methodology-1)
+  - [UI Automation](#ui-automation)
+    - [Cypress](#cypress)
+    - [Selenium](#selenium)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -93,7 +155,7 @@
 
 #### System Design (1)
 
-  - **(2026)** [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault) <span class='md-tag md-tag--info'>⭐ 3415</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A massive compiled database containing cheat sheets, system design diagrams, and software development resources. Serves as a vital study companion for engineers preparing for platform and architectural assessments.
+  - **(2026)** [github.com/moabukar/tech-vault](https://github.com/moabukar/tech-vault) <span class='md-tag md-tag--info'>⭐ 3415</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0847d306" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 3 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-0847d306)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A massive compiled database containing cheat sheets, system design diagrams, and software development resources. Serves as a vital study companion for engineers preparing for platform and architectural assessments.
 ## Career and Leadership
 
 ### DevOps Architecture
@@ -168,7 +230,7 @@
 
 #### Interactive
 
-  - **(2020)** [Python mini-quiz](http://www.mypythonquiz.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive programming assessment platform evaluating real-time Python syntax, generator scopes, collection methods, and general algorithms through self-paced quizzes.
+  - **(2020)** [Python mini-quiz](https://www.mypythonquiz.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive programming assessment platform evaluating real-time Python syntax, generator scopes, collection methods, and general algorithms through self-paced quizzes.
 ## Software Testing
 
 ### API Automation

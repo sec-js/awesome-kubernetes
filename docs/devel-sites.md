@@ -1,4 +1,4 @@
-# Development & Frameworks. Websites for web developers
+# Development and Frameworks. Websites for web developers
 
 1. [Introduction](#introduction)
 2. [Design Patterns](#design-patterns)

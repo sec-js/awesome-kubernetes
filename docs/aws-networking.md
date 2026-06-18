@@ -19,7 +19,7 @@
 
 - [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)
 - [Elastic Network Adapter](https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2)
-- [AWS Cloud Networking – Zero to Hero](http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)
+- [AWS Cloud Networking – Zero to Hero](https://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero)
 - [cloudonaut.io: What Architects Need to Know About Networking on AWS](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws)
 - [cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid](https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid)
 - [Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic](https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic)
@@ -38,7 +38,7 @@
 ## AWS Elastic Load Balancing (ELB)
 
 - [AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing](https://www.youtube.com/watch?v=HinwLb2lpLQ)
-- [docs.aws.amazon.com: What Is Elastic Load Balancing?](http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
+- [docs.aws.amazon.com: What Is Elastic Load Balancing?](https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html)
 - [ably.com: Balancing act: the current limits of AWS network load balancers](https://ably.com/blog/limits-aws-network-load-balancers)
 - [==luis-sena.medium.com: Automated AWS Load Balancer Warm-Up==](https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc) Automate AWS load balancer to avoid issues with huge traffic spikes
 - [==dashbird.io: AWS Elastic Load Balancing from a Serverless perspective==](https://dashbird.io/blog/aws-application-load-balancer) Should you switch your AWS API Gateway out for an Application Load Balancer (ALB)? A cheat sheet for all you need to know about ALB:
@@ -73,7 +73,7 @@
 
 ## AWS Latency
 
-- [Find the fastest region from your location](http://aws-latency.altaircp.com) Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.
+- [Find the fastest region from your location](https://aws-latency.altaircp.com) Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.
 - [Linkedin Discussion](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6092152919937794052)
     1. Don't do just a single check, the first check will be a lot slower as DNS lookups will need to be done, etc.
     2. I'd recommend doing at least 3 checks getting an average.
@@ -84,7 +84,7 @@
   - [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) - This article details best practices for configuring Azure ExpressRoute to ensure high availability and resiliency for production-critical workloads. It covers topics like redundant connections, diverse routing, and failover mechanisms.
 
 - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)
-- [linuxjournal.com: AWS EC2 VPC CLI](http://www.linuxjournal.com/content/aws-ec2-vpc-cli)
+- [linuxjournal.com: AWS EC2 VPC CLI](https://www.linuxjournal.com/content/aws-ec2-vpc-cli)
 - [Build a Modular and Scalable Amazon VPC Architecture with New Quick Start](https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start) Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start
 - [Specifying the VPC for your Amazon RDS DB Instance](https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance) You can now easily change the Amazon VPC used by your Amazon RDS DB instance!
 - [awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC](https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html)

@@ -3,6 +3,124 @@
 !!! info "Architectural Context"
     Detailed reference for Jenkins Alternatives for Continuous Integration and Continuous Deployment in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD Pipeline](#cicd-pipeline)
+  - [OpenShift and JFrog](#openshift-and-jfrog)
+    - [DevOps Integrations](#devops-integrations)
+  - [Pipeline Automation](#pipeline-automation)
+    - [JFrog Pipelines](#jfrog-pipelines)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS Ecosystem](#aws-ecosystem)
+    - [Cloud Services](#cloud-services)
+  - [Azure Ecosystem](#azure-ecosystem)
+    - [Platform Services](#platform-services)
+1. [Continuous Delivery](#continuous-delivery)
+  - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [GitHub Actions](#github-actions)
+1. [Deployment and Delivery](#deployment-and-delivery)
+  - [Application Delivery](#application-delivery)
+    - [Waypoint](#waypoint)
+  - [CICD and Delivery](#cicd-and-delivery)
+    - [Industry Reports](#industry-reports)
+    - [Self-Hosted Runners](#self-hosted-runners)
+  - [CICD Engines](#cicd-engines)
+    - [Local Execution](#local-execution)
+  - [CICD Orchestration](#cicd-orchestration)
+    - [Deployment Strategies](#deployment-strategies)
+  - [CICD Platforms](#cicd-platforms)
+    - [Cloud-Native CI](#cloud-native-ci)
+    - [Custom Platforms](#custom-platforms)
+    - [Kubernetes-Native CI](#kubernetes-native-ci)
+    - [Pipeline Observability](#pipeline-observability)
+    - [Pipeline Optimization](#pipeline-optimization)
+  - [Continuous Deployment](#continuous-deployment)
+    - [Declarative Pipelines](#declarative-pipelines)
+    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Multi-Cloud Continuous Delivery](#multi-cloud-continuous-delivery)
+    - [Spinnaker Architectures](#spinnaker-architectures)
+1. [DevOps](#devops)
+  - [CI-CD Platforms](#ci-cd-platforms)
+    - [Tooling](#tooling)
+  - [Container Orchestration](#container-orchestration)
+    - [CICD Libraries](#cicd-libraries)
+    - [Self-Hosted Runners](#self-hosted-runners-1)
+  - [Continuous Delivery](#continuous-delivery-1)
+    - [Spinnaker Setup](#spinnaker-setup)
+      - [Git Integration](#git-integration)
+1. [DevSecOps](#devsecops)
+  - [CICD Pipelines](#cicd-pipelines)
+    - [Tekton Pipelines](#tekton-pipelines)
+    - [Tool Comparison](#tool-comparison)
+1. [Enterprise Platforms](#enterprise-platforms)
+  - [Red Hat OpenShift](#red-hat-openshift)
+    - [Container Images](#container-images)
+    - [Serverless CICD](#serverless-cicd)
+1. [GitOps and CICD](#gitops-and-cicd)
+  - [CICD Platforms](#cicd-platforms-1)
+    - [Cloud-Native Delivery](#cloud-native-delivery)
+    - [Enterprise DevOps](#enterprise-devops)
+    - [Jenkins Alternatives](#jenkins-alternatives)
+    - [Tool Comparison](#tool-comparison-1)
+1. [Infrastructure](#infrastructure)
+  - [CI-CD](#ci-cd)
+    - [Kubernetes-Native CI](#kubernetes-native-ci-1)
+1. [Kubernetes and Container Orchestration](#kubernetes-and-container-orchestration)
+  - [Platform Engineering](#platform-engineering)
+    - [AppOps and GitOps](#appops-and-gitops)
+1. [Kubernetes Developer Experience](#kubernetes-developer-experience)
+  - [Inner-Loop Automation](#inner-loop-automation)
+    - [Skaffold](#skaffold)
+1. [MLOps](#mlops)
+  - [Kubernetes](#kubernetes)
+    - [Kubeflow](#kubeflow)
+1. [Orchestration and Packaging](#orchestration-and-packaging)
+  - [Cloud-Native Delivery](#cloud-native-delivery-1)
+    - [Keptn](#keptn)
+1. [Platform Architecture](#platform-architecture)
+  - [CICD](#cicd)
+    - [Tekton Pipelines](#tekton-pipelines-1)
+1. [Software Delivery](#software-delivery)
+  - [Artifact Management](#artifact-management)
+    - [Enterprise DevOps](#enterprise-devops-1)
+  - [Automated Testing](#automated-testing)
+    - [Database Integration](#database-integration)
+  - [CI-CD Pipelines](#ci-cd-pipelines-1)
+    - [Advanced Configurations](#advanced-configurations)
+    - [Container-Native CI](#container-native-ci)
+    - [Declarative Architectures](#declarative-architectures)
+    - [Declarative Templates](#declarative-templates)
+    - [Pipeline Control](#pipeline-control)
+  - [CI-CD Platforms](#ci-cd-platforms-1)
+    - [Container-Native CI](#container-native-ci-1)
+    - [Dynamic Execution](#dynamic-execution)
+    - [Enterprise Continuous Delivery](#enterprise-continuous-delivery)
+    - [Enterprise DevOps](#enterprise-devops-2)
+    - [Enterprise Suites](#enterprise-suites)
+    - [Kubernetes Onboarding](#kubernetes-onboarding)
+    - [Legacy Automation](#legacy-automation)
+    - [Managed Pipelines](#managed-pipelines)
+    - [No-Code Delivery](#no-code-delivery)
+    - [Pipeline Orchestration](#pipeline-orchestration)
+    - [Plugin Integrations](#plugin-integrations)
+  - [Continuous Deployment](#continuous-deployment-1)
+    - [Automation Practices](#automation-practices)
+    - [Concourse Integration](#concourse-integration)
+  - [GitHub Ecosystem](#github-ecosystem)
+    - [GitHub Actions](#github-actions-1)
+    - [Runner Utilities](#runner-utilities)
+  - [GitOps](#gitops)
+    - [ArgoCD Enterprise](#argocd-enterprise)
+  - [Release Orchestration](#release-orchestration)
+    - [Enterprise Deployment](#enterprise-deployment)
+    - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [SDKs](#sdks)
+  - [Self-Hosted Git](#self-hosted-git)
+    - [Unified Platforms](#unified-platforms)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -43,7 +161,7 @@
 
 #### Cloud Services
 
-  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops/#cicd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
+  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
 ### Azure Ecosystem
 
 #### Platform Services
@@ -55,7 +173,7 @@
 
 #### GitHub Actions
 
-  - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27907</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
+  - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27907</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6685da38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 12 L 30 3 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-6685da38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
 ## Deployment and Delivery
 
 ### Application Delivery
@@ -75,13 +193,13 @@
 
 #### Local Execution
 
-  - **(2024)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15954</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main Git repository for Dagger, the revolutionary CI/CD engine built on BuildKit. Enables writing robust pipelines in general-purpose languages like Go, Python, or TypeScript, completely replacing verbose, fragile YAML pipeline orchestrations.
+  - **(2024)** [==dagger/dagger: Dagger is a portable devkit for CICD==](https://github.com/dagger/dagger) <span class='md-tag md-tag--info'>⭐ 15954</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dfe6cf2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 4 L 30 13 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-3dfe6cf2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main Git repository for Dagger, the revolutionary CI/CD engine built on BuildKit. Enables writing robust pipelines in general-purpose languages like Go, Python, or TypeScript, completely replacing verbose, fragile YAML pipeline orchestrations.
   - **(2023)** [dagger.io](https://dagger.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Dagger is a highly portable CI/CD development kit that allows developers to define pipelines as application code. Powered by BuildKit, it guarantees identical pipeline behavior during local dev iterations and execution on remote cloud CI systems.
 ### CICD Orchestration
 
 #### Deployment Strategies
 
-  - **(2021)** [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&t=1s&ab_channel=JFrog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This technical tutorial demonstrates orchestration of blue/green deployments using NGINX as an ingress traffic controller and JFrog Artifactory as the container registry. It highlights automating immutable artifact promotions and shifting traffic paths smoothly to prevent production downtime.
+  - **(2021)** [youtube: jfrog - Modern App Deployments: How to use NGINX and JFrog to Automate your Blue/Green deployments](https://www.youtube.com/watch?v=15CGdzfDlpQ&ab_channel=JFrog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This technical tutorial demonstrates orchestration of blue/green deployments using NGINX as an ingress traffic controller and JFrog Artifactory as the container registry. It highlights automating immutable artifact promotions and shifting traffic paths smoothly to prevent production downtime.
 ### CICD Platforms
 
 #### Cloud-Native CI
@@ -92,7 +210,7 @@
   - **(2021)** [empathy.co: HAT: CI/CD for Deploying Cloud Native Applications](https://empathy.co/blog/hat-ci-cd-for-deploying-cloud-native-applications) <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering case study introducing HAT, a custom GitOps CI/CD engine built by Empathy.co. The post documents how standardizing declarative deployment manifests drastically simplified continuous delivery operations across various development squads.
 #### Kubernetes-Native CI
 
-  - **(2022)** [==csweichel/werft==](https://github.com/csweichel/werft) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Werft is a lightweight, Kubernetes-native CI system designed to launch build tasks as custom pods directly from Git actions. Bypassing bulky traditional build systems, it leverages native Kubernetes scheduling to guarantee isolated, deterministic execution environments.
+  - **(2022)** [==csweichel/werft==](https://github.com/csweichel/werft) <span class='md-tag md-tag--info'>⭐ 194</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82a5d1ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 4 L 30 13 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-82a5d1ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Werft is a lightweight, Kubernetes-native CI system designed to launch build tasks as custom pods directly from Git actions. Bypassing bulky traditional build systems, it leverages native Kubernetes scheduling to guarantee isolated, deterministic execution environments.
   - **(2020)** [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational whitepaper exploring Jenkins X as a cloud-native re-architecture of traditional Jenkins patterns. Focuses on its dependency on Tekton for containerized build pipelines and its adoption of GitOps as the definitive state mechanism.
   - **(2020)** [devopstoolkitseries.com](https://www.devopstoolkitseries.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A video-guided tutorial from the DevOps Toolkit Series demonstrating Jenkins X setups. It details the process of establishing Kubernetes-native continuous delivery, showcasing automated PR checks and progressive staging mechanics.
   - **(2020)** [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical book outlining the implementation of automated, Kubernetes-native workflows using Jenkins X. Details advanced patterns using Helm, Tekton, and Prow, providing solid strategies for robust continuous delivery.
@@ -155,10 +273,10 @@
 
 #### Container Images
 
-  - **(2020)** [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image) <span class='md-tag md-tag--info'>⭐ 3</span> <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy helper repository containing customized Dockerfiles designed to package Jenkins X binaries for OpenShift container platforms. This repository facilitates deployment compliance inside restricted cluster ecosystems.
+  - **(2020)** [https://github.com/jenkins-x/jenkins-x-openshift-image](https://github.com/jenkins-x/jenkins-x-openshift-image) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c4936a94" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 12 L 30 11 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-c4936a94)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy helper repository containing customized Dockerfiles designed to package Jenkins X binaries for OpenShift container platforms. This repository facilitates deployment compliance inside restricted cluster ecosystems.
 #### Serverless CICD
 
-  - **(2021)** [==Jenkins-X + Tekton on OpenShift==](https://github.com/openshift/tektoncd-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 53</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community-maintained repository detailing the configuration of Jenkins X alongside Tekton on Red Hat OpenShift. Offers resource definitions and custom templates designed to respect OpenShift-specific Security Context Constraints (SCC).
+  - **(2021)** [==Jenkins-X + Tekton on OpenShift==](https://github.com/openshift/tektoncd-pipeline-operator) <span class='md-tag md-tag--info'>⭐ 53</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-aded2868" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 7 L 30 9 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-aded2868)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community-maintained repository detailing the configuration of Jenkins X alongside Tekton on Red Hat OpenShift. Offers resource definitions and custom templates designed to respect OpenShift-specific Security Context Constraints (SCC).
   - **(2020)** [CI/CD OpenShift and Tekton](https://www.sonatype.com/blog/new-cloud-native-ci/cd-projects-openshift-and-tekton)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth blog post detailing cloud-native CI/CD on Red Hat OpenShift using the Tekton Pipelines operator. It analyzes how OpenShift Pipelines provides on-demand containerized execution environments to eliminate resource-hungry, idle build servers.
 ## GitOps and CICD
 
@@ -185,14 +303,14 @@
 
 #### Kubernetes-Native CI (1)
 
-  - **(2026)** [==Prow==](https://github.com/kubernetes/test-infra/tree/master/prow) <span class='md-tag md-tag--info'>⭐ 4004</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Kubernetes-native CI/CD platform built specifically for large-scale cloud-native project governance. Operating via a decentralized microservices architecture (including Deck, Hook, Sinker, and Crier), it enforces declarative GitOps and extensible ChatOps automation. Highly complex but acts as the core engine powering the Kubernetes ecosystem's test infrastructure.
+  - **(2026)** [==Prow==](https://github.com/kubernetes/test-infra/tree/master/prow) <span class='md-tag md-tag--info'>⭐ 4004</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0ac831b6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 7 L 30 13 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-0ac831b6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Kubernetes-native CI/CD platform built specifically for large-scale cloud-native project governance. Operating via a decentralized microservices architecture (including Deck, Hook, Sinker, and Crier), it enforces declarative GitOps and extensible ChatOps automation. Highly complex but acts as the core engine powering the Kubernetes ecosystem's test infrastructure.
 ## Kubernetes and Container Orchestration
 
 ### Platform Engineering
 
 #### AppOps and GitOps
 
-  - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5513</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
+  - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5513</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cdd1e066" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 13 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-cdd1e066)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
 ## Kubernetes Developer Experience
 
 ### Inner-Loop Automation
@@ -220,7 +338,7 @@
 
 #### Tekton Pipelines (1)
 
-  - **(2026)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive learning path and hands-on laboratory environment focused on Tekton. Provides configurations for Tasks, Pipelines, PipelineRuns, and Trigger EventListeners on OpenShift clusters, validating cloud-native automation patterns.
+  - **(2026)** [github.com/openshift/pipelines-tutorial](https://github.com/openshift/pipelines-tutorial) <span class='md-tag md-tag--info'>⭐ 322</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57ca42a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 8 L 30 10 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-57ca42a3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive learning path and hands-on laboratory environment focused on Tekton. Provides configurations for Tasks, Pipelines, PipelineRuns, and Trigger EventListeners on OpenShift clusters, validating cloud-native automation patterns.
 ## Software Delivery
 
 ### Artifact Management
@@ -257,7 +375,7 @@
   - **(2026)** [Agola](https://agola.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern, container-first CI/CD platform designed to run natively on top of Kubernetes. Featuring a microservices-based architecture, Agola decouples execution from orchestration to facilitate dynamic pipeline scalability, secure execution via OpenID Connect (OIDC), and simplified distributed caching.
 #### Dynamic Execution
 
-  - **(2026)** [==Screwdriver API==](https://github.com/screwdriver-cd/screwdriver) <span class='md-tag md-tag--info'>⭐ 1041</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A pluggable CI/CD engine originally built by Yahoo to execute container-native, dynamic pipelines. Leveraging an API-driven, decoupled microservices architecture, it orchestrates builds cleanly across Kubernetes or Mesos execution grids.
+  - **(2026)** [==Screwdriver API==](https://github.com/screwdriver-cd/screwdriver) <span class='md-tag md-tag--info'>⭐ 1041</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-817cc68c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 8 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-817cc68c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A pluggable CI/CD engine originally built by Yahoo to execute container-native, dynamic pipelines. Leveraging an API-driven, decoupled microservices architecture, it orchestrates builds cleanly across Kubernetes or Mesos execution grids.
 #### Enterprise Continuous Delivery
 
   - **(2026)** [harness.io](https://www.harness.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An enterprise software delivery platform featuring AI/ML-driven automated canary deployments and rollbacks. Leveraging intelligent cloud-autostopping rules, it dynamically scales down idle Kubernetes-native resources to curb compute overhead, while integrating seamlessly with legacy Jenkins workloads through Helm pipelines.
@@ -307,7 +425,7 @@
   - **(2026)** [docs.github.com: Learn GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation hub for constructing GitHub Actions pipelines. It outlines syntax conventions for workflows, custom runner setup, enterprise secrets isolation, matrix compilation strategies, and native target routing configurations.
 #### Runner Utilities
 
-  - **(2026)** [==yokawasa/action-setup-kube-tools==](https://github.com/yokawasa/action-setup-kube-tools) <span class='md-tag md-tag--info'>⭐ 92</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dedicated GitHub Action designed to dynamically download and configure vital Kubernetes operational binaries (such as kubectl, helm, kustomize, and minikube) across runner agents, ensuring strict parity between tool states.
+  - **(2026)** [==yokawasa/action-setup-kube-tools==](https://github.com/yokawasa/action-setup-kube-tools) <span class='md-tag md-tag--info'>⭐ 92</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51128c7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 9 L 20 12 L 30 3 L 40 7 L 50 11" fill="none" stroke="url(#spark-grad-51128c7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A dedicated GitHub Action designed to dynamically download and configure vital Kubernetes operational binaries (such as kubectl, helm, kustomize, and minikube) across runner agents, ensuring strict parity between tool states.
 ### GitOps
 
 #### ArgoCD Enterprise
@@ -324,12 +442,12 @@
   - **(2026)** [registry.terraform.io: octopusdeploy Provider](https://registry.terraform.io/providers/OctopusDeployLabs/octopusdeploylatest/docs) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Terraform provider for managing Octopus Deploy resources. Enables infrastructure teams to programmatically construct projects, target deployment environments, tenants, and target resources.
 #### SDKs
 
-  - **(2026)** [==github.com/OctopusDeploy/go-octopusdeploy==](https://github.com/OctopusDeploy/go-octopusdeploy) <span class='md-tag md-tag--info'>⭐ 15</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Go client library designed to facilitate programmatic interaction with the Octopus Deploy REST API. Widely used for creating custom cloud-native controllers, deployment operators, and scripts.
+  - **(2026)** [==github.com/OctopusDeploy/go-octopusdeploy==](https://github.com/OctopusDeploy/go-octopusdeploy) <span class='md-tag md-tag--info'>⭐ 15</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-191e4cc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 6 L 30 4 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-191e4cc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Go client library designed to facilitate programmatic interaction with the Octopus Deploy REST API. Widely used for creating custom cloud-native controllers, deployment operators, and scripts.
 ### Self-Hosted Git
 
 #### Unified Platforms
 
-  - **(2026)** [==onedev==](https://github.com/theonedev/onedev) <span class='md-tag md-tag--info'>⭐ 15041</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node setup or distributed across Kubernetes environments.
+  - **(2026)** [==onedev==](https://github.com/theonedev/onedev) <span class='md-tag md-tag--info'>⭐ 15041</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-12cd9f45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 4 L 30 3 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-12cd9f45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node setup or distributed across Kubernetes environments.
 
 ---
 💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)

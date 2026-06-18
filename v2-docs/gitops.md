@@ -3,6 +3,196 @@
 !!! info "Architectural Context"
     Detailed reference for GitOps in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [API Management](#api-management)
+  - [GitOps](#gitops-1)
+    - [Declarative APIs](#declarative-apis)
+1. [Application Delivery](#application-delivery)
+  - [Continuous Deployment](#continuous-deployment)
+    - [GitOps](#gitops-2)
+      - [Business Value](#business-value)
+      - [DevOps Culture](#devops-culture)
+      - [Ecosystem](#ecosystem)
+      - [Foundations](#foundations)
+      - [Implementation](#implementation)
+      - [Source Code](#source-code)
+      - [Standards](#standards)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Patterns](#patterns)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD](#cicd)
+  - [GitOps](#gitops-3)
+    - [Deployment Strategies](#deployment-strategies)
+    - [Enterprise Transition](#enterprise-transition)
+    - [FluxCD](#fluxcd)
+    - [Kustomize Manifests](#kustomize-manifests)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [Terraform Practices](#terraform-practices)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes](#kubernetes)
+    - [Cluster API](#cluster-api)
+      - [ClusterClass](#clusterclass)
+1. [Cloud Native and Kubernetes](#cloud-native-and-kubernetes)
+  - [GitOps and Continuous Delivery](#gitops-and-continuous-delivery)
+    - [ArgoCD integration](#argocd-integration)
+1. [Cluster Management](#cluster-management)
+  - [GitOps](#gitops-4)
+    - [Anthos](#anthos)
+    - [Legacy Tools](#legacy-tools)
+  - [OpenShift](#openshift)
+    - [RHACM](#rhacm)
+1. [Continuous Delivery](#continuous-delivery)
+  - [GitOps](#gitops-5)
+    - [Adoption Trends](#adoption-trends)
+    - [Automation Patterns](#automation-patterns)
+    - [Best Practices](#best-practices)
+    - [CI-CD Integration](#ci-cd-integration)
+    - [Community Trends](#community-trends)
+    - [Configuration Management](#configuration-management)
+    - [Critique and Nuance](#critique-and-nuance)
+    - [Culture](#culture)
+    - [Design Patterns](#design-patterns)
+    - [Enterprise Methodology](#enterprise-methodology)
+    - [Environment Modeling](#environment-modeling)
+    - [Evolution](#evolution)
+    - [Infrastructure as Code](#infrastructure-as-code-2)
+    - [Introduction](#introduction)
+    - [Introductory Media](#introductory-media)
+    - [Kubernetes Native](#kubernetes-native)
+    - [Methodology](#methodology)
+    - [Multi-Cloud](#multi-cloud)
+    - [Multi-tenancy](#multi-tenancy)
+    - [Organizational Maturity](#organizational-maturity)
+    - [Policy and Compliance](#policy-and-compliance)
+    - [Red Hat OpenShift](#red-hat-openshift)
+    - [Repository Structure](#repository-structure)
+    - [Scale Operations](#scale-operations)
+    - [Standards](#standards-1)
+    - [Telco and Edge](#telco-and-edge)
+    - [Testing Environments](#testing-environments)
+    - [Tool Comparison](#tool-comparison)
+  - [Progressive Delivery](#progressive-delivery)
+    - [GitOps Integration](#gitops-integration)
+1. [Deployment and Delivery](#deployment-and-delivery)
+  - [GitOps](#gitops-6)
+    - [Octopilot](#octopilot)
+    - [Training](#training)
+  - [OpenShift](#openshift-1)
+    - [Automation](#automation)
+    - [CICD Pipeline](#cicd-pipeline)
+  - [Package Management](#package-management)
+    - [Glasskube](#glasskube)
+  - [Progressive Delivery](#progressive-delivery-1)
+    - [Flagger](#flagger)
+1. [GitOps](#gitops-7)
+  - [Applications](#applications)
+    - [Advanced Use Cases](#advanced-use-cases)
+  - [Architecture](#architecture)
+    - [Anti-Patterns](#anti-patterns)
+    - [Critique](#critique)
+    - [Design Patterns](#design-patterns-1)
+    - [Reconciliation Patterns](#reconciliation-patterns)
+  - [Automation](#automation-1)
+    - [Advanced Use Cases](#advanced-use-cases-1)
+  - [Community](#community)
+    - [Events](#events)
+  - [Developer Experience](#developer-experience)
+    - [Inner Loop](#inner-loop)
+  - [Enterprise](#enterprise)
+    - [AppOps](#appops)
+    - [Architecture Strategy](#architecture-strategy)
+    - [Automation](#automation-2)
+    - [Case Studies](#case-studies)
+    - [Scale](#scale)
+  - [FinOps](#finops)
+    - [Cloud Economics](#cloud-economics)
+  - [Git Basics](#git-basics)
+    - [Developer Experience](#developer-experience-1)
+  - [Implementation](#implementation-1)
+    - [Automation Principles](#automation-principles)
+    - [Best Practices](#best-practices-1)
+    - [Kubernetes Native](#kubernetes-native-1)
+    - [Optimization](#optimization)
+  - [Introduction](#introduction-1)
+    - [History](#history)
+    - [Overview](#overview)
+    - [Spanish Resources](#spanish-resources)
+    - [Strategy](#strategy)
+    - [Tutorials](#tutorials)
+    - [Visual Guides](#visual-guides)
+  - [Methodology](#methodology-1)
+    - [Advanced Perspectives](#advanced-perspectives)
+    - [Comparisons](#comparisons)
+    - [Core Principles](#core-principles)
+    - [Developer Platforms](#developer-platforms)
+    - [Maturity Model](#maturity-model)
+    - [Overview](#overview-1)
+    - [Repository Design](#repository-design)
+  - [Metrics](#metrics)
+    - [Developer Velocity](#developer-velocity)
+  - [Multi-Cluster](#multi-cluster)
+    - [Decentralization](#decentralization)
+    - [Infrastructure](#infrastructure)
+    - [Strategy](#strategy-1)
+  - [Security](#security)
+    - [Access Control](#access-control)
+    - [Hardening](#hardening)
+    - [Policy Enforcement](#policy-enforcement)
+    - [Risk Management](#risk-management)
+  - [Standards](#standards-2)
+    - [CNCF](#cncf)
+1. [Identity and Access](#identity-and-access)
+  - [Tenant Governance](#tenant-governance)
+    - [Entra ID](#entra-id)
+      - [Infrastructure as Code](#infrastructure-as-code-3)
+1. [Infrastructure](#infrastructure-1)
+  - [Hybrid Cloud](#hybrid-cloud)
+    - [GitOps](#gitops-8)
+  - [Kubernetes Distributions](#kubernetes-distributions)
+    - [Automated Operations](#automated-operations)
+    - [Enterprise Distributions](#enterprise-distributions)
+1. [Infrastructure as Code](#infrastructure-as-code-4)
+  - [Kubernetes Provisioning](#kubernetes-provisioning)
+    - [GitOps Frameworks](#gitops-frameworks)
+  - [Kubestack](#kubestack)
+    - [GitOps](#gitops-9)
+1. [Kubernetes](#kubernetes-1)
+  - [Cluster Operations](#cluster-operations)
+    - [Automation](#automation-3)
+1. [Networking](#networking)
+  - [CNI Plugins](#cni-plugins)
+    - [Overlay Networks](#overlay-networks)
+  - [Ingress and Gateway](#ingress-and-gateway)
+    - [Automation](#automation-4)
+  - [Service Mesh](#service-mesh)
+    - [eBPF vs Proxy](#ebpf-vs-proxy)
+1. [Orchestration and Packaging](#orchestration-and-packaging)
+  - [Helm and GitOps](#helm-and-gitops)
+    - [Helm Overview](#helm-overview)
+1. [Platform Architecture](#platform-architecture)
+  - [GitOps](#gitops-10)
+    - [Modern Pipelines](#modern-pipelines)
+1. [Platform Engineering](#platform-engineering)
+  - [GitOps](#gitops-11)
+    - [Helm Lifecycle Management](#helm-lifecycle-management)
+  - [GitOps and Deployment](#gitops-and-deployment)
+    - [Flux Ecosystem](#flux-ecosystem)
+  - [Infrastructure as Code](#infrastructure-as-code-5)
+    - [Terraform and AWS](#terraform-and-aws)
+      - [EKS Modules](#eks-modules)
+  - [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
+    - [Alternative Deployment Engines](#alternative-deployment-engines)
+  - [Multi-Cluster Routing](#multi-cluster-routing)
+    - [Fleet Orchestration](#fleet-orchestration)
+1. [Provisioning](#provisioning)
+  - [GitOps](#gitops-12)
+    - [Legacy Tools](#legacy-tools-1)
+    - [Media](#media)
+
 ## API Management
 
 ### GitOps (1)
@@ -113,7 +303,7 @@
 
 #### Terraform Practices
 
-  - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
+  - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
 ## Cloud Native
 
 ### Kubernetes
@@ -179,7 +369,7 @@
   - **(2022)** [itnext.io: Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the fundamental cultural changes required to onboard developer and operational teams to a GitOps model, emphasizing the pivot from localized server scripting to trust in central automated reconciliation systems.
 #### Design Patterns
 
-  - **(2021)** [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) <span class='md-tag md-tag--info'>⭐ 359</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open directory detailing tested structural patterns for GitOps repo layouts. Helps architectural teams implement scalable environment propagation, secure branch systems, and robust template overlays cleanly.
+  - **(2021)** [==github.com/cloudogu/gitops-patterns==](https://github.com/cloudogu/gitops-patterns) <span class='md-tag md-tag--info'>⭐ 359</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c4557625" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 6 L 30 13 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-c4557625)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open directory detailing tested structural patterns for GitOps repo layouts. Helps architectural teams implement scalable environment propagation, secure branch systems, and robust template overlays cleanly.
 #### Enterprise Methodology
 
   - **(2022)** [github.blog: Applying GitOps principles to your operations](https://github.blog/enterprise-software/devops/applying-gitops-principles-to-your-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents GitHub's operational guidelines for implementing GitOps patterns at scale. Outlines secure repository structures, developer pull-request approval schemas, and automated audit structures for enterprise environments.
@@ -234,14 +424,14 @@
   - **(2021)** [thenewstack.io: Kubernetes at Scale without GitOps Is a Bad Idea](https://thenewstack.io/kubernetes-at-scale-without-gitops-is-a-bad-idea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the severe configuration drift and maintenance challenges of operating large-scale Kubernetes estates without declarative synchronization. Synthesizes a case for strict GitOps architectures to automate security posture, reduce configuration complexity, and eliminate manual drift errors.
 #### Standards (1)
 
-  - **(2021)** [==github.com/open-gitops/project 🌟==](https://github.com/open-gitops/project) <span class='md-tag md-tag--info'>⭐ 1178</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official open-source home of the OpenGitOps project. Contains formalized declarative infrastructure specifications and standards. Live Grounding verifies this as the canonical source of GitOps principles referenced by enterprises implementing native platform systems.
+  - **(2021)** [==github.com/open-gitops/project 🌟==](https://github.com/open-gitops/project) <span class='md-tag md-tag--info'>⭐ 1178</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-770330b4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 5 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-770330b4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official open-source home of the OpenGitOps project. Contains formalized declarative infrastructure specifications and standards. Live Grounding verifies this as the canonical source of GitOps principles referenced by enterprises implementing native platform systems.
   - **(2021)** [GitOps Working Group 🌟](https://github.com/gitops-working-group/gitops-working-group) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — CNCF-sponsored GitOps Working Group focusing on developing unified industry specifications. Establishes the core principles of GitOps (declarative state, version control, automated pull, active reconciliation) for tool development interoperability.
 #### Telco and Edge
 
   - **(2021)** [weave.works: The world’s largest telcos are now embracing GitOps. Deutsche Telekom explains why](https://www.weave.works/blog/deutsche-telekom-explain-why-they-chose-gitops-for-5g) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study analyzing how major telecommunications networks (e.g., Deutsche Telekom) apply GitOps workflows to govern large-scale 5G infrastructure. Curator Insight validates complex hybrid deployments, while Live Grounding proves the absolute necessity of Git-driven edge management to ensure consistent performance over thousands of remote kubernetes endpoints.
 #### Testing Environments
 
-  - **(2021)** [==github.com/cloudogu/gitops-playground#example-applications==](https://github.com/cloudogu/gitops-playground#example-applications) <span class='md-tag md-tag--info'>⭐ 266</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fully configured local testing playground that showcases multi-tool GitOps pipelines. Includes pre-wired sample apps to help developers analyze live sync processes, drift reconciliation, and integration dynamics using ArgoCD and Flux.
+  - **(2021)** [==github.com/cloudogu/gitops-playground#example-applications==](https://github.com/cloudogu/gitops-playground) <span class='md-tag md-tag--info'>⭐ 266</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0faf32a2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 13 L 30 3 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-0faf32a2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fully configured local testing playground that showcases multi-tool GitOps pipelines. Includes pre-wired sample apps to help developers analyze live sync processes, drift reconciliation, and integration dynamics using ArgoCD and Flux.
 #### Tool Comparison
 
   - **(2021)** [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares design architectures of FluxCD, ArgoCD, and Jenkins X. Contrasts Flux's minimal controller-native footprints with ArgoCD's feature-rich enterprise dashboard and Jenkins X's opinionated, complete CI/CD environments.
@@ -266,7 +456,7 @@
 
 #### Automation
 
-  - **(2023)** [==openshift-applier==](https://github.com/redhat-cop/openshift-applier) <span class='md-tag md-tag--info'>⭐ 98</span> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible-based configuration framework from the Red Hat Community of Practice (CoP). It simplifies OpenShift resource definition by translating complex templates into structured variables, allowing legacy automation tools to interface with Kubernetes.
+  - **(2023)** [==openshift-applier==](https://github.com/redhat-cop/openshift-applier) <span class='md-tag md-tag--info'>⭐ 98</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-47a4411c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 8 L 20 12 L 30 13 L 40 10 L 50 10" fill="none" stroke="url(#spark-grad-47a4411c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An Ansible-based configuration framework from the Red Hat Community of Practice (CoP). It simplifies OpenShift resource definition by translating complex templates into structured variables, allowing legacy automation tools to interface with Kubernetes.
 #### CICD Pipeline
 
   - **(2021)** [thenewstack.io: Red Hat Delivers Full GitOps CI/CD Built on Tekton and Argo](https://thenewstack.io/red-hat-delivers-full-gitops-ci-cd-built-on-tekton-and-argo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A product release report exploring Red Hat's operationalization of Tekton and ArgoCD, demonstrating enterprise-level support pathways and consolidated operator integrations inside standard OpenShift environments.
@@ -275,7 +465,7 @@
 
 #### Glasskube
 
-  - **(2024)** [==github.com/glasskube/glasskube==](https://github.com/glasskube/glasskube) <span class='md-tag md-tag--info'>⭐ 3494</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for Glasskube, a next-generation package manager for Kubernetes written in Go. Glasskube simplifies package discovery, automated lifecycle updates, and dependency mapping through structured Custom Resource Definitions (CRDs) and robust validation.
+  - **(2024)** [==github.com/glasskube/glasskube==](https://github.com/glasskube/glasskube) <span class='md-tag md-tag--info'>⭐ 3494</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-351f8846" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 4 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-351f8846)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for Glasskube, a next-generation package manager for Kubernetes written in Go. Glasskube simplifies package discovery, automated lifecycle updates, and dependency mapping through structured Custom Resource Definitions (CRDs) and robust validation.
   - **(2024)** [glasskube.dev 🌟](https://glasskube.dev) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Glasskube.dev represents the homepage and core operational documentation hub for Glasskube, a modern enterprise-grade package manager for Kubernetes. Designed to eliminate Helm syntax overhead, it provides an intuitive visual UI and CLI setup for streamlining complex cluster component lifecycles.
 ### Progressive Delivery (1)
 
@@ -450,7 +640,7 @@
 
 ##### Infrastructure as Code (3)
 
-  - **(2025)** [**EntraExporter**](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 866</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An essential open-source PowerShell tool designed to export entire Microsoft Entra ID tenant configurations to local JSON files. In 2026, EntraExporter is widely used by security and architecture teams to establish configuration baselines, detect drift, and archive tenant states for compliance audits.
+  - **(2025)** [**EntraExporter**](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 866</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e45a48f7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 2 L 30 2 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-e45a48f7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An essential open-source PowerShell tool designed to export entire Microsoft Entra ID tenant configurations to local JSON files. In 2026, EntraExporter is widely used by security and architecture teams to establish configuration baselines, detect drift, and archive tenant states for compliance audits.
 ## Infrastructure (1)
 
 ### Hybrid Cloud
@@ -465,7 +655,7 @@
   - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
 #### Enterprise Distributions
 
-  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
+  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
 ## Infrastructure as Code (4)
 
 ### Kubernetes Provisioning
@@ -491,12 +681,12 @@
 
 #### Overlay Networks
 
-  - **(2024)** [==github: Weave Net - Weaving Containers into Applications==](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6612</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a widely adopted container CNI plugin that creates an autonomous peer-to-peer overlay network with no external database requirements. The repository was archived by Weaveworks in 2024, prompting enterprise engineering teams to migrate to active, high-performance CNIs like Cilium (eBPF-driven) or Calico.
+  - **(2024)** [==github: Weave Net - Weaving Containers into Applications==](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6612</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d5161111" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 12 L 30 7 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-d5161111)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weave Net is a widely adopted container CNI plugin that creates an autonomous peer-to-peer overlay network with no external database requirements. The repository was archived by Weaveworks in 2024, prompting enterprise engineering teams to migrate to active, high-performance CNIs like Cilium (eBPF-driven) or Calico.
 ### Ingress and Gateway
 
 #### Automation (4)
 
-  - **(2021)** [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight automation operator designed to monitor services and dynamically generate DNS-mapped Ingress resources to reduce manual administrative overhead.
+  - **(2021)** [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-445d2e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 10 L 30 11 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-445d2e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight automation operator designed to monitor services and dynamically generate DNS-mapped Ingress resources to reduce manual administrative overhead.
 ### Service Mesh
 
 #### eBPF vs Proxy
@@ -527,7 +717,7 @@
 
 #### Flux Ecosystem
 
-  - **(2021)** [==github: Flux==](https://github.com/fluxcd/flux) <span class='md-tag md-tag--info'>⭐ 6861</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The deprecated and archived GitHub repository for the original Flux v1 GitOps engine. Completely succeeded by the microservice-driven, decoupled Flux v2 architecture.
+  - **(2021)** [==github: Flux==](https://github.com/fluxcd/flux) <span class='md-tag md-tag--info'>⭐ 6861</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-520daebf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 2 L 30 12 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-520daebf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The deprecated and archived GitHub repository for the original Flux v1 GitOps engine. Completely succeeded by the microservice-driven, decoupled Flux v2 architecture.
   - **(2021)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A crucial guide explaining how to securely manage encrypted Kubernetes Secrets in public Git repositories using Mozilla SOPS, AWS KMS, and the Flux source/kustomize decryption drivers.
 ### Infrastructure as Code (5)
 
@@ -540,7 +730,7 @@
 
 #### Alternative Deployment Engines
 
-  - **(2026)** [**Nelm: A Helm Alternative for Kubernetes Deployments**](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1083</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-performance deployment engine embedded in Werf that provides a drop-in, robust alternative to standard Helm tracking. It addresses Helm's native state validation limitations by offering deep, real-time resource validation and status monitoring.
+  - **(2026)** [**Nelm: A Helm Alternative for Kubernetes Deployments**](https://github.com/werf/nelm) <span class='md-tag md-tag--info'>⭐ 1083</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-842b63c3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 11 L 30 9 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-842b63c3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A high-performance deployment engine embedded in Werf that provides a drop-in, robust alternative to standard Helm tracking. It addresses Helm's native state validation limitations by offering deep, real-time resource validation and status monitoring.
 ### Multi-Cluster Routing
 
 #### Fleet Orchestration
@@ -552,7 +742,7 @@
 
 #### Legacy Tools (1)
 
-  - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
+  - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-edca5296" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 10 L 30 4 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-edca5296)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
 #### Media
 
   - **(2020)** [WKSctl: a Tool for Kubernetes Cluster Management Using GitOps](https://www.infoq.com/news/2020/02/wksctl-kubernetes-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoQ technical review detailing the core benefits of using WKSctl to manage host infrastructure via GitOps, analyzing how automated controllers handle node upgrades and configurations without manual ssh actions.

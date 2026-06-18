@@ -3,6 +3,93 @@
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Cloud Architecture](#cloud-architecture)
+  - [Certification](#certification)
+    - [AWS](#aws)
+      - [Solutions Architect Professional](#solutions-architect-professional)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Package Archives](#package-archives)
+    - [Visualization](#visualization)
+1. [Kubernetes and Cloud Native](#kubernetes-and-cloud-native)
+  - [CICD](#cicd)
+    - [Continuous Deployment](#continuous-deployment)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Middleware](#middleware)
+  - [Messaging Orchestration](#messaging-orchestration)
+    - [Artemis Extensions](#artemis-extensions)
+1. [Observability](#observability)
+  - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [Grafana Provisioning](#grafana-provisioning)
+  - [Log Management](#log-management)
+    - [Deployment Guides](#deployment-guides)
+    - [Grafana Loki](#grafana-loki)
+  - [Metrics](#metrics)
+    - [High Availability Prometheus](#high-availability-prometheus)
+    - [Kubernetes Scheduling](#kubernetes-scheduling)
+  - [Scraping and Exporters](#scraping-and-exporters)
+    - [JVM Monitoring](#jvm-monitoring)
+  - [Telemetry](#telemetry)
+    - [eBPF Application Monitoring](#ebpf-application-monitoring)
+  - [Visualization](#visualization-1)
+    - [Grafana Configuration](#grafana-configuration)
+    - [Grafana Extensibility](#grafana-extensibility)
+    - [Infrastructure as Code](#infrastructure-as-code-2)
+    - [Product Updates](#product-updates)
+    - [Unified Alerting](#unified-alerting)
+1. [Observability and Delivery](#observability-and-delivery)
+  - [Application Observability](#application-observability)
+    - [Grafana Faro RUM](#grafana-faro-rum)
+  - [Kubernetes Observability](#kubernetes-observability)
+    - [Grafana Cloud](#grafana-cloud)
+  - [Load Testing](#load-testing)
+    - [k6 and OpenTelemetry](#k6-and-opentelemetry)
+  - [Metrics Querying](#metrics-querying)
+    - [PromQL Basics](#promql-basics)
+  - [Network Monitoring](#network-monitoring)
+    - [Advanced Prometheus](#advanced-prometheus)
+    - [Prometheus snmp_exporter](#prometheus-snmpexporter)
+  - [Platform Operations](#platform-operations)
+    - [Managed Observability](#managed-observability)
+  - [Synthetic Monitoring](#synthetic-monitoring)
+    - [Grafana Alerting](#grafana-alerting)
+  - [Visualization](#visualization-2)
+    - [Dashboard Design](#dashboard-design)
+    - [Grafana Cloud](#grafana-cloud-1)
+    - [Grafana Cloud Integration](#grafana-cloud-integration)
+    - [Grafana Plugins](#grafana-plugins)
+    - [Grafana Releases](#grafana-releases)
+1. [Observability and Monitoring](#observability-and-monitoring)
+  - [Data Collection](#data-collection)
+    - [Telemetry Agents](#telemetry-agents)
+  - [Grafana Ecosystem](#grafana-ecosystem)
+    - [AIOps and AI Observability](#aiops-and-ai-observability)
+    - [Cloud and Enterprise Partnerships](#cloud-and-enterprise-partnerships)
+    - [Cloud Integrations](#cloud-integrations)
+    - [Community Dashboards](#community-dashboards)
+    - [Dashboard-as-Code](#dashboard-as-code)
+    - [Dashboards](#dashboards)
+    - [Database Monitoring](#database-monitoring)
+    - [Incident Management](#incident-management)
+    - [Network Observability](#network-observability)
+    - [Platform Evolution](#platform-evolution)
+    - [Security and Access Control](#security-and-access-control)
+    - [UX Best Practices](#ux-best-practices)
+    - [User Experience and Usability](#user-experience-and-usability)
+  - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Core Infrastructure Dashboards](#core-infrastructure-dashboards)
+    - [Grafana Ecosystem](#grafana-ecosystem-1)
+    - [Virtualization Monitoring](#virtualization-monitoring)
+  - [Log Management](#log-management-1)
+    - [Kubernetes Logging](#kubernetes-logging)
+    - [Log Aggregation](#log-aggregation)
+  - [Metrics Storage](#metrics-storage)
+    - [Scalable TSDB](#scalable-tsdb)
+  - [User Experience Monitoring](#user-experience-monitoring)
+    - [Frontend Observability](#frontend-observability)
+
 ## Cloud Architecture
 
 ### Certification
@@ -47,7 +134,7 @@
 
 #### Artemis Extensions
 
-  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
+  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9b8e9d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 9 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-d9b8e9d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
 ## Observability
 
 ### Infrastructure as Code (1)
@@ -76,7 +163,7 @@
 
 #### JVM Monitoring
 
-  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
 ### Telemetry
 
 #### eBPF Application Monitoring
@@ -92,7 +179,7 @@
   - **(2020)** [scylladb.com: Building a Grafana Backend Plugin](https://www.scylladb.com/2020/10/01/building-a-grafana-backend-plugin)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented walkthrough showing how to construct custom backend data plugins for Grafana using Go. It focuses on implementing optimized query parsers, managing API secrets, and routing telemetry queries directly to non-native time-series databases.
 #### Infrastructure as Code (2)
 
-  - **(2026)** [==Grafana provisioning Ansible Role==](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated Ansible role engineered by Cloud Alchemy to deploy, configure, and maintain Grafana services. It translates Grafana's file-based provisioning API parameters into clean Ansible playbooks, standardizing monitoring stack deployments across virtualized environments.
+  - **(2026)** [==Grafana provisioning Ansible Role==](https://github.com/cloudalchemy/ansible-grafana) <span class='md-tag md-tag--info'>⭐ 503</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55eda8f0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 3 L 30 9 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-55eda8f0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[ANSIBLE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated Ansible role engineered by Cloud Alchemy to deploy, configure, and maintain Grafana services. It translates Grafana's file-based provisioning API parameters into clean Ansible playbooks, standardizing monitoring stack deployments across virtualized environments.
 #### Product Updates
 
   - **(2021)** [thenewstack.io: Grafana 7.5: Controversial Pie Charts and Loki Alerts](https://thenewstack.io/grafana-7-5-controversial-pie-charts-and-loki-alerts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the product enhancements shipped in Grafana 7.5, specifically focusing on native alert rule management inside Grafana Loki. It explains how these features simplified developer logging workflows and improved basic dashboard presentation elements.
@@ -164,7 +251,7 @@
 
 #### Telemetry Agents
 
-  - **(2024)** [==grafana/agent: Grafana Agent==](https://github.com/grafana/agent) <span class='md-tag md-tag--info'>⭐ 1709</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An agent for metrics, logs, and trace collection. Live grounding confirms Grafana Agent is now deprecated and succeeded by Grafana Alloy, the vendor's unified telemetry collector for OpenTelemetry and Prometheus.
+  - **(2024)** [==grafana/agent: Grafana Agent==](https://github.com/grafana/agent) <span class='md-tag md-tag--info'>⭐ 1709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dcd09096" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 5 L 30 2 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-dcd09096)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An agent for metrics, logs, and trace collection. Live grounding confirms Grafana Agent is now deprecated and succeeded by Grafana Alloy, the vendor's unified telemetry collector for OpenTelemetry and Prometheus.
 ### Grafana Ecosystem
 
 #### AIOps and AI Observability
@@ -179,8 +266,8 @@
   - **(2022)** [devblogs.microsoft.com:Monitoring Azure by using Grafana dashboards 🌟](https://devblogs.microsoft.com/devops/monitoring-azure-by-using-grafana-dashboards)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on visualizing Azure metrics using native Azure Monitor integrations and Azure Managed Grafana. Explores cross-tenant security and centralized dashboard architectures in public cloud environments.
 #### Community Dashboards
 
-  - **(2022)** [==github.com/onzack/grafana-dashboards==](https://github.com/onzack/grafana-dashboards) <span class='md-tag md-tag--info'>⭐ 145</span> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Collection of bespoke dashboards for infrastructure monitoring. Covers edge network routers, Ceph clusters, and hardware diagnostics via Prometheus exporters.
-  - **(2021)** [==github.com/DevOps-Nirvana/Grafana-Dashboards==](https://github.com/DevOps-Nirvana/Grafana-Dashboards) <span class='md-tag md-tag--info'>⭐ 314</span> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community-maintained dashboard library specialized for common DevOps infrastructure. Includes optimization configurations for Nginx, PHP-FPM, MySQL, Redis, and Linux host monitoring.
+  - **(2022)** [==github.com/onzack/grafana-dashboards==](https://github.com/onzack/grafana-dashboards) <span class='md-tag md-tag--info'>⭐ 145</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-833788aa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 12 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-833788aa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Collection of bespoke dashboards for infrastructure monitoring. Covers edge network routers, Ceph clusters, and hardware diagnostics via Prometheus exporters.
+  - **(2021)** [==github.com/DevOps-Nirvana/Grafana-Dashboards==](https://github.com/DevOps-Nirvana/Grafana-Dashboards) <span class='md-tag md-tag--info'>⭐ 314</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b1d29198" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 6 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-b1d29198)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community-maintained dashboard library specialized for common DevOps infrastructure. Includes optimization configurations for Nginx, PHP-FPM, MySQL, Redis, and Linux host monitoring.
   - **(2020)** [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived repository containing early Grafana dashboard iterations. Shows fundamental layout compositions for visualizing container workloads, though highly outdated compared to current standards.
 #### Dashboard-as-Code
 
@@ -190,7 +277,7 @@
   - **(2021)** [Grafana Dashboards](https://grafana.com/grafana/dashboards) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official ecosystem library hosting thousands of pre-configured dashboard JSON definitions. Enables fast deployment of visual layouts for standard tools like databases, networks, and virtualizers.
 #### Database Monitoring
 
-  - **(2023)** [==Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟==](https://github.com/percona/grafana-dashboards) <span class='md-tag md-tag--info'>⭐ 2902</span> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise-grade dashboards by Percona designed for MySQL, PostgreSQL, and MongoDB monitoring. Delivers deep, low-level metrics on query throughput, memory pool utilization, and thread contention.
+  - **(2023)** [==Percona Grafana dashboards for MySQL and MongoDB monitoring using Prometheus 🌟==](https://github.com/percona/grafana-dashboards) <span class='md-tag md-tag--info'>⭐ 2902</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-98bb75fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 11 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-98bb75fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise-grade dashboards by Percona designed for MySQL, PostgreSQL, and MongoDB monitoring. Delivers deep, low-level metrics on query throughput, memory pool utilization, and thread contention.
 #### Incident Management
 
   - **(2022)** [infoq.com: Grafana Cloud Adds Incident and On-Call Management Solutions](https://www.infoq.com/news/2022/02/grafana-incident-oncall)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the integration of 'Grafana Incident' and 'Grafana OnCall' into the Grafana Cloud platform. Transitions Grafana from passive telemetry visualization to active, multi-channel incident response coordination.
@@ -214,13 +301,13 @@
 
 #### Core Infrastructure Dashboards
 
-  - **(2024)** [==github.com/dotdc/grafana-dashboards-kubernetes 🌟==](https://github.com/dotdc/grafana-dashboards-kubernetes) <span class='md-tag md-tag--info'>⭐ 3599</span> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Production-grade, community-approved Kubernetes dashboards. Delivers deep, clean observability of APIServer, node memory, CPU scheduling, storage, and pod ingress configurations.
+  - **(2024)** [==github.com/dotdc/grafana-dashboards-kubernetes 🌟==](https://github.com/dotdc/grafana-dashboards-kubernetes) <span class='md-tag md-tag--info'>⭐ 3599</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a471185e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 2 L 30 12 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-a471185e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Production-grade, community-approved Kubernetes dashboards. Delivers deep, clean observability of APIServer, node memory, CPU scheduling, storage, and pod ingress configurations.
 #### Grafana Ecosystem (1)
 
   - **(2023)** [devopscube.com: How To Setup Grafana On Kubernetes](https://devopscube.com/setup-grafana-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical blueprint for deploying Grafana on a Kubernetes cluster. Details setup architectures using Helm charts, Persistent Volume Claims (PVCs) for persistence, and ConfigMaps to configure programmatic dashboards.
 #### Virtualization Monitoring
 
-  - **(2023)** [==github.com/kubevirt/monitoring==](https://github.com/kubevirt/monitoring) <span class='md-tag md-tag--info'>⭐ 28</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Defines monitoring instrumentation targets for KubeVirt resources. Provides Prometheus alerting rules and Grafana dashboard templates specifically optimized to monitor VM workloads running in Kubernetes.
+  - **(2023)** [==github.com/kubevirt/monitoring==](https://github.com/kubevirt/monitoring) <span class='md-tag md-tag--info'>⭐ 28</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e8edfa54" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 9 L 30 8 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-e8edfa54)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Defines monitoring instrumentation targets for KubeVirt resources. Provides Prometheus alerting rules and Grafana dashboard templates specifically optimized to monitor VM workloads running in Kubernetes.
 ### Log Management (1)
 
 #### Kubernetes Logging
@@ -233,7 +320,7 @@
 
 #### Scalable TSDB
 
-  - **(2022)** [==github.com/grafana/mimir==](https://github.com/grafana/mimir) <span class='md-tag md-tag--info'>⭐ 5124</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Grafana Mimir is a highly scalable, multi-tenant database for long-term Prometheus metrics storage. Engineered to easily process billions of active series with fast query performance and operational isolation.
+  - **(2022)** [==github.com/grafana/mimir==](https://github.com/grafana/mimir) <span class='md-tag md-tag--info'>⭐ 5124</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dca7ec9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 8 L 20 10 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-3dca7ec9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Grafana Mimir is a highly scalable, multi-tenant database for long-term Prometheus metrics storage. Engineered to easily process billions of active series with fast query performance and operational isolation.
 ### User Experience Monitoring
 
 #### Frontend Observability

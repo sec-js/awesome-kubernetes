@@ -3,6 +3,220 @@
 !!! info "Architectural Context"
     Detailed reference for Monitoring and Performance. Prometheus, Grafana, APMs and more in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Architecture](#architecture)
+  - [Microservices](#microservices)
+    - [Observability](#observability)
+      - [Distributed Tracing](#distributed-tracing)
+1. [Automation](#automation)
+  - [Workflows](#workflows)
+    - [Agent Frameworks](#agent-frameworks)
+1. [Business Strategy](#business-strategy)
+  - [Management](#management)
+    - [Metrics](#metrics)
+      - [KPIs](#kpis)
+1. [Cloud Edge and IoT](#cloud-edge-and-iot)
+  - [Healthcare IoT Integration](#healthcare-iot-integration)
+    - [IoT Security Pitfalls](#iot-security-pitfalls)
+1. [Cloud Native](#cloud-native)
+  - [Cloud Providers](#cloud-providers)
+    - [AWS Observability](#aws-observability)
+  - [Kubernetes](#kubernetes)
+    - [Multi-Cluster Management](#multi-cluster-management)
+  - [Observability](#observability-1)
+    - [APM](#apm)
+    - [Distributed Tracing](#distributed-tracing-1)
+    - [Elastic APM](#elastic-apm)
+    - [Elastic Stack](#elastic-stack)
+    - [ITOM](#itom)
+    - [Infrastructure Monitoring](#infrastructure-monitoring)
+    - [Kubernetes Monitoring](#kubernetes-monitoring)
+    - [Kubernetes Operators](#kubernetes-operators)
+    - [Log Correlation](#log-correlation)
+    - [OpenTelemetry](#opentelemetry)
+    - [Prometheus Integration](#prometheus-integration)
+    - [Serverless](#serverless)
+    - [Synthetics](#synthetics)
+  - [SRE](#sre)
+    - [Performance Engineering](#performance-engineering)
+  - [Serverless](#serverless-1)
+    - [AWS Lambda Monitoring](#aws-lambda-monitoring)
+1. [Container Orchestration](#container-orchestration)
+  - [Containers](#containers)
+    - [Observability](#observability-2)
+      - [Basics](#basics)
+  - [Kubernetes](#kubernetes-1)
+    - [Logging](#logging)
+      - [Docker Logs](#docker-logs)
+    - [Observability](#observability-3)
+      - [Challenges](#challenges)
+      - [Networking](#networking)
+        - [kube-proxy](#kube-proxy)
+      - [PLG Stack](#plg-stack)
+      - [Prometheus](#prometheus)
+        - [Configuration](#configuration)
+        - [Grafana](#grafana)
+        - [Guides](#guides)
+        - [Operators](#operators)
+      - [Sysdig](#sysdig)
+        - [Security](#security)
+      - [cAdvisor](#cadvisor)
+  - [OpenShift](#openshift)
+    - [Observability](#observability-4)
+      - [Prometheus](#prometheus-1)
+        - [Grafana](#grafana-1)
+    - [Releases](#releases)
+      - [Enterprise Kubernetes](#enterprise-kubernetes)
+1. [Data Engineering](#data-engineering)
+  - [Stream Processing](#stream-processing)
+  - [Time Series Databases](#time-series-databases)
+1. [Data Stores](#data-stores)
+  - [Elasticsearch](#elasticsearch)
+    - [Performance Tuning](#performance-tuning)
+1. [DevOps](#devops)
+  - [Automation](#automation-1)
+    - [CICD](#cicd)
+      - [Performance Metrics](#performance-metrics)
+    - [Monitoring as Code](#monitoring-as-code)
+      - [GitOps](#gitops)
+  - [CICD](#cicd-1)
+    - [Continuous Delivery](#continuous-delivery)
+    - [Jenkins](#jenkins)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [GitOps](#gitops-1)
+  - [Observability](#observability-5)
+    - [APIs](#apis)
+      - [Latency](#latency)
+        - [Releases](#releases-1)
+    - [CICD](#cicd-2)
+      - [Change Management](#change-management)
+    - [Careers](#careers)
+      - [Culture](#culture)
+    - [Continuous Telemetry](#continuous-telemetry)
+      - [Code to Cloud](#code-to-cloud)
+    - [Tooling](#tooling)
+      - [Comparisons](#comparisons)
+  - [Site Reliability Engineering](#site-reliability-engineering)
+    - [Infrastructure](#infrastructure)
+      - [Observability](#observability-6)
+        - [Best Practices](#best-practices)
+1. [Development](#development)
+  - [Runtime](#runtime)
+    - [Node.js](#nodejs)
+1. [Event-Driven Systems](#event-driven-systems)
+  - [Apache Kafka](#apache-kafka)
+    - [Observability and UI](#observability-and-ui)
+1. [Infrastructure](#infrastructure-1)
+  - [Performance Testing](#performance-testing)
+    - [Kubernetes and OpenShift](#kubernetes-and-openshift)
+    - [Observability](#observability-7)
+  - [Sysadmin](#sysadmin)
+    - [Resources](#resources)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Observability](#observability-8)
+  - [APM](#apm-1)
+    - [Analysis](#analysis)
+    - [Commercial Observability](#commercial-observability)
+  - [APM and Logging](#apm-and-logging)
+    - [Application Performance Monitoring](#application-performance-monitoring)
+    - [Dynatrace APM](#dynatrace-apm)
+    - [Dynatrace PoC](#dynatrace-poc)
+    - [Elastic APM](#elastic-apm-1)
+    - [Elastic APM Infrastructure](#elastic-apm-infrastructure)
+  - [APM and Metrics](#apm-and-metrics)
+    - [Observability Platform](#observability-platform)
+  - [Application Monitoring](#application-monitoring)
+    - [.NET Core](#net-core)
+    - [Java Diagnostics](#java-diagnostics)
+    - [Java Spring Boot](#java-spring-boot)
+  - [Business Strategy](#business-strategy-1)
+    - [Adoption](#adoption)
+      - [Value Realization](#value-realization)
+    - [Governance](#governance)
+      - [Metrics](#metrics-1)
+  - [Distributed Tracing](#distributed-tracing-2)
+    - [Data Pipelines](#data-pipelines)
+    - [Evolution](#evolution)
+    - [Kubernetes Testing](#kubernetes-testing)
+    - [Methodology](#methodology)
+    - [OpenTelemetry Operator](#opentelemetry-operator)
+    - [Research](#research)
+    - [Specifications](#specifications)
+    - [Tool Comparison](#tool-comparison)
+    - [Zipkin](#zipkin)
+  - [Industry Trends](#industry-trends)
+    - [AI](#ai)
+      - [AIOps](#aiops)
+    - [Technology Evolution](#technology-evolution)
+  - [Infrastructure Monitoring](#infrastructure-monitoring-1)
+    - [Zabbix and OpenShift](#zabbix-and-openshift)
+    - [Zabbix and Prometheus](#zabbix-and-prometheus)
+  - [Log Management](#log-management)
+    - [Alerting](#alerting)
+    - [Elastic Stack](#elastic-stack-1)
+    - [Industry Shifts](#industry-shifts)
+    - [Kubernetes Operators](#kubernetes-operators-1)
+    - [Local Development](#local-development)
+    - [OpenSearch](#opensearch)
+    - [Search Mechanics](#search-mechanics)
+    - [Strategy](#strategy)
+    - [Training](#training)
+  - [Metrics](#metrics-2)
+    - [Core Stack](#core-stack)
+    - [Prometheus Scale](#prometheus-scale)
+  - [OpenTelemetry](#opentelemetry-1)
+    - [Collector Infrastructure](#collector-infrastructure)
+  - [Platform Monitoring](#platform-monitoring)
+    - [Dynatrace Agent Deployment](#dynatrace-agent-deployment)
+    - [Dynatrace OpenShift](#dynatrace-openshift)
+    - [Dynatrace OpenShift Integration](#dynatrace-openshift-integration)
+    - [Kubernetes Day 2](#kubernetes-day-2)
+  - [Scraping and Exporters](#scraping-and-exporters)
+    - [JVM Monitoring](#jvm-monitoring)
+  - [Standards](#standards)
+    - [Metrics Comparison](#metrics-comparison)
+  - [Tracing](#tracing)
+    - [Distributed Tracing](#distributed-tracing-3)
+    - [Grafana Tempo](#grafana-tempo)
+  - [Visualization](#visualization)
+    - [Dashboards](#dashboards)
+1. [Observability and Monitoring](#observability-and-monitoring)
+  - [Application Performance Monitoring](#application-performance-monitoring-1)
+    - [APM Curated Resources](#apm-curated-resources)
+  - [Synthetic Monitoring](#synthetic-monitoring)
+    - [Uptime-Kuma](#uptime-kuma)
+1. [Performance Engineering](#performance-engineering-1)
+  - [Profiling](#profiling)
+    - [Development Workflow](#development-workflow)
+      - [Continuous Profiling](#continuous-profiling)
+1. [Security](#security-1)
+  - [Monitoring](#monitoring)
+    - [Host Security](#host-security)
+1. [Site Reliability Engineering](#site-reliability-engineering-1)
+  - [Observability](#observability-9)
+    - [Guides](#guides-1)
+      - [Beginners](#beginners)
+    - [Methodologies](#methodologies)
+      - [Advanced Monitoring](#advanced-monitoring)
+    - [Monitoring Methodologies](#monitoring-methodologies)
+      - [RED Method](#red-method)
+    - [Terminology](#terminology)
+      - [Monitoring vs Observability](#monitoring-vs-observability)
+    - [Theory](#theory)
+      - [APM](#apm-2)
+      - [Monitoring vs Observability](#monitoring-vs-observability-1)
+1. [Software Engineering](#software-engineering)
+  - [CICD](#cicd-3)
+    - [Methodology](#methodology-1)
+1. [Systems Design](#systems-design)
+  - [Observability](#observability-10)
+    - [Data Pipelines](#data-pipelines-1)
+      - [Telemetry Routing](#telemetry-routing)
+    - [Logging Systems](#logging-systems)
+      - [Architecture](#architecture-1)
+
 ## Architecture
 
 ### Microservices
@@ -18,7 +232,7 @@
 
 #### Agent Frameworks
 
-  - **(2026)** [==Huginn==](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49468</span> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a self-hosted, deterministic agent network to automate security and integration pipelines.
+  - **(2026)** [==Huginn==](https://github.com/huginn/huginn) <span class='md-tag md-tag--info'>⭐ 49468</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d0be434f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 11 L 30 12 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-d0be434f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a self-hosted, deterministic agent network to automate security and integration pipelines.
 ## Business Strategy
 
 ### Management
@@ -54,7 +268,7 @@
   - **(2026)** [datadoghq.com](https://www.datadoghq.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dominant, enterprise-grade SaaS observability and security monitoring platform. In 2026, Datadog integrates deeply with the OpenTelemetry standard, combining LLM-driven anomaly detection (via Bits AI) and deep container runtime visibility for highly complex distributed microservice environments.
 #### Distributed Tracing (1)
 
-  - **(2026)** [==Grafana Tempo==](https://github.com/grafana/tempo) <span class='md-tag md-tag--info'>⭐ 5305</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-scale, cost-effective distributed tracing backend designed to work exclusively with object storage like S3 or GCS. In 2026, Tempo has consolidated its position as the premier choice for large-scale enterprise tracing, deeply integrated with Grafana Loki and Mimir to correlate logs, metrics, and traces.
+  - **(2026)** [==Grafana Tempo==](https://github.com/grafana/tempo) <span class='md-tag md-tag--info'>⭐ 5305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b7afd5da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 2 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b7afd5da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-scale, cost-effective distributed tracing backend designed to work exclusively with object storage like S3 or GCS. In 2026, Tempo has consolidated its position as the premier choice for large-scale enterprise tracing, deeply integrated with Grafana Loki and Mimir to correlate logs, metrics, and traces.
   - **(2021)** [thenewstack.io: Jaeger vs. Zipkin: Battle of the Open Source Tracing Tools](https://thenewstack.io/jaeger-vs-zipkin-battle-of-the-open-source-tracing-tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical comparative analysis of Jaeger versus Zipkin for microservice tracing. While Zipkin pioneered open-source tracing, Jaeger became a dominant CNCF graduate. By 2026, both fully interoperate with OpenTelemetry APIs, but Jaeger remains highly preferred for high-performance cloud environments.
   - **(2021)** [opensource.com: Get started with distributed tracing using Grafana Tempo](https://opensource.com/article/21/2/tempo-distributed-tracing) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical hands-on guide for bootstrapping distributed tracing with Grafana Tempo. It highlights how eliminating complex storage backends like Cassandra or Elasticsearch reduces infrastructure operational costs. 2026 best practices emphasize using Tempo alongside standard OpenTelemetry collectors.
 #### Elastic APM
@@ -63,15 +277,15 @@
   - **(2021)** [bqstack.com: Monitoring Application using Elastic APM](https://bqstack.com/b/detail/109) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive walkthrough focusing on application performance monitoring via Elastic APM. It details agent-to-server connection topologies and dashboards. 2026 frameworks heavily advocate combining this setup with unified Kibana views mapping out both service dependencies and OpenSearch raw logs.
 #### Elastic Stack
 
-  - **(2021)** [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix#matrix_compatibility) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A technical specification denoting the minimum Elasticsearch requirement (6.2.x) for early Elastic APM deployments. From a 2026 engineering perspective, this represents a legacy baseline; contemporary systems rely heavily on Elasticsearch 8.x+ or OpenSearch to leverage advanced vector-search and schema-on-read capabilities.
+  - **(2021)** [Mininimum elasticsearch requirement is 6.2.x or higher](https://www.elastic.co/support/matrix) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A technical specification denoting the minimum Elasticsearch requirement (6.2.x) for early Elastic APM deployments. From a 2026 engineering perspective, this represents a legacy baseline; contemporary systems rely heavily on Elasticsearch 8.x+ or OpenSearch to leverage advanced vector-search and schema-on-read capabilities.
   - **(2021)** [Elastic APM Server Docker image](https://github.com/sls-dev1/openshift-elastic-apm-server) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A Dockerized configuration tailored to deploy Elastic APM Server on Red Hat OpenShift. While still relevant for highly restricted, air-gapped legacy OpenShift setups, modern 2026 deployments prefer using the official Elastic Cloud on Kubernetes (ECK) operator for automated scaling and lifecycle management.
 #### ITOM
 
   - **(2021)** [dynatrace.com: 4 steps to modernize your IT service operations with Dynatrace](https://www.dynatrace.com/news/blog/4-steps-to-modernize-your-it-service-operations-with-dynatrace) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic blueprint mapping out IT Service Operations (ITOM) modernization using AIOps. In 2026, this process focuses on replacing manual service tickets with self-healing scripts triggered directly by real-time telemetry, correlating runtime context with topological dependencies.
 #### Infrastructure Monitoring
 
-  - **(2026)** [==Netdata==](https://github.com/netdata/netdata) <span class='md-tag md-tag--info'>⭐ 79146</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An ultra-high-performance, zero-configuration system monitoring agent boasting over 79k stars on GitHub. Netdata provides real-time, per-second metrics directly from physical hosts, virtual machines, and container endpoints, making it a stellar edge diagnostics tool in 2026.
-  - **(2026)** [==Glances==](https://github.com/nicolargo/glances) <span class='md-tag md-tag--info'>⭐ 32824</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Python-based CLI and web tool providing real-time system resource visualization. Glances remains a beloved utility for terminal-driven infrastructure debugging and fast diagnostics on container platforms in 2026, without needing heavy visualization suites.
+  - **(2026)** [==Netdata==](https://github.com/netdata/netdata) <span class='md-tag md-tag--info'>⭐ 79146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0578e257" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 5 L 30 8 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-0578e257)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An ultra-high-performance, zero-configuration system monitoring agent boasting over 79k stars on GitHub. Netdata provides real-time, per-second metrics directly from physical hosts, virtual machines, and container endpoints, making it a stellar edge diagnostics tool in 2026.
+  - **(2026)** [==Glances==](https://github.com/nicolargo/glances) <span class='md-tag md-tag--info'>⭐ 32824</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fa1a2ada" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 9 L 30 6 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-fa1a2ada)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Python-based CLI and web tool providing real-time system resource visualization. Glances remains a beloved utility for terminal-driven infrastructure debugging and fast diagnostics on container platforms in 2026, without needing heavy visualization suites.
 #### Kubernetes Monitoring
 
   - **(2021)** [Successful Kubernetes Monitoring – Three Pitfalls to Avoid](https://www.dynatrace.com/news/blog/successful-kubernetes-monitoring-3-pitfalls-to-avoid) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of critical pitfalls in Kubernetes monitoring, focusing on metric explosion, siloed data pools, and lack of correlation. 2026 engineering solutions resolve these issues by relying on automated, sidecar-less auto-injection and intelligent AIOps platforms to trace short-lived ephemeral containers.
@@ -176,7 +390,7 @@
   - **(2026)** [Apache Beam](https://beam.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced unified programming model for batch and stream processing pipelines. Running natively on Kubernetes via Apache Flink or Spark runners, Beam remains a fundamental framework in 2026 for high-concurrency event-driven architectures and real-time telemetry stream ingestion.
 ### Time Series Databases
 
-  - **(2026)** [==TDengine==](https://github.com/taosdata/TDengine) <span class='md-tag md-tag--info'>⭐ 24903</span> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source time-series database optimized specifically for IoT and telemetry data storage. Utilizing a unique 'one table per data source' structure, TDengine offers extremely fast writing speeds and high-efficiency query execution, challenging traditional solutions in 2026.
+  - **(2026)** [==TDengine==](https://github.com/taosdata/TDengine) <span class='md-tag md-tag--info'>⭐ 24903</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-81cdbb59" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 10 L 30 2 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-81cdbb59)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source time-series database optimized specifically for IoT and telemetry data storage. Utilizing a unique 'one table per data source' structure, TDengine offers extremely fast writing speeds and high-efficiency query execution, challenging traditional solutions in 2026.
 ## Data Stores
 
 ### Elasticsearch
@@ -206,7 +420,7 @@
   - **(2021)** [cloudbees.com: Automated Build and Deploy Feedback Using Jenkins and Instana' 🌟](https://www.cloudbees.com/blog/automated-build-deploy-feedback-using-instana) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores automating real-time CI/CD pipeline deployment feedback by feeding Jenkins build metadata directly to Instana. In 2026, continuous delivery frameworks rely heavily on these auto-marked release timelines to immediately detect and isolate performance regressions on cluster nodes.
 #### Jenkins
 
-  - **(2021)** [==Jenkins pipeline shared library for the project Elastic APM 🌟==](https://github.com/elastic/apm-pipeline-library) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Jenkins Pipeline Shared Library designed to standardize Elastic APM component deployments. While modern GitOps (e.g., ArgoCD) has largely replaced Jenkins for cloud-native delivery, this Groovy library remains highly valuable for organizations maintaining complex, legacy Jenkins-centric pipelines.
+  - **(2021)** [==Jenkins pipeline shared library for the project Elastic APM 🌟==](https://github.com/elastic/apm-pipeline-library) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-59ae700a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 8 L 20 9 L 30 3 L 40 7 L 50 13" fill="none" stroke="url(#spark-grad-59ae700a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A Jenkins Pipeline Shared Library designed to standardize Elastic APM component deployments. While modern GitOps (e.g., ArgoCD) has largely replaced Jenkins for cloud-native delivery, this Groovy library remains highly valuable for organizations maintaining complex, legacy Jenkins-centric pipelines.
 ### Infrastructure as Code
 
 #### GitOps (1)
@@ -256,14 +470,14 @@
 
 #### Node.js
 
-  - **(2026)** [==PM2==](https://github.com/Unitech/pm2) <span class='md-tag md-tag--info'>⭐ 43210</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard production process manager for Node.js workloads. Despite the rise of Kubernetes-native process management, PM2 remains the preferred daemon for bare-metal Node.js apps, VM-based services, and IoT microservices running at the edge in 2026.
+  - **(2026)** [==PM2==](https://github.com/Unitech/pm2) <span class='md-tag md-tag--info'>⭐ 43210</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e50e094c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 7 L 20 2 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-e50e094c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard production process manager for Node.js workloads. Despite the rise of Kubernetes-native process management, PM2 remains the preferred daemon for bare-metal Node.js apps, VM-based services, and IoT microservices running at the edge in 2026.
 ## Event-Driven Systems
 
 ### Apache Kafka
 
 #### Observability and UI
 
-  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6137</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
+  - **(2023)** [==Kafdrop – Kafka Web UI 🌟==](https://github.com/obsidiandynamics/kafdrop) <span class='md-tag md-tag--info'>⭐ 6137</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d1a972e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 3 L 20 9 L 30 5 L 40 3 L 50 3" fill="none" stroke="url(#spark-grad-2d1a972e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kafdrop is a popular, lightweight web UI for monitoring and managing Apache Kafka clusters. It renders real-time views of brokers, topic structures, partition offsets, consumer group lag, and permits active JSON/protobuf message payload inspection.
 ## Infrastructure (1)
 
 ### Performance Testing
@@ -278,12 +492,12 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4b9ffdc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 7 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-4b9ffdc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Kubernetes Tools
 
 ### General Reference
 
-  - [Transitive blocks](https://fastthread.io/ft-error.jsp&s=t)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fastthread.io in the Kubernetes Tools ecosystem.
+  - [Transitive blocks](https://fastthread.io/ft-error.jsp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fastthread.io in the Kubernetes Tools ecosystem.
   - [medium.com/@magstherdev: OpenTelemetry Operator](https://medium.com/@magstherdev/opentelemetry-operator-d3d407354cbf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@magstherdev: OpenTelemetry Operator in the Kubernetes Tools ecosystem.
   - [magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟](https://www.magalix.com/blog/monitoring-of-kubernetes-cluster-through-prometheus-and-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Monitoring Kubernetes Clusters Through Prometheus & Grafana' 🌟 in the Kubernetes Tools ecosystem.
   - [en.wikipedia.org/wiki/List_of_performance_analysis_tools](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org/wiki/List_of_performance_analysis_tools in the Kubernetes Tools ecosystem.
@@ -317,7 +531,7 @@
   - [medium.com/devops-techable: Setup monitoring with Prometheus and Grafana' in Kubernetes — Start monitoring your Kubernetes cluster resources](https://medium.com/devops-techable/setup-monitoring-with-prometheus-and-grafana-in-kubernetes-start-monitoring-your-kubernetes-a3071f083fa6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/devops-techable: Setup monitoring with Prometheus and Grafana' in Kubernetes — Start monitoring your Kubernetes cluster resources in the Kubernetes Tools ecosystem.
   - [medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry' for Observability](https://medium.com/cloud-native-daily/why-you-shouldnt-fear-to-adopt-opentelemetry-for-observability-fcb6371ea8fe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/cloud-native-daily: Why You Shouldn’t Fear to Adopt OpenTelemetry' for Observability in the Kubernetes Tools ecosystem.
   - [medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing' System Reliability](https://medium.com/@bijit211987/observability-driven-development-2bc2cdde8661)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@bijit211987: Observability Driven Development (ODD)-Enhancing' System Reliability in the Kubernetes Tools ecosystem.
-  - [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html#ocp-311-metrics-and-logging)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering OCP 3.11 Metrics and Logging in the Kubernetes Tools ecosystem.
+  - [OCP 3.11 Metrics and Logging](https://docs.openshift.com/container-platform/3.11/release_notes/ocp_3_11_release_notes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering OCP 3.11 Metrics and Logging in the Kubernetes Tools ecosystem.
   - [Prometheus Cluster Monitoring 🌟](https://docs.openshift.com/container-platform/3.11/install_config/prometheus_cluster_monitoring.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Prometheus Cluster Monitoring 🌟 in the Kubernetes Tools ecosystem.
   - [cncf.io: Monitoring micro-front ends on Kubernetes with NGINX 🌟](https://www.cncf.io/blog/2023/02/01/monitoring-micro-front-ends-on-kubernetes-with-nginx)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==cncf.io: Monitoring micro-front ends on Kubernetes with NGINX== 🌟 in the Kubernetes Tools ecosystem.
   - [dzone: Getting Started With Kibana Advanced Searches](https://dzone.com/articles/getting-started-with-kibana-advanced-searches)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Getting Started With Kibana Advanced Searches in the Kubernetes Tools ecosystem.
@@ -376,7 +590,7 @@
   - **(2016)** [adictosaltrabajo.com: Monitorización y análisis de rendimiento de aplicaciones con Dynatrace APM](https://adictosaltrabajo.com/2016/10/26/monitorizacion-y-analisis-de-rendimiento-de-aplicaciones-con-dynatrace) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Spanish technical walk-through demonstrating Dynatrace's enterprise APM dashboard, automated instrumentation, baseline-driven anomaly detection, and deep transactional flow analysis across traditional and microservices runtimes.
 #### Dynatrace PoC
 
-  - **(2023)** [==My Dynatrace proof of concept 🌟==](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf) <span class='md-tag md-tag--info'>⭐ 663</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive architectural evaluation report and proof of concept depicting Dynatrace deployment inside complex Kubernetes topologies. Discusses performance impact, instrumentation automation, and alerting configurations.
+  - **(2023)** [==My Dynatrace proof of concept 🌟==](https://github.com/nubenetes/awesome-kubernetes/blob/master/pdf/dynatrace_demo.pdf) <span class='md-tag md-tag--info'>⭐ 663</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-02461d98" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 11 L 30 2 L 40 7 L 50 13" fill="none" stroke="url(#spark-grad-02461d98)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive architectural evaluation report and proof of concept depicting Dynatrace deployment inside complex Kubernetes topologies. Discusses performance impact, instrumentation automation, and alerting configurations.
 #### Elastic APM (1)
 
   - **(2024)** [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensible APM engine integrated natively into the Elastic ecosystem. Provides distributed tracing, application-level error capturing, system metrics logging, and auto-instrumentation capabilities for modern software stacks.
@@ -387,7 +601,7 @@
 
 #### Observability Platform
 
-  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27334</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
+  - **(2026)** [==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟==](https://github.com/SigNoz/signoz) <span class='md-tag md-tag--info'>⭐ 27334</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c5610c99" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 6 L 30 6 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-c5610c99)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by ClickHouse. Widely recognized as a major open-source competitor to Datadog.
 ### Application Monitoring
 
 #### .NET Core
@@ -418,7 +632,7 @@
 
 #### Data Pipelines
 
-  - **(2020)** [A Distributed Tracing Adventure in Apache Beam](http://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical retrospective of tracing asynchronous distributed execution paths in Apache Beam data processing pipelines. Addresses transaction correlation across multi-hop distributed transformations and dynamic worker scale-outs.
+  - **(2020)** [A Distributed Tracing Adventure in Apache Beam](https://rion.io/2020/07/04/a-distributed-tracing-adventure-in-apache-beam) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical retrospective of tracing asynchronous distributed execution paths in Apache Beam data processing pipelines. Addresses transaction correlation across multi-hop distributed transformations and dynamic worker scale-outs.
 #### Evolution
 
   - **(2021)** [newrelic.com: OpenTracing, OpenCensus, OpenTelemetry, and New Relic (Best overview of OpenTelemetry)](https://newrelic.com/blog/dem/opentelemetry-opentracing-opencensus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides an industry overview detailing the historical consolidation of OpenTracing and OpenCensus into the singular OpenTelemetry framework, clarifying telemetry standardization for enterprise operations.
@@ -431,7 +645,7 @@
   - **(2018)** [opensource.com: Distributed tracing in a microservices world](https://opensource.com/article/18/9/distributed-tracing-microservices-world) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural necessity of distributed tracing inside modern microservice mesh environments, outlining how it visualizes service dependency networks and identifies downstream latency.
 #### OpenTelemetry Operator
 
-  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1717</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
+  - **(2021)** [==github.com/open-telemetry/opentelemetry-operator==](https://github.com/open-telemetry/opentelemetry-operator) <span class='md-tag md-tag--info'>⭐ 1717</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7fd3211" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 5 L 30 7 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-f7fd3211)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubernetes operator for automating the deployment and management of the OpenTelemetry Collector. Simplifies application instrumentation via automated inject mechanisms for Java, NodeJS, Python, and Dotnet, facilitating declarative telemetry pipeline management across clusters.
 #### Research
 
   - **(2010)** [Dapper](https://research.google/pubs/dapper-a-large-scale-distributed-systems-tracing-infrastructure) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's seminal research paper on large-scale distributed systems tracing infrastructure. Formed the theoretical basis and design patterns for modern tracing architectures including Zipkin, Jaeger, and OpenTelemetry.
@@ -467,7 +681,7 @@
 
 #### Alerting
 
-  - **(2026)** [**jertel/elastalert2**](https://github.com/jertel/elastalert2) <span class='md-tag md-tag--info'>⭐ 1121</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An active, community-maintained fork of ElastAlert designed to query Elasticsearch and trigger real-time alerts based on specific log patterns, spike anomalies, or flatlines. Integrates directly with Slack, Email, PagerDuty, and custom webhooks.
+  - **(2026)** [**jertel/elastalert2**](https://github.com/jertel/elastalert2) <span class='md-tag md-tag--info'>⭐ 1121</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ae38b76" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 4 L 30 10 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-7ae38b76)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An active, community-maintained fork of ElastAlert designed to query Elasticsearch and trigger real-time alerts based on specific log patterns, spike anomalies, or flatlines. Integrates directly with Slack, Email, PagerDuty, and custom webhooks.
 #### Elastic Stack (1)
 
   - **(2020)** [acloudguru.com: Getting started with the Elastic Stack](https://www.pluralsight.com/resources/blog/cloud/getting-started-with-the-elastic-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory hands-on walkthrough for deploying and configuring Elasticsearch, Logstash, and Kibana (ELK Stack). Covers index life-cycle management, ingest pipelines, and structuring unstructured application logs.
@@ -504,12 +718,12 @@
   - **(2019)** [Systems Monitoring with Prometheus and Grafana](https://flightaware.engineering/systems-monitoring-with-prometheus-grafana) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational engineering guide on setting up a robust, scalable systems monitoring pipeline using Prometheus for time-series data storage and Grafana for visual dashboards. Highlights best practices in querying via PromQL and architecting resilient scraping targets.
 #### Prometheus Scale
 
-  - **(2020)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](http://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for distributed Prometheus deployments. While offering a lightweight alternative for scale-out setups, modern production environments in 2026 predominantly utilize Thanos, Cortex, or VictoriaMetrics for highly available global metrics engines.
+  - **(2020)** [Promster: Use Prometheus in huge deployments with dynamic clustering and scrape sharding capabilities based on ETCD service registration](https://github.com/flaviostutz/promster) <span class='md-tag md-tag--info'>⭐ 31</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4147c062" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 13 L 30 11 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-4147c062)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Leverages ETCD service registration to provide dynamic clustering and automated scrape sharding for distributed Prometheus deployments. While offering a lightweight alternative for scale-out setups, modern production environments in 2026 predominantly utilize Thanos, Cortex, or VictoriaMetrics for highly available global metrics engines.
 ### OpenTelemetry (1)
 
 #### Collector Infrastructure
 
-  - **(2026)** [==OpenTelemetry Collector==](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7132</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance processing engine capable of receiving, parsing, filtering, and routing traces, metrics, and logs across vendor-agnostic infrastructure. Serves as the central data pipeline component in modern cloud-native observability stacks.
+  - **(2026)** [==OpenTelemetry Collector==](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7132</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-02095d03" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 2 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-02095d03)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance processing engine capable of receiving, parsing, filtering, and routing traces, metrics, and logs across vendor-agnostic infrastructure. Serves as the central data pipeline component in modern cloud-native observability stacks.
 ### Platform Monitoring
 
 #### Dynatrace Agent Deployment
@@ -528,7 +742,7 @@
 
 #### JVM Monitoring
 
-  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
 ### Standards
 
 #### Metrics Comparison
@@ -558,7 +772,7 @@
 
 #### Uptime-Kuma
 
-  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87989</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
+  - **(2021)** [==louislam/uptime-kuma==](https://github.com/louislam/uptime-kuma) <span class='md-tag md-tag--info'>⭐ 87989</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3bed7958" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 7 L 20 10 L 30 5 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-3bed7958)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular self-hosted synthetic monitoring tool written in Node.js. It features multi-protocol ping, HTTP/TCP checks, certificate monitoring, integration with multi-channel alert providers, and highly intuitive dashboards, serving as a lightweight alternative to commercial APM and uptime tools.
 ## Performance Engineering (1)
 
 ### Profiling
@@ -574,7 +788,7 @@
 
 #### Host Security
 
-  - **(2026)** [==OS Query==](https://github.com/osquery/osquery) <span class='md-tag md-tag--info'>⭐ 23311</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Exposes an operating system as a relational database, enabling SQL-based queries to audit process runtime, file integrity, and network connections. osquery is universally recognized as a core utility for security telemetry and host-level compliance in 2026.
+  - **(2026)** [==OS Query==](https://github.com/osquery/osquery) <span class='md-tag md-tag--info'>⭐ 23311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-af45f266" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 9 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-af45f266)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Exposes an operating system as a relational database, enabling SQL-based queries to audit process runtime, file integrity, and network connections. osquery is universally recognized as a core utility for security telemetry and host-level compliance in 2026.
 ## Site Reliability Engineering (1)
 
 ### Observability (9)

@@ -3,6 +3,60 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Alternatives in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Kubernetes Orchestration](#kubernetes-orchestration)
+    - [Technology Assessment](#technology-assessment)
+1. [Deployment](#deployment)
+  - [PaaS](#paas)
+    - [Coolify](#coolify)
+    - [Heroku](#heroku)
+1. [Edge and Serverless](#edge-and-serverless)
+  - [WebAssembly Platforms](#webassembly-platforms)
+    - [Tau Edge](#tau-edge)
+1. [Infrastructure](#infrastructure)
+  - [Containerization](#containerization)
+    - [Container Management](#container-management)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Ansible](#ansible)
+    - [Docker Swarm](#docker-swarm)
+1. [Orchestration](#orchestration)
+  - [AWS](#aws)
+    - [ECS vs Kubernetes](#ecs-vs-kubernetes)
+    - [Hybrid Orchestration](#hybrid-orchestration)
+  - [Alternatives](#alternatives)
+    - [Cycle.io](#cycleio)
+    - [Simplenetes](#simplenetes)
+  - [Containers](#containers)
+    - [Docker vs Kubernetes](#docker-vs-kubernetes)
+    - [Runtimes](#runtimes)
+  - [Docker Swarm](#docker-swarm-1)
+    - [Comparison](#comparison)
+    - [Core](#core)
+    - [Docker Enterprise](#docker-enterprise)
+    - [PaaS Solutions](#paas-solutions)
+  - [Ecosystem](#ecosystem)
+    - [Comparison](#comparison-1)
+  - [HashiCorp Nomad](#hashicorp-nomad)
+    - [Case Study](#case-study)
+    - [Comparison](#comparison-2)
+    - [Core](#core-1)
+    - [Evaluation](#evaluation)
+  - [Kubernetes](#kubernetes)
+    - [Alternatives](#alternatives-1)
+    - [Anti-patterns](#anti-patterns)
+    - [Case Study](#case-study-1)
+    - [Evaluation](#evaluation-1)
+1. [Serverless Architecture](#serverless-architecture)
+  - [Edge Computing](#edge-computing)
+    - [AI Integration](#ai-integration)
+    - [Local Development](#local-development)
+    - [WebAssembly](#webassembly)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -39,7 +93,7 @@
 
 #### Tau Edge
 
-  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
+  - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 5 L 30 3 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
 ## Infrastructure
 
 ### Containerization
@@ -73,7 +127,7 @@
   - **(2021)** [thenewstack.io: Cycle.io: A Container Orchestration Platform Aimed at Developers](https://thenewstack.io/cycle-io-a-container-orchestration-platform-aimed-at-developers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines Cycle.io's developer-focused abstractions. Covers native DNS setup, cluster security, and private container registries without relying on K8s operators.
 #### Simplenetes
 
-  - **(2020)** [==Simplenetes==](https://github.com/simplenetes-io/simplenetes) <span class='md-tag md-tag--info'>⭐ 766</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly simplified container orchestration tool designed as an alternative to Kubernetes. Lacks active development (>4 years inactive), recommended solely for legacy academic reference.
+  - **(2020)** [==Simplenetes==](https://github.com/simplenetes-io/simplenetes) <span class='md-tag md-tag--info'>⭐ 766</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ada23fed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 10 L 20 7 L 30 12 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-ada23fed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly simplified container orchestration tool designed as an alternative to Kubernetes. Lacks active development (>4 years inactive), recommended solely for legacy academic reference.
 ### Containers
 
 #### Docker vs Kubernetes
@@ -99,7 +153,7 @@
   - **(2020)** [Universal Control Plane overview](https://docs.docker.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Ecosystem overview of Docker Universal Control Plane (UCP). It served as an enterprise control center for container clusters, but is now a legacy reference superseded by modern web consoles.
 #### PaaS Solutions
 
-  - **(2020)** [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) <span class='md-tag md-tag--info'>⭐ 817</span> <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A lightweight self-hosted PaaS wrapper utilizing Docker Swarm. Note: Currently inactive (>4 years since last commit), making it a legacy reference rather than a production-grade modern solution.
+  - **(2020)** [==swarmlet/swarmlet: Swarmlet==](https://github.com/swarmlet/swarmlet) <span class='md-tag md-tag--info'>⭐ 817</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-071e7dc5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 10 L 30 8 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-071e7dc5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A lightweight self-hosted PaaS wrapper utilizing Docker Swarm. Note: Currently inactive (>4 years since last commit), making it a legacy reference rather than a production-grade modern solution.
 ### Ecosystem
 
 #### Comparison (1)
@@ -144,10 +198,10 @@
 
 #### AI Integration
 
-  - **(2026)** [==llama.cpp plugin==](https://github.com/samyfodil/taubyte-llama-satellite) <span class='md-tag md-tag--info'>⭐ 17</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental bridge connecting llama.cpp with Taubyte WASM modules. Facilitates low-latency, localized LLM inference tasks across decentralized edge node topologies.
+  - **(2026)** [==llama.cpp plugin==](https://github.com/samyfodil/taubyte-llama-satellite) <span class='md-tag md-tag--info'>⭐ 17</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6582a369" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 13 L 30 6 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-6582a369)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental bridge connecting llama.cpp with Taubyte WASM modules. Facilitates low-latency, localized LLM inference tasks across decentralized edge node topologies.
 #### Local Development
 
-  - **(2026)** [==dreamland==](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A developer tool designed to spin up localized Taubyte nodes on a single laptop. Allows rapid offline testing of serverless WASM routines, networking layers, and decentralized databases.
+  - **(2026)** [==dreamland==](https://github.com/taubyte/dream) <span class='md-tag md-tag--info'>⭐ 88</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-79e63e01" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 9 L 30 13 L 40 6 L 50 7" fill="none" stroke="url(#spark-grad-79e63e01)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A developer tool designed to spin up localized Taubyte nodes on a single laptop. Allows rapid offline testing of serverless WASM routines, networking layers, and decentralized databases.
 #### WebAssembly
 
   - **(2026)** [Taubyte](https://taubyte.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative WebAssembly-native edge cloud designed to eliminate typical virtualization layers. Offers decentralized and autonomous execution of lightweight, globally scaling serverless routines.

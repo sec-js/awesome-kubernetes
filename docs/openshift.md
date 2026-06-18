@@ -42,7 +42,7 @@
 22. [Other Awesome Lists](#other-awesome-lists)
 
 ## OpenShift
-  - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue#about-kueue) - *(Related to kubernetes-operators-controllers topic)*
+  - [Red Hat Build of Kueue](https://docs.redhat.com/en/documentation/openshift_container_platform/4.21/html/ai_workloads/red-hat-build-of-kueue) - *(Related to kubernetes-operators-controllers topic)*
 - [Wikipedia.org: OpenShift](https://en.wikipedia.org/wiki/OpenShift)
 - [OpenShift.com](https://www.redhat.com/en/technologies/cloud-computing/openshift)
 - [OpenShift blog 🌟](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure)
@@ -77,11 +77,11 @@
 ### Azure Red Hat OpenShift ARO
 
 - [ARO](https://www.redhat.com/en/technologies/cloud-computing/openshift/azure)
-- [aroworkshop.io 🌟](http://aroworkshop.io) 
+- [aroworkshop.io 🌟](https://aroworkshop.io) 
 - [docs.microsoft.com: JBoss deployment with Red Hat on Azure 🌟](https://learn.microsoft.com/en-us/azure/developer/java/ee/jboss-eap-on-aro)
 
 ## Blogs
-  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) 🌟 -Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) 🌟 -Kruize, an open-source solution for performance testing and optimization of applications running on OpenShift. It details how Kruize uses Kubernetes operators to collect performance metrics, identify performance bottlenecks, and suggest optimal configurations for workloads, aiming to improve resource utilization and application performance.
 
 - [Rcarrata's blog](https://rcarrata.com)
 
@@ -135,14 +135,14 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### Kubernetes e-Books
 
-- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books)
+- [Kubernetes e-Books](https://awesome-kubernetes.readthedocs.io/kubernetes)
 
 ## Online Learning
   - [Red Hat Training & Certification Community](https://access.redhat.com/community/learn) - *(Related to kubernetes-tutorials topic)*
 
 - [learn.openshift.com 🌟](https://learn.openshift.com) Interactive Learning Portal
 - [katacoda.com 🌟](https://www.katacoda.com) Interactive Learning and Training Platform for Software Engineers 
-- [redhatgov.io](http://redhatgov.io)
+- [redhatgov.io](https://redhatgov.io)
 - [udemy.com: Red Hat OpenShift With Jenkins: DevOps For Beginners](https://www.udemy.com/red-hat-openshift)
 - [udemy.com: OpenShift Enterprise v3.2 Installation and Configuration](https://www.udemy.com/openshift-enterprise-installation-and-configuration/learn/v4/overview)
 - [udemy.com: Ultimate Openshift (2018) Bootcamp by School of Devops 🌟](https://www.udemy.com/ultimate-openshift-bootcamp-by-school-of-devops) With Openshift Origin 3.10 / OKD 2018, Kubernetes, Jenkins Pipelines, Prometheus, Istio, Micro Services, PaaS
@@ -161,7 +161,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
     - [schabell.org: Cloud-native development - A blueprint 🌟](https://www.schabell.org/2020/05/cloud-native-development-a-blueprint.html)
     - [schabell.org: Cloud-native development - On local containers 🌟](https://www.schabell.org/2020/06/cloud-native-development-on-local-containers.html)
     - etc
-- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
+- [Portfolio Architecture WorkShops 🌟](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the **draw.io** tooling and Red Hat Portfolio Architecture design elelements. You'll leverage existing portfolio architecture diagrams as starting points.
 - [Portfolio Architecture Tooling](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling)
 - [gitlab.com: Portfolio Architecture Examples](https://gitlab.com/redhatdemocentral/portfolio-architecture-examples)
 
@@ -185,7 +185,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 
 ### OpenShift 3
 
-- [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](http://uncontained.io/articles/openshift-ha-installation)
+- [uncontained.io: Installing a Highly Available OpenShift Cluster 🌟](https://uncontained.io/articles/openshift-ha-installation)
 
 ### OpenShift 4
 
@@ -230,7 +230,7 @@ Industry momentum has aligned behind Kubernetes as the orchestration platform fo
 ### Security Context Constraints
 
 - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
-- [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html#security-context-constraints)
+- [docs.openshift.com: Managing Security Context Constraints. Security Context Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html)
 - [Dzone: Understanding OpenShift Security Context Constraints](https://dzone.com/articles/understanding-openshift-security-context-constrain)
 
 #### Review Security Context Constraints
@@ -249,7 +249,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
     - To audit a single pod: `oc describe pod <POD> | grep openshift.io\/scc`
     - Remediation: Apply the SCC with the least privilege required
 
-### OpenShift Network Model & Network Policy 
+### OpenShift Network Model and Network Policy
 
 - [docs.openshift.com: Understanding networking](https://docs.openshift.com/container-platform/4.4/networking/understanding-networking.html)
     - [docs.openshift.com: Configuring network policy with OpenShift SDN](https://docs.openshift.com/container-platform/4.4/networking/configuring-networkpolicy.html)
@@ -296,7 +296,7 @@ The other SCCs provide intermediate levels of constraint for various use cases. 
 
 - [Get started with OpenShift Origin 3 and GitLab](https://about.gitlab.com/blog/get-started-with-openshift-origin-3-and-gitlab)
 
-### Atlassian Confluence6 
+### Atlassian Confluence6
 
 - [Atlassian Confluence6](https://github.com/nubenetes/confluence6-atlassian)
 

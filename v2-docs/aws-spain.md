@@ -3,6 +3,14 @@
 !!! info "Architectural Context"
     Detailed reference for Spain in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Cloud Platforms](#cloud-platforms)
+  - [AWS Education](#aws-education)
+    - [Resources](#resources)
+  - [AWS Regional Infrastructure](#aws-regional-infrastructure)
+    - [Spain](#spain-1)
+
 ## Cloud Platforms
 
 ### AWS Education

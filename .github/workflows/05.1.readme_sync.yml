@@ -6,13 +6,16 @@ on:
       - develop
     paths-ignore:
       - 'README.md'
+      - 'data/inventory.yaml'
+      - 'docs/**'
+      - 'v2-docs/**'
   workflow_dispatch: # Permite ejecución manual desde la pestaña Actions
 
 permissions:
   contents: write
 
 concurrency:
-  group: v2-pipeline-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

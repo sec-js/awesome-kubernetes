@@ -3,13 +3,78 @@
 !!! info "Architectural Context"
     Detailed reference for E-learning in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD Pipelines](#cicd-pipelines)
+  - [Git Integration](#git-integration)
+    - [Azure DevOps](#azure-devops)
+1. [Cloud Platforms](#cloud-platforms)
+  - [OpenShift](#openshift)
+    - [Fundamentals](#fundamentals)
+1. [Data Infrastructure](#data-infrastructure)
+  - [Databases](#databases)
+    - [SQL](#sql)
+      - [Gamified Learning](#gamified-learning)
+1. [DevOps](#devops)
+  - [Education](#education)
+    - [Training Courses](#training-courses)
+1. [Operating Systems and Infrastructure](#operating-systems-and-infrastructure)
+  - [Linux](#linux)
+    - [SysAdmin Tutorials](#sysadmin-tutorials)
+1. [Orchestration](#orchestration)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Real-World Architecture](#real-world-architecture)
+  - [Kubernetes](#kubernetes)
+    - [VMware Tanzu Ecosystem](#vmware-tanzu-ecosystem)
+1. [Platform Engineering](#platform-engineering)
+  - [Legacy Sandboxes](#legacy-sandboxes)
+    - [Interactive Learning](#interactive-learning)
+  - [Security and Compliance](#security-and-compliance)
+    - [Public Sector](#public-sector)
+1. [Professional Development](#professional-development)
+  - [Certifications](#certifications)
+    - [Cloud and DevOps](#cloud-and-devops)
+    - [Linux and Open Source](#linux-and-open-source)
+  - [Communities](#communities)
+    - [DevOps and Cloud](#devops-and-cloud)
+  - [Digital Literacy](#digital-literacy)
+    - [Basic IT](#basic-it)
+  - [Higher Education](#higher-education)
+    - [Computer Science](#computer-science)
+    - [Software Engineering](#software-engineering)
+  - [Mathematics and CS](#mathematics-and-cs)
+    - [Foundations](#foundations)
+  - [Online Learning](#online-learning)
+    - [Continuous Education](#continuous-education)
+  - [Opinion and Strategy](#opinion-and-strategy)
+    - [Career Development](#career-development)
+    - [Certifications](#certifications-1)
+1. [Software Development](#software-development)
+  - [Algorithms and Data Structures](#algorithms-and-data-structures)
+    - [Gamified Coding](#gamified-coding)
+  - [Bootcamps](#bootcamps)
+    - [Full-Stack Development](#full-stack-development)
+  - [Developer Productivity](#developer-productivity)
+    - [Muscle Memory](#muscle-memory)
+  - [Documentation](#documentation)
+    - [Crowdsourced Guides](#crowdsourced-guides)
+  - [Java Ecosystem](#java-ecosystem)
+    - [Eclipse and Git](#eclipse-and-git)
+  - [Programming](#programming)
+    - [Interactive Coding](#interactive-coding)
+  - [Software Architecture](#software-architecture)
+    - [DDD and Testing](#ddd-and-testing)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [tutorialspoint.com](http://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.tutorialspoint.com in the Kubernetes Tools ecosystem.
+  - [tutorialspoint.com](https://www.tutorialspoint.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.tutorialspoint.com in the Kubernetes Tools ecosystem.
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.openshift.com in the Kubernetes Tools ecosystem.
   - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟 in the Kubernetes Tools ecosystem.
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wiki.bash-hackers.org in the Kubernetes Tools ecosystem.
@@ -79,7 +144,7 @@
 
 #### Public Sector
 
-  - **(2026)** [**redhatgov.io**](http://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Professional Development
 
 ### Certifications
@@ -137,7 +202,7 @@
 
 #### Full-Stack Development
 
-  - **(2023)** [open-bootcamp.com](http://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived Spanish-language full-stack and DevOps coding bootcamp. Provided highly popular, modular pathways for development and deployment, but is no longer actively maintained as of late 2023.
+  - **(2023)** [open-bootcamp.com](https://open-bootcamp.com) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived Spanish-language full-stack and DevOps coding bootcamp. Provided highly popular, modular pathways for development and deployment, but is no longer actively maintained as of late 2023.
 ### Developer Productivity
 
 #### Muscle Memory
@@ -152,7 +217,7 @@
 
 #### Eclipse and Git
 
-  - **(2023)** [vogella.com](http://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An extensive library of software architecture write-ups focused primarily on Git structures, Java microservices development, and traditional IDE configurations. Very helpful for standard legacy design, though lacking modern Kubernetes-native patterns.
+  - **(2023)** [vogella.com](https://www.vogella.com/tutorials) 🌟🌟 <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An extensive library of software architecture write-ups focused primarily on Git structures, Java microservices development, and traditional IDE configurations. Very helpful for standard legacy design, though lacking modern Kubernetes-native patterns.
 ### Programming
 
 #### Interactive Coding

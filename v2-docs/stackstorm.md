@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for StackStorm in the context of Engineering Pipeline.
 
+## Table of Contents
+
+1. [DevOps](#devops)
+  - [Event-Driven Automation](#event-driven-automation)
+    - [StackStorm](#stackstorm-1)
+
 ## DevOps
 
 ### Event-Driven Automation

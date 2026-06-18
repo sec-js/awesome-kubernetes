@@ -3,6 +3,36 @@
 !!! info "Architectural Context"
     Detailed reference for TestOps and Continuous Testing in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [DevOps and Quality Assurance](#devops-and-quality-assurance)
+  - [Continuous Testing](#continuous-testing)
+    - [AI-Powered QA](#ai-powered-qa)
+    - [Database Mocking](#database-mocking)
+    - [Microservices Testing](#microservices-testing)
+    - [Performance Testing](#performance-testing)
+    - [TestOps Strategy](#testops-strategy)
+    - [Testing Frameworks](#testing-frameworks)
+    - [Testing Methodologies](#testing-methodologies)
+1. [Development Methodology](#development-methodology)
+  - [DevOps](#devops)
+    - [Testing Strategy](#testing-strategy)
+    - [Validation](#validation)
+1. [Development Tools](#development-tools)
+  - [AI Assistance](#ai-assistance)
+    - [Automated Testing](#automated-testing)
+  - [Testing Tools](#testing-tools)
+    - [API Mocking](#api-mocking)
+1. [Kubernetes Platform](#kubernetes-platform)
+  - [K8s Security and Compliance](#k8s-security-and-compliance)
+    - [Static Analysis](#static-analysis)
+1. [Security](#security)
+  - [DevSecOps](#devsecops)
+    - [Application Security](#application-security)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -20,7 +50,7 @@
   - **(2022)** [**Diffblue**](https://www.diffblue.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Looks at Diffblue's AI-driven approach to automated test generation. Utilizes automated analysis algorithms to maintain Java unit test blocks and reduce manual developer test-writing burdens.
 #### Database Mocking
 
-  - **(2020)** [**copyist**](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 853</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details copyist, a Go library developed by CockroachDB to automate SQL mock generations. Records and plays back transactions to let developers perform database testing without spinning up full DBMS clusters.
+  - **(2020)** [**copyist**](https://github.com/cockroachdb/copyist) <span class='md-tag md-tag--info'>⭐ 853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-466eb478" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 12 L 30 10 L 40 13 L 50 7" fill="none" stroke="url(#spark-grad-466eb478)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details copyist, a Go library developed by CockroachDB to automate SQL mock generations. Records and plays back transactions to let developers perform database testing without spinning up full DBMS clusters.
 #### Microservices Testing
 
   - **(2021)** [**Cicada: A tool for testing microservices**](https://cicadatesting.github.io/cicada-2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cicada, a continuous test suite optimized for microservice applications. Streamlines complex assertions across concurrent API and event stream networks in Kubernetes-native topologies.
@@ -73,7 +103,7 @@
 
 #### API Mocking
 
-  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1281</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
+  - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1281</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0846160" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-e0846160)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
 ## Kubernetes Platform
 
 ### K8s Security and Compliance

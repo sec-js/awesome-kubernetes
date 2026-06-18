@@ -3,6 +3,41 @@
 !!! info "Architectural Context"
     Detailed reference for Microservices FAQ in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Architecture](#architecture)
+  - [Cloud Native](#cloud-native)
+    - [Evolution](#evolution)
+    - [Kubernetes Native](#kubernetes-native)
+  - [Microservices](#microservices)
+    - [Caching](#caching)
+    - [Decision Frameworks](#decision-frameworks)
+    - [History](#history)
+    - [Resiliency Patterns](#resiliency-patterns)
+1. [Career and Culture](#career-and-culture)
+  - [Talent Acquisition](#talent-acquisition)
+    - [Full Stack Development](#full-stack-development)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Storage and Databases](#storage-and-databases)
+    - [Storage Strategy](#storage-strategy)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Microservices Architecture](#microservices-architecture)
+  - [Dependency Management](#dependency-management)
+    - [Patterns](#patterns)
+  - [Fundamentals](#fundamentals)
+    - [Best Practices](#best-practices)
+    - [Comparisons](#comparisons)
+    - [Roadmap](#roadmap)
+    - [UI and Frontend](#ui-and-frontend)
+  - [Patterns](#patterns-1)
+    - [Service Discovery](#service-discovery)
+1. [Migration](#migration)
+  - [Cloud Migration](#cloud-migration)
+    - [Strategies](#strategies)
+  - [Containerization](#containerization)
+    - [Case Study](#case-study)
+
 ## Architecture
 
 ### Cloud Native

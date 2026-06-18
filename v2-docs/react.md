@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for React in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Software Engineering](#software-engineering)
+  - [Frontend Development](#frontend-development)
+    - [React Ecosystem](#react-ecosystem)
+
 ## Software Engineering
 
 ### Frontend Development

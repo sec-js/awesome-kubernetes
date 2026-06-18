@@ -15,4 +15,4 @@
 
 ## Undertow
 
-- [Undertow](http://undertow.io)
+- [Undertow](https://undertow.io)

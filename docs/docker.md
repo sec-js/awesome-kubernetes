@@ -264,7 +264,7 @@
     - [==slim.ai: Slim Docker Extension== 🌟](https://www.root.io)
 - [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnkube.com/blog/smaller-docker-images) When it comes to building Docker containers, you should always strive for smaller images. **Images that share layers and are smaller in size are quicker to transfer and deploy.**
 - [contains.dev: Optimizing Docker image size and why it matters](https://contains.dev/blog/optimizing-docker-image-size)
-- [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)
+- [==jpetazzo.github.io: Anti-Patterns When Building Container Images==](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns)
 - [developers.redhat.com: Reduce the size of container images with DockerSlim](https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim)
 - [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension)
 - [==medium.com/vantageai: How to make your Python Docker images secure, fast & small== 🌟](https://medium.com/vantageai/how-to-make-your-python-docker-images-secure-fast-small-b3a6870373a0) Exploring Image Layers and Implementing Multistage Builds
@@ -277,7 +277,7 @@
 
 ## Reducing Build Time
 
-- [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s)
+- [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster)
     - ``BUILDKIT_INLINE_CACHE=1 build-arg`` is a neat flag that you could add to your docker build to reduce the build time upto 89%
 - [pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s stable](https://pythonspeed.com/articles/docker-buildkit) Building Docker images can be slow, and Docker’s build system is also missing some critical security features, in particular the ability to use build secrets without leaking them. So over the past few years the Docker developers have been working on a new backend for building images, BuildKit.
 - [pauldally.medium.com: Structuring Dockerfiles For Productivity](https://pauldally.medium.com/structuring-dockerfiles-for-productivity-2681de4815a4)
@@ -344,7 +344,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 ## Moving Linux Services Into Containers
 
-- [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers)
+- [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](https://crunchtools.com/moving-linux-services-to-containers)
 
 ## Windows Containers
 
@@ -361,7 +361,7 @@ PHP Docker Image for Cloud Native Deployments (and Kubernetes)
 
 ## Linux Container Base Images
 
-- [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images)
+- [crunchtools.com: A Comparison of Linux Container Images](https://crunchtools.com/comparison-linux-container-images)
 - [kubedex.com: Base images comparison](https://kubedex.com/base-images)
 - [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users)
     - [developers.redhat.com: book: Red Hat Universal Base Images (UBI)](https://developers.redhat.com/books/red-hat-universal-base-images-ubi)

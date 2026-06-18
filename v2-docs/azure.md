@@ -3,13 +3,599 @@
 !!! info "Architectural Context"
     Detailed reference for Microsoft Azure in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [API Design](#api-design)
+  - [Standards](#standards)
+    - [REST API](#rest-api)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Container Orchestration](#container-orchestration)
+    - [AKS Mission Critical](#aks-mission-critical)
+  - [Well-Architected Framework](#well-architected-framework)
+    - [Mission-Critical Workloads](#mission-critical-workloads)
+1. [Architecture and Microservices](#architecture-and-microservices)
+  - [Architecture Design](#architecture-design)
+    - [Architectural Governance](#architectural-governance)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [API Management](#api-management)
+    - [Application Delivery](#application-delivery)
+  - [Migration Guides](#migration-guides)
+    - [Enterprise Migration](#enterprise-migration)
+    - [Java Ecosystem](#java-ecosystem)
+  - [Observability](#observability)
+    - [Application Insights](#application-insights)
+  - [Spring Cloud](#spring-cloud)
+    - [Design Patterns](#design-patterns)
+1. [Artificial Intelligence](#artificial-intelligence)
+  - [Generative AI](#generative-ai)
+    - [Azure OpenAI](#azure-openai)
+    - [Education](#education)
+    - [Enterprise Architecture](#enterprise-architecture)
+  - [Secure Architecture](#secure-architecture)
+    - [Enterprise AI](#enterprise-ai)
+1. [CICD Pipeline](#cicd-pipeline)
+  - [Security and Compliance](#security-and-compliance)
+    - [Access Control](#access-control)
+1. [CICD Pipelines](#cicd-pipelines)
+  - [AI and Automation](#ai-and-automation)
+    - [Model Context Protocol](#model-context-protocol)
+  - [DevOps Platforms](#devops-platforms)
+    - [DevTest Labs](#devtest-labs)
+    - [Feature Comparison](#feature-comparison)
+  - [Observability](#observability-1)
+    - [DevOps Dashboard](#devops-dashboard)
+  - [Pipeline Extensions](#pipeline-extensions)
+    - [Tasks Repository](#tasks-repository)
+  - [Pipeline Integration](#pipeline-integration)
+    - [Azure DevOps](#azure-devops)
+  - [SDLC Optimization](#sdlc-optimization)
+    - [Azure DevOps Platform](#azure-devops-platform)
+  - [Security and Compliance](#security-and-compliance-1)
+    - [Release Gates](#release-gates)
+  - [Security Scanning](#security-scanning)
+    - [Scout Suite Integration](#scout-suite-integration)
+  - [Template Reference](#template-reference)
+    - [Azure DevOps Pipelines](#azure-devops-pipelines)
+  - [Training](#training)
+    - [Azure DevOps Paths](#azure-devops-paths)
+  - [Training and Labs](#training-and-labs)
+    - [Azure DevOps](#azure-devops-1)
+1. [Cloud Application Platforms](#cloud-application-platforms)
+  - [Azure App Service](#azure-app-service)
+    - [App Service Configuration](#app-service-configuration)
+    - [App Service Diagnostics](#app-service-diagnostics)
+    - [Custom Containers](#custom-containers)
+    - [Java Runtime Configurations](#java-runtime-configurations)
+  - [Serverless Computing](#serverless-computing)
+    - [Azure Functions Core](#azure-functions-core)
+1. [Cloud Architecture](#cloud-architecture)
+  - [Assessments](#assessments)
+    - [Command-Line Tools](#command-line-tools)
+  - [Frameworks](#frameworks)
+    - [WAF Assessments](#waf-assessments)
+    - [Well-Architected Framework WAF](#well-architected-framework-waf)
+  - [PaaS](#paas)
+    - [App Service](#app-service)
+  - [Resiliency](#resiliency)
+    - [APRL](#aprl)
+1. [Cloud DevOps](#cloud-devops)
+  - [Agile Project Management](#agile-project-management)
+    - [Azure Boards Customization](#azure-boards-customization)
+  - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [Azure DevOps Fundamentals](#azure-devops-fundamentals)
+    - [Azure Pipelines Architecture](#azure-pipelines-architecture)
+    - [Conditional Logic and Expressions](#conditional-logic-and-expressions)
+    - [Infrastructure as Code](#infrastructure-as-code-1)
+      - [Declarative Pipelines](#declarative-pipelines)
+    - [Multi-Cloud Integration](#multi-cloud-integration)
+      - [Azure to GCP](#azure-to-gcp)
+    - [Platform Selection](#platform-selection)
+    - [YAML Templating and Reusability](#yaml-templating-and-reusability)
+  - [Container Orchestration](#container-orchestration-1)
+    - [GitOps](#gitops)
+      - [ArgoCD and Secrets](#argocd-and-secrets)
+    - [Kubernetes CD](#kubernetes-cd)
+      - [AKS Deployment](#aks-deployment)
+  - [Data Protection and Backup](#data-protection-and-backup)
+    - [Azure DevOps Security](#azure-devops-security)
+      - [Compliance](#compliance)
+    - [Disaster Recovery](#disaster-recovery)
+  - [Infrastructure as Code](#infrastructure-as-code-2)
+    - [End-to-End Lab Guides](#end-to-end-lab-guides)
+    - [Terraform Orchestration](#terraform-orchestration)
+      - [Pull Request Feedback](#pull-request-feedback)
+  - [Platform Engineering](#platform-engineering)
+    - [Azure DevOps Architecture](#azure-devops-architecture)
+    - [Infrastructure Execution](#infrastructure-execution)
+      - [Managed DevOps Pools](#managed-devops-pools)
+  - [Software Quality Assurance](#software-quality-assurance)
+    - [Test Automation](#test-automation)
+      - [.NET CI](#net-ci)
+1. [Cloud Fundamentals](#cloud-fundamentals)
+  - [Azure Ecosystem](#azure-ecosystem)
+    - [Core Services](#core-services)
+    - [Learning Path](#learning-path)
+1. [Cloud Governance](#cloud-governance)
+  - [Enterprise Architecture](#enterprise-architecture-1)
+    - [Landing Zones](#landing-zones)
+  - [Frameworks](#frameworks-1)
+    - [Assessments](#assessments-1)
+    - [CAF vs WAF](#caf-vs-waf)
+    - [Cloud Adoption Framework CAF](#cloud-adoption-framework-caf)
+  - [Infrastructure as Code](#infrastructure-as-code-3)
+    - [Asset Management](#asset-management)
+  - [Resource Management](#resource-management)
+    - [Naming Conventions](#naming-conventions)
+  - [Security and Compliance](#security-and-compliance-2)
+    - [Landing Zones](#landing-zones-1)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Azure Networking](#azure-networking)
+    - [Cost Optimization](#cost-optimization)
+    - [Private Access](#private-access)
+    - [Security](#security)
+    - [Subnet Peering](#subnet-peering)
+  - [Container Orchestration](#container-orchestration-2)
+    - [AKS Fleet Manager](#aks-fleet-manager)
+  - [Container Storage](#container-storage)
+    - [Cloud Native Storage](#cloud-native-storage)
+  - [DevOps](#devops)
+    - [CI-CD Pipelines](#ci-cd-pipelines-1)
+  - [Developer Experience](#developer-experience)
+    - [Azure Provisioning](#azure-provisioning)
+  - [Governance](#governance)
+    - [Enterprise Naming](#enterprise-naming)
+  - [Identity and Access](#identity-and-access)
+    - [Microsoft Graph IaC](#microsoft-graph-iac)
+  - [Identity and Access Management](#identity-and-access-management)
+    - [App Registrations](#app-registrations)
+    - [Azure AD and Graph API](#azure-ad-and-graph-api)
+    - [Entra ID Fundamentals](#entra-id-fundamentals)
+  - [Infrastructure as Code](#infrastructure-as-code-4)
+    - [Advanced Bicep](#advanced-bicep)
+    - [Azure Bicep](#azure-bicep)
+    - [Azure Verified Modules](#azure-verified-modules)
+    - [Enterprise Case Study](#enterprise-case-study)
+    - [IaC Migration](#iac-migration)
+    - [Standardization](#standardization)
+  - [Monitoring and Observability](#monitoring-and-observability)
+    - [Azure Monitor Logs](#azure-monitor-logs)
+    - [Cost Management](#cost-management)
+    - [Log Analytics FinOps](#log-analytics-finops)
+    - [Multi-Tenant Observability](#multi-tenant-observability)
+  - [Network Architecture](#network-architecture)
+    - [Network-as-Code](#network-as-code)
+  - [Networking and Edge Routing](#networking-and-edge-routing)
+    - [App Service Networking](#app-service-networking)
+    - [Application Gateway V2](#application-gateway-v2)
+    - [Load Balancing Options](#load-balancing-options)
+  - [Security and Compliance](#security-and-compliance-3)
+    - [Active Directory Hacking](#active-directory-hacking)
+    - [Certificate Authentication](#certificate-authentication)
+    - [PowerShell Security](#powershell-security)
+  - [Serverless Containers](#serverless-containers)
+    - [Azure Container Apps](#azure-container-apps)
+    - [Container Governance](#container-governance)
+1. [Cloud Native and Kubernetes](#cloud-native-and-kubernetes)
+  - [GitOps and Continuous Delivery](#gitops-and-continuous-delivery)
+    - [DevOps Standardization](#devops-standardization)
+  - [Hybrid and Multicloud Solutions](#hybrid-and-multicloud-solutions)
+    - [App Services on Arc](#app-services-on-arc)
+    - [Arc-enabled Servers Security](#arc-enabled-servers-security)
+    - [Azure Arc Architecture](#azure-arc-architecture)
+    - [Azure Arc Jumpstart](#azure-arc-jumpstart)
+  - [Monitoring and Observability](#monitoring-and-observability-1)
+    - [Managed Prometheus](#managed-prometheus)
+1. [Cloud Native Platforms](#cloud-native-platforms)
+  - [Azure](#azure)
+    - [Dedicated Documentation](#dedicated-documentation)
+    - [Education](#education-1)
+    - [High Availability Architectures](#high-availability-architectures)
+    - [Portal Core](#portal-core)
+    - [Visualization and Insights](#visualization-and-insights)
+  - [Cloud Documentation](#cloud-documentation)
+    - [Community and Learning](#community-and-learning)
+    - [Core Reference](#core-reference)
+1. [Cloud Platform](#cloud-platform)
+  - [Architecture Patterns](#architecture-patterns)
+    - [Cloud-Native](#cloud-native)
+  - [Automation](#automation)
+    - [PowerShell Scripts](#powershell-scripts)
+    - [User Provisioning](#user-provisioning)
+  - [Governance](#governance-1)
+    - [Azure Naming Tool](#azure-naming-tool)
+    - [FinOps](#finops)
+    - [Reliability](#reliability)
+    - [Security Auditing](#security-auditing)
+  - [Infrastructure as Code](#infrastructure-as-code-5)
+    - [Azure Resource Manager](#azure-resource-manager)
+  - [Microsoft Azure](#microsoft-azure-1)
+    - [Education](#education-2)
+    - [Sample Architecture](#sample-architecture)
+    - [Windows Containers](#windows-containers)
+  - [SaaS Administration](#saas-administration)
+    - [Office 365](#office-365)
+1. [Cloud Platform Management](#cloud-platform-management)
+  - [Azure Storage](#azure-storage)
+    - [Azure CLI](#azure-cli)
+      - [Blob Diagnostic](#blob-diagnostic)
+  - [Governance](#governance-2)
+    - [Resource Tagging](#resource-tagging)
+      - [Cost Controls](#cost-controls)
+  - [Microsoft Azure](#microsoft-azure-2)
+    - [Authentication](#authentication)
+      - [Azure Contexts](#azure-contexts)
+      - [CLI Enhancements](#cli-enhancements)
+    - [Azure Automation](#azure-automation)
+      - [Runbooks](#runbooks)
+    - [Azure CLI](#azure-cli-1)
+      - [JMESPath Querying](#jmespath-querying)
+    - [Azure Storage](#azure-storage-1)
+      - [Cost Optimization](#cost-optimization-1)
+    - [Inventory Auditing](#inventory-auditing)
+      - [Azure Resource Inventory](#azure-resource-inventory)
+    - [Tooling](#tooling)
+      - [Azure PowerShell SDK](#azure-powershell-sdk)
+      - [Tips and Tricks](#tips-and-tricks)
+  - [Microsoft Cloud](#microsoft-cloud)
+    - [Corporate Blog](#corporate-blog)
+      - [Architecture Resource](#architecture-resource)
+  - [Secret Management](#secret-management)
+    - [Azure Key Vault](#azure-key-vault)
+      - [Infrastructure Automation](#infrastructure-automation)
+      - [Infrastructure as Code](#infrastructure-as-code-6)
+  - [Virtual Machines](#virtual-machines)
+    - [Azure VM Agent](#azure-vm-agent)
+      - [Script Orchestration](#script-orchestration)
+1. [Cloud Security](#cloud-security)
+  - [DevSecOps](#devsecops)
+    - [IaC Scanning](#iac-scanning)
+1. [Community](#community)
+  - [Blogs](#blogs)
+    - [.NET Development](#net-development)
+    - [Azure Infrastructure](#azure-infrastructure)
+    - [CLI and Automation](#cli-and-automation)
+    - [Cloud-Native Architecture](#cloud-native-architecture)
+    - [SysOps and Azure](#sysops-and-azure)
+  - [Portals](#portals)
+    - [Tech Community](#tech-community)
+1. [Compute](#compute)
+  - [Image Management](#image-management)
+    - [Azure Image Builder](#azure-image-builder)
+1. [Compute and Containers](#compute-and-containers)
+  - [Architecture Design](#architecture-design-1)
+    - [Decision Matrices](#decision-matrices)
+  - [Kubernetes](#kubernetes)
+    - [AKS Engine](#aks-engine)
+  - [Virtual Machines](#virtual-machines-1)
+    - [SKU Discovery](#sku-discovery)
+    - [VMSS](#vmss)
+    - [Windows Server](#windows-server)
+1. [Container Orchestration](#container-orchestration-3)
+  - [Operating Systems](#operating-systems)
+    - [Azure Linux](#azure-linux)
+1. [Data and Storage](#data-and-storage)
+  - [Data Analytics](#data-analytics)
+    - [Data Lake](#data-lake)
+    - [Fabric Architecture](#fabric-architecture)
+    - [Kusto Query Language](#kusto-query-language)
+    - [Real-Time Streaming](#real-time-streaming)
+  - [Relational Databases](#relational-databases)
+    - [Cloud Comparison](#cloud-comparison)
+    - [Managed Instance](#managed-instance)
+  - [Storage Accounts](#storage-accounts)
+    - [Blob Storage](#blob-storage)
+1. [Data Engineering](#data-engineering)
+  - [Data Orchestration](#data-orchestration)
+    - [ADF IaC Integration](#adf-iac-integration)
+    - [ETL Tooling](#etl-tooling)
+  - [Database DevOps](#database-devops)
+    - [Azure Synapse Analytics](#azure-synapse-analytics)
+      - [SQL Pools](#sql-pools)
+    - [Data Ops Best Practices](#data-ops-best-practices)
+    - [Data Platform Automation](#data-platform-automation)
+      - [Database Deployments](#database-deployments)
+    - [Databricks CI-CD](#databricks-ci-cd)
+      - [Databricks Asset Bundles](#databricks-asset-bundles)
+1. [DevOps](#devops-1)
+  - [CI-CD Pipelines](#ci-cd-pipelines-2)
+    - [Azure Pipelines](#azure-pipelines)
+    - [Platform Integration](#platform-integration)
+  - [Package Management](#package-management)
+    - [Windows](#windows)
+1. [DevSecOps and Platform Engineering](#devsecops-and-platform-engineering)
+  - [CICD and Mobile DevOps](#cicd-and-mobile-devops)
+    - [Android Pipelines](#android-pipelines)
+    - [App Center Distribution](#app-center-distribution)
+    - [App Signing](#app-signing)
+    - [Ionic Pipelines](#ionic-pipelines)
+  - [Infrastructure Security](#infrastructure-security)
+    - [AzSK Assessment](#azsk-assessment)
+    - [AzSK Documentation](#azsk-documentation)
+    - [AzSK Toolkit](#azsk-toolkit)
+1. [Developer Experience](#developer-experience-1)
+  - [CI-CD Runners](#ci-cd-runners)
+    - [Ephemeral Containers](#ephemeral-containers)
+  - [Mobile Development](#mobile-development)
+    - [Windows Integration](#windows-integration)
+  - [Package Management](#package-management-1)
+    - [Setup Guides](#setup-guides)
+    - [Tooling Milestones](#tooling-milestones)
+    - [Windows Tooling](#windows-tooling)
+1. [Developer Tools](#developer-tools)
+  - [IDE Extensions](#ide-extensions)
+    - [Azure Learning](#azure-learning)
+1. [Education](#education-3)
+  - [Certification Support](#certification-support)
+    - [Repository](#repository)
+  - [Learning Paths](#learning-paths)
+    - [Assessments](#assessments-2)
+    - [Azure Core](#azure-core)
+    - [Certifications](#certifications)
+    - [Official Training](#official-training)
+1. [Enterprise Infrastructure](#enterprise-infrastructure)
+  - [SCCM Configuration](#sccm-configuration)
+    - [PowerShell Automation](#powershell-automation)
+      - [Collection Design](#collection-design)
+1. [Governance and Management](#governance-and-management)
+  - [API Deprecations](#api-deprecations)
+    - [Platform Lifecycle](#platform-lifecycle)
+  - [Enterprise Governance](#enterprise-governance)
+    - [Compliance](#compliance-1)
+    - [Cost Management](#cost-management-1)
+    - [Kubernetes Compliance](#kubernetes-compliance)
+    - [Landing Zones](#landing-zones-2)
+    - [Resource Metadata](#resource-metadata)
+1. [Healthcare IT](#healthcare-it)
+  - [Biomedical Research](#biomedical-research)
+    - [Cloud Platforms](#cloud-platforms)
+  - [Medical Imaging](#medical-imaging)
+    - [Artificial Intelligence](#artificial-intelligence-1)
+    - [Azure Healthcare APIs](#azure-healthcare-apis)
+1. [Hybrid Networking](#hybrid-networking)
+  - [Core Networking](#core-networking)
+    - [Content Delivery Network](#content-delivery-network)
+    - [Observability](#observability-2)
+    - [Virtual WAN](#virtual-wan)
+  - [Cross-Cloud Connectivity](#cross-cloud-connectivity)
+    - [VPN Gateways](#vpn-gateways)
+  - [Network Security](#network-security)
+    - [Azure Bastion](#azure-bastion)
+    - [DNS Resolution](#dns-resolution)
+    - [NVA High Availability](#nva-high-availability)
+  - [Virtual WAN](#virtual-wan-1)
+    - [IP Routing](#ip-routing)
+1. [Identity and Access](#identity-and-access-1)
+  - [Cloud Security](#cloud-security-1)
+    - [Identity Administration](#identity-administration)
+      - [Entra ID Custom Roles](#entra-id-custom-roles)
+      - [Service Principals](#service-principals)
+    - [RBAC](#rbac)
+      - [Access Governance](#access-governance)
+      - [Built-In Roles](#built-in-roles)
+      - [Delegated Administration](#delegated-administration)
+      - [Subscription Administration](#subscription-administration)
+    - [Workload Identity](#workload-identity)
+      - [Managed Identities](#managed-identities)
+  - [Tenant Governance](#tenant-governance)
+    - [API Deprecations](#api-deprecations-1)
+      - [Microsoft Graph Migration](#microsoft-graph-migration)
+    - [Azure Subscriptions](#azure-subscriptions)
+      - [Resource Hierarchy](#resource-hierarchy)
+    - [Cloud Security](#cloud-security-2)
+      - [Entra ID Health](#entra-id-health)
+    - [Entra ID](#entra-id)
+      - [Group Administration](#group-administration)
+      - [Infrastructure as Code](#infrastructure-as-code-7)
+    - [Identity Administration](#identity-administration-1)
+      - [Resource Hierarchy](#resource-hierarchy-1)
+    - [Multi-Tenancy](#multi-tenancy)
+      - [Architectural Patterns](#architectural-patterns)
+      - [B2B Collaboration](#b2b-collaboration)
+1. [Identity and Access](#identity-and-access-2)
+  - [Active Directory](#active-directory)
+    - [Account Management](#account-management)
+      - [Security Auditing](#security-auditing-1)
+  - [Certificate Authentication](#certificate-authentication-1)
+    - [PowerShell SDK](#powershell-sdk)
+      - [Security Engineering](#security-engineering)
+  - [Managed Identities](#managed-identities-1)
+    - [Secretless Architectures](#secretless-architectures)
+      - [Graph API](#graph-api)
+  - [Microsoft 365](#microsoft-365)
+    - [Auditing and Reporting](#auditing-and-reporting)
+      - [Administration](#administration)
+  - [Microsoft Graph API](#microsoft-graph-api)
+    - [Administration](#administration-1)
+      - [PowerShell SDK](#powershell-sdk-1)
+    - [App Registration](#app-registration)
+      - [Service Principals](#service-principals-1)
+    - [PowerShell SDK](#powershell-sdk-2)
+      - [Developer Ergonomics](#developer-ergonomics)
+    - [SDK Samples](#sdk-samples)
+      - [Azure AD Applications](#azure-ad-applications)
+    - [Utility Scripts](#utility-scripts)
+      - [Automation Resources](#automation-resources)
+1. [Infrastructure](#infrastructure)
+  - [Configuration Management](#configuration-management)
+    - [PowerShell DSC](#powershell-dsc)
+1. [Infrastructure and Platform](#infrastructure-and-platform)
+  - [Tenant Governance](#tenant-governance-1)
+    - [Subscription Architecture](#subscription-architecture)
+      - [Quotas and Service Limits](#quotas-and-service-limits)
+1. [Infrastructure Automation](#infrastructure-automation-1)
+  - [Command-Line Wrapper](#command-line-wrapper)
+    - [PowerShell Crescendo](#powershell-crescendo)
+      - [Case Study](#case-study)
+      - [Tool Modernization](#tool-modernization)
+  - [Config Management](#config-management)
+    - [Desired State Configuration](#desired-state-configuration)
+      - [Enterprise Design](#enterprise-design)
+      - [Introductory Guides](#introductory-guides)
+  - [Dependency Management](#dependency-management)
+    - [PowerShellGet](#powershellget)
+      - [NuGet Providers](#nuget-providers)
+  - [Governance](#governance-3)
+    - [Enterprise Policy as Code](#enterprise-policy-as-code)
+      - [Azure Policy](#azure-policy)
+  - [Infrastructure as Code](#infrastructure-as-code-8)
+    - [Azure Bicep](#azure-bicep-1)
+      - [Declarative Deployments](#declarative-deployments)
+  - [Package Management](#package-management-2)
+    - [PowerShell Gallery](#powershell-gallery)
+      - [PowerShell Crescendo](#powershell-crescendo-1)
+  - [Performance Profiling](#performance-profiling)
+    - [PowerShell Core](#powershell-core)
+      - [Script Optimization](#script-optimization)
+  - [Reference Index](#reference-index)
+    - [GitHub Discoveries](#github-discoveries)
+      - [Community Modules](#community-modules)
+  - [Remote Administration](#remote-administration)
+    - [SSH](#ssh)
+      - [PowerShell Core](#powershell-core-1)
+    - [WinRM](#winrm)
+      - [Session Management](#session-management)
+  - [Secret Management](#secret-management-1)
+    - [Security Engineering](#security-engineering-1)
+      - [PowerShell Secrets](#powershell-secrets)
+  - [Shell Customization](#shell-customization)
+    - [Oh-My-Posh](#oh-my-posh)
+      - [Kubernetes Integration](#kubernetes-integration)
+  - [System Management](#system-management)
+    - [Utility Scripts](#utility-scripts-1)
+      - [Automation Resources](#automation-resources-1)
+  - [Systems Administration](#systems-administration)
+    - [PowerShell Utility](#powershell-utility)
+      - [Process Automation](#process-automation)
+    - [Shell Environments](#shell-environments)
+      - [Comparison](#comparison)
+1. [Infrastructure as Code](#infrastructure-as-code-9)
+  - [ARM Templates](#arm-templates)
+    - [Template Specs](#template-specs)
+    - [Training](#training-1)
+  - [Azure Basics](#azure-basics)
+    - [Developer Tools](#developer-tools-1)
+  - [Terraform](#terraform)
+    - [Landing Zones](#landing-zones-3)
+  - [Terraform Providers](#terraform-providers)
+    - [Azure IPAM](#azure-ipam)
+  - [Verification and AI](#verification-and-ai)
+    - [Copilot Verification](#copilot-verification)
+1. [Management and Governance](#management-and-governance)
+  - [AI Cloud Operations](#ai-cloud-operations)
+    - [Azure Copilot](#azure-copilot)
+1. [Microservices](#microservices)
+  - [.NET Microservices](#net-microservices)
+    - [Project Tye](#project-tye)
+1. [Modern Workplace](#modern-workplace)
+  - [Endpoint Management](#endpoint-management)
+    - [Microsoft Intune](#microsoft-intune)
+      - [Microsoft Graph](#microsoft-graph)
+1. [Network and Delivery](#network-and-delivery)
+  - [API Management](#api-management-1)
+    - [Monetization Models](#monetization-models)
+    - [Workspace Migration](#workspace-migration)
+  - [DNS Resolution](#dns-resolution-1)
+    - [Enterprise Architecture](#enterprise-architecture-2)
+    - [Operational Tooling](#operational-tooling)
+    - [Private DNS](#private-dns)
+  - [Global Routing](#global-routing)
+    - [DNS Traffic Management](#dns-traffic-management)
+  - [Network Security](#network-security-1)
+    - [Architecture Baselines](#architecture-baselines)
+1. [Networking](#networking)
+  - [Infrastructure as Code](#infrastructure-as-code-10)
+    - [Architecture Code Patterns](#architecture-code-patterns)
+  - [Network Management](#network-management)
+    - [AVNM](#avnm)
+  - [Traffic Management](#traffic-management)
+    - [Load Balancing](#load-balancing)
+    - [Load Balancing Comparison](#load-balancing-comparison)
+1. [Operating Systems](#operating-systems-1)
+  - [Azure Linux](#azure-linux-1)
+    - [CBL-Mariner](#cbl-mariner)
+    - [Kernel Curation](#kernel-curation)
+1. [Platform Automation and Tooling](#platform-automation-and-tooling)
+  - [Command Line Interface](#command-line-interface)
+    - [Cross-Platform Shells](#cross-platform-shells)
+    - [PowerShell Core](#powershell-core-2)
+    - [PowerShell Ecosystem](#powershell-ecosystem)
+    - [PowerShell Help](#powershell-help)
+    - [PowerShell Magazine](#powershell-magazine)
+    - [PowerShell Modules](#powershell-modules)
+    - [PowerShell Networking](#powershell-networking)
+    - [posh-git Module](#posh-git-module)
+  - [Database Administration](#database-administration)
+    - [dbatools Module](#dbatools-module)
+1. [Platform Engineering](#platform-engineering-1)
+  - [CICD Platforms](#cicd-platforms)
+    - [Azure DevOps](#azure-devops-2)
+1. [Quality Assurance](#quality-assurance)
+  - [Performance Testing](#performance-testing)
+    - [Azure Load Testing](#azure-load-testing)
+1. [Sandbox Environments](#sandbox-environments)
+  - [Development Environments](#development-environments)
+    - [Azure Sandbox](#azure-sandbox)
+1. [Security](#security-1)
+  - [Identity and Access](#identity-and-access-3)
+    - [OIDC Integration](#oidc-integration)
+  - [Network Security](#network-security-2)
+    - [Azure Firewall](#azure-firewall)
+  - [Threat Hunting](#threat-hunting)
+    - [Active Directory](#active-directory-1)
+1. [Security and Identity](#security-and-identity)
+  - [API Security](#api-security)
+    - [Runtime Threat Protection](#runtime-threat-protection)
+  - [Compliance](#compliance-2)
+    - [Security Benchmarks](#security-benchmarks)
+  - [DevSecOps](#devsecops-1)
+    - [Continuous Security](#continuous-security)
+  - [Hybrid Connectivity](#hybrid-connectivity)
+    - [Point-to-Site VPN](#point-to-site-vpn)
+  - [Identity Governance](#identity-governance)
+    - [Entra ID B2B](#entra-id-b2b)
+    - [RBAC](#rbac-1)
+  - [Identity Security](#identity-security)
+    - [Access Design](#access-design)
+    - [Conditional Access](#conditional-access)
+  - [SecOps](#secops)
+    - [AI Security Copilot](#ai-security-copilot)
+    - [Cloud Security Dashboard](#cloud-security-dashboard)
+    - [Red-Teaming](#red-teaming)
+    - [Sentinel Monitoring](#sentinel-monitoring)
+  - [Security Operations](#security-operations)
+    - [SIEM](#siem)
+  - [Vulnerability Research](#vulnerability-research)
+    - [Container Escape](#container-escape)
+1. [Security Operations](#security-operations-1)
+  - [Advanced Threat Protection](#advanced-threat-protection)
+    - [Offensive Tooling](#offensive-tooling)
+      - [Penetration Testing](#penetration-testing)
+  - [Penetration Testing](#penetration-testing-1)
+    - [PowerShell Exploits](#powershell-exploits)
+      - [Reverse Shells](#reverse-shells)
+  - [Virtual Machines](#virtual-machines-2)
+    - [Azure Run Command](#azure-run-command)
+      - [Vulnerability Analysis](#vulnerability-analysis)
+  - [Windows OS](#windows-os)
+    - [Service Accounts](#service-accounts)
+      - [Privilege Audit](#privilege-audit)
+1. [Software Engineering](#software-engineering)
+  - [CICD Platforms](#cicd-platforms-1)
+    - [Mobile DevOps](#mobile-devops)
+1. [Testing](#testing)
+  - [Load Testing](#load-testing)
+    - [Azure Container Instances](#azure-container-instances)
+
 ## API Design
 
 ### Standards
 
 #### REST API
 
-  - **(2026)** [==Microsoft REST API Guidelines 🌟🌟🌟==](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) <span class='md-tag md-tag--info'>⭐ 23289</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive standards document establishing design specifications for REST APIs across Microsoft platforms. It defines explicit protocols for HTTP methods, error handling, versioning, pagination, and JSON schemas. This serves as a highly robust benchmark for software engineers designing public-facing and microservices-based API endpoints.
+  - **(2026)** [==Microsoft REST API Guidelines 🌟🌟🌟==](https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md) <span class='md-tag md-tag--info'>⭐ 23289</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4a0bb68b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 2 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-4a0bb68b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive standards document establishing design specifications for REST APIs across Microsoft platforms. It defines explicit protocols for HTTP methods, error handling, versioning, pagination, and JSON schemas. This serves as a highly robust benchmark for software engineers designing public-facing and microservices-based API endpoints.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -85,7 +671,7 @@
 
 #### API Management
 
-  - **(2024)** [==github.com/Azure/apiops 🌟==](https://github.com/Azure/apiops) <span class='md-tag md-tag--info'>⭐ 440</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Azure APIOps repository implementing GitOps principles for Azure API Management (APIM). Enables organizations to automate the extraction, publishing, configuration control, and deployment of complex API configurations across development, staging, and production networks.
+  - **(2024)** [==github.com/Azure/apiops 🌟==](https://github.com/Azure/apiops) <span class='md-tag md-tag--info'>⭐ 440</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4e188128" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 4 L 30 6 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-4e188128)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Azure APIOps repository implementing GitOps principles for Azure API Management (APIM). Enables organizations to automate the extraction, publishing, configuration control, and deployment of complex API configurations across development, staging, and production networks.
 #### Application Delivery
 
   - **(2022)** [nubesgen.com](https://nubesgen.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official workspace for NubesGen, a community-driven GitOps bootstrapping engine. It streamlines developer onboarding by dynamically outputting tailored, best-practice Terraform or Bicep templates for hosting Java, Node.js, and .NET applications on Azure. This eliminates manual configuration of networking and identity components.
@@ -94,7 +680,7 @@
 
 #### Enterprise Migration
 
-  - **(2024)** [==github.com/Azure/migration: The Migration Execution Guide.==](https://github.com/Azure/migration) <span class='md-tag md-tag--info'>⭐ 192</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Azure Migration Execution Guide repository. Houses comprehensive scripts, framework matrices, and programmatic guidance blueprints to safely move enterprise database, compute, and networking footprints from on-premises hosts into Microsoft Azure.
+  - **(2024)** [==github.com/Azure/migration: The Migration Execution Guide.==](https://github.com/Azure/migration) <span class='md-tag md-tag--info'>⭐ 192</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf88ef0f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 9 L 30 5 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-bf88ef0f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Azure Migration Execution Guide repository. Houses comprehensive scripts, framework matrices, and programmatic guidance blueprints to safely move enterprise database, compute, and networking footprints from on-premises hosts into Microsoft Azure.
 #### Java Ecosystem
 
   - **(2023)** [learn.microsoft.com: Migrate Java applications to Azure 🌟🌟🌟](https://learn.microsoft.com/en-us/azure/developer/java/migration/migration-overview) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Microsoft’s official migration matrix for containerizing and deploying Java workloads on Azure. Evaluates migration paths for Tomcat, JBoss EAP, WebLogic, and Spring Boot to hosting targets such as Azure App Service, Azure Container Apps, and AKS. Includes assessments for dependency management and database connection pooling.
@@ -126,7 +712,7 @@
 
 #### Enterprise AI
 
-  - **(2024)** [github.com/Azure-Samples/azure-ai-studio-secure-bicep](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep) <span class='md-tag md-tag--info'>⭐ 61</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft sample blueprint demonstrating deployment of a secure Azure AI Studio environment. Hardens connections utilizing private endpoints, key vaults, and managed virtual network isolations.
+  - **(2024)** [github.com/Azure-Samples/azure-ai-studio-secure-bicep](https://github.com/Azure-Samples/azure-ai-studio-secure-bicep) <span class='md-tag md-tag--info'>⭐ 61</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-298fd8fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 5 L 30 8 L 40 3 L 50 12" fill="none" stroke="url(#spark-grad-298fd8fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft sample blueprint demonstrating deployment of a secure Azure AI Studio environment. Hardens connections utilizing private endpoints, key vaults, and managed virtual network isolations.
 ## CICD Pipeline
 
 ### Security and Compliance
@@ -140,7 +726,7 @@
 
 #### Model Context Protocol
 
-  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1813</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
+  - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1813</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2b346c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 2 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-2b346c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
 ### DevOps Platforms
 
 #### DevTest Labs
@@ -153,12 +739,12 @@
 
 #### DevOps Dashboard
 
-  - **(2024)** [==Azure DevOps Dashboard==](https://github.com/cschotte/Azure-DevOps-Dashboard) <span class='md-tag md-tag--info'>⭐ 16</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community-driven dashboard tool for monitoring multi-project pipelines and deployment progress inside a single, unified view. Helps development leads observe pipeline backlogs and release tempos.
+  - **(2024)** [==Azure DevOps Dashboard==](https://github.com/cschotte/Azure-DevOps-Dashboard) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b7a4398b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 10 L 30 5 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-b7a4398b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community-driven dashboard tool for monitoring multi-project pipelines and deployment progress inside a single, unified view. Helps development leads observe pipeline backlogs and release tempos.
 ### Pipeline Extensions
 
 #### Tasks Repository
 
-  - **(2026)** [==microsoft/azure-pipelines-tasks==](https://github.com/microsoft/azure-pipelines-tasks) <span class='md-tag md-tag--info'>⭐ 3645</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main open-source codebase behind Azure Pipelines tasks. Critical reference for developers needing to extend build steps or troubleshoot performance bottlenecks.
+  - **(2026)** [==microsoft/azure-pipelines-tasks==](https://github.com/microsoft/azure-pipelines-tasks) <span class='md-tag md-tag--info'>⭐ 3645</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-90ed25b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 9 L 30 4 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-90ed25b2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main open-source codebase behind Azure Pipelines tasks. Critical reference for developers needing to extend build steps or troubleshoot performance bottlenecks.
 ### Pipeline Integration
 
 #### Azure DevOps
@@ -183,7 +769,7 @@
 
 #### Azure DevOps Pipelines
 
-  - **(2024)** [==github.com/nnellans/ado-pipelines-guide: Azure DevOps YAML Pipelines Guide' 🌟==](https://github.com/nnellans/ado-pipelines-guide) <span class='md-tag md-tag--info'>⭐ 74</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, community-created repository gathering YAML pipeline configurations and boilerplate templates. Focuses on standardized modular task integration and multi-stage configurations.
+  - **(2024)** [==github.com/nnellans/ado-pipelines-guide: Azure DevOps YAML Pipelines Guide' 🌟==](https://github.com/nnellans/ado-pipelines-guide) <span class='md-tag md-tag--info'>⭐ 74</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09242ff8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 5 L 30 7 L 40 6 L 50 4" fill="none" stroke="url(#spark-grad-09242ff8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, community-created repository gathering YAML pipeline configurations and boilerplate templates. Focuses on standardized modular task integration and multi-stage configurations.
 ### Training
 
 #### Azure DevOps Paths
@@ -221,7 +807,7 @@
 
 #### Command-Line Tools
 
-  - **(2026)** [github.com/Azure/azqr](https://github.com/Azure/azqr) <span class='md-tag md-tag--info'>⭐ 774</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line utility designed to scan Azure resource groups or subscriptions and quickly generate a compliance and recommendation report based on Well-Architected Framework benchmarks. Highly effective for rapid technical audits, finding configuration drifts, and securing container and PaaS architectures.
+  - **(2026)** [github.com/Azure/azqr](https://github.com/Azure/azqr) <span class='md-tag md-tag--info'>⭐ 774</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-008408f2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 12 L 30 12 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-008408f2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A command-line utility designed to scan Azure resource groups or subscriptions and quickly generate a compliance and recommendation report based on Well-Architected Framework benchmarks. Highly effective for rapid technical audits, finding configuration drifts, and securing container and PaaS architectures.
 ### Frameworks
 
 #### WAF Assessments
@@ -276,7 +862,7 @@
 #### YAML Templating and Reusability
 
   - **(2024)** [==learn.microsoft.com: Azure DevOps Templates - Template types & usage 🌟🌟==](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/templates?view=azure-devops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Microsoft documentation outlining the structural types and configuration paradigms of Azure DevOps templates. Utilizing YAML templates with runtime parameters and compile-time expressions is the de facto standard in 2026. This approach allows enterprise organizations to centralize pipeline logic and enforce compliance across hundreds of microservices.
-  - **(2024)** [**github.com/JFolberth/TheYAMLPipelineOne 🌟**](https://github.com/JFolberth/TheYAMLPipelineOne) <span class='md-tag md-tag--info'>⭐ 221</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source pipeline framework showcasing advanced DRY (Don't Repeat Yourself) YAML patterns for Azure DevOps. In 2026, this template system represents best-in-class orchestration, enabling developers to scale microservice builds without duplicating pipelines or configuration code.
+  - **(2024)** [**github.com/JFolberth/TheYAMLPipelineOne 🌟**](https://github.com/JFolberth/TheYAMLPipelineOne) <span class='md-tag md-tag--info'>⭐ 221</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d516cd2e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 5 L 30 13 L 40 3 L 50 11" fill="none" stroke="url(#spark-grad-d516cd2e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source pipeline framework showcasing advanced DRY (Don't Repeat Yourself) YAML patterns for Azure DevOps. In 2026, this template system represents best-in-class orchestration, enabling developers to scale microservice builds without duplicating pipelines or configuration code.
 ### Container Orchestration (1)
 
 #### GitOps
@@ -298,13 +884,13 @@
   - **(2023)** [luke.geek.nz/azure: Export Azure DevOps Repositories to Azure Storage Account](https://luke.geek.nz/azure/export-azure-devops-repos-azure-storage-account) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides custom scripting recipes for archiving and exporting Git repositories from Azure DevOps organizations to secure Azure Storage accounts. While native recovery tools have evolved, 2026 compliance audits for highly regulated industries still mandate offline, secondary backups of both repositories and metadata.
 #### Disaster Recovery
 
-  - **(2024)** [**https://github.com/michaelmsonne/AzureDevOpsBackupTool**](https://github.com/michaelmsonne/AzureDevOpsBackupTool) <span class='md-tag md-tag--info'>⭐ 37</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional community CLI utility engineered to automate the backup of Azure DevOps configurations, including repositories, boards, pipelines, and variable groups. In 2026, this tool remains highly useful for system migrations, air-gapped compliance baselines, and cross-organization disaster recovery testing.
+  - **(2024)** [**https://github.com/michaelmsonne/AzureDevOpsBackupTool**](https://github.com/michaelmsonne/AzureDevOpsBackupTool) <span class='md-tag md-tag--info'>⭐ 37</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d145821" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 13 L 30 4 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-9d145821)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly functional community CLI utility engineered to automate the backup of Azure DevOps configurations, including repositories, boards, pipelines, and variable groups. In 2026, this tool remains highly useful for system migrations, air-gapped compliance baselines, and cross-organization disaster recovery testing.
   - **(2024)** [blog.sonnes.cloud: Introducing Azure DevOps Backup Tool 1.1.0.0: Major update with new features, bug fixes and enhanced security!](https://blog.sonnes.cloud/introducing-azure-devops-backup-tool-1-1-0-0-major-update-with-new-features-bug-fixes-and-enhanced-security) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces major feature releases of the Azure DevOps Backup Tool (v1.1.0.0), highlighting enhancements in API throughput, credential safety, and automated backup schedules. 2026 engineering audits confirm this tool is reliable for securing multi-tenant environments against accidental service deletions.
 ### Infrastructure as Code (2)
 
 #### End-to-End Lab Guides
 
-  - **(2022)** [==thomast1906/DevOps-The-Hard-Way-Azure 🌟==](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) <span class='md-tag md-tag--info'>⭐ 582</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A hands-on, end-to-end sandbox guide mapping out 'The Hard Way' of deploying infrastructure and applications on Azure. This project details virtual network design, VM provisioning, AKS deployments, and pipeline-driven application releases. 2026 live grounding validates this repository as a premier community benchmark for building custom, highly-secure lab environments.
+  - **(2022)** [==thomast1906/DevOps-The-Hard-Way-Azure 🌟==](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) <span class='md-tag md-tag--info'>⭐ 582</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-37f99e5e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 3 L 30 4 L 40 11 L 50 6" fill="none" stroke="url(#spark-grad-37f99e5e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A hands-on, end-to-end sandbox guide mapping out 'The Hard Way' of deploying infrastructure and applications on Azure. This project details virtual network design, VM provisioning, AKS deployments, and pipeline-driven application releases. 2026 live grounding validates this repository as a premier community benchmark for building custom, highly-secure lab environments.
 #### Terraform Orchestration
 
 ##### Pull Request Feedback
@@ -395,7 +981,7 @@
 
 #### AKS Fleet Manager
 
-  - **(2024)** [github.com/azure/fleet](https://github.com/azure/fleet) <span class='md-tag md-tag--info'>⭐ 224</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Azure Kubernetes Service (AKS) Fleet Manager, designed for multi-cluster fleet-wide management. Coordinates application rollouts, implements global ingress configurations, and automates orchestrator upgrades across distributed topologies.
+  - **(2024)** [github.com/azure/fleet](https://github.com/azure/fleet) <span class='md-tag md-tag--info'>⭐ 224</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff36d64d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 6 L 30 6 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-ff36d64d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Azure Kubernetes Service (AKS) Fleet Manager, designed for multi-cluster fleet-wide management. Coordinates application rollouts, implements global ingress configurations, and automates orchestrator upgrades across distributed topologies.
 ### Container Storage
 
 #### Cloud Native Storage
@@ -425,7 +1011,7 @@
 
 #### App Registrations
 
-  - **(2022)** [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](http://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli) <span class='md-tag md-tag--warning'>[POWERSHELL/CLI CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparison and implementation guide for creating Azure App Registrations using both Azure CLI and Azure PowerShell. It highlights syntax nuances, command mappings, and execution flows for automated environment provisioning. It functions as a critical resource for platform engineers standardizing bootstrap scripts for new application environments.
+  - **(2022)** [vcloud-lab.com: Create an Azure App registrations in Azure Active Directory using PowerShell & AzureCLI](https://vcloud-lab.com/entries/microsoft-azure/create-an-azure-app-registrations-in-azure-active-directory-using-powershell-azurecli) <span class='md-tag md-tag--warning'>[POWERSHELL/CLI CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comparison and implementation guide for creating Azure App Registrations using both Azure CLI and Azure PowerShell. It highlights syntax nuances, command mappings, and execution flows for automated environment provisioning. It functions as a critical resource for platform engineers standardizing bootstrap scripts for new application environments.
 #### Azure AD and Graph API
 
   - **(2021)** [agrenpoint.com: Azure AD & Microsoft Graph permission scopes, with Azure CLI](https://www.agrenpoint.com/azcli-adscope) <span class='md-tag md-tag--warning'>[POWERSHELL/CLI CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide explaining how to retrieve and assign Microsoft Graph API and Azure AD permission scopes programmatically using the Azure CLI. Understanding scopes and roles is crucial for automated service principal authorization, mitigating over-privileged access risks in CI/CD pipelines. It bridges the gap between manual Entra ID configuration and automated Infrastructure as Code (IaC) governance.
@@ -439,7 +1025,7 @@
   - **(2024)** [linkedin.com/pulse: Exporting and importing variables between Bicep files: compileTimeImports | Freek Berson](https://www.linkedin.com/pulse/exporting-importing-variables-between-bicep-files-freek-berson-n0ske) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the use of `compileTimeImports` to share variables, user-defined types, and functions across disparate Azure Bicep files. This feature significantly enhances modular code reuse and enterprise standardization without relying on runtime outputs.
 #### Azure Bicep
 
-  - **(2022)** [github.com/nnellans/bicep-guide](https://github.com/nnellans/bicep-guide) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured walkthrough repository outlining best practices, modular structures, and orchestration techniques in Azure Bicep. It acts as a reference for constructing scalable, reusable IaC configurations with built-in parameterization and deployment scopes.
+  - **(2022)** [github.com/nnellans/bicep-guide](https://github.com/nnellans/bicep-guide) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf5aef13" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 4 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-cf5aef13)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured walkthrough repository outlining best practices, modular structures, and orchestration techniques in Azure Bicep. It acts as a reference for constructing scalable, reusable IaC configurations with built-in parameterization and deployment scopes.
   - **(2023)** [insight-services-apac.github.io: Getting Started with Bicep](https://blog.insight-services-apac.dev/2023/12/04/getting-started-bicep) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A foundational exploration of Azure Bicep designed to ease the onboarding ramp from legacy ARM templates. Emphasizes cleaner declarative syntax, structural modularization, and native integration with Azure CLI/PowerShell workflows.
   - **(2022)** [build5nines.com: Get Started with Azure Bicep – Alternative to ARM Templates](https://build5nines.com/get-started-with-azure-bicep) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Azure Bicep as Microsoft's strategic evolution beyond JSON-based ARM templates. It contrasts the language's simplified abstraction layer, compilation mechanics, and automatic dependency resolution against traditional enterprise patterns.
   - **(2021)** [github.com/johnlokerse/azure-bicep-cheat-sheet: Azure Bicep Cheat Sheet](https://github.com/johnlokerse/azure-bicep-cheat-sheet) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive quick-reference guide designed to accelerate Azure Bicep development. It provides syntax mappings, parameter declarations, and deployment command structures to streamline the transition from ARM JSON to domain-specific language architectures.
@@ -493,7 +1079,7 @@
   - **(2022)** [zer1t0.gitlab.io: Attacking Active Directory: 0 to 0.9 🌟](https://zer1t0.gitlab.io/posts/attacking_ad) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security-focused analysis detailing vector analysis and enumeration techniques against on-premises Active Directory environments. It traces step-by-step methodologies from initial reconnaissance to privilege escalation, focusing on vulnerabilities like Kerberoasting and AS-REP roasting. Security teams can leverage these offensive tactics to construct robust, defensive threat-detection models.
 #### Certificate Authentication
 
-  - **(2022)** [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](http://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure) <span class='md-tag md-tag--warning'>[POWERSHELL/CLI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation for configuring certificate-based authentication for service principals within Microsoft Azure. It details the process of generating self-signed certificates, importing them into App Registrations, and validating connections via Azure CLI or PowerShell. This approach is highly recommended for secure, non-interactive pipeline authentications, bypassing vulnerable password credentials.
+  - **(2022)** [vcloud-lab.com: Get started and configure certificate-based authentication in Azure](https://vcloud-lab.com/entries/microsoft-azure/get-started-and-configure-with-certificate-based-authentication-in-azure) <span class='md-tag md-tag--warning'>[POWERSHELL/CLI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation for configuring certificate-based authentication for service principals within Microsoft Azure. It details the process of generating self-signed certificates, importing them into App Registrations, and validating connections via Azure CLI or PowerShell. This approach is highly recommended for secure, non-interactive pipeline authentications, bypassing vulnerable password credentials.
 #### PowerShell Security
 
   - **(2023)** [deepinstinct.com: What makes powershell a challenge for cybersecurity solutions? 🌟](https://www.deepinstinct.com/blog/what-makes-powershell-a-challenge-for-cybersecurity-solutions) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis explaining why PowerShell poses unique challenges to traditional Endpoint Detection and Response (EDR) agents. It details memory-only script execution techniques (fileless malware), obfuscation, and bypass patterns that avoid disk auditing. This highlights the absolute necessity of enabling PowerShell Transcription logging and Constrained Language Mode in production.
@@ -523,7 +1109,7 @@
   - **(2022)** [seifbassem.com: SSH into your Azure Arc-enabled servers from anywhere](https://blog.seifbassem.com/blogs/posts/azure-arc-ssh) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to establish secure, passwordless SSH tunnels into Azure Arc-enabled servers without public IP addresses. It leverages Azure Arc's built-in relay capability and Entra ID authentication to enforce strict role-based access control (RBAC). This paradigm provides a zero-trust alternative to bastion hosts or VPN connections for remote host management.
 #### Azure Arc Architecture
 
-  - **(2025)** [**architecture diagrams and slides**](https://github.com/microsoft/azure_arc) <span class='md-tag md-tag--info'>⭐ 806</span> <span class='md-tag md-tag--warning'>[MARKDOWN/IMAGES CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official architectural blueprints and presentation slides detailing the inner workings of Azure Arc control planes and resource providers. This repository visually demonstrates how Arc bridges the control plane to edge environments and external cloud providers. It is an indispensable asset for enterprise architects designing unified management policies and hybrid cluster deployments.
+  - **(2025)** [**architecture diagrams and slides**](https://github.com/microsoft/azure_arc) <span class='md-tag md-tag--info'>⭐ 806</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06a9b07f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 2 L 30 13 L 40 4 L 50 13" fill="none" stroke="url(#spark-grad-06a9b07f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN/IMAGES CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official architectural blueprints and presentation slides detailing the inner workings of Azure Arc control planes and resource providers. This repository visually demonstrates how Arc bridges the control plane to edge environments and external cloud providers. It is an indispensable asset for enterprise architects designing unified management policies and hybrid cluster deployments.
 #### Azure Arc Jumpstart
 
   - **(2026)** [==azurearcjumpstart.io==](https://jumpstart.azure.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The comprehensive Azure Arc Jumpstart portal, providing automated, hands-on sandbox scenarios for Arc-enabled infrastructure. It facilitates instant provisioning of hybrid Kubernetes, servers, and data services across multi-cloud environments like AWS and GCP. This portal remains the primary industry reference for testing real-world deployment patterns and complex integration topologies.
@@ -544,7 +1130,7 @@
   - **(2026)** [azurecharts.com/learning: Azure Learning Explorer](https://azurecharts.com/learning) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive educational roadmap generator integrated inside Azure Charts. Guides cloud engineers through certifications and specific infrastructure tracks.
 #### High Availability Architectures
 
-  - **(2026)** [==github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation==](https://github.com/azure/mission-critical-online) <span class='md-tag md-tag--info'>⭐ 401</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-grade reference template demonstrating design strategies for mission-critical cloud applications on Azure. Implements active-active patterns, automated failover, and zero-downtime updates.
+  - **(2026)** [==github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation==](https://github.com/azure/mission-critical-online) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-07d045cb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 10 L 30 8 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-07d045cb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-grade reference template demonstrating design strategies for mission-critical cloud applications on Azure. Implements active-active patterns, automated failover, and zero-downtime updates.
 #### Portal Core
 
   - **(2026)** [Microsoft Azure](https://azure.microsoft.com/en-us) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master platform portal link for Microsoft Azure services. Used by enterprise architects to model global computing resources, secure network rings, and Kubernetes nodes.
@@ -565,29 +1151,29 @@
 
 #### Cloud-Native
 
-  - **(2022)** [==github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook==](https://github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook) <span class='md-tag md-tag--info'>⭐ 344</span> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Architectural repository covering modern cloud design topologies, zero-trust cloud network security, infrastructure redundancy, microservice distribution, and cost models mapping.
+  - **(2022)** [==github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook==](https://github.com/PacktPublishing/The-Azure-Cloud-Native-Architecture-Mapbook) <span class='md-tag md-tag--info'>⭐ 344</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e6b6f391" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 8 L 30 10 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-e6b6f391)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Architectural repository covering modern cloud design topologies, zero-trust cloud network security, infrastructure redundancy, microservice distribution, and cost models mapping.
 ### Automation
 
 #### PowerShell Scripts
 
-  - **(2024)** [==github.com/ElanShudnow/AzureCode==](https://github.com/ElanShudnow/AzureCode) <span class='md-tag md-tag--info'>⭐ 80</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated script library for administrative management of Azure infrastructures. Includes configuration patterns for hybrid Active Directory networks, cloud storage profiles, and identity lifecycle events.
+  - **(2024)** [==github.com/ElanShudnow/AzureCode==](https://github.com/ElanShudnow/AzureCode) <span class='md-tag md-tag--info'>⭐ 80</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-833cd0db" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 13 L 30 5 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-833cd0db)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated script library for administrative management of Azure infrastructures. Includes configuration patterns for hybrid Active Directory networks, cloud storage profiles, and identity lifecycle events.
 #### User Provisioning
 
-  - **(2023)** [github.com/BrianCollet/onboard-automator](https://github.com/BrianCollet/onboard-automator) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated pipeline logic designed to simplify employee lifecycle events, managing identity provisioning, security group access control, and user workspaces across Entra ID environments.
+  - **(2023)** [github.com/BrianCollet/onboard-automator](https://github.com/BrianCollet/onboard-automator) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bda36006" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 13 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-bda36006)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated pipeline logic designed to simplify employee lifecycle events, managing identity provisioning, security group access control, and user workspaces across Entra ID environments.
 ### Governance (1)
 
 #### Azure Naming Tool
 
-  - **(2025)** [==github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟==](https://github.com/mspnp/AzureNamingTool) <span class='md-tag md-tag--info'>⭐ 581</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Patterns & Practices software engine providing an integrated UI and programmatic API endpoints to enforce consistent, governance-compliant resource naming structures across all Azure cloud components.
+  - **(2025)** [==github.com/mspnp/AzureNamingTool - Azure Naming Tool 🌟==](https://github.com/mspnp/AzureNamingTool) <span class='md-tag md-tag--info'>⭐ 581</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-318355fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 2 L 30 5 L 40 9 L 50 3" fill="none" stroke="url(#spark-grad-318355fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Patterns & Practices software engine providing an integrated UI and programmatic API endpoints to enforce consistent, governance-compliant resource naming structures across all Azure cloud components.
 #### FinOps
 
-  - **(2026)** [==github.com/microsoft/finops-toolkit==](https://github.com/microsoft/finops-toolkit) <span class='md-tag md-tag--info'>⭐ 565</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Microsoft FinOps toolkit. Orchestrates Azure cost management reports, optimizes compute reservations models, standardizes amortization datasets, and formats Power BI pricing governance metrics.
+  - **(2026)** [==github.com/microsoft/finops-toolkit==](https://github.com/microsoft/finops-toolkit) <span class='md-tag md-tag--info'>⭐ 565</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3a7fb3e1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 13 L 30 7 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-3a7fb3e1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Microsoft FinOps toolkit. Orchestrates Azure cost management reports, optimizes compute reservations models, standardizes amortization datasets, and formats Power BI pricing governance metrics.
 #### Reliability
 
   - **(2023)** [github.com/mustafakaya/Azure-Reliability-Checker-Tool](https://github.com/mustafakaya/Azure-Reliability-Checker-Tool) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnostic engine analyzing Azure configurations against Well-Architected Framework reliability pillars. Warns of single points of failure, missing geo-replication rules, and availability zone oversights.
 #### Security Auditing
 
-  - **(2024)** [==github.com/JulianHayward/AzADServicePrincipalInsights==](https://github.com/JulianHayward/AzADServicePrincipalInsights) <span class='md-tag md-tag--info'>⭐ 251</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automated reporting utility designed to audit Entra ID (Azure AD) Service Principals, highlighting over-permissioned applications, API vulnerabilities, and expiring credential/certificate payloads.
+  - **(2024)** [==github.com/JulianHayward/AzADServicePrincipalInsights==](https://github.com/JulianHayward/AzADServicePrincipalInsights) <span class='md-tag md-tag--info'>⭐ 251</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf010518" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 13 L 30 6 L 40 3 L 50 7" fill="none" stroke="url(#spark-grad-bf010518)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automated reporting utility designed to audit Entra ID (Azure AD) Service Principals, highlighting over-permissioned applications, API vulnerabilities, and expiring credential/certificate payloads.
 ### Infrastructure as Code (5)
 
 #### Azure Resource Manager
@@ -654,7 +1240,7 @@
 
 ##### Azure Resource Inventory
 
-  - **(2024)** [==github.com/microsoft/ARI: Azure Resource Inventory 🌟🌟🌟==](https://github.com/microsoft/ARI) <span class='md-tag md-tag--info'>⭐ 1644</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source analysis engine from Microsoft that sweeps target cloud subscriptions to render Excel inventories of deployed cloud components.
+  - **(2024)** [==github.com/microsoft/ARI: Azure Resource Inventory 🌟🌟🌟==](https://github.com/microsoft/ARI) <span class='md-tag md-tag--info'>⭐ 1644</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a55b92ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 12 L 20 8 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-a55b92ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source analysis engine from Microsoft that sweeps target cloud subscriptions to render Excel inventories of deployed cloud components.
 #### Tooling
 
 ##### Azure PowerShell SDK
@@ -822,9 +1408,9 @@
 
 #### Azure Pipelines
 
-  - **(2025)** [==microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟==](https://github.com/microsoft/azure-pipelines-yaml) <span class='md-tag md-tag--info'>⭐ 1287</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative schema repository and reference collection for declarative Azure Pipelines. Enables structural version-controlled pipeline configuration, complex dependencies routing, and native agent integration.
-  - **(2023)** [==Azure-Samples/azure-pipelines-variable-templates==](https://github.com/Azure-Samples/azure-pipelines-variable-templates) <span class='md-tag md-tag--info'>⭐ 38</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational template architecture for Azure DevOps Pipelines. Standardizes the sharing, ingestion, and management of environment variables across distinct build, test, and release environments to dry up pipeline manifests.
-  - **(2022)** [Azure-Samples/azure-pipelines-remote-tasks](https://github.com/Azure-Samples/azure-pipelines-remote-tasks) <span class='md-tag md-tag--info'>⭐ 3</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration framework and reusable templates for executing decentralized Azure Pipeline tasks against remote execution nodes, secure network environments, and custom virtualization fabrics.
+  - **(2025)** [==microsoft/azure-pipelines-yaml: Azure Pipelines YAML 🌟==](https://github.com/microsoft/azure-pipelines-yaml) <span class='md-tag md-tag--info'>⭐ 1287</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ac3e1b01" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 5 L 20 5 L 30 4 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-ac3e1b01)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative schema repository and reference collection for declarative Azure Pipelines. Enables structural version-controlled pipeline configuration, complex dependencies routing, and native agent integration.
+  - **(2023)** [==Azure-Samples/azure-pipelines-variable-templates==](https://github.com/Azure-Samples/azure-pipelines-variable-templates) <span class='md-tag md-tag--info'>⭐ 38</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8b5e1f7d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 3 L 20 7 L 30 7 L 40 10 L 50 12" fill="none" stroke="url(#spark-grad-8b5e1f7d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational template architecture for Azure DevOps Pipelines. Standardizes the sharing, ingestion, and management of environment variables across distinct build, test, and release environments to dry up pipeline manifests.
+  - **(2022)** [Azure-Samples/azure-pipelines-remote-tasks](https://github.com/Azure-Samples/azure-pipelines-remote-tasks) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-96b127ff" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 3 L 30 9 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-96b127ff)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration framework and reusable templates for executing decentralized Azure Pipeline tasks against remote execution nodes, secure network environments, and custom virtualization fabrics.
 #### Platform Integration
 
   - **(2026)** [github.com/azure-devops](https://github.com/azure-devops) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main developer repository portal for Azure DevOps, cataloging extensions, migration tooling, and programmatic APIs required to integrate enterprise workflows with git-based operations.
@@ -856,10 +1442,10 @@
   - **(2023)** [ismiletechnologies.com: Secure DevOps Kit For Azure(AzSK)](https://ismiletechnologies.com/en_us/devsecops/secure-devops-kit-azureazsk) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the Secure DevOps Kit for Azure, detailing its six key focus areas including subscription security, continuous assurance, and alerting. It provides a functional roadmap for integrating compliance checks into DevOps pipelines. It serves as a great introductory guide to understanding pre-cloud-native security assurance techniques.
 #### AzSK Documentation
 
-  - **(2024)** [DevOpsKit-docs](https://github.com/azsk/DevOpsKit-docs) <span class='md-tag md-tag--info'>⭐ 498</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation repository supporting the Secure DevOps Kit for Azure (AzSK). It outlines operational processes for deploying automated security checks in Azure DevOps pipelines and resource deployment validation. While native Azure tools have superseded AzSK, the structured policies and patterns detailed here still inform modern DevSecOps security baselines.
+  - **(2024)** [DevOpsKit-docs](https://github.com/azsk/DevOpsKit-docs) <span class='md-tag md-tag--info'>⭐ 498</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6cbaa1a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 13 L 30 7 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-6cbaa1a3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation repository supporting the Secure DevOps Kit for Azure (AzSK). It outlines operational processes for deploying automated security checks in Azure DevOps pipelines and resource deployment validation. While native Azure tools have superseded AzSK, the structured policies and patterns detailed here still inform modern DevSecOps security baselines.
 #### AzSK Toolkit
 
-  - **(2024)** [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit) <span class='md-tag md-tag--info'>⭐ 222</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — The Secure DevOps Kit for Azure (AzSK) provides scanning scripts, CI/CD extensions, and compliance templates for secure-by-default cloud engineering. Live Grounding: As of recent cycles, AzSK has transitioned to a legacy state with Microsoft recommending native Azure Policy and Microsoft Defender for Cloud. It remains a valuable historical reference for building automated security controls directly into enterprise deployment workflows.
+  - **(2024)** [Secure DevOps Kit for Azure](https://github.com/azsk/DevOpsKit) <span class='md-tag md-tag--info'>⭐ 222</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cf20804b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 8 L 20 4 L 30 4 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-cf20804b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — The Secure DevOps Kit for Azure (AzSK) provides scanning scripts, CI/CD extensions, and compliance templates for secure-by-default cloud engineering. Live Grounding: As of recent cycles, AzSK has transitioned to a legacy state with Microsoft recommending native Azure Policy and Microsoft Defender for Cloud. It remains a valuable historical reference for building automated security controls directly into enterprise deployment workflows.
 ## Developer Experience (1)
 
 ### CI-CD Runners
@@ -882,7 +1468,7 @@
   - **(2021)** [muycomputer.com: WinGet 1.0, ya está aquí el administrador de paquetes para Windows](https://www.muycomputer.com/2021/06/03/winget-1-0-paquetes-windows-10) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish technical review covering the landmark 1.0 release of Windows Package Manager (winget). Focuses on structural installation paths, package repository security checks, and developer environment automation.
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 5 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Developer Tools
 
 ### IDE Extensions
@@ -943,7 +1529,7 @@
   - **(2021)** [techcommunity.microsoft.com: Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-policy-for-kubernetes-releases-support-for-custom-policy/2699466) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical deep dive into Azure Policy integration with AKS, highlighting the support for custom policy definitions via OPA Gatekeeper. Enables platform engineers to build and enforce hyper-customized constraints on pods, network namespaces, and registry origins inside Kubernetes clusters.
 #### Landing Zones (2)
 
-  - **(2024)** [==github.com/Azure/Enterprise-Scale: ALZ AMA Update==](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update) <span class='md-tag md-tag--info'>⭐ 1942</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Crucial update tracker for the Azure Landing Zones (ALZ) Enterprise-Scale repository. Outlines migration frameworks and monitoring recommendations as the platform deprecates legacy Log Analytics agents in favor of Azure Monitor Agent (AMA). A vital reference for maintaining compliant enterprise monitoring architecture.
+  - **(2024)** [==github.com/Azure/Enterprise-Scale: ALZ AMA Update==](https://github.com/Azure/Enterprise-Scale/wiki/ALZ-AMA-Update) <span class='md-tag md-tag--info'>⭐ 1942</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-32966cc0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 13 L 30 9 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-32966cc0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Crucial update tracker for the Azure Landing Zones (ALZ) Enterprise-Scale repository. Outlines migration frameworks and monitoring recommendations as the platform deprecates legacy Log Analytics agents in favor of Azure Monitor Agent (AMA). A vital reference for maintaining compliant enterprise monitoring architecture.
 #### Resource Metadata
 
   - **(2024)** [build5nines.com: Why do Azure Resource Groups have an Azure Region association?](https://build5nines.com/why-do-azure-resource-groups-have-an-azure-region-association)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains why Azure Resource Groups require regional associations despite holding globally distributed resources. Focuses on metadata retention policies, high-availability architecture of the resource manager control plane, and localized compliance/residency constraints.
@@ -1056,7 +1642,7 @@
   - **(2022)** [**techcommunity.microsoft.com: Dynamic user membership rules, Azure Active Directory Administrative Units and password reset! 🌟**](https://techcommunity.microsoft.com/discussions/azure/dynamic-user-membership-rules-azure-active-directory-administrative-units-and-pa/3281164) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explains how to configure Entra ID dynamic groups, set up scoped Administrative Units, and implement self-service password reset policies. In 2026, Administrative Units are key for dividing directory administration across regional groups while keeping a single consolidated tenant.
 ##### Infrastructure as Code (7)
 
-  - **(2025)** [**EntraExporter**](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 866</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An essential open-source PowerShell tool designed to export entire Microsoft Entra ID tenant configurations to local JSON files. In 2026, EntraExporter is widely used by security and architecture teams to establish configuration baselines, detect drift, and archive tenant states for compliance audits.
+  - **(2025)** [**EntraExporter**](https://github.com/microsoft/entraexporter) <span class='md-tag md-tag--info'>⭐ 866</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e45a48f7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 2 L 30 2 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-e45a48f7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An essential open-source PowerShell tool designed to export entire Microsoft Entra ID tenant configurations to local JSON files. In 2026, EntraExporter is widely used by security and architecture teams to establish configuration baselines, detect drift, and archive tenant states for compliance audits.
 #### Identity Administration (1)
 
 ##### Resource Hierarchy (1)
@@ -1121,12 +1707,12 @@
 
 ##### Azure AD Applications
 
-  - **(2024)** [**microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1**](https://github.com/microsoftgraph/msgraph-sdk-powershell) <span class='md-tag md-tag--info'>⭐ 870</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official template outlining secure authentication, property mapping, and service endpoint registration tasks in Entra ID tenants using Graph API cmdlets.
+  - **(2024)** [**microsoftgraph/msgraph-sdk-powershell/samples: 9-Applications.ps1**](https://github.com/microsoftgraph/msgraph-sdk-powershell) <span class='md-tag md-tag--info'>⭐ 870</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3e6628f4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 6 L 30 5 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-3e6628f4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official template outlining secure authentication, property mapping, and service endpoint registration tasks in Entra ID tenants using Graph API cmdlets.
 #### Utility Scripts
 
 ##### Automation Resources
 
-  - **(2023)** [YannickRe/msgraph-utility-scripts](https://github.com/YannickRe/msgraph-utility-scripts) <span class='md-tag md-tag--info'>⭐ 8</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public repository compiling specialized utility files designed to interact with MS Graph endpoints. Facilitates typical administrator chores like account auditing and system migration tasks.
+  - **(2023)** [YannickRe/msgraph-utility-scripts](https://github.com/YannickRe/msgraph-utility-scripts) <span class='md-tag md-tag--info'>⭐ 8</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d0e294d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 7 L 20 6 L 30 13 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-d0e294d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public repository compiling specialized utility files designed to interact with MS Graph endpoints. Facilitates typical administrator chores like account auditing and system migration tasks.
 ## Infrastructure
 
 ### Configuration Management
@@ -1185,7 +1771,7 @@
 
 ##### Declarative Deployments
 
-  - **(2026)** [==Bicep==](https://github.com/Azure/bicep) <span class='md-tag md-tag--info'>⭐ 3605</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier declarative DSL for provisioning Azure resources. Bicep simplifies the authoring experience over raw JSON ARM templates, featuring modular design structures and native validation checks.
+  - **(2026)** [==Bicep==](https://github.com/Azure/bicep) <span class='md-tag md-tag--info'>⭐ 3605</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-11af08d9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 8 L 20 9 L 30 2 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-11af08d9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier declarative DSL for provisioning Azure resources. Bicep simplifies the authoring experience over raw JSON ARM templates, featuring modular design structures and native validation checks.
 ### Package Management (2)
 
 #### PowerShell Gallery
@@ -1206,7 +1792,7 @@
 
 ##### Community Modules
 
-  - **(2026)** [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&s=stars&type=Repositories) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-level GitHub query filter pointing to trending open-source PowerShell module platforms, providing continuous access to updated utility options.
+  - **(2026)** [github.com/search?l=powershell](https://github.com/search?l=powershell&q=stars%3A%3E1&type=Repositories) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-level GitHub query filter pointing to trending open-source PowerShell module platforms, providing continuous access to updated utility options.
 ### Remote Administration
 
 #### SSH
@@ -1276,12 +1862,12 @@
 
 #### Azure IPAM
 
-  - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
+  - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-75d6d25b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 4 L 30 7 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-75d6d25b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
 ### Verification and AI
 
 #### Copilot Verification
 
-  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
+  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 ## Management and Governance
 
 ### AI Cloud Operations
@@ -1314,7 +1900,7 @@
   - **(2023)** [jmfloreszazo.com: Monetizar un API, con Azure API Management](https://jmfloreszazo.com/monetizar-un-api-con-azure-api-management) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish guide explaining the deployment of API monetization policies using Azure API Management (APIM). Focuses on quota restrictions, rate-limiting, subscription keys, and stripe integrations.
 #### Workspace Migration
 
-  - **(2024)** [github.com/Azure-Samples/api-management-workspaces-migration: Azure API' Management workspaces migration tool](https://github.com/Azure-Samples/api-management-workspaces-migration) <span class='md-tag md-tag--info'>⭐ 2</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official migration tool sample designed to transition traditional single-tenant Azure API Management APIs into modern, decentralized workspaces. Helps partition governance duties and resource isolation.
+  - **(2024)** [github.com/Azure-Samples/api-management-workspaces-migration: Azure API' Management workspaces migration tool](https://github.com/Azure-Samples/api-management-workspaces-migration) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9048c619" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 5 L 30 8 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-9048c619)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official migration tool sample designed to transition traditional single-tenant Azure API Management APIs into modern, decentralized workspaces. Helps partition governance duties and resource isolation.
 ### DNS Resolution (1)
 
 #### Enterprise Architecture (2)
@@ -1342,7 +1928,7 @@
 
 #### Architecture Code Patterns
 
-  - **(2024)** [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns) <span class='md-tag md-tag--info'>⭐ 164</span> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated library containing declarative architectural examples of Azure networking infrastructure. Simplifies deployment patterns such as hub-and-spoke virtual networks and private endpoints.
+  - **(2024)** [==mattfeltonma/azure-networking-patterns==](https://github.com/mattfeltonma/azure-networking-patterns) <span class='md-tag md-tag--info'>⭐ 164</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cc07338b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 2 L 30 10 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-cc07338b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated library containing declarative architectural examples of Azure networking infrastructure. Simplifies deployment patterns such as hub-and-spoke virtual networks and private endpoints.
 ### Network Management
 
 #### AVNM
@@ -1355,7 +1941,7 @@
   - **(2025)** [docs.microsoft.com: Understand Azure Load Balancing. Decision tree for load balancing in Azure](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official technical decision matrix mapping selection logic for Azure load-balancing technologies. Systematically contrasts global DNS/anycast layers (Front Door, Traffic Manager) with regional layer-4 and layer-7 controllers (Application Gateway, Azure Load Balancer).
 #### Load Balancing Comparison
 
-  - **(2019)** [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](http://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy comparison contrasting features of Azure Front Door, Traffic Manager, Application Gateway, and Load Balancer. Though older, it offers fundamental routing paradigms that remain architecturally relevant.
+  - **(2019)** [mvark.blogspot.com: Comparison of Azure Front Door, Traffic Manager, Application Gateway & Load Balancer](https://mvark.blogspot.com/2019/12/comparison-of-azure-front-door-traffic.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy comparison contrasting features of Azure Front Door, Traffic Manager, Application Gateway, and Load Balancer. Though older, it offers fundamental routing paradigms that remain architecturally relevant.
 ## Operating Systems (1)
 
 ### Azure Linux (1)
@@ -1365,7 +1951,7 @@
   - **(2023)** [thenewstack.io: Deploying Microsoft’s New Linux Distribution as a VM is Not Easy](https://thenewstack.io/deploying-microsofts-new-linux-distribution-as-a-vm-is-not-easy) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical technical evaluation of deploying Microsoft's CBL-Mariner (Azure Linux) inside standalone virtual environments. Highlights physical complexity patterns against containerized native benefits.
 #### Kernel Curation
 
-  - **(2026)** [==github.com/microsoft/CBL-Mariner==](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4994</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official repository for Azure Linux (formerly CBL-Mariner), a lightweight, container-optimized OS designed for minimal footprint and maximum security inside AKS. Strips away non-essential packages to shrink attack surfaces and secure running microservices.
+  - **(2026)** [==github.com/microsoft/CBL-Mariner==](https://github.com/microsoft/azurelinux) <span class='md-tag md-tag--info'>⭐ 4994</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eaed73d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 10 L 30 11 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-eaed73d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official repository for Azure Linux (formerly CBL-Mariner), a lightweight, container-optimized OS designed for minimal footprint and maximum security inside AKS. Strips away non-essential packages to shrink attack surfaces and secure running microservices.
 ## Platform Automation and Tooling
 
 ### Command Line Interface
@@ -1393,7 +1979,7 @@
   - **(2021)** [thomasmaurer.ch: PowerShell: Download script or file from GitHub](https://www.thomasmaurer.ch/2021/07/powershell-download-script-or-file-from-github) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A focused tutorial demonstrating how to programmatically download remote assets or scripts from GitHub repositories using native PowerShell Cmdlets like Invoke-WebRequest. It outlines methods to handle authentication headers, process raw file links, and security implications of unvetted script executions. Ideal for building bootstrap processes in clean environments.
 #### posh-git Module
 
-  - **(2026)** [==dahlbyk/posh-git==](https://github.com/dahlbyk/posh-git) <span class='md-tag md-tag--info'>⭐ 8216</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular PowerShell module integrating comprehensive Git status details and robust tab-completion directly inside the shell prompt. It offers visual indicators for uncommitted changes, branch states, and merge status, significantly increasing CLI productivity. It is a fundamental environment enhancement for any command-line developer working extensively with Git repositories.
+  - **(2026)** [==dahlbyk/posh-git==](https://github.com/dahlbyk/posh-git) <span class='md-tag md-tag--info'>⭐ 8216</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d90d7a7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 13 L 30 13 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-d90d7a7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular PowerShell module integrating comprehensive Git status details and robust tab-completion directly inside the shell prompt. It offers visual indicators for uncommitted changes, branch states, and merge status, significantly increasing CLI productivity. It is a fundamental environment enhancement for any command-line developer working extensively with Git repositories.
 ### Database Administration
 
 #### dbatools Module
@@ -1413,7 +1999,7 @@
 
 #### Azure Load Testing
 
-  - **(2025)** [==github.com/Azure-Samples/azure-load-testing-samples 🌟==](https://github.com/Azure-Samples/azure-load-testing-samples) <span class='md-tag md-tag--info'>⭐ 27</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Microsoft repository containing sample configurations and automation scripts for Azure Load Testing. Promotes direct integration of high-scale performance testing pipelines within existing Git workflows.
+  - **(2025)** [==github.com/Azure-Samples/azure-load-testing-samples 🌟==](https://github.com/Azure-Samples/azure-load-testing-samples) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b2d0558d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 3 L 30 4 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-b2d0558d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Microsoft repository containing sample configurations and automation scripts for Azure Load Testing. Promotes direct integration of high-scale performance testing pipelines within existing Git workflows.
 ## Sandbox Environments
 
 ### Development Environments
@@ -1432,12 +2018,12 @@
 
 #### Azure Firewall
 
-  - **(2024)** [==github.com/nicolgit/azure-firewall-mon: az-firewall-mon==](https://github.com/nicolgit/azure-firewall-mon) <span class='md-tag md-tag--info'>⭐ 91</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Real-time log viewer utility for Azure Firewall. Parses JSON diagnostic streams directly from Log Analytics, providing colorized output detailing connection actions (allow/deny) on live terminals.
+  - **(2024)** [==github.com/nicolgit/azure-firewall-mon: az-firewall-mon==](https://github.com/nicolgit/azure-firewall-mon) <span class='md-tag md-tag--info'>⭐ 91</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-08e4b21c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 7 L 20 12 L 30 13 L 40 9 L 50 8" fill="none" stroke="url(#spark-grad-08e4b21c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Real-time log viewer utility for Azure Firewall. Parses JSON diagnostic streams directly from Log Analytics, providing colorized output detailing connection actions (allow/deny) on live terminals.
 ### Threat Hunting
 
 #### Active Directory (1)
 
-  - **(2025)** [==github.com/JPCERTCC/LogonTracer==](https://github.com/JPCERTCC/LogonTracer) <span class='md-tag md-tag--info'>⭐ 3182</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Incident response tool mapping Active Directory authentication logs onto Neo4j graph databases. Visually identifies anomalous domain login correlations, pass-the-hash movements, and identity exploitation attacks.
+  - **(2025)** [==github.com/JPCERTCC/LogonTracer==](https://github.com/JPCERTCC/LogonTracer) <span class='md-tag md-tag--info'>⭐ 3182</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-34f28261" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 13 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-34f28261)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Incident response tool mapping Active Directory authentication logs onto Neo4j graph databases. Visually identifies anomalous domain login correlations, pass-the-hash movements, and identity exploitation attacks.
 ## Security and Identity
 
 ### API Security
@@ -1483,10 +2069,10 @@
   - **(2024)** [techcommunity.microsoft.com: What’s new in Defender: How Copilot for Security can transform your SOC](https://techcommunity.microsoft.com/blog/microsoftthreatprotectionblog/what%e2%80%99s-new-in-defender-how-copilot-for-security-can-transform-your-soc/4084222) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how AI-driven Copilot for Security integrates into Security Operations Centers (SOC) using Microsoft Defender signals. Enables analysts to investigate complex breach vectors and draft contextual incident playbooks rapidly using natural language queries.
 #### Cloud Security Dashboard
 
-  - **(2024)** [**github.com/Azure/Microsoft-Defender-for-Cloud**](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard) <span class='md-tag md-tag--info'>⭐ 1913</span> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The repository holding advanced dashboard resources and workbooks for Microsoft Defender for Cloud, featuring the Network Security Dashboard. Facilitates deep metric visualization across firewall configurations, NSGs, and public exposure endpoints.
+  - **(2024)** [**github.com/Azure/Microsoft-Defender-for-Cloud**](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks/Network%20Security%20Dashboard) <span class='md-tag md-tag--info'>⭐ 1913</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-14177fbc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 6 L 20 5 L 30 9 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-14177fbc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The repository holding advanced dashboard resources and workbooks for Microsoft Defender for Cloud, featuring the Network Security Dashboard. Facilitates deep metric visualization across firewall configurations, NSGs, and public exposure endpoints.
 #### Red-Teaming
 
-  - **(2023)** [github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) <span class='md-tag md-tag--info'>⭐ 2529</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical attack and defense reference handbook detailing compromise paths in Azure AD/Entra ID. Provides security engineers with clear methodologies to simulate, detect, and mitigate critical identity threats.
+  - **(2023)** [github.com/Cloud-Architekt: Azure AD - Attack and Defense Playbook](https://github.com/Cloud-Architekt/AzureAD-Attack-Defense) <span class='md-tag md-tag--info'>⭐ 2529</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3909e18" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 10 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-e3909e18)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical attack and defense reference handbook detailing compromise paths in Azure AD/Entra ID. Provides security engineers with clear methodologies to simulate, detect, and mitigate critical identity threats.
 #### Sentinel Monitoring
 
   - **(2024)** [techcommunity.microsoft.com: Monitoring Microsoft Sentinel Reports with Dashboard Hub & Power BI](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/monitoring-microsoft-sentinel-reports-with-dashboard-hub--power-bi/4203870) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides architects on scaling Microsoft Sentinel threat intelligence reporting by utilizing Power BI integrations. Focuses on centralizing complex workspace telemetry, operational KPIs, and incident metrics into a streamlined administrative dashboard.
@@ -1508,7 +2094,7 @@
 
 ##### Penetration Testing
 
-  - **(2021)** [github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) <span class='md-tag md-tag--info'>⭐ 218</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides advanced scripts designed to audit protection baselines, test defensive measures, and evaluate Active Directory environments against vulnerability patterns.
+  - **(2021)** [github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts](https://github.com/Mr-Un1k0d3r/ATP-PowerShell-Scripts) <span class='md-tag md-tag--info'>⭐ 218</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b5cf4a7f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 10 L 30 12 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-b5cf4a7f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides advanced scripts designed to audit protection baselines, test defensive measures, and evaluate Active Directory environments against vulnerability patterns.
 ### Penetration Testing (1)
 
 #### PowerShell Exploits
@@ -1543,7 +2129,7 @@
 
 #### Azure Container Instances
 
-  - **(2024)** [==Azure-Samples/jmeter-aci-terraform==](https://github.com/Azure-Samples/jmeter-aci-terraform) <span class='md-tag md-tag--info'>⭐ 119</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — IaC template leveraging Terraform to provision distributed Apache JMeter load testing engines within Azure Container Instances (ACI). Allows engineers to spin up high-throughput parallel load agents in serverless environments without cluster maintenance.
+  - **(2024)** [==Azure-Samples/jmeter-aci-terraform==](https://github.com/Azure-Samples/jmeter-aci-terraform) <span class='md-tag md-tag--info'>⭐ 119</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6fec9c21" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 6 L 30 6 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-6fec9c21)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — IaC template leveraging Terraform to provision distributed Apache JMeter load testing engines within Azure Container Instances (ACI). Allows engineers to spin up high-throughput parallel load agents in serverless environments without cluster maintenance.
 
 ---
 💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)

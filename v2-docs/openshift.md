@@ -3,14 +3,92 @@
 !!! info "Architectural Context"
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CI-CD](#ci-cd)
+  - [GitLab](#gitlab)
+    - [OpenShift](#openshift)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Managed Services](#managed-services)
+  - [FinOps](#finops)
+    - [Cost Management](#cost-management)
+1. [Databases](#databases)
+  - [Relational](#relational)
+    - [MariaDB](#mariadb)
+1. [Infrastructure](#infrastructure)
+  - [Artifact Repositories](#artifact-repositories)
+    - [Sonatype Nexus](#sonatype-nexus)
+  - [Container Registries](#container-registries)
+    - [Community](#community)
+    - [Red Hat](#red-hat)
+  - [Enterprise Applications](#enterprise-applications)
+    - [Self-Hosting](#self-hosting)
+  - [Public Cloud](#public-cloud)
+    - [AWS Provisioning](#aws-provisioning)
+1. [Kubernetes and OpenShift](#kubernetes-and-openshift)
+  - [Networking](#networking)
+    - [Debugging](#debugging)
+    - [IPAM](#ipam)
+    - [Multi-Cluster](#multi-cluster)
+    - [Performance](#performance)
+  - [Platform Engineering](#platform-engineering)
+    - [Installation](#installation)
+  - [Resources](#resources)
+    - [Awesome Lists](#awesome-lists)
+  - [Security](#security)
+    - [Ingress](#ingress)
+    - [Network Policies](#network-policies)
+1. [Orchestration and Packaging](#orchestration-and-packaging)
+  - [Networking](#networking-1)
+    - [Egress Firewalls](#egress-firewalls)
+1. [Performance Engineering](#performance-engineering)
+  - [Kubernetes Optimization](#kubernetes-optimization)
+    - [Autonomous Tuning](#autonomous-tuning)
+1. [Platform Engineering](#platform-engineering-1)
+  - [Architectural Insights](#architectural-insights)
+    - [Personal Blog](#personal-blog)
+    - [Red Hat Ecosystem](#red-hat-ecosystem)
+  - [Community and Collaboration](#community-and-collaboration)
+    - [Media and Streaming](#media-and-streaming)
+    - [OpenShift Ecosystem](#openshift-ecosystem)
+    - [Social and Updates](#social-and-updates)
+  - [Developer Experience](#developer-experience)
+    - [Red Hat Ecosystem](#red-hat-ecosystem-1)
+  - [Kubernetes Distributions](#kubernetes-distributions)
+    - [Demos and Workshops](#demos-and-workshops)
+    - [Hybrid Cloud](#hybrid-cloud)
+    - [Legacy Sandboxes](#legacy-sandboxes)
+    - [OKD Core Legacy](#okd-core-legacy)
+    - [vSphere Deployments](#vsphere-deployments)
+  - [Managed Services](#managed-services-1)
+    - [ARO Azure](#aro-azure)
+    - [ARO GCP](#aro-gcp)
+    - [IBM Cloud](#ibm-cloud)
+    - [JBoss and Java EE](#jboss-and-java-ee)
+    - [ROSA AWS](#rosa-aws)
+  - [Resources and Ebooks](#resources-and-ebooks)
+    - [Core OpenShift](#core-openshift)
+    - [DevOps and CICD](#devops-and-cicd)
+    - [Kubernetes Ecosystem](#kubernetes-ecosystem)
+    - [Operators](#operators)
+1. [Software Engineering](#software-engineering)
+  - [Base Images](#base-images)
+    - [Software Collections](#software-collections)
+  - [Collaboration](#collaboration)
+    - [Rocket.Chat](#rocketchat)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [uncontained.io/articles/openshift-ha-installation](http://uncontained.io/articles/openshift-ha-installation/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering uncontained.io in the Kubernetes Tools ecosystem.
-  - [aroworkshop.io 🌟](http://aroworkshop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aroworkshop.io in the Kubernetes Tools ecosystem.
+  - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering uncontained.io in the Kubernetes Tools ecosystem.
+  - [aroworkshop.io 🌟](https://aroworkshop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aroworkshop.io in the Kubernetes Tools ecosystem.
   - [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - [learn.openshift.com](https://learn.openshift.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learn.openshift.com in the Kubernetes Tools ecosystem.
@@ -37,7 +115,7 @@
   - [docs.openshift.com: OpenShift 3 Securing the Container Platform](https://docs.openshift.com/container-platform/3.11/security/securing_container_platform.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.openshift.com: OpenShift 3 Securing the Container Platform in the Kubernetes Tools ecosystem.
   - [ocs.openshift.com: OpenShift 4 Understanding Authentication](https://docs.openshift.com/container-platform/4.4/authentication/understanding-authentication.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ocs.openshift.com: OpenShift 4 Understanding Authentication in the Kubernetes Tools ecosystem.
   - [docs.openshift.com: Managing Security Context Constraints](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.openshift.com: Managing Security Context Constraints in the Kubernetes Tools ecosystem.
-  - [docs.openshift.com: Managing Security Context Constraints. Security Context' Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html#security-context-constraints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.openshift.com: Managing Security Context Constraints. Security Context' Constraints in the Kubernetes Tools ecosystem.
+  - [docs.openshift.com: Managing Security Context Constraints. Security Context' Constraints](https://docs.openshift.com/container-platform/3.11/architecture/additional_concepts/authorization.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.openshift.com: Managing Security Context Constraints. Security Context' Constraints in the Kubernetes Tools ecosystem.
   - [ref3](https://dzone.com/articles/understanding-openshift-security-context-constrain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ref3 in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟](https://stackoverflow.com/questions/59518363/is-that-possible-to-deploy-an-openshift-or-kubernetes-in-dmz-zone)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Is that possible to deploy an openshift or kubernetes' in DMZ zone? 🌟 in the Kubernetes Tools ecosystem.
   - [cloud.ibm.com: OpenShift Ingress](https://cloud.ibm.com/docs/openshift?topic=openshift-ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloud.ibm.com: OpenShift Ingress in the Kubernetes Tools ecosystem.
@@ -68,7 +146,7 @@
 
 #### MariaDB
 
-  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 32</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
+  - **(2026)** [github.com/sclorg/mariadb-container](https://github.com/sclorg/mariadb-container) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1673fd96" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 10 L 20 8 L 30 8 L 40 12 L 50 13" fill="none" stroke="url(#spark-grad-1673fd96)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official SCLOrg MariaDB container image optimized specifically for Kubernetes platforms. Includes integrated security scripts, support for arbitrary non-root UID execution, and custom database initialization configurations.
 ## Infrastructure
 
 ### Artifact Repositories
@@ -93,7 +171,7 @@
 
 #### AWS Provisioning
 
-  - **(2026)** [==AWS Account Set Up 🌟==](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1550</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository guide outlines the specific IAM policies, resource quotas, Route53 configurations, and networking permissions required to install OpenShift on AWS using the native installer-provisioned infrastructure (IPI). It is a vital technical reference for cloud infrastructure engineers.
+  - **(2026)** [==AWS Account Set Up 🌟==](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md) <span class='md-tag md-tag--info'>⭐ 1550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-132ea455" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 5 L 30 2 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-132ea455)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This repository guide outlines the specific IAM policies, resource quotas, Route53 configurations, and networking permissions required to install OpenShift on AWS using the native installer-provisioned infrastructure (IPI). It is a vital technical reference for cloud infrastructure engineers.
 ## Kubernetes and OpenShift
 
 ### Networking
@@ -119,7 +197,7 @@
 
 #### Awesome Lists
 
-  - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
+  - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8aae42ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 12 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-8aae42ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
 ### Security
 
 #### Ingress
@@ -127,7 +205,7 @@
   - **(2019)** [itnext.io: Adding security layers to your App on OpenShift — Part 1: Deployment and TLS Ingress 🌟](https://itnext.io/adding-security-layers-to-your-app-on-openshift-part-1-deployment-and-tls-ingress-9ef752835599) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step tutorial addressing TLS edge termination and ingress security on Red Hat OpenShift. Demonstrates path-based routing configurations, SSL/TLS certificate integration, and header manipulation rules to secure microservices from perimeter ingress points.
 #### Network Policies
 
-  - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
+  - **(2020)** [GitHub: redhat-cop OpenShift Toolkit Network Policy 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/networkpolicy) <span class='md-tag md-tag--info'>⭐ 236</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2e739b2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 3 L 30 6 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-2e739b2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developed by the Red Hat Community of Practice, this repository provides highly standardized, reusable NetworkPolicy templates. While early implementations relied on basic IP blocks, live engineering practices in 2026 demand these profiles for enforcing zero-trust namespaces.
 ## Orchestration and Packaging
 
 ### Networking (1)
@@ -141,7 +219,7 @@
 
 #### Autonomous Tuning
 
-  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
+  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform Engineering (1)
 
 ### Architectural Insights
@@ -218,7 +296,7 @@
   - **(2017)** [O'Reilly Free Book: **DevOps with OpenShift**](https://www.redhat.com/en/resources) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — O'Reilly DevOps manual explaining legacy OpenShift pipeline integrations, build configurations, and container deployment pipelines. While the fundamental team topology and CI/CD concepts are outstanding, its technical recipes have been superseded by modern GitOps (Argo CD) and Tekton pipelines.
 #### Kubernetes Ecosystem
 
-  - **(2025)** [**Kubernetes e-Books**](https://awesome-kubernetes.readthedocs.io/kubernetes/#e-books) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Vast repository of free high-quality Kubernetes ebooks, configuration sheets, and security manuals curated by the open-source community. Covers container security hardening, network topology routing, and scale limits. Highly recommended for continuous self-guided study.
+  - **(2025)** [**Kubernetes e-Books**](https://awesome-kubernetes.readthedocs.io/kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Vast repository of free high-quality Kubernetes ebooks, configuration sheets, and security manuals curated by the open-source community. Covers container security hardening, network topology routing, and scale limits. Highly recommended for continuous self-guided study.
 #### Operators
 
   - **(2020)** [==O’Reilly: Free ebook: **Kubernetes Operators: Automating the Container Orchestration Platform**==](https://www.redhat.com/en/resources/oreilly-kubernetes-operators-automation-ebook) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Definitive O'Reilly ebook on building custom Kubernetes Operators using Go, Ansible, and Helm SDKs. Walks through reconciling controllers, writing CRDs, and managing custom states. Live 2026 analysis indicates this text remains the absolute standard for engineering platform automation layers.

@@ -3,6 +3,126 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Prototyping](#prototyping)
+    - [Serverless](#serverless)
+1. [Business and Careers](#business-and-careers)
+  - [Management Patterns](#management-patterns)
+    - [Leadership](#leadership)
+    - [Team Performance](#team-performance)
+1. [Engineering Leadership](#engineering-leadership)
+  - [Agile Methodologies](#agile-methodologies)
+    - [Continuous Improvement](#continuous-improvement)
+    - [Scrum Framework](#scrum-framework)
+  - [Asynchronous Collaboration](#asynchronous-collaboration)
+    - [Communication Strategy](#communication-strategy)
+    - [Team Dynamics](#team-dynamics)
+  - [Career Development](#career-development)
+    - [Developer Productivity](#developer-productivity)
+    - [Management Transition](#management-transition)
+    - [Organizational Scaling](#organizational-scaling)
+    - [Team Dynamics](#team-dynamics-1)
+    - [Technical Mentorship](#technical-mentorship)
+  - [Consulting and Advisory](#consulting-and-advisory)
+    - [Enterprise Strategy](#enterprise-strategy)
+  - [Crisis Management](#crisis-management)
+    - [Psychological Safety](#psychological-safety)
+  - [Cultural Leadership Models](#cultural-leadership-models)
+    - [Team Dynamics](#team-dynamics-2)
+  - [Developer Productivity](#developer-productivity-1)
+    - [Asynchronous Collaboration](#asynchronous-collaboration-1)
+    - [Team Dynamics](#team-dynamics-3)
+  - [Metrics and Analytics](#metrics-and-analytics)
+    - [Brooks Law Application](#brooks-law-application)
+    - [DORA Metrics](#dora-metrics)
+    - [Developer Productivity](#developer-productivity-2)
+    - [Organizational Scaling](#organizational-scaling-1)
+  - [Organizational Scaling](#organizational-scaling-2)
+    - [Big Tech Practices](#big-tech-practices)
+    - [Management Models](#management-models)
+    - [Middle Management](#middle-management)
+  - [Product Management](#product-management)
+    - [Software Architecture Design](#software-architecture-design)
+    - [Team Dynamics](#team-dynamics-4)
+  - [Project Management](#project-management-1)
+    - [Agile Methodologies](#agile-methodologies-1)
+    - [Big Tech Practices](#big-tech-practices-1)
+  - [Psychological Safety](#psychological-safety-1)
+    - [Communication Strategy](#communication-strategy-1)
+    - [Team Dynamics](#team-dynamics-5)
+  - [Remote Work](#remote-work)
+    - [Asynchronous Collaboration](#asynchronous-collaboration-2)
+    - [Career Development](#career-development-1)
+    - [Developer Productivity](#developer-productivity-3)
+  - [Security and Compliance](#security-and-compliance)
+    - [Corporate Governance](#corporate-governance)
+  - [Team Dynamics](#team-dynamics-6)
+    - [Conflict Resolution](#conflict-resolution)
+  - [Team Management](#team-management)
+    - [Infrastructure Operations](#infrastructure-operations)
+    - [Management Transition](#management-transition-1)
+    - [Team Dynamics](#team-dynamics-7)
+1. [Management](#management)
+  - [Career Development](#career-development-2)
+    - [Professional Growth](#professional-growth)
+    - [Workplace Well-being](#workplace-well-being)
+  - [Leadership](#leadership-1)
+    - [Engineering Culture](#engineering-culture)
+    - [Organizational Design](#organizational-design)
+  - [Workplace Culture](#workplace-culture)
+    - [Conflict Resolution](#conflict-resolution-1)
+1. [Management and Strategy](#management-and-strategy)
+  - [Engineering Culture](#engineering-culture-1)
+    - [Career Development](#career-development-3)
+1. [Organizational Design](#organizational-design-1)
+  - [Team Topologies](#team-topologies)
+    - [Implementation](#implementation)
+    - [Team Structure](#team-structure)
+1. [Platform Engineering](#platform-engineering)
+  - [Innersource](#innersource)
+    - [DevOps Transition](#devops-transition)
+  - [Organizational Scaling](#organizational-scaling-3)
+    - [DevOps Transition](#devops-transition-1)
+  - [Value Stream Management](#value-stream-management)
+    - [DevOps Metrics](#devops-metrics)
+1. [Product Management](#product-management-1)
+  - [Design Strategy](#design-strategy)
+    - [Micro-optimizations](#micro-optimizations)
+  - [Methodology](#methodology)
+    - [Alternative Paradigms](#alternative-paradigms)
+    - [Minimum Viable Product](#minimum-viable-product)
+1. [Project Management](#project-management-2)
+  - [Agile Methodologies](#agile-methodologies-2)
+    - [Agile Framework](#agile-framework)
+    - [Agile vs Waterfall](#agile-vs-waterfall)
+    - [Enterprise Leadership](#enterprise-leadership)
+    - [Product Management](#product-management-2)
+    - [Scrum Framework](#scrum-framework-1)
+    - [Scrum vs Kanban](#scrum-vs-kanban)
+    - [Scrum with Kanban](#scrum-with-kanban)
+  - [Anti-Patterns](#anti-patterns)
+    - [Risk Mitigation](#risk-mitigation)
+  - [Governance](#governance)
+    - [RACI Matrix](#raci-matrix)
+1. [Software Engineering](#software-engineering)
+  - [Agile Methodologies](#agile-methodologies-3)
+    - [Process Comparison](#process-comparison)
+    - [Scrum and Kanban](#scrum-and-kanban)
+  - [Anti-Patterns](#anti-patterns-1)
+    - [Engineering Culture](#engineering-culture-2)
+  - [Hybrid Methodologies](#hybrid-methodologies)
+    - [Agile-Waterfall Integration](#agile-waterfall-integration)
+  - [Productivity](#productivity)
+    - [Platform Engineering](#platform-engineering-1)
+1. [Software Supply Chain](#software-supply-chain)
+  - [Security and Compliance](#security-and-compliance-1)
+    - [Open Source Vulnerabilities](#open-source-vulnerabilities)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -253,7 +373,7 @@
 
 #### Career Development (3)
 
-  - **(2023)** [**Promotion-Based Development: A Fast Track to Mediocrity**](https://vadimkravcenko.com/shorts/promotion-based-development/) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A thought-provoking critique of development environments where promotion tracks heavily incentivize complex over-engineering and short-term visibility tasks rather than long-term architectural stability. Warns against standard architectural anti-patterns created by misaligned individual KPIs. Highly valuable reading for engineering leadership.
+  - **(2023)** [**Promotion-Based Development: A Fast Track to Mediocrity**](https://vadimkravcenko.com/shorts/promotion-based-development) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A thought-provoking critique of development environments where promotion tracks heavily incentivize complex over-engineering and short-term visibility tasks rather than long-term architectural stability. Warns against standard architectural anti-patterns created by misaligned individual KPIs. Highly valuable reading for engineering leadership.
 ## Organizational Design (1)
 
 ### Team Topologies
@@ -298,7 +418,7 @@
   - **(2023)** [blog.hubspot.es: MVP: 3 pasos para desarrollar un Producto mínimo viable](https://blog.hubspot.es/sales/producto-minimo-viable) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A 3-step Spanish guide for planning and executing an MVP. Details strategies to prioritize core features, validate assumptions through immediate customer telemetry, and iterate based on quantitative post-launch metrics.
   - **(2022)** [bloo.media: Producto Mínimo Viable ¿Qué es y cómo crearlo?](https://bloo.media/blog/producto-minimo-viable-mvp) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blueprint for defining and launching an MVP, emphasizing cost-efficiency and user-centric prioritization. Outlines processes for building validation loops, avoiding scope creep, and designing feedback architectures to capture early adopter usage.
   - **(2022)** [gammaux.com: Cómo definir un Minimum Viable Product (MVP)](https://www.gammaux.com/blog/como-definir-un-minimum-viable-product-mvp) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical UX-oriented guide detailing how to scope and define an MVP. Illustrates methods to synthesize user research, map technical constraints to design prototypes, and ensure the initial deployment represents viable technical and user value.
-  - **(2020)** [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](http://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the Minimum Viable Product (MVP) concept, advocating for a focus on early, usable, and high-quality user experiences over raw, half-finished feature sets. Proposes shifting from basic MVP models to solutions that users can test, love, and adopt early.
+  - **(2020)** [gazafatonarioit.com: Entiende el MVP (Producto Mínimo Viable) y por qué prefiero Producto que se pueda probar, utilizar y adorar más temprano](https://www.gazafatonarioit.com/2020/09/entiende-el-mvp-producto-minimo-viable.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the Minimum Viable Product (MVP) concept, advocating for a focus on early, usable, and high-quality user experiences over raw, half-finished feature sets. Proposes shifting from basic MVP models to solutions that users can test, love, and adopt early.
 ## Project Management (2)
 
 ### Agile Methodologies (2)
@@ -323,7 +443,7 @@
   - **(2021)** [age-of-product.com: Scrum 2021: Getting You Started as Scrum Master or Product Owner](https://age-of-product.com/scrum-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical onboarding guide for newly appointed Scrum Masters and Product Owners. Outlines core responsibilities, meeting setups, and delivery tracking rules matching updated agile patterns.
 #### Scrum vs Kanban
 
-  - **(2020)** [blog.scrumstudy.com: Scrum and Kanban, alike or different?](http://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural analysis comparing Scrum iterations and Kanban workflows. Explores trade-offs in velocity, team responsibility, and scheduling mechanics, providing project leaders with strategic decision criteria.
+  - **(2020)** [blog.scrumstudy.com: Scrum and Kanban, alike or different?](https://blog.scrumstudy.com/scrum-and-kanban-alike-or-different-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural analysis comparing Scrum iterations and Kanban workflows. Explores trade-offs in velocity, team responsibility, and scheduling mechanics, providing project leaders with strategic decision criteria.
 #### Scrum with Kanban
 
   - **(2021)** [**scrum.org: Kanban Guide for Scrum Teams**](https://www.scrum.org/resources/kanban-guide-scrum-teams) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide detailing the integration of Kanban practices within established Scrum teams. Explains how to leverage WIP limits, cycle-time tracking, and workflow visualization to optimize team performance without sacrificing Scrum principles.
@@ -359,7 +479,7 @@
 
 #### Engineering Culture (2)
 
-  - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](http://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques the anti-pattern of Promotion Driven Development (PDD), where engineers select unnecessary, highly complex tools and over-engineer architectures to pad resumes for promotions. Warns against the resulting complexity, technical debt, and team maintenance burdens.
+  - **(2021)** [nichesoftware.co.nz: Promotion Driven Development (PDD) 🌟](https://www.nichesoftware.co.nz/2021/05/29/promotion-driven-development.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critiques the anti-pattern of Promotion Driven Development (PDD), where engineers select unnecessary, highly complex tools and over-engineer architectures to pad resumes for promotions. Warns against the resulting complexity, technical debt, and team maintenance burdens.
 ### Hybrid Methodologies
 
 #### Agile-Waterfall Integration

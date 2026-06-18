@@ -41,7 +41,7 @@
 - [analyticsindiamag.com: Top tools for enabling CI/CD in ML pipelines](https://analyticsindiamag.com/top-tools-for-enabling-ci-cd-in-ml-pipelines)
 - [towardsdatascience.com: Step-by-step Approach to Build Your Machine Learning API Using Fast API](https://towardsdatascience.com/step-by-step-approach-to-build-your-machine-learning-api-using-fast-api-21bd32f2bbdb) A fast and simple approach to serve your model as an API
 - [ravirajag.dev: MLOps Basics - Week 10: Summary](https://www.ravirajag.dev/blog/mlops-summary)
-- [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md#machine-learning)
+- [==mikeroyal/Kubernetes-Guide: Machine Learning== 🌟](https://github.com/mikeroyal/Kubernetes-Guide/blob/main/README.md)
 - [medium.com/workday-engineering: Implementing a Fully Automated Sharding Strategy on Kubernetes for Multi-tenanted Machine Learning Applications](https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae)
 - [==medium.com/globant: Advantages of Deploying Machine Learning models with Kubernetes== 🌟](https://medium.com/globant/advantages-of-deploying-machine-learning-models-with-kubernetes-8454cc7c565e)
 - [medium.com/pythoneers: MLOps: Tool Stack Requirement in Machine Learning Pipeline](https://medium.com/pythoneers/mlops-tool-stack-requirement-in-machine-learning-pipeline-474b39f09dfc) Tools and technologies in machine learning lifecycle
@@ -229,7 +229,7 @@
 - [Kaggle Competitions](https://www.kaggle.com/competitions)
 - [kaggle.com: Sports Car Prices dataset](https://www.kaggle.com/datasets/rkiattisak/sports-car-prices-dataset)
     - [Sport Car Price Prediction.ipynb](https://colab.research.google.com/drive/1m6ZjIJBxU20kxI9zTZqeMEVSq1FL0pNa?usp=sharing)
-- [isic-archive.com](https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main)
+- [isic-archive.com](https://www.isic-archive.com)
 - [freecodecamp.org: How to Download a Kaggle Dataset Directly to a Google Colab Notebook](https://www.freecodecamp.org/news/how-to-download-kaggle-dataset-to-google-colab)
 
 ## Polls

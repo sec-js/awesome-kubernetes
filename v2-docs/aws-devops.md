@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for AWS DevOps. AWS CodePipeline in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Providers](#cloud-providers)
+  - [AWS](#aws)
+    - [Infrastructure-as-Code](#infrastructure-as-code)
+1. [Cloud-Native Provisioning](#cloud-native-provisioning)
+  - [CICD Integration](#cicd-integration)
+    - [AWS CodeDeploy](#aws-codedeploy)
+    - [AWS CodePipeline](#aws-codepipeline)
+    - [AWS DevOps](#aws-devops)
+    - [CDK Pipelines](#cdk-pipelines)
+    - [Comparisons](#comparisons)
+    - [Jenkins Integration](#jenkins-integration)
+  - [Observability](#observability)
+    - [AWS DevOps Guru](#aws-devops-guru)
+1. [Multi-Cluster and Edge](#multi-cluster-and-edge)
+  - [Cluster Federation](#cluster-federation)
+    - [Admiralty](#admiralty)
+    - [Serverless Integration](#serverless-integration)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -10,7 +33,7 @@
 #### General Reference
 
   - [Amazon DevOps Guru](https://aws.amazon.com/devops/-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
-  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blogs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [AWS CodeDeploy: Deploying from a Development Account to a Production Account](https://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blogs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline](https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline in the Kubernetes Tools ecosystem.
   - [aws.plainenglish.io: AWS CodePipeline for Amazon ECS](https://aws.plainenglish.io/aws-codepipeline-for-amazon-ecs-part-2-a-blue-green-deployment-type-c162fd73be91)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.plainenglish.io: AWS CodePipeline for Amazon ECS in the Kubernetes Tools ecosystem.
   - [medium.com/@d.kumarkaran12: DevSecOps with AWS CodePipeline and ECS](https://medium.com/@d.kumarkaran12/devsecops-with-aws-codepipeline-and-ecs-c800f139a9ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@d.kumarkaran12: DevSecOps with AWS CodePipeline and ECS in the Kubernetes Tools ecosystem.
@@ -41,7 +64,7 @@
   - **(2021)** [aws.amazon.com: Multi-branch pipeline management and infrastructure deployment using AWS CDK Pipelines](https://aws.amazon.com/blogs/devops/multi-branch-pipeline-management-and-infrastructure-deployment-using-aws-cdk-pipelines) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Advanced engineering tutorial detailing how to set up dynamic, multi-branch environments using AWS CDK Pipelines, enabling code-driven promotion of cloud architectures.
 #### Comparisons
 
-  - **(2021)** [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/aws-cloud/aws-devops-vs-azure-devops/?utm_source=linkedin&utm_medium=referral&utm_campaign=awsdevops17_dec20_aws_cloud_computing_for_interested_parties__users)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative structural analysis pitting the AWS DevOps suite against Microsoft Azure DevOps, evaluating build pricing, third-party integrations, and native Kubernetes support configurations.
+  - **(2021)** [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/aws-cloud/aws-devops-vs-azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative structural analysis pitting the AWS DevOps suite against Microsoft Azure DevOps, evaluating build pricing, third-party integrations, and native Kubernetes support configurations.
 #### Jenkins Integration
 
   - **(2021)** [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-the-jenkins-plugin-for-aws-codedeploy) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step setup guide for configuring the AWS CodeDeploy Jenkins plugin, allowing legacy, on-prem Jenkins orchestrations to deploy code artifacts directly to AWS cloud groups.

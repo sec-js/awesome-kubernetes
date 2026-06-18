@@ -3,13 +3,35 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Training and Certification in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Computing](#cloud-computing)
+  - [AWS](#aws)
+    - [Certification Administration](#certification-administration)
+    - [Certification Training](#certification-training)
+    - [Community Learning](#community-learning)
+    - [Infrastructure as Code](#infrastructure-as-code)
+    - [Official Training](#official-training)
+  - [Training](#training)
+    - [Community Learning](#community-learning-1)
+    - [Educational Resources](#educational-resources)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Computing](#cloud-computing-1)
+    - [AWS Training](#aws-training)
+1. [Security](#security)
+  - [Identity and Access](#identity-and-access)
+    - [AWS Security Fundamentals](#aws-security-fundamentals)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [Amazon AWS Certification Preparation Tips](http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering walkintocloud.com in the Kubernetes Tools ecosystem.
+  - [Amazon AWS Certification Preparation Tips](https://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering walkintocloud.com in the Kubernetes Tools ecosystem.
   - [hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS](https://hashnode.tpschmidt.com/my-top-10-free-learning-resources-for-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashnode.tpschmidt.com: My Top 10 Free Learning Resources for AWS in the Kubernetes Tools ecosystem.
   - [satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list)](https://satyenkumar.medium.com/my-youtube-channel-is-updated-for-aws-certifications-over-150-video-list-1ae7aa81e99d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering satyenkumar.medium.com: My Youtube Channel is updated for AWS Certifications' (Over 150 Video list) in the Kubernetes Tools ecosystem.
   - [medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources](https://medium.com/towards-cloud-computing/7-free-aws-practice-labs-and-aws-workshops-resources-d0a861f05d3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/towards-cloud-computing: 7 Free AWS Practice Labs and AWS Workshops' resources== in the Kubernetes Tools ecosystem.

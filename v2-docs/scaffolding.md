@@ -3,6 +3,20 @@
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Developer Experience](#developer-experience)
+  - [Inner Loop Development](#inner-loop-development)
+    - [Local Tooling](#local-tooling)
+1. [Software Engineering](#software-engineering)
+  - [Application Scaffolding](#application-scaffolding)
+    - [Boilerplate Tools](#boilerplate-tools)
+  - [Build Systems](#build-systems)
+    - [Java Ecosystem](#java-ecosystem)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -17,7 +31,7 @@
 
 #### Local Tooling
 
-  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing#configuring_with_snippets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
+  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
 ## Software Engineering
 
 ### Application Scaffolding

@@ -39,7 +39,7 @@
 - [dzone.com: Flight Recorder: Examining Java and Kotlin Apps](https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps) Learn how to use Java's Flight Recorder to profile Java and Kotlin apps and get a close look at JVM internals.
 - [==kstefanj.github.io: GC progress from JDK 8 to JDK 17==](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) JVM with <5ms GC pauses (ZGC). JDK17 is a huge leap forward in benchmark after benchmark. Upgrade as fast as you can. Amazon’s Corretto builds are available for a huge number of platforms and distribution channels. The JRE disappeared with jdk9: use jlink to assemble exactly the JRE you need.
 - [==developers.redhat.com: How to choose the best Java garbage collector==](https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector)
-- [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) - [original article - javarevisited.blogspot.com](https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html#axzz7e91Wjl6y)
+- [linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!](https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail) - [original article - javarevisited.blogspot.com](https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html)
 - [vladmihalcea.com: Caching best practices](https://vladmihalcea.com/caching-best-practices)
 - [vladmihalcea.com: 14 High-Performance Java Persistence Tips](https://vladmihalcea.com/14-high-performance-java-persistence-tips)
 - [speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea](https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023)
@@ -85,7 +85,7 @@ etc|N/A
 ### Tuning Jenkins GC
 
 - [jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟](https://www.jenkins.io/blog/2016/11/21/gc-tuning)
-- [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11/#:~:text=The%20easiest%20way%20to%20run,images%2C%20use%20the%20jdk11%20tag.)
+- [Running Jenkins on Java 11 🌟](https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11)
 
 ### Tuning Java Containers
 
@@ -119,13 +119,13 @@ etc|N/A
 
 ## Garbage Collection and Heap Offloading
 
-- [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](http://ehcache.org)
+- [Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.](https://ehcache.org)
 - [Jillegal OffHeap Module](https://github.com/serkan-ozal/jillegal)
-- [Free eGuide: JVM Troubleshooting Guide](http://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)
-- [Cambios importantes en la gestión de memoria de Java 8 de Oracle](http://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8)
-- [PermGen eliminado](http://www.infoq.com/articles/Java-PERMGEN-Removed)
-- [On heap vs off heap memory usage](http://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
-- [How Garbage Collection differs in the three big JVMs](http://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms)
+- [Free eGuide: JVM Troubleshooting Guide](https://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html)
+- [Cambios importantes en la gestión de memoria de Java 8 de Oracle](https://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8)
+- [PermGen eliminado](https://www.infoq.com/articles/Java-PERMGEN-Removed)
+- [On heap vs off heap memory usage](https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html)
+- [How Garbage Collection differs in the three big JVMs](https://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms)
 - [DZone: Understanding the Java Memory Model and Garbage Collection 🌟](https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag)we will try to understand the Java memory model and how garbage collection works.I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.
 - [DZone: Memory Leaks and Java Code](https://dzone.com/articles/memory-leak-andjava-code) When you aren't using objects, but they aren't touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.
 - [javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)](https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html)

@@ -3,6 +3,83 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Miscellaneous in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Application Development](#application-development)
+  - [Container Orchestration](#container-orchestration)
+    - [App Runner](#app-runner)
+  - [Frontend and Mobile](#frontend-and-mobile)
+    - [AWS Amplify](#aws-amplify)
+  - [Microservices](#microservices)
+    - [E-commerce Reference](#e-commerce-reference)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Application Deployment](#application-deployment)
+    - [Application Platform Updates](#application-platform-updates)
+    - [Cloud Migration](#cloud-migration)
+    - [Configuration Management](#configuration-management)
+    - [Hybrid Cloud](#hybrid-cloud)
+    - [Infrastructure APIs](#infrastructure-apis)
+    - [Infrastructure Operations](#infrastructure-operations)
+    - [Load Balancing](#load-balancing)
+    - [PaaS Architecture](#paas-architecture)
+    - [PaaS Platform](#paas-platform)
+    - [Web Servers](#web-servers)
+  - [Ecosystem](#ecosystem)
+    - [AWS Partners](#aws-partners)
+    - [Case Studies](#case-studies)
+  - [FinOps and Sustainability](#finops-and-sustainability)
+    - [Green Ops](#green-ops)
+  - [High Performance Computing](#high-performance-computing)
+    - [Life Sciences](#life-sciences)
+  - [IoT and Edge](#iot-and-edge)
+    - [AWS IoT Core](#aws-iot-core)
+  - [Migration](#migration)
+    - [AWS MGN](#aws-mgn)
+  - [Operations](#operations)
+    - [Service Quotas](#service-quotas)
+  - [Virtual Private Servers](#virtual-private-servers)
+    - [AWS Lightsail](#aws-lightsail)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Service Mesh](#service-mesh)
+    - [AWS](#aws-1)
+1. [Edge and IoT](#edge-and-iot)
+  - [AWS](#aws-2)
+    - [IoT Platforms](#iot-platforms)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [AWS CDK](#aws-cdk)
+    - [Core Platform](#core-platform)
+    - [EKS and Kubernetes](#eks-and-kubernetes)
+    - [Migration Tools](#migration-tools)
+    - [Serverless Applications](#serverless-applications)
+  - [Alternative IaC](#alternative-iac)
+    - [SST](#sst)
+1. [Networking and Security](#networking-and-security)
+  - [Identity and Access](#identity-and-access)
+    - [Secrets Management](#secrets-management)
+  - [Remote Access](#remote-access)
+    - [AWS Systems Manager](#aws-systems-manager)
+  - [Service Mesh](#service-mesh-1)
+    - [Multi-Account](#multi-account)
+1. [Organizational Culture](#organizational-culture)
+  - [Migration Journeys](#migration-journeys)
+    - [Trainline](#trainline)
+1. [Serverless](#serverless)
+  - [Voice User Interfaces](#voice-user-interfaces)
+    - [Alexa Skills](#alexa-skills)
+1. [Testing and Chaos](#testing-and-chaos)
+  - [Chaos Engineering](#chaos-engineering)
+    - [AWS FIS](#aws-fis)
+  - [Debugging](#debugging)
+    - [AWS Troubleshooting](#aws-troubleshooting)
+  - [Local Emulation](#local-emulation)
+    - [AWS Emulation](#aws-emulation)
+    - [EC2 Metadata](#ec2-metadata)
+    - [Gitpod Integration](#gitpod-integration)
+
 ## Application Development
 
 ### Container Orchestration
@@ -41,13 +118,13 @@
 
 #### Application Deployment
 
-  - **(2016)** [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step developer guide for compiling, structuring, and launching robust PHP packages on AWS Beanstalk. Documents configuring system environment files and customized runtime settings.
+  - **(2016)** [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step developer guide for compiling, structuring, and launching robust PHP packages on AWS Beanstalk. Documents configuring system environment files and customized runtime settings.
 #### Application Platform Updates
 
   - **(2016)** [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the 2016 platform expansion adding native support for ASP.NET Core applications and multi-app configuration models in Elastic Beanstalk Windows instances.
 #### Cloud Migration
 
-  - **(2016)** [AWS Application Discovery Service](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — AWS service that inventories and parses physical and virtual systems inside legacy on-premises environments. Maps active server dependencies and gathers CPU, RAM, and network utilization profiles to plan cloud migrations.
+  - **(2016)** [AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — AWS service that inventories and parses physical and virtual systems inside legacy on-premises environments. Maps active server dependencies and gathers CPU, RAM, and network utilization profiles to plan cloud migrations.
   - **(2016)** [AWS Application Discovery Service Update – Agentless Discovery for VMware](https://aws.amazon.com/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS announcement showing how Application Discovery Service interfaces directly with VMware vCenter environments. Avoids OS agent dependencies to quickly construct VM topology maps.
 #### Configuration Management
 
@@ -62,17 +139,17 @@
   - **(2021)** [AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official blog introduction announcing the Cloud Control API. Discusses how standardization simplifies life for infrastructure-as-code creators (e.g., Terraform, Pulumi) by delivering instant support for new cloud capabilities.
 #### Infrastructure Operations
 
-  - **(2016)** [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Engineering blog clarifying patch administration, automated AMI construction, and system compliance practices for running legacy or enterprise Windows Server nodes on AWS.
+  - **(2016)** [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Engineering blog clarifying patch administration, automated AMI construction, and system compliance practices for running legacy or enterprise Windows Server nodes on AWS.
 #### Load Balancing
 
   - **(2016)** [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product release documentation outlining integration of Application Load Balancers (ALBs) with Elastic Beanstalk. Unlocks path-based routing, target group pooling, and secure WebSocket connections.
-  - **(2016)** [Configuring an Application Load Balancer](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational guide detailing how to declare, scale, and tune target parameters and routing policies on Application Load Balancers inside active Elastic Beanstalk projects.
+  - **(2016)** [Configuring an Application Load Balancer](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational guide detailing how to declare, scale, and tune target parameters and routing policies on Application Load Balancers inside active Elastic Beanstalk projects.
 #### PaaS Architecture
 
-  - **(2016)** [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS deployment blueprint detailing how to structure a multi-availability zone PHP application using Beanstalk. Integrates an external multi-AZ Amazon RDS configuration to build failover resilience.
+  - **(2016)** [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS deployment blueprint detailing how to structure a multi-availability zone PHP application using Beanstalk. Integrates an external multi-AZ Amazon RDS configuration to build failover resilience.
 #### PaaS Platform
 
-  - **(2011)** [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference architecture and deployment guide for AWS Elastic Beanstalk. Simplifies cloud application lifecycle management by handling capacity provisioning, balancing, scaling, and platform patching.
+  - **(2011)** [AWS Elastic Beanstalk Documentation](https://aws.amazon.com/documentation/elastic-beanstalk) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference architecture and deployment guide for AWS Elastic Beanstalk. Simplifies cloud application lifecycle management by handling capacity provisioning, balancing, scaling, and platform patching.
 #### Web Servers
 
   - **(2016)** [AWS Elastic Beanstalk Supports Nginx Proxy Server with Tomcat](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-nginx-proxy-server-with-tomcat) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Feature documentation announcing native Nginx reverse proxy configurations sitting in front of Apache Tomcat platforms in Beanstalk. Optimizes delivery of static assets and client routing.
@@ -98,7 +175,7 @@
 
 #### AWS IoT Core
 
-  - **(2026)** [What Is AWS IoT?](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps AWS IoT as the entry point for connecting physical devices to AWS cloud services. Live Grounding confirms it has evolved into a robust suite of services (Core, Greengrass, Device Defender) handling billions of messages daily. It provides secure, bi-directional communication with MQTT/HTTPS and acts as the foundational layer for enterprise IoT data ingestion.
+  - **(2026)** [What Is AWS IoT?](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps AWS IoT as the entry point for connecting physical devices to AWS cloud services. Live Grounding confirms it has evolved into a robust suite of services (Core, Greengrass, Device Defender) handling billions of messages daily. It provides secure, bi-directional communication with MQTT/HTTPS and acts as the foundational layer for enterprise IoT data ingestion.
 ### Migration
 
 #### AWS MGN
@@ -173,7 +250,7 @@
 
 #### Trainline
 
-  - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight records Trainline's radical migration from legacy on-prem Oracle and Microsoft SQL/Windows monoliths to AWS. Live Grounding notes this historical case study illustrates the industry's massive mid-2010s migration pattern, proving that legacy modernization directly unlocks operational agility and cloud scalability.
+  - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight records Trainline's radical migration from legacy on-prem Oracle and Microsoft SQL/Windows monoliths to AWS. Live Grounding notes this historical case study illustrates the industry's massive mid-2010s migration pattern, proving that legacy modernization directly unlocks operational agility and cloud scalability.
   - **(2016)** [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight tracks the cultural and technical journey of Trainline’s DevOps transition during their full AWS migration. Live Grounding points to this talk as a textbook cultural reference, showing that microservices and infrastructure modernization fail without a parallel shift in organizational communication and delivery practices.
 ## Serverless
 
@@ -198,11 +275,11 @@
 
 #### AWS Emulation
 
-  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65044</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
+  - **(2026)** [==github.com/localstack/localstack==](https://github.com/localstack/localstack) <span class='md-tag md-tag--info'>⭐ 65044</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-86f309f0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 3 L 30 9 L 40 3 L 50 3" fill="none" stroke="url(#spark-grad-86f309f0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight identifies the open-source repository for LocalStack, the premier AWS cloud emulator. Live Grounding underscores its unparalleled adoption (>65k stars), showing it as a foundational dependency for developer productivity, enabling local execution of Lambdas, S3, DynamoDB, and CloudFormation stacks.
   - **(2026)** [localstack.cloud](https://www.localstack.cloud) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the enterprise cloud platform offering advanced local emulation of AWS services. Live Grounding reinforces that LocalStack has become the industry standard for offline AWS cloud development, supporting complex services like IAM, EKS, and RDS, which radically reduces cloud spend and speeds up inner-loop iteration cycles.
 #### EC2 Metadata
 
-  - **(2025)** [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock) <span class='md-tag md-tag--info'>⭐ 291</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this tool as a local mock for the Amazon EC2 Instance Metadata Service (IMDSv1/v2). Live Grounding confirms its high utility in local testing pipelines and CI/CD environments, allowing developers to simulate instance roles, security credentials, and spot interruption notices without provisioning real cloud resources.
+  - **(2025)** [Amazon EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock) <span class='md-tag md-tag--info'>⭐ 291</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e71d389d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 8 L 30 8 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-e71d389d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this tool as a local mock for the Amazon EC2 Instance Metadata Service (IMDSv1/v2). Live Grounding confirms its high utility in local testing pipelines and CI/CD environments, allowing developers to simulate instance roles, security credentials, and spot interruption notices without provisioning real cloud resources.
 #### Gitpod Integration
 
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.

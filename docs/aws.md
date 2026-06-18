@@ -39,12 +39,12 @@
 - [aws.amazon.com/releasenotes](https://aws.amazon.com/new)
 - [AWS Forums](https://repost.aws)
 - [AWS Knowledge Center](https://aws.amazon.com/premiumsupport/knowledge-center)
-- [AWS Glossary](http://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
+- [AWS Glossary](https://docs.aws.amazon.com/general/latest/gr/glos-chap.html)
 - [Awesome AWS 🌟](https://github.com/donnemartin/awesome-aws)
 - [AWS Marketplace](https://aws.amazon.com/marketplace)
 - [AWS Support](https://aws.amazon.com/premiumsupport)
 - [github.com/awslabs](https://github.com/awslabs)
-- [slideshare.net/AmazonWebServices](http://www.slideshare.net/AmazonWebServices)
+- [slideshare.net/AmazonWebServices](https://www.slideshare.net/AmazonWebServices)
 - [AWS 10-Minute Tutorials](https://aws.amazon.com/getting-started/hands-on)
 - [How do I create and activate a new Amazon Web Services account?](https://repost.aws/knowledge-center/create-and-activate-aws-account)
 - [onlineitguru.com: AWS Services [ARCHIVED]]( http://web.archive.org/web/20210119012455/https://onlineitguru.com/tutorial/aws-services)
@@ -137,7 +137,7 @@ You can filter by topic using the toolbar above.
 - [bitmovin: Improving Video Quality on the Web](https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334)
 - [What Startups Should Know about Amazon VPC — Part 1](https://medium.com/aws-activate-startup-blog/what-startups-should-know-about-amazon-vpc-part-1-bebe94b7f228)
 - [Scaling on AWS (Part 3): >500K Users](https://medium.com/aws-activate-startup-blog/scaling-on-aws-part-3-500k-users-3750b227b761)
-- [medium.com: Building a Serverless Dynamic DNS System with AWS](https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8#.qq54pucbd)
+- [medium.com: Building a Serverless Dynamic DNS System with AWS](https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8)
 - [medium.com: The Top 10 AWS Startup Blog Posts of 2015](https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb)
 
 ## AWS on Twitter
@@ -155,13 +155,13 @@ You can filter by topic using the toolbar above.
 - [AWS Webinar Channel](https://www.youtube.com/user/AWSwebinars)
 - [AWS Podcasts](https://aws.amazon.com/podcasts/aws-podcast)
 - [AWS Techchat](https://aws.amazon.com/podcasts/aws-techchat)
-- [Stitcher AWS Podcasts](http://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
+- [Stitcher AWS Podcasts](https://www.stitcher.com/podcast/amazon-web-services/aws-podcast)
 
 ## AWS Developer Blog
   - [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) 🌟 - This blog post introduces an enhanced local Integrated Development Environment (IDE) experience for AWS Step Functions, integrating Workflow Studio directly into Visual Studio Code (VS Code) via the AWS Toolkit extension. This allows developers to visually author and edit state machines locally, mirroring the AWS Console experience. The integration simplifies the development of distributed applications, process automation, microservice orchestration, and data/ML pipelines by providing a seamless workflow authoring experience within the developer's preferred IDE, synchronizing visual changes with the Amazon States Language (ASL) definition.
 
 - [The AWS Developer Blog now includes Python & GoLang](https://aws.amazon.com/blogs/developer)
-- [Create an API Using the Swagger Specification and the API Gateway Extensions](http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
+- [Create an API Using the Swagger Specification and the API Gateway Extensions](https://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html)
 
 ## AWS Patterns
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98) - *(Related to terraform topic)*
@@ -180,7 +180,7 @@ You can filter by topic using the toolbar above.
 
 ## AWS Management Console
 
-- [Working with the AWS Management Console](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
+- [Working with the AWS Management Console](https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
 ## Resource Hierarchies
 

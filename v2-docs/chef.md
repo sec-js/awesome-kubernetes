@@ -3,6 +3,13 @@
 !!! info "Architectural Context"
     Detailed reference for Chef in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Configuration Management](#configuration-management)
+    - [Enterprise Tooling](#enterprise-tooling)
+    - [Training](#training)
+
 ## Infrastructure as Code
 
 ### Configuration Management

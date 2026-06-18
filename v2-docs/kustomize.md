@@ -3,6 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management) in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Application Configuration](#application-configuration)
+  - [Declarative GitOps](#declarative-gitops)
+    - [Helm and Kustomize](#helm-and-kustomize)
+    - [Kustomize](#kustomize)
+    - [Kustomize Introduction](#kustomize-introduction)
+    - [Kustomize Tutorials](#kustomize-tutorials)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes](#kubernetes)
+    - [Configuration Management](#configuration-management)
+    - [Extensibility](#extensibility)
+    - [GitOps](#gitops)
+    - [Microservice Deployment](#microservice-deployment)
+  - [Security](#security)
+    - [Policy Enforcement](#policy-enforcement)
+    - [Secrets Management](#secrets-management)
+1. [Declarative GitOps](#declarative-gitops-1)
+  - [GitOps Frameworks](#gitops-frameworks)
+    - [Kubestack](#kubestack)
+
 ## Application Configuration
 
 ### Declarative GitOps
@@ -76,17 +100,17 @@
 
 #### Policy Enforcement
 
-  - **(2020)** [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) <span class='md-tag md-tag--info'>⭐ 18</span> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A minimal, highly instructional boilerplate repository demonstrating Open Policy Agent (OPA) integration inside Kubernetes using Gatekeeper. Helps bootstrap policy-as-code paradigms to secure deployments and enforce structural admission controls.
+  - **(2020)** [chrisns/k8s-opa-boilerplate](https://github.com/chrisns/k8s-opa-boilerplate) <span class='md-tag md-tag--info'>⭐ 18</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0c5edf9a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 7 L 30 5 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-0c5edf9a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A minimal, highly instructional boilerplate repository demonstrating Open Policy Agent (OPA) integration inside Kubernetes using Gatekeeper. Helps bootstrap policy-as-code paradigms to secure deployments and enforce structural admission controls.
 #### Secrets Management
 
-  - **(2020)** [Secretize 🌟](https://github.com/bbl/secretize) <span class='md-tag md-tag--info'>⭐ 71</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight command-line utility to convert raw secrets and environment variables directly into encrypted Kubernetes Secret manifests. Helpful for basic automation pipelines, although modern enterprise workflows typically favor external systems like Vault, External Secrets Operator, or sealed-secrets.
+  - **(2020)** [Secretize 🌟](https://github.com/bbl/secretize) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c350058" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 9 L 30 6 L 40 12 L 50 12" fill="none" stroke="url(#spark-grad-6c350058)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight command-line utility to convert raw secrets and environment variables directly into encrypted Kubernetes Secret manifests. Helpful for basic automation pipelines, although modern enterprise workflows typically favor external systems like Vault, External Secrets Operator, or sealed-secrets.
 ## Declarative GitOps (1)
 
 ### GitOps Frameworks
 
 #### Kubestack
 
-  - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
+  - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b44ef4f3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 12 L 30 9 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-b44ef4f3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
 
 ---
 💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)

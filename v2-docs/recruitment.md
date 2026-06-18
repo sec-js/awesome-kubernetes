@@ -3,6 +3,103 @@
 !!! info "Architectural Context"
     Detailed reference for Recruitment. Hiring and Freelancing in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [DevOps Culture](#devops-culture)
+  - [Workforce Strategy](#workforce-strategy)
+    - [IT Outsourcing](#it-outsourcing)
+    - [Remote Culture](#remote-culture)
+    - [Talent Retention](#talent-retention)
+1. [Developer Platform](#developer-platform)
+  - [Automation](#automation)
+    - [Git Manipulation](#git-manipulation)
+1. [Engineering Leadership](#engineering-leadership)
+  - [Remote Work](#remote-work)
+    - [Team Management](#team-management)
+1. [Industry Analysis](#industry-analysis)
+  - [Automation Impact](#automation-impact)
+    - [Sociotechnical Systems](#sociotechnical-systems)
+  - [Corporate Engineering Culture](#corporate-engineering-culture)
+    - [Personal Perspective](#personal-perspective)
+  - [Developer Dynamics](#developer-dynamics)
+    - [Market Shifts](#market-shifts)
+  - [Labor Trends](#labor-trends)
+    - [Market Contraction](#market-contraction)
+    - [Talent Mobility](#talent-mobility)
+    - [The Great Resignation](#the-great-resignation)
+  - [Regional Markets](#regional-markets)
+    - [European Tech Ecosystem](#european-tech-ecosystem)
+    - [Spain Tech Ecosystem](#spain-tech-ecosystem)
+  - [Vertical Industries](#vertical-industries)
+    - [Healthcare IT](#healthcare-it)
+1. [Organizational Architecture](#organizational-architecture)
+  - [Corporate Culture](#corporate-culture)
+    - [Nepotism](#nepotism)
+    - [Risk Management](#risk-management)
+  - [Engineering Management](#engineering-management)
+    - [Ethical Leadership](#ethical-leadership)
+    - [Job Design](#job-design)
+    - [Leadership Pitfalls](#leadership-pitfalls)
+    - [Leadership Strategy](#leadership-strategy)
+    - [Team Autonomy](#team-autonomy)
+  - [Hiring and Culture](#hiring-and-culture)
+    - [Diversity and Inclusion](#diversity-and-inclusion)
+    - [Interview Integrity](#interview-integrity)
+  - [Labor Trends](#labor-trends-1)
+    - [Generational Dynamics](#generational-dynamics)
+  - [Remote Work](#remote-work-1)
+    - [Future of Work](#future-of-work)
+    - [Industry Reports](#industry-reports)
+1. [Professional Development](#professional-development)
+  - [Career Architecture](#career-architecture)
+    - [Longevity](#longevity)
+  - [Career Transitions](#career-transitions)
+    - [Entry-level Strategy](#entry-level-strategy)
+    - [Job Search Strategy](#job-search-strategy)
+    - [Market Dynamics](#market-dynamics)
+    - [Strategic Planning](#strategic-planning)
+    - [Transferable Skills](#transferable-skills)
+  - [Continuous Learning](#continuous-learning)
+    - [Certifications](#certifications)
+  - [Developer Wellness](#developer-wellness)
+    - [Burnout Prevention](#burnout-prevention)
+    - [Career Decisions](#career-decisions)
+    - [Financial Architecture](#financial-architecture)
+    - [Purpose Alignment](#purpose-alignment)
+  - [Engineering Management](#engineering-management-1)
+    - [Upward Management](#upward-management)
+  - [Interview Engineering](#interview-engineering)
+    - [Industry Criticism](#industry-criticism)
+    - [Reverse Interviewing](#reverse-interviewing)
+    - [Risk Mitigation](#risk-mitigation)
+1. [Professional Practice](#professional-practice)
+  - [Career Paths](#career-paths)
+    - [Data and AI](#data-and-ai)
+    - [Public Sector](#public-sector)
+    - [Retention](#retention)
+    - [Soft Skills](#soft-skills)
+  - [Compensation](#compensation)
+    - [Contract Analysis](#contract-analysis)
+    - [Remote Work](#remote-work-2)
+  - [Education](#education)
+    - [Alternative Pathways](#alternative-pathways)
+  - [Leadership](#leadership)
+    - [Team Culture](#team-culture)
+  - [Recruiting](#recruiting)
+    - [CV Construction](#cv-construction)
+    - [Ethics](#ethics)
+    - [Hiring Standards](#hiring-standards)
+    - [Job Portals](#job-portals)
+    - [Resource Guides](#resource-guides)
+    - [SaaS Systems](#saas-systems)
+  - [Security](#security)
+    - [Developer Wellness](#developer-wellness-1)
+  - [Team Culture](#team-culture-1)
+    - [Employee Engagement](#employee-engagement)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -224,7 +321,7 @@
 
 #### Contract Analysis
 
-  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
+  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
 #### Remote Work (2)
 
   - **(2022)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the debate surrounding salary adjustment based on geographic location for teleworkers. Live Grounding: Discusses the socioeconomic and architectural impact of localized vs. flat salary structures in a remote-first tech ecosystem, emphasizing how cost-of-living adjustments affect developer retention and organizational design.
@@ -254,7 +351,7 @@
   - **(2026)** [relocate.me](https://relocate.me) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Serves as a targeted platform for finding tech positions offering visa sponsorship and relocation resources. Live Grounding: A premier destination for international talent acquisition, enabling seamless global hiring workflows and providing localized immigration support resources.
 #### Resource Guides
 
-  - **(2026)** [==International Tech Job Search Handbook==](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4427</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An open-source global job search manual providing metadata on visa processes and relocation budgets. Live Grounding: Continues to be a vital community asset for tech professionals traversing global borders, offering real-time data on corporate immigration compliance and tax architectures.
+  - **(2026)** [==International Tech Job Search Handbook==](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4427</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a9e4725" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1a9e4725)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An open-source global job search manual providing metadata on visa processes and relocation budgets. Live Grounding: Continues to be a vital community asset for tech professionals traversing global borders, offering real-time data on corporate immigration compliance and tax architectures.
 #### SaaS Systems
 
   - **(2026)** [recruit crm](https://recruitcrm.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A specialized SaaS solution engineered for recruitment firms and staffing lifecycle management. Live Grounding: Serves as a vital integration hub for modern staffing firms, leveraging cloud architectures to optimize sourcing pipelines, interview scheduling, and global talent placement.

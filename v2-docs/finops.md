@@ -3,6 +3,54 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud FinOps. Collaborative, Real-Time Cloud Financial Management (CFM) in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [AWS Optimization](#aws-optimization)
+    - [Data Transfer](#data-transfer)
+    - [EKS Cost Reduction](#eks-cost-reduction)
+    - [Policy Engines](#policy-engines)
+    - [SMB Frameworks](#smb-frameworks)
+  - [Azure Optimization](#azure-optimization)
+    - [CLI Tools](#cli-tools)
+    - [Cost Estimation](#cost-estimation)
+    - [Dashboards](#dashboards)
+    - [Governance](#governance)
+    - [Pricing Frameworks](#pricing-frameworks)
+    - [Reference Guides](#reference-guides)
+    - [Savings Potential](#savings-potential)
+  - [IaC FinOps](#iac-finops)
+    - [AI Optimization](#ai-optimization)
+    - [AWS CDK Bots](#aws-cdk-bots)
+  - [Kubernetes FinOps](#kubernetes-finops)
+    - [AKS Cost Allocation](#aks-cost-allocation)
+    - [Actionable Frameworks](#actionable-frameworks)
+    - [Cost Platforms](#cost-platforms)
+    - [Observability Integrations](#observability-integrations)
+    - [ROI Analysis](#roi-analysis)
+    - [Tooling](#tooling)
+  - [Market Trends](#market-trends)
+    - [Macroeconomics](#macroeconomics)
+  - [SaaS FinOps](#saas-finops)
+    - [License Management](#license-management)
+  - [Strategy and Governance](#strategy-and-governance)
+    - [FinOps Pitfalls](#finops-pitfalls)
+    - [FinOps vs Cost Management](#finops-vs-cost-management)
+1. [Financial Operations](#financial-operations)
+  - [FinOps](#finops)
+    - [Best Practices](#best-practices)
+    - [Case Studies](#case-studies)
+    - [Frameworks](#frameworks)
+    - [Kubernetes Costs](#kubernetes-costs)
+    - [Market Landscapes](#market-landscapes)
+    - [Methodologies](#methodologies)
+    - [Metrics](#metrics)
+    - [Roles and Responsibilities](#roles-and-responsibilities)
+    - [Standards](#standards)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -38,7 +86,7 @@
   - **(2023)** [==dev.to: FinOps EKS: 10 tips to reduce the bill up to 90% on AWS managed Kubernetes clusters==](https://dev.to/zenika/eks-10-tips-to-reduce-the-bill-up-to-90-on-aws-managed-kubernetes-clusters-epe) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides ten advanced tips to reduce Amazon EKS costs by up to 90%. Focuses on deploying the Karpenter autoscaler, using AWS Graviton instances, rightsizing pod resources, and setting up automated dev-environment shutdown policies.
 #### Policy Engines
 
-  - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
+  - **(2024)** [**Cloudburn: An Open-Source Policy Engine for AWS Spending**](https://github.com/towardsthecloud/cloudburn) <span class='md-tag md-tag--info'>⭐ 1765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fe15c8c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 12 L 30 4 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-fe15c8c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Cloudburn, an open-source command-line tool designed to audit AWS resource groups. By using declarative policies, it alerts teams to idle resources, non-standard instance types, and unassigned Elastic IPs to keep real-world deployments within budget limits.
 #### SMB Frameworks
 
   - **(2023)** [aws.amazon.com: Four Principles of Cloud Financial Management Small and Medium Business Owners Need to Know](https://aws.amazon.com/blogs/smb/four-principles-of-cloud-financial-management-small-and-medium-business-owners-need-to-know) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down AWS Cloud Financial Management (CFM) pillars specifically optimized for small and medium businesses. Outlines strategies for mapping budgets to cloud infrastructure utilization using AWS Cost Explorer and AWS Budgets, striking a balance between fast delivery and operational cost overhead.
@@ -46,7 +94,7 @@
 
 #### CLI Tools
 
-  - **(2024)** [**github.com/mivano/azure-cost-cli**](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1118</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on tag-based cost-querying using the `azure-cost-cli` tool. Explains how to extract billing data grouped by tags to simplify chargeback allocations and identify untagged resources.
+  - **(2024)** [**github.com/mivano/azure-cost-cli**](https://github.com/mivano/azure-cost-cli) <span class='md-tag md-tag--info'>⭐ 1118</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60ca6623" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 7 L 30 3 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-60ca6623)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Focuses on tag-based cost-querying using the `azure-cost-cli` tool. Explains how to extract billing data grouped by tags to simplify chargeback allocations and identify untagged resources.
 #### Cost Estimation
 
   - **(2024)** [techcommunity.microsoft.com: Azure Pricing: How to estimate Azure project costs 🌟](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-pricing-how-to-estimate-azure-project-costs/4166297) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines best practices for utilizing the Azure Pricing Calculator and Azure Migrate to model infrastructure costs prior to production deployment. Focuses on estimating workloads with varying autoscaling patterns.
@@ -61,7 +109,7 @@
   - **(2024)** [techcommunity.microsoft.com: Azure Pricing: How to navigate Azure pricing options and resources 🌟](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/azure-pricing-how-to-navigate-azure-pricing-options-and-resources/4166276) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental overview of Azure's pricing strategies and commitment benefits. Outlines how to leverage Azure Hybrid Benefit, Dev/Test tiers, and spot instances to lower baseline computing costs.
 #### Reference Guides
 
-  - **(2024)** [==github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide 🌟==](https://github.com/dolevshor/azure-finops-guide) <span class='md-tag md-tag--info'>⭐ 215</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive community repository focused on Azure FinOps best practices. Delivers script templates, tag compliance policies, and architectural checklists to help teams set up continuous cloud financial operations.
+  - **(2024)** [==github.com/dolevshor/azure-finops-guide: The Azure FinOps Guide 🌟==](https://github.com/dolevshor/azure-finops-guide) <span class='md-tag md-tag--info'>⭐ 215</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d74ac14c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 3 L 20 6 L 30 11 L 40 6 L 50 10" fill="none" stroke="url(#spark-grad-d74ac14c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive community repository focused on Azure FinOps best practices. Delivers script templates, tag compliance policies, and architectural checklists to help teams set up continuous cloud financial operations.
 #### Savings Potential
 
   - **(2024)** [**techcommunity.microsoft.com: Identify your savings potential in Azure 🌟**](https://techcommunity.microsoft.com/blog/finopsblog/identify-your-savings-potential-in-azure/4131194) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Provides actionable methods to identify underutilized resources using Azure Advisor. Focuses on right-sizing virtual machines, deleting unassociated disks, and choosing cost-effective storage tiers.
@@ -69,10 +117,10 @@
 
 #### AI Optimization
 
-  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
+  - **(2024)** [**OpenOps: No-Code FinOps Automation Platform with AI**](https://github.com/openops-cloud/openops) <span class='md-tag md-tag--info'>⭐ 1035</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b1fe04f8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 8 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-b1fe04f8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused resources.
 #### AWS CDK Bots
 
-  - **(2023)** [**cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot**](https://github.com/cremich/cdk-bill-bot) <span class='md-tag md-tag--info'>⭐ 486</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source AWS CDK cost optimization bot named Bill. Scans cloud deployment metadata, analyzes actual usage patterns, and suggests infrastructure optimization options via Slack or Microsoft Teams channels.
+  - **(2023)** [**cremich/cdk-bill-bot: Welcome to Bill - the cost optimization bot**](https://github.com/cremich/cdk-bill-bot) <span class='md-tag md-tag--info'>⭐ 486</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e4ffef8b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 9 L 30 11 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-e4ffef8b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source AWS CDK cost optimization bot named Bill. Scans cloud deployment metadata, analyzes actual usage patterns, and suggests infrastructure optimization options via Slack or Microsoft Teams channels.
 ### Kubernetes FinOps
 
 #### AKS Cost Allocation

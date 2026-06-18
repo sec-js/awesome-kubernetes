@@ -61,7 +61,7 @@
 
 ## Backup with Trillio Cloud-Native Data Protection for Kubernetes, OpenStack and Virtualization
 
-- [Trillio](http://trilio.io)
+- [Trillio](https://trilio.io)
 - [TrillioVault for Kubernetes](https://www.trilio.io/triliovault-for-kubernetes)
 - [redhat.com: OpenShift Backup and Cluster failover with Triliovault 🌟](https://www.redhat.com/es/blog)
 
@@ -76,9 +76,9 @@
 ## Backup with Velero
 
 - [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) Backup and migrate Kubernetes applications and their persistent volumes
-- [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero/?utm_sq=ggwzo8xdd8)
+- [akomljen.com: Kubernetes Backup and Restore with Velero 🌟](https://akomljen.com/kubernetes-backup-and-restore-with-velero)
 - [wecloudpro.com: Kubernetes Disaster Recovery with Velero 🌟](https://www.wecloudpro.com/2020/08/22/kubernetes-disaster-recovery-with-velero.html)
-- [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc?utm_sq=gi0vbpxxa3)
+- [medium: Velero backup/restore for K8s Stateful Applications managed by Operators](https://medium.com/@Sandeepkallazhi/velero-backup-restore-for-k8s-stateful-applications-managed-by-operators-8fd9c732ffcc)
 - [cloud.redhat.com: Velero Backup and Restore of an Application Using gp2 StorageClass on ROSA](https://www.redhat.com/en/blog/velero-backup-and-restore-of-an-application-using-gp2-storageclass-on-rosa)
 - [medium.com/@firat.yasar: Backup & Restore Kubernetes resources with VELERO](https://medium.com/@firat.yasar/backup-restore-kubernetes-resources-with-velero-b7fee14e7664)
 - [skildops.medium.com: Backup an entire Kubernetes cluster using Velero to AWS S3](https://skildops.medium.com/backup-an-entire-kubernetes-cluster-using-velero-to-aws-s3-73d76d51d4bc) Maintaining backup is always rewarding. Learn how to backup and restore an entire K8s cluster in this detailed article

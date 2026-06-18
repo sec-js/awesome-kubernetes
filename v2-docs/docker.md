@@ -3,13 +3,247 @@
 !!! info "Architectural Context"
     Detailed reference for Docker in the context of The Container Stack.
 
+## Table of Contents
+
+1. [App Development](#app-development)
+  - [CICD](#cicd)
+    - [GitHub Actions](#github-actions)
+1. [Application Architecture](#application-architecture)
+  - [Microservices](#microservices)
+    - [Java Ecosystem](#java-ecosystem)
+1. [Application Development](#application-development)
+  - [Java](#java)
+    - [Image Building](#image-building)
+  - [Node.js](#nodejs)
+    - [Image Building](#image-building-1)
+  - [Python](#python)
+    - [Local Environments](#local-environments)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CI-CD](#ci-cd)
+  - [DevOps Pipelines](#devops-pipelines)
+    - [Container Delivery](#container-delivery)
+1. [CICD Pipelines](#cicd-pipelines)
+  - [Build Speed](#build-speed)
+    - [Docker Buildx](#docker-buildx)
+1. [Cloud Computing](#cloud-computing)
+  - [Training](#training)
+    - [Multi-Cloud Education](#multi-cloud-education)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [ECS Integration](#ecs-integration)
+1. [Cloud Orchestration](#cloud-orchestration)
+  - [Multi-Cloud Deployments](#multi-cloud-deployments)
+    - [Application Architecture](#application-architecture-1)
+1. [Container Management](#container-management)
+  - [Docker Security](#docker-security)
+    - [Insecure Registries](#insecure-registries)
+1. [Container Runtime](#container-runtime)
+  - [Core Infrastructure](#core-infrastructure)
+    - [Execution Engines](#execution-engines)
+1. [Containerization](#containerization)
+  - [Fundamentals](#fundamentals)
+    - [Container Runtimes](#container-runtimes)
+1. [Containers](#containers)
+  - [Architectural Patterns](#architectural-patterns)
+    - [Anti-patterns](#anti-patterns)
+  - [Build Optimization](#build-optimization)
+    - [BuildKit](#buildkit)
+    - [Caching](#caching)
+    - [Dockerfiles](#dockerfiles)
+    - [Historical Context](#historical-context)
+    - [Java](#java-1)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Multi-Arch Images](#multi-arch-images)
+    - [Multi-stage Build](#multi-stage-build)
+    - [Node.js](#nodejs-1)
+    - [Python](#python-1)
+    - [Reference Implementation](#reference-implementation)
+    - [Rust](#rust)
+    - [Security and Hardening](#security-and-hardening)
+    - [Shell Scripts](#shell-scripts)
+    - [Standards](#standards)
+  - [Curation](#curation)
+    - [Reference Frameworks](#reference-frameworks)
+  - [Developer Tooling](#developer-tooling)
+    - [Cloud Emulation](#cloud-emulation)
+    - [Database Extensions](#database-extensions)
+    - [Docker Desktop](#docker-desktop)
+    - [Image Compacting](#image-compacting)
+    - [Optimization Platforms](#optimization-platforms)
+  - [Diagnostics](#diagnostics)
+    - [Debugging Runtimes](#debugging-runtimes)
+  - [Docker Architecture](#docker-architecture)
+    - [Linux Kernel](#linux-kernel)
+  - [Docker Basics](#docker-basics)
+    - [Core Concepts](#core-concepts)
+    - [Educational Resources](#educational-resources)
+    - [Workshops](#workshops)
+  - [Docker Runtime](#docker-runtime)
+    - [Network Engineering](#network-engineering)
+  - [Docker Storage](#docker-storage)
+    - [Data Persistence](#data-persistence)
+    - [Enterprise Storage](#enterprise-storage)
+  - [Image Registry](#image-registry)
+    - [Lifecycle Management](#lifecycle-management)
+  - [Networking](#networking)
+    - [Deep Dive](#deep-dive)
+  - [Orchestration Concepts](#orchestration-concepts)
+    - [Architecture Comparison](#architecture-comparison)
+  - [Production Operations](#production-operations)
+    - [Infrastructure](#infrastructure)
+  - [Security and Hardening](#security-and-hardening-1)
+    - [Build Optimization](#build-optimization-1)
+    - [Kernel Isolation](#kernel-isolation)
+    - [Node.js](#nodejs-2)
+    - [Process Boundaries](#process-boundaries)
+    - [Vulnerability Assessment](#vulnerability-assessment)
+    - [Vulnerability Management](#vulnerability-management)
+1. [Containers and Orchestration](#containers-and-orchestration)
+  - [Container Architecture](#container-architecture)
+    - [Foundations](#foundations)
+    - [OS Level Virtualization](#os-level-virtualization)
+  - [Container Builds](#container-builds)
+    - [Docker BuildKit](#docker-buildkit)
+  - [Container Engines](#container-engines)
+    - [Alternatives](#alternatives)
+  - [Docker](#docker-1)
+    - [Foundations](#foundations-1)
+    - [Industry Trends](#industry-trends)
+    - [Introduction](#introduction)
+    - [Licensing and Licensing Shift](#licensing-and-licensing-shift)
+    - [Product Updates](#product-updates)
+  - [Docker Networking and Volumes](#docker-networking-and-volumes)
+    - [Networking](#networking-1)
+    - [Volumes](#volumes)
+  - [Image Engineering](#image-engineering)
+    - [Best Practices](#best-practices)
+    - [Build Optimization](#build-optimization-2)
+    - [Build Tools](#build-tools)
+    - [Dockerfile Specs](#dockerfile-specs)
+    - [Hardening](#hardening)
+    - [Java Ecosystem](#java-ecosystem-1)
+    - [Python Ecosystem](#python-ecosystem)
+  - [Red Hat OpenShift](#red-hat-openshift)
+    - [Registry Management](#registry-management)
+1. [Data and AI](#data-and-ai)
+  - [Apache Spark](#apache-spark)
+    - [Orchestration](#orchestration)
+1. [Data Science](#data-science)
+  - [R Ecosystem](#r-ecosystem)
+    - [Shiny Deployment](#shiny-deployment)
+1. [Databases](#databases)
+  - [PostgreSQL](#postgresql)
+    - [Local Environments](#local-environments-1)
+1. [Infrastructure](#infrastructure-1)
+  - [Artifact Registry](#artifact-registry)
+    - [Docker Hub](#docker-hub)
+  - [Azure](#azure)
+    - [Virtual Machines](#virtual-machines)
+  - [Container Basics](#container-basics)
+    - [Docker](#docker-2)
+    - [Docker Commands](#docker-commands)
+    - [Image Building](#image-building-2)
+    - [Playground](#playground)
+  - [Container Registries](#container-registries)
+    - [Developer Experience](#developer-experience)
+    - [Go Library](#go-library)
+  - [Containerization](#containerization-1)
+    - [Base Images](#base-images)
+    - [Container Management](#container-management-1)
+    - [Debugging](#debugging)
+    - [Developer Experience](#developer-experience-1)
+    - [Docker](#docker-3)
+    - [Documentation](#documentation)
+    - [Garbage Collection](#garbage-collection)
+    - [Image Building](#image-building-3)
+    - [Image Optimization](#image-optimization)
+    - [Monitoring](#monitoring)
+    - [Runtimes](#runtimes)
+    - [Tool Ecosystem](#tool-ecosystem)
+  - [Continuous Deployment](#continuous-deployment)
+    - [Automation](#automation)
+  - [Continuous Integration](#continuous-integration)
+    - [Image Building](#image-building-4)
+  - [Docker Compose](#docker-compose)
+    - [Best Practices](#best-practices-1)
+    - [Reference Architectures](#reference-architectures)
+    - [Standards](#standards-1)
+  - [Kubernetes](#kubernetes)
+    - [Container Management](#container-management-2)
+  - [Linux OS Integration](#linux-os-integration)
+    - [RHEL Derivatives](#rhel-derivatives)
+  - [Local Environments](#local-environments-2)
+    - [Developer Experience](#developer-experience-2)
+    - [Docker Compose](#docker-compose-1)
+    - [WSL2](#wsl2)
+  - [Local Storage](#local-storage)
+    - [Garbage Collection](#garbage-collection-1)
+  - [Migration](#migration)
+    - [Containerization](#containerization-2)
+  - [Reliability Engineering](#reliability-engineering)
+    - [Resource Management](#resource-management)
+1. [Local Developer Environment](#local-developer-environment)
+  - [Container Runtime Setup](#container-runtime-setup)
+    - [Docker Compose](#docker-compose-2)
+1. [Local Development](#local-development)
+  - [Development Environments](#development-environments)
+    - [Alternatives](#alternatives-1)
+    - [Containers](#containers-1)
+  - [Docker Desktop Extensions](#docker-desktop-extensions)
+    - [Volumes](#volumes-1)
+  - [WSL2](#wsl2-1)
+    - [Alternatives](#alternatives-2)
+1. [Monitoring and Observability](#monitoring-and-observability)
+  - [Grafana](#grafana)
+    - [Metrics collection](#metrics-collection)
+1. [Observability](#observability)
+  - [Monitoring](#monitoring-1)
+    - [Log Management](#log-management)
+1. [Orchestration](#orchestration-1)
+  - [Container Engines](#container-engines-1)
+    - [Docker Swarm](#docker-swarm)
+1. [Performance](#performance)
+  - [Diagnostics](#diagnostics-1)
+    - [Performance Benchmarking](#performance-benchmarking)
+1. [Platform](#platform)
+  - [Container Engines](#container-engines-2)
+    - [Alternatives](#alternatives-3)
+  - [Development Environments](#development-environments-1)
+    - [macOS Virtualization](#macos-virtualization)
+1. [Security](#security)
+  - [Container Architecture](#container-architecture-1)
+    - [OS Level Virtualization](#os-level-virtualization-1)
+  - [Container Security](#container-security)
+    - [Dockerfile optimization](#dockerfile-optimization)
+    - [RunAsUser](#runasuser)
+  - [Docker Daemon Hardening](#docker-daemon-hardening)
+    - [Rootless Mode](#rootless-mode)
+  - [Image Engineering](#image-engineering-1)
+    - [Vulnerability Management](#vulnerability-management-1)
+  - [Linux Internals](#linux-internals)
+    - [Permissions and Users](#permissions-and-users)
+  - [Static Analysis](#static-analysis)
+    - [Linter](#linter)
+  - [Vulnerability Management](#vulnerability-management-2)
+    - [Automation](#automation-1)
+  - [Windows Containers](#windows-containers)
+    - [PKI](#pki)
+1. [Software Engineering Practices](#software-engineering-practices)
+  - [Containerized Workflows](#containerized-workflows)
+    - [Cookbooks](#cookbooks)
+1. [Testing](#testing)
+  - [Integration Testing](#integration-testing)
+    - [Infrastructure as Code](#infrastructure-as-code)
+
 ## App Development
 
 ### CICD
 
 #### GitHub Actions
 
-  - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5304</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The industry standard GitHub Action for building and pushing container images. Supports Docker Buildx, multi-platform builds, cache importing/exporting configurations, and native OCI-compliant registry deployments.
+  - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5304</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bdf56c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-bdf56c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The industry standard GitHub Action for building and pushing container images. Supports Docker Buildx, multi-platform builds, cache importing/exporting configurations, and native OCI-compliant registry deployments.
 ## Application Architecture
 
 ### Microservices
@@ -23,7 +257,7 @@
 
 #### Image Building
 
-  - **(2026)** [==jib==](https://github.com/GoogleContainerTools/jib) <span class='md-tag md-tag--info'>⭐ 14409</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Jib is a fast, specialized build tool by Google that constructs optimized Docker and OCI images for Java applications without requiring a Docker daemon or Dockerfile. Integrating directly into Maven or Gradle builds, it divides Java applications into granular layers (dependencies, resources, classes) to speed up continuous iteration. It is an industry-standard practice for enterprise JVM application deployment pipelines.
+  - **(2026)** [==jib==](https://github.com/GoogleContainerTools/jib) <span class='md-tag md-tag--info'>⭐ 14409</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b14e31cf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 9 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-b14e31cf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Jib is a fast, specialized build tool by Google that constructs optimized Docker and OCI images for Java applications without requiring a Docker daemon or Dockerfile. Integrating directly into Maven or Gradle builds, it divides Java applications into granular layers (dependencies, resources, classes) to speed up continuous iteration. It is an industry-standard practice for enterprise JVM application deployment pipelines.
 ### Node.js
 
 #### Image Building (1)
@@ -166,7 +400,7 @@
 
 #### Execution Engines
 
-  - **(2026)** [==containerd - An open and reliable container runtime==](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20835</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes, containerd has emerged as the de facto execution engine for production-grade orchestrators.
+  - **(2026)** [==containerd - An open and reliable container runtime==](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20835</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-591370f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 7 L 30 9 L 40 6 L 50 4" fill="none" stroke="url(#spark-grad-591370f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes, containerd has emerged as the de facto execution engine for production-grade orchestrators.
 ## Containerization
 
 ### Fundamentals
@@ -181,7 +415,7 @@
 #### Anti-patterns
 
   - **(2023)** [codefresh.io: Docker anti-patterns 🌟](https://octopus.com/blog/docker-anti-patterns) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies architectural antipatterns that degrade container system health, performance, and flexibility. Warns against embedding configuration states, mixing application processes, and handling secrets insecurely.
-  - **(2021)** [jpetazzo.github.io: Anti-Patterns When Building Container Images](http://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An experienced architect's critique of bad habits in image composition. Identifies dependencies on build host features, missing ignore-files, and bad layering decisions.
+  - **(2021)** [jpetazzo.github.io: Anti-Patterns When Building Container Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An experienced architect's critique of bad habits in image composition. Identifies dependencies on build host features, missing ignore-files, and bad layering decisions.
 ### Build Optimization
 
 #### BuildKit
@@ -189,7 +423,7 @@
   - **(2022)** [pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s stable](https://pythonspeed.com/articles/docker-buildkit) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the shift to BuildKit as the primary engine compiler. Evaluates features including multi-stage parallelization, secret mounting without environment leaks, and advanced build-cache mounts.
 #### Caching
 
-  - **(2020)** [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster/?utm_sq=gkugwn5n5s) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dives into how the BuildKit inline caching configuration drastically speeds up continuous integration pipelines by pulling remote cached layers directly from registries.
+  - **(2020)** [nrmitchi.com: One Simple Trick for Building Images Faster 🌟](https://www.nrmitchi.com/2020/10/one-simple-trick-for-building-images-faster) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dives into how the BuildKit inline caching configuration drastically speeds up continuous integration pipelines by pulling remote cached layers directly from registries.
 #### Dockerfiles
 
   - **(2024)** [devopscube.com: How to Build Docker Image : Comprehensive Beginners Guide](https://devopscube.com/build-docker-image) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured blueprint demonstrating professional design standards for OCI-compliant artifact assemblies. Focuses on minimizing layers, avoiding build context overhead, and utilizing cache layers effectively.
@@ -236,15 +470,15 @@
 
 #### Reference Frameworks
 
-  - **(2025)** [==Awesome Docker 🌟==](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36214</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community directory compiling top-tier runtimes, base images, build extensions, registries, and runtime protection systems. An indispensable reference manual for Cloud Native architects.
+  - **(2025)** [==Awesome Docker 🌟==](https://github.com/veggiemonk/awesome-docker) <span class='md-tag md-tag--info'>⭐ 36214</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-af2521bc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 7 L 30 5 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-af2521bc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community directory compiling top-tier runtimes, base images, build extensions, registries, and runtime protection systems. An indispensable reference manual for Cloud Native architects.
 ### Developer Tooling
 
 #### Cloud Emulation
 
-  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14064</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
+  - **(2024)** [==Floci - An AWS Local Emulator Alternative==](https://github.com/floci-io/floci) <span class='md-tag md-tag--info'>⭐ 14064</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eeaf9b0a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 3 L 20 4 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-eeaf9b0a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active and highly performant local alternative to localstack. Emulates AWS cloud service behavior locally using specialized lightweight container footprints.
 #### Database Extensions
 
-  - **(2023)** [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Docker Desktop extension embedding Mongo Express tools into local engineering control panels. Streamlines administrative database actions, collection querying, and sandbox testing workflows.
+  - **(2023)** [github.com/Saniewski/mongo-express-docker-extension](https://github.com/Saniewski/mongo-express-docker-extension) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-50c16ddf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 7 L 30 13 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-50c16ddf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Docker Desktop extension embedding Mongo Express tools into local engineering control panels. Streamlines administrative database actions, collection querying, and sandbox testing workflows.
 #### Docker Desktop
 
   - **(2023)** [dev.to: 9 Docker Extensions Every Developer Must Try](https://dev.to/docker/9-docker-extensions-every-developer-must-try-1no2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights extensions targeting productivity within local development dashboards. Covers structural utilities for Kubernetes visualization, real-time image scanning, and storage volume optimization.
@@ -466,12 +700,12 @@
   - **(2026)** [ttl.sh: Anonymous & ephemeral Docker image registry 🌟](https://ttl.sh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — ttl.sh is an anonymous, ephemeral Docker image registry that automatically purges uploaded images based on a user-defined Time-To-Live (TTL) tag (e.g., :2h). It requires no authentication or setup, making it an excellent utility for testing CI/CD pipelines, sharing temporary development builds, or executing fast integration tests across different physical host platforms.
 #### Go Library
 
-  - **(2026)** [==github.com/google/go-containerregistry 🌟==](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3918</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — go-containerregistry is a powerful library and CLI suite developed by Google for interacting with OCI (Open Container Initiative) registries. It allows Go applications to pull, push, analyze, and manipulate images and manifests directly over the network without needing a running Docker daemon. It serves as the programmatic foundational backbone for many modern cloud-native deployment tools, container security scanners, and custom platform architectures.
+  - **(2026)** [==github.com/google/go-containerregistry 🌟==](https://github.com/google/go-containerregistry) <span class='md-tag md-tag--info'>⭐ 3918</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c14f901a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 6 L 30 2 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-c14f901a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — go-containerregistry is a powerful library and CLI suite developed by Google for interacting with OCI (Open Container Initiative) registries. It allows Go applications to pull, push, analyze, and manipulate images and manifests directly over the network without needing a running Docker daemon. It serves as the programmatic foundational backbone for many modern cloud-native deployment tools, container security scanners, and custom platform architectures.
 ### Containerization (1)
 
 #### Base Images
 
-  - **(2026)** [crunchtools.com: A Comparison of Linux Container Images](http://crunchtools.com/comparison-linux-container-images) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analytical article compares various Linux base container images (Alpine, Debian, Ubuntu, Red Hat UBI) across size, package ecosystems, security profiles, and glibc/musl compatibility. It helps system architects weigh the trade-offs of using minimal images like Alpine (extremely light but uses musl libc) against enterprise standards like UBI (fully supported but heavier). It is a vital read for standardizing secure base OS layers.
+  - **(2026)** [crunchtools.com: A Comparison of Linux Container Images](https://crunchtools.com/comparison-linux-container-images) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analytical article compares various Linux base container images (Alpine, Debian, Ubuntu, Red Hat UBI) across size, package ecosystems, security profiles, and glibc/musl compatibility. It helps system architects weigh the trade-offs of using minimal images like Alpine (extremely light but uses musl libc) against enterprise standards like UBI (fully supported but heavier). It is a vital read for standardizing secure base OS layers.
   - **(2026)** [Red Hat Universal Base Images - hub.docker.com/u/redhat: UBI 8 standard, minimal, micro, and init from DockerHub 🌟](https://hub.docker.com/u/redhat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Docker Hub repository for Red Hat Universal Base Images (UBI), offering secure, reliable standard, minimal, micro, and init image variants. These images provide enterprise-grade security patches, high reliability, and RHEL compatibility without requiring commercial subscriptions. It serves as an industry de facto standard for high-security container base images.
   - **(2026)** [redhat.com: Red Hat Brings Red Hat Universal Base Image to Docker Hub](https://www.redhat.com/en/about/press-releases/red-hat-brings-red-hat-universal-base-image-docker-hub) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This press release details the collaboration between Red Hat and Docker to list Universal Base Images directly on the Docker Hub registry. It emphasizes the goal of democratizing enterprise-grade containerization layers, allowing any open-source or commercial developer to utilize secure and standardized packages. This partnership established UBI as a primary pillar of the container software supply chain.
   - **(2021)** [developers.redhat.com: Red Hat Universal Base Image and Docker Hub: Why should developers care?](https://developers.redhat.com/articles/2021/05/25/red-hat-universal-base-image-and-docker-hub-why-should-developers-care) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative article analyzing the strategic importance of hosting Red Hat Universal Base Images on Docker Hub. It highlights how developers benefit from instant access to cryptographically signed, compliant, and regularly updated base layers that easily pass enterprise security audits. The piece underscores the role of UBI in eliminating legal and performance compliance issues across environments.
@@ -481,11 +715,11 @@
   - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
-  - **(2026)** [==buildg: Interactive debugger for Dockerfile 🌟==](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1499</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildg is an interactive debugger designed specifically for Dockerfiles, built on top of BuildKit. It allows engineers to step through build instructions, set breakpoints, inspect the filesystem state at specific build steps, and launch interactive shells during intermediate builds. This dramatically reduces the trial-and-error loop when debugging complex multi-stage Dockerfiles.
+  - **(2026)** [==buildg: Interactive debugger for Dockerfile 🌟==](https://github.com/ktock/buildg) <span class='md-tag md-tag--info'>⭐ 1499</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d76baa85" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 5 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-d76baa85)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildg is an interactive debugger designed specifically for Dockerfiles, built on top of BuildKit. It allows engineers to step through build instructions, set breakpoints, inspect the filesystem state at specific build steps, and launch interactive shells during intermediate builds. This dramatically reduces the trial-and-error loop when debugging complex multi-stage Dockerfiles.
   - **(2022)** [infoq.com: Debugging Large and Complex Dockerfiles Gets Easier with Buildg](https://www.infoq.com/news/2022/09/debug-dockerfiles-buildg) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This InfoQ article provides a detailed analysis of the problems developers face when debugging complex multi-stage container builds and how Buildg leverages BuildKit features to address them. It explains how breakpoint debugging and runtime inspection can optimize CI/CD engineering efficiency. The piece is highly recommended for architectural and developer experience (DevEx) leads aiming to reduce build pipeline bottlenecks.
 #### Developer Experience (1)
 
-  - **(2026)** [==jesseduffield/lazydocker==](https://github.com/jesseduffield/lazydocker) <span class='md-tag md-tag--info'>⭐ 51350</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lazydocker is an immersive, keyboard-driven terminal user interface (TUI) for managing Docker and Docker Compose setups. It aggregates container statuses, logs, CPU/Memory resource graphs, filesystem changes, and network mappings into a single cohesive terminal window. By offering quick shortcuts for container operations (restart, prune, executive shells), it drastically enhances developer productivity and local environment troubleshooting.
+  - **(2026)** [==jesseduffield/lazydocker==](https://github.com/jesseduffield/lazydocker) <span class='md-tag md-tag--info'>⭐ 51350</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-21d8830a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 11 L 30 3 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-21d8830a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lazydocker is an immersive, keyboard-driven terminal user interface (TUI) for managing Docker and Docker Compose setups. It aggregates container statuses, logs, CPU/Memory resource graphs, filesystem changes, and network mappings into a single cohesive terminal window. By offering quick shortcuts for container operations (restart, prune, executive shells), it drastically enhances developer productivity and local environment troubleshooting.
 #### Docker (3)
 
   - **(2021)** [freecodecamp.org: A Beginner-Friendly Introduction to Containers, VMs and Docker](https://www.freecodecamp.org/news/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares physical hypervisors, virtual machines, and container engines (Docker). Details namespace isolation and cgroups that allow containerized applications to run securely on shared Linux kernels.
@@ -494,19 +728,19 @@
   - **(2026)** [Digital Ocean: Docker Tutorials](https://www.digitalocean.com/community/tags/docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, highly updated hub of peer-reviewed Docker tutorials and installation guides. It covers practical topics ranging from multi-container application development and automated volume backups to deploying production-ready container hosts on public clouds. It is globally recognized as one of the best high-quality learning portals for container system administrators.
 #### Garbage Collection
 
-  - **(2026)** [==stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟==](https://github.com/stepchowfun/docuum) <span class='md-tag md-tag--info'>⭐ 698</span> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Docuum is a robust, Rust-based daemon designed to run on container hosts to execute Least Recently Used (LRU) image eviction. When host disk usage exceeds a defined threshold, Docuum safely removes inactive images to prevent disk exhaustion without manual intervention. This represents a highly valuable, low-footprint automation utility for long-running CI/CD worker nodes and resource-constrained edge computing environments.
+  - **(2026)** [==stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟==](https://github.com/stepchowfun/docuum) <span class='md-tag md-tag--info'>⭐ 698</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c9183437" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 2 L 30 9 L 40 7 L 50 13" fill="none" stroke="url(#spark-grad-c9183437)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Docuum is a robust, Rust-based daemon designed to run on container hosts to execute Least Recently Used (LRU) image eviction. When host disk usage exceeds a defined threshold, Docuum safely removes inactive images to prevent disk exhaustion without manual intervention. This represents a highly valuable, low-footprint automation utility for long-running CI/CD worker nodes and resource-constrained edge computing environments.
 #### Image Building (3)
 
-  - **(2026)** [==img==](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Img is a standalone, daemonless, and unprivileged container image builder designed on top of BuildKit. It allows users to build OCI images in secure, rootless environments without mounting privileged Docker sockets, which is highly beneficial for isolated CI/CD pipelines. While development has cooled down in favor of upstream BuildKit or Kaniko, it remains a pioneering reference tool for secure image building.
+  - **(2026)** [==img==](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5ebd34d7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 5 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-5ebd34d7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Img is a standalone, daemonless, and unprivileged container image builder designed on top of BuildKit. It allows users to build OCI images in secure, rootless environments without mounting privileged Docker sockets, which is highly beneficial for isolated CI/CD pipelines. While development has cooled down in favor of upstream BuildKit or Kaniko, it remains a pioneering reference tool for secure image building.
 #### Image Optimization
 
-  - **(2026)** [==dive 🌟==](https://github.com/wagoodman/dive) <span class='md-tag md-tag--info'>⭐ 54224</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dive is an indispensable terminal-based tool designed to inspect Docker images, analyze layer contents, and discover ways to shrink image size. By calculating the efficiency metric of individual layers and identifying wasted space from modified or deleted files, it gives platform teams precise insight into image build processes. In 2026, it remains a de facto standard tool for CI/CD optimization pipelines to keep enterprise container sizes lean and secure.
+  - **(2026)** [==dive 🌟==](https://github.com/wagoodman/dive) <span class='md-tag md-tag--info'>⭐ 54224</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e7d68713" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 9 L 30 4 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-e7d68713)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dive is an indispensable terminal-based tool designed to inspect Docker images, analyze layer contents, and discover ways to shrink image size. By calculating the efficiency metric of individual layers and identifying wasted space from modified or deleted files, it gives platform teams precise insight into image build processes. In 2026, it remains a de facto standard tool for CI/CD optimization pipelines to keep enterprise container sizes lean and secure.
 #### Monitoring
 
-  - **(2026)** [==ctop 🌟==](https://github.com/bcicen/ctop) <span class='md-tag md-tag--info'>⭐ 17764</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — ctop provides a real-time, top-like container metrics display for command-line resource tracking. Built in Go, it supports both Docker and runC runtimes, delivering an instant overview of CPU, memory, network, and disk I/O metrics across active containers. It serves as an essential tool for local container debugging and quick bare-metal performance triage without the overhead of heavy APM agents.
+  - **(2026)** [==ctop 🌟==](https://github.com/bcicen/ctop) <span class='md-tag md-tag--info'>⭐ 17764</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1722507d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 8 L 30 8 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-1722507d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — ctop provides a real-time, top-like container metrics display for command-line resource tracking. Built in Go, it supports both Docker and runC runtimes, delivering an instant overview of CPU, memory, network, and disk I/O metrics across active containers. It serves as an essential tool for local container debugging and quick bare-metal performance triage without the overhead of heavy APM agents.
 #### Runtimes
 
-  - **(2026)** [==nerdctl 🌟==](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10146</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nerdctl is a Docker-compatible CLI designed specifically for containerd, offering matching CLI experiences (e.g., nerdctl run, nerdctl compose) for non-Docker environments. It supports advanced container features like lazy pulling (e.g., eStargz/soci), rootless execution, IPFS container sharing, and encryption. It acts as a bridge for developers migrating to pure containerd-based systems.
+  - **(2026)** [==nerdctl 🌟==](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf44832e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 2 L 30 3 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-bf44832e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nerdctl is a Docker-compatible CLI designed specifically for containerd, offering matching CLI experiences (e.g., nerdctl run, nerdctl compose) for non-Docker environments. It supports advanced container features like lazy pulling (e.g., eStargz/soci), rootless execution, IPFS container sharing, and encryption. It acts as a bridge for developers migrating to pure containerd-based systems.
   - **(2026)** [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/learn/devops/alternatives-to-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This JFrog learning resource breaks down alternative container tools in the OCI ecosystem, highlighting specialized runtimes, engines, and build utilities. By contrasting options like Podman, containerd, LXC, and Kaniko, it provides architects with a comprehensive roadmap for selecting tools based on security, speed, and platform architecture requirements.
 #### Tool Ecosystem
 
@@ -515,12 +749,12 @@
 
 #### Automation
 
-  - **(2026)** [==github.com/containrrr/watchtower==](https://github.com/containrrr/watchtower) <span class='md-tag md-tag--info'>⭐ 24678</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Watchtower is an automation utility that monitors running Docker containers and automatically updates them whenever a new version of their base image is pushed to a remote registry. It executes graceful shutdowns, restarts the container with its original configurations, and sends notifications via webhooks. This is an optimal solution for staging, homelab, and edge environments where manual container updates are highly inefficient.
+  - **(2026)** [==github.com/containrrr/watchtower==](https://github.com/containrrr/watchtower) <span class='md-tag md-tag--info'>⭐ 24678</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a68b32ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 3 L 30 13 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-a68b32ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Watchtower is an automation utility that monitors running Docker containers and automatically updates them whenever a new version of their base image is pushed to a remote registry. It executes graceful shutdowns, restarts the container with its original configurations, and sends notifications via webhooks. This is an optimal solution for staging, homelab, and edge environments where manual container updates are highly inefficient.
 ### Continuous Integration
 
 #### Image Building (4)
 
-  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15767</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
+  - **(2026)** [==kaniko==](https://github.com/GoogleContainerTools/kaniko) <span class='md-tag md-tag--info'>⭐ 15767</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-111d0705" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 4 L 30 5 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-111d0705)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kaniko is an open-source tool developed by Google to build container images from Dockerfiles inside containerized environments (like Kubernetes) without requiring a privileged Docker daemon. It executes each instruction in the Dockerfile entirely in user space, avoiding risky Docker-in-Docker (DinD) security practices. Kaniko remains a de facto standard tool for secure, isolated cloud-native CI/CD build environments.
   - **(2026)** [buildpacks.io: Cloud Native Buildpacks 🌟](https://buildpacks.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cloud Native Buildpacks (CNBs) transform application source code into secure, OCI-compliant container images without requiring a Dockerfile. Supported by the CNCF, CNBs analyze codebases to determine runtimes, patch secure OS layers, and separate application dependencies into optimal cached layers. They provide enterprise-level standardization, accelerating container builds and reinforcing dependency security at scale.
   - **(2026)** [altoros.com: Streamlining the Creation of Docker Images with Cloud Native Buildpacks](https://www.altoros.com/blog/streamlining-the-creation-of-docker-images-with-cloud-native-buildpacks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article provides an analytical look at how Cloud Native Buildpacks optimize and automate container image creation within corporate CI/CD pipelines. It explains how decoupling the container packaging definition from standard Dockerfiles reduces security misconfigurations and ensures consistent base OS updates. This is highly useful for organizations scaling up microservice deployments.
   - **(2026)** [thenewstack.io: Container Images the Easy Way with Cloud Native Buildpacks](https://thenewstack.io/container-images-the-easy-way-with-cloud-native-buildpacks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This New Stack overview details how Cloud Native Buildpacks simplify the containerization ecosystem by abstracting away the operational complexities of writing and maintaining optimized Dockerfiles. It covers the mechanics of builder configurations, run images, and layer rebasing—allowing immediate security patching without rebuilding the source.
@@ -531,7 +765,7 @@
   - **(2026)** [releasehub.com: 6 Docker Compose Best Practices for Dev and Prod](https://release.com/blog/6-docker-compose-best-practices-for-dev-and-prod) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide discusses production and development best practices for structuring Docker Compose environments. It details crucial considerations like decoupling environmental configurations via .env files, implementing proper health checks, configuring CPU/Memory resource constraints, and structuring override files for local versus staging workloads. It represents a vital resource for production-grade container design.
 #### Reference Architectures
 
-  - **(2026)** [==Awesome Compose 🌟==](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45540</span> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Awesome Compose is an official, highly curated repository of declarative multi-container topologies using Docker Compose. It showcases optimal configuration patterns for databases, caching layers, application servers, and microservices (e.g., PostgreSQL, Redis, Elasticsearch, Go, Python, React). It represents a critical, high-impact reference architecture for platform engineers standardizing local development setups.
+  - **(2026)** [==Awesome Compose 🌟==](https://github.com/docker/awesome-compose) <span class='md-tag md-tag--info'>⭐ 45540</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0f58c8e2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 10 L 30 13 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-0f58c8e2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Awesome Compose is an official, highly curated repository of declarative multi-container topologies using Docker Compose. It showcases optimal configuration patterns for databases, caching layers, application servers, and microservices (e.g., PostgreSQL, Redis, Elasticsearch, Go, Python, React). It represents a critical, high-impact reference architecture for platform engineers standardizing local development setups.
 #### Standards (1)
 
   - **(2026)** [infoworld.com: Docker's Compose specification is now an open standard](https://www.infoworld.com/article/2257118/dockers-compose-specification-is-now-an-open-standard.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article reports on the historical shift of the Docker Compose specification to an open, community-driven standard. By making the spec independent of any single vendor, it paved the way for modern orchestrators and engines to support Compose syntax natively. This architectural evolution ensures cross-compatibility across various development and deployment systems.
@@ -566,19 +800,19 @@
 
 #### Containerization (2)
 
-  - **(2026)** [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](http://crunchtools.com/moving-linux-services-to-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed 15-page architectural guide highlighting standard procedures for migrating legacy, bare-metal Linux services (such as WordPress, MediaWiki, and Request Tracker) into modern containers. It covers dissecting stateful components, isolating persistent data directories, managing configurations, and implementing reverse proxies. This resource is highly valuable for infrastructure engineers executing legacy-to-cloud modernization strategies.
+  - **(2026)** [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](https://crunchtools.com/moving-linux-services-to-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed 15-page architectural guide highlighting standard procedures for migrating legacy, bare-metal Linux services (such as WordPress, MediaWiki, and Request Tracker) into modern containers. It covers dissecting stateful components, isolating persistent data directories, managing configurations, and implementing reverse proxies. This resource is highly valuable for infrastructure engineers executing legacy-to-cloud modernization strategies.
 ### Reliability Engineering
 
 #### Resource Management
 
-  - **(2026)** [==grosser/preoomkiller==](https://github.com/grosser/preoomkiller) <span class='md-tag md-tag--info'>⭐ 78</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — preoomkiller is a lightweight tool designed to monitor process memory consumption in Linux containers and trigger graceful restarts or shutdowns before the kernel's Out-Of-Memory (OOM) killer forcibly terminates the application. This prevents data corruption and allows application runtimes (such as Ruby or Node.js) to drain active connections and write diagnostics logs. It adds an essential layer of reliability to production container runtimes prone to memory leaks.
+  - **(2026)** [==grosser/preoomkiller==](https://github.com/grosser/preoomkiller) <span class='md-tag md-tag--info'>⭐ 78</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b970a006" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 7 L 30 5 L 40 4 L 50 10" fill="none" stroke="url(#spark-grad-b970a006)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — preoomkiller is a lightweight tool designed to monitor process memory consumption in Linux containers and trigger graceful restarts or shutdowns before the kernel's Out-Of-Memory (OOM) killer forcibly terminates the application. This prevents data corruption and allows application runtimes (such as Ruby or Node.js) to drain active connections and write diagnostics logs. It adds an essential layer of reliability to production container runtimes prone to memory leaks.
 ## Local Developer Environment
 
 ### Container Runtime Setup
 
 #### Docker Compose (2)
 
-  - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
+  - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e14d560a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e14d560a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
 ## Local Development
 
 ### Development Environments
@@ -673,12 +907,12 @@
 
 #### Linter
 
-  - **(2026)** [==hadolint/hadolint: Haskell Dockerfile Linter==](https://github.com/hadolint/hadolint) <span class='md-tag md-tag--info'>⭐ 12216</span> <span class='md-tag md-tag--warning'>[HASKELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Hadolint is a Haskell-based linter that parses Dockerfiles and validates them against container best practices and Shellcheck rules. It ensures developers avoid common pitfalls such as running as root, using mutable base tags, or failing to clean package manager caches. Integrating Hadolint into CI/CD pipelines ensures secure, standardized, and highly optimized container builds across enterprise teams.
+  - **(2026)** [==hadolint/hadolint: Haskell Dockerfile Linter==](https://github.com/hadolint/hadolint) <span class='md-tag md-tag--info'>⭐ 12216</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1d20df1e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 2 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1d20df1e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HASKELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Hadolint is a Haskell-based linter that parses Dockerfiles and validates them against container best practices and Shellcheck rules. It ensures developers avoid common pitfalls such as running as root, using mutable base tags, or failing to clean package manager caches. Integrating Hadolint into CI/CD pipelines ensures secure, standardized, and highly optimized container builds across enterprise teams.
 ### Vulnerability Management (2)
 
 #### Automation (1)
 
-  - **(2026)** [==cybersecsi/RAUDI==](https://github.com/cybersecsi/RAUDI) <span class='md-tag md-tag--info'>⭐ 559</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — RAUDI is an automated system designed for continuous integration that regularly checks, updates, and rebuilds Docker images containing custom security tools. By automating the build pipelines of individual vulnerability scanners and custom scripts, it ensures security teams always work with up-to-date and compliant container environments. Its architectural value lies in bridging automated vulnerability definitions directly with container supply chain security.
+  - **(2026)** [==cybersecsi/RAUDI==](https://github.com/cybersecsi/RAUDI) <span class='md-tag md-tag--info'>⭐ 559</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4cfb49f2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 13 L 30 4 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-4cfb49f2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — RAUDI is an automated system designed for continuous integration that regularly checks, updates, and rebuilds Docker images containing custom security tools. By automating the build pipelines of individual vulnerability scanners and custom scripts, it ensures security teams always work with up-to-date and compliant container environments. Its architectural value lies in bridging automated vulnerability definitions directly with container supply chain security.
 ### Windows Containers
 
 #### PKI
@@ -697,7 +931,7 @@
 
 #### Infrastructure as Code
 
-  - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
+  - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
 💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)

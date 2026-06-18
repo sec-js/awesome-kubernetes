@@ -3,6 +3,19 @@
 !!! info "Architectural Context"
     Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [PaaS](#paas)
+    - [DigitalOcean](#digitalocean)
+1. [Cloud Providers](#cloud-providers)
+  - [Alternative Clouds](#alternative-clouds)
+    - [Community Portal](#community-portal)
+    - [DigitalOcean](#digitalocean-1)
+    - [Visual Deployment](#visual-deployment)
+  - [PaaS](#paas-1)
+    - [DigitalOcean App Platform](#digitalocean-app-platform)
+
 ## Cloud Infrastructure
 
 ### PaaS

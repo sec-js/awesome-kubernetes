@@ -32,16 +32,16 @@
 
 ## AWS Application Discovery Service
 
-- [AWS Application Discovery Service](http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
+- [AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html)
 
 ## AWS Elastic Beanstalk
 
-- [AWS Elastic Beanstalk Documentation](http://aws.amazon.com/documentation/elastic-beanstalk)
-- [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)
-- [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html)
+- [AWS Elastic Beanstalk Documentation](https://aws.amazon.com/documentation/elastic-beanstalk)
+- [Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html)
+- [Creating and Deploying PHP Applications on AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html)
 - [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support)
 - [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer)
-- [Configuring an Application Load Balancer](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html)
+- [Configuring an Application Load Balancer](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html)
 - [AWS Elastic Beanstalk Supports Nginx Proxy Server with Tomcat](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-nginx-proxy-server-with-tomcat)
 
 ## AWS OpsWorks
@@ -64,12 +64,12 @@
 
 ## AWS for Windows
 
-- [blog.rackspace.com: Patch and AMI Management for Windows on AWS](http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS
+- [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws) step-by-step guide about patch and AMI management for Windows on AWS
 
 ## AWS IoT
 
 - [aws.amazon.com/en/iot](https://aws.amazon.com/iot)
-- [What Is AWS IoT?](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html)
+- [What Is AWS IoT?](https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html)
 
 ## AWS Elastic Transcoder. Video streaming
 
@@ -156,7 +156,7 @@
 
 ## AWS Clients
 
-- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview)
+- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview)
 - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
 - [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies)
 - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)

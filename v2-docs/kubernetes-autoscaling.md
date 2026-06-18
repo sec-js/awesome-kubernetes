@@ -3,6 +3,74 @@
 !!! info "Architectural Context"
     Detailed reference for Autoscaling in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Design Patterns](#design-patterns)
+    - [Sidecar Pattern](#sidecar-pattern)
+1. [Architecture and Strategy](#architecture-and-strategy)
+  - [Scalability Foundations](#scalability-foundations)
+    - [System Design](#system-design)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [Kubernetes FinOps](#kubernetes-finops)
+    - [Foundational Concepts](#foundational-concepts)
+1. [Infrastructure and Platform](#infrastructure-and-platform)
+  - [Autoscaling](#autoscaling-1)
+    - [Cluster Autoscaling](#cluster-autoscaling)
+    - [Event-Driven Scaling](#event-driven-scaling)
+    - [Multi-Cluster Strategy](#multi-cluster-strategy)
+    - [Request-Driven Scaling](#request-driven-scaling)
+  - [Performance Engineering](#performance-engineering)
+    - [Load Testing](#load-testing)
+1. [Kubernetes and Scaling](#kubernetes-and-scaling)
+  - [Advanced Scaling](#advanced-scaling)
+    - [Predictive Scaling](#predictive-scaling)
+  - [Advanced Scheduling](#advanced-scheduling)
+    - [Scheduler Configurations](#scheduler-configurations)
+  - [Architecture and Strategy](#architecture-and-strategy-1)
+    - [Resource Provisioning](#resource-provisioning)
+  - [Core Concepts](#core-concepts)
+    - [Autoscaling Frameworks](#autoscaling-frameworks)
+    - [Autoscaling Matrix](#autoscaling-matrix)
+    - [Hands-on Guide](#hands-on-guide)
+    - [Horizontal Scaling API](#horizontal-scaling-api)
+    - [Horizontal Scaling Mechanics](#horizontal-scaling-mechanics)
+    - [Scaling Intro](#scaling-intro)
+  - [Cost Optimization](#cost-optimization)
+    - [Automated Optimization](#automated-optimization)
+    - [Autoscaling Tooling](#autoscaling-tooling)
+    - [FinOps Practices](#finops-practices)
+  - [Deployment Tutorials](#deployment-tutorials)
+    - [Enterprise Cloud App](#enterprise-cloud-app)
+  - [Developer Tooling](#developer-tooling)
+    - [Kubectl Plugins](#kubectl-plugins)
+  - [Infrastructure Scaling](#infrastructure-scaling)
+    - [Cluster Autoscaler](#cluster-autoscaler)
+    - [Node Descheduling](#node-descheduling)
+  - [Metrics and Monitoring](#metrics-and-monitoring)
+    - [Custom Metrics](#custom-metrics)
+    - [Metrics Server](#metrics-server)
+    - [Multi-Namespace HPA](#multi-namespace-hpa)
+    - [Prometheus Adapter](#prometheus-adapter)
+    - [Prometheus Integrations](#prometheus-integrations)
+    - [eBPF-driven Scaling](#ebpf-driven-scaling)
+  - [Microservices](#microservices)
+    - [Scaling Patterns](#scaling-patterns)
+  - [Production Practices](#production-practices)
+    - [Autoscaling Architecture](#autoscaling-architecture)
+  - [Regional Language Resources](#regional-language-resources)
+    - [Vertical Scaling](#vertical-scaling)
+  - [Resource Management](#resource-management)
+    - [Advanced QoS](#advanced-qos)
+    - [Vertical Scaling](#vertical-scaling-1)
+    - [Vertical Scaling Deep-Dive](#vertical-scaling-deep-dive)
+1. [Operations](#operations)
+  - [Managed Services](#managed-services)
+    - [Performance Benchmarking](#performance-benchmarking)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -85,7 +153,7 @@
 
 #### Cluster Autoscaling
 
-  - **(2024)** [Amazon Web Services: EKS Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS documentation for implementing Cluster Autoscaler on Amazon Elastic Kubernetes Service (EKS). Integrates with AWS Auto Scaling Groups (ASGs) to scale compute instances dynamically, providing optimal resource scheduling and EC2 cost management.
+  - **(2024)** [Amazon Web Services: EKS Cluster Autoscaler](https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS documentation for implementing Cluster Autoscaler on Amazon Elastic Kubernetes Service (EKS). Integrates with AWS Auto Scaling Groups (ASGs) to scale compute instances dynamically, providing optimal resource scheduling and EC2 cost management.
   - **(2024)** [Azure: AKS Cluster Autoscaler](https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide for deploying and configuring the managed Cluster Autoscaler within Azure Kubernetes Service (AKS). Leverages Azure Virtual Machine Scale Sets (VMSS) to automatically provision or deprovision node capacity in response to application pod requirements.
   - **(2024)** [Google Cloud Platform: GKE Cluster Autoscaler](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical guide to Google Kubernetes Engine's (GKE) built-in Cluster Autoscaler and Node Auto-provisioning capabilities. Optimizes infrastructure spend by dynamically scaling node pools based on CPU, memory, and custom GPU/TPU resource demands.
   - **(2023)** [bitnami/cluster-autoscaler](https://hub.docker.com/r/bitnami/cluster-autoscaler) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly secure, enterprise-hardened container image for Kubernetes Cluster Autoscaler maintained by Bitnami. Ideal for teams requiring pre-packaged, scanned, and continuously updated container builds for their self-managed cluster deployments.
@@ -93,7 +161,7 @@
   - **(2022)** [hub.helm.sh: cluster-autoscaler](https://artifacthub.io/packages/helm/stable/cluster-autoscaler) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Helm chart for deploying Kubernetes Cluster Autoscaler. Dynamically adjusts the size of the Kubernetes cluster by provisioning or terminating nodes based on pending pod requirements and node utilization. Serves as a fundamental operations standard across cloud provider runtimes.
 #### Event-Driven Scaling
 
-  - **(2024)** [==github.com/kedacore/keda/issues/2214==](https://github.com/kedacore/keda/issues/2214) <span class='md-tag md-tag--info'>⭐ 10282</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical GitHub issue discussion within the KEDA repository, offering granular insight into community-driven debugging, performance tuning, and architectural refinement. Reflects the active, battle-tested maintenance of this vital cloud-native project.
+  - **(2024)** [==github.com/kedacore/keda/issues/2214==](https://github.com/kedacore/keda/issues/2214) <span class='md-tag md-tag--info'>⭐ 10282</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8be8e176" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 7 L 30 2 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-8be8e176)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Technical GitHub issue discussion within the KEDA repository, offering granular insight into community-driven debugging, performance tuning, and architectural refinement. Reflects the active, battle-tested maintenance of this vital cloud-native project.
   - **(2024)** [keda.sh: Kubernetes Event-driven Autoscaling. Application autoscaling made simple.](https://keda.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KEDA (Kubernetes Event-driven Autoscaling) is a CNCF Graduate project that brings event-driven autoscaling to Kubernetes workloads. Acting as a custom metrics adapter, it integrates seamlessly with external event sources (e.g., Kafka, RabbitMQ, Prometheus) to drive Horizontal Pod Autoscaler behaviors, including scaling down to zero.
   - **(2023)** [kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does](https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the telemetry gap between Prometheus metrics and the Kubernetes HPA. Evaluates how Kedify and KEDA act as the unifying abstraction layers, avoiding complex native Prometheus Adapter setups and streamlining scale-to-zero configurations.
   - **(2022)** [opcito.com: A guide to mastering autoscaling in Kubernetes with KEDA](https://www.opcito.com/blogs/a-guide-to-mastering-autoscaling-in-kubernetes-with-keda) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide on mastering KEDA autoscaling. Details architectural components like Scalers, Metrics Adapter, and Controller. Explains how KEDA intercepts traffic and translates complex telemetry into HPA scaling decisions.
@@ -119,7 +187,7 @@
 
 #### Predictive Scaling
 
-  - **(2024)** [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 383</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced horizontal pod autoscaling extension utilizing forecasting models (such as Holt-Winters and LSTM). Anticipates traffic peaks by analyzing historical system metrics, pre-allocating server compute before traffic reaches the platform.
+  - **(2024)** [github.com/jthomperoo: Predictive Horizontal Pod Autoscaler](https://github.com/jthomperoo/predictive-horizontal-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 383</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3fc5a7a3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 2 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-3fc5a7a3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced horizontal pod autoscaling extension utilizing forecasting models (such as Holt-Winters and LSTM). Anticipates traffic peaks by analyzing historical system metrics, pre-allocating server compute before traffic reaches the platform.
 ### Advanced Scheduling
 
 #### Scheduler Configurations
@@ -171,12 +239,12 @@
 
 #### Kubectl Plugins
 
-  - **(2021)** [kubectl-vpa](https://github.com/ninlil/kubectl-vpa) <span class='md-tag md-tag--info'>⭐ 4</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-friendly CLI plugin extension for kubectl that simplifies inspecting, auditing, and troubleshooting Vertical Pod Autoscaler recommendations and status formats directly from terminal environments.
+  - **(2021)** [kubectl-vpa](https://github.com/ninlil/kubectl-vpa) <span class='md-tag md-tag--info'>⭐ 4</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fea514ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 12 L 20 4 L 30 6 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-fea514ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-friendly CLI plugin extension for kubectl that simplifies inspecting, auditing, and troubleshooting Vertical Pod Autoscaler recommendations and status formats directly from terminal environments.
 ### Infrastructure Scaling
 
 #### Cluster Autoscaler
 
-  - **(2026)** [==github.com/kubernetes: **Kubernetes Cluster Autoscaler**==](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) <span class='md-tag md-tag--info'>⭐ 8878</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes core component that dynamically alters cloud provider node counts based on scheduling pressures. Despite modern alternatives like Karpenter, it remains the most stable, widely deployed cluster-scaling standard across global cloud architectures.
+  - **(2026)** [==github.com/kubernetes: **Kubernetes Cluster Autoscaler**==](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler) <span class='md-tag md-tag--info'>⭐ 8878</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9ff77e58" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 9 L 20 4 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-9ff77e58)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes core component that dynamically alters cloud provider node counts based on scheduling pressures. Despite modern alternatives like Karpenter, it remains the most stable, widely deployed cluster-scaling standard across global cloud architectures.
 #### Node Descheduling
 
   - **(2021)** [itnext.io: Kubernetes Cluster Autoscaler: More than scaling out](https://itnext.io/kubernetes-cluster-autoscaler-more-than-scaling-out-7b2d97f10b27) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized technical deep-dive looking at Cluster Autoscaler scale-in (consolidation) mechanics. Analyzes pod disruption budgets, graceful termination routines, and scheduler algorithms that guarantee high system uptime during server compression.

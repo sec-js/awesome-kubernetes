@@ -75,7 +75,7 @@
 ## Updates
 
 - [VSCode Updates](https://code.visualstudio.com/updates/v1_120)
-- [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46#_flexible-layout)
+- [Flexible layout 🌟](https://code.visualstudio.com/updates/v1_120/v1_46)
 
 ## Keyboard shortcuts
 
@@ -101,7 +101,7 @@
 ### Extensions
 
 - [GitLens 🌟](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) Git supercharged
-    - [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens#interactive-rebase-editor-)
+    - [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!
 - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 - [Markdown All in One 🌟](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
@@ -146,7 +146,7 @@ A simple extension to make indentation more readable
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) Visual Studio Code plugin that autocompletes filenames
 - [GitHub Pull Requests and Issues 🌟](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [React Pure To Class](https://marketplace.visualstudio.com/items?itemName=angryobject.react-pure-to-class-vscode) Convert pure react components to class components
-- [Helm Intellisense](https://marketplace.visualstudio.com/items?utm_sq=ggv6n6jy52&itemName=Tim-Koehler.helm-intellisense&ssr=false#overview) Helm Intellisense is a Visual Studio Code extension that provides intellisense for helm-templates
+- [Helm Intellisense](https://marketplace.visualstudio.com/items&itemName=Tim-Koehler.helm-intellisense&ssr=false) Helm Intellisense is a Visual Studio Code extension that provides intellisense for helm-templates
 - [Azure Resource Manager (ARM) Tools 🌟](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) New VS Code extension for working with Azure Resource Manager (ARM) templates that will make your life much easier.
 - [developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift Connector 0.2.0 extension for VS Code 🌟](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code)
     - [OpenShift Connector 🌟](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-openshift-connector)
@@ -247,7 +247,7 @@ A simple extension to make indentation more readable
 ## Debugging in VScode
 
 - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode 🌟](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) Tutorial: Learn to debug Go microservices locally while testing against dependencies in a remote Kubernetes cluster
-- [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code#)
+- [==developers.redhat.com: Remote debugging on Kubernetes using VS Code==](https://developers.redhat.com/articles/2021/12/13/remote-debugging-kubernetes-using-vs-code)
 - [==metalbear-co/mirrord==](https://github.com/metalbear-co/mirrord) **A Visual Studio Code extension that lets you easily mirror traffic from your Kubernetes cluster to your development environment.** When you start debugging, mirrord will prompt you to select a pod to mirror traffic from. It will then mirror all traffic from that pod to the process you're debugging.
     - [blog.stackademic.com: Debugging Microservices Locally with mirrord](https://blog.stackademic.com/mastering-local-microservices-debugging-with-mirrord-0a99443c1544) On some occasions, you might want to be able to debug code running in pods in a Kubernetes cluster. This article will teach you how to use mirrord to develop your local code against a remote Kubernetes cluster
 - [kenneth.io: Introducing remote debugging of Node.js apps on Azure App Service from VS Code](https://kenneth.io/post/introducing-remote-debugging-of-nodejs-apps-on-azure-app-service-from-vs-code-in-public-preview)

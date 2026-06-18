@@ -1,4 +1,4 @@
-# MkDocs, Mardkown & GitHub Pages
+# MkDocs, Mardkown and GitHub Pages
 
 1. [Introduction](#introduction)
 2. [Material for MkDocs](#material-for-mkdocs)

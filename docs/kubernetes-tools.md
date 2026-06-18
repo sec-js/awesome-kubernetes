@@ -130,7 +130,7 @@
 - [medium.com/container-talks: 7 Tools To Make Kubernetes Management Easy](https://medium.com/container-talks/7-tools-to-make-kubernetes-management-easy-ba8238e6ce8d)
 - [opensource.com: 5 open source tools for developing on the cloud](https://opensource.com/article/22/4/open-source-tools-developing-cloud) Here are a few IDEs that can improve your programming experience while using multiple cloud service providers.
 - [devtron.ai: 7 Tools To Make Kubernetes Management Easy](https://devtron.ai/blog/kubernetes-management-made-easier-with-tools)
-- [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools#)
+- [developers.redhat.com: 8 open source Kubernetes security tools](https://developers.redhat.com/articles/2022/06/20/8-open-source-kubernetes-security-tools)
 - [blog.devops.dev: Tools to manage Kubernetes](https://blog.devops.dev/tools-to-manage-kubernetes-15b675f407d4) Kubernetes Command Line Tools
 - [medium.com/@onai.rotich: 4 Tools that Make it Easy to manage your Kubernetes Cluster](https://medium.com/@onai.rotich/4-tools-that-make-it-easy-to-manage-your-kubernetes-cluster-be252847cd85)
 - [virtualizationhowto.com: Kubernetes Best Kubernetes Management Tools in 2023](https://www.virtualizationhowto.com/2023/08/best-kubernetes-management-tools-in-2023)
@@ -176,7 +176,7 @@
   - [Web Terminal Operator: Tips y Trucos](https://www.techqna.io/2024/09/web-terminal-operator-tips-tricks-for.html) - Explora consejos y trucos prácticos para utilizar el operador de terminal web en entornos Kubernetes.
 
 - [downloadkubernetes.com: Download Kubernetes 🌟](https://www.downloadkubernetes.com) An easier way to get the binaries you need
-- [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes#configuration)
+- [ramitsurana/awesome-kubernetes: Tools 🌟](https://github.com/ramitsurana/awesome-kubernetes)
 - [VMware octant](https://github.com/vmware-archive/octant) A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.
     - [octant.dev](https://octant.dev) Visualize your Kubernetes workloads. Octant is an open source developer-centric web interface for Kubernetes that lets you inspect a Kubernetes cluster and its applications.
 - [KSS - Kubernetes pod status on steroid](https://github.com/chmouel/kss)
@@ -218,7 +218,7 @@
 - [Kubectl SSH Proxy 🌟](https://github.com/little-angry-clouds/kubectl-ssh-proxy) Kubectl plugin to launch a ssh socks proxy and use it. This plugin aims to make your life easier when using kubectl a cluster that's behind a SSH bastion.
 - [kubectl-images](https://github.com/chenjiandongx/kubectl-images) Show container images used in the cluster. Kubectl-images is a kubectl plugin that shows the container images used in the cluster. It first calls kubectl get pods to retrieve pods details and filters out the container image information of each pod then prints out the final result in a table view.
 - [Access Pod Online using Podtnl](https://github.com/nnrthota/podtnl) A Powerful CLI that makes your pod available to online without exposing a k8 service.
-- [kiosk: Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning 🌟](https://github.com/loft-sh/kiosk?utm_sq=gf3f25b1tk#why-kiosk) Kubernetes is designed as a single-tenant platform, which makes it hard for cluster admins to host multiple tenants in a single cluster. **Kiosk extends Kubernetes for multi-tenancy. The core idea is to use Kubernetes namespaces as isolated workspaces.**
+- [kiosk: Multi-Tenancy Extension For Kubernetes - Secure Cluster Sharing & Self-Service Namespace Provisioning 🌟](https://github.com/loft-sh/kiosk) Kubernetes is designed as a single-tenant platform, which makes it hard for cluster admins to host multiple tenants in a single cluster. **Kiosk extends Kubernetes for multi-tenancy. The core idea is to use Kubernetes namespaces as isolated workspaces.**
 - [asdf-kubectl](https://github.com/asdf-community/asdf-kubectl) kubectl plugin for [asdf version manager](https://asdf-vm.com). asdf-vm is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like gvm, nvm, rbenv & pyenv (and more) all in one! Simply install your language’s plugin!
 - [k8s Spot Rescheduler](https://github.com/pusher/k8s-spot-rescheduler) is a tool that tries to reduce load on a set of Kubernetes nodes. It was designed with the purpose of moving Pods scheduled on AWS on-demand instances to AWS spot instances to allow the on-demand instances to be safely scaled down (By the Cluster Autoscaler).
 - [kube-spot-termination-notice-handler](https://github.com/kube-aws/kube-spot-termination-notice-handler) is a Kubernetes DaemonSet designed to gracefully delete pods 2 minutes before an EC2 Spot Instance is terminated.
@@ -365,7 +365,7 @@
 - [k8s-image-swapper 🌟](https://github.com/estahn/k8s-image-swapper) Mirror images into your own registry and swap image references automatically. [estahn.github.io/k8s-image-swapper](https://estahn.github.io/k8s-image-swapper)
 - [RBACSync 🌟](https://github.com/cruise-automation/rbacsync) Automatically sync groups into Kubernetes RBAC. RBACSync provides a Kubernetes controller to synchronize RoleBindings and ClusterRoleBindings, used in Kubernetes RBAC, from group membership sources using consolidated configuration objects.
 - [Saffire](https://github.com/FairwindsOps/saffire) a controller to override image sources in the event that an image cannot be pulled. The intent of saffire is to provide operators with a method of automatically switching image repositories when imagePullErrors occur.
-- [Cluster API Provider for Managed Bare Metal Hardware](https://github.com/metal3-io/cluster-api-provider-metal3) This repository contains a Machine actuator implementation for the Kubernetes Cluster API for managing bare metal hardware - [metal3.io: Bare metal host provisioning for kubernetes](http://metal3.io)
+- [Cluster API Provider for Managed Bare Metal Hardware](https://github.com/metal3-io/cluster-api-provider-metal3) This repository contains a Machine actuator implementation for the Kubernetes Cluster API for managing bare metal hardware - [metal3.io: Bare metal host provisioning for kubernetes](https://metal3.io)
 - [enterprisersproject.com: Kubernetes: 6 open source tools to put your cluster to the test](https://enterprisersproject.com/article/2021/5/kubernetes-6-open-source-tools-to-test-clusters) The Kubernetes ecosystem includes an ever-growing number of tools and services you can plug in: Let’s look at six useful tools for putting your Kubernetes cluster and applications to the test.
 - [kubectl-node-restart 🌟](https://github.com/MnrGreg/kubectl-node-restart) Krew plugin to restart Kubernetes Nodes sequentially and gracefully
 - [k8s-platform-lcm: Kubernetes platform lifecycle management 🌟](https://github.com/arminc/k8s-platform-lcm) A faster and easier way to manage the lifecycle of applications and tools, running and living around your Kubernetes platform. Kubernetes platform lifecycle management helps you keep track of all your software and tools that are used or running in and around your Kubernetes platform.
@@ -409,7 +409,7 @@
 - [space-cloud: Develop, Deploy and Secure Serverless Apps on Kubernetes.](https://github.com/spacecloud-io/space-cloud) Open source **Firebase + Heroku** to develop, scale and secure serverless apps on Kubernetes - [space-cloud.io](https://space-cloud.io) Space Cloud is a Kubernetes based serverless platform that provides instant, realtime APIs on any database, with event triggers and unified APIs for your custom business logic.
 - [community.suse.com: Comparing Modern-Day Container Image Builders: Jib, Buildpacks and Docker 🌟](https://www.rancher.com/community)
 - [Teleport 🌟](https://github.com/gravitational/teleport) Certificate authority and access plane for SSH, Kubernetes, web applications, and databases
-- [weaveworks: kured - Kubernetes Reboot Daemon 🌟](https://github.com/kubereboot/kured) - [weave.works: One year kured - your Kubernetes Reboot Daemon](https://www.weave.works/) Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS. Many rely on Kured, which helps perform safe automatic node reboots when indicated by the package management of the underlying OS, to help make OS security better.
+- [weaveworks: kured - Kubernetes Reboot Daemon 🌟](https://github.com/kubereboot/kured) - [weave.works: One year kured - your Kubernetes Reboot Daemon](https://www.weave.works) Kured (KUbernetes REboot Daemon) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS. Many rely on Kured, which helps perform safe automatic node reboots when indicated by the package management of the underlying OS, to help make OS security better.
 - [k8s-cluster-simulator](https://github.com/pfnet-research/k8s-cluster-simulator) Kubernetes cluster simulator for evaluating schedulers.
 - [kubelogin 🌟](https://github.com/int128/kubelogin) kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)
 - [==kube-oidc-proxy==](https://github.com/jetstack/kube-oidc-proxy) Reverse proxy to authenticate to managed Kubernetes API servers via OIDC.
@@ -702,7 +702,7 @@ elastic quotas - Effortless optimization at its finest!
     - It can also help deploy and manage applications across several clusters from a single set of APIs in a single hosting cluster
 
 ## Open Cluster Management
-  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads#what_is_kruize_autotune_) - *(Related to openshift topic)*
+  - [How Kruize Optimizes OpenShift Workloads](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) - *(Related to openshift topic)*
 
 - [==open-cluster-management.io==](https://open-cluster-management.io) Make working with many Kubernetes clusters super easy regardless of where they are deployed. Open Cluster Management is a community-driven project focused on multicluster and multicloud scenarios for Kubernetes apps. Open APIs are evolving within this project for cluster registration, work distribution, dynamic placement of policies and workloads, and much more.
 
@@ -774,7 +774,7 @@ elastic quotas - Effortless optimization at its finest!
 
 ## Dekorate. Generate k8s manifests for java apps
 
-- [==dekorate.io== 🌟🌟🌟](http://dekorate.io) - https://github.com/dekorateio/dekorate
+- [==dekorate.io== 🌟🌟🌟](https://dekorate.io) - https://github.com/dekorateio/dekorate
 - Dekorate is a collection of Java compile-time generators and decorators for Kubernetes manifests. You can generate a manifest by adding a dependency to the classpath of your project. You can also customize it with an annotation or application property
 - One-stop jar to Kubernetes manifest generation that works for all jvm languages regardless of the build tool. It makes generating Kubernetes manifests as easy as adding a dependency to the classpath!
 - [developers.redhat.com: Using Dekorate to generate Kubernetes manifests for Java applications](https://developers.redhat.com/blog/2021/03/17/using-dekorate-to-generate-kubernetes-manifests-for-java-applications)
@@ -851,7 +851,7 @@ elastic quotas - Effortless optimization at its finest!
 ### Kubermatic Kubeone
 
 - [==kubermatic/kubeone== 🌟](https://github.com/kubermatic/kubeone) Kubermatic KubeOne automate cluster operations on all your cloud, on-prem, edge, and IoT environments.
-- [youtube.com: How to Write Software That Sets Up Kubernetes Anywhere with Kubermatic Kubeone](https://www.youtube.com/watch?v=BJufhuPK2DY&t=250s&ab_channel=Kubermatic) Kubernetes is a complex system. But installing Kubernetes doesn’t need to be hard. In this short clip, our Software Engineer Marko Mudrinić explains how to use existing tools to make tasks easier for you. He provides you with some insights on the learnings we made while creating KubeOne, an open source and infrastructure-agnostic cluster lifecycle management tool for single and HA Kubernetes clusters.
+- [youtube.com: How to Write Software That Sets Up Kubernetes Anywhere with Kubermatic Kubeone](https://www.youtube.com/watch?v=BJufhuPK2DY&ab_channel=Kubermatic) Kubernetes is a complex system. But installing Kubernetes doesn’t need to be hard. In this short clip, our Software Engineer Marko Mudrinić explains how to use existing tools to make tasks easier for you. He provides you with some insights on the learnings we made while creating KubeOne, an open source and infrastructure-agnostic cluster lifecycle management tool for single and HA Kubernetes clusters.
 
 ## Usernetes
 
@@ -1036,7 +1036,7 @@ elastic quotas - Effortless optimization at its finest!
 ## Azure Related
 
 ## Related AI
-  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot#effort-levels) - *(Related to ai topic)*
+  - [Cursor Bugbot Effort Levels Documentation](https://cursor.com/docs/bugbot) - *(Related to ai topic)*
   - [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) - *(Related to ai topic)*
 
 ## kubernetes-operators-controllers
@@ -1307,5 +1307,5 @@ elastic quotas - Effortless optimization at its finest!
   - [K3s vs Talos Linux](https://faun.pub/k3s-vs-talos-linux-8a1e0dce9a77) 🌟 - Comparativa técnica entre K3s y Talos Linux, dos opciones para desplegar Kubernetes.
   - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247) 🌟 - Este artículo explica cómo las actualizaciones atómicas de ConfigMap en Kubernetes son posibles gracias a la interacción entre los symlinks y el Kubelet, permitiendo cambios seguros y eficientes.
   - [Atomic ConfigMap Updates in Kubernetes: How Symlinks and Kubelet Make It Happen](https://medium.com/itnext/atomic-configmap-updates-in-kubernetes-how-symlinks-and-kubelet-make-it-happen-21a44338c247) 🌟 - Este artículo explica cómo las actualizaciones atómicas de ConfigMap en Kubernetes son posibles gracias a la interacción entre los symlinks y el Kubelet, permitiendo cambios seguros y eficientes.
-  - [ASCIIFlow](https://asciiflow.com/#) 🌟 - Herramienta para crear diagramas en ASCII en el navegador, útil para visualizar arquitecturas y flujos.
+  - [ASCIIFlow](https://asciiflow.com) 🌟 - Herramienta para crear diagramas en ASCII en el navegador, útil para visualizar arquitecturas y flujos.
   - [Kubernetes Services and Load Balancing Explained](https://learnkube.com/kubernetes-services-and-load-balancing) - *(Related to kubernetes-networking topic)*

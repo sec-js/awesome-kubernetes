@@ -3,6 +3,79 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Benchmarks](#cloud-benchmarks)
+  - [Pricing Analysis](#pricing-analysis)
+    - [Public Cloud](#public-cloud)
+  - [Service Mapping](#service-mapping)
+    - [Public Cloud](#public-cloud-1)
+  - [Storage Analysis](#storage-analysis)
+    - [Object Storage](#object-storage)
+1. [Cloud Economics](#cloud-economics)
+  - [Cost Optimization](#cost-optimization)
+    - [Hyperscalers](#hyperscalers)
+  - [Egress Fees](#egress-fees)
+    - [Market Competition](#market-competition)
+  - [Pricing Matrices](#pricing-matrices)
+    - [TCO Analysis](#tco-analysis)
+1. [Cloud Learning](#cloud-learning)
+  - [Multi-Cloud Strategy](#multi-cloud-strategy)
+    - [Business Case](#business-case)
+  - [Multimedia](#multimedia)
+    - [Provider Comparisons](#provider-comparisons)
+1. [Cloud Providers](#cloud-providers)
+  - [Alternative Clouds](#alternative-clouds)
+    - [Kubernetes DOKS](#kubernetes-doks)
+1. [Cloud Strategy](#cloud-strategy)
+  - [Architecture](#architecture)
+    - [Multi-Cloud Assessment](#multi-cloud-assessment)
+  - [Blockchain as a Service](#blockchain-as-a-service)
+    - [Distributed Ledgers](#distributed-ledgers)
+  - [Developer Tooling](#developer-tooling)
+    - [Hyperscalers](#hyperscalers-1)
+  - [Hyperscalers](#hyperscalers-2)
+    - [AWS-Azure-GCP comparison](#aws-azure-gcp-comparison)
+  - [Internet of Things](#internet-of-things)
+    - [IoT Cloud Platforms](#iot-cloud-platforms)
+  - [Kubernetes Management](#kubernetes-management)
+    - [Evaluation Framework](#evaluation-framework)
+  - [Market Share](#market-share)
+    - [Hyperscalers](#hyperscalers-3)
+  - [Public Sector](#public-sector)
+    - [Infrastructure Modernization](#infrastructure-modernization)
+  - [Security Protocols](#security-protocols)
+    - [Hyperscalers](#hyperscalers-4)
+  - [Service Mapping](#service-mapping-1)
+    - [AWS-Azure Mapping](#aws-azure-mapping)
+  - [Storage Architectures](#storage-architectures)
+    - [Hyperscalers](#hyperscalers-5)
+  - [Workload Portability](#workload-portability)
+    - [Decision Matrix](#decision-matrix)
+1. [Data Sovereignty](#data-sovereignty)
+  - [Regulatory Ecosystems](#regulatory-ecosystems)
+    - [Gaia-X Core](#gaia-x-core)
+    - [Gaia-X Dossier](#gaia-x-dossier)
+1. [Infrastructure Resilience](#infrastructure-resilience)
+  - [Outage Post-Mortem](#outage-post-mortem)
+    - [AWS Failure Analysis](#aws-failure-analysis)
+    - [Systemic Risk Analysis](#systemic-risk-analysis)
+1. [Kubernetes Management](#kubernetes-management-1)
+  - [Managed Kubernetes](#managed-kubernetes)
+    - [AWS EKS Costs](#aws-eks-costs)
+    - [Azure AKS Costs](#azure-aks-costs)
+    - [Google GKE Costs](#google-gke-costs)
+  - [Multi-Cloud Operations](#multi-cloud-operations)
+    - [Rackspace Managed K8s](#rackspace-managed-k8s)
+  - [Red Hat OpenShift](#red-hat-openshift)
+    - [Azure Integration](#azure-integration)
+    - [Enterprise Costs](#enterprise-costs)
+  - [VMware Tanzu](#vmware-tanzu)
+    - [Platform Operations](#platform-operations)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -154,7 +227,7 @@
 
 #### AWS Failure Analysis
 
-  - **(2026)** [jamaica-gleaner.com: Amazon outage’s future implications](http://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed business post-mortem reviewing the global impact of AWS outages on distributed supply chains and e-commerce platforms. Emphasizes the risk of hosting mission-critical operations on a single public cloud provider. Live grounding validates its recommendations to implement multi-region failover configurations.
+  - **(2026)** [jamaica-gleaner.com: Amazon outage’s future implications](https://past.jamaica-gleaner.com/article/business/20211224/amazon-outages-future-implications)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed business post-mortem reviewing the global impact of AWS outages on distributed supply chains and e-commerce platforms. Emphasizes the risk of hosting mission-critical operations on a single public cloud provider. Live grounding validates its recommendations to implement multi-region failover configurations.
 #### Systemic Risk Analysis
 
   - **(2026)** [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical Spanish news report examining AWS outages that repeatedly disrupted major segments of the internet. It highlights the systemic risks of hyperscaler oligopoly and details developer frustration with cloud availability SLAs. Live grounding confirms these events catalyzed enterprise adoption of hybrid-cloud structures.

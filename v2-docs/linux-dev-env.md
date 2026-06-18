@@ -3,6 +3,28 @@
 !!! info "Architectural Context"
     Detailed reference for WSL: Linux Dev Environment on Windows in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Developer Experience](#developer-experience)
+  - [Package Management](#package-management)
+    - [Windows Tooling](#windows-tooling)
+1. [Development Environment](#development-environment)
+  - [Windows Subsystem for Linux](#windows-subsystem-for-linux)
+    - [Docker Desktop](#docker-desktop)
+    - [Docker Engine](#docker-engine)
+    - [Kubernetes Desktop](#kubernetes-desktop)
+    - [Resource Optimization](#resource-optimization)
+    - [Terminal Emulators](#terminal-emulators)
+    - [Ubuntu](#ubuntu)
+    - [VS Code Integration](#vs-code-integration)
+    - [WSL Installation](#wsl-installation)
+1. [Local Development](#local-development)
+  - [Operating Systems](#operating-systems)
+    - [WSL](#wsl)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -21,7 +43,7 @@
 
 #### Windows Tooling
 
-  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
+  - **(2024)** [==Windows Package Manager CLI (aka winget)==](https://github.com/microsoft/winget-cli) <span class='md-tag md-tag--info'>⭐ 26023</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f02f28d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 5 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-3f02f28d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates.
 ## Development Environment
 
 ### Windows Subsystem for Linux

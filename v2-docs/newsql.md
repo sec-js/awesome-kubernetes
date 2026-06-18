@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for NewSQL in the context of Data & Advanced Analytics.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Storage](#storage)
+  - [Databases](#databases)
+    - [NewSQL](#newsql-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

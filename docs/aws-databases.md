@@ -10,14 +10,14 @@
 
 ## Introduction
 
-- [Tutorial: Restoring a DB Instance from a DB Snapshot](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html)
+- [Tutorial: Restoring a DB Instance from a DB Snapshot](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html)
 - [Partitioning MySQL on RDS: "How We Partitioned Airbnb’s Main Database in Two Weeks"](https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21)
 - [Amazon RDS for SQL Server – Support for Windows Authentication](https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication)
-- [Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News](http://blog.rubyroidlabs.com/2016/04/postgresql-9-5)
+- [Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News](https://blog.rubyroidlabs.com/2016/04/postgresql-9-5)
 - [AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS](https://docs.aws.amazon.com/hands-on/latest/create-mysql-db/create-mysql-db.html)
-- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers.
-- [Working with an Amazon RDS DB Instance in a VPC](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
-- [Creating a DB Instance Running the Oracle Database Engine](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
+- [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) Use RDS PostgreSQL cross-region Read Replicas to get data close to customers.
+- [Working with an Amazon RDS DB Instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html)
+- [Creating a DB Instance Running the Oracle Database Engine](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html) In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.
 - [Oracle Database on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment)
 - [besanttechnologies.com: AWS – Relational Database Service](https://www.besanttechnologies.com/amazon-web-services-relational-database)
 - [Introducing the Aurora Storage Engine](https://aws.amazon.com/blogs/database/introducing-the-aurora-storage-engine)
@@ -52,14 +52,14 @@
 
 ## AWS Schema Conversion Tool
 
-- [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](http://cloudacademy.com/blog/migrating-data-to-aws)
-- [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support)
-- [Creating an AWS Schema Conversion Tool Project](http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool.
+- [cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview](https://cloudacademy.com/blog/migrating-data-to-aws)
+- [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](https://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support)
+- [Creating an AWS Schema Conversion Tool Project](https://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html) Use SSL to connect to your source DB with the AWS Schema Conversion Tool.
 - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization)
 
 ## AWS Redshift
 
-- [Tutorial: Tuning Table Design](http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) you will learn how to optimize the design of your tables.
+- [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) you will learn how to optimize the design of your tables.
 
 ## AWS Data Mesh and Batch Data Processing
 

@@ -3,6 +3,36 @@
 !!! info "Architectural Context"
     Detailed reference for IBM in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud-Native Java](#cloud-native-java)
+  - [Runtimes](#runtimes)
+    - [Open Liberty](#open-liberty)
+      - [Source Code](#source-code)
+    - [WebSphere](#websphere)
+      - [Docker](#docker)
+1. [Enterprise Integration](#enterprise-integration)
+  - [Enterprise Mainframe](#enterprise-mainframe)
+    - [Bare Metal Installation](#bare-metal-installation)
+    - [Deployment Experience](#deployment-experience)
+    - [OpenShift on IBM Z](#openshift-on-ibm-z)
+  - [Microservices](#microservices)
+    - [GraphQL and Open Liberty](#graphql-and-open-liberty)
+  - [Multi-Cluster Management](#multi-cluster-management)
+    - [IBM Cloud Pak SDK](#ibm-cloud-pak-sdk)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Market](#cloud-market)
+    - [IBM](#ibm-1)
+      - [Corporate Strategy](#corporate-strategy)
+  - [Cloud Providers](#cloud-providers)
+    - [IBM Cloud](#ibm-cloud)
+  - [Mainframe Modernization](#mainframe-modernization)
+    - [IBM](#ibm-2)
+      - [Containers](#containers)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -61,7 +91,7 @@
 
 #### IBM Cloud Pak SDK
 
-  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
+  - **(2020)** [github.com/IBM/CP4MCM-SDK : Business Partner App Integration with IBM MCM](https://github.com/IBM/CP4MCM-SDK) <span class='md-tag md-tag--info'>⭐ 2</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e71233c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 3 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-8e71233c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An integration SDK for registering and packaging third-party application services within the IBM Cloud Pak for Multicloud Management (CP4MCM) ecosystem. Live Grounding Note: CP4MCM and this SDK are largely archived or superseded by newer Red Hat Advanced Cluster Management (RHACM) methodologies, making this mostly historical for legacy integrations.
 ## Infrastructure
 
 ### Cloud Market

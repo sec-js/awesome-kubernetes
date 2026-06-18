@@ -39,7 +39,7 @@
 
 ## External Jenkins Integration with OpenShift
 
-- [**uncontained.io**: External Jenkins Integration 🌟](http://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
+- [**uncontained.io**: External Jenkins Integration 🌟](https://v1.uncontained.io/playbooks/continuous_delivery/external-jenkins-integration.html)
 
 ## Improving Jenkins’ performance on Openshift
 
@@ -97,12 +97,12 @@
 
 - [Fabric8](https://fabric8.io) has been available as a Java client for Kubernetes since 2015, and today is one of the most popular client libraries for Kubernetes (the most popular is [client-go](https://github.com/kubernetes/client-go), which is the client library for the Go programming language on Kubernetes). In recent years, **fabric8 has evolved from a Java client for the Kubernetes REST API to a full-fledged alternative to the kubectl command-line tool for Java-based development**.
 - [developers.redhat.com: Getting started with the fabric8 Kubernetes Java client](https://developers.redhat.com/blog/2020/05/20/getting-started-with-the-fabric8-kubernetes-java-client)
-- [CI/CD with fabric8](http://fabric8.io/guide/cdelivery.html)
+- [CI/CD with fabric8](https://fabric8.io/guide/cdelivery.html)
 - [Fabric8 Pipeline Library](https://github.com/fabric8io/fabric8-pipeline-library)
 - [medium - fabric8, please check out jenkins X instead](https://medium.com/@jstrachan/fabric8-please-check-out-jenkins-x-instead-8295a025173a)
 - [github - fabric8, maven plugin](https://github.com/fabric8io/fabric8-maven-plugin )
 
-### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes & OpenShift Plugins
+### Eclipse JKube Pipeline Library (formerly known as Fabric8 Kubernetes Plugin). Kubernetes and OpenShift Plugins
 
 - [Eclipse JKube 🌟](https://eclipse.dev/jkube) Cloud-Native Java Applications without a hassle. Eclipse JKube is a collection of Maven and Gradle plugins, and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too. It brings your Java applications on to Kubernetes and OpenShift by leveraging the tasks required to make your application cloud-native. Eclipse JKube also provides a set of tools such as watch, debug, log, etc. to improve your developer experience.
 - [GitHub: Eclipse JKube](https://github.com/eclipse-jkube/jkube)

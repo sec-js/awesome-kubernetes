@@ -3,6 +3,187 @@
 !!! info "Architectural Context"
     Detailed reference for Configuration Management. Ansible in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Automation](#automation)
+  - [API Integration](#api-integration)
+    - [Ansible HTTP](#ansible-http)
+  - [Advanced Orchestration](#advanced-orchestration)
+    - [Ansible Extensions](#ansible-extensions)
+  - [Configuration Management](#configuration-management)
+    - [Ansible Communities](#ansible-communities)
+    - [Ansible Networking](#ansible-networking)
+  - [Infrastructure Management](#infrastructure-management)
+    - [Ansible Collections](#ansible-collections)
+    - [Satellite](#satellite)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Ansible](#ansible)
+    - [Ansible Experience](#ansible-experience)
+    - [Ansible Introduction](#ansible-introduction)
+    - [Ansible Lab Setup](#ansible-lab-setup)
+    - [Ansible Linux Modules](#ansible-linux-modules)
+    - [Ansible Management](#ansible-management)
+    - [Ansible Training](#ansible-training)
+    - [Ansible Use Cases](#ansible-use-cases)
+    - [Cloud Automation](#cloud-automation)
+    - [Developer Experience](#developer-experience)
+  - [Kubernetes Management](#kubernetes-management)
+    - [Ansible Integration](#ansible-integration)
+    - [OpenShift Integration](#openshift-integration)
+    - [Red Hat and Ansible](#red-hat-and-ansible)
+    - [Red Hat Ecosystem](#red-hat-ecosystem)
+  - [Platform](#platform)
+    - [Ansible AAP](#ansible-aap)
+    - [Ansible Catalog](#ansible-catalog)
+    - [Ansible Tower](#ansible-tower)
+1. [Automation and Orchestration](#automation-and-orchestration)
+  - [AI and Automation](#ai-and-automation)
+    - [Code Generation](#code-generation)
+  - [Ansible](#ansible-1)
+    - [Application Delivery](#application-delivery)
+    - [Control Flow](#control-flow)
+    - [Data Structures](#data-structures)
+    - [Foundations](#foundations)
+    - [Playbook Architecture](#playbook-architecture)
+    - [Playbook Design](#playbook-design)
+    - [Project Structure](#project-structure)
+    - [Reference Architectures](#reference-architectures)
+    - [Reference Projects](#reference-projects)
+    - [Task Lifecycle](#task-lifecycle)
+    - [Templating](#templating)
+    - [Troubleshooting](#troubleshooting)
+  - [Ansible Developer Tooling](#ansible-developer-tooling)
+    - [CLI and TUI](#cli-and-tui)
+  - [Ansible Ecosystem](#ansible-ecosystem)
+    - [Cloud Inventory](#cloud-inventory)
+    - [Collections](#collections)
+  - [Ansible Extensibility](#ansible-extensibility)
+    - [Module Development](#module-development)
+  - [Ansible GUI](#ansible-gui)
+    - [Semaphore UI](#semaphore-ui)
+  - [Ansible Integration](#ansible-integration-1)
+    - [API Automation](#api-automation)
+  - [Ansible Platforms](#ansible-platforms)
+    - [Local Development](#local-development)
+  - [Ansible Quality Assurance](#ansible-quality-assurance)
+    - [Static Analysis](#static-analysis)
+  - [Ansible Security](#ansible-security)
+    - [Secret Management](#secret-management)
+  - [Enterprise Platform](#enterprise-platform)
+    - [Architecture](#architecture)
+    - [Mainframe Automation](#mainframe-automation)
+    - [Partnership](#partnership)
+    - [Releases](#releases)
+  - [Templating Engine](#templating-engine)
+    - [Jinja](#jinja)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Marketplace](#marketplace)
+  - [Ansible](#ansible-2)
+    - [Cloud Provisioning](#cloud-provisioning)
+1. [Cloud Native and Orchestration](#cloud-native-and-orchestration)
+  - [Coexistence](#coexistence)
+    - [K8s vs Ansible](#k8s-vs-ansible)
+  - [Foundations](#foundations-1)
+    - [Comparison](#comparison)
+  - [Kubernetes](#kubernetes)
+    - [Bootstrap and Cluster Ops](#bootstrap-and-cluster-ops)
+    - [Event-Driven Automation](#event-driven-automation)
+1. [Container Orchestration](#container-orchestration)
+  - [Docker Swarm](#docker-swarm)
+    - [Deployments](#deployments)
+  - [Kubernetes](#kubernetes-1)
+    - [Ansible Integration](#ansible-integration-2)
+    - [Deployments](#deployments-1)
+    - [Helm](#helm)
+    - [Helm Integration](#helm-integration)
+    - [Object Management](#object-management)
+    - [Operators](#operators)
+1. [DevOps and Learning Resources](#devops-and-learning-resources)
+  - [Video Courses](#video-courses)
+    - [Ansible](#ansible-3)
+    - [Practical Labs](#practical-labs)
+1. [Infrastructure as Code](#infrastructure-as-code-1)
+  - [Ansible](#ansible-4)
+    - [Application Servers](#application-servers)
+    - [Automation](#automation-1)
+    - [Best Practices](#best-practices)
+    - [CLI Operations](#cli-operations)
+    - [Cloud Collections](#cloud-collections)
+    - [Cloud Integration](#cloud-integration)
+    - [Cloud Integrations](#cloud-integrations)
+    - [Collections](#collections-1)
+    - [Community](#community)
+    - [Community Authors](#community-authors)
+    - [Comparison](#comparison-1)
+    - [Concepts](#concepts)
+    - [Configuration Management](#configuration-management-1)
+    - [Containers](#containers)
+    - [Continuous Delivery](#continuous-delivery)
+    - [Core Concepts](#core-concepts)
+    - [Curated Lists](#curated-lists)
+    - [Data Structures](#data-structures-1)
+    - [Database Deployment](#database-deployment)
+    - [Dependency Management](#dependency-management)
+    - [Docker Deployment](#docker-deployment)
+    - [Education](#education)
+    - [Enterprise Control](#enterprise-control)
+    - [Enterprise Integration](#enterprise-integration)
+    - [Enterprise Platforms](#enterprise-platforms)
+    - [Environment Management](#environment-management)
+    - [History](#history)
+    - [Identity Access Management](#identity-access-management)
+    - [Introduction](#introduction)
+    - [Inventory Management](#inventory-management)
+    - [Linux Administration](#linux-administration)
+    - [Modular Design](#modular-design)
+    - [NGINX Automation](#nginx-automation)
+    - [Network Automation](#network-automation)
+    - [Network Engineering](#network-engineering)
+    - [Notification](#notification)
+    - [Optimization](#optimization)
+    - [Package Management](#package-management)
+    - [Package Registry](#package-registry)
+    - [Playbook Design](#playbook-design-1)
+    - [Quickstart](#quickstart)
+    - [Releases](#releases-1)
+    - [Roles](#roles)
+    - [Scheduling and Automation](#scheduling-and-automation)
+    - [Secret Management](#secret-management-1)
+    - [Security](#security)
+    - [Security Automation](#security-automation)
+    - [System Management](#system-management)
+    - [System Patching](#system-patching)
+    - [Templating](#templating-1)
+    - [Troubleshooting](#troubleshooting-1)
+    - [Tutorials](#tutorials)
+    - [Web Console](#web-console)
+  - [Ansible Testing](#ansible-testing)
+    - [Best Practices](#best-practices-1)
+    - [Molecule](#molecule)
+    - [Tutorials](#tutorials-1)
+  - [Deployment Tools](#deployment-tools)
+    - [Application Deployment](#application-deployment)
+  - [Foreman](#foreman)
+    - [Systems Provisioning](#systems-provisioning)
+  - [Packer](#packer)
+    - [Machine Images](#machine-images)
+1. [Kubernetes](#kubernetes-2)
+  - [Operators](#operators-1)
+    - [Ansible Operators](#ansible-operators)
+1. [Observability](#observability)
+  - [Automation](#automation-2)
+    - [Ansible Integration](#ansible-integration-3)
+1. [System Administration](#system-administration)
+  - [Linux Automation](#linux-automation)
+    - [Scheduling](#scheduling)
+1. [Virtualization](#virtualization)
+  - [Vagrant](#vagrant)
+    - [Sandboxing](#sandboxing)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -153,7 +334,7 @@
   - **(2023)** [tomsitcafe.com: Let’s use a more flexible directory structure for an Ansible project](https://tomsitcafe.com/2023/05/11/lets-use-a-more-flexible-directory-structure-for-an-ansible-project)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural patterns for structural scaling in Ansible. Recommends multi-environment directories, external roles, and separated configuration scopes to maximize system maintenance and clarity.
 #### Reference Architectures
 
-  - **(2024)** [==Ansible for DevOps Examples==](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9787</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-standard GitHub repository containing configuration blueprints for Jeff Geerling's 'Ansible for DevOps'. Serves as a primary reference for deploying Kubernetes clusters and microservices.
+  - **(2024)** [==Ansible for DevOps Examples==](https://github.com/geerlingguy/ansible-for-devops) <span class='md-tag md-tag--info'>⭐ 9787</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-253833c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 10 L 30 4 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-253833c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-standard GitHub repository containing configuration blueprints for Jeff Geerling's 'Ansible for DevOps'. Serves as a primary reference for deploying Kubernetes clusters and microservices.
 #### Reference Projects
 
   - **(2023)** [middlewareinventory.com: Ansible Playbook Examples – Sample Ansible Playbooks | Devops Junction](https://www.middlewareinventory.com/blog/ansible-playbook-example)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of practical Ansible playbook blueprints. Offers concrete system administration examples covering package management, file state adjustments, and cron-job automation.
@@ -181,8 +362,8 @@
 #### Collections
 
   - **(2024)** [Ansible Collections 🌟](https://github.com/ansible-collections) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Upstream GitHub organization containing certified and community Ansible Content Collections. Reflects the modern decentralized packaging model of the modern Ansible ecosystem.
-  - **(2024)** [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws) <span class='md-tag md-tag--info'>⭐ 388</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Amazon Web Services Content Collection for Ansible. Provides production-ready modules for provisioning, updating, and de-provisioning EC2, VPC, S3, and RDS infrastructure assets.
-  - **(2023)** [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Ansible Content Collection optimized for provisioning and managing Radware networking nodes, load balancers, and cloud security suites programmatically.
+  - **(2024)** [Amazon AWS Collection 🌟](https://github.com/ansible-collections/amazon.aws) <span class='md-tag md-tag--info'>⭐ 388</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f6eae7ba" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 2 L 20 8 L 30 9 L 40 2 L 50 4" fill="none" stroke="url(#spark-grad-f6eae7ba)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Amazon Web Services Content Collection for Ansible. Provides production-ready modules for provisioning, updating, and de-provisioning EC2, VPC, S3, and RDS infrastructure assets.
+  - **(2023)** [Radware/radware-ansible: Radware Ansible Collection](https://github.com/Radware/radware-ansible) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-67838751" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 11 L 30 2 L 40 8 L 50 12" fill="none" stroke="url(#spark-grad-67838751)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Specialized Ansible Content Collection optimized for provisioning and managing Radware networking nodes, load balancers, and cloud security suites programmatically.
 ### Ansible Extensibility
 
 #### Module Development
@@ -240,7 +421,7 @@
 
 #### Jinja
 
-  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11664</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+  - **(2024)** [==jinja 🌟==](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11664</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6eaee9a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 3 L 30 2 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-6eaee9a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
 ## Cloud Infrastructure
 
 ### AWS
@@ -269,8 +450,8 @@
 
 #### Bootstrap and Cluster Ops
 
-  - **(2024)** [**github.com/k3s-io/k3s-ansible 🌟**](https://github.com/k3s-io/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2804</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The production-standard repository for automating K3s lightweight Kubernetes cluster deployments using Ansible. Fully covers control plane initialization, high availability setups, and agent cluster joins.
-  - **(2024)** [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) <span class='md-tag md-tag--info'>⭐ 713</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly structured, modular Ansible role tailored for deploying K3s. Implements fine-grained host configuration and robust systemd lifecycle management over target K3s nodes.
+  - **(2024)** [**github.com/k3s-io/k3s-ansible 🌟**](https://github.com/k3s-io/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2804</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6e821e77" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 6 L 30 5 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-6e821e77)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The production-standard repository for automating K3s lightweight Kubernetes cluster deployments using Ansible. Fully covers control plane initialization, high availability setups, and agent cluster joins.
+  - **(2024)** [github.com/PyratLabs/ansible-role-k3s 🌟](https://github.com/PyratLabs/ansible-role-k3s) <span class='md-tag md-tag--info'>⭐ 713</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-888a4f54" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 10 L 30 11 L 40 5 L 50 8" fill="none" stroke="url(#spark-grad-888a4f54)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly structured, modular Ansible role tailored for deploying K3s. Implements fine-grained host configuration and robust systemd lifecycle management over target K3s nodes.
 #### Event-Driven Automation
 
   - **(2023)** [ansible.com: Kubernetes Meets Event-Driven Ansible 🌟](https://www.redhat.com/en/blog/kubernetes-meets-event-driven-ansible) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the intersection of Event-Driven Ansible (EDA) and Kubernetes environments. Details using rulebooks to ingest K8s events and automate remediation workflows, scaling operations, and policy compliance.
@@ -302,7 +483,7 @@
   - **(2022)** [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial focusing on deploying applications inside Kubernetes utilizing the `k8s` Ansible module. It highlights authentication patterns, namespace orchestration, and managing deployments or services using declarative syntax.
 #### Operators
 
-  - **(2026)** [**AWX Operator**](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1487</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The AWX Operator is a cloud-native Kubernetes Operator designed to automate the deployment, lifecycle management, scaling, and upgrades of AWX. By leveraging Custom Resource Definitions (CRDs), it simplifies complex Postgres and web-app state management inside K8s.
+  - **(2026)** [**AWX Operator**](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1487</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-69f7bf8d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 3 L 30 3 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-69f7bf8d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The AWX Operator is a cloud-native Kubernetes Operator designed to automate the deployment, lifecycle management, scaling, and upgrades of AWX. By leveraging Custom Resource Definitions (CRDs), it simplifies complex Postgres and web-app state management inside K8s.
 ## DevOps and Learning Resources
 
 ### Video Courses
@@ -374,17 +555,17 @@
   - **(2024)** [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for writing and executing Ansible Playbooks. This standard manual explains YAML syntax, task execution flows, variable precedence, and handler behaviors, forming the fundamental baseline for all Ansible-driven infrastructure automation.
 #### Curated Lists
 
-  - **(2022)** [**https://github.com/jdauphant/awesome-ansible**](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1004</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated repository listing valuable Ansible tools, libraries, playbooks, roles, and learning materials. Ideal for discovering community extensions, monitoring integrations, and operational best-practices.
+  - **(2022)** [**https://github.com/jdauphant/awesome-ansible**](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1004</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-52265256" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 8 L 30 13 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-52265256)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A curated repository listing valuable Ansible tools, libraries, playbooks, roles, and learning materials. Ideal for discovering community extensions, monitoring integrations, and operational best-practices.
 #### Data Structures (1)
 
   - **(2021)** [middlewareinventory.com: Ansible List Examples – How to create and append items to List 🌟](https://www.middlewareinventory.com/blog/ansible-list-examples-how-to-create-and-append-items-to-list) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide focusing on handling array data structures inside playbooks. Analyzes syntax patterns for dynamic list instantiation, appending list items, utilizing filter operations, and handling nested array patterns.
   - **(2021)** [middlewareinventory.com: Ansible Dictionary – How to create and add items to dict](https://www.middlewareinventory.com/blog/ansible-dict) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details key-value dictionary patterns inside YAML variables. Focuses on declarative creation, updating nested structures, merging multiple dictionaries with custom filters, and validating variable shapes.
 #### Database Deployment
 
-  - **(2021)** [**github.com/oravirt/ansible-oracle**](https://github.com/oravirt/ansible-oracle) <span class='md-tag md-tag--info'>⭐ 367</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly robust, community-driven Ansible repository designed to automate Oracle Database and Grid Infrastructure installations. This collection manages kernel parameters, prerequisites, ASM storage volumes, and database engine upgrades. It serves as an essential framework for migrating legacy Oracle setups to hybrid structures.
-  - **(2021)** [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules) <span class='md-tag md-tag--info'>⭐ 217</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized suite of Ansible modules specifically engineered to interact directly with internal Oracle database schemas. These modules handle tasks like tablespace adjustments, user provisioning, and initialization parameter alterations. They act as the post-install orchestration companion to base automation engines.
+  - **(2021)** [**github.com/oravirt/ansible-oracle**](https://github.com/oravirt/ansible-oracle) <span class='md-tag md-tag--info'>⭐ 367</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-62d38557" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 9 L 20 4 L 30 10 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-62d38557)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly robust, community-driven Ansible repository designed to automate Oracle Database and Grid Infrastructure installations. This collection manages kernel parameters, prerequisites, ASM storage volumes, and database engine upgrades. It serves as an essential framework for migrating legacy Oracle setups to hybrid structures.
+  - **(2021)** [github.com/oravirt/ansible-oracle-modules](https://github.com/oravirt/ansible-oracle-modules) <span class='md-tag md-tag--info'>⭐ 217</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b78dd9da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 6 L 20 2 L 30 12 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-b78dd9da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized suite of Ansible modules specifically engineered to interact directly with internal Oracle database schemas. These modules handle tasks like tablespace adjustments, user provisioning, and initialization parameter alterations. They act as the post-install orchestration companion to base automation engines.
   - **(2019)** [redhat.com: Using Ansible to deploy Microsoft SQL Server 2019 on Red Hat Enterprise Linux 8](https://www.redhat.com/en/blog/mssql-linux-easy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive Red Hat tutorial demonstrating how to use Ansible system roles to install and optimize Microsoft SQL Server 2019 on RHEL 8. It covers disk allocation, OS kernel parameters adjustment, and high-availability configuration. This is a foundational guide for platform teams automating traditional databases.
-  - **(2021)** [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community-focused Ansible module enabling seamless SQL*Plus shell operations within automated tasks. It allows DBAs to execute SQL and PL/SQL scripts without writing complex shell wrappers. It serves as an ad-hoc query execution tool for classic on-premises database systems.
+  - **(2021)** [github.com/abessifi/ansible-sqlplus](https://github.com/abessifi/ansible-sqlplus) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-24cdff1f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 12 L 30 10 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-24cdff1f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight community-focused Ansible module enabling seamless SQL*Plus shell operations within automated tasks. It allows DBAs to execute SQL and PL/SQL scripts without writing complex shell wrappers. It serves as an ad-hoc query execution tool for classic on-premises database systems.
   - **(2014)** [oravirt.wordpress.com: Getting started with ansible-oracle](https://oravirt.wordpress.com/2014/10/01/getting-started-with-ansible-oracle) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early community guide to bootstrapping Oracle automated configurations using ansible-oracle. It introduces infrastructure engineers to basic node topologies, directory layouts, and execution variables. It serves as a historical baseline for modern database-as-code deployments.
   - **(2014)** [oravirt.wordpress.com: Changes in ansible-oracle v1.2](https://oravirt.wordpress.com/2014/11/05/changes-in-ansible-oracle-v1-2) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release analysis highlighting the enhancements introduced in ansible-oracle v1.2. The article outlines performance-tuning improvements, bug fixes for Oracle Restart configurations, and more flexible network settings. This is a reference point for tracking configuration history.
 #### Dependency Management
@@ -392,7 +573,7 @@
   - **(2023)** [List of Red Hat Supported Maintained Ansible Collections 🌟](https://access.redhat.com/articles/4993781) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive directory of officially supported Ansible Collections maintained by Red Hat and its certified partners. This registry ensures enterprise compliance, stability, and security by providing thoroughly tested modules for operating systems, networks, and cloud providers.
 #### Docker Deployment
 
-  - **(2026)** [**Ansible Role: Docker 🌟**](https://github.com/geerlingguy/ansible-role-docker) <span class='md-tag md-tag--info'>⭐ 2270</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptionally popular and robust Ansible role designed by Jeff Geerling to handle complete installation and configuration of Docker on diverse Linux distros. It sets up the Docker daemon, manages system services, and handles dependencies.
+  - **(2026)** [**Ansible Role: Docker 🌟**](https://github.com/geerlingguy/ansible-role-docker) <span class='md-tag md-tag--info'>⭐ 2270</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d1c8208" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 7 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-9d1c8208)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An exceptionally popular and robust Ansible role designed by Jeff Geerling to handle complete installation and configuration of Docker on diverse Linux distros. It sets up the Docker daemon, manages system services, and handles dependencies.
 #### Education
 
   - **(2025)** [ansiblefordevops.com](https://www.ansiblefordevops.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Companion portal for "Ansible for DevOps" by Jeff Geerling, widely recognized as the definitive handbook on automation. It provides architectural examples, source repositories, and deployment guides covering bare-metal, VM, and cloud environments.
@@ -439,7 +620,7 @@
   - **(2021)** [**galaxy.ansible.com/nginxinc/nginx_core**](https://galaxy.ansible.com/nginxinc/nginx_core) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official Ansible NGINX Core Collection. It automates the installation, configuration, and execution of NGINX Open Source and NGINX Plus instances. It provides modular, enterprise-ready playbooks to streamline load-balancing, reverse proxies, and web operations across heterogeneous environments.
 #### Network Automation
 
-  - **(2023)** [github.com/automateyournetwork/automate_your_network: Automate Your Network' - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network) <span class='md-tag md-tag--info'>⭐ 647</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive network automation repository by John Capobianco supporting his publication. It presents concrete playbooks and collections to programmatically manage, audit, and document enterprise network appliances and switches.
+  - **(2023)** [github.com/automateyournetwork/automate_your_network: Automate Your Network' - John Capobianco - July 1st 2023](https://github.com/automateyournetwork/automate_your_network) <span class='md-tag md-tag--info'>⭐ 647</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3d05a027" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 11 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-3d05a027)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive network automation repository by John Capobianco supporting his publication. It presents concrete playbooks and collections to programmatically manage, audit, and document enterprise network appliances and switches.
 #### Network Engineering
 
   - **(2021)** [redhat.com: How to use Ansible to configure a reverse proxy 🌟](https://www.redhat.com/en/blog/reverse-proxy-ansible) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step design of an automated reverse proxy layer using HAProxy or Nginx. Illustrates template integration with dynamic backend target pools, configuring routing rules, load-balancer health checks, and secure SSL/TLS listeners through automation.
@@ -478,10 +659,10 @@
   - **(2021)** [opensource.com: How I use Ansible and anacron for automation](https://opensource.com/article/21/9/ansible-anacron-automation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration tutorial demonstrating how to pair Ansible task execution with anacron's scheduling engine. It resolves typical automation gaps on intermittently connected devices or workstations where rigid system cron configurations fail. It is a smart design pattern for local edge maintenance automation.
 #### Secret Management (1)
 
-  - **(2024)** [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp' Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) <span class='md-tag md-tag--info'>⭐ 23</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced dynamic Ansible inventory script integrating directly with HashiCorp Vault. It automates credential rotation, securely requests temporary SSH One-Time Passwords (OTP), and pulls inventory variables dynamically from secure vaults.
+  - **(2024)** [konstruktoid/ansible-hvault-inventory: Dynamic Ansible inventory using HashiCorp' Vault SSH OTP and local password rotation](https://github.com/konstruktoid/ansible-hvault-inventory) <span class='md-tag md-tag--info'>⭐ 23</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-86efd4c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 11 L 30 2 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-86efd4c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced dynamic Ansible inventory script integrating directly with HashiCorp Vault. It automates credential rotation, securely requests temporary SSH One-Time Passwords (OTP), and pulls inventory variables dynamically from secure vaults.
 #### Security
 
-  - **(2021)** [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&t=3s&ab_channel=CLOUDLEARNHUB) <span class='md-tag md-tag--warning'>[SHELL/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video guide exploring secret management using Ansible Vault. Details workflows for encrypting yaml files, inline variables encryption, managing vault passwords, and secure secret resolution in CI/CD runners.
+  - **(2021)** [youtube: Ansible Automation | How to Secure and Protect Critical Information Playbooks Using Ansible Vault](https://www.youtube.com/watch?v=mc20VwxYaGE&ab_channel=CLOUDLEARNHUB) <span class='md-tag md-tag--warning'>[SHELL/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video guide exploring secret management using Ansible Vault. Details workflows for encrypting yaml files, inline variables encryption, managing vault passwords, and secure secret resolution in CI/CD runners.
 #### Security Automation
 
   - **(2022)** [Ansible Let's Encrypt Collection](https://www.telekom-mms.com/blog) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized Ansible Collection designed to automate the lifecycle of Let's Encrypt TLS/SSL certificates. It leverages the ACME protocol to orchestrate automated domain validation, certificate issuance, renewal, and web server configuration reloading across infrastructure.
@@ -492,7 +673,7 @@
   - **(2021)** [redhat.com: 4 steps to create Linux users from a csv file with Ansible](https://www.redhat.com/en/blog/ansible-create-users-csv) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to automate user onboarding by reading CSV files inside Ansible playbooks. Details loop patterns, CSV parser integration, group creation, dynamic username validation, and secure password hashing algorithms.
 #### System Patching
 
-  - **(2023)** [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) <span class='md-tag md-tag--info'>⭐ 75</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-contributed Ansible role designed to streamline patch management workflows across Red Hat Enterprise Linux (RHEL) architectures. Enables system updates, security errata auditing, and automated reboot coordination.
+  - **(2023)** [Tronde/ansible-role-rhel-patchmanagement](https://github.com/Tronde/ansible-role-rhel-patchmanagement) <span class='md-tag md-tag--info'>⭐ 75</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a33b6c7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 13 L 30 8 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-a33b6c7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-contributed Ansible role designed to streamline patch management workflows across Red Hat Enterprise Linux (RHEL) architectures. Enables system updates, security errata auditing, and automated reboot coordination.
 #### Templating (1)
 
   - **(2021)** [redhat.com: How to create dynamic configuration files using Ansible templates](https://www.redhat.com/en/blog/ansible-templates-configuration) <span class='md-tag md-tag--warning'>[YAML/JINJA2 CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the design of dynamic configuration templates using the Jinja2 engine in Ansible. Details parsing nested loops, multi-variable evaluations, default parameters, and writing customized configuration payloads for system targets.
@@ -504,7 +685,7 @@
   - **(2021)** [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A video-based walkthrough demonstrating how to construct, package, distribute, and consume Ansible Collections. The tutorial outlines the transition from legacy monolithic roles to modular collection structures containing plugins, playbooks, and roles.
 #### Web Console
 
-  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15453</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
+  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15453</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-83cb96df" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 8 L 30 4 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-83cb96df)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
 ### Ansible Testing
 
 #### Best Practices (1)
@@ -534,7 +715,7 @@
 #### Machine Images
 
   - **(2020)** [github.com/tom-256/ansible-awx-packer](https://github.com/tom-256/ansible-awx-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An inactive HashiCorp Packer template configured to compile machine images with Ansible AWX pre-installed. Represents vintage configuration patterns before the containerized, operator-managed microservices architecture became the default delivery method.
-  - **(2020)** [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) <span class='md-tag md-tag--info'>⭐ 1</span> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy Packer configuration designed to output CentOS-based virtual machine images with pre-baked AWX deployments. Reflects older DevOps paradigms focused on VM-based immutable infrastructure instead of Kubernetes runtimes.
+  - **(2020)** [github.com/scorputty/packer-centos-awx](https://github.com/scorputty/packer-centos-awx) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9c48d270" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 12 L 30 9 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-9c48d270)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy Packer configuration designed to output CentOS-based virtual machine images with pre-baked AWX deployments. Reflects older DevOps paradigms focused on VM-based immutable infrastructure instead of Kubernetes runtimes.
   - **(2019)** [github.com/jsmartin/ansible-tower-packer](https://github.com/jsmartin/ansible-tower-packer) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Vintage HashiCorp Packer scripts utilized to generate machine images initialized with Red Hat Ansible Tower software. Serves as historical code archeology for engineers maintaining legacy, VM-based environments.
 ## Kubernetes (2)
 

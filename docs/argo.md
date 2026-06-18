@@ -175,7 +175,7 @@
 - [medium.com/atlantbh: Implementing CI/CD pipeline using Argo Workflows and Argo Events 🌟](https://medium.com/atlantbh/implementing-ci-cd-pipeline-using-argo-workflows-and-argo-events-6417dd157566)
 
 ## Videos
-  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon/#call-for-proposals) 🌟 - The Call for Proposals (CFP) for ArgoCon North America 2026 is open, inviting submissions for presentations, panel discussions, and lightning talks focusing on the Argo Project (Argo CD, Argo Workflows, Argo Rollouts, Argo Events). Topics include software delivery, scalability, data processing, observability, and progressive delivery. Submissions are due by June 21, 2026.
+  - [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon) 🌟 - The Call for Proposals (CFP) for ArgoCon North America 2026 is open, inviting submissions for presentations, panel discussions, and lightning talks focusing on the Argo Project (Argo CD, Argo Workflows, Argo Rollouts, Argo Events). Topics include software delivery, scalability, data processing, observability, and progressive delivery. Submissions are due by June 21, 2026.
 
 ??? note "Click to expand!"
 

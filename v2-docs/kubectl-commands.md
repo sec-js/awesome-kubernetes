@@ -3,6 +3,41 @@
 !!! info "Architectural Context"
     Detailed reference for Kubectl commands in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Automation](#automation)
+  - [Kubernetes](#kubernetes)
+    - [Ansible Modules](#ansible-modules)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes](#kubernetes-1)
+    - [CICD and Builds](#cicd-and-builds)
+    - [CLI and Debugging](#cli-and-debugging)
+    - [Security](#security)
+1. [Developer Experience](#developer-experience)
+  - [Shell](#shell)
+    - [Productivity](#productivity)
+1. [Kubernetes](#kubernetes-2)
+  - [Developer Experience](#developer-experience-1)
+    - [Container Builds](#container-builds)
+  - [Operations](#operations)
+    - [Kubectl Plugins](#kubectl-plugins)
+1. [Kubernetes Platform](#kubernetes-platform)
+  - [Cluster Administration](#cluster-administration)
+    - [K8s Contexts](#k8s-contexts)
+    - [Kubectl Plugins](#kubectl-plugins-1)
+    - [Kubectl Productivity](#kubectl-productivity)
+    - [Multi-Cluster Tools](#multi-cluster-tools)
+    - [Port Forwarding](#port-forwarding)
+    - [Shell Environments](#shell-environments)
+  - [K8s API and Development](#k8s-api-and-development)
+    - [Config Management](#config-management)
+1. [Operations and UX](#operations-and-ux)
+  - [CLI Plugins](#cli-plugins)
+    - [Output Formatting](#output-formatting)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -44,8 +79,8 @@
   - **(2026)** [container-registry.com: Lifting Developers’ Productivity 🌟](https://container-registry.com/posts/productivity-lift-buildkit-cli-for-kubectl) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the BuildKit CLI integration for 'kubectl'. It empowers developers to build container images directly within active Kubernetes execution scopes, leveraging distributed cache backends and eliminating local docker daemon dependencies.
 #### CLI and Debugging
 
-  - **(2026)** [==ahmetb/kubectl-aliases==](https://github.com/ahmetb/kubectl-aliases) <span class='md-tag md-tag--info'>⭐ 3691</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated system that generates systematic shell aliases for 'kubectl', significantly enhancing engineering productivity. It minimizes operational friction by programmatic expansion of over 800 permutations of flags and subcommands, allowing administrators to interface with Kubernetes clusters using succinct shorthand sequences.
-  - **(2026)** [==github.com/trstringer/kubectl-example==](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A reference repository providing curated template patterns and concrete command-line configurations for common 'kubectl' usage patterns. Designed to shorten the ramp-up time for operators, it acts as a declarative cheat-sheet for state transitions and diagnostic queries.
+  - **(2026)** [==ahmetb/kubectl-aliases==](https://github.com/ahmetb/kubectl-aliases) <span class='md-tag md-tag--info'>⭐ 3691</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-860c376d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 8 L 30 10 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-860c376d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated system that generates systematic shell aliases for 'kubectl', significantly enhancing engineering productivity. It minimizes operational friction by programmatic expansion of over 800 permutations of flags and subcommands, allowing administrators to interface with Kubernetes clusters using succinct shorthand sequences.
+  - **(2026)** [==github.com/trstringer/kubectl-example==](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b0498436" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 9 L 20 8 L 30 9 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-b0498436)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A reference repository providing curated template patterns and concrete command-line configurations for common 'kubectl' usage patterns. Designed to shorten the ramp-up time for operators, it acts as a declarative cheat-sheet for state transitions and diagnostic queries.
   - **(2026)** [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for 'kubectl explain', a critical utility for schema exploration within the Kubernetes API. Architecturally, it queries the cluster OpenAPI specification directly to output detailed structural layouts of specific resources, assisting developers in constructing valid declarative YAML manifests.
   - **(2026)** [itnext.io: Using ‘kubectl explain’ for Custom Resources](https://itnext.io/understanding-kubectl-explain-9d703396cc8) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide showcasing how to leverage 'kubectl explain' to dynamically inspect Custom Resource Definitions (CRDs). By querying the discovery API, platform engineers can navigate deeply nested custom resource structures and ensure compliance with schemas registered via operator patterns.
   - **(2026)** [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into setting up shell autocomplete for 'kubectl' across Bash, Zsh, and fish environments. From an operational efficiency perspective, autocompletion queries API resources dynamically, minimizing context switching and reducing manual spelling errors during incident response.
@@ -60,14 +95,14 @@
 
 #### Productivity
 
-  - **(2026)** [==complete-alias==](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 814</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A shell integration tool designed to resolve completion mechanisms for aliased commands. For platform engineers running complex aliased 'kubectl' pipelines, this tool bridges the gap by enabling native parameter autocomplete for custom aliases, preserving system-level speed.
+  - **(2026)** [==complete-alias==](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 814</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dec427d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 9 L 30 8 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-dec427d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A shell integration tool designed to resolve completion mechanisms for aliased commands. For platform engineers running complex aliased 'kubectl' pipelines, this tool bridges the gap by enabling native parameter autocomplete for custom aliases, preserving system-level speed.
 ## Kubernetes (2)
 
 ### Developer Experience (1)
 
 #### Container Builds
 
-  - **(2021)** [==vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)==](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 505</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A kubectl plugin designed to execute container builds directly on remote BuildKit instances inside clusters. Live grounding confirms the project has been archived under VMware, steering teams to direct BuildKit operators or Kaniko.
+  - **(2021)** [==vmware-tanzu/buildkit-cli-for-kubectl (kubectl plugin)==](https://github.com/vmware-archive/buildkit-cli-for-kubectl) <span class='md-tag md-tag--info'>⭐ 505</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-97a6a5fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 3 L 20 13 L 30 12 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-97a6a5fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A kubectl plugin designed to execute container builds directly on remote BuildKit instances inside clusters. Live grounding confirms the project has been archived under VMware, steering teams to direct BuildKit operators or Kaniko.
 ### Operations
 
 #### Kubectl Plugins
@@ -110,7 +145,7 @@
   - **(2022)** [**inlets.dev: Fixing the Developer Experience of Kubernetes Port Forwarding**](https://inlets.dev/blog/2022/06/24/fixing-kubectl-port-forward.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Addresses stability issues inherent in standard kubectl port-forward operations. Explains how tunnels and reverse-proxy tools like Inlets provide developers with robust, persistent local connections.
 #### Shell Environments
 
-  - **(2020)** [**superbrothers/zsh-kubectl-prompt 🌟**](https://github.com/superbrothers/zsh-kubectl-prompt) <span class='md-tag md-tag--info'>⭐ 591</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details a Zsh shell utility that displays current Kubernetes context and namespace info in the terminal prompt. Minimizes chances of entering execution instructions in wrong production sectors.
+  - **(2020)** [**superbrothers/zsh-kubectl-prompt 🌟**](https://github.com/superbrothers/zsh-kubectl-prompt) <span class='md-tag md-tag--info'>⭐ 591</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-81da60d4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 12 L 30 7 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-81da60d4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details a Zsh shell utility that displays current Kubernetes context and namespace info in the terminal prompt. Minimizes chances of entering execution instructions in wrong production sectors.
 ### K8s API and Development
 
 #### Config Management
@@ -122,7 +157,7 @@
 
 #### Output Formatting
 
-  - **(2026)** [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubecolor is a highly adopted command-line wrapper for kubectl that colorizes terminal outputs. It improves cluster observability by visually distinguishing resource types, labels, statuses, and namespaces during interactive CLI operations.
+  - **(2026)** [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fc213f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 8 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-fc213f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubecolor is a highly adopted command-line wrapper for kubectl that colorizes terminal outputs. It improves cluster observability by visually distinguishing resource types, labels, statuses, and namespaces during interactive CLI operations.
 
 ---
 💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)

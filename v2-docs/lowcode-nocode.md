@@ -3,6 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for Low Code and No Code in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Platform Engineering](#platform-engineering)
+  - [Development Paradigms](#development-paradigms)
+    - [Low Code](#low-code)
+1. [Software Engineering](#software-engineering)
+  - [Development Paradigms](#development-paradigms-1)
+    - [Low Code](#low-code-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

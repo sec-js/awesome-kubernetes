@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Edge Computing in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Edge Computing](#edge-computing-1)
+    - [Distributed Systems](#distributed-systems)
+1. [Kubernetes Edge](#kubernetes-edge)
+  - [Architecture](#architecture-1)
+  - [KubeEdge](#kubeedge)
+  - [MicroShift](#microshift)
+1. [Monitoring](#monitoring)
+  - [RHEL Edge](#rhel-edge)
+1. [Standards](#standards)
+  - [Cloudian](#cloudian)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -49,10 +49,10 @@
 
 ### YAML anchors and aliases
 
-- [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html#id2765878)
+- [yaml.org: Anchors and Aliases](https://yaml.org/spec/1.2/spec.html)
 - [support.atlassian.com: YAML anchors and aliases](https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors)
 - [medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker Compose Files](https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd)
-- [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values)
+- [docs.ansible.com: YAML anchors and aliases: sharing variable values](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html)
 
 ### YAML Processors
 
@@ -71,7 +71,7 @@
 
 ### YAML Validators
 
-- [==yamllint.com: YAML Lint - The YAML Validator==](http://www.yamllint.com)
+- [==yamllint.com: YAML Lint - The YAML Validator==](https://www.yamllint.com)
 - [==codebeautify.org/yaml-validator==](https://codebeautify.org/yaml-validator)
 - [==jsonformatter.org/yaml-validator==](https://jsonformatter.org/yaml-validator)
 - [==yamlvalidator.dev: YAML Validator==](https://yamlvalidator.dev), [(chrome extension)](https://chromewebstore.google.com/detail/empty-title/gjgbohnlhijomhfiflapnlnmcpckgigg) - Online YAML validator, formatter and viewer with built-in Kubernetes JSON Schema validation. The Chrome extension also adds YAML code folding on GitHub.

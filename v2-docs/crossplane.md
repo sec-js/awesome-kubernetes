@@ -3,6 +3,30 @@
 !!! info "Architectural Context"
     Detailed reference for Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [GitOps and CICD](#gitops-and-cicd)
+  - [GitOps](#gitops)
+    - [FluxCD](#fluxcd)
+      - [Crossplane](#crossplane)
+    - [Methodologies](#methodologies)
+1. [Platform Engineering](#platform-engineering)
+  - [Control Planes](#control-planes)
+    - [Crossplane](#crossplane-1)
+      - [Code Samples](#code-samples)
+      - [History](#history)
+      - [Infrastructure as Code](#infrastructure-as-code)
+      - [Introduction](#introduction)
+      - [Platform-as-a-Service](#platform-as-a-service)
+      - [Presentations](#presentations)
+      - [RedHat OpenShift](#redhat-openshift)
+      - [Reference Architectures](#reference-architectures)
+  - [Developer Experience](#developer-experience)
+    - [Kubernetes Usability](#kubernetes-usability)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -31,7 +55,7 @@
 
 ##### Code Samples
 
-  - **(2021)** [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Code repository designed as a companion to the 'YAML your cloud' presentation, offering practical Kubernetes manifest examples and Crossplane configurations. It showcases foundational multi-cloud provider settings, composition patterns, and claims structures used in active training environments.
+  - **(2021)** [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-803460be" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 9 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-803460be)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Code repository designed as a companion to the 'YAML your cloud' presentation, offering practical Kubernetes manifest examples and Crossplane configurations. It showcases foundational multi-cloud provider settings, composition patterns, and claims structures used in active training environments.
 ##### History
 
   - **(2019)** [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Features the initial release and architectural goals of Crossplane as a universal control plane API designed to transcend traditional Infrastructure as Code (IaC) architectures. Discusses the early-stage vision of running custom resource definitions in Kubernetes to manage heterogeneous cloud providers, establishing the foundation of modern Platform Engineering.
@@ -52,7 +76,7 @@
   - **(2020)** [Crossplane as an OpenShift Operator to manage and provision cloud-native services](https://blog.crossplane.io/crossplane-openshift-operator-cloud-native-services) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the operational integration of Crossplane as a certified Red Hat OpenShift Operator. It highlights how Enterprise Platform Engineers can leverage OpenShift's native RBAC, security context constraints, and Operator Lifecycle Manager (OLM) to safely orchestrate multi-cloud infrastructure directly from Red Hat deployments, enabling compliant developer self-service.
 ##### Reference Architectures
 
-  - **(2023)** [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud' Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) <span class='md-tag md-tag--info'>⭐ 66</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A blueprint repository illustrating standard compositions and platform-ref layouts for deploying multi-cloud Kubernetes clusters using Crossplane. Provides direct, working configurations for credential partitioning, identity federation, and modular configuration hierarchies that conform to the Upbound control plane architecture.
+  - **(2023)** [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud' Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) <span class='md-tag md-tag--info'>⭐ 66</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cbef00ae" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 10 L 30 11 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-cbef00ae)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A blueprint repository illustrating standard compositions and platform-ref layouts for deploying multi-cloud Kubernetes clusters using Crossplane. Provides direct, working configurations for credential partitioning, identity federation, and modular configuration hierarchies that conform to the Upbound control plane architecture.
 ### Developer Experience
 
 #### Kubernetes Usability

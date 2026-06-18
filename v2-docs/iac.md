@@ -3,6 +3,83 @@
 !!! info "Architectural Context"
     Detailed reference for Infrastructure Provisioning. Infra Management Tools. IaC Infrastructure as Code in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Governance](#cloud-governance)
+  - [Enterprise Architecture](#enterprise-architecture)
+    - [Landing Zones](#landing-zones)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS Automation](#aws-automation)
+    - [Serverless Orchestration](#serverless-orchestration)
+  - [Azure Networking](#azure-networking)
+    - [Multi-Tenant Topology](#multi-tenant-topology)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Compliance Auditing](#compliance-auditing)
+    - [History and Insights](#history-and-insights)
+    - [Schema Generation](#schema-generation)
+    - [Terraform Practices](#terraform-practices)
+  - [Kubernetes and Operators](#kubernetes-and-operators)
+    - [GCP Resources](#gcp-resources)
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Public Cloud Administration](#public-cloud-administration)
+    - [Azure Architecture](#azure-architecture)
+1. [Cloud Management](#cloud-management)
+  - [FinOps](#finops)
+    - [Optimization](#optimization)
+1. [DevOps](#devops)
+  - [GitOps](#gitops)
+    - [Automation](#automation)
+  - [Infrastructure as Code](#infrastructure-as-code-1)
+    - [AI Assisted](#ai-assisted)
+    - [AI Integration](#ai-integration)
+    - [Architecture](#architecture)
+    - [Best Practices](#best-practices)
+    - [CICD Platforms](#cicd-platforms)
+    - [Culture](#culture)
+    - [Fundamentals](#fundamentals)
+    - [Lifecycle Management](#lifecycle-management)
+    - [Local Environments](#local-environments)
+    - [Organizational](#organizational)
+    - [Provisioning Paradigms](#provisioning-paradigms)
+    - [Pulumi](#pulumi)
+    - [Security](#security)
+    - [Strategy](#strategy)
+    - [Terminology](#terminology)
+    - [Tool Comparison](#tool-comparison)
+    - [Tooling](#tooling)
+    - [Training](#training)
+    - [Workflows](#workflows)
+1. [DevOps and CICD](#devops-and-cicd)
+  - [CICD Automation](#cicd-automation)
+    - [Terraform Release Management](#terraform-release-management)
+  - [Infrastructure as Code](#infrastructure-as-code-2)
+    - [AI Code Generation](#ai-code-generation)
+    - [Security Scanning](#security-scanning)
+  - [Roadmaps](#roadmaps)
+    - [Career Path](#career-path)
+1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
+  - [Infrastructure-as-Code](#infrastructure-as-code)
+    - [Platform Engineering](#platform-engineering)
+1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
+  - [Azure Optimization](#azure-optimization)
+    - [Landing Zones](#landing-zones-1)
+1. [Governance and Management](#governance-and-management)
+  - [Enterprise Governance](#enterprise-governance)
+    - [Landing Zones](#landing-zones-2)
+1. [Infrastructure](#infrastructure)
+  - [Sysadmin](#sysadmin)
+    - [Resources](#resources)
+1. [Infrastructure as Code](#infrastructure-as-code-3)
+  - [Architecture](#architecture-1)
+    - [Diagrams](#diagrams)
+  - [Terraform Providers](#terraform-providers)
+    - [Azure IPAM](#azure-ipam)
+  - [Verification and AI](#verification-and-ai)
+    - [Copilot Verification](#copilot-verification)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -53,16 +130,16 @@
 
 #### Compliance Auditing
 
-  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
+  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f73eea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 9 L 30 11 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1f73eea1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
 #### History and Insights
 
   - **(2026)** [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth video interview exploring the early development, design constraints, and technological milestones of HashiCorp's suite. Offers high-level insights into state management and the evolution of cloud orchestration.
 #### Schema Generation
 
-  - **(2026)** [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 71</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool that parses declared Terraform configurations to generate structural JSON Schemas. Useful for running runtime validation scripts on dynamic inputs or verifying API schemas during configuration processing.
+  - **(2026)** [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8de5391d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 12 L 30 4 L 40 7 L 50 12" fill="none" stroke="url(#spark-grad-8de5391d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool that parses declared Terraform configurations to generate structural JSON Schemas. Useful for running runtime validation scripts on dynamic inputs or verifying API schemas during configuration processing.
 #### Terraform Practices
 
-  - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
+  - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
 ### Kubernetes and Operators
 
 #### GCP Resources
@@ -97,7 +174,7 @@
   - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how generative AI can be used to compile declarative DSL configurations. Argues that structural files (such as Terraform or Pulumi definitions) are excellent translation targets for LLMs due to explicit syntax schemas.
 #### AI Integration
 
-  - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
+  - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
 #### Architecture
 
   - **(2023)** [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A beginner's guide detailing the immutable infrastructure pattern, where infrastructure elements are replaced rather than modified in place. Highlights benefits in predictability, rollbacks, and drift management.
@@ -109,7 +186,7 @@
   - **(2023)** [spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC](https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains why generic CI/CD tooling lacks features required to safely deploy stateful IaC projects. Details why specialized state engines, runtime locking mechanisms, policy enforcement, and drift tracking are required for reliable cloud management.
 #### Culture
 
-  - **(2022)** [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com/?utm_source=d7ac)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the cultural integration of IaC principles within Agile and DevOps environments. Discusses using source control pipelines to automate configuration deployment, lowering environment discrepancies and boosting build velocity.
+  - **(2022)** [agileconnection.com: Infrastructure as Code: The Foundation of Effective DevOps](https://www.stickyminds.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the cultural integration of IaC principles within Agile and DevOps environments. Discusses using source control pipelines to automate configuration deployment, lowering environment discrepancies and boosting build velocity.
 #### Fundamentals
 
   - **(2022)** [invensislearning.com: Infrastructure as a Code Tutorial: How it Works, Types, and Best Practices](https://www.invensislearning.com/blog/infrastructure-as-a-code-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed tutorial outlining standard IaC approaches, including declarative vs. imperative systems. Presents configurations for orchestration, provisioning, and configuration management tools while proposing best practices for scalable deployments.
@@ -128,7 +205,7 @@
   - **(2022)** [redhat.com: Pull vs. push in automated VM provisioning: What you need to know](https://www.redhat.com/en/blog/pull-push-provisioning-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts pull-based versus push-based agent topologies in virtual machine provisioning and automated deployment. Examines architectural tradeoffs concerning firewall security, agent management overhead, and consistency sync loops.
 #### Pulumi
 
-  - **(2026)** [==Pulumi: Infrastructure as Code in Any Programming Language==](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25299</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, multi-cloud infrastructure platform that enables architects to build, deploy, and manage resources using general-purpose programming languages. Supports TypeScript, Go, Python, C#, and Java, using real language constructs like loops, functions, and standard testing libraries.
+  - **(2026)** [==Pulumi: Infrastructure as Code in Any Programming Language==](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25299</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc212d00" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 11 L 20 13 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-dc212d00)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, multi-cloud infrastructure platform that enables architects to build, deploy, and manage resources using general-purpose programming languages. Supports TypeScript, Go, Python, C#, and Java, using real language constructs like loops, functions, and standard testing libraries.
 #### Security
 
   - **(2023)** [thenewstack.io: IaC Cloud Misconfiguration Tools too Noisy without Context](https://thenewstack.io/iac-cloud-misconfiguration-tools-too-noisy-without-context)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes alert noise generated by static security scanners on IaC configurations. Argues for context-aware validation engines that cross-reference code anomalies with actual live runtime status to accurately prioritize critical security vulnerabilities.
@@ -163,20 +240,20 @@
 
 #### Terraform Release Management
 
-  - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
+  - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ab0fdde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 12 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-2ab0fdde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
 ### Infrastructure as Code (2)
 
 #### AI Code Generation
 
-  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
+  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55081732" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-55081732)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
 #### Security Scanning
 
-  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
+  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dd92cc7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 8 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-3dd92cc7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
 ### Roadmaps
 
 #### Career Path
 
-  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
+  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
 ## DevOps Automation and Modern Systems Engineering
 
 ### Infrastructure-as-Code
@@ -204,7 +281,7 @@
 
 #### Resources
 
-  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
+  - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4b9ffdc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 7 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-4b9ffdc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Infrastructure as Code (3)
 
 ### Architecture (1)
@@ -216,12 +293,12 @@
 
 #### Azure IPAM
 
-  - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
+  - **(2024)** [==Terraform Provider for Azure IPAM==](https://github.com/XtratusCloud/terraform-provider-azureipam) <span class='md-tag md-tag--info'>⭐ 10</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-75d6d25b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 4 L 30 7 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-75d6d25b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Custom open-source Terraform provider built to automate cloud IP address allocation directly from centralized Azure IPAM solutions. Ensures smooth networking configuration inside containerized setups.
 ### Verification and AI
 
 #### Copilot Verification
 
-  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
+  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
 💡 **Explore Related:** [Terraform](./terraform.md) | [Oauth](./oauth.md) | [Ansible](./ansible.md)

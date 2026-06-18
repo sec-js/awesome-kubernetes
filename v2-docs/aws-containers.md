@@ -3,14 +3,27 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Containers in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Container Compute](#container-compute)
+    - [Container Registries](#container-registries)
+    - [Continuous Deployment](#continuous-deployment)
+    - [Legacy Tooling](#legacy-tooling)
+    - [Security Practices](#security-practices)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [Get started with Amazon EC2 Container Registry (Amazon ECR)](http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](http://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com in the Kubernetes Tools ecosystem.
+  - [Get started with Amazon EC2 Container Registry (Amazon ECR)](https://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes](https://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com in the Kubernetes Tools ecosystem.
   - [neal-davis.medium.com: ECS vs EC2 vs Lambda](https://neal-davis.medium.com/ecs-vs-ec2-vs-lambda-36b8ca380dea)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering neal-davis.medium.com: ECS vs EC2 vs Lambda in the Kubernetes Tools ecosystem.
   - [medium: Creating CI/CD Pipeline for AWS ECS — Part I](https://medium.com/@harshvijaythakkar/creating-ci-cd-pipeline-for-aws-ecs-part-i-b2f61bb1522f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Creating CI/CD Pipeline for AWS ECS — Part I in the Kubernetes Tools ecosystem.
   - [faun.pub: Why We Moved From Lambda to ECS](https://faun.pub/why-we-moved-from-lambda-to-ecs-b84674f31869)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Why We Moved From Lambda to ECS in the Kubernetes Tools ecosystem.
@@ -23,21 +36,21 @@
 
 #### Container Compute
 
-  - **(2024)** [Amazon ECS-optimized AMI](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for the AWS-engineered Amazon Machine Image (AMI) preconfigured with the ECS agent, Docker runtime, and optimal container configurations. Utilizing this specialized OS image ensures maximum orchestration performance, reliable telemetry, and security compliance out of the box.
+  - **(2024)** [Amazon ECS-optimized AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for the AWS-engineered Amazon Machine Image (AMI) preconfigured with the ECS agent, Docker runtime, and optimal container configurations. Utilizing this specialized OS image ensures maximum orchestration performance, reliable telemetry, and security compliance out of the box.
 #### Container Registries
 
-  - **(2024)** [Amazon EC2 Container Registry Documentation](http://aws.amazon.com/es/documentation/ecr) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering reference for Amazon ECR, a fully managed OCI-compliant container registry. It covers critical security integrations, image scanning capabilities, cross-region replication configurations, and direct integration with Amazon ECS/EKS to facilitate safe, high-speed container pull actions.
+  - **(2024)** [Amazon EC2 Container Registry Documentation](https://aws.amazon.com/es/documentation/ecr) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering reference for Amazon ECR, a fully managed OCI-compliant container registry. It covers critical security integrations, image scanning capabilities, cross-region replication configurations, and direct integration with Amazon ECS/EKS to facilitate safe, high-speed container pull actions.
   - **(2020)** [ecrcp](https://github.com/bit-cloner/ecrcp) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility designed to copy Docker images directly between different Amazon ECR registries without requiring local download-and-reupload bandwidth. Useful for cross-account deployments and regional migration tasks in complex enterprise AWS landing zones.
 #### Continuous Deployment
 
   - **(2021)** [Automate rollbacks for Amazon ECS rolling deployments with CloudWatch alarms](https://aws.amazon.com/blogs/containers/automate-rollbacks-for-amazon-ecs-rolling-deployments-with-cloudwatch-alarms) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide outlining automated deployment rollback capabilities within ECS rolling deployments. It illustrates how CloudWatch alarms can monitor application health (e.g., HTTP 5xx rates) during active deployments and automatically trigger rollbacks to a previously stable revision to maintain high availability.
 #### Legacy Tooling
 
-  - **(2016)** [Using Docker Machine with AWS](http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Detailed technical blog post showing how to provision and manage remote Docker engines on AWS using the deprecated Docker Machine utility. While valuable for historical debugging and legacy architecture comprehension, live industry alignment dictates migrating to modern Cloud API alternatives (such as AWS CLI, Terraform, or Rancher).
+  - **(2016)** [Using Docker Machine with AWS](https://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Detailed technical blog post showing how to provision and manage remote Docker engines on AWS using the deprecated Docker Machine utility. While valuable for historical debugging and legacy architecture comprehension, live industry alignment dictates migrating to modern Cloud API alternatives (such as AWS CLI, Terraform, or Rancher).
   - **(2016)** [Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Quick Start guide detailing the automated orchestration of Docker Datacenter (now Mirantis Kubernetes Engine) on AWS. It serves as an architectural design reference from the pre-Kubernetes dominance era, describing multi-zone registry configurations, control planes, and Swarm-based container engines.
 #### Security Practices
 
-  - **(2025)** [**awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper**](https://github.com/awslabs/amazon-ecr-credential-helper) <span class='md-tag md-tag--info'>⭐ 2703</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Docker credential helper that handles seamless, transparent IAM-based authentication for Amazon ECR. By removing the need to run periodic 'aws ecr get-login-password' cron jobs, it enhances runtime security by integrating directly with standard IAM Instance Profiles and local AWS config files.
+  - **(2025)** [**awslabs/amazon-ecr-credential-helper: Amazon ECR Docker Credential Helper**](https://github.com/awslabs/amazon-ecr-credential-helper) <span class='md-tag md-tag--info'>⭐ 2703</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a9b764e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 2 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-8a9b764e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Docker credential helper that handles seamless, transparent IAM-based authentication for Amazon ECR. By removing the need to run periodic 'aws ecr get-login-password' cron jobs, it enhances runtime security by integrating directly with standard IAM Instance Profiles and local AWS config files.
   - **(2022)** [dev.to: Sharing secrets to ECS in an AWS multi-account architecture](https://dev.to/aws-builders/sharing-secrets-to-ecs-in-an-aws-multi-account-architecture-5h1i) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blueprint for cross-account secret management for Amazon ECS using AWS Secrets Manager and Systems Manager (SSM) Parameter Store. It provides security engineers with an architectural approach to maintain strict separation of concerns, principal-of-least-privilege IAM policies, and cross-account IAM role assumption.
 
 ---

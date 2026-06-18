@@ -3,6 +3,17 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Asset Management and Governance](#asset-management-and-governance)
+    - [Cloud Analytics](#cloud-analytics)
+  - [Storage and Databases](#storage-and-databases)
+    - [Distributed Block Storage](#distributed-block-storage)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Architecture](#architecture)
+    - [Diagrams](#diagrams)
+
 ## Cloud Infrastructure and Orchestration
 
 ### Asset Management and Governance
@@ -15,7 +26,7 @@
 
 #### Distributed Block Storage
 
-  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
 ## Infrastructure as Code
 
 ### Architecture

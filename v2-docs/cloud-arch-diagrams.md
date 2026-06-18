@@ -3,6 +3,63 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Architecture Diagram Tools in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Architecture and Design](#architecture-and-design)
+  - [Diagrams-as-Code](#diagrams-as-code)
+    - [Guide](#guide)
+    - [Markup Tool](#markup-tool)
+    - [Mermaid Integration](#mermaid-integration)
+    - [PlantUML Library](#plantuml-library)
+    - [Python Tooling](#python-tooling)
+  - [Visualization](#visualization)
+    - [3D Isometric](#3d-isometric)
+    - [AI Assisted](#ai-assisted)
+    - [Automated Discovery](#automated-discovery)
+    - [Diagramming SaaS](#diagramming-saas)
+    - [Evaluation](#evaluation)
+    - [Guide](#guide-1)
+    - [Methodology](#methodology)
+    - [Sketch Tools](#sketch-tools)
+1. [Architecture and Visualization](#architecture-and-visualization)
+  - [Cloud Discovery](#cloud-discovery)
+    - [AWS](#aws)
+    - [Multi-Cloud](#multi-cloud)
+    - [Security](#security)
+  - [Design Assets](#design-assets)
+    - [AWS](#aws-1)
+    - [Azure](#azure)
+    - [GCP](#gcp)
+    - [Security](#security-1)
+  - [Diagrams as Code](#diagrams-as-code)
+    - [AWS CloudFormation](#aws-cloudformation)
+    - [Airflow](#airflow)
+    - [Python](#python)
+  - [Interactive Diagramming](#interactive-diagramming)
+    - [Enterprise](#enterprise)
+    - [Innovative](#innovative)
+    - [Web](#web)
+  - [Kubernetes Visualizer](#kubernetes-visualizer)
+    - [Go](#go)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Azure Networking](#azure-networking)
+    - [Global Infrastructure](#global-infrastructure)
+    - [Network Topology](#network-topology)
+1. [Cloud Platforms](#cloud-platforms)
+  - [AWS Integration](#aws-integration)
+    - [Visualization](#visualization-1)
+1. [Infrastructure](#infrastructure)
+  - [Visualizations](#visualizations)
+    - [Cloud Discovery](#cloud-discovery-1)
+    - [GCP Diagramming](#gcp-diagramming)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Architecture](#architecture)
+    - [Diagrams](#diagrams)
+  - [Verification and AI](#verification-and-ai)
+    - [Copilot Verification](#copilot-verification)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+
 ## Architecture and Design
 
 ### Diagrams-as-Code
@@ -18,10 +75,10 @@
   - **(2025)** [==kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟==](https://kubernetes.io/docs/contribute/style/diagram-guide) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes contributor documentation on diagram style guidelines, demonstrating how to programmatically draft flowcharts and sequence maps using Mermaid JS code syntax embedded directly in markdown files.
 #### PlantUML Library
 
-  - **(2024)** [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 282</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential open-source library containing specialized sprites, components, and macro templates to model highly detailed, complex Kubernetes configurations using PlantUML syntax.
+  - **(2024)** [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 282</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57ef1877" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 8 L 20 10 L 30 2 L 40 3 L 50 7" fill="none" stroke="url(#spark-grad-57ef1877)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential open-source library containing specialized sprites, components, and macro templates to model highly detailed, complex Kubernetes configurations using PlantUML syntax.
 #### Python Tooling
 
-  - **(2026)** [==mingrammer/diagrams==](https://github.com/mingrammer/diagrams) <span class='md-tag md-tag--info'>⭐ 42349</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular open-source Python framework that allows engineers to write cloud infrastructure diagrams directly as Python code. It supports hundreds of built-in components covering AWS, GCP, Azure, and Kubernetes services.
+  - **(2026)** [==mingrammer/diagrams==](https://github.com/mingrammer/diagrams) <span class='md-tag md-tag--info'>⭐ 42349</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c88bedc7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 7 L 30 6 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c88bedc7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly popular open-source Python framework that allows engineers to write cloud infrastructure diagrams directly as Python code. It supports hundreds of built-in components covering AWS, GCP, Azure, and Kubernetes services.
 ### Visualization
 
 #### 3D Isometric
@@ -86,11 +143,11 @@
   - **(2023)** [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused CLI tool designed to parse AWS CloudFormation nested templates and instantly generate clean, interactive resource dependency maps, simplifying infrastructure inspection.
 #### Airflow
 
-  - **(2023)** [feluelle/airflow-diagrams](https://github.com/feluelle/airflow-diagrams) <span class='md-tag md-tag--info'>⭐ 358</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source CLI utility designed to automatically generate high-quality diagrams representing Apache Airflow workflow dependencies. Accelerates data lineage documentation across pipeline iterations.
+  - **(2023)** [feluelle/airflow-diagrams](https://github.com/feluelle/airflow-diagrams) <span class='md-tag md-tag--info'>⭐ 358</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00570fef" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 2 L 30 3 L 40 13 L 50 7" fill="none" stroke="url(#spark-grad-00570fef)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source CLI utility designed to automatically generate high-quality diagrams representing Apache Airflow workflow dependencies. Accelerates data lineage documentation across pipeline iterations.
 #### Python
 
   - **(2020)** [==diagrams.mingrammer.com: Diagram as Code==](https://diagrams.mingrammer.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard open-source library that empowers architects to represent system architectures using pure Python code. By aligning with GitOps paradigms, diagrams are treated as software dependencies, allowing automated code-driven rendering and versioning across AWS, GCP, Azure, and Kubernetes ecosystems without manual editing tools.
-  - **(2022)** [**github.com/awslabs/diagram-as-code 🌟**](https://github.com/awslabs/diagram-as-code) <span class='md-tag md-tag--info'>⭐ 1519</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An AWS Labs community experiment designed to showcase the power of programmatically rendering complex systems architecture. Helps engineers integrate documentation updates directly inside release workflows.
+  - **(2022)** [**github.com/awslabs/diagram-as-code 🌟**](https://github.com/awslabs/diagram-as-code) <span class='md-tag md-tag--info'>⭐ 1519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-180f1ce5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 3 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-180f1ce5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An AWS Labs community experiment designed to showcase the power of programmatically rendering complex systems architecture. Helps engineers integrate documentation updates directly inside release workflows.
 ### Interactive Diagramming
 
 #### Enterprise
@@ -107,7 +164,7 @@
 
 #### Go
 
-  - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
+  - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00078e7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 4 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-00078e7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -146,7 +203,7 @@
 
 #### Copilot Verification
 
-  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
+  - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 ## Kubernetes Tools
 
 ### General Reference

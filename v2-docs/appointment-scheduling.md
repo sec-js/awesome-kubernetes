@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Appointment Scheduling Software in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Collaborative Operations](#collaborative-operations)
+  - [Workspace Scheduling](#workspace-scheduling)
+    - [Commercial Tools](#commercial-tools)
+    - [Market Comparisons](#market-comparisons)
+    - [Open Source Tools](#open-source-tools)
+    - [Workspace Features](#workspace-features)
+
 ## Collaborative Operations
 
 ### Workspace Scheduling

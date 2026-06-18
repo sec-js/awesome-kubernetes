@@ -11,7 +11,7 @@
 - [katacoda.com](https://www.katacoda.com)
 - [learn.openshift.com](https://learn.openshift.com)
 - [learn.crunchydata.com](https://www.crunchydata.com/developers/tutorials)
-- [redhatgov.io](http://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
+- [redhatgov.io](https://redhatgov.io) RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat's product portfolio.
 - [tutorialspoint.com/openshift](https://www.tutorialspoint.com/openshift/index.htm)
 - [zeef.com: e-learning](https://e-learning.zeef.com/tracy.parish)
 - [Udemy.com](https://www.udemy.com)
@@ -22,9 +22,9 @@
 - [codecademy.com](https://www.codecademy.com)
 - [Udacity.com](https://eu.udacity.com)
 - [guru99.com](https://www.guru99.com)
-- [tutorialspoint.com](http://www.tutorialspoint.com)
+- [tutorialspoint.com](https://www.tutorialspoint.com)
 - [typing.io: Typing Practice for Programmers](https://typing.io)
-- [vogella.com](http://www.vogella.com/tutorials)
+- [vogella.com](https://www.vogella.com/tutorials)
 - [The Linux Foundation Training](https://training.linuxfoundation.org/resources)
 - [khanacademy.org](https://www.khanacademy.org)
 - [codely.tv](https://codely.com/en)
@@ -53,7 +53,7 @@
 ## Spanish E-learning
   - [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) - *(Related to ai topic)*
 
-- [open-bootcamp.com](http://open-bootcamp.com)
+- [open-bootcamp.com](https://open-bootcamp.com)
 
 ## Opinions
 

@@ -3,6 +3,19 @@
 !!! info "Architectural Context"
     Detailed reference for Human Resources in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Organizations](#organizations)
+  - [Financial Risk](#financial-risk)
+    - [Startups](#startups)
+  - [Remote Work](#remote-work)
+    - [Company Handbooks](#company-handbooks)
+  - [Work Culture](#work-culture)
+    - [Startups](#startups-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

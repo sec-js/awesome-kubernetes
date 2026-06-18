@@ -7,7 +7,6 @@ on:
     paths:
       - 'src/v2_video_portal.py'
       - 'src/enrich_videos.py'
-      - 'data/inventory.yaml'
   workflow_run:
     workflows: ["03.2. V2 AI Curator"]
     branches: [develop]
@@ -33,7 +32,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: v2-pipeline-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

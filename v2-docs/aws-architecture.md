@@ -3,13 +3,61 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Architecture and Best Practices in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Architecture](#cloud-architecture)
+  - [Case Studies](#case-studies)
+    - [Enterprise Scale](#enterprise-scale)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [AWS](#aws)
+    - [Best Practices](#best-practices)
+    - [Governance](#governance)
+    - [Legacy Systems](#legacy-systems)
+    - [Security](#security)
+  - [FinOps](#finops)
+    - [Cost Management](#cost-management)
+  - [FinOps and Cloud Optimization](#finops-and-cloud-optimization)
+    - [Sustainability](#sustainability)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Compliance Auditing](#compliance-auditing)
+1. [Cloud Native](#cloud-native)
+  - [AWS](#aws-1)
+    - [Governance](#governance-1)
+      - [AWS Organizations](#aws-organizations)
+1. [Cloud Platform](#cloud-platform)
+  - [AWS Infrastructure](#aws-infrastructure)
+    - [Reference Architectures](#reference-architectures)
+1. [Data Architecture](#data-architecture)
+  - [Databases](#databases)
+    - [Amazon Aurora](#amazon-aurora)
+1. [Enterprise Architecture](#enterprise-architecture)
+  - [Cloud Architecture Best Practices](#cloud-architecture-best-practices)
+    - [API Design](#api-design)
+    - [AWS Well-Architected](#aws-well-architected)
+    - [Cloud Governance](#cloud-governance)
+    - [Design Blueprints](#design-blueprints)
+    - [Engineering Culture](#engineering-culture)
+    - [Multi-Region Architecture](#multi-region-architecture)
+    - [Production Case Studies](#production-case-studies)
+  - [Cloud Governance](#cloud-governance-1)
+    - [Case Studies](#case-studies-1)
+1. [Kubernetes and Platform Engineering](#kubernetes-and-platform-engineering)
+  - [Modernization Tools](#modernization-tools)
+    - [Microservice Migration](#microservice-migration)
+1. [Software Engineering](#software-engineering)
+  - [Frontend Architecture](#frontend-architecture)
+    - [Design Patterns](#design-patterns)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [The Truth About Downtime in the Cloud](http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloud.netapp.com in the Kubernetes Tools ecosystem.
+  - [The Truth About Downtime in the Cloud](https://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloud.netapp.com in the Kubernetes Tools ecosystem.
   - [awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture](https://awstip.com/increase-security-and-efficiency-with-a-3-tier-cloud-architecture-bf5e835cd55a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==awstip.com: Increase Security and Efficiency with a 3-Tier Cloud Architecture== in the Kubernetes Tools ecosystem.
   - [DZone: A Guide to Performance Challenges with AWS EC2: Part 1](https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: A Guide to Performance Challenges with AWS EC2: Part 1 in the Kubernetes Tools ecosystem.
   - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering foreseeti.com: How to become and stay AWS well architected in a smart way in the Kubernetes Tools ecosystem.
@@ -52,7 +100,7 @@
 
 #### Compliance Auditing
 
-  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
+  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f73eea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 9 L 30 11 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1f73eea1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
 ## Cloud Native
 
 ### AWS (1)
@@ -94,9 +142,9 @@
   - **(2023)** [Maintain visibility over the use of cloud architecture patterns](https://aws.amazon.com/blogs/architecture/maintain-visibility-over-the-use-of-cloud-architecture-patterns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines frameworks and tools to track, map, and enforce specific cloud architecture patterns across decentralized developer teams, helping prevent systemic configuration drift.
 #### Design Blueprints
 
-  - **(2023)** [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture drafting resource providing standard AWS application design templates, components, and layout blocks. Essential for mapping out multi-tier cloud services.
+  - **(2023)** [AWS application-architecture](https://www.conceptdraw.com/examples/application-architecture) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architecture drafting resource providing standard AWS application design templates, components, and layout blocks. Essential for mapping out multi-tier cloud services.
   - **(2023)** [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official blog portal showcasing cloud solutions, pattern guides, and engineering strategies written directly by AWS Systems Architects.
-  - **(2023)** [AWS Official Blog](http://blogs.aws.amazon.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master AWS news platform. Tracks every new feature rollout, managed service launch, operational update, and security announcement from AWS engineering groups.
+  - **(2023)** [AWS Official Blog](https://blogs.aws.amazon.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master AWS news platform. Tracks every new feature rollout, managed service launch, operational update, and security announcement from AWS engineering groups.
 #### Engineering Culture
 
   - **(2023)** [dev.to: How Well-Architected Enables Junior Engineers](https://dev.to/aws-builders/how-well-architected-enables-junior-engineers-24j)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines how the AWS Well-Architected Framework acts as an educational and operational safety net for junior engineers, establishing structured system design patterns across developer teams.
@@ -111,7 +159,7 @@
 
 #### Case Studies (1)
 
-  - **(2023)** [==github.com/ministryofjustice: Modernisation Platform - Architecture Decisions==](https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record) <span class='md-tag md-tag--info'>⭐ 724</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The public collection of Architecture Decision Records (ADRs) from the UK Ministry of Justice Modernisation Platform. This serves as a key reference for cloud governance, public sector IT standards, and clear decision documentation.
+  - **(2023)** [==github.com/ministryofjustice: Modernisation Platform - Architecture Decisions==](https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record) <span class='md-tag md-tag--info'>⭐ 724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-14620c6e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 8 L 30 8 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-14620c6e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The public collection of Architecture Decision Records (ADRs) from the UK Ministry of Justice Modernisation Platform. This serves as a key reference for cloud governance, public sector IT standards, and clear decision documentation.
 ## Kubernetes and Platform Engineering
 
 ### Modernization Tools

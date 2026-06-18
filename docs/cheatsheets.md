@@ -72,7 +72,7 @@
 - [detailyang/awesome-cheatsheet](https://github.com/detailyang/awesome-cheatsheet)
 - [Red Hat Developer cheat sheets 🌟](https://developers.redhat.com/cheatsheets) Browse through our collection of cheat sheets to help you develop with Red Hat products, which you can download for free as a Red Hat Developer member. You’ll find handy guides on a range of the latest developer tools and technologies, including Kubernetes, microservices, containers, and more.
 - [blog.jromanmartin.io: ActiveMQ, Kafka, Strimzi and CodeReady Containers](https://blog.jromanmartin.io/cheat-sheets)
-- [cheat-sheets.org 🌟](http://www.cheat-sheets.org)
+- [cheat-sheets.org 🌟](https://www.cheat-sheets.org)
 - [simplecheatsheet.com](https://simplecheatsheet.com)
 - [medium: The DevOps Cheat Sheet](https://medium.com/dataseries/the-devops-cheat-sheet-3177d6cf361c) This comprehensive guide covers everything DevOps
 - [ABZ-Aaron/CheatSheets](https://github.com/ABZ-Aaron/cheat-sheets)
@@ -98,7 +98,7 @@
 
 ## Bash Shell
 
-- [Bash Pitfalls 🌟](http://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
+- [Bash Pitfalls 🌟](https://mywiki.wooledge.org/BashPitfalls) This page is a compilation of common mistakes made by bash users. Each example is flawed in some way.
 - [developers.redhat.com: Bash Shell Scripting Cheat Sheet](https://developers.redhat.com/cheat-sheets/bash-shell-cheat-sheet)
 - [developers.redhat.com: Advanced Linux commands cheat sheet for developers](https://developers.redhat.com/cheat-sheets/advanced-linux-commands)
 - [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet)
@@ -109,7 +109,7 @@
 - [tutorialsdojo.com: AWS Cheat Sheets 🌟](https://tutorialsdojo.com/aws-cheat-sheets)
 - [igoroseledko.com: AWS CLI Cheat Sheet](https://www.igoroseledko.com/aws-cli-cheat-sheet)
 - [==docs.aws.amazon.com: Actions, resources, and condition keys for AWS services== 🌟🌟🌟](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html) There's a Reference for all 𝗜𝗔𝗠 𝗔𝗰𝘁𝗶𝗼𝗻𝘀, 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀, 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻 𝗸𝗲𝘆𝘀 𝗳𝗼𝗿 𝗮𝗹𝗹 𝗔𝗪𝗦 𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 🔐 Bookmark it! 🔖
-- [==awsgeek.com/Amazon-S3==](http://www.awsgeek.com/Amazon-S3)
+- [==awsgeek.com/Amazon-S3==](https://www.awsgeek.com/Amazon-S3)
 
 ## Google Cloud Cheat Sheets
 
@@ -240,7 +240,7 @@
 
 - [github: sematext - Docker Swarm Cheatsheet](https://github.com/sematext/cheatsheets/blob/master/docker-swarm-cheatsheet.md)
     - [docker-swarm-cheatsheet-sematext.pdf](https://cdn2.hubspot.net/hubfs/5111483/docker-swarm-cheatsheet-sematext.pdf)
-- [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de/#/LZone%20Cheat%20Sheets/Docker%20Swarm)
+- [lzone.de: Docker Swarm Cheat Sheet](https://lzone.de)
 - [kerneltalks.com: Docker swarm cheat sheet](https://kerneltalks.com/virtualization/docker-swarm-cheat-sheet)
 - [codingfriend.medium.com: Docker Swarm Cheatsheet (2017)](https://codingfriend.medium.com/docker-swarm-cheatsheet-22665e3278b1)
 - [blog.programster.org: Docker Swarm Cheatsheet](https://blog.programster.org/docker-swarm-cheatsheet)
@@ -314,7 +314,7 @@
 - [dzone: Terraform Cheat Sheet](https://dzone.com/articles/terraform-cli-cheat-sheet)
 - [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands)
 - [github.com/scraly: Terraform Cheat sheet](https://github.com/scraly/terraform-cheat-sheet/blob/master/terraform-cheat-sheet.pdf)
-- [lzone.de: Terraform Cheat Sheet](https://lzone.de/#/LZone%20Cheat%20Sheets/Terraform)
+- [lzone.de: Terraform Cheat Sheet](https://lzone.de)
 - [thedevopsblog.co.uk: Terraform Cheat Sheet](https://thedevopsblog.co.uk/terraform-cli-cheat-sheet)
 - [acloudguru.com: The Ultimate Terraform Cheatsheet](https://www.pluralsight.com/resources/blog/cloud/the-ultimate-terraform-cheatsheet)
 - [hashicorp.com: Using Template Files with HashiCorp Packer](https://www.hashicorp.com/blog/using-template-files-with-hashicorp-packer)
@@ -328,7 +328,7 @@
 - [opensource.com: 10 cheat sheets for Linux sysadmins](https://opensource.com/article/20/7/sysadmin-cheat-sheets)
 - [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png)
 - [NetworkManager CLI cheatsheet](https://github.com/neilhwatson/nustuff/blob/master/networking/nmcli.md)
-- [pixelbeat.org/cmdline](http://www.pixelbeat.org/cmdline.html)
+- [pixelbeat.org/cmdline](https://www.pixelbeat.org/cmdline.html)
 - [opensource.com: Linux Parted cheat sheet](https://opensource.com/downloads/parted-cheat-sheet)
 - [opensource.com: GNU Screen cheat sheet](https://opensource.com/downloads/gnu-screen-cheat-sheet)
 - [catonmat.net: GNU Coreutils Cheat Sheet](https://catonmat.net/gnu-coreutils-cheat-sheet)
@@ -339,8 +339,8 @@
 ### SSH Cheat Sheets
 
 - [ssh cheat sheet](https://cheatsheet.dennyzhang.com/cheatsheet-ssh-a4)
-- [lzone.de: ssh cheat sheet](https://lzone.de/#/LZone%20Cheat%20Sheets/SSH)
-- [pentestmonkey.net: ssh cheat sheet](http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)
+- [lzone.de: ssh cheat sheet](https://lzone.de)
+- [pentestmonkey.net: ssh cheat sheet](https://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet)
 - [The SSH Commands Cheat Sheet for Linux SysAdmins / Users](https://computingforgeeks.com/ssh-commands-cheat-sheet-linux)
 - [opensource.com: Learn advanced SSH commands with this cheat sheet](https://opensource.com/article/18/4/learn-advanced-ssh-commands-new-cheat-sheet)
 
@@ -350,7 +350,7 @@
 
 ## OpenShift Cheat Sheets
 
-- [mastertheboss.com: OpenShift Cheat Sheet](http://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)
+- [mastertheboss.com: OpenShift Cheat Sheet](https://www.mastertheboss.com/soa-cloud/openshift/openshift-cheatsheet)
 - [developers.redhat.com: Red Hat OpenShift Container Platform Cheat Sheet](https://developers.redhat.com/cheat-sheets/red-hat-openshift-container-platform)
 - [github.com: Openshift cheat sheet 1](https://github.com/nekop/openshift-sandbox/blob/master/docs/command-cheatsheet.md)
 - [gist.github.com: Openshift cheat sheet 2](https://gist.github.com/rafaeltuelho/111850b0db31106a4d12a186e1fbc53e)
@@ -397,14 +397,14 @@
 
 ## Maven Cheat Sheets
 
-- [maven.apache.org: Maven Quick Reference Card](http://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
+- [maven.apache.org: Maven Quick Reference Card](https://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 - [jrebel.com/blog/maven-cheat-sheet](https://www.jrebel.com/blog/maven-cheat-sheet)
 - [medium 1](https://medium.com/@TimvanBaarsen/maven-cheat-sheet-45942d8c0b86)
 - [journaldev.com](https://www.digitalocean.com/community/tutorials/maven-commands-options-cheat-sheet)
 - [cheatography.com](https://cheatography.com/mikesac/cheat-sheets/maven)
 - [javaguides.net](https://www.javaguides.net/2018/06/maven-cheat-sheet.html)
 - [bogotobogo.com](https://www.bogotobogo.com/Java/tutorials/Spring-Boot/Maven-mvn-command-cheat-sheet.php)
-- [lzone.de/cheat-sheet/Maven](https://lzone.de/#/LZone%20Cheat%20Sheets/Maven)
+- [lzone.de/cheat-sheet/Maven](https://lzone.de)
 - [gist.github.com/michaellihs (jenkins pipeline)](https://gist.github.com/michaellihs/b08c89581ec597fa198cf74e2239f4a6)
 - [confluence.sakaiproject.org](https://sakaiproject.atlassian.net/wiki)
 
@@ -437,11 +437,11 @@
 
 - [Dzone Refcard: Getting Started with Apache JMeter](https://dzone.com/refcardz/getting-started-with-apache-jmeter?chapter=1)
 - [Groovy Templates Cheat Sheet for JMeter](https://dzone.com/articles/the-groovy-templates-cheat-sheet-for-jmeter) Need help with your Groovy templates? Check out this cheat sheet to help you get started with scripting in Apache JMeter.
-- [JMeter Web Application Testing Cheatsheet](http://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
+- [JMeter Web Application Testing Cheatsheet](https://blog.extremehacking.org/blog/2015/11/09/jmeter-web-application-testing-cheatsheet)
 - [CheatSheet for JMeter __time Function Calls](https://www.ufcquechoisir-brest.org)
 - [martkos-it.co.uk: JMeter Cheat Sheet](https://martkos-it.co.uk/our-work/jmeter-testing-cheat-sheet-ng5zm-97y43-af8tj) This jmeter cheat sheet provides gentle reminders of the usage of jmeter gui/non-gui. It includes installation/execution, plugins, shortcut keys and functions and variables.
     - [jmeter-testing-cheat-sheet-v10.pdf](https://martkos-it.co.uk/s/jmeter-testing-cheat-sheet-v10.pdf)
-- [Cheat Sheet for Regular Expression in Jmeter](http://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
+- [Cheat Sheet for Regular Expression in Jmeter](https://performanceoptimize.blogspot.com/2017/04/RegularExpressionCheatSheet.html)
 
 ## Quarkus Cheat Sheets
 

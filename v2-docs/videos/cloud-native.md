@@ -29,7 +29,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" title="Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="HlAXp0-M6SY" data-video-url="https://www.youtube.com/embed/HlAXp0-M6SY?clip=UgkxWpu3QFPEDZBuMgy_Xq4mBR--uLA-3CSZ&amp;clipt=EMSoKxiG3C4" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/HlAXp0-M6SY/hqdefault.jpg" alt="Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -39,7 +44,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" title="Keynote: 7 Years of Running Kubernetes for Mercedes-Benz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="UmbjwSK9b3I" data-video-url="https://www.youtube.com/embed/UmbjwSK9b3I?clip=UgkxRGuBMDAVDqKckQ1lhk-9U2jLBhBIBI5l&amp;clipt=EP2dHhjd8iE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/UmbjwSK9b3I/hqdefault.jpg" alt="Keynote: 7 Years of Running Kubernetes for Mercedes-Benz" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -51,7 +61,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" title="Thursday morning general session - May 9 - Red Hat Summit 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="FUu4kMc0PL8" data-video-url="https://www.youtube.com/embed/FUu4kMc0PL8?clip=UgkxFMdlFKBQze7NVVd7q2nIwBYWkeaKeoX8&amp;clipt=EIzBzwIY1fnSAg" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/FUu4kMc0PL8/hqdefault.jpg" alt="Thursday morning general session - May 9 - Red Hat Summit 2019" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -61,7 +76,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" title="Red Hat OpenShift Platform Plus - Overview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="V7PSnH8YnTk" data-video-url="https://www.youtube.com/embed/V7PSnH8YnTk?si=6Mq4wjpipTLwUvYe" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/V7PSnH8YnTk/hqdefault.jpg" alt="Red Hat OpenShift Platform Plus - Overview" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -73,7 +93,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/ghzsBm8vOms" title="What is Platform Engineering and how it fits into DevOps and Cloud world" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="ghzsBm8vOms" data-video-url="https://www.youtube.com/embed/ghzsBm8vOms" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/ghzsBm8vOms/hqdefault.jpg" alt="What is Platform Engineering and how it fits into DevOps and Cloud world" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -85,7 +110,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" title="David Heinemeier Hansson: Microservices vs. Monolith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="rkXGSLf-rVQ" data-video-url="https://www.youtube.com/embed/rkXGSLf-rVQ?si=Ho8Zzxbrecn7Yncb" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/rkXGSLf-rVQ/hqdefault.jpg" alt="David Heinemeier Hansson: Microservices vs. Monolith" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -97,7 +127,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" title="The creator of Rails on JavaScript FE vs. Classic Server-side Rendering" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="IFUPG9KCJ4E" data-video-url="https://www.youtube.com/embed/IFUPG9KCJ4E?si=KMEXeVlcKTp87-Ja" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/IFUPG9KCJ4E/hqdefault.jpg" alt="The creator of Rails on JavaScript FE vs. Classic Server-side Rendering" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -109,7 +144,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" title="Murli Thirumale | KubeCon CloudNativeCon EU 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="I8Qh-TafMvQ" data-video-url="https://www.youtube.com/embed/I8Qh-TafMvQ?si=1A2-kmq6mV-S-03c" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/I8Qh-TafMvQ/hqdefault.jpg" alt="Murli Thirumale | KubeCon CloudNativeCon EU 2023" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -121,7 +161,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" title="Building a developer platform? Ask these questions." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="1Fl25dR01pw" data-video-url="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/1Fl25dR01pw/hqdefault.jpg" alt="Building a developer platform? Ask these questions." class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -133,7 +178,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" title="¿De verdad son necesarios los microservicios?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="L8eJh1sfc1U" data-video-url="https://www.youtube.com/embed/L8eJh1sfc1U?si=y546MyZpRe-thoad" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/L8eJh1sfc1U/hqdefault.jpg" alt="¿De verdad son necesarios los microservicios?" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -145,7 +195,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" title="Branching Strategies Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="U_IFGpJDbeU" data-video-url="https://www.youtube.com/embed/U_IFGpJDbeU?si=XzHSGU9dTH-1_0EW" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/U_IFGpJDbeU/hqdefault.jpg" alt="Branching Strategies Explained" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -157,7 +212,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" title="Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="cdZZpaB2kDM" data-video-url="https://www.youtube.com/embed/cdZZpaB2kDM?clip=UgkxWAPHZbVaNZzk9pi0lMu6k5ABLuMHBtRL&amp;clipt=EK2rfRjW9YAB" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/cdZZpaB2kDM/hqdefault.jpg" alt="Elon Musk talks Twitter, Tesla and how his brain works — live at TED2022" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -169,7 +229,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" title="The Brutal Truth Behind Tech Layoffs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="hAwtrJlBVJY" data-video-url="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/hAwtrJlBVJY/hqdefault.jpg" alt="The Brutal Truth Behind Tech Layoffs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -193,7 +258,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/LiSb82Lug7M" title="GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="LiSb82Lug7M" data-video-url="https://www.youtube.com/embed/LiSb82Lug7M" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/LiSb82Lug7M/hqdefault.jpg" alt="GitOps Guide to the Galaxy: Hosted Control Planes (HyperShift)" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -205,7 +275,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/QBqRAMVTmwE" title="Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="QBqRAMVTmwE" data-video-url="https://www.youtube.com/embed/QBqRAMVTmwE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/QBqRAMVTmwE/hqdefault.jpg" alt="Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -217,7 +292,12 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Tr4onEST70I" title="Fran Heeran, Red Hat | Red Hat Summit 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="Tr4onEST70I" data-video-url="https://www.youtube.com/embed/Tr4onEST70I" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Tr4onEST70I/hqdefault.jpg" alt="Fran Heeran, Red Hat | Red Hat Summit 2026" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -229,6 +309,11 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/niuJpAKyb7c" title="Remote VS Code with Dev Tunnels: access the editor from your browser" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="niuJpAKyb7c" data-video-url="https://www.youtube.com/embed/niuJpAKyb7c" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/niuJpAKyb7c/hqdefault.jpg" alt="Remote VS Code with Dev Tunnels: access the editor from your browser" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>

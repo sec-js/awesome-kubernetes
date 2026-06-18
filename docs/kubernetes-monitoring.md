@@ -15,7 +15,7 @@
 ## Introduction
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) - *(Related to monitoring topic)*
   - [Prometheus and OpenTelemetry Compatibility Issues](https://thenewstack.io/prometheus-and-opentelemetry-just-couldnt-get-along) - *(Related to monitoring topic)*
-  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&utm_medium=member_android&utm_campaign=share_via) - *(Related to kubernetes-troubleshooting topic)*
+  - [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) - *(Related to kubernetes-troubleshooting topic)*
 
 - [DZone: Kubernetes Monitoring Essentials](https://dzone.com/refcardz/monitoring-kubernetes)
 - [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) Use Prometheus to monitor Kubernetes and applications running on Kubernetes. This repository collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.

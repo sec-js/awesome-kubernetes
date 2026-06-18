@@ -3,6 +3,41 @@
 !!! info "Architectural Context"
     Detailed reference for Pulumi - Modern Infrastructure as Code in the context of Hardened Infrastructure.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud-Native Provisioning](#cloud-native-provisioning)
+  - [Serverless Containers](#serverless-containers)
+    - [AWS Fargate](#aws-fargate)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [API Integration](#api-integration)
+    - [Pulumi](#pulumi)
+  - [CICD Integration](#cicd-integration)
+    - [Pulumi](#pulumi-1)
+  - [Cloud Engineering](#cloud-engineering)
+    - [Pulumi](#pulumi-2)
+  - [Kubernetes Provisioning](#kubernetes-provisioning)
+    - [AKS](#aks)
+    - [Civo Cloud](#civo-cloud)
+    - [Migration](#migration)
+    - [Operators](#operators)
+    - [Pulumi](#pulumi-3)
+  - [Multi-Cloud](#multi-cloud)
+    - [Pulumi Registry](#pulumi-registry)
+  - [Multi-Cloud Provisioning](#multi-cloud-provisioning)
+    - [Comparisons](#comparisons)
+    - [Migration](#migration-1)
+    - [Pulumi](#pulumi-4)
+  - [Observability](#observability)
+    - [Pulumi](#pulumi-5)
+  - [Package Management](#package-management)
+    - [Pulumi Registry](#pulumi-registry-1)
+1. [Kubernetes Developer Experience](#kubernetes-developer-experience)
+  - [Graph-Based Dev and Test](#graph-based-dev-and-test)
+    - [Garden Documentation](#garden-documentation)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -45,7 +80,7 @@
   - **(2023)** [civo.com: Manage Kubernetes clusters using the Civo Pulumi provider](https://www.civo.com/learn) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial for deploying high-performance, lightweight K3s clusters on Civo Cloud utilizing Pulumi’s native Civo API bindings, highlighting modular infrastructure design.
 #### Migration
 
-  - **(2026)** [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source command-line tool designed to convert static Kubernetes YAML templates or dynamically generated Helm outputs directly into isomorphic, compilable Pulumi configurations.
+  - **(2026)** [pulumi/kube2pulumi](https://github.com/pulumi/kube2pulumi) <span class='md-tag md-tag--info'>⭐ 107</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-05f6851b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 6 L 30 10 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-05f6851b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source command-line tool designed to convert static Kubernetes YAML templates or dynamically generated Helm outputs directly into isomorphic, compilable Pulumi configurations.
   - **(2026)** [pulumi.com: From Kubernetes or Helm YAML](https://www.pulumi.com/docs/iac/guides/migration/migrating-to-pulumi/from-kubernetes) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical conversion guide outlining methodologies to translate legacy, static Kubernetes YAML definitions or complex Helm charts directly into expressive, compilable Pulumi programs.
 #### Operators
 

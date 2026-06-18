@@ -42,7 +42,7 @@
 
 ## Alternatives
 
-- [TomEE from Tomitribe](http://tomee.apache.org)
+- [TomEE from Tomitribe](https://tomee.apache.org)
 - [KumuluzEE](https://ee.kumuluz.com)
 
 ## Tweets

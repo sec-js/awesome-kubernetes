@@ -1,4 +1,4 @@
-# API Marketplaces. API Management with API Gateways & Developer Portals
+# API Marketplaces. API Management with API Gateways and Developer Portals
 
 1. [Introduction](#introduction)
 2. [HTTPs for Developers](#https-for-developers)
@@ -59,16 +59,16 @@
 - [chakray.com: API Strategy. How to create an API Marketplace](https://chakray.com/api-strategy-how-to-create-an-api-marketplace)
 - [API Marketplace vs API Gateway (What’s the Difference?)](https://rapidapi.com/blog/api-marketplace-vs-api-gateway-whats-the-difference)
 
-### Rapid API Marketplace. Free Public & Open REST APIs
+### Rapid API Marketplace. Free Public and Open REST APIs
 
 - [Rapid API:](https://rapidapi.com) Find and Connect to Thousands of APIs. RapidAPI is the world's largest API Marketplace, is used by over one million developers to find, test, and connect to thousands of APIs — all with a single account, API Key, and SDK.
 - [dzone: RapidAPI Provides API Marketplace and Insight](https://dzone.com/articles/rapidapi-provides-api-marketplace-and-insight) APIs are driving businesses and innovation.
 
 ### Apis.guru Large Archive of Sample OpenAPI Descriptions
 
-## API Managers with API Gateways & Developer Portals
+## API Managers with API Gateways and Developer Portals
   - [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) - *(Related to git topic)*
-  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli/?utm_source=twitter-cli-beginners-getting-started-cta&utm_medium=social&utm_campaign=dev-pod-copilot-cli-2026) - *(Related to ai topic)*
+  - [GitHub Copilot CLI for Beginners: Getting Started](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-getting-started-with-github-copilot-cli) - *(Related to ai topic)*
   - [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy) - *(Related to kubernetes-tutorials topic)*
   - [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) - *(Related to ai topic)*
   - [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) - *(Related to ai-agents-mcp topic)*

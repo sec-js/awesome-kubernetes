@@ -3,13 +3,55 @@
 !!! info "Architectural Context"
     Detailed reference for Freelancing in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Business and Careers](#business-and-careers)
+  - [Freelance Platforms](#freelance-platforms)
+    - [Sourcing](#sourcing)
+1. [Careers](#careers)
+  - [Freelancing](#freelancing-1)
+    - [Career Paths](#career-paths)
+    - [Cooperatives](#cooperatives)
+    - [Europe Market](#europe-market)
+    - [Financial Calculators](#financial-calculators)
+    - [Financial Strategy](#financial-strategy)
+    - [Market Overview](#market-overview)
+    - [On-Demand Mentoring](#on-demand-mentoring)
+    - [Remote Contracting](#remote-contracting)
+    - [Spanish Market](#spanish-market)
+    - [Spanish Regulations](#spanish-regulations)
+    - [Talent Marketplaces](#talent-marketplaces)
+1. [Remote Work and Career](#remote-work-and-career)
+  - [Contractor Operations](#contractor-operations)
+    - [SaaS Administration](#saas-administration)
+  - [Legal Compliance](#legal-compliance)
+    - [Spanish Contracting](#spanish-contracting)
+    - [Spanish Freelancing](#spanish-freelancing)
+    - [Spanish Taxation](#spanish-taxation)
+    - [UK Contracting](#uk-contracting)
+  - [Talent Platforms](#talent-platforms)
+    - [AI-Backed Sourcing](#ai-backed-sourcing)
+    - [Bespoke Engineering Teams](#bespoke-engineering-teams)
+    - [Contractor Compliance](#contractor-compliance)
+    - [E-commerce Freelancing](#e-commerce-freelancing)
+    - [Freelance Consulting](#freelance-consulting)
+    - [Global Sourcing](#global-sourcing)
+    - [Mentorship Networks](#mentorship-networks)
+    - [Nearshore Outsourcing](#nearshore-outsourcing)
+    - [On-Demand Delivery](#on-demand-delivery)
+    - [Staff Augmentation](#staff-augmentation)
+    - [Web Development Networks](#web-development-networks)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](http://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.gestoresderiesgo.com in the Kubernetes Tools ecosystem.
+  - [gestoresderiesgo.com: Prohibición de utilizar programas informáticos que permitan llevar una doble contabilidad empresarial](https://www.gestoresderiesgo.com/colaboradores/prohibicion-de-utilizar-programas-informaticos-que-permitan-llevar-una-doble-contabilidad-empresarial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.gestoresderiesgo.com in the Kubernetes Tools ecosystem.
   - [eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses](https://www.eleconomista.es/economia/noticias/11338080/07/21/Solo-el-13-de-autonomos-en-tarifa-plana-sobrevive-despues-de-24-meses.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering eleconomista.es: Solo el 13% de autónomos en tarifa plana 'sobrevive' después de 24 meses in the Kubernetes Tools ecosystem.
   - [eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable' para los autónomos](https://www.eleconomista.es/actualidad/noticias/11361634/08/21/El-acceso-a-financiacion-una-barrera-casi-infranqueable-para-los-autonomos.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering eleconomista.es: El acceso a financiación, una barrera (casi) infranqueable' para los autónomos in the Kubernetes Tools ecosystem.
   - [eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social' y los derechos que garantizan](https://www.eleconomista.es/economia/noticias/11368404/08/21/Estas-son-las-cuotas-de-los-autonomos-a-la-Seguridad-Social-y-los-derechos-que-garantizan.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering eleconomista.es: Estas son las cuotas de los autónomos a la Seguridad Social' y los derechos que garantizan in the Kubernetes Tools ecosystem.
@@ -85,7 +127,7 @@
 
 #### Spanish Contracting
 
-  - **(2026)** [umbrellaselector.com/Spain](http://umbrellaselector.com/Spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A specialized lookup and compliance advisory engine for umbrella companies operating within the Spanish labor law framework. It helps expatriates and local contractors legally bypass high corporate registration costs. Live grounding highlights the tool as a baseline for navigating complex Spanish payroll environments.
+  - **(2026)** [umbrellaselector.com/Spain](https://umbrellaselector.com/Spain)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A specialized lookup and compliance advisory engine for umbrella companies operating within the Spanish labor law framework. It helps expatriates and local contractors legally bypass high corporate registration costs. Live grounding highlights the tool as a baseline for navigating complex Spanish payroll environments.
 #### Spanish Freelancing
 
   - **(2026)** [freelance.es](https://freelance.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated digital portal and community framework supporting freelance professionals in Spain. It offers administrative guides, legal protection updates, and billing services. Live grounding identifies it as a highly reliable resource for navigating complex 'autónomo' tax structures and compliance checks.

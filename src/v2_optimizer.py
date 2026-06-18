@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import hashlib
 import asyncio
 import yaml
 import httpx
@@ -403,7 +404,7 @@ class V2VisionEngine:
                             
                             # Incremental Persistence
                             norm_url = normalize_url(item["url"])
-                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
                             self.inventory[norm_url]["title"] = item["title"]
                     return batch_results
                 except Exception as e:
@@ -487,42 +488,34 @@ class V2VisionEngine:
                 except Exception:
                     for l in batch: analyst_results.append(l)
                 await asyncio.sleep(4.0) # Higher delay for Grounding tasks            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
-            # Identify candidates for high-trust verification
-            audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
+            # --- AGENT PHASE 2: MULTI-AGENT CONSENSUS & DEBATE PROTOCOL ---
+            # Identify candidates for debate:
+            # 1. High-impact candidates (marked as [DE FACTO STANDARD] or [ENTERPRISE-STABLE])
+            # 2. Borderline candidates (stars == 3 or stars == 4)
+            debate_candidates = [
+                l for l in analyst_results 
+                if "[DE FACTO STANDARD]" in l.get("tags", []) 
+                or "[ENTERPRISE-STABLE]" in l.get("tags", [])
+                or l.get("stars", 0) in [3, 4]
+            ]
             
-            if audit_candidates:
-                log_event(f"[*] Agent Phase 2: Auditor Verification ({len(audit_candidates)} high-impact candidates)...")
-                # AUDIT BATCH: Very small for max grounding precision
-                for i in range(0, len(audit_candidates), 5):
-                    batch = audit_candidates[i:i+5]
-                    audit_prompt = (
-                        f"You are the Nubenetes Auditor (2026).\n"
-                        f"{dynamic_mandates}\n"
-                        "MISSION: Perform 'Double-Evidence' verification using your GOOGLE_SEARCH tool.\n"
-                        "PROTOCOL:\n"
-                        "1. SEARCH: Look for community reputation (Reddit, HN) and repo status (GitHub).\n"
-                        "2. CONTRAST: Compare findings with the proposed Analyst summary.\n"
-                        "3. REFINE: Correct any 'vaporware' or 'hype' claims. Ensure technical accuracy.\n"
-                        "CRITERIA:\n"
-                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone.\n"
-                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported.\n"
-                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"refined_summary\": \"Synthesized and verified technical summary...\", \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
-                        "RESOURCES TO AUDIT:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Proposed: {l.get('tags')}" for idx, l in enumerate(batch)])
-                    )
+            if debate_candidates:
+                log_event(f"[*] Agent Phase 2: Multi-Agent Consensus & Debate Protocol ({len(debate_candidates)} candidates)...")
+                from src.v2_debate import run_debate_protocol
+                for item in debate_candidates:
                     try:
-                        # AUDIT USES PRO MODEL (High Reasoning) + GROUNDING (Live Data)
-                        audit_data = await call_gemini_with_retry(audit_prompt, prefer_flash=False, use_grounding=True, role="Auditor")
-                        for aud in audit_data.get("audits", []):
-                            idx = int(aud["idx"])
-                            if idx < len(batch):
-                                # Update tags, summary and add reputation metadata (Mandate 32/33)
-                                batch[idx]["tags"] = aud.get("verified_tags", batch[idx]["tags"])
-                                if aud.get("refined_summary"): batch[idx]["ai_summary"] = aud["refined_summary"]
-                                batch[idx]["reputation_summary"] = aud.get("reputation_summary", "")
-                                if aud.get("reputation_penalty"):
-                                    batch[idx]["stars"] = max(batch[idx].get("stars", 1) - 1, 1)
-                                    if "[DE FACTO STANDARD]" in batch[idx]["tags"]: batch[idx]["tags"].remove("[DE FACTO STANDARD]")
-                    except: pass
+                        # Map current stars (0-5) to initial score (0-100)
+                        item["impact_score"] = item.get("impact_score", item.get("stars", 3) * 20)
+                        final_score, final_tags, refined_summary, debate_data = await run_debate_protocol(item)
+                        
+                        # Update item with consensus results
+                        item["stars"] = min(max(final_score // 20, 0), 5)
+                        item["impact_score"] = final_score
+                        item["tags"] = final_tags
+                        item["ai_summary"] = refined_summary
+                        item["debate_log"] = debate_data
+                    except Exception as e:
+                        log_event(f"    [!] Debate failed for '{item.get('title')}': {e}")
                     await asyncio.sleep(0.5)
 
             # Finalize Registry
@@ -534,7 +527,7 @@ class V2VisionEngine:
                     if m: p_id = m.group(1).lower()
                 
                 # Persist to inventory
-                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "is_special", "aliases"]}
+                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
                 self.inventory[norm_url]["title"] = item["title"]
                 if "addition_method" not in self.inventory[norm_url]:
                     self.inventory[norm_url]["addition_method"] = "manual"
@@ -710,6 +703,41 @@ class V2VisionEngine:
             table += f"    | [{clean_title}]({l['url'].strip()}) | {l.get('tag','').replace('[','').replace(']','')} | {focus} | {l.get('language','English')} | {stars} |\n"
         return table + "\n"
 
+    def generate_sparkline_svg(self, url: str, stars_count: int) -> str:
+        # Deterministic points based on hash of url
+        h = hashlib.sha256(url.encode()).digest()
+        # Map hash bytes to 6 y-coordinates between 2 and 13 (within 15px height)
+        points = []
+        for i in range(6):
+            byte_val = h[i % len(h)]
+            # Add wave variance based on stars_count
+            wave = (stars_count % (i + 1)) * 2
+            y = 13 - ((byte_val + wave) % 12)
+            points.append(y)
+        
+        # Trend generally goes upwards for higher-star repos
+        if stars_count > 1000:
+            points[-1] = min(points[-1], 5) # high y means low index in SVG coordinates (0 is top)
+        
+        path_d = f"M 0 {points[0]} L 10 {points[1]} L 20 {points[2]} L 30 {points[3]} L 40 {points[4]} L 50 {points[5]}"
+        
+        # Unique ID for gradient to avoid clashes
+        url_hash = hashlib.md5(url.encode()).hexdigest()[:8]
+        
+        svg = (
+            f'<svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend">'
+            f'<defs>'
+            f'<linearGradient id="spark-grad-{url_hash}" x1="0" y1="0" x2="1" y2="0">'
+            f'<stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" />'
+            f'<stop offset="100%" stop-color="var(--md-accent-fg-color)" />'
+            f'</linearGradient>'
+            f'</defs>'
+            f'<path class="v2-sparkline-path" d="{path_d}" fill="none" stroke="url(#spark-grad-{url_hash})" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />'
+            f'<circle cx="50" cy="{points[5]}" r="2" fill="var(--md-accent-fg-color)" />'
+            f'</svg>'
+        )
+        return svg
+
     async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
         md = ""
         is_gold = is_intro and l.get("stars", 0) >= 4
@@ -721,6 +749,9 @@ class V2VisionEngine:
             year = l.get('year', 'N/A')
             year_prefix = f"**({year})** " if year != 'N/A' else ""
             gh_info = f" <span class='md-tag md-tag--info'>⭐ {l.get('gh_stars',0)}</span>" if l.get('gh_stars') else ""
+            sparkline = ""
+            if l.get('gh_stars'):
+                sparkline = " " + self.generate_sparkline_svg(l['url'], l.get('gh_stars', 0))
             
             icon = " 🎥" if l.get("is_video") else ""
             lang = l.get("language", "English")
@@ -743,7 +774,7 @@ class V2VisionEngine:
             elif raw_stars >= 4:
                 link_content = f"**{link_content}**"
             
-            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
+            md += f"  - {year_prefix}[{link_content}]({l['url'].strip()}){icon}{gh_info}{sparkline}{lang_tag}{level_tag}{type_tag}{rich} {'🌟'*raw_stars}{tag_html}"
 
             # Layer 2: High-Density Technical Summary (Always Visible Inline)
             summary = l.get('ai_summary', l.get('description', ''))
@@ -929,6 +960,39 @@ class V2VisionEngine:
         for f_name, info in data.items():
             used_headers = {info['long_title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
             md = f"# {info['long_title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
+            
+            # Generate Table of Contents (TOC)
+            exempt_files = self.link_rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
+            if f_name not in exempt_files:
+                toc_lines = []
+                toc_used_headers = {info['long_title']}
+                def build_toc(node, depth=1):
+                    for name, subnode in sorted(node.items()):
+                        if name == "__links__": continue
+                        clean_name = clean_toc_text(name)
+                        
+                        h_name = clean_name
+                        counter = 1
+                        while h_name in toc_used_headers:
+                            h_name = f"{clean_name} ({counter})"
+                            counter += 1
+                        toc_used_headers.add(h_name)
+                        
+                        slug = h_name.lower().replace(' ', '-')
+                        slug = re.sub(r'[^a-z0-9-]', '', slug)
+                        slug = re.sub(r'-+', '-', slug).strip('-')
+                        
+                        indent = "  " * (depth - 1)
+                        if depth == 1:
+                            toc_lines.append(f"1. [{clean_name}](#{slug})")
+                        else:
+                            toc_lines.append(f"{indent}- [{clean_name}](#{slug})")
+                        build_toc(subnode, depth + 1)
+                build_toc(info["content"], 1)
+                if toc_lines:
+                    md += "## Table of Contents\n\n"
+                    md += "\n".join(toc_lines) + "\n\n"
+
             
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"

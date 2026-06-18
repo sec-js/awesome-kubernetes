@@ -3,6 +3,41 @@
 !!! info "Architectural Context"
     Detailed reference for Networking in the context of Networking & Service Mesh.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Computer Networking and IPAM](#computer-networking-and-ipam)
+  - [Infrastructure Management](#infrastructure-management)
+    - [Automation Pipelines](#automation-pipelines)
+    - [IPAM and DCIM Platforms](#ipam-and-dcim-platforms)
+  - [Protocols](#protocols)
+    - [TCPIP](#tcpip)
+  - [Subnetting and Addressing](#subnetting-and-addressing)
+    - [CIDR Calculators](#cidr-calculators)
+    - [Cheat Sheets](#cheat-sheets)
+    - [Command-Line Utilities](#command-line-utilities)
+    - [Mathematical Underpinnings](#mathematical-underpinnings)
+1. [Web Architecture](#web-architecture)
+  - [DNS](#dns)
+    - [Protocols](#protocols-1)
+  - [HTTP Protocols](#http-protocols)
+    - [Python Libraries](#python-libraries)
+    - [Structured Fields](#structured-fields)
+1. [Web Protocols and Performance](#web-protocols-and-performance)
+  - [HTTP Architecture](#http-architecture)
+    - [Headers and Metadata](#headers-and-metadata)
+    - [Status Codes](#status-codes)
+  - [HTTP Optimization](#http-optimization)
+    - [Browser Performance](#browser-performance)
+  - [HTTP Servers](#http-servers)
+    - [Performance Tuning](#performance-tuning)
+  - [Protocol Evolution](#protocol-evolution)
+    - [Enterprise Servers](#enterprise-servers)
+    - [HTTP2](#http2)
+    - [HTTP3 and QUIC](#http3-and-quic)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -29,7 +64,7 @@
   - **(2025)** [docs.ansible.com: Netbox Ansible Modules 🌟](https://docs.ansible.com/projects/ansible/latest/collections/netbox/netbox/index.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Ansible dynamic directory configuration and resource collection documentation for NetBox integrations. Outlines patterns to automate data synchronization, resource verification, and asset updates.
 #### IPAM and DCIM Platforms
 
-  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
+  - **(2026)** [==NetBox IPAM 🌟==](https://github.com/netbox-community/netbox) <span class='md-tag md-tag--info'>⭐ 20845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8dd304f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 11 L 30 11 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-c8dd304f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The leading open-source IP Address Management (IPAM) and Data Center Infrastructure Management (DCIM) database. Built on Django and PostgreSQL, it serves as the programmable hardware and IP single-source-of-truth for global networks.
   - **(2024)** [netboxlabs.com: An In-Depth Guide to NetBox for IPAM](https://netboxlabs.com/blog/netbox-ipam) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed evaluation of NetBox's functional features, modeling mechanisms, and operational database structures. Explains how to programmatically model prefixes, cables, circuits, virtualizations, and network routing configurations.
   - **(2023)** [youtube: NetBox Zero To Hero](https://www.youtube.com/playlist?list=PL7sEPiUbBLo_iTds-NV-9Tu05Gg2Aj8N7) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass video syllabus designed to train networking personnel from scratch to advanced NetBox usage. Explores modeling practices, dynamic API integration, scripting configurations, and system customization methods.
 ### Protocols
@@ -44,7 +79,7 @@
 
   - **(2026)** [cidr.xyz 🌟](https://cidr.xyz) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An highly intuitive visual interface designed for parsing, structuring, and exploring Classless Inter-Domain Routing blocks. Translates complex binary IP masks, network paths, and IP pools into interactive graphics.
   - **(2023)** [build5nines.com: IPv4 Address CIDR Range Reference and Calculator](https://build5nines.com/ipv4-address-cidr-range-reference-and-calculator) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A combination calculator and instructional index designed to assist engineers in structuring network scopes, identifying overlapping pools, and designing multi-subnet routing topologies.
-  - **(2022)** [magic-cookie.co.uk/iplist.html](http://magic-cookie.co.uk/iplist.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, functional web-hosted tool designed to take target subnets and generate explicit lists of available IP host addresses. Simplifies routing tables, firewall access whitelist designs, and proxy allocations.
+  - **(2022)** [magic-cookie.co.uk/iplist.html](https://magic-cookie.co.uk/iplist.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clean, functional web-hosted tool designed to take target subnets and generate explicit lists of available IP host addresses. Simplifies routing tables, firewall access whitelist designs, and proxy allocations.
 #### Cheat Sheets
 
   - **(2022)** [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational cheat sheet breaking down subnet masking protocols, mapping binary configurations to standard decimal equivalents, and addressing structural divisions.
@@ -84,7 +119,7 @@
 #### Status Codes
 
   - **(2026)** [http.cat 🌟](https://http.cat) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A popular, visually descriptive resource mapping standard HTTP status codes to illustrative cat photos. Frequently used by developers as an educational tool, debug reference, and routing response helper.
-  - **(2015)** [slideshare: Http Status Code Errors in SEO](http://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational slide compilation tracking HTTP status response codes and assessing their performance impacts on search crawl optimizations, redirect protocols, and indexing configurations.
+  - **(2015)** [slideshare: Http Status Code Errors in SEO](https://www.slideshare.net/AdelaRoger/http-status-code-errors-in-seo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational slide compilation tracking HTTP status response codes and assessing their performance impacts on search crawl optimizations, redirect protocols, and indexing configurations.
 ### HTTP Optimization
 
 #### Browser Performance
@@ -94,12 +129,12 @@
 
 #### Performance Tuning
 
-  - **(2016)** [5 Tips to Boost the Performance of Your Apache Web Server](http://www.tecmint.com/apache-performance-tuning) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines traditional tuning strategies designed to optimize Apache HTTP Server performance. Details configurations governing MPM choice (pre-fork, worker, event), compression, and session handling.
+  - **(2016)** [5 Tips to Boost the Performance of Your Apache Web Server](https://www.tecmint.com/apache-performance-tuning) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines traditional tuning strategies designed to optimize Apache HTTP Server performance. Details configurations governing MPM choice (pre-fork, worker, event), compression, and session handling.
 ### Protocol Evolution
 
 #### Enterprise Servers
 
-  - **(2015)** [HTTP/2 With JBoss EAP 7 - Tech Preview](http://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details configurations and challenges during the early-access implementation of HTTP/2 routing inside JBoss EAP 7. Outlines setup rules for ALPN dependencies, TLS parameters, and concurrent stream mappings.
+  - **(2015)** [HTTP/2 With JBoss EAP 7 - Tech Preview](https://blog.eisele.net/2015/11/http2-with-jboss-eap-7.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details configurations and challenges during the early-access implementation of HTTP/2 routing inside JBoss EAP 7. Outlines setup rules for ALPN dependencies, TLS parameters, and concurrent stream mappings.
 #### HTTP2
 
   - **(2015)** [SPDY & HTTP 2 with Akamai CTO Guy Podjarny](https://www.youtube.com/watch?v=WkLBrHW4NhQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A collection of research, implementation guides, and case studies detailing performance characteristics during the migration phase from Google's SPDY protocol toward formal HTTP/2 frameworks.

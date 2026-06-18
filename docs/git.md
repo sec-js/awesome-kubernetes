@@ -277,14 +277,14 @@ It prescribes that software designers should define formal, precise and verifiab
 
 - [paulhammant.com: What is Your Branching Model?:](https://paulhammant.com/2013/12/04/what_is_your_branching_model) Mainline, Cascade, Trunk-Based Development, Short Lived Feature Branches, Continuous Deployment, Subversion noise on branching, etc.
 - [adevait.com: Creating a Branching Strategy for Small Teams](https://adevait.com/software/creating-branching-strategy)
-- [atlassian.com: Configuring branching models 🌟](https://confluence.atlassian.com/bitbucketserver/branches-776639968.html#UsingbranchesinBitbucketServer-model)
+- [atlassian.com: Configuring branching models 🌟](https://confluence.atlassian.com/bitbucketserver/branches-776639968.html)
 - [git-scm.com: Git Branching - Branching Workflows](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
-- [git-scm.com: Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
-    - [Distributed Git - Distributed Workflows - Integration-Manager Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow)
+- [git-scm.com: Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
+    - [Distributed Git - Distributed Workflows - Integration-Manager Workflow](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
     - [Setup Git Integration Manager Workflow in Eclipse](https://stackoverflow.com/questions/26003298/how-to-setup-local-git-with-local-blessed-repo-integration-manager-workflow)
 - [Dzone refcard: Git Patterns and Anti-Patterns](https://dzone.com/refcardz/git-patterns-and-anti-patterns) Scaling from Workgroup to Enterprise. Suggests patterns and anti-patterns, including Hybrid SCM, Git champions, blessed repository, per-feature topic branches, and ALM integration.
 - [martinfowler.com: Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
-    - [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html#release-branch) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
+    - [Release Branch Pattern:](https://martinfowler.com/articles/branching-patterns.html) A branch that only accepts commits accepted to stabilize a version of the product ready for release.
 - [medium: Which Git branching model should I select for my project?](https://medium.com/aventude/which-git-branching-model-should-i-select-73aafc503b5f)
 - [speakerdeck.com: 10 Git Anti Patterns You Should be Aware of 🌟](https://speakerdeck.com/lemiorhan/10-git-anti-patterns-you-should-be-aware-of)
 - [gitkraken.com: Branching in Git 🌟](https://www.gitkraken.com/learn/git/branch)
@@ -334,12 +334,12 @@ It prescribes that software designers should define formal, precise and verifiab
 - [medium.com: What is GitFlow?](https://medium.com/@okandavut/what-is-gitflow-c0be7a659992)
 - [gist.github.com/JamesMGreene: A comparison of using `git flow` commands versus raw `git` commands](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 - [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
-- [aprendegit.com: git-flow: la rama develop y uso de feature branches](http://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches)
+- [aprendegit.com: git-flow: la rama develop y uso de feature branches](https://aprendegit.com/git-flow-la-rama-develop-y-uso-de-feature-branches)
 
 #### Git Flow is a bad idea
 
 - [thinkinglabs.io: Feature Branching considered Evil](https://thinkinglabs.io/talks/2016/10/29/feature-branching-considered-evil.html)
-    - [youtube: Feature Branching is Evil (Thierry de Pauw, Belgium)](https://www.youtube.com/watch?v=h4DM-Wa0aDQ&t=38s&ab_channel=XPDaysUkraine)
+    - [youtube: Feature Branching is Evil (Thierry de Pauw, Belgium)](https://www.youtube.com/watch?v=h4DM-Wa0aDQ&ab_channel=XPDaysUkraine)
     - Feature branching is again gaining in popularity due to the rise of distributed version control systems. Although branch creation has become very easy, it comes with a certain cost. Long living branches break the flow of the software delivery process, impacting throughput and stability.
     - This session explores why teams are using feature branches, what problems are introduced by using them and what techniques exist to avoid them altogether. It explores exactly what’s evil about feature branches, which is not necessarily the problems they introduce - but rather, the real reasons why teams are using them.
 - [youtube: Git Flow Is A Bad Idea - Dave Farley](https://www.youtube.com/watch?v=_w6TwnLCFwA&ab_channel=ContinuousDelivery) What is GitFlow and why is it a bad idea if you want to practice Continuous Delivery or Continuous Integration? GitFlow is a feature branching strategy that adds several extra layers of complexity. Git Flow is bad when we need fast feedback and a clear picture of the quality and 'releasability' of our work, so how do we adapt to get that faster feedback and a clearer picture?
@@ -379,7 +379,7 @@ It prescribes that software designers should define formal, precise and verifiab
 ##### Keystone Interface and Keystone Flags
 
 - [martinfowler.com: KeystoneInterface](https://martinfowler.com/bliki/KeystoneInterface.html)
-- [split.io: Keystone Flags: Feature Flagging With Less Mess](https://www.harness.io/blog?module-name=Feature+Management+%26+Experimentation&utm_campaign=fme&utm_source=split_io&utm_medium=redirect&utm_content=wildcard)
+- [split.io: Keystone Flags: Feature Flagging With Less Mess](https://www.harness.io/blog?module-name=Feature+Management+%26+Experimentation)
 
 ## Git Commands
 
@@ -552,7 +552,7 @@ git rebase -i HEAD~5
 - [==levelup.gitconnected.com: GitHub may replace DockerHub==](https://levelup.gitconnected.com/github-may-replace-dockerhub-a5da5e547f01)
 - [==github.com/Lightning-AI/engineering-class: Lightning Bits: Engineering for Researchers== 🌟](https://github.com/Lightning-AI/engineering-class) **This repository contains additional materials and show notes for the Lightning Bits: Engineering for Researchers video series.**
     - [github.com/Lightning-AI/engineering-class: Episode 8: Creating a Pull Request on GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep08-github-pr/Ep08-ShowNotes.md)
-    - [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md#syncing-forks-with-upstream)
+    - [github.com/Lightning-AI/engineering-class: Episode 9: Collaborating with Pull Requests using GitHub](https://github.com/Lightning-AI/engineering-class/blob/main/ep09-github-collab/Ep09-ShowNotes.md)
 - [github.com/marketplace: Use AWS Secrets Manager secrets in GitHub jobs 🌟](https://github.com/marketplace/actions/aws-secrets-manager-github-action)
 - [tylercipriani.com: GitHub's Missing Merge Option](https://tylercipriani.com/blog/2022/09/30/githubs-missing-merge-option)
 - [==steampipe.io: Top 3 ways to improve GitHub org security==](https://steampipe.io/blog/github-security-tips) Gain some practical tips for securing your GitHub organizations based on findings from common security incidents.
@@ -719,7 +719,7 @@ git rebase -i HEAD~5
 
 - [Wikipedia: Azure DevOps](https://en.wikipedia.org/wiki/Azure_DevOps)
     - [wikipedia: Azure DevOps Server](https://en.wikipedia.org/wiki/Azure_DevOps_Server) Collaboration software for software development formerly known as Team Foundation Server and Visual Studio Team System
-    - [wikipedia: Azure DevOps Services](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio#Azure_DevOps_Services) Cloud service for software development formerly known as Visual Studio Team Services, Visual Studio Online and Team Foundation Service Preview
+    - [wikipedia: Azure DevOps Services](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio) Cloud service for software development formerly known as Visual Studio Team Services, Visual Studio Online and Team Foundation Service Preview
 - [Azure DevOps Labs 🌟](https://azuredevopslabs.com)
 - [twitter.com/azuredevops](https://x.com/azuredevops)
 - [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts)
@@ -745,7 +745,7 @@ git rebase -i HEAD~5
 
 ### Jenkins for git merges
 
-- [**Git Plugin**: Merge Extensions](https://plugins.jenkins.io/git/#merge-extensions)
+- [**Git Plugin**: Merge Extensions](https://plugins.jenkins.io/git)
 - [How to configure Jenkins for git merge](https://support.cloudbees.com/hc/en-us/articles/227246387-How-to-Configure-Jenkins-for-Git-Merge-)
 - [GitHub Pull Request Builder Plugin](https://plugins.jenkins.io/ghprb) , [github ref](https://github.com/jenkinsci/ghprb-plugin). You should probably migrate to GitHub Branch Source Plugin.
 - [GitHub Branch Source Plugin:](https://plugins.jenkins.io/github-branch-source) Allows you to create a new project based on the repository structure from one or more GitHub users or organizations.
@@ -788,7 +788,7 @@ Automate them.
 ### Plastic SCM bot
 
 - [Plastic SCM](https://www.plasticscm.com)
-- [blog.plasticscm.com: Add a mergebot to your repo!](http://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html)
+- [blog.plasticscm.com: Add a mergebot to your repo!](https://blog.plasticscm.com/2018/09/add-mergebot-to-your-repo.html)
 - [Plastic SCM DevOps Mergebot to implement a trunk-based development cycle](https://github.com/PlasticSCM/trunk-mergebot)
 - [PlasticSCM MergeBot Jenkins Plugin](https://plugins.jenkins.io/plasticscm-mergebot)
 - [genbeta.com: Plastic SCM Mergebot: automatizando tu pipeline de desarrollo](https://www.genbeta.com/desarrollo/plastic-scm-mergebot-automatizando-tu-pipeline-desarrollo)
@@ -806,7 +806,7 @@ Automate them.
 - [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot)
 - [gmaster.io - Mergedroid: Automate merging just by analyzing your GitHub repo.](https://gmaster.io/mergedroid) A BOT that solves conflicts in pull requests without manual intervention.
 - [Kodiak](https://kodiakhq.com) GitHub bot for updating and merging pull requests
-- [Rultor](http://www.rultor.com) A merging bot for Github pull requests
+- [Rultor](https://www.rultor.com) A merging bot for Github pull requests
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
     - [help.github.com: Configuring protected branches](https://docs.github.com/en)

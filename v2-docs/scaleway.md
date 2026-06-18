@@ -3,6 +3,15 @@
 !!! info "Architectural Context"
     Detailed reference for Scaleway Public Cloud in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Cloud Native](#cloud-native)
+  - [Managed Kubernetes](#managed-kubernetes)
+    - [Scaleway Kapsule](#scaleway-kapsule)
+1. [Cloud Native Architecture](#cloud-native-architecture)
+  - [SaaS Architecture Patterns](#saas-architecture-patterns)
+    - [Tenant Isolation](#tenant-isolation)
+
 ## Cloud Native
 
 ### Managed Kubernetes

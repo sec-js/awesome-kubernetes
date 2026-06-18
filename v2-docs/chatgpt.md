@@ -3,6 +3,40 @@
 !!! info "Architectural Context"
     Detailed reference for ChatGPT in the context of AI.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Artificial Intelligence](#artificial-intelligence)
+  - [Deep Learning](#deep-learning)
+    - [Large Language Models](#large-language-models)
+1. [Artificial Intelligence and LLMs](#artificial-intelligence-and-llms)
+  - [Prompt Engineering](#prompt-engineering)
+    - [Developer Productivity](#developer-productivity)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [AI Conversational Assistants](#ai-conversational-assistants)
+  - [Kubernetes Operations](#kubernetes-operations)
+    - [AIOps Diagnostics](#aiops-diagnostics)
+    - [Declarative Manifests](#declarative-manifests)
+1. [Data Analysis](#data-analysis)
+  - [Spreadsheet Automation](#spreadsheet-automation)
+    - [AI Integration](#ai-integration)
+1. [Data Architecture](#data-architecture)
+  - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
+    - [Enterprise AI](#enterprise-ai)
+1. [Human Productivity](#human-productivity)
+  - [Artificial Intelligence](#artificial-intelligence-1)
+    - [HR Operations](#hr-operations)
+    - [Workplace Automation](#workplace-automation)
+1. [Market Analysis](#market-analysis)
+  - [Artificial Intelligence](#artificial-intelligence-2)
+    - [Industry Dynamics](#industry-dynamics)
+1. [Software Engineering](#software-engineering)
+  - [AI-Assisted Operations](#ai-assisted-operations)
+    - [Code Generation Quality](#code-generation-quality)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -24,14 +58,14 @@
 
 #### Large Language Models
 
-  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97134</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
+  - **(2024)** [==LLMs-from-scratch==](https://github.com/rasbt/LLMs-from-scratch) <span class='md-tag md-tag--info'>⭐ 97134</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5746f3ae" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 2 L 20 2 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-5746f3ae)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying bare tokenization, self-attention calculations, optimization loops, and model loading mechanics without library abstractions.
 ## Artificial Intelligence and LLMs
 
 ### Prompt Engineering
 
 #### Developer Productivity
 
-  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f241f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1f241f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## Cloud Native Infrastructure
 
 ### Infrastructure as Code
@@ -47,7 +81,7 @@
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — In-depth guide configuring a fully offline AI diagnostics engine inside protected networks. Combines K8sGPT analytical tooling with LocalAI offline LLMs to safeguard internal data streams.
 #### Declarative Manifests
 
-  - [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator) <span class='md-tag md-tag--info'>⭐ 117</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tailored schema wizard matching generative prompts to robust Kubernetes structures. Generates production-ready configurations containing service boundaries, volume bindings, and routing structures.
+  - [github.com/robusta-dev/chatgpt-yaml-generator](https://github.com/robusta-dev/chatgpt-yaml-generator) <span class='md-tag md-tag--info'>⭐ 117</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-34aa5502" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 9 L 30 4 L 40 8 L 50 12" fill="none" stroke="url(#spark-grad-34aa5502)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tailored schema wizard matching generative prompts to robust Kubernetes structures. Generates production-ready configurations containing service boundaries, volume bindings, and routing structures.
 ## Data Analysis
 
 ### Spreadsheet Automation

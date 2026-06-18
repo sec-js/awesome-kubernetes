@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
       
       
-        <link rel="canonical" href="https://nubenetes.com/aws-networking.html">
+        <link rel="canonical" href="https://nubenetes.com/v2/aws-networking.html">
       
       
-        <link rel="prev" href="aws-architecture.html">
+        <link rel="prev" href="aws-monitoring.html">
       
       
-        <link rel="next" href="aws-databases.html">
+        <link rel="next" href="aws-newfeatures.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>AWS Networking - Nubenetes</title>
+        <title>AWS Networking - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="static/extra.css">
+    
+      <link rel="stylesheet" href="static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,7 +120,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,7 +263,7 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
@@ -285,13 +278,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="introduction.html" class="md-tabs__link">
+        <a href="videos/index.html" class="md-tabs__link">
           
   
   
     
   
-  Intro
+  Agentic Video Hub
 
         </a>
       </li>
@@ -307,443 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="sre.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devsecops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="noops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="docker.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Docker
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="kubernetes.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  K8s
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="openshift.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="rancher.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="cicd.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="monitoring.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="iac.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ansible.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="databases.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="message-queue.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="servicemesh.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="demos.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="public-cloud-solutions.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="api.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devel-sites.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="qa.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ai.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -765,13 +322,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="project-management-methodology.html" class="md-tabs__link">
+        <a href="about.html" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +344,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="other-awesome-lists.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
 
         </a>
       </li>
@@ -809,13 +366,37 @@
     
     
       <li class="md-tabs__item">
-        <a href="recruitment.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Hardened Infrastructure
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Cloud Providers (Hyperscalers)
 
         </a>
       </li>
@@ -828,17 +409,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="customer.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="caching.html" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +431,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="uncategorized.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="container-managers.html" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  The Container Stack
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +453,86 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="about.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="crunchydata.html" class="md-tabs__link">
+          
   
   
     
   
-  About
+  Data & Advanced Analytics
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="argo.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +566,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +596,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +630,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
   
 
     
@@ -1002,6 +653,14 @@
     
       
         
+          
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -1025,14 +684,14 @@
   
   
   
-    <a href="introduction.html" class="md-nav__link">
+    <a href="videos/index.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Intro
+    Agentic Video Hub
   
 
     
@@ -1088,14 +747,14 @@
   
   
   
-    <a href="sre.html" class="md-nav__link">
+    <a href="ai-agents-mcp.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    SRE
+    AI
   
 
     
@@ -1124,214 +783,6 @@
     
       
         
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devsecops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="noops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docker.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1393,14 +844,14 @@
   
   
   
-    <a href="kubernetes.html" class="md-nav__link">
+    <a href="about.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    K8s
+    Architectural Foundations
   
 
     
@@ -1433,118 +884,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="openshift.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="rancher.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1582,14 +921,14 @@
   
   
   
-    <a href="cicd.html" class="md-nav__link">
+    <a href="chaos-engineering.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    CI/CD
+    Platform & Site Reliability
   
 
     
@@ -1622,128 +961,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="monitoring.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Montrg
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="iac.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Infra Prov
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1790,211 +1007,7 @@
   <span class="md-ellipsis">
     
   
-    Config Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="databases.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DB
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="message-queue.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data Pipeline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="servicemesh.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="demos.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
+    Hardened Infrastructure
   
 
     
@@ -2023,6 +1036,44 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2064,17 +1115,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
-          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="">
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    Cloud
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2085,197 +1136,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_20">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Cloud
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="public-cloud-solutions.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Public Cloud Solutions
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="private-cloud-solutions.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Private Cloud Solutions
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="edge-computing.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Edge Computing
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_4" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_20_4" id="__nav_20_4_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Cloud
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_20_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    AWS Cloud
+    Cloud Providers (Hyperscalers)
   
 
           </label>
@@ -2288,14 +1154,238 @@
   
   
     <li class="md-nav__item">
-      <a href="aws.html" class="md-nav__link">
+      <a href="GoogleCloudPlatform.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    AWS
+    Googlecloudplatform
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-architecture.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-backup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Backup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-containers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Containers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-data.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-databases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Databases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-devops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS DevOps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-iac.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS IaC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-messaging.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Messaging
   
 
     
@@ -2344,14 +1434,14 @@
   
   
     <li class="md-nav__item">
-      <a href="aws-architecture.html" class="md-nav__link">
+      <a href="aws-monitoring.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    AWS Architecture and Best Practices
+    AWS Monitoring
   
 
     
@@ -2432,10 +1522,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
+  <a href="#table-of-contents" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Introduction
+        Table of Contents
       
     </span>
   </a>
@@ -2443,104 +1533,635 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#aws-route-53" class="md-nav__link">
+  <a href="#architectural-foundations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AWS Route 53
+        Architectural Foundations
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-elastic-load-balancing-elb" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AWS Elastic Load Balancing (ELB)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-application-load-balancer-alb" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AWS Application Load Balancer (ALB)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gateway-load-balancer-gwlb" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gateway Load Balancer (GWLB)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-waf" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AWS WAF
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#nginx" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        NGINX
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-latency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AWS Latency
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-vpc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        AWS VPC
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="AWS VPC">
+    <nav class="md-nav" aria-label="Architectural Foundations">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#aws-client-vpn" class="md-nav__link">
+  <a href="#kubernetes-tools" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AWS Client VPN
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#api-gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        API Gateway
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="API Gateway">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-account-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cross-Account Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cdn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CDN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CDN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloudfront" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CloudFront
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edge-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Edge Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-and-domain-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS and Domain Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS and Domain Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#route-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Route 53
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#direct-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Direct Connect
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Direct Connect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bgp-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BGP Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ec2-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EC2 Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EC2 Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ena" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ENA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ip-range-utilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IP Range Utilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#controllers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controllers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-balancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Load Balancing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#announcements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Announcements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Configuration Updates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deep Dive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Documentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#networking-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#networking-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking Pitfalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#networking-tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking Tutorials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RDS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RDS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpc-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPC Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#remote-access-vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Remote Access VPN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reverse Proxy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#nginx-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NGINX Plus
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ddos-resiliency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DDoS Resiliency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ec2-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EC2 Connect
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gateway-load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gateway Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#waf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WAF
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPC
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VPC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cli-administration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLI Administration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpc-endpoints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPC Endpoints
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpc-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPC Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-and-overlay-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN and Overlay Networks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VPN and Overlay Networks">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#tailscale" class="md-nav__link">
@@ -2557,37 +2178,149 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#aws-cloudfront" class="md-nav__link">
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azure-networking" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AWS CloudFront
+        Azure Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Azure Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-connectivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hybrid Connectivity
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#aws-api-gateway" class="md-nav__link">
+  <a href="#networking" class="md-nav__link">
     <span class="md-ellipsis">
       
-        AWS API Gateway
+        Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#tweets" class="md-nav__link">
+  <a href="#software-engineering" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tweets
+        Software Engineering
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Software Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deployment-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deployment Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blue-green" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blue-Green
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Blue-Green">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ALB
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2607,266 +2340,14 @@
   
   
     <li class="md-nav__item">
-      <a href="aws-databases.html" class="md-nav__link">
+      <a href="aws-newfeatures.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    AWS Databases
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-storage.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Storage
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-security.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Security
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-monitoring.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Monitoring
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-iac.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS IaC
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-tools-scripts.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Tools Scripts
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-messaging.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Messaging
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-data.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Data
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-devops.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS DevOps
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-serverless.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Serverless
+    AWS Newfeatures
   
 
     
@@ -2915,14 +2396,14 @@
   
   
     <li class="md-nav__item">
-      <a href="aws-containers.html" class="md-nav__link">
+      <a href="aws-security.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    AWS Containers
+    AWS Security
   
 
     
@@ -2943,70 +2424,14 @@
   
   
     <li class="md-nav__item">
-      <a href="aws-backup.html" class="md-nav__link">
+      <a href="aws-serverless.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    AWS Backup and Migrations
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-training.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS Training and Certification
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="aws-newfeatures.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AWS New Features
+    AWS Serverless
   
 
     
@@ -3048,9 +2473,113 @@
 
               
             
-          </ul>
-        </nav>
-      
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-storage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-tools-scripts.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Tools Scripts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws-training.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="aws.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AWS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -3070,91 +2599,7 @@
   <span class="md-ellipsis">
     
   
-    Microsoft Azure
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="GoogleCloudPlatform.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Google Cloud Platform
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ibm_cloud.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    IBM & IBM Cloud
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="oraclecloud.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Oracle Cloud
+    Azure
   
 
     
@@ -3182,7 +2627,7 @@
   <span class="md-ellipsis">
     
   
-    Digital Ocean
+    Digitalocean
   
 
     
@@ -3203,14 +2648,154 @@
   
   
     <li class="md-nav__item">
-      <a href="cloudflare.html" class="md-nav__link">
+      <a href="edge-computing.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Cloudflare
+    Edge Computing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ibm_cloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ibm_Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="managed-kubernetes-in-public-cloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managed Kubernetes In Public Cloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="oraclecloud.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oraclecloud
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="private-cloud-solutions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Private Cloud Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="public-cloud-solutions.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Cloud Solutions
   
 
     
@@ -3276,6 +2861,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -3296,14 +2887,14 @@
   
   
   
-    <a href="api.html" class="md-nav__link">
+    <a href="caching.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    APIs
+    Networking & Service Mesh
   
 
     
@@ -3355,60 +2946,7 @@
       
         
       
-    
-    
-    
-      
-      
         
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devel-sites.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -3416,60 +2954,7 @@
       
         
       
-    
-    
-    
-      
-      
         
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="qa.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -3499,77 +2984,14 @@
   
   
   
-    <a href="ai.html" class="md-nav__link">
+    <a href="container-managers.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    AI
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="project-management-methodology.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Project Mgmt
+    The Container Stack
   
 
     
@@ -3607,6 +3029,8 @@
       
         
       
+        
+      
     
     
     
@@ -3627,14 +3051,14 @@
   
   
   
-    <a href="other-awesome-lists.html" class="md-nav__link">
+    <a href="crunchydata.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Refs+
+    Data & Advanced Analytics
   
 
     
@@ -3670,6 +3094,24 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -3690,14 +3132,14 @@
   
   
   
-    <a href="recruitment.html" class="md-nav__link">
+    <a href="argo.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Hiring
+    Engineering Pipeline
   
 
     
@@ -3722,15 +3164,83 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="customer.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="ChromeDevTools.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Clients
+    Developer Ecosystem
   
 
     
@@ -3738,7 +3248,13 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -3749,15 +3265,59 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="uncategorized.html" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="appointment-scheduling.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Uncategorized
+    Career & Industry
   
 
     
@@ -3765,34 +3325,13 @@
   
   
 
-      </a>
-    </li>
-  
-
-    
       
+        <span class="md-nav__icon md-icon"></span>
       
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="about.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    About
+    </a>
   
 
-    
-  </span>
-  
-  
-
-      </a>
+      
     </li>
   
 
@@ -3813,207 +3352,302 @@
                   
 
 
-
-<h1 id="aws-networking">AWS Networking</h1>
-<ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#aws-route-53">AWS Route 53</a></li>
-<li><a href="#aws-elastic-load-balancing-elb">AWS Elastic Load Balancing (ELB)</a></li>
-<li><a href="#aws-application-load-balancer-alb">AWS Application Load Balancer (ALB)</a></li>
-<li><a href="#gateway-load-balancer-gwlb">Gateway Load Balancer (GWLB)</a></li>
-<li><a href="#aws-waf">AWS WAF</a></li>
-<li><a href="#nginx">NGINX</a></li>
-<li><a href="#aws-latency">AWS Latency</a></li>
-<li><a href="#aws-vpc">AWS VPC</a><ol>
-<li><a href="#aws-client-vpn">AWS Client VPN</a></li>
-<li><a href="#tailscale">Tailscale</a></li>
-</ol>
-</li>
-<li><a href="#aws-cloudfront">AWS CloudFront</a></li>
-<li><a href="#aws-api-gateway">AWS API Gateway</a></li>
-<li><a href="#tweets">Tweets</a></li>
-</ol>
-<h2 id="introduction">Introduction</h2>
-<ul>
-<li><a href="https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers">AWS Networking for Developers</a></li>
-<li><a href="https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2">Elastic Network Adapter</a></li>
-<li><a href="http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero">AWS Cloud Networking – Zero to Hero</a></li>
-<li><a href="https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws">cloudonaut.io: What Architects Need to Know About Networking on AWS</a></li>
-<li><a href="https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid">cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid</a></li>
-<li><a href="https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic">Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic</a></li>
-<li><a href="https://github.com/seligman/aws-ip-ranges">github.com/seligman/aws-ip-ranges: AWS&rsquo;s ip-ranges.json</a> AWS adds an extra 5.5M IPv4 addresses. Tracking the history and size of AWS&rsquo;s ip-ranges.json file. AWS provides a data file showing the current IP ranges their services use, called ip-ranges.json. This repository tracks changes to that file, and based off a trigger on the SNS topic automatically produces this chart showing how what percentage of the Internet&rsquo;s IPv4 address space AWS is in control of.</li>
-<li><a href="https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12">medium: Building a Global Network with AWS Transit Gateway</a> Connecting branch and corporate offices into the AWS cloud to build a global network is necessary to provide ubiquitous accessibility for users. This solution uses AWS Transit Gateway, AWS Direct Connect, and AWS Accelerated Site-to-Site VPN to build a modern, secure, scalable, and cost-efficient WAN on top of the AWS global network.</li>
-<li><a href="https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect">aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect</a></li>
-<li><a href="https://towardsaws.com/networking-basics-in-aws-ab72882855c4">towardsaws.com: Networking Basics in AWS</a></li>
-<li><a href="https://aws.amazon.com/products">aws.amazon.com: Network operations with AWS Network Manager</a> Efficiently manage and monitor your AWS network</li>
-<li><a href="https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023">Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint</a></li>
-</ul>
-<h2 id="aws-route-53">AWS Route 53</h2>
-<ul>
-<li><a href="https://repost.aws/knowledge-center">How do I transfer a domain to AWS from another registrar?</a></li>
-<li><a href="https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html">Configuring Route 53 for cost protection from NXDOMAIN attacks</a></li>
-</ul>
-<h2 id="aws-elastic-load-balancing-elb">AWS Elastic Load Balancing (ELB)</h2>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=HinwLb2lpLQ">AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing</a></li>
-<li><a href="http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html">docs.aws.amazon.com: What Is Elastic Load Balancing?</a></li>
-<li><a href="https://ably.com/blog/limits-aws-network-load-balancers">ably.com: Balancing act: the current limits of AWS network load balancers</a></li>
-<li><a href="https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc"><mark>luis-sena.medium.com: Automated AWS Load Balancer Warm-Up</mark></a> Automate AWS load balancer to avoid issues with huge traffic spikes</li>
-<li><a href="https://dashbird.io/blog/aws-application-load-balancer"><mark>dashbird.io: AWS Elastic Load Balancing from a Serverless perspective</mark></a> Should you switch your AWS API Gateway out for an Application Load Balancer (ALB)? A cheat sheet for all you need to know about ALB:<ul>
-<li>Pricing</li>
-<li>Regions</li>
-<li>Transformations</li>
-<li>Limits</li>
-<li>Permissions</li>
-<li>Health</li>
-</ul>
-</li>
-</ul>
-<h2 id="aws-application-load-balancer-alb">AWS Application Load Balancer (ALB)</h2>
-<ul>
-<li><a href="https://aws.amazon.com/elasticloadbalancing/application-load-balancer">Application Load Balancer</a></li>
-<li><a href="https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer">aws blogs - New – AWS Application Load Balancer</a></li>
-<li><a href="https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34">medium: 10 reasons why you should think about using an AWS Application Load Balancer</a></li>
-<li><a href="https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller">Introducing the AWS Load Balancer Controller</a></li>
-<li><a href="https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer">Fine-tuning blue/green deployments on application load balancer</a></li>
-<li><a href="https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e">faun.pub: End To End SSL Encryption With AWS Application Load Balancer</a></li>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2024/03/application-load-balancer-http-keepalive-duration">aws.amazon.com/about-aws: Application Load Balancer enables configuring HTTP client keepalive duration</a></li>
-</ul>
-<h2 id="gateway-load-balancer-gwlb">Gateway Load Balancer (GWLB)</h2>
-<ul>
-<li><a href="https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws">Centralized Traffic Inspection with Gateway Load Balancer on AWS</a></li>
-</ul>
-<h2 id="aws-waf">AWS WAF</h2>
-<ul>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2024/08/aws-waf-rate-based-rules-lower-rate-limits">AWS WAF enhances rate-based rules to support lower rate limits</a></li>
-</ul>
-<h2 id="nginx">NGINX</h2>
-<ul>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment">NGINX Plus on the AWS Cloud: Quick Start Reference Deployment</a></li>
-</ul>
-<h2 id="aws-latency">AWS Latency</h2>
-<ul>
-<li><a href="http://aws-latency.altaircp.com">Find the fastest region from your location</a> Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.</li>
-<li><a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6092152919937794052">Linkedin Discussion</a><ol>
-<li>Don&rsquo;t do just a single check, the first check will be a lot slower as DNS lookups will need to be done, etc.</li>
-<li>I&rsquo;d recommend doing at least 3 checks getting an average.</li>
-</ol>
-</li>
-<li>Run 6 checks (with a random 3-10 second delay between each one), the first can be ignored, the highest one is also ignored (as a likely outlier), then for the next 4 show the minimum, maximum and average (mean).</li>
-<li><a href="https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7">medium.com: Optimizing Latency and Bandwidth for AWS Traffic</a></li>
-</ul>
-<h2 id="aws-vpc">AWS VPC</h2>
-<ul>
-<li>
-<p><a href="https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842">Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads</a> - This article details best practices for configuring Azure ExpressRoute to ensure high availability and resiliency for production-critical workloads. It covers topics like redundant connections, diverse routing, and failover mechanisms.</p>
-</li>
-<li>
-<p><a href="https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud">AWS-VPC</a></p>
-</li>
-<li><a href="http://www.linuxjournal.com/content/aws-ec2-vpc-cli">linuxjournal.com: AWS EC2 VPC CLI</a></li>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start">Build a Modular and Scalable Amazon VPC Architecture with New Quick Start</a> Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start</li>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance">Specifying the VPC for your Amazon RDS DB Instance</a> You can now easily change the Amazon VPC used by your Amazon RDS DB instance!</li>
-<li><a href="https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html">awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC</a></li>
-<li><a href="https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints">Reduce Cost and Increase Security with Amazon VPC Endpoints</a></li>
-<li><a href="https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c">ealtili.medium.com: Deepdive to VPCs and Connections to VPC</a></li>
-<li><a href="https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints">Centralize access using VPC interface endpoints to access AWS services across multiple VPCs</a></li>
-<li><a href="https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b"><mark>betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group Using T2.micro Instances</mark></a> <strong>Maintain a self-healing architecture</strong></li>
-<li><a href="https://alanblackmore.medium.com/what-is-aws-vpc-peering-af85c1e29fb2">alanblackmore.medium.com: What is AWS VPC Peering? 🌟</a></li>
-<li><a href="https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204">awstip.com: Setting Up AWS VPC Endpoint Connection</a></li>
-<li><a href="https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50">towardsaws.com: How to centralize VPC endpoints in AWS</a></li>
-</ul>
-<h3 id="aws-client-vpn">AWS Client VPN</h3>
-<ul>
-<li><a href="https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud">cloudonaut.io: AWS Client VPN: Connected with the Cloud</a></li>
-</ul>
-<h3 id="tailscale">Tailscale</h3>
-<ul>
-<li><a href="https://tailscale.com/docs/install/cloud/aws">tailscale.com: Connect to an AWS VPC using subnet routes</a></li>
-</ul>
-<h2 id="aws-cloudfront">AWS CloudFront</h2>
-<ul>
-<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2">Amazon CloudFront now supports HTTP/2</a></li>
-<li><a href="https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users">aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront content from being downloaded by unauthenticated users</a></li>
-</ul>
-<h2 id="aws-api-gateway">AWS API Gateway</h2>
-<ul>
-<li><a href="https://www.alexdebrie.com/posts/api-gateway-elements">alexdebrie.com: A Detailed Overview of AWS API Gateway</a></li>
-<li><a href="https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4">towardsaws.com: Accessing a Private REST API from another Private REST API in AWS API Gateway</a> we’ll see how we can access a Private REST API From Another Private REST API In AWS API Gateway. We will create 2 EC2 Instances(EC2A and EC2B) and 2 API Gateways(APIA and APIB). EC2A will be accessing EC2B with following workflow.</li>
-<li><a href="https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70">faun.pub: Using AWS API Gateway As Proxy To Our Internal Application</a></li>
-<li><a href="https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account">aws.amazon.com: Architecture patterns for consuming private APIs cross-account</a> Architecture patterns for consuming private APIs cross-account over AWS PrivateLink</li>
-</ul>
-<h2 id="tweets">Tweets</h2>
-<details>
-  <summary>Click to expand!</summary>
-
-<center markdown="1">
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝗔𝗺𝗮𝘇𝗼𝗻 𝗩irtual 𝗣rivate 𝗖loud ☁️ 🔐<br>Your 𝗹𝗼𝗴𝗶𝗰𝗮𝗹𝗹𝘆 𝗶𝘀𝗼𝗹𝗮𝘁𝗲𝗱 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸 in the cloud 🛠<br><br>From Security Groups, over Route Tables to VPC Peering ↓ <a href="https://t.co/OWhIWVbJwu">pic.twitter.com/OWhIWVbJwu</a></p>&mdash; Tobias Schmidt (@tpschmidt_) <a href="https://twitter.com/tpschmidt_/status/1582330939442536448?ref_src=twsrc%5Etfw">October 18, 2022</a></blockquote> <script async src="assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</center>
-</details>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/aws-networking.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/aws-networking.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="aws-networking">AWS Networking<a class="headerlink" href="#aws-networking" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#cloud-infrastructure">Cloud Infrastructure</a></li>
+<li><a href="#aws">AWS</a><ul>
+<li><a href="#api-gateway">API Gateway</a></li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#cross-account-patterns">Cross-Account Patterns</a></li>
+<li><a href="#architecture-best-practices">Architecture Best Practices</a></li>
+<li><a href="#cdn">CDN</a></li>
+<li><a href="#cloudfront">CloudFront</a></li>
+<li><a href="#edge-security">Edge Security</a></li>
+<li><a href="#dns-and-domain-management">DNS and Domain Management</a></li>
+<li><a href="#route-53">Route 53</a></li>
+<li><a href="#direct-connect">Direct Connect</a></li>
+<li><a href="#bgp-routing">BGP Routing</a></li>
+<li><a href="#ec2-networking">EC2 Networking</a></li>
+<li><a href="#ena">ENA</a></li>
+<li><a href="#ip-range-utilities">IP Range Utilities</a></li>
+<li><a href="#kubernetes-networking">Kubernetes Networking</a></li>
+<li><a href="#controllers">Controllers</a></li>
+<li><a href="#load-balancing">Load Balancing</a></li>
+<li><a href="#announcements">Announcements</a></li>
+<li><a href="#application-load-balancer">Application Load Balancer</a></li>
+<li><a href="#configuration-updates">Configuration Updates</a></li>
+<li><a href="#deep-dive">Deep Dive</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#network-load-balancer">Network Load Balancer</a></li>
+<li><a href="#serverless-integration">Serverless Integration</a></li>
+<li><a href="#network-management">Network Management</a></li>
+<li><a href="#networking-concepts">Networking Concepts</a></li>
+<li><a href="#networking-pitfalls">Networking Pitfalls</a></li>
+<li><a href="#networking-tutorials">Networking Tutorials</a></li>
+<li><a href="#performance-optimization">Performance Optimization</a></li>
+<li><a href="#rds">RDS</a></li>
+<li><a href="#vpc-integration">VPC Integration</a></li>
+<li><a href="#remote-access-vpn">Remote Access VPN</a></li>
+<li><a href="#reverse-proxy">Reverse Proxy</a></li>
+<li><a href="#nginx-plus">NGINX Plus</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#ddos-resiliency">DDoS Resiliency</a></li>
+<li><a href="#ec2-connect">EC2 Connect</a></li>
+<li><a href="#gateway-load-balancer">Gateway Load Balancer</a></li>
+<li><a href="#waf">WAF</a></li>
+<li><a href="#vpc">VPC</a></li>
+<li><a href="#cli-administration">CLI Administration</a></li>
+<li><a href="#fundamentals">Fundamentals</a></li>
+<li><a href="#vpc-endpoints">VPC Endpoints</a></li>
+<li><a href="#vpc-architecture">VPC Architecture</a></li>
+<li><a href="#vpn-and-overlay-networks">VPN and Overlay Networks</a></li>
+<li><a href="#tailscale">Tailscale</a></li>
+</ul>
+</li>
+<li><a href="#azure-networking">Azure Networking</a><ul>
+<li><a href="#hybrid-connectivity">Hybrid Connectivity</a></li>
+</ul>
+</li>
+<li><a href="#networking">Networking</a></li>
+<li><a href="#performance">Performance</a><ul>
+<li><a href="#diagnostics">Diagnostics</a></li>
+</ul>
+</li>
+<li><a href="#software-engineering">Software Engineering</a></li>
+<li><a href="#deployment-patterns">Deployment Patterns</a><ul>
+<li><a href="#blue-green">Blue-Green</a></li>
+<li><a href="#alb">ALB</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://medium.com/avmconsulting-blog/building-a-global-network-with-aws-transit-gateway-7ab0e5222f12">medium: Building a Global Network with AWS Transit Gateway</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Building a Global Network with AWS Transit Gateway in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://towardsaws.com/networking-basics-in-aws-ab72882855c4">towardsaws.com: Networking Basics in AWS</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering towardsaws.com: Networking Basics in AWS in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://luis-sena.medium.com/automated-aws-load-balancer-warm-up-d0b4084c8bbc">luis-sena.medium.com: Automated AWS Load Balancer Warm-Up</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>luis-sena.medium.com: Automated AWS Load Balancer Warm-Up</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/ankercloud-engineering/10-reasons-why-you-should-think-about-using-an-aws-application-loadbalancer-945f57816c34">medium: 10 reasons why you should think about using an AWS Application Load' Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: 10 reasons why you should think about using an AWS Application Load' Balancer in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://faun.pub/end-to-end-ssl-encryption-with-aws-application-load-balancer-b43db918bd9e">faun.pub: End To End SSL Encryption With AWS Application Load Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: End To End SSL Encryption With AWS Application Load Balancer in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7">medium.com: Optimizing Latency and Bandwidth for AWS Traffic</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Optimizing Latency and Bandwidth for AWS Traffic in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud">AWS-VPC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering AWS-VPC in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://ealtili.medium.com/deepdive-to-vpcs-and-connections-to-vpc-2de3fb164d7c">ealtili.medium.com: Deepdive to VPCs and Connections to VPC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ealtili.medium.com: Deepdive to VPCs and Connections to VPC in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://betterprogramming.pub/aws-creating-a-vpc-with-an-auto-scaling-group-using-t2-micro-instances-4ac2c5c7795b">betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group' Using T2.micro Instances</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>betterprogramming.pub: AWS: Creating a VPC With an Auto-scaling Group' Using T2.micro Instances</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://alanblackmore.medium.com/what-is-aws-vpc-peering-af85c1e29fb2">alanblackmore.medium.com: What is AWS VPC Peering? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alanblackmore.medium.com: What is AWS VPC Peering? 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://awstip.com/setting-up-aws-vpc-endpoint-connection-d4294d0c2204">awstip.com: Setting Up AWS VPC Endpoint Connection</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awstip.com: Setting Up AWS VPC Endpoint Connection in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://towardsaws.com/how-to-centralize-vpc-endpoints-in-aws-64c68b5b9d50">towardsaws.com: How to centralize VPC endpoints in AWS</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering towardsaws.com: How to centralize VPC endpoints in AWS in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://towardsaws.com/accessing-a-private-rest-api-from-another-private-rest-api-in-aws-api-gateway-5112b835c0d4">towardsaws.com: Accessing a Private REST API from another Private REST API' in AWS API Gateway</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering towardsaws.com: Accessing a Private REST API from another Private REST API' in AWS API Gateway in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://faun.pub/using-aws-api-gateway-as-proxy-to-our-internal-application-369eb115db70">faun.pub: Using AWS API Gateway As Proxy To Our Internal Application</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Using AWS API Gateway As Proxy To Our Internal Application in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="cloud-infrastructure">Cloud Infrastructure<a class="headerlink" href="#cloud-infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="aws">AWS<a class="headerlink" href="#aws" title="Permanent link">&para;</a></h3>
+<h4 id="api-gateway">API Gateway<a class="headerlink" href="#api-gateway" title="Permanent link">&para;</a></h4>
+<h5 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.alexdebrie.com/posts/api-gateway-elements">alexdebrie.com: A Detailed Overview of AWS API Gateway</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive architectural analysis of AWS API Gateway, deconstructing HTTP APIs, REST APIs, and WebSockets. Provides deep insights into routing, request validation, and authorization strategies that underpin serverless microservices architectures.</li>
+</ul>
+<h5 id="cross-account-patterns">Cross-Account Patterns<a class="headerlink" href="#cross-account-patterns" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account">aws.amazon.com: Architecture patterns for consuming private APIs cross-account</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security and network topology blueprints for consuming private APIs across different AWS accounts. Highlights the interaction of VPC endpoints, API Gateway resource policies, and Route 53 resolver rules to secure enterprise SaaS products.</li>
+</ul>
+<h4 id="architecture-best-practices">Architecture Best Practices<a class="headerlink" href="#architecture-best-practices" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2018)</strong> <a href="https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws">cloudonaut.io: What Architects Need to Know About Networking on AWS</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rigorous exploration of architectural decision-making within AWS networking. Focuses on the trade-offs of VPC endpoints, routing tables, and peering limits. Grounded in 2026 engineering truths, this piece highlights the shift from complex transit VPCs to Transit Gateway standards.</li>
+</ul>
+<h4 id="cdn">CDN<a class="headerlink" href="#cdn" title="Permanent link">&para;</a></h4>
+<h5 id="cloudfront">CloudFront<a class="headerlink" href="#cloudfront" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2">Amazon CloudFront now supports HTTP/2</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces native HTTP/2 support in CloudFront, highlighting performance gains from request multiplexing and header compression. A major historical milestone for fast content delivery networks, paving the way for modern responsive web applications.</li>
+</ul>
+<h5 id="edge-security">Edge Security<a class="headerlink" href="#edge-security" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users">aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront content from being downloaded by unauthenticated users</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents edge security patterns leveraging Lambda@Edge or CloudFront Functions to validate cookies and JWTs. This approach prevents unauthorized downloads of static content directly at the CDN tier, dramatically reducing backend origin load.</li>
+</ul>
+<h4 id="dns-and-domain-management">DNS and Domain Management<a class="headerlink" href="#dns-and-domain-management" title="Permanent link">&para;</a></h4>
+<h5 id="route-53">Route 53<a class="headerlink" href="#route-53" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://repost.aws/knowledge-center">How do I transfer a domain to AWS from another registrar?</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular tutorial on migrating DNS management to Amazon Route 53 from external registrars. While straightforward, real-world deployment requires careful TTL planning and nameserver transition strategies to prevent query dropouts and route interruptions during migration.</li>
+</ul>
+<h4 id="direct-connect">Direct Connect<a class="headerlink" href="#direct-connect" title="Permanent link">&para;</a></h4>
+<h5 id="bgp-routing">BGP Routing<a class="headerlink" href="#bgp-routing" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2019)</strong> <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/creating-active-passive-bgp-connections-over-aws-direct-connect">aws.amazon.com: Creating active/passive BGP connections over AWS Direct Connect</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores advanced Route-Maps and BGP configuration options to establish resilient active/passive patterns on AWS Direct Connect. Explains path selection using AS-Path prepending and local preference. Critical for hybrid enterprise integrations demanding robust automated failover.</li>
+</ul>
+<h4 id="ec2-networking">EC2 Networking<a class="headerlink" href="#ec2-networking" title="Permanent link">&para;</a></h4>
+<h5 id="ena">ENA<a class="headerlink" href="#ena" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2">Elastic Network Adapter</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the high-performance ENA interface designed for AWS EC2 instances. Live architectures rely heavily on ENA for low-latency network performance and SR-IOV-enabled network virtualization up to 100 Gbps. Crucial for understanding network throughput bottlenecks in heavy database and distributed systems workloads.</li>
+</ul>
+<h4 id="ip-range-utilities">IP Range Utilities<a class="headerlink" href="#ip-range-utilities" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2018)</strong> <a href="https://github.com/seligman/aws-ip-ranges">github.com/seligman/aws-ip-ranges: AWS's ip-ranges.json</a> <span class='md-tag md-tag--info'>⭐ 286</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51d1c97d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 8 L 30 8 L 40 5 L 50 13" fill="none" stroke="url(#spark-grad-51d1c97d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A vital open-source parser designed to track dynamic AWS IP range changes from ip-ranges.json. Essential for configuring robust hybrid on-premises firewalls and programmatic security rules. Modern setups frequently replace manual parsing with AWS Managed Prefix Lists, rendering manual scripts legacy but historically significant.</li>
+</ul>
+<h4 id="kubernetes-networking">Kubernetes Networking<a class="headerlink" href="#kubernetes-networking" title="Permanent link">&para;</a></h4>
+<h5 id="controllers">Controllers<a class="headerlink" href="#controllers" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2020)</strong> <a href="https://aws.amazon.com/blogs/containers/introducing-aws-load-balancer-controller">Introducing the AWS Load Balancer Controller</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Kubernetes-native controller that provisions ALBs and NLBs directly from EKS Ingress and Service objects. A de facto standard in EKS architectures, replacing generic reverse proxies with tightly integrated AWS-managed application delivery controllers.</li>
+</ul>
+<h4 id="load-balancing">Load Balancing<a class="headerlink" href="#load-balancing" title="Permanent link">&para;</a></h4>
+<h5 id="announcements">Announcements<a class="headerlink" href="#announcements" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer">aws blogs - New – AWS Application Load Balancer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blog post introducing AWS ALB in 2016, revolutionizing container and microservices ingress on AWS. Contrasts CLB's limitations with ALB's ability to host multiple target groups on a single instance port, enabling dense ECS/EKS hosting.</li>
+</ul>
+<h5 id="application-load-balancer">Application Load Balancer<a class="headerlink" href="#application-load-balancer" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2020)</strong> <a href="https://aws.amazon.com/elasticloadbalancing/application-load-balancer">Application Load Balancer</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative landing page for AWS ALB, highlighting its Layer 7 request routing capabilities, HTTP/2 support, and WAF integrations. Modern microservices rely on ALB's path-based and host-based routing to expose APIs dynamically.</li>
+</ul>
+<h5 id="configuration-updates">Configuration Updates<a class="headerlink" href="#configuration-updates" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2024)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2024/03/application-load-balancer-http-keepalive-duration">aws.amazon.com/about-aws: Application Load Balancer enables configuring HTTP client keepalive duration</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the 2024 update enabling custom HTTP keep-alive duration configurations on ALB. Architects use this feature to align load balancer timeouts with backend server timeouts, effectively eliminating random 502 Bad Gateway errors in microservices.</li>
+</ul>
+<h5 id="deep-dive">Deep Dive<a class="headerlink" href="#deep-dive" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://www.youtube.com/watch?v=HinwLb2lpLQ">AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed architectural retrospective on AWS ELB, tracing its path from Classic Load Balancer (CLB) to specialized Application (ALB) and Network (NLB) balancers. While archived, it provides unmatched technical insights into early AWS software-defined networking design.</li>
+</ul>
+<h5 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2020)</strong> <a href="https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html">docs.aws.amazon.com: What Is Elastic Load Balancing?</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing the operational mechanics of Application, Network, Gateway, and Classic load balancers. Details targets, health checks, and cross-zone routing configurations. This represents the primary blueprint for modern ingress systems.</li>
+</ul>
+<h5 id="network-load-balancer">Network Load Balancer<a class="headerlink" href="#network-load-balancer" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://ably.com/blog/limits-aws-network-load-balancers">ably.com: Balancing act: the current limits of AWS network load balancers</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly critical real-world analysis detailing the edge-case limitations of AWS Network Load Balancers under extreme load. Outlines connection resets, silent drops, and target group scaling constraints. Live systems use this data to plan high-throughput gRPC and WebSocket infrastructure.</li>
+<li><strong>(2020)</strong> <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/resolve-dns-names-of-network-load-balancer-nodes-to-limit-cross-zone-traffic">Resolve DNS names of Network Load Balancer nodes to limit cross-Zone traffic</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates NLB node DNS resolution mechanisms to control cross-zone traffic costs. A critical reference for low-latency systems. Curator insight underlines zonal isolation; live operations utilize cross-zone disabling to reduce inter-availability zone latency and data transfer costs.</li>
+</ul>
+<h5 id="serverless-integration">Serverless Integration<a class="headerlink" href="#serverless-integration" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2020)</strong> <a href="https://dashbird.io/blog/aws-application-load-balancer">dashbird.io: AWS Elastic Load Balancing from a Serverless perspective</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Application Load Balancer configurations when integrated with serverless backends like AWS Lambda. Details pricing, cold-starts, and architectural trade-offs compared to API Gateway. Live systems often choose ALB for cost-effective, high-volume HTTP routing.</li>
+</ul>
+<h4 id="network-management">Network Management<a class="headerlink" href="#network-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://aws.amazon.com/products">aws.amazon.com: Network operations with AWS Network Manager</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.</li>
+</ul>
+<h4 id="networking-concepts">Networking Concepts<a class="headerlink" href="#networking-concepts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers">AWS Networking for Developers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes AWS's core networking constructs for software engineers. While early guides treat VPC and subnetting as peripheral, modern development architectures position these as foundational security boundaries. The guide details CIDR blocks, VPC structure, and security groups.</li>
+</ul>
+<h4 id="networking-pitfalls">Networking Pitfalls<a class="headerlink" href="#networking-pitfalls" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://cloudonaut.io/advanved-aws-networking-pitfalls-that-you-should-avoid">cloudonaut.io: Advanced AWS Networking: Pitfalls That You Should Avoid</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs highly complex pitfalls in AWS network implementations, specifically Route 53 routing loops and VPC peering scaling bottlenecks. While historic guides suggest basic VPC peers, live production systems demand Transit Gateways and PrivateLink to scale securely without IP overlap.</li>
+</ul>
+<h4 id="networking-tutorials">Networking Tutorials<a class="headerlink" href="#networking-tutorials" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero">AWS Cloud Networking – Zero to Hero</a>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides a step-by-step pathway from basic networking to comprehensive AWS network design. Contrasts entry-level topologies with complex multi-region enterprise structures. Essential reading for operations personnel migrating legacy on-prem networks to standard AWS subnets and VPC peers.</li>
+</ul>
+<h4 id="performance-optimization">Performance Optimization<a class="headerlink" href="#performance-optimization" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2018)</strong> <a href="https://aws-latency.altaircp.com">Find the fastest region from your location</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential community-built utility for testing regional latencies directly from client browsers to AWS data centers. Critical for architects choosing optimal regions for low-latency interactive applications and global disaster recovery architectures.</li>
+</ul>
+<h4 id="rds">RDS<a class="headerlink" href="#rds" title="Permanent link">&para;</a></h4>
+<h5 id="vpc-integration">VPC Integration<a class="headerlink" href="#vpc-integration" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance">Specifying the VPC for your Amazon RDS DB Instance</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the structural capability to assign Amazon RDS database instances to isolated VPC subnets. Critical for security architecture, establishing clear boundary isolation where databases exist in strictly private subnets separated from public app tiers.</li>
+</ul>
+<h4 id="remote-access-vpn">Remote Access VPN<a class="headerlink" href="#remote-access-vpn" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://cloudonaut.io/aws-client-vpn-connected-with-the-cloud">cloudonaut.io: AWS Client VPN: Connected with the Cloud</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates AWS Client VPN as a fully managed client-to-site VPN service. Contrasts self-managed OpenVPN boxes with AWS's elastic scale, highlighting directory service integrations, routing configurations, and target network associations.</li>
+</ul>
+<h4 id="reverse-proxy">Reverse Proxy<a class="headerlink" href="#reverse-proxy" title="Permanent link">&para;</a></h4>
+<h5 id="nginx-plus">NGINX Plus<a class="headerlink" href="#nginx-plus" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment">NGINX Plus on the AWS Cloud: Quick Start Reference Deployment</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy but highly informative deployment blueprint for configuring high-availability NGINX Plus instances on AWS. Explains load-balancing patterns, session persistence, and active health checks that bridge standard EC2 architectures with NGINX's enterprise proxy features.</li>
+</ul>
+<h4 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h4>
+<h5 id="ddos-resiliency">DDoS Resiliency<a class="headerlink" href="#ddos-resiliency" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2022)</strong> <a href="https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html">Configuring Route 53 for cost protection from NXDOMAIN attacks</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security blueprints to mitigate Route 53 billing anomalies caused by NXDOMAIN flood attacks. Demonstrates Route 53 Resolver query logging, caching, and CloudFront-to-Route53 integrations. Essential for enterprise architectural planning to protect cloud budgets from DDoS vectors.</li>
+</ul>
+<h5 id="ec2-connect">EC2 Connect<a class="headerlink" href="#ec2-connect" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2023)</strong> <a href="https://aws.amazon.com/blogs/compute/secure-connectivity-from-public-to-private-introducing-ec2-instance-connect-endpoint-june-13-2023">Secure Connectivity from Public to Private: Introducing EC2 Instance Connect Endpoint</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the EC2 Instance Connect Endpoint (EICE), a major evolutionary step in secure bastion-free SSH/RDP connectivity. Unlike traditional setups requiring public IPs or VPNs, EICE tunnels secure administrative connections directly through private subnets without exposed bastions.</li>
+</ul>
+<h5 id="gateway-load-balancer">Gateway Load Balancer<a class="headerlink" href="#gateway-load-balancer" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/apn/centralized-traffic-inspection-with-gateway-load-balancer-on-aws">Centralized Traffic Inspection with Gateway Load Balancer on AWS</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides reference architectures for Gateway Load Balancer (GWLB), routing ingress traffic through third-party virtual security appliances (firewalls, IDS/IPS). Employs GENEVE encapsulation to maintain transparent client source IPs across the inspection cluster.</li>
+</ul>
+<h5 id="waf">WAF<a class="headerlink" href="#waf" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2024)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2024/08/aws-waf-rate-based-rules-lower-rate-limits">AWS WAF enhances rate-based rules to support lower rate limits</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the critical update reducing AWS WAF rate-based rule limits to protect low-traffic APIs and login endpoints from brute-force attacks. Provides developers with more granular rate-limiting controls to prevent application abuse at the edge.</li>
+</ul>
+<h4 id="vpc">VPC<a class="headerlink" href="#vpc" title="Permanent link">&para;</a></h4>
+<h5 id="cli-administration">CLI Administration<a class="headerlink" href="#cli-administration" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2014)</strong> <a href="https://www.linuxjournal.com/content/aws-ec2-vpc-cli">linuxjournal.com: AWS EC2 VPC CLI</a>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy reference guide exploring early AWS CLI tools used to configure VPC environments. While historical, it charts the evolution from raw manual terminal commands to modern declarative Infrastructure-as-Code tooling like Terraform and AWS CDK.</li>
+</ul>
+<h5 id="fundamentals">Fundamentals<a class="headerlink" href="#fundamentals" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2019)</strong> <a href="https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html">awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level introductory guide detailing the core components of Amazon VPCs, including Subnets, Route Tables, Internet Gateways, and Security Groups. Ideal for engineers transitioning from traditional infrastructure to virtualized cloud networks.</li>
+</ul>
+<h5 id="vpc-endpoints">VPC Endpoints<a class="headerlink" href="#vpc-endpoints" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/networking-and-content-delivery/centralize-access-using-vpc-interface-endpoints">Centralize access using VPC interface endpoints to access AWS services across multiple VPCs</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced networking pattern describing how to route traffic through centralized VPC endpoints across complex multi-VPC configurations. Live architectures utilize Route 53 Private Hosted Zones and Transit Gateway routing to avoid redundant endpoint charges.</li>
+<li><strong>(2020)</strong> <a href="https://aws.amazon.com/blogs/architecture/reduce-cost-and-increase-security-with-amazon-vpc-endpoints">Reduce Cost and Increase Security with Amazon VPC Endpoints</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the architectural and fiscal benefits of adopting VPC Endpoints (Interface and Gateway types). Contrasts expensive NAT Gateway data processing charges with direct private connectivity to AWS services like S3 and DynamoDB, dramatically reducing costs.</li>
+</ul>
+<h4 id="vpc-architecture">VPC Architecture<a class="headerlink" href="#vpc-architecture" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2016)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start">Build a Modular and Scalable Amazon VPC Architecture with New Quick Start</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An archetypal reference detailing modular AWS VPC deployment patterns. Explores multi-AZ layouts, public/private subnets, and NAT Gateway placements. This blueprint remains the structural basis for most automated enterprise VPC templates today.</li>
+</ul>
+<h4 id="vpn-and-overlay-networks">VPN and Overlay Networks<a class="headerlink" href="#vpn-and-overlay-networks" title="Permanent link">&para;</a></h4>
+<h5 id="tailscale">Tailscale<a class="headerlink" href="#tailscale" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2022)</strong> <a href="https://tailscale.com/docs/install/cloud/aws">tailscale.com: Connect to an AWS VPC using subnet routes</a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the installation of Tailscale inside an AWS VPC to build low-overhead overlay networks using subnet routing. Real-world engineering proves that Tailscale's WireGuard-based routing simplifies cross-cloud access without the complexity of traditional IPsec VPNs.</li>
+</ul>
+<h3 id="azure-networking">Azure Networking<a class="headerlink" href="#azure-networking" title="Permanent link">&para;</a></h3>
+<h4 id="hybrid-connectivity">Hybrid Connectivity<a class="headerlink" href="#hybrid-connectivity" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842">Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.</li>
+</ul>
+<h2 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
+<h3 id="performance">Performance<a class="headerlink" href="#performance" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics">Diagnostics<a class="headerlink" href="#diagnostics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2018)</strong> <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fgroups%2F49531%2F49531-6092152919937794052">Linkedin Discussion</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Engineering discussion concerning performance profiling accuracy. Discusses latency calculation rules, warning against single-request testing owing to initial DNS resolution overhead and recommending at least a three-step request test pattern for reliable analytics.</li>
+</ul>
+<h2 id="software-engineering">Software Engineering<a class="headerlink" href="#software-engineering" title="Permanent link">&para;</a></h2>
+<h3 id="deployment-patterns">Deployment Patterns<a class="headerlink" href="#deployment-patterns" title="Permanent link">&para;</a></h3>
+<h4 id="blue-green">Blue-Green<a class="headerlink" href="#blue-green" title="Permanent link">&para;</a></h4>
+<h5 id="alb">ALB<a class="headerlink" href="#alb" title="Permanent link">&para;</a></h5>
+<ul>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer">Fine-tuning blue/green deployments on application load balancer</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="GoogleCloudPlatform.html">Googlecloudplatform</a> | <a href="edge-computing.html">Edge Computing</a> | <a href="azure.html">Azure</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -4021,8 +3655,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -4041,7 +3673,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -4062,8 +3694,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -4074,50 +3706,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -4144,90 +3732,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascript/extra.js"></script>
+        <script src="static/v2_filter.js"></script>
       
     
   </body>

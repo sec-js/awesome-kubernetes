@@ -4,10 +4,10 @@ hide:
   - toc
 ---
 
-# Kubernetes Distributions & Installers Matrix Table
+# Kubernetes Distributions and Installers Matrix Table
 - [atodorov.me: Comparing Kubernetes managed services across Digital Ocean, Scaleway, OVHCloud and Linode](https://atodorov.me/2020/06/14/comparing-kubernetes-managed-services-across-digital-ocean-scaleway-ovhcloud-and-linode)
 - [Learnk8s: Comparison of Kubernetes Managed Services 🌟](https://docs.google.com/spreadsheets/d/1RPpyDOLFmcgxMCpABDzrsBYWpPYCIBuvAoUQLwOGoQw/edit) [Learnk8s](https://uk.linkedin.com/company/learnkube) has compared Managed Kubernetes Services and put up online a nice sheet displaying best-breed cloud services and their Managed K8s offerings. Look for Price, Quotas, Security, etc.
-- [Learnk8s: Comparison of Kubernetes Ingress controllers 🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238) Daniele Polencic: "What's the best Kubernetes Ingress Controller? There is not a simple answer as some controllers are better suited for APIs, others require less maintenance, etc. To make sense of all the options, we've expanded the comparison of the Ingress controllers to include 16 Ingress controllers and several other missing features such as Hot Reloading, Proxy Protocol, Cert manager integration, etc."
+- [Learnk8s: Comparison of Kubernetes Ingress controllers 🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) Daniele Polencic: "What's the best Kubernetes Ingress Controller? There is not a simple answer as some controllers are better suited for APIs, others require less maintenance, etc. To make sense of all the options, we've expanded the comparison of the Ingress controllers to include 16 Ingress controllers and several other missing features such as Hot Reloading, Proxy Protocol, Cert manager integration, etc."
 - [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) Thanks to its container customer training, the $1 billion container software market is Red Hat’s to lose. Where do the other players stand?
 
 |  Kubernetes Installer or Distribution | Role | Ecosystem | Infra Provider | On-Premise | Licence | HA | Standalone | Runs in Docker | Ingress + Storage <br/>included | Automated <br/>Deployment | Details | 
@@ -16,7 +16,7 @@ hide:
 | [Ansible role for kubeadm automation](https://github.com/geerlingguy/ansible-role-kubernetes) | SRE / DevOps | Kubernetes Upstream | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes (storage?) | No | Ansible role for kubeadm automation |
 | [Kops](https://github.com/kubernetes/kops)| SRE / DevOps | Kubernetes Upstream | AWS | No | OSS | Yes | No | No | Yes | Yes | AWS compliant, alpha release <br/>for other providers | 
 | [Minikube](https://github.com/kubernetes/minikube)| Devel | Kubernetes Upstream | Dektop Virtual Machine | Yes | OSS | No | Yes | No | No | Yes | Official development environment |
-| [Docker Desktop on Windows](https://docs.docker.com/desktop/setup/sign-in/#kubernetes)| Devel | Kubernetes Upstream | Desktop Virtual Machine | Yes | OSS | No | Yes | Yes | No | Yes | Development environment available in <br/>Docker Desktop on Windows | 
+| [Docker Desktop on Windows](https://docs.docker.com/desktop/setup/sign-in)| Devel | Kubernetes Upstream | Desktop Virtual Machine | Yes | OSS | No | Yes | Yes | No | Yes | Development environment available in <br/>Docker Desktop on Windows | 
 | [Rancher 2](https://rancher.com/docs/rancher/v2.x/en)| SRE / DevOps | Multi-cloud kubernetes <br/>management | Virtual Machine | Yes | OSS | Yes | No | No | No | No | Racher is an enterprise kubernetes installer <br/>that competes with OpenShift. | 
 | [Rancher 2 RKE](https://www.rancher.com/products/secure-kubernetes-distribution)| SRE / DevOps | Rancher | Virtual Machine | Yes | OSS | Yes | Yes | Yes | no | no | Rancher 2 that runs in docker containers. | 
 | [K3s](https://k3s.io)| SRE / DevOps / IoT | Rancher | Virtual Machine | Yes | OSS | Yes | Yes | No | Yes | Yes | Basic kubernetes with automated installer. |
@@ -42,7 +42,7 @@ hide:
 | [Kubespray on Public Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | AWS, GCE, Azure, <br/>Oracle Cloud (experimental) | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
 | [Kubespray on Private Cloud](https://github.com/kubernetes-sigs/kubespray)| SRE / DevOps | Kubernetes Upstream | OpenStack, vSphere, <br/>Packet (bare metal), or baremetal | Yes | OSS | Yes | Yes | No | Yes | No |  |
 | [Conjure-up](https://canonical.com/juju)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  | 
-| [weave.works](https://www.weave.works/)| SRE / DevOps / Devel |  Kubernetes Upstream |  | | |  |  | |  |  |  |
+| [weave.works](https://www.weave.works)| SRE / DevOps / Devel |  Kubernetes Upstream |  | | |  |  | |  |  |  |
 | [WKSctl](https://github.com/weaveworks/wksctl)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |
 | [Caravan](https://engineering.linecorp.com/en/blog/building-large-kubernetes-clusters)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | Yes | No | Yes | Yes |  |
 | [ClusterAPI](https://cluster-api.sigs.k8s.io)| SRE / DevOps | Kubernetes Upstream |  | Yes | OSS | Yes | No | No | No |  |  | 

@@ -3,6 +3,46 @@
 !!! info "Architectural Context"
     Detailed reference for Performance testing with jenkins and JMeter or Gatling in the context of Platform & Site Reliability.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [CICD](#cicd)
+  - [GitHub Actions](#github-actions)
+    - [Performance Automation](#performance-automation)
+  - [Jenkins](#jenkins)
+    - [Reporting Plugins](#reporting-plugins)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Azure](#azure)
+    - [Testing Services](#testing-services)
+1. [Infrastructure](#infrastructure)
+  - [Testing](#testing)
+    - [Load Testing](#load-testing)
+1. [Performance Engineering](#performance-engineering)
+  - [Load Testing](#load-testing-1)
+    - [Distributed Testing](#distributed-testing)
+    - [Kubernetes Deployment](#kubernetes-deployment)
+    - [Observability](#observability)
+    - [Testing Frameworks](#testing-frameworks)
+    - [Tutorials](#tutorials)
+  - [Testing](#testing-1)
+    - [Benchmarking](#benchmarking)
+      - [HTTP Tools](#http-tools)
+1. [Systems](#systems)
+  - [Performance Tuning](#performance-tuning)
+    - [Diagnostic Tools](#diagnostic-tools)
+1. [Testing](#testing-2)
+  - [Performance Testing](#performance-testing)
+    - [Gatling](#gatling)
+    - [JMeter](#jmeter)
+    - [Locust](#locust)
+    - [SaaS Platforms](#saas-platforms)
+    - [Service Level Objectives](#service-level-objectives)
+    - [Vegeta](#vegeta)
+  - [Web Performance](#web-performance)
+    - [Industry Acquisitions](#industry-acquisitions)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -54,7 +94,7 @@
 
 #### Reporting Plugins
 
-  - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Jenkins CI plugin compiles, parses, and visualizes execution metrics from load testing utilities like JMeter, Taurus, and JUnit directly within build workflows. Architecturally, it helps teams enforce automated quality gates by failing pipelines based on strict metric thresholds (e.g., error percentages or response time limits).
+  - **(2024)** [performance-plugin](https://github.com/jenkinsci/performance-plugin) <span class='md-tag md-tag--info'>⭐ 194</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-357376b1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 12 L 30 5 L 40 12 L 50 12" fill="none" stroke="url(#spark-grad-357376b1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Jenkins CI plugin compiles, parses, and visualizes execution metrics from load testing utilities like JMeter, Taurus, and JUnit directly within build workflows. Architecturally, it helps teams enforce automated quality gates by failing pipelines based on strict metric thresholds (e.g., error percentages or response time limits).
   - **(2023)** [plugins.jenkins.io: gatling](https://plugins.jenkins.io/gatling) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Jenkins integration for Gatling, enabling automated parsing of Gatling simulation results inside CI workflows. It charts performance trends over time, facilitating rapid visual regression tracking and immediate identification of microservice performance degradation in downstream builds.
 ## Cloud Infrastructure
 
@@ -129,7 +169,7 @@
   - **(2023)** [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical exploration of how modern load testing tools are adopting Service Level Objectives (SLOs) as first-class assertions. It contrasts classical metric collections against modern SLO-driven assertions (e.g., verifying 95th percentile latency is under 100ms), showcasing how to integrate these checks directly into automated deployment flows.
 #### Vegeta
 
-  - **(2025)** [==tsenart/vegeta 🌟==](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25067</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Vegeta is an incredibly fast, highly optimized command-line HTTP load-testing tool and library written in Go. From an architectural perspective, it excels at maintaining a constant request rate (RPS) to pinpoint precisely when and where services break down, generating highly customizable text or vector graphic reports.
+  - **(2025)** [==tsenart/vegeta 🌟==](https://github.com/tsenart/vegeta) <span class='md-tag md-tag--info'>⭐ 25067</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ce0a49d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 12 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-ce0a49d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Vegeta is an incredibly fast, highly optimized command-line HTTP load-testing tool and library written in Go. From an architectural perspective, it excels at maintaining a constant request rate (RPS) to pinpoint precisely when and where services break down, generating highly customizable text or vector graphic reports.
 ### Web Performance
 
 #### Industry Acquisitions

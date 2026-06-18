@@ -30,7 +30,7 @@
 - [medium.com: Getting started with Istio](https://medium.com/swlh/getting-started-with-istio-524628c025)
 - [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)
 - [magalix.com: Getting Started With Istio: Overview And Installation](https://www.magalix.com/blog/getting-started-with-istio-overview-and-installation)
-- [The Istio project just consolidated its control plane services: Pilot, Citadel, Galley, and the sidecar injector, into a single binary, __Istiod__](https://istio.io/latest/blog/2020/tradewinds-2020/#fewer-moving-parts)
+- [The Istio project just consolidated its control plane services: Pilot, Citadel, Galley, and the sidecar injector, into a single binary, __Istiod__](https://istio.io/latest/blog/2020/tradewinds-2020)
 - [magalix.com: Working with Istio: Track your services with Kiali](https://www.magalix.com/blog/working-with-istio-track-your-services-with-kiali)
 - [banzaicloud.com: Istio telemetry V2 (Mixerless) deep dive](https://banzaicloud.com/blog/istio-mixerless-telemetry)
 - [medium.com: How to Manage Microservices on Kubernetes With Istio](https://medium.com/better-programming/how-to-manage-microservices-on-kubernetes-with-istio-c25e97a60a59) How to implement DevSecOps on microservices architecture with a service mesh

@@ -3,6 +3,18 @@
 !!! info "Architectural Context"
     Detailed reference for NoOps aka Serverless in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [DevOps](#devops)
+  - [Operations Paradigms](#operations-paradigms)
+    - [NoOps Critiques](#noops-critiques)
+    - [NoOps Philosophy](#noops-philosophy)
+  - [Serverless Architecture](#serverless-architecture)
+    - [NoOps Execution](#noops-execution)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

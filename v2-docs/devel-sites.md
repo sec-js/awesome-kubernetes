@@ -1,7 +1,75 @@
-# Development & Frameworks. Websites for web developers
+# Development and Frameworks. Websites for web developers
 
 !!! info "Architectural Context"
-    Detailed reference for Development & Frameworks. Websites for web developers in the context of Developer Ecosystem.
+    Detailed reference for Development and Frameworks. Websites for web developers in the context of Developer Ecosystem.
+
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Backend-as-a-Service](#backend-as-a-service)
+  - [Google Cloud](#google-cloud)
+    - [BaaS Platform](#baas-platform)
+  - [PostgreSQL](#postgresql)
+    - [BaaS Platform](#baas-platform-1)
+    - [Database Tooling](#database-tooling)
+1. [Career](#career)
+  - [Industry Trends](#industry-trends)
+    - [Languages](#languages)
+    - [Learning Paths](#learning-paths)
+    - [Market Analysis](#market-analysis)
+1. [Cluster Management](#cluster-management)
+  - [GUI Tools](#gui-tools)
+    - [Desktop Clients](#desktop-clients)
+1. [DevOps and CICD](#devops-and-cicd)
+  - [Automated Code Review](#automated-code-review)
+    - [Amazon CodeGuru](#amazon-codeguru)
+1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
+  - [Software Engineering Principles](#software-engineering-principles)
+    - [Developer Cognitive Load](#developer-cognitive-load)
+1. [Developer Productivity](#developer-productivity)
+  - [Integrated Development Environments](#integrated-development-environments)
+    - [Rust](#rust)
+1. [Developer Tooling](#developer-tooling)
+  - [CLI Frameworks](#cli-frameworks)
+    - [Oclif](#oclif)
+1. [Development Environments](#development-environments)
+  - [Local Orchestration](#local-orchestration)
+    - [DDEV](#ddev)
+    - [DDEV Guides](#ddev-guides)
+1. [Future of Engineering](#future-of-engineering)
+  - [AI-Assisted Development](#ai-assisted-development)
+    - [Devin AI](#devin-ai)
+1. [Infrastructure](#infrastructure)
+  - [Enterprise Operating Systems](#enterprise-operating-systems)
+    - [Software Collections](#software-collections)
+1. [Software Engineering](#software-engineering)
+  - [AI-Assisted Development](#ai-assisted-development-1)
+    - [Copilot Ecosystem](#copilot-ecosystem)
+  - [Collaboration](#collaboration)
+    - [Media Tools](#media-tools)
+  - [Configuration Languages](#configuration-languages)
+    - [Dhall](#dhall)
+  - [Design Patterns](#design-patterns)
+    - [Refactoring](#refactoring)
+  - [Developer Productivity](#developer-productivity-1)
+    - [Learning Paths](#learning-paths-1)
+    - [Resources](#resources)
+  - [Education](#education)
+    - [Systems Programming](#systems-programming)
+  - [Frontend](#frontend)
+    - [Frameworks](#frameworks)
+    - [Learning Paths](#learning-paths-2)
+    - [Trending](#trending)
+  - [Fundamentals](#fundamentals)
+    - [Concepts](#concepts)
+    - [Learning Paths](#learning-paths-3)
+    - [Object-Oriented Programming](#object-oriented-programming)
+  - [Languages](#languages-1)
+    - [Cloud-Native Programming](#cloud-native-programming)
+  - [Methodology](#methodology)
+    - [Documentation](#documentation)
 
 ## Architectural Foundations
 
@@ -57,7 +125,7 @@
 
 #### Desktop Clients
 
-  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
 ## DevOps and CICD
 
 ### Automated Code Review
@@ -154,7 +222,7 @@
   - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative study evaluating the architectural paradigms of Angular vs. React. Evaluates runtime performance, state management approaches, scaling potential, and long-term maintenance overhead in large-scale enterprise portals.
 #### Learning Paths (2)
 
-  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
+  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3419045" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e3419045)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
 #### Trending
 
   - **(2021)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) <span class='md-tag md-tag--warning'>[JAVASCRIPT/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weekly technical snapshot capturing ten trending open-source projects on GitHub, focusing on next-generation web platforms, development libraries, and modular application utilities.

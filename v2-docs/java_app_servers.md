@@ -3,6 +3,29 @@
 !!! info "Architectural Context"
     Detailed reference for Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes in the context of Developer Ecosystem.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud DevOps](#cloud-devops)
+  - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [Build Environments](#build-environments)
+      - [Runtime Configuration](#runtime-configuration)
+1. [Cloud-Native Java](#cloud-native-java)
+  - [Runtimes](#runtimes)
+    - [Payara Micro](#payara-micro)
+      - [Docker](#docker)
+    - [Payara Server](#payara-server)
+      - [Docker](#docker-1)
+    - [WildFly](#wildfly)
+      - [Developer Workflow](#developer-workflow)
+1. [Enterprise Java](#enterprise-java)
+  - [Runtimes](#runtimes-1)
+    - [Apache TomEE](#apache-tomee)
+    - [KumuluzEE](#kumuluzee)
+    - [Payara Server](#payara-server-1)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -50,7 +73,7 @@
 
 #### Apache TomEE
 
-  - **(2026)** [TomEE from Tomitribe](http://tomee.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apache TomEE is a lightweight, certified Jakarta EE and MicroProfile implementation built on Apache Tomcat. It merges Tomcat's speed and small footprint with full Java Enterprise capabilities, including CDI, JTA, and JPA, making it ideal for microservice deployments requiring standardized API layers.
+  - **(2026)** [TomEE from Tomitribe](https://tomee.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apache TomEE is a lightweight, certified Jakarta EE and MicroProfile implementation built on Apache Tomcat. It merges Tomcat's speed and small footprint with full Java Enterprise capabilities, including CDI, JTA, and JPA, making it ideal for microservice deployments requiring standardized API layers.
 #### KumuluzEE
 
   - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.

@@ -76,10 +76,10 @@
 - [Red Hat Communities of Practice](https://github.com/redhat-cop)
     - [OpenShift Toolkit 🌟](https://github.com/redhat-cop/openshift-toolkit)
     - [OpenShift Playbooks](https://github.com/redhat-cop/openshift-playbooks)
-- [**Uncontained.io**](http://uncontained.io) began as a project in the Red Hat Container Community of Practice to share knowledge about OpenShift adoption with members of Red Hat’s Consulting organization.
-    - [uncontained.io/articles/openshift-ha-installation](http://uncontained.io/articles/openshift-ha-installation/ )
-    - [uncontained.io/articles/openshift-and-the-org](http://uncontained.io/articles/openshift-and-the-org) 
-    - [**v1.uncontained.io**: Red Hat Consulting DevOps And OpenShift Playbooks 🌟](http://v1.uncontained.io) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
+- [**Uncontained.io**](https://uncontained.io) began as a project in the Red Hat Container Community of Practice to share knowledge about OpenShift adoption with members of Red Hat’s Consulting organization.
+    - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation/ )
+    - [uncontained.io/articles/openshift-and-the-org](https://uncontained.io/articles/openshift-and-the-org) 
+    - [**v1.uncontained.io**: Red Hat Consulting DevOps And OpenShift Playbooks 🌟](https://v1.uncontained.io) Red Hat Consulting DevOps and OpenShift Playbooks are guides for implementing DevOps technical practices and container automation approaches using Red Hat commercial open source products, including OpenShift Enterprise 3. They are intended to reflect real-world experience delivering solutions through these processes and technologies.
 
 ## Identity Management
 
@@ -89,14 +89,14 @@
 
 - [GitHub redhat-cop: OpenShift Toolkit - Quota Management 🌟](https://github.com/redhat-cop/openshift-toolkit/tree/master/quota-management)
 - [OpenShift 4 Resource Management](https://www.youtube.com/watch?v=JC_PB1yZcIc)
-- [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift/#.Xd5OE9WCGUk)
+- [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift)
 - [Quotas setting per project](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-per-project.html)
 - [Quotas setting across multiple projects](https://docs.openshift.com/container-platform/4.2/applications/quotas/quotas-setting-across-multiple-projects.html)
 
 ## Source-to-Image (S2I) Image Building Tools
 
-- [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html#source-build)
-    - [Source-to-Image (S2I)](https://docs.openshift.com/container-platform/3.11/creating_images/s2i.html#creating-images-s2i) is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by **injecting application source into a container image and assembling a new image**. The new image incorporates the base image (the builder) and built source and is ready to use with the docker run command. S2I supports incremental builds, which re-use previously downloaded dependencies, previously built artifacts, etc.
+- [Source-to-Image (S2I) Build](https://docs.openshift.com/container-platform/3.11/architecture/core_concepts/builds_and_image_streams.html)
+    - [Source-to-Image (S2I)](https://docs.openshift.com/container-platform/3.11/creating_images/s2i.html) is a tool for building reproducible, Docker-formatted container images. It produces ready-to-run images by **injecting application source into a container image and assembling a new image**. The new image incorporates the base image (the builder) and built source and is ready to use with the docker run command. S2I supports incremental builds, which re-use previously downloaded dependencies, previously built artifacts, etc.
 
 ## Videos
 

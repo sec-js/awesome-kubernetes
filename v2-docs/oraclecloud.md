@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Integrations](#cloud-integrations)
+  - [Oracle Cloud](#oracle-cloud)
+    - [Infrastructure](#infrastructure)
+    - [Open Source](#open-source)
+    - [Resource Management](#resource-management)
+1. [Databases](#databases)
+  - [APIs](#apis)
+    - [Best Practices](#best-practices)
+1. [Managed Kubernetes](#managed-kubernetes)
+  - [Oracle Cloud](#oracle-cloud-1)
+    - [OKE](#oke)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -31,7 +48,7 @@
 
 #### Best Practices
 
-  - **(2022)** [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](http://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth draft outlining architectural patterns and best practices for creating secure, low-latency REST APIs on top of enterprise relational databases. It details serialization strategies, rate limiting, and optimization pathways using Oracle REST Data Services (ORDS) to construct highly resilient microservices backends.
+  - **(2022)** [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](https://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth draft outlining architectural patterns and best practices for creating secure, low-latency REST APIs on top of enterprise relational databases. It details serialization strategies, rate limiting, and optimization pathways using Oracle REST Data Services (ORDS) to construct highly resilient microservices backends.
 ## Managed Kubernetes
 
 ### Oracle Cloud (1)

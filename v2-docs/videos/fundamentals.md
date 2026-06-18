@@ -16,7 +16,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/BE77h7dmoQU" title="Kubernetes: The Documentary [PART 1]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="BE77h7dmoQU" data-video-url="https://www.youtube.com/embed/BE77h7dmoQU" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/BE77h7dmoQU/hqdefault.jpg" alt="Kubernetes: The Documentary [PART 1]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -26,7 +31,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/318elIq37PE" title="Kubernetes: The Documentary [PART 2]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="318elIq37PE" data-video-url="https://www.youtube.com/embed/318elIq37PE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/318elIq37PE/hqdefault.jpg" alt="Kubernetes: The Documentary [PART 2]" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -36,7 +46,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/36aGHlsxlow" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="36aGHlsxlow" data-video-url="https://www.youtube.com/embed/36aGHlsxlow" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/36aGHlsxlow/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -46,7 +61,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/3B41u33BS2E" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="3B41u33BS2E" data-video-url="https://www.youtube.com/embed/3B41u33BS2E" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/3B41u33BS2E/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -56,7 +76,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/B_8vYxurU4k" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="B_8vYxurU4k" data-video-url="https://www.youtube.com/embed/B_8vYxurU4k" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/B_8vYxurU4k/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -66,7 +91,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/F3al0HP0MNo" title="Kubernetes New Contributor Orientation for 2026-02-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="F3al0HP0MNo" data-video-url="https://www.youtube.com/embed/F3al0HP0MNo" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/F3al0HP0MNo/hqdefault.jpg" alt="Kubernetes New Contributor Orientation for 2026-02-17" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -76,7 +106,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/Frje5KfNrxE" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="Frje5KfNrxE" data-video-url="https://www.youtube.com/embed/Frje5KfNrxE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Frje5KfNrxE/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -86,7 +121,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/J7R-T9Y1x3Y" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="J7R-T9Y1x3Y" data-video-url="https://www.youtube.com/embed/J7R-T9Y1x3Y" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/J7R-T9Y1x3Y/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -96,7 +136,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/V3Sq0Fgy3ds" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="V3Sq0Fgy3ds" data-video-url="https://www.youtube.com/embed/V3Sq0Fgy3ds" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/V3Sq0Fgy3ds/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -106,7 +151,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/XAOqUU5Xh1c" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="XAOqUU5Xh1c" data-video-url="https://www.youtube.com/embed/XAOqUU5Xh1c" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/XAOqUU5Xh1c/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -116,7 +166,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/gkcZEXqkmZM" title="Kubernetes New Contributor Orientation for 2026-03-17" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="gkcZEXqkmZM" data-video-url="https://www.youtube.com/embed/gkcZEXqkmZM" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/gkcZEXqkmZM/hqdefault.jpg" alt="Kubernetes New Contributor Orientation for 2026-03-17" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -126,7 +181,12 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/l2HpdgRFtN0" title="Kubernetes New Contributor Orientation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="l2HpdgRFtN0" data-video-url="https://www.youtube.com/embed/l2HpdgRFtN0" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/l2HpdgRFtN0/hqdefault.jpg" alt="Kubernetes New Contributor Orientation" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>
 
@@ -150,6 +210,11 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 
     <center markdown="1">
 
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/0Gb1z-2SjHY" title="How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
+    <div class="video-lazy-container" data-video-id="0Gb1z-2SjHY" data-video-url="https://www.youtube.com/embed/0Gb1z-2SjHY" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/0Gb1z-2SjHY/hqdefault.jpg" alt="How a Group of Developers Took Back Control from Enterprise Java | Spring: The Documentary" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
 
     </center>

@@ -3,6 +3,27 @@
 !!! info "Architectural Context"
     Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Data and AI](#data-and-ai)
+  - [Apache Spark](#apache-spark)
+    - [Cloud Migration](#cloud-migration)
+    - [Cost Optimization](#cost-optimization)
+    - [OpenShift](#openshift)
+    - [Performance and Tuning](#performance-and-tuning)
+    - [Streaming and Scheduling](#streaming-and-scheduling)
+  - [Cloud Platforms](#cloud-platforms)
+    - [Databricks](#databricks)
+  - [Data Pipelines](#data-pipelines)
+    - [Apache Spark](#apache-spark-1)
+  - [Databricks](#databricks-1)
+    - [Governance](#governance)
+  - [Market Analysis](#market-analysis)
+    - [Adoption Trends](#adoption-trends)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -47,7 +68,7 @@
 
 #### Governance
 
-  - **(2024)** [**github.com/databrickslabs/ucx: Databricks Labs UCX**](https://github.com/databrickslabs/ucx) <span class='md-tag md-tag--info'>⭐ 308</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The Databricks Labs UCX project provides a specialized framework designed to upgrade legacy Databricks workspaces to Unity Catalog governance standards. Simplifies catalog and privilege migrations automatically. Live Grounding confirms UCX is standard for enterprise organizations establishing secure, centralized data governance, metadata isolation, and unified access controls.
+  - **(2024)** [**github.com/databrickslabs/ucx: Databricks Labs UCX**](https://github.com/databrickslabs/ucx) <span class='md-tag md-tag--info'>⭐ 308</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3982b5e1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 7 L 30 8 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-3982b5e1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — The Databricks Labs UCX project provides a specialized framework designed to upgrade legacy Databricks workspaces to Unity Catalog governance standards. Simplifies catalog and privilege migrations automatically. Live Grounding confirms UCX is standard for enterprise organizations establishing secure, centralized data governance, metadata isolation, and unified access controls.
 ### Market Analysis
 
 #### Adoption Trends

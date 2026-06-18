@@ -136,7 +136,7 @@
 
 ## Python Interview Questions
 
-- [Python mini-quiz](http://www.mypythonquiz.com)
+- [Python mini-quiz](https://www.mypythonquiz.com)
 - [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions)
 
 ## System Design Interview

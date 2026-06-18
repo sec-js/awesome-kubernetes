@@ -43,4 +43,4 @@
 
 ## AWS and Splunk
 
-- [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](http://blogs.splunk.com/2016/06/22/aws-video)
+- [blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success](https://blogs.splunk.com/2016/06/22/aws-video)

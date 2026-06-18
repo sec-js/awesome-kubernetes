@@ -3,6 +3,23 @@
 !!! info "Architectural Context"
     Detailed reference for Remote Tech Jobs in the context of Career & Industry.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Career Development](#career-development)
+  - [Market Trends](#market-trends)
+    - [Salary Analytics](#salary-analytics)
+1. [Organizational Culture](#organizational-culture)
+  - [Remote Work](#remote-work)
+    - [Career Strategy](#career-strategy)
+    - [Company Culture](#company-culture)
+    - [Compliance and Tax](#compliance-and-tax)
+    - [Job Portals](#job-portals)
+    - [Mental Well-being](#mental-well-being)
+    - [Societal Shift](#societal-shift)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
       
       
-        <link rel="canonical" href="https://nubenetes.com/serverless.html">
+        <link rel="canonical" href="https://nubenetes.com/v2/serverless.html">
       
       
-        <link rel="prev" href="noops.html">
+        <link rel="prev" href="rancher.html">
       
       
-        <link rel="next" href="docker.html">
+        <link rel="next" href="crunchydata.html">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless - Nubenetes</title>
+        <title>Serverless - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="static/extra.css">
+    
+      <link rel="stylesheet" href="static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,13 +120,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+              Serverless
             
           </span>
         </div>
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,7 +263,7 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
@@ -285,13 +278,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="introduction.html" class="md-tabs__link">
+        <a href="videos/index.html" class="md-tabs__link">
           
   
   
     
   
-  Intro
+  Agentic Video Hub
 
         </a>
       </li>
@@ -307,443 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="sre.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devsecops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="noops.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="docker.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Docker
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="kubernetes.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  K8s
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="openshift.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="rancher.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="cicd.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="monitoring.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="iac.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ansible.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="databases.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="message-queue.html" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="servicemesh.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="demos.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="public-cloud-solutions.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="api.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="devel-sites.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="qa.html" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="ai.html" class="md-tabs__link">
+        <a href="ai-agents-mcp.html" class="md-tabs__link">
           
   
   
@@ -765,13 +322,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="project-management-methodology.html" class="md-tabs__link">
+        <a href="about.html" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +344,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="other-awesome-lists.html" class="md-tabs__link">
+        <a href="chaos-engineering.html" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
 
         </a>
       </li>
@@ -809,13 +366,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="recruitment.html" class="md-tabs__link">
+        <a href="ansible.html" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Hardened Infrastructure
 
         </a>
       </li>
@@ -828,17 +385,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="customer.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="GoogleCloudPlatform.html" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Cloud Providers (Hyperscalers)
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +407,44 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="uncategorized.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="caching.html" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="container-managers.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  The Container Stack
+
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +453,86 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="about.html" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="crunchydata.html" class="md-tabs__link">
+          
   
   
     
   
-  About
+  Data & Advanced Analytics
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="argo.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="ChromeDevTools.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="appointment-scheduling.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +566,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href="index.html" title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +596,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +630,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
   
 
     
@@ -1001,287 +652,46 @@
     
     
       
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="introduction.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="sre.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    SRE
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devsecops.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
-            
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="videos/index.html" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    NoOps
+    Agentic Video Hub
   
 
     
@@ -1289,402 +699,13 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    NoOps
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="noops.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="serverless.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#serverless-architectures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Serverless Architectures
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Serverless Architectures">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#serverless-bad-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Serverless Bad Practices
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#terraform-and-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Terraform and Serverless
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Governance
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#microservices-vs-serverless-kubernetes-vs-serverless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Microservices vs. Serverless. Kubernetes vs Serverless
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-studies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Studies
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#faas-function-as-a-service" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        FaaS: Function as a Service
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#serverless-ecosystems-comparison" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Serverless Ecosystems Comparison
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#serverless-framework-the-most-popular-serverless-ecosystem" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Serverless Framework (the most popular serverless ecosystem)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#openfaas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenFaaS
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openfunction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenFunction
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#knative" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Knative
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Knative">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#openshift-serverless-with-knative" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift Serverless with Knative
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#kubeless" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubeless
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openwhisk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenWhisk
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dapr-microservices-frameworks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Dapr Microservices Frameworks
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#popular-deployment-frameworks-for-aws-lambda" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Popular Deployment Frameworks for AWS Lambda
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#triggermesh-serverless-event-router" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        TriggerMesh serverless event router
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#images" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Images
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tweets" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tweets
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docker.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -1697,6 +718,71 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="ai-agents-mcp.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
       
         
       
@@ -1758,14 +844,14 @@
   
   
   
-    <a href="kubernetes.html" class="md-nav__link">
+    <a href="about.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    K8s
+    Architectural Foundations
   
 
     
@@ -1798,118 +884,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="openshift.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="rancher.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1947,14 +921,14 @@
   
   
   
-    <a href="cicd.html" class="md-nav__link">
+    <a href="chaos-engineering.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    CI/CD
+    Platform & Site Reliability
   
 
     
@@ -1987,128 +961,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="monitoring.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Montrg
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="iac.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Infra Prov
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -2155,7 +1007,7 @@
   <span class="md-ellipsis">
     
   
-    Config Mgmt
+    Hardened Infrastructure
   
 
     
@@ -2182,6 +1034,60 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2209,14 +1115,14 @@
   
   
   
-    <a href="databases.html" class="md-nav__link">
+    <a href="GoogleCloudPlatform.html" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    DB
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2241,15 +1147,187 @@
   
   
   
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="caching.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The Container Stack
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
     <li class="md-nav__item">
-      <a href="message-queue.html" class="md-nav__link">
+      <a href="container-managers.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Data Pipeline
+    Container Managers
   
 
     
@@ -2261,672 +1339,23 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="servicemesh.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="demos.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="public-cloud-solutions.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Cloud
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="api.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    APIs
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="devel-sites.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="qa.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="ai.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    AI
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="project-management-methodology.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Project Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="other-awesome-lists.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Refs+
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="recruitment.html" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Hiring
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="customer.html" class="md-nav__link">
+      <a href="docker.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Clients
+    Docker
   
 
     
@@ -2938,22 +1367,23 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="uncategorized.html" class="md-nav__link">
+      <a href="kubectl-commands.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Uncategorized
+    Kubectl Commands
   
 
     
@@ -2965,22 +1395,23 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="about.html" class="md-nav__link">
+      <a href="kubernetes-alternatives.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    About
+    Kubernetes Alternatives
   
 
     
@@ -2989,6 +1420,1968 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-autoscaling.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Autoscaling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-backup-migrations.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Backup Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-based-devel.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Based Devel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-bigdata.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Bigdata
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-client-libraries.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Client Libraries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-monitoring.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Monitoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-on-premise.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes On Premise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-operators-controllers.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Operators Controllers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-releases.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Releases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-storage.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Storage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="kubernetes-troubleshooting.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Troubleshooting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="noops.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Noops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp3.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCP 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ocp4.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OCP 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="openshift.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Openshift
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="rancher.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rancher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serverless
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="serverless.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Serverless
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architectural Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architectural Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architecture-decisions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architecture Decisions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architecture Decisions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparisons
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparisons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#containers-vs-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containers vs Serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-vs-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes vs Serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microservices-vs-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microservices vs Serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Solutions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#orchestration-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orchestration Decision
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparative-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparative Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Comparative Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#industry-trends" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Industry Trends
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microservices-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microservices Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scalability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scalability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#event-driven-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Event-Driven Systems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#migration-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Migration Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operational-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational Cost
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-infrastructure-and-orchestration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Infrastructure and Orchestration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Infrastructure and Orchestration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serverless-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case Studies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Native
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Native">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#faas-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FaaS Basics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FaaS Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Definitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Serverless
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Serverless">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apache-openwhisk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apache OpenWhisk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#framework-comparisons" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Framework Comparisons
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knative-tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knative Tooling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knative-and-api-gateways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knative and API Gateways
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openfaas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenFaaS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openfunction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenFunction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microservice-runtimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microservice Runtimes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Microservice Runtimes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dapr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dapr
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advanced-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#anti-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anti-patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ci-cd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CI-CD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-studies-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Case Studies (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecosystem-landscapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ecosystem Landscapes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Strategy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#operational-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operational Guides
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scaling-paradigms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scaling Paradigms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-architectures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visual Architectures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Platforms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless Platforms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#azure-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azure Functions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cost-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frameworks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud-Native
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud-Native">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-runtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Runtime
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Runtime">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dapr-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dapr (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dapr-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dapr Deployment
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orchestration-and-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orchestration and Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Orchestration and Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dapr-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dapr Workflows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless (2)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless (2)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AWS Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-driven" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Event-Driven
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enterprise-kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Kubernetes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Enterprise Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openshift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenShift
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OpenShift">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openshift-serverless" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenShift Serverless
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-serverless-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenShift Serverless Integration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serverless-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Workflows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event-driven-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Event Driven Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Event Driven Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Processing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Processing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#batch-vs-streaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Batch vs Streaming
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#design-patterns-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Patterns (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Design Patterns (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-integration-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Integration Patterns
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fundamentals-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamentals (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fundamentals (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visuals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visuals
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finops-and-cloud-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FinOps and Cloud Cost
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FinOps and Cloud Cost">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#azure-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azure Optimization
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Azure Optimization">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serverless-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless (3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure as Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure as Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#serverless-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Serverless Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Serverless Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hybrid-automation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hybrid Automation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tooling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tooling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deployment-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="crunchydata.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="argo.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="ChromeDevTools.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="appointment-scheduling.html" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -3009,278 +3402,427 @@
                   
 
 
-
-<h1 id="serverless-architectures-and-frameworks">Serverless Architectures and Frameworks</h1>
-<ol>
-<li><a href="#serverless-architectures">Serverless Architectures</a><ol>
-<li><a href="#serverless-bad-practices">Serverless Bad Practices</a></li>
-<li><a href="#terraform-and-serverless">Terraform and Serverless</a></li>
-<li><a href="#governance">Governance</a></li>
-<li><a href="#microservices-vs-serverless-kubernetes-vs-serverless">Microservices vs. Serverless. Kubernetes vs Serverless</a></li>
-<li><a href="#case-studies">Case Studies</a></li>
-<li><a href="#faas-function-as-a-service">FaaS: Function as a Service</a></li>
-<li><a href="#serverless-ecosystems-comparison">Serverless Ecosystems Comparison</a></li>
-</ol>
-</li>
-<li><a href="#serverless-framework-the-most-popular-serverless-ecosystem">Serverless Framework (the most popular serverless ecosystem)</a></li>
-<li><a href="#orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers">Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)</a><ol>
-<li><a href="#openfaas">OpenFaaS</a></li>
-<li><a href="#openfunction">OpenFunction</a></li>
-<li><a href="#knative">Knative</a><ol>
-<li><a href="#openshift-serverless-with-knative">OpenShift Serverless with Knative</a></li>
-</ol>
-</li>
-<li><a href="#kubeless">Kubeless</a></li>
-<li><a href="#openwhisk">OpenWhisk</a></li>
-<li><a href="#dapr-microservices-frameworks">Dapr Microservices Frameworks</a></li>
-</ol>
-</li>
-<li><a href="#popular-deployment-frameworks-for-aws-lambda">Popular Deployment Frameworks for AWS Lambda</a></li>
-<li><a href="#triggermesh-serverless-event-router">TriggerMesh serverless event router</a></li>
-<li><a href="#images">Images</a></li>
-<li><a href="#tweets">Tweets</a></li>
-</ol>
-<h2 id="serverless-architectures">Serverless Architectures</h2>
-<ul>
-<li><a href="https://martinfowler.com/articles/serverless.html">martinfowler.com: Serverless Architectures</a></li>
-<li><a href="https://developers.redhat.com/topics/serverless-architecture">developers.redhat.com: Serverless Architecture</a></li>
-<li><a href="https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1">itnext.io: Scaling My App: Serverless vs Kubernetes 🌟</a></li>
-<li><a href="https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609">Is Serverless The End Of Kubernetes?</a> A comparison of both technologies to stop the debate about what is better.</li>
-<li><a href="https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49">freecodecamp.org: Serverless is cheaper, not simpler</a></li>
-<li><a href="https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb">medium: What a typical 100% Serverless Architecture looks like in AWS!</a></li>
-<li><a href="https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334">theregister.com: Microservices guru says think serverless, not Kubernetes: You don&rsquo;t want to manage &lsquo;a towering edifice of stuff&rsquo;</a></li>
-<li><a href="https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless">serverless.com: Why we switched from docker to serverless</a></li>
-<li><a href="https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow">developers.redhat.com: Orchestrate event-driven, distributed services with Serverless Workflow and Kubernetes</a></li>
-<li><a href="https://dzone.com/articles/implementing-serverless-microservices-architecture">dzone: Implementing Serverless Microservices Architecture on AWS</a> we will explain how enterprises can implement serverless microservices architectures using AWS Cloud.</li>
-<li><a href="https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic">docs.google.com: Serverless Guide to Success 2021</a></li>
-<li><a href="https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2">vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds</a></li>
-<li><a href="https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes">dzone: When to Use Serverless, and When to Use Kubernetes 🌟</a> If you are stuck at a crossroads and need some help deciding, here are some conditions which might help you make your selection.</li>
-<li><a href="https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689">itnext.io: Kubernetes Serverless simply visually explained 🌟</a> We explore ways of making Kubernetes serverless in a straight-forward and tool-agnostic way</li>
-<li><a href="https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount">readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟</a> <strong>When designing serverless apps, you must consider the right level of scale. Your architecture choices will vary greatly depending on the expected load. &ldquo;Just because serverless services can scale doesn&rsquo;t mean they will scale&rdquo;.</strong></li>
-<li><a href="https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd"><mark>jeromevdl.medium.com: When to use a Lambda function, and when not?</mark> 🌟</a></li>
-<li><a href="https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions"><mark>c-sharpcorner.com: Why and When to use Azure Functions</mark></a></li>
-<li><a href="https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions">dzone: When to Use Logic Apps and Azure Functions</a> Here we take a look at two of the programs in Azure&rsquo;s toolbox, Logic Apps and Azure Functions, and compare them with each other.</li>
-<li><a href="https://www.sls.guru/blog/enterprise-serverless-adoption">serverlessguru.com: Enterprise Serverless Adoption 🌟</a> Adopting a new architecture may be intimidating. Having to migrate all of your workloads over to your cloud provider can be time-consuming and stressful. I’m sure you’re wondering, “How can I benefit from serverless?” I’m going to detail how some of the biggest companies in the world are maximizing efficiencies within their organization using serverless technology! Let’s dive in.</li>
-<li><a href="https://docs.aws.amazon.com/modern-apps-strategy-on-aws-how-to-choose">aws.amazon.com: Serverless or Kubernetes on AWS 🌟</a></li>
-<li><a href="https://serverlessland.com/event-driven-architecture"><mark>serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture</mark> 🌟</a> What are Event Driven Architectures ?</li>
-<li><a href="https://medium.com/@marinradjenovic/why-do-you-still-need-to-think-of-scalability-when-architecting-serverless-apps-a2e1f14e3eca">medium.com/@marinradjenovic: Why do you still need to think of scalability when architecting Serverless apps?</a></li>
-<li><a href="https://architectelevator.com/cloud/serverless-design-patterns">architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!</a> Design patterns have helped us improve software design for decades. In the cloud, they can also reduce our switching cost. That’s magic!</li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals"><mark>serverlessland.com: EDA VISUALS</mark> 🌟🌟🌟</a> <strong>Small bite sized visuals about event-driven architectures</strong><ul>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams"><mark>serverlessland.com: BATCH PROCESSING VS EVENT STREAMING</mark></a> What&rsquo;s the difference between batching and event streams? When should you use one over the other? Events are super important in our event-driven architectures, so understanding these fundamentals can help.</li>
-<li><a href="https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern">serverlessland.com: Splitter pattern</a> When building message/event based solutions you may want to take a message or event and split it into many different ones. We can use this to split large messages/events into smaller ones for downstream consumers.</li>
-</ul>
-</li>
-<li><a href="https://dev.to/aws-heroes/serverless-beyond-the-basics-kom">dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟</a></li>
-<li><a href="https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless">theburningmonk.com: Why you should use ephemeral environments when you do serverless</a></li>
-</ul>
-<h3 id="serverless-bad-practices">Serverless Bad Practices</h3>
-<ul>
-<li>
-<p><a href="https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless">ServerlessHorrors: A Web Compiling Nightmares in the Serverless World</a> - ServerlessHorrors is a website dedicated to collecting real-life stories and experiences of developers facing unexpected issues and exorbitant costs within the serverless cloud environment. It serves as a &lsquo;horror museum&rsquo; for the cloud, documenting cases of massive bills, billing errors, configuration misunderstandings, and abuses of serverless models across major providers like Vercel, Google Cloud, AWS, and Cloudflare.</p>
-</li>
-<li>
-<p><a href="https://serverlesshorrors.com"><mark>serverlesshorrors.com</mark> 🌟</a></p>
-</li>
-</ul>
-<h3 id="terraform-and-serverless">Terraform and Serverless</h3>
-<ul>
-<li><a href="https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together">theburningmonk.com: Making Terraform and Serverless framework work together</a></li>
-</ul>
-<h3 id="governance">Governance</h3>
-<ul>
-<li><a href="https://betterprogramming.pub/going-serverless-governance-is-everything-c70589c9cee9">betterprogramming.pub: Going Serverless? Governance Is Everything</a> When deciding to go serverless, you need to put up some guardrails to protect yourself. If you don’t, you might find yourself in a hole you can’t get out of</li>
-</ul>
-<h3 id="microservices-vs-serverless-kubernetes-vs-serverless">Microservices vs. Serverless. Kubernetes vs Serverless</h3>
-<ul>
-<li><a href="https://fathomtech.io/blog/microservices-vs-serverless">fathomtech.io: Microservices vs. Serverless</a></li>
-<li><a href="https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose">cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟</a></li>
-<li><a href="https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms">economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless vs. Kubernetes when deploying microservices</a></li>
-<li><a href="https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you">acloudguru.com: Containers vs serverless: Which is right for you?</a> Serverless is one of the hottest new cloud trends. However, I have found it leads to more harm than good in the long run. While I understand some of the problems listed above are not unique to serverless, they are much more prolific; leading engineers to spend most of their time with YAML configuration or troubleshooting function execution rather than crafting business logic. What I find odd is the lack of complaints from the community. If I’m alone in my assessment, I’d love to hear from you in the comments below. I’ve spent a significant amount of time over the last few years working to undo my own serverless mistakes as well as those made by other developers. Maybe I’m the one who has been brainwashed? Time will tell.</li>
-<li><a href="https://oliverjumpertz.medium.com/serverless-vs-kubernetes-58b0b387dc98">oliverjumpertz.medium.com: Serverless vs. Kubernetes</a></li>
-<li><a href="https://thenewstack.io/serverless-vs-kubernetes-the-peoples-vote"><mark>thenewstack.io: Serverless vs. Kubernetes: The People’s Vote</mark></a> A breakout session at AWS&rsquo; recent Re:Invent conference provided a six point comparison of serverless  and Kubernetes to finally determine which architecture was better. The audience voted on which would be the winner.</li>
-</ul>
-<h3 id="case-studies">Case Studies</h3>
-<ul>
-<li><a href="https://dashbird.io/blog/serverless-case-study-coca-cola">dashbird.io: Serverless Case Study – Coca-Cola</a></li>
-<li><a href="https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles">thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles</a></li>
-</ul>
-<h3 id="faas-function-as-a-service">FaaS: Function as a Service</h3>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service">wikipedia: FaaS Function as a Service</a></li>
-<li><a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas">redhat.com: What is Function-as-a-Service (FaaS)?</a></li>
-<li><a href="https://stackify.com/function-as-a-service-serverless-architecture">stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!</a></li>
-<li><a href="https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84"><mark>dev.to: FaaS on Kubernetes: From AWS Lambda &amp; API Gateway To Knative &amp; Kong API Gateway</mark></a> how to build and deploy a REST API powered by serverless functions running on Kubernetes. You will learn how to use Knative, Kong API Gateway, and the kazi CLI - <a href="https://pmbanugo.me/blog/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway">pmbanugo.me: FaaS on Kubernetes: From AWS Lambda &amp; API Gateway To Knative &amp; Kong API Gateway</a></li>
-</ul>
-<h3 id="serverless-ecosystems-comparison">Serverless Ecosystems Comparison</h3>
-<ul>
-<li><a href="https://fauna.com/blog/comparison-faas-providers">fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless Function (FaaS) Providers</a></li>
-<li><a href="https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem">techbeacon.com: An essential guide to the 2019 serverless ecosystem</a> The Serverless Framework, the most popular option, offers integrations with all major platform providers. Others to consider include (in alphabetical order): Architect (Node, AWS), Chalice (Python, AWS), Claudia.js (Node, AWS), Dawson (Node, AWS), DEEP (Node, AWS), Flogo (Go, AWS), Lambada Framework (Java, AWS), Python-Lambda (Python, AWS), Pulumi (Node/Python/Go, AWS/Azure/GCP/Kubernetes), Shep (Node, AWS), Sparta (Go, AWS), Spring Cloud Function (Java, AWS/Azure/OpenWhisk), and Zappa (Python, AWS).</li>
-<li><a href="https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks">vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks</a></li>
-<li><a href="https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9">dev.to: Price Comparison of Popular Serverless Architecture Providers</a></li>
-</ul>
-<h2 id="serverless-framework-the-most-popular-serverless-ecosystem">Serverless Framework (the most popular serverless ecosystem)</h2>
-<ul>
-<li>
-<p><a href="https://www.docker.com/llm">Docker for LLMs</a> - <em>(Related to docker topic)</em></p>
-</li>
-<li>
-<p><a href="https://www.serverless.com">serverless.com: Serverless Framework</a></p>
-</li>
-</ul>
-<h2 id="orchestrators-of-functions-on-kubernetes-aka-kubernetes-native-serverless-frameworks-or-faas-providers">Orchestrators of Functions on Kubernetes (aka Kubernetes Native Serverless Frameworks or FaaS Providers)</h2>
-<ul>
-<li>
-<p><a href="https://build5nines.com/azure-functions-cost-considerations-and-optimization">Azure Functions Cost Considerations and Optimization</a> - A comprehensive guide to understanding and optimizing costs for Azure Functions. It covers different pricing models (Consumption, Premium, Dedicated), key cost drivers (execution time, memory, invocations, network traffic), and strategies for cost reduction (optimizing execution time, batching events, right-sizing resources, reducing cold starts). The article also discusses hidden costs and tools for cost management and budgeting.</p>
-</li>
-<li>
-<p><a href="https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more">epsagon.com: Serverless Open-Source Frameworks: <strong>OpenFaaS</strong>, <strong>Knative</strong>, &amp; More 🌟</a></p>
-</li>
-<li><a href="https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more">winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more</a></li>
-<li><a href="https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks">vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks</a></li>
-</ul>
-<h3 id="openfaas">OpenFaaS</h3>
-<ul>
-<li><a href="https://www.openfaas.com">OpenFaaS</a></li>
-<li><a href="https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9">itnext.io: Deploy your first Serverless Function to Kubernetes</a></li>
-<li><a href="https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless">magalix.com: Implementing FaaS in Kubernetes Using Kubeless</a></li>
-<li><a href="https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c">itnext.io: <strong>arkade</strong> by example — Kubernetes apps, the easy way 🌟</a></li>
-<li><a href="https://www.xenonstack.com/blog/serverless-open-faas-java">xenonstack.com: Serverless Architecture with OpenFaaS and Java</a></li>
-<li><a href="http://web.archive.org/web/20230202080638/https://dzone.com/articles/getting-started-with-the-openfaas-kubernetes-opera">dzone: Getting Started with the OpenFaaS Kubernetes Operator on EKS 🌟 [ARCHIVED]</a></li>
-<li><a href="https://www.openfaas.com/blog/kim">openfaas.com: Learn how to build functions faster using Rancher&rsquo;s kim and K3s</a> Learn how the kim tool from Rancher can be used to build functions directly into a K3s cluster.</li>
-</ul>
-<h3 id="openfunction">OpenFunction</h3>
-<ul>
-<li><a href="https://github.com/OpenFunction/OpenFunction">OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox Project)</a> OpenFunction is a cloud-native open-source FaaS (Function as a Service) platform aiming to let you focus on your business logic without having to maintain the underlying runtime environment and infrastructure.</li>
-</ul>
-<h3 id="knative">Knative</h3>
-<ul>
-<li><a href="https://knative.dev">knative.dev</a></li>
-<li><a href="https://github.com/knative/client">kn: knative client</a> Knative developer experience, docs, reference Knative CLI implementation. The Knative client kn is your door to the Knative world. It allows you to create Knative resources interactively from the command line or from within Shell scripts.</li>
-<li><a href="https://www.redhat.com/en/topics/microservices/what-is-knative">redhat.com: What is knative?</a></li>
-<li><a href="https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants">datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants</a></li>
-</ul>
-<h4 id="openshift-serverless-with-knative">OpenShift Serverless with Knative</h4>
-<ul>
-<li><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless">OpenShift Serverless</a></li>
-<li><a href="https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview">developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview</a></li>
-<li><a href="https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless">openshift.com: Why and When you need to consider OpenShift Serverless</a></li>
-<li><a href="https://redhat-scholars.github.io/serverless-workflow/osl/index.html">redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial</a></li>
-</ul>
-<h3 id="kubeless">Kubeless</h3>
-<ul>
-<li><a href="https://kubeless.io">kubeless.io</a></li>
-<li><a href="https://medium.com/@peiruwang/serverless-build-a-serverless-simple-flask-application-with-kubeless-on-top-of-kubernetes-95c6682c3750">medium.com: Serverless - Build a Serverless Simple Flask Application with Kubeless on top of Kubernetes</a></li>
-</ul>
-<h3 id="openwhisk">OpenWhisk</h3>
-<ul>
-<li><a href="https://openwhisk.apache.org">openwhisk.apache.org</a></li>
-</ul>
-<h3 id="dapr-microservices-frameworks">Dapr Microservices Frameworks</h3>
-<ul>
-<li><a href="https://dapr.io">Dapr</a></li>
-<li><a href="https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html">Building microservices? Give Dapr a try</a> Microsoft’s open source, cross-platform microservices framework is ready for prime time at last.</li>
-<li><a href="https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications">versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟</a></li>
-<li><a href="https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr">developers.redhat.com: Build and deploy microservices with Kubernetes and Dapr</a></li>
-<li><a href="https://dev.to/cvitaa11/running-dapr-on-kubernetes-89g">dev.to: Running Dapr on Kubernetes</a> The distributed application runtime, Dapr, is a portable, event-driven runtime that can run on the cloud or any edge infrastructure. It puts together the best practices for building microservice applications into components called building blocks.</li>
-<li><a href="https://github.com/diagrid-labs/dapr-workflow-demos">github.com/diagrid-labs/dapr-workflow-demos</a></li>
-<li><a href="https://headleysj.medium.com/building-event-driven-systems-at-scale-in-kubernetes-with-dapr-part-2-how-does-dapr-work-732ba7a0d652">headleysj.medium.com: Building event-driven systems at scale in Kubernetes with Dapr — Part II: How does Dapr work?</a></li>
-</ul>
-<h2 id="popular-deployment-frameworks-for-aws-lambda">Popular Deployment Frameworks for AWS Lambda</h2>
-<ul>
-<li><a href="https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda">thenewstack.io: Build a Serverless API with AWS Gateway and Lambda</a></li>
-</ul>
-<h2 id="triggermesh-serverless-event-router">TriggerMesh serverless event router</h2>
-<ul>
-<li><a href="https://www.triggermesh.com">TriggerMesh</a> Easily build event-driven applications<ul>
-<li>Open-source AWS EventBridge alternative</li>
-<li>Unified eventing experience</li>
-<li>Developer-friendly CLI</li>
-<li>Runs on Docker or natively on Kubernetes</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications">thenewstack.io: TriggerMesh: Open Sourcing Event-Driven Applications</a> The open source, cloud-agnostic, serverless event router allows users to produce and consume between multiple clouds and on-prem data centers. Check out these real-life case studies.</li>
-</ul>
-<h2 id="images">Images</h2>
-<details class="note">
-<summary>Click to expand!</summary>
-<center markdown="1">
-<p><a href="https://www.xenonstack.com/blog/serverless-open-faas-java"><img alt="Serverless" src="images/from-monolith-to-serverless.jpg" /></a></p>
-</center>
-</details>
-<h2 id="tweets">Tweets</h2>
-<details>
-  <summary>Click to expand!</summary>
-
-<center markdown="1">
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hi aspiring cloud professional, my name is Adam and I need you to listen to me.<br><br>First, I make a zillion-ish dollars per year freelancing and I stand to gain nothing from your attention.<br><br>I’m writing to you because it occurs to me that things I think are obvious probably aren’t.</p>&mdash; Adam Elmore (@aeduhm) <a href="https://twitter.com/aeduhm/status/1443308075079938055?ref_src=twsrc%5Etfw">September 29, 2021</a></blockquote> <script async src="assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">When building message/event based solutions you may want to take a message or event and split it into many different ones.<br><br>We can use this to split large messages/events into smaller ones for downstream consumers.<br><br>Visual, resources and example 👇<a href="https://t.co/kqbYoNMxkA">https://t.co/kqbYoNMxkA</a> <a href="https://t.co/5qyhbVcSZJ">pic.twitter.com/5qyhbVcSZJ</a></p>&mdash; David Boyne 🚀 (@boyney123) <a href="https://twitter.com/boyney123/status/1630233252702171138?ref_src=twsrc%5Etfw">February 27, 2023</a></blockquote> <script async src="assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</center>
-</details>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/serverless.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/serverless.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="serverless-architectures-and-frameworks">Serverless Architectures and Frameworks<a class="headerlink" href="#serverless-architectures-and-frameworks" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Serverless Architectures and Frameworks in the context of The Container Stack.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#architecture-decisions">Architecture Decisions</a></li>
+<li><a href="#comparisons">Comparisons</a><ul>
+<li><a href="#containers-vs-serverless">Containers vs Serverless</a></li>
+<li><a href="#kubernetes-vs-serverless">Kubernetes vs Serverless</a></li>
+<li><a href="#microservices-vs-serverless">Microservices vs Serverless</a></li>
+</ul>
+</li>
+<li><a href="#cloud-architecture">Cloud Architecture</a></li>
+<li><a href="#aws-solutions">AWS Solutions</a><ul>
+<li><a href="#orchestration-decision">Orchestration Decision</a></li>
+</ul>
+</li>
+<li><a href="#comparative-systems">Comparative Systems</a><ul>
+<li><a href="#industry-trends">Industry Trends</a></li>
+<li><a href="#microservices-strategy">Microservices Strategy</a></li>
+<li><a href="#scalability">Scalability</a></li>
+</ul>
+</li>
+<li><a href="#serverless">Serverless</a><ul>
+<li><a href="#event-driven-systems">Event-Driven Systems</a></li>
+<li><a href="#fundamentals">Fundamentals</a></li>
+<li><a href="#migration-patterns">Migration Patterns</a></li>
+<li><a href="#operational-cost">Operational Cost</a></li>
+</ul>
+</li>
+<li><a href="#cloud-infrastructure-and-orchestration">Cloud Infrastructure and Orchestration</a></li>
+<li><a href="#serverless-architecture">Serverless Architecture</a><ul>
+<li><a href="#case-studies">Case Studies</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native">Cloud Native</a></li>
+<li><a href="#faas-basics">FaaS Basics</a><ul>
+<li><a href="#definitions">Definitions</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-serverless">Kubernetes Serverless</a><ul>
+<li><a href="#apache-openwhisk">Apache OpenWhisk</a></li>
+<li><a href="#framework-comparisons">Framework Comparisons</a></li>
+<li><a href="#knative">Knative</a></li>
+<li><a href="#knative-tooling">Knative Tooling</a></li>
+<li><a href="#knative-and-api-gateways">Knative and API Gateways</a></li>
+<li><a href="#openfaas">OpenFaaS</a></li>
+<li><a href="#openfunction">OpenFunction</a></li>
+</ul>
+</li>
+<li><a href="#microservice-runtimes">Microservice Runtimes</a><ul>
+<li><a href="#dapr">Dapr</a></li>
+</ul>
+</li>
+<li><a href="#serverless-1">Serverless</a><ul>
+<li><a href="#advanced-best-practices">Advanced Best Practices</a></li>
+<li><a href="#anti-patterns">Anti-patterns</a></li>
+<li><a href="#ci-cd">CI-CD</a></li>
+<li><a href="#case-studies-1">Case Studies</a></li>
+<li><a href="#design-patterns">Design Patterns</a></li>
+<li><a href="#ecosystem-landscapes">Ecosystem Landscapes</a></li>
+<li><a href="#enterprise-strategy">Enterprise Strategy</a></li>
+<li><a href="#operational-guides">Operational Guides</a></li>
+<li><a href="#scaling-paradigms">Scaling Paradigms</a></li>
+<li><a href="#visual-architectures">Visual Architectures</a></li>
+</ul>
+</li>
+<li><a href="#serverless-platforms">Serverless Platforms</a><ul>
+<li><a href="#azure-functions">Azure Functions</a></li>
+<li><a href="#cost-optimization">Cost Optimization</a></li>
+<li><a href="#frameworks">Frameworks</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native">Cloud-Native</a></li>
+<li><a href="#application-runtime">Application Runtime</a><ul>
+<li><a href="#dapr-1">Dapr</a></li>
+<li><a href="#dapr-deployment">Dapr Deployment</a></li>
+</ul>
+</li>
+<li><a href="#orchestration-and-workflow">Orchestration and Workflow</a><ul>
+<li><a href="#dapr-workflows">Dapr Workflows</a></li>
+</ul>
+</li>
+<li><a href="#serverless-2">Serverless</a><ul>
+<li><a href="#aws-integration">AWS Integration</a></li>
+<li><a href="#event-driven">Event-Driven</a></li>
+</ul>
+</li>
+<li><a href="#enterprise-kubernetes">Enterprise Kubernetes</a></li>
+<li><a href="#openshift">OpenShift</a><ul>
+<li><a href="#openshift-serverless">OpenShift Serverless</a></li>
+<li><a href="#openshift-serverless-integration">OpenShift Serverless Integration</a></li>
+<li><a href="#serverless-workflows">Serverless Workflows</a></li>
+</ul>
+</li>
+<li><a href="#event-driven-architecture">Event Driven Architecture</a></li>
+<li><a href="#data-processing">Data Processing</a><ul>
+<li><a href="#batch-vs-streaming">Batch vs Streaming</a></li>
+</ul>
+</li>
+<li><a href="#design-patterns-1">Design Patterns</a><ul>
+<li><a href="#enterprise-integration-patterns">Enterprise Integration Patterns</a></li>
+</ul>
+</li>
+<li><a href="#fundamentals-1">Fundamentals</a><ul>
+<li><a href="#concepts">Concepts</a></li>
+<li><a href="#visuals">Visuals</a></li>
+</ul>
+</li>
+<li><a href="#finops-and-cloud-cost">FinOps and Cloud Cost</a></li>
+<li><a href="#azure-optimization">Azure Optimization</a><ul>
+<li><a href="#serverless-3">Serverless</a></li>
+</ul>
+</li>
+<li><a href="#infrastructure-as-code">Infrastructure as Code</a></li>
+<li><a href="#serverless-integration">Serverless Integration</a><ul>
+<li><a href="#hybrid-automation">Hybrid Automation</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes">Kubernetes</a></li>
+<li><a href="#tooling">Tooling</a><ul>
+<li><a href="#deployment-tools">Deployment Tools</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://developers.redhat.com/topics/serverless-architecture">developers.redhat.com: Serverless Architecture</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developers.redhat.com: Serverless Architecture in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.docker.com/llm">Docker for LLMs</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb">medium: What a typical 100% Serverless Architecture looks like in AWS!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: What a typical 100% Serverless Architecture looks like in AWS! in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/implementing-serverless-microservices-architecture">dzone: Implementing Serverless Microservices Architecture on AWS</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Implementing Serverless Microservices Architecture on AWS in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://vimal-dwarampudi.medium.com/serverless-architecture-design-on-major-clouds-8c53c2aa62d2">vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering vimal-dwarampudi.medium.com: Serverless Architecture design on major clouds in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes">dzone: When to Use Serverless, and When to Use Kubernetes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Serverless, and When to Use Kubernetes 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://jeromevdl.medium.com/when-to-use-a-lambda-function-and-when-not-9a225e6dd2dd">jeromevdl.medium.com: When to use a Lambda function, and when not? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>jeromevdl.medium.com: When to use a Lambda function, and when not?</mark> 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions">dzone: When to Use Logic Apps and Azure Functions</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Logic Apps and Azure Functions in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@marinradjenovic/why-do-you-still-need-to-think-of-scalability-when-architecting-serverless-apps-a2e1f14e3eca">medium.com/@marinradjenovic: Why do you still need to think of scalability' when architecting Serverless apps?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@marinradjenovic: Why do you still need to think of scalability' when architecting Serverless apps? in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://betterprogramming.pub/going-serverless-governance-is-everything-c70589c9cee9">betterprogramming.pub: Going Serverless? Governance Is Everything</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Going Serverless? Governance Is Everything in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://oliverjumpertz.medium.com/serverless-vs-kubernetes-58b0b387dc98">oliverjumpertz.medium.com: Serverless vs. Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering oliverjumpertz.medium.com: Serverless vs. Kubernetes in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/Function_as_a_service">wikipedia: FaaS Function as a Service</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: FaaS Function as a Service in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://fauna.com/blog/comparison-faas-providers">fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless' Function (FaaS) Providers</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fauna.com: How does FaaS compare to PaaS and CaaS. A Comparison of Serverless' Function (FaaS) Providers in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.magalix.com/blog/implementing-faas-in-kubernetes-using-kubeless">magalix.com: Implementing FaaS in Kubernetes Using Kubeless</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Implementing FaaS in Kubernetes Using Kubeless in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://kubeless.io">kubeless.io</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubeless.io in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@peiruwang/serverless-build-a-serverless-simple-flask-application-with-kubeless-on-top-of-kubernetes-95c6682c3750">medium.com: Serverless - Build a Serverless Simple Flask Application with' Kubeless on top of Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Serverless - Build a Serverless Simple Flask Application with' Kubeless on top of Kubernetes in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://headleysj.medium.com/building-event-driven-systems-at-scale-in-kubernetes-with-dapr-part-2-how-does-dapr-work-732ba7a0d652">headleysj.medium.com: Building event-driven systems at scale in Kubernetes' with Dapr — Part II: How does Dapr work?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering headleysj.medium.com: Building event-driven systems at scale in Kubernetes' with Dapr — Part II: How does Dapr work? in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.triggermesh.com">TriggerMesh</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering TriggerMesh in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="architecture-decisions">Architecture Decisions<a class="headerlink" href="#architecture-decisions" title="Permanent link">&para;</a></h2>
+<h3 id="comparisons">Comparisons<a class="headerlink" href="#comparisons" title="Permanent link">&para;</a></h3>
+<h4 id="containers-vs-serverless">Containers vs Serverless<a class="headerlink" href="#containers-vs-serverless" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.pluralsight.com/resources/blog/cloud/containers-vs-serverless-which-is-right-for-you"><strong>acloudguru.com: Containers vs serverless: Which is right for you?</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A structured comparative guide weighing the execution predictability and regional portability of container-based microservices against the elastic scaling of FaaS models.</li>
+</ul>
+<h4 id="kubernetes-vs-serverless">Kubernetes vs Serverless<a class="headerlink" href="#kubernetes-vs-serverless" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://thenewstack.io/serverless-vs-kubernetes-the-peoples-vote"><strong>thenewstack.io: Serverless vs. Kubernetes: The People’s Vote</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Presents developer survey feedback and architectural trade-offs between hosting standard containers in Kubernetes versus deploying logic within serverless frameworks.</li>
+<li><strong>(2021)</strong> <a href="https://www.cloudnowtech.com/blog/kubernetes-vs-serverless-how-do-you-choose"><strong>cloudnowtech.com: Kubernetes vs Serverless – How do you choose? 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Helps organizations balance infrastructural control against speed-to-market. Outlines key criteria for deciding when to self-manage Kubernetes or offload to fully managed serverless platforms.</li>
+<li><strong>(2022)</strong> <a href="https://economictimes.indiatimes.com/tech/technology/thoughtworks-xconf-tech-talk-series-serverless-vs-kubernetes-when-deploying-microservices/articleshow/89085544.cms">economictimes.indiatimes.com: Thoughtworks XConf Tech Talk Series: Serverless vs. Kubernetes when deploying microservices</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes thought leadership from Thoughtworks on microservice execution options. Covers structural overhead, execution latency, and regional portability issues.</li>
+</ul>
+<h4 id="microservices-vs-serverless">Microservices vs Serverless<a class="headerlink" href="#microservices-vs-serverless" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://fathomtech.io/blog/microservices-vs-serverless">fathomtech.io: Microservices vs. Serverless</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates operational tradeoffs, deployment mechanics, and cost models between traditional containerized microservices and pure event-driven serverless architectures.</li>
+</ul>
+<h2 id="cloud-architecture">Cloud Architecture<a class="headerlink" href="#cloud-architecture" title="Permanent link">&para;</a></h2>
+<h3 id="aws-solutions">AWS Solutions<a class="headerlink" href="#aws-solutions" title="Permanent link">&para;</a></h3>
+<h4 id="orchestration-decision">Orchestration Decision<a class="headerlink" href="#orchestration-decision" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://docs.aws.amazon.com/modern-apps-strategy-on-aws-how-to-choose"><strong>aws.amazon.com: Serverless or Kubernetes on AWS 🌟</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural decision framework comparing AWS Serverless (Lambda, Fargate) with Kubernetes (EKS). Helps engineers select paradigms based on latency requirements, long-running processes, runtime dependencies, and overall operational overhead.</li>
+</ul>
+<h3 id="comparative-systems">Comparative Systems<a class="headerlink" href="#comparative-systems" title="Permanent link">&para;</a></h3>
+<h4 id="industry-trends">Industry Trends<a class="headerlink" href="#industry-trends" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://towardsdatascience.com/kubernetes-serverless-differences-84699f370609">Is Serverless The End Of Kubernetes?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the future of container orchestration versus FaaS models. Argues that serverless approaches do not replace Kubernetes; instead, they coexist through frameworks like Knative that run serverless control planes natively on top of Kubernetes clusters.</li>
+</ul>
+<h4 id="microservices-strategy">Microservices Strategy<a class="headerlink" href="#microservices-strategy" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334">theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the perspective that modern development teams should choose serverless configurations over Kubernetes to prevent managing complex platforms. Evaluates operational trade-offs and explains when to utilize FaaS to optimize business logic focus.</li>
+</ul>
+<h4 id="scalability">Scalability<a class="headerlink" href="#scalability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1">itnext.io: Scaling My App: Serverless vs Kubernetes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical comparison contrasting serverless scaling models against container orchestration platforms like Kubernetes. Breaks down cost efficiency, resource management overhead, cold starts, scale-to-zero capabilities, and developer productivity trade-offs.</li>
+</ul>
+<h3 id="serverless">Serverless<a class="headerlink" href="#serverless" title="Permanent link">&para;</a></h3>
+<h4 id="event-driven-systems">Event-Driven Systems<a class="headerlink" href="#event-driven-systems" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://developers.redhat.com/blog/2020/11/26/event-driven-distributed-service-orchestration-with-serverless-workflow">developers.redhat.com: Orchestrate event-driven, distributed services with Serverless Workflow and Kubernetes</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to build event-driven microservices workflows using the CNCF Serverless Workflow specification on Kubernetes. Explains configuring orchestration engines to coordinate stateful, multi-step actions across decoupled, serverless microservices.</li>
+</ul>
+<h4 id="fundamentals">Fundamentals<a class="headerlink" href="#fundamentals" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2018)</strong> <a href="https://martinfowler.com/articles/serverless.html">martinfowler.com: Serverless Architectures</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Martin Fowler's canonical analysis of serverless architectures. Compares Back-end-as-a-Service (BaaS) and Function-as-a-Service (FaaS) ecosystems, outlining core trade-offs regarding state management, horizontal scalability, operational costs, cold starts, security, and design complexity.</li>
+</ul>
+<h4 id="migration-patterns">Migration Patterns<a class="headerlink" href="#migration-patterns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://www.serverless.com/blog/why-we-switched-from-docker-to-serverless">serverless.com: Why we switched from docker to serverless</a> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth case study analyzing a migration journey from containerized environments on virtual hosts to a completely serverless FaaS architecture. Details lessons learned regarding dynamic scalability, deployment frequency, resource optimization, and cost savings.</li>
+</ul>
+<h4 id="operational-cost">Operational Cost<a class="headerlink" href="#operational-cost" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.freecodecamp.org/news/serverless-is-cheaper-not-simpler-a10c4fc30e49">freecodecamp.org: Serverless is cheaper, not simpler</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Challenges the popular industry narrative that serverless frameworks simplify system designs. While highlighting significant cost reductions, this case study warns about the operational complexities of distributed event routing, IAM configuration boundaries, and cold start mitigations.</li>
+</ul>
+<h2 id="cloud-infrastructure-and-orchestration">Cloud Infrastructure and Orchestration<a class="headerlink" href="#cloud-infrastructure-and-orchestration" title="Permanent link">&para;</a></h2>
+<h3 id="serverless-architecture">Serverless Architecture<a class="headerlink" href="#serverless-architecture" title="Permanent link">&para;</a></h3>
+<h4 id="case-studies">Case Studies<a class="headerlink" href="#case-studies" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://revistacloud.com/serverlesshorrors-la-web-que-recoge-las-peores-pesadillas-del-mundo-serverless">ServerlessHorrors: A Web Compiling Nightmares in the Serverless World</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A catalog documenting real-world runtime failures, billing anomalies, database connection exhaustion, cold start latency bottlenecks, and unexpected vendor configurations within modern serverless cloud setups.</li>
+</ul>
+<h2 id="cloud-native">Cloud Native<a class="headerlink" href="#cloud-native" title="Permanent link">&para;</a></h2>
+<h3 id="faas-basics">FaaS Basics<a class="headerlink" href="#faas-basics" title="Permanent link">&para;</a></h3>
+<h4 id="definitions">Definitions<a class="headerlink" href="#definitions" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.redhat.com/en/topics/cloud-native-apps/what-is-faas"><strong>redhat.com: What is Function-as-a-Service (FaaS)?</strong></a> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat's baseline conceptual definition of FaaS, documenting event-driven paradigms, scale-to-zero capabilities, and structural differences from standard virtual hosts.</li>
+<li><strong>(2021)</strong> <a href="https://stackify.com/function-as-a-service-serverless-architecture">stackify.com: What Is Function-as-a-Service? Serverless Architectures Are Here!</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Function-as-a-Service, reviewing ephemeral runtimes, stateless code execution requirements, trigger events, and fundamental observability paradigms.</li>
+</ul>
+<h3 id="kubernetes-serverless">Kubernetes Serverless<a class="headerlink" href="#kubernetes-serverless" title="Permanent link">&para;</a></h3>
+<h4 id="apache-openwhisk">Apache OpenWhisk<a class="headerlink" href="#apache-openwhisk" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://openwhisk.apache.org"><strong>openwhisk.apache.org</strong></a> <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source distributed event-driven platform capable of executing discrete serverless logic. Utilizes container runtimes to isolate and invoke handlers in millisecond timelines.</li>
+</ul>
+<h4 id="framework-comparisons">Framework Comparisons<a class="headerlink" href="#framework-comparisons" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks"><strong>vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.</li>
+<li><strong>(2021)</strong> <a href="https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more"><strong>epsagon.com: Serverless Open-Source Frameworks: </strong>OpenFaaS<strong>, </strong>Knative<strong>, &amp; More 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Compares open-source serverless frameworks like OpenFaaS and Knative, focusing on custom deployment controllers, API routing architectures, and native scale-to-zero capabilities.</li>
+<li><strong>(2021)</strong> <a href="https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more"><strong>winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Technical analysis of OpenFaaS, OpenWhisk, Fission, and Kubeless. Compares execution mechanics, custom resource dependencies, and cold start management profiles.</li>
+</ul>
+<h4 id="knative">Knative<a class="headerlink" href="#knative" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://knative.dev"><mark>knative.dev</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier Kubernetes-native platform for serverless workloads. Offers enterprise-grade Serving (scale-to-zero, request-driven autoscaling) and highly decoupled Eventing models.</li>
+</ul>
+<h4 id="knative-tooling">Knative Tooling<a class="headerlink" href="#knative-tooling" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/knative/client"><strong>kn: knative client</strong></a> <span class='md-tag md-tag--info'>⭐ 385</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d255076" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 12 L 30 11 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-6d255076)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The official CLI client ('kn') for interacting with Knative installations, enabling rapid deployment of serving entities and management of decoupled event bindings.</li>
+</ul>
+<h4 id="knative-and-api-gateways">Knative and API Gateways<a class="headerlink" href="#knative-and-api-gateways" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84"><strong>dev.to: FaaS on Kubernetes: From AWS Lambda &amp; API Gateway To Knative &amp; Kong API Gateway</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical technical demonstration outlining how to replicate proprietary cloud FaaS configurations by using open components like Knative and Kong API Gateway inside a Kubernetes cluster.</li>
+</ul>
+<h4 id="openfaas">OpenFaaS<a class="headerlink" href="#openfaas" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.openfaas.com"><mark>OpenFaaS</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular, developer-friendly FaaS engine on Kubernetes. Features built-in auto-scaling, Prometheus metrics integration, and allows running any code in standard containers.</li>
+<li><strong>(2021)</strong> <a href="https://www.openfaas.com/blog/kim"><strong>openfaas.com: Learn how to build functions faster using Rancher's kim and K3s</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Shows how to accelerate development loops by leveraging Rancher's kim builder along with K3s to compile, load, and deploy OpenFaaS functions without external registries.</li>
+<li><strong>(2020)</strong> <a href="https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9"><strong>itnext.io: Deploy your first Serverless Function to Kubernetes</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step developer tutorial showing how to install, test, and expose your first OpenFaaS serverless function inside a local Kubernetes testing cluster.</li>
+<li><strong>(2021)</strong> <a href="https://www.xenonstack.com/blog/serverless-open-faas-java">xenonstack.com: Serverless Architecture with OpenFaaS and Java</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates using JVM workloads within OpenFaaS, detailing compilation strategies, framework footprint reduction, and optimizing startup latency for container pods.</li>
+</ul>
+<h4 id="openfunction">OpenFunction<a class="headerlink" href="#openfunction" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/OpenFunction/OpenFunction"><strong>OpenFunction: Cloud Native Function-as-a-Service Platform (CNCF Sandbox' Project)</strong></a> <span class='md-tag md-tag--info'>⭐ 1655</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a321efd8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 6 L 30 12 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-a321efd8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A CNCF Sandbox project delivering an enterprise-grade cloud-native FaaS runtime. Integrates Knative, Shipwright, Dapr, and KEDA components to simplify polyglot development pipelines.</li>
+</ul>
+<h3 id="microservice-runtimes">Microservice Runtimes<a class="headerlink" href="#microservice-runtimes" title="Permanent link">&para;</a></h3>
+<h4 id="dapr">Dapr<a class="headerlink" href="#dapr" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://dapr.io"><mark>Dapr</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.</li>
+<li><strong>(2022)</strong> <a href="https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html"><strong>Building microservices? Give Dapr a try</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep analysis of Dapr's capabilities, detailing how its service abstraction layer accelerates microservice software delivery while avoiding tight coupling to infrastructure providers.</li>
+</ul>
+<h3 id="serverless-1">Serverless (1)<a class="headerlink" href="#serverless-1" title="Permanent link">&para;</a></h3>
+<h4 id="advanced-best-practices">Advanced Best Practices<a class="headerlink" href="#advanced-best-practices" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/aws-heroes/serverless-beyond-the-basics-kom"><strong>dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Delves past initial hello-world templates to address production concerns like advanced testing strategies, strict security configurations, and proper CI/CD pipelines.</li>
+</ul>
+<h4 id="anti-patterns">Anti-patterns<a class="headerlink" href="#anti-patterns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://serverlesshorrors.com"><strong>serverlesshorrors.com 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open community catalog detailing critical serverless horror stories, execution loops, cold-start bottlenecks, and configuration mistakes to help engineers avoid similar traps.</li>
+</ul>
+<h4 id="ci-cd">CI-CD<a class="headerlink" href="#ci-cd" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless"><strong>theburningmonk.com: Why you should use ephemeral environments when you do serverless</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.</li>
+</ul>
+<h4 id="case-studies-1">Case Studies (1)<a class="headerlink" href="#case-studies-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://thenewstack.io/how-daily-dev-built-a-low-budget-serverless-scraping-pipeline-for-online-articles"><strong>thenewstack.io: How Daily.Dev Built a Low-Budget Serverless Scraping Pipeline for Online Articles</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details how daily.dev constructed a cost-efficient article parsing ecosystem by combining serverless scraping pipelines, queue storage, and ephemeral container tasks.</li>
+<li><strong>(2020)</strong> <a href="https://dashbird.io/blog/serverless-case-study-coca-cola"><strong>dashbird.io: Serverless Case Study – Coca-Cola</strong></a> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A key industrial case study tracking how Coca-Cola migrated critical transaction systems to serverless, noting immense scale capacity and severe operational cost savings.</li>
+</ul>
+<h4 id="design-patterns">Design Patterns<a class="headerlink" href="#design-patterns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://architectelevator.com/cloud/serverless-design-patterns"><strong>architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Proposes core mitigation strategies for cloud vendor lock-in through abstraction layers, hexagonal architecture, and port-and-adapters design patterns.</li>
+</ul>
+<h4 id="ecosystem-landscapes">Ecosystem Landscapes<a class="headerlink" href="#ecosystem-landscapes" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem">techbeacon.com: An essential guide to the 2019 serverless ecosystem</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical overview detailing the serverless framework, cloud tools, and platform landscape of 2019, tracing the market growth towards modern container standards.</li>
+</ul>
+<h4 id="enterprise-strategy">Enterprise Strategy<a class="headerlink" href="#enterprise-strategy" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.sls.guru/blog/enterprise-serverless-adoption"><strong>serverlessguru.com: Enterprise Serverless Adoption 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores the organizational strategies, cultural shifts, and governance models required to successfully integrate serverless execution engines into legacy enterprise architectures.</li>
+</ul>
+<h4 id="operational-guides">Operational Guides<a class="headerlink" href="#operational-guides" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic"><strong>docs.google.com: Serverless Guide to Success 2021</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This document acts as an operational blueprint offering tactical patterns for adoption, cost estimation, and lifecycle management within serverless paradigms. It bridges the gap between basic functions and enterprise execution strategies.</li>
+</ul>
+<h4 id="scaling-paradigms">Scaling Paradigms<a class="headerlink" href="#scaling-paradigms" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount"><strong>readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analyzes practical mechanisms to throttle, buffer, and control scaling thresholds in serverless topologies. Helps architects avoid cascade failures by preventing downstream database and external API bottlenecks.</li>
+</ul>
+<h4 id="visual-architectures">Visual Architectures<a class="headerlink" href="#visual-architectures" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://itnext.io/kubernetes-serverless-simply-visually-explained-ccf7be05a689"><strong>itnext.io: Kubernetes Serverless simply visually explained 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly effective visual analysis demonstrating how serverless execution frameworks integrate natively with Kubernetes primitives. It clearly highlights pod autoscaling dynamics and container lifecycle abstractions.</li>
+</ul>
+<h3 id="serverless-platforms">Serverless Platforms<a class="headerlink" href="#serverless-platforms" title="Permanent link">&para;</a></h3>
+<h4 id="azure-functions">Azure Functions<a class="headerlink" href="#azure-functions" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions">c-sharpcorner.com: Why and When to use Azure Functions</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates architectural use-cases, pricing models, and trigger mechanisms for Azure Functions. Focuses on integrating event-driven execution patterns with enterprise dotnet ecosystems.</li>
+</ul>
+<h4 id="cost-optimization">Cost Optimization<a class="headerlink" href="#cost-optimization" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9">dev.to: Price Comparison of Popular Serverless Architecture Providers</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Performs financial comparisons between public cloud providers (AWS, Azure, GCP), modeling billing triggers, resource provisioning scales, and data egress pricing.</li>
+</ul>
+<h4 id="frameworks">Frameworks<a class="headerlink" href="#frameworks" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.serverless.com"><mark>serverless.com: Serverless Framework</mark></a> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-provider IaC wrapper for packaging and deploying serverless applications. Standardizes function definitions, network triggers, and permission models.</li>
+</ul>
+<h2 id="cloud-native_1">Cloud-Native<a class="headerlink" href="#cloud-native_1" title="Permanent link">&para;</a></h2>
+<h3 id="application-runtime">Application Runtime<a class="headerlink" href="#application-runtime" title="Permanent link">&para;</a></h3>
+<h4 id="dapr-1">Dapr (1)<a class="headerlink" href="#dapr-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://versusmind.eu/dapr-a-serverless-runtime-for-distributed-applications">versusmind.eu: Dapr - a serverless runtime for distributed applications 🌟</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive architecture guide detailing how the Distributed Application Runtime (Dapr) decouples microservice applications from infrastructure using the sidecar pattern. Covers state management, service invocation, and pub/sub. Curator insight values its portability, while live 2026 grounding shows Dapr is a mature CNCF graduated project and a key enabler for multi-cloud application portability.</li>
+</ul>
+<h4 id="dapr-deployment">Dapr Deployment<a class="headerlink" href="#dapr-deployment" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://developers.redhat.com/articles/2021/08/12/build-and-deploy-microservices-kubernetes-and-dapr"><strong>developers.redhat.com: Build and deploy microservices with Kubernetes and Dapr</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed technical guide for building and running Dapr-enabled microservices on Red Hat OpenShift and vanilla Kubernetes. Focuses on setting up sidecars and microservices configurations. Current 2026 engineering practices validate this approach for enterprise Java/Node architectures looking to offload ingress, telemetry, and security concerns to the runtime.</li>
+<li><strong>(2021)</strong> <a href="https://dev.to/cvitaa11/running-dapr-on-kubernetes-89g">dev.to: Running Dapr on Kubernetes</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on walkthrough detailing the installation and runtime operations of Dapr inside a Kubernetes cluster. Highlights initial configuration, Helm chart usages, and basic validation. While ideal for local developers sandbox validation, 2026 infrastructure paradigms prioritize declarative GitOps (e.g., Argo CD) for deploying Dapr components in production.</li>
+</ul>
+<h3 id="orchestration-and-workflow">Orchestration and Workflow<a class="headerlink" href="#orchestration-and-workflow" title="Permanent link">&para;</a></h3>
+<h4 id="dapr-workflows">Dapr Workflows<a class="headerlink" href="#dapr-workflows" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://github.com/diagrid-labs/dapr-workflow-demos"><strong>github.com/diagrid-labs/dapr-workflow-demos</strong></a> <span class='md-tag md-tag--info'>⭐ 62</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6de5abde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 9 L 40 5 L 50 13" fill="none" stroke="url(#spark-grad-6de5abde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Repository showcasing the capabilities of the Dapr Workflow engine, enabling developers to build stateful orchestrations directly in application code. Curator insights point out its lightweight nature compared to heavy workflow engines. Live 2026 validation indicates Dapr Workflow is widely deployed for low-latency orchestrations.</li>
+</ul>
+<h3 id="serverless-2">Serverless (2)<a class="headerlink" href="#serverless-2" title="Permanent link">&para;</a></h3>
+<h4 id="aws-integration">AWS Integration<a class="headerlink" href="#aws-integration" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://thenewstack.io/build-a-serverless-api-with-aws-gateway-and-lambda">thenewstack.io: Build a Serverless API with AWS Gateway and Lambda</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of building serverless APIs using AWS API Gateway and Lambda functions. It addresses routing, API security, and AWS integrations. While the foundational principles remain sound in 2026, modern enterprise patterns have heavily adopted container-packaged Lambdas (OCI) over raw zip deployments for complex API backends.</li>
+</ul>
+<h4 id="event-driven">Event-Driven<a class="headerlink" href="#event-driven" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://thenewstack.io/triggermesh-open-sourcing-event-driven-applications">thenewstack.io: TriggerMesh: Open Sourcing Event-Driven Applications</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic overview of TriggerMesh's transition to open-source event-driven application integration utilizing Knative. Curator insights focus on its multi-cloud connectivity. Live 2026 grounding shows that although TriggerMesh underwent corporate restructuring and licensing shifts, its codebase remains a key reference for cloud-native integration paradigms.</li>
+</ul>
+<h2 id="enterprise-kubernetes">Enterprise Kubernetes<a class="headerlink" href="#enterprise-kubernetes" title="Permanent link">&para;</a></h2>
+<h3 id="openshift">OpenShift<a class="headerlink" href="#openshift" title="Permanent link">&para;</a></h3>
+<h4 id="openshift-serverless">OpenShift Serverless<a class="headerlink" href="#openshift-serverless" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless"><strong>openshift.com: Why and When you need to consider OpenShift Serverless</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Analytically presents key decision variables for deploying OpenShift Serverless, highlighting resource cost reductions, pod auto-scaling, and cluster efficiency.</li>
+</ul>
+<h4 id="openshift-serverless-integration">OpenShift Serverless Integration<a class="headerlink" href="#openshift-serverless-integration" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://developers.redhat.com/blog/2020/04/24/build-and-deploy-a-serverless-app-with-camel-k-and-red-hat-openshift-serverless-1-5-0-tech-preview">developers.redhat.com: Build and deploy a serverless app with Camel K and Red Hat OpenShift Serverless 1.5.0 Tech Preview</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates building low-overhead integrations by running Apache Camel K integrations natively over the OpenShift Serverless platform engine.</li>
+</ul>
+<h4 id="serverless-workflows">Serverless Workflows<a class="headerlink" href="#serverless-workflows" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://redhat-scholars.github.io/serverless-workflow/osl/index.html"><strong>redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guided academic and professional lab tutorial teaching developers to orchestrate complex state machines using the CNCF Serverless Workflow specification.</li>
+</ul>
+<h2 id="event-driven-architecture">Event Driven Architecture<a class="headerlink" href="#event-driven-architecture" title="Permanent link">&para;</a></h2>
+<h3 id="data-processing">Data Processing<a class="headerlink" href="#data-processing" title="Permanent link">&para;</a></h3>
+<h4 id="batch-vs-streaming">Batch vs Streaming<a class="headerlink" href="#batch-vs-streaming" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams"><strong>serverlessland.com: BATCH PROCESSING VS EVENT STREAMING</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A clear comparative analysis detailing when to leverage high-throughput batching against real-time low-latency event streaming patterns. Crucial for designing data pipeline boundaries.</li>
+</ul>
+<h3 id="design-patterns-1">Design Patterns (1)<a class="headerlink" href="#design-patterns-1" title="Permanent link">&para;</a></h3>
+<h4 id="enterprise-integration-patterns">Enterprise Integration Patterns<a class="headerlink" href="#enterprise-integration-patterns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://serverlessland.com/event-driven-architecture/visuals/splitter-pattern"><strong>serverlessland.com: Splitter pattern</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines the Enterprise Integration Pattern (EIP) of splitting a single composite payload into individual records for decoupled and parallel execution inside event pipelines.</li>
+</ul>
+<h3 id="fundamentals-1">Fundamentals (1)<a class="headerlink" href="#fundamentals-1" title="Permanent link">&para;</a></h3>
+<h4 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://serverlessland.com/event-driven-architecture"><mark>serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture 🌟</mark></a> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational deep dive into decoupled event-driven systems, detailing key components such as event producers, routers, and consumers. Essential reading for establishing loose-coupling patterns.</li>
+</ul>
+<h4 id="visuals">Visuals<a class="headerlink" href="#visuals" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://serverlessland.com/event-driven-architecture/visuals"><mark>serverlessland.com: EDA VISUALS 🌟🌟🌟</mark></a> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated collection of visual explanations covering event-driven mechanics. Helps developers visually digest routing, choreographies, and filtering topologies.</li>
+</ul>
+<h2 id="finops-and-cloud-cost">FinOps and Cloud Cost<a class="headerlink" href="#finops-and-cloud-cost" title="Permanent link">&para;</a></h2>
+<h3 id="azure-optimization">Azure Optimization<a class="headerlink" href="#azure-optimization" title="Permanent link">&para;</a></h3>
+<h4 id="serverless-3">Serverless (3)<a class="headerlink" href="#serverless-3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://build5nines.com/azure-functions-cost-considerations-and-optimization"><strong>Azure Functions Cost Considerations and Optimization</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.</li>
+</ul>
+<h2 id="infrastructure-as-code">Infrastructure as Code<a class="headerlink" href="#infrastructure-as-code" title="Permanent link">&para;</a></h2>
+<h3 id="serverless-integration">Serverless Integration<a class="headerlink" href="#serverless-integration" title="Permanent link">&para;</a></h3>
+<h4 id="hybrid-automation">Hybrid Automation<a class="headerlink" href="#hybrid-automation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together"><strong>theburningmonk.com: Making Terraform and Serverless framework work together</strong></a> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.</li>
+</ul>
+<h2 id="kubernetes">Kubernetes<a class="headerlink" href="#kubernetes" title="Permanent link">&para;</a></h2>
+<h3 id="tooling">Tooling<a class="headerlink" href="#tooling" title="Permanent link">&para;</a></h3>
+<h4 id="deployment-tools">Deployment Tools<a class="headerlink" href="#deployment-tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://itnext.io/kubernetes-apps-the-easy-way-f06d9e5cad3c"><strong>itnext.io: </strong>arkade<strong> by example — Kubernetes apps, the easy way 🌟</strong></a> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introduces arkade, a lightning-fast application installer for Kubernetes. Simplifies cluster bootstrap setups by deploying tools like OpenFaaS or cert-manager with one-line commands.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="ocp4.html">OCP 4</a> | <a href="openshift.html">Openshift</a> | <a href="kubernetes-operators-controllers.html">Kubernetes Operators Controllers</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -3288,8 +3830,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -3308,7 +3848,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -3329,8 +3869,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -3341,50 +3881,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -3411,90 +3907,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascript/extra.js"></script>
+        <script src="static/v2_filter.js"></script>
       
     
   </body>

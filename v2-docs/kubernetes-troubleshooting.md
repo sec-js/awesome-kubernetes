@@ -3,6 +3,87 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Troubleshooting in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Pod Lifecycle](#pod-lifecycle)
+    - [Ephemeral Containers](#ephemeral-containers)
+1. [Chaos Engineering](#chaos-engineering)
+  - [Curated Playbooks](#curated-playbooks)
+    - [Awesome Lists](#awesome-lists)
+1. [Cloud-Native Platforms](#cloud-native-platforms)
+  - [Operating Systems](#operating-systems)
+    - [Flatcar Linux](#flatcar-linux)
+1. [Development Workflow](#development-workflow)
+  - [IDE Extensions](#ide-extensions)
+    - [Bridge to Kubernetes](#bridge-to-kubernetes)
+  - [Local Development](#local-development)
+    - [Bridge to Kubernetes](#bridge-to-kubernetes-1)
+1. [Infrastructure](#infrastructure)
+  - [Compute](#compute)
+    - [CPU Performance](#cpu-performance)
+1. [Kubernetes](#kubernetes)
+  - [Core Mechanics](#core-mechanics)
+    - [Pod Lifecycle](#pod-lifecycle-1)
+  - [Networking](#networking)
+    - [Ingress Troubleshooting](#ingress-troubleshooting)
+    - [Packet Tracing](#packet-tracing)
+  - [Observability](#observability)
+    - [Events](#events)
+    - [Events Logging](#events-logging)
+  - [Resource Management](#resource-management)
+    - [CPU Scheduling](#cpu-scheduling)
+    - [Metrics Collection](#metrics-collection)
+    - [OOM and Throttling](#oom-and-throttling)
+    - [QoS and OOM Score](#qos-and-oom-score)
+  - [Runtime Security](#runtime-security)
+    - [Sandboxed Containers](#sandboxed-containers)
+  - [Security](#security)
+    - [Container Images](#container-images)
+  - [Troubleshooting](#troubleshooting)
+    - [Architectural Slides](#architectural-slides)
+    - [Case Study](#case-study)
+    - [Command Line](#command-line)
+    - [CrashLoopBackOff](#crashloopbackoff)
+    - [Developer Enablement](#developer-enablement)
+    - [Development Environments](#development-environments)
+    - [Diagnostic Manuals](#diagnostic-manuals)
+    - [Distroless Debugging](#distroless-debugging)
+    - [Ephemeral Containers](#ephemeral-containers-1)
+    - [Exit Codes](#exit-codes)
+    - [Fundamentals](#fundamentals)
+    - [General Guide](#general-guide)
+    - [Methodologies](#methodologies)
+    - [OOMKilled](#oomkilled)
+    - [Pod Diagnostics](#pod-diagnostics)
+    - [Pod Eviction](#pod-eviction)
+    - [Pod Scheduling](#pod-scheduling)
+    - [Real-World Examples](#real-world-examples)
+  - [Troubleshooting Tooling](#troubleshooting-tooling)
+    - [kubectl plugins](#kubectl-plugins)
+1. [Observability](#observability-1)
+  - [Debugging](#debugging)
+    - [Automation](#automation)
+    - [CLI Extensions](#cli-extensions)
+    - [CLI Operations](#cli-operations)
+    - [Container Debugging](#container-debugging)
+    - [Containers](#containers)
+    - [Legacy Tooling](#legacy-tooling)
+    - [Pre-flight Checks](#pre-flight-checks)
+    - [Troubleshooting Guide](#troubleshooting-guide)
+    - [Workloads](#workloads)
+  - [Deployments](#deployments)
+    - [Telemetry](#telemetry)
+  - [Networking](#networking-1)
+    - [API Traffic Analyzer](#api-traffic-analyzer)
+  - [Troubleshooting Platforms](#troubleshooting-platforms)
+    - [Enterprise Monitoring](#enterprise-monitoring)
+  - [UI Clients](#ui-clients)
+    - [Multi-Cluster](#multi-cluster)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -76,7 +157,7 @@
 
 #### Awesome Lists
 
-  - **(2023)** [==Awesome Chaos Engineering==](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6589</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier curated directory of resources, tools, and papers dedicated to the practice of Chaos Engineering. It indexes tools for simulating network latency, injecting resource stress, and terminating instances across various platforms, with a strong focus on cloud-native environments. This is a must-have reference for engineering teams building self-healing, fault-tolerant distributed systems.
+  - **(2023)** [==Awesome Chaos Engineering==](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6589</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65c32571" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 5 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-65c32571)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier curated directory of resources, tools, and papers dedicated to the practice of Chaos Engineering. It indexes tools for simulating network latency, injecting resource stress, and terminating instances across various platforms, with a strong focus on cloud-native environments. This is a must-have reference for engineering teams building self-healing, fault-tolerant distributed systems.
 ## Cloud-Native Platforms
 
 ### Operating Systems
@@ -149,7 +230,7 @@
 
 #### Container Images
 
-  - **(2020)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&t=6s&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Using the 'latest' container image tag in production is a critical antipattern that breaks deployment reproducibility and introduces security risks. This guide uses Kubevious to outline three automated detection techniques to intercept and block these non-deterministic tags in deployment pipelines. It emphasizes implementing admission controllers to enforce strict version tagging.
+  - **(2020)** [youtube: 3 Ways to Detect Evil "Latest" Image Tags in Kubernetes - Kubevious](https://www.youtube.com/watch?v=93RlMqO4glM&ab_channel=Kubevious)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Using the 'latest' container image tag in production is a critical antipattern that breaks deployment reproducibility and introduces security risks. This guide uses Kubevious to outline three automated detection techniques to intercept and block these non-deterministic tags in deployment pipelines. It emphasizes implementing admission controllers to enforce strict version tagging.
 ### Troubleshooting
 
 #### Architectural Slides
@@ -174,7 +255,7 @@
   - **(2023)** [devzero.io: Kubernetes Debugging Tips](https://www.devzero.io/blog/kubernetes-autoscaling)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Optimizing the inner-loop developer experience in Kubernetes requires special tooling to bypass slow build-and-deploy cycles. This guide reviews practical tips for configuring local debugging environments, port forwarding, and syncing code directly into remote dev clusters. Implementing these techniques allows developers to debug code in real time within a cluster-like context.
 #### Diagnostic Manuals
 
-  - **(2022)** [==github.com/metaleapca: metaleap-k8s-troubleshooting.pdf==](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf) <span class='md-tag md-tag--info'>⭐ 40</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive community-driven reference PDF that serves as a diagnostic field manual for complex Kubernetes cluster issues. It covers everything from low-level CNI networking issues to control plane degradation and API server latency. This document is a valuable offline resource for operations teams handling large-scale production incidents.
+  - **(2022)** [==github.com/metaleapca: metaleap-k8s-troubleshooting.pdf==](https://github.com/metaleapca/metaleap-k8s-troubleshooting/blob/main/metaleap-k8s-troubleshooting.pdf) <span class='md-tag md-tag--info'>⭐ 40</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bcd615ec" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 5 L 30 5 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-bcd615ec)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive community-driven reference PDF that serves as a diagnostic field manual for complex Kubernetes cluster issues. It covers everything from low-level CNI networking issues to control plane degradation and API server latency. This document is a valuable offline resource for operations teams handling large-scale production incidents.
 #### Distroless Debugging
 
   - **(2021)** [itnext.io: Distroless Container Debugging on K8s/OpenShift](https://itnext.io/distroless-container-debugging-on-k8s-openshift-e418fd66fdad) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — While distroless images enhance security by stripping out non-essential utilities and shells, they present unique challenges when live troubleshooting is required. This article explores strategies to bridge this gap, utilizing Kubernetes ephemeral containers and volume-mounting debug utilities on OpenShift. It demonstrates how to maintain a minimal attack surface without sacrificing operational diagnostics.
@@ -212,7 +293,7 @@
 
 #### kubectl plugins
 
-  - **(2020)** [==kubectl-debug==](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2305</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally a popular community-built plugin to launch debugging containers within target pods, `kubectl-debug` has largely been superseded by native Kubernetes Ephemeral Containers (`kubectl debug` command) in modern releases. This project remains a valuable reference for historical context and legacy cluster compatibility. For modern clusters, engineers are strongly advised to transition to built-in Kubernetes diagnostic commands.
+  - **(2020)** [==kubectl-debug==](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ce999e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 4 L 30 9 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-3ce999e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally a popular community-built plugin to launch debugging containers within target pods, `kubectl-debug` has largely been superseded by native Kubernetes Ephemeral Containers (`kubectl debug` command) in modern releases. This project remains a valuable reference for historical context and legacy cluster compatibility. For modern clusters, engineers are strongly advised to transition to built-in Kubernetes diagnostic commands.
 ## Observability (1)
 
 ### Debugging
@@ -222,24 +303,24 @@
   - **(2022)** [github.com/airwallex: k8s-pod-restart-info-collector](https://github.com/airwallex/k8s-pod-restart-info-collector) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated utility designed to capture and log state configuration, events, and logs instantly when a pod restarts, offering immediate post-mortem insights for ephemeral microservices.
 #### CLI Extensions
 
-  - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
+  - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-582e5a31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 13 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-582e5a31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
 #### CLI Operations
 
   - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
   - **(2021)** [thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated list of 12 essential kubectl commands designed to streamline low-level container and network diagnostics. Targets common day-2 operational challenges, addressing resource pressure, storage attachments, and system event inspection.
 #### Container Debugging
 
-  - **(2025)** [iximiuz/cdebug](https://github.com/iximiuz/cdebug) <span class='md-tag md-tag--info'>⭐ 1652</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool for debugging running containers. Allows attaching ephemeral tooling environments into running, stripped-down containers (even without Kubernetes, working directly with Docker/containerd).
-  - **(2022)** [felipecruz91/debug-ctr](https://github.com/felipecruz91/debug-ctr) <span class='md-tag md-tag--info'>⭐ 52</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight helper utility targeting runtimes at the node level. Allows developers to run custom debug tools directly inside active containerd namespaces without impacting root node security models.
+  - **(2025)** [iximiuz/cdebug](https://github.com/iximiuz/cdebug) <span class='md-tag md-tag--info'>⭐ 1652</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55e54588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 12 L 30 7 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-55e54588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool for debugging running containers. Allows attaching ephemeral tooling environments into running, stripped-down containers (even without Kubernetes, working directly with Docker/containerd).
+  - **(2022)** [felipecruz91/debug-ctr](https://github.com/felipecruz91/debug-ctr) <span class='md-tag md-tag--info'>⭐ 52</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ff64d25" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 5 L 30 11 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-3ff64d25)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight helper utility targeting runtimes at the node level. Allows developers to run custom debug tools directly inside active containerd namespaces without impacting root node security models.
 #### Containers
 
-  - **(2023)** [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) <span class='md-tag md-tag--info'>⭐ 36</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Kubernetes debugging container designed to simplify troubleshooting inside active pods. It packages key diagnostic tools (curl, dig, iproute2, etc.) for direct execution inside the cluster networking space, serving as an effective sidecar or ephemeral debugging agent.
+  - **(2023)** [KDBG: Small Kubernetes debugging container](https://github.com/nvucinic/kdbg) <span class='md-tag md-tag--info'>⭐ 36</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9b83afe9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 12 L 30 12 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-9b83afe9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Kubernetes debugging container designed to simplify troubleshooting inside active pods. It packages key diagnostic tools (curl, dig, iproute2, etc.) for direct execution inside the cluster networking space, serving as an effective sidecar or ephemeral debugging agent.
 #### Legacy Tooling
 
   - **(2021)** [palaemon.io](https://palaemon.io)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy troubleshooting tool aimed at optimizing container workloads and analyzing scheduling configurations. Now largely archived but remains historically relevant for declarative scheduling architectures.
 #### Pre-flight Checks
 
-  - **(2025)** [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) <span class='md-tag md-tag--info'>⭐ 582</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A framework providing preflight checks and support-bundle collection capabilities for Kubernetes applications. Crucial for enterprise environments deploying applications onto heterogeneous on-premises or customer-managed clusters.
+  - **(2025)** [github.com/replicatedhq/troubleshoot](https://github.com/replicatedhq/troubleshoot) <span class='md-tag md-tag--info'>⭐ 582</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8ad46e8a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 4 L 20 8 L 30 11 L 40 6 L 50 3" fill="none" stroke="url(#spark-grad-8ad46e8a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A framework providing preflight checks and support-bundle collection capabilities for Kubernetes applications. Crucial for enterprise environments deploying applications onto heterogeneous on-premises or customer-managed clusters.
 #### Troubleshooting Guide
 
   - **(2023)** [learnk8s.io: A visual guide on troubleshooting Kubernetes deployments](https://learnkube.com/troubleshooting-deployments) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A high-density visual guide detailing a deterministic flowchart for troubleshooting Kubernetes deployment failures. It systematically walks engineers through checking ingress, service routing, selector matching, and pod-level failures (e.g., CrashLoopBackOff).
@@ -251,7 +332,7 @@
 
 #### Telemetry
 
-  - **(2021)** [StatusBay](https://github.com/similarweb/statusbay) <span class='md-tag md-tag--info'>⭐ 387</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An active deployment monitoring tool that provides real-time visibility into Kubernetes deployment sequences. By aggregating event logs and state transitions, StatusBay offers clean diagnostic traces for failed releases, improving post-mortem analysis.
+  - **(2021)** [StatusBay](https://github.com/similarweb/statusbay) <span class='md-tag md-tag--info'>⭐ 387</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d1c06fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 8 L 20 10 L 30 6 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-0d1c06fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An active deployment monitoring tool that provides real-time visibility into Kubernetes deployment sequences. By aggregating event logs and state transitions, StatusBay offers clean diagnostic traces for failed releases, improving post-mortem analysis.
 ### Networking (1)
 
 #### API Traffic Analyzer
@@ -266,7 +347,7 @@
 
 #### Multi-Cluster
 
-  - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
+  - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
 
 ---
 💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)

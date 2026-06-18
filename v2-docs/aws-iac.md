@@ -3,14 +3,39 @@
 !!! info "Architectural Context"
     Detailed reference for AWS IaC in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Computing](#cloud-computing)
+  - [AWS](#aws)
+    - [Infrastructure as Code](#infrastructure-as-code)
+1. [Infrastructure as Code](#infrastructure-as-code-1)
+  - [Automated Generation](#automated-generation)
+    - [AWS Resource Importers](#aws-resource-importers)
+    - [Compute Orchestration](#compute-orchestration)
+    - [Recording Tools](#recording-tools)
+  - [CloudFormation](#cloudformation)
+    - [Automated Generation](#automated-generation-1)
+    - [Compliance and Policy](#compliance-and-policy)
+    - [Criticism and Analysis](#criticism-and-analysis)
+    - [GitOps Integrations](#gitops-integrations)
+    - [Identity and Access Management](#identity-and-access-management)
+    - [Messaging Configuration](#messaging-configuration)
+    - [Pre-commit Hooks](#pre-commit-hooks)
+    - [Registries](#registries)
+    - [Starter Templates](#starter-templates)
+    - [Storage Configuration](#storage-configuration)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
 
 #### General Reference
 
-  - [AWS Cloud Formation Release History](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
-  - [All the AWS Resource Types Reference for AWS CloudFormation](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [AWS Cloud Formation Release History](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
+  - [All the AWS Resource Types Reference for AWS CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.aws.amazon.com in the Kubernetes Tools ecosystem.
   - [medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs' on AWS App Runner With CloudFormation](https://medium.com/bb-tutorials-and-thoughts/how-to-deploy-and-run-python-apis-on-aws-app-runner-with-cloudformation-cf9c6fd14cf6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/bb-tutorials-and-thoughts: How To Deploy and Run Python APIs' on AWS App Runner With CloudFormation in the Kubernetes Tools ecosystem.
 ## Cloud Computing
 

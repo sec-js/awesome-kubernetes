@@ -8,7 +8,7 @@
 
 ## Introduction
 
-- [AWS application-architecture](http://www.conceptdraw.com/examples/application-architecture)
+- [AWS application-architecture](https://www.conceptdraw.com/examples/application-architecture)
 - [Optimizing your AWS Infrastructure for Sustainability, Part I: Compute](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-i-compute)
 - [Optimizing your AWS Infrastructure for Sustainability, Part II: Storage](https://aws.amazon.com/blogs/architecture/optimizing-your-aws-infrastructure-for-sustainability-part-ii-storage)
 - [==AWS App2Container: Migrate your Applications to Containers at Scale==](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale)
@@ -35,7 +35,7 @@
   - [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) 🌟 - A sample generative AI tool designed to evaluate Infrastructure as Code (IaC) definitions and architecture diagrams against AWS Well-Architected best practices. This repository provides a practical approach to leveraging AI for enhancing cloud architecture quality and compliance.
 
 - [AWS Architecture Blog](https://aws.amazon.com/blogs/architecture)
-- [AWS Official Blog](http://blogs.aws.amazon.com)
+- [AWS Official Blog](https://blogs.aws.amazon.com)
 - [AWS Labs GitHub](https://github.com/awslabs)
 - [InfoWorld Review – Amazon Aurora Rocks MySQL](https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql)
 - [AWS Cost Explorer Update – Access to EC2 Usage Data](https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data)
@@ -48,7 +48,7 @@
 
 - [AWS Tips I Wish I'd Known Before I Started (Feb 2014)](https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started) A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS.
 - [DZone: A Guide to Performance Challenges with AWS EC2: Part 1](https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1)
-- [The Truth About Downtime in the Cloud](http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)
+- [The Truth About Downtime in the Cloud](https://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud)
 - [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time)
 - [foreseeti.com: How to become and stay AWS well architected in a smart way](https://foreseeti.com/how-to-become-and-stay-aws-well-architected-in-a-smart-way)
 - [AWS Architecture Blog: Use templated answers to perform Well-Architected reviews at scale](https://aws.amazon.com/blogs/architecture/use-templated-answers-to-perform-well-architected-reviews-at-scale)

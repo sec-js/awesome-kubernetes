@@ -3,6 +3,138 @@
 !!! info "Architectural Context"
     Detailed reference for Prometheus in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Observability](#observability)
+    - [Prometheus](#prometheus-1)
+      - [AWS Integration](#aws-integration)
+      - [Agentless Monitoring](#agentless-monitoring)
+      - [Architecture Overview](#architecture-overview)
+      - [Case Studies](#case-studies)
+      - [Client Libraries](#client-libraries)
+      - [Core Platform](#core-platform)
+      - [Database Monitoring](#database-monitoring)
+      - [Deployment](#deployment)
+      - [Deployment Automation](#deployment-automation)
+      - [Docker Swarm](#docker-swarm)
+      - [Ecosystem Evolution](#ecosystem-evolution)
+      - [Homelab](#homelab)
+      - [Infrastructure Monitoring](#infrastructure-monitoring)
+      - [Introduction](#introduction)
+      - [Kubernetes Monitoring](#kubernetes-monitoring)
+      - [Kubernetes Operators](#kubernetes-operators)
+      - [Pushgateway](#pushgateway)
+      - [Query Tools](#query-tools)
+      - [Security](#security)
+      - [TSDB Internals](#tsdb-internals)
+      - [Tutorials](#tutorials)
+    - [Scale and Architecture](#scale-and-architecture)
+      - [Best Practices](#best-practices)
+1. [Cloud Native Platforms](#cloud-native-platforms)
+  - [Azure](#azure)
+    - [Azure Monitor Integration](#azure-monitor-integration)
+  - [Google Cloud Platform](#google-cloud-platform)
+    - [Managed Observability](#managed-observability)
+    - [Product Announcements](#product-announcements)
+  - [Kubernetes](#kubernetes)
+    - [Multi-Arch Telemetry](#multi-arch-telemetry)
+1. [Infrastructure](#infrastructure)
+  - [Message Brokers](#message-brokers)
+    - [ActiveMQ](#activemq)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Ansible](#ansible)
+    - [Infrastructure Visualization](#infrastructure-visualization)
+    - [Legacy Deployments](#legacy-deployments)
+    - [Node Exporter Deployment](#node-exporter-deployment)
+    - [Prometheus Deployment](#prometheus-deployment)
+    - [Telegraf Deployment](#telegraf-deployment)
+  - [Package Archives](#package-archives)
+    - [Metric Collection](#metric-collection)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Middleware](#middleware)
+  - [Messaging Orchestration](#messaging-orchestration)
+    - [ActiveMQ Classic](#activemq-classic)
+    - [Artemis Extensions](#artemis-extensions)
+    - [Artemis Management](#artemis-management)
+1. [Observability](#observability-1)
+  - [Alert Management](#alert-management)
+    - [Core Releases](#core-releases)
+    - [Visualizers](#visualizers)
+  - [Application Instrumentation](#application-instrumentation)
+    - [JVM](#jvm)
+  - [Big Data Monitoring](#big-data-monitoring)
+    - [Apache Spark](#apache-spark)
+  - [Distributed Storage](#distributed-storage)
+    - [Cortex Engine](#cortex-engine)
+    - [InfluxDB](#influxdb)
+    - [M3 Engine](#m3-engine)
+    - [Thanos Engine](#thanos-engine)
+  - [Load Testing](#load-testing)
+    - [k6 Integrations](#k6-integrations)
+  - [Metrics](#metrics)
+    - [Interoperability](#interoperability)
+  - [Monitoring](#monitoring)
+    - [IoT Observability](#iot-observability)
+    - [Metrics Collection](#metrics-collection)
+    - [Prometheus Agent](#prometheus-agent)
+    - [Prometheus Getting Started](#prometheus-getting-started)
+    - [Prometheus Meta-Monitoring](#prometheus-meta-monitoring)
+  - [Monitoring Integrations](#monitoring-integrations)
+    - [Database Monitoring](#database-monitoring-1)
+    - [Ingress and Proxy](#ingress-and-proxy)
+  - [Observability Security](#observability-security)
+    - [Hardening](#hardening)
+  - [OpenTelemetry](#opentelemetry)
+    - [Collector Infrastructure](#collector-infrastructure)
+    - [Distributed Tracing](#distributed-tracing)
+    - [Go SDK](#go-sdk)
+    - [Java Runtime](#java-runtime)
+    - [Kubernetes Integration](#kubernetes-integration)
+    - [SDK Bootstraps](#sdk-bootstraps)
+    - [Zero-Code Instrumentation](#zero-code-instrumentation)
+  - [Prometheus](#prometheus-2)
+    - [Core Platform](#core-platform-1)
+    - [Custom Instrumentation](#custom-instrumentation)
+    - [Ecosystem](#ecosystem)
+    - [Initial Configuration](#initial-configuration)
+    - [Operational Deployment](#operational-deployment)
+  - [Prometheus Ecosystem](#prometheus-ecosystem)
+    - [Agent Architecture](#agent-architecture)
+    - [Architecture Comparison](#architecture-comparison)
+    - [Best Practices](#best-practices-1)
+    - [Configuration Management](#configuration-management)
+    - [Core Architecture](#core-architecture)
+    - [Core Principles](#core-principles)
+    - [Edge Architectures](#edge-architectures)
+    - [Installation](#installation)
+    - [Performance and Tuning](#performance-and-tuning)
+    - [Production Scaling](#production-scaling)
+    - [Releases and Governance](#releases-and-governance)
+  - [SLAs and SLOs](#slas-and-slos)
+    - [Generators](#generators)
+    - [Jsonnet Libraries](#jsonnet-libraries)
+    - [Reference Implementation](#reference-implementation)
+  - [Scraping and Exporters](#scraping-and-exporters)
+    - [Blackbox Probing](#blackbox-probing)
+    - [Cloud Exporters](#cloud-exporters)
+    - [Database Monitoring](#database-monitoring-2)
+    - [Discovery](#discovery)
+    - [JVM Monitoring](#jvm-monitoring)
+    - [Kubernetes Exporters](#kubernetes-exporters)
+    - [Security Exporters](#security-exporters)
+  - [System Monitoring](#system-monitoring)
+    - [Linux](#linux)
+  - [Time Series Databases](#time-series-databases)
+    - [Cardinality Management](#cardinality-management)
+  - [Visualization](#visualization)
+    - [Grafana Dashboards](#grafana-dashboards)
+1. [Systems Design](#systems-design)
+  - [Observability](#observability-2)
+    - [Infrastructure Design](#infrastructure-design)
+      - [Telemetry Pipelines](#telemetry-pipelines)
+
 ## Cloud Native Infrastructure
 
 ### Observability
@@ -61,7 +193,7 @@
   - **(2026)** [prometheus-operator.dev 🌟](https://prometheus-operator.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation portal for Prometheus Operator. The operator simplifies cloud-native metrics operations on Kubernetes. The operator introduces custom resource definitions (CRDs) like Prometheus, ServiceMonitor, PodMonitor, and Alertmanager, allowing declarative platform setups aligned with typical GitOps patterns.
 ##### Pushgateway
 
-  - **(2026)** [==Pushgateway==](https://github.com/prometheus/pushgateway) <span class='md-tag md-tag--info'>⭐ 3334</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official GitHub repository for Prometheus Pushgateway. Designed to allow ephemeral, short-lived, or batch jobs to push metrics to an intermediate gateway, which Prometheus then scrapes. Note that official guidelines advise against using Pushgateway for standard applications due to structural state issues.
+  - **(2026)** [==Pushgateway==](https://github.com/prometheus/pushgateway) <span class='md-tag md-tag--info'>⭐ 3334</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-af13d2fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 9 L 30 9 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-af13d2fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official GitHub repository for Prometheus Pushgateway. Designed to allow ephemeral, short-lived, or batch jobs to push metrics to an intermediate gateway, which Prometheus then scrapes. Note that official guidelines advise against using Pushgateway for standard applications due to structural state issues.
 ##### Query Tools
 
   - **(2021)** [promlens.com 🌟](https://promlens.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — PromLens is an advanced query builder and analyzer for PromQL. Created to help developers write, visualize, and debug complex PromQL expressions, it provides syntactic parsing, inline documentation, and tree-based diagnostic tools. Now integrated as an official Prometheus community project.
@@ -102,14 +234,14 @@
 
 #### Multi-Arch Telemetry
 
-  - **(2025)** [==Cluster Monitoring stack for ARM / X86-64 platforms==](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 754</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized telemetry suite crafted for physical, edge, and multi-architecture Kubernetes clusters running on ARM or x86 systems. Extends modern operators to resource-constrained environments.
+  - **(2025)** [==Cluster Monitoring stack for ARM / X86-64 platforms==](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 754</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c7b3de5e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 11 L 30 2 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-c7b3de5e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized telemetry suite crafted for physical, edge, and multi-architecture Kubernetes clusters running on ARM or x86 systems. Extends modern operators to resource-constrained environments.
 ## Infrastructure
 
 ### Message Brokers
 
 #### ActiveMQ
 
-  - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
+  - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3be59a46" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-3be59a46)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
 ## Infrastructure as Code
 
 ### Ansible
@@ -122,7 +254,7 @@
   - **(2020)** [galaxy.ansible.com/William-Yeh/prometheus](https://galaxy.ansible.com/William-Yeh/prometheus) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical Ansible module for Prometheus installations. Live Grounding Note: Currently unmaintained. Modern orchestrations have transitioned to Helm charts or upstream operators.
 #### Node Exporter Deployment
 
-  - **(2024)** [==Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment==](https://github.com/idealista/prometheus_jmx_exporter_role) <span class='md-tag md-tag--info'>⭐ 6</span> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Specialized Ansible playbook role targeting JMX and Node Exporter configurations inside Debian architectures. Ideal for standardized on-premise JVM infrastructure telemetry deployment.
+  - **(2024)** [==Idealista: This ansible role installs a Prometheus Node Exporter in a debian environment==](https://github.com/idealista/prometheus_jmx_exporter_role) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ca9618b3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 9 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-ca9618b3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Specialized Ansible playbook role targeting JMX and Node Exporter configurations inside Debian architectures. Ideal for standardized on-premise JVM infrastructure telemetry deployment.
   - **(2025)** [galaxy.ansible.com/cloudalchemy/node-exporter](https://galaxy.ansible.com/cloudalchemy/node-exporter) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly standard Cloud Alchemy Ansible role configured to install, register, and maintain Prometheus Node Exporter. Leverages secure systemd user privileges and handles multi-distro variations flawlessly.
   - **(2024)** [galaxy.ansible.com/UnderGreen/prometheus-node-exporter](https://galaxy.ansible.com/UnderGreen/prometheus-node-exporter) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight, target-focused Ansible role specifically created to provision Prometheus Node Exporter. Useful for simple, bare-metal telemetry rollouts.
 #### Prometheus Deployment
@@ -140,7 +272,7 @@
 
 ### General Reference
 
-  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level/?utm_source=thenewstack&utm_medium=twitter&utm_campaign=platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
+  - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
   - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learndevops.substack.com: Hitting prometheus API with curl and jq 🌟 in the Kubernetes Tools ecosystem.
   - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase in the Kubernetes Tools ecosystem.
@@ -209,7 +341,7 @@
   - **(2026)** [activemq.apache.org/components/classic/documentation](https://activemq.apache.org/components/classic/documentation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for ActiveMQ Classic. Walks developers through configuring JMX performance statistics, thread monitoring, and telemetry collection with tools like Telegraf.
 #### Artemis Extensions
 
-  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
+  - **(2024)** [==Artemis Prometheus Metrics Plugin==](https://github.com/rh-messaging/artemis-prometheus-metrics-plugin) <span class='md-tag md-tag--info'>⭐ 28</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9b8e9d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 9 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-d9b8e9d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Duplicates technical setup for the Artemis-Prometheus plugin, highlighting metrics formatting for queue lengths, active sessions, and underlying JVM memory states.
 #### Artemis Management
 
   - **(2026)** [Apache ActiveMQ Artemis Using the Server](https://artemis.apache.org/components/artemis/documentation/latest/using-server.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Operational manual for running ActiveMQ Artemis brokers. Outlines built-in administrative consoles, advanced queues monitoring, and direct telemetry integration using Micrometer frameworks.
@@ -219,15 +351,15 @@
 
 #### Core Releases
 
-  - **(2021)** [==Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool==](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0) <span class='md-tag md-tag--info'>⭐ 8504</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Release analysis of Alertmanager's v0.23 release cycle, detailing the addition of native AWS SNS integrations. Outlines the operational workflow for forwarding alerts straight to mobile endpoints, email, and lambda tasks.
+  - **(2021)** [==Alertmanager 0.23.0-rc.0 with awscloud SNS support is available for testing. There are also bugfixes and features for amtool==](https://github.com/prometheus/alertmanager/releases/tag/v0.23.0-rc.0) <span class='md-tag md-tag--info'>⭐ 8504</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1e3c530b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 5 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1e3c530b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Release analysis of Alertmanager's v0.23 release cycle, detailing the addition of native AWS SNS integrations. Outlines the operational workflow for forwarding alerts straight to mobile endpoints, email, and lambda tasks.
 #### Visualizers
 
-  - **(2023)** [==karma 🌟==](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2648</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly functional and responsive dashboard for Prometheus Alertmanager alerts. Enables deep filtering and cluster aggregation across diverse Alertmanager nodes, dramatically improving SRE triage workflows.
+  - **(2023)** [==karma 🌟==](https://github.com/prymitive/karma) <span class='md-tag md-tag--info'>⭐ 2648</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff55b481" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 11 L 30 12 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff55b481)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly functional and responsive dashboard for Prometheus Alertmanager alerts. Enables deep filtering and cluster aggregation across diverse Alertmanager nodes, dramatically improving SRE triage workflows.
 ### Application Instrumentation
 
 #### JVM
 
-  - **(2026)** [**Micrometer** Collector](http://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive dimensional metrics instrumentation facade for JVM-based programs. Acts as an abstraction layer resembling SLF4J, allowing seamless target conversions to Prometheus, Datadog, or Wavefront formats.
+  - **(2026)** [**Micrometer** Collector](https://micrometer.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive dimensional metrics instrumentation facade for JVM-based programs. Acts as an abstraction layer resembling SLF4J, allowing seamless target conversions to Prometheus, Datadog, or Wavefront formats.
 ### Big Data Monitoring
 
 #### Apache Spark
@@ -237,7 +369,7 @@
 
 #### Cortex Engine
 
-  - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5811</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
+  - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5811</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9287ae06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 9 L 40 2 L 50 4" fill="none" stroke="url(#spark-grad-9287ae06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
   - **(2024)** [**Cortex**:](https://cortexmetrics.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural landing page of Cortex, an enterprise-grade, horizontally scalable, multi-tenant TSDB. Note: Since 2024-2025, many users have migrated toward Thanos or VictoriaMetrics, yet Cortex remains a highly resilient classic for long-term storage.
 #### InfluxDB
 
@@ -262,7 +394,7 @@
 
 #### Interoperability
 
-  - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
+  - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d66d1c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 7 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-6d66d1c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
 ### Monitoring
 
 #### IoT Observability
@@ -297,7 +429,7 @@
 
 #### Collector Infrastructure
 
-  - **(2026)** [==OpenTelemetry Collector==](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7132</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance processing engine capable of receiving, parsing, filtering, and routing traces, metrics, and logs across vendor-agnostic infrastructure. Serves as the central data pipeline component in modern cloud-native observability stacks.
+  - **(2026)** [==OpenTelemetry Collector==](https://github.com/open-telemetry/opentelemetry-collector) <span class='md-tag md-tag--info'>⭐ 7132</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-02095d03" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 2 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-02095d03)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A high-performance processing engine capable of receiving, parsing, filtering, and routing traces, metrics, and logs across vendor-agnostic infrastructure. Serves as the central data pipeline component in modern cloud-native observability stacks.
 #### Distributed Tracing
 
   - **(2022)** [thenewstack.io: Demystifying Distributed Traces in OpenTelemetry](https://thenewstack.io/demystifying-distributed-traces-in-opentelemetry) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive publication illuminating the mechanics of trace context propagation and span relationships inside distributed applications. Explains how trace-headers flow seamlessly across HTTP/gRPC transport boundaries.
@@ -320,7 +452,7 @@
 
 #### Core Platform (1)
 
-  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64493</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
+  - **(2026)** [==github.com/prometheus/prometheus==](https://github.com/prometheus/prometheus) <span class='md-tag md-tag--info'>⭐ 64493</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-95404ed3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 5 L 30 9 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-95404ed3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and powerful alerting capabilities.
 #### Custom Instrumentation
 
   - **(2026)** [prometheus.io: Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering guidelines for architecting Prometheus exporters. Focuses on core metric exposition design, label usage, scraping cycles, and custom translation layers to prevent performance overhead on monitored endpoints.
@@ -346,7 +478,7 @@
   - **(2022)** [promlabs.com: Avoid These 6 Mistakes When Getting Started With Prometheus](https://promlabs.com/blog/2022/12/11/avoid-these-6-mistakes-when-getting-started-with-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes six critical anti-patterns when setting up Prometheus. Addresses excessive metrics cardinality, sub-optimal query designs using rate(), and failing to configure robust alert routing mechanisms.
 #### Configuration Management
 
-  - **(2022)** [==Promgen 🌟==](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1124</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Promgen is a web UI and CLI helper utility designed to simplify the generation of scrape target targets and custom alerting rule files for large-scale Prometheus configurations.
+  - **(2022)** [==Promgen 🌟==](https://github.com/line/promgen) <span class='md-tag md-tag--info'>⭐ 1124</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e69c3c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 5 L 30 11 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-8e69c3c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Promgen is a web UI and CLI helper utility designed to simplify the generation of scrape target targets and custom alerting rule files for large-scale Prometheus configurations.
 #### Core Architecture
 
   - **(2024)** [**Prometheus TSDB**](https://prometheus.io/docs/prometheus/latest/storage) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural dive into the internal engineering of Prometheus TSDB. Discusses memory-mapped files, write-ahead logging (WAL), chunk compression, compaction cycles, and dynamic metric block structures.
@@ -373,43 +505,43 @@
 
 #### Generators
 
-  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2501</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
-  - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
+  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2501</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3443744" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 13 L 30 11 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e3443744)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
+  - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-113e1f97" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 5 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-113e1f97)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
   - **(2021)** [itnext.io: SLOs should be easy, say hi to Sloth 🌟](https://itnext.io/slos-should-be-easy-say-hi-to-sloth-9c8a225df0d4) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walkthrough exploring how Sloth helps teams declare Service Level Objectives as code. Translates high-level metrics guidelines into functional alerting matrices without writing raw PromQL equations.
 #### Jsonnet Libraries
 
-  - **(2022)** [==slo-libsonnet==](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modular Jsonnet library designed for defining and generating Prometheus-based SLOs, multi-window burn rates, and dashboards using a modular configuration-as-code pattern. Highly compatible with kube-prometheus.
+  - **(2022)** [==slo-libsonnet==](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a00b5eb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 6 L 30 10 L 40 13 L 50 9" fill="none" stroke="url(#spark-grad-1a00b5eb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modular Jsonnet library designed for defining and generating Prometheus-based SLOs, multi-window burn rates, and dashboards using a modular configuration-as-code pattern. Highly compatible with kube-prometheus.
 #### Reference Implementation
 
-  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
+  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f1a985c0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 6 L 30 12 L 40 7 L 50 11" fill="none" stroke="url(#spark-grad-f1a985c0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
 ### Scraping and Exporters
 
 #### Blackbox Probing
 
-  - **(2024)** [==blackbox_exporter 🌟==](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5728</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Prometheus community-supported exporter designed to probe endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC protocols. Crucial for verifying application routing availability and TLS certificate statuses.
+  - **(2024)** [==blackbox_exporter 🌟==](https://github.com/prometheus/blackbox_exporter) <span class='md-tag md-tag--info'>⭐ 5728</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-558f710c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 5 L 20 4 L 30 12 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-558f710c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Prometheus community-supported exporter designed to probe endpoints over HTTP, HTTPS, DNS, TCP, ICMP, and gRPC protocols. Crucial for verifying application routing availability and TLS certificate statuses.
   - **(2022)** [rtfm.co.ua: Prometheus: Kubernetes endpoints monitoring with blackbox-exporter](https://rtfm.co.ua/en/prometheus-kubernetes-endpoints-monitoring-with-blackbox-exporter) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on deploying the Prometheus Blackbox Exporter to monitor endpoint availability via HTTP, HTTPS, TCP, and ICMP protocols, optimizing synthetic probe latency tracks.
 #### Cloud Exporters
 
-  - **(2024)** [==YACE - yet another cloudwatch exporter 🌟==](https://github.com/prometheus-community/yet-another-cloudwatch-exporter) <span class='md-tag md-tag--info'>⭐ 1209</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly performance-optimized Prometheus exporter (YACE) designed to query metrics from AWS CloudWatch. Leverages cost-effective batched APIs to retrieve data without incurring high AWS costs.
+  - **(2024)** [==YACE - yet another cloudwatch exporter 🌟==](https://github.com/prometheus-community/yet-another-cloudwatch-exporter) <span class='md-tag md-tag--info'>⭐ 1209</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-aa96d50e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 6 L 30 4 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-aa96d50e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly performance-optimized Prometheus exporter (YACE) designed to query metrics from AWS CloudWatch. Leverages cost-effective batched APIs to retrieve data without incurring high AWS costs.
 #### Database Monitoring (2)
 
-  - **(2024)** [==prometheus-community/elasticsearch_exporter==](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2077</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standard Prometheus-community exporter that queries Elasticsearch cluster health, shard counts, JVM memory usage, indexing metrics, and search latency times.
+  - **(2024)** [==prometheus-community/elasticsearch_exporter==](https://github.com/prometheus-community/elasticsearch_exporter) <span class='md-tag md-tag--info'>⭐ 2077</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a54c23df" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 2 L 30 6 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-a54c23df)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standard Prometheus-community exporter that queries Elasticsearch cluster health, shard counts, JVM memory usage, indexing metrics, and search latency times.
   - **(2021)** [sysdig.com: How to monitor an Oracle database with Prometheus. The OracleDB Prometheus exporter](https://www.sysdig.com/blog/monitor-oracle-database-prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates deploying the OracleDB Prometheus Exporter to parse system tables. Outlines collecting Oracle-specific metrics like tablespace storage usage, connection pool saturation, and SGA/PGA memory allocations.
 #### Discovery
 
   - **(2023)** [exporterhub.io 🌟](https://exporterhub.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, community-curated directory designed to catalog Prometheus exporters and dashboard integrations, simplifying target discovery for complex microservice infrastructure.
 #### JVM Monitoring
 
-  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
   - **(2020)** [engineeringblog.yelp.com: Improving the performance of the Prometheus JMX Exporter](https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study exploring performance bottlenecks in the standard JMX Exporter. Details tuning allocations and scrape intervals to dramatically reduce CPU and garbage collection overhead in heavily metrics-dense Cassandra clusters.
 #### Kubernetes Exporters
 
-  - **(2023)** [==sstarcher/helm-exporter==](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 301</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
-  - **(2023)** [==k8s-image-availability-exporter==](https://github.com/deckhouse/k8s-image-availability-exporter) <span class='md-tag md-tag--info'>⭐ 251</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Prometheus exporter that continuously verifies container registry availability for images specified in Kubernetes configurations. Helps catch container start failures (e.g., ErrImagePull) before pods crash.
+  - **(2023)** [==sstarcher/helm-exporter==](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 301</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-150b93f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 10 L 30 6 L 40 7 L 50 7" fill="none" stroke="url(#spark-grad-150b93f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
+  - **(2023)** [==k8s-image-availability-exporter==](https://github.com/deckhouse/k8s-image-availability-exporter) <span class='md-tag md-tag--info'>⭐ 251</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-783cc18a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 4 L 30 9 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-783cc18a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Prometheus exporter that continuously verifies container registry availability for images specified in Kubernetes configurations. Helps catch container start failures (e.g., ErrImagePull) before pods crash.
 #### Security Exporters
 
-  - **(2024)** [==enix/x509-certificate-exporter==](https://github.com/enix/x509-certificate-exporter) <span class='md-tag md-tag--info'>⭐ 929</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly configurable Prometheus exporter focused on scanning and detecting TLS/SSL certificates from filesystems, Kubernetes Secrets, and PEM files. Helps automatically alert on expiring network assets.
-  - **(2021)** [==muxinc/certificate-expiry-monitor==](https://github.com/muxinc/certificate-expiry-monitor) <span class='md-tag md-tag--info'>⭐ 169</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lightweight utility that continuously monitors the expiration of X.509 SSL/TLS certificates. Generates metrics consumable by Prometheus to allow early alerting on certificate renewals.
+  - **(2024)** [==enix/x509-certificate-exporter==](https://github.com/enix/x509-certificate-exporter) <span class='md-tag md-tag--info'>⭐ 929</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f808ec33" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 2 L 30 6 L 40 4 L 50 11" fill="none" stroke="url(#spark-grad-f808ec33)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly configurable Prometheus exporter focused on scanning and detecting TLS/SSL certificates from filesystems, Kubernetes Secrets, and PEM files. Helps automatically alert on expiring network assets.
+  - **(2021)** [==muxinc/certificate-expiry-monitor==](https://github.com/muxinc/certificate-expiry-monitor) <span class='md-tag md-tag--info'>⭐ 169</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-54b2c15d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 5 L 20 4 L 30 13 L 40 9 L 50 13" fill="none" stroke="url(#spark-grad-54b2c15d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lightweight utility that continuously monitors the expiration of X.509 SSL/TLS certificates. Generates metrics consumable by Prometheus to allow early alerting on certificate renewals.
 ### System Monitoring
 
 #### Linux

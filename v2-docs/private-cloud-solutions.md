@@ -3,6 +3,12 @@
 !!! info "Architectural Context"
     Detailed reference for Private Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
+## Table of Contents
+
+1. [Infrastructure](#infrastructure)
+  - [Cloud Market](#cloud-market)
+    - [OpenStack](#openstack)
+
 ## Infrastructure
 
 ### Cloud Market

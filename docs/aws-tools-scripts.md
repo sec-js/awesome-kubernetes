@@ -66,8 +66,8 @@
 ## AWS CLI and AWS SDK
 
 - [Amazon CLI Documentation](https://aws.amazon.com/cli)
-- [AWS CLI Command Reference](http://docs.aws.amazon.com/cli/latest/index.html)
-- [New usage examples have been added to the CLI for CodePipeline API Reference](http://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)
+- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)
+- [New usage examples have been added to the CLI for CodePipeline API Reference](https://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html)
 - [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan)
 - List running instances using 'awscli':
 

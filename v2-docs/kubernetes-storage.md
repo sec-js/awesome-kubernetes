@@ -3,6 +3,87 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Storage. Cloud Native Storage in the context of The Container Stack.
 
+## Table of Contents
+
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Architecture and Infrastructure Strategy](#cloud-architecture-and-infrastructure-strategy)
+  - [Storage and Hybrid Systems](#storage-and-hybrid-systems)
+    - [Topology Comparison](#topology-comparison)
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Storage and Databases](#storage-and-databases)
+    - [Distributed Block Storage](#distributed-block-storage)
+1. [Cloud Native Storage Architecture](#cloud-native-storage-architecture)
+  - [Storage Architecture and Engines](#storage-architecture-and-engines)
+    - [Benchmarks](#benchmarks)
+    - [Container Attached Storage](#container-attached-storage)
+    - [Ecosystem Trends](#ecosystem-trends)
+    - [Object Storage](#object-storage)
+    - [Storage Paradigms](#storage-paradigms)
+  - [Storage Fundamentals](#storage-fundamentals)
+    - [Conceptual Design](#conceptual-design)
+    - [Implementation Basics](#implementation-basics)
+    - [Platform Overview](#platform-overview)
+    - [Stateful Applications](#stateful-applications)
+    - [Storage Paradigms](#storage-paradigms-1)
+1. [Database and Storage](#database-and-storage)
+  - [Storage Infrastructure](#storage-infrastructure)
+    - [Persistent Volumes](#persistent-volumes)
+1. [Enterprise Integration](#enterprise-integration)
+  - [Cloud-Native Storage](#cloud-native-storage)
+    - [IBM Spectrum Scale Integration](#ibm-spectrum-scale-integration)
+    - [IBM Storage Systems](#ibm-storage-systems)
+1. [Kubernetes Storage Implementation](#kubernetes-storage-implementation)
+  - [Persistent Volumes and Provisioners](#persistent-volumes-and-provisioners)
+    - [Alternative Storage Drivers](#alternative-storage-drivers)
+    - [Local Storage](#local-storage)
+    - [PVPVC Fundamentals](#pvpvc-fundamentals)
+    - [Storage Classes](#storage-classes)
+  - [Stateful Operations](#stateful-operations)
+    - [Volume Resizing](#volume-resizing)
+  - [Volume Fundamentals](#volume-fundamentals)
+    - [Ephemeral Storage](#ephemeral-storage)
+    - [Implementation Basics](#implementation-basics-1)
+1. [Storage](#storage)
+  - [Enterprise Storage](#enterprise-storage)
+    - [Legacy Platforms](#legacy-platforms)
+    - [Storage Definitions](#storage-definitions)
+  - [Kubernetes CSI](#kubernetes-csi)
+    - [Documentation](#documentation)
+    - [How-To](#how-to)
+    - [S3 Integration](#s3-integration)
+    - [SMB Integration](#smb-integration)
+    - [Source Code](#source-code)
+  - [Kubernetes PVC](#kubernetes-pvc)
+    - [RWX Alternatives](#rwx-alternatives)
+  - [Kubernetes Storage](#kubernetes-storage)
+    - [Backup and Replication](#backup-and-replication)
+    - [Benchmarking](#benchmarking)
+    - [Container Attached Storage](#container-attached-storage-1)
+    - [Distributed Block Storage](#distributed-block-storage-1)
+    - [Enterprise CAS](#enterprise-cas)
+    - [GlusterFS Orchestration](#glusterfs-orchestration)
+    - [High Performance Block Storage](#high-performance-block-storage)
+    - [LVM Provisioning](#lvm-provisioning)
+    - [Lightweight Deployments](#lightweight-deployments)
+    - [Local Storage Provisioning](#local-storage-provisioning)
+    - [NVMe-oF](#nvme-of)
+    - [Open Source Governance](#open-source-governance)
+    - [Performance Analysis](#performance-analysis)
+    - [Platform Integration](#platform-integration)
+    - [Storage Operators](#storage-operators)
+  - [Object Storage](#object-storage-1)
+    - [MinIO](#minio)
+1. [Storage and Data](#storage-and-data)
+  - [Container Attached Storage](#container-attached-storage-2)
+    - [OpenEBS](#openebs)
+  - [Data on Kubernetes](#data-on-kubernetes)
+    - [Community Hub](#community-hub)
+    - [Industry Research](#industry-research)
+  - [Performance Benchmarking](#performance-benchmarking)
+    - [Etcd Storage Tuning](#etcd-storage-tuning)
+
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -59,7 +140,7 @@
 
 #### Distributed Block Storage
 
-  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
+  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
 ## Cloud Native Storage Architecture
 
 ### Storage Architecture and Engines
@@ -122,7 +203,7 @@
 
 #### IBM Spectrum Scale Integration
 
-  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](http://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
 #### IBM Storage Systems
 
   - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
@@ -135,8 +216,8 @@
   - **(2021)** [itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution](https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth guide on deploying a highly available NFS cluster entirely within Kubernetes. It bypasses proprietary cloud vendor offerings to construct an independent, multi-write shared filesystem using open-source replication utilities.
 #### Local Storage
 
-  - **(2026)** [==github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟==](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) <span class='md-tag md-tag--info'>⭐ 1200</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes-SIGs repository for the local persistence static provisioner. It automates the creation of PVs for local disks, enabling database workloads to achieve raw, low-latency NVMe/SSD IOPS while retaining Kubernetes persistent storage abstractions.
-  - **(2026)** [==openebs/zfs-localpv==](https://github.com/openebs/zfs-localpv) <span class='md-tag md-tag--info'>⭐ 566</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OpenEBS CSI driver for ZFS-LocalPV. It dynamically provisions ZFS pools on local nodes, combining the exceptional performance of raw NVMe storage with ZFS capabilities like snapshots, clones, compression, and high integrity.
+  - **(2026)** [==github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟==](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) <span class='md-tag md-tag--info'>⭐ 1200</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f6d12a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 10 L 30 9 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-3f6d12a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes-SIGs repository for the local persistence static provisioner. It automates the creation of PVs for local disks, enabling database workloads to achieve raw, low-latency NVMe/SSD IOPS while retaining Kubernetes persistent storage abstractions.
+  - **(2026)** [==openebs/zfs-localpv==](https://github.com/openebs/zfs-localpv) <span class='md-tag md-tag--info'>⭐ 566</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c59d73d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 8 L 30 13 L 40 2 L 50 13" fill="none" stroke="url(#spark-grad-c59d73d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OpenEBS CSI driver for ZFS-LocalPV. It dynamically provisions ZFS pools on local nodes, combining the exceptional performance of raw NVMe storage with ZFS capabilities like snapshots, clones, compression, and high integrity.
 #### PVPVC Fundamentals
 
   - **(2023)** [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level overview explaining the conceptual purpose of Persistent Volumes. It targets business-minded platform engineers seeking to understand how storage decouples physical disk infrastructure from container runtime cycles.
@@ -182,10 +263,10 @@
   - **(2020)** [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instructional overview explaining how the Container Storage Interface (CSI) specification coordinates volume management. It details the precise structural operations between the Kubelet, Kubernetes API servers, and vendor-specific CSI driver components.
 #### S3 Integration
 
-  - **(2026)** [==github.com/yandex-cloud: CSI for S3==](https://github.com/yandex-cloud/k8s-csi-s3) <span class='md-tag md-tag--info'>⭐ 859</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An open-source CSI driver that allows mounting Amazon S3 object buckets directly as filesystems within Kubernetes pods using local FUSE drivers. This interface permits legacy applications expecting flat directory paths to consume S3 storage backends with minimal code refactoring.
+  - **(2026)** [==github.com/yandex-cloud: CSI for S3==](https://github.com/yandex-cloud/k8s-csi-s3) <span class='md-tag md-tag--info'>⭐ 859</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ec31b7d3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 12 L 30 10 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-ec31b7d3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An open-source CSI driver that allows mounting Amazon S3 object buckets directly as filesystems within Kubernetes pods using local FUSE drivers. This interface permits legacy applications expecting flat directory paths to consume S3 storage backends with minimal code refactoring.
 #### SMB Integration
 
-  - **(2026)** [==SMB CSI Driver for Kubernetes==](https://github.com/kubernetes-csi/csi-driver-smb) <span class='md-tag md-tag--info'>⭐ 641</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A specialized CSI driver designed to dynamically provision and mount Server Message Block (SMB) shared directories into Kubernetes pods. This driver is essential for heterogeneous Windows/Linux container clusters and legacy corporate network attached storage (NAS) migrations.
+  - **(2026)** [==SMB CSI Driver for Kubernetes==](https://github.com/kubernetes-csi/csi-driver-smb) <span class='md-tag md-tag--info'>⭐ 641</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63235a8d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 3 L 30 2 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-63235a8d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A specialized CSI driver designed to dynamically provision and mount Server Message Block (SMB) shared directories into Kubernetes pods. This driver is essential for heterogeneous Windows/Linux container clusters and legacy corporate network attached storage (NAS) migrations.
 #### Source Code
 
   - **(2026)** [github.com/kubernetes-csi](https://github.com/kubernetes-csi) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub organization containing CSI reference drivers, specification documentation, and auxiliary helper containers (such as csi-provisioner and csi-snapshotter). These foundational code repositories define how all third-party storage controllers communicate with the core Kubernetes API.
@@ -198,7 +279,7 @@
 
 #### Backup and Replication
 
-  - **(2026)** [==VolSync 🌟==](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 978</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — VolSync is an open-source Kubernetes operator developed by Backube to orchestrate cross-cluster persistent volume data replication. Supporting engines like rsync, rclone, and restic, it delivers a platform-agnostic framework for executing disaster recovery policies.
+  - **(2026)** [==VolSync 🌟==](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 978</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8702f91" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 7 L 30 8 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-c8702f91)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — VolSync is an open-source Kubernetes operator developed by Backube to orchestrate cross-cluster persistent volume data replication. Supporting engines like rsync, rclone, and restic, it delivers a platform-agnostic framework for executing disaster recovery policies.
   - **(2021)** [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory overview of VolSync's design goals and features, showing how the controller simplifies complex multi-cluster persistence synchronization. It details how the operator abstracts underlying storage structures, allowing unified data movement across diverse cloud backends.
 #### Benchmarking
 
@@ -217,20 +298,20 @@
   - **(2021)** [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory release article for IOMesh, explaining how its cloud-native software-defined architecture delivers bare-metal storage speeds. It emphasizes optimized resource utilization, host pooling mechanics, and integrated security frameworks designed for container workloads.
 #### GlusterFS Orchestration
 
-  - **(2026)** [==Kadalu==](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 748</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kadalu is a lightweight, container-native storage solution that utilizes GlusterFS to orchestrate persistent volumes inside Kubernetes. It runs storage services inside application pods as microservices, offering a lightweight alternative to external GlusterFS cluster configurations.
+  - **(2026)** [==Kadalu==](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 748</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2c7d9d9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 9 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-f2c7d9d9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kadalu is a lightweight, container-native storage solution that utilizes GlusterFS to orchestrate persistent volumes inside Kubernetes. It runs storage services inside application pods as microservices, offering a lightweight alternative to external GlusterFS cluster configurations.
 #### High Performance Block Storage
 
   - **(2026)** [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — LINSTOR is an open-source storage orchestration engine designed by LINBIT that coordinates block storage nodes using native Linux features like DRBD, LVM, and ZFS. It offers highly performant, low-overhead volume management, providing cluster architects with bare-metal storage speeds in Kubernetes.
   - **(2026)** [simplyblock: simplyblock.io](https://simplyblock.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simplyblock is a high-performance cloud storage platform engineered to optimize block-storage scaling in AWS and Kubernetes. Utilizing NVMe-over-Fabrics disaggregation, dynamic caching, and compression, it significantly lowers cloud storage expenses while keeping sub-millisecond access speeds.
 #### LVM Provisioning
 
-  - **(2026)** [==openebs/lvm-localpv==](https://github.com/openebs/lvm-localpv) <span class='md-tag md-tag--info'>⭐ 344</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS CSI driver designed for dynamic volume provisioning backed by local Logical Volume Manager (LVM) volume groups. It provides raw block or filesystem performance close to bare-metal hardware speed while offering features like snapshotting and size limits directly managed via Kubernetes native CRDs.
+  - **(2026)** [==openebs/lvm-localpv==](https://github.com/openebs/lvm-localpv) <span class='md-tag md-tag--info'>⭐ 344</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-41c38b3d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 12 L 30 8 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-41c38b3d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS CSI driver designed for dynamic volume provisioning backed by local Logical Volume Manager (LVM) volume groups. It provides raw block or filesystem performance close to bare-metal hardware speed while offering features like snapshotting and size limits directly managed via Kubernetes native CRDs.
 #### Lightweight Deployments
 
   - **(2021)** [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining the configuration and installation steps required to run Rook-Ceph on lightweight, resource-constrained K3s clusters. It explains structural modifications needed to optimize enterprise storage frameworks for edge compute environments and development setups.
 #### Local Storage Provisioning
 
-  - **(2026)** [==openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent' Volumes==](https://github.com/openebs/dynamic-localpv-provisioner) <span class='md-tag md-tag--info'>⭐ 208</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS sub-project designed to provision Kubernetes local hostpath or raw block persistent volumes dynamically. This controller eliminates manual static volume definitions, allowing database applications to seamlessly run at native drive speed while relying on Kubernetes scheduling rules.
+  - **(2026)** [==openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent' Volumes==](https://github.com/openebs/dynamic-localpv-provisioner) <span class='md-tag md-tag--info'>⭐ 208</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ce32d8b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 4 L 30 2 L 40 9 L 50 8" fill="none" stroke="url(#spark-grad-7ce32d8b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS sub-project designed to provision Kubernetes local hostpath or raw block persistent volumes dynamically. This controller eliminates manual static volume definitions, allowing database applications to seamlessly run at native drive speed while relying on Kubernetes scheduling rules.
 #### NVMe-oF
 
   - **(2020)** [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical review of Lightbits Labs adding native CSI support to its LightOS platform, bridging disaggregated NVMe-over-Fabrics (NVMe-oF) with Kubernetes. This integration enables low-overhead, hardware-accelerated block storage access for scale-out, high-throughput cloud database deployments.
@@ -245,7 +326,7 @@
   - **(2020)** [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An announcement outlining Rancher's general availability support for Longhorn within its enterprise Kubernetes platform. This architectural integration allows administrators to manage and deploy robust persistent volume infrastructure with point-and-click UI catalogs.
 #### Storage Operators
 
-  - **(2026)** [==libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes==](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Stork (Storage Operator Runtime for Kubernetes) is an open-source utility developed by Portworx to facilitate storage-aware scheduling and backup operations. It communicates with local storage nodes to ensure container workloads are scheduled on the exact physical hardware housing their replicated volumes.
+  - **(2026)** [==libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes==](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-45da6b45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-45da6b45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Stork (Storage Operator Runtime for Kubernetes) is an open-source utility developed by Portworx to facilitate storage-aware scheduling and backup operations. It communicates with local storage nodes to ensure container workloads are scheduled on the exact physical hardware housing their replicated volumes.
 ### Object Storage (1)
 
 #### MinIO

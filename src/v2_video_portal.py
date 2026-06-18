@@ -55,6 +55,26 @@ def to_embed_url(url):
         
     return url
 
+def extract_youtube_id(url):
+    if not url:
+        return None
+    if "playlist?list=" in url or "list=" in url:
+        return None
+    video_id = None
+    if "embed/" in url:
+        match = re.search(r"embed/([^?&#]+)", url)
+        if match:
+            video_id = match.group(1)
+    elif "youtu.be/" in url:
+        match = re.search(r"youtu\.be/([^?&#]+)", url)
+        if match:
+            video_id = match.group(1)
+    else:
+        match = re.search(r"[?&]v=([^&#]+)", url)
+        if match:
+            video_id = match.group(1)
+    return video_id
+
 def get_target_file(category, technology):
     cat_lower = category.lower()
     tech_lower = technology.lower()
@@ -189,7 +209,16 @@ def generate_v2_videos():
                 content.append("")
                 content.append('    <center markdown="1">')
                 content.append('')
-                content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
+                video_id = extract_youtube_id(v["url"])
+                if video_id:
+                    content.append(f'    <div class="video-lazy-container" data-video-id="{video_id}" data-video-url="{v["url"]}" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">')
+                    content.append(f'      <img src="https://img.youtube.com/vi/{video_id}/hqdefault.jpg" alt="{v["title"]}" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">')
+                    content.append('      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">')
+                    content.append('        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>')
+                    content.append('      </div>')
+                    content.append('    </div>')
+                else:
+                    content.append(f'    <iframe width="720" height="405" src="{v["url"]}" title="{v["title"]}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>')
                 content.append('')
                 content.append('    </center>')
                 content.append("")
@@ -201,15 +230,42 @@ def generate_v2_videos():
 
     # Generate Overview page
     overview_content = [
-        "# 🎥 Agentic Video Hub",
+        "# Agentic Video Hub",
         "",
         "Welcome to the **Nubenetes Elite Video Hub**. Discover highly-curated architectural video resources organized into logical learning paths:",
         "",
         "## Learning Dimensions",
-        "- 🤖 [**AI Agents and MCP**](./ai-agents.md) — Dive into agentic architectures, tool integration, and Model Context Protocol setups.",
-        "- 🛠️ [**DevOps, IaC, and SRE**](./devops-iac.md) — Platform engineering, infrastructure automation with Terraform, SRE, and compliance workflows utilizing AI assistants.",
-        "- ☁️ [**Cloud Native Core**](./cloud-native.md) — Architectural strategies, Kubernetes operations, networking, and MLOps platforms.",
-        "- 🏁 [**Fundamentals**](./fundamentals.md) — Documentaries, foundational cloud native concepts, and core Strategy tutorials.",
+        "",
+        '<div style="display: flex; justify-content: center; gap: 24px; margin: 24px 0; flex-wrap: wrap;">',
+        '  <a href="./ai-agents.html" style="text-decoration: none; color: inherit; display: block; flex: 1; min-width: 250px; max-width: 270px;">',
+        '    <div class="hero-badge-card hero-badge-card--purple" style="min-height: 240px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px 16px;">',
+        '      <span style="font-size: 3.5rem; margin-bottom: 12px; display: block;">🤖</span>',
+        '      <div class="hero-badge-title" style="font-size: 1.05rem; font-weight: bold;">AI Agents and MCP</div>',
+        '      <div class="hero-badge-subtitle" style="font-size: 0.78rem; margin-top: 8px; line-height: 1.4; color: var(--md-primary-fg-color--dark);">Dive into agentic architectures, tool integration, and Model Context Protocol setups.</div>',
+        '    </div>',
+        '  </a>',
+        '  <a href="./devops-iac.html" style="text-decoration: none; color: inherit; display: block; flex: 1; min-width: 250px; max-width: 270px;">',
+        '    <div class="hero-badge-card hero-badge-card--cyan" style="min-height: 240px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px 16px;">',
+        '      <span style="font-size: 3.5rem; margin-bottom: 12px; display: block;">🛠️</span>',
+        '      <div class="hero-badge-title" style="font-size: 1.05rem; font-weight: bold;">DevOps, IaC, and SRE</div>',
+        '      <div class="hero-badge-subtitle" style="font-size: 0.78rem; margin-top: 8px; line-height: 1.4; color: var(--md-primary-fg-color--dark);">Platform engineering, infrastructure automation with Terraform, SRE, and compliance workflows utilizing AI assistants.</div>',
+        '    </div>',
+        '  </a>',
+        '  <a href="./cloud-native.html" style="text-decoration: none; color: inherit; display: block; flex: 1; min-width: 250px; max-width: 270px;">',
+        '    <div class="hero-badge-card hero-badge-card--teal" style="min-height: 240px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px 16px;">',
+        '      <span style="font-size: 3.5rem; margin-bottom: 12px; display: block;">☁️</span>',
+        '      <div class="hero-badge-title" style="font-size: 1.05rem; font-weight: bold;">Cloud Native Core</div>',
+        '      <div class="hero-badge-subtitle" style="font-size: 0.78rem; margin-top: 8px; line-height: 1.4; color: var(--md-primary-fg-color--dark);">Architectural strategies, Kubernetes operations, networking, and MLOps platforms.</div>',
+        '    </div>',
+        '  </a>',
+        '  <a href="./fundamentals.html" style="text-decoration: none; color: inherit; display: block; flex: 1; min-width: 250px; max-width: 270px;">',
+        '    <div class="hero-badge-card hero-badge-card--pink" style="min-height: 240px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px 16px;">',
+        '      <span style="font-size: 3.5rem; margin-bottom: 12px; display: block;">🏁</span>',
+        '      <div class="hero-badge-title" style="font-size: 1.05rem; font-weight: bold;">Fundamentals</div>',
+        '      <div class="hero-badge-subtitle" style="font-size: 0.78rem; margin-top: 8px; line-height: 1.4; color: var(--md-primary-fg-color--dark);">Documentaries, foundational cloud native concepts, and core Strategy tutorials.</div>',
+        '    </div>',
+        '  </a>',
+        '</div>',
         ""
     ]
     with open(os.path.join(VIDEOS_DIR, "index.md"), "w") as f:

@@ -1,7 +1,15 @@
-# Chrome & Firefox DevTools. HTTP Protocols & WebSockets
+# Chrome and Firefox DevTools. HTTP Protocols and WebSockets
 
 !!! info "Architectural Context"
-    Detailed reference for Chrome & Firefox DevTools. HTTP Protocols & WebSockets in the context of Developer Ecosystem.
+    Detailed reference for Chrome and Firefox DevTools. HTTP Protocols and WebSockets in the context of Developer Ecosystem.
+
+## Table of Contents
+
+1. [Developer Workspace](#developer-workspace)
+  - [Command-Line Tooling](#command-line-tooling)
+    - [JSON and YAML Manipulators](#json-and-yaml-manipulators)
+  - [Diagnostics and Debugging](#diagnostics-and-debugging)
+    - [Browser Developer Tools](#browser-developer-tools)
 
 ## Developer Workspace
 

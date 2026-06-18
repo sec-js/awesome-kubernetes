@@ -3,13 +3,101 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Tutorials in the context of Architectural Foundations.
 
+## Table of Contents
+
+1. [Architecture and Visualization](#architecture-and-visualization)
+  - [Kubernetes Visualizer](#kubernetes-visualizer)
+    - [Go](#go)
+1. [Cloud Native](#cloud-native)
+  - [Container Orchestration](#container-orchestration)
+    - [Kubernetes Release Notes](#kubernetes-release-notes)
+  - [Education](#education)
+    - [Academic Programs](#academic-programs)
+    - [Cloud Provider Academies](#cloud-provider-academies)
+    - [Course Directories](#course-directories)
+    - [Hands-on Labs](#hands-on-labs)
+    - [Interactive Learning Platforms](#interactive-learning-platforms)
+    - [Official Certifications](#official-certifications)
+    - [Spanish Tutorials](#spanish-tutorials)
+  - [Enterprise Kubernetes](#enterprise-kubernetes)
+    - [OpenShift Infrastructure Deployment](#openshift-infrastructure-deployment)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Service Mesh](#service-mesh)
+    - [Tutorials](#tutorials)
+1. [Cloud-Native Infrastructure](#cloud-native-infrastructure)
+  - [Learning Resources](#learning-resources)
+    - [Kubernetes Courses](#kubernetes-courses)
+1. [Container Orchestration](#container-orchestration-1)
+  - [AKS Labs](#aks-labs)
+    - [Hands-on Learning](#hands-on-learning)
+1. [DevOps](#devops)
+  - [Automation](#automation)
+    - [Education Tooling](#education-tooling)
+1. [DevOps and CICD](#devops-and-cicd)
+  - [Roadmaps](#roadmaps)
+    - [Career Path](#career-path)
+1. [Frontend Development](#frontend-development)
+  - [React Framework](#react-framework)
+    - [State Management](#state-management)
+1. [Fundamentals](#fundamentals)
+  - [Developer Workflows](#developer-workflows)
+    - [Architecture](#architecture)
+1. [Infrastructure](#infrastructure)
+  - [Networking](#networking)
+    - [Fundamentals](#fundamentals-1)
+      - [Service Discovery](#service-discovery)
+1. [Kubernetes](#kubernetes)
+  - [Troubleshooting](#troubleshooting)
+    - [Guides](#guides)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
+1. [Orchestration](#orchestration)
+  - [Containers and Kubernetes](#containers-and-kubernetes)
+    - [Video Series](#video-series)
+      - [Foundations](#foundations)
+  - [Kubernetes](#kubernetes-1)
+    - [Comprehensive Reference](#comprehensive-reference)
+    - [Continuous Learning](#continuous-learning)
+      - [Platform Engineering](#platform-engineering)
+    - [Fundamentals](#fundamentals-2)
+    - [Hands-on Labs](#hands-on-labs-1)
+      - [Cheat Sheets](#cheat-sheets)
+    - [Interactive Platform](#interactive-platform)
+    - [Learning Pathways](#learning-pathways)
+      - [GitHub Repository](#github-repository)
+    - [Official Documentation](#official-documentation)
+    - [Opinion and Strategy](#opinion-and-strategy)
+      - [Historical Evolution](#historical-evolution)
+      - [Learning Pathways](#learning-pathways-1)
+    - [Presentation Slides](#presentation-slides)
+    - [Quick Start](#quick-start)
+    - [Video Series](#video-series-1)
+      - [Bare Metal and Local](#bare-metal-and-local)
+      - [Enterprise Fundamentals](#enterprise-fundamentals)
+      - [Fundamentals](#fundamentals-3)
+      - [Networking and Core](#networking-and-core)
+      - [Production Mechanics](#production-mechanics)
+  - [Kubernetes Fundamentals](#kubernetes-fundamentals)
+    - [Visual Learning](#visual-learning)
+1. [Platform Engineering](#platform-engineering-1)
+  - [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
+    - [Learning Hubs](#learning-hubs)
+1. [Professional Development](#professional-development)
+  - [Opinion and Strategy](#opinion-and-strategy-1)
+    - [Course Reviews](#course-reviews)
+1. [Software Engineering](#software-engineering)
+  - [Collaboration](#collaboration)
+    - [Documentation Specifications](#documentation-specifications)
+  - [Education](#education-1)
+    - [Systems Programming](#systems-programming)
+
 ## Architecture and Visualization
 
 ### Kubernetes Visualizer
 
 #### Go
 
-  - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
+  - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00078e7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 4 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-00078e7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
 ## Cloud Native
 
 ### Container Orchestration
@@ -58,7 +146,7 @@
 
 #### Kubernetes Courses
 
-  - **(2024)** [**wardviaene/kubernetes-course**](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1732</span> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Accompanying codebase for Ward Viaene's comprehensive Kubernetes course, demonstrating deployments, configurations, microservice communication patterns, and cloud migrations. (Live Grounding: Widely trusted community-backed repository illustrating production-grade YAML configurations).
+  - **(2024)** [**wardviaene/kubernetes-course**](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1732</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d6612bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 8 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-9d6612bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Accompanying codebase for Ward Viaene's comprehensive Kubernetes course, demonstrating deployments, configurations, microservice communication patterns, and cloud migrations. (Live Grounding: Widely trusted community-backed repository illustrating production-grade YAML configurations).
 ## Container Orchestration (1)
 
 ### AKS Labs
@@ -79,7 +167,7 @@
 
 #### Career Path
 
-  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
+  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
 ## Frontend Development
 
 ### React Framework
@@ -93,7 +181,7 @@
 
 #### Architecture
 
-  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](http://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
+  - **(2020)** [millionvisit.blogspot.com: Kubernetes for Developers #1: Kubernetes Architecture and Features 🌟](https://millionvisit.blogspot.com/2020/12/kubernetes-for-developers-1-kubernetes-architecture.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-first manual illustrating structural components and cluster design properties. Guides programmers to understand how their API payload deployments translates to actual container lifecycle actions on physical machines.
 ## Infrastructure
 
 ### Networking
@@ -114,7 +202,7 @@
 
 ### General Reference
 
-  - [kubernetesbyexample.com](http://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
+  - [kubernetesbyexample.com](https://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
   - [medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Kubernetes 101: Pods, Nodes, Containers, and Clusters in the Kubernetes Tools ecosystem.
   - [medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating' Containers](https://medium.com/free-code-camp/learn-kubernetes-in-under-3-hours-a-detailed-guide-to-orchestrating-containers-114ff420e882)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Learn Kubernetes in Under 3 Hours: A Detailed Guide to Orchestrating' Containers in the Kubernetes Tools ecosystem.
   - [kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7](https://kubernetestutorials.com/install-and-deploy-kubernetes-on-centos-7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetestutorials.com: Install and Deploy Kubernetes on CentOs 7 in the Kubernetes Tools ecosystem.
@@ -162,7 +250,7 @@
 
 ##### Cheat Sheets
 
-  - **(2025)** [==omerbsezer/Fast-Kubernetes 🌟🌟==](https://github.com/omerbsezer/Fast-Kubernetes) <span class='md-tag md-tag--info'>⭐ 3493</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular open-source repository featuring highly structured terminal cheat sheets, resource blueprints, and YAML patterns. Focuses on accelerating daily CKA commands, manifest construction, and cluster maintenance routines.
+  - **(2025)** [==omerbsezer/Fast-Kubernetes 🌟🌟==](https://github.com/omerbsezer/Fast-Kubernetes) <span class='md-tag md-tag--info'>⭐ 3493</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ac8458e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 9 L 20 13 L 30 10 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-7ac8458e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A popular open-source repository featuring highly structured terminal cheat sheets, resource blueprints, and YAML patterns. Focuses on accelerating daily CKA commands, manifest construction, and cluster maintenance routines.
 #### Interactive Platform
 
   - **(2026)** [**educative.io/courses/the-kubernetes-course: Learn Kubernetes: A Deep Dive 🌟🌟🌟**](https://www.educative.io/courses/learn-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A text-first training curriculum with browser-native sandbox environments. Investigates internal API server flows, cluster scheduler behaviors, and advanced persistent volumes without installation friction.
