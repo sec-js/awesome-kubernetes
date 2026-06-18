@@ -142,7 +142,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18647+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5990+** |
+| **Total Commits** | **5992+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -180,7 +180,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2431 | 10,040 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2433 | 10,048 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -196,8 +196,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 11000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10040]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2431]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10048]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2433]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -207,7 +207,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 305 | 1,259 | Active Curation |
+| 2026-06 | 307 | 1,267 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -774,6 +774,7 @@ The following matrix defines our strategic model tiering across all workflows:
 | **PR Guardian** | PR Presubmit | **Gemini Flash/Lite** | Tier 1 | Rapid syntax and mandate format linting. | **Medium** |
 | **Curator (X/RSS)** | Agentic Curator | **Gemini Pro** | Tier 2 | Deep reasoning for human/social context. | **Low (Burst)** |
 | **Auditor** | V2 Elite Builder | **Gemini Pro** | Tier 2 | High-fidelity verification of [ELITE] resources. | **Medium** |
+| **Fast-Pass Evaluator** | Curation / V2 Builder | **Gemini Flash/Lite** | Tier 1 | Rapid single-call screening for obvious consensus/non-consensus. | **High** |
 | **Debater Personas** | Curation / V2 Builder | **Gemini Flash/Lite** | Tier 1 | Independent multi-perspective evaluations and rebuttals. | **High** |
 | **Debate Synthesis** | Curation / V2 Builder | **Gemini Pro** | Tier 2 | High-fidelity final consensus and summary synthesis. | **Medium** |
 
@@ -793,17 +794,22 @@ The heart of the new Nubenetes is a suite of AI Agents that operate on our `deve
     - **Elite Selection:** Scans the massive V1 archive to select the "Elite" top-tier resources.
     - **2026 Taxonomy:** Reorganizes content into high-density dimensions using **relevance-first sorting**.
     - **MVQ Hardening:** Automatically identifies stale repositories to exclude them from the Elite portal.
+    - **Tags Page Cap (Recommendation #5)**: Caps the technical tag listings in `tags.md` to 100 entries per tag block (sorted by stars/year) to prevent DOM bloat, providing fallback links to the V1 Historical Archive.
 3.  **IntelligentHealthChecker ([`src/intelligent_health_checker.py`](src/intelligent_health_checker.py))**:
     - **Resilience:** asynchronous health checks with 3x retry and identity rotation.
     - **V1 Integrity:** Focuses on link validity (removing 404s) to ensure the exhaustive V1 archive remains accessible.
+    - **Domain failure audits (Recommendation #2)**: Automatically logs consecutive connection failures per domain in `health_learning.json` and drops check timeouts from 12s to 3s when consecutive failures $\ge 3$ to avoid hanging.
     - **Transparency:** Provides detailed, real-time unbuffered logging of all cleaning operations.
 4.  **DebatePanelEngine ([`src/v2_debate.py`](src/v2_debate.py))**:
-    - **Persona-based Evaluation**: Coordinates specialized opinions across Security Architect, SRE, and AI Engineer personas.
+    - **Fast-Pass screening (Recommendation #3)**: Runs a single Flash model call at start; clear-cut cases bypass the full panel debate immediately.
+    - **Persona-based Evaluation**: Coordinates specialized expert opinions (Security Architect, SRE, and AI Engineer personas) for borderline cases (initial scores in `[60, 75]`).
     - **Consensus Resolution**: Resolves high score-divergences (>= 15 points) using a round-robin debate structure.
     - **Auto-Corrective Memory**: Appends resolution logs to `src/memory/health_learning.json` for persistent, few-shot alignment.
 5.  **Resilient Architecture Core**:
     - **Exponential Backoff**: Intelligent `tenacity`-based retry logic in `gemini_utils.py` gracefully handles 429 Rate Limits before triggering the Circuit Breaker.
     - **Flash-First Architecture**: Prioritizes Gemini Flash/Lite models for high-density Analyst tasks, enabling processing of 10,000+ resources within the 6-hour GitHub Actions limit through 100-item batching and 2-second safety delays.
+    - **Curation Ingestion Toggle**: Supports `ENABLE_TWITTER_CURATION` environment flag to dynamically toggle Playwright-based Twikit extraction when remote scraping blocks.
+    - **Adaptive Timeout & UA Rotation**: Adapts request headers and reduces health check timeouts dynamically under network throttle/block conditions.
     - **Programmatic Smart Injection (Option B)**: The system extracts document headers and has Gemini Flash choose the target header, performing the actual line insertion using Python. This bypasses the need for Gemini Pro to rewrite entire documents, slashing API usage and preventing 429 errors.
     - **Incremental Persistence (Mandate 22)**: Implements a dual-phase auto-save mechanism that flushes the `inventory.yaml` database to disk periodically **without waiting for the workflow to finish**:
         *   **Metadata Phase**: Saves every **500 GitHub repositories** processed.
@@ -819,17 +825,20 @@ To eliminate individual LLM rating bias, resolve borderline cases, and prevent a
 
 ```mermaid
 graph TD
-    A["New Resource Found"] --> B["Persona 1: Security Architect"]
-    A --> C["Persona 2: Cloud Native SRE"]
-    A --> D["Persona 3: AI Platform Engineer"]
-    B --> E["Independent Evaluations"]
+    A["New Resource Found"] --> FP["Fast-Pass Evaluator (Flash)"]
+    FP -->|Confident Score Outside 60-75| G["Accept / Reject Directly"]
+    FP -->|Borderline Score 60-75| B["Persona 1: Security Architect"]
+    FP -->|Borderline Score 60-75| C["Persona 2: Cloud Native SRE"]
+    FP -->|Borderline Score 60-75| D["Persona 3: AI Platform Engineer"]
+    B --> E["Independent expert Evaluations"]
     C --> E
     D --> E
-    E -->|Scores Diverge >= 15 points| F["Trigger Debate Round"]
-    E -->|Scores Converge| G["Accept / Reject Directly"]
+    E -->|Expert Scores Diverge >= 15 points| F["Trigger Debate Round"]
+    E -->|Expert Scores Converge| G
     F --> H["Round-Robin Discussion: Argue Pros and Cons"]
     H --> I["Consensus Reached and Final Score Assigned"]
     I --> J["Save Decision to Persistent Memory JSON"]
+    G --> J
 ```
 
 #### 8.3.1. Panel of Expert Personas
@@ -839,14 +848,15 @@ The panel consists of three distinct virtual expert roles, each prompting Gemini
 *   **AI Platform Engineer**: Judges developer productivity, ease of integration with the modern AI stack (e.g., Model Context Protocol (MCP) tools), and overall 2026 Cloud Native architectural relevance.
 
 #### 8.3.2. Protocol Execution Flow
-The debate protocol executes asynchronously in three distinct phases:
-1.  **Phase 1: Independent Evaluation**: Each expert persona independently evaluates the resource (using Google Search Grounding to check the live state of the project). They assign an architectural impact score (0–100) and write a 1–2 sentence justification.
-2.  **Phase 2: Divergence Assessment and Rebuttal**: If the difference between the highest and lowest assigned scores is **$\ge 15$ points**, a debate round is triggered. Each expert receives the scores and justifications of their peers and is asked to defend or revise their score in a rebuttal round.
-3.  **Phase 3: Consensus and Synthesis**: The final consensus score is the average of the revised scores of the three personas. A fourth agent (Curation Synthesis Agent) compiles the justifications and rebuttals, generating a refined, high-density technical summary (2–5 sentences) and selecting precise ecosystem tags (e.g., `[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`, `[EMERGING]`).
+The debate protocol executes in the following phases:
+1.  **Fast-Pass Screening**: A single-call evaluator rates the resource. If the rating is highly confident (score $\le 59$ or $\ge 76$), it bypasses the expert panel entirely.
+2.  **Expert Evaluation (Borderline Cases)**: If the screening rating is borderline (`[60, 75]`), the three expert personas (Security, SRE, and AI/Developer DX) independently evaluate the resource (using Google Search Grounding to check the live state of the project). They assign an architectural impact score (0–100) and write a 1–2 sentence justification.
+3.  **Divergence Assessment and Rebuttal**: If the difference between the highest and lowest assigned scores is **$\ge 15$ points**, a debate round is triggered. Each expert receives the scores and justifications of their peers and is asked to defend or revise their score in a rebuttal round.
+4.  **Consensus and Synthesis**: The final consensus score is the average of the revised scores of the three personas. A curation synthesis agent compiles the justifications and rebuttals, generating a refined, high-density technical summary (2–5 sentences) and selecting precise ecosystem tags (e.g., `[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`, `[EMERGING]`).
 
 #### 8.3.3. Integration Points
-*   **Discovery Ingestion**: Hooked into [`src/agentic_curator.py`](src/agentic_curator.py) for new links with borderline initial scores between `70` and `85`.
-*   **V2 Portal Auditing**: Hooked into [`src/v2_optimizer.py`](src/v2_optimizer.py) during builds for high-impact candidates (`[DE FACTO STANDARD]`, `[ENTERPRISE-STABLE]`) or borderline candidates (3–4 stars).
+*   **Discovery Ingestion**: Hooked into [`src/agentic_curator.py`](src/agentic_curator.py) for new links with borderline initial scores.
+*   **V2 Portal Auditing**: Hooked into [`src/v2_optimizer.py`](src/v2_optimizer.py) during builds for high-impact candidates or borderline candidates.
 *   **Persistent Memory Log**: The final consensus score, justifications, rebuttals, and metadata are saved to `src/memory/health_learning.json` under `resolved_debates` to serve as few-shot training examples for future curation runs.
 
 ---
