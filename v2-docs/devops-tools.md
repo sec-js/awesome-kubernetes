@@ -211,7 +211,7 @@
 
 #### Keptn
 
-  - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
+  - **(2026)** [**Keptn**](https://nubenetes.com/keptn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 
 ---
 💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
