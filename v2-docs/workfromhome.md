@@ -62,7 +62,7 @@
 
 #### Team Operations
 
-  - **(2021)** [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores operational patterns for running a globally distributed, remote-first Site Reliability Engineering (SRE) team. Focuses on adopting async communication protocols, using chatops, maintaining comprehensive postmortems, and setting up automated alert escalation systems to reduce incident response overhead.
+  - **(2021)** [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores operational patterns for running a globally distributed, remote-first Site Reliability Engineering (SRE) team. Focuses on adopting async communication protocols, using chatops, maintaining comprehensive postmortems, and setting up automated alert escalation systems to reduce incident response overhead.
 ### Remote Work
 
 #### Agile Methodologies
@@ -93,5 +93,5 @@
   - **(2021)** [portafolio.co: Claves para liderar equipos de teletrabajo y no fracasar en el intento](https://www.portafolio.co/tendencias/claves-para-liderar-equipos-de-teletrabajo-y-no-fracasar-en-el-intento-556586) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on strategies for leading virtual teams, highlighting methods to establish trust, measure output over physical presence, and implement clear collaboration frameworks. Highlights Spanish-speaking organizational perspectives on easing transition friction for legacy teams.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
 

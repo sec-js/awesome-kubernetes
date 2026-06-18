@@ -26,13 +26,10 @@
     - [Observability](#observability)
     - [Testing Frameworks](#testing-frameworks)
     - [Tutorials](#tutorials)
-  - [Testing](#testing-1)
-    - [Benchmarking](#benchmarking)
-      - [HTTP Tools](#http-tools)
 1. [Systems](#systems)
   - [Performance Tuning](#performance-tuning)
     - [Diagnostic Tools](#diagnostic-tools)
-1. [Testing](#testing-2)
+1. [Testing](#testing-1)
   - [Performance Testing](#performance-testing)
     - [Gatling](#gatling)
     - [JMeter](#jmeter)
@@ -118,7 +115,7 @@
 
 #### Distributed Testing
 
-  - **(2022)** [**JMeter Distributed Testing Step-by-step**](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Operational step-by-step documentation detailing JMeter distributed execution topologies. Solves communication issues between controllers and performance workers during heavy test sequences.
+  - **(2022)** [**JMeter Distributed Testing Step-by-step**](https://venkatmatta.com/wp-content/uploads/2016/03/jmeter_distributed_testing_step_by_step.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Operational step-by-step documentation detailing JMeter distributed execution topologies. Solves communication issues between controllers and performance workers during heavy test sequences.
 #### Kubernetes Deployment
 
   - **(2022)** [**dev.to: The most elegant way to performance test your microservices running on Kubernetes**](https://dev.to/ksingh7/the-most-elegant-way-to-performance-test-your-microservices-running-on-kubernetes-2mo2) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demonstrates running scalable API performance evaluations in target Kubernetes setups. Promotes executing testing runs close to targets using container workloads to limit network noise.
@@ -132,14 +129,7 @@
 #### Tutorials
 
   - **(2023)** [**youtube: JMeter API Performance Testing Tutorial 🌟**](https://www.youtube.com/watch?v=8r5LYzUIepo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Educational walkthrough mapping API load-test workflows. Covers parameterizing user requests, analyzing server metrics, and troubleshooting unexpected timeouts in dynamic microservices backends.
-  - **(2021)** [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reference manual covering basic JMeter thread management and test flow structures. Designed to help teams write simple API validations and performance regression scripts.
-### Testing (1)
-
-#### Benchmarking
-
-##### HTTP Tools
-
-  - **(2021)** [blog.cloud-mercato.com: New HTTP benchmark tool **pycurlb**](https://blog.cloud-mercato.com/new-http-benchmark-tool-pycurlb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces pycurlb, a Python-based wrapper and benchmarking utility utilizing libcurl for low-overhead HTTP performance testing. Explores its use cases in testing microservice latency and raw throughput. Curator Insight: Quick functional introduction of a new pycurl tool. Live Grounding: Provides an alternative for developers seeking a highly customizable, scriptable curl execution engine for API baselining.
+  - **(2021)** [tutorialspoint.com: JMeter Quick Guide](https://www.tutorialspoint.com/jmeter/pdf/jmeter_quick_guide.pdf) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Reference manual covering basic JMeter thread management and test flow structures. Designed to help teams write simple API validations and performance regression scripts.
 ## Systems
 
 ### Performance Tuning
@@ -147,7 +137,7 @@
 #### Diagnostic Tools
 
   - **(2022)** [blog.desdelinux.net: Microsoft Performance-Tools, una serie de herramientas open source para analizar el rendimiento del sistema](https://blog.desdelinux.net/microsoft-performance-tools-una-serie-de-herramientas-open-source-para-analizar-el-rendimiento-del-sistema) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Microsoft's Performance-Tools suite, which provides cross-platform command-line tools for analyzing trace logs, Windows/Linux system resource usage, and overall system performance. It details how architects can inspect CPU, disk, and networking bottlenecks at a low kernel-level, enhancing system-level optimization.
-## Testing (2)
+## Testing (1)
 
 ### Performance Testing
 
@@ -177,5 +167,5 @@
   - **(2020)** [devops.com: Catchpoint to Acquire Webpagetest.org](https://devops.com/catchpoint-to-acquire-webpagetest-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of Catchpoint's acquisition of WebPageTest, the industry-standard front-end performance auditing tool. Synthesizing live ecosystem changes, the platform continues to operate as an essential resource for tracing core web vitals and waterfall execution charts, bolstered by Catchpoint's global infrastructure.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [QA](./qa.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [SRE](./sre.md)
 

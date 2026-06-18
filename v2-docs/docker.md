@@ -27,9 +27,6 @@
 1. [CICD Pipelines](#cicd-pipelines)
   - [Build Speed](#build-speed)
     - [Docker Buildx](#docker-buildx)
-1. [Cloud Computing](#cloud-computing)
-  - [Training](#training)
-    - [Multi-Cloud Education](#multi-cloud-education)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [AWS](#aws)
     - [ECS Integration](#ecs-integration)
@@ -230,9 +227,6 @@
     - [Automation](#automation-1)
   - [Windows Containers](#windows-containers)
     - [PKI](#pki)
-1. [Software Engineering Practices](#software-engineering-practices)
-  - [Containerized Workflows](#containerized-workflows)
-    - [Cookbooks](#cookbooks)
 1. [Testing](#testing)
   - [Integration Testing](#integration-testing)
     - [Infrastructure as Code](#infrastructure-as-code)
@@ -366,13 +360,6 @@
 #### Docker Buildx
 
   - **(2021)** [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines how to optimize CI/CD pipeline build performance by scaling compilation workloads using the Docker Buildx Kubernetes driver. Demonstrates how offloading build tasks to Kubernetes clusters yields massive cache reuse and parallelization gains.
-## Cloud Computing
-
-### Training
-
-#### Multi-Cloud Education
-
-  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
 
 ### AWS
@@ -853,7 +840,7 @@
 
 #### Docker Swarm
 
-  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives/#docker-swarm) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Docker Swarm as a simple container orchestration alternative to Kubernetes. Evaluates its built-in overlay network routing mesh and single-node setup advantages, noting that its enterprise adoption has decreased in favor of Kubernetes-native environments.
+  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Docker Swarm as a simple container orchestration alternative to Kubernetes. Evaluates its built-in overlay network routing mesh and single-node setup advantages, noting that its enterprise adoption has decreased in favor of Kubernetes-native environments.
 ## Performance
 
 ### Diagnostics (1)
@@ -918,13 +905,6 @@
 #### PKI
 
   - **(2026)** [techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers](https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This Microsoft Technical Community post details how to configure Windows Containers using IIS to leverage the Central Certificate Store (CCS) for simplified SSL/TLS management. It addresses the architectural hurdles of handling dynamic certificates inside ephemeral containers by mounting central network shares. This guide is highly valuable for enterprise operations targeting legacy Windows Server and .NET Framework containerization workloads.
-## Software Engineering Practices
-
-### Containerized Workflows
-
-#### Cookbooks
-
-  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive developer cookbook outlining containerized development workflows. Details multi-stage Docker builds, development-time mounts, image layer caching optimization, and secure packaging designs.
 ## Testing
 
 ### Integration Testing
@@ -934,5 +914,5 @@
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

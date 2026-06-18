@@ -5,12 +5,6 @@
 
 ## Table of Contents
 
-1. [AI and Platform Engineering](#ai-and-platform-engineering)
-  - [AI Assistants](#ai-assistants)
-    - [Developer Productivity](#developer-productivity)
-1. [AI Engineering](#ai-engineering)
-  - [Agentic Frameworks](#agentic-frameworks)
-    - [Developer Experience](#developer-experience)
 1. [CICD Pipelines](#cicd-pipelines)
   - [AI and Automation](#ai-and-automation)
     - [Model Context Protocol](#model-context-protocol)
@@ -25,10 +19,7 @@
     - [UI Tools](#ui-tools)
 1. [Deployment and Delivery](#deployment-and-delivery)
   - [CICD and Delivery](#cicd-and-delivery)
-    - [Developer Productivity](#developer-productivity-1)
-    - [Enterprise Tooling](#enterprise-tooling)
-  - [Platform Engineering](#platform-engineering)
-    - [Kubernetes Management](#kubernetes-management)
+    - [Developer Productivity](#developer-productivity)
 1. [DevOps and Platform Engineering](#devops-and-platform-engineering)
   - [Architecture and Orchestration](#architecture-and-orchestration)
     - [Foundational Primer](#foundational-primer)
@@ -53,33 +44,20 @@
   - [Development Environments](#development-environments)
     - [Virtual Machines](#virtual-machines)
 1. [Kubernetes and Container Orchestration](#kubernetes-and-container-orchestration)
-  - [Platform Engineering](#platform-engineering-1)
+  - [Platform Engineering](#platform-engineering)
     - [AppOps and GitOps](#appops-and-gitops)
 1. [Kubernetes Tools](#kubernetes-tools)
   - [General Reference](#general-reference)
 1. [Local Developer Environment](#local-developer-environment)
   - [Container Runtime Setup](#container-runtime-setup)
     - [Docker Compose](#docker-compose)
-  - [Version Management](#version-management)
-    - [Multi-Language Runtimes](#multi-language-runtimes)
 1. [Observability](#observability)
   - [UI Clients](#ui-clients)
     - [Multi-Cluster](#multi-cluster)
+1. [Orchestration and Packaging](#orchestration-and-packaging)
+  - [Cloud-Native Delivery](#cloud-native-delivery)
+    - [Keptn](#keptn)
 
-## AI and Platform Engineering
-
-### AI Assistants
-
-#### Developer Productivity
-
-  - **(2025)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — General availability announcement detailing Copilot's integration into the GitHub Actions run logs. Empowers engineers to ask AI to interpret errors, trace failures, and propose immediate pipeline repair steps.
-## AI Engineering
-
-### Agentic Frameworks
-
-#### Developer Experience
-
-  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
 ## CICD Pipelines
 
 ### AI and Automation
@@ -112,17 +90,9 @@
 
 ### CICD and Delivery
 
-#### Developer Productivity (1)
+#### Developer Productivity
 
   - **(2025)** [**action-tmate: Debug GitHub Actions via SSH**](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-378402c1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 5 L 30 4 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-378402c1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An essential interactive troubleshooting tool that opens a secure tmate SSH session directly into active GitHub Actions runners, enabling real-time terminal diagnostics of failing pipeline runs.
-#### Enterprise Tooling
-
-  - **(2025)** [PMEase QuickBuild](https://www.pmease.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A powerful commercial build and configuration management tool geared towards large enterprises. Combines high-capacity agents, visual dependency chains, and precise audit trails for legacy and cloud-native workloads.
-### Platform Engineering
-
-#### Kubernetes Management
-
-  - **(2025)** [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-centric, lightweight PaaS layer running directly on top of Kubernetes. Canine simplifies native container deployments and configurations, reducing cognitive load and shortening inner-loop development iterations.
 ## DevOps and Platform Engineering
 
 ### Architecture and Orchestration
@@ -192,10 +162,10 @@
 
 #### Virtual Machines
 
-  - **(2023)** [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide to Vagrant for configuring local virtual machine environments. It explains how to write Vagrantfiles, configure local networks, and run provisioning engines like Ansible to ensure consistent local developer environments.
+  - **(2023)** [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide to Vagrant for configuring local virtual machine environments. It explains how to write Vagrantfiles, configure local networks, and run provisioning engines like Ansible to ensure consistent local developer environments.
 ## Kubernetes and Container Orchestration
 
-### Platform Engineering (1)
+### Platform Engineering
 
 #### AppOps and GitOps
 
@@ -228,11 +198,6 @@
 #### Docker Compose
 
   - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e14d560a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e14d560a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
-### Version Management
-
-#### Multi-Language Runtimes
-
-  - **(2026)** [==ASDF 🌟==](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible CLI runtime version manager that unifies environment configurations (Node.js, Ruby, Python, Elixir, Go, and more) under a single .tool-versions file. Successfully eliminates environment drift across development machines and CI runners via a robust plugin-driven architecture.
 ## Observability
 
 ### UI Clients
@@ -240,7 +205,14 @@
 #### Multi-Cluster
 
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
+## Orchestration and Packaging
+
+### Cloud-Native Delivery
+
+#### Keptn
+
+  - **(2026)** [**Keptn**](https://nubenetes.com/keptn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

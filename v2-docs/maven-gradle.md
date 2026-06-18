@@ -93,7 +93,7 @@
   - **(2026)** [twitter.com/ASFMavenRelease: Maven Plugin Release](https://x.com/ASFMavenRelease) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated release notification feed tracking active updates, security patches, and minor versions for all officially maintained Apache Maven plugins and shared components.
 #### Comparative Analysis
 
-  - **(2018)** [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven) <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A constructive case study analyzing the engineering trade-offs between Gradle and Maven. Highlights Maven's predictability, declarative standards, and plugin stability over dynamic compilation structures.
+  - **(2018)** [phauer.com: Why I Moved Back from Gradle to Maven](https://phauer.com/2018/moving-back-from-gradle-to-maven) 🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A constructive case study analyzing the engineering trade-offs between Gradle and Maven. Highlights Maven's predictability, declarative standards, and plugin stability over dynamic compilation structures.
 #### Container Packaging
 
   - **(2020)** [**ashishtechmill.com: Demystifying Google Container Tool Jib: Java Image Builder**](https://www.ashishtechmill.com/demystifying-google-container-tool-jib-java-image-builder) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Detailed technical guide analyzing Google's Jib, an innovative containerization tool that builds Docker/OCI-compliant images for JVM applications without requiring a local Docker daemon.
@@ -181,5 +181,5 @@
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

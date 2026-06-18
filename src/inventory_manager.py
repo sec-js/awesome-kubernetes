@@ -27,3 +27,20 @@ def save_inventory(inv: Dict, shard_file: str = None):
 def get_shard_name(url: str) -> str:
     # Kept for backward compatibility but unused in single-file mode
     return "inventory.yaml"
+
+def update_inventory_entry(inventory: Dict, norm_url: str, new_data: Dict):
+    """
+    Updates an inventory entry by merging new_data with existing data,
+    preserving metadata keys like 'youtube_mosaic' if they are not in new_data.
+    """
+    if norm_url not in inventory:
+        inventory[norm_url] = {}
+    
+    existing = inventory[norm_url]
+    if isinstance(existing, dict):
+        merged = existing.copy()
+        merged.update(new_data)
+        inventory[norm_url] = merged
+    else:
+        inventory[norm_url] = new_data
+

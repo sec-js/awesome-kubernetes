@@ -66,10 +66,10 @@
 
 #### General Reference
 
-  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
   - [IBM Vault 2.0 UI Enhancements and Reporting Improvements](https://t.co/cvOceuueCF)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Vault 2.0 UI Enhancements and Reporting Improvements in the Kubernetes Tools ecosystem.
   - [Web-Check](https://web-check.xyz)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Web-Check in the Kubernetes Tools ecosystem.
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
+  - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
   - [medium: Automate policies enforcement with Policy-as-Code 🌟](https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Automate policies enforcement with Policy-as-Code 🌟 in the Kubernetes Tools ecosystem.
   - [magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟](https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟 in the Kubernetes Tools ecosystem.
   - [blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open' Policy Agent](https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open' Policy Agent in the Kubernetes Tools ecosystem.
@@ -237,7 +237,7 @@
 
 #### Cloud Governance
 
-  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
+  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
 ## Security
 
 ### Policy Enforcement
@@ -247,5 +247,5 @@
   - **(2022)** [MagTape](https://github.com/tmobile/magtape) <span class='md-tag md-tag--info'>⭐ 152</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aafde66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 3 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-7aafde66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

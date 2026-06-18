@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <center markdown="1">
 <div class="hero-showcase-wrapper">
@@ -150,7 +150,7 @@
 - **[Monitoring](./monitoring.md)**
 - **[Other Awesome Lists](./other-awesome-lists.md)**
 - **[Prometheus](./prometheus.md)**
-### Platform & Site Reliability
+### Platform and Site Reliability
 - **[Chaos Engineering](./chaos-engineering.md)**
 - **[Developerportals](./developerportals.md)**
 - **[DevOps](./devops.md)**
@@ -206,7 +206,7 @@
 - **[Private Cloud Solutions](./private-cloud-solutions.md)**
 - **[Public Cloud Solutions](./public-cloud-solutions.md)**
 - **[Scaleway](./scaleway.md)**
-### Networking & Service Mesh
+### Networking and Service Mesh
 - **[Caching](./caching.md)**
 - **[Cloudflare](./cloudflare.md)**
 - **[Istio](./istio.md)**
@@ -236,7 +236,7 @@
 - **[Openshift](./openshift.md)**
 - **[Rancher](./rancher.md)**
 - **[Serverless](./serverless.md)**
-### Data & Advanced Analytics
+### Data and Advanced Analytics
 - **[Crunchydata](./crunchydata.md)**
 - **[Databases](./databases.md)**
 - **[Message Queue](./message-queue.md)**
@@ -281,7 +281,7 @@
 - **[Visual Studio](./visual-studio.md)**
 - **[Web3](./web3.md)**
 - **[Xamarin](./xamarin.md)**
-### Career & Industry
+### Career and Industry
 - **[Appointment Scheduling](./appointment-scheduling.md)**
 - **[Digital Money](./digital-money.md)**
 - **[Elearning](./elearning.md)**
@@ -302,14 +302,14 @@ To ensure industrial-grade precision, every resource in V2 is classified using o
 
 | Tag | Description | Engineering Context |
 | :--- | :--- | :--- |
-| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
-| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
-| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
-| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
-| **`[CASE STUDY]`** | Real-world evidence. | Practical implementations and architectural lessons from production environments. |
-| **`[COMMUNITY-TOOL]`** | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |
-| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
-| **`[SPANISH CONTENT]`** | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |
+| <a href="./tags/#de-facto-standard"><span class="md-tag md-tag--success">[DE FACTO STANDARD]</span></a> | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |
+| <a href="./tags/#enterprise-stable"><span class="md-tag md-tag--success">[ENTERPRISE-STABLE]</span></a> | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |
+| <a href="./tags/#emerging"><span class="md-tag md-tag--warning">[EMERGING]</span></a> | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |
+| <a href="./tags/#guide"><span class="md-tag md-tag--secondary">[GUIDE]</span></a> | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |
+| <a href="./tags/#case-study"><span class="md-tag md-tag--secondary">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |
+| <a href="./tags/#community-tool"><span class="md-tag md-tag--info">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |
+| <a href="./tags/#legacy"><span class="md-tag md-tag--critical">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |
+| <a href="./tags/#spanish-content"><span class="md-tag md-tag--warning">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |
 
 ## Technical Impact (Relevance Score)
 

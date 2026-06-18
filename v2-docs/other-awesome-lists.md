@@ -8,8 +8,6 @@
 1. [AI and Machine Learning](#ai-and-machine-learning)
   - [MLOps](#mlops)
     - [Resources](#resources)
-  - [Training](#training)
-    - [Fundamentals](#fundamentals)
 1. [AI Engineering](#ai-engineering)
   - [Model Context Protocol](#model-context-protocol)
     - [Awesome Lists](#awesome-lists-1)
@@ -18,9 +16,6 @@
     - [Resources](#resources-1)
   - [API Management](#api-management)
     - [Resources](#resources-2)
-1. [Application Integration](#application-integration)
-  - [API Design](#api-design)
-    - [Documentation](#documentation)
 1. [Artificial Intelligence](#artificial-intelligence)
   - [LLMOps and MLOps](#llmops-and-mlops)
     - [Curated Ecosystems](#curated-ecosystems)
@@ -35,7 +30,7 @@
   - [Azure](#azure)
     - [Architecture](#architecture)
     - [Resources](#resources-4)
-    - [Training](#training-1)
+    - [Training](#training)
   - [DigitalOcean](#digitalocean)
     - [Resources](#resources-5)
   - [GCP](#gcp)
@@ -94,7 +89,7 @@
     - [Productivity](#productivity)
     - [Scalability](#scalability)
     - [Security](#security-2)
-    - [Training](#training-2)
+    - [Training](#training-1)
   - [Cheat Sheets](#cheat-sheets)
     - [DevOps](#devops)
   - [Educational Resources](#educational-resources)
@@ -135,7 +130,7 @@
   - [Scripts](#scripts)
     - [Bash](#bash)
     - [PowerShell](#powershell)
-1. [Documentation](#documentation-1)
+1. [Documentation](#documentation)
   - [Alternative Docs](#alternative-docs)
     - [Kubernetes](#kubernetes-3)
 1. [Infrastructure](#infrastructure)
@@ -249,18 +244,13 @@
 #### Resources
 
   - **(2026)** [visenger/awesome-mlops: Awesome MLOps](https://github.com/visenger/awesome-mlops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured directory detailing operational machine learning (MLOps) packages, pipeline orchestrators (Kubeflow, MLflow), and feature store architectures. Essential for platform teams bridging data science workflows with production-grade Kubernetes automation frameworks.
-### Training
-
-#### Fundamentals
-
-  - **(2026)** [==ekramasif/Basic-Machine-Learning==](https://github.com/ekramasif/Basic-Machine-Learning) <span class='md-tag md-tag--info'>⭐ 80</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-52a7e37a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-52a7e37a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fundamental training repository compiling essential algorithms, scientific computing models, and conceptual guides for starting in Machine Learning. Focuses on classical statistical methods, regression math, and basic Python integrations. Provides a valuable baseline for engineering squads learning ML concepts.
 ## AI Engineering
 
 ### Model Context Protocol
 
 #### Awesome Lists (1)
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## API Development
 
 ### API Gateway
@@ -273,13 +263,6 @@
 #### Resources (2)
 
   - **(2026)** [==Awesome API Management Tools==](https://github.com/mailtoharshit/Awesome-Api-Management-Tools) <span class='md-tag md-tag--info'>⭐ 86</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5b855f6d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 13 L 20 11 L 30 12 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-5b855f6d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A directory focused on API design portals, lifecycle management tools, and specification utilities (like OpenAPI/Swagger). This list aids enterprise architects in establishing API-first development strategies and internal developer platform registries. It supports transition pathways from monolithic configurations to service meshes.
-## Application Integration
-
-### API Design
-
-#### Documentation
-
-  - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 ## Artificial Intelligence
 
 ### LLMOps and MLOps
@@ -315,7 +298,7 @@
 
   - **(2026)** [github.com/kristofferandreasen/awesome-azure: Awesome Azure](https://github.com/kristofferandreasen/awesome-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A structured directory detailing Azure-focused scripts, arm templates, and services. It provides functional entry points for systems engineers navigating Microsoft's cloud ecosystem. While some elements lean towards legacy ARM configurations, it provides solid structural patterns for hybrid-cloud architects.
   - **(2026)** [github.com/simhol/awesome-azure: Awesome Azure](https://github.com/simhol/awesome-azure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-maintained resource collection for Azure deployments, automation scripts, and management frameworks. This index aggregates specialized tools and networking resources that complement official Microsoft documentation. It functions as a valuable secondary reference for enterprise cloud-migration pipelines.
-#### Training (1)
+#### Training
 
   - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5104</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c59a87d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 10 L 30 6 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-c59a87d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
 ### DigitalOcean
@@ -473,7 +456,7 @@
 
   - **(2023)** [==magnologan/awesome-k8s-security: Awesome Kubernetes (K8s) Security 🌟==](https://github.com/magnologan/awesome-k8s-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory indexing specialized Kubernetes security packages, scanners, CVE logs, and hardening guides. It collects key scanning tools such as Falco, Trivy, and Polaris, helping cloud compliance officers map cluster defense strategies against known attack matrices.
   - **(2023)** [==ksoclabs/awesome-kubernetes-security 🌟==](https://github.com/ksoclabs/awesome-kubernetes-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expert-level compilation of Kubernetes security tools, vulnerability papers, threat simulations, and posture management (KSPM) frameworks. Ideal for penetration testers and cloud security engineers auditing the security posture of enterprise orchestrators.
-#### Training (2)
+#### Training (1)
 
   - **(2023)** [==github.com/joseadanof: Awesome Cloud Native Trainings==](https://github.com/joseadanof/awesome-cloudnative-trainings) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thoroughly organized directory cataloging cloud-native certifications (CKA, CKAD, CKS), training centers, and open labs. Extremely useful for platform engineering managers designing structured learning and technical progression tracks for their teams.
 ### Cheat Sheets
@@ -490,7 +473,7 @@
 
 #### Kubernetes (2)
 
-  - **(2023)** [==mikeroyal/Kubernetes-Guide: Kubernetes Guide 🌟==](https://github.com/mikeroyal/Kubernetes-Guide) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive educational directory covering basic components, intermediate networking, storage, and advanced Kubernetes configurations. Offers structured developer pathways and hypervisor setup instructions, making it ideal for technical upskilling and training programs.
+  - **(2023)** [==mikeroyal/Kubernetes-Guide: Kubernetes Guide 🌟==](https://github.com/mikeroyal/Kubernetes-Guide) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive educational directory covering basic components, intermediate networking, storage, and advanced Kubernetes configurations. Offers structured developer pathways and hypervisor setup instructions, making it ideal for technical upskilling and training programs.
 ## Data Engineering
 
 ### Big Data
@@ -512,7 +495,7 @@
 
 #### Meta-Resources
 
-  - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
+  - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
 ### Learning Roadmap
 
 #### Machine Learning
@@ -527,7 +510,7 @@
 
 #### Meta-Resources (1)
 
-  - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
+  - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
 ## Deployment and Delivery
 
 ### CICD and Delivery
@@ -575,7 +558,7 @@
 
   - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5396</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9cc577c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 13 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-9cc577c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
   - **(2026)** [awesomerank.github.io: janikvonrotz/awesome-powershell](https://awesomerank.github.io/lists/janikvonrotz/awesome-powershell.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An automatically ranked rendering of the Awesome PowerShell directory, categorizing contributions by community engagement and updates. It provides engineers with instant visibility into which PowerShell modules are actively maintained versus those that have lapsed into legacy status.
-## Documentation (1)
+## Documentation
 
 ### Alternative Docs
 
@@ -704,12 +687,12 @@
 
 ### General Reference
 
-  - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubezilla.com: Kubetools – Curated List of Kubernetes Tools in the Kubernetes Tools ecosystem.
-  - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems. in the Kubernetes Tools ecosystem.
-  - [Awesome WSL](https://awesomeopensource.com/project/sirredbeard/Awesome-WSL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Awesome WSL in the Kubernetes Tools ecosystem.
-  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟 in the Kubernetes Tools ecosystem.
-  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟 in the Kubernetes Tools ecosystem.
   - [wiki.bash-hackers.org](https://wiki.bash-hackers.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wiki.bash-hackers.org in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟](https://www.hashicorp.com/blog/hashicorp-learning-resources-reference-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: HashiCorp Learning Resources Reference Guide 🌟 in the Kubernetes Tools ecosystem.
+  - [divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems.](https://divya-mohan0209.medium.com/mo-tenancy-mo-problems-f031f75374f7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering divya-mohan0209.medium.com: Mo’ tenancy, Mo’ problems. in the Kubernetes Tools ecosystem.
+  - [awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟](https://awesomeopensource.com/projects/cidr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering awesomeopensource.com: The Top 110 Cidr Open Source Projects on Github 🌟 in the Kubernetes Tools ecosystem.
+  - [kubezilla.com: Kubetools – Curated List of Kubernetes Tools](https://kubezilla.com/tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubezilla.com: Kubetools – Curated List of Kubernetes Tools in the Kubernetes Tools ecosystem.
+  - [Awesome WSL](https://awesomeopensource.com/project/sirredbeard/Awesome-WSL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Awesome WSL in the Kubernetes Tools ecosystem.
 ## Observability and Monitoring
 
 ### Application Performance Monitoring
@@ -849,5 +832,5 @@
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

@@ -10,6 +10,8 @@ from typing import List, Dict, Set, Any, Tuple
 from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENTORY_PATH
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity, fetch_youtube_metadata
 from src.logger import log_event
+from src.inventory_manager import update_inventory_entry
+
 
 def nuclear_strip(text: str) -> str:
     """Mandate 30: MD039 - Removes all leading/trailing whitespace including hidden unicode characters."""
@@ -407,8 +409,10 @@ class V2VisionEngine:
                             
                             # Incremental Persistence
                             norm_url = normalize_url(item["url"])
-                            self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
-                            self.inventory[norm_url]["title"] = item["title"]
+                            from src.inventory_manager import update_inventory_entry
+                            new_data = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
+                            new_data["title"] = item["title"]
+                            update_inventory_entry(self.inventory, norm_url, new_data)
                     return batch_results
                 except Exception as e:
                     log_event(f"    [!] Error in Fast-Batch {batch_idx}: {e}")
@@ -530,10 +534,11 @@ class V2VisionEngine:
                     if m: p_id = m.group(1).lower()
                 
                 # Persist to inventory
-                self.inventory[norm_url] = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
-                self.inventory[norm_url]["title"] = item["title"]
-                if "addition_method" not in self.inventory[norm_url]:
-                    self.inventory[norm_url]["addition_method"] = "manual"
+                new_data = {k:v for k,v in item.items() if k not in ["url", "title", "original_file", "aliases"]}
+                new_data["title"] = item["title"]
+                if "addition_method" not in self.inventory.get(norm_url, {}):
+                    new_data["addition_method"] = "manual"
+                update_inventory_entry(self.inventory, norm_url, new_data)
                 
                 if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
                     if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
@@ -771,7 +776,10 @@ class V2VisionEngine:
             comp = l.get("complexity", "Intermediate")
             level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
             res_type = l.get("resource_type", "Reference")
-            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+            type_tag = ""
+            if res_type.lower() in ["case study", "guide", "documentation"]:
+                if f"[{res_type.upper()}]" not in l.get("tags", []):
+                    type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
             rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
             tag_html = ""
             for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
@@ -807,6 +815,52 @@ class V2VisionEngine:
             else:
                 md += "\n"
         return md
+
+
+    def _render_compact_tag_link(self, l: Dict) -> str:
+        orig_file = l.get("original_file", "")
+        cat_link = ""
+        if orig_file:
+            cat_link = f" — *Go to [Section](./{orig_file})*"
+
+        year = l.get("year", "")
+        year_prefix = f"**({year})** " if year and str(year).lower() != "n/a" else ""
+
+        raw_stars = l.get("stars", 0)
+        stars_str = f" {'🌟' * raw_stars}" if raw_stars > 0 else ""
+
+        # Title formatting based on impact
+        title = nuclear_strip(l.get("title", "Unknown Resource"))
+        link_content = title
+        if raw_stars >= 5:
+            link_content = f"=={link_content}=="
+        elif raw_stars >= 4:
+            link_content = f"**{link_content}**"
+
+        # Build other tags compactly
+        tag_html = ""
+        for tag in l.get("tags", []):
+            if tag in ["[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]"]:
+                color = "success"
+            elif tag == "[EMERGING]":
+                color = "warning"
+            elif tag == "[LEGACY]":
+                color = "critical"
+            elif tag in ["[GUIDE]", "[CASE STUDY]"]:
+                color = "secondary"
+            elif tag == "[COMMUNITY-TOOL]":
+                color = "info"
+            else:
+                color = "primary"
+            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
+
+        lang = l.get("language", "English")
+        lang_tag = ""
+        if lang.lower() not in ["english", "n/a", "none"]:
+            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
+
+        return f"  - {year_prefix}[{link_content}]({l['url'].strip()}){stars_str}{tag_html}{lang_tag}{cat_link}\n"
+
 
 
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
@@ -920,14 +974,14 @@ class V2VisionEngine:
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
             "| :--- | :--- | :--- |\n"
-            "| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |\n"
-            "| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |\n"
-            "| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
-            "| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
-            "| **`[CASE STUDY]`** | Real-world evidence. | Practical implementations and architectural lessons from production environments. |\n"
-            "| **`[COMMUNITY-TOOL]`** | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |\n"
-            "| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n"
-            "| **`[SPANISH CONTENT]`** | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
+            "| <a href=\"./tags/#de-facto-standard\"><span class=\"md-tag md-tag--success\">[DE FACTO STANDARD]</span></a> | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |\n"
+            "| <a href=\"./tags/#enterprise-stable\"><span class=\"md-tag md-tag--success\">[ENTERPRISE-STABLE]</span></a> | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |\n"
+            "| <a href=\"./tags/#emerging\"><span class=\"md-tag md-tag--warning\">[EMERGING]</span></a> | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
+            "| <a href=\"./tags/#guide\"><span class=\"md-tag md-tag--secondary\">[GUIDE]</span></a> | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
+            "| <a href=\"./tags/#case-study\"><span class=\"md-tag md-tag--secondary\">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |\n"
+            "| <a href=\"./tags/#community-tool\"><span class=\"md-tag md-tag--info\">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |\n"
+            "| <a href=\"./tags/#legacy\"><span class=\"md-tag md-tag--critical\">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n"
+            "| <a href=\"./tags/#spanish-content\"><span class=\"md-tag md-tag--warning\">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
             "## Technical Impact (Relevance Score)\n\n"
             "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
             "| Impact | Level | Meaning | Visual Code |\n"
@@ -1114,7 +1168,15 @@ class V2VisionEngine:
         # Group by tags
         by_tag = {}
         for l in active_links.values():
-            for t in l.get("tags", []):
+            tags_to_process = list(l.get("tags", []))
+            # Include language indexing for non-English resources (Mandate 10)
+            lang = l.get("language", "English")
+            if lang.lower() in ["spanish", "es", "english/spanish"]:
+                tags_to_process.append("[SPANISH CONTENT]")
+            elif lang.lower() != "english" and lang.lower() != "n/a" and lang.lower() != "none":
+                tags_to_process.append(f"[{lang.upper()} CONTENT]")
+
+            for t in tags_to_process:
                 by_tag.setdefault(t, []).append(l)
 
         # Sort tags
@@ -1125,7 +1187,8 @@ class V2VisionEngine:
             "[GUIDE]",
             "[CASE STUDY]",
             "[COMMUNITY-TOOL]",
-            "[LEGACY]"
+            "[LEGACY]",
+            "[SPANISH CONTENT]"
         ]
         
         sorted_tags = []
@@ -1156,12 +1219,19 @@ class V2VisionEngine:
             if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
                 tag_display = tag_display.upper()
             
+            # Wrap section inside a .v2-tag-section div and details block for performance
+            md += f"<div class=\"v2-tag-section\" markdown=\"1\">\n\n"
             md += f"## {tag_display}\n\n"
+            md += f"<details markdown=\"1\">\n"
+            md += f"<summary>Click to view {len(by_tag[tag])} resources under {tag_display}</summary>\n\n"
+            
             # Sort links under this tag by impact stars and then by year
             sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             for l in sorted_links:
-                md += await self._render_single_link(l, is_intro=False)
+                md += self._render_compact_tag_link(l)
             md += "\n"
+            md += f"</details>\n\n"
+            md += f"</div>\n\n"
 
         target_path = os.path.join(V2_DIR, "tags.md")
         

@@ -266,7 +266,7 @@
 
 #### Kubernetes Integration
 
-  - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
+  - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
 ## Cloud-Native Development
 
 ### Azure (2)
@@ -747,5 +747,5 @@
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

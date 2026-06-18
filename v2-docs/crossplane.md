@@ -46,7 +46,7 @@
   - **(2021)** [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the direct implementation of GitOps pipelines using Flux CD as the reconciliation engine to manage cloud infrastructure generated via Crossplane. By declarative versioning of Crossplane custom resources in Git, engineers establish an automated feedback loop where changes are continuously reconciled against live AWS, GCP, or Azure endpoints.
 #### Methodologies
 
-  - **(2022)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A strategic evaluation of GitOps workflows and state-reconciliation mechanisms for infrastructure and applications. By contrasting push vs. pull GitOps pipelines (e.g., using Argo CD or Octopus Deploy with Crossplane), the guide highlights methods for treating Kubernetes as the source of truth for all environment mutations.
+  - **(2022)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A strategic evaluation of GitOps workflows and state-reconciliation mechanisms for infrastructure and applications. By contrasting push vs. pull GitOps pipelines (e.g., using Argo CD or Octopus Deploy with Crossplane), the guide highlights methods for treating Kubernetes as the source of truth for all environment mutations.
 ## Platform Engineering
 
 ### Control Planes
@@ -84,5 +84,5 @@
   - **(2021)** [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses the cognitive load and operational hurdles associated with exposing raw Kubernetes interfaces directly to application developers. It analyzes the friction created by complex network topologies, YAML verbosity, and security policies, making the case for platform abstraction layers and custom developer portals.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 
