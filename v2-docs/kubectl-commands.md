@@ -14,19 +14,33 @@
 1. [Automation](#automation)
   - [Kubernetes](#kubernetes)
     - [Ansible Modules](#ansible-modules)
+1. [CICD](#cicd)
+  - [Automation](#automation-1)
+    - [Deployment Tools](#deployment-tools)
+    - [Jenkins Integration](#jenkins-integration)
 1. [Cloud Native](#cloud-native)
   - [Kubernetes](#kubernetes-1)
     - [CICD and Builds](#cicd-and-builds)
     - [CLI and Debugging](#cli-and-debugging)
     - [Security](#security)
+1. [Container Orchestration](#container-orchestration)
+  - [Kubernetes](#kubernetes-2)
+    - [Ansible Integration](#ansible-integration)
+1. [Deployment and Orchestration](#deployment-and-orchestration)
+  - [Cluster Provisioning](#cluster-provisioning)
+    - [Remote Access](#remote-access)
+1. [DevSecOps and Registry](#devsecops-and-registry)
+  - [Java Tools](#java-tools)
+    - [Gradle Reference](#gradle-reference)
 1. [Developer Experience](#developer-experience)
   - [Shell](#shell)
     - [Productivity](#productivity)
-1. [Kubernetes](#kubernetes-2)
+1. [Kubernetes](#kubernetes-3)
   - [Developer Experience](#developer-experience-1)
     - [Container Builds](#container-builds)
   - [Operations](#operations)
     - [Kubectl Plugins](#kubectl-plugins)
+    - [Productivity](#productivity-1)
 1. [Kubernetes Platform](#kubernetes-platform)
   - [Cluster Administration](#cluster-administration)
     - [K8s Contexts](#k8s-contexts)
@@ -37,9 +51,21 @@
     - [Shell Environments](#shell-environments)
   - [K8s API and Development](#k8s-api-and-development)
     - [Config Management](#config-management)
+1. [Observability](#observability)
+  - [Debugging](#debugging)
+    - [CLI Operations](#cli-operations)
 1. [Operations and UX](#operations-and-ux)
   - [CLI Plugins](#cli-plugins)
     - [Output Formatting](#output-formatting)
+1. [Orchestration](#orchestration)
+  - [Kubernetes](#kubernetes-4)
+    - [CLI Management](#cli-management)
+1. [Orchestration and Packaging](#orchestration-and-packaging)
+  - [Helm and GitOps](#helm-and-gitops)
+    - [Helm Overview](#helm-overview)
+1. [Storage and Data](#storage-and-data)
+  - [Performance Benchmarking](#performance-benchmarking)
+    - [Etcd Storage Tuning](#etcd-storage-tuning)
 
 ## Architectural Foundations
 
@@ -73,6 +99,16 @@
 #### Ansible Modules
 
   - **(2024)** [Manage Kubernetes (K8s) objects](https://docs.ansible.com/collections.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing Ansible's specialized `kubernetes.core.k8s` module capabilities. It focuses on declaratively orchestrating Kubernetes objects directly from Ansible playbooks, allowing organizations to cleanly bridge traditional VM configuration setups with modern containerized platform configurations.
+## CICD
+
+### Automation (1)
+
+#### Deployment Tools
+
+  - **(2023)** [==Kubernetes Continuous Deploy==](https://plugins.jenkins.io/kubernetes-cd) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Jenkins plugin designed to coordinate container deployment pipelines, allowing seamless application delivery onto Kubernetes clusters. It handles cluster authentication, manifest interpolation, and rollout verification, although modern enterprise GitOps architectures have largely transitioned target deployments to ArgoCD or Flux.
+#### Jenkins Integration
+
+  - **(2024)** [==Jenkins Kubernetes Plugin==](https://plugins.jenkins.io/kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational plugin that integrates Jenkins with Kubernetes clusters to dynamically provision Jenkins agent pods on-demand. By leveraging Kubernetes namespaces and resources, it ensures isolated build environments, scaling agent capacity up during intensive test stages and scaling down to save compute budget.
 ## Cloud Native
 
 ### Kubernetes (1)
@@ -84,6 +120,7 @@
 
   - **(2026)** [==ahmetb/kubectl-aliases==](https://github.com/ahmetb/kubectl-aliases) <span class='md-tag md-tag--info'>⭐ 3691</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-860c376d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 10 L 20 8 L 30 10 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-860c376d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated system that generates systematic shell aliases for 'kubectl', significantly enhancing engineering productivity. It minimizes operational friction by programmatic expansion of over 800 permutations of flags and subcommands, allowing administrators to interface with Kubernetes clusters using succinct shorthand sequences.
   - **(2026)** [==github.com/trstringer/kubectl-example==](https://github.com/trstringer/kubectl-example) <span class='md-tag md-tag--info'>⭐ 13</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b0498436" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 9 L 20 8 L 30 9 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-b0498436)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A reference repository providing curated template patterns and concrete command-line configurations for common 'kubectl' usage patterns. Designed to shorten the ramp-up time for operators, it acts as a declarative cheat-sheet for state transitions and diagnostic queries.
+  - **(2026)** [==Flag export deprecated in kubernetes 1.14==](https://github.com/kubernetes/kubernetes/pull/73787) <span class='md-tag md-tag--info'>⭐ 123002</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-769ced28" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 11 L 30 7 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-769ced28)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The upstream Kubernetes pull request deprecating the '--export' flag in 'kubectl get'. Live grounding confirms that as of Kubernetes 1.18+, this flag was completely removed in favor of alternative serialization pipelines, requiring automation scripts to migrate away from this legacy pattern.
   - **(2026)** [kubectl explain](https://jamesdefabia.github.io/docs/user-guide/kubectl/kubectl_explain) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for 'kubectl explain', a critical utility for schema exploration within the Kubernetes API. Architecturally, it queries the cluster OpenAPI specification directly to output detailed structural layouts of specific resources, assisting developers in constructing valid declarative YAML manifests.
   - **(2026)** [itnext.io: Using ‘kubectl explain’ for Custom Resources](https://itnext.io/understanding-kubectl-explain-9d703396cc8) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide showcasing how to leverage 'kubectl explain' to dynamically inspect Custom Resource Definitions (CRDs). By querying the discovery API, platform engineers can navigate deeply nested custom resource structures and ensure compliance with schemas registered via operator patterns.
   - **(2026)** [kubectl Shell Autocomplete](https://blog.heptio.com/kubectl-shell-autocomplete-heptioprotip-48dd023e0bf3) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into setting up shell autocomplete for 'kubectl' across Bash, Zsh, and fish environments. From an operational efficiency perspective, autocompletion queries API resources dynamically, minimizing context switching and reducing manual spelling errors during incident response.
@@ -92,6 +129,27 @@
 #### Security
 
   - **(2026)** [goteleport.com: kubectl exec vs SSH](https://goteleport.com/blog/ssh-vs-kubectl) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison contrasting standard SSH access with the API-driven 'kubectl exec' command. From a security boundary posture, it highlights why 'kubectl exec' is preferred inside modern clusters as it eliminates secondary authentication pipelines and relies purely on Kubernetes RBAC structures.
+## Container Orchestration
+
+### Kubernetes (2)
+
+#### Ansible Integration
+
+  - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference site for Jeff Geerling's "Ansible for Kubernetes" book. It showcases advanced architectural patterns using Ansible to orchestrate cloud-native Kubernetes systems, write custom operators, and manage application lifecycles inside pods.
+## Deployment and Orchestration
+
+### Cluster Provisioning
+
+#### Remote Access
+
+  - **(2020)** [blog.alexellis.io: Get kubectl access to your private cluster from anywhere](https://blog.alexellis.io/get-private-kubectl-access-anywhere) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores techniques for securely accessing the Kubernetes API control plane of isolated or private networks without exposing standard firewall ports. Explains how reverse-proxy tunnels provide secure endpoints. Live Grounding validates that tunnel mechanisms like inlets, Tailscale, or Cloudflare Tunnels have become common choices for secure edge environments.
+## DevSecOps and Registry
+
+### Java Tools
+
+#### Gradle Reference
+
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
 ## Developer Experience
 
 ### Shell
@@ -99,7 +157,7 @@
 #### Productivity
 
   - **(2026)** [==complete-alias==](https://github.com/cykerway/complete-alias) <span class='md-tag md-tag--info'>⭐ 814</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dec427d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 4 L 20 9 L 30 8 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-dec427d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A shell integration tool designed to resolve completion mechanisms for aliased commands. For platform engineers running complex aliased 'kubectl' pipelines, this tool bridges the gap by enabling native parameter autocomplete for custom aliases, preserving system-level speed.
-## Kubernetes (2)
+## Kubernetes (3)
 
 ### Developer Experience (1)
 
@@ -111,6 +169,9 @@
 #### Kubectl Plugins
 
   - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
+#### Productivity (1)
+
+  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platform
 
 ### Cluster Administration
@@ -154,6 +215,13 @@
 #### Config Management
 
   - **(2023)** [**learnitguide.net: How to Create ConfigMap from Properties File Using K8s' Client**](https://www.learnitguide.net/2023/04/how-to-create-configmap-from-properties.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demonstrates methods to compile Kubernetes ConfigMaps from structured properties files. Bridges common application configurations with native cloud manifest patterns.
+## Observability
+
+### Debugging
+
+#### CLI Operations
+
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
 ## Operations and UX
 
 ### CLI Plugins
@@ -161,7 +229,28 @@
 #### Output Formatting
 
   - **(2026)** [hidetatz/kubecolor 🌟](https://github.com/hidetatz/kubecolor) <span class='md-tag md-tag--info'>⭐ 1446</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fc213f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 11 L 20 8 L 30 9 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-fc213f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubecolor is a highly adopted command-line wrapper for kubectl that colorizes terminal outputs. It improves cluster observability by visually distinguishing resource types, labels, statuses, and namespaces during interactive CLI operations.
+## Orchestration
+
+### Kubernetes (4)
+
+#### CLI Management
+
+  - **(2026)** [==kubernetes.io 🌟==](https://kubernetes.io/docs/reference/kubectl/quick-reference) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The canonical reference documentation for the kubectl command-line utility. Provides up-to-date syntax patterns for resource creation, patch edits, formatting outputs, and real-time container log analysis across active nodes.
+## Orchestration and Packaging
+
+### Helm and GitOps
+
+#### Helm Overview
+
+  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
+## Storage and Data
+
+### Performance Benchmarking
+
+#### Etcd Storage Tuning
+
+  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

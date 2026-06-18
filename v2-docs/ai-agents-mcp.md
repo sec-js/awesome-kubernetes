@@ -136,5 +136,5 @@ Enables developers to transition from local prototype builds to secure GKE produ
   - **(2025)** [youtube: The 6 Levels of Claude Code Explained](https://www.youtube.com/watch?v=TUKYbUIXLOE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive video breakdown analyzing the capabilities of Anthropic's Claude Code interface. Evaluates the progression from basic code generation and syntax correction to advanced multi-file refactoring and semi-autonomous agentic software engineering tasks.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [ChatGPT](./chatgpt.md) | [MLOps](./mlops.md)
 

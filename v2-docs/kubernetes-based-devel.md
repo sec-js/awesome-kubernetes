@@ -10,6 +10,7 @@
 
 1. [API and Integration Testing](#api-and-integration-testing)
   - [Mocking and Virtualization](#mocking-and-virtualization)
+    - [Microcks](#microcks)
     - [Microcks Integration](#microcks-integration)
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
@@ -25,10 +26,14 @@
 1. [Kubernetes Developer Experience](#kubernetes-developer-experience)
   - [Cloud Development Environments](#cloud-development-environments)
     - [Okteto](#okteto)
+  - [Graph-Based Dev and Test](#graph-based-dev-and-test)
+    - [Garden Documentation](#garden-documentation)
   - [Inner-Loop Automation](#inner-loop-automation)
     - [Comparisons](#comparisons)
     - [DevSpace](#devspace)
     - [DevSpace Analysis](#devspace-analysis)
+    - [Guides](#guides)
+    - [Skaffold](#skaffold)
     - [Skaffold Tutorials](#skaffold-tutorials)
     - [Skaffold Use Cases](#skaffold-use-cases)
     - [Tilt](#tilt)
@@ -62,7 +67,7 @@
   - [Single-Node Clusters](#single-node-clusters)
     - [Comparisons](#comparisons-2)
     - [Evaluation](#evaluation-1)
-    - [Guides](#guides)
+    - [Guides](#guides-1)
     - [Minikube](#minikube)
     - [Sandbox Tools](#sandbox-tools)
     - [Tutorials](#tutorials)
@@ -71,9 +76,11 @@
     - [Tooling Evaluation](#tooling-evaluation)
 1. [Platform Engineering](#platform-engineering)
   - [Application Delivery](#application-delivery)
+    - [Catalog UI](#catalog-ui)
     - [Dynamic Forms](#dynamic-forms)
   - [GitOps](#gitops)
     - [Configuration Management](#configuration-management)
+    - [Helm Lifecycle Management](#helm-lifecycle-management)
   - [Multi-Cloud](#multi-cloud)
     - [PaaS Framework](#paas-framework)
   - [UI and Dashboards](#ui-and-dashboards)
@@ -91,11 +98,17 @@
 1. [Security](#security)
   - [Threat Vector](#threat-vector)
     - [UI Exploitation](#ui-exploitation)
+1. [Software Engineering Practices](#software-engineering-practices)
+  - [Containerized Workflows](#containerized-workflows)
+    - [Cookbooks](#cookbooks)
 
 ## API and Integration Testing
 
 ### Mocking and Virtualization
 
+#### Microcks
+
+  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
@@ -158,6 +171,11 @@
 #### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide series covering Okteto's Cloud Development Environment (CDE) paradigm. Demonstrates how developers can synchronize code in real-time straight to remote container runtimes without local compiler requirements.
+### Graph-Based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 ### Inner-Loop Automation
 
 #### Comparisons
@@ -169,6 +187,12 @@
 #### DevSpace Analysis
 
   - **(2020)** [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how DevSpace simplifies cluster testing for backend teams by replacing complex kubectl calls and image building scripts with high-performance, real-time file-reloading profiles.
+#### Guides
+
+  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
+#### Skaffold
+
+  - **(2026)** [**Skaffold 🌟**](https://skaffold.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google's Skaffold remains an industry-leading workflow engine that orchestrates code building, artifact pushing, and target deployment steps. It features smart caching, file sync capability, and multi-profile handling configurations.
 #### Skaffold Tutorials
 
   - **(2021)** [dev.to: How to Simplify Your Local Kubernetes Development With Skaffold](https://dev.to/otomato_io/local-kubernetes-development-with-skaffold-i0k)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical onboarding guide detailing local cloud-native development workflows using Skaffold. Explores live file-reloading, log streaming, and localized namespace configurations for multi-service apps.
@@ -255,7 +279,7 @@
 #### Evaluation (1)
 
   - **(2021)** [blog.radwell.codes: What’s the best Kubernetes distribution for local environments? 🌟](https://blog.radwell.codes/2021/05/best-kubernetes-distribution-for-local-environments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes localized Kubernetes distributions from a CPU and memory efficiency standpoint. Helps engineers match custom testing configurations against hardware-constrained developer machines.
-#### Guides
+#### Guides (1)
 
   - **(2021)** [itnext.io: Run Kubernetes On Your Machine](https://itnext.io/run-kubernetes-on-your-machine-7ee463af21a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused guide covering local Kubernetes provisioning alternatives. Evaluates resource overhead, file synchronization speeds, network configurations, and host integration points across different platforms.
   - **(2021)** [itnext.io: Kubernetes in a box](https://itnext.io/kubernetes-in-a-box-7a146ba9f681)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide detailing 'Kubernetes in a box' sandbox creation methodologies. Outlines structural strategies for configuring minimal host dependencies, local routing setups, and automatic configuration sync setups.
@@ -279,6 +303,9 @@
 
 ### Application Delivery
 
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 #### Dynamic Forms
 
   - **(2025)** [**github.com/cyclops-ui/cyclops**](https://github.com/cyclops-ui/cyclops) <span class='md-tag md-tag--info'>⭐ 3323</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7efb435f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 3 L 30 5 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-7efb435f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source developer-focused UI that dynamically generates highly intuitive forms from Kubernetes configurations and Helm schemas. Reduces cognitive overhead for non-operations teams, allowing secure and error-free deployments.
@@ -287,6 +314,9 @@
 #### Configuration Management
 
   - **(2025)** [**kubeshop.github.io/monokle**](https://docs.monokle.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source IDE developed by Kubeshop for managing, refactoring, and verifying Kubernetes manifests. Facilitates dynamic schema-based validation, pre-deployment policy checks, and structural reviews of raw YAML, Helm, and Kustomize files.
+#### Helm Lifecycle Management
+
+  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ### Multi-Cloud
 
 #### PaaS Framework
@@ -344,7 +374,14 @@
 #### UI Exploitation
 
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
+## Software Engineering Practices
+
+### Containerized Workflows
+
+#### Cookbooks
+
+  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive developer cookbook outlining containerized development workflows. Details multi-stage Docker builds, development-time mounts, image layer caching optimization, and secure packaging designs.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 
