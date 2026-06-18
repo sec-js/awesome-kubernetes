@@ -23,7 +23,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: develop-git-push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -101,7 +101,24 @@ jobs:
             echo "No automated changes to commit."
           else
             git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
-            git pull origin develop --rebase
+            # Pull and rebase with automatic resolution of README.md conflicts by regenerating metrics
+            for i in {1..5}; do
+              if git pull origin develop --rebase; then
+                git push origin develop && exit 0
+              else
+                echo "Rebase conflict detected, attempting self-healing..."
+                # Discard local conflicting changes to README.md and accept remote
+                git checkout --ours README.md || git checkout --theirs README.md
+                git add README.md
+                # Continue rebase
+                GIT_EDITOR=true git rebase --continue || { git rebase --abort; git pull origin develop; }
+                # Re-run README sync to update metrics with remote state incorporated
+                python -m src.readme_updater
+                python -m src.safety_readme
+                git add README.md
+                git commit --amend --no-edit
+              fi
+            done
             git push origin develop
           fi
 

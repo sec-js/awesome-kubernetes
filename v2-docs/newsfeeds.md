@@ -20,11 +20,13 @@
 
 #### General Reference
 
-  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/devops in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
-  - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/kubernetes in the Kubernetes Tools ecosystem.
   - [reddit.com/r/jenkinsci](https://www.reddit.com/r/jenkinsci)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/jenkinsci in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/openshift](https://www.reddit.com/r/openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/openshift in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/redhat](https://www.reddit.com/r/redhat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/redhat in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/kubernetes](https://www.reddit.com/r/kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/kubernetes in the Kubernetes Tools ecosystem.
+  - [nativecloud.dev 🌟](https://nativecloud.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==nativecloud.dev== 🌟 in the Kubernetes Tools ecosystem.
+  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
+  - [reddit.com/r/devops](https://www.reddit.com/r/devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/devops in the Kubernetes Tools ecosystem.
   - [reddit.com/r/maven](https://www.reddit.com/r/maven)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/maven in the Kubernetes Tools ecosystem.
   - [reddit.com/r/gradle](https://www.reddit.com/r/gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/gradle in the Kubernetes Tools ecosystem.
   - [reddit.com/r/azuredevops](https://www.reddit.com/r/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/azuredevops in the Kubernetes Tools ecosystem.
@@ -47,10 +49,8 @@
   - [reddit.com/r/python](https://www.reddit.com/r/Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/python in the Kubernetes Tools ecosystem.
   - [reddit.com/r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/bashonubuntuonwindows in the Kubernetes Tools ecosystem.
   - [crunchbase.com](https://www.crunchbase.com/organization/openshift/timeline/timeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering crunchbase.com in the Kubernetes Tools ecosystem.
-  - [nativecloud.dev 🌟](https://nativecloud.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==nativecloud.dev== 🌟 in the Kubernetes Tools ecosystem.
   - [Stack Overflow Collectives 🌟](https://stackoverflow.com/collectives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Stack Overflow Collectives 🌟 in the Kubernetes Tools ecosystem.
   - [Go Collective](https://stackoverflow.com/collectives/go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Go Collective in the Kubernetes Tools ecosystem.
-  - [GitLab Collective](https://stackoverflow.com/collectives/gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering GitLab Collective in the Kubernetes Tools ecosystem.
 ## FinOps and Cloud Cost
 
 ### Community Resources
@@ -66,5 +66,5 @@
   - **(2023)** [AWS Forums](https://repost.aws) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy discussion forum resource for AWS developers troubleshooting infrastructure configurations and billing queries. Note: The platform has largely migrated to AWS Re:Post for community support.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
+💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Workfromhome](./workfromhome.md)
 

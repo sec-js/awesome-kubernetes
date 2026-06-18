@@ -56,5 +56,5 @@
   - [baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin](https://www.baeldung.com/kotlin/swagger-spring-rest-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Using Swagger (OpenAPI) for a Spring REST API With Kotlin in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Java_Frameworks](./java_frameworks.md)
 

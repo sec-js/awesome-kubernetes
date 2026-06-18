@@ -32,7 +32,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: develop-git-push-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

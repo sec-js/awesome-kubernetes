@@ -28,6 +28,9 @@
 1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
   - [Software Engineering Principles](#software-engineering-principles)
     - [Developer Cognitive Load](#developer-cognitive-load)
+1. [Developer Productivity](#developer-productivity)
+  - [Integrated Development Environments](#integrated-development-environments)
+    - [Rust](#rust)
 1. [Developer Tooling](#developer-tooling)
   - [CLI Frameworks](#cli-frameworks)
     - [Oclif](#oclif)
@@ -50,7 +53,7 @@
     - [Dhall](#dhall)
   - [Design Patterns](#design-patterns)
     - [Refactoring](#refactoring)
-  - [Developer Productivity](#developer-productivity)
+  - [Developer Productivity](#developer-productivity-1)
     - [Learning Paths](#learning-paths-1)
     - [Resources](#resources)
   - [Education](#education)
@@ -137,6 +140,13 @@
 #### Developer Cognitive Load
 
   - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
+## Developer Productivity
+
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ## Developer Tooling
 
 ### CLI Frameworks
@@ -190,7 +200,7 @@
 #### Refactoring
 
   - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional digital guide outlining classical Creational, Structural, and Behavioral software design patterns. Provides clean, production-ready code examples in Go, Python, Java, and TypeScript alongside practical refactoring advice.
-### Developer Productivity
+### Developer Productivity (1)
 
 #### Learning Paths (1)
 
@@ -239,5 +249,5 @@
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

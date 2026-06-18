@@ -71,9 +71,6 @@
   - [Networking Protocols](#networking-protocols)
     - [Local Development Environments](#local-development-environments)
     - [Transport Layer Security](#transport-layer-security)
-1. [Networking](#networking)
-  - [Service Mesh](#service-mesh)
-    - [eBPF vs Proxy](#ebpf-vs-proxy)
 1. [Platform Engineering](#platform-engineering)
   - [Developer Portal](#developer-portal)
     - [Internal Developer Platforms](#internal-developer-platforms)
@@ -82,8 +79,6 @@
 1. [Software Engineering](#software-engineering)
   - [AI-Assisted Development](#ai-assisted-development)
     - [GitHub Copilot](#github-copilot)
-  - [Collaboration](#collaboration)
-    - [Documentation Specifications](#documentation-specifications)
   - [Programming Paradigms](#programming-paradigms)
     - [Functional Programming](#functional-programming)
 
@@ -313,13 +308,6 @@
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
-## Networking
-
-### Service Mesh
-
-#### eBPF vs Proxy
-
-  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Platform Engineering
 
 ### Developer Portal
@@ -341,11 +329,6 @@
 #### GitHub Copilot
 
   - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
-### Collaboration
-
-#### Documentation Specifications
-
-  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Programming Paradigms
 
 #### Functional Programming
@@ -353,5 +336,5 @@
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Chaos Engineering](./chaos-engineering.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
 

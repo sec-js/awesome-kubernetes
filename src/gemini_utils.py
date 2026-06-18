@@ -295,6 +295,86 @@ def handle_retry_error(retry_state):
 )
 async def call_gemini_with_retry(prompt: str, response_format: str = "json", max_retries: int = 3, prefer_flash: bool = False, use_grounding: bool = False, role: str = "General"):
     global CURRENT_KEY_INDEX, GLOBAL_COOLDOWN_UNTIL
+    
+    if os.environ.get("MOCK_DEBATE") == "true":
+        log_event(f"    [MOCK AI] Intercepted call for role '{role}' in mock mode.")
+        if "Analyst-Fast" in role or "Analyst-Grounded" in role:
+            results = []
+            for line in prompt.splitlines():
+                line = line.strip()
+                match = re.match(r'^(\d+)\.\s+(.*?)\s+\((https?://.*?)\)', line)
+                if match:
+                    idx = int(match.group(1))
+                    title = match.group(2)
+                    url = match.group(3)
+                    stars = 3
+                    if "awesome" in title.lower() or "best" in title.lower():
+                        stars = 5
+                    elif "operator" in title.lower() or "kubernetes" in title.lower():
+                        stars = 4
+                    results.append({
+                        "idx": idx,
+                        "year": "2026",
+                        "stars": stars,
+                        "hierarchy": ["Platform", "Reference"],
+                        "tags": ["Resource", "Documentation"],
+                        "summary": f"A curated reference on {title} for modern cloud native architectures.",
+                        "language": "English",
+                        "type": "Reference",
+                        "complexity": "Intermediate",
+                        "is_microservice": False
+                    })
+            return {"results": results}
+        
+        elif "Curator" in role:
+            results = []
+            for line in prompt.splitlines():
+                line = line.strip()
+                match = re.match(r'^-\s+(https?://[^\s:]+):', line)
+                if match:
+                    url = match.group(1)
+                    results.append({
+                        "url": url,
+                        "impact_score": 60,
+                        "reputation_penalty": False,
+                        "reputation_summary": "Clean reputation on community channels.",
+                        "pub_date": "2026-01-01",
+                        "primary_category": "Kubernetes",
+                        "suggested_new_category": "Kubernetes",
+                        "title": "Reference Resource",
+                        "desc": "A validated Cloud Native resource.",
+                        "en_summary": "A high-density reference guide containing validated implementation practices.",
+                        "language": "English",
+                        "type": "Reference",
+                        "level": "Intermediate",
+                        "technical_hierarchy": ["Kubernetes"],
+                        "tags": ["RESOURCE", "DOCKER"],
+                        "is_microservice": False
+                    })
+            return results
+            
+        elif "Link-Rescue" in role:
+            results = []
+            for line in prompt.splitlines():
+                line = line.strip()
+                match = re.match(r'^-\s+(.*?)\s*\|\s*(https?://[^\s]+)', line)
+                if match:
+                    title = match.group(1)
+                    url = match.group(2)
+                    results.append({
+                        "old_url": url,
+                        "new_url": url
+                    })
+            return results
+
+        elif "PR-Guardian" in role:
+            return "APPROVED\nNo violations found. Compliance with Nubenetes standards is 100%."
+
+        if response_format == "json":
+            return {}
+        else:
+            return "APPROVED"
+
     if not GEMINI_API_KEYS: raise ValueError("No GEMINI_API_KEYS configured.")
     
     models_pool = await discover_optimal_models()

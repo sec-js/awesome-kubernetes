@@ -182,6 +182,48 @@ document.addEventListener("DOMContentLoaded", function () {
             updateFilters();
         });
     });
+
+    // Make tag badges clickable to trigger filtering
+    document.addEventListener("click", function (e) {
+        const tagSpan = e.target.closest(".md-tag");
+        if (!tagSpan) return;
+
+        // Skip if inside the filter container itself to avoid loop
+        if (e.target.closest(".v2-filter-container")) return;
+
+        let tagText = tagSpan.textContent.trim().replace(/[\[\]]/g, "").toUpperCase();
+        if (tagText.includes("CONTENT")) {
+            tagText = tagText.replace(" CONTENT", "");
+        }
+
+        // 1. Check if the tag matches a predefined filter pill
+        const matchingPill = Array.from(pills).find(p => p.getAttribute("data-filter") === tagText);
+        if (matchingPill) {
+            pills.forEach(p => p.classList.remove("active"));
+            matchingPill.classList.add("active");
+            activeFilter = tagText;
+            // Reset search input
+            searchInput.value = "";
+            searchText = "";
+            searchClear.style.display = "none";
+            updateFilters();
+            filterContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        } else {
+            // 2. If it's a technical stack tag, use it as search input query
+            pills.forEach(p => p.classList.remove("active"));
+            const allPill = Array.from(pills).find(p => p.getAttribute("data-filter") === "all");
+            if (allPill) allPill.classList.add("active");
+            activeFilter = "all";
+            
+            // Populate search input and fire input event
+            searchInput.value = tagSpan.textContent.trim().toLowerCase();
+            searchText = searchInput.value;
+            searchClear.style.display = "block";
+            updateFilters();
+            filterContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            searchInput.focus();
+        }
+    });
 });
 
 // Lazy Loading Video Playback Integration

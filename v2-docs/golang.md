@@ -31,8 +31,6 @@
     - [Testing Frameworks](#testing-frameworks)
   - [Kubernetes Observability](#kubernetes-observability)
     - [Debugging Tools](#debugging-tools)
-  - [Microservice Runtimes](#microservice-runtimes)
-    - [Dapr](#dapr)
   - [Web Frameworks](#web-frameworks)
     - [Request Binding](#request-binding)
 1. [Cloud Native Languages](#cloud-native-languages)
@@ -53,9 +51,6 @@
 1. [DevOps Tools](#devops-tools)
   - [Templating](#templating)
     - [Go Templates](#go-templates)
-1. [Developer Productivity](#developer-productivity)
-  - [Integrated Development Environments](#integrated-development-environments)
-    - [Rust](#rust)
 1. [Kubernetes Platform](#kubernetes-platform)
   - [K8s API and Development](#k8s-api-and-development)
     - [Golang Client](#golang-client)
@@ -97,6 +92,9 @@
 
 #### General Reference
 
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Koa.js in the Kubernetes Tools ecosystem.
+  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering simplecheatsheet.com/tag/golang-cheat-sheet in the Kubernetes Tools ecosystem.
+  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes in the Kubernetes Tools ecosystem.
   - [medium: Microservices in Go](https://medium.com/seek-blog/microservices-in-go-2fc1570f6800)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Microservices in Go in the Kubernetes Tools ecosystem.
   - [search.gocenter.io: JFrog Go Center](https://search.gocenter.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering search.gocenter.io: JFrog Go Center in the Kubernetes Tools ecosystem.
   - [ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters](https://www.ammeon.com/profiling-golang-microservices-for-high-throughput-on-kubernetes-openshift-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ammeon.com: Profiling golang microservices for high throughput on kubernetes/openshift' clusters in the Kubernetes Tools ecosystem.
@@ -110,11 +108,8 @@
   - [Part 4 — Using the Go client framework](https://medium.com/programming-kubernetes/building-stuff-with-the-kubernetes-api-part-4-using-go-b1d0e3c1c899)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Part 4 — Using the Go client framework in the Kubernetes Tools ecosystem.
   - [medium.com/codex: Explore client-go Informer Patterns](https://medium.com/codex/explore-client-go-informer-patterns-4415bb5f1fbd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/codex: Explore client-go Informer Patterns in the Kubernetes Tools ecosystem.
   - [shahin-mahmud.medium.com: Write your first Kubernetes operator in go](https://shahin-mahmud.medium.com/write-your-first-kubernetes-operator-in-go-177047337eae)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering shahin-mahmud.medium.com: Write your first Kubernetes operator in go in the Kubernetes Tools ecosystem.
-  - [simplecheatsheet.com/tag/golang-cheat-sheet](https://simplecheatsheet.com/tag/golang-cheat-sheet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering simplecheatsheet.com/tag/golang-cheat-sheet in the Kubernetes Tools ecosystem.
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Koa.js in the Kubernetes Tools ecosystem.
   - [reddit.com: What is the best microservice framework in Go?](https://www.reddit.com/r/golang/comments/jnv4bd/what_is_the_best_microservice_framework_in_go)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: What is the best microservice framework in Go? in the Kubernetes Tools ecosystem.
   - [medium.com/vedcraft: Top Microservices Frameworks in Go](https://medium.com/vedcraft/top-microservices-frameworks-in-go-762445c30dd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/vedcraft: Top Microservices Frameworks in Go in the Kubernetes Tools ecosystem.
-  - [alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes](https://alexsniffin.medium.com/debugging-remotely-in-kubernetes-with-go-fda4f3332316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alexsniffin.medium.com: Debugging Remotely with Go in Kubernetes in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Microservices
@@ -175,11 +170,6 @@
 #### Debugging Tools
 
   - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion code repository for a Groundcover blog exploring Kubernetes container restart triggers. Live Grounding confirms it serves as a lightweight diagnostic template to intercept CrashLoopBackOff states in real-time.
-### Microservice Runtimes
-
-#### Dapr
-
-  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
 ### Web Frameworks
 
 #### Request Binding
@@ -253,13 +243,6 @@
 #### Go Templates
 
   - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) <span class='md-tag md-tag--info'>⭐ 4721</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e69250e6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 6 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e69250e6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Sprig as a comprehensive library of template functions for Go, heavily utilized in Helm charts. Live Grounding confirms its status as an industry-standard dependency for dynamic Helm manifest generation, though recent development has shifted to maintenance mode.
-## Developer Productivity
-
-### Integrated Development Environments
-
-#### Rust
-
-  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ## Kubernetes Platform
 
 ### K8s API and Development
@@ -334,7 +317,6 @@
 
 #### Go (2)
 
-  - **(2025)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density Go interface dashboard providing rapid syntactical access. Highlights slice memory operations, struct compositions, dynamic channels, and concurrency waitgroups to speed up systems programming.
   - **(2025)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 8800</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f540cad0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 7 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-f540cad0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A high-density Go reference database. It details Go core syntaxes, standard library definitions, channels, interface rules, and concurrency patterns to accelerate systems-level software development.
 ### Web Development
 
@@ -350,5 +332,5 @@
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9746b620" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-9746b620)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 

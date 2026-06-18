@@ -261,6 +261,9 @@
       - [Monitoring](#monitoring-3)
     - [Kubernetes SDKs](#kubernetes-sdks)
       - [Couler](#couler)
+1. [Security](#security-4)
+  - [Compliance](#compliance)
+    - [CIS Benchmarks](#cis-benchmarks)
 1. [Software Engineering](#software-engineering)
   - [Backend Development](#backend-development)
     - [Java Enterprise](#java-enterprise)
@@ -1082,6 +1085,13 @@
 ##### Couler
 
   - **(2023)** [**Couler**](https://github.com/couler-proj/couler) <span class='md-tag md-tag--info'>⭐ 944</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-478a549f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 3 L 20 4 L 30 4 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-478a549f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Couler is an open-source Python SDK built to simplify programming native Kubernetes workflow engines like Argo or Tekton. It allows machine learning and data engineering teams to construct complex workflows via intuitive Python code instead of hand-writing endless YAML sheets.
+## Security (4)
+
+### Compliance
+
+#### CIS Benchmarks
+
+  - **(2024)** [ibm.com: CIS Benchmarks](https://www.ibm.com/topics) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Center for Internet Security (CIS) Benchmarks provide globally recognized consensus-based best practices for securing IT systems, clouds, and Kubernetes environments. Organizations use these structured guidelines to validate and harden infrastructure configurations, ensuring compliance with strict security mandates through automated configuration auditors.
 ## Software Engineering
 
 ### Backend Development
@@ -1093,5 +1103,5 @@
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
 

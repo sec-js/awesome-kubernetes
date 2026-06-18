@@ -31,8 +31,6 @@
   - [Ecosystem](#ecosystem)
     - [AWS Partners](#aws-partners)
     - [Case Studies](#case-studies)
-  - [FinOps](#finops)
-    - [Cost Optimization](#cost-optimization)
   - [FinOps and Sustainability](#finops-and-sustainability)
     - [Green Ops](#green-ops)
   - [High Performance Computing](#high-performance-computing)
@@ -163,11 +161,6 @@
 #### Case Studies
 
   - **(2025)** [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on architecture walkthroughs, such as deploying high-availability services on AWS using Spotinst (now Spot by NetApp) and configuring Active Directory SSO. Live Grounding validates these blog posts as critical operational blueprints for multi-tenant integrations and cost-optimization strategies in enterprise environments.
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### FinOps and Sustainability
 
 #### Green Ops
@@ -292,5 +285,5 @@
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 

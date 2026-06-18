@@ -1,663 +1,651 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://nubenetes.com/v2/index.html</loc>
+         <loc>https://nubenetes.com/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ChromeDevTools.html</loc>
+         <loc>https://nubenetes.com/ChromeDevTools/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/GoogleCloudPlatform.html</loc>
+         <loc>https://nubenetes.com/GoogleCloudPlatform/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/about.html</loc>
+         <loc>https://nubenetes.com/about/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ai-agents-mcp.html</loc>
+         <loc>https://nubenetes.com/ai-agents-mcp/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ai.html</loc>
+         <loc>https://nubenetes.com/ai/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/angular.html</loc>
+         <loc>https://nubenetes.com/angular/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ansible.html</loc>
+         <loc>https://nubenetes.com/ansible/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/api.html</loc>
+         <loc>https://nubenetes.com/api/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/appointment-scheduling.html</loc>
+         <loc>https://nubenetes.com/appointment-scheduling/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/argo.html</loc>
+         <loc>https://nubenetes.com/argo/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-architecture.html</loc>
+         <loc>https://nubenetes.com/aws-architecture/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-backup.html</loc>
+         <loc>https://nubenetes.com/aws-backup/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-containers.html</loc>
+         <loc>https://nubenetes.com/aws-containers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-data.html</loc>
+         <loc>https://nubenetes.com/aws-data/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-databases.html</loc>
+         <loc>https://nubenetes.com/aws-databases/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-devops.html</loc>
+         <loc>https://nubenetes.com/aws-devops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-iac.html</loc>
+         <loc>https://nubenetes.com/aws-iac/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-messaging.html</loc>
+         <loc>https://nubenetes.com/aws-messaging/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-miscellaneous.html</loc>
+         <loc>https://nubenetes.com/aws-miscellaneous/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-monitoring.html</loc>
+         <loc>https://nubenetes.com/aws-monitoring/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-networking.html</loc>
+         <loc>https://nubenetes.com/aws-networking/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-newfeatures.html</loc>
+         <loc>https://nubenetes.com/aws-newfeatures/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-pricing.html</loc>
+         <loc>https://nubenetes.com/aws-pricing/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-security.html</loc>
+         <loc>https://nubenetes.com/aws-security/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-serverless.html</loc>
+         <loc>https://nubenetes.com/aws-serverless/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-spain.html</loc>
+         <loc>https://nubenetes.com/aws-spain/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-storage.html</loc>
+         <loc>https://nubenetes.com/aws-storage/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-tools-scripts.html</loc>
+         <loc>https://nubenetes.com/aws-tools-scripts/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws-training.html</loc>
+         <loc>https://nubenetes.com/aws-training/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/aws.html</loc>
+         <loc>https://nubenetes.com/aws/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/azure.html</loc>
+         <loc>https://nubenetes.com/azure/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/caching.html</loc>
+         <loc>https://nubenetes.com/caching/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/chaos-engineering.html</loc>
+         <loc>https://nubenetes.com/chaos-engineering/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/chatgpt.html</loc>
+         <loc>https://nubenetes.com/chatgpt/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cheatsheets.html</loc>
+         <loc>https://nubenetes.com/cheatsheets/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/chef.html</loc>
+         <loc>https://nubenetes.com/chef/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cicd-kubernetes-plugins.html</loc>
+         <loc>https://nubenetes.com/cicd-kubernetes-plugins/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cicd.html</loc>
+         <loc>https://nubenetes.com/cicd/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cloud-arch-diagrams.html</loc>
+         <loc>https://nubenetes.com/cloud-arch-diagrams/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cloud-asset-inventory.html</loc>
+         <loc>https://nubenetes.com/cloud-asset-inventory/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/cloudflare.html</loc>
+         <loc>https://nubenetes.com/cloudflare/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/container-managers.html</loc>
+         <loc>https://nubenetes.com/container-managers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/crossplane.html</loc>
+         <loc>https://nubenetes.com/crossplane/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/crunchydata.html</loc>
+         <loc>https://nubenetes.com/crunchydata/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/customer.html</loc>
+         <loc>https://nubenetes.com/customer/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/databases.html</loc>
+         <loc>https://nubenetes.com/databases/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/demos.html</loc>
+         <loc>https://nubenetes.com/demos/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/devel-sites.html</loc>
+         <loc>https://nubenetes.com/devel-sites/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/developerportals.html</loc>
+         <loc>https://nubenetes.com/developerportals/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/devops-tools.html</loc>
+         <loc>https://nubenetes.com/devops-tools/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/devops.html</loc>
+         <loc>https://nubenetes.com/devops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/devsecops.html</loc>
+         <loc>https://nubenetes.com/devsecops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/digital-money.html</loc>
+         <loc>https://nubenetes.com/digital-money/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/digitalocean.html</loc>
+         <loc>https://nubenetes.com/digitalocean/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/docker.html</loc>
+         <loc>https://nubenetes.com/docker/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/dom.html</loc>
+         <loc>https://nubenetes.com/dom/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/dotnet.html</loc>
+         <loc>https://nubenetes.com/dotnet/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/edge-computing.html</loc>
+         <loc>https://nubenetes.com/edge-computing/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/elearning.html</loc>
+         <loc>https://nubenetes.com/elearning/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/embedded-servlet-containers.html</loc>
+         <loc>https://nubenetes.com/embedded-servlet-containers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/faq.html</loc>
+         <loc>https://nubenetes.com/faq/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/finops.html</loc>
+         <loc>https://nubenetes.com/finops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/flux.html</loc>
+         <loc>https://nubenetes.com/flux/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/freelancing.html</loc>
+         <loc>https://nubenetes.com/freelancing/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/git.html</loc>
+         <loc>https://nubenetes.com/git/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/gitops.html</loc>
+         <loc>https://nubenetes.com/gitops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/golang.html</loc>
+         <loc>https://nubenetes.com/golang/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/grafana.html</loc>
+         <loc>https://nubenetes.com/grafana/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/helm.html</loc>
+         <loc>https://nubenetes.com/helm/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/hr.html</loc>
+         <loc>https://nubenetes.com/hr/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/iac.html</loc>
+         <loc>https://nubenetes.com/iac/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ibm_cloud.html</loc>
+         <loc>https://nubenetes.com/ibm_cloud/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/interview-questions.html</loc>
+         <loc>https://nubenetes.com/interview-questions/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/introduction.html</loc>
+         <loc>https://nubenetes.com/introduction/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/istio.html</loc>
+         <loc>https://nubenetes.com/istio/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/java-and-java-performance-optimization.html</loc>
+         <loc>https://nubenetes.com/java-and-java-performance-optimization/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/java_app_servers.html</loc>
+         <loc>https://nubenetes.com/java_app_servers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/java_frameworks.html</loc>
+         <loc>https://nubenetes.com/java_frameworks/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/javascript.html</loc>
+         <loc>https://nubenetes.com/javascript/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/jenkins-alternatives.html</loc>
+         <loc>https://nubenetes.com/jenkins-alternatives/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/jenkins.html</loc>
+         <loc>https://nubenetes.com/jenkins/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/jvm-parameters-matrix-table.html</loc>
+         <loc>https://nubenetes.com/jvm-parameters-matrix-table/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/keptn.html</loc>
+         <loc>https://nubenetes.com/keptn/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubectl-commands.html</loc>
+         <loc>https://nubenetes.com/kubectl-commands/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-alternatives.html</loc>
+         <loc>https://nubenetes.com/kubernetes-alternatives/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-autoscaling.html</loc>
+         <loc>https://nubenetes.com/kubernetes-autoscaling/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-backup-migrations.html</loc>
+         <loc>https://nubenetes.com/kubernetes-backup-migrations/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-based-devel.html</loc>
+         <loc>https://nubenetes.com/kubernetes-based-devel/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-bigdata.html</loc>
+         <loc>https://nubenetes.com/kubernetes-bigdata/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-client-libraries.html</loc>
+         <loc>https://nubenetes.com/kubernetes-client-libraries/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-monitoring.html</loc>
+         <loc>https://nubenetes.com/kubernetes-monitoring/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-networking.html</loc>
+         <loc>https://nubenetes.com/kubernetes-networking/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-on-premise.html</loc>
+         <loc>https://nubenetes.com/kubernetes-newsletters/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-operators-controllers.html</loc>
+         <loc>https://nubenetes.com/kubernetes-on-premise/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-releases.html</loc>
+         <loc>https://nubenetes.com/kubernetes-operators-controllers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-security.html</loc>
+         <loc>https://nubenetes.com/kubernetes-releases/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-storage.html</loc>
+         <loc>https://nubenetes.com/kubernetes-security/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-tools.html</loc>
+         <loc>https://nubenetes.com/kubernetes-storage/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-troubleshooting.html</loc>
+         <loc>https://nubenetes.com/kubernetes-tools/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes-tutorials.html</loc>
+         <loc>https://nubenetes.com/kubernetes-troubleshooting/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kubernetes.html</loc>
+         <loc>https://nubenetes.com/kubernetes-tutorials/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/kustomize.html</loc>
+         <loc>https://nubenetes.com/kubernetes/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/linux-dev-env.html</loc>
+         <loc>https://nubenetes.com/kustomize/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/linux.html</loc>
+         <loc>https://nubenetes.com/linux-dev-env/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/liquibase.html</loc>
+         <loc>https://nubenetes.com/linux/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/lowcode-nocode.html</loc>
+         <loc>https://nubenetes.com/liquibase/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/managed-kubernetes-in-public-cloud.html</loc>
+         <loc>https://nubenetes.com/lowcode-nocode/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/matrix-table.html</loc>
+         <loc>https://nubenetes.com/managed-kubernetes-in-public-cloud/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/maven-gradle.html</loc>
+         <loc>https://nubenetes.com/matrix-table/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/message-queue.html</loc>
+         <loc>https://nubenetes.com/maven-gradle/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/mkdocs.html</loc>
+         <loc>https://nubenetes.com/message-queue/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/mlops.html</loc>
+         <loc>https://nubenetes.com/mkdocs/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/monitoring.html</loc>
+         <loc>https://nubenetes.com/mlops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/networking.html</loc>
+         <loc>https://nubenetes.com/monitoring/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/newsfeeds.html</loc>
+         <loc>https://nubenetes.com/networking/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/newsql.html</loc>
+         <loc>https://nubenetes.com/newsfeeds/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/noops.html</loc>
+         <loc>https://nubenetes.com/newsql/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/nosql.html</loc>
+         <loc>https://nubenetes.com/noops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/oauth.html</loc>
+         <loc>https://nubenetes.com/nosql/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ocp3.html</loc>
+         <loc>https://nubenetes.com/oauth/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/ocp4.html</loc>
+         <loc>https://nubenetes.com/ocp3/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/openshift-pipelines.html</loc>
+         <loc>https://nubenetes.com/ocp4/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/openshift.html</loc>
+         <loc>https://nubenetes.com/openshift-pipelines/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/oraclecloud.html</loc>
+         <loc>https://nubenetes.com/openshift/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/other-awesome-lists.html</loc>
+         <loc>https://nubenetes.com/oraclecloud/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/performance-testing-with-jenkins-and-jmeter.html</loc>
+         <loc>https://nubenetes.com/other-awesome-lists/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/postman.html</loc>
+         <loc>https://nubenetes.com/performance-testing-with-jenkins-and-jmeter/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/private-cloud-solutions.html</loc>
+         <loc>https://nubenetes.com/postman/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/project-management-methodology.html</loc>
+         <loc>https://nubenetes.com/private-cloud-solutions/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/project-management-tools.html</loc>
+         <loc>https://nubenetes.com/project-management-methodology/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/prometheus.html</loc>
+         <loc>https://nubenetes.com/project-management-tools/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/public-cloud-solutions.html</loc>
+         <loc>https://nubenetes.com/prometheus/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/pulumi.html</loc>
+         <loc>https://nubenetes.com/public-cloud-solutions/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/python.html</loc>
+         <loc>https://nubenetes.com/pulumi/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/qa.html</loc>
+         <loc>https://nubenetes.com/python/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/rancher.html</loc>
+         <loc>https://nubenetes.com/qa/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/react.html</loc>
+         <loc>https://nubenetes.com/rancher/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/recruitment.html</loc>
+         <loc>https://nubenetes.com/react/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/registries.html</loc>
+         <loc>https://nubenetes.com/recruitment/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/remote-tech-jobs.html</loc>
+         <loc>https://nubenetes.com/registries/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/scaffolding.html</loc>
+         <loc>https://nubenetes.com/remote-tech-jobs/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/scaleway.html</loc>
+         <loc>https://nubenetes.com/scaffolding/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/securityascode.html</loc>
+         <loc>https://nubenetes.com/scaleway/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/serverless.html</loc>
+         <loc>https://nubenetes.com/securityascode/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/servicemesh.html</loc>
+         <loc>https://nubenetes.com/serverless/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/sonarqube.html</loc>
+         <loc>https://nubenetes.com/servicemesh/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/sre.html</loc>
+         <loc>https://nubenetes.com/sonarqube/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/stackstorm.html</loc>
+         <loc>https://nubenetes.com/sre/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/swagger-code-generator-for-rest-apis.html</loc>
+         <loc>https://nubenetes.com/stackstorm/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/tekton.html</loc>
+         <loc>https://nubenetes.com/swagger-code-generator-for-rest-apis/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/terraform.html</loc>
+         <loc>https://nubenetes.com/tekton/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/test-automation-frameworks.html</loc>
+         <loc>https://nubenetes.com/terraform/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/testops.html</loc>
+         <loc>https://nubenetes.com/test-automation-frameworks/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/visual-studio.html</loc>
+         <loc>https://nubenetes.com/testops/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/web-servers.html</loc>
+         <loc>https://nubenetes.com/uncategorized/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/web3.html</loc>
+         <loc>https://nubenetes.com/visual-studio/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/workfromhome.html</loc>
+         <loc>https://nubenetes.com/web-servers/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/xamarin.html</loc>
+         <loc>https://nubenetes.com/web3/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/yaml.html</loc>
+         <loc>https://nubenetes.com/workfromhome/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/videos/index.html</loc>
+         <loc>https://nubenetes.com/xamarin/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/v2/videos/ai-agents.html</loc>
-         <lastmod>2026-06-18</lastmod>
-    </url>
-    <url>
-         <loc>https://nubenetes.com/v2/videos/cloud-native.html</loc>
-         <lastmod>2026-06-18</lastmod>
-    </url>
-    <url>
-         <loc>https://nubenetes.com/v2/videos/devops-iac.html</loc>
-         <lastmod>2026-06-18</lastmod>
-    </url>
-    <url>
-         <loc>https://nubenetes.com/v2/videos/fundamentals.html</loc>
+         <loc>https://nubenetes.com/yaml/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
 </urlset>
