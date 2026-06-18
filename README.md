@@ -32,6 +32,7 @@
     *   [4.2. Hardened Architecture (2026)](#42-hardened-architecture-2026)
     *   [4.3. Adaptive AI Tiering and Real-time Grounding](#43-adaptive-ai-tiering-and-real-time-grounding)
     *   [4.4. Doc-as-Behavior Mandate Bridge](#44-doc-as-behavior-mandate-bridge)
+    *   [4.5. AI Operations Division of Labor (Local vs. Cloud)](#45-ai-operations-division-of-labor-local-vs-cloud)
 5.  [5. Dual-Edition Architecture (V1 vs V2)](#5-dual-edition-architecture-v1-vs-v2)
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
@@ -141,7 +142,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18647+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5984+** |
+| **Total Commits** | **5987+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -179,7 +180,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2425 | 10,015 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2428 | 10,027 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -195,8 +196,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 11000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10015]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2425]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10027]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2428]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -206,7 +207,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 299 | 1,234 | Active Curation |
+| 2026-06 | 302 | 1,247 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -335,6 +336,36 @@ To ensure maximum throughput and industrial-grade precision, Nubenetes uses a pr
 Nubenetes implements a direct bridge between documentation and AI behavior:
 - **Mandate Ingestion**: At the start of every workflow, the `MandateIngestor` parses the natural language instructions in [`GEMINI.md`](GEMINI.md).
 - **Dynamic Context**: These mandates are injected directly into the AI's system instructions, ensuring that the bot's reasoning is always aligned with the latest project policies without requiring manual code updates.
+
+### 4.5. AI Operations Division of Labor (Local vs. Cloud)
+
+Nubenetes partitions AI Agent tasks between the automated cloud pipeline and local developer environments to optimize resource usage and support interactive collaboration:
+
+<details>
+<summary><b>View Division of Labor Architecture Diagram & Technical Details (Click to expand!)</b></summary>
+
+```mermaid
+graph TD
+    A["awesome-kubernetes Repository"] --> B["GEMINI.md<br>(Curation & Data Mandates)"]
+    A --> C[".gemini/skills/awesome-kubernetes-ops/SKILL.md<br>(Local Dev Operations Guide)"]
+    
+    B --> D["Cloud Automation<br>(GitHub Actions runner)"]
+    B --> E["Local Workspace<br>(Antigravity Coding Session)"]
+    
+    C --> E
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+```
+
+#### Shared Curation & Data Policies (`GEMINI.md`)
+*   **Target**: Ephemeral CI/CD runners (GitHub Actions) and local coding assistants.
+*   **Purpose**: Dictates *what* the repository structure, link formatting, language metadata tagging, and minimum quality levels must look like.
+*   **Automation integration**: Ingested by the build scripts to programmatically construct system prompts for API LLM completions.
+
+#### Local Assistant Operations (`SKILL.md`)
+*   **Target**: Local pair-programming assistant (**Antigravity**).
+*   **Purpose**: Instructs the assistant on *how* to execute local developer commands, perform test compilations, resolve merge conflicts, and manage production git deployment lifecycles.
+*   **Automation integration**: Strictly local; ignored by cloud runners to keep pipelines lightweight.
+</details>
 
 ---
 
