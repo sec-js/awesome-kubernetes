@@ -11,10 +11,33 @@
   },
   "addition_method_tracking": {
     "field": "addition_method",
-    "values": ["manual", "automatic"],
+    "values": [
+      "manual",
+      "automatic"
+    ],
     "rules": {
       "manual": "Assigned to all pre-existing entries and any new entries discovered by the V2 Optimizer from V1 Markdown source files (assumed manually added).",
       "automatic": "Assigned to resources ingested automatically via curation workflows from X/Twitter, RSS, or GitHub trending."
+    }
+  },
+  "resolved_debates": {
+    "https://github.com/k3s-io/k3s": {
+      "url": "https://github.com/k3s-io/k3s",
+      "title": "K3s - Lightweight Kubernetes",
+      "initial_score": 75,
+      "final_consensus_score": 92,
+      "scores": {
+        "Security Architect": 90,
+        "Cloud Native SRE": 92,
+        "AI Platform Engineer": 94
+      },
+      "justifications": {
+        "Security Architect": "Strong security architecture, automated credential isolation, and supply-chain guarantees.",
+        "Cloud Native SRE": "Excellent operational metrics, clear liveness/readiness configuration, and proven recovery behavior.",
+        "AI Platform Engineer": "Highly relevant for 2026 cognitive architectures, supporting developer agility and LLM/agent integrations."
+      },
+      "rebuttals": [],
+      "timestamp": "2026-06-18T02:39:27.759124"
     }
   }
 }
