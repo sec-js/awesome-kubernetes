@@ -17,9 +17,6 @@
 1. [Architecture and Strategy](#architecture-and-strategy)
   - [Scalability Foundations](#scalability-foundations)
     - [System Design](#system-design)
-1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
-  - [Kubernetes FinOps](#kubernetes-finops)
-    - [Foundational Concepts](#foundational-concepts)
 1. [Infrastructure and Platform](#infrastructure-and-platform)
   - [Autoscaling](#autoscaling-1)
     - [Cluster Autoscaling](#cluster-autoscaling)
@@ -143,13 +140,6 @@
 #### System Design
 
   - **(2020)** [itnext.io: Stupid Simple Scalability](https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An easy-to-read conceptual architecture analysis outlining the pillars of horizontally scalable application design. Covers state decoupling, database indexing, and utilizing caching to guarantee high system availability.
-## FinOps and Cloud Cost
-
-### Kubernetes FinOps
-
-#### Foundational Concepts
-
-  - **(2022)** [replex.io: An Introduction to Kubernetes FinOps](https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.
 ## Infrastructure and Platform
 
 ### Autoscaling (1)
@@ -307,5 +297,5 @@
   - **(2023)** [symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers](https://symbiosis.host)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

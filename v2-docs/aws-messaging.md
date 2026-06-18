@@ -48,5 +48,5 @@
   - **(2022)** [dev.to: When to SNS or SQS](https://dev.to/aws-builders/when-to-sns-or-sqs-2aji) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical comparison of Amazon Simple Notification Service (SNS) and Simple Queue Service (SQS) within event-driven architectures. It details SNS's pub-sub push mechanism versus SQS's pull-based queueing model, analyzing throughput characteristics and decoupling strategies. This guide clarifies architectural patterns for integrating microservices via point-to-point and fan-out message routing.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 
