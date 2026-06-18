@@ -33,9 +33,6 @@
     - [Compliance Frameworks](#compliance-frameworks)
     - [Landing Zone Automation](#landing-zone-automation)
     - [Multi-Account Strategy](#multi-account-strategy)
-  - [Certification](#certification)
-    - [AWS](#aws-2)
-      - [Solutions Architect Professional](#solutions-architect-professional)
 1. [Cloud Engineering](#cloud-engineering)
   - [DevSecOps](#devsecops)
     - [Security](#security)
@@ -190,13 +187,6 @@
 
   - **(2024)** [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS framework defining multi-account best practices using AWS Organizations and AWS Control Tower. It outlines critical isolation patterns for security, billing, and operational autonomy. Architecturally, it serves as the foundation for modern enterprise landing zones, ensuring strict blast-radius limitation.
   - **(2024)** [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical analysis of the pitfalls and administrative hurdles encountered when migrating AWS accounts between Organizational Units (OUs) or organizations. It examines the operational impact on Service Control Policies (SCPs), resource shares, CloudFormation StackSets, and global integrations during transition phases.
-### Certification
-
-#### AWS (2)
-
-##### Solutions Architect Professional
-
-  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Cloud Engineering
 
 ### DevSecOps
@@ -291,5 +281,5 @@
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 
