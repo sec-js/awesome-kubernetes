@@ -87,5 +87,5 @@
   - **(2021)** [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses the cognitive load and operational hurdles associated with exposing raw Kubernetes interfaces directly to application developers. It analyzes the friction created by complex network topologies, YAML verbosity, and security policies, making the case for platform abstraction layers and custom developer portals.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
 
