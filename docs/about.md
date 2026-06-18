@@ -231,7 +231,7 @@ These are the core tools and frameworks that have been or are significant in my 
   </details>
 </details>
 
----
+----
 <center markdown="1">
 
 [![automated_ansible](images/automated_ansible.jpg)](https://probably.co.uk/posts/migrating-the-runbook-a-journey-from-legacy-to-devops)
