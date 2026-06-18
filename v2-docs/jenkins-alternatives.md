@@ -1,5 +1,8 @@
 # Jenkins Alternatives for Continuous Integration and Continuous Deployment
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/jenkins-alternatives/).
+
 !!! info "Architectural Context"
     Detailed reference for Jenkins Alternatives for Continuous Integration and Continuous Deployment in the context of Engineering Pipeline.
 

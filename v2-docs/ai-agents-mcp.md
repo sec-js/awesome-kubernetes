@@ -1,5 +1,8 @@
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/ai-agents-mcp/).
+
 !!! info "Architectural Context"
     Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.
 

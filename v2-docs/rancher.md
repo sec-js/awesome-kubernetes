@@ -1,5 +1,8 @@
 # SUSE Rancher
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/rancher/).
+
 !!! info "Architectural Context"
     Detailed reference for SUSE Rancher in the context of The Container Stack.
 

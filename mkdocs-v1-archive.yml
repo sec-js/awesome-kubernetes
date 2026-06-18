@@ -1,5 +1,5 @@
 site_name: Nubenetes
-site_url: https://nubenetes.com/
+site_url: https://nubenetes.com/v1/
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: nubenetes@gmail.com
 docs_dir: docs/
@@ -85,7 +85,7 @@ markdown_extensions:
   - abbr
   - def_list
 nav:
-  - "🚀 Try Nubenetes V2 (Elite Portal)": https://nubenetes.com/v2/
+  - "🚀 Try Nubenetes V2 (Elite Portal)": https://nubenetes.com/
   - Home: index.md
   - Intro:
     - Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes: introduction.md

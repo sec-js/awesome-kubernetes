@@ -37,38 +37,26 @@ jobs:
           pip install mkdocs-material mkdocs-redirects mkdocs-minify-plugin pymdown-extensions
           pip install -r requirements.txt
 
-      # 1. Build V1 to a temporary staging area
+      # 1. Build V1 to temporary staging area
       - name: Build V1 Edition (Staging)
-        run: mkdocs build -f mkdocs.yml -d site_v1_temp/
+        run: mkdocs build -f mkdocs.yml -d site_v1/
 
-      # 2. Deploy V1 to Root (SEO) and /v1/ (Fallback)
-      - name: Deploy V1 to Root and Subdirectory
+      # 2. Build V2 Elite Edition (Staging)
+      - name: Build V2 Elite Edition (Staging)
+        run: mkdocs build -f v2-mkdocs.yml -d site_v2/
+
+      # 3. Assemble Final Site (V2 at Root with V1 Fallback, V1 Archive at /v1/)
+      - name: Assemble Final Site
         run: |
+          mkdir -p site/
+          # Copy V1 to root as fallback for any pages not present in V2
+          cp -r site_v1/* site/
+          # Overwrite root with V2 Elite Portal (matching pages will be V2 versions)
+          cp -r site_v2/* site/
+          # Deploy full V1 Archive to subdirectory /v1/
           mkdir -p site/v1/
-          cp -r site_v1_temp/* site/
-          cp -r site_v1_temp/* site/v1/
-          rm -rf site_v1_temp/
-
-      # 3. Build V2 Elite Edition (/v2/)
-      - name: Build V2 Elite Edition
-        run: mkdocs build -f v2-mkdocs.yml -d site/v2/
-
-      # 4. Inject Root Redirect to V2 - Human visitors land on V2 by default
-      - name: Inject Root Redirect to V2
-        run: |
-          cat << 'EOF' > site/index.html
-          <!DOCTYPE html>
-          <html>
-            <head>
-              <meta charset="utf-8">
-              <title>Nubenetes Redirect</title>
-              <meta http-equiv="refresh" content="0; url=/v2/">
-            </head>
-            <body>
-              <p>Redirecting to the V2 Elite Portal. <a href="/v2/">Click here</a>.</p>
-            </body>
-          </html>
-          EOF
+          cp -r site_v1/* site/v1/
+          rm -rf site_v1/ site_v2/
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

@@ -1,5 +1,8 @@
 # APIs with SOAP, REST and gRPC
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/api/).
+
 !!! info "Architectural Context"
     Detailed reference for APIs with SOAP, REST and gRPC in the context of Developer Ecosystem.
 

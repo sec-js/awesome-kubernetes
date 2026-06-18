@@ -1,5 +1,8 @@
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/message-queue/).
+
 !!! info "Architectural Context"
     Detailed reference for Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub in the context of Data & Advanced Analytics.
 

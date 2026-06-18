@@ -897,6 +897,8 @@ class V2VisionEngine:
 
         index_md = (
             "# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
+            "!!! tip \"Nubenetes V2 Elite Portal: AI-Curated & High-Density\"\n"
+            "    You are browsing the AI-Curated V2 Elite Edition of Nubenetes. Looking for the complete historical archive? Explore the [**V1 Historical Archive**](/v1/).\n\n"
             "<center markdown=\"1\">\n"
             "<div class=\"hero-showcase-wrapper\">\n"
             "  <a href=\"https://www.cncf.io/certification/software-conformance\" class=\"hero-showcase-link\">\n"
@@ -919,28 +921,28 @@ class V2VisionEngine:
             "<div style=\"display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;\">\n"
             "  <a href=\"./kubernetes/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--cyan\">\n"
-            "      <img src=\"/v2/images/kubernetes_logo.png\" alt=\"Kubernetes\"/>\n"
+            "      <img src=\"/images/kubernetes_logo.png\" alt=\"Kubernetes\"/>\n"
             "      <div class=\"hero-badge-title\">Ecosystem Core</div>\n"
             "      <div class=\"hero-badge-subtitle\">Explore Kubernetes</div>\n"
             "    </div>\n"
             "  </a>\n"
             "  <a href=\"./ai-agents-mcp/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--purple\">\n"
-            "      <img src=\"/v2/images/ai_agents_logo.png\" alt=\"AI & MCP Agents\"/>\n"
+            "      <img src=\"/images/ai_agents_logo.png\" alt=\"AI & MCP Agents\"/>\n"
             "      <div class=\"hero-badge-title\">AI & MCP Agents</div>\n"
             "      <div class=\"hero-badge-subtitle\">Agentic Ecosystem</div>\n"
             "    </div>\n"
             "  </a>\n"
             "  <a href=\"./videos/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--pink\">\n"
-            "      <img src=\"/v2/images/video_hub_logo.png\" alt=\"Agentic Video Hub\"/>\n"
+            "      <img src=\"/images/video_hub_logo.png\" alt=\"Agentic Video Hub\"/>\n"
             "      <div class=\"hero-badge-title\">Agentic Video Hub</div>\n"
             "      <div class=\"hero-badge-subtitle\">Architect Video Library</div>\n"
             "    </div>\n"
             "  </a>\n"
             "  <a href=\"./introduction/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--teal\">\n"
-            "      <img src=\"/v2/images/hero-car.png\" alt=\"Nubenetes Car\"/>\n"
+            "      <img src=\"/images/hero-car.png\" alt=\"Nubenetes Car\"/>\n"
             "      <div class=\"hero-badge-title\">Get Started</div>\n"
             "      <div class=\"hero-badge-subtitle\">Introduction Guide</div>\n"
             "    </div>\n"
@@ -1036,7 +1038,15 @@ class V2VisionEngine:
 
         for f_name, info in data.items():
             used_headers = {info['long_title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
-            md = f"# {info['long_title']}\n\n!!! info \"Architectural Context\"\n    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
+            # Formulate V1 counterpart link dynamically
+            v1_link = f"/v1/{f_name.replace('.md', '/')}"
+            md = (
+                f"# {info['long_title']}\n\n"
+                f"!!! tip \"Nubenetes V2 Elite Portal\"\n"
+                f"    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**]({v1_link}).\n\n"
+                f"!!! info \"Architectural Context\"\n"
+                f"    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
+            )
             
             # Generate Table of Contents (TOC)
             exempt_files = self.link_rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
@@ -1199,7 +1209,13 @@ class V2VisionEngine:
         custom_tags = sorted([t for t in by_tag.keys() if t not in standard_order])
         sorted_tags.extend(custom_tags)
 
-        md = "# Technical Tags Index\n\n!!! info \"Universal Tag Index\"\n    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
+        md = (
+            "# Technical Tags Index\n\n"
+            "!!! tip \"Nubenetes V2 Elite Portal\"\n"
+            "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).\n\n"
+            "!!! info \"Universal Tag Index\"\n"
+            "    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
+        )
         
         # Build TOC
         toc_lines = []

@@ -1,5 +1,8 @@
 # Helm Kubernetes Tool
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/helm/).
+
 !!! info "Architectural Context"
     Detailed reference for Helm Kubernetes Tool in the context of Architectural Foundations.
 

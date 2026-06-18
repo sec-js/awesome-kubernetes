@@ -1,5 +1,8 @@
 # Performance testing with jenkins and JMeter or Gatling
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/performance-testing-with-jenkins-and-jmeter/).
+
 !!! info "Architectural Context"
     Detailed reference for Performance testing with jenkins and JMeter or Gatling in the context of Platform & Site Reliability.
 
