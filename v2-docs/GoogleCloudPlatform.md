@@ -141,7 +141,7 @@
 
 #### Command-Line Tools
 
-  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7881b53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f7881b53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
+  - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7881b53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f7881b53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## AI Engineering
 
 ### Agentic Frameworks
@@ -319,7 +319,7 @@
 
 #### Product Catalog (1)
 
-  - **(2026)** [**googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet**](https://cloud.google.com/products) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Google's official product portal mapping its enterprise suite of cloud computing, data analytics, and machine learning services. Serves as a primary reference for system architects evaluating Google's managed offerings, providing documentation and pathing for product integration.
+  - **(2026)** [**googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet**](https://cloud.google.com/products) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google's official product portal mapping its enterprise suite of cloud computing, data analytics, and machine learning services. Serves as a primary reference for system architects evaluating Google's managed offerings, providing documentation and pathing for product integration.
 ### Google Kubernetes Engine GKE
 
 #### GKE Core
@@ -412,7 +412,7 @@
   - **(2019)** [Everything You Want To Know About Anthos - Google's Hybrid And Multi-Cloud Platform](https://www.forbes.com/sites/janakirammsv/2019/04/14/everything-you-want-to-know-about-anthos-googles-hybrid-and-multi-cloud-platform)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic market review analyzing Google’s motivations behind launching Anthos. Describes how Anthos decouples Kubernetes management from specific underlying cloud fabrics to standardize operations, deployment, and service meshes across disparate architectures.
 #### Windows Containers
 
-  - **(2020)** [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores Anthos’ platform integration of Windows Server containers. Outlines the technical processes of running, orchestrating, and scaling legacy Microsoft .NET and IIS-based web workloads alongside modern Linux microservices in hybrid GKE clusters.
+  - **(2020)** [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores Anthos’ platform integration of Windows Server containers. Outlines the technical processes of running, orchestrating, and scaling legacy Microsoft .NET and IIS-based web workloads alongside modern Linux microservices in hybrid GKE clusters.
 ## Networking and Security
 
 ### Content Delivery
@@ -472,5 +472,5 @@
   - **(2026)** [github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform) <span class='md-tag md-tag--warning'>[MULTI CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The master landing organization for Google Cloud Platform's open-source projects, APIs, and CLI utilities. Holds structural frameworks, SDKs, and enterprise infrastructure design tools.
 
 ---
-💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Azure](./azure.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md) | [Azure](./azure.md)
 

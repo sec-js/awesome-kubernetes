@@ -71,6 +71,9 @@
   - [Networking Protocols](#networking-protocols)
     - [Local Development Environments](#local-development-environments)
     - [Transport Layer Security](#transport-layer-security)
+1. [Networking](#networking)
+  - [Service Mesh](#service-mesh)
+    - [eBPF vs Proxy](#ebpf-vs-proxy)
 1. [Platform Engineering](#platform-engineering)
   - [Developer Portal](#developer-portal)
     - [Internal Developer Platforms](#internal-developer-platforms)
@@ -79,6 +82,8 @@
 1. [Software Engineering](#software-engineering)
   - [AI-Assisted Development](#ai-assisted-development)
     - [GitHub Copilot](#github-copilot)
+  - [Collaboration](#collaboration)
+    - [Documentation Specifications](#documentation-specifications)
   - [Programming Paradigms](#programming-paradigms)
     - [Functional Programming](#functional-programming)
 
@@ -141,7 +146,7 @@
   - **(2026)** [Google Apigee API Manager](https://cloud.google.com/apigee) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's premier enterprise API management platform designed to build, secure, and monitor APIs globally. Provides integrated developer portals, advanced machine learning-driven threat detection, and seamless serverless hosting layers.
 #### Enterprise Platforms
 
-  - **(2026)** [**MuleSoft API Manager**](https://www.mulesoft.com/platform/api/manager) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — MuleSoft API Manager acts as a centralized control plane for securing, governing, and analyzing APIs across the enterprise. It enables deep integration with the Anypoint Platform, offering capabilities like policy enforcement, SLA contracts, and traffic routing to coordinate complex integration topologies.
+  - **(2026)** [**MuleSoft API Manager**](https://www.mulesoft.com/platform/api/manager) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — MuleSoft API Manager acts as a centralized control plane for securing, governing, and analyzing APIs across the enterprise. It enables deep integration with the Anypoint Platform, offering capabilities like policy enforcement, SLA contracts, and traffic routing to coordinate complex integration topologies.
   - **(2026)** [Axway API Management @Youtube](https://www.youtube.com/channel/UCsRNLDnXvgtz6qsleSlVcqQ) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Axway API Management provides enterprise-grade lifecycle management, security, and governance for APIs across multi-cloud environments. Their official video channel serves as an educational repository detailing gateway integration, policy configuration, and hybrid deployment architectures.
   - **(2026)** [MuleSoft @Youtube](https://www.youtube.com/user/mulesoftvids) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official YouTube channel containing technical deep dives, system integration tutorials, and architectural best practices for the MuleSoft Anypoint Platform. It covers API-led connectivity, microservices orchestration, and complex enterprise integration patterns (EIPs).
 #### Gateway Engines
@@ -224,7 +229,7 @@
   - **(2026)** [auto-api.dev](https://auto-api.dev) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical portal representing High Mobility's Auto API initiatives. It outlines structured vehicle telemetry standards and standardized JSON payloads to bridge the gap between automotive hardware and cloud-native application developers.
 #### Connected Vehicle API
 
-  - **(2026)** [**smartcar.com**](https://smartcar.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Smartcar provides a developer-friendly API platform for connected vehicles, enabling telemetry collection, remote door locking, and EV battery charging management. It abstracts away complex proprietary OBD protocols into a standard RESTful developer portal.
+  - **(2026)** [**smartcar.com**](https://smartcar.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Smartcar provides a developer-friendly API platform for connected vehicles, enabling telemetry collection, remote door locking, and EV battery charging management. It abstracts away complex proprietary OBD protocols into a standard RESTful developer portal.
   - **(2026)** [Smartcar API for BMW](https://smartcar.com/brand/bmw) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized portal demonstrating the application of the Smartcar API to integrate directly with BMW connected vehicles. It details configuration patterns, authorization flows, and supported telemetry fields specific to BMW models.
 #### Open Source Labs
 
@@ -249,9 +254,9 @@
     | [TSB API Developer Portal](https://apis.developer.tsb.co.uk) |  | Banking Gateways | English | 🌟🌟🌟 |
     | [Cecabank API Market](https://apimarket.cecabank.es) |  | Banking Gateways | Spanish | 🌟🌟🌟 |
 
-  - **(2026)** [**BBVA API Market**](https://www.bbvaapimarket.com/es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — BBVA's commercial API platform, allowing external developers to securely consume core banking capabilities. It features REST integrations for payments, transactions, customer identification, and financial data insights within a PSD2-compliant workspace.
-  - **(2026)** [**Deutsche Bank API Program**](https://developer.db.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The developer portal for Deutsche Bank, providing secure and standard access to financial APIs. It supports secure OAuth2 protocols, enabling applications to run transaction processing, accounts reconciliation, and credit evaluations.
-  - **(2026)** [**ING Developer Portal**](https://developer.ing.com/openbanking) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — ING's open-banking marketplace and developer portal. The catalog details APIs for cash management, transaction services, accounts balance, and PSD2 compliance, backed by strong authentication and sandbox simulation tools.
+  - **(2026)** [**BBVA API Market**](https://www.bbvaapimarket.com/es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — BBVA's commercial API platform, allowing external developers to securely consume core banking capabilities. It features REST integrations for payments, transactions, customer identification, and financial data insights within a PSD2-compliant workspace.
+  - **(2026)** [**Deutsche Bank API Program**](https://developer.db.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The developer portal for Deutsche Bank, providing secure and standard access to financial APIs. It supports secure OAuth2 protocols, enabling applications to run transaction processing, accounts reconciliation, and credit evaluations.
+  - **(2026)** [**ING Developer Portal**](https://developer.ing.com/openbanking) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — ING's open-banking marketplace and developer portal. The catalog details APIs for cash management, transaction services, accounts balance, and PSD2 compliance, backed by strong authentication and sandbox simulation tools.
   - **(2026)** [TSB API Developer Portal](https://apis.developer.tsb.co.uk) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A PSD2-compliant developer ecosystem facilitating open-banking integration with TSB Bank. It offers sandbox environments, sandbox mock data, and security protocols to test account information and payment initiation APIs.
   - **(2026)** [Cecabank API Market](https://apimarket.cecabank.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cecabank's developer platform designed to align financial integration with the PSD2 mandate. It provides endpoints for third-party providers (TPPs) to execute payment initiations and retrieve consolidated account balance statements.
 #### Insurtech
@@ -288,7 +293,7 @@
 #### Go Engines
 
   - **(2026)** [==KrakenD: The fastest API gateway comes with true linear scalability 🌟==](https://www.krakend.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KrakenD is an enterprise-ready, open-source API Gateway engineered for linear scalability and ultra-high performance. By utilizing a stateless execution model, it avoids the overhead of internal database lookups, delivering sub-millisecond routing, data transformation, and endpoint aggregation.
-  - **(2026)** [**Lura 🌟**](https://luraproject.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Lura (formerly KrakenD framework) is an ultra-performant, stateless API Gateway engine written in Go. It allows developers to construct high-throughput microservice aggregations, protocol translations, and response manipulations using declarative configurations with zero state.
+  - **(2026)** [**Lura 🌟**](https://luraproject.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Lura (formerly KrakenD framework) is an ultra-performant, stateless API Gateway engine written in Go. It allows developers to construct high-throughput microservice aggregations, protocol translations, and response manipulations using declarative configurations with zero state.
 #### Industry News
 
   - **(2021)** [thenewstack.io - APISIX: An Open Source API Gateway for Microservices](https://thenewstack.io/apisix-an-open-source-api-gateway-for-microservices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An editorial piece analyzing the microservices-centric architectural benefits of Apache APISIX. The article highlights its pluggable architecture, dynamic configuration sync via etcd, and its comparative advantages in speed and extensibility against traditional Java or Go gateways.
@@ -308,6 +313,13 @@
 #### Transport Layer Security
 
   - **(2020)** [howhttps.works](https://howhttps.works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, visual educational resource designed to unpack the complex mechanics of the HTTPS protocol, TLS handshakes, and public key cryptography. Highly useful for onboarding developers to understand transport-layer security and key-exchange negotiations in web systems.
+## Networking
+
+### Service Mesh
+
+#### eBPF vs Proxy
+
+  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
 ## Platform Engineering
 
 ### Developer Portal
@@ -329,6 +341,11 @@
 #### GitHub Copilot
 
   - **(2026)** [Best Practices for Using GitHub Copilot](https://docs.github.com/en/copilot/get-started/best-practices) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Authoritative guidelines from GitHub designed to optimize interaction with Copilot. Covers prompt engineering tactics (such as context-setting files and comments), managing AI security and license compliance, and verifying generated output.
+### Collaboration
+
+#### Documentation Specifications
+
+  - **(2023)** [Open Source Friday: Spec Kit - What it is, the problems it solves, and how clear specs make collaboration work](https://www.youtube.com/live/2IArMAhkJcE?si=_LlIjakRXHUzERjy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on 'Spec Kit' - an open framework designed to facilitate collaborative creation of technical specifications. Details how clear, shared specification templates improve open-source contributions, bridge communication gaps between product and engineering, and keep technical debt in check.
 ### Programming Paradigms
 
 #### Functional Programming
@@ -336,5 +353,5 @@
   - **(2023)** [github.com/readme/guides: Functional Programming 101](https://github.com/readme/guides/functional-programming-basics) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide exploring core tenets of the functional programming paradigm, such as immutability, pure functions, and referential transparency. Synthesizes practical benefits of adopting these concepts in modern application development to minimize side effects, simplify testing, and boost concurrent performance.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Chaos Engineering](./chaos-engineering.md)
 

@@ -85,7 +85,7 @@
 
 #### Self-Hosted
 
-  - **(2018)** [==github: Steps I used to install Nagios in the cloud==](https://github.com/andrewpuch/nagios_setup) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical walkthrough illustrating legacy installations of the Nagios monitoring framework inside static virtual instances. Outlines core process definitions, alerting rules, and manual configuration management.
+  - **(2018)** [==github: Steps I used to install Nagios in the cloud==](https://github.com/andrewpuch/nagios_setup) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical walkthrough illustrating legacy installations of the Nagios monitoring framework inside static virtual instances. Outlines core process definitions, alerting rules, and manual configuration management.
 ### Managed Services
 
 #### Announcements
@@ -115,5 +115,5 @@
   - **(2022)** [Custom Health Check: HealthCheckCustomConfig](https://docs.aws.amazon.com/cloud-map/latest/api/API_HealthCheckCustomConfig.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide for Cloud Map API's custom health checks. Explains dynamic service discovery patterns for serverless workloads where traditional load balancer health checks are inapplicable.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

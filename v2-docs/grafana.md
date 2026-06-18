@@ -5,10 +5,6 @@
 
 ## Table of Contents
 
-1. [Cloud Architecture](#cloud-architecture)
-  - [Certification](#certification)
-    - [AWS](#aws)
-      - [Solutions Architect Professional](#solutions-architect-professional)
 1. [Infrastructure as Code](#infrastructure-as-code)
   - [Package Archives](#package-archives)
     - [Visualization](#visualization)
@@ -90,22 +86,13 @@
   - [User Experience Monitoring](#user-experience-monitoring)
     - [Frontend Observability](#frontend-observability)
 
-## Cloud Architecture
-
-### Certification
-
-#### AWS
-
-##### Solutions Architect Professional
-
-  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ## Infrastructure as Code
 
 ### Package Archives
 
 #### Visualization
 
-  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
+  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
 ## Kubernetes and Cloud Native
 
 ### CICD
@@ -163,7 +150,7 @@
 
 #### JVM Monitoring
 
-  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
+  - **(2024)** [==Prometheus JMX Exporter 🌟==](https://github.com/prometheus/jmx_exporter) <span class='md-tag md-tag--info'>⭐ 3306</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e373ce5a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 9 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-e373ce5a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A highly critical Prometheus collector that scrapes and formats JVM JMX mBeans. Widely utilized in enterprise legacy clusters running Java applications, Kafka, and Cassandra.
 ### Telemetry
 
 #### eBPF Application Monitoring
@@ -251,7 +238,7 @@
 
 #### Telemetry Agents
 
-  - **(2024)** [==grafana/agent: Grafana Agent==](https://github.com/grafana/agent) <span class='md-tag md-tag--info'>⭐ 1709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dcd09096" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 5 L 30 2 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-dcd09096)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An agent for metrics, logs, and trace collection. Live grounding confirms Grafana Agent is now deprecated and succeeded by Grafana Alloy, the vendor's unified telemetry collector for OpenTelemetry and Prometheus.
+  - **(2024)** [==grafana/agent: Grafana Agent==](https://github.com/grafana/agent) <span class='md-tag md-tag--info'>⭐ 1709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dcd09096" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 5 L 30 2 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-dcd09096)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An agent for metrics, logs, and trace collection. Live grounding confirms Grafana Agent is now deprecated and succeeded by Grafana Alloy, the vendor's unified telemetry collector for OpenTelemetry and Prometheus.
 ### Grafana Ecosystem
 
 #### AIOps and AI Observability
@@ -268,7 +255,7 @@
 
   - **(2022)** [==github.com/onzack/grafana-dashboards==](https://github.com/onzack/grafana-dashboards) <span class='md-tag md-tag--info'>⭐ 145</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-833788aa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 12 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-833788aa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Collection of bespoke dashboards for infrastructure monitoring. Covers edge network routers, Ceph clusters, and hardware diagnostics via Prometheus exporters.
   - **(2021)** [==github.com/DevOps-Nirvana/Grafana-Dashboards==](https://github.com/DevOps-Nirvana/Grafana-Dashboards) <span class='md-tag md-tag--info'>⭐ 314</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b1d29198" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 6 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-b1d29198)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community-maintained dashboard library specialized for common DevOps infrastructure. Includes optimization configurations for Nginx, PHP-FPM, MySQL, Redis, and Linux host monitoring.
-  - **(2020)** [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived repository containing early Grafana dashboard iterations. Shows fundamental layout compositions for visualizing container workloads, though highly outdated compared to current standards.
+  - **(2020)** [github.com/mlabouardy: Grafana Dashboards](https://github.com/mlabouardy/grafana-dashboards) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Archived repository containing early Grafana dashboard iterations. Shows fundamental layout compositions for visualizing container workloads, though highly outdated compared to current standards.
 #### Dashboard-as-Code
 
   - **(2021)** [prskavec.net: Grafana dashboards and Jsonnet](https://www.prskavec.net/post/grafana-jsonnet) <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to programmatic dashboard development utilizing Jsonnet. Explores Dashboard-as-Code (DaC) practices to manage, version, and scale large volumes of dashboard definitions in production.
@@ -328,5 +315,5 @@
   - **(2023)** [==Grafana Faro 🌟==](https://grafana.com/oss/faro) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduction to Grafana Faro, an open-source web SDK designed for Frontend Application Observability. Collects real-time core web vitals, user logs, console errors, and session metrics.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

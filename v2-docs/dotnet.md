@@ -22,6 +22,7 @@
     - [General Reference](#general-reference)
 1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
   - [Container Orchestration](#container-orchestration)
+    - [Helm and Packaging](#helm-and-packaging)
     - [Kubernetes](#kubernetes)
 1. [Software Architecture and .NET Development](#software-architecture-and-net-development)
   - [Application Diagnostics](#application-diagnostics)
@@ -51,7 +52,7 @@
   - **(2024)** [==docs.microsoft.com: .NET Microservices: Architecture for Containerized .NET Applications==](https://learn.microsoft.com/en-us/dotnet/architecture/microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The definitive architectural design guide for planning and building containerized .NET microservices. Focuses on Domain-Driven Design (DDD) principles, CQRS patterns, Outbox event delivery, and deployment best practices inside Docker environments.
 #### Blazor and Static Web Apps
 
-  - **(2022)** [**techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps**](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Outlines deploying full-stack Blazor WebAssembly client applications with Azure Static Web Apps. Details integrated serverless API hosting using Azure Functions, explaining how this architecture reduces hosting costs compared to traditional VM models.
+  - **(2022)** [**techcommunity.microsoft.com: Full-stack .NET 6 Apps with Blazor WebAssembly and Azure Static Web Apps**](https://techcommunity.microsoft.com/blog/appsonazureblog/full-stack-net-6-apps-with-blazor-webassembly-and-azure-static-web-apps/2933428) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines deploying full-stack Blazor WebAssembly client applications with Azure Static Web Apps. Details integrated serverless API hosting using Azure Functions, explaining how this architecture reduces hosting costs compared to traditional VM models.
 #### Core Architecture
 
   - **(2026)** [==wikipedia.org: .NET==](https://en.wikipedia.org/wiki/.NET) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-level reference outlining the modern cross-platform, open-source .NET framework. Explores how its high-performance runtime (CLR), optimized garbage collection, and fast JIT compiler make it suitable for modern container deployments.
@@ -63,16 +64,16 @@
   - **(2022)** [==itnext.io: How to Build an Event-Driven ASP.NET Core Microservice Architecture==](https://itnext.io/how-to-build-an-event-driven-asp-net-core-microservice-architecture-e0ef2976f33f) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to construct an event-driven ASP.NET Core microservices network using message brokers like RabbitMQ or Apache Kafka. Integrates clean architecture practices, transactional Outbox patterns, and retry strategies to ensure reliable messaging.
 #### Microservices Design
 
-  - **(2021)** [**telerik.com: Your First Microservice in .NET 6**](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A hands-on guide to building a microservice using ASP.NET Core 6 Minimal APIs. Demonstrates how to write lightweight, highly optimized web APIs with minimal boilerplate code, perfect for deployment within containerized clusters.
+  - **(2021)** [**telerik.com: Your First Microservice in .NET 6**](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A hands-on guide to building a microservice using ASP.NET Core 6 Minimal APIs. Demonstrates how to write lightweight, highly optimized web APIs with minimal boilerplate code, perfect for deployment within containerized clusters.
 #### OpenShift Containers
 
-  - **(2021)** [**developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift**](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Details three distinct strategies to containerize and run .NET applications on Red Hat OpenShift. Evaluates the benefits of Dockerfile builds, Source-to-Image (S2I) pipelines, and deployment templates for enterprise scalability.
+  - **(2021)** [**developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift**](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details three distinct strategies to containerize and run .NET applications on Red Hat OpenShift. Evaluates the benefits of Dockerfile builds, Source-to-Image (S2I) pipelines, and deployment templates for enterprise scalability.
 #### RHEL Support
 
-  - **(2021)** [**developers.redhat.com: .NET 6 now available for RHEL and OpenShift**](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Announces native Red Hat Enterprise Linux (RHEL) and OpenShift support for .NET 6. Focuses on pre-configured, secure container base images and integration setups that simplify enterprise deployments.
+  - **(2021)** [**developers.redhat.com: .NET 6 now available for RHEL and OpenShift**](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces native Red Hat Enterprise Linux (RHEL) and OpenShift support for .NET 6. Focuses on pre-configured, secure container base images and integration setups that simplify enterprise deployments.
 #### gRPC Communication
 
-  - **(2021)** [**blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC**](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Presents a technical guide on configuring high-performance gRPC services using ASP.NET Core. Details protobuf schema creation, client generation, and HTTP/2 connection pooling to achieve ultra-low latency between microservices.
+  - **(2021)** [**blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC**](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a technical guide on configuring high-performance gRPC services using ASP.NET Core. Details protobuf schema creation, client generation, and HTTP/2 connection pooling to achieve ultra-low latency between microservices.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -86,9 +87,12 @@
 
 ### Container Orchestration
 
+#### Helm and Packaging
+
+  - **(2022)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive deep-dive tutorial series on orchestrating .NET applications inside Kubernetes using Helm. Analyzes templating, YAML manifests, dependency injections, dynamic secret handling, and values customization patterns.
 #### Kubernetes
 
-  - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
+  - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
 ## Software Architecture and .NET Development
 
 ### Application Diagnostics
@@ -121,7 +125,7 @@
 #### NuGet Specification
 
   - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8c02da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 10 L 30 13 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-bf8c02da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
-  - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
+  - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
 #### Publishing Workflows
 
   - **(2023)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A concise, developer-centric guide mapping the CLI workflows required to construct and publish NuGet packages. Explores packing commands, validation, local server configuration, target registry configuration, and security practices for handling API keys.
@@ -133,5 +137,5 @@
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

@@ -27,9 +27,6 @@
 1. [CICD Pipelines](#cicd-pipelines)
   - [Build Speed](#build-speed)
     - [Docker Buildx](#docker-buildx)
-1. [Cloud Computing](#cloud-computing)
-  - [Training](#training)
-    - [Multi-Cloud Education](#multi-cloud-education)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [AWS](#aws)
     - [ECS Integration](#ecs-integration)
@@ -230,9 +227,6 @@
     - [Automation](#automation-1)
   - [Windows Containers](#windows-containers)
     - [PKI](#pki)
-1. [Software Engineering Practices](#software-engineering-practices)
-  - [Containerized Workflows](#containerized-workflows)
-    - [Cookbooks](#cookbooks)
 1. [Testing](#testing)
   - [Integration Testing](#integration-testing)
     - [Infrastructure as Code](#infrastructure-as-code)
@@ -243,7 +237,7 @@
 
 #### GitHub Actions
 
-  - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5304</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bdf56c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-bdf56c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The industry standard GitHub Action for building and pushing container images. Supports Docker Buildx, multi-platform builds, cache importing/exporting configurations, and native OCI-compliant registry deployments.
+  - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5304</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bdf56c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-bdf56c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The industry standard GitHub Action for building and pushing container images. Supports Docker Buildx, multi-platform builds, cache importing/exporting configurations, and native OCI-compliant registry deployments.
 ## Application Architecture
 
 ### Microservices
@@ -366,20 +360,13 @@
 #### Docker Buildx
 
   - **(2021)** [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines how to optimize CI/CD pipeline build performance by scaling compilation workloads using the Docker Buildx Kubernetes driver. Demonstrates how offloading build tasks to Kubernetes clusters yields massive cache reuse and parallelization gains.
-## Cloud Computing
-
-### Training
-
-#### Multi-Cloud Education
-
-  - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
 
 ### AWS
 
 #### ECS Integration
 
-  - **(2020)** [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — This article highlights the historical collaboration between Docker and AWS to integrate ECS and Fargate deployments directly into the Docker CLI via ECS integration plugins. While the native CLI integration has been largely deprecated or archived in favor of AWS Copilot or direct Terraform/CDK provisioning, it serves as a crucial evolutionary link in cloud-native developer workflows, illustrating the trend toward unifying local compose specs with cloud orchestration APIs.
+  - **(2020)** [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This article highlights the historical collaboration between Docker and AWS to integrate ECS and Fargate deployments directly into the Docker CLI via ECS integration plugins. While the native CLI integration has been largely deprecated or archived in favor of AWS Copilot or direct Terraform/CDK provisioning, it serves as a crucial evolutionary link in cloud-native developer workflows, illustrating the trend toward unifying local compose specs with cloud orchestration APIs.
 ## Cloud Orchestration
 
 ### Multi-Cloud Deployments
@@ -393,7 +380,7 @@
 
 #### Insecure Registries
 
-  - **(2024)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Historical reference from the retired Docker documentation archive illustrating how to configure the Docker daemon to handshake with unencrypted registries. It provides flags and config file options required to bypass default TLS validation checks for local testing. In modern secure container platform patterns, this practice is deprecated and replaced by end-to-end TLS.
+  - **(2024)** [Test an insecure registry 🌟](https://docs.docker.com/retired) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historical reference from the retired Docker documentation archive illustrating how to configure the Docker daemon to handshake with unencrypted registries. It provides flags and config file options required to bypass default TLS validation checks for local testing. In modern secure container platform patterns, this practice is deprecated and replaced by end-to-end TLS.
 ## Container Runtime
 
 ### Core Infrastructure
@@ -407,7 +394,7 @@
 
 #### Container Runtimes
 
-  - **(2021)** [**iximiuz.com: Containers 101: attach vs. exec - what's the difference?**](https://labs.iximiuz.com/tutorials/docker-run-vs-attach-vs-exec) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight breaks down fundamental OCI execution flags. Live Grounding highlights the difference between attaching to a main container process (TTY/STDIN sharing) and starting an independent debug process via exec. Essential reading for system level container operations.
+  - **(2021)** [**iximiuz.com: Containers 101: attach vs. exec - what's the difference?**](https://labs.iximiuz.com/tutorials/docker-run-vs-attach-vs-exec) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight breaks down fundamental OCI execution flags. Live Grounding highlights the difference between attaching to a main container process (TTY/STDIN sharing) and starting an independent debug process via exec. Essential reading for system level container operations.
 ## Containers
 
 ### Architectural Patterns
@@ -576,22 +563,22 @@
 
 #### Docker BuildKit
 
-  - **(2026)** [==buildkit==](https://docs.docker.com/build) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Docker's next-generation container image building engine, designed to replace the legacy builder. It introduces high-performance features including concurrent stage execution, efficient caching via import/export, and secret-mounting without leaving traces in image history.
+  - **(2026)** [==buildkit==](https://docs.docker.com/build) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Docker's next-generation container image building engine, designed to replace the legacy builder. It introduces high-performance features including concurrent stage execution, efficient caching via import/export, and secret-mounting without leaving traces in image history.
 ### Container Engines
 
 #### Alternatives
 
-  - **(2020)** [**martinheinz.dev: It's Time to Forget About Docker 🌟**](https://martinheinz.dev/blog/35) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Critically examines the OCI (Open Container Initiative) layer architecture to dismantle the assumption that the Docker daemon is required for packaging applications. Promotes alternative tooling such as Podman, Buildah, and Skopeo to improve daemonless security and run containers without root privileges.
+  - **(2020)** [**martinheinz.dev: It's Time to Forget About Docker 🌟**](https://martinheinz.dev/blog/35) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Critically examines the OCI (Open Container Initiative) layer architecture to dismantle the assumption that the Docker daemon is required for packaging applications. Promotes alternative tooling such as Podman, Buildah, and Skopeo to improve daemonless security and run containers without root privileges.
 ### Docker (1)
 
 #### Foundations (1)
 
-  - **(2021)** [**docker-curriculum.com: A Docker Tutorial for Beginners 🌟**](https://docker-curriculum.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly-rated, beginner-friendly curriculum for learning Docker. Walks through packaging local code, managing multi-container systems, and basic deployment models.
+  - **(2021)** [**docker-curriculum.com: A Docker Tutorial for Beginners 🌟**](https://docker-curriculum.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly-rated, beginner-friendly curriculum for learning Docker. Walks through packaging local code, managing multi-container systems, and basic deployment models.
   - **(2021)** [dev.to: Docker 101!](https://dev.to/kubona_my/docker-101-124e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational Docker handbook covering basic file layers, host virtualization concepts, and essential container management CLI commands.
   - **(2021)** [dev.to: Beginner's guide to Docker and Docker CLI commands](https://dev.to/paru429/beginner-s-guide-to-docker-and-docker-cli-commands-1p75)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An onboarding reference cheatsheet detailing basic commands for the Docker CLI. Explores standard image, volume, networking, and container life cycle operations.
 #### Industry Trends
 
-  - **(2020)** [**docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 2 🌟**](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A historical retrospect highlighting the community's primary pain points and engineering triumphs in 2020. Synthesizes trends around build performance, local developer environments, and architectural updates within the container ecosystem.
+  - **(2020)** [**docker.com: Year in Review: The Most Viewed Docker Blog Posts of 2020 Part 2 🌟**](https://www.docker.com/blog/year-in-review-the-most-viewed-docker-blog-posts-of-2020-part-2) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A historical retrospect highlighting the community's primary pain points and engineering triumphs in 2020. Synthesizes trends around build performance, local developer environments, and architectural updates within the container ecosystem.
   - **(2021)** [infoworld.com: How Docker broke in half](https://www.infoworld.com/article/2269272/how-docker-broke-in-half.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical retrospect on Docker's structural split, detailing the corporate spinoff of its Enterprise segment to Mirantis. Evaluates how this change impacted core open-source container runtimes.
   - **(2021)** [infoworld.com: Docker really did change the world](https://www.infoworld.com/article/2270814/docker-really-did-change-the-world.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Assesses how Docker fundamentally transformed the software engineering landscape. Traces its history from a single developer tool to the foundation of the cloud-native ecosystem and Kubernetes orchestration.
 #### Introduction
@@ -612,7 +599,7 @@
 
 #### Networking (1)
 
-  - **(2021)** [**iximiuz.com: What Actually Happens When You Publish a Container Port 🌟**](https://iximiuz.com/en/posts/docker-publish-container-ports) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An elite architectural exploration of how published ports route traffic. Explains packet pathways from the host NIC through iptables, DNAT rules, virtual interfaces, and down to the application's listen sockets.
+  - **(2021)** [**iximiuz.com: What Actually Happens When You Publish a Container Port 🌟**](https://iximiuz.com/en/posts/docker-publish-container-ports) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An elite architectural exploration of how published ports route traffic. Explains packet pathways from the host NIC through iptables, DNAT rules, virtual interfaces, and down to the application's listen sockets.
 #### Volumes
 
   - **(2021)** [thenewstack.io: How to Share Data Between Docker Containers](https://thenewstack.io/containers/how-to-share-data-between-docker-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational guide on sharing directories across container environments. Compares named volumes and host bind mounts, detailing permission and isolation boundaries.
@@ -626,7 +613,7 @@
   - **(2021)** [freecodecamp.org: Docker Cache – How to Do a Clean Image Rebuild and Clear Docker's Cache](https://www.freecodecamp.org/news/docker-cache-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide to working with Docker's build cache. Shows how to invalidate the cache, structure layers efficiently, and use CLI prune utilities to optimize build speeds.
 #### Build Tools
 
-  - **(2021)** [**technology.doximity.com: Buildpacks vs Dockerfiles 🌟**](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Contrasts declarative Cloud Native Buildpacks (CNB) with manual imperative Dockerfile structures. Analyzes the security, consistency, and build speed tradeoffs, arguing that CNBs represent a superior approach to packaging corporate applications at scale.
+  - **(2021)** [**technology.doximity.com: Buildpacks vs Dockerfiles 🌟**](https://technology.doximity.com/articles/buildpacks-vs-dockerfiles) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Contrasts declarative Cloud Native Buildpacks (CNB) with manual imperative Dockerfile structures. Analyzes the security, consistency, and build speed tradeoffs, arguing that CNBs represent a superior approach to packaging corporate applications at scale.
 #### Dockerfile Specs
 
   - **(2022)** [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores `CMD` and `ENTRYPOINT` behaviors inside Dockerfiles. Details how default runtime parameters interact with target binaries during execution.
@@ -652,7 +639,7 @@
 
 #### Orchestration
 
-  - **(2021)** [**datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available**](https://www.datamechanics.co) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Announces the critical General Availability (GA) milestone of Apache Spark on Kubernetes in the Spark 3.1 release. Details the architectural advantages of using native Kubernetes scheduler bindings instead of standalone Spark or YARN schedulers. Live Grounding validates that this release marked the turning point for Kubernetes-native data engineering pipelines.
+  - **(2021)** [**datamechanics.co: Apache Spark 3.1 Release: Spark on Kubernetes is now Generally Available**](https://www.datamechanics.co) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces the critical General Availability (GA) milestone of Apache Spark on Kubernetes in the Spark 3.1 release. Details the architectural advantages of using native Kubernetes scheduler bindings instead of standalone Spark or YARN schedulers. Live Grounding validates that this release marked the turning point for Kubernetes-native data engineering pipelines.
 ## Data Science
 
 ### R Ecosystem
@@ -678,7 +665,7 @@
 
 #### Virtual Machines
 
-  - **(2021)** [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Guide detailing remote host provisioning on Microsoft Azure using Docker Machine. Note: Docker Machine has been officially archived. Modern practitioners use declarative Terraform pipelines or Azure Container Instances (ACI) to coordinate remote hosts.
+  - **(2021)** [returngis.net: Crea hosts de Docker con Docker Machine en Microsoft Azure](https://www.returngis.net/2021/08/crea-hosts-de-docker-con-docker-machine-en-microsoft-azure) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Guide detailing remote host provisioning on Microsoft Azure using Docker Machine. Note: Docker Machine has been officially archived. Modern practitioners use declarative Terraform pipelines or Azure Container Instances (ACI) to coordinate remote hosts.
 ### Container Basics
 
 #### Docker (2)
@@ -800,7 +787,7 @@
 
 #### Containerization (2)
 
-  - **(2026)** [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](https://crunchtools.com/moving-linux-services-to-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A detailed 15-page architectural guide highlighting standard procedures for migrating legacy, bare-metal Linux services (such as WordPress, MediaWiki, and Request Tracker) into modern containers. It covers dissecting stateful components, isolating persistent data directories, managing configurations, and implementing reverse proxies. This resource is highly valuable for infrastructure engineers executing legacy-to-cloud modernization strategies.
+  - **(2026)** [crunchtools.com: A Hacker’s Guide to Moving Linux Services into Containers. Epic 15 page blog post showing people how to move Wordpress (php), Mediawiki (php), and Request Tracker (perl) into containers](https://crunchtools.com/moving-linux-services-to-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A detailed 15-page architectural guide highlighting standard procedures for migrating legacy, bare-metal Linux services (such as WordPress, MediaWiki, and Request Tracker) into modern containers. It covers dissecting stateful components, isolating persistent data directories, managing configurations, and implementing reverse proxies. This resource is highly valuable for infrastructure engineers executing legacy-to-cloud modernization strategies.
 ### Reliability Engineering
 
 #### Resource Management
@@ -812,7 +799,7 @@
 
 #### Docker Compose (2)
 
-  - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e14d560a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e14d560a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
+  - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e14d560a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e14d560a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
 ## Local Development
 
 ### Development Environments
@@ -872,7 +859,7 @@
 
 #### macOS Virtualization
 
-  - **(2021)** [**itnext.io: Replace Docker Desktop with lima**](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A deep-dive replacement guide migrating development workflows from macOS Docker Desktop to Lima. Operates via lightweight Linux virtual machines, ensuring automated file sharing, port forwarding, and integration with nerdctl and containerd.
+  - **(2021)** [**itnext.io: Replace Docker Desktop with lima**](https://itnext.io/replace-docker-desktop-with-lima-88ec6f9d6a19) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep-dive replacement guide migrating development workflows from macOS Docker Desktop to Lima. Operates via lightweight Linux virtual machines, ensuring automated file sharing, port forwarding, and integration with nerdctl and containerd.
 ## Security
 
 ### Container Architecture (1)
@@ -884,7 +871,7 @@
 
 #### Dockerfile optimization
 
-  - **(2020)** [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critically evaluates common Dockerfile patterns. Highlights failure vectors like poor caching strategies, bloated build images, and running containers as root. Offers concrete engineering improvements for Python.
+  - **(2020)** [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critically evaluates common Dockerfile patterns. Highlights failure vectors like poor caching strategies, bloated build images, and running containers as root. Offers concrete engineering improvements for Python.
 #### RunAsUser
 
   - **(2020)** [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An essential security analysis explaining why running container workloads as root is highly vulnerable to privilege escalation. Highlights how OpenShift's default Security Context Constraints (SCCs) enforce rootless container profiles.
@@ -902,7 +889,7 @@
 
 #### Permissions and Users
 
-  - **(2021)** [**blog.gougousis.net: File Permissions: the painful side of Docker 🌟**](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Dissects the persistent pain of host-vs-container file permissions in Linux volumes. Showcases the OpenShift-inspired random UID design paradigm as an elegant architectural mechanism to remediate root privilege escalation vectors.
+  - **(2021)** [**blog.gougousis.net: File Permissions: the painful side of Docker 🌟**](https://blog.gougousis.net/file-permissions-the-painful-side-of-docker) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Dissects the persistent pain of host-vs-container file permissions in Linux volumes. Showcases the OpenShift-inspired random UID design paradigm as an elegant architectural mechanism to remediate root privilege escalation vectors.
 ### Static Analysis
 
 #### Linter
@@ -917,14 +904,7 @@
 
 #### PKI
 
-  - **(2026)** [techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers](https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — This Microsoft Technical Community post details how to configure Windows Containers using IIS to leverage the Central Certificate Store (CCS) for simplified SSL/TLS management. It addresses the architectural hurdles of handling dynamic certificates inside ephemeral containers by mounting central network shares. This guide is highly valuable for enterprise operations targeting legacy Windows Server and .NET Framework containerization workloads.
-## Software Engineering Practices
-
-### Containerized Workflows
-
-#### Cookbooks
-
-  - **(2021)** [itnext.io: Software development in containers — a cookbook 🌟🌟🌟](https://itnext.io/software-development-in-containers-a-cookbook-2ba14d07e535)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive developer cookbook outlining containerized development workflows. Details multi-stage Docker builds, development-time mounts, image layer caching optimization, and secure packaging designs.
+  - **(2026)** [techcommunity.microsoft.com: IIS Central Certificate Store and Windows containers](https://techcommunity.microsoft.com/blog/itopstalkblog/iis-central-certificate-store-and-windows-containers/4181509) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This Microsoft Technical Community post details how to configure Windows Containers using IIS to leverage the Central Certificate Store (CCS) for simplified SSL/TLS management. It addresses the architectural hurdles of handling dynamic certificates inside ephemeral containers by mounting central network shares. This guide is highly valuable for enterprise operations targeting legacy Windows Server and .NET Framework containerization workloads.
 ## Testing
 
 ### Integration Testing
@@ -934,5 +914,5 @@
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

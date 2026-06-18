@@ -29,8 +29,6 @@
   - [Technical Debt](#technical-debt)
     - [Microservices](#microservices-1)
     - [Orchestration](#orchestration)
-  - [Web Applications](#web-applications)
-    - [Enterprise Patterns](#enterprise-patterns)
 1. [Architecture Patterns](#architecture-patterns)
   - [Microservices](#microservices-2)
     - [Cloud-Native Infrastructure](#cloud-native-infrastructure)
@@ -81,6 +79,7 @@
     - [Hybrid and Private Cloud](#hybrid-and-private-cloud)
   - [High Availability](#high-availability)
     - [Core Patterns](#core-patterns)
+    - [Multi-Region Deployments](#multi-region-deployments)
   - [Market Trends](#market-trends-1)
     - [Open Source Business Models](#open-source-business-models)
   - [Migration and Modernization](#migration-and-modernization)
@@ -92,6 +91,8 @@
     - [Architecture Designs](#architecture-designs)
     - [Architecture Planning](#architecture-planning)
     - [Business Drivers](#business-drivers)
+  - [Storage and Hybrid Systems](#storage-and-hybrid-systems)
+    - [Topology Comparison](#topology-comparison)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [Automation](#automation)
     - [Concepts](#concepts)
@@ -103,9 +104,6 @@
     - [Container Patterns](#container-patterns)
     - [OpenShift](#openshift)
     - [OpenShift Comparison](#openshift-comparison)
-1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
-  - [Public Cloud Administration](#public-cloud-administration)
-    - [AWS Fundamentals](#aws-fundamentals)
 1. [Cloud Native and Kubernetes Core](#cloud-native-and-kubernetes-core)
   - [Business Value and ROI](#business-value-and-roi)
     - [Operational Automation](#operational-automation)
@@ -373,10 +371,10 @@ graph TD
   - **(2023)** [vFunction](https://vfunction.com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced, AI-driven application modernization platform designed to refactor monolithic Java applications. Live Grounding verifies that vFunction dynamically tracks codebase interactions and dependency call trees to generate optimal, decoupled microservices.
 #### Case Studies
 
-  - **(2021)** [thenewstack.io: vFunction Transforms Monolithic Java to Microservices](https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Deep-dive case study covering how vFunction automates the decomposition of complex legacy Java application structures into modern cloud-native APIs. Illustrates mapping monolithic complexity to decoupled Domain-Driven Design (DDD) boundaries.
+  - **(2021)** [thenewstack.io: vFunction Transforms Monolithic Java to Microservices](https://thenewstack.io/vfunction-transforms-monolithic-java-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Deep-dive case study covering how vFunction automates the decomposition of complex legacy Java application structures into modern cloud-native APIs. Illustrates mapping monolithic complexity to decoupled Domain-Driven Design (DDD) boundaries.
 #### Guides
 
-  - **(2021)** [devops.com: Best of 2021 – Transform Legacy Java Apps to Microservices](https://devops.com/transform-legacy-java-apps-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Strategic and tactical guide addressing the decomposition of legacy enterprise Java systems. Emphasizes modern automated refactoring engines to accurately map boundaries, mitigating migration risks while speeding up time-to-production.
+  - **(2021)** [devops.com: Best of 2021 – Transform Legacy Java Apps to Microservices](https://devops.com/transform-legacy-java-apps-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Strategic and tactical guide addressing the decomposition of legacy enterprise Java systems. Emphasizes modern automated refactoring engines to accurately map boundaries, mitigating migration risks while speeding up time-to-production.
 ## Architecture
 
 ### APIs
@@ -429,12 +427,7 @@ graph TD
   - **(2022)** [infoq.com: Managing Technical Debt in a Microservice Architecture](https://www.infoq.com/articles/managing-technical-debt-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the specific vectors of technical debt in microservices, including library drift, API versioning overhead, and domain-model fragmentation. Offers architectural rules of thumb to control distributed sprawl.
 #### Orchestration
 
-  - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
-### Web Applications
-
-#### Enterprise Patterns
-
-  - **(2025)** [Enterprise Web App Patterns - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/web-apps/guides/enterprise-app-patterns/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-proven patterns and implementation pathways from the Azure Architecture Center. Establishes migration guidelines for modernizing monolithic applications into elastic web architectures.
+  - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
 ## Architecture Patterns
 
 ### Microservices (2)
@@ -606,6 +599,13 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
+#### Multi-Region Deployments
+
+??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
+    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
+
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -655,6 +655,15 @@ graph TD
 #### Business Drivers
 
   - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
+### Storage and Hybrid Systems
+
+#### Topology Comparison
+
+??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
+    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
+
 ## Cloud Infrastructure
 
 ### Automation
@@ -686,20 +695,13 @@ graph TD
   - **(2021)** [phoenixnap.com: Kubernetes vs OpenShift: Key Differences Compared 🌟](https://phoenixnap.com/blog/openshift-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core differences between vanilla Kubernetes and Red Hat OpenShift, evaluating deployment mechanics, security configurations (SCC vs RBAC), built-in routing, out-of-the-box monitoring, and support models.
   - **(2021)** [simplilearn.com: Understanding The Difference Between Kubernetes Vs. Openshift](https://www.simplilearn.com/kubernetes-vs-openshift-article)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational comparison detailing the architectural boundaries of Kubernetes and OpenShift. Explores developer workflows, installation processes, built-in CI/CD pipelines, and licensing structures.
   - **(2019)** [spec-india.com: Kubernetes VS Openshift (July 23rd 2019)](https://www.spec-india.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares upstream open-source Kubernetes with Red Hat OpenShift. Focuses on user-interface options, CLI differences, security policies, image registry capabilities, and integrated CI/CD toolchain setups in enterprise deployments.
-## Cloud Infrastructure and Orchestration
-
-### Public Cloud Administration
-
-#### AWS Fundamentals
-
-  - **(2023)** [AWS Cloud Practitioner - Curso Completo 2023](https://www.youtube.com/watch?v=zQyrhjEAqLs) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive Spanish instructional syllabus targeting the AWS Certified Cloud Practitioner domain. Details key global infrastructure components, core services (EC2, S3, RDS, VPC), billing architectures, and foundational security frameworks.
 ## Cloud Native and Kubernetes Core
 
 ### Business Value and ROI
 
 #### Operational Automation
 
-  - **(2021)** [theregister.com: How Kubernetes lowers costs and automates IT department work](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 🌟🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Evaluates the cost-efficiency and performance benefits of transitioning IT operations from legacy VMs to Kubernetes-orchestrated workloads. Examines auto-scaling, bin-packing, and automated operations as primary factors for decreasing infrastructural and labor expenditures.
+  - **(2021)** [theregister.com: How Kubernetes lowers costs and automates IT department work](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Evaluates the cost-efficiency and performance benefits of transitioning IT operations from legacy VMs to Kubernetes-orchestrated workloads. Examines auto-scaling, bin-packing, and automated operations as primary factors for decreasing infrastructural and labor expenditures.
 ### Container Orchestration
 
 #### Deep Dive
@@ -710,6 +712,11 @@ graph TD
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
 
 #### Fundamentals (1)
+
+??? note "cloud.google.com: What is Kubernetes? 🌟"
+    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 ??? note "weave.works: What is a Kubernetes Cluster? 🌟"
     **[Access Resource](https://www.weave.works/blog/kubernetes-cluster)** 🌟🌟🌟🌟 | Level: Beginner
@@ -1077,8 +1084,8 @@ graph TD
   - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.ringcentral.com in the Kubernetes Tools ecosystem.
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.hashicorp.com in the Kubernetes Tools ecosystem.
-  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
   - [medium.com/javarevisited: Microservices communication using gRPC Protocol](https://medium.com/javarevisited/microservices-communication-using-grpc-protocol-dc3a2f8b648d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Microservices communication using gRPC Protocol== in the Kubernetes Tools ecosystem.
+  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
   - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monolithic versus Microservice architecture in the Kubernetes Tools ecosystem.
   - [cncf.io: Top 7 challenges to becoming cloud native](https://www.cncf.io/blog/2020/09/15/top-7-challenges-to-becoming-cloud-native)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Top 7 challenges to becoming cloud native in the Kubernetes Tools ecosystem.
   - [techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO](https://www.techrepublic.com/article/kubernetes-will-deliver-the-app-store-experience-for-enterprise-software-says-weaveworks-ceo)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techrepublic.com: Kubernetes will deliver the app store experience for enterprise' software, says Weaveworks CEO in the Kubernetes Tools ecosystem.
@@ -1201,12 +1208,12 @@ graph TD
   - **(2023)** [thenewstack.io: Stop Technical Debt Before It Damages Your Company](https://thenewstack.io/stop-technical-debt-before-it-damages-your-company)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines proactive governance models to identify and mitigate tech debt before it stunts organizational velocity. Advocates for clear code quality baselines, integrated CI/CD linter pipelines, and dedicated refactoring sprints.
 #### Technical Debt (2)
 
-  - **(2023)** [leaddev.com: How to break the cycle of tech debt](https://leaddev.com/technical-direction/how-break-cycle-tech-debt)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Provides engineering leadership strategies to break the endless loop of compounding legacy software issues. Outlines methods to negotiate refactoring cycles directly with product stakeholders using objective metrics.
+  - **(2023)** [leaddev.com: How to break the cycle of tech debt](https://leaddev.com/technical-direction/how-break-cycle-tech-debt)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Provides engineering leadership strategies to break the endless loop of compounding legacy software issues. Outlines methods to negotiate refactoring cycles directly with product stakeholders using objective metrics.
 ### Metrics
 
 #### Technical Debt (3)
 
-  - **(2023)** [devops.com: Measuring Technical Debt](https://devops.com/measuring-technical-debt)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores analytical frameworks to measure technical debt objectively. Employs metrics like SQALE methodology, code coverage, cycle time impact, and escape defect rates to calculate the true cost of legacy architectures.
+  - **(2023)** [devops.com: Measuring Technical Debt](https://devops.com/measuring-technical-debt)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores analytical frameworks to measure technical debt objectively. Employs metrics like SQALE methodology, code coverage, cycle time impact, and escape defect rates to calculate the true cost of legacy architectures.
 ### Quality
 
 #### Embedded Systems
@@ -1221,7 +1228,7 @@ graph TD
 
 #### Technical Debt (4)
 
-  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
+  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
 ## Microservices (5)
 
@@ -1277,13 +1284,13 @@ graph TD
 
 #### Automated Migration
 
-  - **(2021)** [devops.com: Function Automates Conversion of Java Apps to Microservices](https://devops.com/vfunction-automates-conversion-of-java-apps-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details how automated profiling instruments compile-time and runtime dynamics of legacy enterprise codebases, identifying domain boundaries to programmatically extract microservice packages.
+  - **(2021)** [devops.com: Function Automates Conversion of Java Apps to Microservices](https://devops.com/vfunction-automates-conversion-of-java-apps-to-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details how automated profiling instruments compile-time and runtime dynamics of legacy enterprise codebases, identifying domain boundaries to programmatically extract microservice packages.
 #### CDC Patterns
 
   - **(2021)** [developers.redhat.com: Application modernization patterns with Apache Kafka, Debezium, and Kubernetes](https://developers.redhat.com/articles/2021/06/14/application-modernization-patterns-apache-kafka-debezium-and-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical dive into change data capture (CDC) as an application modernization accelerator. Demonstrates how combining Debezium, Apache Kafka, and Kubernetes enables seamless database-to-database replication and asynchronous microservice integration.
 #### Monolith Migration
 
-  - **(2021)** [thenewstack.io: Monoliths to Microservices: 4 Modernization Best Practices](https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Outlines strategic methodologies for decomposing legacy monolithic architectures. Promotes the Strangler Fig pattern, domain-driven boundary definition, database decomposition techniques, and the evolutionary transition of data schemas to prevent transactional failure.
+  - **(2021)** [thenewstack.io: Monoliths to Microservices: 4 Modernization Best Practices](https://thenewstack.io/monoliths-to-microservices-4-modernization-best-practices-2) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines strategic methodologies for decomposing legacy monolithic architectures. Promotes the Strangler Fig pattern, domain-driven boundary definition, database decomposition techniques, and the evolutionary transition of data schemas to prevent transactional failure.
 ### Observability
 
 #### Namespaces
@@ -1378,7 +1385,7 @@ graph TD
 
 #### Cloud-Native (1)
 
-  - **(2023)** [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Highlights the key differences between legacy cold-standby disaster recovery models and modern, cloud-native active-active paradigms. Highlights regional replication, automatic failover orchestration, and chaotic failure injection.
+  - **(2023)** [thenewstack.io: Disaster Recovery Is Different for the Cloud](https://thenewstack.io/disaster-recovery-is-different-for-the-cloud)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Highlights the key differences between legacy cold-standby disaster recovery models and modern, cloud-native active-active paradigms. Highlights regional replication, automatic failover orchestration, and chaotic failure injection.
 #### DevOps (1)
 
   - **(2023)** [bunnyshell.com: DR in DevOps: How to Guarantee an Effective Disaster Recovery Plan with DevOps](https://www.bunnyshell.com/blog/disaster-recovery-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores integrating DR validation directly within DevOps lifecycles. Details setting up automated environment cloning, infrastructure-as-code state synchronization, and defining recovery point objectives (RPO) and recovery time objectives (RTO).
@@ -1555,7 +1562,7 @@ graph TD
 
 #### Strangler Pattern
 
-  - **(2021)** [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/service-reliability-management)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details the mechanics of the Strangler Fig pattern for migrating legacy codebases into containerized microservices. Analyzes API routing strategies, incremental migration boundaries, and monitoring paradigms for managing dual runtimes.
+  - **(2021)** [overops.com: Strangler Pattern: How to Deal With Legacy Code During the Container Revolution](https://www.harness.io/products/service-reliability-management)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details the mechanics of the Strangler Fig pattern for migrating legacy codebases into containerized microservices. Analyzes API routing strategies, incremental migration boundaries, and monitoring paradigms for managing dual runtimes.
 ### Monoliths (2)
 
 #### Modular Monolith
@@ -1619,5 +1626,5 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

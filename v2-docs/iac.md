@@ -8,24 +8,15 @@
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
     - [General Reference](#general-reference)
-1. [Cloud Governance](#cloud-governance)
-  - [Enterprise Architecture](#enterprise-architecture)
-    - [Landing Zones](#landing-zones)
 1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS Automation](#aws-automation)
-    - [Serverless Orchestration](#serverless-orchestration)
-  - [Azure Networking](#azure-networking)
-    - [Multi-Tenant Topology](#multi-tenant-topology)
   - [Infrastructure as Code](#infrastructure-as-code)
     - [Compliance Auditing](#compliance-auditing)
     - [History and Insights](#history-and-insights)
+    - [Migration Strategies](#migration-strategies)
     - [Schema Generation](#schema-generation)
     - [Terraform Practices](#terraform-practices)
   - [Kubernetes and Operators](#kubernetes-and-operators)
     - [GCP Resources](#gcp-resources)
-1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
-  - [Public Cloud Administration](#public-cloud-administration)
-    - [Azure Architecture](#azure-architecture)
 1. [Cloud Management](#cloud-management)
   - [FinOps](#finops)
     - [Optimization](#optimization)
@@ -48,6 +39,8 @@
     - [Security](#security)
     - [Strategy](#strategy)
     - [Terminology](#terminology)
+    - [Terraform](#terraform)
+      - [Secrets](#secrets)
     - [Tool Comparison](#tool-comparison)
     - [Tooling](#tooling)
     - [Training](#training)
@@ -63,12 +56,6 @@
 1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
   - [Infrastructure-as-Code](#infrastructure-as-code)
     - [Platform Engineering](#platform-engineering)
-1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
-  - [Azure Optimization](#azure-optimization)
-    - [Landing Zones](#landing-zones-1)
-1. [Governance and Management](#governance-and-management)
-  - [Enterprise Governance](#enterprise-governance)
-    - [Landing Zones](#landing-zones-2)
 1. [Infrastructure](#infrastructure)
   - [Sysadmin](#sysadmin)
     - [Resources](#resources)
@@ -87,13 +74,11 @@
 #### General Reference
 
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform Provider for Google Cloud 7.0 is now GA in the Kubernetes Tools ecosystem.
-  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support in the Kubernetes Tools ecosystem.
-  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead in the Kubernetes Tools ecosystem.
-  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering The Maester - Terraform Module in the Kubernetes Tools ecosystem.
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform for Standardizing AWS Deployments in the Kubernetes Tools ecosystem.
   - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
   - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform Enterprise 2.0 in the Kubernetes Tools ecosystem.
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
+  - [Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead](https://t.co/y414rbxM7l)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Scale with Confidence Using Terraform: Better Cost Visibility, Stronger' Governance, and Less Operational Overhead in the Kubernetes Tools ecosystem.
   - [bridgecrew.io: 5 tips for securely adopting infrastructure as code](https://bridgecrew.io/blog/5-tips-for-securely-adopting-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bridgecrew.io: 5 tips for securely adopting infrastructure as code in the Kubernetes Tools ecosystem.
   - [daffodilsw.medium.com: What is Infrastructure Automation in DevOps?](https://daffodilsw.medium.com/what-is-infrastructure-automation-in-devops-d9681870b07d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering daffodilsw.medium.com: What is Infrastructure Automation in DevOps? in the Kubernetes Tools ecosystem.
   - [faun.pub: The best Infrastructure as Code tools for 2021](https://faun.pub/the-best-infrastructure-as-code-tools-for-2021-b37c323e89f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: The best Infrastructure as Code tools for 2021 in the Kubernetes Tools ecosystem.
@@ -103,29 +88,13 @@
   - [medium.com/@faisalkuzhan: DAY_43/90 => Infrastructure as Code(IaC)](https://medium.com/@faisalkuzhan/day-43-90-infrastructure-as-code-iac-5a826258ee4b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@faisalkuzhan: DAY_43/90 => Infrastructure as Code(IaC) in the Kubernetes Tools ecosystem.
   - [levelup.gitconnected.com: Short: Using IaC over Clickops](https://levelup.gitconnected.com/short-using-iac-over-clickops-229e919b5373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Short: Using IaC over Clickops in the Kubernetes Tools ecosystem.
   - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Cloudformation vs. Terraform: Which is better? in the Kubernetes Tools ecosystem.
+  - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support in the Kubernetes Tools ecosystem.
+  - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering The Maester - Terraform Module in the Kubernetes Tools ecosystem.
   - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure' (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure' (IaC) in the Kubernetes Tools ecosystem.
   - [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/globant: Infrastructure as Code using Kubernetes in the Kubernetes Tools ecosystem.
   - [IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP)](https://medium.com/@nidhibansal26/iac-and-openshift-virtualization-handshake-c0a4ada79af5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IaC and OpenShift Virtualization handshake (using Terraform for VMs on OCP) in the Kubernetes Tools ecosystem.
-## Cloud Governance
-
-### Enterprise Architecture
-
-#### Landing Zones
-
-  - **(2026)** [Azure Landing Zone Technical Documentation](https://azure.github.io/Azure-Landing-Zones) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central knowledge base for Azure Landing Zones (ALZ) design principles and implementations. This portal provides guidance on identity management, network topology, subscription organization, and proactive governance policies. It acts as the key blueprint for deploying scalable multi-subscription cloud platform architectures.
-  - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
 ## Cloud Infrastructure
 
-### AWS Automation
-
-#### Serverless Orchestration
-
-  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
-### Azure Networking
-
-#### Multi-Tenant Topology
-
-  - **(2025)** [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official exploration of Azure Virtual Network Manager (AVNM) capabilities for coordinating network topologies across distinct enterprise Entra ID tenants. Architects learn how to leverage AVNM to scale governance, enforce global security rules, and simplify cross-tenant hub-and-spoke peerings programmatically.
 ### Infrastructure as Code
 
 #### Compliance Auditing
@@ -134,6 +103,9 @@
 #### History and Insights
 
   - **(2026)** [youtube: Mitchell Hashimoto: The Inside Story of HashiCorp's IaC Journey | The IaC Podcast](https://www.youtube.com/watch?v=--RRpw_6onA) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth video interview exploring the early development, design constraints, and technological milestones of HashiCorp's suite. Offers high-level insights into state management and the evolution of cloud orchestration.
+#### Migration Strategies
+
+  - **(2026)** [The Definitive Guide to Importing Your Cloud Resources into IaC](https://blog.cloudgeni.ai/the-definitive-guide-to-importing-your-cloud-resources-into-iac) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review addressing drift reconciliation when converting untracked click-ops clouds into declarative state files. Reviews native state import commands and toolkits that automate resource generation.
 #### Schema Generation
 
   - **(2026)** [TerraSchema: Generate JSON Schema from Terraform Configurations](https://github.com/HewlettPackard/terraschema) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8de5391d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 12 L 30 4 L 40 7 L 50 12" fill="none" stroke="url(#spark-grad-8de5391d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI tool that parses declared Terraform configurations to generate structural JSON Schemas. Useful for running runtime validation scripts on dynamic inputs or verifying API schemas during configuration processing.
@@ -145,14 +117,6 @@
 #### GCP Resources
 
   - **(2026)** [cloud.google.com/config-connector](https://docs.cloud.google.com/config-connector/docs/overview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains GCP Config Connector implementation patterns. Lets engineers configure Google Cloud infrastructure through Kubernetes Custom Resource Definitions, utilizing Kubernetes controllers to construct databases, IAM permissions, and storage endpoints.
-## Cloud Infrastructure and Orchestration
-
-### Public Cloud Administration
-
-#### Azure Architecture
-
-  - **(2025)** [Transitioning an Existing Azure Environment to the Azure Landing Zone Reference Architecture](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/transition) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Architectural migration playbook addressing transitioning legacy cloud setups to formal Microsoft Azure Landing Zones. Covers organizational tier hierarchies, network architectures, and systemic governance patterns.
-  - **(2025)** [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated governance framework detailing Azure Subscription Vending models. Outlines how to programmatically create subscription structures incorporating secure routing, virtual network configurations, policies, and role-based access management.
 ## Cloud Management
 
 ### FinOps
@@ -174,7 +138,7 @@
   - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how generative AI can be used to compile declarative DSL configurations. Argues that structural files (such as Terraform or Pulumi definitions) are excellent translation targets for LLMs due to explicit syntax schemas.
 #### AI Integration
 
-  - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
+  - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
 #### Architecture
 
   - **(2023)** [devopscube.com: Immutable Infrastructure Explained For Beginners](https://devopscube.com/immutable-infrastructure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A beginner's guide detailing the immutable infrastructure pattern, where infrastructure elements are replaced rather than modified in place. Highlights benefits in predictability, rollbacks, and drift management.
@@ -193,7 +157,7 @@
   - **(2021)** [stackoverflow.blog: Infrastructure as code: Create and configure infrastructure elements in seconds](https://stackoverflow.blog/2021/03/08/infrastructure-as-code-create-and-configure-infrastructure-elements-in-seconds)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the foundational design patterns of Infrastructure as Code (IaC). Explains how codifying environments speeds up resource instantiation, eliminates configuration drift, and acts as the basis for reliable automation pipelines.
 #### Lifecycle Management
 
-  - **(2023)** [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details architectural strategies for maintaining, refactoring, and upgrading legacy IaC bases. Explores lockfile maintenance, drift remediation, and structural validation steps required for safe production updates.
+  - **(2023)** [devops.com: Updating and Managing Infrastructure-as-Code (IaC)](https://devops.com/updating-and-managing-infrastructure-as-code-iac) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details architectural strategies for maintaining, refactoring, and upgrading legacy IaC bases. Explores lockfile maintenance, drift remediation, and structural validation steps required for safe production updates.
 #### Local Environments
 
   - **(2023)** [thenewstack.io: Local Environment-as-Code: Is It Possible Yet?](https://thenewstack.io/local-environment-as-code-is-it-possible-yet)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the feasibility of Local Environment-as-Code setups. Evaluates containerized tools and localized VM platforms designed to establish parity between developer workstations and live cloud targets.
@@ -216,6 +180,11 @@
 #### Terminology
 
   - **(2022)** [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies foundational interfaces—GUIs, CLIs, and APIs—used in automated provisioning workflows. Details how modern declarative execution pipelines abstract these layers to guarantee predictable environment configurations.
+#### Terraform
+
+##### Secrets
+
+  - **(2025)** [Ephemeral Values in Terraform](https://nedinthecloud.com/2025/07/01/ephemeral-values-in-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design and execution mechanics of Ephemeral Values introduced in modern Terraform releases. Discusses preventing credential leakages by keeping sensitive short-lived resources completely out of persistent state logs.
 #### Tool Comparison
 
   - **(2023)** [intellipaat.com: Terraform vs Ansible: Key Differences Between Terraform and Ansible 🌟](https://intellipaat.com/blog/terraform-vs-ansible-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares Terraform and Ansible, focusing on state management and typical use cases. Shows how Terraform specializes in declarative stateful cloud provisioning, while Ansible excels at stateless procedural host and configuration management.
@@ -245,7 +214,7 @@
 
 #### AI Code Generation
 
-  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55081732" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-55081732)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
+  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55081732" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-55081732)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
 #### Security Scanning
 
   - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dd92cc7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 8 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-3dd92cc7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
@@ -260,21 +229,7 @@
 
 #### Platform Engineering
 
-  - **(2022)** [**itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables**](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Delineates the evolution from standard Infrastructure-as-Code (IaC) to Platform-as-Code (PaC), where platform teams deliver fully orchestrated, self-service developer environments. Highlights how defining platforms declaratively abstracts raw cloud interfaces, simplifying application lifecycle deployment.
-## FinOps and Cloud Cost
-
-### Azure Optimization
-
-#### Landing Zones (1)
-
-  - **(2025)** [==Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization==](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details how to configure a FinOps-compliant Azure Landing Zone. Uses Azure Policy and management groups to enforce resource tag policies, mandate budget limits at subscription boundaries, and automate continuous cost governance.
-## Governance and Management
-
-### Enterprise Governance
-
-#### Landing Zones (2)
-
-  - **(2023)** [Azure Cloud Adoption Framework: Platform Landing Zone Implementation Options](https://learn.microsoft.com/en-gb/azure/cloud-adoption-framework/ready/landing-zone/implementation-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Microsoft's Cloud Adoption Framework (CAF) roadmap evaluating landing zone platform deployment options. Evaluates differences between Portal, Bicep, and Terraform implementations, outlining trade-offs in velocity, maintenance overhead, and custom extensibility.
+  - **(2022)** [**itnext.io: Platform-as-Code: how it relates to Infrastructure-as-Code and what it enables**](https://itnext.io/platform-as-code-how-it-compares-with-infrastructure-as-code-and-what-it-enables-2684b348be2e) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Delineates the evolution from standard Infrastructure-as-Code (IaC) to Platform-as-Code (PaC), where platform teams deliver fully orchestrated, self-service developer environments. Highlights how defining platforms declaratively abstracts raw cloud interfaces, simplifying application lifecycle deployment.
 ## Infrastructure
 
 ### Sysadmin
@@ -301,5 +256,5 @@
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Terraform](./terraform.md) | [Oauth](./oauth.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [Chef](./chef.md) | [Crossplane](./crossplane.md)
 

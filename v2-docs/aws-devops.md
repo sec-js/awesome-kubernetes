@@ -43,7 +43,7 @@
 
 #### Infrastructure-as-Code
 
-  - **(2018)** [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/solutions) <span class='md-tag md-tag--warning'>[CLOUDFORMATION CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Legacy AWS CloudFormation deployment template for automating OpenShift 3.11 cluster topologies. Serves as an architectural reference for VPC subnet divisions and multi-AZ load-balancer routing in early cloud-native systems.
+  - **(2018)** [aws.amazon.com: AWS Quick Start (OpenShift 3.11 on AWS)](https://aws.amazon.com/solutions) <span class='md-tag md-tag--warning'>[CLOUDFORMATION CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Legacy AWS CloudFormation deployment template for automating OpenShift 3.11 cluster topologies. Serves as an architectural reference for VPC subnet divisions and multi-AZ load-balancer routing in early cloud-native systems.
 ## Cloud-Native Provisioning
 
 ### CICD Integration
@@ -67,7 +67,7 @@
   - **(2021)** [k21academy.com: AWS DevOps Vs. Azure DevOps](https://k21academy.com/aws-cloud/aws-devops-vs-azure-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative structural analysis pitting the AWS DevOps suite against Microsoft Azure DevOps, evaluating build pricing, third-party integrations, and native Kubernetes support configurations.
 #### Jenkins Integration
 
-  - **(2021)** [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-the-jenkins-plugin-for-aws-codedeploy) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step setup guide for configuring the AWS CodeDeploy Jenkins plugin, allowing legacy, on-prem Jenkins orchestrations to deploy code artifacts directly to AWS cloud groups.
+  - **(2021)** [Setting Up the Jenkins Plugin for AWS CodeDeploy](https://aws.amazon.com/blogs/devops/setting-up-the-jenkins-plugin-for-aws-codedeploy) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step setup guide for configuring the AWS CodeDeploy Jenkins plugin, allowing legacy, on-prem Jenkins orchestrations to deploy code artifacts directly to AWS cloud groups.
 ### Observability
 
 #### AWS DevOps Guru
@@ -86,5 +86,5 @@
   - **(2021)** [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Granular implementation tutorial for deploying Admiralty proxy schedulers to configure cross-cluster communication channels that target serverless AWS Fargate environments in multi-region setups.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

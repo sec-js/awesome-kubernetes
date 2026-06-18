@@ -31,6 +31,8 @@
   - [Ecosystem](#ecosystem)
     - [AWS Partners](#aws-partners)
     - [Case Studies](#case-studies)
+  - [FinOps](#finops)
+    - [Cost Optimization](#cost-optimization)
   - [FinOps and Sustainability](#finops-and-sustainability)
     - [Green Ops](#green-ops)
   - [High Performance Computing](#high-performance-computing)
@@ -124,12 +126,12 @@
   - **(2016)** [AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the 2016 platform expansion adding native support for ASP.NET Core applications and multi-app configuration models in Elastic Beanstalk Windows instances.
 #### Cloud Migration
 
-  - **(2016)** [AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — AWS service that inventories and parses physical and virtual systems inside legacy on-premises environments. Maps active server dependencies and gathers CPU, RAM, and network utilization profiles to plan cloud migrations.
+  - **(2016)** [AWS Application Discovery Service](https://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — AWS service that inventories and parses physical and virtual systems inside legacy on-premises environments. Maps active server dependencies and gathers CPU, RAM, and network utilization profiles to plan cloud migrations.
   - **(2016)** [AWS Application Discovery Service Update – Agentless Discovery for VMware](https://aws.amazon.com/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS announcement showing how Application Discovery Service interfaces directly with VMware vCenter environments. Avoids OS agent dependencies to quickly construct VM topology maps.
 #### Configuration Management
 
   - **(2016)** [youtube: AWS OpsWorks Overview and Demo](https://www.youtube.com/watch?v=cj_LoG6C2xk&list=PLR3sVanzLpJN6BiYS20K4BMPpiDGifbZy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual and technical walkthrough demonstrating configuration layers, application deployments, and runtime lifecycle hooks executed via AWS OpsWorks stack engines.
-  - **(2013)** [AWS OpsWorks](https://aws.amazon.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A managed configuration management platform utilizing Chef or Puppet layers. *2026 Engineering Reality*: Now classified as legacy, with standard DevOps workflows adopting AWS Systems Manager (SSM) and Terraform for infrastructure automation.
+  - **(2013)** [AWS OpsWorks](https://aws.amazon.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A managed configuration management platform utilizing Chef or Puppet layers. *2026 Engineering Reality*: Now classified as legacy, with standard DevOps workflows adopting AWS Systems Manager (SSM) and Terraform for infrastructure automation.
 #### Hybrid Cloud
 
   - **(2017)** [VMware Cloud on AWS](https://aws.amazon.com/es/vmware) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official architectural landing page for VMware Cloud on AWS. Outlines SDDC framework deployments on bare-metal infrastructure, enabling disaster recovery, capacity bursting, and seamless VM migrations.
@@ -139,7 +141,7 @@
   - **(2021)** [AWS Cloud Control API, a Uniform API to Access AWS & Third-Party Services](https://aws.amazon.com/blogs/aws/announcing-aws-cloud-control-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official blog introduction announcing the Cloud Control API. Discusses how standardization simplifies life for infrastructure-as-code creators (e.g., Terraform, Pulumi) by delivering instant support for new cloud capabilities.
 #### Infrastructure Operations
 
-  - **(2016)** [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws)  <span class='md-tag md-tag--info'>[LEGACY]</span> — Engineering blog clarifying patch administration, automated AMI construction, and system compliance practices for running legacy or enterprise Windows Server nodes on AWS.
+  - **(2016)** [blog.rackspace.com: Patch and AMI Management for Windows on AWS](https://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Engineering blog clarifying patch administration, automated AMI construction, and system compliance practices for running legacy or enterprise Windows Server nodes on AWS.
 #### Load Balancing
 
   - **(2016)** [AWS Elastic Beanstalk Supports Application Load Balancer](https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product release documentation outlining integration of Application Load Balancers (ALBs) with Elastic Beanstalk. Unlocks path-based routing, target group pooling, and secure WebSocket connections.
@@ -161,6 +163,11 @@
 #### Case Studies
 
   - **(2025)** [AWS Partner Network (APN) blog](https://aws.amazon.com/blogs/apn) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on architecture walkthroughs, such as deploying high-availability services on AWS using Spotinst (now Spot by NetApp) and configuring Active Directory SSO. Live Grounding validates these blog posts as critical operational blueprints for multi-tenant integrations and cost-optimization strategies in enterprise environments.
+### FinOps
+
+#### Cost Optimization
+
+  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### FinOps and Sustainability
 
 #### Green Ops
@@ -198,7 +205,7 @@
 
 #### AWS (1)
 
-  - **(2022)** [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Live Grounding Synthesis: Built on Envoy as AWS's managed service mesh, AWS App Mesh was deprecated in late 2024 and fully sunsetted. Platform teams are urged to transition to Amazon ECS Service Connect or Amazon VPC Lattice.
+  - **(2022)** [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Live Grounding Synthesis: Built on Envoy as AWS's managed service mesh, AWS App Mesh was deprecated in late 2024 and fully sunsetted. Platform teams are urged to transition to Amazon ECS Service Connect or Amazon VPC Lattice.
 ## Edge and IoT
 
 ### AWS (2)
@@ -218,7 +225,7 @@
   - **(2021)** [itnext.io: AWS CDK for EKS — Handling Helm Charts](https://itnext.io/aws-cdk-for-eks-handling-helm-charts-aa002afedde4) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight provides architectural guidelines on embedding Helm releases directly inside CDK-managed Amazon EKS clusters. Live Grounding validates this approach for combining platform-level AWS IaC with Kubernetes-native package management, streamlining cluster provisioning pipelines.
 #### Migration Tools
 
-  - **(2023)** [Announcing CDK Migrate: A single command to migrate to the AWS CDK](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight details the native CDK CLI capability to ingest deployed CloudFormation stacks or raw resources and output fully functional CDK code. Live Grounding demonstrates its extreme usefulness in technical debt remediation, shifting old legacy infrastructure into managed, programmatically modeled code bases.
+  - **(2023)** [Announcing CDK Migrate: A single command to migrate to the AWS CDK](https://aws.amazon.com/blogs/devops/announcing-cdk-migrate-a-single-command-to-migrate-to-the-aws-cdk) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details the native CDK CLI capability to ingest deployed CloudFormation stacks or raw resources and output fully functional CDK code. Live Grounding demonstrates its extreme usefulness in technical debt remediation, shifting old legacy infrastructure into managed, programmatically modeled code bases.
 #### Serverless Applications
 
   - **(2023)** [freecodecamp.org: AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application](https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight is a comprehensive, hands-on tutorial for constructing API Gateway, Lambda, and DynamoDB stacks via CDK v2. Live Grounding proves this three-tier serverless pattern remains the gold standard blueprint for robust, scalable web services in AWS.
@@ -250,7 +257,7 @@
 
 #### Trainline
 
-  - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight records Trainline's radical migration from legacy on-prem Oracle and Microsoft SQL/Windows monoliths to AWS. Live Grounding notes this historical case study illustrates the industry's massive mid-2010s migration pattern, proving that legacy modernization directly unlocks operational agility and cloud scalability.
+  - **(2016)** [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight records Trainline's radical migration from legacy on-prem Oracle and Microsoft SQL/Windows monoliths to AWS. Live Grounding notes this historical case study illustrates the industry's massive mid-2010s migration pattern, proving that legacy modernization directly unlocks operational agility and cloud scalability.
   - **(2016)** [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight tracks the cultural and technical journey of Trainline’s DevOps transition during their full AWS migration. Live Grounding points to this talk as a textbook cultural reference, showing that microservices and infrastructure modernization fail without a parallel shift in organizational communication and delivery practices.
 ## Serverless
 
@@ -258,7 +265,7 @@
 
 #### Alexa Skills
 
-  - **(2017)** [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step developer tutorial detailing integration patterns between the Alexa Skills Kit and AWS Lambda serverless functions. Marked legacy as current conversational AI models have largely replaced basic programmatic trivia setups in production.
+  - **(2017)** [New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour](https://developer.amazon.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step developer tutorial detailing integration patterns between the Alexa Skills Kit and AWS Lambda serverless functions. Marked legacy as current conversational AI models have largely replaced basic programmatic trivia setups in production.
 ## Testing and Chaos
 
 ### Chaos Engineering
@@ -285,5 +292,5 @@
   - **(2021)** [github.com/omenking/localstack-gitpod-template: LocalStack Gitpod Template](https://github.com/omenking/localstack-gitpod-template) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight introduces a Gitpod configuration template for bootstrapping LocalStack development environments instantly in the browser. Live Grounding highlights this as an efficient template for cloud-native training, though production teams in 2026 typically leverage official Dev Container or LocalStack-supported cloud environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 
