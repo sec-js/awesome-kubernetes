@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.5.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.1) - 2026-06-18
+
+### Added
+- **Collapsible Tag Index Sections**: Wrapped heavy resource listings under each heading in `tags.md` inside `<details>` and `<summary>` blocks (collapsed by default).
+- **CSS-Based Deferred Rendering**: Added `.v2-tag-section` CSS styles utilizing `content-visibility: auto` to defer layout and paint computations for offscreen tag listings.
+- **Centralized Language Indexing**: Grouped Spanish-language and other non-English resources under their own language headings (e.g. `## Spanish Content`) in the tag index page.
+
+### Changed
+- **Taxonomy Table Color Consistency**: Aligned the `[SPANISH CONTENT]` tag color to `md-tag--warning` (orange) inside the home page taxonomy table.
+- **Clickable Filter Anchors**: Updated the "Maturity Taxonomy" homepage table to point directly to the correct slug anchors in the technical tags index (e.g. `./tags/#spanish-content`).
+
+### Fixed
+- **Tags Page Performance Lag**: Excluded `v2_filter.js` from executing on the tags index page, resolving browser lockups and main-thread blocking caused by looping over 15,000 DOM elements.
+- **Duplicate Type Tags**: Prevented redundant double-rendering of resource type tags (e.g. `[GUIDE]`) when they are already listed in the resource's tag metadata.
+
 ## [[2.5.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.0) - 2026-06-18
 
 ### Added
