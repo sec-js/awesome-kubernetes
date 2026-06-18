@@ -191,7 +191,7 @@ class V2VisionEngine:
                 if not file.endswith(".md") or file == "index.md": continue
                 path = os.path.join(root, file)
                 with open(path, "r") as f: content = f.read()
-                matches = re.finditer(r'^\s*-\s*\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
+                matches = re.finditer(r'^\s*-\s*(?:\*\*\(\d{4}\)\*\*\s+)?\[([^\]]+)\]\(([^\)]+)\)(.*?(?:\n\s{2,}.*)*)', content, re.MULTILINE)
                 for m in matches:
                     title, url, full_desc = m.groups()
                     if not url.startswith(("http", "mailto", "#")):

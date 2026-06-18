@@ -220,7 +220,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 

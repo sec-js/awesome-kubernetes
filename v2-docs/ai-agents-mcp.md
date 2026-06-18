@@ -8,6 +8,11 @@
 
 ## Table of Contents
 
+1. [AI and Agents](#ai-and-agents)
+  - [Environments](#environments)
+    - [Claude](#claude)
+  - [Frameworks](#frameworks)
+    - [Google Cloud](#google-cloud)
 1. [AI Engineering](#ai-engineering)
   - [AI Agents](#ai-agents)
     - [Web Automation](#web-automation)
@@ -17,7 +22,7 @@
     - [Architecture](#architecture)
     - [Awesome Lists](#awesome-lists)
     - [Developer Experience](#developer-experience-1)
-    - [Google Cloud](#google-cloud)
+    - [Google Cloud](#google-cloud-1)
     - [Official Servers](#official-servers)
     - [Specifications](#specifications)
 1. [AI Infrastructure](#ai-infrastructure)
@@ -45,6 +50,20 @@
   - [AI Tools](#ai-tools)
     - [Claude Code](#claude-code-1)
 
+## AI and Agents
+
+### Environments
+
+#### Claude
+
+  - **(2025)** [==docs.anthropic.com: Claude Code CLI==](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering.
+Claude Code can read codebases, execute commands, run tests, and manage git workflows directly in terminal environments.
+### Frameworks
+
+#### Google Cloud
+
+  - **(2026)** [==antigravity.google: Google Antigravity Agentic Platform==](https://antigravity.google) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents.
+Enables developers to transition from local prototype builds to secure GKE production environments and leverage the Gemini Enterprise Agent Platform.
 ## AI Engineering
 
 ### AI Agents
@@ -68,7 +87,7 @@
 #### Developer Experience (1)
 
   - **(2025)** [MCPBundles](https://www.mcpbundles.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MCPBundles is a discovery and packaging platform designed to bundle various Model Context Protocol servers for rapid deployment. It simplifies agentic application building by providing curated, pre-configured groupings of tools (e.g., database drivers, git utilities, API endpoints) that can be integrated into AI hosts in a single setup operation.
-#### Google Cloud
+#### Google Cloud (1)
 
   - **(2025)** [Google Cloud Managed MCP](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-managed-mcp-for-gemini) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Cloud's managed solution for Model Context Protocol, allowing enterprise Gemini models to safely interact with local data sources and external enterprise systems. By hosting and scaling MCP servers inside Google's managed environment, it minimizes operational overhead while securing transactional agentic workflows with native cloud IAM.
 #### Official Servers

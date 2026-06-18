@@ -84,6 +84,9 @@
 1. [Developer Experience](#developer-experience)
   - [AI-Assisted Coding](#ai-assisted-coding)
     - [Claude Code](#claude-code)
+1. [Developer Productivity](#developer-productivity-1)
+  - [IDEs](#ides)
+    - [Cursor](#cursor)
 1. [Developer Tooling](#developer-tooling)
   - [AI Code Assistants](#ai-code-assistants)
     - [Effort Frameworks](#effort-frameworks)
@@ -114,7 +117,7 @@
     - [Agent Integration](#agent-integration)
 1. [Software Engineering](#software-engineering)
   - [AI Tools](#ai-tools)
-    - [Developer Productivity](#developer-productivity-1)
+    - [Developer Productivity](#developer-productivity-2)
   - [AI-Assisted Development](#ai-assisted-development)
     - [CLI Tools](#cli-tools)
     - [GitHub Copilot](#github-copilot)
@@ -333,6 +336,13 @@
 #### Claude Code
 
   - **(2025)** [==Claude Code Best Practice==](https://github.com/shanraisshan/claude-code-best-practice) <span class='md-tag md-tag--info'>⭐ 57660</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-26ea52d5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 3 L 50 2" fill="none" stroke="url(#spark-grad-26ea52d5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Curated collection of best practices, system prompts, and architecture layouts for Claude Code. Live Grounding: Explores advanced CLI-driven agent workflows, highlighting configuration optimizations, shell integration strategies, and secure execution configurations in local and remote environments.
+## Developer Productivity (1)
+
+### IDEs
+
+#### Cursor
+
+  - **(2025)** [==cursor.com: Cursor AI Code Editor==](https://cursor.com) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier AI-first code editor, built as a fork of VS Code, offering features like Cursor Tab (smart autocomplete), Cmd+K (inline edits), Composer (multi-file agentic code generation), and deep codebase indexing.
 ## Developer Tooling
 
 ### AI Code Assistants
@@ -406,7 +416,7 @@
 
 ### AI Tools
 
-#### Developer Productivity (1)
+#### Developer Productivity (2)
 
   - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
 ### AI-Assisted Development
