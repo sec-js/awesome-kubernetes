@@ -17,7 +17,7 @@
 
 #### Resources
 
-  - **(2025)** [RESOURCE HUB: Eventos y webinars de AWS](https://aws.amazon.com/events) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — The main catalog of upcoming and archived AWS training webinars, events, and bootcamps, detailing multi-region strategy patterns, cloud migration best practices, and serverless architectures.
+  - **(2025)** [RESOURCE HUB: Eventos y webinars de AWS](https://aws.amazon.com/events) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — The main catalog of upcoming and archived AWS training webinars, events, and bootcamps, detailing multi-region strategy patterns, cloud migration best practices, and serverless architectures.
 ### AWS Regional Infrastructure
 
 #### Spain (1)
@@ -29,5 +29,5 @@
   - **(2022)** [techunwrapped.com: Spain becomes a Cloud Region in 2022](https://techunwrapped.com/spain-becomes-a-cloud-region-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical news review analyzing the impact of Spain establishing its first sovereign AWS Cloud Region in 2022, detailing latency improvements and local enterprise hosting advantages.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [Azure](./azure.md)
 

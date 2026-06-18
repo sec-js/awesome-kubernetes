@@ -131,7 +131,9 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         f"Cloud Native SRE Score: {scores['Cloud Native SRE']} | Justification: {justifications['Cloud Native SRE']}\n"
         f"AI Platform Engineer Score: {scores['AI Platform Engineer']} | Justification: {justifications['AI Platform Engineer']}\n\n"
         "Generate a final, high-density, professional technical summary (2-5 sentences, HSL-themed style, no generic statements).\n"
-        "Select the appropriate subset of tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
+        "Select the appropriate subset of tags. You MUST include:\n"
+        "1. Standard maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
+        "2. Any relevant fine-grained technology stack tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
         "Respond ONLY in valid JSON format: {\"summary\": \"refined summary...\", \"tags\": [\"...\"]}"
     )
     

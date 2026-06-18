@@ -99,6 +99,9 @@
     - [Developer Wellness](#developer-wellness-1)
   - [Team Culture](#team-culture-1)
     - [Employee Engagement](#employee-engagement)
+1. [Security](#security-1)
+  - [Container Security](#container-security)
+    - [DevSecOps](#devsecops)
 
 ## Architectural Foundations
 
@@ -137,7 +140,7 @@
 
 #### Git Manipulation
 
-  - **(2015)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A shell-based contribution graphic simulation script. Evaluated as a legacy tool under Minimum Viable Quality metrics due to lack of active commits since 2015. Retained only to showcase historical Git metadata manipulation patterns.
+  - **(2015)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A shell-based contribution graphic simulation script. Evaluated as a legacy tool under Minimum Viable Quality metrics due to lack of active commits since 2015. Retained only to showcase historical Git metadata manipulation patterns.
 ## Engineering Leadership
 
 ### Remote Work
@@ -161,7 +164,7 @@
 
 #### Market Shifts
 
-  - **(2022)** [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A data-driven Stack Overflow analysis investigating developer career changes. It links high attrition directly to poor developer experience (DX), administrative friction, and legacy tool stacks, providing actionable targets for engineering leaders.
+  - **(2022)** [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A data-driven Stack Overflow analysis investigating developer career changes. It links high attrition directly to poor developer experience (DX), administrative friction, and legacy tool stacks, providing actionable targets for engineering leaders.
 ### Labor Trends
 
 #### Market Contraction
@@ -321,7 +324,7 @@
 
 #### Contract Analysis
 
-  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
+  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
 #### Remote Work (2)
 
   - **(2022)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the debate surrounding salary adjustment based on geographic location for teleworkers. Live Grounding: Discusses the socioeconomic and architectural impact of localized vs. flat salary structures in a remote-first tech ecosystem, emphasizing how cost-of-living adjustments affect developer retention and organizational design.
@@ -359,13 +362,20 @@
 
 #### Developer Wellness (1)
 
-  - **(2023)** [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight: Exposes the psychological pressure and anxiety levels prompting cybersecurity experts to consider resigning. Live Grounding: Highlights how the relentless pace of zero-day exploits, legacy technical debt, and continuous delivery pipelines have elevated mental health issues into a critical operational security risk.
+  - **(2023)** [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: Exposes the psychological pressure and anxiety levels prompting cybersecurity experts to consider resigning. Live Grounding: Highlights how the relentless pace of zero-day exploits, legacy technical debt, and continuous delivery pipelines have elevated mental health issues into a critical operational security risk.
 ### Team Culture (1)
 
 #### Employee Engagement
 
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
+## Security (1)
+
+### Container Security
+
+#### DevSecOps
+
+  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Digital Money](./digital-money.md) | [HR](./hr.md)
 

@@ -27,9 +27,6 @@
     - [Business Case](#business-case)
   - [Multimedia](#multimedia)
     - [Provider Comparisons](#provider-comparisons)
-1. [Cloud Providers](#cloud-providers)
-  - [Alternative Clouds](#alternative-clouds)
-    - [Kubernetes DOKS](#kubernetes-doks)
 1. [Cloud Strategy](#cloud-strategy)
   - [Architecture](#architecture)
     - [Multi-Cloud Assessment](#multi-cloud-assessment)
@@ -142,13 +139,6 @@
 #### Provider Comparisons
 
   - **(2026)** [youtube: A Cloud Guru - Cloud Provider Comparisons 🌟](https://www.youtube.com/playlist?app=desktop&list=PLI1_CQcV71RnBebKm_tH1uKYI3WxkM2TT)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated Pluralsight/A Cloud Guru video playlist featuring structural and strategic comparisons of hyperscalers. It covers pricing structures, operational overhead, and developer experience metrics. Live grounding confirms its baseline instructional value for junior cloud engineers.
-## Cloud Providers
-
-### Alternative Clouds
-
-#### Kubernetes DOKS
-
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 ## Cloud Strategy
 
 ### Architecture
@@ -253,7 +243,7 @@
 
 #### Azure Integration
 
-  - **(2026)** [OpenShift in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A technical integration document detailing Azure Red Hat OpenShift (ARO), a fully managed, joint-engineered enterprise OpenShift platform. It reviews network design, private endpoints, and integration with Azure Active Directory. Live grounding highlights its stability for running hybrid legacy workloads.
+  - **(2026)** [OpenShift in Azure](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/openshift-container-platform-4x) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A technical integration document detailing Azure Red Hat OpenShift (ARO), a fully managed, joint-engineered enterprise OpenShift platform. It reviews network design, private endpoints, and integration with Azure Active Directory. Live grounding highlights its stability for running hybrid legacy workloads.
 #### Enterprise Costs
 
   - **(2026)** [Openshift.com pricing](https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official licensing, pricing, and deployment cost matrix for its enterprise-grade OpenShift container platform. It outlines bare-metal setups, hybrid pricing, and cloud integrations. Live grounding validates OpenShift as the premier choice for highly regulated, security-critical multi-cloud microservices.
@@ -261,8 +251,8 @@
 
 #### Platform Operations
 
-  - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
+  - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

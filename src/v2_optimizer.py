@@ -62,7 +62,9 @@ class V2VisionEngine:
             "- Summaries MUST be high-density: Include architectural value, key features, and technical significance.\n"
             "- Format: Use paragraphs and bullet points for complex tools. Aim for 2-5 sentences of depth.\n"
             "PHASE 5: ADVANCED MATURITY TAGGING\n"
-            "- Assign 1 to 3 tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
+            "- Assign tags. You MUST include:\n"
+            "  1. 1 to 2 maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
+            "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
         )
         self.inventory = self._load_inventory()
         self.maturity_audit = []
@@ -135,12 +137,13 @@ class V2VisionEngine:
         
         # --- SURGICAL GARBAGE COLLECTION ---
         # Track every file we generate
-        generated_files = {"index.md", "audit-log.md", "videos.md"}
+        generated_files = {"index.md", "audit-log.md", "videos.md", "tags.md"}
         for f_name in v2_data.keys():
             generated_files.add(f_name)
 
 
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
+        await self._generate_global_tag_index(v2_data)
         await self._sync_enterprise_navigation(v2_data)
         
         # Delete only orphaned files
@@ -550,8 +553,17 @@ class V2VisionEngine:
         
         valid_set = {"[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]", "[EMERGING]", "[GUIDE]", "[CASE STUDY]", "[COMMUNITY-TOOL]", "[LEGACY]"}
         
-        # Start with filtered AI tags
-        tags = set([t for t in ai_tags if t in valid_set])
+        # Start with filtered AI tags and custom tech stack tags
+        tags = set()
+        for t in ai_tags:
+            if not isinstance(t, str): continue
+            t_stripped = t.strip()
+            if t_stripped in valid_set:
+                tags.add(t_stripped)
+            elif t_stripped.startswith("[") and t_stripped.endswith("]"):
+                inner = t_stripped[1:-1].strip()
+                if inner.isupper() and all(c.isalnum() or c in "_-" for c in inner):
+                    tags.add(t_stripped)
         
         # 1. GitHub Objective Reality (Mandate 43)
         raw_gh = item.get("gh_stars", 0)
@@ -763,7 +775,18 @@ class V2VisionEngine:
             rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
             tag_html = ""
             for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
-                color = "success" if "STANDARD" in tag else "warning" if "EMERGING" in tag else "secondary" if "CASE STUDY" in tag or "GUIDE" in tag else "info"
+                if tag in ["[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]"]:
+                    color = "success"
+                elif tag == "[EMERGING]":
+                    color = "warning"
+                elif tag == "[LEGACY]":
+                    color = "critical"
+                elif tag in ["[GUIDE]", "[CASE STUDY]"]:
+                    color = "secondary"
+                elif tag == "[COMMUNITY-TOOL]":
+                    color = "info"
+                else:
+                    color = "primary"
                 tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
             
             # Apply Visual Highlighting based on stars
@@ -1075,6 +1098,80 @@ class V2VisionEngine:
             if md != existing_content:
                 with open(target_path, "w") as f: f.write(md)
 
+    async def _generate_global_tag_index(self, v2_structure: Dict[str, Dict]):
+        active_links = {}
+        def collect_links(node):
+            if "__links__" in node:
+                for l in node["__links__"]:
+                    active_links[normalize_url(l["url"])] = l
+            for k, v in node.items():
+                if k != "__links__" and isinstance(v, dict):
+                    collect_links(v)
+
+        for f_name, info in v2_structure.items():
+            collect_links(info["content"])
+
+        # Group by tags
+        by_tag = {}
+        for l in active_links.values():
+            for t in l.get("tags", []):
+                by_tag.setdefault(t, []).append(l)
+
+        # Sort tags
+        standard_order = [
+            "[DE FACTO STANDARD]",
+            "[ENTERPRISE-STABLE]",
+            "[EMERGING]",
+            "[GUIDE]",
+            "[CASE STUDY]",
+            "[COMMUNITY-TOOL]",
+            "[LEGACY]"
+        ]
+        
+        sorted_tags = []
+        for st in standard_order:
+            if st in by_tag:
+                sorted_tags.append(st)
+        
+        custom_tags = sorted([t for t in by_tag.keys() if t not in standard_order])
+        sorted_tags.extend(custom_tags)
+
+        md = "# Technical Tags Index\n\n!!! info \"Universal Tag Index\"\n    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
+        
+        # Build TOC
+        toc_lines = []
+        for tag in sorted_tags:
+            tag_display = tag.replace("[", "").replace("]", "").replace("&", "and").title()
+            if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
+                tag_display = tag_display.upper()
+            slug = tag_display.lower().replace(" ", "-")
+            slug = re.sub(r'[^a-z0-9-]', '', slug)
+            slug = re.sub(r'-+', '-', slug).strip('-')
+            toc_lines.append(f"1. [{tag_display}](#{slug}) ({len(by_tag[tag])} resources)")
+            
+        md += "## Table of Contents\n\n" + "\n".join(toc_lines) + "\n\n"
+
+        for tag in sorted_tags:
+            tag_display = tag.replace("[", "").replace("]", "").replace("&", "and").title()
+            if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
+                tag_display = tag_display.upper()
+            
+            md += f"## {tag_display}\n\n"
+            # Sort links under this tag by impact stars and then by year
+            sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            for l in sorted_links:
+                md += await self._render_single_link(l, is_intro=False)
+            md += "\n"
+
+        target_path = os.path.join(V2_DIR, "tags.md")
+        
+        # Smart Write
+        existing_content = ""
+        if os.path.exists(target_path):
+            with open(target_path, "r") as f: existing_content = f.read()
+        if md != existing_content:
+            with open(target_path, "w") as f: f.write(md)
+
     async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
@@ -1082,6 +1179,7 @@ class V2VisionEngine:
                 "nav:", 
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
                 "  - \"The 2026 Vision\": index.md",
+                "  - \"Technical Tags\": tags.md",
                 "  - \"Agentic Video Hub\":",
                 "      - videos/index.md",
                 "      - \"AI Agents and MCP\": videos/ai-agents.md",

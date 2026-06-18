@@ -44,9 +44,12 @@
     - [Object State Monitoring](#object-state-monitoring)
   - [Workload Monitoring](#workload-monitoring)
     - [Job and CronJob Execution](#job-and-cronjob-execution)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Helm](#helm)
-    - [Prometheus Deployment](#prometheus-deployment)
+1. [Infrastructure](#infrastructure)
+  - [Hardware](#hardware)
+    - [GPU Virtualization](#gpu-virtualization)
+1. [Kubernetes](#kubernetes-2)
+  - [Resource Management](#resource-management)
+    - [CPU Throttling](#cpu-throttling)
 1. [Log Management and Diagnostics](#log-management-and-diagnostics)
   - [Audit Logging](#audit-logging)
     - [Compliance and Forensics](#compliance-and-forensics)
@@ -67,7 +70,7 @@
     - [eBPF and NetObserv](#ebpf-and-netobserv)
   - [Reliability Engineering](#reliability-engineering)
     - [eBPF-Based Telemetry](#ebpf-based-telemetry-1)
-  - [Resource Management](#resource-management)
+  - [Resource Management](#resource-management-1)
     - [Sizing and Quotas](#sizing-and-quotas)
   - [Telemetry Protocols](#telemetry-protocols-1)
     - [OpenTelemetry Runtime](#opentelemetry-runtime)
@@ -255,19 +258,26 @@
 
 #### Object State Monitoring
 
-  - **(2024)** [**kube-state-metrics 🌟**](https://github.com/kubernetes/kube-state-metrics) <span class='md-tag md-tag--info'>⭐ 6137</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7fd1fac3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 5 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-7fd1fac3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A vital system service that translates raw Kubernetes API server state data (e.g., deployments, pod counts, resource limits, cronjobs) into high-fidelity Prometheus metrics. Unlike cAdvisor, which captures resource usage, kube-state-metrics models cluster resource orchestration configurations.
+  - **(2024)** [**kube-state-metrics 🌟**](https://github.com/kubernetes/kube-state-metrics) <span class='md-tag md-tag--info'>⭐ 6137</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7fd1fac3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 5 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-7fd1fac3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A vital system service that translates raw Kubernetes API server state data (e.g., deployments, pod counts, resource limits, cronjobs) into high-fidelity Prometheus metrics. Unlike cAdvisor, which captures resource usage, kube-state-metrics models cluster resource orchestration configurations.
 ### Workload Monitoring
 
 #### Job and CronJob Execution
 
   - **(2021)** [itnext.io: Monitoring Kubernetes Jobs](https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targets the specific challenges of monitoring short-lived batch jobs and CronJobs inside Kubernetes. Outlines Prometheus query logic (PromQL) to detect run execution duration, failure codes, and long-running abandoned pods that bypass typical active deployment scraping rules.
-## Infrastructure as Code
+## Infrastructure
 
-### Helm
+### Hardware
 
-#### Prometheus Deployment
+#### GPU Virtualization
 
-  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
+  - **(2022)** [Sharing a NVIDIA GPU Between Pods in Kubernetes](https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.
+## Kubernetes (2)
+
+### Resource Management
+
+#### CPU Throttling
+
+  - **(2024)** [CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions](https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.
 ## Log Management and Diagnostics
 
 ### Audit Logging
@@ -282,7 +292,7 @@
 
 #### Terminal Interfaces
 
-  - **(2020)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b8d76944" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 11 L 30 8 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-b8d76944)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — An interactive Terminal User Interface (TUI) written in Go designed to query and stream local Kubernetes container logs. Live Grounding Note: Because development has remained inactive for years, it is considered legacy; modern engineers typically use tools like K9s or Stern in active production.
+  - **(2020)** [bul: Interactive TUI for Exploring Kubernetes Container Logs](https://github.com/ynqa/bul) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b8d76944" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 11 L 30 8 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-b8d76944)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An interactive Terminal User Interface (TUI) written in Go designed to query and stream local Kubernetes container logs. Live Grounding Note: Because development has remained inactive for years, it is considered legacy; modern engineers typically use tools like K9s or Stern in active production.
 ### Log Aggregation (1)
 
 #### EFK Stack Deployments
@@ -321,7 +331,7 @@
 #### eBPF-Based Telemetry (1)
 
   - **(2023)** [isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?](https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.
-### Resource Management
+### Resource Management (1)
 
 #### Sizing and Quotas
 
@@ -345,7 +355,7 @@
 
 #### Collaboration Platforms
 
-  - **(2019)** [**botkube.io**](https://botkube.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Botkube is a collaboration and ChatOps tool designed to integrate Kubernetes clusters directly with popular messaging channels like Slack, Discord, and Teams. It allows debugging, running kubectl commands, and monitoring cluster alerts securely from chat interfaces.
+  - **(2019)** [**botkube.io**](https://botkube.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Botkube is a collaboration and ChatOps tool designed to integrate Kubernetes clusters directly with popular messaging channels like Slack, Discord, and Teams. It allows debugging, running kubectl commands, and monitoring cluster alerts securely from chat interfaces.
 ### Logging
 
 #### Elasticsearch
@@ -376,11 +386,11 @@
 
 #### Deep Packet Inspection
 
-  - **(2026)** [**kubeshark/kubeshark**](https://github.com/kubeshark/kubeshark) <span class='md-tag md-tag--info'>⭐ 11951</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b77f8dbb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 9 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-b77f8dbb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An open-source, eBPF-driven network monitoring and L7 protocol debugging engine offering Wireshark-like inspection for Kubernetes. Captures, decodes, and records TCP/UDP traffic at the kernel level across dynamic microservices.
+  - **(2026)** [**kubeshark/kubeshark**](https://github.com/kubeshark/kubeshark) <span class='md-tag md-tag--info'>⭐ 11951</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b77f8dbb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 5 L 30 9 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-b77f8dbb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source, eBPF-driven network monitoring and L7 protocol debugging engine offering Wireshark-like inspection for Kubernetes. Captures, decodes, and records TCP/UDP traffic at the kernel level across dynamic microservices.
   - **(2026)** [kubeshark.co](https://www.immo-pop.com/login)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise portal for Kubeshark, a powerful, eBPF-powered real-time network analyzer tailored for Kubernetes. Enables seamless API traffic debugging and security scanning across all network interfaces without introducing sidecars or proxy overhead.
 #### eBPF Platform
 
-  - **(2026)** [github.com/microsoft/retina](https://github.com/microsoft/retina) <span class='md-tag md-tag--info'>⭐ 3144</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0caeed3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0caeed3f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Microsoft's eBPF-powered cloud-native network observability platform. Delivers deep distributed packet captures, connection tracking, and granular network telemetry for debugging multi-cluster Kubernetes deployments.
+  - **(2026)** [github.com/microsoft/retina](https://github.com/microsoft/retina) <span class='md-tag md-tag--info'>⭐ 3144</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0caeed3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0caeed3f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microsoft's eBPF-powered cloud-native network observability platform. Delivers deep distributed packet captures, connection tracking, and granular network telemetry for debugging multi-cluster Kubernetes deployments.
 ### Security
 
 #### Certificate Monitoring
@@ -397,13 +407,13 @@
 
 #### Application Metrics
 
-  - **(2024)** [**grafana.com: A beginner's guide to Kubernetes application monitoring**](https://grafana.com/blog/a-beginners-guide-to-kubernetes-application-monitoring) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Highly accessible guide to setting up application-level observability within Kubernetes. Covers instrumenting code with client libraries, configuring target discovery, and mapping RED (Rate, Errors, Duration) metrics.
+  - **(2024)** [**grafana.com: A beginner's guide to Kubernetes application monitoring**](https://grafana.com/blog/a-beginners-guide-to-kubernetes-application-monitoring) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Highly accessible guide to setting up application-level observability within Kubernetes. Covers instrumenting code with client libraries, configuring target discovery, and mapping RED (Rate, Errors, Duration) metrics.
 #### FinOps and Resources
 
-  - **(2024)** [**grafana.com: How to optimize resource utilization with Kubernetes Monitoring for Grafana Cloud 🌟**](https://grafana.com/blog/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Explores automated resource optimization strategies through Grafana Cloud monitoring. Uses cluster CPU and Memory utilization analytics to identify over-provisioned namespaces, enabling significant cost reduction in microservice architectures.
+  - **(2024)** [**grafana.com: How to optimize resource utilization with Kubernetes Monitoring for Grafana Cloud 🌟**](https://grafana.com/blog/how-to-optimize-resource-utilization-with-kubernetes-monitoring-for-grafana-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores automated resource optimization strategies through Grafana Cloud monitoring. Uses cluster CPU and Memory utilization analytics to identify over-provisioned namespaces, enabling significant cost reduction in microservice architectures.
 #### Kubernetes Monitoring
 
-  - **(2024)** [**grafana.com: Introducing Kubernetes Monitoring in Grafana Cloud**](https://grafana.com/blog/introducing-kubernetes-monitoring-in-grafana-cloud) 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Introduces Grafana Cloud's integrated Kubernetes monitoring platform. Showcases automated cluster discovery, pre-configured dashboards, and seamless Prometheus/Grafana integration for instant visibility into infrastructure and workload health.
+  - **(2024)** [**grafana.com: Introducing Kubernetes Monitoring in Grafana Cloud**](https://grafana.com/blog/introducing-kubernetes-monitoring-in-grafana-cloud) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces Grafana Cloud's integrated Kubernetes monitoring platform. Showcases automated cluster discovery, pre-configured dashboards, and seamless Prometheus/Grafana integration for instant visibility into infrastructure and workload health.
 ### Prometheus
 
 #### High Cardinality
@@ -437,5 +447,5 @@
   - **(2022)** [betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟](https://betterstack.com/community/comparisons/kubernetes-monitoring-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

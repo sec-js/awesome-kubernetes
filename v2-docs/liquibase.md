@@ -54,7 +54,7 @@
 
 #### Liquibase (1)
 
-  - **(2023)** [**percona: Database Schema Management Via Liquibase**](https://percona.community/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Architectural guide for automating relational database migrations using Liquibase in CI/CD chains. Evaluates declarative XML/SQL changeset formats, execution tracking setups, and rollback configurations necessary to safely release database modifications alongside microservices.
+  - **(2023)** [**percona: Database Schema Management Via Liquibase**](https://percona.community/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Architectural guide for automating relational database migrations using Liquibase in CI/CD chains. Evaluates declarative XML/SQL changeset formats, execution tracking setups, and rollback configurations necessary to safely release database modifications alongside microservices.
 ## Data Architecture
 
 ### Database Migrations
@@ -88,5 +88,5 @@
   - **(2023)** [martinfowler.com](https://martinfowler.com/articles/evodb.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal essay on evolutionary database architectures. Highlights methods for treating database schemas as declarative code, versioning migrations, and automating data migrations safely inside unified application delivery pipelines.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

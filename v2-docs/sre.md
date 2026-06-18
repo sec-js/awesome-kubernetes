@@ -120,7 +120,7 @@
 
 #### Progressive Delivery
 
-  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Continuous Delivery
 
 ### Feature Management
@@ -284,5 +284,5 @@
   - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Developerportals](./developerportals.md) | [Chaos Engineering](./chaos-engineering.md)
 

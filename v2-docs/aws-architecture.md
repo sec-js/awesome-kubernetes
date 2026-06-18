@@ -81,7 +81,7 @@
   - **(2021)** [AWS Architecture Blog: Use templated answers to perform Well-Architected reviews at scale](https://aws.amazon.com/blogs/architecture/use-templated-answers-to-perform-well-architected-reviews-at-scale) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review detailing templated governance answers to scale AWS Well-Architected reviews. Offers architects a mechanism to automate and standardise security compliance reviews across decentralized environments.
 #### Legacy Systems
 
-  - **(2022)** [cbui.dev: Every company has an "old" production AWS account](https://www.cbui.dev/every-company-has-an-old-production-aws-account) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores patterns for managing single legacy production accounts containing unmapped dependencies. Details modernization pathways using AWS Organizations and VPC peering strategies.
+  - **(2022)** [cbui.dev: Every company has an "old" production AWS account](https://www.cbui.dev/every-company-has-an-old-production-aws-account) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores patterns for managing single legacy production accounts containing unmapped dependencies. Details modernization pathways using AWS Organizations and VPC peering strategies.
 #### Security
 
   - **(2021)** [thenewstack.io: Avoid the 5 Most Common Amazon Web Services Misconfigurations in Build-Time](https://thenewstack.io/avoid-the-5-most-common-amazon-web-services-misconfigurations-in-build-time) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on build-time CloudFormation and Terraform configuration errors. Outlines practical strategies for shifting infrastructure security check operations left into standard CI/CD pipelines.
@@ -166,8 +166,8 @@
 
 #### Microservice Migration
 
-  - **(2023)** [AWS App2Container: Migrate your Applications to Containers at Scale](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Introduces AWS App2Container, a tool that automates the migration of legacy .NET and Java web applications into containerized structures ready for deployment on Amazon ECS or EKS.
-  - **(2023)** [Let’s Architect! Architecting microservices with containers](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers)  <span class='md-tag md-tag--info'>[LEGACY]</span> — A foundational guide for decoupling large legacy applications. Explores container hosting options on ECS and EKS, microservice discovery patterns, and inter-service security standards.
+  - **(2023)** [AWS App2Container: Migrate your Applications to Containers at Scale](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Introduces AWS App2Container, a tool that automates the migration of legacy .NET and Java web applications into containerized structures ready for deployment on Amazon ECS or EKS.
+  - **(2023)** [Let’s Architect! Architecting microservices with containers](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A foundational guide for decoupling large legacy applications. Explores container hosting options on ECS and EKS, microservice discovery patterns, and inter-service security standards.
 ## Software Engineering
 
 ### Frontend Architecture
@@ -177,5 +177,5 @@
   - **(2021)** [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Adapts Robert C. Martin's Clean Architecture principles to modern client-side frontend applications. Focuses on isolation of core business domains, UI frameworks, and data sources via explicit dependency inversion layers, simplifying testing and future framework transitions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

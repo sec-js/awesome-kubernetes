@@ -28,9 +28,6 @@
 1. [DevOps Automation and Modern Systems Engineering](#devops-automation-and-modern-systems-engineering)
   - [Software Engineering Principles](#software-engineering-principles)
     - [Developer Cognitive Load](#developer-cognitive-load)
-1. [Developer Productivity](#developer-productivity)
-  - [Integrated Development Environments](#integrated-development-environments)
-    - [Rust](#rust)
 1. [Developer Tooling](#developer-tooling)
   - [CLI Frameworks](#cli-frameworks)
     - [Oclif](#oclif)
@@ -53,7 +50,7 @@
     - [Dhall](#dhall)
   - [Design Patterns](#design-patterns)
     - [Refactoring](#refactoring)
-  - [Developer Productivity](#developer-productivity-1)
+  - [Developer Productivity](#developer-productivity)
     - [Learning Paths](#learning-paths-1)
     - [Resources](#resources)
   - [Education](#education)
@@ -125,7 +122,7 @@
 
 #### Desktop Clients
 
-  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
+  - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
 ## DevOps and CICD
 
 ### Automated Code Review
@@ -140,13 +137,6 @@
 #### Developer Cognitive Load
 
   - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
-## Developer Productivity
-
-### Integrated Development Environments
-
-#### Rust
-
-  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ## Developer Tooling
 
 ### CLI Frameworks
@@ -200,7 +190,7 @@
 #### Refactoring
 
   - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional digital guide outlining classical Creational, Structural, and Behavioral software design patterns. Provides clean, production-ready code examples in Go, Python, Java, and TypeScript alongside practical refactoring advice.
-### Developer Productivity (1)
+### Developer Productivity
 
 #### Learning Paths (1)
 
@@ -222,7 +212,7 @@
   - **(2022)** [trio.dev: Angular vs React: Is Angular Dead?](https://trio.dev/angular-vs-react) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative study evaluating the architectural paradigms of Angular vs. React. Evaluates runtime performance, state management approaches, scaling potential, and long-term maintenance overhead in large-scale enterprise portals.
 #### Learning Paths (2)
 
-  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3419045" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e3419045)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
+  - **(2024)** [**El camino del Frontend Developer**](https://github.com/mrcodedev/frontend-developer-resources) <span class='md-tag md-tag--info'>⭐ 3536</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3419045" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 8 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e3419045)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An extensive frontend development roadmap repository, detailing system tools, CSS architectures, modern frameworks (React, Vue, Angular), and build systems (Vite, Webpack) required for client engineering.
 #### Trending
 
   - **(2021)** [dev.to: 🚀10 Trending projects on GitHub for web developers - 3rd December 2021](https://dev.to/iainfreestone/10-trending-projects-on-github-for-web-developers-3rd-december-2021-12f5) <span class='md-tag md-tag--warning'>[JAVASCRIPT/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Weekly technical snapshot capturing ten trending open-source projects on GitHub, focusing on next-generation web platforms, development libraries, and modular application utilities.
@@ -249,5 +239,5 @@
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

@@ -49,6 +49,7 @@
   - [Cloud-Native Java](#cloud-native-java)
     - [Advanced Microservices](#advanced-microservices)
     - [Spring Boot Microservices](#spring-boot-microservices)
+    - [Tanzu Framework](#tanzu-framework)
   - [Containerization](#containerization-1)
     - [Java Spring Boot](#java-spring-boot)
   - [Developer Tools](#developer-tools)
@@ -156,6 +157,9 @@
   - [Curriculum](#curriculum)
     - [Cloud Engineering](#cloud-engineering)
 1. [Cloud Native](#cloud-native)
+  - [Continuous Integration](#continuous-integration)
+    - [CI-CD Pipelines](#ci-cd-pipelines)
+      - [Red Hat OpenShift](#red-hat-openshift)
   - [Security](#security)
     - [Policy Enforcement](#policy-enforcement)
 1. [Cloud Native Architecture](#cloud-native-architecture)
@@ -170,7 +174,7 @@
   - [Observability and Testing](#observability-and-testing)
     - [Pod Mocking](#pod-mocking)
 1. [Cloud Native Platforms](#cloud-native-platforms)
-  - [Red Hat OpenShift](#red-hat-openshift)
+  - [Red Hat OpenShift](#red-hat-openshift-1)
     - [Automation Grading](#automation-grading)
       - [Academic Homework](#academic-homework)
     - [Jenkins Pipelines](#jenkins-pipelines)
@@ -220,6 +224,9 @@
     - [Kubernetes Playgrounds](#kubernetes-playgrounds)
     - [Kubernetes Workshops](#kubernetes-workshops)
 1. [Cloud-Native Java](#cloud-native-java-1)
+  - [Build Tools](#build-tools)
+    - [Eclipse JKube](#eclipse-jkube)
+      - [Developer Workflow](#developer-workflow)
   - [Runtimes](#runtimes)
     - [JBoss EAP](#jboss-eap)
       - [MicroProfile](#microprofile)
@@ -252,6 +259,8 @@
 1. [Database and Storage](#database-and-storage)
   - [Stateful Workloads](#stateful-workloads)
     - [PostgreSQL](#postgresql)
+  - [Storage Infrastructure](#storage-infrastructure)
+    - [Persistent Volumes](#persistent-volumes)
 1. [DevOps](#devops)
   - [CICD](#cicd-1)
     - [GitHub Actions](#github-actions-2)
@@ -272,6 +281,7 @@
     - [Infrastructure Provisioning](#infrastructure-provisioning)
       - [Crossplane Spinnaker Integration](#crossplane-spinnaker-integration)
     - [Spinnaker Setup](#spinnaker-setup)
+      - [Git Integration](#git-integration)
       - [Kubernetes Deployment Models](#kubernetes-deployment-models)
       - [Kubernetes Native Deployment](#kubernetes-native-deployment)
       - [Orchestration Concepts](#orchestration-concepts)
@@ -293,6 +303,7 @@
   - [Pipeline Execution Engine](#pipeline-execution-engine)
     - [Groovy CPS](#groovy-cps)
       - [Continuation Passing Style](#continuation-passing-style)
+      - [JobDSL API Reference](#jobdsl-api-reference)
 1. [DevOps and CICD](#devops-and-cicd)
   - [AWS EKS](#aws-eks-2)
     - [CodePipeline](#codepipeline)
@@ -416,6 +427,7 @@
   - [Cost Optimization and Metering](#cost-optimization-and-metering)
     - [Metering Operator](#metering-operator)
   - [Enterprise Cluster Management](#enterprise-cluster-management)
+    - [Ansible and ACM](#ansible-and-acm)
     - [OKD Community Platform](#okd-community-platform)
     - [Red Hat ACM](#red-hat-acm)
   - [Ingress and Routing](#ingress-and-routing)
@@ -451,6 +463,8 @@
     - [Kubernetes Provider](#kubernetes-provider)
     - [Learning Platforms](#learning-platforms)
 1. [Infrastructure as Code and CI-CD](#infrastructure-as-code-and-ci-cd)
+  - [CI-CD Pipelines](#ci-cd-pipelines-1)
+    - [Concourse CI](#concourse-ci)
   - [Configuration Management](#configuration-management)
     - [Ansible](#ansible)
     - [Ansible Galaxy](#ansible-galaxy)
@@ -458,7 +472,7 @@
     - [Ansible Tower](#ansible-tower)
     - [Ansible Workshops](#ansible-workshops)
   - [Developer Platforms](#developer-platforms-2)
-    - [CI-CD Pipelines](#ci-cd-pipelines)
+    - [CI-CD Pipelines](#ci-cd-pipelines-2)
   - [GitOps and Declarative Git](#gitops-and-declarative-git-1)
     - [Ansible and Helm](#ansible-and-helm)
 1. [Java Cloud Native](#java-cloud-native)
@@ -516,6 +530,8 @@
     - [Azure DevOps](#azure-devops-1)
   - [Custom Controller Patterns](#custom-controller-patterns)
     - [Kubernetes Operators](#kubernetes-operators)
+  - [Developer Experience](#developer-experience-2)
+    - [Red Hat Ecosystem](#red-hat-ecosystem-1)
   - [Enterprise Kubernetes](#enterprise-kubernetes)
     - [OpenShift](#openshift-3)
   - [GitOps and CI-CD](#gitops-and-ci-cd)
@@ -533,6 +549,8 @@
     - [Flux Ecosystem](#flux-ecosystem)
   - [Machine Learning Operations](#machine-learning-operations)
     - [OpenShift AI](#openshift-ai)
+  - [Security and Compliance](#security-and-compliance-1)
+    - [Public Sector](#public-sector)
 1. [Provisioning](#provisioning-3)
   - [Bootstrapping](#bootstrapping)
     - [Bare Metal](#bare-metal)
@@ -570,7 +588,7 @@
     - [Go Development](#go-development-1)
   - [Vulnerabilities](#vulnerabilities)
     - [Hacking Labs](#hacking-labs)
-1. [Security and Compliance](#security-and-compliance-1)
+1. [Security and Compliance](#security-and-compliance-2)
   - [Cloud Security Assessments](#cloud-security-assessments)
     - [AWS IAM Exploits](#aws-iam-exploits)
 1. [Security and Governance](#security-and-governance)
@@ -628,7 +646,7 @@
 
 #### Red Hat Fuse
 
-  - **(2021)** [developers.redhat.com: Message broker integration made simple with Red Hat Fuse](https://developers.redhat.com/blog/2021/01/08/message-broker-integration-made-simple-with-red-hat-fuse) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores enterprise application integration patterns (EIP) utilizing Red Hat Fuse. Translates message formats, routes real-time data pipelines, and interfaces legacy middleware brokers with modern cluster queues.
+  - **(2021)** [developers.redhat.com: Message broker integration made simple with Red Hat Fuse](https://developers.redhat.com/blog/2021/01/08/message-broker-integration-made-simple-with-red-hat-fuse) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores enterprise application integration patterns (EIP) utilizing Red Hat Fuse. Translates message formats, routes real-time data pipelines, and interfaces legacy middleware brokers with modern cluster queues.
 ### CICD Pipelines
 
 #### Multi-Cluster Deployments
@@ -656,7 +674,7 @@
   - **(2021)** [linuxtechlab.com: How to create a Dockerfile with some dockerfile examples](https://linuxtechlab.com/learn-create-dockerfile-example) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical walkthrough demonstrating how to construct secure, optimized, and multi-staged Dockerfiles. Discusses layer caching optimizations, base-image selection (e.g., Alpine vs. Debian), and security isolation options. (Live Grounding: Standard foundational knowledge that remains critical for building minimal, vulnerable-free runtime containers).
 #### Self-Hosted Apps
 
-  - **(2024)** [Mautic](https://github.com/mautic/docker-mautic) <span class='md-tag md-tag--warning'>[DOCKERFILE/SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Official Docker container setups for deploying Mautic, an open-source marketing automation platform, covering multi-container composition, persistent volumes, and database link configurations. (Live Grounding: A great example of migrating legacy monolithic PHP/MySQL stacks into structured OCI container configurations).
+  - **(2024)** [Mautic](https://github.com/mautic/docker-mautic) <span class='md-tag md-tag--warning'>[DOCKERFILE/SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Official Docker container setups for deploying Mautic, an open-source marketing automation platform, covering multi-container composition, persistent volumes, and database link configurations. (Live Grounding: A great example of migrating legacy monolithic PHP/MySQL stacks into structured OCI container configurations).
 ### Database Schema Management
 
 #### Liquibase Integration
@@ -679,7 +697,7 @@
 
 #### Migration Toolkit
 
-  - **(2020)** [Migration Toolkit for Applications: Getting Started](https://developers.redhat.com/products/mta/getting-started) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Guides teams in utilizing Red Hat’s Migration Toolkit for Applications (MTA) to analyze legacy Java frameworks for cloud compatibility. Identifies proprietary dependencies and reports on modernization pathways.
+  - **(2020)** [Migration Toolkit for Applications: Getting Started](https://developers.redhat.com/products/mta/getting-started) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Guides teams in utilizing Red Hat’s Migration Toolkit for Applications (MTA) to analyze legacy Java frameworks for cloud compatibility. Identifies proprietary dependencies and reports on modernization pathways.
   - **(2020)** [Migration Toolkit for Applications Demo - June 2020](https://www.youtube.com/watch?v=mRCz6Jl0Ds8&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walkthrough showcasing the analysis, automated code scanning, and structural reporting metrics generated by the Migration Toolkit for Applications to expedite migration tasks.
 #### Multi-Cluster Strategy
 
@@ -728,6 +746,9 @@
 #### Spring Boot Microservices
 
   - **(2022)** [piomin/sample-spring-microservices-kubernetes: Microservices with Spring' Boot and Spring Cloud on Kubernetes Demo Project - piotrminkowski.com 🌟](https://github.com/piomin/sample-spring-microservices-kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An active and highly referenceable demo project exhibiting the deployment of Spring Boot microservices inside a Kubernetes cluster. Utilizes Spring Cloud Kubernetes for discovery, ConfigMaps for configurations, and Ribbon/Feign client integrations for service-to-service communication.
+#### Tanzu Framework
+
+  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ### Containerization (1)
 
 #### Java Spring Boot
@@ -753,7 +774,7 @@
   - **(2020)** [piotrminkowski.com: Spring Boot on Kubernetes with Buildpacks and Skaffold 🌟](https://piotrminkowski.com/2020/12/18/spring-boot-on-kubernetes-with-buildpacks-and-skaffold) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-velocity development workflow blueprint leveraging Cloud Native Buildpacks and Skaffold to accelerate Java Spring Boot coding loops on Kubernetes. Minimizes manual Dockerfile maintenance and streamlines instantaneous hot-reloading code modifications into active development clusters.
 #### Microservices Demo
 
-  - **(2020)** [**redhat-actions/spring-petclinic**](https://github.com/redhat-actions/spring-petclinic) <span class='md-tag md-tag--info'>⭐ 4</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ad3be1d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 11 L 30 2 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-1ad3be1d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Red Hat's enterprise fork of the classical Spring Petclinic microservice framework, tailored for deployment patterns on Red Hat OpenShift and vanilla Kubernetes. Showcases optimized Containerfile definitions and integrated automated CI/CD pipelines.
+  - **(2020)** [**redhat-actions/spring-petclinic**](https://github.com/redhat-actions/spring-petclinic) <span class='md-tag md-tag--info'>⭐ 4</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ad3be1d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 10 L 20 11 L 30 2 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-1ad3be1d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Red Hat's enterprise fork of the classical Spring Petclinic microservice framework, tailored for deployment patterns on Red Hat OpenShift and vanilla Kubernetes. Showcases optimized Containerfile definitions and integrated automated CI/CD pipelines.
 #### Project Bootstrapping
 
   - **(2026)** [Spring Initializr 🌟](https://start.spring.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier initialization dashboard for the Spring ecosystem. Incorporates direct dependency bindings to native Kubernetes microservices components, generating pre-configured templates with container-ready, cloud-native properties.
@@ -816,7 +837,7 @@
 
 #### OpenShift and Camel
 
-  - **(2021)** [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Examines legacy integration strategies and modern microservices orchestration utilizing Apache Camel K (native integrations) coupled with Node.js/JavaScript on Red Hat OpenShift. Discusses enterprise integration patterns (EIPs) within modern container systems.
+  - **(2021)** [developers.redhat.com: Modernizing applications with Apache Camel, JavaScript, and Red Hat OpenShift](https://developers.redhat.com/articles/2021/07/26/modernizing-applications-apache-camel-javascript-and-red-hat-openshift) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Examines legacy integration strategies and modern microservices orchestration utilizing Apache Camel K (native integrations) coupled with Node.js/JavaScript on Red Hat OpenShift. Discusses enterprise integration patterns (EIPs) within modern container systems.
 ### Spring to Quarkus
 
 #### Framework Migration
@@ -838,7 +859,7 @@
 
 #### Developer Productivity
 
-  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f241f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1f241f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
+  - **(2024)** [**Awesome NotebookLM Slide Prompts**](https://github.com/serenakeyitan/awesome-notebookLM-prompts) <span class='md-tag md-tag--info'>⭐ 3761</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f241f0c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 13 L 20 2 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-1f241f0c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A master curation of system-level prompt templates specifically optimized for Google NotebookLM. It accelerates complex source material ingestions, contextual extractions, and structured summarizing processes for technical architects. (Live Grounding: Highlights the 2026 intersection of AI workflow orchestration and engineering documentation maintenance).
 ## CI-CD
 
 ### Azure
@@ -865,7 +886,7 @@
 
 #### OpenShift
 
-  - **(2018)** [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight addresses automated OpenShift build pipelines. Live Grounding details the precise YAML and Jenkins pipeline syntax needed to safely trigger BuildConfig objects from external CI nodes. It remains highly relevant for legacy Jenkins-to-OpenShift integrations.
+  - **(2018)** [stackoverflow: How to define BuildConfig object with Jenkins and openshift](https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight addresses automated OpenShift build pipelines. Live Grounding details the precise YAML and Jenkins pipeline syntax needed to safely trigger BuildConfig objects from external CI nodes. It remains highly relevant for legacy Jenkins-to-OpenShift integrations.
 ## CICD
 
 ### GitLab CI
@@ -882,7 +903,7 @@
 
 #### Jenkins Pipeline Training
 
-  - **(2020)** [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — A training curriculum on writing robust continuous integration and continuous deployment scripts in Jenkins using declarative Groovy DSL syntax. Regarded as legacy compared to contemporary container-native declarative engine configurations.
+  - **(2020)** [experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration](https://training.experfy.com/courses/effective-jenkins-continuous-delivery-and-continuous-integration) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A training curriculum on writing robust continuous integration and continuous deployment scripts in Jenkins using declarative Groovy DSL syntax. Regarded as legacy compared to contemporary container-native declarative engine configurations.
 #### Parallel Pipelines
 
   - **(2021)** [Using Jenkins Pipeline parallel stages to build Maven project with different JDKs](https://e.printstacktrace.blog/using-jenkins-pipeline-parallel-stages-to-build-maven-project-with-different-jdks) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical guide illustrating how to build a Maven project against multiple JDKs simultaneously using Jenkins parallel stages. Live Grounding highlights its architectural utility for modern engineering, ensuring system backward-compatibility and multi-runtime reliability during pipeline validation.
@@ -890,7 +911,7 @@
 
 ##### Docker Integration
 
-  - **(2021)** [**Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟**](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — This tutorial explains how to use SDKMAN! inside a Docker container within a Jenkins Declarative Pipeline to build Java projects using different compiler versions. Live Grounding highlights its architectural value, eliminating the need to maintain distinct runner VMs or complex custom Dockerfiles for each target JDK configuration.
+  - **(2021)** [**Using SDKMAN! as a docker image for Jenkins Pipeline - a step by step guide 🌟**](https://e.printstacktrace.blog/using-sdkman-as-a-docker-image-for-jenkins-pipeline-a-step-by-step-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This tutorial explains how to use SDKMAN! inside a Docker container within a Jenkins Declarative Pipeline to build Java projects using different compiler versions. Live Grounding highlights its architectural value, eliminating the need to maintain distinct runner VMs or complex custom Dockerfiles for each target JDK configuration.
 ## CICD and DevOps
 
 ### Enterprise Jenkins
@@ -911,7 +932,7 @@
 
 #### Job Generation
 
-  - **(2025)** [**How to create initial "seed" job**](https://github.com/jenkinsci/configuration-as-code-plugin) <span class='md-tag md-tag--info'>⭐ 2790</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f76bee31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 7 L 30 10 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-f76bee31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An operational setup manual detailing how to bootstrap a primary seed job inside configuration-as-code files. This enables the controller to dynamically generate all subsequent projects automatically on initial server launch.
+  - **(2025)** [**How to create initial "seed" job**](https://github.com/jenkinsci/configuration-as-code-plugin) <span class='md-tag md-tag--info'>⭐ 2790</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f76bee31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 7 L 30 10 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-f76bee31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An operational setup manual detailing how to bootstrap a primary seed job inside configuration-as-code files. This enables the controller to dynamically generate all subsequent projects automatically on initial server launch.
 ### Plugin Management
 
 #### CLI Tooling
@@ -933,7 +954,7 @@
   - **(2025)** [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dedicated integration test harness designed to systematically validate pipeline structures using localized Jenkinsfile Runner micro-runtimes. Ensures robust sanity checking without deploying configurations to dynamic server nodes.
 #### Unit Testing
 
-  - **(2025)** [**Jenkins Pipeline Unit testing framework**](https://github.com/jenkinsci/JenkinsPipelineUnit) <span class='md-tag md-tag--info'>⭐ 1585</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d0aad12" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 7 L 30 10 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-0d0aad12)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The standard community pipeline testing toolkit. Simplifies verifying multi-step pipeline syntax, credential queries, and shared libraries within local mock environments, accelerating delivery validation times.
+  - **(2025)** [**Jenkins Pipeline Unit testing framework**](https://github.com/jenkinsci/JenkinsPipelineUnit) <span class='md-tag md-tag--info'>⭐ 1585</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d0aad12" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 7 L 30 10 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-0d0aad12)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The standard community pipeline testing toolkit. Simplifies verifying multi-step pipeline syntax, credential queries, and shared libraries within local mock environments, accelerating delivery validation times.
 ## CICD Pipelines (1)
 
 ### Automated Cloud Deployments
@@ -996,6 +1017,13 @@
   - **(2026)** [learntocloud.guide](https://learntocloud.guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An open-source, highly structured educational roadmap designed to transition traditional sysadmins into proficient cloud engineers. It guides learners through networking, Linux administration, infrastructure as code, and cloud-native topologies. Live grounding highlights its massive adoption within the DevOps community.
 ## Cloud Native
 
+### Continuous Integration
+
+#### CI-CD Pipelines
+
+##### Red Hat OpenShift
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Security
 
 #### Policy Enforcement
@@ -1026,10 +1054,10 @@
 
 #### Pod Mocking
 
-  - **(2024)** [**stefanprodan/podinfo**](https://github.com/stefanprodan/podinfo) <span class='md-tag md-tag--info'>⭐ 5917</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-afb540d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-afb540d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A premium go-to microservice web application written in Go, specifically designed to showcase best practices in Kubernetes deployment, health checking, instrumentation (Prometheus/Jaeger), and progressive delivery validation (such as Flagger/Istio canary releases).
+  - **(2024)** [**stefanprodan/podinfo**](https://github.com/stefanprodan/podinfo) <span class='md-tag md-tag--info'>⭐ 5917</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-afb540d1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-afb540d1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A premium go-to microservice web application written in Go, specifically designed to showcase best practices in Kubernetes deployment, health checking, instrumentation (Prometheus/Jaeger), and progressive delivery validation (such as Flagger/Istio canary releases).
 ## Cloud Native Platforms
 
-### Red Hat OpenShift
+### Red Hat OpenShift (1)
 
 #### Automation Grading
 
@@ -1040,7 +1068,7 @@
 
 ##### Deployment Automation
 
-  - **(2019)** [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight highlights this duplicate resource as a persistent reference point for the basic OpenShift pipeline. Live Grounding reinforces that its utility lies in simple demonstrations of source-to-image (S2I) pipelines. It highlights the simplicity of legacy OpenShift-Jenkins plugins before the emergence of cloud-native Tekton workflows.
+  - **(2019)** [github.com/gnunn1/openshift-basic-pipeline](https://github.com/gnunn1/openshift-basic-pipeline) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight highlights this duplicate resource as a persistent reference point for the basic OpenShift pipeline. Live Grounding reinforces that its utility lies in simple demonstrations of source-to-image (S2I) pipelines. It highlights the simplicity of legacy OpenShift-Jenkins plugins before the emergence of cloud-native Tekton workflows.
 ##### Lab Environments
 
   - **(2019)** [github.com/deweya/OpenShift-Jenkins-Lab](https://github.com/deweya/OpenShift-Jenkins-Lab) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight identifies this repository as a sandbox lab configuration for teaching Jenkins deployment patterns inside OpenShift clusters. Live Grounding confirms it provides hands-on instructions for configuring webhooks and build triggers. It serves as a structural blueprint for configuring self-contained pipeline demonstrations.
@@ -1150,16 +1178,23 @@
   - **(2025)** [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene) <span class='md-tag md-tag--warning'>[HCL/YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A public code profile hosting highly referenceable configuration setups across Terraform, Ansible, Docker, and Kubernetes. The repositories serve as companion code for prominent DevOps bootcamps, detailing clean infrastructure-as-code patterns. (Live Grounding: Continually referenced by global practitioners transitioning to cloud infrastructure specialties).
 #### Kubernetes Courses
 
-  - **(2024)** [**wardviaene/kubernetes-course**](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1732</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d6612bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 8 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-9d6612bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Accompanying codebase for Ward Viaene's comprehensive Kubernetes course, demonstrating deployments, configurations, microservice communication patterns, and cloud migrations. (Live Grounding: Widely trusted community-backed repository illustrating production-grade YAML configurations).
+  - **(2024)** [**wardviaene/kubernetes-course**](https://github.com/wardviaene/kubernetes-course) <span class='md-tag md-tag--info'>⭐ 1732</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9d6612bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 8 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-9d6612bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Accompanying codebase for Ward Viaene's comprehensive Kubernetes course, demonstrating deployments, configurations, microservice communication patterns, and cloud migrations. (Live Grounding: Widely trusted community-backed repository illustrating production-grade YAML configurations).
 #### Kubernetes Playgrounds
 
   - **(2025)** [Free Kubernetes 🌟🌟](https://github.com/learnk8s/free-kubernetes) <span class='md-tag md-tag--info'>⭐ 1158</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-03206234" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 10 L 20 9 L 30 3 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-03206234)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly-rated index of free Kubernetes sandboxes, development clusters, managed trials, and learning environments. Designed to lower the financial entry barrier for developers. (Live Grounding: Continually updated to include current free tiers, allowing quick architectural sandboxing without infrastructure bills).
 #### Kubernetes Workshops
 
   - **(2021)** [github.com/eon01/kubernetes-workshop](https://github.com/eon01/kubernetes-workshop) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on introductory workshop materials covering fundamental Kubernetes concepts, including Pods, Services, Deployments, and ingress controller definitions. (Live Grounding: Solid reference for classroom-based learning or self-paced platform orchestration upskilling).
-  - **(2020)** [Kubernetes workshop in a box](https://archive.kabisa.nl/tech/k8s-workshop-in-a-box) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An archival portal hosting a self-contained, offline-capable 'Kubernetes Workshop in a Box.' Designed to run interactive tutorials without reliable internet connections. (Live Grounding: While some container tooling patterns are archived, the offline structure is a highly referenced model for local development isolation).
+  - **(2020)** [Kubernetes workshop in a box](https://archive.kabisa.nl/tech/k8s-workshop-in-a-box) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archival portal hosting a self-contained, offline-capable 'Kubernetes Workshop in a Box.' Designed to run interactive tutorials without reliable internet connections. (Live Grounding: While some container tooling patterns are archived, the offline structure is a highly referenced model for local development isolation).
 ## Cloud-Native Java (1)
 
+### Build Tools
+
+#### Eclipse JKube
+
+##### Developer Workflow
+
+  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
 ### Runtimes
 
 #### JBoss EAP
@@ -1173,7 +1208,7 @@
 
 #### Application Migration (1)
 
-  - **(2018)** [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An archived community demonstration showing the deployment of the legacy Spring PetClinic application to raw Kubernetes. Utilizes direct YAML manifests and basic service discovery, serving as a historical baseline for modern Helm/Kustomize deployments.
+  - **(2018)** [github.com/paulczar/k8s-spring-petclinic](https://github.com/paulczar/k8s-spring-petclinic) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archived community demonstration showing the deployment of the legacy Spring PetClinic application to raw Kubernetes. Utilizes direct YAML manifests and basic service discovery, serving as a historical baseline for modern Helm/Kustomize deployments.
 #### Java Deployment Guides
 
   - **(2018)** [tech.paulcz.net/blog/spring-into-kubernetes-part-1](https://tech.paulcz.net/blog/spring-into-kubernetes-part-1) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational blog post walking through the process of containerizing and deploying a Spring Boot application onto a Kubernetes cluster. Details the transition from local JAR execution to containerized environments, highlighting early JVM memory footprint challenges.
@@ -1191,8 +1226,8 @@
   - **(2023)** [ref 5 arey/springboot-petclinic](https://hub.docker.com/r/arey/springboot-petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly pulled, community-maintained Spring Boot Petclinic image optimized for lean runtimes. Includes built-in multi-architecture CPU support (ARM64/AMD64) ideal for localized testing and local Kubernetes clusters.
   - **(2020)** [ref 3](https://hub.docker.com/r/bmoussaud/petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Docker image for the Spring Petclinic application instrumented with APM and monitoring agents. Useful for evaluating telemetry collection, performance profiling, and tracing agents inside isolated container runs.
   - **(2019)** [ref 2](https://hub.docker.com/r/sarjunkumar24391/petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-packaged Docker image of the classic Spring Petclinic application. Created primarily to facilitate rapid deployment testing on container runtimes without local Maven compilation overhead.
-  - **(2018)** [ref 6](https://hub.docker.com/r/anthonydahanne/spring-petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Historical community Docker image containing early builds of the Spring Petclinic framework. Used primarily for legacy workshop labs and testing Docker runtime backwards compatibility.
-  - **(2015)** [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — One of the oldest legacy Docker images of the Spring PetClinic project. Demonstrates early containerization methodologies using heavy base operating system layers and older Java Virtual Machine (JVM) versions.
+  - **(2018)** [ref 6](https://hub.docker.com/r/anthonydahanne/spring-petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historical community Docker image containing early builds of the Spring Petclinic framework. Used primarily for legacy workshop labs and testing Docker runtime backwards compatibility.
+  - **(2015)** [ref 7](https://hub.docker.com/r/jbrisbin/spring-petclinic) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — One of the oldest legacy Docker images of the Spring PetClinic project. Demonstrates early containerization methodologies using heavy base operating system layers and older Java Virtual Machine (JVM) versions.
 ### NGINX
 
 #### React Production
@@ -1226,7 +1261,7 @@
 
 #### Data Wrangling
 
-  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
+  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
 ## Data Storage
 
 ### Databases
@@ -1241,6 +1276,11 @@
 #### PostgreSQL
 
   - **(2020)** [Deploying PostgreSQL in MiniShift/OpenShift 3](https://www.dbi-services.com/blog/deploying-postgresql-in-minishiftopenshift) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides users through deploying PostgreSQL on Minishift/OpenShift 3, highlighting standard volume mounting processes. Due to the deprecation of both OpenShift 3 and Minishift, modern applications utilize OpenShift Local and PostgreSQL Operator frameworks.
+### Storage Infrastructure
+
+#### Persistent Volumes
+
+  - **(2020)** [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dives into Red Hat OpenShift's persistent volume (PV) framework, focusing on the Container Storage Interface (CSI). Explains dynamic storage allocation, access modes, and how to safely secure transaction-heavy datastores.
 ## DevOps
 
 ### CICD (1)
@@ -1254,7 +1294,7 @@
 
 ##### Azure DevOps Integration
 
-  - **(2020)** [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight highlights this video tutorial as a walkthrough for establishing baseline CI/CD pipelines using Jenkins alongside Azure DevOps. Live Grounding indicates that while Jenkins remains prevalent for legacy enterprise systems, modern engineering in 2026 has transitioned toward cloud-native GitOps paradigms. The tutorial provides foundational knowledge on orchestrating build-test-deploy cycles across heterogeneous cloud landscapes.
+  - **(2020)** [youtube: CI CD Pipeline Using Jenkins | Continuous Integration and Deployment using Azure Devops | K21Academy](https://www.youtube.com/watch?v=LhB8-sAx3pM&ab_channel=K21Academy) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight highlights this video tutorial as a walkthrough for establishing baseline CI/CD pipelines using Jenkins alongside Azure DevOps. Live Grounding indicates that while Jenkins remains prevalent for legacy enterprise systems, modern engineering in 2026 has transitioned toward cloud-native GitOps paradigms. The tutorial provides foundational knowledge on orchestrating build-test-deploy cycles across heterogeneous cloud landscapes.
 ##### Docker Containerization
 
   - **(2020)** [liatrio.com: building with docker using jenkins pipelines](https://www.liatrio.ai/resources/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the methodologies for assembling and building container images from within a Jenkins declarative pipeline execution block. Live Grounding indicates that using modern agent strategies (such as Kaniko or podman) has superseded dind (Docker in Docker) configurations to secure enterprise clusters. This post offers foundational Docker container pipeline strategies.
@@ -1293,6 +1333,9 @@
   - **(2021)** [amazon.com: Declarative provisioning of AWS resources with Spinnaker and Crossplane](https://aws.amazon.com/blogs/opensource/declarative-provisioning-of-aws-resources-with-spinnaker-and-crossplane) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases the declarative provisioning of AWS infrastructure using Spinnaker unified with Crossplane. Live Grounding shows that combining Crossplane's Kubernetes Control Plane model with Spinnaker's application pipelines represents an advanced platform engineering paradigm. This enables application developers to spin up dependencies dynamically without custom script hooks.
 #### Spinnaker Setup
 
+##### Git Integration
+
+  - **(2022)** [armory.io: Git Pull Support in Spinnaker](https://www.harness.io/products/continuous-delivery) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight addresses configuring Git pull trigger functionality inside Spinnaker. Live Grounding confirms that enabling automated repository monitoring allows Spinnaker to initiate targeted application pipelines immediately upon commit detection. This establishes the prerequisite feedback loop necessary for true continuous delivery.
 ##### Kubernetes Deployment Models
 
   - **(2020)** [wardviaene/advanced-kubernetes-course/spinnaker 🌟](https://github.com/wardviaene/advanced-kubernetes-course/tree/master/spinnaker) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion repository for an advanced Kubernetes Spinnaker course. Live Grounding emphasizes its utility in demonstrating advanced deployment strategies (such as blue-green and canary analysis) directly inside Kubernetes clusters using Spinnaker's pipeline GUI. It remains a reliable hands-on learning lab.
@@ -1307,7 +1350,7 @@
   - **(2019)** [codeburst.io: Spinnaker by Example: Part 3](https://codeburst.io/spinnaker-by-example-part-3-c6ed9ac5f8ce) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the third installment of the series, showing advanced stage configurations and automated rollback procedures. Live Grounding validates that automated rollback on application health degradation is Spinnaker's premier capability. This design pattern minimizes production downtime during problematic deployments.
 ##### Orchestration Engines
 
-  - **(2022)** [Demo/Evaluation Installations](https://spinnaker.io/docs/setup/install) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight covers the official installation and evaluation setup parameters for Spinnaker. Live Grounding shows Spinnaker remains a highly sophisticated CD platform designed for multi-cloud deployments, though its complex architecture makes it less popular for lightweight Kubernetes setups compared to modern GitOps tools. It is best suited for legacy VM and complex cluster canary rollouts.
+  - **(2022)** [Demo/Evaluation Installations](https://spinnaker.io/docs/setup/install) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight covers the official installation and evaluation setup parameters for Spinnaker. Live Grounding shows Spinnaker remains a highly sophisticated CD platform designed for multi-cloud deployments, though its complex architecture makes it less popular for lightweight Kubernetes setups compared to modern GitOps tools. It is best suited for legacy VM and complex cluster canary rollouts.
 ### Environment Management
 
 #### SDKMAN (1)
@@ -1328,7 +1371,7 @@
 
 ##### Freestyle Migration
 
-  - **(2020)** [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/jenkins-online-meetup/events/270600737) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight hosts a comprehensive migration strategy moving legacy manual Freestyle jobs to programmatic JobDSL configurations. Live Grounding indicates that transitioning to JobDSL represents a crucial step toward fully declarative pipelines. The repository outlines reproducible seed jobs that dynamically provision child pipelines with minimal manual intervention.
+  - **(2020)** [Meetup event: From Freestyle jobs to Pipeline, with JobDSL](https://www.meetup.com/jenkins-online-meetup/events/270600737) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight hosts a comprehensive migration strategy moving legacy manual Freestyle jobs to programmatic JobDSL configurations. Live Grounding indicates that transitioning to JobDSL represents a crucial step toward fully declarative pipelines. The repository outlines reproducible seed jobs that dynamically provision child pipelines with minimal manual intervention.
 ### Kubernetes Integration
 
 #### AWS EKS (1)
@@ -1342,7 +1385,7 @@
 
 ##### Grafana InfluxDB Integration
 
-  - **(2020)** [Mostrando resultados de Jenkins en Grafana mediante InfluxDB 🌟](https://www.enmilocalfunciona.io/mostrando-resultados-de-jenkins-en-grafana-mediante-influxdb) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight details a pipeline monitoring design pattern utilizing InfluxDB and Grafana to visualize Jenkins build metrics and durations. Live Grounding highlights that rendering historical telemetry is crucial for detecting performance regressions in CI/CD runner pools. While OpenTelemetry is standardizing in 2026, the legacy InfluxDB exporter remains heavily deployed.
+  - **(2020)** [Mostrando resultados de Jenkins en Grafana mediante InfluxDB 🌟](https://www.enmilocalfunciona.io/mostrando-resultados-de-jenkins-en-grafana-mediante-influxdb) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details a pipeline monitoring design pattern utilizing InfluxDB and Grafana to visualize Jenkins build metrics and durations. Live Grounding highlights that rendering historical telemetry is crucial for detecting performance regressions in CI/CD runner pools. While OpenTelemetry is standardizing in 2026, the legacy InfluxDB exporter remains heavily deployed.
 ### Pipeline Execution Engine
 
 #### Groovy CPS
@@ -1350,6 +1393,9 @@
 ##### Continuation Passing Style
 
   - **(2021)** [==Continuation Passing Style (CPS)==](https://github.com/cloudbees/groovy-cps) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff2f3a9c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 12 L 20 7 L 30 9 L 40 9 L 50 12" fill="none" stroke="url(#spark-grad-ff2f3a9c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces the underlying Continuation Passing Style (CPS) engine used for executing asynchronous Groovy scripts in Jenkins pipelines. Live Grounding reveals that understanding CPS is critical for debugging serialization errors during master restarts. This technical library ensures execution state can survive controller crashes and resume safely.
+##### JobDSL API Reference
+
+  - **(2022)** [Defines a Groovy CPS DSL definition: pipelineJob definition cps script](https://jenkinsci.github.io/job-dsl-plugin) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents an aggregative documentation path detailing Groovy CPS execution layouts, pipeline migrations, and auxiliary utility plugins. Live Grounding asserts that despite modern cloud-native shifts, these JobDSL APIs and diagnostic tools (like the Plugin Installation Manager) form the backbone of highly reliable enterprise environments. It provides essential guidelines for maintaining complex pipelines.
 ## DevOps and CICD
 
 ### AWS EKS (2)
@@ -1380,7 +1426,7 @@
 
 #### Docker Images
 
-  - **(2020)** [ref 1](https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A legacy Docker Hub image combining PetClinic deployment artifacts with Spinnaker and Jenkins orchestration capabilities. Serves as a historical artifact of early multi-cloud continuous delivery pipelines built on top of traditional JVM monoliths.
+  - **(2020)** [ref 1](https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy Docker Hub image combining PetClinic deployment artifacts with Spinnaker and Jenkins orchestration capabilities. Serves as a historical artifact of early multi-cloud continuous delivery pipelines built on top of traditional JVM monoliths.
 ### Jenkins (2)
 
 #### Kubernetes Agents
@@ -1438,6 +1484,7 @@
   - **(2020)** [piotrminkowski.com: Continuous Integration with Jenkins on Kubernetes 🌟](https://piotrminkowski.com/2020/11/10/continuous-integration-with-jenkins-on-kubernetes) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details executing dynamically provisioned Jenkins agent pods inside a target Kubernetes cluster. Explores mounting credentials, executing parallel pipeline workloads, and cleanup phases to optimize compute budgets.
 #### Jenkins Basics
 
+  - **(2022)** [lambdatest.com: Best Jenkins Pipeline Tutorial For Beginners (Examples) 🌟](https://www.testmuai.com/blog/jenkins-pipeline-tutorial) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed entry-level guide to understanding Jenkins Declarative versus Scripted Pipeline syntax. Explains basic pipeline constructs including stages, agents, post-execution tasks, and environment variable manipulation.
   - **(2021)** [simplilearn.com: What is CI/CD Pipeline and How to Implement it Using Jenkins?](https://www.simplilearn.com/tutorials/jenkins-tutorial/ci-cd-pipeline) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Basic tutorial outlining CI/CD life cycles, illustrating how continuous deployment patterns differ from continuous delivery, and implementing simple pipelines using standard Jenkins components.
 #### Jenkins Shared Libraries
 
@@ -1652,9 +1699,12 @@
 
 #### Metering Operator
 
-  - **(2020)** [Writing Customized Reports Using Metering Operator](https://www.redhat.com/en/blog/writing-customized-reports-using-metering-operator) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Explores authoring custom resource and cost allocation reports using the OpenShift Metering Operator. Note: The Metering Operator has since been deprecated in favor of OpenShift Cost Management.
+  - **(2020)** [Writing Customized Reports Using Metering Operator](https://www.redhat.com/en/blog/writing-customized-reports-using-metering-operator) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores authoring custom resource and cost allocation reports using the OpenShift Metering Operator. Note: The Metering Operator has since been deprecated in favor of OpenShift Cost Management.
 ### Enterprise Cluster Management
 
+#### Ansible and ACM
+
+  - **(2021)** [redhat.com: ACM Ansible Integration Overview](https://www.redhat.com/en/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores integrations bridging Red Hat Advanced Cluster Management (ACM) with Ansible Automation Platform. Automates physical or non-Kubernetes resource tasks at critical points in cluster lifecycles.
 #### OKD Community Platform
 
   - **(2020)** [openshift.com: Recap: OKD 4 Testing and Deployment Workshop - Videos and Additional Resources](https://www.redhat.com/en/blog/recap-okd-4-testing-and-deployment-workshop-videos-and-additional-resources) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles core workshop resources on OKD 4 deployment, testing, and lifecycle patterns. Explores underlying Fedora CoreOS operating mechanics and bootstrap procedures for community-led OpenShift clusters.
@@ -1697,7 +1747,7 @@
 
 #### GitOps VMs
 
-  - **(2021)** [cloud.redhat.com: Virtual Machines as Code with OpenShift GitOps and OpenShift Virtualization](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Details running legacy virtual machines side-by-side with containers using OpenShift Virtualization. Outlines declarative patterns for orchestrating VM lifecycles through GitOps practices using Argo CD.
+  - **(2021)** [cloud.redhat.com: Virtual Machines as Code with OpenShift GitOps and OpenShift Virtualization](https://www.redhat.com/en/blog/virtual-machines-as-code-with-openshift-gitops-and-openshift-virtualization) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details running legacy virtual machines side-by-side with containers using OpenShift Virtualization. Outlines declarative patterns for orchestrating VM lifecycles through GitOps practices using Argo CD.
 ### Serverless Deployment
 
 #### Terraform and AWS Lambda
@@ -1749,6 +1799,11 @@
   - **(2022)** [terraform.collabnix.com](https://collabnix.github.io/terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A collaborative, multi-step reference hub designed to systematically introduce DevOps engineers to Terraform. Covers declarative state files, modular organization, provider configurations, and deployment strategies across multiple hyper-scale cloud providers.
 ## Infrastructure as Code and CI-CD
 
+### CI-CD Pipelines (1)
+
+#### Concourse CI
+
+  - **(2020)** [thoughtworks.com: Modernizing your build pipelines with **Concourse CI** 🌟](https://www.thoughtworks.com/es-es/insights/blog) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Analyzes the migration patterns from Jenkins or legacy orchestrators to Concourse CI, highlighting Concourse's declarative, stateless, container-first pipeline design. (Live Grounding: Concourse CI, though revolutionary for its resource-based declarative architecture, has largely been superseded in 2026 by GitOps controllers like Argo CD and cloud-native pipeline runners like GitHub Actions).
 ### Configuration Management
 
 #### Ansible
@@ -1762,13 +1817,13 @@
   - **(2021)** [blog.stephane-robert.info: Ansible - Utiliser MySQL comme inventaire dynamique (Use MySQL as a dynamic inventory)](https://blog.stephane-robert.info/post/ansible-utiliser-mysql-comme-inventaire-dynamique) <span class='md-tag md-tag--warning'>[YAML/PYTHON/SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep-dive on configuring Ansible to query a MySQL database dynamically to build asset inventories. Eliminates hardcoded static host files by relying on runtime query configurations. (Live Grounding: Essential for hybrid-cloud setups where IP address spaces change rapidly and dynamically).
 #### Ansible Tower
 
-  - **(2023)** [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/toolkit) <span class='md-tag md-tag--info'>⭐ 127</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8b207dc2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 12 L 30 2 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-8b207dc2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[LEGACY]</span> — A specialized automation toolkit for Red Hat Ansible Tower/AWX focused on network architectures. Emphasizes role-based access controls, standardized workflow templates, and central log telemetry. (Live Grounding: Highlights critical patterns for bringing deterministic software-defined networking concepts to legacy environments).
+  - **(2023)** [Red Hat Ansible Tower - Workshop and Demo](https://github.com/network-automation/toolkit) <span class='md-tag md-tag--info'>⭐ 127</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8b207dc2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 12 L 30 2 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-8b207dc2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML/PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A specialized automation toolkit for Red Hat Ansible Tower/AWX focused on network architectures. Emphasizes role-based access controls, standardized workflow templates, and central log telemetry. (Live Grounding: Highlights critical patterns for bringing deterministic software-defined networking concepts to legacy environments).
 #### Ansible Workshops
 
   - **(2025)** [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://labs.demoredhat.com/demos) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Red Hat Ansible workshops repository, highlighting hands-on scenarios for cloud provisioning, configuration management, network automation, and security playbooks. (Live Grounding: Serves as the authoritative source for enterprise teams to upskill in Ansible Automation Platform strategies).
 ### Developer Platforms (2)
 
-#### CI-CD Pipelines
+#### CI-CD Pipelines (2)
 
   - **(2021)** [shipa.io: A Developer focused CI/CD pipeline for Kubernetes](https://shipa.io/a-developer-focused-ci-cd-pipeline-for-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines designing application-centric CI/CD pipelines that leverage developer platform layers to remove raw Kubernetes configuration friction. (Live Grounding: Highlights the evolving landscape of platform engineering where developers focus on code deliverables while security/infrastructure is handled declaratively by platforms).
 ### GitOps and Declarative Git (1)
@@ -1787,7 +1842,7 @@
 
 ### General Reference
 
-  - [kubernetesbyexample.com](https://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
+  - [kubernetesbyexample.com 🌟](https://kubernetesbyexample.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetesbyexample.com in the Kubernetes Tools ecosystem.
   - [k8s Initializer 🌟](https://blackbird.a8r.io/initializer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blackbird.a8r.io in the Kubernetes Tools ecosystem.
   - [blog.jetstack.io: Istio OIDC Authentication](https://developer.cyberark.com/blog/istio-oidc-authentication)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering developer.cyberark.com in the Kubernetes Tools ecosystem.
   - [trstringer.com: Deploy to AKS Using a Managed Identity from a GitHub Actions Self-Hosted Runner 🌟](https://trstringer.com/deploy-to-aks-from-github-actions/-self-hosted)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering trstringer.com in the Kubernetes Tools ecosystem.
@@ -1914,7 +1969,7 @@
 
 #### Minishift
 
-  - **(2020)** [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Step-by-step guide outlining how to install Minishift on Linux and run a Jenkins instance inside it. This provides baseline knowledge of legacy platforms, but modern architectures should use OpenShift Local.
+  - **(2020)** [opensource.com: Set up Minishift and run Jenkins on Linux](https://opensource.com/article/20/11/minishift-linux) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step guide outlining how to install Minishift on Linux and run a Jenkins instance inside it. This provides baseline knowledge of legacy platforms, but modern architectures should use OpenShift Local.
 ### Red Hat OpenShift Local
 
 #### Installation
@@ -1922,7 +1977,7 @@
   - **(2020)** [youtube: CodeReady Containers - Easy OpenShift Container Platform 4.5 Installation](https://www.youtube.com/watch?v=CJMdSQVFVik) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video walk-through highlighting automated local configuration of OpenShift Platform 4.5 using CodeReady Containers. It simplifies hypervisor set up and cluster bootstrapping, serving as a historical baseline for modern Red Hat OpenShift Local techniques.
 #### Process Automation (1)
 
-  - **(2020)** [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An automated installation demo for launching Red Hat Decision Manager on CodeReady Containers (CRC). While valuable for understanding legacy deployment footprints, modern architectures replace CRC with Red Hat OpenShift Local and migrate Decision Manager patterns onto newer cloud-native rule engines.
+  - **(2020)** [CodeReady Containers - Red Hat Decision Manager Install Demo](https://gitlab.com/redhatdemocentral/rhcs-rhdm-install-demo) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An automated installation demo for launching Red Hat Decision Manager on CodeReady Containers (CRC). While valuable for understanding legacy deployment footprints, modern architectures replace CRC with Red Hat OpenShift Local and migrate Decision Manager patterns onto newer cloud-native rule engines.
   - **(2020)** [schabell.org: CodeReady Containers - Building a Cloud-Native Human Resources Process](https://www.schabell.org/2020/10/codeready-containers-building-cloud-native-hr-process.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local development of a cloud-native Human Resources workflow using CodeReady Containers. Explains process containerization concepts on single-node platforms, though modern flows favor OpenShift Local frameworks.
 ## Networking
 
@@ -1945,7 +2000,7 @@
 
 #### Calico
 
-  - **(2022)** [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Technical review examining performance and resource footprint improvements when deploying Calico's eBPF data plane inside lightweight K3s environments. Demonstrates significant CPU overhead reductions compared to legacy iptables architectures.
+  - **(2022)** [thenewstack.io: Maximize K3s Resource Efficiency with Calico eBPF Data Plane](https://thenewstack.io/maximize-k3s-resource-efficiency-with-calico-ebpf-data-plane) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Technical review examining performance and resource footprint improvements when deploying Calico's eBPF data plane inside lightweight K3s environments. Demonstrates significant CPU overhead reductions compared to legacy iptables architectures.
 ## Observability (1)
 
 ### Microservices Telemetry
@@ -1962,7 +2017,7 @@
 
 #### Governance
 
-  - **(2021)** [devops.com: Measuring the Progress of the OpenTelemetry Project](https://devops.com/measuring-the-progress-of-the-opentelemetry-project) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A historical overview detailing the organizational velocity, community contributions, and consolidation patterns of the CNCF OpenTelemetry project. Synthesizes adoption telemetry and integration roadmaps with legacy APM frameworks.
+  - **(2021)** [devops.com: Measuring the Progress of the OpenTelemetry Project](https://devops.com/measuring-the-progress-of-the-opentelemetry-project) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical overview detailing the organizational velocity, community contributions, and consolidation patterns of the CNCF OpenTelemetry project. Synthesizes adoption telemetry and integration roadmaps with legacy APM frameworks.
 #### Reliability Engineering
 
   - **(2022)** [itnext.io: OpenTelemetry — Understanding SLI and SLO with OpenTelemetry Demo](https://itnext.io/opentelemetry-understanding-sli-and-slo-with-opentelemetry-demo-74c1d0b263b0) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural deep-dive evaluating Service Level Indicators (SLIs) and Service Level Objectives (SLOs) within an active OpenTelemetry distributed microservices demo. Explores Prometheus alerts, collector architecture, and structured telemetry processing.
@@ -1987,7 +2042,7 @@
 
 #### Masterclass (1)
 
-  - **(2023)** [**github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟**](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A highly comprehensive masterclass repository containing declarative HCL files and manifests to deploy AKS with Azure Disks, Azure Files, Application Gateway ingress, and active Azure AD integration.
+  - **(2023)** [**github.com/stacksimplify/azure-aks-kubernetes-masterclass 🌟**](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly comprehensive masterclass repository containing declarative HCL files and manifests to deploy AKS with Azure Disks, Azure Files, Application Gateway ingress, and active Azure AD integration.
 ### Kubernetes (2)
 
 #### EKS Training
@@ -2004,7 +2059,7 @@
 
 #### Legacy Jenkins
 
-  - **(2022)** [==github - using jenkins pipelines with OKD==](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) <span class='md-tag md-tag--info'>⭐ 8658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-18bacd56" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 11 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-18bacd56)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Repository detailing baseline code configurations, sample pipelines, and deployment manifests engineered to execute scripted Jenkins procedures inside early versions of the OKD community container platform.
+  - **(2022)** [==github - using jenkins pipelines with OKD==](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) <span class='md-tag md-tag--info'>⭐ 8658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-18bacd56" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 11 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-18bacd56)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Repository detailing baseline code configurations, sample pipelines, and deployment manifests engineered to execute scripted Jenkins procedures inside early versions of the OKD community container platform.
 ## Platform Deployment
 
 ### Quality Assurance (1)
@@ -2018,7 +2073,7 @@
 
 #### Ecosystem Tools
 
-  - **(2025)** [**Portfolio Architecture Tooling**](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A technical toolset and mapping library designed to programmatically generate clean, unified, and compliant architectural diagrams for hybrid cloud deployments. Enables platform teams to model complex networking, storage, and cluster connections cleanly.
+  - **(2025)** [**Portfolio Architecture Tooling**](https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical toolset and mapping library designed to programmatically generate clean, unified, and compliant architectural diagrams for hybrid cloud deployments. Enables platform teams to model complex networking, storage, and cluster connections cleanly.
 #### Red Hat Ecosystem
 
   - **(2025)** [==Portfolio Architecture WorkShops 🌟==](https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive architectural workshops presenting verified blueprints for complex hybrid cloud systems, retail edge strategies, and AI/ML model deployment operations. It serves as a highly detailed blueprint catalog for modern enterprise architects.
@@ -2032,6 +2087,11 @@
 #### Kubernetes Operators
 
   - **(2020)** [developers.redhat.com: ‘Hello, World’ tutorial with Kubernetes Operators](https://developers.redhat.com/blog/2020/08/21/hello-world-tutorial-with-kubernetes-operators) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines basic concepts of the Operator SDK to develop a "Hello World" Kubernetes custom controller. Focuses on reconciliation loop structures, Custom Resource Definition (CRD) setups, and deployment strategies.
+### Developer Experience (2)
+
+#### Red Hat Ecosystem (1)
+
+  - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Provides immediate, zero-cost developer access to an active, shared OpenShift cluster environment pre-populated with cloud-native tooling. Eliminates complex infrastructure bootstrapping for developers, letting them deploy containers instantly. In 2026, it is the standard starting sandbox for assessing OpenShift APIs.
 ### Enterprise Kubernetes
 
 #### OpenShift (3)
@@ -2083,6 +2143,11 @@
 #### OpenShift AI
 
   - **(2023)** [==OpenShift AI Examples==](https://github.com/CastawayEGR/openshift-ai-examples) <span class='md-tag md-tag--info'>⭐ 25</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d70ac3e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 12 L 30 9 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-d70ac3e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A community collection of machine learning workflows and notebooks deployed on Red Hat OpenShift AI. Details deployment pipelines for distributed training, model serving, and GPU resource slicing.
+### Security and Compliance (1)
+
+#### Public Sector
+
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Provisioning (3)
 
 ### Bootstrapping
@@ -2117,7 +2182,7 @@
   - **(2023)** [==github.com/aws-samples/aws-waf-ops-dashboards==](https://github.com/aws-samples/aws-waf-ops-dashboards) <span class='md-tag md-tag--info'>⭐ 56</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-53ba8f50" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 3 L 30 2 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-53ba8f50)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Contains CloudFormation templates and Athena query scripts to establish centralized dashboards for AWS Web Application Firewall (WAF) logs. Empowers security operations to detect anomalous traffic patterns.
 #### Training Archives
 
-  - **(2020)** [==github.com/aws-samples/aws-training-demo==](https://github.com/amazon-archives/aws-training-demo) <span class='md-tag md-tag--info'>⭐ 128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d5ac2cc8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 8 L 30 13 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-d5ac2cc8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--info'>[LEGACY]</span> — Archived AWS training demonstration repository. Grounding verification confirms this repository is formally archived by Amazon, meaning it should be treated purely as an architectural reference rather than a base for production provisioning templates.
+  - **(2020)** [==github.com/aws-samples/aws-training-demo==](https://github.com/amazon-archives/aws-training-demo) <span class='md-tag md-tag--info'>⭐ 128</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d5ac2cc8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 8 L 30 13 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-d5ac2cc8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Archived AWS training demonstration repository. Grounding verification confirms this repository is formally archived by Amazon, meaning it should be treated purely as an architectural reference rather than a base for production provisioning templates.
 ### GCP
 
 #### Enterprise Platform
@@ -2138,7 +2203,7 @@
 
 #### Docker Images (1)
 
-  - **(2020)** [DockerHub OpenShift Demos](https://hub.docker.com/u/openshiftdemos) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Registry hosting pre-built container images optimized for the OpenShiftDemos organization. Though partially legacy due to secure private registry practices, it serves as a valuable public catalog of application runtimes.
+  - **(2020)** [DockerHub OpenShift Demos](https://hub.docker.com/u/openshiftdemos) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Registry hosting pre-built container images optimized for the OpenShiftDemos organization. Though partially legacy due to secure private registry practices, it serves as a valuable public catalog of application runtimes.
 ### Enterprise Demos
 
 #### Community Repositories
@@ -2176,8 +2241,8 @@
 
 #### Hacking Labs
 
-  - **(2024)** [**The Kubernetes Goat**](https://github.com/madhuakula/kubernetes-goat) <span class='md-tag md-tag--info'>⭐ 5674</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d3ec5f02" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 5 L 30 6 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-d3ec5f02)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — The premier interactive security training platform containing an intentionally vulnerable Kubernetes cluster. Designed as an educational sandbox to demonstrate real-world cluster vulnerabilities, RBAC privilege escalations, metadata exposure, and container breakout exploits.
-## Security and Compliance (1)
+  - **(2024)** [**The Kubernetes Goat**](https://github.com/madhuakula/kubernetes-goat) <span class='md-tag md-tag--info'>⭐ 5674</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d3ec5f02" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 5 L 30 6 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-d3ec5f02)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The premier interactive security training platform containing an intentionally vulnerable Kubernetes cluster. Designed as an educational sandbox to demonstrate real-world cluster vulnerabilities, RBAC privilege escalations, metadata exposure, and container breakout exploits.
+## Security and Compliance (2)
 
 ### Cloud Security Assessments
 
@@ -2273,5 +2338,5 @@
   - **(2020)** [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps out Red Hat's customized developer demo fork of the Spring Petclinic project. Live Grounding indicates this version is heavily optimized for OpenShift deployments, featuring native integration with OpenShift build configs and Kubernetes secrets. It is ideal for illustrating red-hat native cloud development workflows.
 
 ---
-💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md) | [Other Awesome Lists](./other-awesome-lists.md)
+💡 **Explore Related:** [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md) | [Cloud Asset Inventory](./cloud-asset-inventory.md)
 
