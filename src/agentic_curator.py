@@ -38,7 +38,8 @@ async def _get_github_activity(url: str) -> Dict:
                     "gh_pushed": data.get("pushed_at"),
                     "gh_license": data.get("license", {}).get("spdx_id", "N/A")
                 }
-    except: pass
+    except Exception as e:
+        log_event(f"[WARN] fetch GitHub activity for {url}: {str(e)[:100]}")
     return {}
 
 async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
@@ -61,7 +62,8 @@ async def _deep_fetch_content(url: str) -> Tuple[str, Dict]:
                 img_match = re.search(r'meta property="og:image" content="(.*?)"', resp.text)
                 if img_match: og_image = img_match.group(1)
                 return resp.text, {"og_image": og_image}
-    except: pass
+    except Exception as e:
+        log_event(f"[WARN] deep fetch content for {url}: {str(e)[:100]}")
     return "", {}
 
 async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
@@ -76,7 +78,8 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
         try:
             memory_data = json.load(open(memory_file, "r"))
             domain_blacklist = set(memory_data.get("blacklisted_domains", []))
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] load blacklist from health_learning.json: {str(e)[:100]}")
 
     # 1. Pre-filter
     for asset in raw_assets:
@@ -206,8 +209,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
+                            "discovered_at": datetime.now(MADRID_TZ).isoformat(),
                             "suggested_new_category": data.get("suggested_new_category", ""),
-                            "addition_method": "automatic", **d["gh_meta"]
+                            "addition_method": {
+                                "rss": "rss_ingestion", "GitHub Trending": "github_trending",
+                                "Twitter": "twitter_ingestion", "nubenetes": "manual"
+                            }.get(d["asset"].get("source_type", ""), "automatic"),
+                            **d["gh_meta"]
                         }
                         if "youtube.com" in url or "youtu.be" in url:
                             title_desc = f"{data['title']} {data['desc']}".lower()
@@ -250,7 +258,9 @@ class AgenticCurator:
         prompt = "Identify 5 high-quality Cloud Native or K8s engineering blogs or 'Awesome' repos active in 2026. Return ONLY JSON list of URLs."
         try:
             return await call_gemini_with_retry(prompt, use_grounding=True)
-        except: return []
+        except Exception as e:
+            log_event(f"[WARN] autonomous source discovery: {str(e)[:100]}")
+            return []
 
     async def decide_smart_injection(self, content: str, asset: Dict) -> str:
         # Extract headers from the markdown content

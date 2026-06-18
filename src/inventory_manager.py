@@ -41,7 +41,8 @@ def load_inventory(shard_file: str = None) -> Dict:
             try:
                 with open(INVENTORY_PATH, "r", encoding="utf-8") as file:
                     return yaml.load(file, Loader=Loader) or {}
-            except: pass
+            except Exception as e:
+                print(f"[WARN] YAML fallback load failed: {str(e)[:100]}")
         return {}
 
     cursor = conn.cursor()
@@ -64,7 +65,8 @@ def load_inventory(shard_file: str = None) -> Dict:
             if val:
                 try:
                     record[json_field] = json.loads(val)
-                except:
+                except Exception as e:
+                    print(f"[WARN] JSON parse failed for field '{json_field}': {str(e)[:100]}")
                     record[json_field] = [] if json_field not in ["youtube_mosaic", "extra_metadata"] else {}
             else:
                 record[json_field] = [] if json_field not in ["youtube_mosaic", "extra_metadata"] else {}
@@ -113,6 +115,9 @@ def save_inventory(inv: Dict, shard_file: str = None):
         health_score REAL,
         last_checked REAL,
         needs_ai_refresh BOOLEAN,
+        discovered_at TEXT,
+        company TEXT,
+        geo_region TEXT,
         hierarchy TEXT,
         tags TEXT,
         v1_locations TEXT,
@@ -126,6 +131,7 @@ def save_inventory(inv: Dict, shard_file: str = None):
         "url", "title", "description", "year", "stars", "ai_summary", "language",
         "resource_type", "complexity", "is_microservice", "status", "addition_method",
         "content_hash", "health_score", "last_checked", "needs_ai_refresh",
+        "discovered_at", "company", "geo_region",
         "hierarchy", "tags", "v1_locations", "v2_locations", "youtube_mosaic", "extra_metadata"
     ]
     
@@ -182,7 +188,10 @@ def update_inventory_entry(inventory: Dict, norm_url: str, new_data: Dict):
     existing = inventory[norm_url]
     if isinstance(existing, dict):
         merged = existing.copy()
+        existing_discovered = existing.get("discovered_at")
         merged.update(new_data)
+        if existing_discovered:
+            merged["discovered_at"] = existing_discovered
         inventory[norm_url] = merged
     else:
         inventory[norm_url] = new_data

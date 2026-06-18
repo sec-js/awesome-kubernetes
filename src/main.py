@@ -59,7 +59,8 @@ async def master_orchestrator():
             since_date = until_date - timedelta(days=days)
             log_event(f"[*] Mode: Relative range (Last {days} days) -> {since_date.date()}")
             is_historical = False # Force normal mode for relative range
-        except:
+        except Exception as e:
+            log_event(f"[WARN] parse CURATION_DAYS_BACK: {str(e)[:100]}")
             since_date = get_last_date()
     elif is_historical:
         # DEFAULT START DATE: 2026-05-15 (as requested)
@@ -86,7 +87,8 @@ async def master_orchestrator():
             try:
                 since_date = datetime.fromisoformat(env_start).replace(tzinfo=MADRID_TZ)
                 log_event(f"[*] Normal Mode: From manual workflow date {since_date.date()}")
-            except:
+            except Exception as e:
+                log_event(f"[WARN] parse CURATION_START_DATE: {str(e)[:100]}")
                 since_date = get_last_date()
                 log_event(f"[*] Normal Mode: Error parsing manual date, using state.json {since_date.date()}")
         else:
@@ -236,7 +238,8 @@ async def master_orchestrator():
                     else:
                         asset["health"] = "online"
                         domain_info["consecutive_failures"] = 0
-            except:
+            except Exception as e:
+                log_event(f"[WARN] health check for {expanded_url}: {str(e)[:100]}")
                 asset["health"] = "timeout" # Assume alive but unreachable for now
                 domain_info["failures"] = domain_info.get("failures", 0) + 1
                 domain_info["consecutive_failures"] = domain_info.get("consecutive_failures", 0) + 1
@@ -261,7 +264,8 @@ async def master_orchestrator():
                                 gh_data = gh_resp.json()
                                 asset["gh_stars"] = gh_data.get("stargazers_count")
                                 asset["gh_updated"] = gh_data.get("updated_at", "").split("T")[0]
-                    except: pass
+                    except Exception as e:
+                        log_event(f"[WARN] GitHub metadata enrichment for {expanded_url}: {str(e)[:100]}")
             
             return asset
 
@@ -298,7 +302,8 @@ async def master_orchestrator():
                         found = re.findall(r'\]\((https?://[^\)]+)\)', content)
                         for url in found:
                             existing_urls.add(url.split('#')[0].rstrip('/').lower())
-                except: pass
+                except Exception as e:
+                    log_event(f"[WARN] read docs/{file} for URL extraction: {str(e)[:100]}")
     
     log_event(f"[*] Global Deduplication: {len(existing_urls)} existing URLs loaded.")
 
@@ -336,12 +341,14 @@ async def master_orchestrator():
                     if isinstance(ts, str):
                         try:
                             asset_date = datetime.strptime(ts, '%a %b %d %H:%M:%S +0000 %Y').replace(tzinfo=MADRID_TZ)
-                        except:
+                        except Exception as e:
                             try: asset_date = datetime.fromisoformat(ts.replace('Z', '+00:00'))
-                            except: pass
+                            except Exception as e2:
+                                log_event(f"[WARN] parse timestamp '{ts[:30]}': {str(e2)[:100]}")
                 if asset_date and asset_date > max_tweet_date:
                     max_tweet_date = asset_date
-            except: pass
+            except Exception as e:
+                log_event(f"[WARN] process asset timestamp: {str(e)[:100]}")
 
             assets_to_evaluate.append(asset)
 

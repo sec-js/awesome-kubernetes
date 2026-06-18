@@ -12,7 +12,9 @@ V2_DIR = "v2-docs"
 def run_command(cmd):
     try:
         return subprocess.check_output(cmd, shell=True).decode('utf-8').strip()
-    except: return "0"
+    except Exception as e:
+        print(f"[WARN] Command '{cmd[:60]}' failed: {str(e)[:100]}")
+        return "0"
 
 def clean_text(text: str) -> str:
     """Strips emojis and ampersands for README compatibility."""
@@ -26,7 +28,8 @@ def get_stats():
     inventory = {}
     try:
         inventory = load_inventory()
-    except: pass
+    except Exception as e:
+        print(f"[WARN] Failed to load inventory: {str(e)[:100]}")
 
     # 2. Basic Metrics
     total_links = len([u for u in inventory.keys() if not u.startswith("INTRO:")])

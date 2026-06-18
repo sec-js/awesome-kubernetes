@@ -35,6 +35,11 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.footer
+    - announce.dismiss
     - search.suggest
     - search.highlight
     - search.share
@@ -45,7 +50,7 @@ theme:
     - navigation.prune
     - toc.integrate
 
-  plugins:
+plugins:
   - search
   - privacy
   - social:
@@ -56,7 +61,19 @@ theme:
       custom_dir: "docs/images/"
       logo: favicon-ultra.png
   - redirects:
-      redirect_maps: {}
+      redirect_maps:
+        jvm-parameters-matrix-table.md: java-and-java-performance-optimization.md
+        private-cloud-solutions.md: kubernetes-on-premise.md
+        stackstorm.md: cicd.md
+        chef.md: ansible.md
+        newsql.md: databases.md
+        scaleway.md: digitalocean.md
+        xamarin.md: dotnet.md
+        dom.md: javascript.md
+        react.md: javascript.md
+        oauth.md: securityascode.md
+        digital-money.md: finops.md
+        aws-spain.md: aws.md
 
 extra:
   social:
@@ -72,7 +89,7 @@ extra:
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
   - static/extra.css
-  - static/v2_elite.css?v=2.3.44
+  - static/v2_elite.css?v=2.4.0
 
 extra_javascript:
   - static/v2_filter.js
@@ -95,6 +112,9 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
 
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/v1/
@@ -106,6 +126,9 @@ nav:
       - "DevOps, IaC, and SRE": videos/devops-iac.md
       - "Cloud Native Core": videos/cloud-native.md
       - "Fundamentals": videos/fundamentals.md
+  - "Intelligence Digest":
+    - "Tech & Cloud Digest": tech-digest.md
+    - "Industry & Geo Digest": industry-digest.md
   - "AI":
     - "AI Agents MCP": ai-agents-mcp.md
     - "AI": ai.md
@@ -147,14 +170,12 @@ nav:
     - "Testops": testops.md
   - "Hardened Infrastructure":
     - "Ansible": ansible.md
-    - "Chef": chef.md
     - "Crossplane": crossplane.md
     - "Devsecops": devsecops.md
     - "IaC": iac.md
     - "Kubernetes Security": kubernetes-security.md
     - "Kustomize": kustomize.md
     - "Liquibase": liquibase.md
-    - "Oauth": oauth.md
     - "Pulumi": pulumi.md
     - "Securityascode": securityascode.md
     - "Terraform": terraform.md
@@ -175,7 +196,6 @@ nav:
     - "AWS Pricing": aws-pricing.md
     - "AWS Security": aws-security.md
     - "AWS Serverless": aws-serverless.md
-    - "AWS Spain": aws-spain.md
     - "AWS Storage": aws-storage.md
     - "AWS Tools Scripts": aws-tools-scripts.md
     - "AWS Training": aws-training.md
@@ -186,9 +206,7 @@ nav:
     - "Ibm_Cloud": ibm_cloud.md
     - "Managed Kubernetes In Public Cloud": managed-kubernetes-in-public-cloud.md
     - "Oraclecloud": oraclecloud.md
-    - "Private Cloud Solutions": private-cloud-solutions.md
     - "Public Cloud Solutions": public-cloud-solutions.md
-    - "Scaleway": scaleway.md
   - "Networking & Service Mesh":
     - "Caching": caching.md
     - "Cloudflare": cloudflare.md
@@ -223,7 +241,6 @@ nav:
     - "Crunchydata": crunchydata.md
     - "Databases": databases.md
     - "Message Queue": message-queue.md
-    - "Newsql": newsql.md
     - "NoSQL": nosql.md
     - "Yaml": yaml.md
   - "Engineering Pipeline":
@@ -238,14 +255,12 @@ nav:
     - "Openshift Pipelines": openshift-pipelines.md
     - "Registries": registries.md
     - "Sonarqube": sonarqube.md
-    - "Stackstorm": stackstorm.md
     - "Tekton": tekton.md
   - "Developer Ecosystem":
     - "Chromedevtools": ChromeDevTools.md
     - "Angular": angular.md
     - "API": api.md
     - "Devel Sites": devel-sites.md
-    - "Dom": dom.md
     - "Dotnet": dotnet.md
     - "Embedded Servlet Containers": embedded-servlet-containers.md
     - "Golang": golang.md
@@ -253,20 +268,16 @@ nav:
     - "Java_App_Servers": java_app_servers.md
     - "Java_Frameworks": java_frameworks.md
     - "Javascript": javascript.md
-    - "JVM Parameters Matrix Table": jvm-parameters-matrix-table.md
     - "Linux Dev Env": linux-dev-env.md
     - "Lowcode Nocode": lowcode-nocode.md
     - "Maven Gradle": maven-gradle.md
     - "Postman": postman.md
     - "Python": python.md
-    - "React": react.md
     - "Swagger Code Generator For Rest APIs": swagger-code-generator-for-rest-apis.md
     - "Visual Studio": visual-studio.md
     - "Web3": web3.md
-    - "Xamarin": xamarin.md
   - "Career & Industry":
     - "Appointment Scheduling": appointment-scheduling.md
-    - "Digital Money": digital-money.md
     - "Elearning": elearning.md
     - "Finops": finops.md
     - "Freelancing": freelancing.md

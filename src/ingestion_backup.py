@@ -88,11 +88,12 @@ class BackupDataExtractor:
                 def parse_date(x):
                     try:
                         return datetime.strptime(x["timestamp"], '%a %b %d %H:%M:%S +0000 %Y')
-                    except:
+                    except Exception as e:
+                        print(f"[WARN] Date parse failed for timestamp: {str(e)[:100]}")
                         return datetime.min
                 results.sort(key=parse_date)
-            except:
-                pass
+            except Exception as e:
+                print(f"[WARN] Sorting results by date failed: {str(e)[:100]}")
 
             self.log_audit("Backup Ingestion", True, f"Total links extracted: {len(results)}")
             return results
