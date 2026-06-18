@@ -39,7 +39,6 @@
     - [CLI Tools](#cli-tools)
     - [Java Frameworks](#java-frameworks)
     - [Open Source](#open-source)
-    - [Postman](#postman)
     - [Productivity](#productivity)
   - [Performance Testing](#performance-testing)
     - [API Testing](#api-testing-1)
@@ -125,9 +124,6 @@
 #### Open Source
 
   - **(2026)** [Hoppscotch: Open-Source Alternative to Postman](https://hoppscotch.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hoppscotch is a modern, lightweight, web-native open-source alternative to Postman. Engineered to be highly performant, it streamlines real-time operations including HTTP, GraphQL, and WebSockets.
-#### Postman
-
-  - **(2026)** [getpostman.com](https://www.postman.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman remains a prominent API collaboration platform. It offers developers comprehensive tools to design, mock, test, document, and monitor APIs within an intuitive, team-oriented development lifecycle workspace.
 #### Productivity
 
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.

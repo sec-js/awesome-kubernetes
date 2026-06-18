@@ -75,6 +75,8 @@
     - [Static Analysis](#static-analysis)
   - [Ansible Security](#ansible-security)
     - [Secret Management](#secret-management)
+  - [Configuration Management](#configuration-management-1)
+    - [Ansible AWX](#ansible-awx)
   - [Enterprise Platform](#enterprise-platform)
     - [Architecture](#architecture)
     - [Mainframe Automation](#mainframe-automation)
@@ -129,7 +131,7 @@
     - [Community Authors](#community-authors)
     - [Comparison](#comparison-1)
     - [Concepts](#concepts)
-    - [Configuration Management](#configuration-management-1)
+    - [Configuration Management](#configuration-management-2)
     - [Containers](#containers)
     - [Continuous Delivery](#continuous-delivery)
     - [Core Concepts](#core-concepts)
@@ -170,7 +172,6 @@
     - [Templating](#templating-1)
     - [Troubleshooting](#troubleshooting-1)
     - [Tutorials](#tutorials)
-    - [Web Console](#web-console)
   - [Ansible Testing](#ansible-testing)
     - [Best Practices](#best-practices-1)
     - [Molecule](#molecule)
@@ -411,6 +412,11 @@
 #### Secret Management
 
   - **(2023)** [tomsitcafe.com: Handling sensitive data with Ansible Vault: encrypting strings instead of files](https://tomsitcafe.com/2023/03/16/handling-sensitive-data-with-ansible-vault-encrypting-strings-instead-of-files)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on best-practice implementations of `ansible-vault` for granular string-level cryptography. Helps secure sensitive credentials and API tokens inside version-controlled Git files without encrypting entire playbooks.
+### Configuration Management (1)
+
+#### Ansible AWX
+
+  - **(2026)** [==AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15453</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-83cb96df" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 8 L 30 4 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-83cb96df)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
 ### Enterprise Platform
 
 #### Architecture
@@ -486,7 +492,6 @@
   - **(2024)** [docs.ansible.com: kubernetes.core.helm_plugin module – Manage Helm plugins](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/helm_plugin_module.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing Ansible's `kubernetes.core.helm_plugin` module. This module automates the installation, update, and removal of core Helm plugins, streamlining toolchain dependencies directly on administrative cluster environments.
 #### Object Management
 
-  - **(2024)** [docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes (K8s) objects](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation for the cornerstone `kubernetes.core.k8s` module. It allows direct, declarative definition of Kubernetes objects inside Ansible playbooks using native YAML manifest definitions, enabling a blended hybrid orchestration pattern.
   - **(2022)** [adamtheautomator.com: How to Use the Ansible Kubernetes Module](https://adamtheautomator.com/ansible-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial focusing on deploying applications inside Kubernetes utilizing the `k8s` Ansible module. It highlights authentication patterns, namespace orchestration, and managing deployments or services using declarative syntax.
 #### Operators
 
@@ -565,7 +570,7 @@
   - **(2021)** [opensource.com: 10 ways Ansible is for everyone 🌟](https://opensource.com/article/21/1/ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how Ansible's declarative engine appeals to cross-disciplinary teams. Demonstrates scalability patterns from developers to network engineers, showcasing low cognitive load syntax and multi-vendor abstraction layers as key drivers for enterprise-wide adoption.
   - **(2021)** [linkedin.com: Ansible what is it and what not](https://www.linkedin.com/pulse/ansible-what-marcel-koert)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analytically bounds Ansible's utility profile by identifying what it is and what it is not. Highlights its primary purpose in deployment, configuration state assurance, and software orchestration while detailing architectural anti-patterns where alternative solutions (like direct programming languages) fit better.
   - **(2021)** [developers.redhat.com: Four reasons developers should use Ansible](https://developers.redhat.com/articles/2021/09/27/four-reasons-developers-should-use-ansible)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines architectural benefits why software engineers should embrace configuration as code using Ansible. Focuses on local development environment parity, simplified build runners, database schema migrations, and application topologies.
-#### Configuration Management (1)
+#### Configuration Management (2)
 
   - **(2021)** [redhat.com: How to pass extra variables to an Ansible playbook](https://www.redhat.com/en/blog/extra-variables-ansible-playbook) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the mechanism of variable precedence in Ansible by focusing on "extra variables" passed via command-line arguments (`--extra-vars` or `-e`). This approach represents the highest level of precedence, enabling runtime dynamic overrides essential for CI/CD integrations.
 #### Containers
@@ -710,9 +715,6 @@
 #### Tutorials
 
   - **(2021)** [youtube: Ansible Collections 🌟](https://www.youtube.com/watch?app=desktop&v=AXnDrGgLaF0&feature=share&ab_channel=RobertdeBock) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A video-based walkthrough demonstrating how to construct, package, distribute, and consume Ansible Collections. The tutorial outlines the transition from legacy monolithic roles to modular collection structures containing plugins, playbooks, and roles.
-#### Web Console
-
-  - **(2026)** [==Ansible AWX==](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>⭐ 15453</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-83cb96df" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 8 L 30 4 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-83cb96df)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
 ### Ansible Testing
 
 #### Best Practices (1)

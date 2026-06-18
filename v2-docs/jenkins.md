@@ -100,7 +100,6 @@
     - [Plugin Management](#plugin-management)
   - [Core Architecture](#core-architecture)
     - [Deprecations](#deprecations)
-    - [Developer Tooling](#developer-tooling-1)
     - [Foundations](#foundations)
     - [Version Tracking](#version-tracking)
   - [Dynamic Agents](#dynamic-agents)
@@ -119,7 +118,7 @@
   - [Jenkins Tools](#jenkins-tools)
     - [Validation and Linting](#validation-and-linting)
 1. [CICD Pipeline Architecture](#cicd-pipeline-architecture)
-  - [Developer Tooling](#developer-tooling-2)
+  - [Developer Tooling](#developer-tooling-1)
     - [Editor Extension](#editor-extension)
   - [Enterprise Templating](#enterprise-templating)
     - [DevSecOps Integration](#devsecops-integration)
@@ -660,7 +659,6 @@
   - **(2025)** [docs.cloudbees.com: Configuration as Code for CloudBees Core on modern cloud platforms](https://docs.cloudbees.com/docs/cloudbees-ci/latest/casc-controller/distribute-casc-bundles-from-oc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise implementation architectural blueprint outlining how to distribute configuration as code (CasC) bundles safely from central Operations Centers down to managed controller clusters across dynamic Kubernetes namespaces.
 #### Jenkins JCasC
 
-  - **(2025)** [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core configuration portal resource emphasizing JCasC's role in establishing single-source-of-truth configuration files. It eliminates configuration drift through central, repeatable environments.
   - **(2024)** [devops.com: Using jenkins configuration as code](https://devops.com/using-jenkins-configuration-as-code) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A practical industry analysis illustrating standard techniques for shifting legacy Jenkins controller provisioning workflows into git-centric, declaration-first structures. It presents a detailed taxonomy of automated setup validation strategies.
 #### Job Generation
 
@@ -675,9 +673,6 @@
 #### Deprecations
 
   - **(2021)** [jenkins.io: Deprecating non-Java plugins](https://www.jenkins.io/blog/2021/12/22/deprecated-ruby-runtime) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Official engineering announcement detailing the sunset of legacy Ruby and Python runtime layers in modern core Jenkins installations. Emphasizes JVM optimization and security surface minimization.
-#### Developer Tooling (1)
-
-  - **(2025)** [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official command-line runtime interface for administering remote Jenkins controller servers. Allows automated shell execution of administrative tasks, plugin updates, diagnostic tracing, and build queue interventions.
 #### Foundations
 
   - **(2024)** [devopscube.com: Jenkins Architecture Explained – Beginners Guide](https://devopscube.com/jenkins-architecture-explained) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A classic conceptual primer outlining standard architecture dynamics between Jenkins central control plane instances and scale-out worker agents. Delivers essential mental models for networking, agent provisioning, and persistence.
@@ -730,7 +725,7 @@
   - **(2021)** [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides targeted code snippets, auto-complete utilities, and syntax validations optimized for declarative Jenkinsfiles. It dramatically reduces developer syntax errors when managing complex multi-stage pipeline steps.
 ## CICD Pipeline Architecture
 
-### Developer Tooling (2)
+### Developer Tooling (1)
 
 #### Editor Extension
 

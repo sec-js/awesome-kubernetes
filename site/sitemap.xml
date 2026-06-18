@@ -373,10 +373,6 @@
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
-         <loc>https://nubenetes.com/kubernetes-newsletters/</loc>
-         <lastmod>2026-06-18</lastmod>
-    </url>
-    <url>
          <loc>https://nubenetes.com/kubernetes-on-premise/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
@@ -605,6 +601,10 @@
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
+         <loc>https://nubenetes.com/tags/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
          <loc>https://nubenetes.com/tekton/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
@@ -618,10 +618,6 @@
     </url>
     <url>
          <loc>https://nubenetes.com/testops/</loc>
-         <lastmod>2026-06-18</lastmod>
-    </url>
-    <url>
-         <loc>https://nubenetes.com/uncategorized/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
@@ -646,6 +642,26 @@
     </url>
     <url>
          <loc>https://nubenetes.com/yaml/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://nubenetes.com/videos/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://nubenetes.com/videos/ai-agents/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://nubenetes.com/videos/cloud-native/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://nubenetes.com/videos/devops-iac/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://nubenetes.com/videos/fundamentals/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
 </urlset>
