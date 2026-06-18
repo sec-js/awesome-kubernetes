@@ -136,10 +136,10 @@
 
 #### HR Operations
 
-  - [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated handbook of prompt engineering patterns tailored for HR leaders. Accelerates documentation, drafting performance benchmarks, and designing internal team-alignment frameworks.
+  - [aihr.com: 21+ ChatGPT Prompts for HR To Accelerate Your Productivity](https://www.aihr.com/blog/chatgpt-prompts-for-hr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated handbook of prompt engineering patterns tailored for HR leaders. Accelerates documentation, drafting performance benchmarks, and designing internal team-alignment frameworks.
 #### Workplace Automation
 
-  - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
+  - **(2023)** [businessinsider.es: Uso ChatGPT entre 50 y 70 veces al día para todo, desde preparar reuniones hasta quitarme el pegamento de los dedos](https://www.businessinsider.es/tecnologia/uso-chatgpt-50-70-veces-dia-ser-productivo-1228162) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reportaje de carácter práctico que expone la incorporación intensiva de agentes de IA conversacional dentro del flujo de trabajo corporativo diario, ilustrando la aceleración de tareas de síntesis y redacción técnica. [SPANISH CONTENT]
 ## Infrastructure
 
 ### Artificial Intelligence (2)

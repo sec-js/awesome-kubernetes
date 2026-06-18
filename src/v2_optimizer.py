@@ -776,7 +776,10 @@ class V2VisionEngine:
             comp = l.get("complexity", "Intermediate")
             level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
             res_type = l.get("resource_type", "Reference")
-            type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>" if res_type.lower() in ["case study", "guide", "documentation"] else ""
+            type_tag = ""
+            if res_type.lower() in ["case study", "guide", "documentation"]:
+                if f"[{res_type.upper()}]" not in l.get("tags", []):
+                    type_tag = f" <span class='md-tag md-tag--primary'>[{res_type.upper()}]</span>"
             rich = "".join([f" <small>by **{l['author']}**</small>" if l.get("author") else "", f" <span class='md-tag md-tag--info'>⏱️ {l['duration']}</span>" if l.get("duration") else "", f" <span class='md-tag md-tag--info'>📖 {l['reading_time']}</span>" if l.get("reading_time") else ""])
             tag_html = ""
             for tag in l.get("tags", ["[COMMUNITY-TOOL]"]):
@@ -851,7 +854,12 @@ class V2VisionEngine:
                 color = "primary"
             tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
 
-        return f"  - {year_prefix}[{link_content}]({l['url'].strip()}){stars_str}{tag_html}{cat_link}\n"
+        lang = l.get("language", "English")
+        lang_tag = ""
+        if lang.lower() not in ["english", "n/a", "none"]:
+            lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>"
+
+        return f"  - {year_prefix}[{link_content}]({l['url'].strip()}){stars_str}{tag_html}{lang_tag}{cat_link}\n"
 
 
 
@@ -973,7 +981,7 @@ class V2VisionEngine:
             "| <a href=\"./tags/#case-study\"><span class=\"md-tag md-tag--secondary\">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |\n"
             "| <a href=\"./tags/#community-tool\"><span class=\"md-tag md-tag--info\">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |\n"
             "| <a href=\"./tags/#legacy\"><span class=\"md-tag md-tag--critical\">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n"
-            "| <a href=\"./tags/#spanish-content\"><span class=\"md-tag md-tag--primary\">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
+            "| <a href=\"./tags/#spanish-content\"><span class=\"md-tag md-tag--warning\">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
             "## Technical Impact (Relevance Score)\n\n"
             "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
             "| Impact | Level | Meaning | Visual Code |\n"
@@ -1160,7 +1168,15 @@ class V2VisionEngine:
         # Group by tags
         by_tag = {}
         for l in active_links.values():
-            for t in l.get("tags", []):
+            tags_to_process = list(l.get("tags", []))
+            # Include language indexing for non-English resources (Mandate 10)
+            lang = l.get("language", "English")
+            if lang.lower() in ["spanish", "es", "english/spanish"]:
+                tags_to_process.append("[SPANISH CONTENT]")
+            elif lang.lower() != "english" and lang.lower() != "n/a" and lang.lower() != "none":
+                tags_to_process.append(f"[{lang.upper()} CONTENT]")
+
+            for t in tags_to_process:
                 by_tag.setdefault(t, []).append(l)
 
         # Sort tags
@@ -1171,7 +1187,8 @@ class V2VisionEngine:
             "[GUIDE]",
             "[CASE STUDY]",
             "[COMMUNITY-TOOL]",
-            "[LEGACY]"
+            "[LEGACY]",
+            "[SPANISH CONTENT]"
         ]
         
         sorted_tags = []
@@ -1202,12 +1219,19 @@ class V2VisionEngine:
             if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
                 tag_display = tag_display.upper()
             
+            # Wrap section inside a .v2-tag-section div and details block for performance
+            md += f"<div class=\"v2-tag-section\" markdown=\"1\">\n\n"
             md += f"## {tag_display}\n\n"
+            md += f"<details markdown=\"1\">\n"
+            md += f"<summary>Click to view {len(by_tag[tag])} resources under {tag_display}</summary>\n\n"
+            
             # Sort links under this tag by impact stars and then by year
             sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             for l in sorted_links:
                 md += self._render_compact_tag_link(l)
             md += "\n"
+            md += f"</details>\n\n"
+            md += f"</div>\n\n"
 
         target_path = os.path.join(V2_DIR, "tags.md")
         

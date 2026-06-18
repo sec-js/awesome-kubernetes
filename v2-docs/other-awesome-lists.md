@@ -250,7 +250,7 @@
 
 #### Awesome Lists (1)
 
-  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
+  - **(2025)** [==Awesome MCP Servers==](https://github.com/punkpeye/awesome-mcp-servers) <span class='md-tag md-tag--info'>⭐ 89112</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-396cb5e3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 4 L 20 9 L 30 10 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-396cb5e3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational databases, enterprise APIs, version control providers, and local execution runtimes.
 ## API Development
 
 ### API Gateway
@@ -473,7 +473,7 @@
 
 #### Kubernetes (2)
 
-  - **(2023)** [==mikeroyal/Kubernetes-Guide: Kubernetes Guide 🌟==](https://github.com/mikeroyal/Kubernetes-Guide) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive educational directory covering basic components, intermediate networking, storage, and advanced Kubernetes configurations. Offers structured developer pathways and hypervisor setup instructions, making it ideal for technical upskilling and training programs.
+  - **(2023)** [==mikeroyal/Kubernetes-Guide: Kubernetes Guide 🌟==](https://github.com/mikeroyal/Kubernetes-Guide) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive educational directory covering basic components, intermediate networking, storage, and advanced Kubernetes configurations. Offers structured developer pathways and hypervisor setup instructions, making it ideal for technical upskilling and training programs.
 ## Data Engineering
 
 ### Big Data
@@ -495,7 +495,7 @@
 
 #### Meta-Resources
 
-  - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
+  - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
 ### Learning Roadmap
 
 #### Machine Learning
@@ -510,7 +510,7 @@
 
 #### Meta-Resources (1)
 
-  - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
+  - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
 ## Deployment and Delivery
 
 ### CICD and Delivery

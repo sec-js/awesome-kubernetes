@@ -128,7 +128,7 @@
 
 #### Grafana Provisioning
 
-  - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural guide detailing how to manage Grafana as code. Explores declarative tools, GitOps synchronization methods, and APIs (such as Grizzly, Terraform, and Kubernetes Operators) to achieve reproducible visualization dashboards, alert rules, and secure data sources inside multi-tenant configurations.
+  - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An architectural guide detailing how to manage Grafana as code. Explores declarative tools, GitOps synchronization methods, and APIs (such as Grizzly, Terraform, and Kubernetes Operators) to achieve reproducible visualization dashboards, alert rules, and secure data sources inside multi-tenant configurations.
 ### Log Management
 
 #### Deployment Guides

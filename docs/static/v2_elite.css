@@ -797,5 +797,85 @@ a {
   background-color: rgba(0, 0, 0, 0.55) !important;
 }
 
+/* ---------------------------------------------------- */
+/* PERFORMANCE OPTIMIZATIONS FOR DENSE INDEXES          */
+/* ---------------------------------------------------- */
+
+/* Defer rendering of heavy tag sections on the tags index page */
+.v2-tag-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+/* Collapsible tag lists on the tags index page */
+.v2-tag-section details {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin: 12px 0 24px 0;
+  background: rgba(244, 244, 245, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+[data-md-color-scheme="slate"] .v2-tag-section details {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(24, 24, 27, 0.4);
+}
+
+.v2-tag-section details[open] {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.08);
+}
+
+[data-md-color-scheme="slate"] .v2-tag-section details[open] {
+  box-shadow: 0 0 16px rgba(34, 211, 238, 0.12);
+}
+
+.v2-tag-section summary {
+  padding: 14px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.v2-tag-section summary:hover {
+  background-color: rgba(14, 165, 233, 0.05);
+  color: var(--md-accent-fg-color);
+}
+
+[data-md-color-scheme="slate"] .v2-tag-section summary:hover {
+  background-color: rgba(34, 211, 238, 0.04);
+}
+
+/* Custom indicator icon */
+.v2-tag-section summary::after {
+  content: '▼';
+  font-size: 0.75rem;
+  transition: transform 0.3s ease;
+  color: var(--md-primary-fg-color--dark);
+}
+
+.v2-tag-section details[open] summary::after {
+  transform: rotate(-180deg);
+  color: var(--md-accent-fg-color);
+}
+
+/* Inner content area padding when expanded */
+.v2-tag-section details > ul {
+  padding: 16px 24px 20px 24px !important;
+  margin: 0 !important;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+[data-md-color-scheme="slate"] .v2-tag-section details > ul {
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+
+
 
 

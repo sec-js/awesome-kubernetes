@@ -893,12 +893,12 @@
 
 #### Pipeline Design
 
-  - **(2022)** [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/basics-of-gitlab-ci-updated) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide focused on configuring GitLab CI for advanced pipelines. Outlines steps to transition from basic sequential stages to highly optimized workflows utilizing Direct Acyclic Graphs (DAGs) and dynamic parallel task configurations.
+  - **(2022)** [about.gitlab.com: The basics of CI: How to run jobs sequentially, in parallel, or out of order](https://about.gitlab.com/blog/basics-of-gitlab-ci-updated) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical guide focused on configuring GitLab CI for advanced pipelines. Outlines steps to transition from basic sequential stages to highly optimized workflows utilizing Direct Acyclic Graphs (DAGs) and dynamic parallel task configurations.
 ### GitOps (1)
 
 #### GitLab Agent
 
-  - **(2022)** [about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster](https://about.gitlab.com/blog/gitops-with-gitlab-connecting-the-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation detailing the setup of the GitLab Agent for Kubernetes. Provides secure pull-based GitOps workflows, ensuring real-time configuration sync and immediate cluster telemetry reporting to the GitLab enterprise console.
+  - **(2022)** [about.gitlab.com: GitOps with GitLab: Connect with a Kubernetes cluster](https://about.gitlab.com/blog/gitops-with-gitlab-connecting-the-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step documentation detailing the setup of the GitLab Agent for Kubernetes. Provides secure pull-based GitOps workflows, ensuring real-time configuration sync and immediate cluster telemetry reporting to the GitLab enterprise console.
 ### Jenkins
 
 #### Jenkins Pipeline Training
@@ -2007,7 +2007,7 @@
 
 #### Grafana Stack
 
-  - **(2022)** [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/how-istio-tempo-and-loki-speed-up-debugging-for-microservices) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how to configure the unified Grafana observability stack (Loki for logs, Tempo for traces, Istio for mesh networking) to accelerate troubleshooting in microservices. Focuses on setting up automatic correlation IDs to jump from logs to tracing traces instantly.
+  - **(2022)** [grafana.com: How Istio, Tempo, and Loki speed up debugging for microservices](https://grafana.com/blog/how-istio-tempo-and-loki-speed-up-debugging-for-microservices) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how to configure the unified Grafana observability stack (Loki for logs, Tempo for traces, Istio for mesh networking) to accelerate troubleshooting in microservices. Focuses on setting up automatic correlation IDs to jump from logs to tracing traces instantly.
 ### Monitoring
 
 #### Message Brokers
@@ -2047,12 +2047,12 @@
 
 #### EKS Training
 
-  - **(2025)** [eksworkshop.com](https://eksworkshop.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The canonical AWS EKS workshop framework. Outlines standard cluster orchestration procedures, highlighting network configurations (AWS VPC CNI), identity management (IAM Roles for Service Accounts - IRSA), and modern storage drivers (EBS/EFS CSI).
+  - **(2025)** [eksworkshop.com](https://eksworkshop.com/) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The canonical AWS EKS workshop framework. Outlines standard cluster orchestration procedures, highlighting network configurations (AWS VPC CNI), identity management (IAM Roles for Service Accounts - IRSA), and modern storage drivers (EBS/EFS CSI).
 ### Kubernetes Security
 
 #### RKE Best Practices
 
-  - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
+  - **(2021)** [stackrox.com: Part 1 - Rancher Kubernetes Engine (RKE) Security Best Practices for Cluster Setup 🌟](https://www.stackrox.io/blog/rancher-kubernetes-engine-security-part-1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Delineates critical security configurations and hardening guidelines for Rancher Kubernetes Engine (RKE) deployments. Explores secure etcd database clustering, role-based access control policies, TLS configuration, and master node network isolation.
 ## Platform Architecture
 
 ### CICD (2)
@@ -2081,7 +2081,7 @@
 
 #### Azure DevOps (1)
 
-  - **(2021)** [thomasthornton.cloud: A DevOps journey using Azure DevOps](https://thomasthornton.cloud/a-devops-journey-using-azure-devops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive retrospective detailing the strategic transition and ongoing journey of adopting Azure DevOps for enterprise platform engineering. The guide explores centralizing pipeline definitions, managing environment gates, optimizing agent pools, and leveraging built-in boards and repositories. It highlights pragmatic challenges and structural lessons learned during real-world migrations to cloud-native delivery workflows.
+  - **(2021)** [thomasthornton.cloud: A DevOps journey using Azure DevOps](https://thomasthornton.cloud/a-devops-journey-using-azure-devops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive retrospective detailing the strategic transition and ongoing journey of adopting Azure DevOps for enterprise platform engineering. The guide explores centralizing pipeline definitions, managing environment gates, optimizing agent pools, and leveraging built-in boards and repositories. It highlights pragmatic challenges and structural lessons learned during real-world migrations to cloud-native delivery workflows.
 ### Custom Controller Patterns
 
 #### Kubernetes Operators

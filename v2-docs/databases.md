@@ -384,7 +384,7 @@
 
 #### Case Studies
 
-  - **(2022)** [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic) <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical account exploring how local NVMe storage classes, low-latency container network interfaces, and declarative operator-driven recovery mechanisms have convinced traditional DBAs to run critical state on Kubernetes.
+  - **(2022)** [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical account exploring how local NVMe storage classes, low-latency container network interfaces, and declarative operator-driven recovery mechanisms have convinced traditional DBAs to run critical state on Kubernetes.
 #### Concepts
 
   - **(2022)** [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the architectural friction points and continuous evolution of stateful applications in Kubernetes. Highlights the challenges of maintaining network identity, attaching volume blocks, and managing reliable local database engines.
@@ -763,7 +763,7 @@
 
 #### Crunchy PostgreSQL
 
-  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
+  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
 ## Time-Series
 
 ### Architecture (1)

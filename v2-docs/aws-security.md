@@ -221,7 +221,7 @@
 
 #### AWS IAM
 
-  - **(2022)** [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://www.tenable.com/blog/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-iam433) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth analysis of AWS Identity and Access Management policy logic based on re:Inforce insights. Decodes complex interaction flows between implicit and explicit denies, SCP policies, permissions boundaries, and resource-based rules.
+  - **(2022)** [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://www.tenable.com/blog/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-iam433) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth analysis of AWS Identity and Access Management policy logic based on re:Inforce insights. Decodes complex interaction flows between implicit and explicit denies, SCP policies, permissions boundaries, and resource-based rules.
 ## Security and Compliance (1)
 
 ### Linux Hardening

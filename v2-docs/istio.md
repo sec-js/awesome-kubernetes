@@ -229,7 +229,7 @@
 
 ##### Egress Traffic
 
-  - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
+  - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
 ## Observability
 
 ### Continuous Profiling
@@ -283,7 +283,7 @@
 
 #### Architecture (2)
 
-  - **(2023)** [istio.io: Learn Microservices using Kubernetes and Istio 🌟](https://istio.io/latest/docs/examples/microservices-istio) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official tutorial illustrating how to orchestrate multi-language microservices inside Kubernetes using Istio to handle service discovery, fault injection, and dynamic traffic routing.
+  - **(2023)** [istio.io: Learn Microservices using Kubernetes and Istio 🌟](https://istio.io/latest/docs/examples/microservices-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official tutorial illustrating how to orchestrate multi-language microservices inside Kubernetes using Istio to handle service discovery, fault injection, and dynamic traffic routing.
 ### Networking (1)
 
 #### API Gateway (2)
@@ -291,7 +291,7 @@
   - **(2020)** [banzaicloud.com: Istio ingress controller as an API gateway](https://banzaicloud.com/blog/backyards-api-gateway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical review exploring the adaptation of Istio's ingress controller to serve as an enterprise API gateway. Focuses on route definitions, authentication offloading, and traffic manipulation.
 #### Education
 
-  - **(2021)** [dev.to/aurelievache: Understanding Istio: part 1 – Istio Components](https://dev.to/aurelievache/understanding-istio-part-1-istio-components-4ik5) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrated introductory series that demystifies core Istio components including virtual services, gateway declarations, destination rules, and observability patterns.
+  - **(2021)** [dev.to/aurelievache: Understanding Istio: part 1 – Istio Components](https://dev.to/aurelievache/understanding-istio-part-1-istio-components-4ik5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Illustrated introductory series that demystifies core Istio components including virtual services, gateway declarations, destination rules, and observability patterns.
 #### Hybrid Infrastructure
 
   - **(2021)** [tetrate.io: VM to container communications 101](https://tetrate.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores structural strategies to integrate legacy virtual machines (VMs) with Kubernetes container deployments using Istio's WorkloadEntry constructs to bridge legacy and modern networks.
@@ -306,7 +306,7 @@
 
 #### Monitoring
 
-  - **(2021)** [sysdig.com: How to monitor Istio, the Kubernetes service mesh](https://www.sysdig.com/blog/monitor-istio) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Operational overview focused on gathering metrics from the Istio control plane (Istiod) and sidecar proxies. Synthesizes standard Prometheus configurations to target golden signals.
+  - **(2021)** [sysdig.com: How to monitor Istio, the Kubernetes service mesh](https://www.sysdig.com/blog/monitor-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Operational overview focused on gathering metrics from the Istio control plane (Istiod) and sidecar proxies. Synthesizes standard Prometheus configurations to target golden signals.
 ### Red Hat OpenShift
 
 #### Enterprise Platforms
@@ -315,12 +315,12 @@
   - **(2020)** [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the GA availability of Red Hat OpenShift Service Mesh. Explains the integrated packaging of Istio, Envoy, and Jaeger under OpenShift's strict security paradigms.
 #### Observability (2)
 
-  - **(2020)** [openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh Part 2: Collecting Standard Metrics 🌟](https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step SRE manual describing standard metrics collection (latency, error rates, throughput) across an enterprise OpenShift Service Mesh. Leveraging Prometheus and Kiali telemetry mappings.
+  - **(2020)** [openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh Part 2: Collecting Standard Metrics 🌟](https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step SRE manual describing standard metrics collection (latency, error rates, throughput) across an enterprise OpenShift Service Mesh. Leveraging Prometheus and Kiali telemetry mappings.
 ### Traffic Management (3)
 
 #### Rate Limiting
 
-  - **(2021)** [solo.io: Learn how to rate limit requests in Istio 🌟](https://www.solo.io/blog/tutorial-rate-limiting-of-service-requests-in-istio-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Specialized guide showing how to implement rate limiting configurations inside Istio. Steps through integration with external Redis-backed Envoy filters to protect upstream dependencies.
+  - **(2021)** [solo.io: Learn how to rate limit requests in Istio 🌟](https://www.solo.io/blog/tutorial-rate-limiting-of-service-requests-in-istio-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Specialized guide showing how to implement rate limiting configurations inside Istio. Steps through integration with external Redis-backed Envoy filters to protect upstream dependencies.
 ### Training
 
 #### Education (1)

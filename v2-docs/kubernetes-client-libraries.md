@@ -146,7 +146,7 @@
 
 #### CDK for Kubernetes
 
-  - **(2022)** [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A developer-focused analysis highlighting structural trade-offs when implementing cdk8s in Python. Evaluates class inheritance structures, JSII compilation overhead, and configuration complexities relative to legacy YAML definitions.
+  - **(2022)** [blog.twstewart.me: cdk8s-python - A Love and Hate Experience](https://blog.twstewart.me/posts/cdk8s-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A developer-focused analysis highlighting structural trade-offs when implementing cdk8s in Python. Evaluates class inheritance structures, JSII compilation overhead, and configuration complexities relative to legacy YAML definitions.
 ## Configuration
 
 ### CDK and DSLs

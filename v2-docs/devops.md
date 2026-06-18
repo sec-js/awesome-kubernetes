@@ -461,7 +461,7 @@
 
 #### Twelve-Factor App
 
-  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
+  - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
 ## Automation
 
 ### NoOps Evolution
@@ -513,7 +513,7 @@
 
 #### Overview
 
-  - **(2026)** [**NoOps**](https://nubenetes.com/noops) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive conceptual guide on NoOps (No Operations). Describes the strategic path to fully outsourcing infrastructure layers to automated platforms, serverless paradigms, and self-healing systems so engineering can focus 100% on application logic.
+  - **(2026)** [**NoOps**](https://nubenetes.com/noops/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive conceptual guide on NoOps (No Operations). Describes the strategic path to fully outsourcing infrastructure layers to automated platforms, serverless paradigms, and self-healing systems so engineering can focus 100% on application logic.
 ### Serverless Systems
 
 #### DevOps Pipelines
@@ -859,7 +859,7 @@
 
 #### Overview (1)
 
-  - **(2026)** [**DevOps Tools**](https://nubenetes.com/devops-tools) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Catalog of modern DevOps tooling encompassing continuous integration, artifact storage, automated testing, container scheduling, and real-time telemetry pipelines to build stable, production-ready release processes.
+  - **(2026)** [**DevOps Tools**](https://nubenetes.com/devops-tools/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Catalog of modern DevOps tooling encompassing continuous integration, artifact storage, automated testing, container scheduling, and real-time telemetry pipelines to build stable, production-ready release processes.
 ## DevOps Methodology
 
 ### Application Delivery
@@ -1119,7 +1119,7 @@
 
 #### Overview (2)
 
-  - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nubenetes architectural reference portal on Infrastructure as Code (IaC). Outlines fundamental philosophies, lifecycle management, and paradigm shifts of treating bare-metal, cloud, or cluster state as declarative, version-controlled code.
+  - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nubenetes architectural reference portal on Infrastructure as Code (IaC). Outlines fundamental philosophies, lifecycle management, and paradigm shifts of treating bare-metal, cloud, or cluster state as declarative, version-controlled code.
 ### Terraform
 
 #### Entra ID Integration
@@ -1282,7 +1282,7 @@
 
 #### Foundational
 
-  - **(2024)** [loft.sh: Platform Engineering: The Definitive Guide](https://www.vcluster.com/blog/platform-engineering-the-definitive-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide from the creators of vcluster detailing the architectural layers of an IDP. Highlights developer experience, platform-backed virtual clusters, and multi-tenant self-service orchestration, addressing how virtualizing Kubernetes environments accelerates deployment cycles.
+  - **(2024)** [loft.sh: Platform Engineering: The Definitive Guide](https://www.vcluster.com/blog/platform-engineering-the-definitive-guide) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide from the creators of vcluster detailing the architectural layers of an IDP. Highlights developer experience, platform-backed virtual clusters, and multi-tenant self-service orchestration, addressing how virtualizing Kubernetes environments accelerates deployment cycles.
 ### IDP Architecture
 
 #### Control Plane
@@ -1381,7 +1381,7 @@
 
 ### Methodology (2)
 
-  - **(2020)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Bridges the gap between technical release pipelines and business product management. Explains DevOps principles, release gating, and CD strategies to align cross-functional teams with deployment automation architectures.
+  - **(2020)** [mindtheproduct.com: The Product Managers’ Guide to Continuous Delivery and DevOps 🌟🌟](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Bridges the gap between technical release pipelines and business product management. Explains DevOps principles, release gating, and CD strategies to align cross-functional teams with deployment automation architectures.
 ## Quality Assurance (1)
 
 ### Test Automation

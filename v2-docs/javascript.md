@@ -62,7 +62,7 @@
 
 #### Node.js Deployment
 
-  - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
+  - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
 ## Developer Productivity
 
 ### Package Management

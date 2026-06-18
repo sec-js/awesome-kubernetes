@@ -131,7 +131,7 @@
 
 #### Istio
 
-  - **(2026)** [Istio](https://nubenetes.com/istio) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive entry point to Istio architecture, the enterprise-grade service mesh. Details how engineers manage traffic routes, secure service-to-service communication with mutual TLS, and gain deep tracing observability across distributed Kubernetes deployments.
+  - **(2026)** [Istio](https://nubenetes.com/istio/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive entry point to Istio architecture, the enterprise-grade service mesh. Details how engineers manage traffic routes, secure service-to-service communication with mutual TLS, and gain deep tracing observability across distributed Kubernetes deployments.
 ## Cloud Native Infrastructure
 
 ### API Management

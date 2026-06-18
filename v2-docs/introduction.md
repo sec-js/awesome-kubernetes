@@ -414,7 +414,7 @@ graph TD
 #### Twelve-Factor App
 
   - **(2023)** [architecturenotes.co: 12 Factor App Revisited](https://architecturenotes.co/p/12-factor-app-revisited)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critically evaluates how classic 12-Factor concepts have aged. Addresses the challenges of serverless scaling, API-first interfaces, distributed telemetry, and modern build/release pipelines.
-  - **(2021)** [opensource.com: An open source developer's guide to 12-Factor App methodology](https://opensource.com/article/21/11/open-source-12-factor-app-methodology) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the application of 12-Factor methodology to open-source project standards. Highlights maintaining statelessness, dependency isolation, and configuration separation to simplify multi-environment testing and distribution.
+  - **(2021)** [opensource.com: An open source developer's guide to 12-Factor App methodology](https://opensource.com/article/21/11/open-source-12-factor-app-methodology)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the application of 12-Factor methodology to open-source project standards. Highlights maintaining statelessness, dependency isolation, and configuration separation to simplify multi-environment testing and distribution.
 ### SaaS
 
 #### Multi-Tenancy
@@ -953,7 +953,7 @@ graph TD
 
 #### Cookbook
 
-  - **(2023)** [cookbook.learndataengineering.com: The Data Engineering Cookbook](https://cookbook.learndataengineering.com/docs/05-CaseStudies) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive community cookbook gathering foundational data engineering designs, pipelines, and frameworks. Includes real-world infrastructure and data science architecture case studies, such as processing extreme datasets at CERN.
+  - **(2023)** [cookbook.learndataengineering.com: The Data Engineering Cookbook](https://cookbook.learndataengineering.com/docs/05-CaseStudies) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive community cookbook gathering foundational data engineering designs, pipelines, and frameworks. Includes real-world infrastructure and data science architecture case studies, such as processing extreme datasets at CERN.
 ## DevOps and CICD
 
 ### Continuous Integration
@@ -1039,7 +1039,7 @@ graph TD
 
 #### BFF
 
-  - **(2021)** [developers.soundcloud.com: Service Architecture at SoundCloud — Part 1: Backends for Frontends](https://developers.soundcloud.com/blog/service-architecture-1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The pioneering engineering case study detailing SoundCloud's development of the Backends-for-Frontends (BFF) pattern. Explains how dedicated, platform-specific API gateways optimize network roundtrips and tailor response payloads for mobile and web clients.
+  - **(2021)** [developers.soundcloud.com: Service Architecture at SoundCloud — Part 1: Backends for Frontends](https://developers.soundcloud.com/blog/service-architecture-1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The pioneering engineering case study detailing SoundCloud's development of the Backends-for-Frontends (BFF) pattern. Explains how dedicated, platform-specific API gateways optimize network roundtrips and tailor response payloads for mobile and web clients.
 ### Microfrontends
 
 #### AWS Serverless
@@ -1228,7 +1228,7 @@ graph TD
 
 #### Technical Debt (4)
 
-  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt) <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
+  - **(2023)** [n-ix.com: How to reduce your technical debt: An ultimate guide](https://www.n-ix.com/reduce-technical-debt)  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A holistic architectural playbook for diagnosing, budgeting, and paying down complex software debt. Proposes systematic approaches like code reviews, architectural documentation, and legacy modernization patterns.
   - **(2023)** [infoworld.com: You can’t run away from technical debt](https://www.infoworld.com/article/2338860/you-cant-run-away-from-technical-debt.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the inevitability of technical debt as cloud environments and architectures naturally age. Argues that cloud adoption does not eliminate debt but merely shifts it to configuration, infrastructure, and IaC domains.
 ## Microservices (5)
 
@@ -1547,7 +1547,7 @@ graph TD
 
 #### Monolith Transition
 
-  - **(2023)** [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.aboutamazon.com/what-we-do/entertainment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The famous Prime Video case study describing the refactoring of a highly distributed, serverless orchestration pipeline back to a consolidated monolithic service. Demonstrates how eliminating network serialization and step functions reduced operating costs by 90%.
+  - **(2023)** [primevideotech.com: Scaling up the Prime Video audio/video monitoring service and reducing costs by 90%](https://www.aboutamazon.com/what-we-do/entertainment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The famous Prime Video case study describing the refactoring of a highly distributed, serverless orchestration pipeline back to a consolidated monolithic service. Demonstrates how eliminating network serialization and step functions reduced operating costs by 90%.
 #### Technology Selection
 
 ??? note "devops.com: Why Boring Tech is Best to Avoid a Microservices Mess"

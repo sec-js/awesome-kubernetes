@@ -62,7 +62,7 @@
 
 #### Team Operations
 
-  - **(2021)** [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores operational patterns for running a globally distributed, remote-first Site Reliability Engineering (SRE) team. Focuses on adopting async communication protocols, using chatops, maintaining comprehensive postmortems, and setting up automated alert escalation systems to reduce incident response overhead.
+  - **(2021)** [infoq.com: How to Work Asynchronously as a Remote-First SRE](https://www.infoq.com/news/2021/12/remote-first-sre) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores operational patterns for running a globally distributed, remote-first Site Reliability Engineering (SRE) team. Focuses on adopting async communication protocols, using chatops, maintaining comprehensive postmortems, and setting up automated alert escalation systems to reduce incident response overhead.
 ### Remote Work
 
 #### Agile Methodologies

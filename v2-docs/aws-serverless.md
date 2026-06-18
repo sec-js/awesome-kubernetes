@@ -186,7 +186,7 @@
 
 #### .NET Core
 
-  - **(2022)** [Migrating a monolithic .NET REST API to AWS Lambda](https://aws.amazon.com/blogs/compute/migrating-a-monolithic-net-rest-api-to-aws-lambda) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formulates a structured migration plan to convert a monolithic ASP.NET Core Web API into a serverless AWS Lambda execution environment. Evaluates the use of the Amazon.Lambda.AspNetCoreServer bridge, highlighting cold start profiling and memory management strategies.
+  - **(2022)** [Migrating a monolithic .NET REST API to AWS Lambda](https://aws.amazon.com/blogs/compute/migrating-a-monolithic-net-rest-api-to-aws-lambda) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formulates a structured migration plan to convert a monolithic ASP.NET Core Web API into a serverless AWS Lambda execution environment. Evaluates the use of the Amazon.Lambda.AspNetCoreServer bridge, highlighting cold start profiling and memory management strategies.
 ## Observability and Monitoring
 
 ### CloudWatch

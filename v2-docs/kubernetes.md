@@ -911,10 +911,10 @@
   - **(2021)** [==thenewstack.io: Kubernetes Is Not Just About Containers — It’s About the API 🌟==](https://thenewstack.io/kubernetes-is-not-just-about-containers-its-about-the-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A shift in perspective that views Kubernetes not merely as a container tool, but as an extensible universal control plane driven by its declarative API. Introduces the power of custom resources and operators.
 #### Fundamentals
 
-  - **(2021)** [**dev.to: The Kubernetes API architecture | Daniele Polencic 🌟**](https://dev.to/danielepolencic/the-kubernetes-api-architecture-1pi9) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual and descriptive architectural review of the API Server request pipeline. Traces client requests through authentication, authorization, and admission controller gates.
+  - **(2021)** [**dev.to: The Kubernetes API architecture | Daniele Polencic 🌟**](https://dev.to/danielepolencic/the-kubernetes-api-architecture-1pi9) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual and descriptive architectural review of the API Server request pipeline. Traces client requests through authentication, authorization, and admission controller gates.
 #### Hands-on
 
-  - **(2021)** [**itnext.io: Working with the kubernetes API | Daniele Polencic 🌟**](https://itnext.io/working-with-the-kubernetes-api-587bc5941992) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates programmatic interactions with the Kubernetes REST API. Provides examples of tracking real-time events, querying statuses, and using service accounts to build internal operators.
+  - **(2021)** [**itnext.io: Working with the kubernetes API | Daniele Polencic 🌟**](https://itnext.io/working-with-the-kubernetes-api-587bc5941992) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates programmatic interactions with the Kubernetes REST API. Provides examples of tracking real-time events, querying statuses, and using service accounts to build internal operators.
 #### Reference
 
   - **(2026)** [==kubernetes.io: Kubernetes API==](https://kubernetes.io/docs/reference/kubernetes-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official documentation reference for the Kubernetes REST API. Maps core concepts, path definitions, custom resources, authorization structures, and api resource versions across stable and beta branches.
@@ -923,7 +923,7 @@
   - **(2021)** [==iximiuz.com: Working with Kubernetes API==](https://iximiuz.com/en/series/working-with-kubernetes-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive series dissecting the internal design of the API Server. Thoroughly details etcd storage bindings, API conversion rules, and the mechanics of watch events.
 #### Terminology
 
-  - **(2021)** [==iximiuz.com: Working with Kubernetes API - Resources, Kinds, and Objects==](https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elegant structural analysis clarifying confusing terminology in the Kubernetes API. Explores the explicit definitions and dependencies of Kinds, Resources, and active cluster Objects.
+  - **(2021)** [==iximiuz.com: Working with Kubernetes API - Resources, Kinds, and Objects==](https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An elegant structural analysis clarifying confusing terminology in the Kubernetes API. Explores the explicit definitions and dependencies of Kinds, Resources, and active cluster Objects.
 ### Debugging
 
 #### HTTP Client
@@ -978,7 +978,7 @@
 
 #### Core Mechanics (1)
 
-  - **(2023)** [k21academy.com: Kubernetes Deployment and Step-by-Step Guide to Deployment: Update, Rollback, Scale & Delete](https://k21academy.com/kubernetes/kubernetes-deployment) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete operational guide to managing deployment configurations. Details step-by-step commands to update containers, trigger rolling restarts, revert deployment revisions, and scale replica limits.
+  - **(2023)** [k21academy.com: Kubernetes Deployment and Step-by-Step Guide to Deployment: Update, Rollback, Scale & Delete](https://k21academy.com/kubernetes/kubernetes-deployment) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A complete operational guide to managing deployment configurations. Details step-by-step commands to update containers, trigger rolling restarts, revert deployment revisions, and scale replica limits.
 #### Declarative Manifests
 
   - **(2023)** [mirantis.com: Introduction to YAML: Creating a Kubernetes deployment](https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to writing YAML specifications for Kubernetes deployments. Demystifies manifest keys, selector configurations, resource allocations, and replica parameters.
@@ -999,10 +999,10 @@
 
 #### Liveness Probes
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #12: Effective way of using K8 Liveness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-12-effective-way-of-using-k8-liveness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric strategies for designing efficient liveness probes. Emphasizes isolating deadlock checks from deep application flows to prevent overloading key resources.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #12: Effective way of using K8 Liveness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-12-effective-way-of-using-k8-liveness-probe.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric strategies for designing efficient liveness probes. Emphasizes isolating deadlock checks from deep application flows to prevent overloading key resources.
 #### Readiness Probes
 
-  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #13: Effective way of using K8 Readiness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-13-effective-way-of-using-k8-readiness-probe.html) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on building effective readiness probes that reflect accurate application startup phases and resource warm-ups, preventing traffic routing before initialization finishes.
+  - **(2021)** [millionvisit.blogspot.com: Kubernetes for Developers #13: Effective way of using K8 Readiness Probe](https://millionvisit.blogspot.com/2021/04/kubernetes-for-developers-13-effective-way-of-using-k8-readiness-probe.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on building effective readiness probes that reflect accurate application startup phases and resource warm-ups, preventing traffic routing before initialization finishes.
 ## Application Management
 
 ### Custom Controllers
@@ -1160,7 +1160,7 @@
 
 #### Serverless
 
-  - **(2021)** [==infoq.com: The Great Lambda Migration to Kubernetes Jobs—a Journey in Three Parts 🌟==](https://www.infoq.com/articles/lambda-migration-k8s-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thorough post-mortem migrating heavy serverless infrastructure (AWS Lambda) into native Kubernetes batch Jobs. Discusses runtime optimizations, cost benefits, and developer velocity differences of running self-hosted orchestrations.
+  - **(2021)** [==infoq.com: The Great Lambda Migration to Kubernetes Jobs—a Journey in Three Parts 🌟==](https://www.infoq.com/articles/lambda-migration-k8s-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thorough post-mortem migrating heavy serverless infrastructure (AWS Lambda) into native Kubernetes batch Jobs. Discusses runtime optimizations, cost benefits, and developer velocity differences of running self-hosted orchestrations.
 ### Multi-Cloud
 
 #### Federation
@@ -1318,7 +1318,7 @@
 
 #### Overview
 
-  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
+  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
 ## Cloud Infrastructure
 
 ### Kubernetes (1)
@@ -1410,9 +1410,9 @@
 #### Strategies
 
   - **(2021)** [**youtube: deployment strategies in kubernetes | recreate | rolling update | blue/green | canary**](https://www.youtube.com/watch?v=efiMiaFjtn8&feature=youtu.be) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An illustrative tutorial reviewing deployment paradigms. Compares Recreate, Rolling Update, Blue-Green, and Canary rollout strategies alongside architectural trade-offs.
-  - **(2021)** [**educative.io: A deep dive into Kubernetes Deployment strategies**](https://www.educative.io/blog/kubernetes-deployments-strategies) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides deep-dive comparative matrices on deployment patterns. Evaluates application compatibility, infrastructure overhead, traffic routing, and rollout speeds.
-  - **(2021)** [**weave.works: Kubernetes Deployment Strategies 🌟**](https://www.weave.works/blog/kubernetes-deployment-strategies) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A classic GitOps and Progressive Delivery reference guide. Details how to coordinate deployment updates, using Git repositories as the source of truth, alongside progressive delivery tools like Flagger.
-  - **(2020)** [**auth0.com: Deployment Strategies In Kubernetes**](https://auth0.com/blog/deployment-strategies-in-kubernetes) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores production-grade Kubernetes deployment models. Analyzes rolling update nuances, proxy-level routing switches, and the integration of automated rollback hooks to isolate deployment errors.
+  - **(2021)** [**educative.io: A deep dive into Kubernetes Deployment strategies**](https://www.educative.io/blog/kubernetes-deployments-strategies) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides deep-dive comparative matrices on deployment patterns. Evaluates application compatibility, infrastructure overhead, traffic routing, and rollout speeds.
+  - **(2021)** [**weave.works: Kubernetes Deployment Strategies 🌟**](https://www.weave.works/blog/kubernetes-deployment-strategies) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A classic GitOps and Progressive Delivery reference guide. Details how to coordinate deployment updates, using Git repositories as the source of truth, alongside progressive delivery tools like Flagger.
+  - **(2020)** [**auth0.com: Deployment Strategies In Kubernetes**](https://auth0.com/blog/deployment-strategies-in-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores production-grade Kubernetes deployment models. Analyzes rolling update nuances, proxy-level routing switches, and the integration of automated rollback hooks to isolate deployment errors.
 #### Zero Downtime
 
   - **(2021)** [==learnk8s.io: Graceful shutdown and zero downtime deployments in Kubernetes==](https://learnkube.com/graceful-shutdown) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This reference analyzes pod termination lifecycles (SIGTERM, preStop hooks, and endpoint slice propagation delay). It contrasts standard rolling updates with the necessity of configuring a preStop hook to handle delayed traffic shifts, resolving the classic race condition between kubernetes API endpoint updates and pod eviction.
@@ -1504,7 +1504,7 @@
 
 #### Core Concepts (1)
 
-  - **(2023)** [devopscube.com/kubernetes-pod](https://devopscube.com/kubernetes-pod) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational, end-to-end technical reference manual mapping the Pod lifecycle, container initialization vectors, probe configurations, and common workload operational runbooks.
+  - **(2023)** [devopscube.com/kubernetes-pod](https://devopscube.com/kubernetes-pod) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational, end-to-end technical reference manual mapping the Pod lifecycle, container initialization vectors, probe configurations, and common workload operational runbooks.
 ## Configuration
 
 ### CDK and DSLs
@@ -1534,7 +1534,7 @@
   - **(2022)** [thenewstack.io: How to Make the Most of Kubernetes Environment Variables](https://thenewstack.io/how-to-make-the-most-of-kubernetes-environment-variables) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates application bootstrap configuration via environment variables. Evaluates performance compromises, security trade-offs, and Downward API integration to export cluster and pod metadata fields dynamically.
 #### Hot Reloading
 
-  - **(2022)** [thorsten-hans.com: Hot-Reload .NET Configuration in Kubernetes with ConfigMaps](https://www.thorsten-hans.com/hot-reload-net-configuration-in-kubernetes-with-configmaps) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes hot-reloading configurations in .NET workloads without recycling underlying pods. Uses volume-mounted ConfigMaps and file watchers to detect downstream manifest mutations in real-time.
+  - **(2022)** [thorsten-hans.com: Hot-Reload .NET Configuration in Kubernetes with ConfigMaps](https://www.thorsten-hans.com/hot-reload-net-configuration-in-kubernetes-with-configmaps) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes hot-reloading configurations in .NET workloads without recycling underlying pods. Uses volume-mounted ConfigMaps and file watchers to detect downstream manifest mutations in real-time.
 ### Secrets Management
 
 #### Environment Variables (1)
@@ -1544,7 +1544,7 @@
 
 #### Config and Secrets
 
-  - **(2023)** [k21academy.com: Kubernetes ConfigMaps and Secrets: Guide to Create and Update 🌟](https://k21academy.com/kubernetes/configmaps-secrets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental playbook illustrating the lifecycle, generation, and updates of ConfigMaps and Secrets. Establishes the core differences in creation mechanisms and direct manifest applications.
+  - **(2023)** [k21academy.com: Kubernetes ConfigMaps and Secrets: Guide to Create and Update 🌟](https://k21academy.com/kubernetes/configmaps-secrets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental playbook illustrating the lifecycle, generation, and updates of ConfigMaps and Secrets. Establishes the core differences in creation mechanisms and direct manifest applications.
 ### Templating and Engine
 
 #### Kustomize
@@ -1582,7 +1582,7 @@
 
 #### API Client Libraries
 
-  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
+  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
 ### Kubernetes Operations
 
 #### Pod Restarts
@@ -1592,7 +1592,7 @@
 
 #### Volumes Overview
 
-  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
+  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage/#kubernetes-volumes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
 ### Virtualization VS Containers
 
 #### Kubernetes Concept
@@ -1661,7 +1661,7 @@
 
 #### Probes
 
-  - **(2020)** [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A thorough guide covering the purpose of Liveness and Readiness probes. Details execution modes (HTTP, TCP, Exec) to orchestrate self-healing pods.
+  - **(2020)** [Kubernetes Liveness and Readiness Probes](https://theithollow.com/2020/05/18/kubernetes-liveness-and-readiness-probes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A thorough guide covering the purpose of Liveness and Readiness probes. Details execution modes (HTTP, TCP, Exec) to orchestrate self-healing pods.
 ### Workload Resources
 
 #### Controller Comparison
@@ -1677,7 +1677,7 @@
 
 #### Batch Jobs
 
-  - **(2020)** [opensource.com: A beginner's guide to Kubernetes Jobs and CronJobs](https://opensource.com/article/20/11/kubernetes-jobs-cronjobs) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introduction to batch processing in Kubernetes. Clarifies the design principles behind run-to-completion Jobs and schedules periodic workloads using CronJobs.
+  - **(2020)** [opensource.com: A beginner's guide to Kubernetes Jobs and CronJobs](https://opensource.com/article/20/11/kubernetes-jobs-cronjobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introduction to batch processing in Kubernetes. Clarifies the design principles behind run-to-completion Jobs and schedules periodic workloads using CronJobs.
 #### DaemonSets (1)
 
   - **(2021)** [thenewstack.io: Kubernetes DaemonSets: A Detailed Introductory Tutorial](https://thenewstack.io/kubernetes-daemonsets-a-detailed-introductory-tutorial) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a comprehensive overview of DaemonSet workloads in Kubernetes. Discusses daemon placement, tolerations for node taints, and classic infrastructure use cases like logging collectors and metric daemons.
@@ -2142,7 +2142,7 @@
 
 #### Overview (1)
 
-  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Introductory
 
 ### Concepts (1)
@@ -2626,13 +2626,13 @@
 
 #### Basics (1)
 
-  - **(2020)** [dev.to/vromanov: Kubernetes Services 🌟](https://dev.to/vromanov/kubernetes-services-1bj) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A straightforward overview of Kubernetes services. Clarifies endpoint selectors and highlights how the API dynamically registers and routes traffic to changing pod IP pools.
+  - **(2020)** [dev.to/vromanov: Kubernetes Services 🌟](https://dev.to/vromanov/kubernetes-services-1bj) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A straightforward overview of Kubernetes services. Clarifies endpoint selectors and highlights how the API dynamically registers and routes traffic to changing pod IP pools.
 #### Deep Dive (1)
 
-  - **(2021)** [**harness.io: Kubernetes Services Explained 🌟**](https://www.harness.io/blog/kubernetes-services-explained) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the network mechanics of Kubernetes Services, detailing internal DNS resolution, kube-proxy iptables configurations, and IPVS packet translation rules. Useful for tracing service discovery latencies.
+  - **(2021)** [**harness.io: Kubernetes Services Explained 🌟**](https://www.harness.io/blog/kubernetes-services-explained) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the network mechanics of Kubernetes Services, detailing internal DNS resolution, kube-proxy iptables configurations, and IPVS packet translation rules. Useful for tracing service discovery latencies.
 #### Fundamentals (6)
 
-  - **(2020)** [blog.alexellis.io: A Primer: Accessing services in Kubernetes](https://blog.alexellis.io/primer-accessing-kubernetes-services) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies service exposition mechanisms. Breaks down the network plumbing and structural configuration differences between ClusterIP, NodePort, and cloud-provider LoadBalancer integrations.
+  - **(2020)** [blog.alexellis.io: A Primer: Accessing services in Kubernetes](https://blog.alexellis.io/primer-accessing-kubernetes-services) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies service exposition mechanisms. Breaks down the network plumbing and structural configuration differences between ClusterIP, NodePort, and cloud-provider LoadBalancer integrations.
 #### IPVS
 
   - **(2021)** [dustinspecker.com: IPVS: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/ipvs-how-kubernetes-services-direct-traffic-to-pods) <span class='md-tag md-tag--warning'>[GO/BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A core-level networking analysis explaining how the IP Virtual Server (IPVS) routing layer handles service balancing inside high-scale clusters, demonstrating massive throughput advantages over standard iptables.
@@ -2906,7 +2906,7 @@
   - **(2020)** [polarsquad.com: Check your Kubernetes deployments!](https://polarsquad.com/blog/check-your-kubernetes-deployments) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents an essential operational checklist for production-grade Kubernetes workloads. Warns against basic anti-patterns and covers CPU/Memory resource constraints, Pod Disruption Budgets, anti-affinity controls, and robust health checks.
 #### Probes (1)
 
-  - **(2021)** [**loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls**](https://website.vcluster.com/blog/kubernetes-readiness-probes-examples-and-common-pitfalls) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes advanced operational pitfalls in readiness probe configurations. Explains how bad dependency validation (e.g. database pings inside web pod probes) can cause catastrophic, cascading cluster failures.
+  - **(2021)** [**loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls**](https://website.vcluster.com/blog/kubernetes-readiness-probes-examples-and-common-pitfalls) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes advanced operational pitfalls in readiness probe configurations. Explains how bad dependency validation (e.g. database pings inside web pod probes) can cause catastrophic, cascading cluster failures.
 #### Troubleshooting (2)
 
   - **(2022)** [**marcusnoble.co.uk: Managing Kubernetes without losing your cool 🌟**](https://marcusnoble.co.uk/2022-07-04-managing-kubernetes-without-losing-your-cool) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A collection of survival tips for operations teams managing production clusters. Emphasizes establishing alerts based on actionable metrics, using declarative GitOps pipelines, and avoiding manual ad-hoc cluster changes.
@@ -2922,7 +2922,7 @@
 
 #### DaemonSets (2)
 
-  - **(2019)** [engineering.prezi.com: How to avoid global outage — Seamlessly migrating DaemonSet labels](https://engineering.prezi.com/intro-4727024fc2c1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed post-mortem and strategy guide on safely migrating selector labels for active DaemonSets without triggering catastrophic cluster outages. It introduces mechanisms to stage transitions using interim labels and node-level scaling constraints.
+  - **(2019)** [engineering.prezi.com: How to avoid global outage — Seamlessly migrating DaemonSet labels](https://engineering.prezi.com/intro-4727024fc2c1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed post-mortem and strategy guide on safely migrating selector labels for active DaemonSets without triggering catastrophic cluster outages. It introduces mechanisms to stage transitions using interim labels and node-level scaling constraints.
 #### Pod Lifecycle
 
   - **(2021)** [itnext.io: Kubernetes Graceful Shutdown | Daniele Polencic 🌟](https://itnext.io/how-do-you-gracefully-shut-down-pods-in-kubernetes-fb19f617cd67) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass tutorial on gracefully terminating workloads in Kubernetes. Explains step-by-step endpoint deregistration, service mesh synchronization, preStop delays, SIGTERM handling, and the grace-period countdown.
@@ -3044,7 +3044,7 @@
 
 #### Reference Designs (1)
 
-  - **(2022)** [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A critical architectural design checklist covering VPC planning, high-availability control planes, etcd backup configurations, and identity federation. Recommended reading before launching any production-grade enterprise platform.
+  - **(2022)** [devopscube.com: 10 Key Considerations for Kubernetes Cluster Design & Setup 🌟](https://devopscube.com/key-considerations-kubernetes-cluster-design-setup) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A critical architectural design checklist covering VPC planning, high-availability control planes, etcd backup configurations, and identity federation. Recommended reading before launching any production-grade enterprise platform.
 ### Cluster Design
 
 #### Organization Models
@@ -3749,10 +3749,10 @@
   - **(2026)** [==kubernetes-sigs/kueue: Kubernetes-native Job Queueing==](https://github.com/kubernetes-sigs/kueue) <span class='md-tag md-tag--info'>⭐ 2563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-48e21aa7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 8 L 30 9 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-48e21aa7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kueue manages resource quotas across tenant namespaces, supporting complex machine learning and AI orchestration flows. It acts as a cloud-native batch scheduling engine, optimizing utilization within strict resource envelopes.
 #### Scaling (1)
 
-  - **(2021)** [**How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)**](https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Lyft engineers outline architectural bottlenecks of the built-in CronJob controller under heavy enterprise scales. Delivers critical modifications and performance recommendations to safely orchestrate thousands of parallel batch tasks.
+  - **(2021)** [**How we learned to improve Kubernetes CronJobs at Scale (Part 1 of 2)**](https://eng.lyft.com/improving-kubernetes-cronjobs-at-scale-part-1-cf1479df98d4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Lyft engineers outline architectural bottlenecks of the built-in CronJob controller under heavy enterprise scales. Delivers critical modifications and performance recommendations to safely orchestrate thousands of parallel batch tasks.
 #### Scheduling (2)
 
-  - **(2022)** [spacelift.io: CronJob in Kubernetes – Automating Tasks on a Schedule](https://spacelift.io/blog/kubernetes-cronjob) <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how CronJobs are managed within gitops pipelines and modern platform structures. Outlines core parameters like concurrency policies, history limits, and execution window deadlines.
+  - **(2022)** [spacelift.io: CronJob in Kubernetes – Automating Tasks on a Schedule](https://spacelift.io/blog/kubernetes-cronjob) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how CronJobs are managed within gitops pipelines and modern platform structures. Outlines core parameters like concurrency policies, history limits, and execution window deadlines.
 #### Tooling (3)
 
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
