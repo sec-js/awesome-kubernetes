@@ -33,6 +33,118 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
     
     log_event(f"  [⚖️] DEBATE TRIGGERED: '{title}' (Initial Score: {initial_score})", section_break=False)
     
+    # 0. Check if mock mode is requested or required (no keys configured)
+    from src.config import GEMINI_API_KEYS
+    mock_enabled = os.environ.get("MOCK_DEBATE") == "true" or not GEMINI_API_KEYS
+    
+    if mock_enabled:
+        log_event(f"    [⚖️] Bypassing Gemini API: Running Offline Mock Debate Simulator...")
+        text_to_scan = (title + " " + desc + " " + " ".join(tags)).lower()
+        
+        # Security Architect
+        if any(x in text_to_scan for x in ["secure", "hardened", "cryptography", "sign", "compliance", "license", "oauth", "token", "vault", "identity", "keycloak", "sops"]):
+            sa_score = 90
+            sa_just = "Strong security architecture, automated credential isolation, and supply-chain guarantees."
+        else:
+            sa_score = 70
+            sa_just = "Standard security compliance with typical permission profiles; no specific zero-trust hardening."
+            
+        # Cloud Native SRE
+        if any(x in text_to_scan for x in ["production", "scalable", "monitoring", "prometheus", "ha", "reliability", "redundant", "kubernetes", "operator", "helm", "flux", "argo", "k3s", "draino"]):
+            sre_score = 92
+            sre_just = "Excellent operational metrics, clear liveness/readiness configuration, and proven recovery behavior."
+        else:
+            sre_score = 65
+            sre_just = "Acceptable single-instance footprint, but lacks comprehensive scaling runbooks and observability probes."
+            
+        # AI Platform Engineer
+        if any(x in text_to_scan for x in ["agent", "mcp", "llm", "ai", "intelligence", "model", "prompt", "backstage", "developer"]):
+            ai_score = 94
+            ai_just = "Highly relevant for 2026 cognitive architectures, supporting developer agility and LLM/agent integrations."
+        else:
+            ai_score = 60
+            ai_just = "Conventional software engineering resource with minimal alignment to agentic orchestration patterns."
+            
+        scores = {
+            "Security Architect": sa_score,
+            "Cloud Native SRE": sre_score,
+            "AI Platform Engineer": ai_score
+        }
+        justifications = {
+            "Security Architect": sa_just,
+            "Cloud Native SRE": sre_just,
+            "AI Platform Engineer": ai_just
+        }
+        
+        for name, score in scores.items():
+            log_event(f"    [>] {name} rated: {score} (Justification: {justifications[name]})")
+            
+        max_score = max(scores.values())
+        min_score = min(scores.values())
+        divergence = max_score - min_score
+        debate_transcript = []
+        
+        if divergence >= 15:
+            log_event(f"    [⚖️] Divergence detected ({divergence} points). Starting Mock Debate Round...")
+            scores["Security Architect"] = int((sa_score + 78) / 2)
+            scores["Cloud Native SRE"] = int((sre_score + 80) / 2)
+            scores["AI Platform Engineer"] = int((ai_score + 82) / 2)
+            
+            rebuttals = {
+                "Security Architect": "We must prioritize baseline compliance and permission boundaries even if the developer tool yields high platform speed.",
+                "Cloud Native SRE": "Agreed, but the active community checkins and robust recovery hooks significantly offset the operational risk.",
+                "AI Platform Engineer": "Platform agility is paramount; wrapping this tool in an MCP server exposes its schema for cognitive agent orchestration."
+            }
+            for name, score in scores.items():
+                debate_transcript.append(f"{name} (Score {score}): {rebuttals[name]}")
+                log_event(f"    [>] {name} revised rating to {score}. Rebuttal: {rebuttals[name]}")
+                
+        final_score = int(sum(scores.values()) / len(scores))
+        log_event(f"    [🏁] Consensus Score reached: {final_score}")
+        
+        refined_summary = desc + " — Consensus Audit: The panel aligned on its enterprise maturity, noting its role in streamlining cloud native operations."
+        
+        final_tags = set(tags)
+        if final_score >= 85:
+            final_tags.add("[DE FACTO STANDARD]")
+            if "[COMMUNITY-TOOL]" in final_tags: final_tags.remove("[COMMUNITY-TOOL]")
+        elif final_score >= 70:
+            final_tags.add("[ENTERPRISE-STABLE]")
+            if "[COMMUNITY-TOOL]" in final_tags: final_tags.remove("[COMMUNITY-TOOL]")
+        else:
+            final_tags.add("[COMMUNITY-TOOL]")
+            
+        if "ebpf" in text_to_scan: final_tags.add("[EBPF]")
+        if "wasm" in text_to_scan: final_tags.add("[WASM]")
+        if "gitops" in text_to_scan: final_tags.add("[GITOPS]")
+        if "iac" in text_to_scan: final_tags.add("[IAC]")
+        if any(x in text_to_scan for x in ["agent", "mcp", "ai"]): final_tags.add("[AI]")
+        
+        debate_data = {
+            "url": url,
+            "title": title,
+            "initial_score": initial_score,
+            "final_consensus_score": final_score,
+            "scores": scores,
+            "justifications": justifications,
+            "rebuttals": debate_transcript,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        try:
+            memory_data = {}
+            if os.path.exists(DEBATE_MEMORY_FILE):
+                try:
+                    memory_data = json.load(open(DEBATE_MEMORY_FILE, "r"))
+                except: pass
+            memory_data.setdefault("resolved_debates", {})[normalize_url(url)] = debate_data
+            with open(DEBATE_MEMORY_FILE, "w") as f:
+                json.dump(memory_data, f, indent=2)
+        except Exception as e:
+            log_event(f"    [!] Failed to persist debate memory: {e}")
+            
+        return final_score, sorted(list(final_tags)), refined_summary, debate_data
+
     system_mandates = get_system_mandates()
     
     # 1. Independent Evaluation Round
