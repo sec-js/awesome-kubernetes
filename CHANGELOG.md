@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.5.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.7) - 2026-06-18
+
+### Added
+- **Fast-Pass Debate Evaluator (Recommendation #3)**: Optimized the consensus debate engine in `src/v2_debate.py` with a Fast-Pass Evaluator tier using a single Flash model call. Borderline scores between 60 and 75 escalate to the full Multi-Agent panel (Security, SRE, AI Architect), while clear cases bypass it.
+- **Resilient Health Checking (Recommendation #2)**: Introduced the `ENABLE_TWITTER_CURATION` toggle to optionally bypass Twikit/Playwright scraping. Integrates domain failure tracking in `src/memory/health_learning.json` to dynamically adjust timeouts and rotate User-Agents under consecutive failure conditions.
+- **Tag Page Cap (Recommendation #5)**: Prevented tag page DOM bloat in `v2-docs/tags.md` by capping the rendered links per tag to 100 (sorted by stars and year) and adding fallback links to the V1 Historical Archive.
+
 ## [[2.5.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.6) - 2026-06-18
 
 ### Added
