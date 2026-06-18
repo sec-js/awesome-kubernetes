@@ -116,6 +116,7 @@ def save_inventory(inv: Dict, shard_file: str = None):
         last_checked REAL,
         needs_ai_refresh BOOLEAN,
         discovered_at TEXT,
+        last_ai_eval TEXT,
         company TEXT,
         geo_region TEXT,
         hierarchy TEXT,
@@ -131,7 +132,7 @@ def save_inventory(inv: Dict, shard_file: str = None):
         "url", "title", "description", "year", "stars", "ai_summary", "language",
         "resource_type", "complexity", "is_microservice", "status", "addition_method",
         "content_hash", "health_score", "last_checked", "needs_ai_refresh",
-        "discovered_at", "company", "geo_region",
+        "discovered_at", "last_ai_eval", "company", "geo_region",
         "hierarchy", "tags", "v1_locations", "v2_locations", "youtube_mosaic", "extra_metadata"
     ]
     

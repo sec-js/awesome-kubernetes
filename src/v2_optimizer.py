@@ -373,7 +373,15 @@ class V2VisionEngine:
                 if is_special: item["is_special"] = True
                 # Mandate 30: Hierarchy and AI Summaries are mandatory for ELITE AI curation.
                 # Optimized Skip Logic: Only skip if we already have BOTH hierarchy and a summary.
-                if ((cached.get("hierarchy") and cached.get("ai_summary")) or self.render_only) and not force_eval:
+                last_eval = cached.get("last_ai_eval", "")
+                eval_stale = False
+                if last_eval and isinstance(last_eval, str) and len(last_eval) >= 10:
+                    try:
+                        eval_age = (datetime.now(MADRID_TZ) - datetime.fromisoformat(last_eval)).days
+                        eval_stale = eval_age > 180
+                    except Exception:
+                        pass
+                if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
                     if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
@@ -442,7 +450,8 @@ class V2VisionEngine:
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
                                 "is_microservice": bool(res.get("is_microservice", False)),
-                                "status": "online", "is_special": item.get("is_special", False)
+                                "status": "online", "is_special": item.get("is_special", False),
+                                "last_ai_eval": datetime.now(MADRID_TZ).isoformat()
                             }
                             existing_entry = self.inventory.get(normalize_url(item["url"]), {})
                             if existing_entry.get("discovered_at"):
@@ -531,7 +540,8 @@ class V2VisionEngine:
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
                                 "is_microservice": bool(res.get("is_microservice", False)),
-                                "status": "online", "is_special": item.get("is_special", False)
+                                "status": "online", "is_special": item.get("is_special", False),
+                                "last_ai_eval": datetime.now(MADRID_TZ).isoformat()
                             }
                             existing_entry = self.inventory.get(normalize_url(item["url"]), {})
                             if existing_entry.get("discovered_at"):
@@ -751,6 +761,19 @@ class V2VisionEngine:
             sort_rec(v2_structure[f_name]["content"])
             
         return v2_structure
+
+    def _collect_tags_from_tree(self, node: Dict) -> List[Set]:
+        """Recursively collect maturity/tech tags from a content tree for cross-referencing."""
+        results = []
+        if "__links__" in node:
+            for link in node["__links__"]:
+                tags = set(link.get("tags", []))
+                if tags:
+                    results.append(tags)
+        for key, val in node.items():
+            if key != "__links__" and isinstance(val, dict):
+                results.extend(self._collect_tags_from_tree(val))
+        return results
 
     async def _generate_comparison_table(self, links: List[Dict]) -> str:
         standard_tools = [l for l in links if l.get("stars", 0) >= 3]
@@ -1294,10 +1317,30 @@ class V2VisionEngine:
 
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
             
-            # Add Semantic "See Also" ONLY ONCE at the end of the page
-            related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
-            if related:
-                md += f"\n---\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
+            # Add Semantic "See Also" — same dimension + cross-dimension by shared tags
+            same_dim = [f for f in data if f != f_name and data[f]["dim"] == info["dim"]]
+            cross_dim = []
+            if info.get("content") and isinstance(info["content"], dict):
+                page_tags = set()
+                for node_links in self._collect_tags_from_tree(info["content"]):
+                    page_tags.update(node_links)
+                if page_tags:
+                    for f in data:
+                        if f != f_name and data[f]["dim"] != info["dim"]:
+                            other_tags = set()
+                            if isinstance(data[f].get("content"), dict):
+                                for t in self._collect_tags_from_tree(data[f]["content"]):
+                                    other_tags.update(t)
+                            if page_tags & other_tags:
+                                cross_dim.append(f)
+            related = [f"[{data[f]['title']}](./{f})" for f in same_dim[:3]]
+            cross = [f"[{data[f]['title']}](./{f})" for f in cross_dim[:2]]
+            if related or cross:
+                md += "\n---\n"
+                if related:
+                    md += f"💡 **Explore Related:** {' | '.join(related)}\n\n"
+                if cross:
+                    md += f"🔗 **See Also:** {' | '.join(cross)}\n\n"
             
             # Smart Write: Only update disk if content changed
             target_path = os.path.join(V2_DIR, f_name)

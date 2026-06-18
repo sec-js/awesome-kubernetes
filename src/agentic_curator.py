@@ -210,6 +210,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
                             "discovered_at": datetime.now(MADRID_TZ).isoformat(),
+                            "last_ai_eval": datetime.now(MADRID_TZ).isoformat(),
                             "suggested_new_category": data.get("suggested_new_category", ""),
                             "addition_method": {
                                 "rss": "rss_ingestion", "GitHub Trending": "github_trending",
