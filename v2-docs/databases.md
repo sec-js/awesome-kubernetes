@@ -14,8 +14,6 @@
     - [Azure Cloud](#azure-cloud)
     - [Google Cloud](#google-cloud)
 1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [FinOps](#finops)
-    - [Cost Optimization](#cost-optimization)
   - [Market Trends](#market-trends)
     - [Cloud Databases](#cloud-databases)
 1. [Cloud Native](#cloud-native)
@@ -68,9 +66,6 @@
     - [Concepts](#concepts)
     - [History](#history)
     - [Operational Guide](#operational-guide)
-1. [Database](#database)
-  - [PostgreSQL](#postgresql-1)
-    - [Database Administration](#database-administration)
 1. [Database and Storage Management](#database-and-storage-management)
   - [Data Administration](#data-administration)
     - [UI Tools](#ui-tools)
@@ -142,14 +137,12 @@
 1. [Observability](#observability-1)
   - [Distributed Storage](#distributed-storage)
     - [VictoriaMetrics](#victoriametrics)
-  - [PostgreSQL](#postgresql-2)
-    - [Database Monitoring](#database-monitoring-1)
-1. [PostgreSQL](#postgresql-3)
+1. [PostgreSQL](#postgresql-1)
   - [Alternative Paradigms](#alternative-paradigms)
   - [Application Architecture](#application-architecture)
   - [Application Performance](#application-performance)
   - [Backups](#backups)
-  - [Database Administration](#database-administration-1)
+  - [Database Administration](#database-administration)
   - [Database Architecture](#database-architecture-1)
   - [Database Backups](#database-backups)
   - [Extensions](#extensions)
@@ -208,9 +201,6 @@
     - [Database DevOps](#database-devops)
   - [Database Operators](#database-operators)
     - [Crunchy PostgreSQL](#crunchy-postgresql)
-1. [System Architecture](#system-architecture)
-  - [Data Management](#data-management)
-    - [Enterprise Migration](#enterprise-migration)
 1. [Time-Series](#time-series)
   - [Architecture](#architecture-1)
   - [VictoriaMetrics](#victoriametrics-1)
@@ -271,11 +261,6 @@
   - **(2021)** [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference architecture mapping design paths for deploying scalable data lakes inside Google Cloud Platform (GCP). Reviews Cloud Storage setups, BigQuery access schemas, and serverless ingestion patterns.
 ## Cloud Infrastructure
 
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### Market Trends
 
 #### Cloud Databases
@@ -409,13 +394,6 @@
 #### Operational Guide
 
   - **(2021)** [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A granular blueprint on configuring stateful workloads inside Kubernetes clusters. Details the practical implementation of Headless Services, stable network identifiers, local persistent volumes, and graceful cluster shutdowns.
-## Database
-
-### PostgreSQL (1)
-
-#### Database Administration
-
-  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
 ## Database and Storage Management
 
 ### Data Administration
@@ -531,6 +509,7 @@
 #### Kubernetes Operators (3)
 
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of KubeDB, an operator platform for automating databases on Kubernetes. Highlights declarative management of clustering, scheduling backups, and schema updates across multiple database engines (PostgreSQL, MySQL, MongoDB).
+  - **(2023)** [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Operator Lifecycle Manager (OLM) as part of the Operator Framework. Highlights catalog management, automated dependency resolution, security upgrades, and dynamic operator scaling across production enterprise clusters.
 #### MySQL Operators
 
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Cybozu's Moco, a highly resilient, modern Go-written MySQL operator for Kubernetes. Focuses on cluster setups, fast failover mechanics, and maintaining an extremely small operational footprint.
@@ -604,12 +583,7 @@
 #### VictoriaMetrics
 
   - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
-### PostgreSQL (2)
-
-#### Database Monitoring (1)
-
-  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
-## PostgreSQL (3)
+## PostgreSQL (1)
 
 ### Alternative Paradigms
 
@@ -623,7 +597,7 @@
 ### Backups
 
   - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73479964" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 5 L 40 8 L 50 10" fill="none" stroke="url(#spark-grad-73479964)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
-### Database Administration (1)
+### Database Administration
 
   - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
@@ -790,13 +764,6 @@
 #### Crunchy PostgreSQL
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
-## System Architecture
-
-### Data Management
-
-#### Enterprise Migration
-
-  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ## Time-Series
 
 ### Architecture (1)
@@ -807,5 +774,5 @@
   - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [NoSQL](./nosql.md)
 

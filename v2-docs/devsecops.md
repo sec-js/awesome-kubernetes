@@ -5,21 +5,18 @@
 
 ## Table of Contents
 
-1. [Application Development](#application-development)
-  - [Cloud-Native Java](#cloud-native-java)
-    - [Tanzu Framework](#tanzu-framework)
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
     - [General Reference](#general-reference)
+1. [CICD Pipeline](#cicd-pipeline)
+  - [Pipeline Automation](#pipeline-automation)
+    - [JFrog Pipelines](#jfrog-pipelines)
 1. [Cloud Architecture](#cloud-architecture)
   - [Infrastructure Automation](#infrastructure-automation)
     - [Hybrid Cloud Strategy](#hybrid-cloud-strategy)
 1. [Cloud Native Operations](#cloud-native-operations)
   - [Kubernetes](#kubernetes)
     - [Advanced Templating](#advanced-templating)
-1. [Container Infrastructure](#container-infrastructure)
-  - [CI-CD Pipelines](#ci-cd-pipelines)
-    - [Pipeline Security](#pipeline-security)
 1. [Containers](#containers)
   - [Security and Hardening](#security-and-hardening)
     - [Supply Chain Security](#supply-chain-security)
@@ -31,8 +28,6 @@
     - [Static Code Analysis SAST](#static-code-analysis-sast)
   - [Compliance](#compliance)
     - [Static Analysis](#static-analysis)
-  - [Continuous Delivery](#continuous-delivery)
-    - [Security Policy](#security-policy)
   - [GitOps Secrets](#gitops-secrets)
     - [Mozilla SOPS](#mozilla-sops)
     - [Operator Architecture](#operator-architecture)
@@ -122,7 +117,6 @@
     - [Zero Trust Architectures](#zero-trust-architectures)
   - [Container Security](#container-security)
     - [Aqua Security Integration](#aqua-security-integration)
-    - [DevSecOps](#devsecops)
     - [Hardening Standards](#hardening-standards)
     - [Industry Vulnerability Reports](#industry-vulnerability-reports)
     - [Linux Kernel Sandboxing](#linux-kernel-sandboxing)
@@ -134,7 +128,7 @@
     - [Hashing Algorithms](#hashing-algorithms)
     - [PKI Automation](#pki-automation)
     - [Public Key Infrastructure](#public-key-infrastructure)
-  - [DevSecOps](#devsecops-1)
+  - [DevSecOps](#devsecops)
     - [Business Strategy](#business-strategy)
     - [Engineering Skills](#engineering-skills)
     - [Enterprise Infrastructure](#enterprise-infrastructure)
@@ -328,7 +322,7 @@
     - [Misconfiguration Prevention](#misconfiguration-prevention)
   - [Container Security](#container-security-2)
     - [Industry Trends](#industry-trends-1)
-  - [DevSecOps](#devsecops-2)
+  - [DevSecOps](#devsecops-1)
     - [AWS Implementations](#aws-implementations)
     - [Automated Pipelines](#automated-pipelines)
     - [Best Practices](#best-practices)
@@ -348,13 +342,6 @@
   - [Web Security](#web-security)
     - [Testing Environments](#testing-environments)
 
-## Application Development
-
-### Cloud-Native Java
-
-#### Tanzu Framework
-
-  - **(2022)** [tanzu.vmware.com: Microservices with Spring Cloud Kubernetes Reference Architecture 🌟](https://www.vmware.com/products/app-platform/tanzu) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides the canonical reference architecture for running high-scale Spring Cloud applications natively on Kubernetes. Evaluates Spring Cloud Kubernetes integrations for service discovery, centralized configuration via ConfigMaps, and seamless external secrets management, aligning with 2026 Tanzu application platform standards.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -362,6 +349,7 @@
 #### General Reference
 
   - [armosec.io: Use Kubescape to check if your Kubernetes clusters are exposed to the latest K8s Symlink vulnerability (CVE-2021-25741)](https://www.armosec.io/cve-vulnerability-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.armosec.io in the Kubernetes Tools ecosystem.
+  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD in the Kubernetes Tools ecosystem.
   - [Exploring the (lack of) security in a typical Docker and Kubernetes installation](https://www.neowin.net/news/exploring-the-lack-of-security-in-a-typical-docker-and-kubernets-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Exploring the (lack of) security in a typical Docker and Kubernetes installation in the Kubernetes Tools ecosystem.
   - [securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together](https://securityboulevard.com/2021/02/devops-vs-devsecops-heres-how-they-fit-together)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering securityboulevard.com: DevOps vs. DevSecOps – Here’s How They Fit Together in the Kubernetes Tools ecosystem.
   - [addteq.com: The REAL Difference between DevOps and DevSecOps](https://www.addteq.com/blog/2021/03/the-real-difference-between-devops-and-devsecops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering addteq.com: The REAL Difference between DevOps and DevSecOps in the Kubernetes Tools ecosystem.
@@ -390,7 +378,6 @@
   - [dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword](https://dzone.com/articles/devops-pipeline-quality-gates-a-double-edged-sword)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: DevOps Pipeline Quality Gates: A Double-Edged Sword in the Kubernetes Tools ecosystem.
   - [medium: Focusing on the DevOps Pipeline 🌟](https://medium.com/capital-one-tech/focusing-on-the-devops-pipeline-topo-pal-833d15edf0bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Focusing on the DevOps Pipeline 🌟 in the Kubernetes Tools ecosystem.
   - [cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root](https://www.cncf.io/blog/2020/06/16/identifying-kubernetes-config-security-threats-pods-running-as-root)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Identifying Kubernetes Config Security Threats: Pods Running as' Root in the Kubernetes Tools ecosystem.
-  - [Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD](https://noodlemctwoodle.medium.com/automating-microsoft-sentinel-deployment-with-azure-devops-ci-cd-2d4ae0c4e254)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Automating Microsoft Sentinel Deployment with Azure DevOps CI/CD in the Kubernetes Tools ecosystem.
   - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Project Calico in the Kubernetes Tools ecosystem.
   - [betterprogramming.pub: Kubernetes Security With Falco](https://betterprogramming.pub/kubernetes-security-with-falco-2eb060d3ae7d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Kubernetes Security With Falco in the Kubernetes Tools ecosystem.
   - [vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline](https://vashishtsumit89.medium.com/security-pen-testing-a-guide-to-run-owasp-zap-headless-in-containers-for-ci-cd-pipeline-ddb580dae3c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering vashishtsumit89.medium.com: Security/Pen Testing: A guide to run OWASP Zap' headless in containers for CI/CD pipeline in the Kubernetes Tools ecosystem.
@@ -462,6 +449,13 @@
   - [bridgecrew](https://bridgecrew.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bridgecrew in the Kubernetes Tools ecosystem.
   - [bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub](https://bridgecrew.io/blog/tutorial-incorporate-iac-security-in-your-ci-cd-pipeline-with-bridgecrew-jenkins-and-github)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering bridgecrew.io: Tutorial: Incorporate IaC Security in your CI/CD pipeline' with Bridgecrew, Jenkins, and GitHub in the Kubernetes Tools ecosystem.
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison in the Kubernetes Tools ecosystem.
+## CICD Pipeline
+
+### Pipeline Automation
+
+#### JFrog Pipelines
+
+  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
 ## Cloud Architecture
 
 ### Infrastructure Automation
@@ -476,13 +470,6 @@
 #### Advanced Templating
 
   - **(2022)** [**Kapitan**](https://kapitan.dev) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source configuration management engine built to generate clean declarative configurations (Kubernetes manifests, Terraform, Ansible) using Python and Jsonnet. Kapitan simplifies managing configurations for multiple environments by using a single source of truth.
-## Container Infrastructure
-
-### CI-CD Pipelines
-
-#### Pipeline Security
-
-  - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
 ## Containers
 
 ### Security and Hardening
@@ -510,11 +497,6 @@
 #### Static Analysis
 
   - **(2021)** [securecoding.com: Code Audit: How to Ensure Compliance for an Application](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on designing structural code auditing protocols to assure continuous regulatory and technical compliance. Outlines SAST/DAST tooling patterns, automated linting integration, and structured reviewer workflows. Designed for engineering managers seeking to build high-maturity compliance loops into software delivery pipelines.
-### Continuous Delivery
-
-#### Security Policy
-
-  - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
 ### GitOps Secrets
 
 #### Mozilla SOPS
@@ -745,9 +727,6 @@
 #### Aqua Security Integration
 
   - **(2021)** [europeclouds.com: Implementing Aqua Security to Secure Kubernetes](https://www.europeclouds.com/blog/implementing-aqua-security-to-secure-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference implementation analyzes Aqua Security's threat protection suite inside Kubernetes platforms. It details automated configuration of image scanning workflows, continuous drift detection mechanisms, and custom-built runtime profiles. Grounded in actual platform defense, this approach addresses immediate container exploitation vectors by establishing clear trust domains.
-#### DevSecOps
-
-  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 #### Hardening Standards
 
   - **(2021)** [infracloud.io: The Ten Commandments of Container Security](https://www.infracloud.io/blogs/top-10-things-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compiles ten key principles of container hardening. Focuses on restricting privileged users, defining hard CPU/memory resource limits, enforcing read-only root filesystems, applying seccomp filters, and eliminating administrative packages from final container builds.
@@ -784,7 +763,7 @@
 #### Public Key Infrastructure
 
   - **(2021)** [arsouyes.org: PKCS, pem, der, key, crt,...](https://www.arsouyes.org/articles/2021/2021-06-21_PKCS_pem_der_key_crt) <span class='md-tag md-tag--warning'>[FRENCH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep-dive structural reference of Public Key Infrastructure (PKI) formats, including PEM, DER, PKCS#12, CRT, and KEY. Explains standard formatting variations, binary-versus-base64 representations, and practical OpenSSL command syntaxes for conversion operations in production environments.
-### DevSecOps (1)
+### DevSecOps
 
 #### Business Strategy
 
@@ -1360,7 +1339,7 @@
 #### Industry Trends (1)
 
   - **(2021)** [devclass.com: Docker: It’s not dead yet, but there’s a tendency to walk away, security report finds](https://www.devclass.com/containers/2021/01/13/docker-its-not-dead-yet-but-theres-a-tendency-to-walk-away-security-report-finds/1620265)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores shifting enterprise preferences from traditional Docker runtimes to modern, container runtime standards like containerd and CRI-O. Focuses on security reports indicating how Kubernetes runtime deprecations and attack-surface reduction drive this trend.
-### DevSecOps (2)
+### DevSecOps (1)
 
 #### AWS Implementations
 
@@ -1422,5 +1401,5 @@
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Oauth](./oauth.md)
+💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
 

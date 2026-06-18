@@ -18,16 +18,6 @@
     - [CICD Integration](#cicd-integration)
     - [NGINX Handbooks](#nginx-handbooks)
     - [Reverse Proxy](#reverse-proxy)
-1. [Infrastructure Security](#infrastructure-security)
-  - [Inbound Traffic Management](#inbound-traffic-management)
-    - [Traefik](#traefik)
-1. [NGINXConfig](#nginxconfig)
-  - [Community Tools](#community-tools)
-1. [Networking](#networking)
-  - [Load Balancing](#load-balancing-1)
-    - [HAProxy](#haproxy)
-  - [Multi-Cluster](#multi-cluster)
-    - [DNS](#dns)
 1. [Traffic Management](#traffic-management)
   - [Kubernetes Ingress Controllers](#kubernetes-ingress-controllers)
     - [Alternative Ingress](#alternative-ingress)
@@ -43,6 +33,8 @@
 #### General Reference
 
   - [nginx.com: The Complete NGINX Cookbook 🌟](https://www.f5.com/products/nginx/resources/library/complete-nginx-cookbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.f5.com in the Kubernetes Tools ecosystem.
+  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Koa.js in the Kubernetes Tools ecosystem.
+  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems in the Kubernetes Tools ecosystem.
   - [Dzone Refcard: Essential Apache HTTP Server](https://dzone.com/refcardz/essential-apache-http-server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone Refcard: Essential Apache HTTP Server in the Kubernetes Tools ecosystem.
   - [nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8](https://www.cyberciti.biz/faq/how-to-secure-apache-with-lets-encrypt-certificates-on-rhel-8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nixCraft: How to secure Apache with Let’s Encrypt Certificates on RHEL 8 in the Kubernetes Tools ecosystem.
   - [Dzone: Nginx Reverse Proxy Ubuntu 18.04](https://dzone.com/articles/nginx-reverse-proxy-ubuntu-1804)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Nginx Reverse Proxy Ubuntu 18.04 in the Kubernetes Tools ecosystem.
@@ -50,10 +42,8 @@
   - [medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes](https://medium.com/@vdboor/using-nginx-ingress-as-a-static-cache-91bc27be04a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Using Nginx-Ingress as a Static Cache for Assets Inside Kubernetes in the Kubernetes Tools ecosystem.
   - [Wikipedia: HAProxy](https://en.wikipedia.org/wiki/HAProxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: HAProxy in the Kubernetes Tools ecosystem.
   - [dzone.com: How to Configure HAProxy as a Proxy and Load Balancer](https://dzone.com/articles/how-to-configure-ha-proxy-as-a-proxy-and-loadbalan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: How to Configure HAProxy as a Proxy and Load Balancer in the Kubernetes Tools ecosystem.
-  - [nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems](https://www.cyberciti.biz/open-source/http-web-performance-proxy-load-balancer-accelerator-software)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering nixCraft: 9 Awesome Open Source Web Performance Software For Linux and Unix-like' Systems in the Kubernetes Tools ecosystem.
   - [High priority request queue with HAProxy](https://medium.com/swlh/high-priority-request-queue-with-haproxy-9efd639a8992)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering High priority request queue with HAProxy in the Kubernetes Tools ecosystem.
   - [medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than' Traefik v2?](https://medium.com/beyn-technology/is-nginx-dead-is-traefik-v3-20-faster-than-traefik-v2-f28ffb7eed3e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/beyn-technology: Is Nginx dead? Is Traefik v3 20% faster than' Traefik v2? in the Kubernetes Tools ecosystem.
-  - [Koa.js](https://koa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Koa.js in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Infrastructure
@@ -80,30 +70,6 @@
 #### Reverse Proxy
 
   - **(2025)** [Apache Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering handbook illustrating the deployment and configuration of the Apache HTTP Server as a reverse proxy. Details mod_proxy directives, buffer limits, and load-balancer grouping policies.
-## Infrastructure Security
-
-### Inbound Traffic Management
-
-#### Traefik
-
-  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
-## NGINXConfig
-
-### Community Tools
-
-  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
-## Networking
-
-### Load Balancing (1)
-
-#### HAProxy
-
-  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
-### Multi-Cluster
-
-#### DNS
-
-  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Traffic Management
 
 ### Kubernetes Ingress Controllers
@@ -128,5 +94,5 @@
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 

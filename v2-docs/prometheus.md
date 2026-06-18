@@ -77,7 +77,6 @@
     - [Interoperability](#interoperability)
   - [Monitoring](#monitoring)
     - [IoT Observability](#iot-observability)
-    - [Metrics Collection](#metrics-collection)
     - [Prometheus Agent](#prometheus-agent)
     - [Prometheus Getting Started](#prometheus-getting-started)
     - [Prometheus Meta-Monitoring](#prometheus-meta-monitoring)
@@ -130,10 +129,6 @@
     - [Cardinality Management](#cardinality-management)
   - [Visualization](#visualization)
     - [Grafana Dashboards](#grafana-dashboards)
-1. [Systems Design](#systems-design)
-  - [Observability](#observability-2)
-    - [Infrastructure Design](#infrastructure-design)
-      - [Telemetry Pipelines](#telemetry-pipelines)
 
 ## Cloud Native Infrastructure
 
@@ -273,11 +268,11 @@
 ### General Reference
 
   - [cncf.io: From distributed tracing to APM: Taking OpenTelemetry and Jaeger up a level](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
   - [learndevops.substack.com: Hitting prometheus API with curl and jq 🌟](https://learndevops.substack.com/p/hitting-prometheus-api-with-curl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering learndevops.substack.com: Hitting prometheus API with curl and jq 🌟 in the Kubernetes Tools ecosystem.
-  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase in the Kubernetes Tools ecosystem.
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [**Red Hat AMQ overview**](https://developers.redhat.com/products/amq/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering **Red Hat AMQ overview** in the Kubernetes Tools ecosystem.
+  - [blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase](https://blog.couchbase.com/how-to-build-observability-dashboards-prometheus-grafana-couchbase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.couchbase.com: How to Build Observability Dashboards with Prometheus,' Grafana & Couchbase in the Kubernetes Tools ecosystem.
   - [Dzone Refcard: Scaling and Augmenting Prometheus](https://dzone.com/refcardz/scaling-and-augmenting-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone Refcard: Scaling and Augmenting Prometheus in the Kubernetes Tools ecosystem.
   - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monitoring Self-Destructing Apps Using Prometheus in the Kubernetes Tools ecosystem.
   - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus in the Kubernetes Tools ecosystem.
@@ -400,9 +395,6 @@
 #### IoT Observability
 
   - **(2023)** [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates pipeline setups connecting InfluxData's Telegraf collectors to Grafana Cloud. Explains parsing MQTT or Modbus industrial machinery telemetry feeds and transforming them into Prometheus-compliant timeseries data.
-#### Metrics Collection
-
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Agent
 
   - **(2022)** [grafana.com: Why we created a Prometheus Agent mode from the Grafana Agent](https://grafana.com/blog/why-we-created-a-prometheus-agent-mode-from-the-grafana-agent) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the technical reasoning for deploying Prometheus in Agent Mode instead of as a full collector database. Explains memory savings, localized caching patterns, and metrics forwarding via standard Remote Write protocols.
@@ -557,16 +549,7 @@
 #### Grafana Dashboards
 
   - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated dashboard collection optimized for displaying metrics gathered via Telegraf. Provides visual paradigms for memory, system operations, disk throughput, and CPU scaling.
-## Systems Design
-
-### Observability (2)
-
-#### Infrastructure Design
-
-##### Telemetry Pipelines
-
-  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

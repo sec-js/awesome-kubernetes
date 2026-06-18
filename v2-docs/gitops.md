@@ -32,13 +32,12 @@
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [Infrastructure as Code](#infrastructure-as-code-1)
     - [Terraform Practices](#terraform-practices)
+  - [Kubernetes and Operators](#kubernetes-and-operators)
+    - [Platform Engineering](#platform-engineering)
 1. [Cloud Native](#cloud-native)
   - [Kubernetes](#kubernetes)
     - [Cluster API](#cluster-api)
       - [ClusterClass](#clusterclass)
-1. [Cloud Native and Kubernetes](#cloud-native-and-kubernetes)
-  - [GitOps and Continuous Delivery](#gitops-and-continuous-delivery)
-    - [ArgoCD integration](#argocd-integration)
 1. [Cluster Management](#cluster-management)
   - [GitOps](#gitops-4)
     - [Anthos](#anthos)
@@ -78,6 +77,8 @@
   - [Progressive Delivery](#progressive-delivery)
     - [GitOps Integration](#gitops-integration)
 1. [Deployment and Delivery](#deployment-and-delivery)
+  - [Application Delivery](#application-delivery-1)
+    - [Waypoint](#waypoint)
   - [GitOps](#gitops-6)
     - [Octopilot](#octopilot)
     - [Training](#training)
@@ -154,7 +155,6 @@
     - [GitOps](#gitops-8)
   - [Kubernetes Distributions](#kubernetes-distributions)
     - [Automated Operations](#automated-operations)
-    - [Enterprise Distributions](#enterprise-distributions)
 1. [Infrastructure as Code](#infrastructure-as-code-4)
   - [Kubernetes Provisioning](#kubernetes-provisioning)
     - [GitOps Frameworks](#gitops-frameworks)
@@ -168,17 +168,10 @@
     - [Overlay Networks](#overlay-networks)
   - [Ingress and Gateway](#ingress-and-gateway)
     - [Automation](#automation-4)
-  - [Service Mesh](#service-mesh)
-    - [eBPF vs Proxy](#ebpf-vs-proxy)
-1. [Orchestration and Packaging](#orchestration-and-packaging)
-  - [Helm and GitOps](#helm-and-gitops)
-    - [Helm Overview](#helm-overview)
 1. [Platform Architecture](#platform-architecture)
   - [GitOps](#gitops-10)
     - [Modern Pipelines](#modern-pipelines)
-1. [Platform Engineering](#platform-engineering)
-  - [GitOps](#gitops-11)
-    - [Helm Lifecycle Management](#helm-lifecycle-management)
+1. [Platform Engineering](#platform-engineering-1)
   - [GitOps and Deployment](#gitops-and-deployment)
     - [Flux Ecosystem](#flux-ecosystem)
   - [Infrastructure as Code](#infrastructure-as-code-5)
@@ -189,7 +182,7 @@
   - [Multi-Cluster Routing](#multi-cluster-routing)
     - [Fleet Orchestration](#fleet-orchestration)
 1. [Provisioning](#provisioning)
-  - [GitOps](#gitops-12)
+  - [GitOps](#gitops-11)
     - [Legacy Tools](#legacy-tools-1)
     - [Media](#media)
 
@@ -304,6 +297,11 @@
 #### Terraform Practices
 
   - **(2026)** [Terraform Best Practices](https://github.com/antonbabenko/terraform-best-practices) <span class='md-tag md-tag--info'>⭐ 2473</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-550aaba1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 11 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-550aaba1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive guide detailing patterns and antipatterns for structural Terraform designs. Features industry-accepted guidelines on monorepo layout, variable validation, dynamic module injection, and drift remediation within production enterprise clouds.
+### Kubernetes and Operators
+
+#### Platform Engineering
+
+  - **(2026)** [How Kubernetes Operators Fit into Platform Building and When Traditional IaC Isn't Enough](https://www.thestack.technology/how-kubernetes-operators-fit-into-to-platform-building-and-when-traditional-iac-isnt-enough) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares traditional static IaC runtimes against active reconciliation patterns in Kubernetes Operators. Highlights instances where platform engineering teams require continuously running controller loops to prevent configuration drifts.
 ## Cloud Native
 
 ### Kubernetes
@@ -313,13 +311,6 @@
 ##### ClusterClass
 
   - **(2024)** [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the ClusterClass feature inside Kubernetes Cluster API. Enables building reusable, abstract cluster topologies that simplify control-plane configuration and worker node pool management across diverse host infrastructure.
-## Cloud Native and Kubernetes
-
-### GitOps and Continuous Delivery
-
-#### ArgoCD integration
-
-  - **(2025)** [**Announcing Private Preview: ArgoCD through Microsoft GitOps**](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An announcement regarding native ArgoCD integration managed directly through Azure Arc-enabled Kubernetes and Microsoft GitOps. This development bridges the gap between AKS native extensions and industry-standard GitOps tools, offering declarative cluster state management at scale. It significantly reduces operational overhead by hosting and maintaining control plane elements as a first-class Azure service.
 ## Cluster Management
 
 ### GitOps (4)
@@ -444,6 +435,11 @@
   - **(2023)** [opensourceforu.com: Embracing Progressive Delivery In Kubernetes With GitOps](https://www.opensourceforu.com/2023/10/embracing-progressive-delivery-in-kubernetes-with-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailing structural implementations of progressive delivery, such as automated canaries, A/B testing, and blue-green rollouts, working in tandem with GitOps tools (like Flagger or Argo Rollouts) to control application lifecycle safety dynamically.
 ## Deployment and Delivery
 
+### Application Delivery (1)
+
+#### Waypoint
+
+  - **(2024)** [waypointproject.io](https://developer.hashicorp.com/waypoint) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HashiCorp Waypoint provides developers with a structured application delivery model across multiple underlying orchestrators. Utilizing a single declarative configuration file, it unifies the build, deployment, and release pipeline stages.
 ### GitOps (6)
 
 #### Octopilot
@@ -653,9 +649,6 @@
 #### Automated Operations
 
   - **(2026)** [Charmed Kubernetes](https://ubuntu.com/kubernetes/charmed-k8s) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Canonical's enterprise Kubernetes distribution orchestrated using Juju Charms. This platform automates deployment, scaling, lifecycle management, and day-2 operations of multi-cloud Kubernetes clusters using modular, declarative software models, ensuring easy integration with Ceph, OpenStack, and major public clouds.
-#### Enterprise Distributions
-
-  - **(2023)** [weave.works: Weave Kubernetes Platform](https://www.weave.works) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The enterprise Kubernetes distribution offering from Weaveworks (WKP) built heavily around declarative GitOps concepts and Cluster API. Following Weaveworks' operational cessation in early 2024, WKP is no longer commercially active, but its patterns directly influenced modern multi-cluster management strategies.
 ## Infrastructure as Code (4)
 
 ### Kubernetes Provisioning
@@ -687,18 +680,6 @@
 #### Automation (4)
 
   - **(2021)** [github.com/stakater/Xposer](https://github.com/stakater/Xposer) <span class='md-tag md-tag--info'>⭐ 32</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-445d2e7c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 10 L 30 11 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-445d2e7c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight automation operator designed to monitor services and dynamically generate DNS-mapped Ingress resources to reduce manual administrative overhead.
-### Service Mesh
-
-#### eBPF vs Proxy
-
-  - **(2021)** [solo.io: Exploring Cilium Layer 7 Capabilities Compared to Istio](https://www.solo.io/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural analysis contrasting Cilium's kernel-level L7 eBPF traffic management with Istio's user-space Envoy proxy routing, comparing performance and complexity trade-offs.
-## Orchestration and Packaging
-
-### Helm and GitOps
-
-#### Helm Overview
-
-  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
 ## Platform Architecture
 
 ### GitOps (10)
@@ -706,19 +687,13 @@
 #### Modern Pipelines
 
   - **(2020)** [openshift.com: From Code to Production with GitOps, Tekton and ArgoCD 🌟](https://www.redhat.com/en/blog/from-code-to-production-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces robust continuous delivery architectures utilizing Tekton for image construction and Argo CD for GitOps-based state syncs. Serves as the primary operational blueprint for enterprise microservice platforms in 2026.
-## Platform Engineering
+## Platform Engineering (1)
 
-### GitOps (11)
-
-#### Helm Lifecycle Management
-
-  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ### GitOps and Deployment
 
 #### Flux Ecosystem
 
   - **(2021)** [==github: Flux==](https://github.com/fluxcd/flux) <span class='md-tag md-tag--info'>⭐ 6861</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-520daebf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 2 L 30 12 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-520daebf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The deprecated and archived GitHub repository for the original Flux v1 GitOps engine. Completely succeeded by the microservice-driven, decoupled Flux v2 architecture.
-  - **(2021)** [itnext.io: Managing Kubernetes Secrets Securely with GitOps (SOPS + AWS KMS + Flux)](https://itnext.io/managing-kubernetes-secrets-securely-with-gitops-b8174b4f4d30) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A crucial guide explaining how to securely manage encrypted Kubernetes Secrets in public Git repositories using Mozilla SOPS, AWS KMS, and the Flux source/kustomize decryption drivers.
 ### Infrastructure as Code (5)
 
 #### Terraform and AWS
@@ -738,7 +713,7 @@
   - **(2020)** [==open-cluster-management.io==](https://open-cluster-management.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open Cluster Management (OCM) is a modular, extensible CNCF project designed to orchestrate fleets of Kubernetes clusters at scale. It defines standardized API abstractions for cluster registration, application deployment policies, and compliance management.
 ## Provisioning
 
-### GitOps (12)
+### GitOps (11)
 
 #### Legacy Tools (1)
 
@@ -749,5 +724,5 @@
   - **(2019)** [WKSctl - A New OSS Kubernetes Manager using GitOps](https://www.weave.works/blog/wksctl-a-new-oss-kubernetes-manager-using-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Weaveworks blog post introducing WKSctl. Demonstrates how to leverage GitOps loops to continuous update node configurations and automatically reconcile discrepancies between virtual infrastructure states and Git declarations.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md)
 

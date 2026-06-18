@@ -814,6 +814,47 @@ class V2VisionEngine:
         return md
 
 
+    def _render_compact_tag_link(self, l: Dict) -> str:
+        orig_file = l.get("original_file", "")
+        cat_link = ""
+        if orig_file:
+            cat_link = f" — *Go to [Section](./{orig_file})*"
+
+        year = l.get("year", "")
+        year_prefix = f"**({year})** " if year and str(year).lower() != "n/a" else ""
+
+        raw_stars = l.get("stars", 0)
+        stars_str = f" {'🌟' * raw_stars}" if raw_stars > 0 else ""
+
+        # Title formatting based on impact
+        title = nuclear_strip(l.get("title", "Unknown Resource"))
+        link_content = title
+        if raw_stars >= 5:
+            link_content = f"=={link_content}=="
+        elif raw_stars >= 4:
+            link_content = f"**{link_content}**"
+
+        # Build other tags compactly
+        tag_html = ""
+        for tag in l.get("tags", []):
+            if tag in ["[DE FACTO STANDARD]", "[ENTERPRISE-STABLE]"]:
+                color = "success"
+            elif tag == "[EMERGING]":
+                color = "warning"
+            elif tag == "[LEGACY]":
+                color = "critical"
+            elif tag in ["[GUIDE]", "[CASE STUDY]"]:
+                color = "secondary"
+            elif tag == "[COMMUNITY-TOOL]":
+                color = "info"
+            else:
+                color = "primary"
+            tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
+
+        return f"  - {year_prefix}[{link_content}]({l['url'].strip()}){stars_str}{tag_html}{cat_link}\n"
+
+
+
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
         # 1. Update Index with Pulse
         trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -x.get("stars", 0)), reverse=True)
@@ -925,14 +966,14 @@ class V2VisionEngine:
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
             "| :--- | :--- | :--- |\n"
-            "| **`[DE FACTO STANDARD]`** | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |\n"
-            "| **`[ENTERPRISE-STABLE]`** | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |\n"
-            "| **`[EMERGING]`** | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
-            "| **`[GUIDE]`** | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
-            "| **`[CASE STUDY]`** | Real-world evidence. | Practical implementations and architectural lessons from production environments. |\n"
-            "| **`[COMMUNITY-TOOL]`** | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |\n"
-            "| **`[LEGACY]`** | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n"
-            "| **`[SPANISH CONTENT]`** | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
+            "| <a href=\"./tags/#de-facto-standard\"><span class=\"md-tag md-tag--success\">[DE FACTO STANDARD]</span></a> | The industry baseline. | Tools like Kubernetes, Terraform, or Prometheus that define the current architecture. |\n"
+            "| <a href=\"./tags/#enterprise-stable\"><span class=\"md-tag md-tag--success\">[ENTERPRISE-STABLE]</span></a> | Battle-tested and reliable. | Proven solutions with strong community and commercial support. |\n"
+            "| <a href=\"./tags/#emerging\"><span class=\"md-tag md-tag--warning\">[EMERGING]</span></a> | The cutting edge. | High-potential tools and patterns (e.g., AI Agents, MCP) shaping the future. |\n"
+            "| <a href=\"./tags/#guide\"><span class=\"md-tag md-tag--secondary\">[GUIDE]</span></a> | Strategic knowledge. | High-quality tutorials, architectural deep-dives, and decision matrices. |\n"
+            "| <a href=\"./tags/#case-study\"><span class=\"md-tag md-tag--secondary\">[CASE STUDY]</span></a> | Real-world evidence. | Practical implementations and architectural lessons from production environments. |\n"
+            "| <a href=\"./tags/#community-tool\"><span class=\"md-tag md-tag--info\">[COMMUNITY-TOOL]</span></a> | Open-source ecosystem. | Valuable community-driven tools that enrich the ecosystem but may not have enterprise-grade support. |\n"
+            "| <a href=\"./tags/#legacy\"><span class=\"md-tag md-tag--critical\">[LEGACY]</span></a> | Historical context. | Established tools that are being replaced or are primarily for maintaining older stacks. |\n"
+            "| <a href=\"./tags/#spanish-content\"><span class=\"md-tag md-tag--primary\">[SPANISH CONTENT]</span></a> | Localized knowledge. | Resources in Spanish preserved for native speakers while indexed in English (Mandate 10). |\n\n"
             "## Technical Impact (Relevance Score)\n\n"
             "The stars accompanying each resource represent its **Technical Impact** and **Architectural Relevance** for a 2026 Senior Architect:\n\n"
             "| Impact | Level | Meaning | Visual Code |\n"
@@ -1165,7 +1206,7 @@ class V2VisionEngine:
             # Sort links under this tag by impact stars and then by year
             sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             for l in sorted_links:
-                md += await self._render_single_link(l, is_intro=False)
+                md += self._render_compact_tag_link(l)
             md += "\n"
 
         target_path = os.path.join(V2_DIR, "tags.md")

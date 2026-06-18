@@ -99,6 +99,9 @@
     - [Developer Wellness](#developer-wellness-1)
   - [Team Culture](#team-culture-1)
     - [Employee Engagement](#employee-engagement)
+1. [Security](#security-1)
+  - [Container Security](#container-security)
+    - [DevSecOps](#devsecops)
 
 ## Architectural Foundations
 
@@ -365,7 +368,14 @@
 #### Employee Engagement
 
   - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
+## Security (1)
+
+### Container Security
+
+#### DevSecOps
+
+  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Elearning](./elearning.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Digital Money](./digital-money.md) | [HR](./hr.md)
 

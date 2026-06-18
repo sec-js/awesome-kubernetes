@@ -177,5 +177,5 @@
   - **(2021)** [Clean Architecture on Frontend](https://bespoyasov.me/blog/clean-architecture-on-frontend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Adapts Robert C. Martin's Clean Architecture principles to modern client-side frontend applications. Focuses on isolation of core business domains, UI frameworks, and data sources via explicit dependency inversion layers, simplifying testing and future framework transitions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

@@ -181,5 +181,5 @@
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 

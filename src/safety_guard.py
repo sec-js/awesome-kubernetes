@@ -188,6 +188,57 @@ class SafetyGuard:
             if topic not in workflow_content:
                 self.warnings.append(f"🔄 **Sync Failure**: Topic `{topic}` missing from `{WORKFLOW_PATH}` input options.")
 
+    def validate_forbidden_tags(self):
+        """Mandate 51/Safety: Check for forbidden HTML tags in docs and v2-docs, except allowing iframes in videos."""
+        try:
+            with open("data/link_rules.yaml", "r") as f:
+                rules = yaml.safe_load(f)
+                forbidden = rules.get("safety_guard", {}).get("forbidden_tags", [])
+        except:
+            return
+
+        if not forbidden:
+            return
+
+        for folder in [V1_DIR, V2_DIR]:
+            if not os.path.exists(folder):
+                continue
+            for root, _, files in os.walk(folder):
+                for file in files:
+                    if file.endswith(".md"):
+                        path = os.path.join(root, file)
+                        is_video_file = (folder == V2_DIR and "videos/" in path.replace("\\", "/"))
+                        
+                        try:
+                            with open(path, "r", encoding="utf-8") as f:
+                                content = f.read()
+                            
+                            for tag in forbidden:
+                                tag_name = tag.replace("<", "").replace(">", "").strip()
+                                if not tag_name:
+                                    continue
+                                
+                                # Skip iframe for video pages
+                                if tag_name == "iframe" and is_video_file:
+                                    continue
+                                    
+                                cleaned_content = re.sub(r'```.*?```', '', content, flags=re.DOTALL)
+                                cleaned_content = re.sub(r'`[^`\n]+`', '', cleaned_content)
+                                
+                                # Exempt Twitter widgets from the script block restriction since they are human-curated embeds
+                                if tag_name == "script":
+                                    script_matches = re.finditer(r'<script\b[^>]*>', cleaned_content, re.IGNORECASE)
+                                    for match_obj in script_matches:
+                                        full_tag = match_obj.group(0)
+                                        if "platform.twitter.com/widgets.js" not in full_tag:
+                                            self.errors.append(f"🔒 **Security Violation**: Forbidden HTML tag `{tag}` found in `{path}`: `{full_tag}`")
+                                else:
+                                    pattern = rf"<{tag_name}\b"
+                                    if re.search(pattern, cleaned_content, re.IGNORECASE):
+                                        self.errors.append(f"🔒 **Security Violation**: Forbidden HTML tag `{tag}` found in `{path}`")
+                        except Exception as e:
+                            log_event(f"  [!] Error reading `{path}` for tag safety check: {e}")
+
     def get_license_compliance_report(self) -> str:
         """Mandate 33: License Compliance Dashboard."""
         stats = {}
@@ -236,6 +287,7 @@ class SafetyGuard:
         self.validate_structural_standards() # Mandate 30 & 19
         self.validate_v2_architecture()
         self.validate_navigation_sync() # Mandate 11
+        self.validate_forbidden_tags() # Safety Hardening
         
         status = "✅ PASS" if not self.errors else "❌ FAILED"
         if not self.errors and self.warnings: status = "⚠️ WARNING"

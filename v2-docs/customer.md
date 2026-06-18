@@ -10,6 +10,8 @@
     - [High-Performance Computing](#high-performance-computing)
   - [DevOps and Automation](#devops-and-automation)
     - [Continuous Integration](#continuous-integration)
+  - [Enterprise Solutions](#enterprise-solutions)
+    - [AI and Infrastructure](#ai-and-infrastructure)
   - [Healthcare Tech](#healthcare-tech)
     - [Medical Imaging Platforms](#medical-imaging-platforms)
 1. [Data Management](#data-management)
@@ -38,6 +40,8 @@
 1. [System Architecture](#system-architecture)
   - [Automotive Systems](#automotive-systems)
     - [Software-Defined Vehicles](#software-defined-vehicles)
+  - [Data Management](#data-management-1)
+    - [Enterprise Migration](#enterprise-migration)
   - [Industrial Engineering](#industrial-engineering)
     - [Hardware Integration](#hardware-integration)
     - [Quality Management](#quality-management)
@@ -59,6 +63,11 @@
 #### Continuous Integration
 
   - **(2023)** [**redhat.com: The Volkswagen Group builds automated testing environment**](https://www.redhat.com/en/success-stories/the-volkswagen-group) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores Volkswagen Group's migration to an automated software-defined testing environment built on Red Hat OpenShift. This platform-based approach streamlines verification cycles for ECU software, accelerating vehicle-to-cloud development pipelines. By leveraging containerized testing nodes and Kubernetes orchestration, VW drastically reduced testing feedback loops while maintaining safety-critical compliance.
+### Enterprise Solutions
+
+#### AI and Infrastructure
+
+  - **(2024)** [**aws.amazon.com/blogs/industries: BMW Group Develops a GenAI Assistant to Accelerate Infrastructure Optimization on AWS**](https://aws.amazon.com/blogs/industries/bmw-group-develops-a-genai-assistant-to-accelerate-infrastructure-optimization-on-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[CASE STUDY]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This case study highlights BMW Group's deployment of a generative AI assistant on AWS designed to automate and optimize cloud infrastructure operations. By synthesizing telemetry data and AWS resource metrics, the assistant accelerates infrastructure diagnostics, reduces operational overhead, and drives cost-efficient resource provisioning. It demonstrates how LLMs can be integrated into enterprise cloud operations (AIOps) to simplify complex architectural decision-making.
 ### Healthcare Tech
 
 #### Medical Imaging Platforms
@@ -141,6 +150,11 @@
 #### Software-Defined Vehicles
 
   - **(2023)** [xataka.com: El auge del coche eléctrico y autónomo se ha topado con otra barrera: el software. Volkswagen lo sabe bien](https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Analyzes the structural and architectural software challenges faced by Volkswagen (specifically Cariad) during its transition to Electric Vehicles (EVs) and Autonomous Driving (AD). The analysis covers the friction between legacy hardware-centric development cycles and modern, unified software-defined platform architectures. It highlights how decoupled hardware/software layers are critical to avoiding catastrophic launch delays in complex distributed automotive systems.
+### Data Management (1)
+
+#### Enterprise Migration
+
+  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ### Industrial Engineering
 
 #### Hardware Integration
@@ -164,5 +178,5 @@
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

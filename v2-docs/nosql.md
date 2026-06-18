@@ -57,6 +57,7 @@
   - [blog.mongodirector.com: Which is the best MongoDB GUI?](https://blog.mongodirector.com/which-is-the-best-mongodb-gui)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.mongodirector.com in the Kubernetes Tools ecosystem.
   - [mongodirector: MongoDB Hosting](https://mongodirector.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering mongodirector.com in the Kubernetes Tools ecosystem.
   - [MongoDB Tutorial – A Scalable NoSQL DB](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: A chance for NewSQL databases in the Kubernetes Tools ecosystem.
   - [NoSQL - Wikipedia](https://en.wikipedia.org/wiki/NoSQL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering NoSQL - Wikipedia in the Kubernetes Tools ecosystem.
   - [vishnu.hashnode.dev: 4 Types Of NoSQL Databases](https://vishnu.hashnode.dev/4-types-of-nosql-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering vishnu.hashnode.dev: 4 Types Of NoSQL Databases in the Kubernetes Tools ecosystem.
   - [medium: When to Use MongoDB Rather than MySQL](https://medium.com/@rsk.saikrishna/when-to-use-mongodb-rather-than-mysql-d03ceff2e922)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: When to Use MongoDB Rather than MySQL in the Kubernetes Tools ecosystem.
@@ -69,7 +70,6 @@
   - [betterprogramming.pub: MongoDB Schema Validation Rules](https://betterprogramming.pub/mongodb-schema-validation-rules-8a1afc6ea67b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: MongoDB Schema Validation Rules in the Kubernetes Tools ecosystem.
   - [code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data' Storage](https://code.likeagirl.io/docker-setup-simple-application-with-mongodb-for-data-storage-272bdb3036ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering code.likeagirl.io: Docker: Setup Simple Application with MongoDB for Data' Storage in the Kubernetes Tools ecosystem.
   - [dzone: SQL Syntax for Apache Drill](https://dzone.com/refcardz/sql-syntax-for-apache-drill)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: SQL Syntax for Apache Drill in the Kubernetes Tools ecosystem.
-  - [medium.com: A chance for NewSQL databases](https://medium.com/packlinkeng/a-chance-for-newsql-databases-3bba18fea6a1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: A chance for NewSQL databases in the Kubernetes Tools ecosystem.
 ## Data Architecture
 
 ### Big Data
@@ -173,5 +173,5 @@
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [Databases](./databases.md)
 

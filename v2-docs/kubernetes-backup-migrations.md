@@ -14,10 +14,9 @@
 1. [Cloud-Native Migration](#cloud-native-migration)
   - [Application Modernization](#application-modernization)
     - [Source-to-Image](#source-to-image)
-1. [Hybrid Cloud and Enterprise](#hybrid-cloud-and-enterprise)
-  - [OpenShift](#openshift)
-    - [Data Management](#data-management)
 1. [Infrastructure](#infrastructure)
+  - [Cluster Management](#cluster-management)
+    - [RKE2](#rke2)
   - [Control Plane](#control-plane)
     - [ETCD Administration](#etcd-administration)
   - [Data Protection](#data-protection)
@@ -33,6 +32,7 @@
     - [Best Practices](#best-practices)
     - [Industry Analysis](#industry-analysis-1)
   - [Enterprise Backup](#enterprise-backup)
+    - [Cloud-Native Integration](#cloud-native-integration)
     - [OpenShift Integration](#openshift-integration)
     - [Proprietary Platforms](#proprietary-platforms)
   - [Storage Systems](#storage-systems)
@@ -41,7 +41,7 @@
   - [Workload Mobility](#workload-mobility)
     - [Migration Toolkits](#migration-toolkits)
 1. [Kubernetes](#kubernetes)
-  - [Data Management](#data-management-1)
+  - [Data Management](#data-management)
     - [Backup](#backup)
     - [Checkpointing API](#checkpointing-api)
 
@@ -78,15 +78,13 @@
 #### Source-to-Image
 
   - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Presentation outlining migration strategies for porting legacy Java JBoss EAP applications into Red Hat OpenShift/Kubernetes using Source-to-Image (S2I). While S2I remains an enterprise staple in traditional OpenShift pipelines, the industry in 2026 has increasingly shifted toward Cloud Native Buildpacks.
-## Hybrid Cloud and Enterprise
-
-### OpenShift
-
-#### Data Management
-
-  - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Control Plane
 
 #### ETCD Administration
@@ -147,6 +145,9 @@
   - **(2021)** [thenewstack.io: Cloud Native Backups, Disaster Recovery and Migrations on Kubernetes](https://thenewstack.io/cloud-native-backups-disaster-recovery-and-migrations-on-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines structural paradigm shifts from VM-level backups to container-native, application-aware snapshots inside Kubernetes. Outlines how to decouple configuration matrices from underlying persistent storage objects for scalable restoration.
 ### Enterprise Backup
 
+#### Cloud-Native Integration
+
+  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
 #### OpenShift Integration
 
   - **(2020)** [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the integration of Bacula's backup engines within Red Hat OpenShift clusters. Offers direct bare-metal and hybrid-cloud state serialization and disaster recovery procedures compatible with traditional SANs.
@@ -199,7 +200,7 @@
   - **(2021)** [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through demonstrating Crane's core architecture. Highlights dynamic resource mapping, metadata updates, and persistent volume sync during migration windows.
 ## Kubernetes
 
-### Data Management (1)
+### Data Management
 
 #### Backup
 
@@ -209,5 +210,5 @@
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 

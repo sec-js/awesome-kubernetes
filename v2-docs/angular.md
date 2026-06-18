@@ -42,5 +42,5 @@
   - **(2026)** [angular.io: Building and serving Angular apps](https://angular.dev/guide/build) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official instructions covering deployment execution and active asset compilation within the Angular CLI environment. Emphasizes production bundling configurations, static asset caching, and lazy loading strategies.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Java_Frameworks](./java_frameworks.md)
+💡 **Explore Related:** [Python](./python.md) | [Dom](./dom.md) | [Java_Frameworks](./java_frameworks.md)
 
