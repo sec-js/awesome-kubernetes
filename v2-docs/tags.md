@@ -17,7 +17,7 @@
 
   - **(2026)** [==github.com/backstage/backstage==](https://github.com/backstage/backstage) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./devops.md)*
   - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./devops.md)*
-  - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./devops.md)*
+  - **(2026)** [==IaC Infrastructure as Code==](https://nubenetes.com/iac) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./devops.md)*
   - **(2026)** [==bregman-arie/devops-exercises 🌟==](https://github.com/bregman-arie/devops-exercises) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./demos.md)*
   - **(2026)** [==Developer Sandbox==](https://developers.redhat.com/developer-sandbox) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./demos.md)*
   - **(2026)** [==github: Spring Cloud Kubernetes 🌟==](https://github.com/spring-cloud/spring-cloud-kubernetes) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./demos.md)*
@@ -45,15 +45,15 @@
   - **(2026)** [==github.com/sharadbhat/KubernetesPatterns: YAML and Golang implementations' of common Kubernetes patterns==](https://github.com/sharadbhat/KubernetesPatterns) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==kustomize==](https://github.com/kubernetes-sigs/kustomize) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==jsonnet data templating language==](https://github.com/google/jsonnet/tree/master/case_studies/kubernetes) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
-  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage/#kubernetes-volumes) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
-  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
+  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
+  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==kubectl-trace==](https://github.com/iovisor/kubectl-trace) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==kubespy==](https://github.com/huazhihao/kubespy) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==kubectl netshoot==](https://github.com/nilic/kubectl-netshoot) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==kubernetes.io: Kubernetes API==](https://kubernetes.io/docs/reference/kubernetes-api) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
-  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==davidB/kubectl-view-allocations==](https://github.com/davidB/kubectl-view-allocations) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
-  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
+  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes.md)*
   - **(2026)** [==Pulumi: Infrastructure as Code in Any Programming Language==](https://github.com/pulumi/pulumi) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./iac.md)*
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./devops-tools.md)*
   - **(2026)** [==github.com/hashicorp/hcl: HCL==](https://github.com/hashicorp/hcl) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./terraform.md)*
@@ -200,13 +200,13 @@
   - **(2026)** [==cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟==](https://cheatsheetseries.owasp.org/index.html) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2026)** [==git-scm.com: Git reference==](https://git-scm.com/docs) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2026)** [==React+TypeScript Cheatsheets==](https://github.com/typescript-cheatsheets/react) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./cheatsheets.md)*
-  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==ahmetb/kubectl-aliases==](https://github.com/ahmetb/kubectl-aliases) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==github.com/trstringer/kubectl-example==](https://github.com/trstringer/kubectl-example) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==Flag export deprecated in kubernetes 1.14==](https://github.com/kubernetes/kubernetes/pull/73787) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==kubernetes.io 🌟==](https://kubernetes.io/docs/reference/kubectl/quick-reference) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==complete-alias==](https://github.com/cykerway/complete-alias) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
-  - **(2026)** [==Helm==](https://nubenetes.com/helm/) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
+  - **(2026)** [==Helm==](https://nubenetes.com/helm) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2026)** [==memcached.org==](https://memcached.org) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./caching.md)*
   - **(2026)** [==Minikube==](https://github.com/kubernetes/minikube) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes-based-devel.md)*
   - **(2026)** [==Lens Kubernetes IDE 🌟==](https://lenshq.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — *Go to [Section](./kubernetes-based-devel.md)*
@@ -1163,8 +1163,8 @@
 
   - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./docker.md)*
   - **(2026)** [**googlecloudcheatsheet.withgoogle.com: Google Cloud Developer cheat sheet**](https://cloud.google.com/products) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./GoogleCloudPlatform.md)*
-  - **(2026)** [**DevOps Tools**](https://nubenetes.com/devops-tools/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops.md)*
-  - **(2026)** [**NoOps**](https://nubenetes.com/noops/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops.md)*
+  - **(2026)** [**DevOps Tools**](https://nubenetes.com/devops-tools) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops.md)*
+  - **(2026)** [**NoOps**](https://nubenetes.com/noops) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops.md)*
   - **(2026)** [**redhatgov.io**](https://redhatgov.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./demos.md)*
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./cicd.md)*
   - **(2026)** [**Nelm: A Helm Alternative for Kubernetes Deployments**](https://github.com/werf/nelm) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./gitops.md)*
@@ -1243,7 +1243,7 @@
   - **(2026)** [**kn: knative client**](https://github.com/knative/client) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./serverless.md)*
   - **(2026)** [**openwhisk.apache.org**](https://openwhisk.apache.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./serverless.md)*
   - **(2026)** [**try.openshift.com 🌟**](https://www.redhat.com/en/technologies/cloud-computing/openshift/try-it) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./ocp4.md)*
-  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./securityascode.md)*
+  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./securityascode.md)*
   - **(2026)** [**redhat.com: Vim: Basic and intermediate commands**](https://www.redhat.com/en/blog/vim-commands) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./linux.md)*
   - **(2026)** [****watchman command**: A File and Directory Watching Tool for Changes**](https://www.tecmint.com/watchman-monitor-file-changes-in-linux) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./linux.md)*
   - **(2026)** [**redhat.com: How to record your Linux terminal using asciinema**](https://www.redhat.com/en/blog/using-asciinema) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./linux.md)*
@@ -1279,7 +1279,7 @@
   - **(2026)** [**education.github.com**](https://github.com/education) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./git.md)*
   - **(2026)** [**github.com/containerscrew/aws-sso-auth**](https://github.com/containerscrew/aws-sso-rs) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2026)** [**youtube: Thetips4you 🌟**](https://www.youtube.com/channel/UCoOq-DtESvayx5yJE5H6-qQ/playlists) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops-tools.md)*
-  - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops-tools.md)*
+  - **(2026)** [**Keptn**](https://nubenetes.com/keptn) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops-tools.md)*
   - **(2026)** [**codegiant.io: Build software faster**](https://codegiant.io/home) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./devops-tools.md)*
   - **(2026)** [**APIDog**](https://apidog.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./api.md)*
   - **(2026)** [**Tutorial: Restoring a DB Instance from a DB Snapshot**](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./aws-databases.md)*
@@ -2695,7 +2695,7 @@
   - **(2026)** [thenewstack.io: How to Evaluate Kubernetes Cloud Providers](https://thenewstack.io/how-to-evaluate-kubernetes-cloud-providers) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./public-cloud-solutions.md)*
   - **(2026)** [cast.ai: Ultimate cloud pricing comparison: AWS vs. Azure vs. Google Cloud in 2021](https://cast.ai/blog/cloud-pricing-comparison) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./public-cloud-solutions.md)*
   - **(2026)** [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./public-cloud-solutions.md)*
-  - **(2025)** [eksworkshop.com](https://eksworkshop.com/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./demos.md)*
+  - **(2025)** [eksworkshop.com](https://eksworkshop.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [learn.hashicorp.com: What is Infrastructure as Code with Terraform? 🌟](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./terraform.md)*
   - **(2025)** [Claude 101: Free Guides to Master Claude](https://claude101.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./chatgpt.md)*
   - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./digitalocean.md)*
@@ -2866,7 +2866,7 @@
   - **(2023)** [iximiuz.com: Kubernetes Ephemeral Containers and kubectl debug Command 🌟](https://iximiuz.com/en/posts/kubernetes-ephemeral-containers) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-troubleshooting.md)*
   - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-troubleshooting.md)*
   - **(2023)** [freecodecamp.org: How to Build a GitHub Template Repository for Scaffolding with React, Vite, and TailwindCSS](https://www.freecodecamp.org/news/create-a-github-template-repository-with-react-vite-and-tailwindcss) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./git.md)*
-  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
+  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [devopscube.com: Vagrant Tutorial For Beginners: Getting Started Guide 🌟](https://devopscube.com/vagrant-tutorial-beginners) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./devops-tools.md)*
@@ -2887,7 +2887,7 @@
   - **(2023)** [learnk8s.io: Limiting access to Kubernetes resources with RBAC 🌟🌟🌟](https://learnkube.com/rbac-kubernetes) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-security.md)*
   - **(2023)** [istio.io: Learn Microservices using Kubernetes and Istio 🌟](https://istio.io/latest/docs/examples/microservices-istio) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./istio.md)*
   - **(2023)** [clickittech.com: Kubernetes Autoscaling: How to use the Kubernetes Autoscaler](https://www.clickittech.com/devops/kubernetes-autoscaling) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-autoscaling.md)*
-  - **(2023)** [Tekton](https://nubenetes.com/tekton/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./jenkins-alternatives.md)*
+  - **(2023)** [Tekton](https://nubenetes.com/tekton) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./jenkins-alternatives.md)*
   - **(2023)** [gist.github.com: Creating and Publishing NuGet Packages](https://gist.github.com/andykuszyk/a5ee80ae263e77f651bed878c1deb03b) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./dotnet.md)*
   - **(2023)** [grafana.com: A complete guide to managing Grafana as code: tools, tips, and tricks](https://grafana.com/blog/a-complete-guide-to-managing-grafana-as-code-tools-tips-and-tricks) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./grafana.md)*
   - **(2023)** [devopscube.com: How To Setup Grafana On Kubernetes](https://devopscube.com/setup-grafana-kubernetes) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./grafana.md)*
@@ -2959,7 +2959,7 @@
   - **(2022)** [datree.io: EKS 1.22 Upgrade Tutorial](https://www.datree.io/resources/eks-1-22-upgrade-tutorial) <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubernetes-releases.md)*
   - **(2022)** [octopus.com: Create an AKS Cluster with Pulumi and Octopus Deploy](https://octopus.com/blog/pulumi-and-aks-with-octopus-deploy) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./pulumi.md)*
   - **(2022)** [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./pulumi.md)*
-  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./ocp4.md)*
+  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./ocp4.md)*
   - **(2022)** [devtron.ai: Understand CMD and ENTRYPOINT Differences in Docker](https://devtron.ai/blog/cmd-and-entrypoint-differences) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./docker.md)*
   - **(2022)** [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./docker.md)*
   - **(2022)** [dev.to/hkhelil: Building a Kubernetes Operator with an NGINX CRD](https://dev.to/hkhelil/building-a-kubernetes-operator-with-an-nginx-crd-3lil) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-operators-controllers.md)*
@@ -4991,7 +4991,7 @@
   - [ringcentral.co.uk: Software as a Service (SaaS)](https://www.ringcentral.com/gb/en/blog/definitions/software-as-a-service-saas) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./introduction.md)*
   - [ringcentral.co.uk: Cloud Management 🌟](https://www.ringcentral.com/gb/en/blog/definitions/cloud-management) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./introduction.md)*
   - [Kelsey Hightower Fireside Chat: An Unconventional Path to IT and Some Life Advice](https://www.hashicorp.com/resources/kelsey-hightower-fireside-chat-an-unconventional-path-to-it-and-some-life-advice) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./introduction.md)*
-  - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ocp3.md)*
+  - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ocp3.md)*
   - [aroworkshop.io 🌟](https://aroworkshop.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./openshift.md)*
   - [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./openshift.md)*
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./openshift.md)*
@@ -5604,7 +5604,7 @@
   - **(2026)** [Jaeger](https://www.jaegertracing.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./istio.md)*
   - **(2026)** [Kibana](https://www.elastic.co/kibana) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./istio.md)*
   - **(2026)** [L7 Internal HTTP(S) Load Balancing overview](https://docs.cloud.google.com/load-balancing/docs/l7-internal) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./servicemesh.md)*
-  - **(2026)** [Istio](https://nubenetes.com/istio/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./servicemesh.md)*
+  - **(2026)** [Istio](https://nubenetes.com/istio) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./servicemesh.md)*
   - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./devel-sites.md)*
   - **(2026)** [dhall-lang.org: Dhall Configuration Language](https://dhall-lang.org) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./devel-sites.md)*
   - **(2026)** [firebase.google.com](https://firebase.google.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./devel-sites.md)*
@@ -5667,8 +5667,8 @@
   - **(2026)** [OKD](https://okd.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
   - **(2026)** [kurl.sh](https://kurl.sh) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
   - **(2026)** [VMware hands-on Labs 🌟](https://labs.hol.vmware.com/HOL) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
-  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
-  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
+  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
+  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-on-premise.md)*
   - **(2026)** [grafana.com: Provisioning Grafana 🌟](https://grafana.com/docs/grafana/latest/administration/provisioning) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./grafana.md)*
   - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./java_app_servers.md)*
   - **(2026)** [TomEE from Tomitribe](https://tomee.apache.org) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./java_app_servers.md)*
@@ -5764,7 +5764,7 @@
   - **(2025)** [github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟](https://github.com/wardviaene) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops](https://labs.demoredhat.com/demos) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [galaxy.ansible.com/ansible/product_demos 🌟](https://galaxy.ansible.com/ansible/product_demos) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./demos.md)*
-  - **(2025)** [eksworkshop.com](https://eksworkshop.com/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./demos.md)*
+  - **(2025)** [eksworkshop.com](https://eksworkshop.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [docs.microsoft.com: Deploy Spring microservices to Azure](https://learn.microsoft.com/en-us/azure/container-apps) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./demos.md)*
   - **(2025)** [Jenkinsfile Runner Test Framework](https://github.com/jenkinsci/jenkinsfile-runner-test-framework) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./jenkins.md)*
   - **(2025)** [Using Workspaces for AI Changes Across Multiple Repos](https://ettema.dev/posts/ai-multi-repo-workspaces) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ai.md)*
@@ -5846,7 +5846,7 @@
   - **(2025)** [Apache](https://httpd.apache.org) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./web-servers.md)*
   - **(2025)** [Apache Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./web-servers.md)*
   - **(2025)** [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./web-servers.md)*
-  - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubectl-commands.md)*
+  - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubectl-commands.md)*
   - **(2025)** [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./caching.md)*
   - **(2025)** [Varnish Cache](https://www.varnish.org/index.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./caching.md)*
@@ -5892,11 +5892,11 @@
   - **(2025)** [Chaos Mesh 🌟](https://chaos-mesh.org) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./chaos-engineering.md)*
   - **(2025)** [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-troubleshooting.md)*
   - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws.md)*
-  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
-  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
+  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
+  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
   - **(2025)** [Anthos Config Management](https://docs.cloud.google.com/kubernetes-engine/docs) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
   - **(2025)** [Rancher Logging Operator 🌟](https://rancher.com/docs/rancher/v2.x/en/logging/v2.5) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
-  - **(2025)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./git.md)*
+  - **(2025)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./git.md)*
   - **(2025)** [AWS IP inventory](https://github.com/okelet/awsipinventory) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2025)** [Cockroach](https://www.cockroachlabs.com/docs/stable/kubernetes-overview) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
   - **(2025)** [Postgres.app](https://postgresapp.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
@@ -5924,7 +5924,7 @@
   - **(2025)** [Oakton](https://jasperfx.github.io/oakton) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./dotnet.md)*
   - **(2025)** [Lamar](https://jasperfx.github.io/lamar) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./dotnet.md)*
   - **(2025)** [docs.microsoft.com: Configurations and GitOps with Azure Arc enabled Kubernetes](https://learn.microsoft.com/en-us/azure/azure-arc/kubernetes/conceptual-gitops-flux2) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./flux.md)*
-  - **(2025)** [Maven](https://nubenetes.com/maven-gradle/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./scaffolding.md)*
+  - **(2025)** [Maven](https://nubenetes.com/maven-gradle) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./scaffolding.md)*
   - **(2025)** [selenium.dev](https://www.selenium.dev) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./test-automation-frameworks.md)*
   - **(2024)** [redhat.com: Why IT automation training is a smart way to boost your career](https://www.redhat.com/en/blog/it-automation-training) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./devops.md)*
   - **(2024)** [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./devops.md)*
@@ -6091,7 +6091,7 @@
   - **(2024)** [New VS Code Release Highlights v1.86](https://www.youtube.com/shorts/bVlIo4H0IDU) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./visual-studio.md)*
   - **(2024)** [techcommunity.microsoft.com: Unleashing GitHub Copilot for Infrastructure as Code (powershell, terraform, etc)](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/unleashing-github-copilot-for-infrastructure-as-code/4124031) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./visual-studio.md)*
   - **(2024)** [Fleet](https://www.jetbrains.com/fleet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./visual-studio.md)*
-  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./managed-kubernetes-in-public-cloud.md)*
+  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./managed-kubernetes-in-public-cloud.md)*
   - **(2024)** [iximiuz.com: How To Develop Kubernetes CLIs Like a Pro](https://iximiuz.com/en/posts/kubernetes-api-go-cli) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-client-libraries.md)*
   - **(2024)** [intellipaat.com: Python Cheat Sheet Basics](https://intellipaat.com/blog/tutorial/python-tutorial/python-cheat-sheet-basics) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2024)** [intellipaat.com: AWS Cheat Sheet 🌟](https://intellipaat.com/blog/tutorial/amazon-web-services-aws-tutorial/aws-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
@@ -6156,7 +6156,7 @@
   - **(2024)** [containerjournal.com: What’s the Difference Between Docker and Kubernetes?](https://cloudnativenow.com/features/whats-the-difference-between-docker-and-kubernetes) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
   - **(2024)** [snyk.io: 10 Docker Security Best Practices 🌟](https://snyk.io/blog/10-docker-image-security-best-practices) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
   - **(2024)** [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security](https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
-  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives/#docker-swarm) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
+  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
   - **(2024)** [dotnet.microsoft.com: What is Xamarin?](https://dotnet.microsoft.com/en-us/apps/xamarin) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./xamarin.md)*
   - **(2024)** [anthropic.com: Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ai-agents-mcp.md)*
   - **(2024)** [Fugue: Container and Kubernetes. Runtime infrastructure security](https://snyk.io/product/container-vulnerability-management) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./securityascode.md)*
@@ -6205,8 +6205,8 @@
   - **(2024)** [waypointproject.io](https://developer.hashicorp.com/waypoint) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
   - **(2024)** [ClusterClass: Experimental Feature for Streamlined Cluster Lifecycle Management in Cluster API](https://cluster-api.sigs.k8s.io/tasks/experimental-features/cluster-class) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./gitops.md)*
   - **(2024)** [forbes.com: From Data Collection To Delivering KPIs: A Roadmap To A Mature Observability Strategy](https://www.forbes.com/councils/forbestechcouncil/2024/03/08/from-data-collection-to-delivering-kpis-a-roadmap-to-a-mature-observability-strategy/?streamIndex=0) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
-  - **(2024)** [Grafana](https://nubenetes.com/grafana/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
+  - **(2024)** [Grafana](https://nubenetes.com/grafana) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
   - **(2024)** [sentry.io](https://sentry.io/welcome) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
   - **(2024)** [Elastic APM](https://www.elastic.co/observability/application-performance-monitoring) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
   - **(2024)** [Elastic APM Server](https://www.elastic.co/docs/solutions/observability/apm) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./monitoring.md)*
@@ -6222,7 +6222,7 @@
   - **(2024)** [AWS Organizations: The Key to Managing Your Cloud Infrastructure Effectively](https://awsfundamentals.com/blog/aws-organizations-the-key-to-managing-your-cloud-infrastructure-effectively) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-architecture.md)*
   - **(2024)** [github.com/Levi-Michael/boto3-ec2-s3-management: A python tools base on' AWS boto3 for manage ec2 and s3 buckets](https://github.com/Levi-Michael/boto3-ec2-s3-management) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2024)** [github.com/Reaimua/AWS-CLI-Uploader-Project](https://github.com/Reaimua/AWS-CLI-Uploader-Project) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
-  - **(2024)** [AWS Samples (Boilerplates)](https://nubenetes.com/demos/#aws-samples-boilerplates) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
+  - **(2024)** [AWS Samples (Boilerplates)](https://nubenetes.com/demos) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
   - **(2024)** [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
@@ -6962,7 +6962,7 @@
   - **(2023)** [blog.awsfundamentals.com: Step-By-Step: Emptying S3 Buckets and Directories Using the AWS CLI with S3 RM](https://awsfundamentals.com/blog/aws-s3-rm-removing-files) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2023)** [New usage examples have been added to the CLI for CodePipeline API Reference](https://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
   - **(2023)** [aws.amazon.com/blogs: Introducing Amazon CodeWhisperer for command line](https://aws.amazon.com/blogs/devops/introducing-amazon-codewhisperer-for-command-line) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./aws-tools-scripts.md)*
-  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
+  - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./databases.md)*
   - **(2023)** [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./databases.md)*
@@ -7104,7 +7104,7 @@
   - **(2023)** [kedify.io: Prometheus and Kubernetes Horizontal Pod Autoscaler don’t talk, KEDA does](https://www.kedify.io/resources/blog/prometheus-and-kubernetes-horizontal-pod-autoscaler-dont-talk-keda-does) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-autoscaling.md)*
   - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./kubernetes-autoscaling.md)*
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./servicemesh.md)*
-  - **(2023)** [Tekton](https://nubenetes.com/tekton/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./jenkins-alternatives.md)*
+  - **(2023)** [Tekton](https://nubenetes.com/tekton) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./jenkins-alternatives.md)*
   - **(2023)** [Semaphore](https://semaphore.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./jenkins-alternatives.md)*
   - **(2023)** [spinnaker.io deployment tool](https://spinnaker.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./jenkins-alternatives.md)*
   - **(2023)** [dagger.io](https://dagger.io) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./jenkins-alternatives.md)*
@@ -7503,7 +7503,7 @@
   - **(2022)** [opensource.com: JavaScript cheat sheet](https://opensource.com/downloads/javascript-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2022)** [opensource.com: Linux logrotate cheat sheet](https://opensource.com/downloads/logrotate-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2022)** [opensource.com: Watch command cheat sheet](https://opensource.com/downloads/watch-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
-  - **(2022)** [Networking Cheat Sheet](https://nubenetes.com/networking/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
+  - **(2022)** [Networking Cheat Sheet](https://nubenetes.com/networking) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2022)** [opensource.com: JupyterLab cheat sheet](https://opensource.com/downloads/jupyterlab-cheat-sheet) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2022)** [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 1](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-1.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
   - **(2022)** [kdnuggets.com: The Complete Collection of Data Science Cheat Sheets – Part 2](https://www.kdnuggets.com/2022/02/complete-collection-data-science-cheat-sheets-part-2.html) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./cheatsheets.md)*
@@ -7579,7 +7579,7 @@
   - **(2022)** [SaaS Solutions - What is the difference between a multi-instance and a multi-tenant architecture](https://www.scaleway.com/en/en/blog/saas-multi-tenant-vs-multi-instance-architectures) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./scaleway.md)*
   - **(2022)** [dkrallis.wordpress.com: How to create an OpenShift Cluster in Azure and how you can interact with Azure DevOps environment – Part A](https://dkrallis.wordpress.com/2022/11/25/how-to-create-an-openshift-cluster-in-azure-and-how-you-can-interact-with-azure-devops-environment-part-a) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ocp4.md)*
   - **(2022)** [cloud.redhat.com: Scale your application containers on Red Hat OpenShift Service on AWS (ROSA) clusters using Amazon EFS storage](https://www.redhat.com/en/blog/scale-your-application-containers-on-red-hat-openshift-service-on-aws-rosa-clusters-using-amazon-efs-storage) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ocp4.md)*
-  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries/) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./ocp4.md)*
+  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./ocp4.md)*
   - **(2022)** [github.com: OKD 4 Roadmap](https://github.com/openshift/community/blob/master/ROADMAP.md) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./ocp4.md)*
   - **(2022)** [developers.redhat.com: Reduce the size of container images with DockerSlim](https://developers.redhat.com/articles/2022/01/17/reduce-size-container-images-dockerslim) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
   - **(2022)** [blog.bitsrc.io: Best Practices for Writing a Dockerfile](https://blog.bitsrc.io/best-practices-for-writing-a-dockerfile-68893706c3) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./docker.md)*
