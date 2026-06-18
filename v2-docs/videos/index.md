@@ -1,5 +1,8 @@
 # Agentic Video Hub
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).
+
 Welcome to the **Nubenetes Elite Video Hub**. Discover highly-curated architectural video resources organized into logical learning paths:
 
 ## Learning Dimensions

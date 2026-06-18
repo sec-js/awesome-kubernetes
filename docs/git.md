@@ -583,6 +583,7 @@ git rebase -i HEAD~5
 - [github.com/giscus/giscus](https://github.com/giscus/giscus) A comments system powered by [GitHub Discussions](https://docs.github.com/en/discussions). Let visitors leave comments and reactions on your website via GitHub! Heavily inspired by [utterances](https://github.com/utterance/utterances).
 
 ### GitHub Actions
+  - **(2025)** [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) 🌟 - Enterprise-level guidelines and best practices for scaling continuous delivery workflows safely and securely using GitHub Actions.
   - [Gama: Terminal UI for GitHub Actions](https://github.com/termkit/gama) - *(Related to cicd topic)*
 
 - [github.blog: Testing cloud apps with GitHub Actions and cloud-native open source tools](https://github.blog/enterprise-software/devops/devops-cloud-testing)
@@ -643,6 +644,8 @@ git rebase -i HEAD~5
 
 ### GitHub Copilot
 
+- **(2025)** [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) 🌟 - A collaborative, agentic developer environment by GitHub Next that enables engineers to brainstorm, plan, and build software features using autonomous AI agents.
+- **(2025)** [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) 🌟 - Official documentation detailing the usage of Copilot's Agent Mode inside modern IDE environments to automate multi-file refactoring and codebase investigations.
 - [GitHub Copilot 🌟](https://github.com/copilot) Your AI pair programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor.
 - [hipertextual.com: GitHub une fuerzas con OpenIA para crear una inteligencia artificial capaz de autocompletar código](https://hipertextual.com/2021/06/github-inteligencia-artificial-autocompletar-codigo) GitHub Copilot funciona con la inteligencia artificial de OpenAI. La herramienta busca mejorar el aprendizaje de lenguajes de programación.
 - [xataka.com: Para qué programar cuando una máquina lo hace (un poco) por ti: así es Github Copilot, un sistema que se nutre del prodigioso GPT-3](https://www.xataka.com/robotica-e-ia/programar-cuando-maquina-hace-poco-ti-asi-github-copilot-sistema-que-se-nutre-prodigioso-gpt-3)

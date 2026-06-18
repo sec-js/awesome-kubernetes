@@ -190,6 +190,11 @@
       - [SSH Security](#ssh-security)
   - [Product Strategy](#product-strategy)
     - [GitHub Roadmap](#github-roadmap)
+1. [Developer Productivity](#developer-productivity-2)
+  - [CICD](#cicd)
+    - [GitHub Actions](#github-actions-3)
+  - [IDEs](#ides)
+    - [GitHub Copilot](#github-copilot)
 1. [Engineering Education](#engineering-education)
   - [Developer Platform](#developer-platform-1)
     - [Git Workflows](#git-workflows-2)
@@ -220,7 +225,7 @@
     - [Case Studies](#case-studies)
     - [Competitive Landscape](#competitive-landscape)
     - [Copilot Ecosystem](#copilot-ecosystem)
-    - [Developer Productivity](#developer-productivity-2)
+    - [Developer Productivity](#developer-productivity-3)
     - [Ecosystem Launch](#ecosystem-launch)
     - [Education and Prompts](#education-and-prompts)
     - [Industry Analysis](#industry-analysis)
@@ -239,7 +244,7 @@
     - [DevSecOps Platforms](#devsecops-platforms)
     - [Git Hosting](#git-hosting)
     - [Kubernetes Integration](#kubernetes-integration)
-  - [Developer Productivity](#developer-productivity-3)
+  - [Developer Productivity](#developer-productivity-4)
     - [Desktop Clients](#desktop-clients)
     - [Grafana GitHub Integration](#grafana-github-integration)
     - [VS Code Extensions](#vs-code-extensions)
@@ -831,6 +836,22 @@
 #### GitHub Roadmap
 
   - **(2026)** [==GitHub public roadmap 🌟==](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8766</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d51b664f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 8 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-d51b664f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository compiling features and timelines across the GitHub product spectrum. Enables platform architects to plan internal upgrades matching upcoming core features.
+## Developer Productivity (2)
+
+### CICD
+
+#### GitHub Actions (3)
+
+  - **(2025)** [==github.blog: Continuous Delivery with GitHub Actions==](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions.
+Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOKEN configurations.
+### IDEs
+
+#### GitHub Copilot
+
+  - **(2025)** [==githubnext.com: GitHub Copilot Workspace==](https://githubnext.com/projects/copilot-workspace) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents.
+Assists developers from specification to implementation, verification, and code generation across complex repositories.
+  - **(2025)** [==learn.microsoft.com: Use Agent Mode in GitHub Copilot==](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official documentation for the Agent Mode inside GitHub Copilot.
+Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns.
 ## Engineering Education
 
 ### Developer Platform (1)
@@ -990,7 +1011,7 @@
 #### Copilot Ecosystem
 
   - **(2023)** [==GitHub Copilot 🌟==](https://github.com/copilot) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main landing framework for GitHub Copilot's developer organization. As an AI-assisted development standard, it houses the core SDK components, extension configurations, and telemetry hooks driving modern contextual code synthesis inside major integrated development environments (IDEs).
-#### Developer Productivity (2)
+#### Developer Productivity (3)
 
   - **(2023)** [github.blog/developer-skills: 10 unexpected ways to use GitHub Copilot](https://github.blog/developer-skills/programming-languages-and-frameworks/10-unexpected-ways-to-use-github-copilot)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Highlights non-traditional applications of GitHub Copilot, including automated test orchestration, translating deprecated structural syntax, and simplifying complex regular expressions. Useful for engineers attempting to extract maximum value from active AI subscriptions.
 #### Ecosystem Launch
@@ -1053,7 +1074,7 @@
 #### Kubernetes Integration
 
   - **(2021)** [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide for installing GitLab Runner on Red Hat OpenShift using the GitLab Runner Operator. Outlines configuration steps, security context constraints (SCC), and custom resource designs for managing secure, scalable pipeline workloads.
-### Developer Productivity (3)
+### Developer Productivity (4)
 
 #### Desktop Clients
 
