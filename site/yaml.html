@@ -1700,6 +1700,17 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#policy-enforcement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy Enforcement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#validation" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2706,6 +2717,7 @@
 <li><a href="#advanced-templating">Advanced Templating</a></li>
 <li><a href="#cli-operations">CLI Operations</a></li>
 <li><a href="#configuration-management">Configuration Management</a></li>
+<li><a href="#policy-enforcement">Policy Enforcement</a></li>
 <li><a href="#validation">Validation</a></li>
 </ul>
 </li>
@@ -2790,7 +2802,6 @@
 <h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
 <ul>
 <li><a href="https://www.dex.dev/dex-videos/templating-solutions">dex.dev: YAML Templating Solutions: Helm &amp; Kustomize</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dex.dev: YAML Templating Solutions: Helm &amp; Kustomize in the Kubernetes Tools ecosystem.</li>
-<li><a href="https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455">medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://en.wikipedia.org/wiki/YAML">wikipedia: YAML</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: YAML in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://kubernetestutorials.com/kubernetes-tutorials/kubernetes-introduction-to-yaml">kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetestutorials.com: Kubernetes : Introduction to YAML 🌟 in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://betterprogramming.pub/yaml-tutorial-get-started-with-yaml-in-5-minutes-549d462972d8">betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: YAML Tutorial: Get Started With YAML in 5 Minutes in the Kubernetes Tools ecosystem.</li>
@@ -2801,6 +2812,7 @@
 <li><a href="https://medium.com/@kinghuang/docker-compose-anchors-aliases-extensions-a1e4105d70bd">medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker' Compose Files</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Don’t Repeat Yourself with Anchors, Aliases and Extensions in Docker' Compose Files in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://jsonformatter.org/yaml-validator">jsonformatter.org/yaml-validator</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>jsonformatter.org/yaml-validator</mark> in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://medium.com/@slashben81/how-to-write-a-yaml-file-for-kubernetes-armo-76f29e533b1f">medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@slashben81: How to write a YAML file for Kubernetes? | ARMO in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/geekculture/convert-kubernetes-yaml-files-into-helm-charts-4107de079455">medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: Convert Kubernetes YAML Files Into Helm Charts in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://en.wikipedia.org/wiki/JSON">wikipedia: JSON</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: JSON in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://dzone.com/articles/the-ultimate-json-library-jsonsimple-vs-gson-vs-ja">dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: The Ultimate JSON Library: JSON.simple vs. GSON vs. Jackson vs.' JSONP in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://betterprogramming.pub/how-to-make-json-and-python-talk-to-each-other-41531d58e59d">betterprogramming.pub: How to Make JSON and Python Talk to Each Other</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: How to Make JSON and Python Talk to Each Other in the Kubernetes Tools ecosystem.</li>
@@ -2822,11 +2834,67 @@
 <li><strong>(2021)</strong> <a href="https://gist.github.com/so0k/42313dbb3b547a0f51a547bb968696ba"><mark>Kubectl output options 🌟</mark></a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated technical guide detailing advanced kubectl formatting options. It covers jsonpath extractions, custom columns, and Go templating recipes. This cheat sheet is incredibly valuable for platform engineers querying complex cluster statuses directly from the command line.</li>
 </ul>
 <h4 id="configuration-management">Configuration Management<a class="headerlink" href="#configuration-management" title="Permanent link">&para;</a></h4>
+<details class="abstract">
+<summary>Architect's Technical Comparison Table</summary>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Solution</th>
+<th style="text-align: left;">Maturity</th>
+<th style="text-align: left;">Primary Focus</th>
+<th style="text-align: left;">Language</th>
+<th style="text-align: left;">Stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">[itnext.io: Kubernetes YAML Tips</td>
+<td style="text-align: left;">Daniele Polencic 🌟](https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Configuration Management</td>
+<td style="text-align: left;">YAML</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://k8syaml.com">k8syaml.com 🌟</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Configuration Management</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">🌟🌟🌟🌟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45">itnext.io: How to create Kubernetes YAML files 🌟</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Configuration Management</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">🌟🌟🌟🌟</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files">boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟</a></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Configuration Management</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">🌟🌟🌟🌟</td>
+</tr>
+<tr>
+<td style="text-align: left;">[linkedin.com/pulse: How to write YAML file for Kubernetes</td>
+<td style="text-align: left;">Megha S.k](https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k)</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Configuration Management</td>
+<td style="text-align: left;">N/A</td>
+</tr>
+</tbody>
+</table>
+</details>
 <ul>
 <li><strong>(2021)</strong> <a href="https://itnext.io/kubernetes-yaml-tips-and-tricks-904a2c0b2b81"><strong>itnext.io: Kubernetes YAML Tips | Daniele Polencic 🌟</strong></a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An ITNext tutorial compilation detailing advanced YAML tips and tricks for Kubernetes. It explains how to combine multiple YAML documents, optimize resource blocks, and safely check designs using dry-run flags. It is a highly practical reference for application operators.</li>
+<li><strong>(2021)</strong> <a href="https://k8syaml.com"><strong>k8syaml.com 🌟</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — An interactive web environment designed to generate clean, standard Kubernetes manifests based on best-practice configurations. It enables operators to construct and validate resources without writing boilerplate templates from scratch.</li>
 <li><strong>(2021)</strong> <a href="https://itnext.io/how-to-create-kubernetes-yaml-files-abb8426eeb45"><strong>itnext.io: How to create Kubernetes YAML files 🌟</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A step-by-step ITNext guide explaining how to construct production-ready Kubernetes configuration manifests. It discusses schema rules, basic resources, and templating practices to prevent deployment failures.</li>
 <li><strong>(2020)</strong> <a href="https://boxunix.com/2020/05/15/a-better-way-of-organizing-your-kubernetes-manifest-files"><strong>boxunix.com: A Better Way of Organizing Your Kubernetes Manifest Files 🌟</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A tactical blog post detailing file hierarchy designs for managing Kubernetes manifests. It compares simple raw file naming to directory segmentation, Kustomize overrides, and Helm charts. This serves as a helpful guide for platform engineers standardizing GitOps setups.</li>
 <li><strong>(2021)</strong> <a href="https://www.linkedin.com/pulse/how-write-yaml-file-kubernetes-megha-s-k">linkedin.com/pulse: How to write YAML file for Kubernetes | Megha S.k</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory LinkedIn Pulse guide on designing and formatting Kubernetes configurations. It covers basic resource schemas for Pods, Services, and Deployments, offering a straightforward reference for developers starting with Kubernetes.</li>
+</ul>
+<h4 id="policy-enforcement">Policy Enforcement<a class="headerlink" href="#policy-enforcement" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398"><strong>dev.to: Automating quality checks for Kubernetes YAMLs</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A detailed technical guide demonstrating how to integrate automated quality controls for Kubernetes manifests within build pipelines. It explains how to combine linters and security checks to validate configurations before they are deployed.</li>
 </ul>
 <h4 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">&para;</a></h4>
 <ul>
@@ -2918,7 +2986,7 @@
 <h3 id="yaml-syntax">YAML Syntax<a class="headerlink" href="#yaml-syntax" title="Permanent link">&para;</a></h3>
 <h4 id="advanced-techniques">Advanced Techniques<a class="headerlink" href="#advanced-techniques" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2021)</strong> <a href="https://yaml.org/spec/1.2/spec.html#id2765878"><mark>yaml.org: Anchors and Aliases</mark></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official YAML spec documentation for anchors and aliases. It details how the reference symbols &amp; and * let you reuse data segments directly in configuration files. This is a crucial concept for keeping complex Kubernetes and CI/CD files DRY and readable.</li>
+<li><strong>(2021)</strong> <a href="https://yaml.org/spec/1.2/spec.html"><mark>yaml.org: Anchors and Aliases</mark></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official YAML spec documentation for anchors and aliases. It details how the reference symbols &amp; and * let you reuse data segments directly in configuration files. This is a crucial concept for keeping complex Kubernetes and CI/CD files DRY and readable.</li>
 <li><strong>(2021)</strong> <a href="https://www.thoughtworks.com/radar/techniques/templating-in-yaml"><strong>thoughtworks.com: Templating in YAML</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A Thoughtworks analysis of the architectural risks and syntactical flaws associated with raw string-based YAML templating (e.g. Jinja). It proposes using semantic, structure-aware AST overlays such as ytt to ensure configuration reliability. This is a helpful resource for teams designing massive Kubernetes deployments.</li>
 <li><strong>(2021)</strong> <a href="https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors">support.atlassian.com: YAML anchors and aliases</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Atlassian's reference guide to using YAML anchors and aliases to optimize Bitbucket Cloud Pipelines. It demonstrates how to reuse complex deployment step structures and reduce boilerplate. This is highly useful for CI/CD pipeline administrators.</li>
 <li><strong>(2019)</strong> <a href="https://stevehorsfield.wordpress.com/2019/08/13/devops-tricks-templating-yaml-files">Steve Horsfield: DevOps tricks - Templating YAML files</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A DevOps blog detailing handy techniques and shell scripts for templating configuration files. It explores quick string replacements, bash substitution, and tool-based schema construction. This guide is helpful for engineers looking to dynamically build runtime parameters inside pipelines.</li>
@@ -2946,7 +3014,7 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="http://www.yamllint.com">yamllint.com: YAML Lint - The YAML Validator</a></td>
+<td style="text-align: left;"><a href="https://www.yamllint.com">yamllint.com: YAML Lint - The YAML Validator</a></td>
 <td style="text-align: left;"></td>
 <td style="text-align: left;">Validation</td>
 <td style="text-align: left;">N/A</td>
@@ -2984,7 +3052,7 @@
 </table>
 </details>
 <ul>
-<li><strong>(2022)</strong> <a href="http://www.yamllint.com"><mark>yamllint.com: YAML Lint - The YAML Validator</mark></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The web-based standard for pasting, formatting, and validating raw YAML payloads. It provides immediate visual feedback on structural bugs, key duplicates, and spacing issues, serving as a quick helper for DevOps engineers debugging pipelines.</li>
+<li><strong>(2022)</strong> <a href="https://www.yamllint.com"><mark>yamllint.com: YAML Lint - The YAML Validator</mark></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The web-based standard for pasting, formatting, and validating raw YAML payloads. It provides immediate visual feedback on structural bugs, key duplicates, and spacing issues, serving as a quick helper for DevOps engineers debugging pipelines.</li>
 <li><strong>(2022)</strong> <a href="https://github.com/23andMe/Yamale"><strong>23andMe/Yamale</strong></a> <span class='md-tag md-tag--info'>⭐ 765</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3c758b61" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 2 L 30 8 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-3c758b61)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A schema validation tool written in Python. Yamale validates YAML files by checking them against defined schemas, making it easy to enforce structural constraints, verify data types, and run assertions in configuration testing pipelines.</li>
 <li><strong>(2021)</strong> <a href="https://www.redhat.com/en/blog/understanding-yaml-ansible"><strong>redhat.com: Understanding YAML for Ansible. Validating YAML files with YAMLlint 🌟</strong></a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — A practical guide on how to parse and construct valid Ansible YAML blueprints. It explains YAMLlint configuration options and how to include validation steps in pre-commit git hooks. This is highly useful for maintaining clean syntax across large development teams.</li>
 <li><strong>(2022)</strong> <a href="https://codebeautify.org/yaml-validator">codebeautify.org/yaml-validator</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A versatile online conversion and code-beautifying utility. It formats, lints, and transforms nested JSON and YAML configurations, helping developers quickly test structures from web browsers.</li>
@@ -3110,7 +3178,7 @@
 <h3 id="ansible">Ansible<a class="headerlink" href="#ansible" title="Permanent link">&para;</a></h3>
 <h4 id="yaml-syntax-1">YAML Syntax (1)<a class="headerlink" href="#yaml-syntax-1" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2022)</strong> <a href="https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html#yaml-anchors-and-aliases-sharing-variable-values"><strong>docs.ansible.com: YAML anchors and aliases: sharing variable values</strong></a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official Ansible documentation showing how playbooks use YAML anchors and aliases. It demonstrates how to share variable lists, task setups, and connection settings across playbooks. This is a core best practice for maintaining massive infrastructure inventories.</li>
+<li><strong>(2022)</strong> <a href="https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_advanced_syntax.html"><strong>docs.ansible.com: YAML anchors and aliases: sharing variable values</strong></a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Official Ansible documentation showing how playbooks use YAML anchors and aliases. It demonstrates how to share variable lists, task setups, and connection settings across playbooks. This is a core best practice for maintaining massive infrastructure inventories.</li>
 </ul>
 <h2 id="kubernetes-1">Kubernetes (1)<a class="headerlink" href="#kubernetes-1" title="Permanent link">&para;</a></h2>
 <h3 id="devsecops">DevSecOps<a class="headerlink" href="#devsecops" title="Permanent link">&para;</a></h3>
@@ -3145,7 +3213,7 @@
 <li><strong>(2023)</strong> <a href="https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools">kubevious.io: Top Kubernetes YAML Validation Tools</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market breakdown contrasting modern validation utilities for Kubernetes platforms. Reviews differences between structural validators, OPA-based policy enforcement engines, and semantic layout detectors.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="newsql.html">Newsql</a> | <a href="nosql.html">NoSQL</a> | <a href="databases.html">Databases</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="message-queue.html">Message Queue</a> | <a href="databases.html">Databases</a> | <a href="crunchydata.html">Crunchydata</a></p>
 
 
 

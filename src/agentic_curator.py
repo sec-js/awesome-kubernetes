@@ -174,14 +174,31 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                         log_event(f"  [!] REPUTATION ALERT: {data['title']} flagged.")
                         score = max(score - 30, 10)
                     
+                    # Consensus Debate Protocol trigger for borderline scores (70-85)
+                    final_tags = data.get("tags", [])
+                    refined_summary = data.get("en_summary", data["desc"])
+                    
+                    if 70 <= score <= 85:
+                        from src.v2_debate import run_debate_protocol
+                        # Build a temporary item representation to feed the debate engine
+                        temp_item = {
+                            "title": data["title"],
+                            "url": url,
+                            "description": data["desc"],
+                            "ai_summary": refined_summary,
+                            "tags": final_tags,
+                            "impact_score": score
+                        }
+                        score, final_tags, refined_summary, debate_data = await run_debate_protocol(temp_item, is_new_link=True)
+                    
                     primary_cat = get_best_category_match(data.get("primary_category"))
                     is_primary = "nubenetes" in d["asset"].get("source_type", "Social").lower()
                     if score >= (5 if is_primary else 80) and primary_cat:
                         eval_data = {
-                            "title": data["title"], "description": data["desc"], "ai_summary": data.get("en_summary", data["desc"]),
+                            "title": data["title"], "description": data["desc"], "ai_summary": refined_summary,
                             "language": data.get("language", "English"), "resource_type": data.get("type", "Reference"),
                             "complexity": data.get("level", "Intermediate"), "hierarchy": data.get("technical_hierarchy", ["General"]),
-                            "tags": data.get("tags", []), "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
+                            "tags": final_tags, "is_microservice": data.get("is_microservice", False), "year": data.get("pub_date", "N/A")[:4],
                             "stars": min(max(score // 20, 0), 5), "impact_score": score, "content_hash": d["hash"],
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),

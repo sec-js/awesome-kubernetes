@@ -488,42 +488,34 @@ class V2VisionEngine:
                 except Exception:
                     for l in batch: analyst_results.append(l)
                 await asyncio.sleep(4.0) # Higher delay for Grounding tasks            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
-            # Identify candidates for high-trust verification
-            audit_candidates = [l for l in analyst_results if "[DE FACTO STANDARD]" in l.get("tags", []) or "[ENTERPRISE-STABLE]" in l.get("tags", [])]
+            # --- AGENT PHASE 2: MULTI-AGENT CONSENSUS & DEBATE PROTOCOL ---
+            # Identify candidates for debate:
+            # 1. High-impact candidates (marked as [DE FACTO STANDARD] or [ENTERPRISE-STABLE])
+            # 2. Borderline candidates (stars == 3 or stars == 4)
+            debate_candidates = [
+                l for l in analyst_results 
+                if "[DE FACTO STANDARD]" in l.get("tags", []) 
+                or "[ENTERPRISE-STABLE]" in l.get("tags", [])
+                or l.get("stars", 0) in [3, 4]
+            ]
             
-            if audit_candidates:
-                log_event(f"[*] Agent Phase 2: Auditor Verification ({len(audit_candidates)} high-impact candidates)...")
-                # AUDIT BATCH: Very small for max grounding precision
-                for i in range(0, len(audit_candidates), 5):
-                    batch = audit_candidates[i:i+5]
-                    audit_prompt = (
-                        f"You are the Nubenetes Auditor (2026).\n"
-                        f"{dynamic_mandates}\n"
-                        "MISSION: Perform 'Double-Evidence' verification using your GOOGLE_SEARCH tool.\n"
-                        "PROTOCOL:\n"
-                        "1. SEARCH: Look for community reputation (Reddit, HN) and repo status (GitHub).\n"
-                        "2. CONTRAST: Compare findings with the proposed Analyst summary.\n"
-                        "3. REFINE: Correct any 'vaporware' or 'hype' claims. Ensure technical accuracy.\n"
-                        "CRITERIA:\n"
-                        "- [DE FACTO STANDARD]: Industry baseline, used by everyone.\n"
-                        "- [ENTERPRISE-STABLE]: Proven, high-trust, supported.\n"
-                        "Respond ONLY JSON: {{\"audits\": [{{ \"idx\": int, \"verified_tags\": [\"...\"], \"refined_summary\": \"Synthesized and verified technical summary...\", \"reputation_summary\": \"...\", \"reputation_penalty\": bool }}, ...]}}\n\n"
-                        "RESOURCES TO AUDIT:\n" + "\n".join([f"{idx}. {l['title']} ({l['url']}) - Proposed: {l.get('tags')}" for idx, l in enumerate(batch)])
-                    )
+            if debate_candidates:
+                log_event(f"[*] Agent Phase 2: Multi-Agent Consensus & Debate Protocol ({len(debate_candidates)} candidates)...")
+                from src.v2_debate import run_debate_protocol
+                for item in debate_candidates:
                     try:
-                        # AUDIT USES PRO MODEL (High Reasoning) + GROUNDING (Live Data)
-                        audit_data = await call_gemini_with_retry(audit_prompt, prefer_flash=False, use_grounding=True, role="Auditor")
-                        for aud in audit_data.get("audits", []):
-                            idx = int(aud["idx"])
-                            if idx < len(batch):
-                                # Update tags, summary and add reputation metadata (Mandate 32/33)
-                                batch[idx]["tags"] = aud.get("verified_tags", batch[idx]["tags"])
-                                if aud.get("refined_summary"): batch[idx]["ai_summary"] = aud["refined_summary"]
-                                batch[idx]["reputation_summary"] = aud.get("reputation_summary", "")
-                                if aud.get("reputation_penalty"):
-                                    batch[idx]["stars"] = max(batch[idx].get("stars", 1) - 1, 1)
-                                    if "[DE FACTO STANDARD]" in batch[idx]["tags"]: batch[idx]["tags"].remove("[DE FACTO STANDARD]")
-                    except: pass
+                        # Map current stars (0-5) to initial score (0-100)
+                        item["impact_score"] = item.get("impact_score", item.get("stars", 3) * 20)
+                        final_score, final_tags, refined_summary, debate_data = await run_debate_protocol(item)
+                        
+                        # Update item with consensus results
+                        item["stars"] = min(max(final_score // 20, 0), 5)
+                        item["impact_score"] = final_score
+                        item["tags"] = final_tags
+                        item["ai_summary"] = refined_summary
+                        item["debate_log"] = debate_data
+                    except Exception as e:
+                        log_event(f"    [!] Debate failed for '{item.get('title')}': {e}")
                     await asyncio.sleep(0.5)
 
             # Finalize Registry

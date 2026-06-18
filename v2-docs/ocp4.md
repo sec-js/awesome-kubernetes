@@ -375,7 +375,7 @@
 
 #### Red Hat Quay
 
-  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive analysis of Red Hat Quay and the integrated OpenShift Container Registry. Details secure image storage, vulnerability scanning with Clair, and geo-replication capabilities. It highlights Quay's enterprise-grade multi-tenancy and RBAC controls, which ensure secure artifact promotion within high-performance microservices pipelines.
+  - **(2022)** [OpenShift Registry & Quay](https://nubenetes.com/registries) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive analysis of Red Hat Quay and the integrated OpenShift Container Registry. Details secure image storage, vulnerability scanning with Clair, and geo-replication capabilities. It highlights Quay's enterprise-grade multi-tenancy and RBAC controls, which ensure secure artifact promotion within high-performance microservices pipelines.
 ## CI-CD
 
 ### App Migration (1)
@@ -471,7 +471,7 @@
   - **(2019)** [cloudowski.com: Openshift ImageStreams](https://cloudowski.com/articles/why-managing-container-images-on-openshift-is-better-than-on-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analysis compares OpenShift ImageStreams with vanilla Kubernetes image pulling mechanisms. It explains how ImageStreams provide abstraction layers over container registries, enabling automatic redeployments upon detection of updated remote images (triggers). By decoupling pods from concrete repository URLs, it automates deployment lifecycle workflows for platform engineering teams.
 ## Container Platforms
 
-### OKD  OpenShift
+### OKD OpenShift
 
 #### Cluster Bootstrap
 

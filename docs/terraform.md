@@ -889,7 +889,7 @@
     - [**Boilerplate: 25-Azure-DevOps-Terraform-Azure-AKS** 🌟🌟🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/25-Azure-DevOps-Terraform-Azure-AKS)
     - [PDF presentation 🌟](https://github.com/stacksimplify/azure-aks-kubernetes-masterclass/tree/master/ppt-presentation)
 
-	``` tf
+``` tf
 # 07-aks-cluster.tf
 
 # Network Profile
@@ -922,14 +922,14 @@
 # docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS Clusters
 # dns_service_ip = "10.0.0.10"
 
-	network_profile {  # (1)
-	load_balancer_sku = "Standard"
-	network_plugin = "kubenet"  # use Azure CNI network plugin when windows node pools are required (not supported by kubenet)
+network_profile {  # (1)
+load_balancer_sku = "Standard"
+network_plugin = "kubenet"  # use Azure CNI network plugin when windows node pools are required (not supported by kubenet)
 # service_cidr = "10.0.0.0/16"
 # dns_service_ip = "10.0.0.10"
 # docker_bridge_cidr = "172.17.0.1/16" # Default. You can reuse this range across different AKS clusters.
-	}
-	```
+}
+```
 
 	1. :man_raising_hand: Network Profile
 

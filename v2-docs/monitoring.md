@@ -760,7 +760,7 @@
 
 #### Dashboards
 
-  - **(2024)** [Grafana](https://nubenetes.com/grafana/) <span class='md-tag md-tag--warning'>[GO/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana is the industry-standard multi-platform open-source analytics and interactive visualization web application. It supports query, visualization, alerting, and analysis of metrics, logs, and traces from diverse backends (Prometheus, Elasticsearch, Loki, Jaeger). Its pluggable architecture allows organizations to build unified operational dashboards across heterogeneous data layers.
+  - **(2024)** [Grafana](https://nubenetes.com/grafana) <span class='md-tag md-tag--warning'>[GO/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana is the industry-standard multi-platform open-source analytics and interactive visualization web application. It supports query, visualization, alerting, and analysis of metrics, logs, and traces from diverse backends (Prometheus, Elasticsearch, Loki, Jaeger). Its pluggable architecture allows organizations to build unified operational dashboards across heterogeneous data layers.
 ## Observability and Monitoring
 
 ### Application Performance Monitoring (1)

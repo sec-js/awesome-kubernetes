@@ -2115,17 +2115,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#enterprise-distributions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Enterprise Distributions
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#market-landscapes" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2208,6 +2197,51 @@
     <span class="md-ellipsis">
       
         VMware Tanzu (3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#kubernetes-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Operations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Operations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#productivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Productivity
       
     </span>
   </a>
@@ -2782,17 +2816,6 @@
     <span class="md-ellipsis">
       
         Security
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ubuntu-stack" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Ubuntu Stack
       
     </span>
   </a>
@@ -3669,7 +3692,6 @@
 <li><a href="#kubernetes-distributions">Kubernetes Distributions</a><ul>
 <li><a href="#custom-installers">Custom Installers</a></li>
 <li><a href="#edge-and-iot">Edge and IoT</a></li>
-<li><a href="#enterprise-distributions">Enterprise Distributions</a></li>
 <li><a href="#market-landscapes">Market Landscapes</a></li>
 <li><a href="#selection-criteria">Selection Criteria</a></li>
 </ul>
@@ -3681,6 +3703,11 @@
 </li>
 <li><a href="#virtualization">Virtualization</a><ul>
 <li><a href="#vmware-tanzu-3">VMware Tanzu</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-1">Kubernetes</a></li>
+<li><a href="#operations">Operations</a><ul>
+<li><a href="#productivity">Productivity</a></li>
 </ul>
 </li>
 <li><a href="#kubernetes-platforms">Kubernetes Platforms</a></li>
@@ -3747,7 +3774,6 @@
 <li><a href="#aws-1">AWS</a></li>
 <li><a href="#comparison-1">Comparison</a></li>
 <li><a href="#security">Security</a></li>
-<li><a href="#ubuntu-stack">Ubuntu Stack</a></li>
 </ul>
 </li>
 <li><a href="#gitops-1">GitOps</a><ul>
@@ -3779,7 +3805,7 @@
 <h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
 <h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
 <ul>
-<li><a href="http://wecloudpro.com/2020/01/13/kube-autp-aws.html">wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://wecloudpro.com/2020/01/13/kube-autp-aws.html">wecloudpro.com: Deploy HA kubernetes cluster in AWS in less than 5 minutes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wecloudpro.com in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://blog.kubecost.com/blog/kubernetes-kops">blog.kubecost.com: Kubernetes kOps: Step-By-Step Example &amp; Alternatives</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kubecost.com: Kubernetes kOps: Step-By-Step Example &amp; Alternatives in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://imsundeep8.medium.com/deploy-production-grade-kubernetes-cluster-using-kops-on-amazon-cloud-aws-abc79f46aa32">imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering imsundeep8.medium.com: Deploy Production-grade Kubernetes Cluster using' kOps on Amazon Cloud (AWS) in the Kubernetes Tools ecosystem.</li>
 <li><a href="https://medium.com/velotio-perspectives/demystifying-high-availability-in-kubernetes-using-kubeadm-3d83ed8c458b">medium.com: <strong>Demystifying High Availability in Kubernetes Using Kubeadm</strong></a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: <strong>Demystifying High Availability in Kubernetes Using Kubeadm</strong> in the Kubernetes Tools ecosystem.</li>
@@ -3881,10 +3907,6 @@
 <li><strong>(2020)</strong> <a href="https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s">thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step guide outlining how to install, configure, and scale MicroK8s on an Ubuntu Server environment. It demonstrates the simplicity of setting up multi-node local clusters with high availability (dqlite-backed control planes) using snap commands.</li>
 <li><strong>(2020)</strong> <a href="https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution">infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective announcement of Mirantis' launch of k0s. Highlighted its zero-friction approach, multi-master architectural patterns with a decentralized control plane, and its capability to run isolated control planes separate from application workload nodes.</li>
 </ul>
-<h4 id="enterprise-distributions">Enterprise Distributions<a class="headerlink" href="#enterprise-distributions" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2026)</strong> <a href="https://okd.io">OKD</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The community-backed, open-source upstream counterpart to Red Hat OpenShift. OKD integrates Kubernetes with core Linux container tools (like Fedora CoreOS) to offer a complete self-managing, multi-tenant container platform designed for declarative applications, CI/CD, and simplified enterprise operations.</li>
-</ul>
 <h4 id="market-landscapes">Market Landscapes<a class="headerlink" href="#market-landscapes" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>(2022)</strong> <a href="https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html">infoworld.com: 6 Kubernetes distributions leading the container revolution</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market overview focusing on major commercial Kubernetes platforms driving enterprise cloud-native architecture. Evaluates core features of Red Hat OpenShift, VMware Tanzu Grid, Rancher Kubernetes Engine (RKE), Mirantis Kubernetes Engine, Docker Enterprise, and Canonical Kubernetes, contrasting their operational models and target markets.</li>
@@ -3909,6 +3931,12 @@
 <li><strong>(2020)</strong> <a href="https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action">cormachogan.com: A first look at vSphere with Kubernetes in action</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on architectural exploration of the early vSphere with Kubernetes implementation. The post walks through supervisor cluster enablement, native vSphere Pods execution, storage class integration with VMware CNS (Cloud Native Storage), and basic network policies.</li>
 <li><strong>(2020)</strong> <a href="https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes">cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical guide demonstrating how to declare and bootstrap Tanzu Kubernetes Grid (TKG) workload clusters (guest clusters) inside a vSphere supervisor cluster. Explains the underlying declarative custom resource definition (CRD) configurations matching Cluster API mechanics.</li>
 </ul>
+<h2 id="kubernetes-1">Kubernetes (1)<a class="headerlink" href="#kubernetes-1" title="Permanent link">&para;</a></h2>
+<h3 id="operations">Operations<a class="headerlink" href="#operations" title="Permanent link">&para;</a></h3>
+<h4 id="productivity">Productivity<a class="headerlink" href="#productivity" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.theodo.com/en-fr/blog">Kubernetes productivity tips and tricks 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.</li>
+</ul>
 <h2 id="kubernetes-platforms">Kubernetes Platforms<a class="headerlink" href="#kubernetes-platforms" title="Permanent link">&para;</a></h2>
 <h3 id="mirantis">Mirantis<a class="headerlink" href="#mirantis" title="Permanent link">&para;</a></h3>
 <h4 id="enterprise">Enterprise<a class="headerlink" href="#enterprise" title="Permanent link">&para;</a></h4>
@@ -3918,12 +3946,12 @@
 <h3 id="rancher">Rancher<a class="headerlink" href="#rancher" title="Permanent link">&para;</a></h3>
 <h4 id="multi-cluster">Multi-Cluster<a class="headerlink" href="#multi-cluster" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2026)</strong> <a href="https://nubenetes.com/rancher/">Rancher: Enterprise management for Kubernetes</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.</li>
+<li><strong>(2026)</strong> <a href="https://nubenetes.com/rancher">Rancher: Enterprise management for Kubernetes</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.</li>
 </ul>
 <h3 id="red-hat-openshift">Red Hat OpenShift<a class="headerlink" href="#red-hat-openshift" title="Permanent link">&para;</a></h3>
 <h4 id="enterprise-1">Enterprise (1)<a class="headerlink" href="#enterprise-1" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2026)</strong> <a href="https://nubenetes.com/openshift/">Openshift Container Platform</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.</li>
+<li><strong>(2026)</strong> <a href="https://nubenetes.com/openshift">Openshift Container Platform</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.</li>
 </ul>
 <h2 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h2>
 <h3 id="cni-plugins">CNI Plugins<a class="headerlink" href="#cni-plugins" title="Permanent link">&para;</a></h3>
@@ -4043,10 +4071,6 @@
 <ul>
 <li><strong>(2020)</strong> <a href="https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates">blog.ivnilv.com: Rotating Kops Etcd Certificates</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical troubleshooting guide mapping out the precise sequence required to rotate internal etcd client and peer certificates within a running, Kops-managed cluster. Addresses avoidance of control plane downtime and potential etcd split-brain scenarios during CA transitions.</li>
 </ul>
-<h4 id="ubuntu-stack">Ubuntu Stack<a class="headerlink" href="#ubuntu-stack" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2026)</strong> <a href="https://canonical.com/juju"><strong>Conjure up</strong></a> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.</li>
-</ul>
 <h3 id="gitops-1">GitOps (1)<a class="headerlink" href="#gitops-1" title="Permanent link">&para;</a></h3>
 <h4 id="legacy-tools">Legacy Tools<a class="headerlink" href="#legacy-tools" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4070,7 +4094,7 @@
 <li><strong>(2019)</strong> <a href="https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos">Stateful Kubernetes-In-a-Box with Kontena Pharos</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="kubernetes-storage.html">Kubernetes Storage</a> | <a href="kubernetes-alternatives.html">Kubernetes Alternatives</a> | <a href="kubernetes-client-libraries.html">Kubernetes Client Libraries</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="ocp4.html">OCP 4</a> | <a href="openshift.html">Openshift</a> | <a href="serverless.html">Serverless</a></p>
 
 
 

@@ -5,7 +5,6 @@ on:
     branches:
       - develop
     paths:
-      - 'data/inventory.yaml'
       - 'docs/**'
   workflow_run:
     workflows: ["03.3. V2 Video Hub Builder"]
@@ -24,7 +23,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: v2-pipeline-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#container-runtimesmanagers-base-images-and-container-tools-podman-buildah-skopeo" class="md-skip">
+        <a href="#container-runtimesmanagers-base-images-and-container-tools-podman-buildah-and-skopeo" class="md-skip">
           Skip to content
         </a>
       
@@ -1509,34 +1509,6 @@
     <span class="md-ellipsis">
       
         VM-in-Container
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ci-cd-pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CI-CD Pipelines
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="CI-CD Pipelines">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pipeline-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pipeline Security
       
     </span>
   </a>
@@ -3608,10 +3580,10 @@
   
 
 
-<h1 id="container-runtimesmanagers-base-images-and-container-tools-podman-buildah-skopeo">Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah &amp; Skopeo<a class="headerlink" href="#container-runtimesmanagers-base-images-and-container-tools-podman-buildah-skopeo" title="Permanent link">&para;</a></h1>
+<h1 id="container-runtimesmanagers-base-images-and-container-tools-podman-buildah-and-skopeo">Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo<a class="headerlink" href="#container-runtimesmanagers-base-images-and-container-tools-podman-buildah-and-skopeo" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
 <p class="admonition-title">Architectural Context</p>
-<p>Detailed reference for Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah &amp; Skopeo in the context of The Container Stack.</p>
+<p>Detailed reference for Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo in the context of The Container Stack.</p>
 </div>
 <h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
 <ol>
@@ -3628,10 +3600,6 @@
 <li><a href="#container-infrastructure">Container Infrastructure</a></li>
 <li><a href="#advanced-runtimes">Advanced Runtimes</a><ul>
 <li><a href="#vm-in-container">VM-in-Container</a></li>
-</ul>
-</li>
-<li><a href="#ci-cd-pipelines">CI-CD Pipelines</a><ul>
-<li><a href="#pipeline-security">Pipeline Security</a></li>
 </ul>
 </li>
 <li><a href="#container-engines">Container Engines</a><ul>
@@ -3790,11 +3758,6 @@
 <ul>
 <li><strong>(2021)</strong> <a href="https://opensource.com/article/21/7/linux-podman">opensource.com: Run a Linux virtual machine in Podman</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — An architectural exploration of executing a nested Linux VM directly within an OCI-compliant container managed by Podman. This setup leverages nested systemd instances, enabling engineers to package legacy system-level workloads, VMs, or multi-process service layers without full VM overhead.</li>
 </ul>
-<h3 id="ci-cd-pipelines">CI-CD Pipelines<a class="headerlink" href="#ci-cd-pipelines" title="Permanent link">&para;</a></h3>
-<h4 id="pipeline-security">Pipeline Security<a class="headerlink" href="#pipeline-security" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2022)</strong> <a href="https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline">Build trusted pipelines/Guards with Podman containers</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.</li>
-</ul>
 <h3 id="container-engines">Container Engines<a class="headerlink" href="#container-engines" title="Permanent link">&para;</a></h3>
 <h4 id="comparative-analysis">Comparative Analysis<a class="headerlink" href="#comparative-analysis" title="Permanent link">&para;</a></h4>
 <ul>
@@ -3847,7 +3810,7 @@
 <h3 id="container-tooling">Container Tooling<a class="headerlink" href="#container-tooling" title="Permanent link">&para;</a></h3>
 <h4 id="compose-comparison">Compose Comparison<a class="headerlink" href="#compose-comparison" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2021)</strong> <a href="http://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman">crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison contrasts the usage of Podman Compose with Docker Compose running on Podman's virtualized API socket. The synthesis recommends leveraging the Docker-compatible socket configuration in enterprise environments for high-fidelity compatibility with complex multi-container definitions.</li>
+<li><strong>(2021)</strong> <a href="https://crunchtools.com/should-i-use-docker-compose-or-podman-compose-with-podman">crunchtools.com: Should I Use Docker Compose Or Podman Compose With Podman?</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural comparison contrasts the usage of Podman Compose with Docker Compose running on Podman's virtualized API socket. The synthesis recommends leveraging the Docker-compatible socket configuration in enterprise environments for high-fidelity compatibility with complex multi-container definitions.</li>
 </ul>
 <h4 id="decompiled-engines">Decompiled Engines<a class="headerlink" href="#decompiled-engines" title="Permanent link">&para;</a></h4>
 <ul>
@@ -3906,7 +3869,7 @@
 <li><strong>(2021)</strong> <a href="https://github.com/fatherlinux/ubi-micro">ubi-micro: RHEL tiny images to build containers 🌟</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source repository dedicated to UBI-Micro, Red Hat's smallest, zero-dependency base image layer designed for extreme attack surface minimization. It contains only essential package databases and relies on host-side tools like Buildah to inject necessary microservice binaries.</li>
 <li><strong>(2019)</strong> <a href="https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image">Introducing the Red Hat Universal Base Image 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview introducing the Red Hat Universal Base Image (UBI), designed to provide enterprise RHEL security configurations without subscription constraints. UBI delivers a reliable foundation for packaging and distributing cloud-native microservices across multi-cloud environments.</li>
 <li><strong>(2019)</strong> <a href="https://developers.redhat.com/blog/2019/10/09/what-is-red-hat-universal-base-image">What is Red Hat Universal Base Image?</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs the design of Red Hat's Universal Base Image, explaining its lifecycle, support commitments, and open redistribution model. It outlines how UBI bridges the gap between secure RHEL package dependency requirements and standard public distribution channels.</li>
-<li><strong>(2019)</strong> <a href="https://developers.redhat.com/articles/ubi-faq/#resources">RH Universal Base Image FAQ</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive FAQ resource answering technical queries regarding Red Hat UBI redistribution rights, support channels, and package installation configurations. Explains differences between standard, minimal, and micro base layers to help developers choose the right runtime footprint.</li>
+<li><strong>(2019)</strong> <a href="https://developers.redhat.com/articles/ubi-faq">RH Universal Base Image FAQ</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive FAQ resource answering technical queries regarding Red Hat UBI redistribution rights, support channels, and package installation configurations. Explains differences between standard, minimal, and micro base layers to help developers choose the right runtime footprint.</li>
 </ul>
 <h3 id="image-synthesis">Image Synthesis<a class="headerlink" href="#image-synthesis" title="Permanent link">&para;</a></h3>
 <h4 id="buildkit-integration">BuildKit Integration<a class="headerlink" href="#buildkit-integration" title="Permanent link">&para;</a></h4>
@@ -3966,7 +3929,6 @@
 <li><strong>(2018)</strong> <a href="https://github.com/containers/podman"><mark>Libpod: Library and tool for running OCI-based containers in Pods</mark></a> <span class='md-tag md-tag--info'>⭐ 31763</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-022b1447" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 5 L 30 10 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-022b1447)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The core engine library underlying Podman, enabling programmatic creation and lifecycle management of OCI-compliant containers and Pods. Libpod brings native Kubernetes-style multi-container 'Pod' groupings to local local environments without requiring a background orchestration API.</li>
 <li><strong>(2021)</strong> <a href="https://www.youtube.com/watch?v=Za36qHbrf3g">youtube: Getting started with Podman</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented video walkthrough detailing installation, basic image handling, and container deployment using Podman. Explains core concepts of local rootless container security and basic networking models for developers transitioning from monolithic engine setups.</li>
 <li><strong>(2020)</strong> <a href="https://podman.io/blogs/2020/06/29/podman-v2-announce.html">podmain.io: Announcing Podman v2</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement detailing Podman v2's updated architecture, notably the introduction of a new structured REST API. This release allows remote management of containers from macOS or Windows machines, bridging compatibility barriers to match modern hybrid-development requirements.</li>
-<li><strong>(2019)</strong> <a href="https://developers.redhat.com/blog/2019/02/21/podman-and-buildah-for-docker-users">developers.redhat.com: Podman and Buildah for Docker users 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[LEGACY]</span> — A practical handbook for developers transitionining from legacy Docker tooling to the modern Podman/Buildah stack. It walks through command mapping, registry authentications, building minimal rootless images, and deploying local Kubernetes-style multi-container YAML manifests.</li>
 <li><strong>(2018)</strong> <a href="https://developers.redhat.com/blog/2018/08/29/intro-to-podman">Intro to Podman</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory engineering guide presenting Podman's design philosophies. It outlines the core mechanics of running daemonless containers, using standard alias configs to replace traditional docker systems, and managing container storage within unprivileged user directories.</li>
 </ul>
 <h4 id="strategy-and-standards">Strategy and Standards<a class="headerlink" href="#strategy-and-standards" title="Permanent link">&para;</a></h4>
@@ -4007,7 +3969,6 @@
 <h4 id="kubernetes-integration-2">Kubernetes Integration (2)<a class="headerlink" href="#kubernetes-integration-2" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>(2024)</strong> <a href="https://kubernetes.io/docs/setup/production-environment/container-runtimes">Kubernetes.io: Container runtimes</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Kubernetes documentation detailing installation and integration patterns for CRI-compliant container runtimes. It provides step-by-step production setup configurations for containerd and CRI-O, detailing necessary kernel parameters, socket configurations, and systemd driver alignments.</li>
-<li><strong>(2017)</strong> <a href="https://cri-o.io">cri-o.io</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official home of CRI-O, an optimized Container Runtime Interface (CRI) designed specifically and exclusively for Kubernetes. CRI-O avoids overhead by supporting only OCI-compliant runtimes, removing unnecessary client CLI abstractions to deliver minimum-footprint workload execution.</li>
 </ul>
 <h4 id="low-level-engines">Low-Level Engines<a class="headerlink" href="#low-level-engines" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4073,7 +4034,7 @@
 <li><strong>(2026)</strong> <a href="https://buildah.io"><mark>buildah</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="kubernetes-storage.html">Kubernetes Storage</a> | <a href="kubernetes-alternatives.html">Kubernetes Alternatives</a> | <a href="kubernetes-client-libraries.html">Kubernetes Client Libraries</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="ocp4.html">OCP 4</a> | <a href="openshift.html">Openshift</a> | <a href="serverless.html">Serverless</a></p>
 
 
 

@@ -107,7 +107,7 @@
 
 #### Kubectl Plugins
 
-  - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes/#kubectl-plugins) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
+  - **(2025)** [Kubectl plugins and tools](https://nubenetes.com/kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference compilation highlights external tools and kubectl extensions managed via Krew. It details how third-party plugins (like `neat`, `kns`, or security-focused extensions) expand basic kubectl operational debugging and cluster-inspection capabilities.
 ## Kubernetes Platform
 
 ### Cluster Administration

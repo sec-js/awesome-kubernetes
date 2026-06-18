@@ -2198,79 +2198,34 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#infrastructure" class="md-nav__link">
+  <a href="#infrastructure-as-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Infrastructure
+        Infrastructure as Code
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Infrastructure">
+    <nav class="md-nav" aria-label="Infrastructure as Code">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#hardware" class="md-nav__link">
+  <a href="#helm" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hardware
+        Helm
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hardware">
+    <nav class="md-nav" aria-label="Helm">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#gpu-virtualization" class="md-nav__link">
+  <a href="#prometheus-deployment" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GPU Virtualization
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kubernetes-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kubernetes (2)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Kubernetes (2)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#resource-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resource Management
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Resource Management">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cpu-throttling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CPU Throttling
+        Prometheus Deployment
       
     </span>
   </a>
@@ -2551,15 +2506,15 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#resource-management-1" class="md-nav__link">
+  <a href="#resource-management" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Resource Management (1)
+        Resource Management
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Resource Management (1)">
+    <nav class="md-nav" aria-label="Resource Management">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -3893,14 +3848,9 @@
 <li><a href="#job-and-cronjob-execution">Job and CronJob Execution</a></li>
 </ul>
 </li>
-<li><a href="#infrastructure">Infrastructure</a></li>
-<li><a href="#hardware">Hardware</a><ul>
-<li><a href="#gpu-virtualization">GPU Virtualization</a></li>
-</ul>
-</li>
-<li><a href="#kubernetes-2">Kubernetes</a></li>
-<li><a href="#resource-management">Resource Management</a><ul>
-<li><a href="#cpu-throttling">CPU Throttling</a></li>
+<li><a href="#infrastructure-as-code">Infrastructure as Code</a></li>
+<li><a href="#helm">Helm</a><ul>
+<li><a href="#prometheus-deployment">Prometheus Deployment</a></li>
 </ul>
 </li>
 <li><a href="#log-management-and-diagnostics">Log Management and Diagnostics</a></li>
@@ -3935,7 +3885,7 @@
 <li><a href="#ebpf-based-telemetry-1">eBPF-Based Telemetry</a></li>
 </ul>
 </li>
-<li><a href="#resource-management-1">Resource Management</a><ul>
+<li><a href="#resource-management">Resource Management</a><ul>
 <li><a href="#sizing-and-quotas">Sizing and Quotas</a></li>
 </ul>
 </li>
@@ -4156,17 +4106,11 @@
 <ul>
 <li><strong>(2021)</strong> <a href="https://itnext.io/monitoring-kubernetes-jobs-8adc241a7b60">itnext.io: Monitoring Kubernetes Jobs</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Targets the specific challenges of monitoring short-lived batch jobs and CronJobs inside Kubernetes. Outlines Prometheus query logic (PromQL) to detect run execution duration, failure codes, and long-running abandoned pods that bypass typical active deployment scraping rules.</li>
 </ul>
-<h2 id="infrastructure">Infrastructure<a class="headerlink" href="#infrastructure" title="Permanent link">&para;</a></h2>
-<h3 id="hardware">Hardware<a class="headerlink" href="#hardware" title="Permanent link">&para;</a></h3>
-<h4 id="gpu-virtualization">GPU Virtualization<a class="headerlink" href="#gpu-virtualization" title="Permanent link">&para;</a></h4>
+<h2 id="infrastructure-as-code">Infrastructure as Code<a class="headerlink" href="#infrastructure-as-code" title="Permanent link">&para;</a></h2>
+<h3 id="helm">Helm<a class="headerlink" href="#helm" title="Permanent link">&para;</a></h3>
+<h4 id="prometheus-deployment">Prometheus Deployment<a class="headerlink" href="#prometheus-deployment" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2022)</strong> <a href="https://www.cloudnativedeepdive.com/sharing-a-nvidia-gpu-between-pods-in-kubernetes">Sharing a NVIDIA GPU Between Pods in Kubernetes</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical exploration of fractional GPU sharing techniques, including NVIDIA Multi-Instance GPU (MIG) and MPS, within Kubernetes clusters. Resolves major resource allocation bottlenecks to drive cost-effective machine learning workflows.</li>
-</ul>
-<h2 id="kubernetes-2">Kubernetes (2)<a class="headerlink" href="#kubernetes-2" title="Permanent link">&para;</a></h2>
-<h3 id="resource-management">Resource Management<a class="headerlink" href="#resource-management" title="Permanent link">&para;</a></h3>
-<h4 id="cpu-throttling">CPU Throttling<a class="headerlink" href="#cpu-throttling" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2024)</strong> <a href="https://www.linkedin.com/pulse/cpu-limits-kubernetes-why-your-pod-idle-still-deep-dive-lazarev-k3m7f?utm_source=share&amp;utm_medium=member_android&amp;utm_campaign=share_via">CPU Limits in Kubernetes: Deep Dive into Pod Throttling and Kernel Interactions</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptionally detailed deep dive into kernel interactions, Linux control groups (cgroups), and the Completely Fair Scheduler (CFS) quota mechanism inside Kubernetes. It demystifies why pods experience severe throttling even when aggregate CPU metrics appear healthy, analyzing the impact of short-duration burst workloads. It provides essential mathematical formulas and kernel parameters to fine-tune pod limits safely.</li>
+<li><strong>(2023)</strong> <a href="https://devopscube.com/setup-prometheus-helm-chart">Setup Prometheus Using Helm Chart on Kubernetes</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.</li>
 </ul>
 <h2 id="log-management-and-diagnostics">Log Management and Diagnostics<a class="headerlink" href="#log-management-and-diagnostics" title="Permanent link">&para;</a></h2>
 <h3 id="audit-logging">Audit Logging<a class="headerlink" href="#audit-logging" title="Permanent link">&para;</a></h3>
@@ -4225,7 +4169,7 @@
 <ul>
 <li><strong>(2023)</strong> <a href="https://isovalent.com/blog/post/what-are-the-4-golden-signals-for-monitoring-kubernetes">isovalent.com: What are the 4 Golden Signals for Monitoring Kubernetes?</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the implementation of Google's 'Four Golden Signals' within Kubernetes, highlighting how eBPF-powered tools like Cilium provide transparent application level metrics (latency, traffic, errors, saturation) without relying on traditional sidecar architectures.</li>
 </ul>
-<h3 id="resource-management-1">Resource Management (1)<a class="headerlink" href="#resource-management-1" title="Permanent link">&para;</a></h3>
+<h3 id="resource-management">Resource Management<a class="headerlink" href="#resource-management" title="Permanent link">&para;</a></h3>
 <h4 id="sizing-and-quotas">Sizing and Quotas<a class="headerlink" href="#sizing-and-quotas" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/containers/using-prometheus-to-avoid-disasters-with-kubernetes-cpu-limits">aws.amazon.com: Using Prometheus to Avoid Disasters with Kubernetes CPU Limits 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep dive into using Prometheus metric queries to track CFS (Completely Fair Scheduler) throttle time within AWS EKS. Demonstrates how micro-throttling hurts API tail-latencies and how to safely size resources to eliminate runtime CPU limit bottlenecks.</li>
@@ -4347,7 +4291,7 @@
 <li><strong>(2022)</strong> <a href="https://betterstack.com/community/comparisons/kubernetes-monitoring-tools">betterstack.com: 10 Best Kubernetes Monitoring Tools in 2022 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market review of ten leading commercial and open-source Kubernetes monitoring suites. Evaluates architecture models, scaling properties, out-of-the-box features, and implementation overheads across modern toolchains like Prometheus, Datadog, Dynatrace, and Better Stack.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="kubernetes-storage.html">Kubernetes Storage</a> | <a href="kubernetes-alternatives.html">Kubernetes Alternatives</a> | <a href="kubernetes-client-libraries.html">Kubernetes Client Libraries</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="ocp4.html">OCP 4</a> | <a href="openshift.html">Openshift</a> | <a href="serverless.html">Serverless</a></p>
 
 
 

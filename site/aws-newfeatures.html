@@ -2058,17 +2058,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#eks-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        EKS Security
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#eks-windows" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2964,10 +2953,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#eks-security-1" class="md-nav__link">
+  <a href="#eks-security" class="md-nav__link">
     <span class="md-ellipsis">
       
-        EKS Security (1)
+        EKS Security
       
     </span>
   </a>
@@ -4579,7 +4568,6 @@
 <li><a href="#container-orchestration-1">Container Orchestration</a><ul>
 <li><a href="#ecs-deployments">ECS Deployments</a></li>
 <li><a href="#eks-kubernetes">EKS Kubernetes</a></li>
-<li><a href="#eks-security">EKS Security</a></li>
 <li><a href="#eks-windows">EKS Windows</a></li>
 <li><a href="#storage-integration">Storage Integration</a></li>
 </ul>
@@ -4687,7 +4675,7 @@
 <li><a href="#kubernetes">Kubernetes</a><ul>
 <li><a href="#eks-console">EKS Console</a></li>
 <li><a href="#eks-networking">EKS Networking</a></li>
-<li><a href="#eks-security-1">EKS Security</a></li>
+<li><a href="#eks-security">EKS Security</a></li>
 </ul>
 </li>
 <li><a href="#market-analysis-1">Market Analysis</a><ul>
@@ -4830,7 +4818,7 @@
 </ul>
 <h4 id="regions">Regions<a class="headerlink" href="#regions" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2015)</strong> <a href="http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html">London Calling! An AWS Region is coming to the UK!</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical briefing of AWS network expansion planning for the UK region launch, highlighting sovereignty compliance targets and low-latency availability zone options.</li>
+<li><strong>(2015)</strong> <a href="https://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html">London Calling! An AWS Region is coming to the UK!</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical briefing of AWS network expansion planning for the UK region launch, highlighting sovereignty compliance targets and low-latency availability zone options.</li>
 </ul>
 <h4 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h4>
 <ul>
@@ -4881,10 +4869,6 @@
 <h4 id="eks-kubernetes">EKS Kubernetes<a class="headerlink" href="#eks-kubernetes" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>(2023)</strong> <a href="https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-25">Amazon EKS now supports Kubernetes version 1.25</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon EKS added support for Kubernetes version 1.25, bringing security policy updates, API removals (such as PodSecurityPolicy), and core platform enhancements like container registry authentication improvements.</li>
-</ul>
-<h4 id="eks-security">EKS Security<a class="headerlink" href="#eks-security" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2023)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity">Amazon EKS introduces EKS Pod Identity</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.</li>
 </ul>
 <h4 id="eks-windows">EKS Windows<a class="headerlink" href="#eks-windows" title="Permanent link">&para;</a></h4>
 <ul>
@@ -5119,7 +5103,7 @@
 <ul>
 <li><strong>(2021)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2021/07/amazon-vpc-cni-plugin-increases-pods-per-node-limits"><mark>Amazon VPC CNI plugin increases pods per node limits</mark></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces Prefix Delegation in the AWS VPC CNI, multiplying the number of pods allocatable per node. By assigning /28 IPv4 prefixes to network interfaces instead of single secondary IPs, small-to-medium EC2 instances can support significantly higher container densities. This architecture directly addresses the IP exhaustion problem in enterprise Kubernetes deployments on AWS.</li>
 </ul>
-<h4 id="eks-security-1">EKS Security (1)<a class="headerlink" href="#eks-security-1" title="Permanent link">&para;</a></h4>
+<h4 id="eks-security">EKS Security<a class="headerlink" href="#eks-security" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>(2021)</strong> <a href="https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers"><mark>Amazon EKS clusters now support user authentication with OIDC compatible identity providers</mark></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enables EKS clusters to utilize external OpenID Connect (OIDC) compatible identity providers for user authentication. This decouples Kubernetes RBAC from direct IAM identity mappings, allowing developers to leverage existing SSO solutions like Okta or Keycloak. It simplifies security governance by maintaining enterprise identity standards at the cluster API level.</li>
 </ul>
@@ -5209,7 +5193,7 @@
 <li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru">Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="GoogleCloudPlatform.html">Googlecloudplatform</a> | <a href="aws-pricing.html">AWS Pricing</a> | <a href="aws-spain.html">AWS Spain</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="GoogleCloudPlatform.html">Googlecloudplatform</a> | <a href="edge-computing.html">Edge Computing</a> | <a href="azure.html">Azure</a></p>
 
 
 

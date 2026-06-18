@@ -1638,6 +1638,51 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#finops-and-cloud-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FinOps and Cloud Cost
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FinOps and Cloud Cost">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-finops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes FinOps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes FinOps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#foundational-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Foundational Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#infrastructure-and-platform" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -3179,6 +3224,11 @@
 <li><a href="#system-design">System Design</a></li>
 </ul>
 </li>
+<li><a href="#finops-and-cloud-cost">FinOps and Cloud Cost</a></li>
+<li><a href="#kubernetes-finops">Kubernetes FinOps</a><ul>
+<li><a href="#foundational-concepts">Foundational Concepts</a></li>
+</ul>
+</li>
 <li><a href="#infrastructure-and-platform">Infrastructure and Platform</a></li>
 <li><a href="#autoscaling-1">Autoscaling</a><ul>
 <li><a href="#cluster-autoscaling">Cluster Autoscaling</a></li>
@@ -3331,11 +3381,17 @@
 <ul>
 <li><strong>(2020)</strong> <a href="https://itnext.io/stupid-simple-scalability-dc4a7fbe67d6">itnext.io: Stupid Simple Scalability</a> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An easy-to-read conceptual architecture analysis outlining the pillars of horizontally scalable application design. Covers state decoupling, database indexing, and utilizing caching to guarantee high system availability.</li>
 </ul>
+<h2 id="finops-and-cloud-cost">FinOps and Cloud Cost<a class="headerlink" href="#finops-and-cloud-cost" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-finops">Kubernetes FinOps<a class="headerlink" href="#kubernetes-finops" title="Permanent link">&para;</a></h3>
+<h4 id="foundational-concepts">Foundational Concepts<a class="headerlink" href="#foundational-concepts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://www.splunk.com/en_us/appdynamics-joins-splunk.html?301=appdynamics">replex.io: An Introduction to Kubernetes FinOps</a> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory resource explaining how to divide shared Kubernetes costs across teams. Describes using namespace resource limits and pod metadata tags to set up fair chargeback structures.</li>
+</ul>
 <h2 id="infrastructure-and-platform">Infrastructure and Platform<a class="headerlink" href="#infrastructure-and-platform" title="Permanent link">&para;</a></h2>
 <h3 id="autoscaling-1">Autoscaling (1)<a class="headerlink" href="#autoscaling-1" title="Permanent link">&para;</a></h3>
 <h4 id="cluster-autoscaling">Cluster Autoscaling<a class="headerlink" href="#cluster-autoscaling" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2024)</strong> <a href="https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html#cluster-autoscaler">Amazon Web Services: EKS Cluster Autoscaler</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS documentation for implementing Cluster Autoscaler on Amazon Elastic Kubernetes Service (EKS). Integrates with AWS Auto Scaling Groups (ASGs) to scale compute instances dynamically, providing optimal resource scheduling and EC2 cost management.</li>
+<li><strong>(2024)</strong> <a href="https://docs.aws.amazon.com/eks/latest/userguide/autoscaling.html">Amazon Web Services: EKS Cluster Autoscaler</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS documentation for implementing Cluster Autoscaler on Amazon Elastic Kubernetes Service (EKS). Integrates with AWS Auto Scaling Groups (ASGs) to scale compute instances dynamically, providing optimal resource scheduling and EC2 cost management.</li>
 <li><strong>(2024)</strong> <a href="https://learn.microsoft.com/en-us/azure/aks/cluster-autoscaler">Azure: AKS Cluster Autoscaler</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference guide for deploying and configuring the managed Cluster Autoscaler within Azure Kubernetes Service (AKS). Leverages Azure Virtual Machine Scale Sets (VMSS) to automatically provision or deprovision node capacity in response to application pod requirements.</li>
 <li><strong>(2024)</strong> <a href="https://docs.cloud.google.com/kubernetes-engine/docs/concepts/cluster-autoscaler">Google Cloud Platform: GKE Cluster Autoscaler</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical guide to Google Kubernetes Engine's (GKE) built-in Cluster Autoscaler and Node Auto-provisioning capabilities. Optimizes infrastructure spend by dynamically scaling node pools based on CPU, memory, and custom GPU/TPU resource demands.</li>
 <li><strong>(2023)</strong> <a href="https://hub.docker.com/r/bitnami/cluster-autoscaler">bitnami/cluster-autoscaler</a> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly secure, enterprise-hardened container image for Kubernetes Cluster Autoscaler maintained by Bitnami. Ideal for teams requiring pre-packaged, scanned, and continuously updated container builds for their self-managed cluster deployments.</li>
@@ -3502,7 +3558,7 @@
 <li><strong>(2023)</strong> <a href="https://symbiosis.host">symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers</a>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="kubernetes-storage.html">Kubernetes Storage</a> | <a href="kubernetes-alternatives.html">Kubernetes Alternatives</a> | <a href="kubernetes-client-libraries.html">Kubernetes Client Libraries</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="ocp4.html">OCP 4</a> | <a href="openshift.html">Openshift</a> | <a href="serverless.html">Serverless</a></p>
 
 
 

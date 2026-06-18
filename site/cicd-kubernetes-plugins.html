@@ -1606,56 +1606,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenShift
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="OpenShift">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cli-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CLI Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pipelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pipelines
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#synchronization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Synchronization
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -2253,12 +2203,6 @@
 <li><a href="#gitlab-integration">GitLab Integration</a></li>
 </ul>
 </li>
-<li><a href="#openshift">OpenShift</a><ul>
-<li><a href="#cli-tools">CLI Tools</a></li>
-<li><a href="#pipelines">Pipelines</a></li>
-<li><a href="#synchronization">Synchronization</a></li>
-</ul>
-</li>
 <li><a href="#software-engineering">Software Engineering</a></li>
 <li><a href="#collaborative-platforms">Collaborative Platforms</a><ul>
 <li><a href="#kubernetes-integration">Kubernetes Integration</a></li>
@@ -2271,27 +2215,14 @@
 <ul>
 <li><strong>(2024)</strong> <a href="https://docs.gitlab.com/user/clusters/agent"><mark>GitLab Kubernetes Agent</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A secure, bidirectional, and active cluster integration agent (now known as the GitLab Agent for Kubernetes) that enables enterprise GitOps workflows. Operating inside the target cluster, it pulls configurations from Git repositories, avoiding the security risk of exposing Kube-apiserver endpoints to external CI runners.</li>
 </ul>
-<h3 id="openshift">OpenShift<a class="headerlink" href="#openshift" title="Permanent link">&para;</a></h3>
-<h4 id="cli-tools">CLI Tools<a class="headerlink" href="#cli-tools" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2022)</strong> <a href="https://plugins.jenkins.io/openshift-client"><mark>openshift-client</mark></a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A vital Jenkins plugin that packages and injects the OpenShift CLI (oc) command tool directly into pipeline execution containers. It enables automation scripts to easily authenticate, query, and manipulate OpenShift namespaces, security context constraints (SCCs), and route resources.</li>
-</ul>
-<h4 id="pipelines">Pipelines<a class="headerlink" href="#pipelines" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2022)</strong> <a href="https://plugins.jenkins.io/openshift-pipeline"><mark>openshift-pipeline</mark></a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A key Jenkins integration designed to trigger and coordinate OpenShift source-to-image (S2I) and binary-to-image build pipelines directly from Jenkins stages. It bridges traditional centralized orchestration with OpenShift-native application delivery models. Modern workloads are increasingly migrating toward Tekton-based OpenShift Pipelines.</li>
-</ul>
-<h4 id="synchronization">Synchronization<a class="headerlink" href="#synchronization" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>(2022)</strong> <a href="https://plugins.jenkins.io/openshift-sync"><mark>openshift-sync</mark></a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Jenkins plugin designed to continuously synchronize Jenkins Job states, configurations, and build logs directly with OpenShift’s Build configurations and pipelines. By unifying build states, it provides developers with a single dashboard experience within the native OpenShift console interface.</li>
-</ul>
 <h2 id="software-engineering">Software Engineering<a class="headerlink" href="#software-engineering" title="Permanent link">&para;</a></h2>
 <h3 id="collaborative-platforms">Collaborative Platforms<a class="headerlink" href="#collaborative-platforms" title="Permanent link">&para;</a></h3>
 <h4 id="kubernetes-integration">Kubernetes Integration<a class="headerlink" href="#kubernetes-integration" title="Permanent link">&para;</a></h4>
 <ul>
-<li><strong>(2021)</strong> <a href="https://docs.gitlab.com/releases/#gitlab-kubernetes-agent-available-on-gitlabcom">about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies</a> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the GitLab 14.1 release, highlighting its integrated Helm chart registry and custom escalation policies. Explains how teams can store and manage Kubernetes deployment packaging files directly alongside their application source code.</li>
+<li><strong>(2021)</strong> <a href="https://docs.gitlab.com/releases">about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies</a> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the GitLab 14.1 release, highlighting its integrated Helm chart registry and custom escalation policies. Explains how teams can store and manage Kubernetes deployment packaging files directly alongside their application source code.</li>
 </ul>
 <hr />
-<p>💡 <strong>Explore Related:</strong> <a href="jenkins.html">Jenkins</a> | <a href="sonarqube.html">Sonarqube</a> | <a href="stackstorm.html">Stackstorm</a></p>
+<p>💡 <strong>Explore Related:</strong> <a href="jenkins.html">Jenkins</a> | <a href="openshift-pipelines.html">Openshift Pipelines</a> | <a href="flux.html">Flux</a></p>
 
 
 
