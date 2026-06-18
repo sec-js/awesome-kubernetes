@@ -105,6 +105,9 @@
 1. [Infrastructure and Hardware](#infrastructure-and-hardware)
   - [AIML Infrastructure](#aiml-infrastructure)
     - [Hardware Integration](#hardware-integration)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [AI Integrations](#ai-integrations)
+    - [Validation and Testing](#validation-and-testing)
 1. [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
   - [Argo Project Ecosystem](#argo-project-ecosystem)
     - [UI Visualization](#ui-visualization)
@@ -525,6 +528,13 @@
 #### Hardware Integration
 
   - **(2026)** [==NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes==](https://github.com/NVIDIA/k8s-device-plugin) <span class='md-tag md-tag--info'>⭐ 3788</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8308a262" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 7 L 30 8 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-8308a262)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurations and sets device-isolation runtimes so container systems can safely slice and access host GPU hardware.
+## Infrastructure as Code
+
+### AI Integrations
+
+#### Validation and Testing
+
+  - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
 ## Kubernetes GitOps and Packaging
 
 ### Argo Project Ecosystem

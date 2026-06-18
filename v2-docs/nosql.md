@@ -176,5 +176,5 @@
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [Crunchydata](./crunchydata.md)
 

@@ -297,5 +297,5 @@
   - **(2023)** [kubevious.io: Top Kubernetes YAML Validation Tools](https://kubevious.io/blog/post/top-kubernetes-yaml-validation-tools) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market breakdown contrasting modern validation utilities for Kubernetes platforms. Reviews differences between structural validators, OPA-based policy enforcement engines, and semantic layout detectors.
 
 ---
-💡 **Explore Related:** [Newsql](./newsql.md) | [NoSQL](./nosql.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Newsql](./newsql.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
 

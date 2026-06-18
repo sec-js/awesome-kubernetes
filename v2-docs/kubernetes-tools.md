@@ -1304,6 +1304,7 @@
   - **(2021)** [**k8syaml.com 🌟**](https://k8syaml.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive web environment designed to generate clean, standard Kubernetes manifests based on best-practice configurations. It enables operators to construct and validate resources without writing boilerplate templates from scratch.
 #### Policy Enforcement
 
+  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
   - **(2021)** [**dev.to: Automating quality checks for Kubernetes YAMLs**](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed technical guide demonstrating how to integrate automated quality controls for Kubernetes manifests within build pipelines. It explains how to combine linters and security checks to validate configurations before they are deployed.
 ## Cloud Native Platforms
 

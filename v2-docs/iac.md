@@ -29,6 +29,7 @@
   - [Infrastructure as Code](#infrastructure-as-code-1)
     - [AI Assisted](#ai-assisted)
     - [AI Integration](#ai-integration)
+      - [Terraform](#terraform)
     - [Architecture](#architecture)
     - [Best Practices](#best-practices)
     - [CICD Platforms](#cicd-platforms)
@@ -42,7 +43,7 @@
     - [Security](#security)
     - [Strategy](#strategy)
     - [Terminology](#terminology)
-    - [Terraform](#terraform)
+    - [Terraform](#terraform-1)
       - [Secrets](#secrets)
     - [Tool Comparison](#tool-comparison)
     - [Tooling](#tooling)
@@ -77,7 +78,6 @@
 #### General Reference
 
   - [Terraform Provider for Google Cloud 7.0 is now GA](https://www.hashicorp.com/en/blog/terraform-provider-for-google-cloud-7-0-is-now-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform Provider for Google Cloud 7.0 is now GA in the Kubernetes Tools ecosystem.
-  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
   - [Terraform for Standardizing AWS Deployments](https://t.co/5E4FLUyh98)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform for Standardizing AWS Deployments in the Kubernetes Tools ecosystem.
   - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
   - [Terraform Enterprise 2.0](https://t.co/UmacHpStqI)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform Enterprise 2.0 in the Kubernetes Tools ecosystem.
@@ -92,6 +92,7 @@
   - [levelup.gitconnected.com: Short: Using IaC over Clickops](https://levelup.gitconnected.com/short-using-iac-over-clickops-229e919b5373)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Short: Using IaC over Clickops in the Kubernetes Tools ecosystem.
   - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Cloudformation vs. Terraform: Which is better? in the Kubernetes Tools ecosystem.
   - [Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support](https://t.co/C6uicr7ZPS)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Terraform 1.15: Flexible Module Management, Deprecation Warnings, and Windows' ARM64 Support in the Kubernetes Tools ecosystem.
+  - [IBM IAM for AI Agents](https://t.co/EKsVgKA4xn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.
   - [The Maester - Terraform Module](https://cloudtips.nl/the-maester-terraform-module-8c68b2b68c51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering The Maester - Terraform Module in the Kubernetes Tools ecosystem.
   - [medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure' (IaC)](https://medium.com/nerd-for-tech/kubernetes-declaratively-deploying-infrastructure-iac-789f14d999c6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/nerd-for-tech: Kubernetes: Declaratively Deploying Infrastructure' (IaC) in the Kubernetes Tools ecosystem.
   - [medium.com/globant: Infrastructure as Code using Kubernetes](https://medium.com/globant/infrastructure-as-code-using-kubernetes-d3d329446517)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/globant: Infrastructure as Code using Kubernetes in the Kubernetes Tools ecosystem.
@@ -141,6 +142,9 @@
   - **(2023)** [matt-rickard.com: Infrastructure as Code Will be Written by AI](https://mattrickard.com/infrastructure-as-code-will-be-written-by-ai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how generative AI can be used to compile declarative DSL configurations. Argues that structural files (such as Terraform or Pulumi definitions) are excellent translation targets for LLMs due to explicit syntax schemas.
 #### AI Integration
 
+##### Terraform
+
+  - **(2024)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines workflow improvements, automated code validation, and prompt-to-infrastructure engineering using modern LLM integrations in Terraform development lifecycles.
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
 #### Architecture
 
@@ -183,7 +187,7 @@
 #### Terminology
 
   - **(2022)** [thenewstack.io: GUIs, CLI, APIs: Learn Basic Terms of Infrastructure-as-Code](https://thenewstack.io/guis-cli-apis-learn-basic-terms-of-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies foundational interfaces—GUIs, CLIs, and APIs—used in automated provisioning workflows. Details how modern declarative execution pipelines abstract these layers to guarantee predictable environment configurations.
-#### Terraform
+#### Terraform (1)
 
 ##### Secrets
 

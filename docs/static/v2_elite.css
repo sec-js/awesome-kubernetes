@@ -876,6 +876,46 @@ a {
   border-top-color: rgba(255, 255, 255, 0.06);
 }
 
+/* ---------------------------------------------------- */
+/* MODERN BROWSER-NATIVE CSS FEATURES                  */
+/* ---------------------------------------------------- */
+
+/* Typography Enhancements: Balanced headings & orphan prevention */
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3 {
+  text-wrap: balance;
+}
+
+.md-typeset p, 
+.md-typeset li {
+  text-wrap: pretty;
+}
+
+/* Textarea and input field auto-sizing */
+textarea, 
+input[type="text"] {
+  field-sizing: content;
+}
+
+/* Keyboard focus accessibility indicators */
+.md-typeset a:focus-visible, 
+.md-button:focus-visible,
+.v2-tag-section summary:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 4px;
+}
+
+/* Coarse touch pointer optimizations (Mobile AA targets) */
+@media (pointer: coarse) {
+  .md-tag, 
+  .md-button, 
+  .v2-tag-section summary {
+    min-block-size: 44px;
+  }
+}
+
+
 
 
 

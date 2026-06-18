@@ -18,6 +18,9 @@
   - [Databases](#databases)
     - [SQL](#sql)
       - [Gamified Learning](#gamified-learning)
+1. [Emerging Technology](#emerging-technology)
+  - [Machine Learning](#machine-learning)
+    - [Course](#course)
 1. [Operating Systems and Infrastructure](#operating-systems-and-infrastructure)
   - [Linux](#linux)
     - [SysAdmin Tutorials](#sysadmin-tutorials)
@@ -95,6 +98,13 @@
 ##### Gamified Learning
 
   - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized gamified engine where users solve mock criminal investigations writing relational SQL queries. Highly effective for building structural query efficiency and database logic before moving to complex stateful containerization.
+## Emerging Technology
+
+### Machine Learning
+
+#### Course
+
+  - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
 ## Operating Systems and Infrastructure
 
 ### Linux

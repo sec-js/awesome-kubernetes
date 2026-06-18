@@ -11,6 +11,9 @@
 1. [AI and Platform Engineering](#ai-and-platform-engineering)
   - [Documentation](#documentation)
     - [Developer Productivity](#developer-productivity)
+1. [AI Engineering](#ai-engineering)
+  - [Agentic Frameworks](#agentic-frameworks)
+    - [Developer Experience](#developer-experience)
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
     - [General Reference](#general-reference)
@@ -96,6 +99,9 @@
 1. [DevOps and CICD](#devops-and-cicd)
   - [CICD Automation](#cicd-automation)
     - [Terraform Release Management](#terraform-release-management)
+1. [Developer Experience](#developer-experience-1)
+  - [AI-Assisted Coding](#ai-assisted-coding)
+    - [Claude Code](#claude-code)
 1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
   - [IaC FinOps](#iac-finops)
     - [Terraform Integration](#terraform-integration)
@@ -117,9 +123,11 @@
   - [Foundational Reading](#foundational-reading)
   - [Introduction](#introduction)
 1. [Platform Engineering](#platform-engineering-1)
-  - [Developer Experience](#developer-experience)
+  - [Developer Experience](#developer-experience-2)
     - [Continuous Delivery](#continuous-delivery-3)
 1. [Software Engineering](#software-engineering)
+  - [AI Tools](#ai-tools)
+    - [Developer Productivity](#developer-productivity-2)
   - [AI-Assisted Development](#ai-assisted-development)
     - [GitHub Copilot](#github-copilot)
   - [Code Review](#code-review)
@@ -136,6 +144,13 @@
 #### Developer Productivity
 
   - **(2024)** [GitBook Webinar: GitBook for Public Docs](https://www.youtube.com/watch?si=dWSDPD4eXvF3dx5r&v=gnYU0jtQbug&feature=youtu.be)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Webinar presentation highlighting standard configurations for establishing clear, highly readable public documentation using GitBook, emphasizing real-time integrations and Markdown-based code setups.
+## AI Engineering
+
+### Agentic Frameworks
+
+#### Developer Experience
+
+  - **(2025)** [Kiro: Engineering Rigor for Agentic Development](https://kiro.dev) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kiro is a testing and engineering framework designed to bring traditional software discipline—such as regression testing, linting, and sandbox executing—to LLM agents and multi-agent workflows. It establishes strict validation steps to ensure agent behaviors remain deterministic, secure, and aligned with standard corporate software engineering guidelines.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -408,6 +423,13 @@
 #### Terraform Release Management
 
   - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ab0fdde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 12 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-2ab0fdde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
+## Developer Experience (1)
+
+### AI-Assisted Coding
+
+#### Claude Code
+
+  - **(2025)** [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official hands-on tutorial and demonstration course by Anthropic showing the real-world utility of Claude Code. It covers basic terminal setups, interactive file refactoring, automated git commit orchestration, and contextual testing loops. Highly valuable for teams integrating terminal-based AI agents directly into daily engineering pipelines.
 ## FinOps and Cloud Cost
 
 ### IaC FinOps
@@ -459,13 +481,18 @@
   - **(2018)** [opensource.com: What is CI/CD?](https://opensource.com/article/18/8/what-cicd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational educational guide detailing the concepts, benefits, and components of Continuous Integration and Continuous Deployment (CI/CD). It explains how pipeline automation accelerates software delivery, guarantees build consistency, and serves as the operational substrate for DevOps cultures.
 ## Platform Engineering (1)
 
-### Developer Experience
+### Developer Experience (2)
 
 #### Continuous Delivery (3)
 
   - **(2023)** [thenewstack.io: Improve Dev Experience to Maximize the Business Value of CD](https://thenewstack.io/improve-dev-experience-to-maximize-the-business-value-of-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores developer experience (DevEx) as an accelerator for continuous deployment initiatives. Details how centralized developer portals and self-service pipeline catalogs eliminate delivery friction.
 ## Software Engineering
 
+### AI Tools
+
+#### Developer Productivity (2)
+
+  - **(2024)** [**Programming with GitHub Copilot Agent Mode**](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/programming-with-github-copilot-agent-mode/4400630) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep dive into the engineering capabilities of GitHub Copilot's 'Agent Mode.' It details how the agent acts autonomously to analyze workspace dependencies, generate multi-file modifications, run localized compilations, and iterate on test suites based on natural language prompts.
 ### AI-Assisted Development
 
 #### GitHub Copilot

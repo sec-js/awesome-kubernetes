@@ -32,6 +32,7 @@
   - [Kubernetes FinOps](#kubernetes-finops)
     - [AKS Cost Allocation](#aks-cost-allocation)
     - [Actionable Frameworks](#actionable-frameworks)
+    - [Automated Optimization](#automated-optimization)
     - [Cost Management](#cost-management)
     - [Cost Platforms](#cost-platforms)
     - [Foundational Concepts](#foundational-concepts)
@@ -138,6 +139,9 @@
 #### Actionable Frameworks
 
   - **(2023)** [**infoworld.com: 5 steps to bringing Kubernetes costs in line**](https://www.infoworld.com/article/2338303/5-steps-to-bringing-kubernetes-costs-in-line.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a clear five-step methodology to control Kubernetes infrastructure spend. Covers standard practices like adjusting request/limit ratios, configuring cluster autoscalers (VPA/HPA), and moving non-critical workloads to spot instance pools.
+#### Automated Optimization
+
+  - **(2025)** [==CAST AI==](https://cast.ai) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces CAST AI, an automated cost-reduction system for EKS, AKS, and GKE. Highlights how its real-time algorithms adjust cluster sizing, configure spot instances, and scale down resources without manual developer effort.
 #### Cost Management
 
   - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.

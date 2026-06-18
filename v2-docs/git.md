@@ -48,9 +48,6 @@
     - [GitLab Deployment](#gitlab-deployment)
   - [Kubernetes Management](#kubernetes-management)
     - [GitLab Integrations](#gitlab-integrations)
-1. [Cloud Native Operations](#cloud-native-operations)
-  - [Kubernetes](#kubernetes)
-    - [Policy Enforcement](#policy-enforcement)
 1. [Community](#community)
   - [Developer Relations](#developer-relations)
     - [Stack Overflow](#stack-overflow)
@@ -68,7 +65,7 @@
     - [Integrations](#integrations)
   - [Container Management](#container-management)
     - [GitHub Container Registry](#github-container-registry)
-      - [Kubernetes](#kubernetes-1)
+      - [Kubernetes](#kubernetes)
   - [Container Orchestration](#container-orchestration)
     - [CICD Libraries](#cicd-libraries)
     - [CICD Pipelines](#cicd-pipelines)
@@ -437,13 +434,6 @@
 #### GitLab Integrations
 
   - **(2022)** [about.gitlab.com: Simple Kubernetes management with GitLab](https://about.gitlab.com/blog/simple-kubernetes-management-with-gitlab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural guide on using GitLab as a unified management plane for Kubernetes. Covers cluster connecting procedures, security posture monitoring, and automated Auto DevOps pipelines.
-## Cloud Native Operations
-
-### Kubernetes
-
-#### Policy Enforcement
-
-  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
 ## Community
 
 ### Developer Relations
@@ -486,7 +476,7 @@
 
 #### GitHub Container Registry
 
-##### Kubernetes (1)
+##### Kubernetes
 
   - **(2021)** [itnext.io: Build & Ship: GitHub Container Registry & Kubernetes](https://itnext.io/build-ship-github-container-registry-kubernetes-aa06029b3f21) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical walkthrough demonstrating CI/CD container assembly, pushing artifacts to GitHub Container Registry (GHCR), and orchestration within live Kubernetes endpoints.
 ### Container Orchestration
@@ -886,6 +876,7 @@ Guides developers on configuring autonomous multi-file refactoring, debugging, a
   - [Auto-merge between release branches](https://about.gitlab.com/gitlab-org/gitlab/-/issues/2785)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering about.gitlab.com in the Kubernetes Tools ecosystem.
   - [Provide merge bot functionality](https://about.gitlab.com/gitlab-org/gitlab/-/issues/14595)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering about.gitlab.com in the Kubernetes Tools ecosystem.
   - [dzone.com: refcard - getting started with git](https://dzone.com/refcardz/getting-started-git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: refcard - getting started with git in the Kubernetes Tools ecosystem.
+  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟 in the Kubernetes Tools ecosystem.
   - [Wikipedia: Git](https://en.wikipedia.org/wiki/Git)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: Git in the Kubernetes Tools ecosystem.
   - [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Top 20 git commands with examples 🌟 in the Kubernetes Tools ecosystem.
   - [medium: 7 Best Courses to Master Git and Github for Programmers](https://medium.com/javarevisited/7-best-courses-to-master-git-and-github-for-programmers-d671859a68b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: 7 Best Courses to Master Git and Github for Programmers in the Kubernetes Tools ecosystem.
@@ -930,7 +921,6 @@ Guides developers on configuring autonomous multi-file refactoring, debugging, a
   - [toptal.com: Trunk-based Development vs. Git Flow](https://www.toptal.com/software/trunk-based-development-git-flow)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering toptal.com: Trunk-based Development vs. Git Flow in the Kubernetes Tools ecosystem.
   - [medium: GitFlow VS Trunk-Based-Development](https://medium.com/@vafrcor2009/gitflow-vs-trunk-based-development-3beff578030b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: GitFlow VS Trunk-Based-Development in the Kubernetes Tools ecosystem.
   - [Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow' 🌟](https://dzone.com/articles/why-i-prefer-trunk-based-development-over-feature)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Why I Prefer Trunk-Based Development Over Feature Branching and GitFlow' 🌟 in the Kubernetes Tools ecosystem.
-  - [CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟](https://www.previous.cloudbees.com/press/cloudbees-releases-another-industry-first-feature-flagging-premise-use)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering CloudBees Releases Another Industry First: Feature Flagging for On-Premise' Use 🌟 in the Kubernetes Tools ecosystem.
   - [cioperu.pe: 5 formas de impulsar la utilización de feature flags](https://cioperu.pe/articulo/30477/devops-5-formas-de-impulsar-la-utilizacion-de-feature-flags)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cioperu.pe: 5 formas de impulsar la utilización de feature flags in the Kubernetes Tools ecosystem.
   - [Dzone: using gitlab API to create projects](https://dzone.com/articles/using-gitlab-rest-api-to-create-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: using gitlab API to create projects in the Kubernetes Tools ecosystem.
   - [levelup.gitconnected.com: Automating Integration and Deployment to Remote' Server](https://levelup.gitconnected.com/automating-integration-and-deployment-to-remote-server-63a2b6576ebf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Automating Integration and Deployment to Remote' Server in the Kubernetes Tools ecosystem.

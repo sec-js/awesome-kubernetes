@@ -44,6 +44,7 @@
     - [Access Control](#access-control)
 1. [CICD Pipelines](#cicd-pipelines)
   - [AI and Automation](#ai-and-automation)
+    - [AI PR Automation](#ai-pr-automation)
     - [Model Context Protocol](#model-context-protocol)
   - [DevOps Platforms](#devops-platforms)
     - [DevTest Labs](#devtest-labs)
@@ -302,6 +303,8 @@
 1. [Container Orchestration](#container-orchestration-3)
   - [AKS Labs](#aks-labs)
     - [Hands-on Learning](#hands-on-learning)
+  - [Azure Kubernetes Service](#azure-kubernetes-service)
+    - [AKS Fleet Manager](#aks-fleet-manager-1)
   - [Operating Systems](#operating-systems)
     - [Azure Linux](#azure-linux)
 1. [Data and Storage](#data-and-storage)
@@ -369,6 +372,7 @@
       - [Collection Design](#collection-design)
 1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
   - [Azure Optimization](#azure-optimization)
+    - [AI Cost Management](#ai-cost-management)
     - [Landing Zones](#landing-zones-2)
 1. [Governance and Management](#governance-and-management)
   - [API Deprecations](#api-deprecations)
@@ -772,9 +776,13 @@
 
 ### AI and Automation
 
+#### AI PR Automation
+
+  - **(2025)** [Automate Pull Request Descriptions in Azure DevOps with Azure OpenAI](https://johnlokerse.dev/2025/02/10/automate-pull-request-descriptions-in-azure-devops-with-azure-openai) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tutorial showing how to automate the generation of pull request descriptions within Azure DevOps pipelines using Azure OpenAI APIs. Streamlines developer velocity and documentation standards.
 #### Model Context Protocol
 
   - **(2025)** [==Azure DevOps MCP Server==](https://github.com/microsoft/azure-devops-mcp) <span class='md-tag md-tag--info'>⭐ 1813</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2b346c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 2 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-2b346c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An official Microsoft MCP server repository enabling AI Agents (like Claude or GitHub Copilot) to interact seamlessly with Azure DevOps. Allows agents to manage work items, query repositories, and orchestrate pipeline runs.
+  - **(2025)** [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft announcement outlining the preview release of the Azure DevOps MCP Server. Details how developer agents leverage safe API contexts to build and deploy complex assets.
 ### DevOps Platforms
 
 #### DevTest Labs
@@ -1451,6 +1459,11 @@
 #### Hands-on Learning
 
   - **(2026)** [AKS Labs - Introduction](https://azure-samples.github.io/aks-labs/docs/intro) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on, engineer-designed technical playground for AKS configurations. Deep dives into Advanced CNI options, Cilium-driven security schemas, network boundaries, and workload identity bindings.
+### Azure Kubernetes Service
+
+#### AKS Fleet Manager (1)
+
+  - **(2025)** [Limitless Kubernetes Scaling for AI and Data-intensive Workloads: The AKS Fleet Strategy](https://blog.aks.azure.com/2025/04/02/Scaling-Kubernetes-for-AI-and-Data-intensive-Workloads) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on utilizing Azure Kubernetes Service (AKS) Fleet Manager to coordinate multi-cluster scaling for modern AI and data-heavy services. It details multi-cluster updates, global load balancing, and orchestration patterns that bypass single-cluster scaling bottlenecks, supporting highly distributed deep learning and large-scale analytical runtimes.
 ### Operating Systems
 
 #### Azure Linux
@@ -1624,6 +1637,9 @@
 
 ### Azure Optimization
 
+#### AI Cost Management
+
+  - **(2025)** [**Learn to Manage Investments and Cost Efficiency of Azure and AI Workloads**](https://techcommunity.microsoft.com/blog/finopsblog/learn-to-manage-investments-and-cost-efficiency-of-azure-and-ai-workloads/4396862) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses cost-optimization techniques for AI and large language model (LLM) workloads running on Azure. Discusses GPU node autoprovisioning, vector database optimization, and Azure OpenAI API consumption pricing models.
 #### Landing Zones (2)
 
   - **(2025)** [==Building a FinOps-Ready Azure Landing Zone: Infrastructure Foundations for Cost Optimization==](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/building-a-finops-ready-azure-landing-zone-infrastructure-foundations-for-cost-o/4411706) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details how to configure a FinOps-compliant Azure Landing Zone. Uses Azure Policy and management groups to enforce resource tag policies, mandate budget limits at subscription boundaries, and automate continuous cost governance.

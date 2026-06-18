@@ -18,6 +18,8 @@
   - [Patterns](#patterns)
     - [Twelve-Factor App](#twelve-factor-app)
 1. [Automation](#automation)
+  - [Agentic Systems](#agentic-systems)
+    - [MCP Server](#mcp-server)
   - [NoOps Evolution](#noops-evolution)
 1. [Automation and Orchestration](#automation-and-orchestration)
   - [Ansible](#ansible)
@@ -467,6 +469,11 @@
   - **(2023)** [The 12-Factor App: An Updated Guide](https://newsletter.francofernando.com/p/the-12-factor-app-an-updated-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Revisits the classic 12-Factor app principles through a modern cloud-native lens. Analyzes how declarations like declarative formats, clean environment parity, and port binding apply to contemporary container networks.
 ## Automation
 
+### Agentic Systems
+
+#### MCP Server
+
+  - **(2026)** [Announcing Azure MCP Server 2.0 Stable Release for Self-Hosted Agentic Cloud Automation](https://devblogs.microsoft.com/azure-sdk/announcing-azure-mcp-server-2-0-stable-release) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the stable release of Azure MCP (Model Context Protocol) Server 2.0, enabling secure, self-hosted agentic automation workflows. It provides architectural patterns for running local AI agents with direct, API-driven access to Azure resource management, optimizing operational automation via language model integrations.
 ### NoOps Evolution
 
   - **(2020)** [How to get from DevOps to NoOps: 5 steps](https://enterprisersproject.com/article/2020/3/how-get-devops-noops-5-steps) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Proposes a five-step path toward fully abstracted, frictionless environments (NoOps). Argues that standard automation must evolve into self-healing platforms that hide low-level operations from microservice developers.
