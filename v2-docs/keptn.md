@@ -5,77 +5,24 @@
 
 ## Table of Contents
 
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Cloud Native Lifecycle](#cloud-native-lifecycle)
-  - [CICD Pipelines](#cicd-pipelines)
-    - [Community Meetups](#community-meetups)
-    - [Jenkins Integration](#jenkins-integration)
-    - [Video Guides](#video-guides)
-  - [Continuous Delivery](#continuous-delivery)
-    - [Enterprise Observability](#enterprise-observability)
-    - [Guides](#guides)
-    - [Site Reliability Engineering](#site-reliability-engineering)
-  - [Local Environments](#local-environments)
-    - [Video Guides](#video-guides-1)
-  - [Site Reliability Engineering](#site-reliability-engineering-1)
-    - [Monitoring Automation](#monitoring-automation)
-1. [Observability](#observability)
-  - [Application Performance Monitoring](#application-performance-monitoring)
-    - [Guides](#guides-1)
+1. [Platform](#platform)
+  - [Reference](#reference)
 
-## Architectural Foundations
+## Platform
 
-### Kubernetes Tools
+### Reference
 
-#### General Reference
-
-  - [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tutorials.keptn.sh 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Keptn 0.6.0 — My top 5 favorite improvements in the Kubernetes Tools ecosystem.
-  - [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How we are redesigning our microservices deployment strategy in the Kubernetes Tools ecosystem.
-## Cloud Native Lifecycle
-
-### CICD Pipelines
-
-#### Community Meetups
-
-  - **(2020)** [Jenkins Online Meetup](https://www.meetup.com/jenkins-online-meetup/events/270861119)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Community recording detailing real-world workflows for integrating Jenkins-centric deployment systems with Keptn's automated SRE-driven quality evaluation gates.
-#### Jenkins Integration
-
-  - **(2022)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) <span class='md-tag md-tag--info'>⭐ 8</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f483ffd5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 4 L 30 3 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f483ffd5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pipeline-as-code integration allowing Jenkins jobs to dispatch Keptn-driven operations such as performance testing, quality gate validation, and continuous remediation, combining classic CI with modern orchestrators.
-#### Video Guides
-
-  - **(2020)** [youtube: Level-Up your Jenkins-based Delivery with Keptn](https://www.youtube.com/watch?v=VYRdirdjOAg)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual walk-through demonstrating how Keptn decouples delivery orchestrations from Jenkinsfiles. Shows how to configure service quality gates using declarative SLIs/SLOs to automatically rollback failing pipelines.
-### Continuous Delivery
-
-#### Enterprise Observability
-
-  - **(2021)** [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blog/what-is-keptn-how-it-works-and-how-to-get-started)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how Keptn abstracts CD and automated operations away from brittle scripts. Highlights how combining Dynatrace's enterprise APM observability with Keptn's automated quality gates ensures high-assurance software promotion.
-#### Guides
-
-  - **(2023)** [Quick Start](https://v1.keptn.sh/docs/quickstart)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official step-by-step documentation for installing Keptn in a Kubernetes cluster, defining uniform delivery pipelines, configuring service-level objectives (SLOs), and executing an initial automated deployment.
-#### Site Reliability Engineering
-
-  - **(2023)** [Keptn](https://keptn.sh/stable) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A CNCF incubating project providing event-driven orchestration for continuous delivery and automated operations. Uses CloudEvents standards and a GitOps approach to automate deployment, testing, and multi-stage promotion of services.
-### Local Environments
-
-#### Video Guides (1)
-
-  - **(2021)** [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video configuration demonstrating the execution of Keptn within local virtualized micro-clusters, streamlining testing of SRE control-planes on local machines.
-### Site Reliability Engineering (1)
-
-#### Monitoring Automation
-
-  - **(2021)** [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how Keptn acts as a declarative orchestrator for Prometheus alerting rules and target configurations. Eliminates manual dashboarding by automatically auto-generating Prometheus metrics rules based on SLO profiles.
-## Observability
-
-### Application Performance Monitoring
-
-#### Guides (1)
-
-  - **(2021)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical codelab demonstrating how developers leverage Dynatrace APM to identify code-level bottlenecks, analyze database performance, and utilize auto-remediation loops within automated delivery pipelines.
+  - **(2026)** [Keptn](https://keptn.sh/stable) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on Keptn for modern cloud native architectures.
+  - **(2026)** [Quick Start](https://v1.keptn.sh/docs/quickstart) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on Quick Start for modern cloud native architectures.
+  - **(2026)** [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on tutorials.keptn.sh 🌟 for modern cloud native architectures.
+  - **(2026)** [dynatrace.com: What is keptn, how it works and how to get started!](https://www.dynatrace.com/news/blog/what-is-keptn-how-it-works-and-how-to-get-started) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on dynatrace.com: What is keptn, how it works and how to get started! for modern cloud native architectures.
+  - **(2026)** [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on medium: Keptn 0.6.0 — My top 5 favorite improvements for modern cloud native architectures.
+  - **(2026)** [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on medium: How we are redesigning our microservices deployment strategy for modern cloud native architectures.
+  - **(2026)** [Keptn Jenkins Shared Library](https://github.com/keptn-sandbox/keptn-jenkins-library) <span class='md-tag md-tag--info'>⭐ 8</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f483ffd5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 2 L 20 4 L 30 3 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f483ffd5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on Keptn Jenkins Shared Library for modern cloud native architectures.
+  - **(2026)** [thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems](https://thenewstack.io/how-keptn-automatically-configures-prometheus-ecosystems) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on thenewstack.io: How Keptn Automatically Configures Prometheus Ecosystems for modern cloud native architectures.
+  - **(2026)** [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users' in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-41230870" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 11 L 30 9 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-41230870)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users' in 5 Minutes 🌟 for modern cloud native architectures.
+  - **(2026)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟 for modern cloud native architectures.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md)
+💡 **Explore Related:** [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md) | [Tekton](./tekton.md)
 

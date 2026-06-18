@@ -315,10 +315,12 @@ graph TD
 </details>
 
 **Key Architectural Hardening:**
-- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups.
+- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a common concurrency group `develop-git-push` to serialize git pushes on `develop`.
+- **Self-Healing Git Rebase:** Incorporates a rebase retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD and re-running generators, preventing CI/CD pipeline failures.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
 - **Dependency Caching:** Global Pip caching via `requirements.txt` slashes build times across all pipelines.
+- **Offline Mock Curation:** Supports complete offline emulation (`MOCK_DEBATE=true`) for all curator, analyzer, and debate agents, enabling local validation and builds under quota limits.
 
 ### 4.3. Adaptive AI Tiering and Real-time Grounding
 To ensure maximum throughput and industrial-grade precision, Nubenetes uses a proprietary **Multi-tier AI Orchestration** engine:

@@ -331,14 +331,14 @@ class V2VisionEngine:
                 if is_special: item["is_special"] = True
                 # Mandate 30: Hierarchy and AI Summaries are mandatory for ELITE AI curation.
                 # Optimized Skip Logic: Only skip if we already have BOTH hierarchy and a summary.
-                if (cached.get("hierarchy") and cached.get("ai_summary")) or self.render_only:
+                if ((cached.get("hierarchy") and cached.get("ai_summary")) or self.render_only) and not force_eval:
                     if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
                     continue
             to_evaluate.append(item)
 
-        if to_evaluate and not self.render_only:
+        if to_evaluate and (not self.render_only or force_eval):
             # Mandate 47: Zero-Redundancy & Smart Grounding
             # Fast-Track (Metadata/Desc present) vs Grounded-Track (Needs deep search)
             fast_track = []
@@ -490,7 +490,7 @@ class V2VisionEngine:
                             analyst_results.append(item)
                 except Exception:
                     for l in batch: analyst_results.append(l)
-                await asyncio.sleep(4.0) # Higher delay for Grounding tasks            # --- AGENT PHASE 2: SELECTIVE AUDIT (MCP-Grounded) ---
+                await asyncio.sleep(0.01 if os.environ.get("MOCK_DEBATE") == "true" else 4.0)
             # --- AGENT PHASE 2: MULTI-AGENT CONSENSUS & DEBATE PROTOCOL ---
             # Identify candidates for debate:
             # 1. High-impact candidates (marked as [DE FACTO STANDARD] or [ENTERPRISE-STABLE])
@@ -519,7 +519,7 @@ class V2VisionEngine:
                         item["debate_log"] = debate_data
                     except Exception as e:
                         log_event(f"    [!] Debate failed for '{item.get('title')}': {e}")
-                    await asyncio.sleep(0.5)
+                    await asyncio.sleep(0.01 if os.environ.get("MOCK_DEBATE") == "true" else 0.5)
 
             # Finalize Registry
             for item in analyst_results:

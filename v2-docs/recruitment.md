@@ -5,376 +5,71 @@
 
 ## Table of Contents
 
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [DevOps Culture](#devops-culture)
-  - [Workforce Strategy](#workforce-strategy)
-    - [IT Outsourcing](#it-outsourcing)
-    - [Remote Culture](#remote-culture)
-    - [Talent Retention](#talent-retention)
-1. [Developer Platform](#developer-platform)
-  - [Automation](#automation)
-    - [Git Manipulation](#git-manipulation)
-1. [Engineering Leadership](#engineering-leadership)
-  - [Remote Work](#remote-work)
-    - [Team Management](#team-management)
-1. [Industry Analysis](#industry-analysis)
-  - [Automation Impact](#automation-impact)
-    - [Sociotechnical Systems](#sociotechnical-systems)
-  - [Corporate Engineering Culture](#corporate-engineering-culture)
-    - [Personal Perspective](#personal-perspective)
-  - [Developer Dynamics](#developer-dynamics)
-    - [Market Shifts](#market-shifts)
-  - [Labor Trends](#labor-trends)
-    - [Market Contraction](#market-contraction)
-    - [Talent Mobility](#talent-mobility)
-    - [The Great Resignation](#the-great-resignation)
-  - [Regional Markets](#regional-markets)
-    - [European Tech Ecosystem](#european-tech-ecosystem)
-    - [Spain Tech Ecosystem](#spain-tech-ecosystem)
-  - [Vertical Industries](#vertical-industries)
-    - [Healthcare IT](#healthcare-it)
-1. [Organizational Architecture](#organizational-architecture)
-  - [Corporate Culture](#corporate-culture)
-    - [Nepotism](#nepotism)
-    - [Risk Management](#risk-management)
-  - [Engineering Management](#engineering-management)
-    - [Ethical Leadership](#ethical-leadership)
-    - [Job Design](#job-design)
-    - [Leadership Pitfalls](#leadership-pitfalls)
-    - [Leadership Strategy](#leadership-strategy)
-    - [Team Autonomy](#team-autonomy)
-  - [Hiring and Culture](#hiring-and-culture)
-    - [Diversity and Inclusion](#diversity-and-inclusion)
-    - [Interview Integrity](#interview-integrity)
-  - [Labor Trends](#labor-trends-1)
-    - [Generational Dynamics](#generational-dynamics)
-  - [Remote Work](#remote-work-1)
-    - [Future of Work](#future-of-work)
-    - [Industry Reports](#industry-reports)
-1. [Professional Development](#professional-development)
-  - [Career Architecture](#career-architecture)
-    - [Longevity](#longevity)
-  - [Career Transitions](#career-transitions)
-    - [Entry-level Strategy](#entry-level-strategy)
-    - [Job Search Strategy](#job-search-strategy)
-    - [Market Dynamics](#market-dynamics)
-    - [Strategic Planning](#strategic-planning)
-    - [Transferable Skills](#transferable-skills)
-  - [Continuous Learning](#continuous-learning)
-    - [Certifications](#certifications)
-  - [Developer Wellness](#developer-wellness)
-    - [Burnout Prevention](#burnout-prevention)
-    - [Career Decisions](#career-decisions)
-    - [Financial Architecture](#financial-architecture)
-    - [Purpose Alignment](#purpose-alignment)
-  - [Engineering Management](#engineering-management-1)
-    - [Upward Management](#upward-management)
-  - [Interview Engineering](#interview-engineering)
-    - [Industry Criticism](#industry-criticism)
-    - [Reverse Interviewing](#reverse-interviewing)
-    - [Risk Mitigation](#risk-mitigation)
-1. [Professional Practice](#professional-practice)
-  - [Career Paths](#career-paths)
-    - [Data and AI](#data-and-ai)
-    - [Public Sector](#public-sector)
-    - [Retention](#retention)
-    - [Soft Skills](#soft-skills)
-  - [Compensation](#compensation)
-    - [Contract Analysis](#contract-analysis)
-    - [Remote Work](#remote-work-2)
-  - [Education](#education)
-    - [Alternative Pathways](#alternative-pathways)
-  - [Leadership](#leadership)
-    - [Team Culture](#team-culture)
-  - [Recruiting](#recruiting)
-    - [CV Construction](#cv-construction)
-    - [Ethics](#ethics)
-    - [Hiring Standards](#hiring-standards)
-    - [Job Portals](#job-portals)
-    - [Resource Guides](#resource-guides)
-    - [SaaS Systems](#saas-systems)
-  - [Security](#security)
-    - [Developer Wellness](#developer-wellness-1)
-  - [Team Culture](#team-culture-1)
-    - [Employee Engagement](#employee-engagement)
-1. [Security](#security-1)
-  - [Container Security](#container-security)
-    - [DevSecOps](#devsecops)
-
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [Tech companies cutting devs for AI](https://www.reddit.com/r/ProgrammerHumor/comments/1tbzih8/techcompaniescuttingdevsforai)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Tech companies cutting devs for AI in the Kubernetes Tools ecosystem.
-  - [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tigerabrodi.hashnode.dev: Interviewing software developers in the Kubernetes Tools ecosystem.
-  - [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering lynnlangit.medium.com: Tech Anti-Interviewing in the Kubernetes Tools ecosystem.
-  - [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/hackernoon: How to hire a DevOps Engineer in the Kubernetes Tools ecosystem.
-  - [4dayweek.medium.com: What does the work-life balance of a Software Engineer' look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering 4dayweek.medium.com: What does the work-life balance of a Software Engineer' look like? in the Kubernetes Tools ecosystem.
-  - [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor' (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor' (IC) or Engineering Manager Role is Right for You? in the Kubernetes Tools ecosystem.
-  - [theengineeringmanager.substack.com: How do I progress to the next level' in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering theengineeringmanager.substack.com: How do I progress to the next level' in my career? in the Kubernetes Tools ecosystem.
-  - [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.robertsimoes.org: Four Wings of a Software Engineer in the Kubernetes Tools ecosystem.
-  - [Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Why I Don’t Consider Your Certifications During An Interview in the Kubernetes Tools ecosystem.
-  - [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities in the Kubernetes Tools ecosystem.
-  - [trycircular.com (Spain)](https://trycircular.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering trycircular.com (Spain) in the Kubernetes Tools ecosystem.
-  - [skamille.medium.com: An incomplete list of skills senior engineers need,' beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering skamille.medium.com: An incomplete list of skills senior engineers need,' beyond coding in the Kubernetes Tools ecosystem.
-## DevOps Culture
-
-### Workforce Strategy
-
-#### IT Outsourcing
-
-  - **(2023)** [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Review of the organizational and cultural obstacles of IT outsourcing in Spain. Highlights critical problems of scaling DevSecOps capabilities externally, knowledge silos, and contract-driven constraints versus modern product team topologies.
-#### Remote Culture
-
-  - **(2022)** [about.gitlab.com: How to navigate The Great Resignation](https://about.gitlab.com/blog/how-to-navigate-the-great-resignation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Strategic insights from GitLab on navigating post-pandemic talent shifts. Highlights the critical importance of async workflows, transparent documentation, and remote-first practices to attract and retain highly skilled infrastructure engineers.
-#### Talent Retention
-
-  - **(2022)** [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando dejar su trabajo?](https://www.hays.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis of the causes driving the 'Great Resignation' across professional services in Spain. Examines work-life balance deficiencies, mental exhaustion, and stagnant careers as root causes, providing prescriptive corporate recommendations.
-## Developer Platform
-
-### Automation
-
-#### Git Manipulation
-
-  - **(2015)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A shell-based contribution graphic simulation script. Evaluated as a legacy tool under Minimum Viable Quality metrics due to lack of active commits since 2015. Retained only to showcase historical Git metadata manipulation patterns.
-## Engineering Leadership
-
-### Remote Work
-
-#### Team Management
-
-  - **(2021)** [entrepreneur.com: ¿Cómo manejar un equipo que trabaja desde sus casas?](https://spanish.entrepreneur.com) <span class='md-tag md-tag--warning'>[ES CONTENT]</span> <span class='md-tag md-tag--primary'>[GUIDE]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers tactical guidelines for managing distributed engineering teams working in remote environments. Recommends implementing asynchronous collaboration tools, defining objective performance milestones, and promoting active virtual team meetings to ensure software project alignment and mitigate remote developer isolation.
-## Industry Analysis
-
-### Automation Impact
-
-#### Sociotechnical Systems
-
-  - **(2021)** [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This research outlines the sociotechnical friction generated by rapid automated pipeline deployments and cognitive labor automation. It instructs operational leaders on how to design supportive training matrices that alleviate engineer anxiety during automation rollouts.
-### Corporate Engineering Culture
-
-#### Personal Perspective
-
-  - **(2021)** [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An insider retrospective detailing the architectural and cultural transitions at Red Hat post-IBM acquisition. It serves as a case study for senior architects and business leaders evaluating the fragile relationship between corporate engineering interests and open-source community health.
-### Developer Dynamics
-
-#### Market Shifts
-
-  - **(2022)** [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A data-driven Stack Overflow analysis investigating developer career changes. It links high attrition directly to poor developer experience (DX), administrative friction, and legacy tool stacks, providing actionable targets for engineering leaders.
-### Labor Trends
-
-#### Market Contraction
-
-  - **(2024)** [vice.com: Thousands of Software Engineers Say the Job Market Is Getting Much Worse](https://www.vice.com/en/article/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed look at the post-2023 technical labor contraction. It details the macroeconomic forces, high interest rates, and mass layoffs that ended the developer recruiting boom of 2021, shifting leverage back to employers.
-#### Talent Mobility
-
-  - **(2021)** [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market report analyzing the transformation of the 'Great Resignation' into a 'Great Migration.' It details how top engineering talent did not exit the workforce but rather moved toward organized, remote-friendly, and technically mature companies.
-#### The Great Resignation
-
-  - **(2021)** [wired.co.uk: The Great Resignation is here and no one is prepared](https://www.wired.com/story/great-resignation-quit-job)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis of the structural workforce shifts in technology during the Great Resignation. It argues that traditional retention frameworks fail because they do not address developer demands for tooling modernization, architectural trust, and flexible operations.
-  - **(2021)** [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregated community discussion dissecting the market leverage software engineers held during post-pandemic talent shortages. The resource provides architectural and operational feedback from grassroots developers discussing workplace improvements and tooling bottlenecks.
-  - **(2021)** [magnet.xataka.com: La "gran renuncia" americana, o cómo los trabajadores se han hartado del sistema y están dejando sus empleos](https://www.xataka.com/magnet/gran-renuncia-americana-como-trabajadores-se-han-hartado-sistema-estan-dejando-sus-empleos) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A cultural analysis explaining the American 'Great Resignation' in Spanish. It presents the phenomenon as a structural rejection of developer burnout, stagnating wages, and unsustainable delivery pipelines.
-### Regional Markets
-
-#### European Tech Ecosystem
-
-  - **(2021)** [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative analysis exploring how European social safety nets, labor codes, and contract protections mitigated the extreme 'Great Resignation' trends observed in the United States labor market.
-#### Spain Tech Ecosystem
-
-  - **(2022)** [xataka.com: La guerra de talento en el sector tecnológico amenaza la viabilidad de muchas pymes españolas: cada vez les resulta más difícil retener a los seniors](https://www.xataka.com/empresas-y-economia/guerra-talento-sector-tecnologico-amenaza-viabilidad-muchas-pymes-espanolas-cada-vez-les-resulta-dificil-retener-a-seniors) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article examines how global remote hiring has driven up senior software engineer salaries, creating a challenging recruitment environment for Spanish small-to-medium enterprises (SMEs) operating on local budgets.
-  - **(2022)** [xataka.com: La Gran Renuncia está ganando terreno en España, pero hay dos barreras: salarios bajos e indemnizaciones](https://www.xataka.com/empresas-y-economia/gran-renuncia-esta-ganando-terreno-espana-hay-dos-barreras-salarios-bajos-ley-laboral) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluation of macro-economic barriers limiting labor mobility in Spain. It explains how lower base salaries combined with statutory severance packages create financial anchors that make local engineers more risk-averse.
-  - **(2021)** [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This critique analyzes systemic talent retention issues and the historic lack of senior technical opportunities in the Spanish tech sector. It contrasts regional startups with Silicon Valley structures to discuss talent flight.
-  - **(2021)** [xataka.com: La Gran Renuncia: en EEUU los empleados están dejando en masa sus trabajos, la gran pregunta es si veremos esto (y cuándo) en España](https://www.xataka.com/pro/gran-renuncia-eeuu-empleados-estan-dejando-masa-sus-trabajos-gran-pregunta-veremos-esto-cuando-espana) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This report evaluates whether the Great Resignation could occur within the Spanish tech ecosystem. It highlights unique labor barriers, contract regulations, and differing regional employer-employee dynamics.
-  - **(2021)** [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed market survey of software developer compensation in Spain for 2021. It serves as a historical baseline analyzing local salary ranges across front-end, back-end, and cloud specialties compared to remote international offers.
-### Vertical Industries
-
-#### Healthcare IT
-
-  - **(2022)** [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide detailing technical entry strategies into the specialized Healthcare IT sector. It emphasizes HIPAA compliance requirements, clinical interoperability standards (FHIR), and data management architectures.
-## Organizational Architecture
-
-### Corporate Culture
-
-#### Nepotism
-
-  - **(2022)** [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of the risks of cronyism and nepotism within corporate organizational structures. It highlights how subjective advancement systems damage psychological safety, alienate top-tier engineers, and disrupt delivery.
-#### Risk Management
-
-  - **(2021)** [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analytical piece demystifies the structural role of Human Resources in corporate entities, clarifying that HR serves to protect the organization from liability. It helps technical professionals navigate conflicts and employment contracts with structured objectivity.
-### Engineering Management
-
-#### Ethical Leadership
-
-  - **(2021)** [meet-in.es: «Para liderar a largo plazo hay que ser buena persona»](https://www.meet-in.es/para-liderar-a-largo-plazo-hay-que-ser-buena-persona) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview explaining why empathetic and ethical leadership is vital for long-term organizational stability and software delivery success. It contrasts toxic, short-term management with sustainable team scaling models.
-#### Job Design
-
-  - **(2022)** [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An MIT-backed study outlining the business and financial value of investing in high-quality job design. It demonstrates how structured technical career paths, continuous upskilling, and autonomy reduce expensive developer turnover.
-#### Leadership Pitfalls
-
-  - **(2022)** [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative leadership analysis in Spanish examining how top-down executive egos disrupt collaborative work cultures. This study translates effectively into engineering leadership lessons against micromanagement.
-#### Leadership Strategy
-
-  - **(2022)** [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive briefing analyzing key leadership takeaways from the Great Resignation. It emphasizes that maintaining high-performing engineering teams requires psychological safety, systemic transparency, and direct links between code and business value.
-#### Team Autonomy
-
-  - **(2021)** [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An HBR diagnostic showing that employee retention depends more on decision-making autonomy than superficial schedule flexibility. It provides managers with frameworks to delegate technical ownership, establish self-organizing teams, and minimize micro-management.
-### Hiring and Culture
-
-#### Diversity and Inclusion
-
-  - **(2018)** [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational management essay illustrating how hiring for 'culture fit' can introduce systemic bias and groupthink. It offers a structured methodology for assessing 'culture add' to diversify perspective and strengthen system architectures.
-#### Interview Integrity
-
-  - **(2022)** [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-impact case study documenting identity swapping and performance fraud in fully remote technical hiring processes. It serves as an advisory for security architects to establish continuous identity validation and interactive coding sessions.
-### Labor Trends (1)
-
-#### Generational Dynamics
-
-  - **(2021)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of generational workplace transitions, detailing why entry-level cohorts demand greater cultural alignment and transparent organizational pipelines. It guides engineering managers in refining talent onboarding strategies and organizational goal architectures.
-### Remote Work (1)
-
-#### Future of Work
-
-  - **(2022)** [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluation of return-to-office frictions versus developer demands for fully remote options. It explores remote-first, hybrid, and sync-async patterns necessary to balance organizational cohesion with team member productivity.
-#### Industry Reports
-
-  - **(2021)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A definitive, data-backed industry report outlining the patterns of fully remote and asynchronous software engineering organizations. Using GitLab as a model, it explores single sources of truth, continuous documentation practices, and async workflows required to scale high-density, globally distributed technical operations.
-## Professional Development
-
-### Career Architecture
-
-#### Longevity
-
-  - **(2022)** [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural career guide challenges prevailing industry ageism by illustrating how engineering value shifts over time. Senior engineering trajectories rely on architectural system design, mentor network construction, and organizational systems thinking rather than speed of execution. It provides a strategic framework for long-term career planning.
-### Career Transitions
-
-#### Entry-level Strategy
-
-  - **(2022)** [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive readiness plan for entry-level developers navigating the modern tech landscape. It outlines portfolio creation, open-source contribution patterns, and local environment setups to ease entry-level hiring friction.
-#### Job Search Strategy
-
-  - **(2016)** [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An HBR-backed behavioral analysis demonstrating the empirical link between psychological resilience (optimism) and successful career mobility. It details strategies for job seekers to maintain motivation and frame value effectively during complex technical interview processes.
-#### Market Dynamics
-
-  - **(2021)** [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic advice for software engineers navigating a highly active employment market. It outlines compensation evaluation frameworks, how to detect organizational toxicity during selection, and negotiations strategies for senior technical positions.
-#### Strategic Planning
-
-  - **(2021)** [linkedin.com: Look Before You Leap!](https://www.linkedin.com/pulse/look-before-you-leap-sarah-robb-o-hagan)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A leadership-focused strategic advisory illustrating how senior technical leaders should evaluate high-risk organizational changes. It offers objective templates to balance personal risk thresholds, company balance sheets, and architectural growth trajectories before making a career change.
-#### Transferable Skills
-
-  - **(2016)** [hbr.org: Change Your Career Without Having to Start All Over Again](https://hbr.org/2016/05/change-your-career-without-having-to-start-all-over-again)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Harvard Business Review article details a career-pivoting framework focused on identifying and mapping transferable skills. It serves as a blueprint for senior technologists transitioning between software tracks, product management, or engineering leadership roles.
-### Continuous Learning
-
-#### Certifications
-
-  - **(2022)** [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article examines the surge in cloud-native certifications (such as Kubernetes and AWS) as developers seek to validate cloud skillsets and secure modern infrastructure engineering roles in a changing job market.
-### Developer Wellness
-
-#### Burnout Prevention
-
-  - **(2021)** [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This analysis focuses on developer burnout within accelerated release environments. It outlines organizational remedies to alleviate continuous delivery stress, advocating for structural changes in planning, tooling automation, and mental well-being initiatives inside technical orgs.
-#### Career Decisions
-
-  - **(2022)** [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured workflow designed to analyze personal job dissatisfaction. It separates temporary, project-based frustration from toxic management, helping developers make objective decisions regarding when to seek new opportunities.
-#### Financial Architecture
-
-  - **(2022)** [thewokesalaryman.com: Why people leave even the most high paying jobs 🌟](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An illustrated guide detailing why high compensation cannot offset toxic team environments or chronic burnout. It highlights the importance of matching developer autonomy, boundaries, and alignment over raw salary figures.
-#### Purpose Alignment
-
-  - **(2022)** [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource maps out psychological methods to find purpose and agency in professional settings. It offers developers actionable advice for aligning day-to-day coding sprints with broader architectural and social goals.
-### Engineering Management (1)
-
-#### Upward Management
-
-  - **(2021)** [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive taxonomy of common corporate leadership styles (e.g., authoritarian, absent, collaborative). It provides software engineers with specific upward management techniques to preserve productivity and set boundaries.
-### Interview Engineering
-
-#### Industry Criticism
-
-  - **(2020)** [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An academic study proving that standard tech industry whiteboard evaluations primarily measure performance anxiety rather than software engineering competency. This research provides a solid foundation for companies redesigning interviews toward real-world codebase collaborations.
-#### Reverse Interviewing
-
-  - **(2022)** [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A database of strategic, reverse-interview questions designed for developers to evaluate technical organizations. It helps candidates probe codebase maturity, release automation, developer autonomy, and management health before signing contracts.
-  - **(2022)** [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted interview guide offering high-signal diagnostic questions. These are designed to expose team dysfunction, architectural misalignment, and micromanagement behaviors before developers commit to joining a new firm.
-#### Risk Mitigation
-
-  - **(2023)** [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This piece exposes common misdirections used by hiring managers during technical interviews (such as inflating codebase quality or stack modernization). It provides developers with diagnostic questions to reveal true technical realities.
-## Professional Practice
-
-### Career Paths
-
-#### Data and AI
-
-  - **(2023)** [lavanguardia.com: Ingeniero de ‘machine learning’ e ingeniero de datos, las profesiones emergentes más demandadas en España](https://www.lavanguardia.com/economia/20230414/8895371/ingeniero-machine-learning-e-ingeniero-datos-profesiones-emergentes-mas-demandadas-espana.html) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Designates data and machine learning engineering as the fastest-growing job profiles in Spain. Live Grounding: Illustrates the market transformation where businesses prioritize real-time data streaming pipelines and ML integration over traditional monolithic software engineering.
-#### Public Sector
-
-  - **(2023)** [xataka.com: Me hice funcionario siendo ingeniero: qué me da la administración pública que no consigue la empresa privada](https://www.xataka.com/especiales/me-hice-funcionario-siendo-ingeniero-que-me-da-administracion-publica-que-no-consigue-empresa-privada-1) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Contrasts personal experiences of transitioning from private tech sectors into stable government administration roles. Live Grounding: Evaluates the stability, work-life balance, and architectural limitations of government IT systems versus the high-stress, fast-paced deployments found in modern private enterprises.
-#### Retention
-
-  - **(2023)** [xataka.com: Si no asciendo ni aprendo, me largo de la empresa: el crecimiento profesional como estrategia para retener talento](https://www.xataka.com/empresas-y-economia/no-asciendo-aprendo-me-largo-empresa-crecimiento-profesional-como-estrategia-para-retener-talento) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Identifies learning and career advancement as core strategies to prevent engineer turnover. Live Grounding: Validates that continuous upskilling programs and transparent technical leadership tracks prevent talent attrition within highly skilled engineering teams.
-  - **(2023)** [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-empleados-ya-no-son-fieles-jefes-1358974) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Details the paradigm shift away from traditional employer-employee loyalty in modern corporate tech. Live Grounding: Highlights how transactional employer-employee dynamics necessitate continuous talent pipeline management and standardized onboarding protocols.
-#### Soft Skills
-
-  - **(2022)** [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Emphasizes why organizations increasingly prioritize soft skills over raw technical credentials during recruitment. Live Grounding: Demonstrates how communication, collaborative problem-solving, and emotional intelligence serve as primary performance multipliers for software architects working in complex distributed topologies.
-### Compensation
-
-#### Contract Analysis
-
-  - **(2020)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: A direct calculator tool created to evaluate contract offers and compensation fairness. Live Grounding: This repository is now archived and categorized as legacy due to complete commit inactivity since 2020, yet still acts as an architectural blueprint for programmatic contract parser apps.
-#### Remote Work (2)
-
-  - **(2022)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explores the debate surrounding salary adjustment based on geographic location for teleworkers. Live Grounding: Discusses the socioeconomic and architectural impact of localized vs. flat salary structures in a remote-first tech ecosystem, emphasizing how cost-of-living adjustments affect developer retention and organizational design.
-### Education
-
-#### Alternative Pathways
-
-  - **(2023)** [genbeta.com: Menos de la mitad de los programadores tienen títulos universitarios. Cada vez más desarrolladores aprenden por su cuenta](https://www.genbeta.com/desarrollo/mitad-programadores-tienen-titulos-universitarios-cada-vez-desarrolladores-aprenden-su-cuenta) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Reports that less than half of contemporary developers hold formal university degrees, reflecting a shift toward self-teaching. Live Grounding: Confirms that non-traditional education pathways dominate the developer ecosystem, demanding that enterprise hiring pipelines adapt to validate practical systems design over theoretical credentials.
-### Leadership
-
-#### Team Culture
-
-  - **(2022)** [lavanguardia.com: Cómo saber si tu jefe es un "ahuyenta talentos" que puede frustrar tu carrera](https://www.lavanguardia.com/vivo/psicologia/20220225/8079133/trabajo-laboral-jefe-talento-trabajadores-nbs.html) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Analyzes leadership patterns that drive away technical talent and damage team cohesion. Live Grounding: Identifies toxic engineering leadership traits and highlights strategic mitigation tactics for organizations to preserve intellectual capital and maintain highly collaborative development environments.
-### Recruiting
-
-#### CV Construction
-
-  - **(2021)** [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Details executive-level resume structuring for professional tech candidates. Live Grounding: Pinpoints how to highlight business value and architectural accomplishments instead of simple task lists, aiding senior engineers to stand out to hiring authorities.
-#### Ethics
-
-  - **(2023)** [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/desarrollo-profesional/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Explains the risks and incentives associated with embellishing resume credentials to acquire high-paying roles. Live Grounding: Analyzes how background verification tools and rigorous automated technical testing are countering false claims in engineering profiles, emphasizing authentic competency.
-#### Hiring Standards
-
-  - **(2022)** [genbeta.com: Twitter quiere contratar a ingenieros de Microsoft: así es la prueba que les hacen pasar antes de nada, incluso a los senior](https://www.genbeta.com/actualidad/twitter-quiere-contratar-a-ingenieros-microsoft-asi-prueba-que-les-hacen-pasar-antes-nada-incluso-a-senior) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Chronicles hiring strategies and rigorous tests applied to senior engineers during corporate restructuring events. Live Grounding: Explores real-world technical screening processes, demonstrating how architectural competency and system design are prioritized during high-profile corporate restructuring events.
-#### Job Portals
-
-  - **(2026)** [relocate.me](https://relocate.me) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Serves as a targeted platform for finding tech positions offering visa sponsorship and relocation resources. Live Grounding: A premier destination for international talent acquisition, enabling seamless global hiring workflows and providing localized immigration support resources.
-#### Resource Guides
-
-  - **(2026)** [==International Tech Job Search Handbook==](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4427</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a9e4725" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1a9e4725)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: An open-source global job search manual providing metadata on visa processes and relocation budgets. Live Grounding: Continues to be a vital community asset for tech professionals traversing global borders, offering real-time data on corporate immigration compliance and tax architectures.
-#### SaaS Systems
-
-  - **(2026)** [recruit crm](https://recruitcrm.io) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A specialized SaaS solution engineered for recruitment firms and staffing lifecycle management. Live Grounding: Serves as a vital integration hub for modern staffing firms, leveraging cloud architectures to optimize sourcing pipelines, interview scheduling, and global talent placement.
-### Security
-
-#### Developer Wellness (1)
-
-  - **(2023)** [genbeta.com: Ciberseguridad en llamas: la presión actual es tan grande que la mitad de los expertos sufren ansiedad y quieren dimitir](https://www.genbeta.com/desarrollo/ciberseguridad-llamas-presion-actual-grande-que-mitad-expertos-sufren-ansiedad-quieren-renunciar) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: Exposes the psychological pressure and anxiety levels prompting cybersecurity experts to consider resigning. Live Grounding: Highlights how the relentless pace of zero-day exploits, legacy technical debt, and continuous delivery pipelines have elevated mental health issues into a critical operational security risk.
-### Team Culture (1)
-
-#### Employee Engagement
-
-  - **(2022)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) <span class='md-tag md-tag--warning'>[ES CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: Examines nine primary factors contributing to happiness and stability in modern workplaces. Live Grounding: Pinpoints flexibility, operational autonomy, psychological safety, and meaningful work as key drivers to minimize technical debt and turnover within engineering groups.
-## Security (1)
-
-### Container Security
-
-#### DevSecOps
-
-  - **(2023)** [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes security practices through a modern DevSecOps lens. Covers critical strategies including RBAC refinement, network policies, pod security standards, container vulnerability scanning, and managing runtime security alerts.
+1. [Platform](#platform)
+  - [Reference](#reference)
+
+## Platform
+
+### Reference
+
+  - **(2026)** [tigerabrodi.hashnode.dev: Interviewing software developers](https://tigerabrodi.hashnode.dev/interviewing-software-developers) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on tigerabrodi.hashnode.dev: Interviewing software developers for modern cloud native architectures.
+  - **(2026)** [thenewstack.io: Challenging the Myth That Programming Careers End at 40](https://thenewstack.io/challenging-the-myth-that-programming-careers-end-at-40) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on thenewstack.io: Challenging the Myth That Programming Careers End at 40 for modern cloud native architectures.
+  - **(2026)** [thenewstack.io: This Week in Programming: Can You Feel the Burn?](https://thenewstack.io/this-week-in-programming-can-you-feel-the-burn) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on thenewstack.io: This Week in Programming: Can You Feel the Burn? for modern cloud native architectures.
+  - **(2026)** [hbr.org: Optimists Are Better at Finding New Jobs](https://hbr.org/2016/04/optimists-are-better-at-finding-new-jobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on hbr.org: Optimists Are Better at Finding New Jobs for modern cloud native architectures.
+  - **(2026)** [about.gitlab.com: The Remote Work Report 2021](https://handbook.gitlab.com/handbook/company/culture/all-remote/remote-work-report) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on about.gitlab.com: The Remote Work Report 2021 for modern cloud native architectures.
+  - **(2026)** [liquidat.wordpress.com: Good bye Red Hat](https://liquidat.wordpress.com/2021/08/15/good-bye-red-hat) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on liquidat.wordpress.com: Good bye Red Hat for modern cloud native architectures.
+  - **(2026)** [devopsonline.co.uk: Robotics and automation to cause anxiety for workers](https://www.devopsonline.co.uk/robotics-and-automation-to-cause-anxiety-for-workers) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on devopsonline.co.uk: Robotics and automation to cause anxiety for workers for modern cloud native architectures.
+  - **(2026)** [forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It](https://www.forbes.com/sites/jasonwingard/2021/09/02/the-great-resignation-why-gen-z-is-leaving-the-workforce-in-drovesand-what-to-do-about-it) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on forbes.com: ‘The Great Resignation’: Why Gen Z Is Leaving The Workforce In Droves…And What To Do About It for modern cloud native architectures.
+  - **(2026)** [news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage](https://news.slashdot.org/story/21/10/12/1818252/a-record-number-of-workers-are-quitting-their-jobs-empowered-by-new-leverage) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on news.slashdot.org: A Record Number of Workers Are Quitting Their Jobs, Empowered by New Leverage for modern cloud native architectures.
+  - **(2026)** [news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills](https://news.ncsu.edu/2020/07/tech-job-interviews-anxiety) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on news.ncsu.edu: Tech Sector Job Interviews Assess Anxiety, Not Software Skills for modern cloud native architectures.
+  - **(2026)** [lynnlangit.medium.com: Tech Anti-Interviewing](https://lynnlangit.medium.com/tech-anti-interviewing-106674655ea0) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on lynnlangit.medium.com: Tech Anti-Interviewing for modern cloud native architectures.
+  - **(2026)** [blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers](https://blog.pragmaticengineer.com/advice-for-tech-workers-to-navigate-a-heated-job-market) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on blog.pragmaticengineer.com: The Most Heated Tech Job Market in History: Advice for Software Engineers for modern cloud native architectures.
+  - **(2026)** [hbr.org: Change Your Career Without Having to Start All Over Again](https://hbr.org/2016/05/change-your-career-without-having-to-start-all-over-again) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on hbr.org: Change Your Career Without Having to Start All Over Again for modern cloud native architectures.
+  - **(2026)** [hbr.org: Forget Flexibility. Your Employees Want Autonomy](https://hbr.org/2021/10/forget-flexibility-your-employees-want-autonomy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on hbr.org: Forget Flexibility. Your Employees Want Autonomy for modern cloud native architectures.
+  - **(2026)** [bbc.com: Is HR ever really your friend?](https://www.bbc.com/worklife/article/20211022-is-hr-ever-really-your-friend) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on bbc.com: Is HR ever really your friend? for modern cloud native architectures.
+  - **(2026)** [joshbersin.com: From The Great Resignation To The Great Migration](https://joshbersin.com/2021/12/from-the-great-resignation-to-the-great-migration) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on joshbersin.com: From The Great Resignation To The Great Migration for modern cloud native architectures.
+  - **(2026)** [hbr.org: Stop Hiring for Culture Fit](https://hbr.org/2018/01/how-to-hire) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on hbr.org: Stop Hiring for Culture Fit for modern cloud native architectures.
+  - **(2026)** [medium.com/hackernoon: How to hire a DevOps Engineer](https://medium.com/hackernoon/how-to-hire-a-devops-engineer-4e59e7847e9b) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on medium.com/hackernoon: How to hire a DevOps Engineer for modern cloud native architectures.
+  - **(2026)** [forbes.com: As Leaders: What Can We Learn From The Great Resignation?](https://www.forbes.com/sites/dedehenley/2022/01/30/as-leaders-what-can-we-learn-from-the-great-resignation) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on forbes.com: As Leaders: What Can We Learn From The Great Resignation? for modern cloud native architectures.
+  - **(2026)** [stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟](https://stackoverflow.blog/2022/12/28/the-great-resignation-is-here-what-does-that-mean-for-developers) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on stackoverflow.blog: The Great Resignation is here. What does that mean for developers? 🌟 for modern cloud native architectures.
+  - **(2026)** [bbc.com: Is finding a 'new normal' in the workplace impossible?](https://www.bbc.com/worklife/article/20220104-future-of-work-2022) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on bbc.com: Is finding a 'new normal' in the workplace impossible? for modern cloud native architectures.
+  - **(2026)** [askamanager.org: the new hire who showed up is not the same person we interviewed](https://www.askamanager.org/2022/01/the-new-hire-who-showed-up-is-not-the-same-person-we-interviewed.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on askamanager.org: the new hire who showed up is not the same person we interviewed for modern cloud native architectures.
+  - **(2026)** [findmyprofession.com: 100+ Questions to Ask in an Interview 🌟](https://www.findmyprofession.com/career-advice/questions-to-ask) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on findmyprofession.com: 100+ Questions to Ask in an Interview 🌟 for modern cloud native architectures.
+  - **(2026)** [blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit](https://blog.trello.com/is-it-time-to-leave) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on blog.trello.com: Experiencing Job Dissatisfaction: How To Decide If It's Time To Quit for modern cloud native architectures.
+  - **(2026)** [devops.com: Great Resignation Spurs Interest in Tech Certifications](https://devops.com/great-resignation-spurs-interest-in-tech-certifications) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on devops.com: Great Resignation Spurs Interest in Tech Certifications for modern cloud native architectures.
+  - **(2026)** [thewokesalaryman.com: Why people leave even the most high paying jobs 🌟](https://thewokesalaryman.com/2022/02/11/why-people-leave-even-the-most-high-paying-jobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on thewokesalaryman.com: Why people leave even the most high paying jobs 🌟 for modern cloud native architectures.
+  - **(2026)** [sloanreview.mit.edu: Creating Good Jobs](https://sloanreview.mit.edu/article/creating-good-jobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on sloanreview.mit.edu: Creating Good Jobs for modern cloud native architectures.
+  - **(2026)** [forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview](https://www.forbes.com/sites/markmurphy/2022/03/18/to-avoid-regretting-a-new-job-ask-these-two-questions-during-the-interview) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on forbes.com: To Avoid Regretting A New Job, Ask These Two Questions During The Interview for modern cloud native architectures.
+  - **(2026)** [ideas.ted.com: How to find your sense of purpose at work](https://ideas.ted.com/want-to-discover-or-re-discover-your-sense-of-purpose-at-work-heres-how) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on ideas.ted.com: How to find your sense of purpose at work for modern cloud native architectures.
+  - **(2026)** [4dayweek.medium.com: What does the work-life balance of a Software Engineer look like?](https://4dayweek.medium.com/what-does-the-work-life-balance-of-a-software-engineer-look-like-fe16cc46bb0) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on 4dayweek.medium.com: What does the work-life balance of a Software Engineer look like? for modern cloud native architectures.
+  - **(2026)** [medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor (IC) or Engineering Manager Role is Right for You?](https://medium.com/walmartglobaltech/how-do-you-decide-whether-an-individual-contributor-ic-or-engineering-manager-role-is-right-for-f46251f1a4cd) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on medium.com/walmartglobaltech: How Do You Decide Whether an Individual Contributor (IC) or Engineering Manager Role is Right for You? for modern cloud native architectures.
+  - **(2026)** [freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners](https://www.freecodecamp.org/news/how-to-get-ready-for-a-job-in-tech) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on freecodecamp.org: How to Get Ready for a Job in Tech – Tips for Beginners for modern cloud native architectures.
+  - **(2026)** [computerworld.com: How to get a job in healthcare IT](https://www.computerworld.com/article/1627067/how-to-get-a-job-in-healthcare-it-2.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on computerworld.com: How to get a job in healthcare IT for modern cloud native architectures.
+  - **(2026)** [theengineeringmanager.substack.com: How do I progress to the next level in my career?](https://theengineeringmanager.substack.com/p/how-do-i-progress-to-the-next-level) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on theengineeringmanager.substack.com: How do I progress to the next level in my career? for modern cloud native architectures.
+  - **(2026)** [blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1](https://www.elconfidencial.com/deportes/tribuna/2022-08-03/alpine-aston-martin-lawrence-stroll-luca-de-meo_3470693) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on blogs.elconfidencial.com: Luca de Meo y Lawrence Stroll: por qué el ego es el peor enemigo del gestor en la Fórmula 1 for modern cloud native architectures.
+  - **(2026)** [blog.robertsimoes.org: Four Wings of a Software Engineer](https://blog.robertsimoes.org/posts/four-wings-of-software-engineers) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on blog.robertsimoes.org: Four Wings of a Software Engineer for modern cloud native architectures.
+  - **(2026)** [forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do](https://www.forbes.com/sites/markmurphy/2023/08/24/hiring-managers-often-lie-to-candidates-heres-how-to-spot-when-they-do) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on forbes.com: Hiring Managers Often Lie To Candidates, Here’s How To Spot When They Do for modern cloud native architectures.
+  - **(2026)** [madokai.medium.com: Why I Don’t Consider Your Certifications During An Interview](https://madokai.medium.com/why-i-dont-consider-your-certifications-during-an-interview-fe4b62cf6f8c) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on madokai.medium.com: Why I Don’t Consider Your Certifications During An Interview for modern cloud native architectures.
+  - **(2026)** [blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel](https://www.elconfidencial.com/tecnologia/tribuna/2021-06-02/talento-informatica-startups-silicon-valley-google_3112087) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on blogs.elconfidencial.com: El talento atrofiado: por qué en España escasean los profesionales de alto nivel for modern cloud native architectures.
+  - **(2026)** [entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder](https://spanish.entrepreneur.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on entrepreneur.com: Las 10 preguntas que debes hacerte para saber si eres un buen líder for modern cloud native architectures.
+  - **(2026)** [es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa?](https://es.euronews.com/next/2021/11/25/la-gran-renuncia-puede-llegar-la-revolucion-laboral-de-ee-uu-a-europa) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on es.euronews.com: La Gran Renuncia: ¿puede llegar la revolución laboral de EE. UU. a Europa? for modern cloud native architectures.
+  - **(2026)** [elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben](https://www.elespanol.com/reportajes/20211211/tipos-trabajar-sin-desfallecer-consejos-maribel-garben/633687616_0.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on elespanol.com: Qué tipos de jefes hay y cómo trabajar con ellos sin desfallecer: los consejos de Maribel Garben for modern cloud native architectures.
+  - **(2026)** [codingpotions.com: ¿Cuánto cobra un programador en España en 2021?](https://codingpotions.com/salarios-programadores-2021) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on codingpotions.com: ¿Cuánto cobra un programador en España en 2021? for modern cloud native architectures.
+  - **(2026)** [expansion.com: El 'amiguismo' en las relaciones de trabajo](https://www.expansion.com/expansion-empleo/desarrollo-de-carrera/2022/01/28/61f40e29e5fdea61738b45aa.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on expansion.com: El 'amiguismo' en las relaciones de trabajo for modern cloud native architectures.
+  - **(2026)** [codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas?](https://www.codigonuevo.com/yo/deberia-adaptarse-sueldo-teletrabajo-lugar-vivas-AOCN305757) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on codigonuevo.com: ¿Debería adaptarse el sueldo del teletrabajo al lugar en el que vivas? for modern cloud native architectures.
+  - **(2026)** [businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores](https://www.businessinsider.es/desarrollo-profesional/9-factores-repercuten-felicidad-trabajador-352445) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on businessinsider.es: Los 9 factores que más repercuten en la felicidad en el trabajo, según los trabajadores for modern cloud native architectures.
+  - **(2026)** [bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar](https://www.bbc.com/mundo/vert-cap-62340757) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on bbc.com: Qué son las "habilidades blandas" y por qué cada vez más compañías se fijan en ellas al contratar for modern cloud native architectures.
+  - **(2026)** [businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo](https://www.businessinsider.es/desarrollo-profesional/menti-mi-cv-conseguir-mejor-trabajo-recomiendo-otros-1226162) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on businessinsider.es: Mentí en mi currículum para conseguir un trabajo mejor pagado y creo que otros deberían hacer lo mismo for modern cloud native architectures.
+  - **(2026)** [businessinsider.es: El fin de la lealtad laboral](https://www.businessinsider.es/desarrollo-profesional/fin-lealtad-laboral-empleados-ya-no-son-fieles-jefes-1358974) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on businessinsider.es: El fin de la lealtad laboral for modern cloud native architectures.
+  - **(2026)** [relocate.me](https://relocate.me) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on relocate.me for modern cloud native architectures.
+  - **(2026)** [International Tech Job Search Handbook](https://github.com/andrewstetsenko/tech-jobs-with-relocation) <span class='md-tag md-tag--info'>⭐ 4427</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a9e4725" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 13 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1a9e4725)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A curated reference on International Tech Job Search Handbook for modern cloud native architectures.
+  - **(2026)** [jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities](https://jobs.rekruuto.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on jobs.rekruuto.com: Rekruuto DevOps and SRE Job Opportunities for modern cloud native architectures.
+  - **(2026)** [trycircular.com (Spain)](https://trycircular.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on trycircular.com (Spain) for modern cloud native architectures.
+  - **(2026)** [recruit crm](https://recruitcrm.io) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on recruit crm for modern cloud native architectures.
+  - **(2026)** [skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding](https://skamille.medium.com/an-incomplete-list-of-skills-senior-engineers-need-beyond-coding-8ed4a521b29f) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on skamille.medium.com: An incomplete list of skills senior engineers need, beyond coding for modern cloud native architectures.
+  - **(2026)** [mikzuit/fair-job-offer](https://github.com/mikzuit/fair-job-offer) <span class='md-tag md-tag--info'>⭐ 19</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ad0d1fa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 8 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-3ad0d1fa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on mikzuit/fair-job-offer for modern cloud native architectures.
+  - **(2026)** [forbes.com: What Do Employers Want To See In Your CV?](https://www.forbes.com/sites/andrewfennell/2021/09/08/what-do-employers-want-to-see-in-your-cv) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on forbes.com: What Do Employers Want To See In Your CV? for modern cloud native architectures.
+  - **(2026)** [github.com/rakyll/fake-it-til-you-make-it](https://github.com/rakyll/fake-it-til-you-make-it) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on github.com/rakyll/fake-it-til-you-make-it for modern cloud native architectures.
 
 ---
 💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Digital Money](./digital-money.md) | [HR](./hr.md)
