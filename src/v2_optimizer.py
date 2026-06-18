@@ -1248,14 +1248,26 @@ class V2VisionEngine:
             # Wrap section inside a .v2-tag-section div and details block for performance
             md += f"<div class=\"v2-tag-section\" markdown=\"1\">\n\n"
             md += f"## {tag_display}\n\n"
+            total_count = len(by_tag[tag])
+            if total_count > 100:
+                summary_text = f"Click to view top 100 of {total_count} resources under {tag_display}"
+            else:
+                summary_text = f"Click to view {total_count} resources under {tag_display}"
+            
             md += f"<details markdown=\"1\">\n"
-            md += f"<summary>Click to view {len(by_tag[tag])} resources under {tag_display}</summary>\n\n"
+            md += f"<summary>{summary_text}</summary>\n\n"
             
             # Sort links under this tag by impact stars and then by year
             sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
-            for l in sorted_links:
+            
+            rendered_links = sorted_links[:100]
+            for l in rendered_links:
                 md += self._render_compact_tag_link(l)
-            md += "\n"
+            
+            if total_count > 100:
+                md += f"\n*... and {total_count - 100} more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*\n"
+            else:
+                md += "\n"
             md += f"</details>\n\n"
             md += f"</div>\n\n"
 
