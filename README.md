@@ -32,6 +32,7 @@
     *   [4.2. Hardened Architecture (2026)](#42-hardened-architecture-2026)
     *   [4.3. Adaptive AI Tiering and Real-time Grounding](#43-adaptive-ai-tiering-and-real-time-grounding)
     *   [4.4. Doc-as-Behavior Mandate Bridge](#44-doc-as-behavior-mandate-bridge)
+    *   [4.5. AI Operations Division of Labor (Local vs. Cloud)](#45-ai-operations-division-of-labor-local-vs-cloud)
 5.  [5. Dual-Edition Architecture (V1 vs V2)](#5-dual-edition-architecture-v1-vs-v2)
     *   [5.1. V1: The Exhaustive Archive](#51-v1-the-exhaustive-archive)
     *   [5.2. V2: The Agentic Elite Edition](#52-v2-the-agentic-elite-edition)
@@ -335,6 +336,36 @@ To ensure maximum throughput and industrial-grade precision, Nubenetes uses a pr
 Nubenetes implements a direct bridge between documentation and AI behavior:
 - **Mandate Ingestion**: At the start of every workflow, the `MandateIngestor` parses the natural language instructions in [`GEMINI.md`](GEMINI.md).
 - **Dynamic Context**: These mandates are injected directly into the AI's system instructions, ensuring that the bot's reasoning is always aligned with the latest project policies without requiring manual code updates.
+
+### 4.5. AI Operations Division of Labor (Local vs. Cloud)
+
+Nubenetes partitions AI Agent tasks between the automated cloud pipeline and local developer environments to optimize resource usage and support interactive collaboration:
+
+<details>
+<summary><b>View Division of Labor Architecture Diagram & Technical Details (Click to expand!)</b></summary>
+
+```mermaid
+graph TD
+    A["awesome-kubernetes Repository"] --> B["GEMINI.md<br>(Curation & Data Mandates)"]
+    A --> C[".gemini/skills/awesome-kubernetes-ops/SKILL.md<br>(Local Dev Operations Guide)"]
+    
+    B --> D["Cloud Automation<br>(GitHub Actions runner)"]
+    B --> E["Local Workspace<br>(Antigravity Coding Session)"]
+    
+    C --> E
+    style C fill:#f9f,stroke:#333,stroke-width:2px
+```
+
+#### Shared Curation & Data Policies (`GEMINI.md`)
+*   **Target**: Ephemeral CI/CD runners (GitHub Actions) and local coding assistants.
+*   **Purpose**: Dictates *what* the repository structure, link formatting, language metadata tagging, and minimum quality levels must look like.
+*   **Automation integration**: Ingested by the build scripts to programmatically construct system prompts for API LLM completions.
+
+#### Local Assistant Operations (`SKILL.md`)
+*   **Target**: Local pair-programming assistant (**Antigravity**).
+*   **Purpose**: Instructs the assistant on *how* to execute local developer commands, perform test compilations, resolve merge conflicts, and manage production git deployment lifecycles.
+*   **Automation integration**: Strictly local; ignored by cloud runners to keep pipelines lightweight.
+</details>
 
 ---
 

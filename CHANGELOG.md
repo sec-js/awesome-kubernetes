@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.5.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.6) - 2026-06-18
+
+### Added
+- **AI Agent Skill Runbook**: Integrated a local workspace operations skill at `.gemini/skills/awesome-kubernetes-ops/SKILL.md` to guide Antigravity interactive assistant commands, test checks, and release promotions.
+- **AI Operations Documentation**: Expanded the `README.md` with a detailed collapsible section and Mermaid architecture diagram explaining the Division of Labor between automated cloud runners (`GEMINI.md` curation rules) and local interactive coding assistants (`SKILL.md` runbook).
+
 ## [[2.5.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.5) - 2026-06-18
 
 ### Added
