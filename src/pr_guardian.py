@@ -100,13 +100,21 @@ def main():
         print(f"Warning: Failed to fetch files for auto-formatting: {e}")
 
     # Fetch base branch and get the updated diff (with auto-fixes applied)
+    diff_text = ""
     try:
-        subprocess.run(["git", "fetch", "origin", pr.base.ref, "--depth=1"], capture_output=True)
-        diff_process = subprocess.run(["git", "diff", f"origin/{pr.base.ref}"], capture_output=True, text=True)
+        subprocess.run(["git", "fetch", "origin", pr.base.ref, "--depth=1"], capture_output=True, check=True)
+        diff_process = subprocess.run(["git", "diff", f"origin/{pr.base.ref}"], capture_output=True, text=True, check=True)
         diff_text = diff_process.stdout
     except Exception as e:
-        print(f"Warning: Failed to get git diff locally: {e}. Falling back to GitHub PR diff.")
-        diff_text = httpx.get(pr.diff_url).text
+        print(f"Warning: Failed to get git diff locally: {e}.")
+
+    if not diff_text.strip():
+        print("Diff is empty locally, falling back to GitHub PR diff.")
+        try:
+            # Mandate: URL Expansion & Normalization: Use follow_redirects=True for httpx
+            diff_text = httpx.get(pr.diff_url, follow_redirects=True).text
+        except Exception as e:
+            print(f"Failed to fetch GitHub PR diff: {e}")
 
     # Skip if too huge or not markdown
     if len(diff_text) > 100000:
