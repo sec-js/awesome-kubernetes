@@ -8,6 +8,9 @@
 
 ## Table of Contents
 
+1. [API and Integration Testing](#api-and-integration-testing)
+  - [Mocking and Virtualization](#mocking-and-virtualization)
+    - [Microcks](#microcks)
 1. [API Architectures](#api-architectures)
   - [GraphQL](#graphql)
     - [Adoption](#adoption)
@@ -74,7 +77,6 @@
     - [API Lifecycle](#api-lifecycle)
     - [Architecture Comparisons](#architecture-comparisons)
     - [Best Practices](#best-practices-1)
-    - [Documentation](#documentation)
     - [Fundamentals](#fundamentals)
     - [Hands-on Deployment](#hands-on-deployment)
     - [Protocols and Formats](#protocols-and-formats)
@@ -132,6 +134,13 @@
   - [API Management](#api-management-2)
     - [Testing](#testing-1)
 
+## API and Integration Testing
+
+### Mocking and Virtualization
+
+#### Microcks
+
+  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 ## API Architectures
 
 ### GraphQL
@@ -325,9 +334,6 @@
 #### Best Practices (1)
 
   - **(2023)** [==freecodecamp.org: REST API Best Practices – REST Endpoint Design Examples 🌟==](https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive blueprint for designing RESTful API endpoints using industry-standard conventions. It explains semantic HTTP verbs (GET, POST, PUT, DELETE), logical plural resource naming, status code mappings, and pagination practices. Adhering to these standards ensures intuitive consumption and predictable API performance.
-#### Documentation
-
-  - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 #### Fundamentals
 
   - **(2024)** [==postman.com: What is an API?==](https://www.postman.com/what-is-an-api) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Postman’s foundational guide explaining the mechanics of Application Programming Interfaces (APIs). It covers request-response patterns, typical protocols, payloads (JSON/XML), and the strategic business value of exposing software interfaces. It serves as an industry-standard primer for developers starting with web services.
@@ -540,5 +546,5 @@
   - **(2021)** [dev.to: 7 API Tools for REST Developers and Testers](https://dev.to/javinpaul/7-api-tools-for-rest-developers-and-testers-n67) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews seven essential REST API validation and design tools, analyzing the runtime capabilities and payload assertion performance of modern desktop clients and command-line instruments.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
