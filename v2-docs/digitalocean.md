@@ -8,9 +8,6 @@
 
 ## Table of Contents
 
-1. [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
-  - [LLM Deployment](#llm-deployment)
-    - [DeepSeek R1](#deepseek-r1)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [PaaS](#paas)
     - [DigitalOcean](#digitalocean)
@@ -18,21 +15,10 @@
   - [Alternative Clouds](#alternative-clouds)
     - [Community Portal](#community-portal)
     - [DigitalOcean](#digitalocean-1)
-    - [Kubernetes DOKS](#kubernetes-doks)
     - [Visual Deployment](#visual-deployment)
   - [PaaS](#paas-1)
     - [DigitalOcean App Platform](#digitalocean-app-platform)
-1. [Web Servers](#web-servers)
-  - [NGINXConfig](#nginxconfig)
-    - [Community Tools](#community-tools)
 
-## Artificial Intelligence and Machine Learning
-
-### LLM Deployment
-
-#### DeepSeek R1
-
-  - **(2025)** [How to run Deepseek R1 LLMs on GPU Droplets](https://www.digitalocean.com/community/tutorials/deepseek-r1-gpu-droplets) <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A cutting-edge deployment guide illustrating execution profiles of the revolutionary DeepSeek R1 reasoning models inside newly provisioned high-performance DigitalOcean GPU Droplets. Addresses architectural configurations for model weights and CUDA drivers.
 ## Cloud Infrastructure
 
 ### PaaS
@@ -51,9 +37,6 @@
 #### DigitalOcean (1)
 
   - **(2026)** [Digital Ocean](https://www.digitalocean.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developers-first cloud services platform focusing on simplicity, lower cost predictability, and rapid droplet virtual server allocations. Expanded enterprise capacities to accommodate containerized microservices and modern pipelines.
-#### Kubernetes DOKS
-
-  - **(2025)** [Digital Ocean Kubernetes (DOKS)](https://www.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fully managed Kubernetes distribution that abstracts master node architecture, allowing users to rapidly deploy clusters. Features simplified persistent block storage volumes, automated node auto-scaling, and painless ingress configurations.
 #### Visual Deployment
 
   - **(2022)** [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference landing portal for visual architecture design tools integrated with DigitalOcean Kubernetes. Historically allowed developers to visualize infrastructure topologies and generate corresponding Kubernetes configurations.
@@ -63,14 +46,7 @@
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
   - **(2024)** [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights onboarding pathways and scalability paradigms inside DigitalOcean's PaaS. Highly optimized for small-to-medium enterprises wanting to run microservice networks without complex VM configurations.
-## Web Servers
-
-### NGINXConfig
-
-#### Community Tools
-
-  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 
