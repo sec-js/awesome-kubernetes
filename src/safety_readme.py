@@ -8,7 +8,7 @@ REQUIRED_SECTIONS = [
     "3. The Agentic Stack",
     "4. The 2026 Architectural Shift",
     "5. Dual-Edition Architecture (V1 vs V2)",
-    "6. The Unified Agentic Database (Knowledge Graph)",
+    "6. The Unified Agentic Database (Coexistence Knowledge Graph)",
     "7. AI Economic Architecture and Cost Analysis",
     "8. The Agentic AI Engine",
     "9. GitHub Workflows and Automation",

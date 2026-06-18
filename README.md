@@ -40,7 +40,7 @@
     *   [5.4. The Incremental Elite Engine](#54-the-incremental-elite-engine)
     *   [5.5. Decoupled Knowledge Lifecycle (V2 Architecture)](#55-decoupled-knowledge-lifecycle-v2-architecture)
     *   [5.6. Multi-Language Support Policy](#56-multi-language-support-policy)
-6.  [6. The Unified Agentic Database (Knowledge Graph)](#6-the-unified-agentic-database-knowledge-graph)
+6.  [6. The Unified Agentic Database (Coexistence Knowledge Graph)](#6-the-unified-agentic-database-coexistence-knowledge-graph)
     *   [6.1. Database Components](#61-database-components)
     *   [6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)](#62-the-database-first-reasoning-protocol-zero-redundancy)
     *   [6.3. Database Lifecycle and Hygiene](#63-database-lifecycle-and-hygiene)

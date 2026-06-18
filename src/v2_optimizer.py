@@ -106,12 +106,13 @@ class V2VisionEngine:
         
         # Mandate 30: MD039 - Global Data Sanitization (Purge all whitespace/hidden chars from titles)
         for url in list(self.inventory.keys()):
-            if isinstance(self.inventory[url], dict) and "title" in self.inventory[url]:
-                # Purge all known whitespace characters (standard, non-breaking, thin, etc.)
+            if isinstance(self.inventory[url], dict) and self.inventory[url].get("title") is not None:
                 t = self.inventory[url]["title"]
-                t = re.sub(r'^[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+', '', t)
-                t = re.sub(r'[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$', '', t)
-                self.inventory[url]["title"] = t
+                if isinstance(t, str):
+                    # Purge all known whitespace characters (standard, non-breaking, thin, etc.)
+                    t = re.sub(r'^[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+', '', t)
+                    t = re.sub(r'[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$', '', t)
+                    self.inventory[url]["title"] = t
         
         # 0. Mandate Sync
         try:
