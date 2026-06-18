@@ -4,6 +4,10 @@ import os
 import json
 import re
 import yaml
+try:
+    from yaml import CSafeLoader as Loader
+except ImportError:
+    from yaml import SafeLoader as Loader
 import httpx
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
@@ -114,8 +118,8 @@ async def master_orchestrator():
 
     if os.path.exists(sources_file):
         try:
-            with open(sources_file, 'r') as f:
-                data = yaml.safe_load(f)
+            with open(sources_file, 'r', encoding='utf-8') as f:
+                data = yaml.load(f, Loader=Loader)
                 all_accounts = set()
                 for topic_data in data.get("sources", []):
                     topic_name = topic_data.get("topic")
@@ -206,11 +210,12 @@ async def master_orchestrator():
             parsed = urlparse(expanded_url)
             domain = parsed.netloc.lower()
             
-            domain_info = health_learning["domains"].setdefault(domain, {"attempts": 0, "failures": 0, "consecutive_failures": 0})
+            domain_info = health_learning["domains"].setdefault(domain, {"attempts": 0, "failures": 0, "consecutive_failures": 0, "success_rate": 100.0})
             consecutive_failures = domain_info.get("consecutive_failures", 0)
+            success_rate = domain_info.get("success_rate", 100.0)
             
             timeout_val = 12.0
-            if consecutive_failures >= 3:
+            if consecutive_failures >= 3 or success_rate < 50.0:
                 timeout_val = 3.0
                 ua = fallback_user_agents[idx % len(fallback_user_agents)]
             else:
@@ -226,18 +231,20 @@ async def master_orchestrator():
                     resp = await client.get(expanded_url)
                     if resp.status_code == 404:
                         asset["health"] = "dead" # Definitively dead
-                        info = health_learning["domains"][domain]
-                        info["failures"] = info.get("failures", 0) + 1
-                        info["consecutive_failures"] = info.get("consecutive_failures", 0) + 1
+                        domain_info["failures"] = domain_info.get("failures", 0) + 1
+                        domain_info["consecutive_failures"] = domain_info.get("consecutive_failures", 0) + 1
                     else:
                         asset["health"] = "online"
-                        info = health_learning["domains"][domain]
-                        info["consecutive_failures"] = 0
+                        domain_info["consecutive_failures"] = 0
             except:
                 asset["health"] = "timeout" # Assume alive but unreachable for now
-                info = health_learning["domains"][domain]
-                info["failures"] = info.get("failures", 0) + 1
-                info["consecutive_failures"] = info.get("consecutive_failures", 0) + 1
+                domain_info["failures"] = domain_info.get("failures", 0) + 1
+                domain_info["consecutive_failures"] = domain_info.get("consecutive_failures", 0) + 1
+
+            # Recalculate success rate and store it
+            attempts = domain_info.get("attempts", 1)
+            failures = domain_info.get("failures", 0)
+            domain_info["success_rate"] = round(((attempts - failures) / attempts) * 100.0, 2)
 
             # 3. GitHub Metadata Enrichment
             if "github.com" in expanded_url:

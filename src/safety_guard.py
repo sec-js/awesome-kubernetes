@@ -6,6 +6,12 @@ from datetime import datetime
 from src.logger import log_event
 from src.gemini_utils import normalize_url, clean_toc_text
 from src.config import INVENTORY_PATH
+from src.inventory_manager import load_inventory
+
+try:
+    from yaml import CSafeLoader as Loader
+except ImportError:
+    from yaml import SafeLoader as Loader
 
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
@@ -20,17 +26,12 @@ class SafetyGuard:
         self.inventory = self._load_inventory()
 
     def _load_inventory(self):
-        if os.path.exists(INVENTORY_PATH):
-            try:
-                with open(INVENTORY_PATH, "r") as f:
-                    return yaml.safe_load(f) or {}
-            except: return {}
-        return {}
+        return load_inventory()
 
     def _load_exempt_files(self):
         try:
-            with open("data/link_rules.yaml", "r") as f:
-                rules = yaml.safe_load(f)
+            with open("data/link_rules.yaml", "r", encoding="utf-8") as f:
+                rules = yaml.load(f, Loader=Loader)
                 return rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
         except: return []
 
@@ -59,8 +60,8 @@ class SafetyGuard:
         """Mandate 27: Special Assets Exhaustive Inclusion."""
         if not os.path.exists(SPECIAL_ASSETS_PATH): return
         try:
-            with open(SPECIAL_ASSETS_PATH, "r") as f:
-                special = yaml.safe_load(f).get("special_assets", [])
+            with open(SPECIAL_ASSETS_PATH, "r", encoding="utf-8") as f:
+                special = yaml.load(f, Loader=Loader).get("special_assets", [])
         except: return
         
         for sa in special:
@@ -175,8 +176,8 @@ class SafetyGuard:
         """Mandate 11: Workflow-Config Synchronization."""
         if not os.path.exists(WORKFLOW_PATH) or not os.path.exists(CURATION_SOURCES_PATH): return
         try:
-            with open(CURATION_SOURCES_PATH, "r") as f:
-                sources = yaml.safe_load(f).get("sources", [])
+            with open(CURATION_SOURCES_PATH, "r", encoding="utf-8") as f:
+                sources = yaml.load(f, Loader=Loader).get("sources", [])
         except: return
         
         topics = [s["topic"] for s in sources]
@@ -191,8 +192,8 @@ class SafetyGuard:
     def validate_forbidden_tags(self):
         """Mandate 51/Safety: Check for forbidden HTML tags in docs and v2-docs, except allowing iframes in videos."""
         try:
-            with open("data/link_rules.yaml", "r") as f:
-                rules = yaml.safe_load(f)
+            with open("data/link_rules.yaml", "r", encoding="utf-8") as f:
+                rules = yaml.load(f, Loader=Loader)
                 forbidden = rules.get("safety_guard", {}).get("forbidden_tags", [])
         except:
             return
@@ -275,8 +276,8 @@ class SafetyGuard:
         # 2. Run standard validations
         if old_inv_path and os.path.exists(old_inv_path):
             try:
-                with open(old_inv_path, "r") as f:
-                    self.validate_data_integrity(yaml.safe_load(f) or {})
+                with open(old_inv_path, "r", encoding="utf-8") as f:
+                    self.validate_data_integrity(yaml.load(f, Loader=Loader) or {})
             except: pass
         
         self.validate_semantic_interlinking()

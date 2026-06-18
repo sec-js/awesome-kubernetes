@@ -94,10 +94,11 @@ async def fetch_github_metadata(client: httpx.AsyncClient, url: str, sem: asynci
     return url, default_meta
 
 
+from src.inventory_manager import load_inventory
+
 async def run_enrichment():
     print("[*] Loading inventory database...")
-    with open(INVENTORY_PATH, "r") as f:
-        inventory = yaml.safe_load(f) or {}
+    inventory = load_inventory()
 
     print(f"[*] Loaded {len(inventory)} total entries.")
     

@@ -4,6 +4,10 @@ import json
 import hashlib
 import asyncio
 import yaml
+try:
+    from yaml import CSafeLoader as Loader
+except ImportError:
+    from yaml import SafeLoader as Loader
 import httpx
 from datetime import datetime
 from typing import List, Dict, Set, Any, Tuple
@@ -74,14 +78,18 @@ class V2VisionEngine:
     def _load_special_assets(self) -> Dict:
         path = "data/special_assets.yaml"
         if os.path.exists(path):
-            try: return yaml.safe_load(open(path, "r")) or {}
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    return yaml.load(f, Loader=Loader) or {}
             except: return {}
         return {}
 
     def _load_link_rules(self) -> Dict:
         path = "data/link_rules.yaml"
         if os.path.exists(path):
-            try: return yaml.safe_load(open(path, "r")) or {}
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    return yaml.load(f, Loader=Loader) or {}
             except: return {}
         return {}
 
@@ -902,7 +910,7 @@ class V2VisionEngine:
             "<center markdown=\"1\">\n"
             "<div class=\"hero-showcase-wrapper\">\n"
             "  <a href=\"https://www.cncf.io/certification/software-conformance\" class=\"hero-showcase-link\">\n"
-            "    <img src=\"images/container_with_cars_v2.png\" alt=\"container_with_cars\" class=\"hero-showcase-image\" />\n"
+            "    <img src=\"/images/container_with_cars_v2.png\" alt=\"container_with_cars\" class=\"hero-showcase-image\" />\n"
             "    <div class=\"hero-showcase-footer\">\n"
             "      <span class=\"hero-showcase-badge\">CNCF Conformance</span>\n"
             "      <span class=\"hero-showcase-caption\">Standardized conformance guarantees seamless workload portability across the Cloud Native landscape.</span>\n"

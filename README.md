@@ -490,24 +490,31 @@ To embrace the diverse global Cloud Native community while maintaining internati
 
 ---
 
-## 6. The Unified Agentic Database (Knowledge Graph)
+## 6. The Unified Agentic Database (Coexistence Knowledge Graph)
 
-Nubenetes now utilizes a **Unified Metadata Architecture** to maintain consistency across V1 and V2 while optimizing AI performance. All links are indexed in a local YAML database that serves as the **Persistent Memory** for our autonomous agents.
+Nubenetes now utilizes a **Unified SQL & YAML Database Architecture** to maintain consistency across V1 and V2 while optimizing agentic operations and repository efficiency. All curated links and metadata are managed via a coexisting local database engine.
 
-### 6.1. Database Components
-1.  **Central Inventory ([`data/inventory.yaml`](data/inventory.yaml))**: The universal single source of truth for technical metadata and resource lifecycle.
-    *   **Core Data**: `title`, `year`, `stars` (0-5), `description` (V1 Native), `ai_summary` (V2 English), `category`.
-    *   **Structural Intelligence**: `hierarchy` (Recursive list up to 10 levels), `v1_locations`, `v2_locations`.
-    *   **Platinum Lifecycle**: `content_hash` (SHA256), `health_score` (0-100), `source_provenance`, `social_preview_url`, `mentions_count`.
+### 6.1. Database Components & SQLite Engine (Option 3 Coexistence)
+
+To guarantee backward compatibility and Git efficiency, the system operates on a dual-save database coexistence model:
+1.  **SQLite Database & SQL Text ([`data/inventory.sql`](data/inventory.sql))**: The Git source-of-truth. During execution, the SQL script compiles into a temporary in-memory SQLite database, enabling full relational schema access and SQL query optimization. On save, SQLite's native `iterdump()` decompiles it back into a flat SQL text database file where each resource insert occupies a single line for perfect git diff readability.
+2.  **Central Backup Inventory ([`data/inventory.yaml`](data/inventory.yaml))**: Automatically synchronized during database saves. Serves as a backward-compatible interface for legacy markdown parsing scripts.
+3.  **High-Speed Parsing (C-Loader Integration)**: Direct YAML parsing utilizes high-speed native C-extensions (`yaml.CSafeLoader` and `yaml.CSafeDumper`) across all Python scripts (e.g. `v2_optimizer.py`, `reorganize_mosaic.py`, `safety_guard.py`) for a 10x-20x speedup in parsing operations.
+
+#### 6.1.2. Platinum Lifecycle Schema
+*   **Core Data**: `url` (Primary Key), `title`, `year`, `stars` (0-5), `description` (V1 Native), `ai_summary` (V2 English), `category`.
+*   **Structural Intelligence**: `hierarchy` (Recursive JSON list), `tags` (JSON list), `v1_locations`, `v2_locations`, `youtube_mosaic` (JSON dict).
+*   **Platinum Lifecycle**: `content_hash` (SHA256 fingerprint), `health_score` (0-100), `source_provenance`, `social_preview_url`, `mentions_count`, `addition_method`.
 
 ### 6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)
 To maximize economic efficiency and maintain the **30-minute execution standard**, all AI agents follow a **Database-First** and **Zero-Redundancy** protocol:
-1.  **Local Lookup**: Before initiating any Gemini call, the agent checks if the URL is already indexed in [`data/inventory.yaml`](data/inventory.yaml).
-2.  **Zero-Redundancy Pipeline**: The V2 Optimizer leverages health and metadata (`gh_stars`, `gh_license`) already validated by the `IntelligentLinkCleaner`. If a resource is marked as `status: online` and has recent metadata, V2 bypasses redundant network checks.
-3.  **Smart Grounding (Search Retrieval)**: AI agents only activate grounding-heavy calls (Google Search) for resources that are new, missing metadata, or flagged for `needs_ai_refresh`. This reduces latencia by >80% for 15k+ link archives.
-4.  **Insight Reuse**: If the resource exists with valid metadata, the agent **reuses existing insights**, reducing API traffic to zero.
-5.  **Memory Efficiency Tracking**: The system tracks **Cache Hit Ratios** and **Estimated Token Savings** in every Intelligence Report.
-6.  **Mandatory Persistence**: Modified YAML files are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
+1.  **Local Lookup**: Before initiating any Gemini call, the agent queries the compiled SQLite/SQL database to see if the URL is already indexed.
+2.  **Domain Reputation Registry**: In `main.py`, scraping/health-check success rates are recorded under `domain_reputation` inside `health_learning.json` for adaptive timeout and scraping rotation.
+3.  **Stateful Debate Caching**: In `v2_debate.py`, consensus evaluations for borderline resources are cached based on the SHA256 hash of their combined metadata (`title`, `description`, `tags`). On cache hits, the agent skips redundant LLM calls and retrieves the score directly.
+4.  **Pre-Commit Markdown Lint Hook**: In `src/pre_commit_schema_check.py`, a local Git pre-commit hook automatically runs on developer changes to enforce heading rules (no emojis/ampersands in titles), protocol integrity, link bracket spacing, and duplicate checks in docs markdown.
+5.  **Insight Reuse**: If the resource exists with valid metadata, the agent **uses existing insights**, reducing API traffic to zero.
+6.  **Memory Efficiency Tracking**: The system tracks **Cache Hit Ratios** and **Estimated Token Savings** in every Intelligence Report.
+7.  **Mandatory Persistence**: Modified databases are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
 
 ### 6.3. Database Lifecycle and Hygiene
 To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
