@@ -393,7 +393,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
    - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
-4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
+4. **Clean URLs (SEO-Friendly)**: Both versions use `use_directory_urls: true` to ensure clean directory-style URLs (e.g. `/kubernetes/` instead of `/kubernetes.html`) for optimal SEO.
 
 ### 5.5. Decoupled Knowledge Lifecycle (V2 Architecture)
 To scale to 10,000+ resources while staying within GitHub's 6-hour execution limit, the V2 creation process is decoupled into **Specialized Micro-Workflows**. Each workflow operates independently on the [Unified Inventory](data/inventory.yaml).
