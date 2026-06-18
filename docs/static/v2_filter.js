@@ -13,9 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Do not show on the homepage, video hub index page, or technical tags index page (performance)
     const h1 = contentArea.querySelector("h1");
     if (h1 && (
-        h1.textContent.includes("Nubenetes Elite Portal (V2)") || 
-        h1.textContent.includes("Agentic Video Hub") || 
-        h1.textContent.includes("Technical Tags Index")
+        h1.textContent.includes("Nubenetes Elite Portal (V2)") ||
+        h1.textContent.includes("Agentic Video Hub") ||
+        h1.textContent.includes("Technical Tags Index") ||
+        h1.textContent.includes("Intelligence Digest")
     )) {
         return;
     }
