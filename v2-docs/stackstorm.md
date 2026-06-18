@@ -5,16 +5,19 @@
 
 ## Table of Contents
 
-1. [Platform](#platform)
-  - [Reference](#reference)
+1. [DevOps](#devops)
+  - [Event-Driven Automation](#event-driven-automation)
+    - [StackStorm](#stackstorm-1)
 
-## Platform
+## DevOps
 
-### Reference
+### Event-Driven Automation
 
-  - **(2026)** [StackStorm.com](https://stackstorm.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on StackStorm.com for modern cloud native architectures.
-  - **(2026)** [github.com/StackStorm](https://github.com/StackStorm) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on github.com/StackStorm for modern cloud native architectures.
+#### StackStorm (1)
+
+  - **(2025)** [StackStorm.com](https://stackstorm.com) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated workflow, remediation, and orchestration engine. Utilizes event-driven triggers, custom rules, and structured packs to deliver self-healing capabilities across cloud, network, and system infrastructures.
+  - **(2025)** [github.com/StackStorm](https://github.com/StackStorm) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central repositories for the StackStorm platform containing internal event loops, action runners, rules-engine components, pack loaders, and comprehensive infrastructure orchestration drivers.
 
 ---
-💡 **Explore Related:** [Sonarqube](./sonarqube.md) | [Tekton](./tekton.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 

@@ -5,8 +5,18 @@
 
 ## Table of Contents
 
-1. [Platform](#platform)
-  - [Reference](#reference)
+1. [Automation and Orchestration](#automation-and-orchestration)
+  - [Templating Engine](#templating-engine)
+    - [Jinja](#jinja)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes Development](#kubernetes-development)
+    - [Go Client-Go](#go-client-go)
+      - [Generics](#generics)
+1. [Infrastructure as Code](#infrastructure-as-code)
+  - [Kubernetes](#kubernetes)
+    - [Terraform Boilerplates](#terraform-boilerplates)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
 
 ## The Nubenetes Engineering Manifest
 
@@ -93,12 +103,42 @@ An O'Reilly-style technical library where 18k+ resources are filtered, ranked by
 
 ---
 
-## Platform
+## Automation and Orchestration
 
-### Reference
+### Templating Engine
 
-  - **(2026)** [jinja 🌟](https://github.com/pallets/jinja) <span class='md-tag md-tag--info'>⭐ 11664</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6eaee9a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 3 L 30 2 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-6eaee9a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A curated reference on jinja 🌟 for modern cloud native architectures.
+#### Jinja
+
+??? note "jinja 🌟"
+    **[Access Resource](https://github.com/pallets/jinja)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+
+## Cloud Native
+
+### Kubernetes Development
+
+#### Go Client-Go
+
+##### Generics
+
+  - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the use of Go 1.18+ generics to drastically reduce boilerplate when interacting with various Kubernetes API types. Live Grounding confirms that while standard client-go uses dynamic clients or interface{} for generic operations, integrating Go generics allows for cleaner, type-safe custom controllers. This article provides practical patterns for wrapping standard clients to streamline resource manipulation.
+## Infrastructure as Code
+
+### Kubernetes
+
+#### Terraform Boilerplates
+
+  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform/) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
+## Kubernetes Tools
+
+### General Reference
+
+  - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==DZone: Defining Day-2 Operations== in the Kubernetes Tools ecosystem.
+  - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟 in the Kubernetes Tools ecosystem.
+  - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Promotion Driven Development in the Kubernetes Tools ecosystem.
+  - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org: Kiss up kick down in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 

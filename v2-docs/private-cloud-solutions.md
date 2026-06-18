@@ -5,15 +5,18 @@
 
 ## Table of Contents
 
-1. [Platform](#platform)
-  - [Reference](#reference)
+1. [Infrastructure](#infrastructure)
+  - [Cloud Market](#cloud-market)
+    - [OpenStack](#openstack)
 
-## Platform
+## Infrastructure
 
-### Reference
+### Cloud Market
 
-  - **(2026)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated reference on thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up for modern cloud native architectures.
+#### OpenStack
+
+  - **(2019)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing the sharp decline in OpenStack market share as public cloud hyperscalers expanded. Live Grounding confirms that OpenStack remains stable only in telecom NFV and niche on-premises private clouds, while generic enterprise deployments have shifted to Kubernetes and hybrid-cloud runtimes.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Azure](./azure.md)
 
