@@ -240,7 +240,7 @@
 
 #### Cloud Governance
 
-  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
+  - **(2026)** [**Azure Policy**](https://nubenetes.com/azure/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.
 ## Security
 
 ### Policy Enforcement

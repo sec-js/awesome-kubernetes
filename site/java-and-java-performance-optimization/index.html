@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://nubenetes.com/java-and-java-performance-optimization/">
       
       
-        <link rel="prev" href="../java_frameworks/">
+        <link rel="prev" href="../golang/">
       
       
-        <link rel="next" href="../jvm-parameters-matrix-table/">
+        <link rel="next" href="../java_app_servers/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Java Memory Management & Java Performance Optimization - Nubenetes</title>
+        <title>Java And Java Performance Optimization - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="../static/extra.css">
+    
+      <link rel="stylesheet" href="../static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href=".." title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,13 +120,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Java Memory Management & Java Performance Optimization
+              Java And Java Performance Optimization
             
           </span>
         </div>
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,120 +263,10 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../introduction/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Intro
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../sre/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../devops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../devsecops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../noops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
   
 
       
@@ -393,13 +276,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../docker/" class="md-tabs__link">
+      <a href="../tags/" class="md-tabs__link">
         
   
   
     
   
-  Docker
+  Technical Tags
 
       </a>
     </li>
@@ -414,13 +297,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../kubernetes/" class="md-tabs__link">
+        <a href="../videos/" class="md-tabs__link">
           
   
   
     
   
-  K8s
+  Agentic Video Hub
 
         </a>
       </li>
@@ -436,314 +319,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../openshift/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../rancher/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../cicd/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../monitoring/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../iac/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../ansible/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../databases/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../message-queue/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../servicemesh/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../demos/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../public-cloud-solutions/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../api/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../devel-sites/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../qa/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../ai/" class="md-tabs__link">
+        <a href="../ai-agents-mcp/" class="md-tabs__link">
           
   
   
@@ -765,13 +341,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../project-management-methodology/" class="md-tabs__link">
+        <a href="../about/" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +363,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../other-awesome-lists/" class="md-tabs__link">
+        <a href="../chaos-engineering/" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
 
         </a>
       </li>
@@ -809,13 +385,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../recruitment/" class="md-tabs__link">
+        <a href="../ansible/" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Hardened Infrastructure
 
         </a>
       </li>
@@ -828,17 +404,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../customer/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../GoogleCloudPlatform/" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Cloud Providers (Hyperscalers)
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +426,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../uncategorized/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../caching/" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +448,110 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../about/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../container-managers/" class="md-tabs__link">
+          
   
   
     
   
-  About
+  The Container Stack
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../crunchydata/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Data & Advanced Analytics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../argo/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../ChromeDevTools/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../appointment-scheduling/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +585,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href=".." title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +615,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +649,7 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
   
 
     
@@ -988,311 +658,6 @@
   
 
       </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../introduction/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../sre/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    SRE
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../devops/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../devsecops/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../noops/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
     </li>
   
 
@@ -1304,14 +669,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../docker/" class="md-nav__link">
+      <a href="../tags/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Docker
+    Technical Tags
   
 
     
@@ -1334,6 +699,138 @@
     
       
         
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../videos/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agentic Video Hub
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../ai-agents-mcp/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
       
         
       
@@ -1393,14 +890,14 @@
   
   
   
-    <a href="../kubernetes/" class="md-nav__link">
+    <a href="../about/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    K8s
+    Architectural Foundations
   
 
     
@@ -1433,118 +930,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../openshift/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../rancher/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1582,14 +967,14 @@
   
   
   
-    <a href="../cicd/" class="md-nav__link">
+    <a href="../chaos-engineering/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    CI/CD
+    Platform & Site Reliability
   
 
     
@@ -1622,128 +1007,6 @@
         
       
         
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../monitoring/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Montrg
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../iac/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Infra Prov
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -1790,7 +1053,7 @@
   <span class="md-ellipsis">
     
   
-    Config Mgmt
+    Hardened Infrastructure
   
 
     
@@ -1824,203 +1087,37 @@
       
         
       
-    
-    
-    
-      
-      
         
       
-    
-    
-      
         
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../databases/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DB
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../message-queue/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data Pipeline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
         
       
-    
-    
-    
-      
+        
       
         
       
-    
-    
-      
         
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../servicemesh/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
-    
-    
-    
-      
+        
       
         
       
-    
-    
-      
-        
         
       
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+        
       
         
-  
-  
-  
-    <a href="../demos/" class="md-nav__link">
       
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
-  
-
-    
-  </span>
-  
-  
-
+        
       
-        <span class="md-nav__icon md-icon"></span>
+        
       
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
+        
       
         
       
@@ -2064,14 +1161,14 @@
   
   
   
-    <a href="../public-cloud-solutions/" class="md-nav__link">
+    <a href="../GoogleCloudPlatform/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Cloud
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2098,6 +1195,12 @@
   
     
     
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2127,14 +1230,259 @@
   
   
   
-    <a href="../api/" class="md-nav__link">
+    <a href="../caching/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    APIs
+    Networking & Service Mesh
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../container-managers/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Container Stack
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../crunchydata/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data & Advanced Analytics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../argo/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering Pipeline
   
 
     
@@ -2163,6 +1511,28 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
       
         
       
@@ -2206,17 +1576,17 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" checked>
         
           
-          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="">
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
     
   
-    Dev
+    Developer Ecosystem
   
 
     
@@ -2227,12 +1597,12 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_22">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_14">
             <span class="md-nav__icon md-icon"></span>
             
   
-    Dev
+    Developer Ecosystem
   
 
           </label>
@@ -2245,14 +1615,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../devel-sites/" class="md-nav__link">
+      <a href="../ChromeDevTools/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Websites for web developers
+    Chromedevtools
   
 
     
@@ -2301,6 +1671,62 @@
   
   
     <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    API
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devel-sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devel Sites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../dom/" class="md-nav__link">
         
   
@@ -2308,7 +1734,63 @@
   <span class="md-ellipsis">
     
   
-    Document Object Model (DOM)
+    Dom
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dotnet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dotnet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../embedded-servlet-containers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Embedded Servlet Containers
   
 
     
@@ -2354,6 +1836,926 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java And Java Performance Optimization
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java And Java Performance Optimization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architectural Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architectural Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-pipelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CICD Pipelines
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CICD Pipelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Jenkins Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Jenkins Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure-upgrades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure Upgrades
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jvm-performance-tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JVM Performance Tuning
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Native Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Native Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#containerized-jvm-tuning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containerized JVM Tuning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jvm-container-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JVM Container Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#container-orchestration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Orchestration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Container Orchestration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#development-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Development Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jvm-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JVM Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JVM Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ahead-of-time-compilation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ahead-of-Time Compilation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ahead-of-Time Compilation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#high-performance-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High-Performance Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="High-Performance Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#thread-affinity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Thread Affinity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Memory Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#garbage-collection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garbage Collection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-profiling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Profiling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Profiling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics (2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Platform
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Java Platform">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#runtime-and-jvm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runtime and JVM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Runtime and JVM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#garbage-collection-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garbage Collection (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observability-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observability (1)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Observability (1)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#application-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Monitoring
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Monitoring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Diagnostics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#java-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Performance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-performance-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Performance Monitoring
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Application Performance Monitoring">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#spring-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Spring Boot
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#observability-and-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observability and Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Observability and Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jvm-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JVM Performance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="JVM Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics (3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Development
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Development">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#caching-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Caching Strategy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Caching Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#off-heap-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Off-Heap Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#java" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Java">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#career-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Career Development
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#concurrency" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Concurrency
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#language-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Language Fundamentals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#object-oriented-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Object-Oriented Programming
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Testing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Testing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unit Testing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Engineering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software Engineering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-virtual-machine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Java Virtual Machine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Java Virtual Machine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics-and-troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Diagnostics and Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#garbage-collection-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Garbage Collection (2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-management-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Management (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimization-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimization (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_app_servers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java_App_Servers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../java_frameworks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java_Frameworks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
@@ -2364,7 +2766,147 @@
   <span class="md-ellipsis">
     
   
-    JavaScript - node.js & npm
+    Javascript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../jvm-parameters-matrix-table/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JVM Parameters Matrix Table
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-dev-env/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Dev Env
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lowcode-nocode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lowcode Nocode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maven-gradle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maven Gradle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../postman/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Postman
   
 
     
@@ -2392,7 +2934,7 @@
   <span class="md-ellipsis">
     
   
-    Python - Django & Flask
+    Python
   
 
     
@@ -2441,14 +2983,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../lowcode-nocode/" class="md-nav__link">
+      <a href="../swagger-code-generator-for-rest-apis/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Low Code and No Code
+    Swagger Code Generator For Rest APIs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-studio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Studio
   
 
     
@@ -2476,98 +3046,7 @@
   <span class="md-ellipsis">
     
   
-    Web 3
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_10" >
-        
-          
-          <label class="md-nav__link" for="__nav_22_10" id="__nav_22_10_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Microsoft
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22_10">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Microsoft
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dotnet/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Microsoft .NET
+    Web3
   
 
     
@@ -2595,7 +3074,7 @@
   <span class="md-ellipsis">
     
   
-    Microsoft Xamarin
+    Xamarin
   
 
     
@@ -2615,595 +3094,6 @@
     </li>
   
 
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_11" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_22_11" id="__nav_22_11_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Java
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_11_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_22_11">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Java
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../java_frameworks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Java & Open Source Microservices Frameworks. SpringBoot, MicroProfile, Quarkus and more
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Java Memory Management & Java Performance Optimization
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Java Memory Management & Java Performance Optimization
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#java-performance-optimization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java Performance Optimization
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Java Performance Optimization">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#java-on-kubernetes-java-memory-arguments-for-containers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java on Kubernetes. Java Memory Arguments for Containers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Benchmarking modern Java Virtual Machines and the next-generation garbage collectors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#relevant-jvm-metrics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relevant JVM Metrics
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#common-jvm-errors" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Common JVM Errors
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tuning-jenkins-gc" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tuning Jenkins GC
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tuning-java-containers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tuning Java Containers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#debugging-java-applications-on-openshift-and-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Debugging java applications on OpenShift and Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#list-of-performance-analysis-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        List of Performance Analysis Tools
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="List of Performance Analysis Tools">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#threadumps-heapdumps-and-gc-analysis-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Threadumps, Heapdumps and GC Analysis Tools
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#garbage-collection-and-heap-offloading" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Garbage Collection and Heap Offloading
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#java-tracing-tools-jdk-flight-recorder" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Java Tracing Tools. JDK Flight Recorder
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cambios-importantes-en-la-gestion-de-memoria-de-java-8-de-oracle-2014" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#slides" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Slides
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tweets" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tweets
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../jvm-parameters-matrix-table/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Java Parameters Matrix Table
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22_12" >
-        
-          
-          <label class="md-nav__link" for="__nav_22_12" id="__nav_22_12_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev Environment
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_22_12_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_22_12">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Dev Environment
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../visual-studio/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Visual Studio Code
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../linux-dev-env/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    WSL - Linux Dev Environment on Windows
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../scaffolding/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Scaffolding Tools
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ChromeDevTools/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Chrome & Firefox DevTools. HTTP Protocols & WebSockets
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
     
       
       
@@ -3220,60 +3110,13 @@
       
         
       
-    
-    
-    
-      
+        
       
         
       
-    
-    
-      
-        
         
       
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
         
-  
-  
-  
-    <a href="../qa/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
       
         
       
@@ -3303,14 +3146,14 @@
   
   
   
-    <a href="../ai/" class="md-nav__link">
+    <a href="../appointment-scheduling/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    AI
+    Career & Industry
   
 
     
@@ -3325,278 +3168,6 @@
   
 
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../project-management-methodology/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Project Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../other-awesome-lists/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Refs+
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../recruitment/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Hiring
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../customer/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Clients
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../uncategorized/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Uncategorized
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    About
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -3617,295 +3188,320 @@
                   
 
 
-
-<h1 id="java-and-memory-management">Java and Memory Management</h1>
-<ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#java-performance-optimization">Java Performance Optimization</a><ol>
-<li><a href="#java-on-kubernetes-java-memory-arguments-for-containers">Java on Kubernetes. Java Memory Arguments for Containers</a></li>
-<li><a href="#benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors">Benchmarking modern Java Virtual Machines and the next-generation garbage collectors</a></li>
-<li><a href="#relevant-jvm-metrics">Relevant JVM Metrics</a></li>
-<li><a href="#common-jvm-errors">Common JVM Errors</a></li>
-<li><a href="#tuning-jenkins-gc">Tuning Jenkins GC</a></li>
-<li><a href="#tuning-java-containers">Tuning Java Containers</a></li>
-<li><a href="#debugging-java-applications-on-openshift-and-kubernetes">Debugging java applications on OpenShift and Kubernetes</a></li>
-</ol>
-</li>
-<li><a href="#list-of-performance-analysis-tools">List of Performance Analysis Tools</a><ol>
-<li><a href="#threadumps-heapdumps-and-gc-analysis-tools">Threadumps, Heapdumps and GC Analysis Tools</a></li>
-</ol>
-</li>
-<li><a href="#garbage-collection-and-heap-offloading">Garbage Collection and Heap Offloading</a></li>
-<li><a href="#java-tracing-tools-jdk-flight-recorder">Java Tracing Tools. JDK Flight Recorder</a></li>
-<li><a href="#cambios-importantes-en-la-gestión-de-memoria-de-java-8-de-oracle-2014">Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)</a></li>
-<li><a href="#slides">Slides</a></li>
-<li><a href="#tweets">Tweets</a></li>
-</ol>
-<h2 id="introduction">Introduction</h2>
-<ul>
-<li><a href="https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html">javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022</a></li>
-<li><a href="https://www.freecodecamp.org/news/learn-the-basics-of-java-programming">freecodecamp.org: Learn the Basics of Java Programming</a></li>
-<li><a href="https://www.freecodecamp.org/news/object-oriented-programming-in-java">freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book</a></li>
-</ul>
-<h2 id="java-performance-optimization">Java Performance Optimization</h2>
-<ul>
-<li><a href="https://dzone.com/articles/performance-improvement-in-java-applications-orm-j">DZone: Performance Improvement in Java Applications: ORM/JPA 🌟</a></li>
-<li><a href="https://dzone.com/articles/jvm-architecture-explained">DZone: The JVM Architecture Explained 🌟</a> An overview of the different components of the JVM, along with a very useful diagram</li>
-<li><a href="https://dzone.com/articles/troubleshoot-sudden-cpu-spikes">DZone: How to Troubleshoot Sudden CPU Spikes</a> Your Java application has been running fine, but all of a sudden CPU consumption starts to go higher and higher&hellip; sound familiar?</li>
-<li><a href="https://dzone.com/refcardz/java-caching">DZone refcard: Java Caching</a></li>
-<li><a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟</a> How to use 7 JVM arguments to help increase your application&rsquo;s performance and avoid common memory pitfalls.</li>
-<li><a href="https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u">developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟</a> Deploy JDK Flight Recorder with JDK Mission Control, a new monitoring and profiling tool that exposes a high level of information without adding a tax on the runtime system</li>
-<li><a href="https://blog.heaphero.io">blog.heaphero.io: HeapHero - Java &amp; Android Heap Dump Analyzer</a></li>
-<li><a href="https://blog.heaphero.io/what-is-gc-log-thread-dump-and-heapdump">blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟</a> Java Virtual Machine (JVM) generates 3 critical #artifacts that are useful for optimizing the performance and troubleshooting production problems. Those artifacts &amp; their differences are explained in this PDF.</li>
-<li><a href="https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing">developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing</a></li>
-<li><a href="https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far">developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟</a></li>
-<li><a href="https://github.com/OpenHFT/Java-Thread-Affinity">OpenHFT/Java-Thread-Affinity</a> Bind a java thread to a given core. A library that lets you pin the threads of your Java application to specific CPU cores. Looks like an interesting part of the performance engineering toolbox, e.g. helping to reduce the number of cache misses.</li>
-<li><a href="https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps">dzone.com: Flight Recorder: Examining Java and Kotlin Apps</a> Learn how to use Java&rsquo;s Flight Recorder to profile Java and Kotlin apps and get a close look at JVM internals.</li>
-<li><a href="https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html"><mark>kstefanj.github.io: GC progress from JDK 8 to JDK 17</mark></a> JVM with &lt;5ms GC pauses (ZGC). JDK17 is a huge leap forward in benchmark after benchmark. Upgrade as fast as you can. Amazon’s Corretto builds are available for a huge number of platforms and distribution channels. The JRE disappeared with jdk9: use jlink to assemble exactly the JRE you need.</li>
-<li><a href="https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector"><mark>developers.redhat.com: How to choose the best Java garbage collector</mark></a></li>
-<li><a href="https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail">linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!</a> - <a href="https://javarevisited.blogspot.com/2017/02/difference-between-executor-executorservice-and-executors-in-java.html">original article - javarevisited.blogspot.com</a></li>
-<li><a href="https://vladmihalcea.com/caching-best-practices">vladmihalcea.com: Caching best practices</a></li>
-<li><a href="https://vladmihalcea.com/14-high-performance-java-persistence-tips">vladmihalcea.com: 14 High-Performance Java Persistence Tips</a></li>
-<li><a href="https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023">speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea</a></li>
-<li><a href="https://www.freecodecamp.org/news/java-unit-testing">freecodecamp.org: How to Write Unit Tests in Java</a></li>
-</ul>
-<h3 id="java-on-kubernetes-java-memory-arguments-for-containers">Java on Kubernetes. Java Memory Arguments for Containers</h3>
-<ul>
-<li><a href="https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298">medium: How to reduce your JVM app memory footprint in Docker and Kubernetes 🌟</a></li>
-<li><a href="https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58">tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟</a> Vikas Kumar explains why you should not run your Java applications with a fixed quota of a single CPU core. Instead, use Burstable QoS to allow for increased CPU usage during start-up.</li>
-<li><a href="https://dzone.com/articles/best-practices-java-memory-arguments-for-container">dzone: Best Practices: Java Memory Arguments for Containers 🌟</a> we will discuss the possible JVM arguments that can be used to specify the Java heap size and the best option to choose.</li>
-<li><a href="https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43">medium.com/@anurag2397: Tuning JVM containers for better CPU and memory utilisation in K8s environment</a> you&rsquo;ll discuss JVM warmup issues, high heap memory utilisation and how those affect Java apps deployed in Kubernetes. You&rsquo;ll then learn how to work around them.</li>
-<li><a href="https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6">danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟</a> Running Java applications in a container environment requires an understanding of both — JVM memory mechanics and Kubernetes memory management. you will discuss the settings and optimizations necessary to run Java apps in Kubernetes.</li>
-<li><a href="https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46">medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container</a></li>
-<li><a href="https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6">danoncoding.com: Tricky Kubernetes memory management for Java applications 🌟</a> How to use the Kubernetes memory requests and limits in combination with JVM Heap and stay out of trouble.</li>
-<li><a href="https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64">medium.com/@sharprazor.app: Memory settings for Java process running in Kubernetes pod</a> Managing the memory usage of a Java process running in a Kubernetes pod is more challenging than one might expect. Even with proper JVM memory configurations, OOMKilled issues can still arise and you wonder why.<ul>
-<li>There is no way to guarantee the complete memory bundary of a Java process since the JVM respects only the heap size limit; not non-heap memory, which will depend on various factors. Start with a 75% ratio of heap to non-heap memory, and keep a close watch on how your memory behaves. If things get out of hand, you can tweak your pod’s memory limits or fiddle with the heap-to-non-heapratio to dodge the OOMKilled mishaps.</li>
-</ul>
-</li>
-<li><a href="https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34"><mark>medium.com/codex: Running JVM Applications on Kubernetes: Beyond java -jar</mark></a> <strong>Discover some important tips about running JVM applications in containerized environments orchestrated by Kubernetes.</strong> The article provides essential tips for optimizing JVM applications running on Kubernetes, focusing on ergonomics, memory sizing, CPU overbooking, and HPA configuration</li>
-<li><a href="https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf">lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes</a></li>
-<li><a href="https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff">blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization 🌟</a><ul>
-<li>Learn how to debug CPU utilization issues in a Java app using asynchronous programming techniques like CompletableFuture</li>
-<li>Discover how to identify and resolve CPU bottlenecks using JVM arguments and container resource allocation</li>
-<li>Another workaround for this issue was to set the “-XX: ActiveProcessorCount” JVM argument to the number of cores that are allocated to the java container. We found this recommendation in a comment on the openjdk issue tracker. The application team validated this and the central Load Tests were run with this workaround. Post the load tests, the application team upgraded the java version to 17 where these issues were already resolved.</li>
-</ul>
-</li>
-</ul>
-<h3 id="benchmarking-modern-java-virtual-machines-and-the-next-generation-garbage-collectors">Benchmarking modern Java Virtual Machines and the next-generation garbage collectors</h3>
-<ul>
-<li><a href="https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1">jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1 🌟</a> The Java runtime has been evolving more rapidly in recent years and, after 15 years, we finally got a <strong>new default garbage collector: the G1</strong>. Two more GCs are on their way to production and are available as experimental features: <strong>Oracle&rsquo;s ZGC</strong> and <strong>OpenJDK&rsquo;s Shenandoah</strong>. We at Hazelcast thought it was time to put all these new options to the test and find which choices work well with workloads typical for our distributed stream processing engine, <a href="https://jet-start.sh">Hazelcast Jet</a>.</li>
-</ul>
-<h3 id="relevant-jvm-metrics">Relevant JVM Metrics</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Metric</th>
-<th style="text-align: left;">Details / Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">GC Throughput</td>
-<td style="text-align: left;"><strong>Repeated Full GC happens way before OutOfMemoryError</strong><br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">ref1</a><br/><a href="https://blog.gceasy.io/micrometrics-to-forecast-application-performance">ref2</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">etc</td>
-<td style="text-align: left;">N/A</td>
-</tr>
-</tbody>
-</table>
-<h3 id="common-jvm-errors">Common JVM Errors</h3>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">JVM Error</th>
-<th style="text-align: left;">Details / Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">OutOfMemoryError</td>
-<td style="text-align: left;"><strong>Repeated Full GC happens way before OutOfMemoryError</strong> <br/> <a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">ref1</a><br/><a href="https://blog.gceasy.io/micrometrics-to-forecast-application-performance">ref2</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">StackOverflowError</td>
-<td style="text-align: left;"><a href="https://blog.fastthread.io/stackoverflowerror">ref</a></td>
-</tr>
-<tr>
-<td style="text-align: left;">etc</td>
-<td style="text-align: left;">N/A</td>
-</tr>
-</tbody>
-</table>
-<h3 id="tuning-jenkins-gc">Tuning Jenkins GC</h3>
-<ul>
-<li><a href="https://www.jenkins.io/blog/2016/11/21/gc-tuning">jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟</a></li>
-<li><a href="https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11">Running Jenkins on Java 11 🌟</a></li>
-</ul>
-<h3 id="tuning-java-containers">Tuning Java Containers</h3>
-<ul>
-<li><a href="https://www.redhat.com/en/blog/scaling-java-containers">blog.openshift.com: Scaling Java Containers 🌟</a></li>
-<li><a href="https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift">blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift</a></li>
-<li><a href="https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail">dzone.com: Java Inside Docker: What You Must Know to Not FAIL</a> If you&rsquo;ve tried Java in containers, particularly Docker, you might have encountered some problems with the JVM and heap size. Here&rsquo;s how to fix it.</li>
-<li><a href="https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d">itnext.io: How to cold start fast a java service on k8s (EKS)</a></li>
-<li><a href="https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers">blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟</a></li>
-</ul>
-<h3 id="debugging-java-applications-on-openshift-and-kubernetes">Debugging java applications on OpenShift and Kubernetes</h3>
-<ul>
-<li><a href="https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes">blog.openshift.com: Debugging Java Applications On OpenShift and Kubernetes</a></li>
-</ul>
-<h2 id="list-of-performance-analysis-tools">List of Performance Analysis Tools</h2>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/List_of_performance_analysis_tools">en.wikipedia.org/wiki/List_of_performance_analysis_tools</a></li>
-<li><a href="https://en.wikipedia.org/wiki/InspectIT">InspectIT</a></li>
-<li><a href="https://en.wikipedia.org/wiki/VisualVM">VisualVM</a></li>
-<li><a href="https://en.wikipedia.org/wiki/OverOps">OverOps</a></li>
-<li>etc</li>
-</ul>
-<h3 id="threadumps-heapdumps-and-gc-analysis-tools">Threadumps, Heapdumps and GC Analysis Tools</h3>
-<ul>
-<li><a href="https://geekflare.com/dev/generate-analyze-thread-dumps">geekflare.com: What is Thread Dump and How to Analyze them? 🌟</a></li>
-<li><a href="https://www.baeldung.com/java-analyze-thread-dumps">baeldung.com: How to Analyze Java Thread Dumps 🌟</a></li>
-<li><a href="https://www.baeldung.com/java-thread-dump">baeldung.com: Capturing a Java Thread Dump</a></li>
-<li><a href="https://tier1app.com">tier1app.com</a></li>
-<li><a href="https://fastthread.io">fastthread.io</a></li>
-<li><a href="https://gceasy.io">gceasy.io</a></li>
-<li><a href="https://heaphero.io">heaphero.io</a></li>
-</ul>
-<h2 id="garbage-collection-and-heap-offloading">Garbage Collection and Heap Offloading</h2>
-<ul>
-<li><a href="https://ehcache.org">Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.</a></li>
-<li><a href="https://github.com/serkan-ozal/jillegal">Jillegal OffHeap Module</a></li>
-<li><a href="https://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html">Free eGuide: JVM Troubleshooting Guide</a></li>
-<li><a href="https://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8">Cambios importantes en la gestión de memoria de Java 8 de Oracle</a></li>
-<li><a href="https://www.infoq.com/articles/Java-PERMGEN-Removed">PermGen eliminado</a></li>
-<li><a href="https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html">On heap vs off heap memory usage</a></li>
-<li><a href="https://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms">How Garbage Collection differs in the three big JVMs</a></li>
-<li><a href="https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag">DZone: Understanding the Java Memory Model and Garbage Collection 🌟</a>we will try to understand the Java memory model and how garbage collection works.I have used JDK8 Oracle Hot Spot 64 bit JVM. First let me depict the different memory areas available for Java processes.</li>
-<li><a href="https://dzone.com/articles/memory-leak-andjava-code">DZone: Memory Leaks and Java Code</a> When you aren&rsquo;t using objects, but they aren&rsquo;t touched by GC, a memory leak happens. Here are six ways memory leaks happen to look for and avoid.</li>
-<li><a href="https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html">javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)</a></li>
-</ul>
-<h2 id="java-tracing-tools-jdk-flight-recorder">Java Tracing Tools. JDK Flight Recorder</h2>
-<ul>
-<li><a href="https://byteman.jboss.org">Byteman</a></li>
-<li><a href="https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent">developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟</a></li>
-<li><a href="https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java">developers.redhat.com: Checkpointing Java from outside of Java</a></li>
-<li><a href="https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data">developers.redhat.com: A faster way to access JDK Flight Recorder data</a></li>
-<li>Detect JPA and Hibernate performance issues with Hypersistence Optimizer:<ul>
-<li><a href="https://vladmihalcea.com/hypersistence-optimizer">https://vladmihalcea.com/hypersistence-optimizer</a></li>
-<li><a href="https://vladmihalcea.com/tunnel-localhost-public-internet">vladmihalcea.com: How to tunnel localhost to the public Internet</a></li>
-</ul>
-</li>
-<li><a href="https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes">piotrminkowski.com: Java Flight Recorder on Kubernetes</a></li>
-</ul>
-<h2 id="cambios-importantes-en-la-gestion-de-memoria-de-java-8-de-oracle-2014">Cambios importantes en la gestión de memoria de Java 8 de Oracle (2014)</h2>
-<p>PermGen no pertenece al heap y los objetos no son promocionados a esta sección de memoria gestionada durante un GC. Como bien dices es un espacio contiguo al heap, pero también se limpia cada vez que la tenured/old generation procede a un GC. No es una generación separada del mismo modo que es la young generation, y no hay un mecanismo específico para un GC separado de PermGen. La tenured/old generation y la permanent generation proceden a un GC cuando una de las dos se llena.</p>
-<p>De todos modos no me queda claro si incorporaron PermGen dentro del heap en Java 7, aunque poco importa ya con los cambios en Java 8.</p>
-<p>Mejor empiezo por introducir qué implementación de JVM es Java 8 de Oracle. Existen numerosas implementaciones de JVM y cada una utiliza diferentes soluciones para la gestión de memoria.</p>
-<p>Dos de las soluciones más conocidas y populares de JVM han sido HotSpot de Sun (habitual en Tomcat) y JRockit de BEA (Weblogic). Ambas compañias fueron compradas por Oracle y Java 8 viene a ser la integración definitiva de ambas soluciones.</p>
-<p>Históricamente se consideraba que HotSpot es el JVM con mejor rendimiento de las dos, si bien JRockit es valorada como la más escalable.</p>
-<p>Originalmente en HotSpot no había generación permanente. Objetos y clases de JVM se almacenaban juntas. Las clases de ésta JVM eran estáticas y prácticamente no se utilizaban &lsquo;Class Loaders&rsquo; (Load y Unload/Collection de Clases). PermGen surgió como una mejora de rendimiento. Por defecto los datos en la generación permanente no se eliminan nunca (son datos de JVM y no de aplicación, pudiendo variar según la pólítica de garbage collection). Esto podía llenar la generación permanente generando un OutOfMemoryErrors si se producía un elevado número de classloading. En muchos casos un problema con una generación permanente implica reiniciar regularmente la JVM y la aplicación Java.</p>
-<p>Actualmente las clases de JVM son dinámicas y el espacio requerido para metadatos puede cambiar fácilmente.</p>
-<p>A diferencia de HotSpot VM, JRockit carece de generación permanente y en cambio almacena los metadatos &lsquo;off the heap&rsquo; en memoria nativa. Estos buffers de código son liberados constantemente cuando sus ClassLoaders no se utilizan. El problema de OutOfMemory en JRockit no es diferente a HotSpot, excepto por el hecho de ser memoria nativa en lugar de memoria heap. Hay dos diferencias significativas. Primero, en JRockit la limpieza de metadatos está habilitada siempre por defecto y segundo, no hay tamaño límite fijo para el espacio de metadatos. Uno de los principales problemas con HotSpot es su dificultad para seleccionar un tamaño adecuado para la generación permanente. ¿128MB, 256MB? Es muy difícil acertar para cada aplicación. JRockit es dinámico en la gestión de memoria reservada para metadatos y sin límites de tamaño (a excepción de la memoria del sistema). JRockit es también el único JVM con soporte de heaps no contiguos (uso de memoria por encima y por debajo del alojamiento del kernel y otras librerías), importante en el caso de Windows donde su kernel a menudo se ubica en mitad del espacio de direcciones.</p>
-<p>Java 8 (HotRockit?) incorpora todas las herramientas de monitorización de HotSpot (Java VisualVM, jstat, jmap) y JRockit (Java Mission Control, Java Flight Recorder). Muy interesante.</p>
-<p>Un inconveniente de Java 8 es la fragmentación de la memoria nativa para metadatos, pero probablemente incluya compactación en un futuro próximo.</p>
-<p>En el 2016 saldrá Java 9 con la funcionalidad de auto-tuning y soporte de tamaños Heap multi-gigas.</p>
-<p>En cualquier caso hay una tendencia al Heap-Offloading. El consumo de memoria en Java tiene un coste y las pausas/latencias causadas por los Full GC son proporcionales al tamaño del heap. Estas pausas son notables en tamaños de heap &gt; 1Gb, con un considerable impacto en aplicaciones de tiempo real donde un proceso que no responde rápido puede ser descartado del cluster. Aún así, los servidores actuales hacen uso de frameworks muy pesados y fácilmente requieren heaps &gt; 4Gb. Una solución a este problema es alojar fuera del heap los objetos poco utilizados mediante técnicas de serialización/deserialización (caché). El heap de memoria se mantiene pequeño y el Full GC se completa en milisegundos. Ejemplos:</p>
-<ol>
-<li>caché de sesión de usuarios, donde un fichero mapeado en memoria almacena gigabytes de sesiones de usuarios inactivos. Una vez que el usuario hace log-in, la aplicación dispone de todos sus datos sin ser necesaria una consulta a la BBDD.</li>
-<li>caché de resultados computacionales como queries, páginas html, etc (donde el coste computacional es mayor a la deserialización)</li>
-</ol>
-<h2 id="slides">Slides</h2>
-<details>
-  <summary>Click to expand!</summary>
-
-<center markdown="1">
-
-<div class="container">
-<iframe src="/www.slideshare.net/slideshow/embed_code/key/NpUYrnBQ59fyV6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen class="video"> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/feuteston/jvm-internals-2015corkdevio" title="JVM Internals (2015)" target="_blank">JVM Internals (2015)</a> </strong> from <strong><a href="/www.slideshare.net/feuteston" target="_blank">Luiz Fernando Teston</a></strong> </div>
-</div>
-
-</center>
-</details>
-
-<h2 id="tweets">Tweets</h2>
-<details>
-  <summary>Click to expand!</summary>
-
-<center markdown="1">
-
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> on <a href="https://twitter.com/hashtag/Kubernetes?src=hash&amp;ref_src=twsrc%5Etfw">#Kubernetes</a> <a href="https://t.co/MRP0RwJWaG">pic.twitter.com/MRP0RwJWaG</a></p>&mdash; Bruno Borges (@brunoborges) <a href="https://twitter.com/brunoborges/status/1449655747764056073?ref_src=twsrc%5Etfw">October 17, 2021</a></blockquote> <script async src="../assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Once, I spent 6 months of my adult life as a full time JVM tuner. I was hired to work on data processing pipelines but the job became being a JVM tuning machine.</p>&mdash; Jaana Dogan ヤナ ドガン (@rakyll) <a href="https://twitter.com/rakyll/status/1461509707479195650?ref_src=twsrc%5Etfw">November 19, 2021</a></blockquote> <script async src="../assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Who knew that a <a href="https://twitter.com/java?ref_src=twsrc%5Etfw">@Java</a> developer as the best job in the UK according to ⁦<a href="https://twitter.com/Glassdoor?ref_src=twsrc%5Etfw">@Glassdoor</a>⁩. Feel lucky to be in the industry! <a href="https://t.co/IIQAmJA95l">pic.twitter.com/IIQAmJA95l</a></p>&mdash; George Adams (@gdams_) <a href="https://twitter.com/gdams_/status/1489296650199830529?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="../assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If you don&#39;t set a Garbage Collector for your <a href="https://twitter.com/hashtag/Java?src=hash&amp;ref_src=twsrc%5Etfw">#Java</a> application, don&#39;t think the JVM will pick a good one for you either, no matter how many CPUs you give.<br><br>2 CPUs? 6 CPUs? It doesn&#39;t matter. If your container has less than 1792 MB and you don&#39;t set a GC, your app will use Serial <a href="https://t.co/06mr9TKkKn">pic.twitter.com/06mr9TKkKn</a></p>&mdash; Bruno Borges 🇧🇷🇺🇦🇨🇦 (@brunoborges) <a href="https://twitter.com/brunoborges/status/1499114848516329472?ref_src=twsrc%5Etfw">March 2, 2022</a></blockquote> <script async src="../assets/external/platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-</center>
-</details>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/java-and-java-performance-optimization.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/java-and-java-performance-optimization.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="java-and-memory-management">Java and Memory Management<a class="headerlink" href="#java-and-memory-management" title="Permanent link">&para;</a></h1>
+<div class="admonition tip">
+<p class="admonition-title">Nubenetes V2 Elite Portal</p>
+<p>You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the <a href="/v1/java-and-java-performance-optimization/"><strong>V1 Historical Archive</strong></a>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Java and Memory Management in the context of Developer Ecosystem.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#cicd-pipelines">CICD Pipelines</a></li>
+<li><a href="#jenkins-management">Jenkins Management</a><ul>
+<li><a href="#infrastructure-upgrades">Infrastructure Upgrades</a></li>
+<li><a href="#jvm-performance-tuning">JVM Performance Tuning</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native-infrastructure">Cloud Native Infrastructure</a></li>
+<li><a href="#kubernetes">Kubernetes</a><ul>
+<li><a href="#containerized-jvm-tuning">Containerized JVM Tuning</a></li>
+<li><a href="#jvm-container-optimization">JVM Container Optimization</a></li>
+</ul>
+</li>
+<li><a href="#infrastructure">Infrastructure</a></li>
+<li><a href="#container-orchestration">Container Orchestration</a><ul>
+<li><a href="#observability">Observability</a></li>
+</ul>
+</li>
+<li><a href="#networking">Networking</a><ul>
+<li><a href="#development-tools">Development Tools</a></li>
+</ul>
+</li>
+<li><a href="#jvm-architecture">JVM Architecture</a></li>
+<li><a href="#ahead-of-time-compilation">Ahead-of-Time Compilation</a><ul>
+<li><a href="#diagnostics">Diagnostics</a></li>
+</ul>
+</li>
+<li><a href="#high-performance-systems">High-Performance Systems</a><ul>
+<li><a href="#thread-affinity">Thread Affinity</a></li>
+</ul>
+</li>
+<li><a href="#memory-management">Memory Management</a><ul>
+<li><a href="#diagnostics-1">Diagnostics</a></li>
+<li><a href="#garbage-collection">Garbage Collection</a></li>
+</ul>
+</li>
+<li><a href="#performance-profiling">Performance Profiling</a><ul>
+<li><a href="#diagnostics-2">Diagnostics</a></li>
+</ul>
+</li>
+<li><a href="#java-platform">Java Platform</a></li>
+<li><a href="#runtime-and-jvm">Runtime and JVM</a><ul>
+<li><a href="#garbage-collection-1">Garbage Collection</a></li>
+</ul>
+</li>
+<li><a href="#observability-1">Observability</a></li>
+<li><a href="#application-monitoring">Application Monitoring</a><ul>
+<li><a href="#java-diagnostics">Java Diagnostics</a></li>
+<li><a href="#java-performance">Java Performance</a></li>
+</ul>
+</li>
+<li><a href="#application-performance-monitoring">Application Performance Monitoring</a><ul>
+<li><a href="#spring-boot">Spring Boot</a></li>
+</ul>
+</li>
+<li><a href="#observability-and-troubleshooting">Observability and Troubleshooting</a></li>
+<li><a href="#jvm-performance">JVM Performance</a><ul>
+<li><a href="#diagnostics-3">Diagnostics</a></li>
+</ul>
+</li>
+<li><a href="#software-development">Software Development</a></li>
+<li><a href="#caching-strategy">Caching Strategy</a><ul>
+<li><a href="#off-heap-storage">Off-Heap Storage</a></li>
+<li><a href="#performance-optimization">Performance Optimization</a></li>
+</ul>
+</li>
+<li><a href="#java">Java</a><ul>
+<li><a href="#career-development">Career Development</a></li>
+<li><a href="#concurrency">Concurrency</a></li>
+<li><a href="#database-persistence">Database Persistence</a></li>
+<li><a href="#language-fundamentals">Language Fundamentals</a></li>
+<li><a href="#object-oriented-programming">Object-Oriented Programming</a></li>
+</ul>
+</li>
+<li><a href="#testing">Testing</a><ul>
+<li><a href="#unit-testing">Unit Testing</a></li>
+</ul>
+</li>
+<li><a href="#software-engineering">Software Engineering</a></li>
+<li><a href="#java-virtual-machine">Java Virtual Machine</a><ul>
+<li><a href="#diagnostics-and-troubleshooting">Diagnostics and Troubleshooting</a></li>
+<li><a href="#garbage-collection-2">Garbage Collection</a></li>
+<li><a href="#memory-management-1">Memory Management</a></li>
+<li><a href="#performance-optimization-1">Performance Optimization</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://geekflare.com/dev/generate-analyze-thread-dumps">geekflare.com: What is Thread Dump and How to Analyze them? 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering geekflare.com in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.javacodegeeks.com/2014/12/on-heap-vs-off-heap-memory-usage.html">On heap vs off heap memory usage</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/refcardz/java-caching">DZone refcard: Java Caching</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone refcard: Java Caching in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/performance-improvement-in-java-applications-orm-j">DZone: Performance Improvement in Java Applications: ORM/JPA 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Performance Improvement in Java Applications: ORM/JPA 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/jvm-architecture-explained">DZone: The JVM Architecture Explained 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: The JVM Architecture Explained 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/troubleshoot-sudden-cpu-spikes">DZone: How to Troubleshoot Sudden CPU Spikes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: How to Troubleshoot Sudden CPU Spikes in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1">Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/flight-recorder-examining-java-and-kotlin-apps">dzone.com: Flight Recorder: Examining Java and Kotlin Apps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Flight Recorder: Examining Java and Kotlin Apps in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/wix-engineering/how-to-reduce-your-jvm-app-memory-footprint-in-docker-and-kubernetes-d6e030d21298">medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to reduce your JVM app memory footprint in Docker and Kubernetes' 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/best-practices-java-memory-arguments-for-container">dzone: Best Practices: Java Memory Arguments for Containers 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Best Practices: Java Memory Arguments for Containers 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@anurag2397/solving-javas-core-problems-around-memory-and-cpu-4d0c97748c43">medium.com/@anurag2397: Tuning JVM containers for better CPU and memory' utilisation in K8s environment</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@anurag2397: Tuning JVM containers for better CPU and memory' utilisation in K8s environment in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://danoncoding.com/tricky-kubernetes-memory-management-for-java-applications-d2f88dd4e9f6">danoncoding.com: Tricky Kubernetes memory management for Java applications' 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering danoncoding.com: Tricky Kubernetes memory management for Java applications' 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/nordnet-tech/setting-java-heap-size-inside-a-docker-container-b5a4d06d2f46">medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/nordnet-tech: Setting Java Heap Size Inside a Docker Container in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@sharprazor.app/memory-settings-for-java-process-running-in-kubernetes-pod-1e608a5d2a64">medium.com/@sharprazor.app: Memory settings for Java process running in' Kubernetes pod</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@sharprazor.app: Memory settings for Java process running in' Kubernetes pod in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/codex/running-jvm-applications-on-kubernetes-beyond-java-jar-a095949f3e34">medium.com/codex: Running JVM Applications on Kubernetes: Beyond java' -jar</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering <mark>medium.com/codex: Running JVM Applications on Kubernetes: Beyond java' -jar</mark> in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://lalitchaturveditech.medium.com/optimize-java-performance-on-kubernetes-5f055d406ecf">lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering lalitchaturveditech.medium.com: Optimize Java Performance On Kubernetes in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.flipkart.tech/the-art-of-system-debugging-decoding-cpu-utilization-da75f09ef1ff">blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.flipkart.tech: The Art of System Debugging — Decoding CPU Utilization' 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://jet-start.sh/blog/2020/06/09/jdk-gc-benchmarks-part1">jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1' 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jet-start.sh: Performance of Modern Java on Data-Heavy Workloads, Part 1' 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/java-inside-docker-what-you-must-know-to-not-fail">dzone.com: Java Inside Docker: What You Must Know to Not FAIL</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Java Inside Docker: What You Must Know to Not FAIL in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_performance_analysis_tools">en.wikipedia.org/wiki/List_of_performance_analysis_tools</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org/wiki/List_of_performance_analysis_tools in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/InspectIT">InspectIT</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering InspectIT in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/VisualVM">VisualVM</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering VisualVM in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://en.wikipedia.org/wiki/OverOps">OverOps</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering OverOps in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.baeldung.com/java-analyze-thread-dumps">baeldung.com: How to Analyze Java Thread Dumps 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: How to Analyze Java Thread Dumps 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.baeldung.com/java-thread-dump">baeldung.com: Capturing a Java Thread Dump</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering baeldung.com: Capturing a Java Thread Dump in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/understanding-the-java-memory-model-and-the-garbag">DZone: Understanding the Java Memory Model and Garbage Collection 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Understanding the Java Memory Model and Garbage Collection 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://dzone.com/articles/memory-leak-andjava-code">DZone: Memory Leaks and Java Code</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering DZone: Memory Leaks and Java Code in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://jet-start.sh">Hazelcast JET</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Hazelcast JET in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="cicd-pipelines">CICD Pipelines<a class="headerlink" href="#cicd-pipelines" title="Permanent link">&para;</a></h2>
+<h3 id="jenkins-management">Jenkins Management<a class="headerlink" href="#jenkins-management" title="Permanent link">&para;</a></h3>
+<h4 id="infrastructure-upgrades">Infrastructure Upgrades<a class="headerlink" href="#infrastructure-upgrades" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2019)</strong> <a href="https://www.jenkins.io/doc/administration/requirements/jenkins-on-java-11">Running Jenkins on Java 11 🌟</a>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Comprehensive administration runbook describing JVM upgrade pathways from Java 8 to Java 11. Addresses class-loading modifications, modularization parameters, and deprecated agent arguments.</li>
+</ul>
+<h4 id="jvm-performance-tuning">JVM Performance Tuning<a class="headerlink" href="#jvm-performance-tuning" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2016)</strong> <a href="https://www.jenkins.io/blog/2016/11/21/gc-tuning">jenkins.io - Tuning Jenkins GC For Responsiveness and Stability with Large Instances 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Critical infrastructure advisory detailing memory allocation and G1GC GC argument tuning for massive Jenkins instances. Provides ready-to-use flag structures to eliminate long-duration Stop-The-World JVM freezes.</li>
+</ul>
+<h2 id="cloud-native-infrastructure">Cloud Native Infrastructure<a class="headerlink" href="#cloud-native-infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes">Kubernetes<a class="headerlink" href="#kubernetes" title="Permanent link">&para;</a></h3>
+<h4 id="containerized-jvm-tuning">Containerized JVM Tuning<a class="headerlink" href="#containerized-jvm-tuning" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://blog.gceasy.io/best-practices-java-memory-arguments-for-containers">blog.gceasy.io: Best practices: Java memory arguments for Containers 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Direct blueprint for configuring JVM heap metrics under Docker environments. Details the risks of omitting explicit container-aware memory allocation rules, preventing silent OOMKilled evictions by the host kernel.</li>
+<li><strong>(2020)</strong> <a href="https://www.redhat.com/en/blog/scaling-java-containers">blog.openshift.com: Scaling Java Containers 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide explaining how Linux cgroups interact with the JVM's ergonomics. Highlights historical heap-limit misalignment bugs and offers solutions using container-aware flags like UseContainerSupport and MaxRAMPercentage.</li>
+</ul>
+<h4 id="jvm-container-optimization">JVM Container Optimization<a class="headerlink" href="#jvm-container-optimization" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://tech.olx.com/improving-jvm-warm-up-on-kubernetes-1b27dd8ecd58">tech.olx.com: Improving JVM Warm-up on Kubernetes 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains technical approaches to address CPU throttling and JIT-compilation cold starts for Java microservices running on Kubernetes. Demonstrates solutions using resource allocation adjustments, pre-heating traffic, and modern CRaC (Coordinated Restore at Checkpoint).</li>
+<li><strong>(2021)</strong> <a href="https://itnext.io/how-to-cold-start-fast-a-java-service-on-k8s-eks-3a7b4450845d">itnext.io: How to cold start fast a java service on k8s (EKS)</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced techniques targeting containerized boot times. Compares performance of GraalVM Native Image compiles, AppCDS (Application Class Data Sharing), and Tiered Compilation tuning to mitigate Kubernetes container cold-start delays.</li>
+</ul>
+<h2 id="infrastructure">Infrastructure<a class="headerlink" href="#infrastructure" title="Permanent link">&para;</a></h2>
+<h3 id="container-orchestration">Container Orchestration<a class="headerlink" href="#container-orchestration" title="Permanent link">&para;</a></h3>
+<h4 id="observability">Observability<a class="headerlink" href="#observability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://piotrminkowski.com/2024/02/13/java-flight-recorder-on-kubernetes">piotrminkowski.com: Java Flight Recorder on Kubernetes</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world implementation guide demonstrating how to manage JDK Flight Recorder (JFR) captures inside containerized Kubernetes clusters. By leveraging modern diagnostic operators like Cryostat, the guide details automated collection pipelines that prevent performance overhead in production microservices.</li>
+</ul>
+<h3 id="networking">Networking<a class="headerlink" href="#networking" title="Permanent link">&para;</a></h3>
+<h4 id="development-tools">Development Tools<a class="headerlink" href="#development-tools" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://vladmihalcea.com/tunnel-localhost-public-internet">vladmihalcea.com: How to tunnel localhost to the public Internet</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide explaining how to tunnel local developer server environments to the public internet using tools like ngrok and SSH reverse forwarding. It details routing steps necessary to test webhook integrations, third-party platform callbacks, and mobile application APIs.</li>
+</ul>
+<h2 id="jvm-architecture">JVM Architecture<a class="headerlink" href="#jvm-architecture" title="Permanent link">&para;</a></h2>
+<h3 id="ahead-of-time-compilation">Ahead-of-Time Compilation<a class="headerlink" href="#ahead-of-time-compilation" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics">Diagnostics<a class="headerlink" href="#diagnostics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://developers.redhat.com/articles/2021/07/23/jdk-flight-recorder-support-graalvm-native-image-journey-so-far">developers.redhat.com: JDK Flight Recorder support for GraalVM Native Image: The journey so far 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights runtime monitoring capabilities for Ahead-of-Time (AOT) compiled Java applications. Explains how native binaries built with GraalVM leverage JFR events to expose custom runtime execution metrics.</li>
+</ul>
+<h3 id="high-performance-systems">High-Performance Systems<a class="headerlink" href="#high-performance-systems" title="Permanent link">&para;</a></h3>
+<h4 id="thread-affinity">Thread Affinity<a class="headerlink" href="#thread-affinity" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/OpenHFT/Java-Thread-Affinity"><strong>OpenHFT/Java-Thread-Affinity</strong></a> <span class='md-tag md-tag--info'>⭐ 1897</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4bd1c5bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 10 L 30 11 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-4bd1c5bd)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Highly optimized library that binds Java execution threads to specific CPU cores. Mitigates task context-switching overhead in low-latency financial systems, guaranteeing deterministic scheduling on modern multi-core hardware.</li>
+</ul>
+<h3 id="memory-management">Memory Management<a class="headerlink" href="#memory-management" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics-1">Diagnostics (1)<a class="headerlink" href="#diagnostics-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://blog.heaphero.io">blog.heaphero.io: HeapHero - Java &amp; Android Heap Dump Analyzer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical analysis and troubleshooting advice targeting Java OutOfMemoryErrors. Discusses using automated heap analysis to pinpoint classloader leaks, redundant data allocations, and memory bloat.</li>
+</ul>
+<h4 id="garbage-collection">Garbage Collection<a class="headerlink" href="#garbage-collection" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://developers.redhat.com/articles/2021/05/20/shenandoah-garbage-collection-openjdk-16-concurrent-reference-processing">developers.redhat.com: Shenandoah garbage collection in OpenJDK 16: Concurrent reference processing</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical breakdown of Shenandoah GC's concurrent reference processing capabilities in OpenJDK 16. Details how reducing concurrent STW (Stop-The-World) phases minimizes millisecond-level tail latencies for highly parallel microservices.</li>
+<li><strong>(2021)</strong> <a href="https://developers.redhat.com/articles/2021/11/02/how-choose-best-java-garbage-collector">developers.redhat.com: How to choose the best Java garbage collector</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical selection matrix mapping GC choices (G1GC, ZGC, Shenandoah, Serial) to enterprise architectural requirements such as maximum throughput, heap density, or strict SLA-bound tail latency limits.</li>
+</ul>
+<h3 id="performance-profiling">Performance Profiling<a class="headerlink" href="#performance-profiling" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics-2">Diagnostics (2)<a class="headerlink" href="#diagnostics-2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://speakerdeck.com/victorrentea/profiling-a-java-application-at-devdays-2023">speakerdeck.com: Profiling a Java Application @DevDays 2023 | Victor Rentea</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep presentation deck outlining hands-on strategies for profiling complex enterprise Java deployments. Explores diagnosing thread contention, locking bottlenecks, heap leaks, and high JIT compilation latency.</li>
+<li><strong>(2020)</strong> <a href="https://developers.redhat.com/blog/2020/08/25/get-started-with-jdk-flight-recorder-in-openjdk-8u">developers.redhat.com: Get started with JDK Flight Recorder in OpenJDK 8u 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores backporting JDK Flight Recorder to OpenJDK 8u, enabling low-overhead hardware and software event monitoring in production environments. Demonstrates negligible performance drag (&lt;1%) compared to legacy profilers.</li>
+</ul>
+<h2 id="java-platform">Java Platform<a class="headerlink" href="#java-platform" title="Permanent link">&para;</a></h2>
+<h3 id="runtime-and-jvm">Runtime and JVM<a class="headerlink" href="#runtime-and-jvm" title="Permanent link">&para;</a></h3>
+<h4 id="garbage-collection-1">Garbage Collection (1)<a class="headerlink" href="#garbage-collection-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html">kstefanj.github.io: GC progress from JDK 8 to JDK 17</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical evaluation tracking the performance evolution and design changes of garbage collectors from JDK 8 to JDK 17. The analysis highlights significant throughput gains, memory footprint reductions, and sub-millisecond pause-time optimizations achieved in modern G1 and ZGC algorithms, making Java 17 highly optimized for containerized microservice execution environments.</li>
+</ul>
+<h2 id="observability-1">Observability (1)<a class="headerlink" href="#observability-1" title="Permanent link">&para;</a></h2>
+<h3 id="application-monitoring">Application Monitoring<a class="headerlink" href="#application-monitoring" title="Permanent link">&para;</a></h3>
+<h4 id="java-diagnostics">Java Diagnostics<a class="headerlink" href="#java-diagnostics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.redhat.com/en/blog/debugging-java-applications-on-openshift-kubernetes">Debugging Java Applications On OpenShift and Kubernetes</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates techniques for profiling and debugging remote Java applications running on Kubernetes pods. Walks through port-forwarding JDWP connections and using CLI profiling utilities.</li>
+</ul>
+<h4 id="java-performance">Java Performance<a class="headerlink" href="#java-performance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://tier1app.com">tier1app.com</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Platform behind core JVM diagnostic tools such as GCEasy, FastThread, and HeapHero. Provides automated analysis of GC logs, thread dumps, and heap dumps to resolve memory leaks and performance bottlenecks.</li>
+<li><strong>(2026)</strong> <a href="https://fastthread.io">FastThread.io</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated engine designed to diagnose JVM thread dumps. Resolves thread lock contention, transaction delays, and thread starvation bottlenecks in Kubernetes-hosted enterprise Java services.</li>
+<li><strong>(2026)</strong> <a href="https://gceasy.io">gceasy.io 🌟</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced JVM garbage collection log analyzer. Uses machine learning algorithms to evaluate GC pauses, throughput, and memory trends, delivering actionable tuning recommendations for JVM sizing and GC algorithms (G1GC, ZGC).</li>
+<li><strong>(2026)</strong> <a href="https://heaphero.io">heaphero.io</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instant heap dump analyzer that processes HPROF and system files to isolate leaking data structures. Generates visual memory maps to point out waste and duplicate objects in JVM workloads.</li>
+</ul>
+<h3 id="application-performance-monitoring">Application Performance Monitoring<a class="headerlink" href="#application-performance-monitoring" title="Permanent link">&para;</a></h3>
+<h4 id="spring-boot">Spring Boot<a class="headerlink" href="#spring-boot" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.redhat.com/en/blog/performance-metrics-apm-spring-boot-microservices-openshift">blog.openshift.com: Performance Metrics (APM) for Spring Boot Microservices on OpenShift</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deep-dive on collecting JVM metrics, distributed traces, and custom telemetry from Spring Boot workloads on OpenShift/Kubernetes, utilizing tools like Micrometer, Prometheus, and Jaeger.</li>
+</ul>
+<h2 id="observability-and-troubleshooting">Observability and Troubleshooting<a class="headerlink" href="#observability-and-troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="jvm-performance">JVM Performance<a class="headerlink" href="#jvm-performance" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics-3">Diagnostics (3)<a class="headerlink" href="#diagnostics-3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://blog.heaphero.io/what-is-gc-log-thread-dump-and-heapdump">blog.heaphero.io: What is GC Log, thread dump and Heapdump? 🌟</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A diagnostic reference explaining the roles of garbage collection (GC) logs, thread dumps, and heap dumps in Java Virtual Machine (JVM) analysis. GC logs map memory reclamation patterns, thread dumps identify concurrency deadlocks, and heap dumps pinpoint memory leaks. This guide bridges the gap between raw JVM telemetry and pragmatic troubleshooting workflows.</li>
+</ul>
+<h2 id="software-development">Software Development<a class="headerlink" href="#software-development" title="Permanent link">&para;</a></h2>
+<h3 id="caching-strategy">Caching Strategy<a class="headerlink" href="#caching-strategy" title="Permanent link">&para;</a></h3>
+<h4 id="off-heap-storage">Off-Heap Storage<a class="headerlink" href="#off-heap-storage" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://ehcache.org">Tecnologías de Heap-Offloading son EHcache, Memcached, Jillegal library, etc.</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The de facto robust, standard open-source caching framework for Java. Supports tiering structures including heap, off-heap, disk, and clustered setups, offering seamless integration with Spring and Hibernate.</li>
+</ul>
+<h4 id="performance-optimization">Performance Optimization<a class="headerlink" href="#performance-optimization" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://vladmihalcea.com/caching-best-practices">vladmihalcea.com: Caching best practices</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into professional application-level cache patterns (Read-Through, Write-Behind, Cache-Aside). Outlines pitfalls including cache-stampede risks, stale data races, and invalidation strategies for highly scalable database applications.</li>
+</ul>
+<h3 id="java">Java<a class="headerlink" href="#java" title="Permanent link">&para;</a></h3>
+<h4 id="career-development">Career Development<a class="headerlink" href="#career-development" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://javarevisited.blogspot.com/2017/12/10-things-java-programmers-should-learn.html">javarevisited.blogspot.com: 10 Things Java Programmers Should Learn in 2022</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of essential modern skills for Java developers, highlighting GraalVM, Spring Boot 3, reactive microservices, Docker, Kubernetes integration, and concurrency APIs.</li>
+</ul>
+<h4 id="concurrency">Concurrency<a class="headerlink" href="#concurrency" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.linkedin.com/pulse/difference-between-executor-executorservice-executors-omar-ismail">linkedin.com/pulse: Difference between Executor, ExecutorService, and Executors class in Java!</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational analysis detailing Java's concurrent executing frameworks. Clarifies the design differences between low-level task processing (Executor), managed futures lifecycle APIs (ExecutorService), and utility factories (Executors).</li>
+</ul>
+<h4 id="database-persistence">Database Persistence<a class="headerlink" href="#database-persistence" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://vladmihalcea.com/14-high-performance-java-persistence-tips">vladmihalcea.com: 14 High-Performance Java Persistence Tips</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive optimization handbook detailing JPA and Hibernate performance tuning. Focuses on resolving N+1 query patterns, configuring connection pools, leveraging batch updates, and using database-specific capabilities.</li>
+</ul>
+<h4 id="language-fundamentals">Language Fundamentals<a class="headerlink" href="#language-fundamentals" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.freecodecamp.org/news/learn-the-basics-of-java-programming">freecodecamp.org: Learn the Basics of Java Programming</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory guide to Java development kit setup, language syntax, primitive types, control flows, object-oriented concepts, and basic error handling patterns.</li>
+</ul>
+<h4 id="object-oriented-programming">Object-Oriented Programming<a class="headerlink" href="#object-oriented-programming" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.freecodecamp.org/news/object-oriented-programming-in-java">freecodecamp.org: Advanced Object-Oriented Programming in Java – Full Book</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Advanced curriculum covering deep encapsulation, inheritance hierarchies, abstract factories, polymorphical design patterns, interfaces, and SOLID architectural design principles in Java.</li>
+</ul>
+<h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h3>
+<h4 id="unit-testing">Unit Testing<a class="headerlink" href="#unit-testing" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.freecodecamp.org/news/java-unit-testing">freecodecamp.org: How to Write Unit Tests in Java</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step introduction to writing predictable unit tests using JUnit 5 and Mockito. Emphasizes isolating dependency mock-injection frameworks and measuring robust branch coverage.</li>
+</ul>
+<h2 id="software-engineering">Software Engineering<a class="headerlink" href="#software-engineering" title="Permanent link">&para;</a></h2>
+<h3 id="java-virtual-machine">Java Virtual Machine<a class="headerlink" href="#java-virtual-machine" title="Permanent link">&para;</a></h3>
+<h4 id="diagnostics-and-troubleshooting">Diagnostics and Troubleshooting<a class="headerlink" href="#diagnostics-and-troubleshooting" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://byteman.jboss.org">Byteman</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly robust runtime bytecode injection tool utilizing JBoss rule engines to trace, test, and inject faults into live Java applications. By using Event-Condition-Action (ECA) rules without requiring source code modifications, it remains a vital instrument for simulating extreme edge cases, chaos engineering, and tracing complex cloud microservices.</li>
+<li><strong>(2021)</strong> <a href="https://developers.redhat.com/articles/2021/11/23/faster-way-access-jdk-flight-recorder-data">developers.redhat.com: A faster way to access JDK Flight Recorder data</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of modern JVM Flight Recorder streaming capabilities. It reviews strategies for consuming real-time telemetry events via Java in-memory APIs, offering low-latency, zero-overhead diagnostic monitoring without relying on bulky local file dumps.</li>
+<li><strong>(2020)</strong> <a href="https://developers.redhat.com/blog/2020/10/29/collect-jdk-flight-recorder-events-at-runtime-with-jmc-agent">developers.redhat.com: Collect JDK Flight Recorder events at runtime with JMC Agent 🌟</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed Red Hat guide walking through real-time runtime JVM tracing using the JMC Agent. It explains how to dynamically inject custom JDK Flight Recorder (JFR) event declarations into third-party libraries and production codebases on-the-fly, bypassing the need for restarts or manual instrumentation.</li>
+<li><strong>(2014)</strong> <a href="https://freepromagazine.blogspot.de/2014/07/free-eguide-jvm-troubleshooting-guide.html">Free eGuide: JVM Troubleshooting Guide</a>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy reference guide focused on classical JVM diagnostics, thread dump analysis, and heap tracking. While it lays down correct foundational principles for identifying memory leaks and deadlock patterns, its technical utility is limited today given its lack of coverage on modern diagnostic frameworks like JDK Flight Recorder, Cryostat, and advanced container-aware heap tools.</li>
+</ul>
+<h4 id="garbage-collection-2">Garbage Collection (2)<a class="headerlink" href="#garbage-collection-2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2011)</strong> <a href="https://apmblog.dynatrace.com/2011/05/11/how-garbage-collection-differs-in-the-three-big-jvms">How Garbage Collection differs in the three big JVMs</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An architectural comparison of garbage collection strategies across the three historically major JVM engines: Oracle HotSpot, IBM J9, and Oracle JRockit. It evaluates generational assumptions, compaction pauses, and old-generation management policies. Although useful for legacy support, it predates modern developments like ZGC or Shenandoah.</li>
+<li><strong>(2011)</strong> <a href="https://javarevisited.blogspot.com/2011/04/garbage-collection-in-java.html">javarevisited.blogspot.com: How Garbage Collection works in Java? Explained (2011)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fundamental learning resource explaining basic JVM Garbage Collection loops, young-and-old generational divisions, and classic algorithms (such as Serial and Parallel collectors). While standard for conceptual onboarding, developers should supplement this material with modern G1GC and low-latency concurrent garbage collectors.</li>
+</ul>
+<h4 id="memory-management-1">Memory Management (1)<a class="headerlink" href="#memory-management-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2016)</strong> <a href="https://github.com/serkan-ozal/jillegal">Jillegal OffHeap Module</a> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An experimental and now archived Java library designed to bypass standard JVM memory management by allocating objects directly off-heap. While historically notable for developers seeking ultra-low latency and manual pointer manipulation, modern JDK developments—specifically the Foreign Function and Memory API (Project Panama)—have rendered this library obsolete. It remains useful primarily as a reference for educational and historical exploration of raw memory control within the Java ecosystem.</li>
+<li><strong>(2014)</strong> <a href="https://karunsubramanian.com/websphere/one-important-change-in-memory-management-in-java-8">Cambios importantes en la gestión de memoria de Java 8 de Oracle</a> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical article exploring the systemic shifts in Oracle Java 8's memory management model, highlighting the deletion of Permanent Generation (PermGen) and the introduction of Metaspace. It details how class metadata is offloaded to native memory, significantly reducing the occurrence of OutOfMemoryError exceptions in enterprise application servers like IBM WebSphere and JBoss.</li>
+<li><strong>(2014)</strong> <a href="https://www.infoq.com/articles/Java-PERMGEN-Removed">PermGen eliminado</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical brief on InfoQ describing the dynamic architecture shift resulting from the removal of PermGen in JDK 8. The article reviews Metaspace configuration parameters, auto-tuning behavior, garbage collection triggers for classloader metadata, and the operational adjustments required for zero-downtime Java migrations.</li>
+</ul>
+<h4 id="performance-optimization-1">Performance Optimization (1)<a class="headerlink" href="#performance-optimization-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://developers.redhat.com/blog/2020/10/15/checkpointing-java-from-outside-of-java">developers.redhat.com: Checkpointing Java from outside of Java</a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of JVM checkpoint/restore methodologies focusing on Coordinated Restore at Checkpoint (CRaC) and external CRIU mechanisms. This approach enables instantaneous microservice startup by taking cold snapshots of memory, dramatically lowering latency penalties in serverless deployments.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="../angular/">Angular</a> | <a href="../python/">Python</a> | <a href="../dom/">Dom</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -3913,8 +3509,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -3933,7 +3527,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -3954,8 +3548,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -3966,50 +3560,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -4036,90 +3586,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascript/extra.js"></script>
+        <script src="../static/v2_filter.js"></script>
       
     
   </body>

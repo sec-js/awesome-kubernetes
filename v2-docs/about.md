@@ -9,15 +9,31 @@
 ## Table of Contents
 
 1. [Automation and Orchestration](#automation-and-orchestration)
+  - [API Orchestration](#api-orchestration)
+    - [Postman](#postman)
+    - [Swagger Codegen](#swagger-codegen)
+  - [CICD and Pipelines](#cicd-and-pipelines)
+    - [Azure Pipelines](#azure-pipelines)
+    - [GitLab CI](#gitlab-ci)
+    - [Jenkins CLI](#jenkins-cli)
+    - [Jenkins JCasC](#jenkins-jcasc)
+    - [Jenkins REST API](#jenkins-rest-api)
+  - [Configuration Management](#configuration-management)
+    - [Ansible AWX](#ansible-awx)
+    - [Ansible Kubernetes Module](#ansible-kubernetes-module)
+  - [GitOps](#gitops)
+    - [Argo CD](#argo-cd)
+  - [Infrastructure as Code](#infrastructure-as-code)
+    - [Terraform Boilerplates](#terraform-boilerplates)
+    - [Terraform Provider](#terraform-provider)
+  - [Package Management](#package-management)
+    - [Helm](#helm)
   - [Templating Engine](#templating-engine)
     - [Jinja](#jinja)
 1. [Cloud Native](#cloud-native)
   - [Kubernetes Development](#kubernetes-development)
     - [Go Client-Go](#go-client-go)
       - [Generics](#generics)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Kubernetes](#kubernetes)
-    - [Terraform Boilerplates](#terraform-boilerplates)
 1. [Kubernetes Tools](#kubernetes-tools)
   - [General Reference](#general-reference)
 
@@ -49,7 +65,7 @@ We prioritize established frameworks and enterprise standards over ad-hoc, unmai
 #### 2.4. Avoiding Engineering Anti-Patterns
 We combat the culture of **Promotion-Based Development (PBD)**, where complexity is manufactured for personal career visibility rather than business value. 
 
-  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
+  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
   - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.
 
 ### 3. The Architectural North Star
@@ -65,6 +81,13 @@ We advocate for decoupled, maintainable architectures that survive the test of t
 | **DevOps** | Automation & Frequency | CI/CD Pipelines | Operational Speed |
 | **GitOps** | ==Correctness & Drift Control== | Git + Kubernetes | ==Enterprise Stability== |
 | **SRE** | Reliability & Prevention | Observability | Scalable Quality |
+
+#### 4.1. SRE vs. DevOps Responsibility Matrix
+
+| **Site Reliability Engineer (SRE) team** | **Developers** | **Operations team** |
+| :--- | :--- | :--- |
+| Provide and teach effective use of platform tooling to empower developers to be self-sufficient | Treat SREs as application operation partners, not only as first responders to incidents | Provide self-service platform deployment and observability, and enable visibility into ramifications of actions |
+| Document clear escalation paths for developers struggling in production | Turn to ops teams for the "paved path" or centralized developer control plane | Provide opinionated "paved path" platform or developer control plane (DCP), but allow developers to swap platform components if they also want to be accountable |
 
 ### 5. Strategic Standards and Cultural Shifts
 Engineering excellence is as much about **culture** as it is about code. These foundational resources define the strategic landscape of modern Cloud Native organizations:
@@ -87,7 +110,7 @@ True seniority is measured by the ability to hold teams together through communi
   - [How Big Tech Runs Tech Projects](https://blog.pragmaticengineer.com/project-management-at-big-tech) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A seminal critique of ceremonial Scrum versus result-oriented engineering pragmatism.
   - [Martin Fowler: Retrospectives Antipatterns](https://martinfowler.com/articles/retrospective-antipatterns.html) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Essential guide for transforming team feedback loops from blame games into architectural improvement cycles.
 
-### ⚖ 8. Meritocracy and Careers in 2026
+### 8. Meritocracy and Careers in 2026
 We advocate for a technical sector where quality and evidence-based decisions take precedence over corporate politics.
 
   - [HBR: Stop Hiring for Culture Fit](https://hbr.org/2019/11/stop-hiring-for-culture-fit) <span class='md-tag md-tag--warning'>[EMERGING]</span> — A critical perspective on how "culture fit" often hides bias and hinders technical innovation.
@@ -102,11 +125,120 @@ Preserves historical context, the original curator's voice, and every technicall
 #### 9.2. V2 Elite Portal (Distilled)
 An O'Reilly-style technical library where 18k+ resources are filtered, ranked by impact, and enriched with AI-driven architectural summaries for high-speed reference.
 
+### 10. DevOps Demystified: Role Ambiguity and the OpsDev Pivot
+DevOps has suffered significant semantic dilution, often misused as a catch-all role. We define DevOps as the engineering of pipelines and Infrastructure as Code (IaC) using standard tooling under a **cattle service model**, rather than ad-hoc script-writing or monitoring development. A DevOps specialist is not a general full-stack developer who handles QA and Ops on the side. To eliminate confusion, the term **OpsDev** is often a more accurate representation of this infrastructure-first engineering discipline.
+
+### 11. The Certification Trap vs. Empirical Skill
+While certifications like CKA are prominent on CVs, they are frequently utilized by recruiters as an artificial filter. True engineering value is built by doing—writing automated, testable, and declarative GitOps pipelines, rather than mastering manual CLI execution. Relying purely on certifications often encourages memorizing exam patterns over learning design abstractions. Seniority is measured by empirical evidence and day-2 operational stability, not exam certificates.
+
 > *"I am a big fan of the scientific method. Engineers do not build bridges from a right or left perspective... hello! I have a problem, can you help me? Engineers rely on evidence."* — **Mark Stevenson**
 
 ---
 
 ## Automation and Orchestration
+
+### API Orchestration
+
+#### Postman
+
+??? note "Postman"
+    **[Access Resource](https://www.postman.com)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    Postman remains a prominent API collaboration platform. It offers developers comprehensive tools to design, mock, test, document, and monitor APIs within an intuitive, team-oriented development lifecycle workspace.
+
+#### Swagger Codegen
+
+??? note "Swagger Codegen"
+    **[Access Resource](https://github.com/swagger-api/swagger-codegen)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
+
+### CICD and Pipelines
+
+#### Azure Pipelines
+
+??? note "Azure Pipelines"
+    **[Access Resource](https://learn.microsoft.com/en-us/azure/devops/pipelines)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
+
+#### GitLab CI
+
+??? note "GitLab CI/CD"
+    **[Access Resource](https://docs.gitlab.com/ee/ci)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    Built-in continuous integration and delivery engine of GitLab, supporting declarative YAML pipeline specifications.
+
+#### Jenkins CLI
+
+??? note "Jenkins CLI"
+    **[Access Resource](https://www.jenkins.io/doc/book/managing/cli)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    The official command-line runtime interface for administering remote Jenkins controller servers. Allows automated shell execution of administrative tasks, plugin updates, diagnostic tracing, and build queue interventions.
+
+#### Jenkins JCasC
+
+??? note "Jenkins Configuration as Code"
+    **[Access Resource](https://www.jenkins.io/projects/jcasc)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Core configuration portal resource emphasizing JCasC's role in establishing single-source-of-truth configuration files. It eliminates configuration drift through central, repeatable environments.
+
+#### Jenkins REST API
+
+??? note "Jenkins Remote Access API"
+    **[Access Resource](https://www.jenkins.io/doc/book/using/remote-access-api)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Official documentation for Jenkins RESTful API integration, enabling remote control, status querying, and programmatic pipeline orchestration.
+
+### Configuration Management
+
+#### Ansible AWX
+
+??? note "AWX"
+    **[Access Resource](https://github.com/ansible/awx)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    AWX serves as the open-source upstream project for Ansible Automation Platform/Tower. Written in Django and React, it provides a web-based user interface, REST API, and task engine to centrally manage Ansible inventories, credentials, playbooks, and scheduling in containerized environments.
+
+#### Ansible Kubernetes Module
+
+??? note "docs.ansible.com: kubernetes.core.k8s – Manage Kubernetes objects"
+    **[Access Resource](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Official documentation for the cornerstone `kubernetes.core.k8s` module. It allows direct, declarative definition of Kubernetes objects inside Ansible playbooks using native YAML manifest definitions, enabling a blended hybrid orchestration pattern.
+
+### GitOps
+
+#### Argo CD
+
+??? note "Argo CD"
+    **[Access Resource](https://argoproj.github.io/argo-cd)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    The absolute industry standard for GitOps-based continuous delivery on Kubernetes. Argo CD synchronizes active cluster states with declarative configurations stored in git repositories, providing robust drift correction, visual dashboarding, and audit controls.
+
+### Infrastructure as Code
+
+#### Terraform Boilerplates
+
+??? note "Terraform Kubernetes Boilerplates 🌟"
+    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
+
+#### Terraform Provider
+
+??? note "Terraform Kubernetes Provider"
+    **[Access Resource](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Official Kubernetes provider for Terraform, enabling declarative deployment and management of Kubernetes resources using HashiCorp Configuration Language (HCL).
+
+### Package Management
+
+#### Helm
+
+??? note "Helm"
+    **[Access Resource](https://github.com/helm/helm)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
 
 ### Templating Engine
 
@@ -126,13 +258,6 @@ An O'Reilly-style technical library where 18k+ resources are filtered, ranked by
 ##### Generics
 
   - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the use of Go 1.18+ generics to drastically reduce boilerplate when interacting with various Kubernetes API types. Live Grounding confirms that while standard client-go uses dynamic clients or interface{} for generic operations, integrating Go generics allows for cleaner, type-safe custom controllers. This article provides practical patterns for wrapping standard clients to streamline resource manipulation.
-## Infrastructure as Code
-
-### Kubernetes
-
-#### Terraform Boilerplates
-
-  - **(2024)** [Terraform Kubernetes Boilerplates 🌟](https://nubenetes.com/terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 ## Kubernetes Tools
 
 ### General Reference

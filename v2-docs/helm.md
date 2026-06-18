@@ -8,6 +8,9 @@
 
 ## Table of Contents
 
+1. [Automation and Orchestration](#automation-and-orchestration)
+  - [Package Management](#package-management)
+    - [Helm](#helm)
 1. [Cloud Native](#cloud-native)
   - [Application Delivery](#application-delivery)
     - [Design Patterns](#design-patterns)
@@ -23,13 +26,12 @@
       - [Topology Visualization](#topology-visualization)
     - [Operators](#operators)
       - [Helm Integration](#helm-integration)
-    - [Package Management](#package-management)
+    - [Package Management](#package-management-1)
       - [Chart Validation](#chart-validation)
       - [Demystifying](#demystifying)
-      - [Helm](#helm)
+      - [Helm](#helm-1)
         - [DevOps](#devops)
         - [Documentation](#documentation)
-        - [Source Code](#source-code)
         - [Tutorials](#tutorials)
       - [Helm Hooks](#helm-hooks)
       - [Helm Migration](#helm-migration)
@@ -72,7 +74,7 @@
   - [Development Methodologies](#development-methodologies)
     - [Operator Perspectives](#operator-perspectives)
 1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Helm](#helm-1)
+  - [Helm](#helm-2)
     - [Prometheus Deployment](#prometheus-deployment)
 1. [Kubernetes Tools](#kubernetes-tools)
   - [General Reference](#general-reference)
@@ -115,6 +117,13 @@
   - [Policy Enforcement](#policy-enforcement)
     - [Datree Integration](#datree-integration)
 
+## Automation and Orchestration
+
+### Package Management
+
+#### Helm
+
+  - **(2026)** [==Helm==](https://github.com/helm/helm) <span class='md-tag md-tag--info'>⭐ 29874</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-690133b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 7 L 30 4 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-690133b2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
 ## Cloud Native
 
 ### Application Delivery
@@ -158,7 +167,7 @@
 ##### Helm Integration
 
   - **(2020)** [cloud.redhat.com: Application Management in Kubernetes Environments with Helm Charts and Kubernetes Operators](https://www.redhat.com/en/blog/application-management-in-kubernetes-environments-with-helm-charts-and-kubernetes-operators)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts and complements application packaging methods with Helm Charts versus the Kubernetes Operator Framework. Illustrates how developers choose Helm for simpler, template-based deployments and Operators for complex, stateful operations.
-#### Package Management
+#### Package Management (1)
 
 ##### Chart Validation
 
@@ -166,7 +175,7 @@
 ##### Demystifying
 
   - **(2020)** [youtube.com: Demystifying Helm 🌟](https://www.youtube.com/watch?v=2HPsPOwHOlY&ab_channel=DonovanBrown)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explanatory session demystifying Helm internals. Illustrates how manifest rendering works on the client-side and describes the storage of release history as Secrets inside target Kubernetes namespaces.
-##### Helm
+##### Helm (1)
 
 ###### DevOps
 
@@ -174,9 +183,6 @@
 ###### Documentation
 
   - **(2026)** [helm.sh](https://helm.sh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation and getting started guide for Helm. Serves as the authoritative resource for understanding chart anatomy, template engines, and client commands, ensuring standardization in continuous integration pipelines.
-###### Source Code
-
-  - **(2026)** [==GitHub: Helm, the Kubernetes Package Manager==](https://github.com/helm/helm) <span class='md-tag md-tag--info'>⭐ 29874</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-690133b2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 7 L 30 4 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-690133b2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
 ###### Tutorials
 
   - **(2021)** [Helm and Kubernetes Tutorial - Introduction](https://www.youtube.com/watch?v=9cwjtN3gkD4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory video course establishing foundational Kubernetes packaging concepts. Covers basic chart configuration, deployment lifecycles, and initial client interactions to transition from manual manifests to structured releases.
@@ -288,7 +294,7 @@
   - **(2021)** [opensource.com: What Kubernetes taught me about development](https://opensource.com/article/21/12/kubernetes-developer) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural reflection detailing key developer-centric shifts encountered when adapting to Kubernetes environments. It explores paradigms like declarative APIs, container-first test loops, and how platform engineers must redefine application boundaries in microservice environments.
 ## Infrastructure as Code
 
-### Helm (1)
+### Helm (2)
 
 #### Prometheus Deployment
 

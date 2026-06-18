@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+        <meta name="description" content="Enterprise-grade curated portal for the modern Cloud Native ecosystem. High-density, AI-driven selection of top-tier resources.">
       
       
         <meta name="author" content="Nubenetes">
@@ -15,10 +15,10 @@
         <link rel="canonical" href="https://nubenetes.com/securityascode/">
       
       
-        <link rel="prev" href="../devsecops/">
+        <link rel="prev" href="../pulumi/">
       
       
-        <link rel="next" href="../oauth/">
+        <link rel="next" href="../terraform/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Security Policy as Code - Nubenetes</title>
+        <title>Securityascode - Nubenetes V2 | The AI's Cut</title>
       
     
     
@@ -49,27 +49,21 @@
       
         
         
-        
-        <link rel="stylesheet" href="../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    
       <link rel="stylesheet" href="../static/extra.css">
+    
+      <link rel="stylesheet" href="../static/v2_elite.css?v=2.3.44">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-  
-
-
-  
-  
-
-<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config",""),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
-  
-    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
-  
 
     
     
@@ -83,7 +77,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,6 +95,10 @@
       
     </div>
     
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
     
       
 
@@ -108,15 +106,10 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Nubenetes" class="md-header__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href=".." title="Nubenetes V2 | The AI&#39;s Cut" class="md-header__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,13 +120,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Nubenetes
+            Nubenetes V2 | The AI's Cut
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Security Policy as Code
+              Securityascode
             
           </span>
         </div>
@@ -146,20 +139,20 @@
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 1 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5z"/></svg>
       </label>
     
   
     
     
     
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="light-blue" data-md-color-accent="yellow"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
     
-      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 11c0 5.55-3.84 10.74-9 12-5.16-1.26-9-6.45-9-12V5l9-4 9 4zm-9 10c3.75-1 7-5.46 7-9.78V6.3l-7-3.12L5 6.3v4.92C5 15.54 8.25 20 12 21m-3-6.67c1.76 2.17 5.13 2.24 6.97.07.23-.27.08-.68-.26-.74a4.5 4.5 0 0 1-3.18-2.2 4.5 4.5 0 0 1-.32-3.86.453.453 0 0 0-.51-.6c-3.34.62-4.89 4.61-2.7 7.33"/></svg>
       </label>
     
   
@@ -223,7 +216,7 @@
         <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -245,13 +238,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://nubenetes.com/v2/" class="md-tabs__link">
+      <a href="https://nubenetes.com/v1/" class="md-tabs__link">
         
   
   
     
   
-  🚀 Try Nubenetes V2 (Elite Portal)
+  🔙 Back to V1 (Exhaustive)
 
       </a>
     </li>
@@ -270,122 +263,10 @@
   
     
   
-  Home
+  The 2026 Vision
 
       </a>
     </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../introduction/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Intro
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../sre/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  SRE
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../devops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-  
-  
-    
-    
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../devsecops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DevSecOps
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../noops/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  NoOps
-
-        </a>
-      </li>
-    
   
 
       
@@ -395,13 +276,13 @@
   
   
     <li class="md-tabs__item">
-      <a href="../docker/" class="md-tabs__link">
+      <a href="../tags/" class="md-tabs__link">
         
   
   
     
   
-  Docker
+  Technical Tags
 
       </a>
     </li>
@@ -416,13 +297,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../kubernetes/" class="md-tabs__link">
+        <a href="../videos/" class="md-tabs__link">
           
   
   
     
   
-  K8s
+  Agentic Video Hub
 
         </a>
       </li>
@@ -438,312 +319,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../openshift/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  OpenShift
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../rancher/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Rancher
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../cicd/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  CI/CD
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../monitoring/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Montrg
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../iac/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Infra Prov
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../ansible/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Config Mgmt
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../databases/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  DB
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../message-queue/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Data Pipeline
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../servicemesh/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Service Mesh
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../demos/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Demos
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../public-cloud-solutions/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Cloud
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../api/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  APIs
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../devel-sites/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Dev
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../qa/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  QA
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../ai/" class="md-tabs__link">
+        <a href="../ai-agents-mcp/" class="md-tabs__link">
           
   
   
@@ -765,13 +341,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../project-management-methodology/" class="md-tabs__link">
+        <a href="../about/" class="md-tabs__link">
           
   
   
     
   
-  Project Mgmt
+  Architectural Foundations
 
         </a>
       </li>
@@ -787,13 +363,37 @@
     
     
       <li class="md-tabs__item">
-        <a href="../other-awesome-lists/" class="md-tabs__link">
+        <a href="../chaos-engineering/" class="md-tabs__link">
           
   
   
     
   
-  Refs+
+  Platform & Site Reliability
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../ansible/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hardened Infrastructure
 
         </a>
       </li>
@@ -809,13 +409,13 @@
     
     
       <li class="md-tabs__item">
-        <a href="../recruitment/" class="md-tabs__link">
+        <a href="../GoogleCloudPlatform/" class="md-tabs__link">
           
   
   
     
   
-  Hiring
+  Cloud Providers (Hyperscalers)
 
         </a>
       </li>
@@ -828,17 +428,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../customer/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../caching/" class="md-tabs__link">
+          
   
   
     
   
-  Clients
+  Networking & Service Mesh
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -847,17 +450,20 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../uncategorized/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../container-managers/" class="md-tabs__link">
+          
   
   
     
   
-  Uncategorized
+  The Container Stack
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -866,17 +472,86 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="../about/" class="md-tabs__link">
-        
+    
+    
+      <li class="md-tabs__item">
+        <a href="../crunchydata/" class="md-tabs__link">
+          
   
   
     
   
-  About
+  Data & Advanced Analytics
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../argo/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Engineering Pipeline
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ChromeDevTools/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Developer Ecosystem
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../appointment-scheduling/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Career & Industry
+
+        </a>
+      </li>
+    
   
 
       
@@ -910,25 +585,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Nubenetes" class="md-nav__button md-logo" aria-label="Nubenetes" data-md-component="logo">
+    <a href=".." title="Nubenetes V2 | The AI&#39;s Cut" class="md-nav__button md-logo" aria-label="Nubenetes V2 | The AI's Cut" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89 89">
-  <path d="M3.136,17.387l0,42.932l42.932,21.467l-42.932,-64.399Z" />
-  <path d="M21.91,8l42.933,64.398l-18.775,9.388l-42.932,-64.399l18.774,-9.387Z" style="fill-opacity: 0.5" />
-  <path d="M67.535,17.387l-27.262,18.156l21.878,32.818l5.384,2.691l0,-53.665Z" />
-  <path d="M67.535,17.387l0,53.666l18.774,-9.388l0,-53.665l-18.774,9.387Z" style="fill-opacity: 0.25" />
-</svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Nubenetes
+    Nubenetes V2 | The AI's Cut
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/nubenetes/awesome-kubernetes" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     nubenetes/awesome-kubernetes
@@ -945,14 +615,14 @@
   
   
     <li class="md-nav__item">
-      <a href="https://nubenetes.com/v2/" class="md-nav__link">
+      <a href="https://nubenetes.com/v1/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Try Nubenetes V2 (Elite Portal)
+    🔙 Back to V1 (Exhaustive)
   
 
     
@@ -979,7 +649,34 @@
   <span class="md-ellipsis">
     
   
-    Home
+    The 2026 Vision
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technical Tags
   
 
     
@@ -1001,667 +698,8 @@
     
     
       
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../introduction/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Intro
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../sre/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    SRE
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../devops/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-        
-        
-      
-      
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    DevSecOps
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../devsecops/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DevSecOps. Container Security
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Security Policy as Code
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Security Policy as Code
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#introduction" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Introduction
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#open-policy-agent-opa" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open Policy Agent (OPA)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Open Policy Agent (OPA)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#open-policy-agent-in-kubernetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open Policy Agent in Kubernetes
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#open-policy-agent-in-openshift" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open Policy Agent in OpenShift
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#open-policy-agent-in-cloudflare-workers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Open Policy Agent in Cloudflare Workers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#policy-as-code-in-terraform-cloud" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Policy as Code in Terraform Cloud
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#other-opa-based-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Other OPA based solutions
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#other-policy-as-code-scanning-tools" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Other Policy as Code Scanning Tools
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kyverno" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kyverno
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Kyverno">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#kyverno-e-learning" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Kyverno E-Learning
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cloud-custodian" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cloud Custodian
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#apolicy" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Apolicy
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#azure-policy" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Azure Policy
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../oauth/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OAuth2
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../noops/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    NoOps
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../docker/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Docker
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
         
       
         
@@ -1692,685 +730,14 @@
   
   
   
-    <a href="../kubernetes/" class="md-nav__link">
+    <a href="../videos/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    K8s
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../openshift/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    OpenShift
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../rancher/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rancher
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../cicd/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    CI/CD
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../monitoring/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Montrg
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../iac/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Infra Prov
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../ansible/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Config Mgmt
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../databases/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    DB
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../message-queue/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Data Pipeline
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../servicemesh/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Service Mesh
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../demos/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Demos
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../public-cloud-solutions/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Cloud
+    Agentic Video Hub
   
 
     
@@ -2426,210 +793,7 @@
   
   
   
-    <a href="../api/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    APIs
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../devel-sites/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Dev
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../qa/" class="md-nav__link">
-      
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    QA
-  
-
-    
-  </span>
-  
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-  
-    <a href="../ai/" class="md-nav__link">
+    <a href="../ai-agents-mcp/" class="md-nav__link">
       
   
   
@@ -2672,6 +836,40 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2692,14 +890,14 @@
   
   
   
-    <a href="../project-management-methodology/" class="md-nav__link">
+    <a href="../about/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Project Mgmt
+    Architectural Foundations
   
 
     
@@ -2737,6 +935,18 @@
       
         
       
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2757,14 +967,1323 @@
   
   
   
-    <a href="../other-awesome-lists/" class="md-nav__link">
+    <a href="../chaos-engineering/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Refs+
+    Platform & Site Reliability
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardened Infrastructure
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hardened Infrastructure
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ansible/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ansible
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chef/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chef
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crossplane/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crossplane
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../devsecops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Devsecops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../iac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IaC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes-security/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes Security
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kustomize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kustomize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../liquibase/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Liquibase
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oauth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oauth
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pulumi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pulumi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Securityascode
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Securityascode
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#architectural-foundations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Architectural Foundations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architectural Foundations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Reference
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Native Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud Native Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iac-scanning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IaC Scanning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mergers-and-acquisitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mergers and Acquisitions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#runtime-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runtime Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy-as-Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Policy-as-Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#educational-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Educational Video
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Governance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kyverno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kyverno
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kyverno-training" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kyverno Training
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OPA
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opa-wasm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OPA Wasm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rego" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rego
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloud-native-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud-Native Platforms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cloud-Native Platforms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#infrastructure-as-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Infrastructure-as-Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Infrastructure-as-Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tagging-and-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tagging and Auditing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-reliability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Reliability
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Reliability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Availability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EKS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gitops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GitOps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#governance-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Governance (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kyverno-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kyverno (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kyverno-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kyverno Policies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kyverno-releases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kyverno Releases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-as-code-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy-as-Code (1)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upgrade-paths" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upgrade Paths
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kubernetes Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policy-as-code-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy-as-Code (2)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-cloud-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Cloud Governance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multi-Cloud Governance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#compliance-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compliance Engine
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-cluster-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Cluster Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Multi-Cluster Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policy-as-code-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy-as-Code (3)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-and-compliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security and Compliance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security and Compliance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloud-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#developer-tooling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Developer Tooling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iac-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IaC Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy Library
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-as-code-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy-as-Code (4)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Reporting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Reporting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Observability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supply-chain-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Chain Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Supply Chain Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#container-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Governance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#container-verifying" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Container Verifying
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cryptographic-signatures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cryptographic Signatures
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Cloud
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Public Cloud">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#azure-integration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Azure Integration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Azure Integration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloud-governance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloud Governance
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#policy-enforcement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy Enforcement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Policy Enforcement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admission-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Admission Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../terraform/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Terraform
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../GoogleCloudPlatform/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cloud Providers (Hyperscalers)
   
 
     
@@ -2800,6 +2319,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -2820,14 +2345,14 @@
   
   
   
-    <a href="../recruitment/" class="md-nav__link">
+    <a href="../caching/" class="md-nav__link">
       
   
   
   <span class="md-ellipsis">
     
   
-    Hiring
+    Networking & Service Mesh
   
 
     
@@ -2852,15 +2377,79 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../customer/" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../container-managers/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Clients
+    The Container Stack
   
 
     
@@ -2868,7 +2457,13 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2879,15 +2474,49 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../uncategorized/" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../crunchydata/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    Uncategorized
+    Data & Advanced Analytics
   
 
     
@@ -2895,7 +2524,13 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2906,15 +2541,63 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+    
+    
+      
         
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../argo/" class="md-nav__link">
+      
   
   
   <span class="md-ellipsis">
     
   
-    About
+    Engineering Pipeline
   
 
     
@@ -2922,7 +2605,191 @@
   
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../ChromeDevTools/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Ecosystem
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../appointment-scheduling/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Career & Industry
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -2943,268 +2810,330 @@
                   
 
 
-
-<h1 id="security-policy-as-code">Security Policy as Code</h1>
-<ol>
-<li><a href="#introduction">Introduction</a></li>
-<li><a href="#open-policy-agent-opa">Open Policy Agent (OPA)</a><ol>
-<li><a href="#open-policy-agent-in-kubernetes">Open Policy Agent in Kubernetes</a></li>
-<li><a href="#open-policy-agent-in-openshift">Open Policy Agent in OpenShift</a></li>
-<li><a href="#open-policy-agent-in-cloudflare-workers">Open Policy Agent in Cloudflare Workers</a></li>
-<li><a href="#policy-as-code-in-terraform-cloud">Policy as Code in Terraform Cloud</a></li>
-<li><a href="#other-opa-based-solutions">Other OPA based solutions</a></li>
-</ol>
-</li>
-<li><a href="#other-policy-as-code-scanning-tools">Other Policy as Code Scanning Tools</a></li>
-<li><a href="#kyverno">Kyverno</a><ol>
-<li><a href="#kyverno-e-learning">Kyverno E-Learning</a></li>
-</ol>
-</li>
-<li><a href="#cloud-custodian">Cloud Custodian</a></li>
-<li><a href="#apolicy">Apolicy</a></li>
-<li><a href="#azure-policy">Azure Policy</a></li>
-</ol>
-<h2 id="introduction">Introduction</h2>
-<ul>
-<li><a href="https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm">searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm</a> A Kubernetes-friendly compliance as code project hosted by the CNCF has caught on among large enterprises in the first half of 2019, largely through word of mouth.</li>
-<li><a href="https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1">amazon.com: Policy-based countermeasures for Kubernetes – Part 1</a></li>
-<li><a href="https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0">medium: Automate policies enforcement with Policy-as-Code 🌟</a></li>
-<li><a href="https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent">blog.gitguardian.com: What is Policy-as-Code? An Introduction to Open Policy Agent</a> Learn the benefits of policy as code and start testing your policies for cloud-native environments.</li>
-</ul>
-<h2 id="open-policy-agent-opa">Open Policy Agent (OPA)</h2>
-<ul>
-<li><a href="https://www.openpolicyagent.org">OPA Open Policy Agent 🌟</a></li>
-<li>OPA is most often used as an admission controller in Kubernetes. An admission controller is where all the semantic validation of Kubernetes resources occur before resources are persisted to etcd and controllers go off and start doing work.</li>
-<li><a href="https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial">magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟</a></li>
-<li><a href="https://snyk.io/blog">fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)</a></li>
-<li><a href="https://github.com/policy-hub/policy-hub-cli">PolicyHub CLI, a CLI tool that makes Rego policies searchable 🌟</a> a list of community OPA policies</li>
-<li><a href="https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent">blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open Policy Agent</a></li>
-<li><a href="https://blog.styra.com/blog/rego-unit-testing">blog.styra.com: Rego Unit Testing</a></li>
-<li><a href="https://github.com/instrumenta/policies">github.com/instrumenta/policies: A set of shared policies for use with Conftest and other Open Policy Agent tools</a></li>
-<li><a href="https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget">itprotoday.com: Who Needs Open Policy Agent?</a> Open Policy Agent makes it possible to create a single set of configuration rules and deploy them automatically across a large-scale environment.</li>
-<li><a href="https://blog.styra.com/blog/dynamic-policy-composition-for-opa">blog.styra.com: Dynamic Policy Composition for OPA</a></li>
-<li><a href="https://blog.styra.com/blog/5-opa-deployment-performance-models-for-microservices">blog.styra.com: 5 OPA Deployment Performance Models for Microservices</a></li>
-<li><a href="https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies">blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control Policies</a><ul>
-<li>Trusted Repo</li>
-<li>Label Safety</li>
-<li>Privileged Mode</li>
-<li>Ingress</li>
-<li>Egress</li>
-</ul>
-</li>
-<li><a href="https://thenewstack.io/getting-open-policy-agent-up-and-running">thenewstack.io: Getting Open Policy Agent Up and Running</a></li>
-<li><a href="https://siegert-maximilian.medium.com/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c">siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using Notary and Open Policy Agent</a> A detailed guide to help you to ensure that only signed images can get deployed on the cluster</li>
-<li><a href="https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa">blog.styra.com: Policy-based infrastructure guardrails with Terraform and OPA 🌟</a></li>
-<li><a href="https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0">medium: Automated Manifest File Validation Using Open Policy Agent and GitHub Actions | Ravindu Sandeepa Rathugama</a></li>
-<li><a href="https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps">thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps (Magalix)</a> - <a href="https://www.magalix.com">Magalix</a></li>
-<li><a href="https://snyk.io/blog">fugue.co: Securing a Kubernetes pod with Regula and Open Policy Agent</a></li>
-<li><a href="https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc">dev.to: Load external data into OPA: The Good, The Bad, and The Ugly</a> There are several ways to create a data fetching mechanism for the Open Policy Agent - each of them has its pros and cons. In this guide, you will compare and decide which one is the best for you.</li>
-<li><a href="https://inspektor.cloud/blog/evaluating-open-policy-agent-in-rust-using-wasm">inspektor.cloud: Evaluating open policy agent in rust using wasm</a></li>
-<li><a href="https://medium.com/4th-coffee/what-is-policy-as-code-an-introduction-to-open-policy-agent-6098463f8461">medium.com/4<sup>th</sup>-coffee: What is Policy-as-Code? An Introduction to Open Policy Agent</a></li>
-</ul>
-<h3 id="open-policy-agent-in-kubernetes">Open Policy Agent in Kubernetes</h3>
-<ul>
-<li><a href="https://www.infracloud.io/blogs/kubernetes-pod-security-policies-opa">infracloud.io: Kubernetes Pod Security Policies with Open Policy Agent</a></li>
-<li><a href="https://banzaicloud.com/blog/istio-opa">banzaicloud.com: Istio and Kubernetes ft. OPA policies</a></li>
-<li><a href="https://snyk.io/blog">fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)</a></li>
-<li><a href="https://medium.com/@siegert.maximilian/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c">medium: Ensure Content Trust on Kubernetes using Notary and Open Policy Agent</a> A detailed guide to help you to ensure that only signed images can get deployed on the cluster. In this blog post you will learn how to enforce image trust on your Kubernetes Cluster by fully relying on two well known CNCF hosted open source solutions: Notary and Open Policy Agent (OPA).</li>
-<li><a href="https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic">kubermatic.com: Using Open Policy Agent With Kubermatic Kubernetes Platform</a></li>
-<li><a href="https://github.com/raspbernetes/k8s-security-policies">k8s-security-policies</a> This repository provides a security policies library that is used for securing Kubernetes clusters configurations. The security policies are created based on CIS Kubernetes benchmark and rules defined in Kubesec.io. The policies are written in Rego, a high-level declarative language, its purpose-built for expressing policies over complex hierarchical data structures. For detailed information on Rego see the Policy Language documentation.</li>
-<li><a href="https://medium.com/linkbynet/deploying-opa-on-a-gke-cluster-da4d3d77812c">medium: Deploying Open Policy Agent (OPA) on a GKE cluster — Step by Step</a></li>
-<li><a href="https://github.com/instrumenta/policies">github.com/instrumenta/policies: A set of shared policies for use with Conftest and other Open Policy Agent tools 🌟</a></li>
-<li><a href="https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development">blog.styra.com: Using OPA with GitOps to speed Cloud-Native development</a></li>
-<li><a href="https://medium.com/gitguardian/what-is-policy-as-code-an-introduction-to-open-policy-agent-dba1400bb030">medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open Policy Agent</a></li>
-</ul>
-<h3 id="open-policy-agent-in-openshift">Open Policy Agent in OpenShift</h3>
-<ul>
-<li><a href="https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent">blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟</a></li>
-</ul>
-<h3 id="open-policy-agent-in-cloudflare-workers">Open Policy Agent in Cloudflare Workers</h3>
-<ul>
-<li><a href="https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker">compile OpenPolicyAgent policies into WebAssembly and run them on the edge</a></li>
-</ul>
-<h3 id="policy-as-code-in-terraform-cloud">Policy as Code in Terraform Cloud</h3>
-<ul>
-<li><a href="https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines">hashicorp.com: Securing Infrastructure In Application Pipelines</a> Learn how to use policy as code in Terraform Cloud to securely deliver applications.</li>
-</ul>
-<h3 id="other-opa-based-solutions">Other OPA based solutions</h3>
-<ul>
-<li>
-<p><a href="https://t.co/EKsVgKA4xn">IBM IAM for AI Agents</a> - <em>(Related to ai-agents-mcp topic)</em></p>
-</li>
-<li>
-<p><a href="https://snyk.io/product/container-vulnerability-management">Fugue: Container and Kubernetes. Runtime infrastructure security</a> - <a href="https://www.darkreading.com/dr-tech/fugue-adds-kubernetes-security-checks-to-secure-infrastructure-as-code">darkreading.com: Fugue Adds Kubernetes Security Checks to Secure Infrastructure-as-Code</a> Developers can apply proper security controls as they programmatically deploy Kubernetes clusters.</p>
-</li>
-</ul>
-<h2 id="other-policy-as-code-scanning-tools">Other Policy as Code Scanning Tools</h2>
-<ul>
-<li><a href="https://t.co/cvOceuueCF">IBM Vault 2.0 UI Enhancements and Reporting Improvements</a> - <em>(Related to ibm_cloud topic)</em></li>
-<li><a href="https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free">GitHub Code Security Risk Assessment: Free Vulnerability Scanning</a> - <em>(Related to devsecops topic)</em></li>
-<li><a href="https://web-check.xyz">Web-Check</a> - <em>(Related to kubernetes-tools topic)</em></li>
-<li>
-<p><a href="https://www.docker.com/blog/docker-hardened-images-for-every-developer">Docker Hardened Images for Every Developer</a> - <em>(Related to docker topic)</em></p>
-</li>
-<li>
-<p><a href="https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code">thenewstack.io: Yor Automates Tagging for Infrastructure as Code</a></p>
-</li>
-<li><a href="https://yor.io">yor.io</a> Automated IaC tag and trace. Yor is an open-source tool that automatically tags infrastructure as code (IaC) templates with attribution and ownership details, unique IDs that get carried across to cloud resources, and any other need-to-know information. Run Yor as a pre-commit hook or in your CI/CD pipeline for code to cloud traceability and auditability.</li>
-<li><a href="https://www.checkov.io">checkov.io</a> policy as code scanning tool</li>
-<li><a href="https://aws.amazon.com/es/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1">aws.amazon.com: Policy-based countermeasures for Kubernetes – Part 1</a> Choosing the right policy-as-code solution for your Kubernetes cluster:<ul>
-<li>OPA</li>
-<li>Gatekeeper</li>
-<li>Kyverno</li>
-<li>k-rail</li>
-<li><a href="https://github.com/tmobile/magtape">MagTape</a> Policy as code for kubernetes</li>
-</ul>
-</li>
-<li><a href="https://github.com/selefra/selefra">Selefra: Selefra is an open-source policy-as-code software that provides analytics for multi-cloud and SaaS.</a> Selefra means &ldquo;select * from infrastructure&rdquo;. It is an open-source infrastructure-as-code software that provides analysis for multi-cloud and SaaS environments, including over 30 services such as AWS, GCP, Azure, Alibaba Cloud, Kubernetes, Github, Cloudflare, and Slack.</li>
-</ul>
-<h2 id="kyverno">Kyverno</h2>
-<ul>
-<li><a href="https://kyverno.io">Kyverno 🌟</a> Kubernetes Native Policy Management. Open Policy Agent? That’s old school. Securely manage workloads on your kubernetesio clusters with this handy new tool, Kyverno.Kyverno is a policy engine designed for Kubernetes. With Kyverno, policies are managed as Kubernetes resources and no new language is required to write policies. This allows using familiar tools such as kubectl, git, and kustomize to manage policies. Kyverno policies can validate, mutate, and generate Kubernetes resources. The Kyverno CLI can be used to test policies and validate resources as part of a CI/CD pipeline. <a href="https://www.youtube.com/watch?v=8fgrjBnxqi0&amp;ab_channel=AppSecEngineer">youtube: The Way of the Future | Kubernetes Policy Management with Kyverno</a></li>
-<li><a href="https://venturebeat.com/2021/08/10/how-nirmata-plans-to-conquer-kubernetes-complexity-with-open-source-kyverno">venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with open source Kyverno</a></li>
-<li><a href="https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno">neonmirrors.net: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno 🌟</a></li>
-<li><a href="https://kyverno.io/policies">kyverno.io: 56 sample policies 🌟</a></li>
-<li><a href="https://dev.to/rinkiyakedad/using-kyverno-to-enforce-eks-best-practices-cad">dev.to: Using Kyverno To Enforce EKS Best Practices</a></li>
-<li>Tip: Use kyverno to monitor for usage of deprecated resources ahead of the Kubernetes 1.22 release (validation check to scan and report usage of deprecated resources) - <a href="https://github.com/kyverno/policies/issues/80">ref</a> - <a href="https://x.com/Marcus_Noble_/status/1417007780888825856">ref2</a></li>
-<li><a href="https://aws.amazon.com/blogs/containers/easy-as-one-two-three-policy-management-with-kyverno-on-amazon-eks">aws.amazon.com: Easy as one-two-three policy management with Kyverno on Amazon EKS 🌟</a></li>
-<li><a href="https://kyverno.io/docs/writing-policies/mutate">kyverno.io: Mutating Resources</a> Modify resources during admission control (Kyverno supports mutating resources).</li>
-<li><a href="https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes">squadcast.com: Kyverno - Policy Management in Kubernetes 🌟</a></li>
-<li><a href="https://neonmirrors.net/post/2020-12/exploring-kyverno-part3">neonmirrors.net: Exploring Kyverno: Part 3, Generation</a></li>
-<li><a href="https://kyverno.io/policies/best-practices/check_deprecated_apis">kyverno.io: Check deprecated APIs 🌟</a> Kubernetes APIs are sometimes deprecated and removed after a few releases. As a best practice, older API versions should be replaced with newer versions. This policy validates for APIs that are deprecated or scheduled for removal. Note that checking for some of these resources may require modifying the Kyverno ConfigMap to remove filters.</li>
-<li><a href="https://kyverno.io/docs/writing-policies/generate">kyverno.io: Generating resources into existing namespaces</a></li>
-<li><a href="https://kyverno.io/policies/other/add-pod-proxies">kyverno.io: Add Pod Proxies</a> A kyverno policy to inject K8s Pod proxy env variables.</li>
-<li><a href="https://kyverno.io/docs/writing-policies/autogen">kyverno.io: Auto-Gen Rules for Pod Controllers</a> Automatically generate rules for Pod controllers.</li>
-<li><a href="https://kyverno.io/policies/other/require_pdb">kyverno.io: Require PodDisruptionBudget</a> Use this kyverno sample to prevent app downtime by requiring all kubernetesio Deployments have a corresponding PodDisruptionBudget.</li>
-<li><a href="https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno">nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno</a></li>
-<li><a href="https://neonmirrors.net/post/2020-11/exploring-kyverno-intro">neonmirrors.net: Exploring Kyverno: Introduction 🌟</a></li>
-<li><a href="https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient">nirmata.com: Introducing Kyverno 1.4.2: Trusted And More Efficient!</a></li>
-<li><a href="https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps">searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps</a> Kyverno, a CNCF policy-as-code sandbox project, can help platform engineers navigate the transition toward the successor to Kubernetes pod security policies.</li>
-<li><a href="https://github.com/kyverno/policy-reporter">Policy Reporter 🌟</a> Creates Prometheus Metrics for PolicyReports and ClusterPolicyReports. Ships with an optional Web UI and can send new Results to different Clients like Loki and Elasticsearch. Provides a optional Monitoring Subchart with a ServiceMonitor and Grafana Dashboards for the Prometheus Operator.</li>
-<li><a href="https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel">sesin.at: Securing Kubernetes with Kyverno: How to Protect Your Users From Themselves by Ritesh Patel</a></li>
-<li><a href="https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4">movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno</a> Kyverno, a policy engine designed specifically for Kubernetes.</li>
-<li><a href="https://arun-sisodiya.medium.com/kyverno-a-policy-manager-for-kubernetes-286f6e082062">arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy as Code)</a></li>
-<li><a href="https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf">dev.to: Default Kyverno Policies for OpenEBS</a></li>
-<li><a href="https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno">cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟</a></li>
-<li><a href="https://github.com/kubernetes/kubernetes/issues/126811">A Kyverno policy to block custom snippet configurations for Kubernetes Nginx ingress (CVE-2021-25742</a></li>
-<li><a href="https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries"><mark>kyverno.io: Restrict Image Registries</mark></a> kyverno
- has a solid set of kubernetes policies and excellent documentation out of the box!</li>
-<li><a href="https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17">dev.to: Using Kyverno Policies for Kubernetes Governance</a></li>
-<li>
-<p><a href="https://kyverno.io/policies/best-practices/require_probes/require_probes">kyverno.io: Implementing your best practices is simple with kyverno</a></p>
-<ol>
-<li>Startup Probe</li>
-<li>Liveness Probe</li>
-<li>Readiness Probe</li>
-<li>Graceful shutdown - be able to handle a sigterm in kubernetes</li>
-</ol>
-</li>
-<li>
-<p><a href="https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad">medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno</a></p>
-</li>
-<li><a href="https://medium.com/@haseebshaukat2/kyverno-policy-engine-for-kubernetes-b49f3fac43b9">medium.com/@haseebshaukat2: Kyverno — Policy Engine for Kubernetes | Muhammad Haseeb Shaukat</a></li>
-<li><a href="https://www.youtube.com/watch?v=0TvhTXddRGE">youtube: The Rise of Kubernetes Policy Engine | Ep 57</a> Learn how to prepare for Pod Security Policies removal in Kubernetes V1.25 with Kyverno 1.8:<ul>
-<li>YAML signing and verification</li>
-<li>Pod security admission integrations</li>
-<li>Clone multiple resources</li>
-<li>OpenTelemetry</li>
-<li>Multi-tenancy</li>
-</ul>
-</li>
-<li><a href="https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad">medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters with Kyverno</a> With Kyverno:<ul>
-<li>Invalid resources can be blocked with helpful errors</li>
-<li>Misconfigured resources can be corrected on the fly</li>
-<li>New resources can be dynamically generated</li>
-</ul>
-</li>
-<li><a href="https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061">blog.sigstore.dev: How to verify container images with Kyverno using KMS, Cosign, and Workload Identity</a></li>
-<li><a href="https://medium.com/@glen.yu/why-i-prefer-kyverno-over-gatekeeper-for-native-kubernetes-policy-management-35a05bb94964">medium.com/@glen.yu: Why I prefer Kyverno over Gatekeeper for native Kubernetes policy management</a> I used to use Open Policy Agent Gatekeeper for Kubernetes policies but personally found writing new policies to be quite difficult with a steep learning curve. I then decided to give Kyverno a try and was really impressed with how easy it was to use.</li>
-</ul>
-<h3 id="kyverno-e-learning">Kyverno E-Learning</h3>
-<ul>
-<li><a href="https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno">appsecengineer.com: Kubernetes Policy Management with Kyverno</a></li>
-</ul>
-<h2 id="cloud-custodian">Cloud Custodian</h2>
-<ul>
-<li><a href="https://github.com/cloud-custodian/cloud-custodian">Cloud Custodian</a> is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that&rsquo;s both secure and cost optimized.</li>
-</ul>
-<h2 id="apolicy">Apolicy</h2>
-<ul>
-<li><a href="https://www.sysdig.com">Apolicy</a></li>
-<li><a href="https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code">sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation</a></li>
-</ul>
-<h2 id="azure-policy">Azure Policy</h2>
-<ul>
-<li><a href="https://learn.microsoft.com/en-us/entra/fundamentals/configure-security">Configure Microsoft Entra for Increased Security</a> - <em>(Related to kubernetes-security topic)</em></li>
-<li>
-<p><a href="https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts">Azure Network Security Perimeter Concepts</a> - <em>(Related to azure topic)</em></p>
-</li>
-<li>
-<p><a href="../azure/">Azure Policy</a></p>
-</li>
-</ul>
-
-
-
-
-
-
-
-
-
+  
+    <a href="https://github.com/nubenetes/awesome-kubernetes/edit/master/v2-docs/securityascode.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/nubenetes/awesome-kubernetes/raw/master/v2-docs/securityascode.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
   
 
 
+<h1 id="security-policy-as-code">Security Policy as Code<a class="headerlink" href="#security-policy-as-code" title="Permanent link">&para;</a></h1>
+<div class="admonition tip">
+<p class="admonition-title">Nubenetes V2 Elite Portal</p>
+<p>You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the <a href="/v1/securityascode/"><strong>V1 Historical Archive</strong></a>.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Architectural Context</p>
+<p>Detailed reference for Security Policy as Code in the context of Hardened Infrastructure.</p>
+</div>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#architectural-foundations">Architectural Foundations</a></li>
+<li><a href="#kubernetes-tools">Kubernetes Tools</a><ul>
+<li><a href="#general-reference">General Reference</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native-security">Cloud Native Security</a></li>
+<li><a href="#infrastructure-security">Infrastructure Security</a><ul>
+<li><a href="#iac-scanning">IaC Scanning</a></li>
+<li><a href="#mergers-and-acquisitions">Mergers and Acquisitions</a></li>
+<li><a href="#runtime-analysis">Runtime Analysis</a></li>
+</ul>
+</li>
+<li><a href="#policy-as-code">Policy-as-Code</a><ul>
+<li><a href="#educational-video">Educational Video</a></li>
+<li><a href="#governance">Governance</a></li>
+<li><a href="#kyverno">Kyverno</a></li>
+<li><a href="#kyverno-training">Kyverno Training</a></li>
+<li><a href="#opa">OPA</a></li>
+<li><a href="#opa-wasm">OPA Wasm</a></li>
+<li><a href="#rego">Rego</a></li>
+</ul>
+</li>
+<li><a href="#cloud-native-platforms">Cloud-Native Platforms</a></li>
+<li><a href="#infrastructure-as-code">Infrastructure-as-Code</a><ul>
+<li><a href="#tagging-and-auditing">Tagging and Auditing</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-reliability">Kubernetes Reliability</a><ul>
+<li><a href="#high-availability">High Availability</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-security">Kubernetes Security</a><ul>
+<li><a href="#eks">EKS</a></li>
+<li><a href="#gitops">GitOps</a></li>
+<li><a href="#governance-1">Governance</a></li>
+<li><a href="#kyverno-1">Kyverno</a></li>
+<li><a href="#kyverno-policies">Kyverno Policies</a></li>
+<li><a href="#kyverno-releases">Kyverno Releases</a></li>
+<li><a href="#policy-as-code-1">Policy-as-Code</a></li>
+<li><a href="#upgrade-paths">Upgrade Paths</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-storage">Kubernetes Storage</a><ul>
+<li><a href="#policy-as-code-2">Policy-as-Code</a></li>
+</ul>
+</li>
+<li><a href="#multi-cloud-governance">Multi-Cloud Governance</a><ul>
+<li><a href="#compliance-engine">Compliance Engine</a></li>
+</ul>
+</li>
+<li><a href="#multi-cluster-management">Multi-Cluster Management</a><ul>
+<li><a href="#policy-as-code-3">Policy-as-Code</a></li>
+</ul>
+</li>
+<li><a href="#security-and-compliance">Security and Compliance</a><ul>
+<li><a href="#cloud-security">Cloud Security</a></li>
+<li><a href="#developer-tooling">Developer Tooling</a></li>
+<li><a href="#iac-security">IaC Security</a></li>
+<li><a href="#policy-library">Policy Library</a></li>
+<li><a href="#policy-as-code-4">Policy-as-Code</a></li>
+</ul>
+</li>
+<li><a href="#security-reporting">Security Reporting</a><ul>
+<li><a href="#observability">Observability</a></li>
+</ul>
+</li>
+<li><a href="#supply-chain-security">Supply Chain Security</a><ul>
+<li><a href="#container-governance">Container Governance</a></li>
+<li><a href="#container-verifying">Container Verifying</a></li>
+<li><a href="#cryptographic-signatures">Cryptographic Signatures</a></li>
+</ul>
+</li>
+<li><a href="#public-cloud">Public Cloud</a></li>
+<li><a href="#azure-integration">Azure Integration</a><ul>
+<li><a href="#cloud-governance">Cloud Governance</a></li>
+</ul>
+</li>
+<li><a href="#security">Security</a></li>
+<li><a href="#policy-enforcement">Policy Enforcement</a><ul>
+<li><a href="#admission-control">Admission Control</a></li>
+</ul>
+</li>
+</ol>
+<h2 id="architectural-foundations">Architectural Foundations<a class="headerlink" href="#architectural-foundations" title="Permanent link">&para;</a></h2>
+<h3 id="kubernetes-tools">Kubernetes Tools<a class="headerlink" href="#kubernetes-tools" title="Permanent link">&para;</a></h3>
+<h4 id="general-reference">General Reference<a class="headerlink" href="#general-reference" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://t.co/EKsVgKA4xn">IBM IAM for AI Agents</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM IAM for AI Agents in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://t.co/cvOceuueCF">IBM Vault 2.0 UI Enhancements and Reporting Improvements</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IBM Vault 2.0 UI Enhancements and Reporting Improvements in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://web-check.xyz">Web-Check</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Web-Check in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.docker.com/blog/docker-hardened-images-for-every-developer">Docker Hardened Images for Every Developer</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/airwalk/automate-policies-enforcement-with-policy-as-code-2f20aac9e2b0">medium: Automate policies enforcement with Policy-as-Code 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Automate policies enforcement with Policy-as-Code 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.magalix.com/blog/integrating-open-policy-agent-opa-with-kubernetes-a-deep-dive-tutorial">magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Integrating Open Policy Agent (OPA) With Kubernetes 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/integrating-identity-oauth2-and-openid-connect-in-open-policy-agent">blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open' Policy Agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Integrating Identity: OAUTH2 and OPENID CONNECT in Open' Policy Agent in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/rego-unit-testing">blog.styra.com: Rego Unit Testing</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Rego Unit Testing in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/dynamic-policy-composition-for-opa">blog.styra.com: Dynamic Policy Composition for OPA</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Dynamic Policy Composition for OPA in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/5-opa-deployment-performance-models-for-microservices">blog.styra.com: 5 OPA Deployment Performance Models for Microservices</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: 5 OPA Deployment Performance Models for Microservices in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/open-policy-agent-the-top-5-kubernetes-admission-control-policies">blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control' Policies</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Open Policy Agent: The Top 5 Kubernetes Admission Control' Policies in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://siegert-maximilian.medium.com/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c">siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using' Notary and Open Policy Agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering siegert-maximilian.medium.com: Ensure Content Trust on Kubernetes using' Notary and Open Policy Agent in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/policy-based-infrastructure-guardrails-with-terraform-and-opa">blog.styra.com: Policy-based infrastructure guardrails with Terraform and' OPA 🌟</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Policy-based infrastructure guardrails with Terraform and' OPA 🌟 in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@ravindursr/automated-manifest-file-validation-using-open-policy-agent-and-github-actions-697fa9fd74f0">medium: Automated Manifest File Validation Using Open Policy Agent and GitHub' Actions | Ravindu Sandeepa Rathugama</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Automated Manifest File Validation Using Open Policy Agent and GitHub' Actions | Ravindu Sandeepa Rathugama in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://inspektor.cloud/blog/evaluating-open-policy-agent-in-rust-using-wasm">inspektor.cloud: Evaluating open policy agent in rust using wasm</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering inspektor.cloud: Evaluating open policy agent in rust using wasm in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/4th-coffee/what-is-policy-as-code-an-introduction-to-open-policy-agent-6098463f8461">medium.com/4th-coffee: What is Policy-as-Code? An Introduction to Open Policy' Agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/4th-coffee: What is Policy-as-Code? An Introduction to Open Policy' Agent in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://banzaicloud.com/blog/istio-opa">banzaicloud.com: Istio and Kubernetes ft. OPA policies</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering banzaicloud.com: Istio and Kubernetes ft. OPA policies in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@siegert.maximilian/ensure-content-trust-on-kubernetes-using-notary-and-open-policy-agent-485ab3a9423c">medium: Ensure Content Trust on Kubernetes using Notary and Open Policy' Agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Ensure Content Trust on Kubernetes using Notary and Open Policy' Agent in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/linkbynet/deploying-opa-on-a-gke-cluster-da4d3d77812c">medium: Deploying Open Policy Agent (OPA) on a GKE cluster — Step by Step</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Deploying Open Policy Agent (OPA) on a GKE cluster — Step by Step in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://blog.styra.com/blog/using-opa-with-gitops-to-speed-cloud-native-development">blog.styra.com: Using OPA with GitOps to speed Cloud-Native development</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.styra.com: Using OPA with GitOps to speed Cloud-Native development in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/gitguardian/what-is-policy-as-code-an-introduction-to-open-policy-agent-dba1400bb030">medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open' Policy Agent</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/gitguardian: What is Policy-as-Code? An Introduction to Open' Policy Agent in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://www.hashicorp.com/resources/securing-infrastructure-in-application-pipelines">hashicorp.com: Securing Infrastructure In Application Pipelines</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Securing Infrastructure In Application Pipelines in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://venturebeat.com/2021/08/10/how-nirmata-plans-to-conquer-kubernetes-complexity-with-open-source-kyverno">venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with' open source Kyverno</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering venturebeat.com: How Nirmata plans to ‘conquer Kubernetes complexity’ with' open source Kyverno in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://movi.hashnode.dev/simplify-kubernetes-cluster-management-with-kyverno-ckt6yxjqy0duy95s14groe7h4">movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering movi.hashnode.dev: Simplify Kubernetes Cluster Management with Kyverno in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://arun-sisodiya.medium.com/kyverno-a-policy-manager-for-kubernetes-286f6e082062">arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy' as Code)</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering arun-sisodiya.medium.com: Kyverno — A Kubernetes native policy manager (Policy' as Code) in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/compass-true-north/governing-multi-tenant-kubernetes-clusters-with-kyverno-3e11ba4a64ad">medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters' with Kyverno</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/compass-true-north: Governing Multi-Tenant Kubernetes Clusters' with Kyverno in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@haseebshaukat2/kyverno-policy-engine-for-kubernetes-b49f3fac43b9">medium.com/@haseebshaukat2: Kyverno — Policy Engine for Kubernetes | Muhammad' Haseeb Shaukat</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@haseebshaukat2: Kyverno — Policy Engine for Kubernetes | Muhammad' Haseeb Shaukat in the Kubernetes Tools ecosystem.</li>
+<li><a href="https://medium.com/@glen.yu/why-i-prefer-kyverno-over-gatekeeper-for-native-kubernetes-policy-management-35a05bb94964">medium.com/@glen.yu: Why I prefer Kyverno over Gatekeeper for native Kubernetes' policy management</a>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@glen.yu: Why I prefer Kyverno over Gatekeeper for native Kubernetes' policy management in the Kubernetes Tools ecosystem.</li>
+</ul>
+<h2 id="cloud-native-security">Cloud Native Security<a class="headerlink" href="#cloud-native-security" title="Permanent link">&para;</a></h2>
+<h3 id="infrastructure-security">Infrastructure Security<a class="headerlink" href="#infrastructure-security" title="Permanent link">&para;</a></h3>
+<h4 id="iac-scanning">IaC Scanning<a class="headerlink" href="#iac-scanning" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.sysdig.com">Apolicy</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apolicy (acquired by Sysdig) provides advanced policy-as-code governance designed for shifting cloud security left. Scans Infrastructure-as-Code (IaC) templates and automatically matches security rules to production deployment settings.</li>
+</ul>
+<h4 id="mergers-and-acquisitions">Mergers and Acquisitions<a class="headerlink" href="#mergers-and-acquisitions" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.sysdig.com/blog/sysdig-and-apolicy-join-forces-to-help-customer-secure-infrastructure-as-code">sysdig.com: Sysdig and Apolicy join forces to help customers secure Infrastructure As Code and automate remediation</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry announcement detailing Sysdig's acquisition of Apolicy. Highlights the integration of IaC security analysis with runtime monitoring to establish unified, end-to-end security loops from Git commits to production containers.</li>
+</ul>
+<h4 id="runtime-analysis">Runtime Analysis<a class="headerlink" href="#runtime-analysis" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2024)</strong> <a href="https://snyk.io/product/container-vulnerability-management">Fugue: Container and Kubernetes. Runtime infrastructure security</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fugue (now integrated under Snyk Container security suite) delivers continuous compliance and automated infrastructure monitoring for AWS, Azure, and Google Cloud alongside Kubernetes runtime configurations, mapping live states to CIS Benchmarks and SOC 2 frameworks.</li>
+</ul>
+<h3 id="policy-as-code">Policy-as-Code<a class="headerlink" href="#policy-as-code" title="Permanent link">&para;</a></h3>
+<h4 id="educational-video">Educational Video<a class="headerlink" href="#educational-video" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.youtube.com/watch?v=0TvhTXddRGE">youtube: The Rise of Kubernetes Policy Engine | Ep 57</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative panel discussion examining the rise of Kubernetes policy engines. Tracks the evolution from manual auditing workflows to declarative, automated gatekeeping systems using OPA Gatekeeper and Kyverno.</li>
+</ul>
+<h4 id="governance">Governance<a class="headerlink" href="#governance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.techtarget.com/searchitoperations/news/252505548/CNCF-policy-as-code-project-bridges-Kubernetes-security-gaps">searchitoperations.techtarget.com: CNCF policy-as-code project bridges Kubernetes security gaps</a> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining CNCF policy-as-code initiatives designed to patch security deficiencies within container orchestration. Compares the operational paradigms of Rego-based OPA and YAML-native Kyverno for policy-driven environments.</li>
+</ul>
+<h4 id="kyverno">Kyverno<a class="headerlink" href="#kyverno" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.redhat.com/en/blog/automate-your-security-practices-and-policies-on-openshift-with-kyverno">cloud.redhat.com: Automate Your Security Practices and Policies on OpenShift With Kyverno 🌟</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates automated security practice implementation inside OpenShift clusters utilizing Kyverno. Explores Kyverno's YAML-native approach, highlighting how platform engineers write policies using standard Kubernetes resource models without learning new programming languages.</li>
+</ul>
+<h4 id="kyverno-training">Kyverno Training<a class="headerlink" href="#kyverno-training" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2023)</strong> <a href="https://www.appsecengineer.com/courses-collection/kubernetes-policy-management-with-kyverno">appsecengineer.com: Kubernetes Policy Management with Kyverno</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational course focusing on Kyverno-driven Kubernetes policy engineering. Walks developers and SREs through writing advanced manifest mutation, generation, and validation policies with real-world scenarios.</li>
+</ul>
+<h4 id="opa">OPA<a class="headerlink" href="#opa" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2020)</strong> <a href="https://www.techtarget.com/searchitoperations/news/252467102/Kubernetes-policy-project-takes-enterprise-IT-by-storm">searchitoperations.techtarget.com: Kubernetes policy project takes enterprise IT by storm</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the massive industry shift toward Open Policy Agent (OPA) for centralized, policy-as-code enforcement. Emphasizes OPA's ability to unify policy layers across different tools like Kubernetes admission controllers, API gateways, and CI/CD pipelines.</li>
+<li><strong>(2020)</strong> <a href="https://www.redhat.com/en/blog/fine-grained-policy-enforcement-in-openshift-with-open-policy-agent">blog.openshift.com: Fine-Grained Policy Enforcement in OpenShift with Open Policy Agent 🌟</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical article by Red Hat showcasing fine-grained policy enforcement in OpenShift using Open Policy Agent. Details how to intercept Kubernetes API requests via admission controllers to block non-compliant resource deployments programmatically.</li>
+</ul>
+<h4 id="opa-wasm">OPA Wasm<a class="headerlink" href="#opa-wasm" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2025)</strong> <a href="https://github.com/open-policy-agent/contrib/tree/main/wasm/cloudflare-worker"><mark>compile OpenPolicyAgent policies into WebAssembly and run them on the edge</mark></a> <span class='md-tag md-tag--info'>⭐ 348</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba4855b5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 3 L 20 8 L 30 10 L 40 4 L 50 6" fill="none" stroke="url(#spark-grad-ba4855b5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[WEBASSEMBLY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source utility that compiles declarative Open Policy Agent (Rego) policies into high-performance WebAssembly (Wasm) modules. Designed for lightning-fast security and routing decisions at edge platforms like Cloudflare Workers and Envoy proxies.</li>
+</ul>
+<h4 id="rego">Rego<a class="headerlink" href="#rego" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://snyk.io/blog">fugue.co: 5 tips for using the Rego language for Open Policy Agent (OPA)</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An additional collection of advanced Rego development practices, focusing on unit-testing frameworks, mock injections, and playground emulator tools to ensure policy robustness and security governance.</li>
+</ul>
+<h2 id="cloud-native-platforms">Cloud-Native Platforms<a class="headerlink" href="#cloud-native-platforms" title="Permanent link">&para;</a></h2>
+<h3 id="infrastructure-as-code">Infrastructure-as-Code<a class="headerlink" href="#infrastructure-as-code" title="Permanent link">&para;</a></h3>
+<h4 id="tagging-and-auditing">Tagging and Auditing<a class="headerlink" href="#tagging-and-auditing" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://yor.io"><mark>yor.io</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, extensible auto-tagging tool designed to dynamically trace infrastructure-as-code from code to cloud. It automatically adds ownership, lineage, and environment metadata tags during pull requests, allowing operations teams to seamlessly trace production resources back to their source repository.</li>
+<li><strong>(2021)</strong> <a href="https://thenewstack.io/yor-automates-tagging-for-infrastructure-as-code">thenewstack.io: Yor Automates Tagging for Infrastructure as Code</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the capabilities of Yor, an automated tagging engine designed to apply consistent metadata to IaC assets (Terraform, CloudFormation). Tracks resource ownership, drift, and git commit history through auto-injected tags, improving traceability and cloud financial operations (FinOps).</li>
+</ul>
+<h3 id="kubernetes-reliability">Kubernetes Reliability<a class="headerlink" href="#kubernetes-reliability" title="Permanent link">&para;</a></h3>
+<h4 id="high-availability">High Availability<a class="headerlink" href="#high-availability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/policies/other/require_pdb">kyverno.io: Require PodDisruptionBudget</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standardized Kyverno policy template ensuring that all mission-critical deployments are paired with active PodDisruptionBudgets (PDB). This governance rule guarantees cluster high-availability by guarding applications against node drain and cluster maintenance operations.</li>
+</ul>
+<h3 id="kubernetes-security">Kubernetes Security<a class="headerlink" href="#kubernetes-security" title="Permanent link">&para;</a></h3>
+<h4 id="eks">EKS<a class="headerlink" href="#eks" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/rinkiyakedad/using-kyverno-to-enforce-eks-best-practices-cad">dev.to: Using Kyverno To Enforce EKS Best Practices</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guided tutorial showing how platform engineers can utilize Kyverno to systematically lock down Amazon EKS clusters. Illustrates policy enforcement setups to enforce multi-tenant isolation, require standard resource limits, and disable host networking, using declarative Kubernetes manifests.</li>
+</ul>
+<h4 id="gitops">GitOps<a class="headerlink" href="#gitops" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://thenewstack.io/weaveworks-adds-policy-as-code-to-secure-kubernetes-apps">thenewstack.io: Weaveworks Adds Policy as Code to Secure Kubernetes Apps' (Magalix)</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reports on Weaveworks' acquisition and integration of Magalix to embed Policy-as-Code directly into GitOps pipelines. Details how declarative governance policies can be evaluated in continuous-delivery cycles prior to deployment, preventing misconfigured resources from ever entering a live cluster.</li>
+</ul>
+<h4 id="governance-1">Governance (1)<a class="headerlink" href="#governance-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://dev.to/mda590/using-kyverno-policies-for-kubernetes-governance-3e17">dev.to: Using Kyverno Policies for Kubernetes Governance</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how organizations can use Kyverno to establish governance guardrails across shared development environments. Covers automating labels, validating ownership configurations, and managing resource consumption rules to ensure multi-tenant hygiene.</li>
+</ul>
+<h4 id="kyverno-1">Kyverno (1)<a class="headerlink" href="#kyverno-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/docs/writing-policies/mutate">kyverno.io: Mutating Resources</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation detailing how Kyverno modifies incoming resource specifications dynamically using JSON patch operations. It covers mutating rules such as auto-injecting sidecar containers, adding node affinity constraints, and enforcing default labels on namespaces at creation time.</li>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/docs/writing-policies/generate">kyverno.io: Generating resources into existing namespaces</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official guide on retroactively generating Kubernetes objects, such as secrets or network rules, across pre-existing namespaces using Kyverno's dynamic policy synchronization engine. Eliminates manually syncing resources across namespaces created prior to policy deployment.</li>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/docs/writing-policies/autogen">kyverno.io: Auto-Gen Rules for Pod Controllers</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Illustrates how Kyverno automatically propagates policies applied to raw Pod specs to downstream controllers (Deployments, DaemonSets, StatefulSets). Simplifies security operations by validating configurations at high-level workloads rather than only catching errors at low-level pod schedulers.</li>
+<li><strong>(2021)</strong> <a href="https://www.squadcast.com/blog/kyverno-policy-management-in-kubernetes">squadcast.com: Kyverno - Policy Management in Kubernetes 🌟</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the design patterns of Kyverno as a Kubernetes-native policy engine that eliminates the need to learn specialized programming languages. Highlights how Kyverno manages resource validation, mutation, and generation using declarative YAML configurations designed to fit existing GitOps workflows.</li>
+<li><strong>(2020)</strong> <a href="https://neonmirrors.net/post/2020-12/exploring-kyverno-part3">neonmirrors.net: Exploring Kyverno: Part 3, Generation</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive technical exploration into Kyverno's generation rules, demonstrating how the policy engine can automatically provision ancillary resources, like NetworkPolicies or ConfigMaps, whenever a new namespace is initialized. Optimizes cluster bootstrapping without custom operators.</li>
+<li><strong>(2020)</strong> <a href="https://neonmirrors.net/post/2020-11/exploring-kyverno-intro">neonmirrors.net: Exploring Kyverno: Introduction 🌟</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational introductory article dissecting the architecture and operational benefits of adopting Kyverno. Contrasts it with custom-coded validating webhooks and details its direct design philosophy of aligning container policy administration with idiomatic Kubernetes constructs.</li>
+</ul>
+<h4 id="kyverno-policies">Kyverno Policies<a class="headerlink" href="#kyverno-policies" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/policies/other/add-pod-proxies">kyverno.io: Add Pod Proxies</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical documentation demonstrating how to use Kyverno to dynamically inject HTTP/HTTPS proxy environment variables into Pod containers upon admission. Solves enterprise proxy configuration demands automatically without requiring manual pod-by-pod updates from development teams.</li>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/policies/best-practices/require_probes/require_probes">kyverno.io: Implementing your best practices is simple with kyverno</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Standard Kyverno policy design pattern focused on enforcing health probe settings (liveness, readiness, startup) across all deployed container payloads. This rule enforces Kubernetes operations best practices, safeguarding application lifecycle management and endpoint routing.</li>
+</ul>
+<h4 id="kyverno-releases">Kyverno Releases<a class="headerlink" href="#kyverno-releases" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://nirmata.com/2021/08/18/introducing-kyverno-1-4-2-trusted-and-more-efficient">nirmata.com: Introducing Kyverno 1.4.2: Trusted And More Efficient!</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews release-specific improvements introduced in Kyverno v1.4.2, highlighting optimizations in validation speeds, improved caching models, and expanded schema support. Provides performance benchmarks of Kyverno when subjected to scale workloads across massive enterprise orchestrators.</li>
+</ul>
+<h4 id="policy-as-code-1">Policy-as-Code (1)<a class="headerlink" href="#policy-as-code-1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/raspbernetes/k8s-security-policies"><mark>k8s-security-policies</mark></a> <span class='md-tag md-tag--info'>⭐ 177</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-36066366" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 10 L 20 5 L 30 6 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-36066366)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A repository hosting robust and ready-to-use security configurations for Kubernetes clusters, heavily focused on replacing deprecated PodSecurityPolicies with Kyverno and OPA alternatives. It is a highly practical compliance baseline library for platform teams seeking rapid deployment of security controls.</li>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1">amazon.com: Policy-based countermeasures for Kubernetes – Part 1</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed architectural guide on implementing declarative guardrails in EKS clusters to reduce attack surfaces. Focuses on the synergy between Kubernetes admission controllers and modern policy engines, illustrating how to validate and mutate payloads to block insecure configuration drift.</li>
+<li><strong>(2021)</strong> <a href="https://aws.amazon.com/es/blogs/containers/policy-based-countermeasures-for-kubernetes-part-1">aws.amazon.com: Policy-based countermeasures for Kubernetes – Part 1</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Spanish localized edition of AWS's architectural breakdown detailing policy-driven mitigations within Kubernetes runtime layers. Instructs platform engineers on configuring robust security guardrails using native Kubernetes controllers and cloud provider identity brokers to neutralize container vulnerabilities.</li>
+<li><strong>(2021)</strong> <a href="https://neonmirrors.net/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno">neonmirrors.net: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno' 🌟</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal technical comparison contrasting the architecture and design patterns of OPA Gatekeeper (relying on the domain-specific Rego language) against Kyverno (which uses native Kubernetes YAML). Helps engineers evaluate resource consumption, developer velocity, and cognitive overhead for both systems.</li>
+<li><strong>(2021)</strong> <a href="https://www.sesin.at/2021/08/28/securing-kubernetes-with-kyverno-how-to-protect-your-users-from-themselves-by-ritesh-patel">sesin.at: Securing Kubernetes with Kyverno: How to Protect Your Users From' Themselves by Ritesh Patel</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores security policy implementation using Kyverno to proactively safeguard users against unsafe configuration actions. Discusses deployment of best-practice guardrails, preventing privilege escalation, insecure mount paths, and other critical risks without impeding agile deployment workflows.</li>
+</ul>
+<h4 id="upgrade-paths">Upgrade Paths<a class="headerlink" href="#upgrade-paths" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/policies/best-practices/check_deprecated_apis">kyverno.io: Check deprecated APIs 🌟</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines a pre-configured Kyverno policy targeted at scanning incoming manifests to detect and block deprecated or removed Kubernetes API groups. Indispensable for preventing cluster upgrade blockages, validating manifests before execution on newer API-driven orchestrators.</li>
+</ul>
+<h3 id="kubernetes-storage">Kubernetes Storage<a class="headerlink" href="#kubernetes-storage" title="Permanent link">&para;</a></h3>
+<h4 id="policy-as-code-2">Policy-as-Code (2)<a class="headerlink" href="#policy-as-code-2" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://dev.to/niveditacoder/default-kyverno-policies-for-openebs-4abf">dev.to: Default Kyverno Policies for OpenEBS</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walks through establishing Kyverno policies optimized for workloads using OpenEBS as their persistent storage driver. Demonstrates how to automatically enforce volume attachment limits, dynamic volume provisioning policies, and validate container mount points for improved system stability.</li>
+</ul>
+<h3 id="multi-cloud-governance">Multi-Cloud Governance<a class="headerlink" href="#multi-cloud-governance" title="Permanent link">&para;</a></h3>
+<h4 id="compliance-engine">Compliance Engine<a class="headerlink" href="#compliance-engine" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/cloud-custodian/cloud-custodian"><mark>Cloud Custodian</mark></a> <span class='md-tag md-tag--info'>⭐ 6007</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6de45dba" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 4 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-6de45dba)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A robust, YAML-configured rules engine used by enterprise platform engineers to manage multi-cloud compliance, cost control, and security posture across AWS, Azure, and GCP. Automates cost-saving resource deletions, tag compliance, and real-time security remediation.</li>
+</ul>
+<h3 id="multi-cluster-management">Multi-Cluster Management<a class="headerlink" href="#multi-cluster-management" title="Permanent link">&para;</a></h3>
+<h4 id="policy-as-code-3">Policy-as-Code (3)<a class="headerlink" href="#policy-as-code-3" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://www.kubermatic.com/blog/using-open-policy-agent-with-kubermatic">kubermatic.com: Using Open Policy Agent With Kubermatic Kubernetes Platform</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the implementation of OPA Gatekeeper within Kubermatic Kubernetes Platform (KKP) for programmatic multi-cluster fleet management. Illustrates how operators can centrally define, distribute, and enforce admission controller policies across dozens of hybrid and multi-cloud Kubernetes deployments.</li>
+</ul>
+<h3 id="security-and-compliance">Security and Compliance<a class="headerlink" href="#security-and-compliance" title="Permanent link">&para;</a></h3>
+<h4 id="cloud-security">Cloud Security<a class="headerlink" href="#cloud-security" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/selefra/selefra"><mark>Selefra: Selefra is an open-source policy-as-code software that provides' analytics for multi-cloud and SaaS.</mark></a> <span class='md-tag md-tag--info'>⭐ 545</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1224f44c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 10 L 30 8 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-1224f44c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source policy-as-code platform engineered to analyze multi-cloud and SaaS configurations using SQL-based query patterns. This tool enables developers to scan cloud resources for compliance defects, security gaps, and operational overhead with rapid execution and modular plugins.</li>
+</ul>
+<h4 id="developer-tooling">Developer Tooling<a class="headerlink" href="#developer-tooling" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/policy-hub/policy-hub-cli"><mark>PolicyHub CLI, a CLI tool that makes Rego policies searchable 🌟</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight command-line utility engineered to improve discoverability and usability of Rego-based policies. This tool parses and indexes shared policy repositories, enabling infrastructure and platform engineers to search, validate, and integrate standard compliance policies directly from local environments.</li>
+</ul>
+<h4 id="iac-security">IaC Security<a class="headerlink" href="#iac-security" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.checkov.io"><mark>checkov.io</mark></a> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A leading static code analysis utility designed to scan Infrastructure-as-Code configurations (Terraform, Kubernetes, CloudFormation, Helm, Dockerfile) for security misconfigurations. Features out-of-the-box policy libraries that enforce industry standards like CIS Benchmarks, SOC2, and HIPAA prior to deployment.</li>
+</ul>
+<h4 id="policy-library">Policy Library<a class="headerlink" href="#policy-library" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://github.com/instrumenta/policies"><mark>github.com/instrumenta/policies: A set of shared policies for use with Conftest' and other Open Policy Agent tools</mark></a> <span class='md-tag md-tag--info'>⭐ 66</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bfe49355" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 11 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-bfe49355)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured directory of modular policy files for linting infrastructure-as-code deployments (Terraform, Kubernetes YAML, Helm charts). Designed to enforce standards like non-root container runs, memory limit boundaries, and forbidden network ingress setups early in CI/CD cycles.</li>
+</ul>
+<h4 id="policy-as-code-4">Policy-as-Code (4)<a class="headerlink" href="#policy-as-code-4" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://www.openpolicyagent.org"><mark>OPA Open Policy Agent 🌟</mark></a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — General-purpose policy engine designed to unify and enforce fine-grained authorization across microservices, Kubernetes, CI/CD, and API gateways. Uses the declarative query language Rego to decouple policy decisions from execution, serving as a critical cornerstone in modern Zero-Trust architectures.</li>
+<li><strong>(2022)</strong> <a href="https://blog.gitguardian.com/what-is-policy-as-code-an-introduction-to-open-policy-agent">blog.gitguardian.com: What is Policy-as-Code? An Introduction to Open Policy' Agent</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive introduction to Open Policy Agent (OPA) and its application of declarative, domain-agnostic policy enforcement using the Rego language. Evaluates the architectural shift of separating policy logic from application code, making security policies testable and auditable in Git repos.</li>
+<li><strong>(2022)</strong> <a href="https://dev.to/permit_io/load-external-data-into-opa-the-good-the-bad-and-the-ugly-26lc">dev.to: Load external data into OPA: The Good, The Bad, and The Ugly</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses the complex architectural patterns required for injecting dynamic runtime datasets into Open Policy Agent (OPA). Evaluates caching strategies, JWT validation, HTTP pull-push mechanisms, and their relative trade-offs regarding latency, scalability, and network failure tolerance inside authorization pathways.</li>
+<li><strong>(2021)</strong> <a href="https://thenewstack.io/getting-open-policy-agent-up-and-running">thenewstack.io: Getting Open Policy Agent Up and Running</a> <span class='md-tag md-tag--warning'>[REGO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pragmatic guide detailing bootstrap procedures for deploying Open Policy Agent (OPA) inside production systems. Guides the reader through daemon configuration, loading external data contexts, and integrating policy enforcement into Kubernetes via the Gatekeeper admission controller framework.</li>
+</ul>
+<h3 id="security-reporting">Security Reporting<a class="headerlink" href="#security-reporting" title="Permanent link">&para;</a></h3>
+<h4 id="observability">Observability<a class="headerlink" href="#observability" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://github.com/kyverno/policy-reporter"><mark>Policy Reporter 🌟</mark></a> <span class='md-tag md-tag--info'>⭐ 371</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65952f03" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 8 L 20 9 L 30 3 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-65952f03)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A CNCF-recognized dashboard and reporter engineered to capture, aggregate, and visualize policy violations (like Kyverno or OPA findings) inside Kubernetes clusters. Converts abstract policy status reports into accessible web UI tables and distributes real-time alerts to Slack or Grafana.</li>
+</ul>
+<h3 id="supply-chain-security">Supply Chain Security<a class="headerlink" href="#supply-chain-security" title="Permanent link">&para;</a></h3>
+<h4 id="container-governance">Container Governance<a class="headerlink" href="#container-governance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://kyverno.io/policies/best-practices/restrict_image_registries/restrict_image_registries">kyverno.io: Restrict Image Registries</a> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation outlining how to write Kyverno policies to block deployment of images from unapproved registries. Enforces a key tenant of secure container delivery by ensuring workloads only pull code from trusted, internally-vetted registry endpoints.</li>
+</ul>
+<h4 id="container-verifying">Container Verifying<a class="headerlink" href="#container-verifying" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2021)</strong> <a href="https://nirmata.com/2021/08/12/kubernetes-supply-chain-policy-management-with-cosign-and-kyverno">nirmata.com: Kubernetes Supply Chain Policy Management with Cosign and Kyverno</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical guide demonstrating how Nirmata utilizes Sigstore Cosign paired with Kyverno to authenticate digital signatures on incoming container images. Establishes programmatic cryptographic validation inside admission paths, preventing unverified or tampered binaries from launching in production environments.</li>
+</ul>
+<h4 id="cryptographic-signatures">Cryptographic Signatures<a class="headerlink" href="#cryptographic-signatures" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://blog.sigstore.dev/how-to-verify-container-images-with-kyverno-using-kms-cosign-and-workload-identity-1e07d2b85061">blog.sigstore.dev: How to verify container images with Kyverno using KMS,' Cosign, and Workload Identity</a> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical exploration of enterprise container security architectures. Provides steps to construct a validation loop that verifies image signatures dynamically using Kyverno, integrated directly with KMS key stores, Sigstore Cosign, and OIDC-based Workload Identity.</li>
+</ul>
+<h2 id="public-cloud">Public Cloud<a class="headerlink" href="#public-cloud" title="Permanent link">&para;</a></h2>
+<h3 id="azure-integration">Azure Integration<a class="headerlink" href="#azure-integration" title="Permanent link">&para;</a></h3>
+<h4 id="cloud-governance">Cloud Governance<a class="headerlink" href="#cloud-governance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2026)</strong> <a href="https://nubenetes.com/azure/"><strong>Azure Policy</strong></a> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized gateway and reference documentation for enforcing structural compliance, resource auditing, and governance across Azure resource environments. Explains custom definition policies, policy initiatives, and automated remediation workflows. Critical reference for maintaining operational guardrails in enterprise cloud architectures.</li>
+</ul>
+<h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
+<h3 id="policy-enforcement">Policy Enforcement<a class="headerlink" href="#policy-enforcement" title="Permanent link">&para;</a></h3>
+<h4 id="admission-control">Admission Control<a class="headerlink" href="#admission-control" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>(2022)</strong> <a href="https://github.com/tmobile/magtape">MagTape</a> <span class='md-tag md-tag--info'>⭐ 152</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7aafde66" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 7 L 30 3 L 40 5 L 50 7" fill="none" stroke="url(#spark-grad-7aafde66)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An admission controller developed by T-Mobile that evaluates resources against organizational policy constraints during creation. Written in Node.js, it offered a lightweight alternative to OPA for specific JSON schema validations. By 2026, it has been largely archived, with developers migrating to Gatekeeper or Kyverno.</li>
+</ul>
+<hr />
+<p>💡 <strong>Explore Related:</strong> <a href="../iac/">IaC</a> | <a href="../terraform/">Terraform</a> | <a href="../chef/">Chef</a></p>
 
-  <form class="md-feedback" name="feedback" hidden>
-    <fieldset>
-      <legend class="md-feedback__title">
-        Was this page helpful?
-      </legend>
-      <div class="md-feedback__inner">
-        <div class="md-feedback__list">
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
-            </button>
-          
-            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
-            </button>
-          
-        </div>
-        <div class="md-feedback__note">
-          
-            <div data-md-value="1" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback!
-            </div>
-          
-            <div data-md-value="0" hidden>
-              
-              
-                
-              
-              
-              
-                
-                
-              
-              Thanks for your feedback! Help us improve this page by using our <a href="..." target=_blank>feedback form</a>.
-            </div>
-          
-        </div>
-      </div>
-    </fieldset>
-  </form>
+
+
+
+
+
+
+
+
+
 
 
                 
@@ -3212,8 +3141,6 @@
             </div>
           
           
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
@@ -3232,7 +3159,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      2026 <a href="https://twitter.com/nubenetes">Nubenetes</a>, <a href="https://nubenetes.com/about/">about</a>.
+      Copyright &copy; 2026 Nubenetes Agentic Intelligence
     </div>
   
   
@@ -3253,8 +3180,8 @@
       
       
     
-    <a href="https://www.youtube.com/channel/UCnrc0CFnNJSG2Kt4Ohdr3UA/playlists?view=1" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    <a href="https://github.com/nubenetes/awesome-kubernetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
     </a>
   
     
@@ -3265,50 +3192,6 @@
       
     
     <a href="https://twitter.com/nubenetes" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://github.com/nubenetes" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M202.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M496 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://speakerdeck.com/nubenetes/stars" target="_blank" rel="noopener" title="speakerdeck.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M213.9 296H100c-26.5 0-52-10.5-70.7-29.3S0 222.5 0 196s10.5-52 29.3-70.7S73.5 96 100 96h132.8c10.6 0 20.8 4.2 28.3 11.7s11.7 17.7 11.7 28.3-4.2 20.8-11.7 28.3-17.7 11.7-28.3 11.7H98c-26.5 0-26.4 40 0 40h113.8c26.5 0 52 10.5 70.7 29.3s29.3 44.2 29.3 70.7-10.5 52-29.3 70.7-44.2 29.3-70.7 29.3H40c-10.6 0-20.8-4.2-28.3-11.7S0 386.6 0 376s4.2-20.8 11.7-28.3S29.4 336 40 336h173.9c26.5 0 26.5-40 0-40M298 416c13.5-9.2 25-21 33.8-34.7s14.7-29.2 17.3-45.3h64.6c2.6 0 5.2-.6 7.6-1.6s4.6-2.5 6.4-4.4 3.3-4.1 4.2-6.5 1.5-5 1.4-7.6v-120c0-2.6-.5-5.2-1.4-7.6s-2.4-4.6-4.2-6.5-4-3.3-6.4-4.4-5-1.6-7.6-1.6H296.5c9.7-11.1 15-25.3 15-40s-5.3-28.9-15-40h136.9c43.4 0 78.6 35.8 78.6 80v160c0 44.2-35.2 80-78.6 80z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://www.slideshare.net/nubenetes/favorites" target="_blank" rel="noopener" title="www.slideshare.net" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M187.9 153.7c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7s61.7-26 61.7-57.7c0-32-27.7-57.7-61.7-57.7m143.4 0c-34 0-61.7 25.7-61.7 57.7 0 31.7 27.7 57.7 61.7 57.7 34.3 0 61.7-26 61.7-57.7.1-32-27.4-57.7-61.7-57.7m156.6 90-6 4.3V49.7c0-27.4-20.6-49.7-46-49.7H76.8c-25.4 0-46 22.3-46 49.7V248c-2-1.4-4.3-2.9-6.3-4.3-15.1-10.6-25.1 4-16 17.7 18.3 22.6 53.1 50.3 106.3 72-56.3 191.7 137.4 222.3 134.3 124.1 0-.7.3-56.6.3-96.6 5.1 1.1 9.4 2.3 13.7 3.1 0 39.7.3 92.8.3 93.5-3.1 98.3 190.6 67.7 134.3-124 53.1-21.7 88-49.4 106.3-72 9.1-13.8-.9-28.3-16.1-17.8m-30.5 19.2c-68.9 37.4-128.3 31.1-160.6 29.7-23.7-.9-32.6 9.1-33.7 24.9-10.3-7.7-18.6-15.5-20.3-17.1-5.1-5.4-13.7-8-27.1-7.7-31.7 1.1-89.7 7.4-157.4-28V72.3c0-34.9 8.9-45.7 40.6-45.7h317.7c30.3 0 40.9 12.9 40.9 45.7v190.6z"/></svg>
-    </a>
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/redhatspain" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
     </a>
   
@@ -3335,90 +3218,15 @@
     </div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-
-  
-
-
-<h4>Cookie consent</h4>
-<p>We use cookies to recognize your repeated visits and preferences, as well as to measure the effectiveness of our documentation and whether users find what they're searching for. With your consent, you're helping us to make our documentation better.</p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="analytics" checked>
-      <span class="task-list-indicator"></span>
-      Google Analytics
-    </label>
-  </li>
-
-      
-    
-    
-      
-        
-  
-  
-    
-    
-  
-  <li class="task-list-item">
-    <label class="task-list-control">
-      <input type="checkbox" name="github" checked>
-      <span class="task-list-indicator"></span>
-      GitHub
-    </label>
-  </li>
-
-      
-    
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
-    
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "toc.integrate", "navigation.top", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.prune", "navigation.indexes", "search.highlight", "search.share", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.code.copy", "content.action.view", "content.action.edit", "content.tooltips", "navigation.prune", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascript/extra.js"></script>
+        <script src="../static/v2_filter.js"></script>
       
     
   </body>

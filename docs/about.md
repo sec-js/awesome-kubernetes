@@ -113,7 +113,27 @@ Let's improve both the private & public IT sector and the opportunities in large
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GZl7N8sXyEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 </center>
+
+## Automation and Orchestration
+
+These are the core tools and frameworks that have been or are significant in my work, fully aligned with the automation and standardization principles of this manifest:
+
+- [Ansible Kubernetes Modules](https://docs.ansible.com/projects/ansible/latest/collections/kubernetes/core/k8s_module.html) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Declarative configuration management for Kubernetes resources, bringing Ansible's idempotent execution model to container state management.
+- [AWX](https://github.com/ansible/awx) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The open-source upstream project for Ansible Automation Controller, providing a web-based console, REST API, and task engine.
+- [Argo CD](https://argoproj.github.io/argo-cd) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Declarative, GitOps continuous delivery tool for Kubernetes, ensuring that the cluster state exactly matches the git repository state.
+- [Helm](https://github.com/helm/helm) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The package manager for Kubernetes, facilitating the packaging, configuration, and deployment of complex container applications.
+- [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Standardizing Jenkins master configuration via declarative YAML, eliminating configuration drift and manual UI administration.
+- [Jenkins CLI](https://www.jenkins.io/doc/book/managing/cli) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Command-line interface for managing and triggering jobs in Jenkins automation server.
+- [Jenkins Remote Access API](https://www.jenkins.io/doc/book/using/remote-access-api) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Programmatic REST API endpoints for Jenkins integration and orchestration.
+- [GitLab CI/CD](https://docs.gitlab.com/ee/ci) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Built-in continuous integration and delivery engine of GitLab, supporting declarative YAML pipeline specifications.
+- [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
+- [Swagger Codegen](https://github.com/swagger-api/swagger-codegen) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
+- [Postman](https://www.postman.com) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard platform for API design, testing, mock servers, and automated collection runs.
+- [Terraform Kubernetes Provider](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Kubernetes provider for Terraform, enabling declarative deployment and management of Kubernetes resources using HashiCorp Configuration Language (HCL).
+- [Terraform Kubernetes Boilerplates](https://nubenetes.com/terraform) <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS).
+
 ----
+
 
 ## Cloud Computing job market in 2016
 
