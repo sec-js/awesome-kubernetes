@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.5.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.5) - 2026-06-18
+
+### Added
+- **Modern CSS Enhancements**: Implemented browser-native CSS enhancements in `v2_elite.css` including typographic header balancing (`text-wrap: balance`), orphan word prevention (`text-wrap: pretty`), native auto-sizing form inputs (`field-sizing: content`), and coarser target sizes (`min-block-size: 44px`) for mobile tag/button targets.
+- **Unified Pipeline Concurrency**: Set up a shared static concurrency group `develop-git-write-lock` across workflows (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) to prevent git push race conditions on the `develop` branch.
+- **Push Fail Recovery**: Enhanced the git push rebase retry loops in publisher and sync workflows to verify push success and back-off before retrying.
+
+### Fixed
+- **Markdown Horizontal Rule Linting**: Corrected horizontal rule style in `docs/about.md` to use four-hyphen `----` to comply with markdownlint rules.
+
 ## [[2.5.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.4) - 2026-06-18
 
 ### Added

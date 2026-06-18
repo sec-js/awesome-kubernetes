@@ -315,8 +315,8 @@ graph TD
 </details>
 
 **Key Architectural Hardening:**
-- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a common concurrency group `develop-git-push` to serialize git pushes on `develop`.
-- **Self-Healing Git Rebase:** Incorporates a rebase retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD and re-running generators, preventing CI/CD pipeline failures.
+- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a static, unified concurrency group `develop-git-write-lock` to serialize git write operations on `develop` across all branches and event triggers.
+- **Self-Healing Git Rebase & Push Recovery:** Incorporates a rebase and push retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD, re-running generators, and validating both the rebase and push commands before exiting successfully, ensuring total CI/CD pipeline stability.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
 - **Dependency Caching:** Global Pip caching via `requirements.txt` slashes build times across all pipelines.

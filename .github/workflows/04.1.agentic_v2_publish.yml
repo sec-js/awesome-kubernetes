@@ -23,7 +23,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: develop-git-push-${{ github.ref }}
+  group: develop-git-write-lock
   cancel-in-progress: false
 
 jobs:
@@ -101,10 +101,12 @@ jobs:
             echo "No automated changes to commit."
           else
             git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
-            # Pull and rebase with automatic resolution of README.md conflicts by regenerating metrics
+            # Pull, rebase, and push with automatic resolution of README.md conflicts
             for i in {1..5}; do
               if git pull origin develop --rebase; then
-                git push origin develop && exit 0
+                if git push origin develop; then
+                  exit 0
+                fi
               else
                 echo "Rebase conflict detected, attempting self-healing..."
                 # Discard local conflicting changes to README.md and accept remote
@@ -118,6 +120,7 @@ jobs:
                 git add README.md
                 git commit --amend --no-edit
               fi
+              sleep 5
             done
             git push origin develop
           fi
