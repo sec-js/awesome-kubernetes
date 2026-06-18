@@ -220,7 +220,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
@@ -268,5 +268,5 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
   - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org: Kiss up kick down in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cheatsheets](./cheatsheets.md)
 
