@@ -141,7 +141,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18639+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5907+** |
+| **Total Commits** | **5910+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -179,7 +179,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2348 | 9,697 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2351 | 9,709 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -195,8 +195,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 10000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9697]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2348]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 9709]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2351]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -206,7 +206,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 222 | 916 | Active Curation |
+| 2026-06 | 225 | 929 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -393,7 +393,7 @@ To maintain the high-density quality of V2 without redundant AI costs, the `V2Vi
    - **Maturity Tagging**: Applies a sophisticated 5-tier taxonomy (De Facto Standard, Enterprise Stable, Emerging, Legacy, Guide) based on live data.
    - **Mandatory AI Descriptions**: Ensures 100% description coverage. If a link in V1 lacks a description, the engine automatically generates a professional summary using Gemini.
 3. **UI Polish**: Implements strategic highlighting (`==text==`) for top-tier resources and a clean chronological view that hides unknown dates.
-4. **Flat Routing**: Both versions use `use_directory_urls: false` to ensure relative asset paths (`images/`) remain stable across all sub-pages.
+4. **Clean URLs (SEO-Friendly)**: Both versions use `use_directory_urls: true` to ensure clean directory-style URLs (e.g. `/kubernetes/` instead of `/kubernetes.html`) for optimal SEO.
 
 ### 5.5. Decoupled Knowledge Lifecycle (V2 Architecture)
 To scale to 10,000+ resources while staying within GitHub's 6-hour execution limit, the V2 creation process is decoupled into **Specialized Micro-Workflows**. Each workflow operates independently on the [Unified Inventory](data/inventory.yaml).
