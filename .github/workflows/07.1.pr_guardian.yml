@@ -49,7 +49,7 @@ jobs:
         run: |
           git config --global user.name "nubenetes-bot"
           git config --global user.email "bot@nubenetes.com"
-          git add docs/ v2-docs/ README.md data/inventory.yaml src/memory/
+          git add docs/ v2-docs/ README.md data/inventory.yaml data/inventory.sql src/memory/
           if ! git diff --cached --quiet; then
             git commit -m "style(cleaner): auto-correcting formatting & URL normalization"
             git push origin HEAD:${{ github.event.pull_request.head.ref }} || echo "⚠️ Push failed (likely fork permission limit)."

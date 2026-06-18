@@ -61,9 +61,9 @@ jobs:
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
-          git add data/inventory.yaml
+          git add data/inventory.yaml data/inventory.sql
           if git diff --staged --quiet; then
-            echo "No changes in inventory.yaml to commit."
+            echo "No changes in inventory to commit."
           else
             git commit -m "chore: update inventory stars and licenses [skip ci]"
             git pull origin develop --rebase
