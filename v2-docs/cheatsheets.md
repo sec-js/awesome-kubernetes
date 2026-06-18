@@ -636,7 +636,7 @@
 
 #### Network Cheat Sheets
 
-  - **(2022)** [Networking Cheat Sheet](https://nubenetes.com/networking) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Consolidated technical reference detailing essential low-level networking parameters, CIDR calculations, subnetting concepts, and critical routing architectures. Serves as a quick diagnostic lookup sheet for standard network protocol analysis and port troubleshooting.
+  - **(2022)** [Networking Cheat Sheet](https://nubenetes.com/networking/) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Consolidated technical reference detailing essential low-level networking parameters, CIDR calculations, subnetting concepts, and critical routing architectures. Serves as a quick diagnostic lookup sheet for standard network protocol analysis and port troubleshooting.
 ## Observability
 
 ### Metrics and Monitoring
