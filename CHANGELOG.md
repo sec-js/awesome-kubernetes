@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [[2.5.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.3) - 2026-06-18
+## [[2.5.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.4) - 2026-06-18
 
 ### Added
 - **AI Tool Integration**: Integrated verified references for Cursor AI Code Editor (`https://cursor.com`), Google Antigravity Agentic Platform (`https://antigravity.google`), Anthropic Claude Code CLI (`https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview`), GitHub Copilot Workspace, Copilot Agent Mode, and GitHub Actions continuous delivery best practices.
