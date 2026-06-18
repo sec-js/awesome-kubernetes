@@ -6,6 +6,11 @@ from src.logger import log_event
 CURATION_SOURCES_PATH = "data/curation_sources.yaml"
 WORKFLOW_PATH = ".github/workflows/01.1.agentic_cron.yml"
 
+try:
+    from yaml import CSafeLoader as Loader
+except ImportError:
+    from yaml import SafeLoader as Loader
+
 class WorkflowUISync:
     """
     Automates Mandate 11: Workflow-Config Synchronization.
@@ -16,8 +21,8 @@ class WorkflowUISync:
             return False
 
         try:
-            with open(CURATION_SOURCES_PATH, "r") as f:
-                sources = yaml.safe_load(f).get("sources", [])
+            with open(CURATION_SOURCES_PATH, "r", encoding="utf-8") as f:
+                sources = yaml.load(f, Loader=Loader).get("sources", [])
         except Exception as e:
             log_event(f"  [!] Error loading curation sources: {e}")
             return False

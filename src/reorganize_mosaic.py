@@ -1,5 +1,6 @@
 import yaml
 import os
+from src.inventory_manager import load_inventory
 
 # Map category IDs to their friendly names and outline border colors (V2 only)
 CATEGORIES = {
@@ -13,10 +14,7 @@ CATEGORIES = {
 }
 
 def load_inventory_channels():
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    inventory_path = os.path.join(repo_root, 'data', 'inventory.yaml')
-    with open(inventory_path, 'r', encoding='utf-8') as f:
-        inventory = yaml.safe_load(f) or {}
+    inventory = load_inventory()
         
     channels = []
     for url, entry in inventory.items():

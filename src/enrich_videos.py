@@ -5,6 +5,7 @@ import asyncio
 import httpx
 from src.logger import log_event
 from src.gemini_utils import call_gemini_with_retry, fetch_youtube_metadata
+from src.inventory_manager import load_inventory, save_inventory
 
 INVENTORY_PATH = "data/inventory.yaml"
 
@@ -72,8 +73,7 @@ async def main():
 
     force_enrich = os.getenv("FORCE_ENRICH", "false").lower() == "true"
 
-    with open(INVENTORY_PATH, "r") as f:
-        inventory = yaml.safe_load(f)
+    inventory = load_inventory()
 
     video_urls = [u for u, e in inventory.items() if e.get("is_featured_video")]
     
@@ -99,8 +99,7 @@ async def main():
         await asyncio.gather(*batch)
         
         # Incremental Persistence: Save after each batch
-        with open(INVENTORY_PATH, "w") as f:
-            yaml.dump(inventory, f, sort_keys=False, allow_unicode=True)
+        save_inventory(inventory)
         log_event(f"    [💾] Saved progress: {min(i + batch_size, len(tasks))}/{len(tasks)} videos.")
         
         if i + batch_size < len(tasks):

@@ -31,6 +31,27 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
     tags = item.get("tags", [])
     initial_score = item.get("impact_score", item.get("stars", 3) * 20) # Fallback mapping if stars is used
     
+    # 0. Check cache using content hash (Recommendation #4)
+    import hashlib
+    raw_content = f"{title}||{desc}||{','.join(sorted(tags))}"
+    content_hash = hashlib.sha256(raw_content.encode("utf-8")).hexdigest()
+    
+    if os.path.exists(DEBATE_MEMORY_FILE):
+        try:
+            with open(DEBATE_MEMORY_FILE, "r") as f:
+                memory_data = json.load(f)
+            cached = memory_data.get("resolved_debates", {}).get(normalize_url(url))
+            if cached and cached.get("content_hash") == content_hash:
+                log_event(f"    [⚖️] CACHE HIT: Skipping debate for '{title}'. Returning cached consensus.")
+                return (
+                    cached["final_consensus_score"],
+                    cached.get("final_tags", tags),
+                    cached.get("refined_summary", desc),
+                    cached
+                )
+        except Exception as e:
+            log_event(f"    [!] Error checking debate cache: {e}")
+
     log_event(f"  [⚖️] DEBATE TRIGGERED: '{title}' (Initial Score: {initial_score})", section_break=False)
     
     # 0. Check if mock mode is requested or required (no keys configured)
@@ -128,7 +149,10 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             "scores": scores,
             "justifications": justifications,
             "rebuttals": debate_transcript,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            "final_tags": sorted(list(final_tags)),
+            "refined_summary": refined_summary,
+            "content_hash": content_hash
         }
         
         try:
@@ -187,7 +211,10 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             "final_consensus_score": fast_pass_score,
             "fast_pass": True,
             "justification": fast_pass_justification,
-            "timestamp": datetime.now().isoformat()
+            "timestamp": datetime.now().isoformat(),
+            "final_tags": fast_pass_tags,
+            "refined_summary": fast_pass_summary,
+            "content_hash": content_hash
         }
         
         try:
@@ -325,7 +352,10 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         "scores": scores,
         "justifications": justifications,
         "rebuttals": debate_transcript,
-        "timestamp": datetime.now().isoformat()
+        "timestamp": datetime.now().isoformat(),
+        "final_tags": final_tags,
+        "refined_summary": refined_summary,
+        "content_hash": content_hash
     }
     
     # Persist the resolved debate to memory log (Mandate 3.1)

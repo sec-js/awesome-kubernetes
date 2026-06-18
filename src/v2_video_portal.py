@@ -89,11 +89,8 @@ def get_target_file(category, technology):
         return "cloud-native.md", "Cloud Native Core"
 
 def generate_v2_videos():
-    if not os.path.exists(INVENTORY_PATH):
-        return
-
-    with open(INVENTORY_PATH, "r") as f:
-        inventory = yaml.safe_load(f)
+    from src.inventory_manager import load_inventory
+    inventory = load_inventory()
 
     featured_videos = []
     for url, entry in inventory.items():
