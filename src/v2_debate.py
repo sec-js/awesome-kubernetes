@@ -147,6 +147,65 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
 
     system_mandates = get_system_mandates()
     
+    # Fast-Pass Evaluator call (Recommendation #3)
+    fast_pass_prompt = (
+        "You are the Nubenetes Fast-Pass Evaluator (2026).\n"
+        f"Analyze the following resource details:\n"
+        f"- Title: {title}\n"
+        f"- URL: {url}\n"
+        f"- Context: {desc}\n"
+        f"- Proposed Tags: {tags}\n\n"
+        f"{system_mandates}\n\n"
+        "Evaluate this resource across Security, SRE, and AI/Developer DX aspects and assign a score (0 to 100).\n"
+        "Also generate a high-density, professional technical summary (2-5 sentences, O'Reilly technical style) and select appropriate tags.\n"
+        "Respond ONLY in valid JSON format: {\"score\": int, \"justification\": \"string\", \"summary\": \"string\", \"tags\": [\"string\"]}"
+    )
+    
+    fast_pass_score = int(initial_score)
+    fast_pass_justification = "Failed to run fast-pass."
+    fast_pass_summary = desc
+    fast_pass_tags = tags
+    
+    try:
+        res = await call_gemini_with_retry(fast_pass_prompt, prefer_flash=True, use_grounding=True, role="FastPass-Evaluator")
+        fast_pass_score = min(max(int(res.get("score", 50)), 0), 100)
+        fast_pass_justification = res.get("justification", "No justification provided.")
+        fast_pass_summary = res.get("summary", desc)
+        fast_pass_tags = res.get("tags", tags)
+        log_event(f"    [🔍] Fast-Pass Evaluator rated score: {fast_pass_score}")
+    except Exception as e:
+        log_event(f"    [!] Fast-Pass Evaluator failed: {e}")
+        
+    # Check if the score falls outside the borderline uncertainty margin [60, 75]
+    if fast_pass_score >= 76 or fast_pass_score <= 59:
+        log_event(f"    [⚡] Fast-Pass Consensus reached ({fast_pass_score}). Skipping full debate panel!")
+        
+        debate_data = {
+            "url": url,
+            "title": title,
+            "initial_score": initial_score,
+            "final_consensus_score": fast_pass_score,
+            "fast_pass": True,
+            "justification": fast_pass_justification,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        try:
+            memory_data = {}
+            if os.path.exists(DEBATE_MEMORY_FILE):
+                try:
+                    memory_data = json.load(open(DEBATE_MEMORY_FILE, "r"))
+                except: pass
+            memory_data.setdefault("resolved_debates", {})[normalize_url(url)] = debate_data
+            with open(DEBATE_MEMORY_FILE, "w") as f:
+                json.dump(memory_data, f, indent=2)
+        except Exception as e:
+            log_event(f"    [!] Failed to persist debate memory: {e}")
+            
+        return fast_pass_score, fast_pass_tags, fast_pass_summary, debate_data
+        
+    log_event(f"    [⚖️] Borderline score detected ({fast_pass_score}). Escalating to full Multi-Agent Debate Panel...")
+
     # 1. Independent Evaluation Round
     personas = {
         "Security Architect": "Focus on licensing (MIT/Apache vs BSL/SSPL), supply chain security, access control, vulnerabilities, and enterprise compliance.",

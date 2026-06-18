@@ -4,6 +4,8 @@ import os
 import json
 import re
 import yaml
+import httpx
+from urllib.parse import urlparse
 from datetime import datetime, timedelta
 from src.config import TARGET_REPO, MADRID_TZ, GH_TOKEN, NUBENETES_CATEGORIES
 from src.ingestion_twikit import SocialDataExtractor
@@ -16,6 +18,18 @@ from src.gemini_utils import call_gemini_with_retry, resolve_url, normalize_url,
 from src.state_manager import get_last_date, save_state
 
 async def master_orchestrator():
+    # Load domain health history (Recommendation #2)
+    health_learning_path = "src/memory/health_learning.json"
+    health_learning = {}
+    if os.path.exists(health_learning_path):
+        try:
+            with open(health_learning_path, "r") as f:
+                health_learning = json.load(f)
+        except Exception as e:
+            log_event(f"[!] Error loading health_learning.json: {e}")
+    if "domains" not in health_learning:
+        health_learning["domains"] = {}
+
     # 0. Ingest Mandates from GEMINI.md (Mandate Bridge)
     try:
         from src.mandate_ingestor import MandateIngestor
@@ -135,11 +149,15 @@ async def master_orchestrator():
         raw_social = await extractor.fetch_links()
         x_audit_trail = extractor.audit_trail
     else:
-        # A. X.com Extraction
-        strategy = os.getenv("EXTRACTION_STRATEGY", "search")
-        twitter_client = SocialDataExtractor()
-        raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy, accounts=accounts_to_scan)
-        x_audit_trail = twitter_client.audit_trail
+        # A. X.com Extraction (Toggleable via ENABLE_TWITTER_CURATION - Recommendation #2)
+        if os.getenv("ENABLE_TWITTER_CURATION", "false").lower() == "true":
+            strategy = os.getenv("EXTRACTION_STRATEGY", "search")
+            twitter_client = SocialDataExtractor()
+            raw_social = await twitter_client.fetch_links_since(since_date, until_date=until_date, strategy=strategy, accounts=accounts_to_scan)
+            x_audit_trail = twitter_client.audit_trail
+        else:
+            log_event("[*] Twitter curation is disabled (ENABLE_TWITTER_CURATION != true). Skipping X.com extraction.")
+            raw_social = []
 
         # B. RSS Extraction
         if feeds_to_scan:
@@ -172,6 +190,11 @@ async def master_orchestrator():
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ]
+    fallback_user_agents = [
+        "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Mobile/15E148 Safari/604.1",
+        "Mozilla/5.0 (iPad; CPU OS 17_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/124.0 Mobile/15E148 Safari/605.1.15",
+        "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+    ]
 
     async def process_asset(asset, idx):
         async with semaphore:
@@ -179,20 +202,42 @@ async def master_orchestrator():
             expanded_url = await resolve_url(asset["url"])
             asset["url"] = expanded_url
             
-            # 2. Resilient Health Check (Identity Rotation)
-            ua = user_agents[idx % len(user_agents)]
+            # 2. Resilient Health Check (Identity Rotation & Domain failure stats - Recommendation #2)
+            parsed = urlparse(expanded_url)
+            domain = parsed.netloc.lower()
+            
+            domain_info = health_learning["domains"].setdefault(domain, {"attempts": 0, "failures": 0, "consecutive_failures": 0})
+            consecutive_failures = domain_info.get("consecutive_failures", 0)
+            
+            timeout_val = 12.0
+            if consecutive_failures >= 3:
+                timeout_val = 3.0
+                ua = fallback_user_agents[idx % len(fallback_user_agents)]
+            else:
+                ua = user_agents[idx % len(user_agents)]
+                
             headers = {"User-Agent": ua, "Referer": "https://www.google.com/"}
-
+            
+            domain_info["attempts"] = domain_info.get("attempts", 0) + 1
+            
             # NOTE: All domains must be checked to ensure the link isn't a 404.
             try:
-                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=12, verify=False) as client:
+                async with httpx.AsyncClient(headers=headers, follow_redirects=True, timeout=timeout_val, verify=False) as client:
                     resp = await client.get(expanded_url)
                     if resp.status_code == 404:
                         asset["health"] = "dead" # Definitively dead
+                        info = health_learning["domains"][domain]
+                        info["failures"] = info.get("failures", 0) + 1
+                        info["consecutive_failures"] = info.get("consecutive_failures", 0) + 1
                     else:
                         asset["health"] = "online"
+                        info = health_learning["domains"][domain]
+                        info["consecutive_failures"] = 0
             except:
                 asset["health"] = "timeout" # Assume alive but unreachable for now
+                info = health_learning["domains"][domain]
+                info["failures"] = info.get("failures", 0) + 1
+                info["consecutive_failures"] = info.get("consecutive_failures", 0) + 1
 
             # 3. GitHub Metadata Enrichment
             if "github.com" in expanded_url:
@@ -415,6 +460,14 @@ async def master_orchestrator():
 
     if is_historical and is_chunked and since_date > final_stop_date:
         print(f"\nNEXT_CHUNK_START: {since_date.isoformat()}")
+
+    # Save domain health history (Recommendation #2)
+    try:
+        with open(health_learning_path, "w") as f:
+            json.dump(health_learning, f, indent=2)
+        log_event("[*] Domain health history updated in health_learning.json")
+    except Exception as e:
+        log_event(f"  [!] Failed to save health_learning.json: {e}")
 
     log_event("PROCESS FINISHED SUCCESSFULLY.", section_break=True)
 

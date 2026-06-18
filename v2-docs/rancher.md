@@ -11,9 +11,6 @@
 1. [Architectural Foundations](#architectural-foundations)
   - [Kubernetes Tools](#kubernetes-tools)
     - [General Reference](#general-reference)
-1. [Cloud Native](#cloud-native)
-  - [Kubernetes](#kubernetes)
-    - [Rancher Management](#rancher-management)
 1. [Container Engines](#container-engines)
   - [Lightweight Runtimes](#lightweight-runtimes)
     - [Archived Projects](#archived-projects)
@@ -62,12 +59,6 @@
   - [GitOps](#gitops-1)
     - [Fleet Management](#fleet-management)
     - [Tutorials](#tutorials)
-1. [Infrastructure](#infrastructure-1)
-  - [Cluster Management](#cluster-management)
-    - [RKE2](#rke2)
-1. [Introductory](#introductory)
-  - [Concepts](#concepts)
-    - [Core Resources](#core-resources)
 1. [Kubernetes Management](#kubernetes-management)
   - [Case Studies](#case-studies)
     - [Finance](#finance)
@@ -86,7 +77,6 @@
     - [Quick Starts](#quick-starts-1)
   - [Monitoring and Observability](#monitoring-and-observability)
     - [Alerting](#alerting)
-    - [etcd Monitoring](#etcd-monitoring)
   - [Multi-Cluster Orchestration](#multi-cluster-orchestration)
     - [Enterprise Management](#enterprise-management)
   - [Multi-Tenancy](#multi-tenancy)
@@ -121,6 +111,7 @@
 
 #### General Reference
 
+  - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Certified Kubernetes offerings in the Kubernetes Tools ecosystem.
   - [medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher](https://medium.com/swlh/quick-fix-mounting-a-configmap-to-an-existing-volume-in-kubernetes-using-rancher-d01c472a10ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Quick Fix: Mounting a ConfigMap to an Existing Volume in Kubernetes' Using Rancher in the Kubernetes Tools ecosystem.
   - [blog.kubecost.com: Rancher vs Kubernetes: It’s not either or](https://blog.kubecost.com/blog/rancher-vs-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==blog.kubecost.com: Rancher vs Kubernetes: It’s not either or== in the Kubernetes Tools ecosystem.
   - [akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible](https://akyriako.medium.com/provision-an-on-prems-kubernetes-cluster-with-rancher-terraform-and-ansible-e26e24059319)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==akyriako.medium.com: Provision an on-prems Kubernetes Cluster with Rancher,' Terraform and Ansible== in the Kubernetes Tools ecosystem.
@@ -135,14 +126,6 @@
   - [medium.com: OKE Clusters from Rancher 2.0](https://medium.com/swlh/oke-clusters-from-rancher-2-0-409131ad1293)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: OKE Clusters from Rancher 2.0 in the Kubernetes Tools ecosystem.
   - [medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure](https://medium.com/@jlamillan/rancher-deployed-kubernetes-on-oracle-cloud-infrastructure-6b0656cdaec0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Rancher deployed Kubernetes on Oracle Cloud Infrastructure in the Kubernetes Tools ecosystem.
   - [Kubernautic](https://kubernauts.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Kubernautic in the Kubernetes Tools ecosystem.
-  - [Certified Kubernetes offerings](https://www.cncf.io/certification/software-conformance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Certified Kubernetes offerings in the Kubernetes Tools ecosystem.
-## Cloud Native
-
-### Kubernetes
-
-#### Rancher Management
-
-  - **(2022)** [aws-quickstart.github.io: Rancher on the AWS Cloud. Quick Start Reference Deployment](https://aws-quickstart.github.io/quickstart-eks-rancher) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS Quick Start reference guide for standing up Rancher on AWS. This architecture installs Rancher on an Amazon EKS cluster, giving enterprise operations teams a unified interface to govern multiple downstream clusters, enforce unified RBAC models, and manage complex multi-tenant environments.
 ## Container Engines
 
 ### Lightweight Runtimes
@@ -267,20 +250,6 @@
 #### Tutorials
 
   - **(2021)** [itnext.io: Fleet Management of Kubernetes Clusters at Scale — Rancher’s Fleet](https://itnext.io/fleet-management-of-kubernetes-clusters-at-scale-ranchers-fleet-de161cc52325)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews Fleet's design for multi-cluster scaling. Live engineering truth in 2026 confirms that the fundamental architectures of GitOps bundles and target custom resource definitions (CRDs) outlined here continue to dictate how Fleet scales in production setups.
-## Infrastructure (1)
-
-### Cluster Management
-
-#### RKE2
-
-  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
-## Introductory
-
-### Concepts
-
-#### Core Resources
-
-  - **(2021)** [community.suse.com: Stupid Simple Kubernetes — Deployments, Services and Ingresses Explained](https://www.rancher.com/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a clean, foundational model detailing the relationship between Deployments, Services, and Ingress resources. Explains how these layers work together to manage container replicas, handle traffic distribution, and expose APIs to external users.
 ## Kubernetes Management
 
 ### Case Studies
@@ -326,9 +295,6 @@
 #### Alerting
 
   - **(2023)** [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on formulating custom alert conditions using PromQL queries in Rancher. Shows how to integrate metrics with alert systems and route notifications to modern receivers like Slack or PagerDuty.
-#### etcd Monitoring
-
-  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
 ### Multi-Cluster Orchestration
 
 #### Enterprise Management
@@ -400,5 +366,5 @@
   - **(2025)** [==Harvester==](https://github.com/harvester/harvester) <span class='md-tag md-tag--info'>⭐ 5054</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ef341f9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1ef341f9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi, enabling seamless co-habitation of VM and container environments under unified Kubernetes control planes.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Serverless](./serverless.md)
+💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
 
