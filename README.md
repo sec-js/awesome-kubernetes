@@ -141,7 +141,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18647+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **5981+** |
+| **Total Commits** | **5984+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -179,7 +179,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2422 | 10,002 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2425 | 10,015 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -195,8 +195,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 11000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10002]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2422]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10015]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2425]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -206,7 +206,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 296 | 1,222 | Active Curation |
+| 2026-06 | 299 | 1,234 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -315,8 +315,8 @@ graph TD
 </details>
 
 **Key Architectural Hardening:**
-- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a common concurrency group `develop-git-push` to serialize git pushes on `develop`.
-- **Self-Healing Git Rebase:** Incorporates a rebase retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD and re-running generators, preventing CI/CD pipeline failures.
+- **Concurrency Guard:** Prevents race conditions by managing parallel workflow execution using GitHub Concurrency Groups. Workflows that write metadata/metrics (`03.1`, `03.2`, `03.3`, `04.1`, `05.1`) share a static, unified concurrency group `develop-git-write-lock` to serialize git write operations on `develop` across all branches and event triggers.
+- **Self-Healing Git Rebase & Push Recovery:** Incorporates a rebase and push retry loop that automatically resolves conflicts in generated files (like `README.md`) by checking out remote HEAD, re-running generators, and validating both the rebase and push commands before exiting successfully, ensuring total CI/CD pipeline stability.
 - **Trigger Loop Prevention:** Uses the `[skip ci]` protocol to break infinite recursive loops during automated PR merges.
 - **Setup Acceleration:** Playwright caching reduces the environment initialization time from 5 minutes to under 60 seconds.
 - **Dependency Caching:** Global Pip caching via `requirements.txt` slashes build times across all pipelines.

@@ -18,7 +18,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: develop-git-push-${{ github.ref }}
+  group: develop-git-write-lock
   cancel-in-progress: false
 
 jobs:
