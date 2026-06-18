@@ -263,7 +263,7 @@
 
 #### Tekton Pipelines
 
-  - **(2023)** [Tekton](https://nubenetes.com/tekton) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive review of Tekton, a Kubernetes-native open-source framework for building continuous integration and delivery (CI/CD) pipelines. It structures pipeline blocks using standard CRDs (Tasks, Pipelines, PipelineRuns), eliminating VM-based runner dependencies. Live validation establishes Tekton as the standard engine powering modern cloud-native container build environments like OpenShift Pipelines.
+  - **(2023)** [Tekton](https://nubenetes.com/tekton/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive review of Tekton, a Kubernetes-native open-source framework for building continuous integration and delivery (CI/CD) pipelines. It structures pipeline blocks using standard CRDs (Tasks, Pipelines, PipelineRuns), eliminating VM-based runner dependencies. Live validation establishes Tekton as the standard engine powering modern cloud-native container build environments like OpenShift Pipelines.
 #### Tool Comparison
 
   - **(2021)** [k21academy.com: Azure pipelines VS Jenkins](https://k21academy.com/azure-cloud/azure-pipelines-vs-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative analysis contrasting Jenkins (self-hosted, highly extensible, plugin-heavy) against Azure Pipelines (managed, cloud-native SaaS, deep Azure integration). Highlights differences in maintenance overhead, security configurations, build agent execution, and enterprise scaling architectures. Essential reading for platform teams deciding on their continuous delivery stack.
@@ -331,7 +331,7 @@
 
 #### Keptn
 
-  - **(2026)** [**Keptn**](https://nubenetes.com/keptn) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
+  - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--info'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 ## Platform Architecture
 
 ### CICD

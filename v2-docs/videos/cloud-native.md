@@ -1,4 +1,4 @@
-# Cloud Native Core
+# 🎥 Cloud Native Core
 
 Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 

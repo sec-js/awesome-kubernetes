@@ -1,4 +1,4 @@
-# DevOps, IaC, and SRE
+# 🎥 DevOps, IaC, and SRE
 
 Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
