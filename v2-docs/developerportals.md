@@ -1,5 +1,8 @@
 # API Marketplaces. API Management with API Gateways and Developer Portals
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/developerportals/).
+
 !!! info "Architectural Context"
     Detailed reference for API Marketplaces. API Management with API Gateways and Developer Portals in the context of Platform & Site Reliability.
 

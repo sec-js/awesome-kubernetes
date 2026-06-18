@@ -1,5 +1,8 @@
 # Kubernetes Backup and Migrations
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/kubernetes-backup-migrations/).
+
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Backup and Migrations in the context of The Container Stack.
 

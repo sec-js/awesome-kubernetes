@@ -1,5 +1,8 @@
 # Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management)
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/kustomize/).
+
 !!! info "Architectural Context"
     Detailed reference for Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management) in the context of Hardened Infrastructure.
 

@@ -1,5 +1,8 @@
 # Project Management Tools
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/project-management-tools/).
+
 !!! info "Architectural Context"
     Detailed reference for Project Management Tools in the context of Platform & Site Reliability.
 

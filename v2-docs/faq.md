@@ -1,5 +1,8 @@
 # Microservices FAQ
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/faq/).
+
 !!! info "Architectural Context"
     Detailed reference for Microservices FAQ in the context of Architectural Foundations.
 

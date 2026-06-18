@@ -1,5 +1,8 @@
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/monitoring/).
+
 !!! info "Architectural Context"
     Detailed reference for Monitoring and Performance. Prometheus, Grafana, APMs and more in the context of Architectural Foundations.
 
@@ -744,7 +747,7 @@
 
 #### Metrics Collection
 
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
+  - **(2024)** [Prometheus](https://nubenetes.com/prometheus) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 ### OpenTelemetry (1)
 
 #### Collector Infrastructure
@@ -786,7 +789,7 @@
 
 #### Dashboards
 
-  - **(2024)** [Grafana](https://nubenetes.com/grafana/) <span class='md-tag md-tag--warning'>[GO/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana is the industry-standard multi-platform open-source analytics and interactive visualization web application. It supports query, visualization, alerting, and analysis of metrics, logs, and traces from diverse backends (Prometheus, Elasticsearch, Loki, Jaeger). Its pluggable architecture allows organizations to build unified operational dashboards across heterogeneous data layers.
+  - **(2024)** [Grafana](https://nubenetes.com/grafana) <span class='md-tag md-tag--warning'>[GO/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Grafana is the industry-standard multi-platform open-source analytics and interactive visualization web application. It supports query, visualization, alerting, and analysis of metrics, logs, and traces from diverse backends (Prometheus, Elasticsearch, Loki, Jaeger). Its pluggable architecture allows organizations to build unified operational dashboards across heterogeneous data layers.
 ## Observability and Monitoring
 
 ### Application Performance Monitoring (1)

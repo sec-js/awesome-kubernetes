@@ -158,6 +158,9 @@ def generate_v2_videos():
         content = [
             f"# 🎥 {theme_title}",
             "",
+            "!!! tip \"Nubenetes V2 Elite Portal\"",
+            "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).",
+            "",
             f"Welcome to the **{theme_title}** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.",
             "",
             "## Table of Contents",
@@ -231,6 +234,9 @@ def generate_v2_videos():
     # Generate Overview page
     overview_content = [
         "# Agentic Video Hub",
+        "",
+        "!!! tip \"Nubenetes V2 Elite Portal\"",
+        "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).",
         "",
         "Welcome to the **Nubenetes Elite Video Hub**. Discover highly-curated architectural video resources organized into logical learning paths:",
         "",

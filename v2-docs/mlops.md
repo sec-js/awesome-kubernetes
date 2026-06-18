@@ -1,5 +1,8 @@
 # Machine Learning Ops (MLOps) and Data Science
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/mlops/).
+
 !!! info "Architectural Context"
     Detailed reference for Machine Learning Ops (MLOps) and Data Science in the context of AI.
 

@@ -1,5 +1,8 @@
 # Interview Questions
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/interview-questions/).
+
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 

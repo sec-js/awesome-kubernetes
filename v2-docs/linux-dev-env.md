@@ -1,5 +1,8 @@
 # WSL: Linux Dev Environment on Windows
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/linux-dev-env/).
+
 !!! info "Architectural Context"
     Detailed reference for WSL: Linux Dev Environment on Windows in the context of Developer Ecosystem.
 

@@ -1,5 +1,8 @@
 # Low Code and No Code
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/lowcode-nocode/).
+
 !!! info "Architectural Context"
     Detailed reference for Low Code and No Code in the context of Developer Ecosystem.
 

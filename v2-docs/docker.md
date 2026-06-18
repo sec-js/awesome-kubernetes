@@ -1,5 +1,8 @@
 # Docker
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/docker/).
+
 !!! info "Architectural Context"
     Detailed reference for Docker in the context of The Container Stack.
 
@@ -840,7 +843,7 @@
 
 #### Docker Swarm
 
-  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives/#docker-swarm) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Docker Swarm as a simple container orchestration alternative to Kubernetes. Evaluates its built-in overlay network routing mesh and single-node setup advantages, noting that its enterprise adoption has decreased in favor of Kubernetes-native environments.
+  - **(2024)** [Docker Swarm](https://nubenetes.com/kubernetes-alternatives) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Docker Swarm as a simple container orchestration alternative to Kubernetes. Evaluates its built-in overlay network routing mesh and single-node setup advantages, noting that its enterprise adoption has decreased in favor of Kubernetes-native environments.
 ## Performance
 
 ### Diagnostics (1)

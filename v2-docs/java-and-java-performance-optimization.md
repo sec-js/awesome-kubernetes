@@ -1,5 +1,8 @@
 # Java and Memory Management
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/java-and-java-performance-optimization/).
+
 !!! info "Architectural Context"
     Detailed reference for Java and Memory Management in the context of Developer Ecosystem.
 

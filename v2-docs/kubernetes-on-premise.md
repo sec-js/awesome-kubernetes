@@ -1,5 +1,8 @@
 # On-Premise Production Kubernetes Cluster Installers
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/kubernetes-on-premise/).
+
 !!! info "Architectural Context"
     Detailed reference for On-Premise Production Kubernetes Cluster Installers in the context of The Container Stack.
 
@@ -250,12 +253,12 @@
 
 #### Multi-Cluster
 
-  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
+  - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
 ### Red Hat OpenShift
 
 #### Enterprise (1)
 
-  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
+  - **(2026)** [Openshift Container Platform](https://nubenetes.com/openshift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat OpenShift is a premier enterprise-grade hybrid cloud Kubernetes application platform. It adds out-of-the-box developer tooling, integrated security standards, cluster virtualization, internal registry configurations, and Operator-based life cycle management directly over raw Kubernetes.
 ## Networking
 
 ### CNI Plugins

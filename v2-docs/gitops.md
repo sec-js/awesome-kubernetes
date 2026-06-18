@@ -1,5 +1,8 @@
 # GitOps
 
+!!! tip "Nubenetes V2 Elite Portal"
+    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/gitops/).
+
 !!! info "Architectural Context"
     Detailed reference for GitOps in the context of Engineering Pipeline.
 
@@ -286,10 +289,10 @@
   - **(2021)** [ibm.com: Enable GitOps](https://www.ibm.com/garage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An enterprise change-management guide from IBM Garage focusing on GitOps adoption. Details organizational processes, environment categorization, and verification configurations required to transition legacy pipelines into declarative GitOps models.
 #### FluxCD
 
-  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation and resources for Flux, the CNCF-graduated continuous delivery tool for Kubernetes. Analyzes multi-tenancy configurations, automated image update policies, and source controller optimizations that make Flux a core component of modern GitOps workflows.
+  - **(2025)** [Flux. The GitOps operator for Kubernetes](https://nubenetes.com/flux) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical documentation and resources for Flux, the CNCF-graduated continuous delivery tool for Kubernetes. Analyzes multi-tenancy configurations, automated image update policies, and source controller optimizations that make Flux a core component of modern GitOps workflows.
 #### Kustomize Manifests
 
-  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference for Kustomize, the template-free engine used to manage Kubernetes configurations. Details declarative base and overlay architectures, allowing developers to manage configurations for different environments (dev, staging, prod) without using complex Helm template structures.
+  - **(2025)** [Kustomize - Template-Free Kubernetes Configuration Customization](https://nubenetes.com/kustomize) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical reference for Kustomize, the template-free engine used to manage Kubernetes configurations. Details declarative base and overlay architectures, allowing developers to manage configurations for different environments (dev, staging, prod) without using complex Helm template structures.
 ## Cloud Infrastructure
 
 ### Infrastructure as Code (1)
