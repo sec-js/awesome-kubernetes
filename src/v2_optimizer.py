@@ -971,14 +971,21 @@ class V2VisionEngine:
             md += f"# {title}\n\n"
             md += "!!! tip \"Nubenetes Intelligence Digest\"\n"
             md += "    AI-curated ranking of the most impactful resources, updated monthly.\n\n"
-            for period_key, period_label in period_labels.items():
-                md += f'=== "{period_label}"\n\n'
-                period_data = digest_data.get(period_key, {})
-                for cat in categories:
-                    items = period_data.get(cat, [])
+            # Category-first layout: each category is a real H2 heading (at column 0)
+            # so it appears exactly once in the MkDocs Material right-hand "On this page"
+            # TOC, with the three time-windows as content tabs *inside* the category.
+            # (The previous period-first layout nested categories as bold text inside
+            # tabs, which produced no TOC entries and tripped MD023 on indented headings.)
+            for cat in categories:
+                # Skip categories with no ranked items in any time window.
+                if not any(digest_data.get(pk, {}).get(cat) for pk in period_labels):
+                    continue
+                md += f"## {cat}\n\n"
+                for period_key, period_label in period_labels.items():
+                    items = digest_data.get(period_key, {}).get(cat, [])
                     if not items:
                         continue
-                    md += f"    **{cat}**\n\n"
+                    md += f'=== "{period_label}"\n\n'
                     md += "    | Date | Resource | Impact | Why It Matters |\n"
                     md += "    | :--- | :--- | :---: | :--- |\n"
                     for item in items:
