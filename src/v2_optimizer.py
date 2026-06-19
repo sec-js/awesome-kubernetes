@@ -639,7 +639,7 @@ class V2VisionEngine:
             if "[COMMUNITY-TOOL]" in tags: tags.remove("[COMMUNITY-TOOL]")
         
         # 2. Type Mapping (AI based labels)
-        res_type = item.get("resource_type", "Reference").lower()
+        res_type = (item.get("resource_type") or "Reference").lower()
         if any(x in res_type for x in ["guide", "tutorial", "hands-on", "learning", "course"]): 
             tags.add("[GUIDE]")
         if any(x in res_type for x in ["case study", "report", "whitepaper", "success story", "usage"]): 
