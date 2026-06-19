@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.14]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.14) - 2026-06-19
+
+### Changed
+- **Deterministic V2 Publisher Push (04.1)**: Replaced the fragile rebase + `git checkout --ours/--theirs README.md` self-healing in `04.1.agentic_v2_publish.yml` — which could hang on a non-README conflict and silently discard the bot's README metrics — with the same deterministic model now used by `05.1`. The render is authoritative for its generated surface, so each attempt hard-resets to the freshest `origin/develop` tip, overlays the generated outputs verbatim (`docs/`, `v2-docs/`, `data/inventory.yaml`, `data/inventory.sql`, `data/news_digest.json` — source configs like `link_rules.yaml`/`special_assets.yaml` are deliberately left untouched), regenerates `README.md` on top, then commits and pushes with a 5-attempt retry. This never hangs on a conflict and never loses data. Also pinned `PYTHONPATH` on the step so the in-loop `readme_updater`/`safety_readme` calls always resolve `src`.
+
 ## [[2.9.13]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.13) - 2026-06-19
 
 ### Fixed
