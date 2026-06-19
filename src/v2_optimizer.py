@@ -1021,9 +1021,16 @@ class V2VisionEngine:
 
             impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
             try:
-                digest_mtime = os.path.getmtime(digest_path)
                 from datetime import datetime as _dt
-                digest_updated = _dt.fromtimestamp(digest_mtime).strftime("%b %d, %Y")
+                # Prefer _meta.last_updated (tracks actual Gemini analysis date)
+                # over file mtime (which changes on every commit/render).
+                raw_ts = digest_data.get("_meta", {}).get("last_updated", "")
+                if raw_ts:
+                    digest_updated = _dt.fromisoformat(raw_ts).strftime("%b %d, %Y")
+                else:
+                    digest_updated = _dt.fromtimestamp(
+                        os.path.getmtime(digest_path)
+                    ).strftime("%b %d, %Y")
             except Exception:
                 digest_updated = ""
             updated_badge = f'<span class="trending-section__updated">Updated {digest_updated}</span>' if digest_updated else ""
