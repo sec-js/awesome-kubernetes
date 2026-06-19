@@ -2697,7 +2697,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "Argo CD is the absolute industry-standard GitOps engine for Kubernetes, driving declarative, pull-based continuous delivery across enterprise platforms.",
+        "why": "Argo CD remains the absolute industry standard for pull-based GitOps reconciliation and continuous delivery on Kubernetes.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -2706,7 +2706,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "As a CNCF graduated project, Flux v2 provides the vital decoupled controller architecture needed for high-scale, parallel GitOps reconciliation.",
+        "why": "Flux v2 is a foundational, graduated CNCF GitOps engine engineered specifically for highly decoupled, parallel cluster synchronization.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -2715,16 +2715,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Dagger introduces a major paradigm shift by replacing complex YAML pipelines with portable, multi-language code executed natively on BuildKit.",
-        "category": "CI/CD & GitOps"
-      },
-      {
-        "url": "https://github.com/flux-iac/tofu-controller",
-        "title": "github.com/flux-iac/tofu-controller",
-        "date": "2026-06-08",
-        "stars": 5,
-        "impact": "high",
-        "why": "The Tofu-controller secures GitOps continuity for modern infrastructure by enabling native, declarative reconciliation of OpenTofu and Terraform resources.",
+        "why": "Dagger represents a major paradigm shift in CI/CD, replacing fragile YAML/Bash scripts with portable pipelines written in standard languages and executed via BuildKit.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -2732,8 +2723,8 @@
         "title": "Helm",
         "date": "2026-06-14",
         "stars": 5,
-        "impact": "critical",
-        "why": "Helm is the indispensable de facto package manager for Kubernetes, essential for template structuring, dependency management, and application lifecycle control.",
+        "impact": "high",
+        "why": "Helm is the undisputed standard package manager for Kubernetes, serving as a critical packaging cornerstone for modern GitOps engines.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -2742,16 +2733,34 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Tekton Pipelines offers a highly scalable, Kubernetes-native CI/CD framework that runs builds within isolated task-oriented containers.",
+        "why": "Tekton provides the standard cloud-native CI/CD framework using Kubernetes-native Custom Resource Definitions for structured, scalable task execution.",
         "category": "CI/CD & GitOps"
       },
       {
-        "url": "https://github.com/argoproj/argo-cd/pull/26601",
-        "title": "feat(ui): Add AppSet to Application Resource Tree in Argo CD",
-        "date": "2026-06-14",
+        "url": "https://github.com/flux-iac/tofu-controller",
+        "title": "github.com/flux-iac/tofu-controller",
+        "date": "2026-06-08",
         "stars": 5,
         "impact": "high",
-        "why": "This Argo CD feature significantly improves multi-tenant operations by visualizing complex nested ApplicationSet topologies directly in the dashboard UI.",
+        "why": "The OpenTofu controller natively extends GitOps synchronization paradigms beyond Kubernetes manifests to cloud infrastructure resources.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://www.jenkins.io/projects/jcasc",
+        "title": "Jenkins Configuration as Code",
+        "date": "2025-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Jenkins Configuration as Code (JCasC) provides a critical production-ready path to manage legacy CI infrastructure under modern GitOps and declarative paradigms.",
+        "category": "CI/CD & GitOps"
+      },
+      {
+        "url": "https://github.com/kubernetes/test-infra/tree/master/prow",
+        "title": "Prow",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Prow is the leading cloud-native CI/CD platform engineered to handle massive-scale, decentralized, event-driven repository governance.",
         "category": "CI/CD & GitOps"
       },
       {
@@ -2760,25 +2769,16 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Glasskube is a next-generation, Go-based Kubernetes package manager that simplifies automated updates and dependency management for cloud-native tools.",
+        "why": "Glasskube represents a major technical novelty as a next-generation Kubernetes package manager designed to simplify dependency management and upgrades over traditional Helm.",
         "category": "CI/CD & GitOps"
       },
       {
-        "url": "https://nubenetes.com/keptn",
-        "title": "Keptn",
+        "url": "https://github.com/argoproj/argo-cd/pull/26601",
+        "title": "feat(ui): Add AppSet to Application Resource Tree in Argo CD",
         "date": "2026-06-14",
-        "stars": 4,
-        "impact": "high",
-        "why": "Keptn bridges CD and observability by orchestrating cloud-native lifecycles using strict SLO-based quality gates and automated canary promotions.",
-        "category": "CI/CD & GitOps"
-      },
-      {
-        "url": "https://github.com/onedr0p/cluster-template",
-        "title": "github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux",
-        "date": "2026-06-13",
         "stars": 5,
         "impact": "medium",
-        "why": "This production-grade repository template sets a modern community standard for bootstrapping and managing edge K3s clusters utilizing Flux GitOps.",
+        "why": "This Argo CD enhancement directly improves enterprise observability for multi-tenant topologies by natively mapping ApplicationSets in the dashboard UI.",
         "category": "CI/CD & GitOps"
       }
     ],
@@ -7150,9 +7150,9 @@
         "method": "gemini"
       },
       "CI/CD & GitOps": {
-        "last_analyzed": "2026-06-19T14:47:22.191040+02:00",
-        "entry_hash": "c59a6d40189d662a",
-        "entry_count": 445,
+        "last_analyzed": "2026-06-19T19:39:36.131298+02:00",
+        "entry_hash": "c4997cc637c23d35",
+        "entry_count": 444,
         "method": "gemini"
       },
       "Python, Java & Developer Ecosystem": {
@@ -7440,6 +7440,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-06-19T18:55:35.004053+02:00"
+    "last_updated": "2026-06-19T19:39:37.292712+02:00"
   }
 }

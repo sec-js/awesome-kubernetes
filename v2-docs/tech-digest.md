@@ -512,16 +512,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the absolute industry-standard GitOps engine for Kubernetes, driving declarative, pull-based continuous delivery across enterprise platforms. |
-    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | As a CNCF graduated project, Flux v2 provides the vital decoupled controller architecture needed for high-scale, parallel GitOps reconciliation. |
-    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger introduces a major paradigm shift by replacing complex YAML pipelines with portable, multi-language code executed natively on BuildKit. |
-    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | The Tofu-controller secures GitOps continuity for modern infrastructure by enabling native, declarative reconciliation of OpenTofu and Terraform resources. |
-    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🔴 critical | Helm is the indispensable de facto package manager for Kubernetes, essential for template structuring, dependency management, and application lifecycle control. |
-    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines offers a highly scalable, Kubernetes-native CI/CD framework that runs builds within isolated task-oriented containers. |
-    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🟡 high | This Argo CD feature significantly improves multi-tenant operations by visualizing complex nested ApplicationSet topologies directly in the dashboard UI. |
-    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube is a next-generation, Go-based Kubernetes package manager that simplifies automated updates and dependency management for cloud-native tools. |
-    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Keptn bridges CD and observability by orchestrating cloud-native lifecycles using strict SLO-based quality gates and automated canary promotions. |
-    | 2026-06-13 | [github.com/onedr0p/flux-cluster-template: Template for deploying k3s backed by Flux](https://github.com/onedr0p/cluster-template) | 🔵 medium | This production-grade repository template sets a modern community standard for bootstrapping and managing edge K3s clusters utilizing Flux GitOps. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD remains the absolute industry standard for pull-based GitOps reconciliation and continuous delivery on Kubernetes. |
+    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 is a foundational, graduated CNCF GitOps engine engineered specifically for highly decoupled, parallel cluster synchronization. |
+    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger represents a major paradigm shift in CI/CD, replacing fragile YAML/Bash scripts with portable pipelines written in standard languages and executed via BuildKit. |
+    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🟡 high | Helm is the undisputed standard package manager for Kubernetes, serving as a critical packaging cornerstone for modern GitOps engines. |
+    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton provides the standard cloud-native CI/CD framework using Kubernetes-native Custom Resource Definitions for structured, scalable task execution. |
+    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | The OpenTofu controller natively extends GitOps synchronization paradigms beyond Kubernetes manifests to cloud infrastructure resources. |
+    | 2025-06-01 | [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc) | 🟡 high | Jenkins Configuration as Code (JCasC) provides a critical production-ready path to manage legacy CI infrastructure under modern GitOps and declarative paradigms. |
+    | 2026-06-13 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow is the leading cloud-native CI/CD platform engineered to handle massive-scale, decentralized, event-driven repository governance. |
+    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube represents a major technical novelty as a next-generation Kubernetes package manager designed to simplify dependency management and upgrades over traditional Helm. |
+    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🔵 medium | This Argo CD enhancement directly improves enterprise observability for multi-tenant topologies by natively mapping ApplicationSets in the dashboard UI. |
 
     **Observability, SRE & Testing**
 
