@@ -133,14 +133,14 @@ class NewsDigestEngine:
         # --- INDUSTRY / GEO (4) – resolved via geo_region, not slugs ---
         "Americas": [],
         "Europe": [],
-        "España": [],
+        "Spain": [],
         "Asia-Pacific": [],
     }
 
     GEO_CATEGORIES: Dict[str, str] = {
         "Americas": "americas",
         "Europe": "europe",
-        "España": "spain",
+        "Spain": "spain",
         "Asia-Pacific": "asia_pacific",
     }
 
@@ -186,14 +186,14 @@ class NewsDigestEngine:
             return self.category_map[cat]
         return None
 
-    def _get_entry_geo(self, entry: dict) -> str | None:
+    def _get_entry_geo(self, entry: dict, url: str = "") -> str | None:
         """Return the geo digest category using geo_region field, falling back to URL TLD inference."""
         region = entry.get("geo_region", "")
         for geo_name, geo_val in self.GEO_CATEGORIES.items():
             if region == geo_val:
                 return geo_name
-        # Fallback: infer from URL TLD
-        return self._infer_geo_from_url(entry.get("url", ""))
+        # Fallback: infer from URL TLD (entry.get("url") populated only after url injection)
+        return self._infer_geo_from_url(entry.get("url", "") or url)
 
     @staticmethod
     def _infer_geo_from_url(url: str) -> str | None:
@@ -205,7 +205,7 @@ class NewsDigestEngine:
             tld_to_region = [
                 (".com.au", "Asia-Pacific"), (".co.uk", "Europe"), (".co.jp", "Asia-Pacific"),
                 (".co.kr", "Asia-Pacific"), (".com.br", "Americas"), (".com.mx", "Americas"),
-                (".es", "España"), (".de", "Europe"), (".fr", "Europe"), (".it", "Europe"),
+                (".es", "Spain"), (".de", "Europe"), (".fr", "Europe"), (".it", "Europe"),
                 (".pt", "Europe"), (".nl", "Europe"), (".be", "Europe"), (".se", "Europe"),
                 (".dk", "Europe"), (".fi", "Europe"), (".no", "Europe"), (".ch", "Europe"),
                 (".at", "Europe"), (".pl", "Europe"), (".cz", "Europe"), (".uk", "Europe"),
@@ -410,7 +410,7 @@ class NewsDigestEngine:
                     category_pools.setdefault(cat, []).append(
                         dict(entry, url=url)
                     )
-                geo = self._get_entry_geo(entry)
+                geo = self._get_entry_geo(entry, url=url)
                 if geo:
                     category_pools.setdefault(geo, []).append(
                         dict(entry, url=url)

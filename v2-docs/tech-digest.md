@@ -3,7 +3,7 @@ search:
   boost: 2
 ---
 
-# Nubenetes Tech and Cloud Intelligence Digest
+# 📊 Nubenetes Tech & Cloud Intelligence Digest
 
 !!! tip "Nubenetes Intelligence Digest"
     AI-curated ranking of the most impactful resources, updated monthly.

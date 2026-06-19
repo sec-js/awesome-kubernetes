@@ -1840,6 +1840,190 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The launch of the AWS Spain region is a massive milestone that addresses data residency and latency requirements, accelerating cloud-native migration for Spanish enterprises.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "This analysis of major AWS outages highlights the systemic risks of cloud centralization and underscores the importance of multi-region and multi-cloud resilience strategies.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-06-14",
+        "stars": 3,
+        "impact": "high",
+        "why": "It addresses the critical organizational and cultural hurdles of scaling DevSecOps and cloud-native practices when relying on external IT outsourcing in Spain.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "high",
+        "why": "Provides essential strategic guidance for enterprises, arguing for realistic, incremental AI adoption paths rather than high-risk, large-scale overhauls.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Provides deep, localized technical knowledge on Linux performance and storage optimization, which are foundational for running high-performance Kubernetes worker nodes.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Demonstrates a real-world enterprise implementation of API-driven architecture, facilitating digital insurance B2B integrations.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases production-ready financial API infrastructure designed to comply with PSD2, highlighting modern integration patterns in Spanish banking.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces a lightweight, next-generation IDE that supports remote backend execution, aligning with the cloud-based developer workspace trend.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Offers a highly accessible, localized resource for mastering Python, which remains a core language for cloud automation, tooling, and AI pipelines.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.atareao.es/ubuntu/tuneles-ssh",
+        "title": "Túneles SSH",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "A practical guide to SSH tunneling, a fundamental skill for secure remote access, port forwarding, and network debugging in cloud environments.",
+        "category": "España"
+      }
+    ],
+    "Europe": [
+      {
+        "url": "https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper",
+        "title": "justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "It addresses a critical security paradigm by combining container signing via Cosign with policy enforcement through OPA Gatekeeper directly inside Kubernetes.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://gaia-x.eu",
+        "title": "Gaia-X.eu",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Gaia-X is a major European initiative establishing unified sovereign data infrastructure standards, heavily impacting how enterprise cloud architectures operate across the EU.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications",
+        "title": "versusmind.eu: Dapr - a serverless runtime for distributed applications' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Dapr introduces a powerful, runtime-agnostic microservice sidecar pattern that simplifies distributed application state, pub/sub, and bindings for cloud-native developers.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://youtu.be/OPKVKPfJrRA?si=YBt3LmBRNNq-GrqL",
+        "title": "Automated Disaster Recovery failover and failback with Red Hat OpenShift",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Automating multi-cluster disaster recovery and failback on OpenShift is vital for mission-critical enterprise workloads requiring strict resilience.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://http3-explained.haxx.se",
+        "title": "http3-explained.haxx.se: HTTP/3 explained 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "HTTP/3 and QUIC fundamentally rewrite the rules of cloud-native networking, offering major latency and connection multiplexing improvements for modern edge ingress.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1",
+        "title": "en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Using K3s with K3d dramatically streamlines local developer environments, allowing developers to run lightweight, production-grade Kubernetes clusters locally.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html",
+        "title": "Building a continious deployment pipeline with Kubernetes and Concourse-CI",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "It details how to securely interface CI pipelines with target Kubernetes clusters by isolating service accounts and managing cluster-bound secrets.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.padok.fr/en/blog/finops-cloud",
+        "title": "padok.fr: FinOps, or the Culture of Cloud Cost Optimization",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "FinOps bridges engineering and financial accountability, helping enterprises optimize massive cloud spend and waste within dynamic Kubernetes environments.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://blog.knell.it/making-your-helm-chart-observable-for-prometheus",
+        "title": "blog.knell.it: Making your Helm Chart observable for Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Integrating Prometheus metrics natively into Helm charts ensures observability standards are packaged alongside application deployments by default.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.padok.fr/en/blog/templating-openshift-helm-templates",
+        "title": "Templating on OpenShift: should I use Helm templates or OpenShift templates?' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "It assists enterprise platform engineers in choosing the right templating standard to prevent vendor lock-in while using OpenShift.",
+        "category": "Europe"
+      }
+    ],
     "FinOps & Cloud Cost": [
       {
         "url": "https://www.finops.org",
@@ -2022,6 +2206,118 @@
         "impact": "medium",
         "why": "kurl.sh allows enterprises to build custom, production-ready Kubernetes installers tailored specifically for air-gapped private cloud deployments.",
         "category": "Virtualization & Private Cloud"
+      }
+    ],
+    "Asia-Pacific": [
+      {
+        "url": "https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7",
+        "title": "mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Provides critical architectural guidance for migrating away from the deprecated Kubernetes External Secrets to modern ESO or Secrets Store CSI alternatives.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how",
+        "title": "devsecops.co.in: GitOps Guide – What, Why and How? 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Demystifies GitOps practices which are essential for achieving declarative, auditable, and automated continuous delivery in cloud-native setups.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry",
+        "title": "devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Addresses a common enterprise security requirement of deploying cloud-native monitoring (Prometheus Operator) within private registry environments.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins",
+        "title": "ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Improves CI/CD efficiency by demonstrating how to scale and parallelize build pipelines dynamically using Kubernetes-hosted Jenkins agents.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://comparecloud.in",
+        "title": "comparecloud.in: Public Cloud Services Comparison 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Simplifies multi-cloud architecture planning by offering a direct service-mapping taxonomy across major cloud providers.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern",
+        "title": "ishantgaurav.in: Kubernetes – Sidecar Container Pattern",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explains the sidecar pattern, which is fundamental to implementing service meshes, logging, and security proxies in microservices.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devopstalks.in/everything-about-prometheus",
+        "title": "devopstalks.in: Everything about Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explores Prometheus, the de facto CNCF standard for cloud-native metrics collection and alerting.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Covers advanced scheduling techniques necessary for workload isolation and resource allocation in multi-tenant Kubernetes clusters.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-daemonset",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explains DaemonSets, which are vital for running platform-level agents like log forwarders and node monitors.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs",
+        "title": "skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Provides essential operational foundations for setting up container logging and observability in Kubernetes.",
+        "category": "Asia-Pacific"
+      }
+    ],
+    "Americas": [
+      {
+        "url": "https://www.ccohs.ca/oshanswers/ergonomics/shovel.html",
+        "title": null,
+        "date": "2026-06-02",
+        "stars": 0,
+        "impact": "medium",
+        "why": "",
+        "category": "Americas"
+      },
+      {
+        "url": "https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional",
+        "title": "businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
+        "category": "Americas"
       }
     ]
   },
@@ -3866,6 +4162,190 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The opening of an AWS Region in Spain provides essential infrastructure for local cloud-native adoption and data residency compliance.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "high",
+        "why": "Provides critical strategic guidance on avoiding common pitfalls in enterprise AI transformation, which is increasingly integrated into cloud-native pipelines.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "high",
+        "why": "Demonstrates enterprise-grade API management and security compliance required by the PSD2 mandate in the Spanish financial sector.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases the shift toward API-first architectures and B2B integration patterns within the traditional insurance sector.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Provides foundational knowledge on Linux performance and storage optimization necessary for managing high-performance Kubernetes clusters.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces new developer tooling paradigms that prioritize remote execution and lightweight environments, matching cloud-native development workflows.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Addresses the structural challenges of IT outsourcing in Spain, directly impacting how organizations manage cloud-native scaling and DevOps silos.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Facilitates broader technical literacy in the Spanish community by providing a modern, accessible resource for foundational programming.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Highlights systemic risks of hyperscaler dependency, prompting necessary architecture discussions around multi-cloud and resilience strategies.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.hays.es/blog/insights/la-gran-renuncia",
+        "title": "hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando' dejar su trabajo?",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Provides essential context on talent retention and professional shifts in the Spanish IT sector, impacting team stability for cloud-native projects.",
+        "category": "España"
+      }
+    ],
+    "Europe": [
+      {
+        "url": "https://gaia-x.eu",
+        "title": "Gaia-X.eu",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Establishes a unified, secure, and sovereign European data infrastructure to reduce enterprise dependency on non-EU hyperscalers.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper",
+        "title": "justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Enforces supply chain security in Kubernetes by combining cryptographic container signing with policy-based admission control.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes",
+        "title": "devopswithkubernetes.com",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides a comprehensive, open-source academic curriculum that democratizes production-grade Kubernetes education.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://http3-explained.haxx.se",
+        "title": "http3-explained.haxx.se: HTTP/3 explained 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides the definitive technical guide to the QUIC protocol, reshaping edge performance and cloud-native ingress routing.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications",
+        "title": "versusmind.eu: Dapr - a serverless runtime for distributed applications' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Explores Dapr as a key CNCF runtime that significantly simplifies microservice integration and state management on Kubernetes.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://blog.knell.it/making-your-helm-chart-observable-for-prometheus",
+        "title": "blog.knell.it: Making your Helm Chart observable for Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Bridges deployment and observability by detailing how to natively integrate Prometheus monitoring metrics into Helm packages.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://blog.alterway.fr/en/building-a-continious-deployment-pipeline-with-kubernetes-and-concourse-ci.html",
+        "title": "Building a continious deployment pipeline with Kubernetes and Concourse-CI",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Addresses the critical security boundaries and access controls required to orchestrate Kubernetes-native continuous deployment pipelines.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://ruuda.nl/2023/the-yaml-document-from-hell",
+        "title": "ruudvanasseldonk.com: The yaml document from hell",
+        "date": "2026-06-14",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Exposes critical edge cases and pitfalls of YAML, the dominant yet highly error-prone configuration standard of Kubernetes.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1",
+        "title": "en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Highlights a highly efficient, lightweight development environment that mirrors production Kubernetes patterns locally.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.padok.fr/en/blog/templating-openshift-helm-templates",
+        "title": "Templating on OpenShift: should I use Helm templates or OpenShift templates?' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Evaluates configuration management options to help enterprise teams optimize application packaging on Red Hat OpenShift.",
+        "category": "Europe"
+      }
+    ],
     "FinOps & Cloud Cost": [
       {
         "url": "https://www.finops.org",
@@ -4048,6 +4528,118 @@
         "impact": "medium",
         "why": "Details the strategic use of Cluster API to bring cloud-native declarative operations directly to bare-metal deployments.",
         "category": "Virtualization & Private Cloud"
+      }
+    ],
+    "Asia-Pacific": [
+      {
+        "url": "https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7",
+        "title": "mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Provides a crucial architectural comparison for managing enterprise secrets securely on Kubernetes following the deprecation of legacy tools.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://comparecloud.in",
+        "title": "comparecloud.in: Public Cloud Services Comparison 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Simplifies multi-cloud architecture planning by mapping services across major public cloud providers for engineering teams.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry",
+        "title": "devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Delivers a production-ready guide for deploying observability infrastructure securely in enterprise environments using private registries.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how",
+        "title": "devsecops.co.in: GitOps Guide – What, Why and How? 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Demystifies the GitOps methodology, which is a fundamental paradigm shift for modern cloud-native continuous delivery.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern",
+        "title": "ishantgaurav.in: Kubernetes – Sidecar Container Pattern",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explains the sidecar pattern, which is essential for implementing service meshes and platform-level logging in Kubernetes.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins",
+        "title": "ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Optimizes continuous integration pipelines by leveraging Kubernetes to run parallel, dynamically scaled build jobs.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devopstalks.in/everything-about-prometheus",
+        "title": "devopstalks.in: Everything about Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Offers a comprehensive deep dive into Prometheus, the de facto standard tool for cloud-native system observability.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Enables engineers to design resilient and segregated clusters using advanced Kubernetes scheduling constraints.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-daemonset",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Details DaemonSet scheduling, which is vital for deploying node-level logging and security agents uniformly across a cluster.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs",
+        "title": "skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Guides operational teams through establishing essential log aggregation pipelines for containerized applications.",
+        "category": "Asia-Pacific"
+      }
+    ],
+    "Americas": [
+      {
+        "url": "https://www.ccohs.ca/oshanswers/ergonomics/shovel.html",
+        "title": null,
+        "date": "2026-06-02",
+        "stars": 0,
+        "impact": "medium",
+        "why": "",
+        "category": "Americas"
+      },
+      {
+        "url": "https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional",
+        "title": "businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
+        "category": "Americas"
       }
     ]
   },
@@ -5892,6 +6484,190 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The launch of the AWS Spain region is a massive milestone for local data residency compliance, low-latency applications, and accelerated enterprise cloud adoption.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Major hyperscaler outages highlight the systemic risks of cloud centralization and drive the architectural need for resilient, multi-region setups.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-06-14",
+        "stars": 3,
+        "impact": "high",
+        "why": "Highlights the critical organizational bottlenecks Spanish enterprises face when attempting to scale DevSecOps and cloud-native practices via outsourcing.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "high",
+        "why": "Offers essential system-level optimization and Linux performance insights necessary for engineers running workloads on cloud infrastructure.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Provides crucial strategic guidance for enterprises adopting AI, advising on iterative, cloud-native scaling over massive, high-risk initial rollouts.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "A highly visible localized educational resource that supports developer upskilling in Python, a foundational language for cloud-native scripting and AI/ML.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces lightweight, remote-friendly IDE options that align with modern developer workflows and cloud-hosted development environments.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases a production-ready, highly regulated financial API integration platform that aligns with modern microservices architecture.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Demonstrates how legacy enterprises in Spain are modernizing their B2B digital delivery through API-first cloud integration architectures.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explores strategic mitigation models for managing SLAs and operational consistency in complex, outsourced enterprise IT environments.",
+        "category": "España"
+      }
+    ],
+    "Europe": [
+      {
+        "url": "https://gaia-x.eu",
+        "title": "Gaia-X.eu",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Defines the emerging standard for data sovereignty and cloud federation across Europe, shifting how multi-cloud workloads are designed.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://courses.mooc.fi/org/uh-cs/courses/devops-with-kubernetes",
+        "title": "devopswithkubernetes.com",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides a comprehensive, open-source curriculum that accelerates enterprise Kubernetes adoption and developer upskilling across the EU.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper",
+        "title": "justinpolidori.it: Secure Your Docker Images With Cosign (and OPA Gatekeeper)",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Offers an actionable blueprint for software supply chain security using key CNCF tools Cosign and OPA Gatekeeper.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://http3-explained.haxx.se",
+        "title": "http3-explained.haxx.se: HTTP/3 explained 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Explains the foundational architecture of HTTP/3 and QUIC, which are critical for optimizing modern cloud-native edge ingress performance.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://versusmind.eu/blog/dapr-a-serverless-runtime-for-distributed-applications",
+        "title": "versusmind.eu: Dapr - a serverless runtime for distributed applications' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Demystifies Dapr as a major paradigm shift for building portable, cloud-native microservices with standard APIs.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://ruuda.nl/2023/the-yaml-document-from-hell",
+        "title": "ruudvanasseldonk.com: The yaml document from hell",
+        "date": "2026-06-14",
+        "stars": 0,
+        "impact": "high",
+        "why": "Exposes catastrophic syntactic edge cases in YAML, helping platform engineers avoid silent and dangerous Kubernetes configuration errors.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1",
+        "title": "en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Demonstrates a highly efficient local development and testing workflow using lightweight k3s and k3d container orchestrators.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://www.augmentedmind.de/2022/02/20/optimize-docker-image-security",
+        "title": "==augmentedmind.de: Docker optimization guide: the 12 best tips to optimize' Docker image security==",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Provides actionable strategies for drastically reducing vulnerability surfaces and footprints in production Docker images.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://blog.knell.it/making-your-helm-chart-observable-for-prometheus",
+        "title": "blog.knell.it: Making your Helm Chart observable for Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Establishes a repeatable pattern for embedding native Prometheus observability endpoints directly into reusable Helm charts.",
+        "category": "Europe"
+      },
+      {
+        "url": "https://difftastic.wilfred.me.uk",
+        "title": "difftastic.wilfred.me.uk",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces AST-based syntax comparison that eliminates noisy git diffs, making Kubernetes manifest and code reviews vastly more reliable.",
+        "category": "Europe"
+      }
+    ],
     "FinOps & Cloud Cost": [
       {
         "url": "https://www.finops.org",
@@ -6075,6 +6851,118 @@
         "why": "Simplifies private cloud and edge operations by packaging a highly resilient, enterprise-grade Kubernetes distribution into a single, zero-friction binary.",
         "category": "Virtualization & Private Cloud"
       }
+    ],
+    "Asia-Pacific": [
+      {
+        "url": "https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7",
+        "title": "mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "Provides crucial architectural guidance on migrating workloads following the deprecation of Kubernetes External Secrets to ESO or Secrets Store CSI.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry",
+        "title": "devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Demonstrates secure, production-ready enterprise deployment of Prometheus Operator utilizing private registries and Helm3.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how",
+        "title": "devsecops.co.in: GitOps Guide – What, Why and How? 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Explains the GitOps operational paradigm, which is fundamental to modern cloud-native continuous delivery and infrastructure management.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins",
+        "title": "ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "high",
+        "why": "Enables engineering teams to optimize CI/CD pipelines by executing highly parallelized Jenkins builds natively inside a Kubernetes cluster.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://comparecloud.in",
+        "title": "comparecloud.in: Public Cloud Services Comparison 🌟",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Simplifies multi-cloud system architecture design with a comprehensive taxonomy mapping tool for major public clouds.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern",
+        "title": "ishantgaurav.in: Kubernetes – Sidecar Container Pattern",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Examines the Kubernetes sidecar pattern, a foundational design concept essential for service mesh integrations and logging agents.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs",
+        "title": "skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Provides essential practices for establishing central observability by monitoring Docker and Kubernetes container logs.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://devopstalks.in/everything-about-prometheus",
+        "title": "devopstalks.in: Everything about Prometheus",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Covers Prometheus, the definitive CNCF standard for cloud-native systems monitoring and alerting.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explains taints and tolerations, which are critical for controlling workload scheduling and dedicated node allocation in production.",
+        "category": "Asia-Pacific"
+      },
+      {
+        "url": "https://blog.learncodeonline.in/kubernetes-scheduling-daemonset",
+        "title": "blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Details DaemonSets, a key scheduling primitive used for deploying node-level infrastructure agents like logging and monitoring daemons.",
+        "category": "Asia-Pacific"
+      }
+    ],
+    "Americas": [
+      {
+        "url": "https://www.ccohs.ca/oshanswers/ergonomics/shovel.html",
+        "title": null,
+        "date": "2026-06-02",
+        "stars": 0,
+        "impact": "medium",
+        "why": "",
+        "category": "Americas"
+      },
+      {
+        "url": "https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional",
+        "title": "businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
+        "category": "Americas"
+      }
     ]
   },
   "_meta": {
@@ -6199,6 +7087,18 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:16:25.205437+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
+      "Europe": {
+        "last_analyzed": "2026-06-19T16:16:44.072704+02:00",
+        "entry_hash": "6ae2f6a7eec2c6d0",
+        "entry_count": 109,
+        "method": "gemini"
+      },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-06-19T14:45:38.390973+02:00",
         "entry_hash": "7c8ebc027608bf2a",
@@ -6210,6 +7110,18 @@
         "entry_hash": "5b270190d616e0ea",
         "entry_count": 76,
         "method": "gemini"
+      },
+      "Asia-Pacific": {
+        "last_analyzed": "2026-06-19T16:18:10.295147+02:00",
+        "entry_hash": "de4b4450067bba21",
+        "entry_count": 25,
+        "method": "gemini"
+      },
+      "Americas": {
+        "last_analyzed": "2026-06-19T16:18:11.297048+02:00",
+        "entry_hash": "1ac69d758d138981",
+        "entry_count": 2,
+        "method": "fallback_small"
       }
     },
     "6_months": {
@@ -6333,6 +7245,18 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:18:26.505532+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
+      "Europe": {
+        "last_analyzed": "2026-06-19T16:18:53.748923+02:00",
+        "entry_hash": "d52198019caf4492",
+        "entry_count": 111,
+        "method": "gemini"
+      },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-06-19T14:52:20.730024+02:00",
         "entry_hash": "7c8ebc027608bf2a",
@@ -6344,6 +7268,18 @@
         "entry_hash": "5b270190d616e0ea",
         "entry_count": 76,
         "method": "gemini"
+      },
+      "Asia-Pacific": {
+        "last_analyzed": "2026-06-19T16:19:21.458075+02:00",
+        "entry_hash": "de4b4450067bba21",
+        "entry_count": 25,
+        "method": "gemini"
+      },
+      "Americas": {
+        "last_analyzed": "2026-06-19T16:19:22.459944+02:00",
+        "entry_hash": "1ac69d758d138981",
+        "entry_count": 2,
+        "method": "fallback_small"
       }
     },
     "12_months": {
@@ -6467,6 +7403,18 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:19:43.166872+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
+      "Europe": {
+        "last_analyzed": "2026-06-19T16:20:02.843962+02:00",
+        "entry_hash": "d52198019caf4492",
+        "entry_count": 111,
+        "method": "gemini"
+      },
       "FinOps & Cloud Cost": {
         "last_analyzed": "2026-06-19T14:59:15.132072+02:00",
         "entry_hash": "705e5ae797cbd854",
@@ -6478,8 +7426,20 @@
         "entry_hash": "5b270190d616e0ea",
         "entry_count": 76,
         "method": "gemini"
+      },
+      "Asia-Pacific": {
+        "last_analyzed": "2026-06-19T16:20:17.736774+02:00",
+        "entry_hash": "de4b4450067bba21",
+        "entry_count": 25,
+        "method": "gemini"
+      },
+      "Americas": {
+        "last_analyzed": "2026-06-19T16:20:18.738171+02:00",
+        "entry_hash": "1ac69d758d138981",
+        "entry_count": 2,
+        "method": "fallback_small"
       }
     },
-    "last_updated": "2026-06-19T15:56:27.767603+02:00"
+    "last_updated": "2026-06-19T16:38:21.993641+02:00"
   }
 }
