@@ -11,11 +11,31 @@
 1. [Automation and Orchestration](#automation-and-orchestration)
   - [API Orchestration](#api-orchestration)
     - [Postman](#postman)
+    - [Swagger Codegen](#swagger-codegen)
+  - [CICD and Pipelines](#cicd-and-pipelines)
+    - [Azure Pipelines](#azure-pipelines)
+    - [GitLab CI](#gitlab-ci)
+    - [Jenkins CLI](#jenkins-cli)
+    - [Jenkins JCasC](#jenkins-jcasc)
+    - [Jenkins REST API](#jenkins-rest-api)
   - [Configuration Management](#configuration-management)
     - [Ansible AWX](#ansible-awx)
     - [Ansible Kubernetes Module](#ansible-kubernetes-module)
+  - [GitOps](#gitops)
+    - [Argo CD](#argo-cd)
   - [Infrastructure as Code](#infrastructure-as-code)
     - [Terraform Boilerplates](#terraform-boilerplates)
+    - [Terraform Provider](#terraform-provider)
+  - [Package Management](#package-management)
+    - [Helm](#helm)
+  - [Templating Engine](#templating-engine)
+    - [Jinja](#jinja)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes Development](#kubernetes-development)
+    - [Go Client-Go](#go-client-go)
+      - [Generics](#generics)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
 
 ## The Nubenetes Engineering Manifest
 
@@ -45,7 +65,7 @@ We prioritize established frameworks and enterprise standards over ad-hoc, unmai
 #### 2.4. Avoiding Engineering Anti-Patterns
 We combat the culture of **Promotion-Based Development (PBD)**, where complexity is manufactured for personal career visibility rather than business value. 
 
-  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
+  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
   - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.
 
 ### 3. The Architectural North Star
@@ -126,6 +146,50 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Postman remains a prominent API collaboration platform. It offers developers comprehensive tools to design, mock, test, document, and monitor APIs within an intuitive, team-oriented development lifecycle workspace.
 
+#### Swagger Codegen
+
+??? note "Swagger Codegen"
+    **[Access Resource](https://github.com/swagger-api/swagger-codegen)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
+
+### CICD and Pipelines
+
+#### Azure Pipelines
+
+??? note "Azure Pipelines"
+    **[Access Resource](https://learn.microsoft.com/en-us/azure/devops/pipelines)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
+
+#### GitLab CI
+
+??? note "GitLab CI/CD"
+    **[Access Resource](https://docs.gitlab.com/ee/ci)** 🌟🌟🌟🌟🌟 | Level: Beginner
+    
+    Built-in continuous integration and delivery engine of GitLab, supporting declarative YAML pipeline specifications.
+
+#### Jenkins CLI
+
+??? note "Jenkins CLI"
+    **[Access Resource](https://www.jenkins.io/doc/book/managing/cli)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    The official command-line runtime interface for administering remote Jenkins controller servers. Allows automated shell execution of administrative tasks, plugin updates, diagnostic tracing, and build queue interventions.
+
+#### Jenkins JCasC
+
+??? note "Jenkins Configuration as Code"
+    **[Access Resource](https://www.jenkins.io/projects/jcasc)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Core configuration portal resource emphasizing JCasC's role in establishing single-source-of-truth configuration files. It eliminates configuration drift through central, repeatable environments.
+
+#### Jenkins REST API
+
+??? note "Jenkins Remote Access API"
+    **[Access Resource](https://www.jenkins.io/doc/book/using/remote-access-api)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Official documentation for Jenkins RESTful API integration, enabling remote control, status querying, and programmatic pipeline orchestration.
+
 ### Configuration Management
 
 #### Ansible AWX
@@ -142,18 +206,67 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Official documentation for the cornerstone `kubernetes.core.k8s` module. It allows direct, declarative definition of Kubernetes objects inside Ansible playbooks using native YAML manifest definitions, enabling a blended hybrid orchestration pattern.
 
+### GitOps
+
+#### Argo CD
+
+??? note "Argo CD"
+    **[Access Resource](https://argoproj.github.io/argo-cd)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    The absolute industry standard for GitOps-based continuous delivery on Kubernetes. Argo CD synchronizes active cluster states with declarative configurations stored in git repositories, providing robust drift correction, visual dashboarding, and audit controls.
+
 ### Infrastructure as Code
 
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
+#### Terraform Provider
+
+??? note "Terraform Kubernetes Provider"
+    **[Access Resource](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)** 🌟🌟🌟🌟 | Level: Beginner
+    
+    Official Kubernetes provider for Terraform, enabling declarative deployment and management of Kubernetes resources using HashiCorp Configuration Language (HCL).
+
+### Package Management
+
+#### Helm
+
+??? note "Helm"
+    **[Access Resource](https://github.com/helm/helm)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
+
+### Templating Engine
+
+#### Jinja
+
+??? note "jinja 🌟"
+    **[Access Resource](https://github.com/pallets/jinja)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+
+## Cloud Native
+
+### Kubernetes Development
+
+#### Go Client-Go
+
+##### Generics
+
+  - [itnext.io: Generically working with Kubernetes objects in Go](https://itnext.io/generically-working-with-kubernetes-resources-in-go-53bce678f887) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the use of Go 1.18+ generics to drastically reduce boilerplate when interacting with various Kubernetes API types. Live Grounding confirms that while standard client-go uses dynamic clients or interface{} for generic operations, integrating Go generics allows for cleaner, type-safe custom controllers. This article provides practical patterns for wrapping standard clients to streamline resource manipulation.
+## Kubernetes Tools
+
+### General Reference
+
+  - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==DZone: Defining Day-2 Operations== in the Kubernetes Tools ecosystem.
+  - [alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟](https://alexander-goida.medium.com/thoughts-about-breaking-silos-of-software-engineering-teams-323d1f78ef68)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering alexander-goida.medium.com: Thoughts about breaking silos of software engineering' teams 🌟 in the Kubernetes Tools ecosystem.
+  - [reddit.com: Promotion Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: Promotion Driven Development in the Kubernetes Tools ecosystem.
+  - [en.wikipedia.org: Kiss up kick down](https://en.wikipedia.org/wiki/Kiss_up_kick_down)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering en.wikipedia.org: Kiss up kick down in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Kubernetes Tools](./kubernetes-tools.md)
-
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

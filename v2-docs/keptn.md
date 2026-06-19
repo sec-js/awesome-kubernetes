@@ -8,6 +8,9 @@
 
 ## Table of Contents
 
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
 1. [Cloud Native Lifecycle](#cloud-native-lifecycle)
   - [CICD Pipelines](#cicd-pipelines)
     - [Community Meetups](#community-meetups)
@@ -18,7 +21,6 @@
     - [Guides](#guides)
     - [Site Reliability Engineering](#site-reliability-engineering)
   - [Local Environments](#local-environments)
-    - [K3s Sandboxing](#k3s-sandboxing)
     - [Video Guides](#video-guides-1)
   - [Site Reliability Engineering](#site-reliability-engineering-1)
     - [Monitoring Automation](#monitoring-automation)
@@ -26,6 +28,15 @@
   - [Application Performance Monitoring](#application-performance-monitoring)
     - [Guides](#guides-1)
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [tutorials.keptn.sh 🌟](https://tutorials.keptn.sh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tutorials.keptn.sh 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Keptn 0.6.0 — My top 5 favorite improvements](https://medium.com/keptn/keptn-0-6-0-my-top-5-favorite-improvements-242d8ac1abfe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Keptn 0.6.0 — My top 5 favorite improvements in the Kubernetes Tools ecosystem.
+  - [medium: How we are redesigning our microservices deployment strategy](https://medium.com/dynatrace-engineering/how-we-are-redesigning-our-microservices-deployment-strategy-c567e310a42e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How we are redesigning our microservices deployment strategy in the Kubernetes Tools ecosystem.
 ## Cloud Native Lifecycle
 
 ### CICD Pipelines
@@ -52,9 +63,6 @@
   - **(2023)** [Keptn](https://keptn.sh/stable) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A CNCF incubating project providing event-driven orchestration for continuous delivery and automated operations. Uses CloudEvents standards and a GitOps approach to automate deployment, testing, and multi-stage promotion of services.
 ### Local Environments
 
-#### K3s Sandboxing
-
-  - **(2021)** [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users' in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-41230870" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 11 L 30 9 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-41230870)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight integration environment designed to host a full-featured Keptn sandbox on a resource-constrained K3s Kubernetes cluster, integrated with Dynatrace agents for rapid performance evaluations.
 #### Video Guides (1)
 
   - **(2021)** [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video configuration demonstrating the execution of Keptn within local virtualized micro-clusters, streamlining testing of SRE control-planes on local machines.
@@ -72,7 +80,5 @@
   - **(2021)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical codelab demonstrating how developers leverage Dynatrace APM to identify code-level bottlenecks, analyze database performance, and utilize auto-remediation loops within automated delivery pipelines.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Argo](./argo.md)
-
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Sonarqube](./sonarqube.md) | [Stackstorm](./stackstorm.md)
 

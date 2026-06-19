@@ -8,41 +8,170 @@
 
 ## Table of Contents
 
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
+  - [Storage and Databases](#storage-and-databases)
+    - [Distributed Block Storage](#distributed-block-storage)
 1. [Cloud Native Storage Architecture](#cloud-native-storage-architecture)
   - [Storage Architecture and Engines](#storage-architecture-and-engines)
+    - [Benchmarks](#benchmarks)
     - [Container Attached Storage](#container-attached-storage)
+    - [Ecosystem Trends](#ecosystem-trends)
     - [Object Storage](#object-storage)
     - [Storage Paradigms](#storage-paradigms)
   - [Storage Fundamentals](#storage-fundamentals)
+    - [Conceptual Design](#conceptual-design)
+    - [Implementation Basics](#implementation-basics)
+    - [Platform Overview](#platform-overview)
     - [Stateful Applications](#stateful-applications)
     - [Storage Paradigms](#storage-paradigms-1)
 1. [Kubernetes Storage Implementation](#kubernetes-storage-implementation)
+  - [Persistent Volumes and Provisioners](#persistent-volumes-and-provisioners)
+    - [Alternative Storage Drivers](#alternative-storage-drivers)
+    - [Local Storage](#local-storage)
+    - [PVPVC Fundamentals](#pvpvc-fundamentals)
+    - [Storage Classes](#storage-classes)
   - [Stateful Operations](#stateful-operations)
     - [Volume Resizing](#volume-resizing)
+  - [Volume Fundamentals](#volume-fundamentals)
+    - [Ephemeral Storage](#ephemeral-storage)
+    - [Implementation Basics](#implementation-basics-1)
+1. [Platform Engineering](#platform-engineering)
+  - [Ecosystem](#ecosystem)
+    - [Marketplace](#marketplace)
 1. [Storage](#storage)
+  - [Distributed Storage](#distributed-storage)
+    - [Ceph](#ceph)
+  - [Enterprise Storage](#enterprise-storage)
+    - [Legacy Platforms](#legacy-platforms)
+    - [Red Hat Storage](#red-hat-storage)
+    - [Storage Definitions](#storage-definitions)
+  - [Kubernetes CSI](#kubernetes-csi)
+    - [Documentation](#documentation)
+    - [How-To](#how-to)
+    - [S3 Integration](#s3-integration)
+    - [SMB Integration](#smb-integration)
+    - [Source Code](#source-code)
+  - [Kubernetes PVC](#kubernetes-pvc)
+    - [RWX Alternatives](#rwx-alternatives)
   - [Kubernetes Storage](#kubernetes-storage)
-    - [Distributed Block Storage](#distributed-block-storage)
+    - [Backup and Replication](#backup-and-replication)
+    - [Benchmarking](#benchmarking)
+    - [Container Attached Storage](#container-attached-storage-1)
+    - [Distributed Block Storage](#distributed-block-storage-1)
+    - [Enterprise CAS](#enterprise-cas)
     - [GlusterFS Orchestration](#glusterfs-orchestration)
+    - [High Performance Block Storage](#high-performance-block-storage)
+    - [LVM Provisioning](#lvm-provisioning)
+    - [Lightweight Deployments](#lightweight-deployments)
+    - [Local Storage Provisioning](#local-storage-provisioning)
+    - [NVMe-oF](#nvme-of)
+    - [Open Source Governance](#open-source-governance)
+    - [Performance Analysis](#performance-analysis)
+    - [Platform Integration](#platform-integration)
+    - [Storage Operators](#storage-operators)
+    - [Storage Orchestrators](#storage-orchestrators)
+  - [Object Storage](#object-storage-1)
+    - [MinIO](#minio)
 1. [Storage and Data](#storage-and-data)
-  - [Container Attached Storage](#container-attached-storage-1)
+  - [Container Attached Storage](#container-attached-storage-2)
     - [OpenEBS](#openebs)
+  - [Data on Kubernetes](#data-on-kubernetes)
+    - [Community Hub](#community-hub)
+    - [Industry Research](#industry-research)
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [medium: Kubernetes Storage Explained 🌟](https://medium.com/swlh/kubernetes-storage-explained-558e85596d0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Kubernetes Storage Explained 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Solution architect’s guide to Kubernetes persistent storage](https://medium.com/weareservian/solution-architects-guide-to-kubernetes-persistant-storage-3c9660187e8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Solution architect’s guide to Kubernetes persistent storage in the Kubernetes Tools ecosystem.
+  - [cncf.io: Container Attached Storage is Cloud Native Storage (CAS)](https://www.cncf.io/blog/2020/09/22/container-attached-storage-is-cloud-native-storage-cas)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Container Attached Storage is Cloud Native Storage (CAS) in the Kubernetes Tools ecosystem.
+  - [medium: Kubernetes Storage Performance Comparison v2 (2020 Updated) 🌟](https://medium.com/volterra-io/kubernetes-storage-performance-comparison-v2-2020-updated-1c0b69f0dcf4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Kubernetes Storage Performance Comparison v2 (2020 Updated) 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Provisioning storage in Kubernetes](https://medium.com/avmconsulting-blog/provisioning-storage-in-kubernetes-e1dc5610318d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Provisioning storage in Kubernetes in the Kubernetes Tools ecosystem.
+  - [blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined' Storage - Which One to Choose?](https://blog.mayadata.io/container-attached-storage-cas-vs.-software-defined-storage-which-one-to-choose)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.mayadata.io: Container Attached Storage (CAS) vs. Software-Defined' Storage - Which One to Choose? in the Kubernetes Tools ecosystem.
+  - [blog.mayadata.io: Kubernetes storage basics: PV, PVC and StorageClass 🌟](https://blog.mayadata.io/kubernetes-storage-basics-pv-pvc-and-storageclass)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.mayadata.io: Kubernetes storage basics: PV, PVC and StorageClass 🌟 in the Kubernetes Tools ecosystem.
+  - [ondat.io: Stateful Apps in Kubernetes are a big deal](https://www.ondat.io/blog/stateful-apps-in-kubernetes-are-a-big-deal)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ondat.io: Stateful Apps in Kubernetes are a big deal in the Kubernetes Tools ecosystem.
+  - [techgenix.com: Data Storage Management for Kubernetes - 5 movers and shakers](https://techgenix.com/data-storage-management-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techgenix.com: Data Storage Management for Kubernetes - 5 movers and shakers in the Kubernetes Tools ecosystem.
+  - [medium.com/@amir.ilw: Kubernetes Storage Migration 🌟](https://medium.com/@amir.ilw/kubernetes-storage-migration-ac48f6f9f5a5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@amir.ilw: Kubernetes Storage Migration 🌟 in the Kubernetes Tools ecosystem.
+  - [discoblocks.io 🌟](https://discoblocks.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering discoblocks.io 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/geekculture: Storage | Kubernetes](https://medium.com/geekculture/storage-kubernetes-92eb3d027282)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: Storage | Kubernetes in the Kubernetes Tools ecosystem.
+  - [medium.com/nerd-for-tech: Persistence with Kubernetes](https://medium.com/nerd-for-tech/persistence-with-kubernetes-46f039d9a2ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/nerd-for-tech: Persistence with Kubernetes in the Kubernetes Tools ecosystem.
+  - [cncf.io: Kubernetes storage is complex, but it’s getting better](https://www.cncf.io/blog/2023/03/28/kubernetes-storage-is-complex-but-its-getting-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes storage is complex, but it’s getting better in the Kubernetes Tools ecosystem.
+  - [yuminlee2.medium.com: Kubernetes: Storage](https://yuminlee2.medium.com/kubernetes-storage-fe5363d88d42)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==yuminlee2.medium.com: Kubernetes: Storage== in the Kubernetes Tools ecosystem.
+  - [medium.com/kubernetes-deveops: Kubernetes — Deploying Application with Persistent' Storage](https://medium.com/kubernetes-deveops/kubernetes-deploying-application-with-persistent-storage-5068767e25f3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/kubernetes-deveops: Kubernetes — Deploying Application with Persistent' Storage in the Kubernetes Tools ecosystem.
+  - [shuanglu1993.medium.com: What happens when volumeManager in the kubelet' starts?](https://shuanglu1993.medium.com/what-happens-when-volumemanager-in-the-kubelet-starts-1fea623ac6ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering shuanglu1993.medium.com: What happens when volumeManager in the kubelet' starts? in the Kubernetes Tools ecosystem.
+  - [medium.com/codex: Kubernetes Persistent Volume Explained](https://medium.com/codex/kubernetes-persistent-volume-explained-fb27df29c393)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/codex: Kubernetes Persistent Volume Explained== in the Kubernetes Tools ecosystem.
+  - [giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime' 🌟](https://www.giffgaff.io/tech/resizing-statefulset-persistent-volumes-with-zero-downtime)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering giffgaff.io: Resizing StatefulSet Persistent Volumes with zero downtime' 🌟 in the Kubernetes Tools ecosystem.
+  - [blog.cloudnloud.com: Kubernetes Volume](https://blog.cloudnloud.com/kubernetes-volume)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.cloudnloud.com: Kubernetes Volume in the Kubernetes Tools ecosystem.
+  - [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering portworx.com: Kubernetes Persistent Volume Tutorial by Portworx in the Kubernetes Tools ecosystem.
+  - [devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial](https://devineer.medium.com/get-to-grips-with-kubernetes-volumes-a-practical-tutorial-c41853c64f02)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering devineer.medium.com: Get to Grips with Kubernetes Volumes: A Practical Tutorial in the Kubernetes Tools ecosystem.
+  - [airplane.dev: How to use Kubernetes ephemeral volumes & storage 🌟](https://www.airplane.dev/blog/kubernetes-ephemeral-storage)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering airplane.dev: How to use Kubernetes ephemeral volumes & storage 🌟 in the Kubernetes Tools ecosystem.
+  - [blog.devgenius.io: When K8s pods are stuck mounting large volumes](https://blog.devgenius.io/when-k8s-pods-are-stuck-mounting-large-volumes-2915e6656cb8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: When K8s pods are stuck mounting large volumes in the Kubernetes Tools ecosystem.
+  - [Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟](https://medium.com/asl19-developers/create-readwritemany-persistentvolumeclaims-on-your-kubernetes-cluster-3a8db51f98e3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Create ReadWriteMany PersistentVolumeClaims on your Kubernetes Cluster 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@abdulfayis: storage Orchestration for Kubernetes](https://medium.com/@abdulfayis/storage-orchestration-for-kubernetes-c6370f943e23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@abdulfayis: storage Orchestration for Kubernetes in the Kubernetes Tools ecosystem.
+  - [Robin](https://robin.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Robin in the Kubernetes Tools ecosystem.
+  - [Portworx](https://portworx.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Portworx in the Kubernetes Tools ecosystem.
+  - [MayaData](https://mayadata.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering MayaData in the Kubernetes Tools ecosystem.
+  - [goglides.io: Running OpenEBS in Kubernetes](https://goglides.io/running-openebs-in-kubernetes/371)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering goglides.io: Running OpenEBS in Kubernetes in the Kubernetes Tools ecosystem.
+  - [LightOS](https://www.lightbitslabs.com/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering LightOS in the Kubernetes Tools ecosystem.
+  - [aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed' storage)](https://aesher9o1.medium.com/autoscale-large-images-faster-using-longhorn-distributed-storage-618d0cf01ba2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aesher9o1.medium.com: Autoscale large images faster using Longhorn (distributed' storage) in the Kubernetes Tools ecosystem.
+  - [medium.com/@abdelrhmanahmed131: Longhorn — Distributed Block Storage for' K8s](https://medium.com/@abdelrhmanahmed131/longhorn-distributed-block-storage-for-k8s-2ea11df400d1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@abdelrhmanahmed131: Longhorn — Distributed Block Storage for' K8s in the Kubernetes Tools ecosystem.
+  - [docs.netapp.com: Intro to Astra Data Store preview](https://docs.netapp.com/us-en/astra-data-store/concepts/intro.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docs.netapp.com: Intro to Astra Data Store preview in the Kubernetes Tools ecosystem.
+  - [Curve: opencurve.io](https://opencurve.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Curve: opencurve.io in the Kubernetes Tools ecosystem.
+  - [blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with' Kubestr](https://blog.kasten.io/benchmarking-kubernetes-storage-with-kubestr)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.kasten.io: Benchmarking and Evaluating Your Kubernetes Storage with' Kubestr in the Kubernetes Tools ecosystem.
+  - [Discoblocks: ondat.io/discoblocks](https://www.ondat.io/discoblocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Discoblocks: ondat.io/discoblocks in the Kubernetes Tools ecosystem.
+## Cloud Infrastructure and Orchestration
+
+### Storage and Databases
+
+#### Distributed Block Storage
+
+  - **(2026)** [==Ceph: A Distributed Object, Block, and File Storage Platform==](https://github.com/ceph/ceph) <span class='md-tag md-tag--info'>⭐ 16707</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2d010a68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 2 L 20 3 L 30 2 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2d010a68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade, highly scalable distributed storage ecosystem providing object, block, and file system storage on a single unified cluster. Widely adopted as the primary storage layer backing cloud platforms and Kubernetes orchestration (Rook-Ceph).
 ## Cloud Native Storage Architecture
 
 ### Storage Architecture and Engines
 
+#### Benchmarks
+
+  - **(2021)** [blog.flant.com: Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes](https://palark.com/blog/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive performance comparison of storage systems like Ceph, LINSTOR, Mayastor, and Vitastor in Kubernetes environments. It provides precise raw data across synthetic block tests (FIO), representing a masterclass in storage performance validation.
+  - **(2020)** [gitlab.com: Kubernetes storage provider benchmarks](https://gitlab.com/mrman/k8s-storage-provider-benchmarks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical benchmarking repository comparing IOPS, latency, and throughput metrics across multiple Kubernetes CSI providers. Though individual hardware baselines vary, the structured methodology offers an essential framework for verifying storage performance prior to deployment.
 #### Container Attached Storage
 
   - **(2020)** [thenewstack.io: Stateful Workloads on Kubernetes with Container Attached Storage 🌟](https://thenewstack.io/stateful-workloads-on-kubernetes-with-container-attached-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploration of Container Attached Storage (CAS) architectures, where storage software itself runs inside microservices to present local drives as resilient distributed storage pools. This approach, exemplified by OpenEBS and Portworx, maximizes hyper-converged agility.
+#### Ecosystem Trends
+
+  - **(2020)** [thenewstack.io: The most popular cloud native solutions 🌟](https://thenewstack.io/cloud-native/the-most-popular-cloud-native-storage-solutions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive market landscape report detailing leading cloud-native storage technologies. It provides a strategic comparison of software-defined storage (SDS) frameworks, helping architects choose between hyper-converged, container-attached, or external enterprise storage arrays.
+  - **(2019)** [forbes.com: 5 Cloud Native Storage Startups To Watch Out For In 2019](https://www.forbes.com/sites/janakirammsv/2019/06/28/5-cloud-native-storage-startups-to-watch-out-for-in-2019) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective analysis of promising cloud-native storage startups circa 2019. While the market has consolidated since publication, tracking these early-stage designs (such as Portworx and Rook) provides critical context regarding how CSI-native architectures became standard.
 #### Object Storage
 
   - **(2021)** [thenewstack.io: Beyond Block and File: COSI Enables Object Storage in Kubernetes 🌟](https://thenewstack.io/beyond-block-and-file-cosi-enables-object-storage-in-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural overview of the Container Object Storage Interface (COSI) initiative, which seeks to standardize object storage provisioning in Kubernetes, mirroring the success of CSI. COSI abstracts bucket creation and user management into a native Kubernetes API.
   - **(2021)** [infoworld.com: Kubernetes object storage best practices](https://www.infoworld.com/article/2269961/kubernetes-object-storage-best-practices.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An InfoWorld expert synthesis offering actionable guidelines on designing applications around object storage APIs instead of direct disk mounts. This approach enhances scaling metrics and simplifies geo-distributed cloud-native architectures.
 #### Storage Paradigms
 
+  - **(2021)** [thenewstack.io: When Is Decentralized Storage the Right Choice?](https://thenewstack.io/when-is-decentralized-storage-the-right-choice) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical evaluation of decentralized, blockchain-inspired storage networks for enterprise cloud-native systems. It contrasts traditional localized SAN/NAS setups with distributed network topologies, focusing on data privacy, redundancy, and regional compliance factors.
+  - **(2021)** [storj.io: Integrating Decentralized Cloud Storage with Duplicati](https://www.storj.io/cloud-object-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tactical integration guide demonstrating how to pipe secure backups from Duplicati directly into Storj's decentralized, zero-trust cloud object storage network. This integration showcases decentralized storage in action for enterprise disaster recovery.
   - **(2020)** [blocksandfiles.com: geless storage is the ‘answer’ to Kubernetes data challenges](https://www.blocksandfiles.com/container-storage/2020/12/22/storageless-storage-is-the-answer-to-kubernetes-data-challenges/1611647) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploratory piece discussing 'storageless' architecture paradigms where localized persistent state is completely abstract, delegating high availability and replica management to SaaS object systems. While conceptually novel, live implementation typically manifests as highly managed serverless databases.
 ### Storage Fundamentals
 
+#### Conceptual Design
+
+  - **(2020)** [rancher.com: What is Cloud-Native Storage?](https://www.suse.com/c/rancher_blog/what-is-cloud-native-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational explanation of Cloud-Native Storage (CNS) principles, focusing on the dynamic orchestration, scalability, and resilience required by ephemeral containers. It unpacks the shift from static hardware-bound SAN/NAS structures to dynamic, application-centric storage.
+  - **(2020)** [thenewstack.io: Persistent Volumes: Separating Compute and Storage](https://thenewstack.io/persistent-volumes-separating-compute-and-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural piece explaining the strategic benefits of separating computational logic from stateful storage layers using Persistent Volumes. This division facilitates fluid container rescheduling while securing raw historical state across hardware failures.
+#### Implementation Basics
+
+  - **(2021)** [armosec.io: Data Storage in Kubernetes](https://www.armosec.io/blog/kubernetes-data-storage) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security-minded primer on Kubernetes data storage mechanics. It outlines the core abstractions (PV, PVC, StorageClass) with a focus on data privacy, encryption at rest, and securing access control permissions within multi-tenant clusters.
+  - **(2020)** [howtoforge.com: Storage in Kubernetes 🌟](https://www.howtoforge.com/storage-in-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial mapping out the core abstraction primitives of the Kubernetes storage subsystem. It offers step-by-step guidance on declaring ephemeral emptyDir volumes, mounting host paths, and establishing baseline persistent storage configurations.
+#### Platform Overview
+
+  - **(2021)** [danielmangum.com: K8s ASA: The Storage Interface](https://danielmangum.com/posts/k8s-asa-the-storage-interface) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elegant, lower-level examination of the interface boundary where Kubernetes hooks into system storage. It details the progression of in-tree storage volume plugins to the modern out-of-tree Container Storage Interface (CSI) protocol.
+  - **(2020)** [thenewstack.io: How Kubernetes provides networking and storage to applications](https://thenewstack.io/how-kubernetes-provides-networking-and-storage-to-applications) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An foundational architectural piece detailing the convergence of network topology and volume storage systems within Kubernetes. It elucidates how the control plane decouples resource provisioning from consumption, making it an excellent primer for platform operators transitioning to container-native infrastructure.
+  - **(2020)** [thenewstack.io: The Biggest Gap in Kubernetes Storage Architecture?](https://thenewstack.io/whats-the-biggest-gap-in-kubernetes-storage-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical deep dive exposing systemic architectural gaps in early Kubernetes CSI iterations, focusing on data protection, consistency, and disaster recovery. It tracks how vendors and the community resolved these limits through CSI snapshotting and backup controller patterns.
+  - **(2019)** [softwareengineeringdaily.com: Why Is Storage On Kubernetes So Hard? 🌟](https://softwareengineeringdaily.com/2019/01/11/why-is-storage-on-kubernetes-is-so-hard) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An audio-architectural retrospective addressing why state enforcement in an orchestrator built for ephemeral execution remains historically complex. It highlights the design tensions between rapid container scheduling and slow physical storage attachment/detachment cycles.
 #### Stateful Applications
 
   - **(2021)** [developers.redhat.com: How to maximize data storage for microservices and Kubernetes, Part 1: An introduction 🌟](https://developers.redhat.com/articles/2021/08/11/how-maximize-data-storage-microservices-and-kubernetes-part-1-introduction) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of a premium Red Hat series defining technical best practices for mapping microservices to underlying storage topologies. It highlights the strategic balance between raw database performance demands and the cloud-native flexibility of dynamic storage provisioning.
@@ -54,32 +183,163 @@
   - **(2020)** [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural case study advocating for the strict decoupling of compute nodes and storage backends within log-aggregation systems. This pattern, exemplified by Loki and Elasticsearch, ensures that volatile search workloads do not degrade raw historical index durability.
 ## Kubernetes Storage Implementation
 
+### Persistent Volumes and Provisioners
+
+#### Alternative Storage Drivers
+
+  - **(2021)** [itnext.io: Highly Available NFS cluster in Kubernetes, a cloud vendor independent storage solution](https://itnext.io/highly-available-nfs-cluster-in-kubernetes-a-cloud-vendor-independent-storage-solution-f9a314cfdfcc) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth guide on deploying a highly available NFS cluster entirely within Kubernetes. It bypasses proprietary cloud vendor offerings to construct an independent, multi-write shared filesystem using open-source replication utilities.
+#### Local Storage
+
+  - **(2026)** [==github.com/kubernetes-sigs: Local Persistence Volume Static Provisioner' 🌟==](https://github.com/kubernetes-sigs/sig-storage-local-static-provisioner) <span class='md-tag md-tag--info'>⭐ 1200</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f6d12a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 10 L 30 9 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-3f6d12a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes-SIGs repository for the local persistence static provisioner. It automates the creation of PVs for local disks, enabling database workloads to achieve raw, low-latency NVMe/SSD IOPS while retaining Kubernetes persistent storage abstractions.
+  - **(2026)** [==openebs/zfs-localpv==](https://github.com/openebs/zfs-localpv) <span class='md-tag md-tag--info'>⭐ 566</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c59d73d2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 8 L 30 13 L 40 2 L 50 13" fill="none" stroke="url(#spark-grad-c59d73d2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official OpenEBS CSI driver for ZFS-LocalPV. It dynamically provisions ZFS pools on local nodes, combining the exceptional performance of raw NVMe storage with ZFS capabilities like snapshots, clones, compression, and high integrity.
+#### PVPVC Fundamentals
+
+  - **(2023)** [linkedin.com/pulse: What are Kubernetes Persistent Volumes?](https://www.linkedin.com/pulse/what-kubernetes-persistent-volumes-gyan-prakash-1f) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level overview explaining the conceptual purpose of Persistent Volumes. It targets business-minded platform engineers seeking to understand how storage decouples physical disk infrastructure from container runtime cycles.
+  - **(2022)** [spacelift.io: Kubernetes Persistent Volumes – Tutorial and Examples](https://spacelift.io/blog/kubernetes-persistent-volumes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extensive, step-by-step tutorial explaining the mechanics of Persistent Volumes, Persistent Volume Claims, and StorageClasses. It provides realistic configuration files, making it an excellent resource for production deployments.
+  - **(2021)** [adamtheautomator.com: Effortless Storage Management With Kubernetes PVC 🌟](https://adamtheautomator.com/kubernetes-pvc) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step hands-on tutorial guiding users through configuring PersistentVolumeClaims (PVCs). It provides clear configuration patterns for provisioning, testing, and verifying that backend storage resources bind correctly.
+  - **(2020)** [kylezsembery.com: Persistent Storage in Kubernetes](https://www.kylezsembery.com/persistent-storage-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A standard administrative tutorial on setting up persistent storage within Kubernetes. It unpacks the physical relationship between host paths, network attachments, and Kubernetes virtual volume resources, serving as an operational reference for junior engineers.
+  - **(2020)** [itnext.io: Kubernetes: PersistentVolume and PersistentVolumeClaim — an overview with examples](https://itnext.io/kubernetes-persistentvolume-and-persistentvolumeclaim-an-overview-with-examples-3c5688222f99) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial examining the foundational mechanics of PersistentVolumes and PersistentVolumeClaims. It employs clean yaml manifests to illustrate how claims bind to volumes dynamically, detailing reclaim policies and access modes.
+#### Storage Classes
+
+  - **(2021)** [kubermatic.com: Keeping the State of Apps 5: Introduction to Storage Classes](https://www.kubermatic.com/blog/keeping-the-state-of-apps-5-introduction-to-storage-classes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory guide to Kubernetes StorageClasses. It explains how administrators use StorageClasses to define dynamic, multi-tier storage profiles (e.g., SSD vs HDD) that allow users to request storage on-demand without manual administrator intervention.
 ### Stateful Operations
 
 #### Volume Resizing
 
   - **(2021)** [itnext.io: Resizing StatefulSet Persistent Volumes with zero downtime 🌟](https://itnext.io/resizing-statefulset-persistent-volumes-with-zero-downtime-916ebc65b1d4) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A highly valuable technical guide detailing how to resize StatefulSet Persistent Volumes with zero downtime. It details the complex mechanics of updating CSI drivers, triggering file system expansion, and safely editing stateful configurations online.
+### Volume Fundamentals
+
+#### Ephemeral Storage
+
+  - **(2021)** [itnext.io: Temporary Storage for Kubernetes Pods](https://itnext.io/temporary-storage-for-kubernetes-pods-f8330ad8db88) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide detailing ephemeral, temporary storage options (emptyDir, hostPath, downwardAPI) for Kubernetes pods. It details how runtime engines leverage ephemeral storage limits to protect against disk exhaustion on shared nodes.
+#### Implementation Basics (1)
+
+  - **(2021)** [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed New Relic platform tutorial detailing how Kubernetes Volumes function. It maps practical configurations from local directories up to persistent network volumes, helping engineers establish robust observability patterns around disk metrics.
+  - **(2021)** [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A focused architectural introduction explaining the crucial distinction between a declared Volume (the backend data provider) and a volumeMount (how that data is projected inside a container). It covers essential syntax parameters for configuration.
+  - **(2021)** [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-oriented guide explaining the conceptual differences between filesystems, generic container volumes, and Persistent Volumes. It uses clear examples, such as an NFS-backed Volume, to clarify how and when to use each configuration pattern.
+## Platform Engineering
+
+### Ecosystem
+
+#### Marketplace
+
+  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
 ## Storage
 
+### Distributed Storage
+
+#### Ceph
+
+  - **(2026)** [Red Hat Ceph Storage](https://ceph.io/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Ceph Storage is an enterprise product offering distributed block, file, and object storage coupled with multi-cloud data federation via NooBaa. It incorporates enterprise efficiency tools like global data compression, data deduplication, asynchronous multi-site replication, and strong encryption policies.
+### Enterprise Storage
+
+#### Legacy Platforms
+
+  - **(2020)** [Reduxio](https://www.reduxio.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Reduxio was an enterprise storage innovator that designed unified primary and secondary storage frameworks with granular, instantaneous recovery capabilities. Though the product has transitioned into a legacy technology, its foundational approaches to metadata-defined back-dating continue to influence cloud-native backup paradigms.
+#### Red Hat Storage
+
+  - **(2021)** [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural overview analyzes the Red Hat OpenShift Container Storage platform (now OpenShift Data Foundation). It details how combining Ceph, NooBaa, and Rook creates an integrated control plane to deliver multi-cloud block, file, and object endpoints for OpenShift workloads.
+#### Storage Definitions
+
+  - **(2021)** [searchstorage.techtarget.com: IBM Spectrum](https://www.techtarget.com/searchitchannel/definition/IBM-International-Business-Machines)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational reference defining the scope, capabilities, and historical context of IBM's software-defined storage portfolio. It details how disaggregating storage management software from physical hardware streamlines data mobility across hybrid-cloud infrastructures.
+### Kubernetes CSI
+
+#### Documentation
+
+  - **(2026)** [kubernetes-csi.github.io](https://kubernetes-csi.github.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation portal for the Kubernetes Container Storage Interface (CSI) specification. It is the definitive engineering reference for storage vendors developing pluggable drivers and platform architects designing interoperable container storage controllers.
+#### How-To
+
+  - **(2020)** [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instructional overview explaining how the Container Storage Interface (CSI) specification coordinates volume management. It details the precise structural operations between the Kubelet, Kubernetes API servers, and vendor-specific CSI driver components.
+#### S3 Integration
+
+  - **(2026)** [==github.com/yandex-cloud: CSI for S3==](https://github.com/yandex-cloud/k8s-csi-s3) <span class='md-tag md-tag--info'>⭐ 859</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ec31b7d3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 12 L 30 10 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-ec31b7d3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An open-source CSI driver that allows mounting Amazon S3 object buckets directly as filesystems within Kubernetes pods using local FUSE drivers. This interface permits legacy applications expecting flat directory paths to consume S3 storage backends with minimal code refactoring.
+#### SMB Integration
+
+  - **(2026)** [==SMB CSI Driver for Kubernetes==](https://github.com/kubernetes-csi/csi-driver-smb) <span class='md-tag md-tag--info'>⭐ 641</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63235a8d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 3 L 30 2 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-63235a8d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A specialized CSI driver designed to dynamically provision and mount Server Message Block (SMB) shared directories into Kubernetes pods. This driver is essential for heterogeneous Windows/Linux container clusters and legacy corporate network attached storage (NAS) migrations.
+#### Source Code
+
+  - **(2026)** [github.com/kubernetes-csi](https://github.com/kubernetes-csi) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub organization containing CSI reference drivers, specification documentation, and auxiliary helper containers (such as csi-provisioner and csi-snapshotter). These foundational code repositories define how all third-party storage controllers communicate with the core Kubernetes API.
+### Kubernetes PVC
+
+#### RWX Alternatives
+
+  - **(2021)** [Digital Ocean: Kuberntes PVC ReadWriteMany access mode alternative](https://www.digitalocean.com/community/questions/kuberntes-pvc-readwritemany-access-mode-alternative) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural guide details alternatives for resolving ReadWriteMany (RWX) volume constraints in environments like DigitalOcean that natively support only ReadWriteOnce (RWO) block storage. It outlines techniques for deploying in-cluster NFS servers or utilizing shared file systems like CephFS to bridge the storage access limitation.
 ### Kubernetes Storage
 
-#### Distributed Block Storage
+#### Backup and Replication
+
+  - **(2026)** [==VolSync 🌟==](https://github.com/backube/volsync) <span class='md-tag md-tag--info'>⭐ 978</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8702f91" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 13 L 20 7 L 30 8 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-c8702f91)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — VolSync is an open-source Kubernetes operator developed by Backube to orchestrate cross-cluster persistent volume data replication. Supporting engines like rsync, rclone, and restic, it delivers a platform-agnostic framework for executing disaster recovery policies.
+  - **(2021)** [next.redhat.com: Introducing VolSync: your data, anywhere](https://next.redhat.com/2021/08/23/introducing-volsync-your-data-anywhere)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory overview of VolSync's design goals and features, showing how the controller simplifies complex multi-cluster persistence synchronization. It details how the operator abstracts underlying storage structures, allowing unified data movement across diverse cloud backends.
+#### Benchmarking
+
+  - **(2026)** [kubestr.io](https://kubestr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubestr is an open-source CLI toolkit engineered to auto-discover, inspect, and benchmark persistent storage configurations within a Kubernetes cluster. By running in-cluster FIO test cases, it provides architects with validated throughput and latency metrics for active storage configurations.
+  - **(2021)** [itnext.io: State of Persistent Storage in K8s — A Benchmark](https://itnext.io/state-of-persistent-storage-in-k8s-a-benchmark-77a96bb1ac29)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular performance evaluation of stateful storage engines in Kubernetes environments, including OpenEBS, Rook-Ceph, and Longhorn. This benchmark measures key execution indicators like latency, IOPS, and CPU utilization, guiding system architects in selecting high-performance storage backends for critical databases.
+#### Container Attached Storage (1)
+
+  - **(2026)** [==OpenEBS==](https://openebs.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — OpenEBS is an adaptable Container Attached Storage (CAS) system that transforms local node storage or cloud-attached disks into dedicated dynamic persistent volumes for stateful applications. Utilizing engines like Mayastor and LocalPV, it isolates I/O processing on a per-pod basis to deliver high-performance scalability.
+#### Distributed Block Storage (1)
 
   - **(2026)** [==Longhorn==](https://longhorn.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Longhorn is a lightweight, distributed block storage system for Kubernetes, engineered as a graduated CNCF project. It abstracts hardware arrays by configuring a replica-aware storage engine for each volume, operating as dynamic microservices to deliver features like snapshots, automated backups, and cross-cluster replication.
   - **(2020)** [Longhorn Simplifies Distributed Block Storage in Kubernetes](https://www.suse.com/c/rancher_blog/longhorn-simplifies-distributed-block-storage-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical assessment highlighting how Longhorn simplifies the deployment and operations of distributed block storage arrays. It features detailed discussions of volume-controller microservice orchestration, automated disaster recovery policies, and built-in replication tools.
+#### Enterprise CAS
+
+  - **(2026)** [iomesh.com](https://www.iomesh.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IOMesh is an enterprise-oriented cloud-native storage product built to support high-throughput, latency-sensitive database workloads on Kubernetes. By pooling host storage assets and executing performance optimizations in user space, it aims to compete directly with proprietary SAN arrays.
+  - **(2021)** [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory release article for IOMesh, explaining how its cloud-native software-defined architecture delivers bare-metal storage speeds. It emphasizes optimized resource utilization, host pooling mechanics, and integrated security frameworks designed for container workloads.
 #### GlusterFS Orchestration
 
   - **(2026)** [==Kadalu==](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 748</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2c7d9d9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 9 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-f2c7d9d9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kadalu is a lightweight, container-native storage solution that utilizes GlusterFS to orchestrate persistent volumes inside Kubernetes. It runs storage services inside application pods as microservices, offering a lightweight alternative to external GlusterFS cluster configurations.
+#### High Performance Block Storage
+
+  - **(2026)** [linbit.com: LINSTOR - kubernetes persistent container storage](https://linbit.com/kubernetes) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — LINSTOR is an open-source storage orchestration engine designed by LINBIT that coordinates block storage nodes using native Linux features like DRBD, LVM, and ZFS. It offers highly performant, low-overhead volume management, providing cluster architects with bare-metal storage speeds in Kubernetes.
+  - **(2026)** [simplyblock: simplyblock.io](https://simplyblock.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simplyblock is a high-performance cloud storage platform engineered to optimize block-storage scaling in AWS and Kubernetes. Utilizing NVMe-over-Fabrics disaggregation, dynamic caching, and compression, it significantly lowers cloud storage expenses while keeping sub-millisecond access speeds.
+#### LVM Provisioning
+
+  - **(2026)** [==openebs/lvm-localpv==](https://github.com/openebs/lvm-localpv) <span class='md-tag md-tag--info'>⭐ 344</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-41c38b3d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 12 L 30 8 L 40 8 L 50 4" fill="none" stroke="url(#spark-grad-41c38b3d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS CSI driver designed for dynamic volume provisioning backed by local Logical Volume Manager (LVM) volume groups. It provides raw block or filesystem performance close to bare-metal hardware speed while offering features like snapshotting and size limits directly managed via Kubernetes native CRDs.
+#### Lightweight Deployments
+
+  - **(2021)** [itnext.io: Using Rook On A K3s Cluster](https://itnext.io/using-rook-on-a-k3s-cluster-8a97a75ba25e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining the configuration and installation steps required to run Rook-Ceph on lightweight, resource-constrained K3s clusters. It explains structural modifications needed to optimize enterprise storage frameworks for edge compute environments and development setups.
+#### Local Storage Provisioning
+
+  - **(2026)** [==openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent' Volumes==](https://github.com/openebs/dynamic-localpv-provisioner) <span class='md-tag md-tag--info'>⭐ 208</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ce32d8b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 4 L 30 2 L 40 9 L 50 8" fill="none" stroke="url(#spark-grad-7ce32d8b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS sub-project designed to provision Kubernetes local hostpath or raw block persistent volumes dynamically. This controller eliminates manual static volume definitions, allowing database applications to seamlessly run at native drive speed while relying on Kubernetes scheduling rules.
+#### NVMe-oF
+
+  - **(2020)** [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical review of Lightbits Labs adding native CSI support to its LightOS platform, bridging disaggregated NVMe-over-Fabrics (NVMe-oF) with Kubernetes. This integration enables low-overhead, hardware-accelerated block storage access for scale-out, high-throughput cloud database deployments.
+#### Open Source Governance
+
+  - **(2019)** [thenewstack.io: Rancher Donates its ‘Longhorn’ Kubernetes Persistent Storage Software to CNCF](https://thenewstack.io/rancher-donates-its-longhorn-kubernetes-persistent-storage-software-to-cncf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents the strategic donation of the Longhorn distributed storage project to the CNCF by Rancher Labs. This transition secured the tool's collaborative open-source roadmap, accelerating its development and integration as a reliable storage solution for Kubernetes platform engineers.
+#### Performance Analysis
+
+  - **(2021)** [blocksandfiles.com: Kubernetes storage: SmartX’s IOMesh beats Portworx, Longhorn and OpenEBS](https://www.blocksandfiles.com/block/2021/08/05/kubernetes-storage-smartxs-iomesh-beats-portworx-longhorn-and-openebs/1617691)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A direct performance comparative study highlighting IOMesh outperforming established solutions like Portworx, Longhorn, and OpenEBS in IOPS and write latencies. It provides useful raw performance metrics for platform architects evaluating storage options for stateful cloud native applications.
+#### Platform Integration
+
+  - **(2020)** [containerjournal.com: Rancher Labs Adds Support for Longhorn Storage on Kubernetes Clusters](https://cloudnativenow.com/topics/cloudnativeplatforms/rancher-labs-adds-support-for-longhorn-storage-on-kubernetes-clusters)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An announcement outlining Rancher's general availability support for Longhorn within its enterprise Kubernetes platform. This architectural integration allows administrators to manage and deploy robust persistent volume infrastructure with point-and-click UI catalogs.
+#### Storage Operators
+
+  - **(2026)** [==libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes==](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-45da6b45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-45da6b45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Stork (Storage Operator Runtime for Kubernetes) is an open-source utility developed by Portworx to facilitate storage-aware scheduling and backup operations. It communicates with local storage nodes to ensure container workloads are scheduled on the exact physical hardware housing their replicated volumes.
+#### Storage Orchestrators
+
+  - **(2026)** [==Rook==](https://rook.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rook acts as a production-hardened CNCF graduated storage orchestrator that natively embeds Ceph within Kubernetes. By managing disks, pools, and filesystems as declarative resources, Rook eliminates manual storage administration and bridges Kubernetes-native paradigms with high-availability bare metal storage.
+### Object Storage (1)
+
+#### MinIO
+
+  - **(2026)** [==min.io==](https://www.min.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — MinIO is a high-performance, S3-compatible object storage platform built specifically for native Kubernetes deployments. Architected for enterprise private clouds, it delivers high-throughput storage for demanding data workloads, including AI training pipelines and distributed object analytics.
 ## Storage and Data
 
-### Container Attached Storage (1)
+### Container Attached Storage (2)
 
 #### OpenEBS
 
   - **(2023)** [OpenEBS Features and Benefits](https://openebs.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide to OpenEBS Container Attached Storage (CAS) engine. Details how local volumes, Jiva, and Mayastor architectures allow teams to build highly resilient, dynamic persistent storage volumes directly using local disk pools. CNCF validation confirms OpenEBS's position as a robust storage framework for stateful microservices.
+### Data on Kubernetes
+
+#### Community Hub
+
+  - **(2026)** [dok.community: DoKC Data on Kubernetes](https://dok.community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central hub for the Data on Kubernetes Community (DoKC), which advocates for running stateful microservices, operators, and relational databases directly inside Kubernetes. It gathers technical resources, patterns, and performance studies to validate production reliability. A leading organization defining stateful application architectures.
+#### Industry Research
+
+  - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
-
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+💡 **Explore Related:** [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md) | [Kubectl Commands](./kubectl-commands.md)
 

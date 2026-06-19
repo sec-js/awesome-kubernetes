@@ -11,6 +11,9 @@
 1. [API Management](#api-management)
   - [GraphQL and AppSync](#graphql-and-appsync)
     - [Security](#security)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
 1. [Cloud Platforms](#cloud-platforms)
   - [Serverless Architecture](#serverless-architecture)
     - [AWS Lambda](#aws-lambda)
@@ -27,6 +30,9 @@
   - [Serverless Deployment](#serverless-deployment)
     - [AWS SAM](#aws-sam)
     - [AWS SAM Pipelines](#aws-sam-pipelines)
+1. [Infrastructure](#infrastructure)
+  - [Automation](#automation)
+    - [AWS Lambda and EventBridge](#aws-lambda-and-eventbridge)
 1. [Infrastructure as Code](#infrastructure-as-code)
   - [AWS CDK](#aws-cdk)
     - [Serverless IaC](#serverless-iac)
@@ -41,6 +47,10 @@
   - [CloudWatch](#cloudwatch)
     - [Alerting Systems](#alerting-systems)
 1. [Security and Governance](#security-and-governance)
+  - [IAM and Access Control](#iam-and-access-control)
+    - [ABAC](#abac)
+  - [Kubernetes Compliance](#kubernetes-compliance)
+    - [Infrastructure Translation](#infrastructure-translation)
   - [Secret Management](#secret-management)
     - [Go Runtime](#go-runtime)
 1. [Serverless Architecture](#serverless-architecture-1)
@@ -57,6 +67,8 @@
     - [Performance Optimization](#performance-optimization-1)
   - [Caching](#caching)
     - [Data Management](#data-management)
+  - [Databases](#databases)
+    - [Selection Criteria](#selection-criteria)
   - [Event-Driven](#event-driven)
     - [Design Patterns](#design-patterns)
   - [Messaging and Integration](#messaging-and-integration)
@@ -71,13 +83,42 @@
 #### Security
 
   - **(2022)** [How to enforce user quota on AWS AppSync with Lambda Authorizer](https://aws.amazon.com/blogs/mobile/how-to-enforce-user-quota-on-aws-appsync-with-lambda-authorizer) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to design custom Lambda Authorizers for AWS AppSync (GraphQL) to implement rate-limiting, user tier quotas, and tenant-based isolation. Reduces compute strain by verifying credentials and quotas at the API edge.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Build a Python Microservice with Amazon Web Services Lambda & API Gateway](https://www.giantflyingsaucer.com/blog/?p=5730)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.giantflyingsaucer.com in the Kubernetes Tools ecosystem.
+  - [blog.powerupcloud.com: AWS inventory details in CSV using lambda](https://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.powerupcloud.com in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance](https://betterprogramming.pub/lambda-vs-step-functions-the-battle-of-cost-and-performance-5f008045e2ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==betterprogramming.pub: Lambda vs. Step Functions: The Battle of Cost and' Performance== in the Kubernetes Tools ecosystem.
+  - [npmjs.com: Lambda load test](https://www.npmjs.com/package/lambda-load-test)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering npmjs.com: Lambda load test in the Kubernetes Tools ecosystem.
+  - [blog.usejournal.com: Building a Serverless Back-end with AWS](https://blog.usejournal.com/building-a-serverless-back-end-with-aws-5bb3642a3f4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.usejournal.com: Building a Serverless Back-end with AWS in the Kubernetes Tools ecosystem.
+  - [kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud**](https://kothiyal-anuj.medium.com/serverless-diary-the-ultimate-guide-to-caching-in-the-cloud-249f6a06915f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kothiyal-anuj.medium.com: Serverless Diary: The Ultimate Guide to **Caching' in the Cloud** in the Kubernetes Tools ecosystem.
+  - [medium: Going Serverless (on AWS)](https://medium.com/galvanize/going-serverless-on-aws-116a04a0defd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Going Serverless (on AWS) in the Kubernetes Tools ecosystem.
+  - [liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda](https://liavyona09.medium.com/spice-up-your-kubernetes-environment-with-aws-lambda-a07d81347607)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering liavyona09.medium.com: Spice up Your Kubernetes Environment with AWS Lambda in the Kubernetes Tools ecosystem.
+  - [medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker](https://medium.com/@tarekbecker/serverless-enterprise-grade-multi-tenancy-using-aws-76ff5f4d0a23)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Serverless enterprise-grade multi-tenancy using AWS | Tarek Becker in the Kubernetes Tools ecosystem.
+  - [medium.com/@andrewjr350: Misunderstanding of Serverless (AWS)](https://medium.com/@andrewjr350/misunderstanding-of-serverless-aws-835c7076ea4c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@andrewjr350: Misunderstanding of Serverless (AWS) in the Kubernetes Tools ecosystem.
+  - [medium.com/aws-serverless-microservices-with-patterns-best: Cloud-Native' Microservices Evolves to AWS Serverless Event-driven Architectures](https://medium.com/aws-serverless-microservices-with-patterns-best/cloud-native-microservices-evolves-to-aws-serverless-event-driven-architectures-9a38c473f4f8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/aws-serverless-microservices-with-patterns-best: Cloud-Native' Microservices Evolves to AWS Serverless Event-driven Architectures== in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Exploring the Serverless Event-Driven Architecture](https://betterprogramming.pub/exploring-the-serverless-event-driven-architecture-8d6bda93e823)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Exploring the Serverless Event-Driven Architecture in the Kubernetes Tools ecosystem.
+  - [medium.com/awesome-cloud: AWS — Difference between Serverless (Lambda) and' Containers (Kubernetes)](https://medium.com/awesome-cloud/aws-difference-between-serverless-lambda-and-containers-kubernetes-serverless-vs-containers-lambda-vs-k8s-a166931870a2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/awesome-cloud: AWS — Difference between Serverless (Lambda) and' Containers (Kubernetes) in the Kubernetes Tools ecosystem.
+  - [aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services](https://aws.plainenglish.io/lets-design-a-serverless-etl-pipeline-with-aws-services-9ab88c95afd4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.plainenglish.io: Let's design a serverless ETL pipeline with AWS services in the Kubernetes Tools ecosystem.
+  - [faun.pub: Serverless With Spring Boot & AWS Lambda](https://faun.pub/serverless-with-spring-boot-aws-lambda-bc76c1de2b12)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Serverless With Spring Boot & AWS Lambda in the Kubernetes Tools ecosystem.
+  - [medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con' serverless-offline](https://medium.com/@dan.avila7/prueba-tus-proyectos-serverless-de-forma-local-con-serverless-offline-2e555f2b5e9b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@dan.avila7: Prueba tus proyectos serverless de forma local con' serverless-offline in the Kubernetes Tools ecosystem.
+  - [medium.com/lego-engineering: A Journey into Serverless and Handling Step' Function Failures](https://medium.com/lego-engineering/a-journey-into-serverless-and-handling-step-function-failures-dba51b4e8e99)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/lego-engineering: A Journey into Serverless and Handling Step' Function Failures in the Kubernetes Tools ecosystem.
+  - [blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step' Guide](https://blog.devops.dev/deploying-awesome-app-on-aws-serverless-services-step-by-step-guide-54bc89e4d236)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devops.dev: Deploying Awesome App on AWS Serverless Services — Step-by-Step' Guide in the Kubernetes Tools ecosystem.
+  - [medium.com/@sassenthusiast: Serverless Simplified: Integrating Docker Containers' into AWS Lambda via serverless.yml](https://medium.com/@sassenthusiast/serverless-simplified-integrating-docker-containers-into-aws-lambda-via-serverless-yml-cdef9be1681e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@sassenthusiast: Serverless Simplified: Integrating Docker Containers' into AWS Lambda via serverless.yml in the Kubernetes Tools ecosystem.
+  - [medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE' or AWS LAMBDA or Both?](https://medium.com/@HirenDhaduk1/best-choice-to-run-your-containers-aws-fargate-or-aws-lambda-or-both-d9e14685a363)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE' or AWS LAMBDA or Both? in the Kubernetes Tools ecosystem.
+  - [AWS SAM CLI Advanced Serverless Deployments](https://medium.com/@mertmengu/aws-sam-cli-advanced-serverless-deployments-07432fee87ab)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering AWS SAM CLI Advanced Serverless Deployments in the Kubernetes Tools ecosystem.
 ## Cloud Platforms
 
 ### Serverless Architecture
 
 #### AWS Lambda
 
+  - **(2025)** [AWS Lambda Limits](https://docs.aws.amazon.com/lambda/latest/dg/limits.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The critical reference table mapping AWS Lambda system quotas. Outlines payload thresholds, execution timeouts, ephemeral storage configurations, and concurrency parameters necessary for scalable platform designs.
   - **(2024)** [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative documentation for designing, packaging, and optimizing Python functions running inside AWS Lambda. Detail runtime limits, library dependencies, and context executions.
+  - **(2023)** [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative AWS security whitepaper detailing the multi-tenant isolation architectures of Firecracker microVMs. Explores IAM execution policies, VPC security group associations, and transport encryption controls.
   - **(2021)** [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering review of packaging and deploying AWS Lambda targets as OCI-compliant Docker containers. Analyzes cold-start impacts, image composition strategies, and orchestration workflow modifications.
   - **(2021)** [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational multi-part operational guide from AWS technical evangelists focusing on event-driven serverless architectures. Explores decoupled communication, idempotent execution, and event processing.
   - **(2021)** [aws.amazon.com: Optimizing Lambda functions packaged as container images](https://aws.amazon.com/es/blogs/compute/optimizing-lambda-functions-packaged-as-container-images) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highly technical optimization guide for serverless containers. Focuses on cache warming, base image choices, and reducing multi-tier image footprints to minimize cold start latency.
@@ -118,6 +159,13 @@
 #### AWS SAM Pipelines
 
   - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
+## Infrastructure
+
+### Automation
+
+#### AWS Lambda and EventBridge
+
+  - **(2024)** [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational video walkthrough demonstrating serverless compute cost-reduction routines. Details how to coordinate AWS Lambda with EventBridge cron schedules to automate lifecycle actions for EC2 fleets.
 ## Infrastructure as Code
 
 ### AWS CDK
@@ -151,6 +199,16 @@
   - **(2021)** [tutorialsdojo.com: Real-time Monitoring of 5XX Errors using AWS Lambda, CloudWatch Logs and Slack](https://tutorialsdojo.com/real-time-monitoring-of-5xx-errors-using-aws-lambda-cloudwatch-logs-slack) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an implementation guide for parsing AWS CloudWatch logs in real-time. Leverages subscription filters and Lambda to extract system-level 5XX errors, instantly routing rich-formatted exception payloads directly to Slack webhooks for rapid operational triage.
 ## Security and Governance
 
+### IAM and Access Control
+
+#### ABAC
+
+  - **(2022)** [aws.amazon.com: Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC)](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Attribute-Based Access Control (ABAC) strategies to scale AWS Lambda permission management in complex enterprise accounts. Uses resource tags and IAM policies to authorize Lambda actions, avoiding the overhead of managing extensive role definitions.
+### Kubernetes Compliance
+
+#### Infrastructure Translation
+
+  - **(2023)** [==github.com/awslabs/specctl==](https://github.com/awslabs/specctl) <span class='md-tag md-tag--info'>⭐ 258</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-652425c6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 10 L 30 7 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-652425c6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized security tool developed by AWS Labs to parse, extract, and map standard Kubernetes manifest objects or ECS task definitions directly into AWS infrastructure controls. Analyzes security and network isolation requirements.
 ### Secret Management
 
 #### Go Runtime
@@ -194,6 +252,11 @@
 #### Data Management
 
   - **(2022)** [Data Caching Across Microservices in a Serverless Architecture](https://aws.amazon.com/blogs/architecture/data-caching-across-microservices-in-a-serverless-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural strategies for distributed caching within serverless applications. It highlights the use of Amazon ElastiCache (Redis) and DynamoDB Accelerator (DAX) to alleviate performance bottlenecks, reduce database round-trips, and maintain low latency in ultra-elastic stateless execution environments.
+### Databases
+
+#### Selection Criteria
+
+  - **(2023)** [theserverlessmindset.com: Choosing the Best Database for Your Serverless Project](https://www.theserverlessmindset.com/p/best-serverless-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive comparison of serverless-friendly databases, covering DynamoDB, Aurora Serverless, Supabase, and PlanetScale. Focuses on scaling limits, execution connection limits, cold-start latency, and transactional suitability.
 ### Event-Driven
 
 #### Design Patterns
@@ -211,7 +274,5 @@
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
-
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Pricing](./aws-pricing.md) | [AWS Spain](./aws-spain.md)
 

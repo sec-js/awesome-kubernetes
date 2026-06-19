@@ -142,7 +142,7 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 | :--- | :--- |
 | **Total Technical Resources (Links)** | **18647+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **6094+** |
+| **Total Commits** | **6082+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -180,7 +180,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 2535 | 10,469 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 2523 | 10,419 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -196,8 +196,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 11000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10469]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2535]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 10419]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 2523]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -207,7 +207,7 @@ xychart-beta
 | :--- | :---: | :---: | :--- |
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
-| 2026-06 | 409 | 1,689 | Active Curation |
+| 2026-06 | 397 | 1,639 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -360,7 +360,7 @@ graph TD
     style C fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
-#### Shared Curation & Data Policies (`GEMINI.md`)
+#### Shared Curation and Data Policies (`GEMINI.md`)
 *   **Target**: Ephemeral CI/CD runners (GitHub Actions) and local coding assistants.
 *   **Purpose**: Dictates *what* the repository structure, link formatting, language metadata tagging, and minimum quality levels must look like.
 *   **Automation integration**: Ingested by the build scripts to programmatically construct system prompts for API LLM completions.
@@ -538,7 +538,7 @@ To embrace the diverse global Cloud Native community while maintaining internati
 
 Nubenetes now utilizes a **Unified SQL & YAML Database Architecture** to maintain consistency across V1 and V2 while optimizing agentic operations and repository efficiency. All curated links and metadata are managed via a coexisting local database engine.
 
-### 6.1. Database Components & SQLite Engine (Option 3 Coexistence)
+### 6.1. Database Components and SQLite Engine (Option 3 Coexistence)
 
 To guarantee backward compatibility and Git efficiency, the system operates on a dual-save database coexistence model:
 1.  **SQLite Database & SQL Text ([`data/inventory.sql`](data/inventory.sql))**: The Git source-of-truth. During execution, the SQL script compiles into a temporary in-memory SQLite database, enabling full relational schema access and SQL query optimization. On save, SQLite's native `iterdump()` decompiles it back into a flat SQL text database file where each resource insert occupies a single line for perfect git diff readability.
