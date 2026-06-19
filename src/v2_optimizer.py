@@ -629,7 +629,7 @@ class V2VisionEngine:
         # 1. GitHub Objective Reality (Mandate 43)
         raw_gh = item.get("gh_stars", 0)
         gh_stars = int(raw_gh) if str(raw_gh).isdigit() else 0
-        curator_stars = int(item.get("stars", 0))
+        curator_stars = int(item.get("stars") or 0)
 
         if gh_stars > 15000 or curator_stars >= 5: 
             tags.add("[DE FACTO STANDARD]")
