@@ -86,15 +86,23 @@ class SafetyGuard:
         for url, meta in self.inventory.items():
             if "github.com" in url and meta.get("v2_locations"):
                 pushed = meta.get("gh_pushed", "")
-                if pushed:
-                    try:
-                        last_date = datetime.fromisoformat(pushed.replace("Z", "+00:00"))
-                        inactive_years = (datetime.now(last_date.tzinfo) - last_date).days / 365
-                        stars = meta.get("gh_stars", meta.get("stars", 0) * 100) 
-                        if inactive_years > 4 and stars < 30:
-                            self.warnings.append(f"🏚️ **MVQ Violation**: Stale repo `{url}` (>4yrs) in V2 with low impact")
-                    except Exception as e:
-                        log_event(f"[WARN] MVQ compliance check for {url}: {str(e)[:100]}")
+                # Skip entries with no usable push date. Enrichment stores "N/A"
+                # (and historically None/empty) when GitHub data is unavailable;
+                # these are not ISO dates and must not reach fromisoformat().
+                if not pushed or str(pushed).strip().upper() in ("N/A", "NONE"):
+                    continue
+                try:
+                    last_date = datetime.fromisoformat(str(pushed).replace("Z", "+00:00"))
+                    inactive_years = (datetime.now(last_date.tzinfo) - last_date).days / 365
+                    # gh_stars may be missing; fall back to V1 stars (×100 heuristic).
+                    # Coalesce None so a stored null never reaches the multiplication.
+                    stars = meta.get("gh_stars")
+                    if stars is None:
+                        stars = (meta.get("stars") or 0) * 100
+                    if inactive_years > 4 and stars < 30:
+                        self.warnings.append(f"🏚️ **MVQ Violation**: Stale repo `{url}` (>4yrs) in V2 with low impact")
+                except Exception as e:
+                    log_event(f"[WARN] MVQ compliance check for {url}: {str(e)[:100]}")
 
     def validate_linguistic_tagging(self):
         """Mandate 10: Explicit Language Tagging."""
@@ -104,7 +112,9 @@ class SafetyGuard:
                 with open(os.path.join(V2_DIR, file), "r") as f:
                     content = f.read()
                 for url, meta in self.inventory.items():
-                    lang = meta.get("language", "English")
+                    # language may be stored as null; coalesce to avoid None.lower()
+                    # aborting the entire audit.
+                    lang = meta.get("language") or "English"
                     if lang.lower() != "english" and url in content:
                         tag = f"[{lang.upper()} CONTENT]"
                         if tag not in content:
@@ -289,15 +299,24 @@ class SafetyGuard:
             except Exception as e:
                 log_event(f"[WARN] load old inventory for data integrity check: {str(e)[:100]}")
         
-        self.validate_semantic_interlinking()
-        self.validate_special_assets_completeness()
-        self.validate_mvq_compliance()
-        self.validate_linguistic_tagging()
-        self.validate_platinum_schema()
-        self.validate_structural_standards() # Mandate 30 & 19
-        self.validate_v2_architecture()
-        self.validate_navigation_sync() # Mandate 11
-        self.validate_forbidden_tags() # Safety Hardening
+        # Run each mandate in isolation so one bad entry can't abort the
+        # entire audit (e.g. a null field raising mid-validation).
+        validations = [
+            self.validate_semantic_interlinking,
+            self.validate_special_assets_completeness,
+            self.validate_mvq_compliance,
+            self.validate_linguistic_tagging,
+            self.validate_platinum_schema,
+            self.validate_structural_standards,  # Mandate 30 & 19
+            self.validate_v2_architecture,
+            self.validate_navigation_sync,  # Mandate 11
+            self.validate_forbidden_tags,  # Safety Hardening
+        ]
+        for check in validations:
+            try:
+                check()
+            except Exception as e:
+                log_event(f"[WARN] audit mandate {check.__name__} failed: {str(e)[:100]}")
         
         status = "✅ PASS" if not self.errors else "❌ FAILED"
         if not self.errors and self.warnings: status = "⚠️ WARNING"
