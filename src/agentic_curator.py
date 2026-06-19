@@ -143,7 +143,10 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             "- Assign tags. You MUST include:\n"
             "  1. 1 to 2 maturity tags from: [DE FACTO STANDARD], [ENTERPRISE-STABLE], [EMERGING], [GUIDE], [CASE STUDY], [COMMUNITY-TOOL], [LEGACY].\n"
             "  2. Fine-grained technical/architectural tags from the content (e.g., [EBPF], [WASM], [GITOPS], [IAC], [SERVICE-MESH], [SERVERLESS], [MLOPS], [DB]). Keep them uppercase and wrapped in brackets.\n"
-            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"suggested_new_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool}, ...]\n\n"
+            "PHASE 5: COMPANY & GEO CLASSIFICATION\n"
+            "- Identify 'company': The company/organization that authored or is the primary subject (e.g., 'Google', 'Netflix', 'CNCF', 'Independent').\n"
+            "- Identify 'geo_region': The HQ region of that company. Use one of: 'americas', 'europe', 'spain', 'asia_pacific', 'global'.\n"
+            "Respond ONLY JSON list: [{\"url\": \"...\", \"impact_score\": int, \"reputation_penalty\": bool, \"reputation_summary\": \"...\", \"pub_date\": \"YYYY-MM-DD\", \"primary_category\": \"...\", \"suggested_new_category\": \"...\", \"title\": \"...\", \"desc\": \"...\", \"en_summary\": \"High-density summary...\", \"language\": \"...\", \"type\": \"...\", \"level\": \"...\", \"technical_hierarchy\": [...], \"tags\": [...], \"is_microservice\": bool, \"company\": \"...\", \"geo_region\": \"...\"}, ...]\n\n"
             "RESOURCES:\n" + "\n".join([f"- {d['asset']['url']}: (MVQ Penalty: {d['mvq_penalty']}) {d['content']}" for d in batch_data])
         )
 
@@ -208,6 +211,7 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
                             "reputation_status": "Vetted" if not data.get("reputation_penalty") else "Suspicious",
                             "reputation_summary": data.get("reputation_summary", ""),
                             "source_provenance": d["asset"].get("source_type", "Social"), "social_preview_url": d["rich_meta"].get("og_image", ""),
+                            "company": data.get("company", ""), "geo_region": data.get("geo_region", ""),
                             "category": primary_cat, "status": "online", "last_checked": datetime.now().timestamp(),
                             "discovered_at": datetime.now(MADRID_TZ).isoformat(),
                             "last_ai_eval": datetime.now(MADRID_TZ).isoformat(),

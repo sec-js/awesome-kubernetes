@@ -1463,10 +1463,13 @@ class V2VisionEngine:
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
             nav = [
-                "nav:", 
-                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
+                "nav:",
+                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
                 "  - \"Technical Tags\": tags.md",
+                "  - \"Intelligence Digest\":",
+                "    - \"Tech & Cloud Digest\": tech-digest.md",
+                "    - \"Industry & Geo Digest\": industry-digest.md",
                 "  - \"Agentic Video Hub\":",
                 "      - videos/index.md",
                 "      - \"AI Agents and MCP\": videos/ai-agents.md",
