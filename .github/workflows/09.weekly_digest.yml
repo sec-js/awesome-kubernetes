@@ -1,0 +1,70 @@
+name: 09. Weekly Intelligence Digest
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC (08:00 Madrid time)
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: develop-git-write-lock
+  cancel-in-progress: false
+
+jobs:
+  weekly-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Synchronization
+        uses: actions/checkout@v6
+        with:
+          ref: develop
+          fetch-depth: 0
+
+      - name: Python 3.11 Environment Provisioning
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate News Digest (Gemini)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+        run: |
+          python -u -m src.news_digest
+          python -u -m src.rss_generator || echo "RSS generation skipped"
+
+      - name: Render V2 Portal (Digest Pages Only)
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          python -u -m src.v2_optimizer --render-only
+
+      - name: Commit and Push Weekly Digest
+        run: |
+          git config --global user.name "Nubenetes Bot"
+          git config --global user.email "bot@nubenetes.com"
+          git add data/news_digest.json v2-docs/tech-digest.md v2-docs/industry-digest.md v2-docs/feed.xml || true
+          if git diff --staged --quiet; then
+            echo "No digest changes to commit."
+          else
+            git commit -m "feat: weekly intelligence digest update [skip ci]"
+            for i in {1..3}; do
+              git pull origin develop --rebase && git push origin develop && break || sleep 10
+            done
+          fi
+
+      - name: Trigger V2 Publisher
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: weekly-digest-ready

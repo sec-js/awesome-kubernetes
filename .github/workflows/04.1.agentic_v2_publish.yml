@@ -93,6 +93,7 @@ jobs:
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: |
           python -u -m src.news_digest || echo "News digest generation skipped (no API key or error)"
+          python -u -m src.rss_generator || echo "RSS generation skipped"
 
       - name: Run V2 Publisher (Render-Only)
         env:
