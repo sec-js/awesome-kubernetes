@@ -983,7 +983,7 @@ class V2VisionEngine:
                     md += "    | :--- | :--- | :---: | :--- |\n"
                     for item in items:
                         impact_badge = {"critical": "🔴", "high": "🟡", "medium": "🔵"}.get(item.get("impact", "medium"), "🔵")
-                        t = nuclear_strip(item.get("title", "Unknown"))
+                        t = nuclear_strip(item.get("title", "Unknown")).replace("|", r"\|")
                         why = (item.get("why", "") or "").replace("|", "-").replace("\n", " ")
                         md += f'    | {item.get("date", "")} | [{t}]({item.get("url", "#")}) | {impact_badge} {item.get("impact", "medium")} | {why} |\n'
                     md += "\n"

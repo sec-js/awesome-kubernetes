@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.10]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.10) - 2026-06-19
+
+### Fixed
+- **README Sync Push Loop**: Rewrote the `05.1.readme_sync.yml` retry logic to use a push-first / merge-on-rejection loop instead of a pull-first / rebase loop. The old rebase loop never attempted a push after self-healing — it cycled back to `git pull --rebase`, hitting a fresh conflict on every iteration (×5) because a concurrent V2 sync workflow kept advancing `develop`. Additionally, `--ours` during a rebase refers to the *upstream* side, so the bot's README metrics were silently discarded each round. The fix: pull latest before committing (shrinks conflict window), then retry with `git merge -X ours` (correct semantics) after each rejected push.
+- **Digest Table Broken by Pipe in Title**: Titles containing ` | ` (e.g. "Neo, Now in the Terminal | Pulumi Blog") broke the Markdown table in `tech-digest.md` because the unescaped pipe was parsed as a column separator. Root cause in `v2_optimizer.py`: the `why` column escaped pipes (`.replace("|", "-")`) but the link title `t` did not. Fixed with `.replace("|", r"\|")` on the title. The 4 already-rendered broken entries in `tech-digest.md` are corrected directly.
+
 ## [[2.9.9]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.9) - 2026-06-19
 
 ### Changed
