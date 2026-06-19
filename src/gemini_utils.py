@@ -211,7 +211,7 @@ async def get_github_activity(url: str) -> Dict:
     """
     default_meta = {
         "gh_stars": 0,
-        "gh_pushed": "N/A",
+        "gh_pushed": None,  # date field: unknown = None, never the string "N/A"
         "gh_license": "N/A"
     }
     match = re.search(r'github\.com/([^/]+/[^/]+)', url)
@@ -236,7 +236,7 @@ async def get_github_activity(url: str) -> Dict:
                 lic_id = lic.get("spdx_id", "N/A") if isinstance(lic, dict) else "N/A"
                 return {
                     "gh_stars": data.get("stargazers_count", 0),
-                    "gh_pushed": data.get("pushed_at", "N/A"),
+                    "gh_pushed": data.get("pushed_at"),
                     "gh_license": lic_id
                 }
     except Exception as e:

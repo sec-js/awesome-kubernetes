@@ -50,7 +50,7 @@ def get_readable_category(category: str) -> str:
 async def fetch_github_metadata(client: httpx.AsyncClient, url: str, sem: asyncio.Semaphore) -> tuple[str, dict]:
     default_meta = {
         "gh_stars": 0,
-        "gh_pushed": "N/A",
+        "gh_pushed": None,  # date field: unknown = None, never the string "N/A"
         "gh_license": "N/A"
     }
     match = re.search(r'github\.com/([^/]+/[^/]+)', url)
@@ -72,20 +72,20 @@ async def fetch_github_metadata(client: httpx.AsyncClient, url: str, sem: asynci
                 lic_id = lic.get("spdx_id", "N/A") if isinstance(lic, dict) else "N/A"
                 return url, {
                     "gh_stars": data.get("stargazers_count", 0),
-                    "gh_pushed": data.get("pushed_at", "N/A"),
+                    "gh_pushed": data.get("pushed_at"),
                     "gh_license": lic_id
                 }
             elif resp.status_code == 404:
                 return url, {
                     "gh_stars": 0,
-                    "gh_pushed": "N/A",
+                    "gh_pushed": None,
                     "gh_license": "N/A",
                     "status": "dead"
                 }
             else:
                 return url, {
                     "gh_stars": 0,
-                    "gh_pushed": "N/A",
+                    "gh_pushed": None,
                     "gh_license": "N/A",
                     "status": "unreachable"
                 }

@@ -115,9 +115,13 @@ async def evaluate_extracted_assets(raw_assets: List[Dict]) -> Dict[str, Dict]:
             gh_meta = await _get_github_activity(asset["url"]) if "github.com" in asset["url"] else {}
             
             mvq_penalty = False
-            if gh_meta.get("gh_pushed"):
-                ld = datetime.fromisoformat(gh_meta["gh_pushed"].replace("Z", "+00:00"))
-                if (datetime.now(ld.tzinfo) - ld).days > (365 * 4): mvq_penalty = True
+            pushed = gh_meta.get("gh_pushed")
+            if pushed and str(pushed).strip().upper() not in ("N/A", "NONE"):
+                try:
+                    ld = datetime.fromisoformat(str(pushed).replace("Z", "+00:00"))
+                    if (datetime.now(ld.tzinfo) - ld).days > (365 * 4): mvq_penalty = True
+                except Exception as e:
+                    log_event(f"[WARN] MVQ penalty date parse for {asset['url']}: {str(e)[:100]}")
             
             batch_data.append({
                 "asset": asset, "content": web_content[:1500], "hash": c_hash, 
