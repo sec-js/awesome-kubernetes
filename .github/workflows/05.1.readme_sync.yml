@@ -58,31 +58,39 @@ jobs:
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
+          export PYTHONPATH=$PYTHONPATH:.
+          # Pull latest before committing to shrink the conflict window
+          git pull --no-rebase origin develop
+          # Re-run updater so metrics reflect the latest remote state
+          python src/readme_updater.py
+          python src/safety_readme.py
           git add README.md
           if git diff --staged --quiet; then
             echo "No changes in README.md to commit."
-          else
-            git commit -m "docs: automated README metric synchronization [skip ci]"
-            # Pull, rebase, and push with automatic resolution of README.md conflicts
-            for i in {1..5}; do
-              if git pull origin develop --rebase; then
-                if git push origin develop; then
-                  exit 0
-                fi
-              else
-                echo "Rebase conflict detected, attempting self-healing..."
-                # Discard local conflicting changes to README.md and accept remote
-                git checkout --ours README.md || git checkout --theirs README.md
-                git add README.md
-                # Continue rebase
-                GIT_EDITOR=true git rebase --continue || { git rebase --abort; git pull origin develop; }
-                # Re-run README sync to update metrics with remote state incorporated
-                python -m src.readme_updater
-                python -m src.safety_readme
-                git add README.md
-                git commit --amend --no-edit
-              fi
-              sleep 5
-            done
-            git push origin develop
+            exit 0
           fi
+          git commit -m "docs: automated README metric synchronization [skip ci]"
+          # Push-first loop: try push, then merge-pull on rejection (not rebase)
+          # Using merge avoids --ours/--theirs confusion that plagued the rebase approach
+          for i in {1..5}; do
+            echo "Push attempt $i/5..."
+            if git push origin develop; then
+              echo "Push succeeded on attempt $i."
+              exit 0
+            fi
+            echo "Attempt $i rejected — integrating remote changes via merge..."
+            git fetch origin develop
+            if ! git merge --no-edit -X ours origin/develop; then
+              # Merge could not auto-resolve; keep bot's README and continue
+              git checkout --ours README.md
+              git add README.md
+              GIT_EDITOR=true git merge --continue
+            fi
+            # Re-compute metrics on the merged state (idempotent)
+            python src/readme_updater.py
+            python src/safety_readme.py
+            git add README.md
+            git diff --staged --quiet || git commit --amend --no-edit
+            sleep $((i * 3))
+          done
+          git push origin develop
