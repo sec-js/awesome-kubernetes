@@ -876,18 +876,13 @@ a {
 /* PERFORMANCE OPTIMIZATIONS FOR DENSE INDEXES          */
 /* ---------------------------------------------------- */
 
-/* Defer rendering of heavy tag sections on the tags index page */
-.v2-tag-section {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 500px;
-}
-
-/* Defer rendering of large resource lists in category pages */
-.md-typeset > ul,
-.md-typeset > ol {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 200px;
-}
+/* NOTE: `content-visibility: auto` was removed here (v2.9.2). It deferred
+   painting of off-screen <ul>/<ol> lists, which on the dark (slate) theme
+   produced black flashes while scrolling and made the link lists below the
+   index mosaic appear broken/collapsed (intrinsic-size mismatch caused
+   scrollbar jumps). The tags page already uses collapsed <details>, which
+   skip rendering natively, so the optimization was both redundant and
+   harmful. Do NOT reintroduce content-visibility on broad selectors. */
 
 /* Collapsible tag lists on the tags index page */
 .v2-tag-section details {
