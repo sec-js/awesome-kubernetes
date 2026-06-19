@@ -376,4 +376,28 @@ The bot must rotate between profiles to avoid detection:
 - **V2 Index Metrics Protocol**: The "Knowledge Architecture and AI Coverage Status" report in the V2 index MUST include a direct comparison between V1 and V2 inventory. This report MUST display: 1. **V1 Base Inventory** (Total resources in the master archive), 2. **V2 Elite Selection** (Count of candidates and the resulting density ratio), 3. **AI Enrichment Coverage**, and 4. **GitHub Metadata Coverage**. This ensures transparency in the knowledge distillation process.
 - **Redundancy-Free Branding**: To ensure professional UI density, the V2 Portal header MUST NOT repeat the "Nubenetes" brand. The title MUST follow the pattern: "Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud".
 - **Decoupled Workflow Architecture**: The Agentic V2 ecosystem MUST utilize a decoupled micro-workflow structure (Health Monitor, Metadata Engine, AI Curator, and Publisher) to optimize compute quotas and minimize Gemini token consumption. Any update to the V2 rendering logic MUST use the `--render-only` flag in the Publisher pipeline to maintain execution speed.
-to maintain execution speed.
+
+## Git Workflow: Gitflow (Mandatory)
+
+This repository uses **Gitflow**. All agents and automated processes MUST follow this branching model:
+
+- **`master`**: Production branch. Only receives merges from `release/*` branches. Every merge to master gets a **semantic version tag** (`vX.Y.Z`) and a **GitHub Release** with detailed release notes.
+- **`develop`**: Integration branch. All feature branches merge here via PR. Back-merged from master after each release.
+- **`feat/*`**: Feature branches. Created from `develop`, merged back to `develop` via PR.
+- **`release/vX.Y.Z`**: Release branches. Created from `develop`, merged to `master` with `--no-ff`, then back-merged to `develop`.
+- **`gh-pages`**: Deployment. NEVER modified directly.
+- **Protected branches**: `master`, `develop`, `gh-pages` — NEVER deleted.
+
+### Release Sequence
+1. Feature branch → PR to `develop` → merge
+2. Create `release/vX.Y.Z` from `develop`
+3. Merge release to `master` (`--no-ff`)
+4. Create annotated tag: `git tag -a vX.Y.Z -m "..."`
+5. Push master + tag
+6. Back-merge master to develop (`--no-ff`)
+7. Create GitHub Release with `gh release create`
+
+### Versioning: `v{major}.{minor}.{patch}`
+- **Major**: breaking changes or architectural shifts
+- **Minor**: new features (modules, digest categories, new pipelines)
+- **Patch**: bug fixes, config tweaks, content updates
