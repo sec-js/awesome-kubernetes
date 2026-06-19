@@ -177,14 +177,27 @@ class V2VisionEngine:
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
         self._generate_digest_pages()
         await self._generate_global_tag_index(v2_data)
-        await self._sync_enterprise_navigation(v2_data)
-        
-        # Delete only orphaned files
-        log_event("[*] Phase 5: Pruning Orphaned V2 Assets...")
-        for f in os.listdir(V2_DIR):
-            if f.endswith(".md") and f not in generated_files:
-                log_event(f"  [DEL] Pruning obsolete V2 page: {f}")
-                os.remove(os.path.join(V2_DIR, f))
+
+        # Phase 5: Structural changes — ONLY in full (non-render-only) mode
+        # In render-only mode we never delete pages or rewrite the nav, because
+        # the inventory pass is conservative and some pages may not be regenerated
+        # in a given run even though they should still exist (e.g. low-hit pages).
+        # Deleting them would break MkDocs nav references and corrupt the site.
+        if self.render_only:
+            log_event("[*] Phase 5: Skipped (render-only mode — nav and pages preserved)")
+        else:
+            log_event("[*] Phase 5: Syncing navigation and pruning orphaned pages...")
+            nav_ok = await self._sync_enterprise_navigation(v2_data)
+            if nav_ok:
+                # Only prune if nav was successfully updated, and never delete
+                # pages that are defined in self.dimensions (expected to exist).
+                dimension_pages = {f"{slug}.md" for pages in self.dimensions.values() for slug in pages}
+                for f in os.listdir(V2_DIR):
+                    if f.endswith(".md") and f not in generated_files and f not in dimension_pages:
+                        log_event(f"  [DEL] Pruning truly orphaned V2 page: {f}")
+                        os.remove(os.path.join(V2_DIR, f))
+            else:
+                log_event("[WARN] Phase 5: Nav sync failed — skipping page deletion to avoid corruption")
 
         self._save_inventory()
         
@@ -1475,7 +1488,7 @@ class V2VisionEngine:
         if md != existing_content:
             with open(target_path, "w") as f: f.write(md)
 
-    async def _sync_enterprise_navigation(self, data: Dict[str, Dict]):
+    async def _sync_enterprise_navigation(self, data: Dict[str, Dict]) -> bool:
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
             nav = [
@@ -1493,8 +1506,7 @@ class V2VisionEngine:
                 "      - \"Cloud Native Core\": videos/cloud-native.md",
                 "      - \"Fundamentals\": videos/fundamentals.md"
             ]
-            
-            # Group files by dimension
+
             dim_groups = {}
             for f_name, info in data.items():
                 dim_groups.setdefault(info["dim"], []).append(f_name)
@@ -1504,11 +1516,21 @@ class V2VisionEngine:
                     dim_nav = [f"  - \"{dim}\":"]
                     for f in sorted(dim_groups[dim]):
                         dim_nav.append(f"    - \"{data[f]['title']}\": {f}")
-                    nav.extend(dim_nav)                    
-            updated = re.sub(r'nav:.*', "\n".join(nav), content, flags=re.DOTALL)
+                    nav.extend(dim_nav)
+
+            # Replace only the nav section (from 'nav:' to end of file)
+            # Use a marker to ensure we don't accidentally eat extra_css etc.
+            if "nav:" not in content:
+                log_event("[WARN] _sync_enterprise_navigation: 'nav:' not found in v2-mkdocs.yml")
+                return False
+            nav_start = content.index("nav:")
+            updated = content[:nav_start] + "\n".join(nav) + "\n"
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
+            log_event(f"  [OK] Nav synced: {len(nav)} entries written")
+            return True
         except Exception as e:
             log_event(f"[WARN] sync enterprise navigation: {str(e)[:100]}")
+            return False
 
 import argparse
 if __name__ == "__main__":
