@@ -15,8 +15,8 @@ from src.logger import log_event
 # ---------------------------------------------------------------------------
 CNCF_LANDSCAPE_URL = "https://landscape.cncf.io/api/items"  # Legacy, now SPA — fallback to GitHub topic search
 GITHUB_API_BASE = "https://api.github.com"
-GITHUB_RATE_DELAY = 0.75  # seconds between GitHub API calls to stay under 5000/hr
-MAX_REPOS_DEFAULT = 500
+GITHUB_RATE_DELAY = 0.5   # seconds between GitHub API calls (5000/hr limit = ~1.4/s safe)
+MAX_REPOS_DEFAULT = 200   # cap per run — 200 × 0.5s = ~100s, well within CI timeout
 ACTIVITY_STALENESS_DAYS = 30
 
 # Community health thresholds
@@ -155,15 +155,15 @@ async def _fetch_repo_activity(
     client: httpx.AsyncClient,
     owner_repo: str,
 ) -> Tuple[int, int]:
-    """Fetch open issue count and recent open PR count for a single repo.
+    """Fetch open issue + PR count for a single repo in one API call.
 
-    Returns (open_issues_count, open_prs_count).
+    GitHub's open_issues_count includes PRs, so a single /repos endpoint
+    call is sufficient. Returns (open_issues_count, 0) — the caller uses
+    the combined metric for health classification.
     """
     headers = _github_headers()
     open_issues = 0
-    open_prs = 0
 
-    # Fetch repo-level stats (open_issues_count includes PRs on GitHub)
     try:
         resp = await client.get(
             f"{GITHUB_API_BASE}/repos/{owner_repo}",
@@ -173,37 +173,15 @@ async def _fetch_repo_activity(
         if resp.status_code == 200:
             data = resp.json()
             open_issues = data.get("open_issues_count", 0)
+        elif resp.status_code == 429:
+            # Rate limited — back off
+            await asyncio.sleep(5.0)
     except Exception as e:
         log_event(f"[WARN] GitHub repo fetch failed for {owner_repo}: {str(e)[:120]}")
 
     await asyncio.sleep(GITHUB_RATE_DELAY)
 
-    # Fetch open PRs (page 1 only — we use total_count from search or headers)
-    try:
-        resp = await client.get(
-            f"{GITHUB_API_BASE}/repos/{owner_repo}/pulls",
-            headers=headers,
-            params={"state": "open", "sort": "created", "per_page": 1},
-            timeout=15.0,
-        )
-        if resp.status_code == 200:
-            # The total count of open PRs is not directly in the body for the
-            # list endpoint, but we can parse the Link header for the last page.
-            # As a simpler approach, the body is a list; if it has items the repo
-            # has open PRs. We use the repo-level open_issues_count as the
-            # combined metric (GitHub counts PRs as issues).
-            pr_data = resp.json()
-            if isinstance(pr_data, list) and len(pr_data) > 0:
-                # Parse Link header for total pages
-                link_header = resp.headers.get("Link", "")
-                last_match = re.search(r'page=(\d+)>;\s*rel="last"', link_header)
-                open_prs = int(last_match.group(1)) if last_match else len(pr_data)
-    except Exception as e:
-        log_event(f"[WARN] GitHub PRs fetch failed for {owner_repo}: {str(e)[:120]}")
-
-    await asyncio.sleep(GITHUB_RATE_DELAY)
-
-    return open_issues, open_prs
+    return open_issues, 0
 
 
 def _classify_health(total_activity: int) -> str:
