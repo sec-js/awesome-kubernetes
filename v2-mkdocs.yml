@@ -63,7 +63,6 @@ plugins:
       logo: favicon-ultra.png
   - tags:
       tags_file: tags.md
-  - offline
   - minify:
       minify_html: true
   - rss:

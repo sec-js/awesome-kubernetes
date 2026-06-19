@@ -86,5 +86,8 @@ python3 -m src.v2_optimizer --render-only    # Render V2 portal (no AI calls)
 - Inventory fields: `discovered_at` (ISO), `last_ai_eval` (ISO), `company`, `geo_region` must be preserved during merges
 - The `update_inventory_entry()` function preserves `discovered_at` — never overwrite it with new data
 
+## URL Policy: Clean URLs, No .html Suffix
+Both V1 and V2 MUST use `use_directory_urls: true` in their mkdocs.yml. This produces clean URLs like `/kubernetes/` instead of `/kubernetes.html`. **NEVER** enable the `offline` plugin — it forces `.html` suffixes on all URLs, breaking SEO and existing deep-links. This is a hard rule.
+
 ## RSS/Twitter Sources
 RSS feeds are limited to those that actually work (many block bots). Don't add new RSS feeds without testing. Current working feeds are defined in `data/curation_sources.yaml`.
