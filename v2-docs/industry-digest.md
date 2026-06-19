@@ -1,8 +1,3 @@
----
-search:
-  boost: 2
----
-
 # 🌍 Nubenetes Industry & Geo Intelligence Digest
 
 !!! tip "Nubenetes Intelligence Digest"

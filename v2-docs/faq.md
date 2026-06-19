@@ -9,11 +9,27 @@
 ## Table of Contents
 
 1. [Architecture](#architecture)
+  - [Cloud Native](#cloud-native)
+    - [Evolution](#evolution)
+    - [Kubernetes Native](#kubernetes-native)
   - [Microservices](#microservices)
     - [Caching](#caching)
     - [Decision Frameworks](#decision-frameworks)
     - [History](#history)
     - [Resiliency Patterns](#resiliency-patterns)
+1. [Career and Culture](#career-and-culture)
+  - [Talent Acquisition](#talent-acquisition)
+    - [Full Stack Development](#full-stack-development)
+1. [Cloud Infrastructure](#cloud-infrastructure)
+  - [Enterprise Containers](#enterprise-containers)
+    - [Strategy](#strategy)
+  - [Storage and Databases](#storage-and-databases)
+    - [Storage Strategy](#storage-strategy)
+1. [DevOps](#devops)
+  - [CICD](#cicd)
+    - [Kubernetes Orchestration](#kubernetes-orchestration)
+1. [Kubernetes Tools](#kubernetes-tools)
+  - [General Reference](#general-reference)
 1. [Microservices Architecture](#microservices-architecture)
   - [Dependency Management](#dependency-management)
     - [Patterns](#patterns)
@@ -25,11 +41,24 @@
   - [Patterns](#patterns-1)
     - [Service Discovery](#service-discovery)
 1. [Migration](#migration)
+  - [Cloud Migration](#cloud-migration)
+    - [Strategies](#strategies)
   - [Containerization](#containerization)
     - [Case Study](#case-study)
+1. [Networking](#networking)
+  - [Multi-Cluster](#multi-cluster)
+    - [DNS](#dns)
 
 ## Architecture
 
+### Cloud Native
+
+#### Evolution
+
+  - **(2018)** [Adoption of Cloud-Native Architecture, Part 1: Architecture Evolution and Maturity](https://www.infoq.com/articles/cloud-native-architecture-adoption-part1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Transitioning to cloud-native architectures demands a phased evolution from legacy monolithic codebases to distributed, dynamically orchestrated workloads. This architectural guide outlines a clear maturity framework, mapping the progression of configuration, state, and messaging layers. Organizations must balance technical debt reduction with the adoption of platform capabilities like service meshes and managed runtimes.
+#### Kubernetes Native
+
+  - **(2020)** [developers.redhat.com: Why Kubernetes native instead of cloud native? 🌟](https://developers.redhat.com/blog/2020/04/08/why-kubernetes-native-instead-of-cloud-native) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubernetes-native applications go beyond merely running on containers; they are specifically compiled, packaged, and optimized to consume the Kubernetes API directly. This paradigm shift utilizes custom resource definitions (CRDs) and operator patterns to achieve deep platform integration, enabling smarter autoscaling and self-healing behaviors. Choosing Kubernetes-native architectures ensures maximum platform efficiency, though it increases vendor-coupling to the orchestrator.
 ### Microservices
 
 #### Caching
@@ -44,6 +73,45 @@
 #### Resiliency Patterns
 
   - **(2018)** [blog.risingstack.com: Designing a Microservices Architecture for Failure](https://blog.risingstack.com/designing-microservices-architecture-for-failure)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architecting microservices requires planning for inevitable network, hardware, and downstream dependency failures. This analysis outlines essential resiliency patterns, such as circuit breakers, retries with exponential backoff, and graceful degradation strategies. Implementing these patterns prevents cascading failures and maintains systemic availability under high-load or degraded operational states.
+## Career and Culture
+
+### Talent Acquisition
+
+#### Full Stack Development
+
+  - **(2022)** [cybercoders.com: What Hiring Managers look for in a Full Stack Developer](https://www.cybercoders.com/insights/what-hiring-managers-look-for-in-a-full-stack-developer) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A market intelligence report surveying hiring requirements for full stack engineering roles. It maps out key technical benchmarks such as comfort with distributed system paradigms, experience with container systems like Docker/Kubernetes, and familiarity with cloud platforms, alongside essential communication and agile development competencies.
+## Cloud Infrastructure
+
+### Enterprise Containers
+
+#### Strategy
+
+  - **(2021)** [contino.io: How to Make Enterprise Container Strategies That Last (Part One)](https://www.contino.io/insights/how-to-make-enterprise-container-strategies-that-last-part-one) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise-focused strategic guide detailing how to design durable container adoption initiatives. It emphasizes aligning developer enablement with platform engineering teams, setting up proper governance models, and establishing realistic operational metrics, ensuring organization-wide Kubernetes migrations don't stall due to cultural friction.
+### Storage and Databases
+
+#### Storage Strategy
+
+  - **(2022)** [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural comparison between container-native and container-ready storage systems for Kubernetes. It explains how container-native storage operates inside the orchestration engine using CSI (Container Storage Interface), offering dynamic scaling and pod-level isolation, whereas container-ready options rely on enterprise external SAN/NAS storage arrays mapped to Kubernetes nodes.
+## DevOps
+
+### CICD
+
+#### Kubernetes Orchestration
+
+  - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
+## Kubernetes Tools
+
+### General Reference
+
+  - [medium.com: STOP!! You don’t need Microservices](https://medium.com/@ebin/stop-you-dont-need-microservices-dc732d70b3e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: STOP!! You don’t need Microservices in the Kubernetes Tools ecosystem.
+  - [medium.com: Your team might not need Kubernetes](https://medium.com/faun/your-team-might-not-need-kubernetes-57240e8d554a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Your team might not need Kubernetes in the Kubernetes Tools ecosystem.
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths](https://betterprogramming.pub/domain-partitions-how-to-find-a-healthy-balance-between-microservices-and-monoliths-2cd74206559)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: Domain Partitions: How To Find a Healthy Balance' Between Microservices and Monoliths in the Kubernetes Tools ecosystem.
+  - [medium: It’s time to stop making “Microservices” the goal of modernization](https://medium.com/ibm-garage/its-time-to-stop-making-microservices-the-goal-of-modernization-71758b400287)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: It’s time to stop making “Microservices” the goal of modernization in the Kubernetes Tools ecosystem.
+  - [medium.com: When to Use and When NOT to Use Microservices: No Silver Bullet' 🌟](https://medium.com/design-microservices-architecture-with-patterns/when-to-use-and-when-not-to-use-microservices-no-silver-bullet-3ae293faf6d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com: When to Use and When NOT to Use Microservices: No Silver Bullet==' 🌟 in the Kubernetes Tools ecosystem.
+  - [dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor?](https://dzone.com/articles/the-best-cloud-migration-approach-lift-and-shift-r)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: The Best Cloud Migration Approach: Lift-And-Shift, Replatform, Or' Refactor? in the Kubernetes Tools ecosystem.
+  - [dzone: 10 Commandments of Microservice Decomposition 🌟](https://dzone.com/articles/10-commandments-on-microservice-decomposition)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 10 Commandments of Microservice Decomposition 🌟 in the Kubernetes Tools ecosystem.
+  - [10 Free Spring Boot Courses and Tutorials for Java Developers](https://medium.com/javarevisited/10-free-spring-boot-tutorials-and-courses-for-java-developers-53dfe084587e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering 10 Free Spring Boot Courses and Tutorials for Java Developers in the Kubernetes Tools ecosystem.
 ## Microservices Architecture
 
 ### Dependency Management
@@ -73,14 +141,24 @@
   - **(2018)** [shekhargulati.com: Service Discovery for Modern Distributed Applications](https://shekhargulati.com/2018/08/01/week-1-service-discovery-for-modern-distributed-applications) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational deep dive exploring service registry and dynamic service discovery mechanisms in distributed environments. It contrasts client-side discovery models (e.g., Netflix Eureka) with server-side proxy models (e.g., Kubernetes DNS and Envoy proxying), explaining how network addressing abstraction ensures decoupled, resilient microservices routing.
 ## Migration
 
+### Cloud Migration
+
+#### Strategies
+
+  - **(2021)** [acloudguru.com: What is lift and shift cloud migration?](https://www.pluralsight.com/resources/blog/business-and-leadership/what-is-lift-and-shift-cloud-migration)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A lift-and-shift migration strategy involves rehosting legacy applications directly in the cloud with minimal structural modification. While this approach minimizes initial migration time and risk, it fails to exploit cloud-native features such as auto-scaling and managed services, often leading to inflated operating costs. The resource serves as a guide for planning evolutionary cloud strategies post-migration.
 ### Containerization
 
 #### Case Study
 
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
+## Networking
+
+### Multi-Cluster
+
+#### DNS
+
+  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
-
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Cloud Arch Diagrams](./cloud-arch-diagrams.md)
 

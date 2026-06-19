@@ -8,50 +8,111 @@
 
 ## Table of Contents
 
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
+1. [Architecture](#architecture)
+  - [Data Lakes](#data-lakes)
+    - [AWS Cloud](#aws-cloud)
+    - [Azure Cloud](#azure-cloud)
+    - [Google Cloud](#google-cloud)
 1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [FinOps](#finops)
-    - [Cost Optimization](#cost-optimization)
+  - [Market Trends](#market-trends)
+    - [Cloud Databases](#cloud-databases)
+1. [Cloud Native](#cloud-native)
+  - [Kubernetes Operators](#kubernetes-operators)
+    - [ClickHouse](#clickhouse)
+    - [MySQL](#mysql)
+    - [Redis](#redis)
+    - [Secrets Management](#secrets-management)
+1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
+  - [Observability](#observability)
+    - [Prometheus](#prometheus)
+      - [Database Monitoring](#database-monitoring)
 1. [Cloud-Native Design](#cloud-native-design)
   - [Architecture Patterns](#architecture-patterns)
+1. [Cloud-Native Infrastructure](#cloud-native-infrastructure)
+  - [Infrastructure Provisioning](#infrastructure-provisioning)
+    - [Kubernetes Operators](#kubernetes-operators-1)
 1. [Data Analytics](#data-analytics)
   - [Real-time Analytics](#real-time-analytics)
     - [Edge Computing](#edge-computing)
+  - [Visualization](#visualization)
+    - [Data Analytics Engine](#data-analytics-engine)
 1. [Data Operations](#data-operations)
+  - [DataOps](#dataops)
   - [Database CICD](#database-cicd)
 1. [Data on Kubernetes](#data-on-kubernetes)
   - [DBaaS](#dbaas)
     - [Enterprise RedHat](#enterprise-redhat)
     - [Internal Mechanics](#internal-mechanics)
+  - [Data Governance](#data-governance)
+    - [Infrastructure](#infrastructure)
   - [Disaster Recovery](#disaster-recovery)
     - [Enterprise RedHat](#enterprise-redhat-1)
   - [Distributed Systems](#distributed-systems)
     - [ShardingSphere](#shardingsphere)
+  - [Enterprise Databases](#enterprise-databases)
+    - [Future Trends](#future-trends)
+  - [Kubernetes Operators](#kubernetes-operators-2)
+    - [Standards](#standards)
+    - [Stateful Architecture](#stateful-architecture)
+  - [Market Trends](#market-trends-1)
+    - [Analytics Workloads](#analytics-workloads)
   - [Performance Tuning](#performance-tuning)
     - [Autoscaling](#autoscaling)
   - [Relational Databases](#relational-databases)
     - [Operations](#operations)
     - [PostgreSQL](#postgresql)
-  - [Stateful Architecture](#stateful-architecture)
+  - [Stateful Architecture](#stateful-architecture-1)
+    - [Case Studies](#case-studies)
+    - [Concepts](#concepts)
+    - [History](#history)
     - [Operational Guide](#operational-guide)
+1. [Database and Storage Management](#database-and-storage-management)
+  - [Data Administration](#data-administration)
+    - [UI Tools](#ui-tools)
 1. [Database Architecture](#database-architecture)
+  - [Core Concepts](#core-concepts)
+    - [Database Taxonomy](#database-taxonomy)
+    - [Engineering Essentials](#engineering-essentials)
   - [DBaaS](#dbaas-1)
-    - [Market Trends](#market-trends)
+    - [Market Trends](#market-trends-2)
+  - [Data Storage](#data-storage)
+    - [Core Concepts](#core-concepts-1)
+    - [Indexing](#indexing)
   - [Database Interfaces](#database-interfaces)
     - [API Design](#api-design)
+  - [Database Taxonomy](#database-taxonomy-1)
+    - [Selection Guide](#selection-guide)
+  - [Distributed Systems](#distributed-systems-1)
+    - [Core Concepts](#core-concepts-2)
+  - [High Availability](#high-availability)
+    - [Scalability](#scalability)
   - [Microservices Patterns](#microservices-patterns)
     - [Transactions](#transactions)
   - [Multi-tenancy](#multi-tenancy)
     - [Schema Design](#schema-design)
+  - [Replication](#replication)
+    - [Relational Databases](#relational-databases-1)
   - [Traffic Management](#traffic-management)
     - [Load Balancing](#load-balancing)
+1. [Database Tooling](#database-tooling)
+  - [Data Validation](#data-validation)
+  - [Migrations](#migrations)
 1. [Distributed SQL](#distributed-sql)
   - [APIs](#apis)
   - [CockroachDB](#cockroachdb)
-1. [Infrastructure](#infrastructure)
+1. [Graph Databases](#graph-databases)
+  - [Comparisons](#comparisons)
+  - [ORM](#orm)
+1. [In-Memory](#in-memory)
+  - [Distributed Systems](#distributed-systems-2)
+1. [Infrastructure](#infrastructure-1)
   - [Container Orchestration](#container-orchestration)
     - [Data on Kubernetes](#data-on-kubernetes-1)
     - [GitOps](#gitops)
-    - [Kubernetes Operators](#kubernetes-operators)
+    - [Kubernetes Operators](#kubernetes-operators-3)
     - [MySQL Operators](#mysql-operators)
     - [PostgreSQL HA](#postgresql-ha)
     - [PostgreSQL Operators](#postgresql-operators)
@@ -67,39 +128,185 @@
 1. [Kubernetes Workloads](#kubernetes-workloads)
   - [CICD Pipelines](#cicd-pipelines)
     - [Database Migrations](#database-migrations)
-1. [Observability](#observability)
+1. [MySQL](#mysql-1)
+  - [Migration](#migration)
+  - [Performance](#performance)
+1. [NoSQL](#nosql)
+  - [Python Databases](#python-databases)
+1. [OLAP](#olap)
+  - [ClickHouse](#clickhouse-1)
+  - [Kubernetes](#kubernetes)
+  - [Real-time Analytics](#real-time-analytics-1)
+1. [Observability](#observability-1)
   - [Distributed Storage](#distributed-storage)
     - [VictoriaMetrics](#victoriametrics)
 1. [PostgreSQL](#postgresql-1)
   - [Alternative Paradigms](#alternative-paradigms)
   - [Application Architecture](#application-architecture)
   - [Application Performance](#application-performance)
+  - [Backups](#backups)
+  - [Database Administration](#database-administration)
   - [Database Architecture](#database-architecture-1)
-1. [Relational Databases](#relational-databases-1)
+  - [Database Backups](#database-backups)
+  - [Extensions](#extensions)
+  - [Fundamentals](#fundamentals)
+  - [Kubernetes](#kubernetes-1)
+  - [Local Development](#local-development)
+  - [Migration](#migration-1)
+  - [Monitoring](#monitoring)
+  - [Performance](#performance-1)
+  - [Security](#security)
+  - [System Tuning](#system-tuning)
+  - [TypeORM Integration](#typeorm-integration)
+1. [Query Languages](#query-languages)
+  - [Alternative Paradigms](#alternative-paradigms-1)
+1. [Relational Databases](#relational-databases-2)
+  - [Comparisons](#comparisons-1)
+  - [Critiques](#critiques)
   - [Database Drivers](#database-drivers)
+  - [Git-for-Data](#git-for-data)
+  - [Local Development](#local-development-1)
+  - [MySQL Features](#mysql-features)
+  - [MySQL Optimization](#mysql-optimization)
 1. [SQL](#sql)
+  - [Core Concepts](#core-concepts-3)
+    - [Database Taxonomy](#database-taxonomy-2)
+  - [Education](#education)
+    - [Video Training](#video-training)
   - [ORM and Query Builders](#orm-and-query-builders)
     - [Java Ecosystem](#java-ecosystem)
+  - [Performance Tuning](#performance-tuning-1)
+    - [Query Optimization](#query-optimization)
+  - [Query Mechanics](#query-mechanics)
+    - [Filtering](#filtering)
+    - [Joins](#joins)
+1. [SQL Fundamentals](#sql-fundamentals)
+  - [Joins](#joins-1)
+  - [Visualization](#visualization-1)
+1. [SQL Optimization](#sql-optimization)
+  - [Best Practices](#best-practices)
 1. [SQL Server](#sql-server)
+  - [Backup Administration](#backup-administration)
   - [DevOps](#devops)
+  - [Enterprise Deployment](#enterprise-deployment)
+  - [Local Development](#local-development-2)
 1. [Serverless Databases](#serverless-databases)
   - [Resource Management](#resource-management)
+1. [Software Engineering](#software-engineering)
+  - [Database Management](#database-management)
+    - [Model Context Protocol](#model-context-protocol)
+  - [Testing](#testing)
+    - [Mocking](#mocking)
 1. [Storage and Data](#storage-and-data)
+  - [Data on Kubernetes](#data-on-kubernetes-2)
+    - [Industry Research](#industry-research)
+  - [Database Operations](#database-operations)
+    - [Database DevOps](#database-devops)
   - [Database Operators](#database-operators)
     - [Crunchy PostgreSQL](#crunchy-postgresql)
+1. [Time-Series](#time-series)
+  - [Architecture](#architecture-1)
+  - [VictoriaMetrics](#victoriametrics-1)
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [levelup.gitconnected.com: How to design a system to scale to your first' 100 million users](https://levelup.gitconnected.com/how-to-design-a-system-to-scale-to-your-first-100-million-users-4450a2f9703d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: How to design a system to scale to your first' 100 million users in the Kubernetes Tools ecosystem.
+  - [magalix.com: Kubernetes And Databases 🌟](https://www.magalix.com/blog/kubernetes-and-database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering magalix.com: Kubernetes And Databases 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Not using trendy technologies is the best thing for your Startup!](https://medium.com/dataseries/not-using-nosql-is-good-i-stuck-to-sql-4504a67972f0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Not using trendy technologies is the best thing for your Startup! in the Kubernetes Tools ecosystem.
+  - [venturebeat.com: The rise of Kubernetes and its impact on enterprise databases](https://venturebeat.com/2021/11/03/the-rise-of-kubernetes-and-its-impact-on-enterprise-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering venturebeat.com: The rise of Kubernetes and its impact on enterprise databases in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase,' and PostgreSQL](https://betterprogramming.pub/multi-tenancy-support-with-spring-boot-liquibase-and-postgresql-d41942dc0639)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==betterprogramming.pub: Multi-Tenancy Support With Spring Boot, Liquibase,' and PostgreSQL== in the Kubernetes Tools ecosystem.
+  - [medium.com/@bijit211987: Kubernetes ready for stateful workloads and to' Revolutionize Enterprise Database Management](https://medium.com/@bijit211987/kubernetes-ready-for-stateful-workloads-and-to-revolutionize-enterprise-database-management-3cd619b1a0b2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@bijit211987: Kubernetes ready for stateful workloads and to' Revolutionize Enterprise Database Management in the Kubernetes Tools ecosystem.
+  - [medium.com/javarevisited: Top Performance issues every developer/architect' must know — part 1-Database](https://medium.com/javarevisited/top-performance-issues-every-developer-architect-must-know-part-1-fc1ad6e1644b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/javarevisited: Top Performance issues every developer/architect' must know — part 1-Database== in the Kubernetes Tools ecosystem.
+  - [dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every' programmer must know](https://dineshchandgr.medium.com/why-do-we-need-a-database-connection-pool-every-programmer-must-know-9f90e7c8e5af)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dineshchandgr.medium.com: Why do we need a Database Connection Pool? -every' programmer must know== in the Kubernetes Tools ecosystem.
+  - [medium.com/fintechexplained: What Is Database Sharding?](https://medium.com/fintechexplained/what-is-database-sharding-582b36282f97)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/fintechexplained: What Is Database Sharding?== in the Kubernetes Tools ecosystem.
+  - [blog.equationlabs.io: Managing database migrations safely in high replicated' k8s deployment 🌟](https://blog.equationlabs.io/managing-database-migrations-safely-in-high-replicated-k8s-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==blog.equationlabs.io: Managing database migrations safely in high replicated' k8s deployment== 🌟 in the Kubernetes Tools ecosystem.
+  - [medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why' it won’t work for you if you’re implementing a big data solution)](https://medium.com/@mkremer_75412/why-postgres-rds-didnt-work-for-us-and-why-it-won-t-work-for-you-if-you-re-implementing-a-big-6c4fff5a8644)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mkremer_75412: Why Postgres RDS didn’t work for us (and why' it won’t work for you if you’re implementing a big data solution) in the Kubernetes Tools ecosystem.
+  - [medium.com/@fengruohang: Database in Kubernetes: Is that a good idea?](https://medium.com/@fengruohang/database-in-kubernetes-is-that-a-good-idea-daf5775b5c1f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@fengruohang: Database in Kubernetes: Is that a good idea? in the Kubernetes Tools ecosystem.
+  - [medium.com: How to choose the right database for your service 🌟](https://medium.com/wix-engineering/how-to-choose-the-right-database-for-your-service-97b1670c5632)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: How to choose the right database for your service 🌟 in the Kubernetes Tools ecosystem.
+  - [stackoverflow.com: Is the usage of stored procedures a bad practice?](https://stackoverflow.com/questions/1761601/is-the-usage-of-stored-procedures-a-bad-practice)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Is the usage of stored procedures a bad practice? in the Kubernetes Tools ecosystem.
+  - [softwareengineering.stackexchange.com: What is the best practice about microservice' architecture for consuming many stored procedures in the same database?](https://softwareengineering.stackexchange.com/questions/436567/what-is-the-best-practice-about-microservice-architecture-for-consuming-many-sto)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering softwareengineering.stackexchange.com: What is the best practice about microservice' architecture for consuming many stored procedures in the same database? in the Kubernetes Tools ecosystem.
+  - [betterprogramming.pub: 8 Techniques To Speed up Your Database](https://betterprogramming.pub/8-techniques-to-speed-up-your-database-292754ff7739)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: 8 Techniques To Speed up Your Database in the Kubernetes Tools ecosystem.
+  - [sixfold.medium.com: Reducing database queries to a minimum with DataLoaders](https://sixfold.medium.com/reducing-database-queries-to-a-minimum-with-dataloaders-cc98c25e54ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering sixfold.medium.com: Reducing database queries to a minimum with DataLoaders in the Kubernetes Tools ecosystem.
+  - [reddit.com: What's the best, proper way of running a database cluster on' top of Kubernetes?](https://www.reddit.com/r/kubernetes/comments/9d8on5/whats_the_best_proper_way_of_running_a_database)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com: What's the best, proper way of running a database cluster on' top of Kubernetes? in the Kubernetes Tools ecosystem.
+  - [cloudsavvyit.com: Should You Run a Database in Docker?](https://www.cloudsavvyit.com/5414/should-you-run-a-database-in-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudsavvyit.com: Should You Run a Database in Docker? in the Kubernetes Tools ecosystem.
+  - [medium: DevOps and Databases — The forgotten automation](https://medium.com/devops-dudes/devops-and-databases-the-forgotten-automation-95325b2d3c89)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: DevOps and Databases — The forgotten automation in the Kubernetes Tools ecosystem.
+  - [medium.com/@database-mesh: Database Mesh 2.0: Database Governance in a Cloud' Native Environment](https://medium.com/@database-mesh/database-mesh-2-0-database-governance-in-a-cloud-native-environment-3e41f0f2722c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@database-mesh: Database Mesh 2.0: Database Governance in a Cloud' Native Environment in the Kubernetes Tools ecosystem.
+  - [Wikipedia: CockroachDB](https://en.wikipedia.org/wiki/Cockroach_Labs)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: CockroachDB in the Kubernetes Tools ecosystem.
+  - [blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE](https://blog.cloudneutral.se/running-cockroachdb-tpc-c-benchmark-on-gke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.cloudneutral.se: Running CockroachDB TPC-C benchmark on GKE in the Kubernetes Tools ecosystem.
+  - [medium: Running Oracle 12c on OpenShift Container Platform](https://medium.com/@pittar/running-oracle-12c-on-openshift-container-platform-ca471a9f7057)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Running Oracle 12c on OpenShift Container Platform in the Kubernetes Tools ecosystem.
+  - [twindb.com: Verify MySQL Backups With TwinDB Backup Tool](https://twindb.com/verify-mysql-backups-with-twindb-backup-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering twindb.com: Verify MySQL Backups With TwinDB Backup Tool in the Kubernetes Tools ecosystem.
+  - [pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER)' in MySQL](https://pub.towardsai.net/step-by-step-design-of-enhanced-entity-relationship-eer-in-mysql-1e0f8b9fe5d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering pub.towardsai.net: Step-by-Step Design of Enhanced Entity-Relationship (EER)' in MySQL in the Kubernetes Tools ecosystem.
+  - [dbasecenter.com: The top 5 MySQL performance variables](https://dbasecenter.com/blog/the-top-5-mysql-performance-variables)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dbasecenter.com: The top 5 MySQL performance variables in the Kubernetes Tools ecosystem.
+  - [cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container](https://www.cloudsavvyit.com/13842/how-to-run-phpmyadmin-in-a-docker-container)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cloudsavvyit.com: How to Run PHPMyAdmin in a Docker Container in the Kubernetes Tools ecosystem.
+  - [dzone: PostgreSQL vs MySQL Performance](https://dzone.com/articles/postgresql-versus-mysql-performance)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: PostgreSQL vs MySQL Performance in the Kubernetes Tools ecosystem.
+  - [medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0](https://medium.com/flant-com/upgrading-mysql-percona-server-5-to-8-4bce53bdce5c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Upgrading MySQL (Percona Server) from 5.7 to 8.0 in the Kubernetes Tools ecosystem.
+  - [tech.trell.co: Redis Cluster Creation Automation](https://tech.trell.co/redis-cluster-creation-automation-5e71eedf0e56)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tech.trell.co: Redis Cluster Creation Automation in the Kubernetes Tools ecosystem.
+  - [blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟](https://blog.devgenius.io/how-to-use-redis-pub-sub-in-your-python-application-b6d5e11fc8de)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: How to use Redis Pub/Sub in your Python Application 🌟 in the Kubernetes Tools ecosystem.
+  - [rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset](https://rockset.com/blog/sequoia-capital-elasticsearch-to-rockset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering rockset.com: Sequoia Capital: Why We Moved from Elasticsearch to Rockset in the Kubernetes Tools ecosystem.
+  - [dzone: Stateful Microservices With Apache Ignite](https://dzone.com/articles/stateful-microservices-with-apache-ignite)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Stateful Microservices With Apache Ignite in the Kubernetes Tools ecosystem.
+  - [medium.com/@nomulex: How to create an ssh tunnel to a remote database in' Kubernetes 🌟](https://medium.com/@nomulex/how-to-create-an-ssh-tunnel-to-a-remote-database-in-kubernetes-8e702e927328)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@nomulex: How to create an ssh tunnel to a remote database in' Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+## Architecture
+
+### Data Lakes
+
+#### AWS Cloud
+
+  - **(2021)** [unifieddatascience.com: Data lake design patterns on AWS (Amazon) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-aws-amazon-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive reference detailing architectural paradigms for deploying durable data lakes on AWS. Examines Amazon S3 lifecycle rules, AWS Glue meta-catalog configurations, and Athena query optimizations.
+#### Azure Cloud
+
+  - **(2021)** [unifieddatascience.com: Data lake design patterns on Azure (Microsoft) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-azure-microsoft-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A design pattern manual detailing Azure-based Data Lake infrastructure blueprints. Explores structural storage tiers, ADLS Gen2 directory hierarchies, identity configurations, and analytics service pipelines.
+#### Google Cloud
+
+  - **(2021)** [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference architecture mapping design paths for deploying scalable data lakes inside Google Cloud Platform (GCP). Reviews Cloud Storage setups, BigQuery access schemas, and serverless ingestion patterns.
 ## Cloud Infrastructure
 
-### FinOps
+### Market Trends
 
-#### Cost Optimization
+#### Cloud Databases
 
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
+  - **(2020)** [theregister.com: 75% of databases to be cloud-hosted by 2022, says Gartner while dishing on the weak points of each provider](https://www.theregister.com/software/2020/12/02/75-of-databases-to-be-cloud-hosted-by-2022-says-gartner-while-dishing-on-the-weak-points-of-each-provider/495782)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates Gartner's historical prediction concerning the massive transition of enterprise transactional workloads to cloud platforms. Identifies early challenges such as vendor lock-in, dynamic schema optimization, and cloud-provider security compliance.
+## Cloud Native
+
+### Kubernetes Operators
+
+#### ClickHouse
+
+  - **(2024)** [==Altinity/clickhouse-operator==](https://github.com/Altinity/clickhouse-operator) <span class='md-tag md-tag--info'>⭐ 2520</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e865583f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 7 L 30 2 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e865583f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernetes environments.
+  - **(2021)** [==radondb/radondb-clickhouse-kubernetes==](https://github.com/radondb/radondb-clickhouse-kubernetes) <span class='md-tag md-tag--info'>⭐ 86</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a3b50c24" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 13 L 40 7 L 50 10" fill="none" stroke="url(#spark-grad-a3b50c24)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — RadonDB's legacy operator and integration configurations for orchestrating ClickHouse OLAP environments. Highly useful as a historic reference for custom columnar database operators.
+#### MySQL
+
+  - **(2024)** [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide to deploying and managing high-availability Percona XtraDB Clusters on Kubernetes. Provides programmatic automation for zero-downtime upgrades, secure backup routines, node discovery, and automatic recovery protocols.
+#### Redis
+
+  - **(2024)** [RedisLabs/redis-enterprise-k8s-docs: Deploying Redis Enterprise on Kubernetes](https://github.com/RedisLabs/redis-enterprise-k8s-docs) <span class='md-tag md-tag--info'>⭐ 170</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-970ef37a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 12 L 30 12 L 40 3 L 50 9" fill="none" stroke="url(#spark-grad-970ef37a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical deployment documentation for organizing enterprise-grade Redis caches and document databases inside Kubernetes. Explains cluster layouts, memory configurations, security profiles, and automatic scaling capabilities.
+#### Secrets Management
+
+  - **(2021)** [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates security pipelines for managing MongoDB database credentials inside GitHub. Automates deployment configurations securely through GitOps, injecting secrets directly to Percona Kubernetes Operator instances.
+## Cloud Native Infrastructure
+
+### Observability
+
+#### Prometheus
+
+##### Database Monitoring
+
+  - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
 ## Cloud-Native Design
 
 ### Architecture Patterns
 
   - **(2022)** [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines stored procedures and database triggers in cloud-native microservice topologies. Warns against architectural coupling and operational performance bottlenecks, advocating for stateless application logic to preserve horizontal scalability.
+## Cloud-Native Infrastructure
+
+### Infrastructure Provisioning
+
+#### Kubernetes Operators (1)
+
+  - **(2022)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the paradigm shift of utilizing Kubernetes-native custom resource definitions (CRDs) and operators to provision external cloud resources (such as AWS ACK, GCP Config Connector, and Azure Service Operator). This declarative Infrastructure-as-Code pattern replaces external Terraform runs with continuous control loops inside the cluster. (Live Grounding: Standardizes management under unified Kubernetes control planes, resolving out-of-band drifts).
 ## Data Analytics
 
 ### Real-time Analytics
@@ -107,8 +314,16 @@
 #### Edge Computing
 
   - **(2021)** [thenewstack.io: Kubernetes-Run Analytics at the Edge: Postgres, Kafka, Debezium](https://thenewstack.io/kubernetes-run-analytics-at-the-edge-postgres-kafka-debezium) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced technical blueprint coordinating microservices for real-time edge analytics. Chains local PostgreSQL instances, Apache Kafka, and Debezium change data capture (CDC) pipelines in unified Kubernetes clusters.
+### Visualization
+
+#### Data Analytics Engine
+
+  - **(2021)** [opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics](https://opensource.com/article/21/4/visualize-data-eda) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide on employing Enterprise Data Analytics (EDA) configurations to design executive-friendly dashboards, translating complex transactional data queries into clear, actionable business telemetry visualizations.
 ## Data Operations
 
+### DataOps
+
+  - **(2022)** [thenewstack.io: The Benefits and Drawbacks of DataOps in Practice](https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the practical benefits and deployment drawbacks of DataOps. Outlines continuous integration strategies for analytical workflows, database schema migration safety, automated validation testing, and orchestrating massive data pipelines.
 ### Database CICD
 
   - **(2021)** [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/beginners-guide-to-continuous-integration-and-deployment) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical guide to continuous integration and delivery loops for relational databases. Synthesizes migration-based vs. declarative database state strategies, tooling integrations, rollback plans, and schema change automation.
@@ -122,6 +337,11 @@
 #### Internal Mechanics
 
   - **(2021)** [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of the architecture behind running custom, private Database-as-a-Service platforms inside a Kubernetes environment. Demonstrates automated provisioning, high availability clustering, and backup pipelines through Percona's open-source database operators.
+### Data Governance
+
+#### Infrastructure
+
+  - **(2022)** [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Redefines how data management must adapt to the API-first, declarative paradigm of Kubernetes. Highlights key criteria including multi-cloud data transportability, self-healing database engines, and policy-driven backups.
 ### Disaster Recovery
 
 #### Enterprise RedHat (1)
@@ -132,6 +352,24 @@
 #### ShardingSphere
 
   - **(2022)** [infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases](https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation guide for modernizing monolithic databases into highly distributed, sharded databases using Apache ShardingSphere on Kubernetes. Outlines high-performance read-write splitting, data sharding strategies, and state orchestration.
+### Enterprise Databases
+
+#### Future Trends
+
+  - **(2021)** [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the systemic shift toward automated multi-cloud database topologies managed exclusively by Kubernetes. Outlines standard enterprise savings, compliance, and rapid multi-tenant provisioning strategies.
+### Kubernetes Operators (2)
+
+#### Standards
+
+  - **(2022)** [thenewstack.io: Data on Kubernetes: Operators, Tools Need Standardization](https://thenewstack.io/data-on-kubernetes-operators-tools-need-standardization) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the standardization movements inside the Data on Kubernetes Community (DoKC). Outlines the need for common operator API interfaces, uniform lifecycle states, and shared storage specifications for databases.
+#### Stateful Architecture
+
+  - **(2022)** [thenewstack.io: How Kubernetes and Database Operators Drive the Data Revolution](https://thenewstack.io/how-kubernetes-and-database-operators-drive-the-data-revolution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how the Operator framework solves day-2 operations for complex databases. Explores built-in patterns for auto-tuning memory buffers, automated logical backups, and self-healing when cluster nodes become degraded.
+### Market Trends (1)
+
+#### Analytics Workloads
+
+  - **(2022)** [thenewstack.io: More Database, Analytics Workloads Ran on Kubernetes in 2022](https://thenewstack.io/more-database-analytics-workloads-ran-on-kubernetes-in-2022)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive review of the annual survey detailing the exponential adoption of running production databases and stateful analytical workloads directly on Kubernetes clusters in enterprise spaces.
 ### Performance Tuning
 
 #### Autoscaling
@@ -145,23 +383,70 @@
 #### PostgreSQL
 
   - **(2022)** [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://www.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines why PostgreSQL is standardizing on Kubernetes. Explains how the Crunchy Data PostgreSQL Operator implements high availability, automated back-ups, pgBackRest integration, and localized failovers for microservice application stacks.
-### Stateful Architecture
+### Stateful Architecture (1)
 
+#### Case Studies
+
+  - **(2022)** [thenewstack.io: A Case for Databases on Kubernetes from a Former Skeptic](https://thenewstack.io/a-case-for-databases-on-kubernetes-from-a-former-skeptic)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical account exploring how local NVMe storage classes, low-latency container network interfaces, and declarative operator-driven recovery mechanisms have convinced traditional DBAs to run critical state on Kubernetes.
+#### Concepts
+
+  - **(2022)** [thenewstack.io: Just How Challenging Is State in Kubernetes? 🌟](https://thenewstack.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the architectural friction points and continuous evolution of stateful applications in Kubernetes. Highlights the challenges of maintaining network identity, attaching volume blocks, and managing reliable local database engines.
+#### History
+
+  - **(2021)** [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the technological shift from simple stateless containerized microservices to orchestrating complex distributed database engines on Kubernetes using persistent storage interfaces (CSI) and local persistent volumes.
 #### Operational Guide
 
   - **(2021)** [itnext.io: How to Run Databases in Kubernetes](https://itnext.io/stateful-workloads-in-kubernetes-e49b56a5959)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A granular blueprint on configuring stateful workloads inside Kubernetes clusters. Details the practical implementation of Headless Services, stable network identifiers, local persistent volumes, and graceful cluster shutdowns.
+## Database and Storage Management
+
+### Data Administration
+
+#### UI Tools
+
+  - **(2025)** [==SQL Studio: A Unified SQL Database Explorer==](https://github.com/frectonz/sql-studio) <span class='md-tag md-tag--info'>⭐ 3546</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-96ef3f16" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 12 L 20 9 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-96ef3f16)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A single-binary SQL database administrator interface written in Rust. It streamlines querying, schema inspection, and data visualization across multiple RDBMS engines (including SQLite, PostgreSQL, and MySQL) in resource-constrained containerized runtimes.
 ## Database Architecture
 
+### Core Concepts
+
+#### Database Taxonomy
+
+  - **(2022)** [intellipaat.com: Difference between DBMS and RDBMS](https://intellipaat.com/blog/dbms-vs-rdbms-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Contrasts the architectural and operational definitions between basic flat-file Database Management Systems (DBMS) and modern Relational Database Management Systems (RDBMS) implementing relational tables, schemas, and ACID transactions.
+#### Engineering Essentials
+
+  - **(2022)** [architecturenotes.co: Things You Should Know About Databases](https://architecturenotes.co/p/things-you-should-know-about-databases) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density masterclass on database internals. Provides clear, deeply visual breakdowns of write-ahead logs (WAL), transaction isolation levels, indexing data structures (B-Trees vs LSM Trees), and database buffer pools.
 ### DBaaS (1)
 
-#### Market Trends
+#### Market Trends (2)
 
   - **(2021)** [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates how the adoption of cloud-native DBaaS increases deployment velocity for modern, distributed engineering organizations by abstracting routine scaling and maintenance behind APIs.
+### Data Storage
+
+#### Core Concepts (1)
+
+  - **(2021)** [hackernoon.com: Database Vs Data Warehouse Vs Data Lake: A Simple Explanation](https://hackernoon.com/database-vs-data-warehouse-vs-data-lake-a-simple-explanation-hz2k33rm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational breakdown that contrasts transactional OLTP systems, analytical data warehouses (OLAP), and raw, unstructured data lakes. Clearly maps distinct hardware, cost, and orchestration profiles to each model.
+#### Indexing
+
+  - **(2021)** [vladmihalcea.com: Default Database Primary, Foreign, and Unique Key Indexing](https://vladmihalcea.com/default-database-key-indexing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive on constraint indexing automation in RDBMS engines. Outlines why relational platforms automatically index primary and unique constraints, while omitting automatic foreign key indexes, risking table lockups.
 ### Database Interfaces
 
 #### API Design
 
   - **(2022)** [thenewstack.io: How Radical API Design Changed the Way We Access Databases](https://thenewstack.io/how-radical-api-design-changed-the-way-we-access-databases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how modern schema-aware API clients, GraphQL adapters, and serverless proxy layers are replacing standard raw driver bindings, simplifying secure and high-performance database connection pooling.
+### Database Taxonomy (1)
+
+#### Selection Guide
+
+  - **(2021)** [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types 🌟🌟](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density taxonomic guide that compares 12 distinct database variants including relational, document, key-value, graph, time-series, and ledger systems, mapping performance characteristics to concrete transactional use cases.
+### Distributed Systems (1)
+
+#### Core Concepts (2)
+
+  - **(2022)** [thenewstack.io: Distributed Database Architecture: What Is It?](https://thenewstack.io/distributed-database-architecture-what-is-it) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density theoretical guide investigating distributed database mechanics. Explores horizontal database partitioning (sharding), multi-region replication architectures, network split mitigation, and consistency profiles matching the CAP Theorem.
+### High Availability
+
+#### Scalability
+
+  - **(2021)** [red-gate.com: Designing Highly Scalable Database Architectures](https://www.red-gate.com/simple-talk/databases/sql-server/performance-sql-server/designing-highly-scalable-database-architectures) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Covers key patterns for designing and hosting highly-scalable SQL Server database environments. Analyzes indexing optimizations, physical partitioning schemes, scaling strategies, and microservice persistence models.
 ### Microservices Patterns
 
 #### Transactions
@@ -172,11 +457,25 @@
 #### Schema Design
 
   - **(2020)** [vladmihalcea.com: A beginner’s guide to database multitenancy](https://vladmihalcea.com/database-multitenancy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the three primary multi-tenant database models: database-per-tenant, schema-per-tenant, and shared-schema-shared-database. Critically evaluates trade-offs regarding data isolation, schema migrations, and database connection limits.
+### Replication
+
+#### Relational Databases (1)
+
+  - **(2021)** [vladmihalcea.com: Single-Primary Database Replication](https://vladmihalcea.com/single-primary-database-replication) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth conceptual analysis of single-primary database replication mechanics. Explores commit pathing, binary log distribution, read replica scaling, lag mitigation, and handling failover events under high transaction volumes.
 ### Traffic Management
 
 #### Load Balancing
 
+  - **(2022)** [severalnines.com: How Does a Database Load Balancer Work?](https://severalnines.com/blog/how-does-database-load-balancer-work) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how specialized database load balancers function under the hood. Details protocol-level query routing, connection multiplexing, failover health-checks, and automatic routing of write requests to the master and read requests to replica pools.
   - **(2021)** [thenewstack.io: How Database Load Balancing Completes the 3-Tiered Architecture 🌟](https://thenewstack.io/database-load-balancing-and-the-delusion-of-3-tiered-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs the traditional 3-tier architecture to detail why decoupling query routing from application layers via dedicated database load balancers is essential. Examines how custom routing mitigates split-brain scenarios and ensures reliable active-passive replication failover.
+## Database Tooling
+
+### Data Validation
+
+  - **(2024)** [==datafold/data-diff==](https://github.com/datafold/data-diff) <span class='md-tag md-tag--info'>⭐ 2988</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5ec9dd1a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 12 L 30 8 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-5ec9dd1a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential database comparison CLI tool and Python library designed to calculate cryptographic data drift and structural differences between massive, disparate relational database environments.
+### Migrations
+
+  - **(2024)** [==SHMIG==](https://github.com/mbucc/shmig) <span class='md-tag md-tag--info'>⭐ 474</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09c58a37" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 7 L 30 4 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-09c58a37)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minimalist Shell-based database migration utility. Designed to remain programming-language agnostic, it manages schema evolutionary steps and structured rollbacks executing plain raw SQL scripts.
 ## Distributed SQL
 
 ### APIs
@@ -185,7 +484,20 @@
 ### CockroachDB
 
   - **(2025)** [Cockroach](https://www.cockroachlabs.com/docs/stable/kubernetes-overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering design blueprint for executing CockroachDB on Kubernetes. Details multi-active master clustering, Raft consensus mechanics, anti-entropy processes, and seamless horizontal write scaling utilizing Kubernetes orchestration primitives.
-## Infrastructure
+## Graph Databases
+
+### Comparisons
+
+  - **(2021)** [towardsdatascience.com: At Its Core: How Is a Graph Database Different from a Relational One?](https://towardsdatascience.com/at-its-core-hows-a-graph-database-different-from-a-relational-8297ca99cb8f) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide contrasting graph database engines with relational systems. Discusses the performance optimizations of index-free adjacency networks and relationship traversals over complex relational table joins.
+### ORM
+
+  - **(2021)** [==SQErzo: Tiny ORM for Graph databases==](https://github.com/BBVA/sqerzo) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51f67ada" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 13 L 30 3 L 40 13 L 50 12" fill="none" stroke="url(#spark-grad-51f67ada)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental, lightweight ORM library for Graph databases developed by BBVA. While highly interesting for research, it exhibits low active maintenance and is kept primarily as an architectural design reference.
+## In-Memory
+
+### Distributed Systems (2)
+
+  - **(2025)** [Apache Ignite](https://ignite.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official home of Apache Ignite, a high-performance, horizontally-scalable, memory-centric distributed database and computation platform. Accelerates transactional microservices and analytical databases with key-value and SQL support.
+## Infrastructure (1)
 
 ### Container Orchestration
 
@@ -197,9 +509,10 @@
 #### GitOps
 
   - **(2022)** [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's technical case study on deploying MySQL clusters inside Kubernetes using GitOps pipelines. Connects ArgoCD or Flux workflows with declarative Percona Operators to automate database replication topologies.
-#### Kubernetes Operators
+#### Kubernetes Operators (3)
 
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of KubeDB, an operator platform for automating databases on Kubernetes. Highlights declarative management of clustering, scheduling backups, and schema updates across multiple database engines (PostgreSQL, MySQL, MongoDB).
+  - **(2023)** [itnext.io: Operator Lifecycle Manager](https://itnext.io/wth-is-a-operator-lifecycle-manager-873cf1661b04) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains Operator Lifecycle Manager (OLM) as part of the Operator Framework. Highlights catalog management, automated dependency resolution, security upgrades, and dynamic operator scaling across production enterprise clusters.
 #### MySQL Operators
 
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Cybozu's Moco, a highly resilient, modern Go-written MySQL operator for Kubernetes. Focuses on cluster setups, fast failover mechanics, and maintaining an extremely small operational footprint.
@@ -242,7 +555,31 @@
 #### Database Migrations
 
   - **(2020)** [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed deployment blueprint focusing on the execution of schema migrations within ASP.NET Core and relational databases inside Kubernetes. Critically compares using Kubernetes Jobs, Init Containers, and application bootstrap processes for migrations.
-## Observability
+## MySQL (1)
+
+### Migration
+
+  - **(2021)** [percona.com: Migration of a MySQL Database to a Kubernetes Cluster Using Asynchronous Replication](https://www.percona.com/blog/migration-of-a-mysql-database-to-a-kubernetes-cluster-using-asynchronous-replication) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step migration blueprint translating on-premise MySQL instances into Kubernetes clusters. Leverages asynchronous database replication to enable seamless zero-downtime switchover actions during live production cutovers.
+### Performance
+
+  - **(2020)** [percona.com: MySQL 101: How to Find and Tune a Slow SQL Query](https://www.percona.com/blog/mysql-101-how-to-find-and-tune-a-slow-sql-query) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide covering query profiling techniques in MySQL. Reviews slow query log ingestion patterns, details execution plan outputs, and establishes structural refactoring methods to speed up sub-optimal database queries.
+## NoSQL
+
+### Python Databases
+
+  - **(2021)** [freecodecamp.org: How to Get Started with PysonDB](https://www.freecodecamp.org/news/how-to-get-started-with-pysondb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory guide to PysonDB, a lightweight file-based database engine that stores schema payloads as structured JSON files. Best utilized for simple micro-application development, scripting, and testing prototypes.
+## OLAP
+
+### ClickHouse (1)
+
+  - **(2026)** [clickhouse.com](https://clickhouse.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation site for ClickHouse, the high-performance columnar relational database engine optimized for massive real-time analytical queries (OLAP). Highlights vectorized execution paths and extreme compression.
+### Kubernetes
+
+  - **(2021)** [dev.to: Apache Druid: overview, running in Kubernetes and monitoring with Prometheus](https://dev.to/setevoy/apache-druid-overview-running-in-kubernetes-and-monitoring-with-prometheus-g5j) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed deployment blueprint explaining how to manage Apache Druid analytical clusters on Kubernetes. Explains cluster orchestration, deep storage configuration, and observability setups using Prometheus integrations.
+### Real-time Analytics (1)
+
+  - **(2025)** [Apache Druid](https://druid.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation repository for Apache Druid, a real-time analytical database optimized for sub-second ad-hoc queries over massive streaming event data volumes. Standard core utility for streaming platforms.
+## Observability (1)
 
 ### Distributed Storage
 
@@ -260,41 +597,185 @@
 ### Application Performance
 
   - **(2021)** [9 High-Performance Tips when using PostgreSQL with JPA and Hibernate](https://vladmihalcea.com/9-postgresql-high-performance-performance-tips) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A masterclass on optimizing PostgreSQL queries within JPA and Hibernate. Details batch inserts, query caching strategies, connection pool sizing, and avoiding N+1 select statement patterns.
+### Backups
+
+  - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73479964" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 5 L 40 8 L 50 10" fill="none" stroke="url(#spark-grad-73479964)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
+### Database Administration
+
+  - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
 
   - **(2021)** [percona.com: An Overview of Sharding in PostgreSQL and How it Relates to MongoDB’s](https://www.percona.com/blog/an-overview-of-sharding-in-postgresql-and-how-it-relates-to-mongodbs) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep architectural analysis contrasting PostgreSQL's declarative partitioning and foreign data wrapper sharding with MongoDB's native shard-key clustering, detailing query routing and execution tradeoffs.
-## Relational Databases (1)
+### Database Backups
 
+  - **(2021)** [migops.com: pgBackRest – The Best Postgres Backup Tool with a very active community](https://www.migops.com/blog/2021/04/09/pgbackrest-the-best-postgres-backup-tool-with-a-very-active-community) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines pgBackRest, an enterprise PostgreSQL backup and restore system. Details transaction log archiving (WAL), point-in-time recovery (PITR), multi-processing, and secure storage destination mapping.
+### Extensions
+
+  - **(2024)** [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) <span class='md-tag md-tag--info'>⭐ 581</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60e9e17d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 8 L 30 7 L 40 4 L 50 6" fill="none" stroke="url(#spark-grad-60e9e17d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Percona's advanced query performance monitoring extension for PostgreSQL. Extends the capabilities of pg_stat_statements with bucket-based statistics, client IP address tracking, visual execution plan analysis, and granular resource utilization metrics.
+### Fundamentals
+
+  - **(2021)** [towardsdatascience.com: Practical Introduction to PostgreSQL](https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory guide to PostgreSQL. Covers basic architecture, core relational operations, basic optimization, and index configurations, providing a clean onboarding path for engineers.
+### Kubernetes (1)
+
+  - **(2021)** [adamtheautomator.com: How to Deploy Postgres to Kubernetes 🌟](https://adamtheautomator.com/postgres-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough guide outlining persistent database deployments inside Kubernetes. Details creation patterns for StorageClasses, PersistentVolumeClaims, StatefulSets, and Services to support scalable and resilient Postgres engines.
+### Local Development
+
+  - **(2025)** [Postgres.app](https://postgresapp.com) <span class='md-tag md-tag--warning'>[OBJECTIVE-C CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postgres.app is a self-contained PostgreSQL package for macOS. Ideal for developer environments, it simplifies local setups without requiring container overhead or complex Homebrew dependency configurations.
+### Migration (1)
+
+  - **(2021)** [blog.crunchydata.com: A Postgres Primer for Oracle DBAs](https://www.crunchydata.com/blog/a-postgres-primer-for-oracle-dbas) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise migration manual designed to translate core Oracle relational database patterns directly to PostgreSQL. Map architectural concepts including tablespaces, user-schema relations, and PL/SQL syntaxes onto Postgres-native equivalents.
+  - **(2021)** [percona.com: Migrating PostgreSQL to Kubernetes](https://www.percona.com/blog/migrating-postgresql-to-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide examining strategies to shift PostgreSQL instances onto cloud-native Kubernetes environments. Investigates performance metrics, stateful storage challenges, backup coordination, and WAL streaming replication policies.
+### Monitoring
+
+  - **(2021)** [percona.com: PostgreSQL 14 Database Monitoring and Logging Enhancements](https://www.percona.com/blog/postgresql-14-database-monitoring-and-logging-enhancements) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration of PostgreSQL 14's native database monitoring and logging enhancements. Details performance insights via pg_stat_activity, session tracking improvements, and query-level analysis. Highly recommended for DBAs designing robust production observability pipelines.
+### Performance (1)
+
+  - **(2021)** [blog.crunchydata.com: Postgres Indexes for Newbies](https://www.crunchydata.com/blog/postgres-indexes-for-newbies) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory indexing guide detailing query optimization behaviors in PostgreSQL. Explores standard B-Tree indexes, partial indexes, functional constraints, and multi-column indexes, providing performance guidelines for optimizing execution plans.
+### Security
+
+  - **(2018)** [purnapoudel.blogspot.com: How to Configure PostgreSQL with SSL/TLS support on Kubernetes](https://purnapoudel.blogspot.com/2018/09/how-to-configure-postgresql-with-ssl-tls-on-kubernetes.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An older but technically valid tutorial demonstrating SSL/TLS client certificate verification setup for PostgreSQL instances hosted within Kubernetes clusters. Employs K8s secrets to inject required server certificate authorities.
+### System Tuning
+
+  - **(2021)** [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/out-of-memory-killer-or-savior) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — System-level guide on adjusting Linux Out-Of-Memory (OOM) Killer settings for PostgreSQL. Details kernel parameters and systemd overrides to prevent the OS from terminating core database services during memory spikes.
+### TypeORM Integration
+
+  - **(2021)** [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pragmatic tutorial outlining standard practices for creating database views inside PostgreSQL using Node.js and TypeORM. Demonstrates schema definitions, migration integrations, and abstract query isolation techniques to separate persistence concerns from application business logic.
+## Query Languages
+
+### Alternative Paradigms (1)
+
+  - **(2024)** [infoworld.com: Beyond SQL: 8 new languages for data querying](https://www.infoworld.com/article/2334689/beyond-sql-8-new-languages-for-data-querying.html) <span class='md-tag md-tag--warning'>[POLYGLOT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — Analyzes the evolution of data query architectures beyond standard SQL. Evaluates emerging declarative languages (such as PRQL, Malloy, and EdgeQL) designed to solve SQL's design constraints, enhancing pipeline maintainability and query expressiveness.
+## Relational Databases (2)
+
+### Comparisons (1)
+
+  - **(2022)** [sqlrevisited.blogspot.com: MySQL vs PostgreSQL? Pros and Cons](https://www.sqlrevisited.com/2022/03/mysql-vs-postgresql-pros-and-cons.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative study outlining execution speed, memory configurations, JSON payload management capabilities, and open-source licensing differences between MySQL and PostgreSQL engines.
+### Critiques
+
+  - **(2021)** [theregister.com: MySQL a 'pretty poor database' says departing Oracle engineer](https://www.theregister.com/software/2021/12/06/mysql-a-pretty-poor-database-says-ex-oracle-engineer/539827) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An opinionated engineering critique of MySQL architecture from a departing Oracle engineer. Explores fundamental structural limitations, transactions, query execution planning, and contrasts these technical choices with PostgreSQL and Oracle database backends.
 ### Database Drivers
 
   - **(2020)** [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores MariaDB's reactive Java driver. Details how non-blocking I/O operations and asynchronous connections improve database throughput in highly concurrent microservice runtimes.
+### Git-for-Data
+
+  - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8fb1d0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 13 L 30 7 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-bf8fb1d0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
+### Local Development (1)
+
+  - **(2022)** [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical tutorial for setting up local developer environments with Docker Compose. Pairs a standard MySQL instance with phpMyAdmin for rapid schema prototyping and database visualization.
+### MySQL Features
+
+  - **(2023)** [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on index creation mechanics inside MySQL. Focuses on planning, key-length constraints, B-tree index structures, and avoiding table lock scenarios during schema operations.
+  - **(2021)** [vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table](https://vladmihalcea.com/mysql-json-table) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs MySQL's JSON_TABLE function, mapping unstructured JSON documents directly into tabular SQL formats. Explores query execution performance, index optimization options, and hybrid schemaless architectural patterns inside traditional relational systems.
+### MySQL Optimization
+
+  - **(2021)** [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's MySQL tuning guide focusing on key memory and I/O parameters. Explains optimizing parameters like innodb_buffer_pool_size, max_connections, and thread cache limits to handle massive query volumes.
+  - **(2021)** [opensource.com](https://opensource.com/article/21/5/mysql-query-tuning) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores query performance tuning in MySQL. Details analyzing optimizer output using the EXPLAIN statement to identify slow table scans and optimize composite indexes.
 ## SQL
 
+### Core Concepts (3)
+
+#### Database Taxonomy (2)
+
+  - **(2022)** [intellipaat.com: SQL vs MySQL - Key Differences Between SQL and MySQL](https://intellipaat.com/blog/sql-vs-mysql-difference)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Differentiates SQL as a standardized, declarative structured query language from MySQL, a concrete, production-grade relational database management system implementation.
+### Education
+
+#### Video Training
+
+  - **(2021)** [gcreddy.com: SQL Step by Step Videos](https://www.gcreddy.com/2021/05/sql-step-by-step-videos.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step video learning index targeting SQL newcomers. Outlines basic query formatting, simple indexing, relational design guidelines, and fundamental aggregate queries.
 ### ORM and Query Builders
 
 #### Java Ecosystem
 
   - **(2026)** [blog.jooq.org](https://blog.jooq.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The premier engineering blog for the jOOQ framework. Explores advanced SQL query generation, type-safe persistence, optimizer bypasses, and JVM database integration paradigms.
+### Performance Tuning (1)
+
+#### Query Optimization
+
+  - **(2021)** [vettabase.com: How slow is SELECT * ?](https://vettabase.com/how-slow-is-select)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study measuring the performance degradation caused by 'SELECT *' queries in relational databases. Quantifies extra memory allocations, network overhead, index neglect, and optimizer failure patterns.
+### Query Mechanics
+
+#### Filtering
+
+  - **(2022)** [digitalocean.com: How To Use WHERE Clauses in SQL](https://www.digitalocean.com/community/tutorials/how-to-use-where-clauses-in-sql)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide to utilizing WHERE clauses in relational database engines. Details query filtering optimization, index utilization during scan paths, and the deployment of complex boolean logic inside relational tables.
+  - **(2021)** [vladmihalcea.com: SQL EXISTS and NOT EXISTS](https://vladmihalcea.com/sql-exists)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the performance mechanics of EXISTS and NOT EXISTS subquery operators. Highlights query execution paths, semi-join optimizations, and when to choose EXISTS over standard IN or LEFT JOIN constructs.
+#### Joins
+
+  - **(2021)** [towardsdatascience.com: How to Use SQL Cross Joins](https://towardsdatascience.com/how-to-use-sql-cross-joins-5653fe7d353)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive mathematical and practical overview of Cartesian products (CROSS JOIN) in SQL. Examines computation footprint and scenarios where combinatorics are required for reporting templates.
+  - **(2021)** [vladmihalcea.com: SQL LEFT JOIN – A Beginner’s Guide](https://vladmihalcea.com/sql-left-join)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide to outer joins, specifically focusing on the behavior of LEFT JOIN statements. Explores query execution paths and null-handling when mapping one-to-many entities in relational schemas.
+  - **(2021)** [vladmihalcea.com: SQL JOIN USING – A Beginner’s Guide](https://vladmihalcea.com/sql-join-using)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical tutorial on the USING keyword in SQL JOIN clauses. Demonstrates how USING provides a cleaner syntax alternative to ON when linking tables on identically named primary and foreign key columns.
+  - **(2021)** [freecodecamp.org: SQL Joins Tutorial: Cross Join, Full Outer Join, Inner Join, Left Join, and Right Join](https://www.freecodecamp.org/news/sql-joins-tutorial)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, visual tutorial mapping various SQL JOIN architectures. Clearly contrasts INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, and CROSS JOIN operations using venn diagrams and transactional datasets.
+## SQL Fundamentals
+
+### Joins (1)
+
+  - **(2021)** [freecodecamp.org: SQL Join Types – Inner Join VS Outer Join Example](https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical primer exploring the execution mechanics of relational SQL join operations. Contrasts the set theory behind INNER, LEFT, RIGHT, and FULL OUTER JOINs with concrete visual patterns to align developer understanding with engine execution phases.
+  - **(2021)** [freecodecamp.org: The SQL Inner Join Command: Example Syntax](https://www.freecodecamp.org/news/the-sql-inner-join-command-example-syntax) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep dive into the SQL INNER JOIN command. Details query structure, standard ANSI syntax, and execution order within relational engines, providing developers with clear patterns for query construction and performance predictability.
+  - **(2021)** [freecodecamp.org: SQL Inner Join – How to Join 3 Tables in SQL and MySQL](https://www.freecodecamp.org/news/sql-inner-join-how-to-join-3-tables-in-sql-and-mysql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides advanced syntax paradigms for combining three or more relational tables in standard SQL and MySQL. Details optimizer path selections, index utilization strategies, and optimal execution sequences for highly normalized enterprise relational schemas.
+### Visualization (1)
+
+  - **(2020)** [towardsdatascience.com: You Should Use This to Visualize SQL Joins Instead of Venn Diagrams](https://towardsdatascience.com/you-should-use-this-to-visualize-sql-joins-instead-of-venn-diagrams-ede15f9583fc) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Advocates for visual table-mapping paradigms instead of Venn diagrams for SQL joins. Demonstrates how relational algebra maps more accurately to table dimensions, preventing Cartesian product misunderstandings in complex queries.
+## SQL Optimization
+
+### Best Practices
+
+  - **(2023)** [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide outlining core strategies for relational query optimization. Highlights planning optimization via EXPLAIN plans, index selection logic, partition tuning, and the avoidance of common performance-draining database queries.
 ## SQL Server
 
+### Backup Administration
+
+  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
 ### DevOps
 
   - **(2022)** [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical DevOps pipeline patterns for Azure SQL. Outlines dynamic deployment workflows using GitHub Actions and Azure DevOps to coordinate declarative state synchronizations matching app changes.
+### Enterprise Deployment
+
+  - **(2020)** [Expanding SQL Server Big Data Clusters capabilities, now on Red Hat OpenShift](https://cloudblogs.microsoft.com/sqlserver/2020/06/23/expanding-sql-server-big-data-clusters-capabilities-now-on-red-hat-openshift) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide detailing Microsoft SQL Server Big Data Clusters on Red Hat OpenShift. Note: Microsoft retired this capability in 2025; standard practice has transitioned to localized containers and Azure Arc-enabled SQL Server.
+### Local Development (2)
+
+  - **(2021)** [khalidabuhakmeh.com: Running SQL Server Queries In Docker](https://khalidabuhakmeh.com/running-sql-server-queries-in-docker) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Developer-centric guide to configuring and running Microsoft SQL Server inside Docker containers. Covers volume mapping, secure password injection, and executing initial database verification queries.
 ## Serverless Databases
 
 ### Resource Management
 
   - **(2023)** [thenewstack.io: How to Ensure Your Serverless Database Stays Serverless](https://thenewstack.io/how-to-ensure-your-serverless-database-stays-serverless) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on preserving serverless paradigms at the database tier. Explores connection pooling, cold-start latency mitigation, dynamic compute scaling, and the integration of proxy layers to maintain seamless serverless workload support.
+## Software Engineering
+
+### Database Management
+
+#### Model Context Protocol
+
+  - **(2024)** [==Tabularis: Open Source Desktop Client for Modern Databases with AI and MCP' Integration==](https://github.com/TabularisDB/tabularis/blob/main/README.es.md) <span class='md-tag md-tag--info'>⭐ 2422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6df57ab1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 2 L 30 12 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-6df57ab1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source desktop database client featuring Model Context Protocol (MCP) integrations. This compliance allows local LLMs to safely query, analyze, and update database schemas within strict user security boundaries.
+### Testing
+
+#### Mocking
+
+  - **(2024)** [==DATA-DOG/go-sqlmock==](https://github.com/DATA-DOG/go-sqlmock) <span class='md-tag md-tag--info'>⭐ 6554</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-68e7cc1e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 12 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-68e7cc1e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly adopted SQL mock library for Golang designed to mock standard database/sql/driver behaviors. Facilitates robust database interaction testing without spinning up active infrastructure engines.
 ## Storage and Data
 
+### Data on Kubernetes (2)
+
+#### Industry Research
+
+  - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
+### Database Operations
+
+#### Database DevOps
+
+  - **(2021)** [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/software-services/can-enterprises-benefit-from-adopting-database-devops-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the benefits and execution risks of incorporating schema migrations and database state configurations into CI/CD pipelines. Discusses tools like Liquibase and Flyway to version-control structural changes alongside software deployments. This integration reduces deployment mismatches and prevents manual database drift.
 ### Database Operators
 
 #### Crunchy PostgreSQL
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
+## Time-Series
+
+### Architecture (1)
+
+  - **(2021)** [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical architectural article arguing against the systemic misuse of blockchain technologies for transactional audit logging. Demonstrates that time-series databases provide equivalent historic immutability, superior indexing speed, and scalable writes.
+### VictoriaMetrics (1)
+
+  - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md) | [NoSQL](./nosql.md)
-
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Newsql](./newsql.md) | [NoSQL](./nosql.md)
 

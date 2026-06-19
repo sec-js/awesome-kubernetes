@@ -8,9 +8,9 @@
 
 ## Table of Contents
 
-1. [Architecture](#architecture)
-  - [System Design](#system-design)
-    - [Microservices Patterns](#microservices-patterns)
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
 1. [Cloud Infrastructure](#cloud-infrastructure)
   - [Traffic Management](#traffic-management)
     - [Load Balancing](#load-balancing)
@@ -21,8 +21,8 @@
   - [API Management](#api-management)
     - [Service Mesh Comparison](#service-mesh-comparison)
     - [Service Mesh Integration](#service-mesh-integration)
-  - [Data Plane](#data-plane)
-    - [Proxy](#proxy)
+  - [Load Balancing](#load-balancing-1)
+    - [Legacy Tooling](#legacy-tooling)
   - [Orchestration](#orchestration)
     - [Service Mesh Architecture](#service-mesh-architecture)
   - [Service Mesh](#service-mesh-2)
@@ -34,7 +34,7 @@
     - [Evaluation](#evaluation)
     - [History](#history)
     - [Landscape](#landscape)
-    - [Legacy Tooling](#legacy-tooling)
+    - [Legacy Tooling](#legacy-tooling-1)
     - [Linkerd](#linkerd)
       - [GitOps](#gitops)
       - [High Availability](#high-availability)
@@ -66,7 +66,7 @@
 1. [Cloud Native Networking](#cloud-native-networking)
   - [Control Plane](#control-plane)
     - [Service Mesh Architecture](#service-mesh-architecture-1)
-  - [Data Plane](#data-plane-1)
+  - [Data Plane](#data-plane)
     - [APIs and Protocols](#apis-and-protocols)
     - [Load Balancing Algorithms](#load-balancing-algorithms)
   - [Service Mesh](#service-mesh-3)
@@ -79,23 +79,48 @@
     - [Kubernetes Networking](#kubernetes-networking)
     - [Red Hat Ecosystem](#red-hat-ecosystem)
     - [Security](#security-2)
-    - [System Design](#system-design-1)
+    - [System Design](#system-design)
 1. [Networking](#networking)
   - [Ingress and Gateway](#ingress-and-gateway)
     - [Controllers](#controllers)
     - [Gateway API](#gateway-api)
-    - [Traefik](#traefik)
 1. [Serverless and Ingress](#serverless-and-ingress)
   - [Knative](#knative)
     - [Ingress Controllers](#ingress-controllers)
 
-## Architecture
+## Architectural Foundations
 
-### System Design
+### Kubernetes Tools
 
-#### Microservices Patterns
+#### General Reference
 
-  - **(2018)** [**blog.christianposta.com: Do I Need an API Gateway if I Use a Service Mesh?**](https://blog.christianposta.com/microservices/do-i-need-an-api-gateway-if-i-have-a-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A seminal article detailing the functional boundary differences between API Gateways and Service Meshes. Christian Posta demonstrates how gateways excel at managing south-north public consumer interfaces (security, transformations, rate limiting), while service meshes optimize complex east-west backend telemetry.
+  - [platform9.com: The Gorilla Guide to Kubernetes in the Enterprise](https://platform9.com/blog/kubernetes-service-mesh)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering platform9.com in the Kubernetes Tools ecosystem.
+  - [rancher.com: Using Hybrid and Multi-Cloud Service Mesh Based Applications for Distributed Deployments](https://www.suse.com/c/rancher_blog/using-hybrid-and-multi-cloud-service-mesh-based-applications-for-distributed-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
+  - [AWS App Mesh with EKS and Canary deployment](https://medium.com/@anupam.s1602/aws-app-mesh-with-eks-and-canary-deployment-5503d9ba95d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering AWS App Mesh with EKS and Canary deployment in the Kubernetes Tools ecosystem.
+  - [cncf.io: Service Mesh Is Still Hard](https://www.cncf.io/blog/2020/10/26/service-mesh-is-still-hard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Service Mesh Is Still Hard in the Kubernetes Tools ecosystem.
+  - [medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟](https://medium.com/@maggarwa/part-1-why-red-hat-openshift-service-mesh-54b8b6ae1a8f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Part 1 — Why Red Hat Openshift Service Mesh? 🌟 in the Kubernetes Tools ecosystem.
+  - [toptal.com: A Kubernetes Service Mesh Comparison 🌟](https://www.toptal.com/kubernetes/service-mesh-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering toptal.com: A Kubernetes Service Mesh Comparison 🌟 in the Kubernetes Tools ecosystem.
+  - [cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options](https://www.cncf.io/blog/2021/07/15/networking-with-a-service-mesh-use-cases-best-practices-and-comparison-of-top-mesh-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Networking with a service mesh: use cases, best practices, and' comparison of top mesh options in the Kubernetes Tools ecosystem.
+  - [blog.polymatic.systems: Service Mesh Wars, Goodbye Istio](https://blog.polymatic.systems/service-mesh-wars-goodbye-istio-b047d9e533c7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.polymatic.systems: Service Mesh Wars, Goodbye Istio in the Kubernetes Tools ecosystem.
+  - [medium: Microservices and the World with a Service Mesh | Adarsh Prabhu](https://medium.com/@adarsh.prabhu/microservices-and-the-world-with-a-service-mesh-ec9a709dd4b5)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium: Microservices and the World with a Service Mesh== | Adarsh Prabhu in the Kubernetes Tools ecosystem.
+  - [medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd,' Kuma and Consul](https://medium.com/elca-it/service-mesh-performance-evaluation-istio-linkerd-kuma-and-consul-d8a89390d630)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/elca-it: Service Mesh Performance Evaluation — Istio, Linkerd,' Kuma and Consul in the Kubernetes Tools ecosystem.
+  - [medium.com/@pauldotyu: Service Mesh Considerations](https://medium.com/@pauldotyu/service-mesh-considerations-117561f30295)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@pauldotyu: Service Mesh Considerations in the Kubernetes Tools ecosystem.
+  - [medium.com/4th-coffee: A Comprehensive Tutorial on Service Mesh, Istio,' Envoy, Access Log, and Log Filtering](https://medium.com/4th-coffee/a-comprehensive-tutorial-on-service-mesh-istio-envoy-access-log-and-log-filtering-8f3d939c081d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/4th-coffee: A Comprehensive Tutorial on Service Mesh, Istio,' Envoy, Access Log, and Log Filtering in the Kubernetes Tools ecosystem.
+  - [medium: The Roles of Service Mesh and API Gateways in Microservice Architecture' 🌟](https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: The Roles of Service Mesh and API Gateways in Microservice Architecture' 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: Consul in Kubernetes — Pushing to Production](https://medium.com/swlh/consul-in-kubernetes-pushing-to-production-223506bbe8db)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Consul in Kubernetes — Pushing to Production in the Kubernetes Tools ecosystem.
+  - [medium: HashiCorp Consul: Multi-Cloud and Multi-Platform Service Mesh](https://medium.com/hashicorp-engineering/hashicorp-consul-multi-cloud-and-multi-platform-service-mesh-372a82264e8e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: HashiCorp Consul: Multi-Cloud and Multi-Platform Service Mesh in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟](https://www.hashicorp.com/blog/get-started-with-consul-service-mesh-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Get Started with Consul Service Mesh on Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes](https://www.hashicorp.com/blog/hashicorp-consul-ingress-gateways-and-l7-traffic-management-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering HashiCorp Consul Ingress Gateways and L7 Traffic Management in Kubernetes in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: Disaster Recovery for HashiCorp Consul on Kubernetes 🌟](https://www.hashicorp.com/blog/disaster-recovery-for-hashicorp-consul-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Disaster Recovery for HashiCorp Consul on Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [medium: A Practical Guide to HashiCorp Consul — Part 1 🌟](https://medium.com/velotio-perspectives/a-practical-guide-to-hashicorp-consul-part-1-5ee778a7fcf4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: A Practical Guide to HashiCorp Consul — Part 1 🌟 in the Kubernetes Tools ecosystem.
+  - [hashicorp.com: Getting Started with HCP Consul: Frequently Asked Questions](https://www.hashicorp.com/blog/getting-started-with-hcp-consul-frequently-asked-questions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering hashicorp.com: Getting Started with HCP Consul: Frequently Asked Questions in the Kubernetes Tools ecosystem.
+  - [cncf.io: Kubernetes network policies with Cilium and Linkerd](https://www.cncf.io/blog/2021/02/25/kubernetes-network-policies-with-cilium-and-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes network policies with Cilium and Linkerd in the Kubernetes Tools ecosystem.
+  - [cncf.io: Protocol detection and opaque ports in Linkerd](https://www.cncf.io/blog/2021/03/10/protocol-detection-and-opaque-ports-in-linkerd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Protocol detection and opaque ports in Linkerd in the Kubernetes Tools ecosystem.
+  - [cncf.io: Why Linkerd doesn’t use Envoy](https://www.cncf.io/blog/2020/12/11/why-linkerd-doesnt-use-envoy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Why Linkerd doesn’t use Envoy in the Kubernetes Tools ecosystem.
+  - [medium.com/attest-product-and-technology: Debugging mislabelled route metrics' from Linkerd](https://medium.com/attest-product-and-technology/debugging-mislabelled-route-metrics-from-linkerd-dda47fdff04a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/attest-product-and-technology: Debugging mislabelled route metrics' from Linkerd in the Kubernetes Tools ecosystem.
+  - [medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd](https://medium.com/@eshiett314/mutual-tls-with-emissary-ingress-and-linkerd-4aa3ffe0413f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@eshiett314: Mutual TLS with Emissary-Ingress and Linkerd in the Kubernetes Tools ecosystem.
+  - [Google Cloud’s Traffic Director — What is it and how is it related to the Istio service-mesh?](https://medium.com/cloudzone/google-clouds-traffic-director-what-is-it-and-how-is-it-related-to-the-istio-service-mesh-c199acc64a6d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Google Cloud’s Traffic Director — What is it and how is it related to the Istio service-mesh? in the Kubernetes Tools ecosystem.
+  - [amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy](https://amalaruja.medium.com/basic-http-routing-strategies-with-envoy-376be42559eb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering amalaruja.medium.com: Basic HTTP Routing Strategies with Envoy in the Kubernetes Tools ecosystem.
 ## Cloud Infrastructure
 
 ### Traffic Management
@@ -121,11 +146,11 @@
 #### Service Mesh Integration
 
   - **(2021)** [**devops.com: When to Use API Management and Service Mesh Together**](https://devops.com/when-to-use-api-management-and-service-mesh-together) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores patterns for integrating API gateways with service meshes. Highlights how to pass identity contexts, orchestrate global traffic routes, and enforce layered perimeter and transport-level security policies.
-### Data Plane
+### Load Balancing (1)
 
-#### Proxy
+#### Legacy Tooling
 
-  - **(2022)** [envoyproxy.io](https://www.envoyproxy.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Envoy Proxy, the C++ cloud-native L7 edge and service proxy. Serving as the primary data plane for Istio and modern gateway tools, it offers unmatched extensibility, advanced load balancing, and dynamic runtime configuration.
+  - **(2024)** [Fabio Load Balancer 🌟](https://fabiolb.net) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A zero-configuration, Consul-backed HTTP and TCP load balancer. Highly praised for simplicity but now considered legacy in favor of contemporary, Envoy-based ingress controls and standardized gateway APIs.
 ### Orchestration
 
 #### Service Mesh Architecture
@@ -159,7 +184,7 @@
 #### Landscape
 
   - **(2025)** [==layer5.io: The Service Mesh Landscape 🌟🌟==](https://layer5.io/service-mesh-landscape) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive tracker mapping out the diverse, evolving service mesh landscape. Managed by Layer5, it catalogues API compatibility, conformance standards, and architecture changes (e.g., sidecarless eBPF vs. sidecars) across all industry meshes.
-#### Legacy Tooling
+#### Legacy Tooling (1)
 
   - **(2023)** [Maesh](https://traefik.io/traefik-mesh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Maesh (rebranded as Traefik Mesh) was a lightweight, SMI-compliant mesh designed by Traefik Labs. It was officially retired in 2024 to consolidate development focus on Traefik API Gateway products.
 #### Linkerd
@@ -255,7 +280,7 @@
 #### Service Mesh Architecture (1)
 
   - **(2022)** [solo.io: Why the control plane matters. Control planes are different than data planes. Separating the control plane from data plane 🌟](https://www.solo.io/blog/why-the-control-plane-matters) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural exploration contrasting the duties of the data plane (e.g., raw proxy packet forwarding via Envoy) against the control plane (e.g., Istio, Solo.io Gloo Mesh). It demonstrates how a centralized control plane acts as the brain, translating operator-defined policies into dynamic xDS configuration streams. This separation ensures scalability, administrative decoupling, and resilient policy distribution.
-### Data Plane (1)
+### Data Plane
 
 #### APIs and Protocols
 
@@ -289,7 +314,7 @@
 #### Security (2)
 
   - **(2021)** [**thenewstack.io: Zero-Trust Security with Service Mesh**](https://thenewstack.io/zero-trust-security-with-service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This article explores how a service mesh constructs a zero-trust network topology within Kubernetes. By utilizing cryptographic service identity certificates, active namespace isolation, and strict SPIFFE/SPIRE integrations, it implements seamless mutual TLS authentication (mTLS) across the cluster.
-#### System Design (1)
+#### System Design
 
   - **(2020)** [lucperkins.dev: Service mesh use cases](https://lucperkins.dev/blog/service-mesh-use-cases) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive breakdown of architectural scenarios where introducing a service mesh becomes mathematically and operationally viable. It contrasts simple setups with distributed, high-security, and multi-cloud enterprise topologies requiring advanced traffic management.
 ## Networking
@@ -302,9 +327,6 @@
 #### Gateway API
 
   - **(2023)** [**Kubernetes Gateway API**](https://github.com/kubernetes-sigs/gateway-api) <span class='md-tag md-tag--info'>⭐ 2885</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-223c2abf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 7 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-223c2abf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gateway, GatewayClass, and Route resources).
-#### Traefik
-
-  - **(2022)** [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration blueprint walking developers through transitioning from ingress-nginx to Traefik. Details how Traefik's native middleware, dynamic routing, and CRDs simplify TLS management and traffic splitting in dynamic environments.
 ## Serverless and Ingress
 
 ### Knative
@@ -314,7 +336,5 @@
   - **(2023)** [Kourier: A lightweight Knative Serving ingress](https://developers.redhat.com/blog/2020/06/30/kourier-a-lightweight-knative-serving-ingress) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kourier is a lightweight Ingress implementation specifically designed for Knative Serving, utilizing Envoy as the underlying data plane. It serves as an alternative to large service mesh deployments, providing fast route configurations, cold start mitigation, and scale-to-zero capabilities for serverless containers inside Kubernetes. It is heavily utilized in simplified enterprise serverless setups.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Web Servers](./web-servers.md)
-
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
 

@@ -8,10 +8,11 @@
 
 ## Table of Contents
 
+1. [Architectural Foundations](#architectural-foundations)
+  - [Kubernetes Tools](#kubernetes-tools)
+    - [General Reference](#general-reference)
 1. [Cloud-Native Java](#cloud-native-java)
   - [Runtimes](#runtimes)
-    - [JBoss EAP](#jboss-eap)
-      - [MicroProfile](#microprofile)
     - [Payara Micro](#payara-micro)
       - [Docker](#docker)
     - [Payara Server](#payara-server)
@@ -24,15 +25,22 @@
     - [KumuluzEE](#kumuluzee)
     - [Payara Server](#payara-server-1)
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [About WebSphere Liberty](https://developer.ibm.com/wasdev/websphere-liberty)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering About WebSphere Liberty in the Kubernetes Tools ecosystem.
+  - [wikipedia: Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering wikipedia: Jakarta EE in the Kubernetes Tools ecosystem.
+  - [Wikipedia: Payara Server](https://en.wikipedia.org/wiki/Payara_Server)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Wikipedia: Payara Server in the Kubernetes Tools ecosystem.
+  - [Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen](https://dzone.com/articles/getting-started-with-java-ee-8-payara-5-and-eclips)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Getting Started With Java EE 8, Payara 5 and Eclipse Oxygen in the Kubernetes Tools ecosystem.
+  - [Red Hat JBoss Enterprise Application Platform (JBoss EAP)](https://developers.redhat.com/products/eap/overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Red Hat JBoss Enterprise Application Platform (JBoss EAP) in the Kubernetes Tools ecosystem.
+  - [Dzone: Jakarta EE & Wildfly Running on Kubernetes](https://dzone.com/articles/jakarta-ee-amp-wildfly-running-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Jakarta EE & Wildfly Running on Kubernetes in the Kubernetes Tools ecosystem.
 ## Cloud-Native Java
 
 ### Runtimes
 
-#### JBoss EAP
-
-##### MicroProfile
-
-  - **(2020)** [developers.redhat.com: Red Hat JBoss Enterprise Application Platform expansion pack 1.0 (JBoss EAP XP) released](https://developers.redhat.com/blog/2020/06/17/red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-released) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The release announcement for Red Hat JBoss EAP Expansion Pack (XP) 1.0, enabling support for MicroProfile specifications on top of enterprise application servers. Live Grounding indicates JBoss EAP XP has become a core element for Red Hat customers modernization strategies, providing a bridge between traditional and cloud-native application patterns.
 #### Payara Micro
 
 ##### Docker
@@ -64,7 +72,5 @@
   - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro provide high-performance, container-friendly environments for running Jakarta EE and MicroProfile workloads. Designed for critical production architectures, it supports built-in clustering, hazelcast-powered data grids, and auto-tuning capabilities inside Kubernetes deployments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
-
-🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
 
