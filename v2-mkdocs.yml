@@ -96,9 +96,6 @@ extra:
   version:
     provider: mike # Ready for version switching
 
-extra_head:
-  - '<link rel="alternate" type="application/rss+xml" title="Nubenetes Intelligence Digest" href="/feed.xml"/>'
-
 extra_css:
   - https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap
   - static/extra.css

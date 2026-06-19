@@ -61,19 +61,6 @@ jobs:
         run: |
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
 
-      - name: Get current date for digest cache key
-        id: digest-date
-        run: echo "date=$(date -u +%Y-%m-%d)" >> $GITHUB_OUTPUT
-
-      - name: Restore News Digest Cache
-        id: cache-digest
-        uses: actions/cache/restore@v5
-        with:
-          path: data/news_digest.json
-          key: news-digest-${{ steps.digest-date.outputs.date }}
-          restore-keys: |
-            news-digest-
-
       - name: Execute Video Portal Generator
         env:
           PYTHONPATH: ${{ github.workspace }}
@@ -99,13 +86,16 @@ jobs:
         run: |
           python -u -m src.enrichment || echo "Enrichment pipeline skipped (no token or error)"
 
-      - name: Generate News Digest
-        if: steps.cache-digest.outputs.cache-hit != 'true'
+      - name: Generate News Digest (Incremental)
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: |
+          # The engine loads news_digest.json from the repo, checks per-cell
+          # hashes, and only calls Gemini for categories with new entries or
+          # results older than MAX_STALENESS_DAYS (30).  Typical re-runs with
+          # no inventory changes cost 0 Gemini API calls.
           python -u -m src.news_digest || echo "News digest generation skipped (no API key or error)"
 
       - name: Generate RSS Feed
@@ -113,13 +103,6 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
         run: |
           python -u -m src.rss_generator || echo "RSS generation skipped"
-
-      - name: Save News Digest Cache
-        if: steps.cache-digest.outputs.cache-hit != 'true' && hashFiles('data/news_digest.json') != ''
-        uses: actions/cache/save@v5
-        with:
-          path: data/news_digest.json
-          key: news-digest-${{ steps.digest-date.outputs.date }}
 
       - name: Run V2 Publisher (Render-Only)
         env:
