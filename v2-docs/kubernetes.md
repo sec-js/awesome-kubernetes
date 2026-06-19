@@ -1321,7 +1321,7 @@
 
 #### Overview
 
-  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
+  - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
 ## Cloud Infrastructure
 
 ### Kubernetes (1)
@@ -1585,7 +1585,7 @@
 
 #### API Client Libraries
 
-  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
+  - **(2026)** [==Client Libraries for Kubernetes==](https://nubenetes.com/kubernetes-client-libraries) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Complete directory of supported Kubernetes API client libraries (Python, Go, Java, JavaScript, etc.). Details patterns for programmatic service discovery, controller building, and custom automation direct from application runtime code.
 ### Kubernetes Operations
 
 #### Pod Restarts
@@ -1595,7 +1595,7 @@
 
 #### Volumes Overview
 
-  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage/#kubernetes-volumes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
+  - **(2026)** [==Kubernetes Storage - Volumes==](https://nubenetes.com/kubernetes-storage) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detailed catalog explaining stateful execution patterns inside Kubernetes. Focuses on lifecycle dynamics of Ephemeral, Persistent (PV), and PersistentVolumeClaims (PVC), alongside container storage interfaces (CSI) used to integrate modern storage backends.
 ### Virtualization VS Containers
 
 #### Kubernetes Concept
@@ -2145,7 +2145,7 @@
 
 #### Overview (1)
 
-  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Introductory
 
 ### Concepts (1)

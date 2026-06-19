@@ -360,7 +360,7 @@ graph TD
     style C fill:#f9f,stroke:#333,stroke-width:2px
 ```
 
-#### Shared Curation & Data Policies (`GEMINI.md`)
+#### Shared Curation and Data Policies (`GEMINI.md`)
 *   **Target**: Ephemeral CI/CD runners (GitHub Actions) and local coding assistants.
 *   **Purpose**: Dictates *what* the repository structure, link formatting, language metadata tagging, and minimum quality levels must look like.
 *   **Automation integration**: Ingested by the build scripts to programmatically construct system prompts for API LLM completions.
@@ -538,7 +538,7 @@ To embrace the diverse global Cloud Native community while maintaining internati
 
 Nubenetes now utilizes a **Unified SQL & YAML Database Architecture** to maintain consistency across V1 and V2 while optimizing agentic operations and repository efficiency. All curated links and metadata are managed via a coexisting local database engine.
 
-### 6.1. Database Components & SQLite Engine (Option 3 Coexistence)
+### 6.1. Database Components and SQLite Engine (Option 3 Coexistence)
 
 To guarantee backward compatibility and Git efficiency, the system operates on a dual-save database coexistence model:
 1.  **SQLite Database & SQL Text ([`data/inventory.sql`](data/inventory.sql))**: The Git source-of-truth. During execution, the SQL script compiles into a temporary in-memory SQLite database, enabling full relational schema access and SQL query optimization. On save, SQLite's native `iterdump()` decompiles it back into a flat SQL text database file where each resource insert occupies a single line for perfect git diff readability.

@@ -87,7 +87,7 @@
 
 #### General Reference
 
-  - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering uncontained.io in the Kubernetes Tools ecosystem.
+  - [uncontained.io/articles/openshift-ha-installation](https://uncontained.io/articles/openshift-ha-installation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering uncontained.io in the Kubernetes Tools ecosystem.
   - [aroworkshop.io 🌟](https://aroworkshop.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aroworkshop.io in the Kubernetes Tools ecosystem.
   - [O'Reilly Free Book: **Openshift for developers**](https://www.redhat.com/en/technologies/cloud-computing/openshift/for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - [NetworkPolicies and Microsegmentation](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure/networkpolicies-and-microsegmentation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.

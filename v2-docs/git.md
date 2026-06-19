@@ -1074,7 +1074,7 @@ Guides developers on configuring autonomous multi-file refactoring, debugging, a
   - **(2022)** [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide on configuring Grafana dashboards with GitHub plugins. Demonstrates building engineering performance visualizations to track commit frequencies, PR lifetimes, and team review velocities.
 #### VS Code Extensions
 
-  - **(2025)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide to utilizing visual Git extensions inside VS Code. Helps developers manage commit sequences, visualize branch merges, and resolve conflicts within a unified IDE workspace.
+  - **(2025)** [Visual Studio Code (Git Extensions)](https://nubenetes.com/visual-studio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide to utilizing visual Git extensions inside VS Code. Helps developers manage commit sequences, visualize branch merges, and resolve conflicts within a unified IDE workspace.
 ### Documentation (2)
 
 #### Markup Languages
