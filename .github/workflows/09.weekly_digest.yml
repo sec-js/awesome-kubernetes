@@ -33,13 +33,39 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
+      - name: Get current date for digest cache key
+        id: digest-date
+        run: echo "date=$(date -u +%Y-%m-%d)" >> $GITHUB_OUTPUT
+
+      - name: Restore News Digest Cache
+        id: cache-digest
+        uses: actions/cache/restore@v5
+        with:
+          path: data/news_digest.json
+          key: news-digest-${{ steps.digest-date.outputs.date }}
+          restore-keys: |
+            news-digest-
+
       - name: Generate News Digest (Gemini)
+        if: steps.cache-digest.outputs.cache-hit != 'true'
         env:
           PYTHONPATH: ${{ github.workspace }}
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
         run: |
           python -u -m src.news_digest
+
+      - name: Save News Digest Cache
+        if: steps.cache-digest.outputs.cache-hit != 'true' && hashFiles('data/news_digest.json') != ''
+        uses: actions/cache/save@v5
+        with:
+          path: data/news_digest.json
+          key: news-digest-${{ steps.digest-date.outputs.date }}
+
+      - name: Generate RSS Feed
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
           python -u -m src.rss_generator || echo "RSS generation skipped"
 
       - name: Render V2 Portal (Digest Pages Only)
