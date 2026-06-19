@@ -8,16 +8,33 @@ search:
 !!! tip "Nubenetes Intelligence Digest"
     AI-curated ranking of the most impactful resources, updated monthly.
 
-=== "Last 3 Months"
+## Americas
 
-    **Americas**
+=== "Last 3 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
     | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
     | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
 
-    **Europe**
+=== "Last 6 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
+    | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
+
+=== "Last 12 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
+    | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
+
+
+## Europe
+
+=== "Last 3 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -32,47 +49,7 @@ search:
     | 2026-05-17 | [blog.knell.it: Making your Helm Chart observable for Prometheus](https://blog.knell.it/making-your-helm-chart-observable-for-prometheus) | 🔵 medium | Integrating Prometheus metrics natively into Helm charts ensures observability standards are packaged alongside application deployments by default. |
     | 2026-05-17 | [Templating on OpenShift: should I use Helm templates or OpenShift templates?' 🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates) | 🔵 medium | It assists enterprise platform engineers in choosing the right templating standard to prevent vendor lock-in while using OpenShift. |
 
-    **Spain**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a) | 🔴 critical | The launch of the AWS Spain region is a massive milestone that addresses data residency and latency requirements, accelerating cloud-native migration for Spanish enterprises. |
-    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | This analysis of major AWS outages highlights the systemic risks of cloud centralization and underscores the importance of multi-region and multi-cloud resilience strategies. |
-    | 2026-06-14 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) | 🟡 high | It addresses the critical organizational and cultural hurdles of scaling DevSecOps and cloud-native practices when relying on external IT outsourcing in Spain. |
-    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Provides essential strategic guidance for enterprises, arguing for realistic, incremental AI adoption paths rather than high-risk, large-scale overhauls. |
-    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🔵 medium | Provides deep, localized technical knowledge on Linux performance and storage optimization, which are foundational for running high-performance Kubernetes worker nodes. |
-    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Demonstrates a real-world enterprise implementation of API-driven architecture, facilitating digital insurance B2B integrations. |
-    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Showcases production-ready financial API infrastructure designed to comply with PSD2, highlighting modern integration patterns in Spanish banking. |
-    | 2026-05-17 | [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) | 🔵 medium | Introduces a lightweight, next-generation IDE that supports remote backend execution, aligning with the cloud-based developer workspace trend. |
-    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Offers a highly accessible, localized resource for mastering Python, which remains a core language for cloud automation, tooling, and AI pipelines. |
-    | 2026-05-17 | [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh) | 🔵 medium | A practical guide to SSH tunneling, a fundamental skill for secure remote access, port forwarding, and network debugging in cloud environments. |
-
-    **Asia-Pacific**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) | 🔴 critical | Provides critical architectural guidance for migrating away from the deprecated Kubernetes External Secrets to modern ESO or Secrets Store CSI alternatives. |
-    | 2026-05-17 | [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how) | 🟡 high | Demystifies GitOps practices which are essential for achieving declarative, auditable, and automated continuous delivery in cloud-native setups. |
-    | 2026-05-17 | [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry) | 🟡 high | Addresses a common enterprise security requirement of deploying cloud-native monitoring (Prometheus Operator) within private registry environments. |
-    | 2026-05-17 | [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins) | 🟡 high | Improves CI/CD efficiency by demonstrating how to scale and parallelize build pipelines dynamically using Kubernetes-hosted Jenkins agents. |
-    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🔵 medium | Simplifies multi-cloud architecture planning by offering a direct service-mapping taxonomy across major cloud providers. |
-    | 2026-05-17 | [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern) | 🔵 medium | Explains the sidecar pattern, which is fundamental to implementing service meshes, logging, and security proxies in microservices. |
-    | 2026-05-17 | [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus) | 🔵 medium | Explores Prometheus, the de facto CNCF standard for cloud-native metrics collection and alerting. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations) | 🔵 medium | Covers advanced scheduling techniques necessary for workload isolation and resource allocation in multi-tenant Kubernetes clusters. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) | 🔵 medium | Explains DaemonSets, which are vital for running platform-level agents like log forwarders and node monitors. |
-    | 2026-05-17 | [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs) | 🔵 medium | Provides essential operational foundations for setting up container logging and observability in Kubernetes. |
-
-
 === "Last 6 Months"
-
-    **Americas**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
-    | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
-
-    **Europe**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -87,47 +64,7 @@ search:
     | 2026-05-17 | [en.sokube.ch: K3S + K3D = K8S : a new perfect match for dev and test](https://en.sokube.ch/post/k3s-k3d-k8s-a-new-perfect-match-for-dev-and-test-1) | 🔵 medium | Highlights a highly efficient, lightweight development environment that mirrors production Kubernetes patterns locally. |
     | 2026-05-17 | [Templating on OpenShift: should I use Helm templates or OpenShift templates?' 🌟](https://www.padok.fr/en/blog/templating-openshift-helm-templates) | 🔵 medium | Evaluates configuration management options to help enterprise teams optimize application packaging on Red Hat OpenShift. |
 
-    **Spain**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a) | 🔴 critical | The opening of an AWS Region in Spain provides essential infrastructure for local cloud-native adoption and data residency compliance. |
-    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Provides critical strategic guidance on avoiding common pitfalls in enterprise AI transformation, which is increasingly integrated into cloud-native pipelines. |
-    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🟡 high | Demonstrates enterprise-grade API management and security compliance required by the PSD2 mandate in the Spanish financial sector. |
-    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases the shift toward API-first architectures and B2B integration patterns within the traditional insurance sector. |
-    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🔵 medium | Provides foundational knowledge on Linux performance and storage optimization necessary for managing high-performance Kubernetes clusters. |
-    | 2026-05-17 | [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) | 🔵 medium | Introduces new developer tooling paradigms that prioritize remote execution and lightweight environments, matching cloud-native development workflows. |
-    | 2026-05-17 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html) | 🔵 medium | Addresses the structural challenges of IT outsourcing in Spain, directly impacting how organizations manage cloud-native scaling and DevOps silos. |
-    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Facilitates broader technical literacy in the Spanish community by providing a modern, accessible resource for foundational programming. |
-    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🔵 medium | Highlights systemic risks of hyperscaler dependency, prompting necessary architecture discussions around multi-cloud and resilience strategies. |
-    | 2026-05-17 | [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando' dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia) | 🔵 medium | Provides essential context on talent retention and professional shifts in the Spanish IT sector, impacting team stability for cloud-native projects. |
-
-    **Asia-Pacific**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-05-17 | [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) | 🔴 critical | Provides a crucial architectural comparison for managing enterprise secrets securely on Kubernetes following the deprecation of legacy tools. |
-    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🟡 high | Simplifies multi-cloud architecture planning by mapping services across major public cloud providers for engineering teams. |
-    | 2026-05-17 | [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry) | 🟡 high | Delivers a production-ready guide for deploying observability infrastructure securely in enterprise environments using private registries. |
-    | 2026-05-17 | [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how) | 🟡 high | Demystifies the GitOps methodology, which is a fundamental paradigm shift for modern cloud-native continuous delivery. |
-    | 2026-05-17 | [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern) | 🔵 medium | Explains the sidecar pattern, which is essential for implementing service meshes and platform-level logging in Kubernetes. |
-    | 2026-05-17 | [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins) | 🔵 medium | Optimizes continuous integration pipelines by leveraging Kubernetes to run parallel, dynamically scaled build jobs. |
-    | 2026-05-17 | [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus) | 🔵 medium | Offers a comprehensive deep dive into Prometheus, the de facto standard tool for cloud-native system observability. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations) | 🔵 medium | Enables engineers to design resilient and segregated clusters using advanced Kubernetes scheduling constraints. |
-    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) | 🔵 medium | Details DaemonSet scheduling, which is vital for deploying node-level logging and security agents uniformly across a cluster. |
-    | 2026-05-17 | [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs) | 🔵 medium | Guides operational teams through establishing essential log aggregation pipelines for containerized applications. |
-
-
 === "Last 12 Months"
-
-    **Americas**
-
-    | Date | Resource | Impact | Why It Matters |
-    | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [](https://www.ccohs.ca/oshanswers/ergonomics/shovel.html) | 🔵 medium |  |
-    | 2026-05-17 | [businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral](https://businessinsider.mx/trucos-chatgpt-aminorar-carga-laboranl_vida-profesional) | 🔵 medium | A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem. |
-
-    **Europe**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -142,7 +79,40 @@ search:
     | 2026-05-17 | [blog.knell.it: Making your Helm Chart observable for Prometheus](https://blog.knell.it/making-your-helm-chart-observable-for-prometheus) | 🔵 medium | Establishes a repeatable pattern for embedding native Prometheus observability endpoints directly into reusable Helm charts. |
     | 2026-06-01 | [difftastic.wilfred.me.uk](https://difftastic.wilfred.me.uk) | 🔵 medium | Introduces AST-based syntax comparison that eliminates noisy git diffs, making Kubernetes manifest and code reviews vastly more reliable. |
 
-    **Spain**
+
+## Spain
+
+=== "Last 3 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-05-17 | [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a) | 🔴 critical | The launch of the AWS Spain region is a massive milestone that addresses data residency and latency requirements, accelerating cloud-native migration for Spanish enterprises. |
+    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🟡 high | This analysis of major AWS outages highlights the systemic risks of cloud centralization and underscores the importance of multi-region and multi-cloud resilience strategies. |
+    | 2026-06-14 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana) | 🟡 high | It addresses the critical organizational and cultural hurdles of scaling DevSecOps and cloud-native practices when relying on external IT outsourcing in Spain. |
+    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Provides essential strategic guidance for enterprises, arguing for realistic, incremental AI adoption paths rather than high-risk, large-scale overhauls. |
+    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🔵 medium | Provides deep, localized technical knowledge on Linux performance and storage optimization, which are foundational for running high-performance Kubernetes worker nodes. |
+    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Demonstrates a real-world enterprise implementation of API-driven architecture, facilitating digital insurance B2B integrations. |
+    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Showcases production-ready financial API infrastructure designed to comply with PSD2, highlighting modern integration patterns in Spanish banking. |
+    | 2026-05-17 | [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) | 🔵 medium | Introduces a lightweight, next-generation IDE that supports remote backend execution, aligning with the cloud-based developer workspace trend. |
+    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Offers a highly accessible, localized resource for mastering Python, which remains a core language for cloud automation, tooling, and AI pipelines. |
+    | 2026-05-17 | [Túneles SSH](https://www.atareao.es/ubuntu/tuneles-ssh) | 🔵 medium | A practical guide to SSH tunneling, a fundamental skill for secure remote access, port forwarding, and network debugging in cloud environments. |
+
+=== "Last 6 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-05-17 | [aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España](https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a) | 🔴 critical | The opening of an AWS Region in Spain provides essential infrastructure for local cloud-native adoption and data residency compliance. |
+    | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Provides critical strategic guidance on avoiding common pitfalls in enterprise AI transformation, which is increasingly integrated into cloud-native pipelines. |
+    | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🟡 high | Demonstrates enterprise-grade API management and security compliance required by the PSD2 mandate in the Spanish financial sector. |
+    | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Showcases the shift toward API-first architectures and B2B integration patterns within the traditional insurance sector. |
+    | 2026-06-01 | [systemadmin.es](https://systemadmin.es) | 🔵 medium | Provides foundational knowledge on Linux performance and storage optimization necessary for managing high-performance Kubernetes clusters. |
+    | 2026-05-17 | [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) | 🔵 medium | Introduces new developer tooling paradigms that prioritize remote execution and lightweight environments, matching cloud-native development workflows. |
+    | 2026-05-17 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html) | 🔵 medium | Addresses the structural challenges of IT outsourcing in Spain, directly impacting how organizations manage cloud-native scaling and DevOps silos. |
+    | 2026-06-02 | [Think Python en espanol (Piensa en Python)](https://libropython.es) | 🔵 medium | Facilitates broader technical literacy in the Spanish community by providing a modern, accessible resource for foundational programming. |
+    | 2026-06-01 | [20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas](https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834) | 🔵 medium | Highlights systemic risks of hyperscaler dependency, prompting necessary architecture discussions around multi-cloud and resilience strategies. |
+    | 2026-05-17 | [hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando' dejar su trabajo?](https://www.hays.es/blog/insights/la-gran-renuncia) | 🔵 medium | Provides essential context on talent retention and professional shifts in the Spanish IT sector, impacting team stability for cloud-native projects. |
+
+=== "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -157,7 +127,40 @@ search:
     | 2026-06-01 | [santalucia.es](https://api-market.santalucia.es) | 🔵 medium | Demonstrates how legacy enterprises in Spain are modernizing their B2B digital delivery through API-first cloud integration architectures. |
     | 2026-05-17 | [computing.es: Retos del outsourcing de servicios IT en España](https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html) | 🔵 medium | Explores strategic mitigation models for managing SLAs and operational consistency in complex, outsourced enterprise IT environments. |
 
-    **Asia-Pacific**
+
+## Asia-Pacific
+
+=== "Last 3 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-05-17 | [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) | 🔴 critical | Provides critical architectural guidance for migrating away from the deprecated Kubernetes External Secrets to modern ESO or Secrets Store CSI alternatives. |
+    | 2026-05-17 | [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how) | 🟡 high | Demystifies GitOps practices which are essential for achieving declarative, auditable, and automated continuous delivery in cloud-native setups. |
+    | 2026-05-17 | [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry) | 🟡 high | Addresses a common enterprise security requirement of deploying cloud-native monitoring (Prometheus Operator) within private registry environments. |
+    | 2026-05-17 | [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins) | 🟡 high | Improves CI/CD efficiency by demonstrating how to scale and parallelize build pipelines dynamically using Kubernetes-hosted Jenkins agents. |
+    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🔵 medium | Simplifies multi-cloud architecture planning by offering a direct service-mapping taxonomy across major cloud providers. |
+    | 2026-05-17 | [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern) | 🔵 medium | Explains the sidecar pattern, which is fundamental to implementing service meshes, logging, and security proxies in microservices. |
+    | 2026-05-17 | [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus) | 🔵 medium | Explores Prometheus, the de facto CNCF standard for cloud-native metrics collection and alerting. |
+    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations) | 🔵 medium | Covers advanced scheduling techniques necessary for workload isolation and resource allocation in multi-tenant Kubernetes clusters. |
+    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) | 🔵 medium | Explains DaemonSets, which are vital for running platform-level agents like log forwarders and node monitors. |
+    | 2026-05-17 | [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs) | 🔵 medium | Provides essential operational foundations for setting up container logging and observability in Kubernetes. |
+
+=== "Last 6 Months"
+
+    | Date | Resource | Impact | Why It Matters |
+    | :--- | :--- | :---: | :--- |
+    | 2026-05-17 | [mixi-developers.mixi.co.jp: Comparing External Secrets Operator with Secret' Storage CSI as Kubernetes External Secrets is Deprecated](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-402bf37f20bc?gi=a7ce4398a8d7) | 🔴 critical | Provides a crucial architectural comparison for managing enterprise secrets securely on Kubernetes following the deprecation of legacy tools. |
+    | 2026-06-01 | [comparecloud.in: Public Cloud Services Comparison 🌟](https://comparecloud.in) | 🟡 high | Simplifies multi-cloud architecture planning by mapping services across major public cloud providers for engineering teams. |
+    | 2026-05-17 | [devstack.in: Deploy Prometheus Operator with Helm3 and Private Registry' 🌟](https://devstack.in/2020/05/25/deploy-prometheus-operator-with-helm3-and-private-registry) | 🟡 high | Delivers a production-ready guide for deploying observability infrastructure securely in enterprise environments using private registries. |
+    | 2026-05-17 | [devsecops.co.in: GitOps Guide – What, Why and How? 🌟](https://devsecops.co.in/2021/05/13/gitops-guide-what-why-and-how) | 🟡 high | Demystifies the GitOps methodology, which is a fundamental paradigm shift for modern cloud-native continuous delivery. |
+    | 2026-05-17 | [ishantgaurav.in: Kubernetes – Sidecar Container Pattern](https://ishantgaurav.in/2021/07/18/kubernetes-sidecar-container-pattern) | 🔵 medium | Explains the sidecar pattern, which is essential for implementing service meshes and platform-level logging in Kubernetes. |
+    | 2026-05-17 | [ittroubleshooter.in: Run Parallel Builds in Kubernetes Cluster with Jenkins' Pipeline 🌟](https://ittroubleshooter.in/run-parallel-build-kubernetes-cluster-jenkins) | 🔵 medium | Optimizes continuous integration pipelines by leveraging Kubernetes to run parallel, dynamically scaled build jobs. |
+    | 2026-05-17 | [devopstalks.in: Everything about Prometheus](https://devopstalks.in/everything-about-prometheus) | 🔵 medium | Offers a comprehensive deep dive into Prometheus, the de facto standard tool for cloud-native system observability. |
+    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - Taints and Tolerations](https://blog.learncodeonline.in/kubernetes-scheduling-taints-and-tolerations) | 🔵 medium | Enables engineers to design resilient and segregated clusters using advanced Kubernetes scheduling constraints. |
+    | 2026-05-17 | [blog.learncodeonline.in: Kubernetes Scheduling - DaemonSet](https://blog.learncodeonline.in/kubernetes-scheduling-daemonset) | 🔵 medium | Details DaemonSet scheduling, which is vital for deploying node-level logging and security agents uniformly across a cluster. |
+    | 2026-05-17 | [skilledfield.com.au: Monitoring Kubernetes and Docker Container Logs](https://skilledfield.com.au/monitoring-kubernetes-and-docker-container-logs) | 🔵 medium | Guides operational teams through establishing essential log aggregation pipelines for containerized applications. |
+
+=== "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
