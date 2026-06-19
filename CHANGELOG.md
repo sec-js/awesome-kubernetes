@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.12]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.12) - 2026-06-19
+
+### Fixed
+- **V2 In-Page Search/Tag Filter Disappeared**: The per-page resource search box with maturity tag-pills (`static/v2_filter.js`) stopped appearing on every page after `navigation.instant` was enabled in the `2026-06-19` MkDocs UX overhaul. The widget hooked only `DOMContentLoaded`, which under Material's instant (SPA) navigation fires solely on the first load — subsequent in-nav page swaps never re-injected it. Reworked the script to initialize through Material's `document$` observable (emits on every instant navigation, with a `DOMContentLoaded` fallback), guard against double-injection, bind the clickable-tag delegation once on `document`, and show a "no results" state. Cache-bust bumped to `?v=2.9.12`.
+
+### Changed
+- **Removed Redundant In-Page Table of Contents**: Dropped the Markdown `## Table of Contents` block from all 156 V2 content pages and from the renderer (`v2_optimizer.py`). It duplicated the theme's heading index and, on large pages, forced hundreds of links of scroll before any content (e.g. `kubernetes-tools` 297 lines, `kubernetes` 295, `demos` 227). Replaced by the MkDocs Material native sticky **"On this page"** TOC: removed `toc.integrate` and added `toc.follow` in `v2-mkdocs.yml` so headings render in the right sidebar and track scroll position. The `tags.md` index page keeps its TOC (it *is* a navigation index).
+
 ## [[2.9.10]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.10) - 2026-06-19
 
 ### Fixed

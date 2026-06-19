@@ -1,263 +1,269 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Initialize the filter only if we are on a page with resource lists
-    const contentArea = document.querySelector(".md-content__inner");
-    if (!contentArea) return;
+// Nubenetes V2 — in-page resource search & tag filter widget.
+//
+// IMPORTANT: The V2 theme enables `navigation.instant` (SPA-style page swaps),
+// so `DOMContentLoaded` fires only on the very first load. We therefore drive
+// initialization through Material's `document$` observable, which emits on every
+// (instant) navigation. We fall back to `DOMContentLoaded` when the observable
+// is unavailable (e.g. instant nav disabled or local preview without the bundle).
 
-    // Check if there are any resource items on the page (li or details)
-    const listItems = Array.from(contentArea.querySelectorAll("ul > li"));
-    const detailsItems = Array.from(contentArea.querySelectorAll("details.note"));
-    
-    // If there are no list items and no details items, do not inject the filter
-    if (listItems.length === 0 && detailsItems.length === 0) return;
+(function () {
+    "use strict";
 
-    // Do not show on the homepage, video hub index page, or technical tags index page (performance)
-    const h1 = contentArea.querySelector("h1");
-    if (h1 && (
-        h1.textContent.includes("Nubenetes Elite Portal (V2)") ||
-        h1.textContent.includes("Agentic Video Hub") ||
-        h1.textContent.includes("Technical Tags Index") ||
-        h1.textContent.includes("Intelligence Digest")
-    )) {
-        return;
-    }
+    function initFilterWidget() {
+        const contentArea = document.querySelector(".md-content__inner");
+        if (!contentArea) return;
 
-    // Build the filter container element
-    const filterContainer = document.createElement("div");
-    filterContainer.className = "v2-filter-container";
-    filterContainer.innerHTML = `
-        <div class="v2-search-wrapper">
-            <input type="text" class="v2-search-input" placeholder="Search resources in this page..." />
-            <span class="v2-search-clear" style="display:none;">&times;</span>
-        </div>
-        <div class="v2-tag-pills">
-            <button class="v2-pill active" data-filter="all">All</button>
-            <button class="v2-pill" data-filter="DE FACTO STANDARD">De Facto Standard</button>
-            <button class="v2-pill" data-filter="ENTERPRISE-STABLE">Enterprise Stable</button>
-            <button class="v2-pill" data-filter="EMERGING">Emerging</button>
-            <button class="v2-pill" data-filter="GUIDE">Guide</button>
-            <button class="v2-pill" data-filter="CASE STUDY">Case Study</button>
-            <button class="v2-pill" data-filter="COMMUNITY-TOOL">Community Tool</button>
-            <button class="v2-pill" data-filter="SPANISH">Spanish</button>
-        </div>
-        <div class="v2-filter-stats">
-            <span>Showing <strong class="v2-visible-count">0</strong> of <strong class="v2-total-count">0</strong> resources</span>
-            <span class="v2-active-filters" style="font-style: italic;"></span>
-        </div>
-    `;
+        // Guard against double-injection (document$ can emit more than once).
+        if (contentArea.querySelector(".v2-filter-container")) return;
 
-    // Insert the filter container right after the main H1
-    if (h1 && h1.nextSibling) {
-        h1.parentNode.insertBefore(filterContainer, h1.nextSibling);
-    } else {
-        contentArea.insertBefore(filterContainer, contentArea.firstChild);
-    }
+        // Only inject where there are resources to filter.
+        const listItems = Array.from(contentArea.querySelectorAll("ul > li"));
+        const detailsItems = Array.from(contentArea.querySelectorAll("details.note"));
+        if (listItems.length === 0 && detailsItems.length === 0) return;
 
-    const searchInput = filterContainer.querySelector(".v2-search-input");
-    const searchClear = filterContainer.querySelector(".v2-search-clear");
-    const pills = filterContainer.querySelectorAll(".v2-pill");
-    const visibleCountSpan = filterContainer.querySelector(".v2-visible-count");
-    const totalCountSpan = filterContainer.querySelector(".v2-total-count");
-
-    // All target elements we want to filter
-    const targets = [];
-    
-    // Prepare list items
-    listItems.forEach(item => {
-        // Make sure it's a resource list item (has a link and some content)
-        if (item.querySelector("a")) {
-            targets.push({
-                element: item,
-                type: "li",
-                text: item.textContent.toLowerCase(),
-                tags: Array.from(item.querySelectorAll(".md-tag")).map(t => t.textContent.toUpperCase())
-            });
+        // Skip on curated landing/index pages where the widget adds no value.
+        const h1 = contentArea.querySelector("h1");
+        if (h1 && (
+            h1.textContent.includes("Nubenetes Elite Portal (V2)") ||
+            h1.textContent.includes("Agentic Video Hub") ||
+            h1.textContent.includes("Technical Tags Index") ||
+            h1.textContent.includes("Intelligence Digest")
+        )) {
+            return;
         }
-    });
 
-    // Prepare details.note items (if any, like in some V2 structures)
-    detailsItems.forEach(detail => {
-        const summary = detail.querySelector("summary");
-        targets.push({
-            element: detail,
-            type: "details",
-            text: detail.textContent.toLowerCase(),
-            tags: summary ? [summary.textContent.toUpperCase()] : []
-        });
-    });
+        const filterContainer = document.createElement("div");
+        filterContainer.className = "v2-filter-container";
+        filterContainer.innerHTML = `
+            <div class="v2-search-wrapper">
+                <input type="text" class="v2-search-input" placeholder="Search resources in this page..." aria-label="Search resources in this page" />
+                <span class="v2-search-clear" style="display:none;" title="Clear search">&times;</span>
+            </div>
+            <div class="v2-tag-pills">
+                <button class="v2-pill active" data-filter="all">All</button>
+                <button class="v2-pill" data-filter="DE FACTO STANDARD">De Facto Standard</button>
+                <button class="v2-pill" data-filter="ENTERPRISE-STABLE">Enterprise Stable</button>
+                <button class="v2-pill" data-filter="EMERGING">Emerging</button>
+                <button class="v2-pill" data-filter="GUIDE">Guide</button>
+                <button class="v2-pill" data-filter="CASE STUDY">Case Study</button>
+                <button class="v2-pill" data-filter="COMMUNITY-TOOL">Community Tool</button>
+                <button class="v2-pill" data-filter="SPANISH">Spanish</button>
+            </div>
+            <div class="v2-filter-stats">
+                <span>Showing <strong class="v2-visible-count">0</strong> of <strong class="v2-total-count">0</strong> resources</span>
+                <span class="v2-active-filters" style="font-style: italic;"></span>
+                <span class="v2-no-results" style="display:none; color: var(--md-typeset-color); opacity:.75;">No resources match your filter.</span>
+            </div>
+        `;
 
-    totalCountSpan.textContent = targets.length;
-    visibleCountSpan.textContent = targets.length;
+        // Insert directly after the main H1.
+        if (h1 && h1.nextSibling) {
+            h1.parentNode.insertBefore(filterContainer, h1.nextSibling);
+        } else {
+            contentArea.insertBefore(filterContainer, contentArea.firstChild);
+        }
 
-    let activeFilter = "all";
-    let searchText = "";
+        const searchInput = filterContainer.querySelector(".v2-search-input");
+        const searchClear = filterContainer.querySelector(".v2-search-clear");
+        const pills = filterContainer.querySelectorAll(".v2-pill");
+        const visibleCountSpan = filterContainer.querySelector(".v2-visible-count");
+        const totalCountSpan = filterContainer.querySelector(".v2-total-count");
+        const noResultsSpan = filterContainer.querySelector(".v2-no-results");
 
-    function updateFilters() {
-        let visibleCount = 0;
-
-        targets.forEach(item => {
-            let matchesSearch = true;
-            let matchesPill = true;
-
-            // 1. Search text filter
-            if (searchText) {
-                matchesSearch = item.text.includes(searchText);
+        // Collect filter targets (resource <li> and details.note blocks).
+        const targets = [];
+        listItems.forEach(item => {
+            if (item.querySelector("a")) {
+                targets.push({
+                    element: item,
+                    type: "li",
+                    text: item.textContent.toLowerCase(),
+                    tags: Array.from(item.querySelectorAll(".md-tag")).map(t => t.textContent.toUpperCase())
+                });
             }
+        });
+        detailsItems.forEach(detail => {
+            const summary = detail.querySelector("summary");
+            targets.push({
+                element: detail,
+                type: "details",
+                text: detail.textContent.toLowerCase(),
+                tags: summary ? [summary.textContent.toUpperCase()] : []
+            });
+        });
 
-            // 2. Pill/Category filter
-            if (activeFilter !== "all") {
-                if (activeFilter === "SPANISH") {
-                    matchesPill = item.tags.some(tag => tag.includes("SPANISH"));
-                } else {
-                    matchesPill = item.tags.some(tag => tag.includes(activeFilter));
+        totalCountSpan.textContent = targets.length;
+        visibleCountSpan.textContent = targets.length;
+
+        let activeFilter = "all";
+        let searchText = "";
+
+        function updateFilters() {
+            let visibleCount = 0;
+
+            targets.forEach(item => {
+                let matchesSearch = true;
+                let matchesPill = true;
+
+                if (searchText) {
+                    matchesSearch = item.text.includes(searchText);
                 }
-            }
 
-            if (matchesSearch && matchesPill) {
-                item.element.classList.remove("v2-filtered-hidden");
-                visibleCount++;
-            } else {
-                item.element.classList.add("v2-filtered-hidden");
-            }
-        });
-
-        visibleCountSpan.textContent = visibleCount;
-
-        // 3. Hide empty headers and subheadings
-        // If a section (e.g., under h2, h3, h4) has no visible items, hide the section header
-        const headings = Array.from(contentArea.querySelectorAll("h2, h3, h4"));
-        headings.forEach(heading => {
-            let next = heading.nextElementSibling;
-            let totalItemsInSection = 0;
-            let hiddenItemsInSection = 0;
-
-            while (next && !["H1", "H2", "H3", "H4"].includes(next.tagName)) {
-                if (next.tagName === "UL") {
-                    const lis = Array.from(next.querySelectorAll("li"));
-                    lis.forEach(li => {
-                        if (targets.some(t => t.element === li)) {
-                            totalItemsInSection++;
-                            if (li.classList.contains("v2-filtered-hidden")) {
-                                hiddenItemsInSection++;
-                            }
-                        }
-                    });
-                } else if (next.tagName === "DETAILS" && next.classList.contains("note")) {
-                    totalItemsInSection++;
-                    if (next.classList.contains("v2-filtered-hidden")) {
-                        hiddenItemsInSection++;
+                if (activeFilter !== "all") {
+                    if (activeFilter === "SPANISH") {
+                        matchesPill = item.tags.some(tag => tag.includes("SPANISH"));
+                    } else {
+                        matchesPill = item.tags.some(tag => tag.includes(activeFilter));
                     }
                 }
-                next = next.nextElementSibling;
-            }
 
-            if (totalItemsInSection > 0 && totalItemsInSection === hiddenItemsInSection) {
-                heading.classList.add("v2-filtered-hidden");
-            } else {
-                heading.classList.remove("v2-filtered-hidden");
-            }
-        });
-    }
+                if (matchesSearch && matchesPill) {
+                    item.element.classList.remove("v2-filtered-hidden");
+                    visibleCount++;
+                } else {
+                    item.element.classList.add("v2-filtered-hidden");
+                }
+            });
 
-    // Input event listener
-    searchInput.addEventListener("input", function (e) {
-        searchText = e.target.value.toLowerCase().trim();
-        if (searchText) {
-            searchClear.style.display = "block";
-        } else {
-            searchClear.style.display = "none";
+            visibleCountSpan.textContent = visibleCount;
+            noResultsSpan.style.display = visibleCount === 0 ? "inline" : "none";
+
+            // Hide section headings whose every resource is filtered out.
+            const headings = Array.from(contentArea.querySelectorAll("h2, h3, h4"));
+            headings.forEach(heading => {
+                let next = heading.nextElementSibling;
+                let totalItemsInSection = 0;
+                let hiddenItemsInSection = 0;
+
+                while (next && !["H1", "H2", "H3", "H4"].includes(next.tagName)) {
+                    if (next.tagName === "UL") {
+                        Array.from(next.querySelectorAll("li")).forEach(li => {
+                            if (targets.some(t => t.element === li)) {
+                                totalItemsInSection++;
+                                if (li.classList.contains("v2-filtered-hidden")) hiddenItemsInSection++;
+                            }
+                        });
+                    } else if (next.tagName === "DETAILS" && next.classList.contains("note")) {
+                        totalItemsInSection++;
+                        if (next.classList.contains("v2-filtered-hidden")) hiddenItemsInSection++;
+                    }
+                    next = next.nextElementSibling;
+                }
+
+                if (totalItemsInSection > 0 && totalItemsInSection === hiddenItemsInSection) {
+                    heading.classList.add("v2-filtered-hidden");
+                } else {
+                    heading.classList.remove("v2-filtered-hidden");
+                }
+            });
         }
-        updateFilters();
-    });
 
-    // Clear search
-    searchClear.addEventListener("click", function () {
-        searchInput.value = "";
-        searchText = "";
-        searchClear.style.display = "none";
-        updateFilters();
-        searchInput.focus();
-    });
-
-    // Pill click event listener
-    pills.forEach(pill => {
-        pill.addEventListener("click", function () {
-            pills.forEach(p => p.classList.remove("active"));
-            this.classList.add("active");
-            activeFilter = this.getAttribute("data-filter");
+        searchInput.addEventListener("input", function (e) {
+            searchText = e.target.value.toLowerCase().trim();
+            searchClear.style.display = searchText ? "block" : "none";
             updateFilters();
         });
-    });
 
-    // Make tag badges clickable to trigger filtering
-    document.addEventListener("click", function (e) {
-        const tagSpan = e.target.closest(".md-tag");
-        if (!tagSpan) return;
-
-        // Skip if inside the filter container itself to avoid loop
-        if (e.target.closest(".v2-filter-container")) return;
-
-        let tagText = tagSpan.textContent.trim().replace(/[\[\]]/g, "").toUpperCase();
-        if (tagText.includes("CONTENT")) {
-            tagText = tagText.replace(" CONTENT", "");
-        }
-
-        // 1. Check if the tag matches a predefined filter pill
-        const matchingPill = Array.from(pills).find(p => p.getAttribute("data-filter") === tagText);
-        if (matchingPill) {
-            pills.forEach(p => p.classList.remove("active"));
-            matchingPill.classList.add("active");
-            activeFilter = tagText;
-            // Reset search input
+        searchClear.addEventListener("click", function () {
             searchInput.value = "";
             searchText = "";
             searchClear.style.display = "none";
             updateFilters();
-            filterContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        } else {
-            // 2. If it's a technical stack tag, use it as search input query
-            pills.forEach(p => p.classList.remove("active"));
-            const allPill = Array.from(pills).find(p => p.getAttribute("data-filter") === "all");
-            if (allPill) allPill.classList.add("active");
-            activeFilter = "all";
-            
-            // Populate search input and fire input event
-            searchInput.value = tagSpan.textContent.trim().toLowerCase();
-            searchText = searchInput.value;
-            searchClear.style.display = "block";
-            updateFilters();
-            filterContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
             searchInput.focus();
-        }
-    });
-});
-
-// Lazy Loading Video Playback Integration
-document.addEventListener("DOMContentLoaded", function() {
-    const lazyContainers = document.querySelectorAll(".video-lazy-container");
-    lazyContainers.forEach(container => {
-        container.addEventListener("click", function() {
-            const videoUrl = this.getAttribute("data-video-url");
-            const videoId = this.getAttribute("data-video-id");
-            if (!videoUrl || !videoId) return;
-            
-            const iframe = document.createElement("iframe");
-            iframe.setAttribute("width", "720");
-            iframe.setAttribute("height", "405");
-            const autoplayUrl = videoUrl.includes("?") ? `${videoUrl}&autoplay=1` : `${videoUrl}?autoplay=1`;
-            iframe.setAttribute("src", autoplayUrl);
-            iframe.setAttribute("title", "YouTube Video");
-            iframe.setAttribute("frameborder", "0");
-            iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
-            iframe.setAttribute("allowfullscreen", "true");
-            iframe.style.border = "none";
-            iframe.style.width = "100%";
-            iframe.style.height = "100%";
-            iframe.style.borderRadius = "8px";
-            
-            this.innerHTML = "";
-            this.appendChild(iframe);
-            this.style.cursor = "default";
         });
-    });
-});
 
+        pills.forEach(pill => {
+            pill.addEventListener("click", function () {
+                pills.forEach(p => p.classList.remove("active"));
+                this.classList.add("active");
+                activeFilter = this.getAttribute("data-filter");
+                updateFilters();
+            });
+        });
+    }
+
+    // Make tag badges anywhere in the content act as filter triggers.
+    // Bound once on `document` (which survives instant navigation) and resolves
+    // the current page's widget lazily, dispatching native events so the
+    // per-page listeners above stay the single source of truth.
+    function bindTagClicksOnce() {
+        if (window.__v2TagClickBound) return;
+        window.__v2TagClickBound = true;
+
+        document.addEventListener("click", function (e) {
+            const tagSpan = e.target.closest(".md-tag");
+            if (!tagSpan) return;
+            if (e.target.closest(".v2-filter-container")) return;
+
+            const filterContainer = document.querySelector(".v2-filter-container");
+            if (!filterContainer) return;
+
+            const pills = filterContainer.querySelectorAll(".v2-pill");
+            const searchInput = filterContainer.querySelector(".v2-search-input");
+
+            let tagText = tagSpan.textContent.trim().replace(/[\[\]]/g, "").toUpperCase();
+            if (tagText.includes("CONTENT")) tagText = tagText.replace(" CONTENT", "");
+
+            const matchingPill = Array.from(pills).find(p => p.getAttribute("data-filter") === tagText);
+            if (matchingPill) {
+                // Reset search, then activate the matching maturity pill.
+                searchInput.value = "";
+                searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+                matchingPill.click();
+            } else {
+                // Treat fine-grained technical tags as a search query.
+                const allPill = Array.from(pills).find(p => p.getAttribute("data-filter") === "all");
+                if (allPill) allPill.click();
+                searchInput.value = tagSpan.textContent.trim().toLowerCase();
+                searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+            }
+            filterContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        });
+    }
+
+    // Lazy YouTube playback: click a poster to swap in the iframe.
+    function initLazyVideos() {
+        document.querySelectorAll(".video-lazy-container").forEach(container => {
+            if (container.dataset.lazyBound) return;
+            container.dataset.lazyBound = "1";
+            container.addEventListener("click", function () {
+                const videoUrl = this.getAttribute("data-video-url");
+                const videoId = this.getAttribute("data-video-id");
+                if (!videoUrl || !videoId) return;
+
+                const iframe = document.createElement("iframe");
+                iframe.setAttribute("width", "720");
+                iframe.setAttribute("height", "405");
+                const autoplayUrl = videoUrl.includes("?") ? `${videoUrl}&autoplay=1` : `${videoUrl}?autoplay=1`;
+                iframe.setAttribute("src", autoplayUrl);
+                iframe.setAttribute("title", "YouTube Video");
+                iframe.setAttribute("frameborder", "0");
+                iframe.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+                iframe.setAttribute("allowfullscreen", "true");
+                iframe.style.border = "none";
+                iframe.style.width = "100%";
+                iframe.style.height = "100%";
+                iframe.style.borderRadius = "8px";
+
+                this.innerHTML = "";
+                this.appendChild(iframe);
+                this.style.cursor = "default";
+            });
+        });
+    }
+
+    function init() {
+        initFilterWidget();
+        initLazyVideos();
+    }
+
+    bindTagClicksOnce();
+
+    // Material exposes `document$` (an RxJS observable) that emits on every
+    // instant navigation. Prefer it; fall back to DOMContentLoaded otherwise.
+    if (typeof window.document$ !== "undefined" && typeof window.document$.subscribe === "function") {
+        window.document$.subscribe(init);
+    } else {
+        document.addEventListener("DOMContentLoaded", init);
+    }
+})();

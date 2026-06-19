@@ -6,19 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for TestOps and Continuous Testing in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [DevOps and Quality Assurance](#devops-and-quality-assurance)
-  - [Continuous Testing](#continuous-testing)
-    - [Microservices Testing](#microservices-testing)
-1. [Development Methodology](#development-methodology)
-  - [DevOps](#devops)
-    - [Testing Strategy](#testing-strategy)
-    - [Validation](#validation)
-1. [Development Tools](#development-tools)
-  - [Testing Tools](#testing-tools)
-    - [API Mocking](#api-mocking)
-
 ## DevOps and Quality Assurance
 
 ### Continuous Testing

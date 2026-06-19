@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for About Nubenetes in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Automation and Orchestration](#automation-and-orchestration)
-  - [API Orchestration](#api-orchestration)
-    - [Postman](#postman)
-  - [Configuration Management](#configuration-management)
-    - [Ansible AWX](#ansible-awx)
-    - [Ansible Kubernetes Module](#ansible-kubernetes-module)
-  - [Infrastructure as Code](#infrastructure-as-code)
-    - [Terraform Boilerplates](#terraform-boilerplates)
-
 ## The Nubenetes Engineering Manifest
 
 !!! quote "The Positive Sum Game"

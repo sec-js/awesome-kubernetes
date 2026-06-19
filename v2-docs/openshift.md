@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for OpenShift Container Platform in the context of The Container Stack.
 
-## Table of Contents
-
-1. [CI-CD](#ci-cd)
-  - [GitLab](#gitlab)
-    - [OpenShift](#openshift)
-1. [Databases](#databases)
-  - [Relational](#relational)
-    - [MariaDB](#mariadb)
-1. [Kubernetes and OpenShift](#kubernetes-and-openshift)
-  - [Networking](#networking)
-    - [Multi-Cluster](#multi-cluster)
-  - [Security](#security)
-    - [Ingress](#ingress)
-1. [Platform Engineering](#platform-engineering)
-  - [Architectural Insights](#architectural-insights)
-    - [Personal Blog](#personal-blog)
-1. [Software Engineering](#software-engineering)
-  - [Collaboration](#collaboration)
-    - [Rocket.Chat](#rocketchat)
-
 ## CI-CD
 
 ### GitLab

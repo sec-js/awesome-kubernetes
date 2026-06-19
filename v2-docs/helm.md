@@ -6,51 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Helm Kubernetes Tool in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Application Delivery](#application-delivery)
-    - [Design Patterns](#design-patterns)
-      - [Library Charts](#library-charts)
-      - [Umbrella Charts](#umbrella-charts)
-    - [Operators](#operators)
-      - [Helm Integration](#helm-integration)
-    - [Package Management](#package-management)
-      - [Helm Hooks](#helm-hooks)
-      - [Introductory](#introductory)
-  - [Cloud Platforms](#cloud-platforms)
-    - [Azure AKS](#azure-aks)
-      - [Helm Integration](#helm-integration-1)
-  - [Continuous Delivery](#continuous-delivery)
-    - [GitOps](#gitops)
-      - [HashiCorp Waypoint](#hashicorp-waypoint)
-      - [Helm Integration](#helm-integration-2)
-      - [Red Hat OpenShift](#red-hat-openshift)
-    - [Helm Integration](#helm-integration-3)
-  - [Continuous Integration](#continuous-integration)
-    - [CI-CD Pipelines](#ci-cd-pipelines)
-      - [Jenkins](#jenkins)
-  - [Enterprise Platforms](#enterprise-platforms)
-    - [Red Hat OpenShift](#red-hat-openshift-1)
-      - [Microservices](#microservices)
-  - [Infrastructure](#infrastructure)
-    - [Cost Optimization](#cost-optimization)
-      - [Temporary Environments](#temporary-environments)
-  - [Observability](#observability)
-    - [Prometheus Integration](#prometheus-integration)
-      - [Metrics](#metrics)
-  - [Reliability](#reliability)
-    - [Post-Mortems](#post-mortems)
-      - [Deployment Failures](#deployment-failures)
-  - [Security](#security)
-    - [Vulnerabilities](#vulnerabilities)
-      - [Argo CD Security](#argo-cd-security)
-1. [Platform Engineering](#platform-engineering)
-  - [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
-    - [DevOps Pipelines](#devops-pipelines)
-    - [Java Microservices](#java-microservices)
-    - [Legacy Charts](#legacy-charts)
-
 ## Cloud Native
 
 ### Application Delivery

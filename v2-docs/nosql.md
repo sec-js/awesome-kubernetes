@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for NoSQL Databases and NewSQL in the context of Data & Advanced Analytics.
 
-## Table of Contents
-
-1. [Data Architecture](#data-architecture)
-  - [MongoDB Ecosystem](#mongodb-ecosystem)
-    - [Kubernetes Networking](#kubernetes-networking)
-    - [Kubernetes Operators](#kubernetes-operators)
-  - [NoSQL Databases](#nosql-databases)
-    - [Wide-Column Stores](#wide-column-stores)
-1. [Observability](#observability)
-  - [Microservices Monitoring](#microservices-monitoring)
-    - [Tracing Tools](#tracing-tools)
-
 ## Data Architecture
 
 ### MongoDB Ecosystem

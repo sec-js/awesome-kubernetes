@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubectl commands in the context of The Container Stack.
 
-## Table of Contents
-
-1. [DevSecOps and Registry](#devsecops-and-registry)
-  - [Java Tools](#java-tools)
-    - [Gradle Reference](#gradle-reference)
-1. [Orchestration and Packaging](#orchestration-and-packaging)
-  - [Helm and GitOps](#helm-and-gitops)
-    - [Helm Overview](#helm-overview)
-
 ## DevSecOps and Registry
 
 ### Java Tools

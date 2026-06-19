@@ -6,30 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Test Automation with Postman. API Testing in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [API Development](#api-development)
-  - [Testing and Debugging](#testing-and-debugging)
-    - [Postman Proxy](#postman-proxy)
-1. [Architecture](#architecture)
-  - [Microservices](#microservices)
-    - [Internal Developer Platforms](#internal-developer-platforms)
-1. [Software Architecture](#software-architecture)
-  - [Business Rules](#business-rules)
-    - [Containerization](#containerization)
-    - [Decision Engines](#decision-engines)
-1. [Software Testing](#software-testing)
-  - [API Security](#api-security)
-    - [Postman Integrations](#postman-integrations)
-  - [API Testing](#api-testing)
-    - [CI-CD](#ci-cd)
-    - [CLI Tools](#cli-tools)
-    - [Java Frameworks](#java-frameworks)
-    - [Open Source](#open-source)
-    - [Productivity](#productivity)
-  - [Performance Testing](#performance-testing)
-    - [API Testing](#api-testing-1)
-
 ## API Development
 
 ### Testing and Debugging

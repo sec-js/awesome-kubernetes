@@ -6,52 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Visual Studio Code in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [PaaS](#paas)
-    - [Azure](#azure)
-  - [SecOps](#secops)
-    - [Security Code Scanning](#security-code-scanning)
-1. [Cloud Native](#cloud-native)
-  - [Containerization](#containerization)
-    - [VS Code Tooling](#vs-code-tooling)
-  - [Kubernetes](#kubernetes)
-    - [Configuration Validation](#configuration-validation)
-    - [GitOps](#gitops)
-    - [Local Clusters](#local-clusters)
-    - [Red Hat OpenShift](#red-hat-openshift)
-    - [VS Code Tooling](#vs-code-tooling-1)
-1. [Cloud Native Languages](#cloud-native-languages)
-  - [Go](#go)
-    - [Kubernetes Integration](#kubernetes-integration)
-1. [Cloud-Native Development](#cloud-native-development)
-  - [Kubernetes](#kubernetes-1)
-    - [Local Development](#local-development)
-    - [Remote Debugging](#remote-debugging)
-    - [Traffic Mirroring](#traffic-mirroring)
-1. [Developer Productivity](#developer-productivity)
-  - [Short Videos](#short-videos)
-    - [API Testing](#api-testing)
-    - [Java Development](#java-development)
-1. [Development Environments](#development-environments)
-  - [Cloud IDEs](#cloud-ides)
-    - [CDE](#cde)
-    - [Online Sandboxes](#online-sandboxes)
-1. [Development Tools](#development-tools)
-  - [VS Code](#vs-code)
-    - [Architecture Visualization](#architecture-visualization)
-    - [Docker Deployment](#docker-deployment)
-    - [Serverless Debugging](#serverless-debugging)
-1. [Software Engineering](#software-engineering)
-  - [API Testing](#api-testing-1)
-    - [VS Code Tooling](#vs-code-tooling-2)
-  - [Databases](#databases)
-    - [NoSQL](#nosql)
-    - [ORM and Tools](#orm-and-tools)
-  - [Python](#python)
-    - [Static Analysis](#static-analysis)
-
 ## Cloud Infrastructure
 
 ### PaaS

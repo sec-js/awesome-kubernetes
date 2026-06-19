@@ -6,42 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Site Reliability Engineering (SRE) in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Continuous Delivery](#continuous-delivery)
-  - [Feature Management](#feature-management)
-    - [Reliability Engineering](#reliability-engineering)
-  - [SLO Validation](#slo-validation)
-    - [REST APIs](#rest-apis)
-1. [Observability](#observability)
-  - [Monitoring](#monitoring)
-    - [SRE Fundamentals](#sre-fundamentals)
-  - [Service Level Objectives](#service-level-objectives)
-    - [Community Events](#community-events)
-    - [Declarative Standards](#declarative-standards)
-    - [GitOps](#gitops)
-    - [Google Best Practices](#google-best-practices)
-  - [Site Reliability Engineering](#site-reliability-engineering)
-    - [Root Cause Analysis](#root-cause-analysis)
-1. [Operations](#operations)
-  - [Platform Engineering](#platform-engineering)
-    - [Organizational Design](#organizational-design)
-    - [Strategic Alignment](#strategic-alignment)
-  - [SRE vs DevOps](#sre-vs-devops)
-    - [Tooling](#tooling)
-  - [Site Reliability Engineering](#site-reliability-engineering-1)
-    - [Best Practices](#best-practices)
-    - [Cloud Native Ecosystem](#cloud-native-ecosystem)
-    - [Enterprise Architecture](#enterprise-architecture)
-    - [Google Best Practices](#google-best-practices-1)
-    - [Google SRE Book](#google-sre-book)
-    - [Incident Management](#incident-management)
-    - [Podcasts](#podcasts)
-    - [Tooling](#tooling-1)
-1. [Software Engineering](#software-engineering)
-  - [Professional Development](#professional-development)
-    - [Core Architectures](#core-architectures)
-
 ## Continuous Delivery
 
 ### Feature Management

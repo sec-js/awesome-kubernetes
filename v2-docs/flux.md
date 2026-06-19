@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Flux. The GitOps operator for Kubernetes in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Networking and Security](#networking-and-security)
-  - [Service Mesh and Gateway](#service-mesh-and-gateway)
-    - [Envoy](#envoy)
-1. [Platform Engineering](#platform-engineering)
-  - [GitOps and Deployment](#gitops-and-deployment)
-    - [Flux Ecosystem](#flux-ecosystem)
-1. [Storage and Databases](#storage-and-databases)
-  - [Cloud-Native Storage](#cloud-native-storage)
-    - [Stateful GitOps](#stateful-gitops)
-
 ## Networking and Security
 
 ### Service Mesh and Gateway

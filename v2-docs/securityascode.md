@@ -6,16 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Security Policy as Code in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Security](#security)
-  - [IAM](#iam)
-    - [Protocols](#protocols)
-  - [Identity and Access](#identity-and-access)
-    - [Spring Security](#spring-security)
-  - [Policy Enforcement](#policy-enforcement)
-    - [Admission Control](#admission-control)
-
 ## Security
 
 ### IAM

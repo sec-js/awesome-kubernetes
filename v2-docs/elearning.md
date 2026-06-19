@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for E-learning in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Orchestration](#orchestration)
-  - [Infrastructure as Code](#infrastructure-as-code)
-    - [Real-World Architecture](#real-world-architecture)
-1. [Professional Development](#professional-development)
-  - [Higher Education](#higher-education)
-    - [Software Engineering](#software-engineering)
-1. [Software Development](#software-development)
-  - [Software Architecture](#software-architecture)
-    - [DDD and Testing](#ddd-and-testing)
-
 ## Orchestration
 
 ### Infrastructure as Code

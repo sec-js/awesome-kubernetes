@@ -6,33 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Grafana in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Kubernetes and Cloud Native](#kubernetes-and-cloud-native)
-  - [CICD](#cicd)
-    - [Continuous Deployment](#continuous-deployment)
-1. [Observability](#observability)
-  - [Log Management](#log-management)
-    - [Deployment Guides](#deployment-guides)
-    - [Grafana Loki](#grafana-loki)
-1. [Observability and Delivery](#observability-and-delivery)
-  - [Kubernetes Observability](#kubernetes-observability)
-    - [Grafana Cloud](#grafana-cloud)
-  - [Synthetic Monitoring](#synthetic-monitoring)
-    - [Grafana Alerting](#grafana-alerting)
-1. [Observability and Monitoring](#observability-and-monitoring)
-  - [Data Collection](#data-collection)
-    - [Telemetry Agents](#telemetry-agents)
-  - [Kubernetes Deployment](#kubernetes-deployment)
-    - [Core Infrastructure Dashboards](#core-infrastructure-dashboards)
-    - [Grafana Ecosystem](#grafana-ecosystem)
-    - [Virtualization Monitoring](#virtualization-monitoring)
-  - [Log Management](#log-management-1)
-    - [Kubernetes Logging](#kubernetes-logging)
-    - [Log Aggregation](#log-aggregation)
-  - [Metrics Storage](#metrics-storage)
-    - [Scalable TSDB](#scalable-tsdb)
-
 ## Kubernetes and Cloud Native
 
 ### CICD

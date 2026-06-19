@@ -6,32 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Networking in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [API Gateway](#api-gateway)
-      - [Architecture](#architecture)
-      - [Cross-Account Patterns](#cross-account-patterns)
-    - [CDN](#cdn)
-      - [CloudFront](#cloudfront)
-      - [Edge Security](#edge-security)
-    - [Kubernetes Networking](#kubernetes-networking)
-      - [Controllers](#controllers)
-    - [Load Balancing](#load-balancing)
-      - [Announcements](#announcements)
-      - [Application Load Balancer](#application-load-balancer)
-      - [Configuration Updates](#configuration-updates)
-      - [Serverless Integration](#serverless-integration)
-    - [Reverse Proxy](#reverse-proxy)
-      - [NGINX Plus](#nginx-plus)
-    - [Security](#security)
-      - [WAF](#waf)
-1. [Software Engineering](#software-engineering)
-  - [Deployment Patterns](#deployment-patterns)
-    - [Blue-Green](#blue-green)
-      - [ALB](#alb)
-
 ## Cloud Infrastructure
 
 ### AWS

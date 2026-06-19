@@ -6,37 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Git and Patterns for Managing Source Code Branches. Merge BOTs in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [CICD Pipeline](#cicd-pipeline)
-  - [Kubernetes and Containers](#kubernetes-and-containers)
-    - [Continuous Deployment](#continuous-deployment)
-    - [Self-Hosted Infrastructure](#self-hosted-infrastructure)
-  - [Testing Infrastructure](#testing-infrastructure)
-    - [Cloud Native Automation](#cloud-native-automation)
-1. [Cloud Native](#cloud-native)
-  - [GitOps](#gitops)
-    - [GitLab Kubernetes Agent](#gitlab-kubernetes-agent)
-    - [GitLab Operator](#gitlab-operator)
-1. [DevOps](#devops)
-  - [Continuous Delivery](#continuous-delivery)
-    - [GitOps](#gitops-1)
-  - [Version Control](#version-control)
-    - [Kubernetes Deployments](#kubernetes-deployments)
-1. [Security and Compliance](#security-and-compliance)
-  - [Supply Chain Security](#supply-chain-security)
-    - [Container Security](#container-security)
-1. [Software Engineering](#software-engineering)
-  - [CICD Platforms](#cicd-platforms)
-    - [GitLab CI Optimization](#gitlab-ci-optimization)
-  - [Collaborative Platforms](#collaborative-platforms)
-    - [Kubernetes Integration](#kubernetes-integration)
-  - [Software Delivery](#software-delivery)
-    - [Code Review Protocols](#code-review-protocols)
-  - [Version Control](#version-control-1)
-    - [Automation Bots](#automation-bots)
-    - [GitLab Automation](#gitlab-automation)
-
 ## CICD Pipeline
 
 ### Kubernetes and Containers

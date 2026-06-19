@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Digital Ocean in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Managed Kubernetes](#managed-kubernetes)
-    - [Scaleway Kapsule](#scaleway-kapsule)
-1. [Cloud Providers](#cloud-providers)
-  - [Alternative Clouds](#alternative-clouds)
-    - [Visual Deployment](#visual-deployment)
-  - [PaaS](#paas)
-    - [DigitalOcean App Platform](#digitalocean-app-platform)
-
 ## Cloud Native
 
 ### Managed Kubernetes

@@ -6,20 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for IBM in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud-Native Java](#cloud-native-java)
-  - [Runtimes](#runtimes)
-    - [Open Liberty](#open-liberty)
-      - [Source Code](#source-code)
-    - [WebSphere](#websphere)
-      - [Docker](#docker)
-1. [Enterprise Integration](#enterprise-integration)
-  - [Microservices](#microservices)
-    - [GraphQL and Open Liberty](#graphql-and-open-liberty)
-  - [Multi-Cluster Management](#multi-cluster-management)
-    - [IBM Cloud Pak SDK](#ibm-cloud-pak-sdk)
-
 ## Cloud-Native Java
 
 ### Runtimes

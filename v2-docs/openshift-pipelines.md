@@ -6,34 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for OpenShift Pipelines in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [App Development](#app-development)
-  - [CICD](#cicd)
-    - [Jenkins Pipelines](#jenkins-pipelines)
-    - [Legacy Frameworks](#legacy-frameworks)
-1. [CICD and DevOps](#cicd-and-devops)
-  - [Enterprise Jenkins](#enterprise-jenkins)
-    - [OpenShift Integration](#openshift-integration)
-  - [GitOps and Pipelines](#gitops-and-pipelines)
-    - [GitHub Actions Integration](#github-actions-integration)
-  - [Source-To-Image](#source-to-image)
-    - [OpenShift S2I Workflow](#openshift-s2i-workflow)
-1. [Cloud-Native Java](#cloud-native-java)
-  - [Build Tools](#build-tools)
-    - [Eclipse JKube](#eclipse-jkube)
-      - [Source Code](#source-code)
-1. [Developer Experience](#developer-experience)
-  - [Inner Loop Development](#inner-loop-development)
-    - [OpenShift Odo CLI](#openshift-odo-cli)
-1. [Platform Architecture](#platform-architecture)
-  - [CICD](#cicd-1)
-    - [Jenkins Pipelines](#jenkins-pipelines-1)
-    - [Tekton Pipelines](#tekton-pipelines)
-1. [Software Engineering](#software-engineering)
-  - [Build Systems](#build-systems)
-    - [Fabric8 Maven Plugin](#fabric8-maven-plugin)
-
 ## App Development
 
 ### CICD

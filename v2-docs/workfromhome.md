@@ -6,30 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Work From Home in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Collaboration Tools](#collaboration-tools)
-  - [Document Management](#document-management)
-    - [External Links](#external-links)
-1. [DevOps](#devops)
-  - [Culture](#culture)
-    - [Distributed Teams](#distributed-teams)
-1. [Development](#development)
-  - [Testing and QA](#testing-and-qa)
-    - [API Automation](#api-automation)
-1. [Modern Workforce](#modern-workforce)
-  - [Personal Productivity](#personal-productivity)
-    - [Knowledge Management](#knowledge-management)
-  - [Reliability Engineering](#reliability-engineering)
-    - [Team Operations](#team-operations)
-  - [Remote Work](#remote-work)
-    - [Agile Methodologies](#agile-methodologies)
-    - [Collaboration](#collaboration)
-    - [Legal and Compliance](#legal-and-compliance)
-    - [Productivity Tools](#productivity-tools)
-      - [Open Source](#open-source)
-    - [Team Operations](#team-operations-1)
-
 ## Collaboration Tools
 
 ### Document Management

@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Security in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Architecture](#cloud-architecture)
-  - [AWS](#aws)
-    - [Cryptography](#cryptography)
-    - [Identity and Access Management](#identity-and-access-management)
-    - [SaaS Architecture](#saas-architecture)
-    - [Secrets Management](#secrets-management)
-    - [Security Auditing](#security-auditing)
-    - [Security and Compliance](#security-and-compliance)
-1. [DevSecOps](#devsecops)
-  - [Policy as Code](#policy-as-code)
-    - [Open Policy Agent](#open-policy-agent)
-1. [Security and Identity](#security-and-identity)
-  - [Secrets Management](#secrets-management-1)
-    - [Kubernetes Integration](#kubernetes-integration)
-
 ## Cloud Architecture
 
 ### AWS

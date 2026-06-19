@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for OAuth2 in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Security](#security)
-  - [IAM](#iam)
-    - [Protocols](#protocols)
-  - [Identity and Access](#identity-and-access)
-    - [OAuth2](#oauth2-1)
-    - [Spring Security](#spring-security)
-
 ## Security
 
 ### IAM

@@ -6,16 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Provider. Amazon Web Services in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Computing](#cloud-computing)
-  - [AWS](#aws)
-    - [Architecture and Guides](#architecture-and-guides)
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [Application Integration](#application-integration)
-    - [API Management](#api-management)
-    - [Serverless Services](#serverless-services)
-
 ## Cloud Computing
 
 ### AWS

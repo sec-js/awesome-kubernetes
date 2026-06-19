@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Platform Engineering](#platform-engineering)
-  - [Application Servers](#application-servers)
-    - [Web Servers](#web-servers)
-
 ## Platform Engineering
 
 ### Application Servers

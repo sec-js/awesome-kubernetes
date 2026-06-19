@@ -6,43 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Application Development](#application-development)
-  - [PHP](#php)
-    - [Kubernetes Integration](#kubernetes-integration)
-1. [Container Infrastructure](#container-infrastructure)
-  - [Container Engines](#container-engines)
-    - [Secret Management](#secret-management)
-  - [Container Tooling](#container-tooling)
-    - [Compose Comparison](#compose-comparison)
-    - [Docker Compose Compatibility](#docker-compose-compatibility)
-    - [Podman Compose](#podman-compose)
-  - [Edge Orchestration](#edge-orchestration)
-    - [Auto-Updates and Rollbacks](#auto-updates-and-rollbacks)
-  - [Image Distribution](#image-distribution)
-    - [Ecosystem Registries](#ecosystem-registries)
-  - [Image Optimization](#image-optimization)
-    - [Base Images](#base-images)
-    - [Red Hat UBI](#red-hat-ubi)
-  - [Image Synthesis](#image-synthesis)
-    - [Builder Comparison](#builder-comparison)
-    - [Language-Specific Builders](#language-specific-builders)
-  - [Kubernetes Integration](#kubernetes-integration-1)
-    - [Declarative Pods](#declarative-pods)
-    - [Manifest Translation](#manifest-translation)
-  - [Service Orchestration](#service-orchestration)
-    - [Quadlet Integration](#quadlet-integration)
-1. [Containerization](#containerization)
-  - [Container Engines](#container-engines-1)
-    - [Strategy and Standards](#strategy-and-standards)
-  - [Runtimes](#runtimes)
-    - [High-Level Engines](#high-level-engines)
-    - [Kubernetes Integration](#kubernetes-integration-2)
-1. [Microservices](#microservices)
-  - [Mocking and Testing](#mocking-and-testing)
-    - [Podman Compose Integration](#podman-compose-integration)
-
 ## Application Development
 
 ### PHP

@@ -6,49 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS New Features in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Application Integration](#application-integration)
-  - [Serverless Orchestration](#serverless-orchestration)
-    - [Step Functions](#step-functions)
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [Container Orchestration](#container-orchestration)
-    - [Serverless](#serverless)
-  - [Container Orchestration](#container-orchestration-1)
-    - [ECS Deployments](#ecs-deployments)
-    - [EKS Windows](#eks-windows)
-    - [Storage Integration](#storage-integration)
-  - [Messaging](#messaging)
-    - [Event-Driven](#event-driven)
-  - [Networking](#networking)
-    - [Load Balancing](#load-balancing)
-  - [Security and Service Mesh](#security-and-service-mesh)
-    - [HashiCorp HCP](#hashicorp-hcp)
-  - [Serverless](#serverless-1)
-    - [Compute](#compute)
-    - [Developer Tooling](#developer-tooling)
-1. [Containers](#containers)
-  - [Kubernetes](#kubernetes)
-    - [EKS Console](#eks-console)
-    - [EKS Networking](#eks-networking)
-    - [EKS Security](#eks-security)
-  - [Market Analysis](#market-analysis)
-    - [ReInvent Announcements](#reinvent-announcements)
-1. [Data and Analytics](#data-and-analytics)
-  - [Data Streaming](#data-streaming)
-    - [Kinesis](#kinesis)
-1. [Database](#database)
-  - [RDS Proxy](#rds-proxy)
-    - [Networking](#networking-1)
-1. [Observability](#observability)
-  - [Grafana](#grafana)
-    - [Managed Visualization](#managed-visualization)
-  - [OpenTelemetry](#opentelemetry)
-    - [Distributed Tracing](#distributed-tracing)
-  - [Prometheus](#prometheus)
-    - [Managed Container Monitoring](#managed-container-monitoring)
-
 ## Application Integration
 
 ### Serverless Orchestration

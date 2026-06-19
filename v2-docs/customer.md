@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Customer Success Stories. Cloud Native Projects in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Platform](#cloud-platform)
-  - [Bioinformatics](#bioinformatics)
-    - [High-Performance Computing](#high-performance-computing)
-  - [Healthcare Tech](#healthcare-tech)
-    - [Medical Imaging Platforms](#medical-imaging-platforms)
-1. [Infrastructure Orchestration](#infrastructure-orchestration)
-  - [Cloud Security](#cloud-security)
-    - [Runtime Security](#runtime-security)
-1. [Organizational Culture](#organizational-culture)
-  - [Migration Journeys](#migration-journeys)
-    - [BMW Group](#bmw-group)
-1. [System Architecture](#system-architecture)
-  - [Messaging Systems](#messaging-systems)
-    - [Event-Driven Microservices](#event-driven-microservices)
-
 ## Cloud Platform
 
 ### Bioinformatics

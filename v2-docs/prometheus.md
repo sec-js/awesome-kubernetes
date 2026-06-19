@@ -6,33 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Prometheus in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Observability](#observability)
-    - [Prometheus](#prometheus-1)
-      - [AWS Integration](#aws-integration)
-      - [Client Libraries](#client-libraries)
-      - [Pushgateway](#pushgateway)
-      - [Query Tools](#query-tools)
-1. [Cloud Native Platforms](#cloud-native-platforms)
-  - [Azure](#azure)
-    - [Azure Monitor Integration](#azure-monitor-integration)
-  - [Kubernetes](#kubernetes)
-    - [Multi-Arch Telemetry](#multi-arch-telemetry)
-1. [Observability](#observability-1)
-  - [Distributed Storage](#distributed-storage)
-    - [Cortex Engine](#cortex-engine)
-    - [InfluxDB](#influxdb)
-    - [M3 Engine](#m3-engine)
-    - [Thanos Engine](#thanos-engine)
-  - [Monitoring](#monitoring)
-    - [Prometheus Meta-Monitoring](#prometheus-meta-monitoring)
-  - [OpenTelemetry](#opentelemetry)
-    - [Collector Infrastructure](#collector-infrastructure)
-  - [Prometheus](#prometheus-2)
-    - [Core Platform](#core-platform)
-
 ## Cloud Native Infrastructure
 
 ### Observability

@@ -6,21 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Cloud Operations](#cloud-operations)
-  - [Infrastructure Validation](#infrastructure-validation)
-    - [OpenStack Testing](#openstack-testing)
-1. [Quality Assurance and Testing](#quality-assurance-and-testing)
-  - [Containerization](#containerization)
-    - [Docker and Selenium](#docker-and-selenium)
-  - [Orchestration](#orchestration)
-    - [Kubernetes Grid Deployment](#kubernetes-grid-deployment)
-  - [Test Automation](#test-automation)
-    - [Containerized Testing](#containerized-testing)
-    - [Distributed Testing](#distributed-testing)
-    - [Test Observability](#test-observability)
-
 ## Cloud Operations
 
 ### Infrastructure Validation

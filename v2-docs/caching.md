@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Caching Solutions in the context of Networking & Service Mesh.
 
-## Table of Contents
-
-1. [Edge and Serverless](#edge-and-serverless)
-  - [WebAssembly Platforms](#webassembly-platforms)
-    - [Tau Edge](#tau-edge)
-1. [Infrastructure and Caching](#infrastructure-and-caching)
-  - [Database and Storage](#database-and-storage)
-    - [Tarantool and Nginx](#tarantool-and-nginx)
-1. [Performance](#performance)
-  - [Caching](#caching)
-    - [Varnish on RHEL](#varnish-on-rhel)
-
 ## Edge and Serverless
 
 ### WebAssembly Platforms

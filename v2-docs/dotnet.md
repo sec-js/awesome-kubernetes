@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Microsoft .NET in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Application Development](#application-development)
-  - [.NET Framework](#net-framework)
-    - [Architectural Guides](#architectural-guides)
-    - [Event-Driven Microservices](#event-driven-microservices)
-    - [Microservices Design](#microservices-design)
-    - [gRPC Communication](#grpc-communication)
-1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
-  - [Container Orchestration](#container-orchestration)
-    - [Kubernetes](#kubernetes)
-1. [Software Architecture and .NET Development](#software-architecture-and-net-development)
-  - [Application Diagnostics](#application-diagnostics)
-    - [Environment Validation](#environment-validation)
-    - [IoC Containers](#ioc-containers)
-  - [Microservices](#microservices)
-    - [Resilience Patterns](#resilience-patterns)
-  - [Web Frameworks](#web-frameworks)
-    - [Microservices](#microservices-1)
-
 ## Application Development
 
 ### .NET Framework
