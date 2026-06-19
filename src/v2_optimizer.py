@@ -964,13 +964,14 @@ class V2VisionEngine:
                     items = period_data.get(cat, [])
                     if not items:
                         continue
-                    md += f"    ## {cat}\n\n"
+                    md += f"    **{cat}**\n\n"
                     md += "    | Date | Resource | Impact | Why It Matters |\n"
                     md += "    | :--- | :--- | :---: | :--- |\n"
                     for item in items:
                         impact_badge = {"critical": "🔴", "high": "🟡", "medium": "🔵"}.get(item.get("impact", "medium"), "🔵")
                         t = nuclear_strip(item.get("title", "Unknown"))
-                        md += f'    | {item.get("date", "")} | [{t}]({item.get("url", "#")}) | {impact_badge} {item.get("impact", "medium")} | {item.get("why", "")} |\n'
+                        why = (item.get("why", "") or "").replace("|", "-").replace("\n", " ")
+                        md += f'    | {item.get("date", "")} | [{t}]({item.get("url", "#")}) | {impact_badge} {item.get("impact", "medium")} | {why} |\n'
                     md += "\n"
                 md += "\n"
             return md
