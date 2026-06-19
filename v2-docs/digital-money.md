@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Digital Money in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Fintech](#fintech)
-  - [Cryptocurrency](#cryptocurrency)
-    - [Stablecoins](#stablecoins)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

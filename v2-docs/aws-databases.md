@@ -6,19 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS RDS Databases in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS Databases](#aws-databases)
-    - [Amazon Aurora](#amazon-aurora)
-    - [Amazon RDS](#amazon-rds)
-  - [Databases](#databases)
-    - [NoSQL](#nosql)
-    - [Serverless Architecture](#serverless-architecture)
-1. [Cloud Native](#cloud-native)
-  - [Kubernetes Operators](#kubernetes-operators)
-    - [Managed Databases](#managed-databases)
-
 ## Cloud Infrastructure
 
 ### AWS Databases

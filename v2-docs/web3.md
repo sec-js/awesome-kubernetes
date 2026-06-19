@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Web 3 in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Emerging Paradigms](#emerging-paradigms)
-  - [Web3 Architecture](#web3-architecture)
-    - [Decentralized Systems](#decentralized-systems)
-      - [Introduction](#introduction)
-      - [System Comparison](#system-comparison)
-      - [Vision and Philosophy](#vision-and-philosophy)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -6,24 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Cloud-Native Java](#cloud-native-java)
-  - [Runtimes](#runtimes)
-    - [JBoss EAP](#jboss-eap)
-      - [MicroProfile](#microprofile)
-    - [Payara Micro](#payara-micro)
-      - [Docker](#docker)
-    - [Payara Server](#payara-server)
-      - [Docker](#docker-1)
-    - [WildFly](#wildfly)
-      - [Developer Workflow](#developer-workflow)
-1. [Enterprise Java](#enterprise-java)
-  - [Runtimes](#runtimes-1)
-    - [Apache TomEE](#apache-tomee)
-    - [KumuluzEE](#kumuluzee)
-    - [Payara Server](#payara-server-1)
-
 ## Cloud-Native Java
 
 ### Runtimes

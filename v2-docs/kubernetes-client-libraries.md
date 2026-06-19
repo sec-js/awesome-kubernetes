@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Client Libraries for Kubernetes in the context of The Container Stack.
 
-## Table of Contents
-
-1. [App Development](#app-development)
-  - [Java](#java)
-    - [Kubernetes Clients](#kubernetes-clients)
-1. [Cloud-Native Java](#cloud-native-java)
-  - [Build Tools](#build-tools)
-    - [Eclipse JKube](#eclipse-jkube)
-      - [Source Code](#source-code)
-1. [Kubernetes Development](#kubernetes-development)
-  - [Code Generation](#code-generation)
-    - [Fabric8 CRD](#fabric8-crd)
-  - [Java SDKs](#java-sdks)
-    - [Fabric8 API](#fabric8-api)
-    - [Fabric8 Client](#fabric8-client)
-    - [Operators](#operators)
-    - [Quarkus Integration](#quarkus-integration)
-  - [Java Tooling](#java-tooling)
-    - [Eclipse JKube](#eclipse-jkube-1)
-
 ## App Development
 
 ### Java

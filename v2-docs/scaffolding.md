@@ -6,14 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Software Engineering](#software-engineering)
-  - [Application Scaffolding](#application-scaffolding)
-    - [Boilerplate Tools](#boilerplate-tools)
-  - [Build Systems](#build-systems)
-    - [Java Ecosystem](#java-ecosystem)
-
 ## Software Engineering
 
 ### Application Scaffolding

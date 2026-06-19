@@ -6,35 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for SUSE Rancher in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Kubernetes](#kubernetes)
-    - [Rancher Management](#rancher-management)
-1. [Edge and IoT](#edge-and-iot)
-  - [Architecture Patterns](#architecture-patterns)
-    - [Edge Data Store](#edge-data-store)
-  - [Bare Metal](#bare-metal)
-    - [Home Lab](#home-lab)
-  - [CICD Integration](#cicd-integration)
-    - [GitLab Runners](#gitlab-runners)
-  - [Local Development](#local-development)
-    - [Traefik Ingress](#traefik-ingress)
-  - [Security](#security)
-    - [Runtime Auditing](#runtime-auditing)
-1. [Enterprise Infrastructure](#enterprise-infrastructure)
-  - [GitOps](#gitops)
-    - [Fleet Management](#fleet-management)
-1. [Introductory](#introductory)
-  - [Concepts](#concepts)
-    - [Core Resources](#core-resources)
-1. [Kubernetes Management](#kubernetes-management)
-  - [Multi-Tenancy](#multi-tenancy)
-    - [Projects](#projects)
-1. [Platform Engineering](#platform-engineering)
-  - [Hyperconverged Infrastructure](#hyperconverged-infrastructure)
-    - [Harvester HCI](#harvester-hci)
-
 ## Cloud Native
 
 ### Kubernetes

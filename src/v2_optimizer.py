@@ -1243,39 +1243,12 @@ class V2VisionEngine:
                 f"    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
             )
             
-            # Generate Table of Contents (TOC)
-            exempt_files = self.link_rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
-            if f_name not in exempt_files:
-                toc_lines = []
-                toc_used_headers = {info['long_title']}
-                def build_toc(node, depth=1):
-                    for name, subnode in sorted(node.items()):
-                        if name == "__links__": continue
-                        clean_name = clean_toc_text(name)
-                        
-                        h_name = clean_name
-                        counter = 1
-                        while h_name in toc_used_headers:
-                            h_name = f"{clean_name} ({counter})"
-                            counter += 1
-                        toc_used_headers.add(h_name)
-                        
-                        slug = h_name.lower().replace(' ', '-')
-                        slug = re.sub(r'[^a-z0-9-]', '', slug)
-                        slug = re.sub(r'-+', '-', slug).strip('-')
-                        
-                        indent = "  " * (depth - 1)
-                        if depth == 1:
-                            toc_lines.append(f"1. [{clean_name}](#{slug})")
-                        else:
-                            toc_lines.append(f"{indent}- [{clean_name}](#{slug})")
-                        build_toc(subnode, depth + 1)
-                build_toc(info["content"], 1)
-                if toc_lines:
-                    md += "## Table of Contents\n\n"
-                    md += "\n".join(toc_lines) + "\n\n"
+            # In-page Markdown Table of Contents intentionally omitted.
+            # The MkDocs Material theme renders a native, sticky "On this page" TOC
+            # (right sidebar) from the headings below, so a duplicated Markdown TOC
+            # only added redundant scroll — extreme on large pages (e.g. 250+ links).
+            # See v2-mkdocs.yml (toc.integrate removed) and static/v2_filter.js (?v=2.9.12).
 
-            
             if f_name == "introduction.md":
                 md += "## Vision 2026\n\n!!! quote \"The Evolution of Autonomy\"\n    From manual curation to agentic intelligence.\n\n### Ecosystem Map\n\n\n```mermaid\ngraph TD\n    A[Foundations] --> B[AI & Intelligence]\n    A --> C[Hardened Infra]\n    B --> D[Agentic Curation]\n    C --> E[Enterprise Stability]\n    D --> F[Nubenetes Portal]\n    E --> F\n```\n\n\n"
 

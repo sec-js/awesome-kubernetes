@@ -6,45 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Backup and Migrations. Design for failure. Disaster Recovery in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Cloud Architecture](#cloud-architecture)
-  - [AWS Solutions](#aws-solutions)
-    - [Disaster Recovery](#disaster-recovery)
-1. [Cloud Migration](#cloud-migration)
-  - [AWS Competency](#aws-competency)
-    - [Enterprise Migration](#enterprise-migration)
-  - [AWS MGN](#aws-mgn)
-    - [Multi-Region](#multi-region)
-  - [Multi-Account Strategy](#multi-account-strategy)
-    - [AWS Resources](#aws-resources)
-  - [VM ImportExport](#vm-importexport)
-    - [On-Premises](#on-premises)
-1. [Data and Analytics](#data-and-analytics)
-  - [Data Protection](#data-protection)
-    - [AWS Backup](#aws-backup)
-1. [Infrastructure](#infrastructure)
-  - [Disaster Recovery](#disaster-recovery-1)
-    - [AWS Architectures](#aws-architectures)
-      - [Single Region](#single-region)
-    - [AWS Compute](#aws-compute)
-      - [EC2](#ec2)
-    - [AWS Services](#aws-services)
-      - [AWS Backup](#aws-backup-1)
-      - [Multi-Region](#multi-region-1)
-      - [S3 Protection](#s3-protection)
-    - [AWS Storage](#aws-storage)
-      - [Automation](#automation)
-      - [EBS Snapshots](#ebs-snapshots)
-      - [Veeam Integration](#veeam-integration)
-    - [Chaos Engineering](#chaos-engineering)
-    - [Cloud Integrations](#cloud-integrations)
-    - [DNS Routing](#dns-routing)
-    - [Resilience Design](#resilience-design)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

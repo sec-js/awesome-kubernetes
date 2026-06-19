@@ -6,21 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files in the context of Data & Advanced Analytics.
 
-## Table of Contents
-
-1. [Cloud Native Operations](#cloud-native-operations)
-  - [Kubernetes](#kubernetes)
-    - [Advanced Templating](#advanced-templating)
-    - [CLI Operations](#cli-operations)
-    - [Configuration Management](#configuration-management)
-    - [Validation](#validation)
-1. [Data Architecture](#data-architecture)
-  - [JSON and YAML Serialization](#json-and-yaml-serialization)
-    - [Data Modeling](#data-modeling)
-1. [Platform Engineering](#platform-engineering)
-  - [Kubernetes Manifests](#kubernetes-manifests)
-    - [Alternative Manifest Engines](#alternative-manifest-engines)
-
 ## Cloud Native Operations
 
 ### Kubernetes

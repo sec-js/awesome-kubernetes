@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS DevOps. AWS CodePipeline in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud-Native Provisioning](#cloud-native-provisioning)
-  - [CICD Integration](#cicd-integration)
-    - [AWS CodePipeline](#aws-codepipeline)
-    - [AWS DevOps](#aws-devops)
-1. [Multi-Cluster and Edge](#multi-cluster-and-edge)
-  - [Cluster Federation](#cluster-federation)
-    - [Admiralty](#admiralty)
-    - [Serverless Integration](#serverless-integration)
-
 ## Cloud-Native Provisioning
 
 ### CICD Integration

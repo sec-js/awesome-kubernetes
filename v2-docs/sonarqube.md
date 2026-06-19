@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Sonarqube in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Continuous Integration](#continuous-integration)
-  - [CICD Pipelines](#cicd-pipelines)
-    - [Jenkins Integration](#jenkins-integration)
-  - [Code Quality](#code-quality)
-    - [Kubernetes Deployment](#kubernetes-deployment)
-    - [Static Analysis Platforms](#static-analysis-platforms)
-
 ## Continuous Integration
 
 ### CICD Pipelines

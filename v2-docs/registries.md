@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Orchestration and Packaging](#orchestration-and-packaging)
-  - [Helm and GitOps](#helm-and-gitops)
-    - [Artifactory](#artifactory)
-
 ## Orchestration and Packaging
 
 ### Helm and GitOps

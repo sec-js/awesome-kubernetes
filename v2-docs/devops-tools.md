@@ -6,32 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for DevOps Tools aka Toolchain in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Providers](#cloud-providers)
-  - [AWS](#aws)
-    - [CICD and Security](#cicd-and-security)
-1. [Deployment and Delivery](#deployment-and-delivery)
-  - [Platform Engineering](#platform-engineering)
-    - [Kubernetes Management](#kubernetes-management)
-1. [DevOps and Platform Engineering](#devops-and-platform-engineering)
-  - [Architecture and Orchestration](#architecture-and-orchestration)
-    - [Foundational Primer](#foundational-primer)
-1. [Developer Tooling](#developer-tooling)
-  - [AI Code Assistants](#ai-code-assistants)
-    - [Prompt Templates](#prompt-templates)
-  - [Developer Knowledge](#developer-knowledge)
-    - [Curation Repositories](#curation-repositories)
-1. [Kubernetes and Container Orchestration](#kubernetes-and-container-orchestration)
-  - [Platform Engineering](#platform-engineering-1)
-    - [AppOps and GitOps](#appops-and-gitops)
-1. [Local Developer Environment](#local-developer-environment)
-  - [Container Runtime Setup](#container-runtime-setup)
-    - [Docker Compose](#docker-compose)
-1. [Orchestration and Packaging](#orchestration-and-packaging)
-  - [Cloud-Native Delivery](#cloud-native-delivery)
-    - [Keptn](#keptn)
-
 ## Cloud Providers
 
 ### AWS

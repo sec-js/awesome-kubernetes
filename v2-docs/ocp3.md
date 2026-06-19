@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for OCP 3 in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Observability](#observability)
-  - [Application Monitoring](#application-monitoring)
-    - [Java JMX](#java-jmx)
-1. [Platform Architecture](#platform-architecture)
-  - [High Availability](#high-availability)
-    - [Disaster Recovery](#disaster-recovery)
-1. [Security](#security)
-  - [Encryption](#encryption)
-    - [.NET Core](#net-core)
-
 ## Observability
 
 ### Application Monitoring

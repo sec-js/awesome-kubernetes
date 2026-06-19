@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Development and Frameworks. Websites for web developers in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Backend-as-a-Service](#backend-as-a-service)
-  - [Google Cloud](#google-cloud)
-    - [BaaS Platform](#baas-platform)
-  - [PostgreSQL](#postgresql)
-    - [BaaS Platform](#baas-platform-1)
-1. [Software Engineering](#software-engineering)
-  - [Languages](#languages)
-    - [Cloud-Native Programming](#cloud-native-programming)
-
 ## Backend-as-a-Service
 
 ### Google Cloud

@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for StackStorm in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [DevOps](#devops)
-  - [Event-Driven Automation](#event-driven-automation)
-    - [StackStorm](#stackstorm-1)
-
 ## DevOps
 
 ### Event-Driven Automation

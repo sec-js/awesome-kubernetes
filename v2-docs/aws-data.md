@@ -6,14 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Big Data in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [Event Streaming](#event-streaming)
-  - [Event Streaming](#event-streaming-1)
-    - [Comparison](#comparison)
-
 ## Cloud Infrastructure
 
 ### AWS

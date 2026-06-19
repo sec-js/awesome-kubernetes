@@ -6,20 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for On-Premise Production Kubernetes Cluster Installers in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Application Delivery](#application-delivery)
-  - [Developer Platforms](#developer-platforms)
-    - [VMware Tanzu](#vmware-tanzu)
-1. [Infrastructure](#infrastructure)
-  - [Container Runtimes](#container-runtimes)
-    - [Sandboxing](#sandboxing)
-  - [Kubernetes Distributions](#kubernetes-distributions)
-    - [Edge and IoT](#edge-and-iot)
-1. [Networking](#networking)
-  - [Service Mesh](#service-mesh)
-    - [VMware Tanzu](#vmware-tanzu-1)
-
 ## Application Delivery
 
 ### Developer Platforms

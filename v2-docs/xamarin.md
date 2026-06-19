@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Xamarin in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Mobile Development](#mobile-development)
-  - [Cross-Platform](#cross-platform)
-    - [Xamarin](#xamarin-1)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

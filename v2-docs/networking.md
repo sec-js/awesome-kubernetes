@@ -6,41 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Networking in the context of Networking & Service Mesh.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Computer Networking and IPAM](#computer-networking-and-ipam)
-  - [Infrastructure Management](#infrastructure-management)
-    - [Automation Pipelines](#automation-pipelines)
-    - [IPAM and DCIM Platforms](#ipam-and-dcim-platforms)
-  - [Protocols](#protocols)
-    - [TCPIP](#tcpip)
-  - [Subnetting and Addressing](#subnetting-and-addressing)
-    - [CIDR Calculators](#cidr-calculators)
-    - [Cheat Sheets](#cheat-sheets)
-    - [Command-Line Utilities](#command-line-utilities)
-    - [Mathematical Underpinnings](#mathematical-underpinnings)
-1. [Web Architecture](#web-architecture)
-  - [DNS](#dns)
-    - [Protocols](#protocols-1)
-  - [HTTP Protocols](#http-protocols)
-    - [Python Libraries](#python-libraries)
-    - [Structured Fields](#structured-fields)
-1. [Web Protocols and Performance](#web-protocols-and-performance)
-  - [HTTP Architecture](#http-architecture)
-    - [Headers and Metadata](#headers-and-metadata)
-    - [Status Codes](#status-codes)
-  - [HTTP Optimization](#http-optimization)
-    - [Browser Performance](#browser-performance)
-  - [HTTP Servers](#http-servers)
-    - [Performance Tuning](#performance-tuning)
-  - [Protocol Evolution](#protocol-evolution)
-    - [Enterprise Servers](#enterprise-servers)
-    - [HTTP2](#http2)
-    - [HTTP3 and QUIC](#http3-and-quic)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

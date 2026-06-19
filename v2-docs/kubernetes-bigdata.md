@@ -6,29 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Big Data and Kubernetes Big Data in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Data and AI](#data-and-ai)
-  - [Apache Spark](#apache-spark)
-    - [Cloud Migration](#cloud-migration)
-    - [Cost Optimization](#cost-optimization)
-    - [OpenShift](#openshift)
-    - [Performance and Tuning](#performance-and-tuning)
-    - [Streaming and Scheduling](#streaming-and-scheduling)
-  - [Batch Scheduling](#batch-scheduling)
-    - [Kueue](#kueue)
-  - [Cloud Platforms](#cloud-platforms)
-    - [Databricks](#databricks)
-  - [Data Pipelines](#data-pipelines)
-    - [Apache Spark](#apache-spark-1)
-  - [Databricks](#databricks-1)
-    - [Governance](#governance)
-  - [Market Analysis](#market-analysis)
-    - [Adoption Trends](#adoption-trends)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

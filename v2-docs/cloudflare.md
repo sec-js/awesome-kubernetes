@@ -6,16 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cloudflare Public Cloud in the context of Networking & Service Mesh.
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [Kubernetes Security](#kubernetes-security)
-    - [Zero Trust](#zero-trust)
-  - [Networking](#networking)
-    - [Zero Trust](#zero-trust-1)
-  - [Serverless](#serverless)
-    - [Edge Computing](#edge-computing)
-
 ## Cloud Infrastructure
 
 ### Kubernetes Security

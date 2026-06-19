@@ -6,40 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Argo Declarative GitOps for Kubernetes in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [GitOps and CD](#gitops-and-cd)
-  - [Argo Rollouts](#argo-rollouts)
-    - [Blue-Green Deployment](#blue-green-deployment)
-    - [Canary Deployment](#canary-deployment)
-    - [Configuration Management](#configuration-management)
-    - [Progressive Delivery](#progressive-delivery)
-  - [ArgoCD](#argocd)
-    - [Patterns](#patterns)
-      - [App-of-Apps](#app-of-apps)
-    - [Workload Management](#workload-management)
-      - [Demos](#demos)
-  - [CICD Integration](#cicd-integration)
-1. [Kubernetes GitOps and Packaging](#kubernetes-gitops-and-packaging)
-  - [Argo Project Ecosystem](#argo-project-ecosystem)
-    - [Event-Driven Automation](#event-driven-automation)
-1. [Platform Engineering](#platform-engineering)
-  - [ArgoCD](#argocd-1)
-    - [Internal Developer Platforms](#internal-developer-platforms)
-  - [CICD Migration](#cicd-migration)
-    - [Argo Workflows](#argo-workflows)
-      - [Jenkins](#jenkins)
-  - [GitOps](#gitops)
-    - [AWS EKS](#aws-eks)
-      - [Tekton](#tekton)
-    - [GitHub Actions](#github-actions)
-      - [AWS EKS](#aws-eks-1)
-    - [Terraform Integration](#terraform-integration)
-      - [Data Infrastructure](#data-infrastructure)
-  - [Progressive Delivery](#progressive-delivery-1)
-    - [DNS Routing](#dns-routing)
-      - [Blue-Green Deployment](#blue-green-deployment-1)
-
 ## GitOps and CD
 
 ### Argo Rollouts

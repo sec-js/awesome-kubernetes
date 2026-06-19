@@ -6,37 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Miscellaneous in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Application Development](#application-development)
-  - [Container Orchestration](#container-orchestration)
-    - [App Runner](#app-runner)
-  - [Microservices](#microservices)
-    - [E-commerce Reference](#e-commerce-reference)
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [Load Balancing](#load-balancing)
-    - [PaaS Platform](#paas-platform)
-    - [Web Servers](#web-servers)
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Service Mesh](#service-mesh)
-    - [AWS](#aws-1)
-1. [Edge and IoT](#edge-and-iot)
-  - [AWS](#aws-2)
-    - [IoT Platforms](#iot-platforms)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [AWS CDK](#aws-cdk)
-    - [Serverless Applications](#serverless-applications)
-1. [Networking and Security](#networking-and-security)
-  - [Service Mesh](#service-mesh-1)
-    - [Multi-Account](#multi-account)
-1. [Serverless](#serverless)
-  - [Voice User Interfaces](#voice-user-interfaces)
-    - [Alexa Skills](#alexa-skills)
-1. [Testing and Chaos](#testing-and-chaos)
-  - [Debugging](#debugging)
-    - [AWS Troubleshooting](#aws-troubleshooting)
-
 ## Application Development
 
 ### Container Orchestration

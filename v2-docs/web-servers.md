@@ -6,22 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more in the context of Networking & Service Mesh.
 
-## Table of Contents
-
-1. [Infrastructure](#infrastructure)
-  - [Web Servers](#web-servers)
-    - [App Servers](#app-servers)
-1. [Infrastructure Security](#infrastructure-security)
-  - [Inbound Traffic Management](#inbound-traffic-management)
-    - [Traefik](#traefik)
-1. [Networking](#networking)
-  - [Multi-Cluster](#multi-cluster)
-    - [DNS](#dns)
-1. [Traffic Management](#traffic-management)
-  - [Kubernetes Ingress Controllers](#kubernetes-ingress-controllers)
-    - [Alternative Ingress](#alternative-ingress)
-    - [Traefik Ingress](#traefik-ingress)
-
 ## Infrastructure
 
 ### Web Servers

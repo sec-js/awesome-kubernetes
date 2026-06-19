@@ -6,45 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Storage. S3 and EBS. AWS Storage Gateway in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [Compute](#compute)
-    - [AWS EC2](#aws-ec2)
-      - [Storage Provisioning](#storage-provisioning)
-  - [Data Integration](#data-integration)
-    - [AWS Transfer Family](#aws-transfer-family)
-  - [Reliability Engineering](#reliability-engineering)
-    - [Multi-Region Architectures](#multi-region-architectures)
-  - [Storage](#storage)
-    - [AWS EFS](#aws-efs)
-      - [Performance Tuning](#performance-tuning)
-    - [AWS S3](#aws-s3)
-      - [Analytics](#analytics)
-1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
-  - [Storage and Databases](#storage-and-databases)
-    - [Distributed Block Storage](#distributed-block-storage)
-1. [Cloud Native Storage](#cloud-native-storage)
-  - [AWS EBS](#aws-ebs)
-    - [Snapshot Automation](#snapshot-automation)
-    - [Sparse Snapshots](#sparse-snapshots)
-    - [Storage Performance](#storage-performance)
-  - [AWS S3](#aws-s3-1)
-    - [FAQ Reference](#faq-reference)
-    - [Private Connectivity](#private-connectivity)
-    - [S3 Architecture](#s3-architecture)
-    - [S3 Namespace](#s3-namespace)
-    - [S3 Synchronization](#s3-synchronization)
-    - [Storage Lifecycle](#storage-lifecycle)
-  - [S3 API Compatibility](#s3-api-compatibility)
-    - [S3 Security](#s3-security)
-1. [Cloud Platform](#cloud-platform)
-  - [AWS Infrastructure](#aws-infrastructure)
-    - [Storage Management](#storage-management)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -6,24 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Swagger code generator for REST APIs in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [API Development](#api-development)
-  - [API Design](#api-design)
-    - [Tutorial](#tutorial)
-  - [API Design Collaboration](#api-design-collaboration)
-    - [SwaggerHub](#swaggerhub)
-  - [API Specification](#api-specification)
-    - [Swagger](#swagger)
-  - [Kubernetes Administration](#kubernetes-administration)
-    - [Swagger UI](#swagger-ui)
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Automation and Orchestration](#automation-and-orchestration)
-  - [API Orchestration](#api-orchestration)
-    - [Swagger Codegen](#swagger-codegen)
-
 ## API Development
 
 ### API Design

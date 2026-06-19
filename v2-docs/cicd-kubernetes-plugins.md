@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for CI/CD Kubernetes Plugins in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Software Engineering](#software-engineering)
-  - [Collaborative Platforms](#collaborative-platforms)
-    - [Kubernetes Integration](#kubernetes-integration)
-
 ## Software Engineering
 
 ### Collaborative Platforms

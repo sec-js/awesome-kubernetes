@@ -6,22 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Interview Questions in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [System Design](#system-design)
-    - [Scalability](#scalability)
-1. [Career and Interview Preparation](#career-and-interview-preparation)
-  - [Interview Prep](#interview-prep)
-    - [API and Automation Testing](#api-and-automation-testing)
-    - [Microservices Design](#microservices-design)
-1. [Data Engineering](#data-engineering)
-  - [Event Streaming](#event-streaming)
-    - [Apache Kafka](#apache-kafka)
-1. [DevOps](#devops)
-  - [Container Orchestration](#container-orchestration)
-    - [Kubernetes](#kubernetes)
-
 ## Architecture
 
 ### System Design

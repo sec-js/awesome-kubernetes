@@ -6,39 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cheat Sheets in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [Application Frameworks](#application-frameworks)
-    - [Quarkus](#quarkus)
-  - [Application Security](#application-security)
-    - [Token Security](#token-security)
-  - [Data Pipelines](#data-pipelines)
-    - [Apache Kafka](#apache-kafka)
-    - [Change Data Capture](#change-data-capture)
-1. [Infrastructure](#infrastructure)
-  - [Cloud Computing](#cloud-computing)
-    - [AWS](#aws)
-  - [Messaging Systems](#messaging-systems)
-    - [Kubernetes Operators](#kubernetes-operators)
-1. [Orchestration](#orchestration)
-  - [Kubernetes](#kubernetes)
-    - [Training and Concepts](#training-and-concepts)
-1. [Research](#research)
-  - [Architecture Analysis](#architecture-analysis)
-    - [Infrastructure Design](#infrastructure-design)
-1. [Software Engineering](#software-engineering)
-  - [APIs](#apis)
-    - [Automation and Scripting](#automation-and-scripting)
-    - [Testing and Lifecycle](#testing-and-lifecycle)
-  - [Microservices](#microservices)
-    - [REST Clients](#rest-clients)
-  - [Web Development](#web-development)
-    - [NodeJS](#nodejs)
-1. [Virtualization and Containers](#virtualization-and-containers)
-  - [Docker](#docker)
-    - [CLI Reference](#cli-reference)
-
 ## Architecture
 
 ### Application Frameworks

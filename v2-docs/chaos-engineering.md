@@ -6,20 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Chaos Engineering in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Resilience](#resilience)
-  - [Chaos Engineering](#chaos-engineering-1)
-    - [Cloud Architecture](#cloud-architecture)
-    - [Continuous Integration](#continuous-integration)
-    - [Curated Resources](#curated-resources)
-    - [Enterprise Platforms](#enterprise-platforms)
-    - [Kubernetes Tools](#kubernetes-tools)
-    - [Operations Strategy](#operations-strategy)
-    - [Serverless Systems](#serverless-systems)
-    - [Stateful Systems](#stateful-systems)
-    - [Telemetry Systems](#telemetry-systems)
-
 ## Resilience
 
 ### Chaos Engineering (1)

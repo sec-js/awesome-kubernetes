@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AI Agents and Model Context Protocol (MCP) for Kubernetes in the context of AI.
 
-## Table of Contents
-
-1. [AI Infrastructure](#ai-infrastructure)
-  - [Distributed Computing](#distributed-computing)
-    - [Kube-Ray](#kube-ray)
-  - [LLM Serving](#llm-serving)
-    - [LocalAI](#localai)
-    - [vLLM](#vllm)
-1. [Cloud Native Operations](#cloud-native-operations)
-  - [AI AIOps](#ai-aiops)
-    - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
-
 ## AI Infrastructure
 
 ### Distributed Computing

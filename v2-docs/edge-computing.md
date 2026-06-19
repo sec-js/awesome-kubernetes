@@ -6,14 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Edge Computing in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [Edge Computing](#edge-computing-1)
-    - [Distributed Systems](#distributed-systems)
-1. [Kubernetes Edge](#kubernetes-edge)
-  - [MicroShift](#microshift)
-
 ## Architecture
 
 ### Edge Computing (1)

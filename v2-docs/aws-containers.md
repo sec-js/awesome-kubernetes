@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Containers in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [Container Compute](#container-compute)
-    - [Container Registries](#container-registries)
-    - [Continuous Deployment](#continuous-deployment)
-    - [Security Practices](#security-practices)
-
 ## Cloud Infrastructure
 
 ### AWS

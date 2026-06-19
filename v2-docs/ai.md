@@ -6,36 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Artificial Intelligence in the context of AI.
 
-## Table of Contents
-
-1. [AI and Orchestration](#ai-and-orchestration)
-  - [Agentic Workflows](#agentic-workflows)
-    - [Command-Line Tools](#command-line-tools)
-1. [Artificial Intelligence](#artificial-intelligence-1)
-  - [Generative AI Engineering](#generative-ai-engineering)
-    - [API Integration Patterns](#api-integration-patterns)
-    - [Architecture Patterns](#architecture-patterns)
-1. [Cloud Native Operations](#cloud-native-operations)
-  - [AI AIOps](#ai-aiops)
-    - [Kubernetes Troubleshooting](#kubernetes-troubleshooting)
-  - [AI-Powered Operations AIOps](#ai-powered-operations-aiops)
-    - [Kubernetes Troubleshooting](#kubernetes-troubleshooting-1)
-  - [Infrastructure as Code](#infrastructure-as-code)
-    - [AI-Assisted IaC](#ai-assisted-iac)
-  - [Kubernetes Orchestration](#kubernetes-orchestration)
-    - [AI Workloads on K8s](#ai-workloads-on-k8s)
-1. [Container Orchestration](#container-orchestration)
-  - [Azure Kubernetes Service](#azure-kubernetes-service)
-    - [AKS Fleet Manager](#aks-fleet-manager)
-1. [Developer Tooling](#developer-tooling)
-  - [AI Code Assistants](#ai-code-assistants)
-    - [Prompt Templates](#prompt-templates)
-1. [Software Engineering](#software-engineering)
-  - [AI-Assisted Development](#ai-assisted-development)
-    - [Multi-Repository Architecture](#multi-repository-architecture)
-  - [Professional Development](#professional-development)
-    - [Core Architectures](#core-architectures)
-
 ## AI and Orchestration
 
 ### Agentic Workflows

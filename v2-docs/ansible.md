@@ -6,31 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Configuration Management. Ansible in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Automation](#automation)
-  - [API Integration](#api-integration)
-    - [Ansible HTTP](#ansible-http)
-1. [Automation and Orchestration](#automation-and-orchestration)
-  - [Configuration Management](#configuration-management)
-    - [Ansible AWX](#ansible-awx)
-1. [Container Orchestration](#container-orchestration)
-  - [Kubernetes](#kubernetes)
-    - [Ansible Integration](#ansible-integration)
-    - [Deployments](#deployments)
-    - [Helm](#helm)
-    - [Helm Integration](#helm-integration)
-    - [Object Management](#object-management)
-    - [Operators](#operators)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Ansible](#ansible)
-    - [Application Servers](#application-servers)
-    - [Comparison](#comparison)
-    - [Containers](#containers)
-    - [NGINX Automation](#nginx-automation)
-  - [Deployment Tools](#deployment-tools)
-    - [Application Deployment](#application-deployment)
-
 ## Automation
 
 ### API Integration

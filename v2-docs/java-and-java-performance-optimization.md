@@ -6,33 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Java and Memory Management in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Kubernetes](#kubernetes)
-    - [Containerized JVM Tuning](#containerized-jvm-tuning)
-    - [JVM Container Optimization](#jvm-container-optimization)
-1. [Infrastructure](#infrastructure)
-  - [Container Orchestration](#container-orchestration)
-    - [Observability](#observability)
-  - [Networking](#networking)
-    - [Development Tools](#development-tools)
-1. [JVM Architecture](#jvm-architecture)
-  - [Ahead-of-Time Compilation](#ahead-of-time-compilation)
-    - [Diagnostics](#diagnostics)
-1. [Observability](#observability-1)
-  - [Application Monitoring](#application-monitoring)
-    - [Java Diagnostics](#java-diagnostics)
-  - [Application Performance Monitoring](#application-performance-monitoring)
-    - [Spring Boot](#spring-boot)
-1. [Software Development](#software-development)
-  - [Caching Strategy](#caching-strategy)
-    - [Performance Optimization](#performance-optimization)
-1. [Software Engineering](#software-engineering)
-  - [Java Virtual Machine](#java-virtual-machine)
-    - [Diagnostics and Troubleshooting](#diagnostics-and-troubleshooting)
-    - [Performance Optimization](#performance-optimization-1)
-
 ## Cloud Native Infrastructure
 
 ### Kubernetes

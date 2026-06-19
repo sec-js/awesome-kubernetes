@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Maven, Gradle and SDKMAN in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Build Systems](#build-systems)
-  - [JVM Ecosystem](#jvm-ecosystem)
-    - [Container Packaging](#container-packaging)
-    - [Project Templating](#project-templating)
-1. [Cloud Providers](#cloud-providers)
-  - [OpenShift and RedHat](#openshift-and-redhat)
-    - [JVM Deployment Patterns](#jvm-deployment-patterns)
-1. [Cloud-Native Java](#cloud-native-java)
-  - [Build Tools](#build-tools)
-    - [Eclipse JKube](#eclipse-jkube)
-      - [Developer Workflow](#developer-workflow)
-      - [Migration](#migration)
-      - [Overview](#overview)
-      - [Quarkus Integration](#quarkus-integration)
-      - [Release Announcement](#release-announcement)
-      - [Release Notes](#release-notes)
-      - [Source Code](#source-code)
-
 ## Build Systems
 
 ### JVM Ecosystem

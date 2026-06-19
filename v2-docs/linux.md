@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Linux and SSH in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Networking and Security](#networking-and-security)
-  - [Data Transfer Protocols](#data-transfer-protocols)
-    - [Command Line Utilities](#command-line-utilities)
-  - [Network Services](#network-services)
-    - [Port Monitoring](#port-monitoring)
-1. [Operating Systems and Infrastructure](#operating-systems-and-infrastructure)
-  - [Linux Kernel](#linux-kernel)
-    - [Container Virtualization](#container-virtualization)
-1. [Software Engineering](#software-engineering)
-  - [Development Tools](#development-tools)
-    - [File System Watching](#file-system-watching)
-  - [Systems Programming](#systems-programming)
-    - [Architecture and Design](#architecture-and-design)
-    - [Time and Serialization](#time-and-serialization)
-
 ## Networking and Security
 
 ### Data Transfer Protocols

@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Monitoring and Logging in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Native Platforms](#cloud-native-platforms)
-  - [AWS](#aws)
-    - [Managed Observability](#managed-observability)
-1. [Observability and Monitoring](#observability-and-monitoring)
-  - [CloudWatch](#cloudwatch)
-    - [Prometheus Integration](#prometheus-integration)
-1. [Service Discovery](#service-discovery)
-  - [AWS Cloud Map](#aws-cloud-map)
-    - [Health Checks](#health-checks)
-
 ## Cloud Native Platforms
 
 ### AWS

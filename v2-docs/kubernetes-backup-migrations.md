@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Backup and Migrations in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Application Migration](#application-migration)
-  - [Modernization](#modernization)
-    - [Enterprise Migration](#enterprise-migration)
-1. [Cloud-Native Migration](#cloud-native-migration)
-  - [Application Modernization](#application-modernization)
-    - [Source-to-Image](#source-to-image)
-1. [Infrastructure](#infrastructure)
-  - [Control Plane](#control-plane)
-    - [ETCD Administration](#etcd-administration)
-  - [Data Protection](#data-protection)
-    - [GitOps Synchronizers](#gitops-synchronizers)
-    - [Kubernetes Backup Operators](#kubernetes-backup-operators)
-  - [Workload Mobility](#workload-mobility)
-    - [Migration Toolkits](#migration-toolkits)
-
 ## Application Migration
 
 ### Modernization

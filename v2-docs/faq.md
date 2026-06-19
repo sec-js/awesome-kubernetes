@@ -6,28 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Microservices FAQ in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [Microservices](#microservices)
-    - [Caching](#caching)
-    - [Decision Frameworks](#decision-frameworks)
-    - [History](#history)
-    - [Resiliency Patterns](#resiliency-patterns)
-1. [Microservices Architecture](#microservices-architecture)
-  - [Dependency Management](#dependency-management)
-    - [Patterns](#patterns)
-  - [Fundamentals](#fundamentals)
-    - [Best Practices](#best-practices)
-    - [Comparisons](#comparisons)
-    - [Roadmap](#roadmap)
-    - [UI and Frontend](#ui-and-frontend)
-  - [Patterns](#patterns-1)
-    - [Service Discovery](#service-discovery)
-1. [Migration](#migration)
-  - [Containerization](#containerization)
-    - [Case Study](#case-study)
-
 ## Architecture
 
 ### Microservices

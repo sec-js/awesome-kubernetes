@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Autoscaling in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [Design Patterns](#design-patterns)
-    - [Sidecar Pattern](#sidecar-pattern)
-1. [Infrastructure and Platform](#infrastructure-and-platform)
-  - [Autoscaling](#autoscaling-1)
-    - [Event-Driven Scaling](#event-driven-scaling)
-    - [Request-Driven Scaling](#request-driven-scaling)
-  - [Performance Engineering](#performance-engineering)
-    - [Load Testing](#load-testing)
-1. [Kubernetes and Scaling](#kubernetes-and-scaling)
-  - [Deployment Tutorials](#deployment-tutorials)
-    - [Enterprise Cloud App](#enterprise-cloud-app)
-  - [Microservices](#microservices)
-    - [Scaling Patterns](#scaling-patterns)
-
 ## Architecture
 
 ### Design Patterns

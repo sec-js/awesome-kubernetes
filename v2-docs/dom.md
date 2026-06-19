@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Document Object Model (DOM) in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Web Development](#web-development)
-  - [DOM](#dom)
-    - [JavaScript](#javascript)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

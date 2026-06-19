@@ -6,22 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Asset Inventory in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Infrastructure and Orchestration](#cloud-infrastructure-and-orchestration)
-  - [Asset Management and Governance](#asset-management-and-governance)
-    - [Cloud Analytics](#cloud-analytics)
-  - [Public Cloud Administration](#public-cloud-administration)
-    - [AWS Fundamentals](#aws-fundamentals)
-    - [Azure Architecture](#azure-architecture)
-  - [Serverless Architecture](#serverless-architecture)
-    - [Case Studies](#case-studies)
-  - [Storage and Databases](#storage-and-databases)
-    - [Distributed Block Storage](#distributed-block-storage)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Architecture](#architecture)
-    - [Diagrams](#diagrams)
-
 ## Cloud Infrastructure and Orchestration
 
 ### Asset Management and Governance

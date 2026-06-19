@@ -6,24 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Liquibase in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Kubernetes Deployment Patterns](#kubernetes-deployment-patterns)
-    - [Database Deployment](#database-deployment)
-1. [Continuous Delivery](#continuous-delivery)
-  - [Database GitOps](#database-gitops)
-    - [Liquibase](#liquibase-1)
-1. [Data Architecture](#data-architecture)
-  - [Database Migrations](#database-migrations)
-    - [Tool Comparison](#tool-comparison)
-1. [Database Architecture](#database-architecture)
-  - [Database GitOps](#database-gitops-1)
-    - [Schema Management](#schema-management)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Database Migration](#database-migration)
-    - [CICD and Delivery](#cicd-and-delivery)
-
 ## Cloud Native Infrastructure
 
 ### Kubernetes Deployment Patterns

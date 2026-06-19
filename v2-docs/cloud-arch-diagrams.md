@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Cloud Architecture Diagram Tools in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [Azure Networking](#azure-networking)
-    - [Network Topology](#network-topology)
-
 ## Cloud Infrastructure
 
 ### Azure Networking
