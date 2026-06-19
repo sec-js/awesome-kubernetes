@@ -13,7 +13,7 @@ from src.logger import log_event
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
-CNCF_LANDSCAPE_URL = "https://landscape.cncf.io/api/items"
+CNCF_LANDSCAPE_URL = "https://landscape.cncf.io/api/items"  # Legacy, now SPA — fallback to GitHub topic search
 GITHUB_API_BASE = "https://api.github.com"
 GITHUB_RATE_DELAY = 0.75  # seconds between GitHub API calls to stay under 5000/hr
 MAX_REPOS_DEFAULT = 500
@@ -74,38 +74,37 @@ def _is_activity_stale(entry: Dict) -> bool:
 # ---------------------------------------------------------------------------
 
 async def fetch_cncf_landscape() -> Dict[str, str]:
-    """Fetch CNCF project graduation status.
+    """Fetch CNCF project graduation status via GitHub topic search.
 
-    Returns dict mapping repo_url (normalized) -> maturity
-    ("sandbox" | "incubating" | "graduated" | "archived").
+    The legacy landscape.cncf.io/api/items endpoint is now a SPA and no
+    longer returns JSON.  Instead, we search GitHub for repos with CNCF
+    maturity topics (cncf-sandbox, cncf-incubating, cncf-graduated).
+
+    Returns dict mapping repo_url (normalized) -> maturity.
     """
     result: Dict[str, str] = {}
+    headers = _github_headers()
+    maturity_queries = {
+        "graduated": "topic:cncf-graduated",
+        "incubating": "topic:cncf-incubating",
+        "sandbox": "topic:cncf-sandbox",
+    }
+
     async with httpx.AsyncClient(timeout=30.0) as client:
-        try:
-            resp = await client.get(CNCF_LANDSCAPE_URL)
-            resp.raise_for_status()
-            items = resp.json()
-        except Exception as e:
-            log_event(f"[WARN] Failed to fetch CNCF landscape: {str(e)[:200]}")
-            return result
-
-    if not isinstance(items, list):
-        log_event("[WARN] CNCF landscape response is not a list; skipping")
-        return result
-
-    for item in items:
-        repo_url = item.get("repo_url") or ""
-        project = item.get("project")
-        if not repo_url or not project:
-            continue
-        maturity = project if isinstance(project, str) else project.get("maturity", "")
-        if not maturity:
-            continue
-        maturity = maturity.lower()
-        if maturity not in ("sandbox", "incubating", "graduated", "archived"):
-            continue
-        normalized = _normalize_repo_url(repo_url)
-        result[normalized] = maturity
+        for maturity, query in maturity_queries.items():
+            try:
+                url = f"{GITHUB_API_BASE}/search/repositories?q={query}&per_page=100"
+                resp = await client.get(url, headers=headers)
+                resp.raise_for_status()
+                data = resp.json()
+                for repo in data.get("items", []):
+                    repo_url = repo.get("html_url", "")
+                    if repo_url:
+                        result[_normalize_repo_url(repo_url)] = maturity
+                log_event(f"  [CNCF] {maturity}: {len(data.get('items', []))} repos found")
+            except Exception as e:
+                log_event(f"[WARN] CNCF {maturity} search failed: {str(e)[:100]}")
+            await asyncio.sleep(GITHUB_RATE_DELAY)
 
     log_event(f"[CNCF] Fetched {len(result)} projects from CNCF landscape")
     return result
