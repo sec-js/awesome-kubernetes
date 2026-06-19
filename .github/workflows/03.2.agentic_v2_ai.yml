@@ -80,8 +80,12 @@ jobs:
             echo "No changes in AI analysis to commit."
           else
             git commit -m "chore: update inventory AI analysis"
-            git pull origin develop --rebase
-            git push origin develop
+            # Retry rebase+push to survive concurrent bot pushes to develop.
+            for i in {1..5}; do
+              git pull origin develop --rebase && git push origin develop && exit 0
+              echo "Push attempt $i/5 rejected — retrying..."; sleep $((i * 3))
+            done
+            echo "::error::Inventory AI-analysis push failed after 5 attempts."; exit 1
           fi
 
       - name: Persist Incremental Inventory to Cache

@@ -59,38 +59,33 @@ jobs:
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
           export PYTHONPATH=$PYTHONPATH:.
-          # Pull latest before committing to shrink the conflict window
-          git pull --no-rebase origin develop
-          # Re-run updater so metrics reflect the latest remote state
-          python src/readme_updater.py
-          python src/safety_readme.py
-          git add README.md
-          if git diff --staged --quiet; then
-            echo "No changes in README.md to commit."
-            exit 0
-          fi
-          git commit -m "docs: automated README metric synchronization [skip ci]"
-          # Push-first loop: try push, then merge-pull on rejection (not rebase)
-          # Using merge avoids --ours/--theirs confusion that plagued the rebase approach
+          # README.md is a *pure function* of the inventory, so we never need to
+          # preserve a local README state: each attempt hard-resets to the freshest
+          # remote tip, regenerates, commits and pushes. This eliminates the two
+          # failure classes that previously broke this job:
+          #   1. Dirty-tree abort — the earlier steps modify README.md, then
+          #      `git pull` aborted with "local changes would be overwritten by merge".
+          #   2. Merge/rebase --ours/--theirs confusion under concurrent bot pushes.
+          # A push can now only be rejected if the remote advanced between reset and
+          # push; we simply retry from the new tip. No conflict resolution required.
           for i in {1..5}; do
-            echo "Push attempt $i/5..."
+            echo "README sync attempt $i/5..."
+            git fetch origin develop
+            git reset --hard origin/develop
+            python src/readme_updater.py
+            python src/safety_readme.py
+            git add README.md
+            if git diff --staged --quiet; then
+              echo "README already in sync with inventory. Nothing to commit."
+              exit 0
+            fi
+            git commit -m "docs: automated README metric synchronization [skip ci]"
             if git push origin develop; then
               echo "Push succeeded on attempt $i."
               exit 0
             fi
-            echo "Attempt $i rejected — integrating remote changes via merge..."
-            git fetch origin develop
-            if ! git merge --no-edit -X ours origin/develop; then
-              # Merge could not auto-resolve; keep bot's README and continue
-              git checkout --ours README.md
-              git add README.md
-              GIT_EDITOR=true git merge --continue
-            fi
-            # Re-compute metrics on the merged state (idempotent)
-            python src/readme_updater.py
-            python src/safety_readme.py
-            git add README.md
-            git diff --staged --quiet || git commit --amend --no-edit
+            echo "Attempt $i rejected — remote advanced, retrying from fresh tip..."
             sleep $((i * 3))
           done
-          git push origin develop
+          echo "::error::README sync failed after 5 attempts (persistent write contention on develop)."
+          exit 1
