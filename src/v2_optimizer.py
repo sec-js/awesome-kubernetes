@@ -753,7 +753,7 @@ class V2VisionEngine:
                 current["__links__"].append(item)
 
         def sort_rec(node):
-            if "__links__" in node: node["__links__"].sort(key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            if "__links__" in node: node["__links__"].sort(key=lambda x: (-(x.get("stars") or 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             for k, v in node.items():
                 if k != "__links__" and isinstance(v, dict): sort_rec(v)
                 
@@ -1033,7 +1033,7 @@ class V2VisionEngine:
             cards_html += '</div>\n</div>\n'
             pulse_md = cards_html
         else:
-            trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -x.get("stars", 0)), reverse=True)
+            trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and (meta.get("stars") or 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -(x.get("stars") or 0)), reverse=True)
             pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('year', 'N/A')})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         # Calculate coverage for the index
@@ -1453,7 +1453,7 @@ class V2VisionEngine:
             md += f"<summary>{summary_text}</summary>\n\n"
             
             # Sort links under this tag by impact stars and then by year
-            sorted_links = sorted(by_tag[tag], key=lambda x: (-x.get("stars", 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            sorted_links = sorted(by_tag[tag], key=lambda x: (-(x.get("stars") or 1), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
             
             rendered_links = sorted_links[:100]
             for l in rendered_links:
