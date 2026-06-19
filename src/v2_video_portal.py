@@ -78,12 +78,34 @@ def extract_youtube_id(url):
 def get_target_file(category, technology):
     cat_lower = category.lower()
     tech_lower = technology.lower()
-    
-    if "agent" in tech_lower or "mcp" in tech_lower or "ai and future operations" in cat_lower:
+
+    if "agent" in tech_lower or "mcp" in tech_lower or "ai and future operations" in cat_lower or "llm" in tech_lower or "chatgpt" in tech_lower:
         return "ai-agents.md", "AI Agents and MCP"
-    elif "infrastructure as code" in cat_lower or "security" in cat_lower or "observability" in cat_lower or "monitoring" in cat_lower or "devops" in tech_lower or "iac" in tech_lower or "sre" in tech_lower:
+    elif "mlops" in tech_lower or "data science" in cat_lower or "machine learning" in tech_lower:
+        return "ai-agents.md", "AI Agents and MCP"
+    elif "security" in cat_lower or "devsecops" in tech_lower or "zero trust" in tech_lower or "vulnerability" in tech_lower:
         return "devops-iac.md", "DevOps, IaC, and SRE"
-    elif "fundamentals" in cat_lower:
+    elif "infrastructure as code" in cat_lower or "observability" in cat_lower or "monitoring" in cat_lower or "devops" in tech_lower or "iac" in tech_lower or "sre" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "terraform" in tech_lower or "ansible" in tech_lower or "pulumi" in tech_lower or "crossplane" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "gitops" in tech_lower or "argo" in tech_lower or "flux" in tech_lower or "tekton" in tech_lower or "jenkins" in tech_lower or "cicd" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "prometheus" in tech_lower or "grafana" in tech_lower or "opentelemetry" in tech_lower or "otel" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "finops" in tech_lower or "cost" in tech_lower or "kubecost" in tech_lower:
+        return "devops-iac.md", "DevOps, IaC, and SRE"
+    elif "fundamentals" in cat_lower or "certification" in tech_lower or "cka" in tech_lower or "training" in cat_lower:
+        return "fundamentals.md", "Fundamentals"
+    elif "aws" in tech_lower or "azure" in tech_lower or "gcp" in tech_lower or "google cloud" in tech_lower:
+        return "cloud-native.md", "Cloud Native Core"
+    elif "openshift" in tech_lower or "red hat" in tech_lower or "rancher" in tech_lower:
+        return "cloud-native.md", "Cloud Native Core"
+    elif "vmware" in tech_lower or "proxmox" in tech_lower or "virtualization" in tech_lower:
+        return "cloud-native.md", "Cloud Native Core"
+    elif "docker" in tech_lower or "container" in tech_lower or "podman" in tech_lower:
+        return "cloud-native.md", "Cloud Native Core"
+    elif "python" in tech_lower or "golang" in tech_lower or "java" in tech_lower or "javascript" in tech_lower:
         return "fundamentals.md", "Fundamentals"
     else:
         return "cloud-native.md", "Cloud Native Core"
