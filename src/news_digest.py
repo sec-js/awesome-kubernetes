@@ -145,6 +145,12 @@ class NewsDigestEngine:
         "12_months": 365,
     }
 
+    ITEMS_PER_PERIOD: Dict[str, int] = {
+        "3_months": 10,
+        "6_months": 15,
+        "12_months": 20,
+    }
+
     # ------------------------------------------------------------------ #
 
     def __init__(self) -> None:
@@ -185,17 +191,20 @@ class NewsDigestEngine:
 
     @staticmethod
     def _is_within_period(entry: dict, cutoff_iso: str) -> bool:
-        """Return *True* when the entry's ``discovered_at`` is on or after
-        the ISO-formatted *cutoff_iso* string.  ISO 8601 strings sort
-        lexicographically so a simple ``>=`` comparison is sufficient.
-        """
+        """Check if entry falls within the time period using discovered_at,
+        with year field as fallback for backfilled entries."""
         discovered = entry.get("discovered_at", "")
-        if not discovered:
-            return False
-        try:
-            return discovered >= cutoff_iso
-        except Exception:
-            return False
+        if discovered:
+            try:
+                if discovered >= cutoff_iso:
+                    return True
+            except Exception:
+                pass
+        year = entry.get("year", "")
+        if year and isinstance(year, str) and year.isdigit():
+            cutoff_year = cutoff_iso[:4] if len(cutoff_iso) >= 4 else "2020"
+            return year >= cutoff_year
+        return False
 
     # ------------------------------------------------------------------ #
     # Prompt builder                                                      #
@@ -253,8 +262,8 @@ class NewsDigestEngine:
                 "url": e["url"],
                 "title": e.get("title", "Unknown"),
                 "date": e.get("discovered_at", "")[:10],
-                "stars": e.get("stars", 0),
-                "impact": "high" if e.get("stars", 0) >= 4 else "medium",
+                "stars": e.get("stars") or 0,
+                "impact": "high" if (e.get("stars") or 0) >= 4 else "medium",
                 "why": (e.get("ai_summary", "") or "")[:200],
                 "category": cat_name,
             }
@@ -316,14 +325,14 @@ class NewsDigestEngine:
                     reverse=True,
                 )
 
+                max_items = self.ITEMS_PER_PERIOD.get(period_name, 10)
+
                 if len(entries) < 3:
-                    # Too few entries – include all without AI ranking
                     digest[period_name][cat_name] = self._fallback_items(
-                        entries, cat_name
+                        entries, cat_name, limit=max_items
                     )
                     continue
 
-                # Ask Gemini to rank
                 try:
                     prompt = self._build_ranking_prompt(
                         cat_name, entries, period_name
@@ -351,7 +360,7 @@ class NewsDigestEngine:
                                 }
                             )
 
-                    digest[period_name][cat_name] = ranked[:10]
+                    digest[period_name][cat_name] = ranked[:max_items]
                     log_event(
                         f"  [Digest] {period_name}/{cat_name}: "
                         f"{len(ranked)} items ranked"
@@ -364,7 +373,7 @@ class NewsDigestEngine:
                         "using star-based fallback"
                     )
                     digest[period_name][cat_name] = self._fallback_items(
-                        entries, cat_name
+                        entries, cat_name, limit=max_items
                     )
 
                 # Respect Gemini rate limits
