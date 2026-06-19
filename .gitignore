@@ -351,6 +351,7 @@ MigrationBackup/
 # Automatización Nubenetes
 src/__pycache__/
 *.json
+!data/news_digest.json
 .env
 nubenetes_agent_env/
 .venv/
