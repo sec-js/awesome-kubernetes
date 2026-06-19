@@ -182,11 +182,38 @@ class NewsDigestEngine:
         return None
 
     def _get_entry_geo(self, entry: dict) -> str | None:
-        """Return the geo digest category if ``geo_region`` matches."""
+        """Return the geo digest category using geo_region field, falling back to URL TLD inference."""
         region = entry.get("geo_region", "")
         for geo_name, geo_val in self.GEO_CATEGORIES.items():
             if region == geo_val:
                 return geo_name
+        # Fallback: infer from URL TLD
+        return self._infer_geo_from_url(entry.get("url", ""))
+
+    @staticmethod
+    def _infer_geo_from_url(url: str) -> str | None:
+        """Infer geo category from URL TLD. Returns GEO_CATEGORIES key or None."""
+        try:
+            from urllib.parse import urlparse
+            host = urlparse(url).hostname or ""
+            # Ordered longest-first to avoid .uk matching before .co.uk
+            tld_to_region = [
+                (".com.au", "Asia-Pacific"), (".co.uk", "Europe"), (".co.jp", "Asia-Pacific"),
+                (".co.kr", "Asia-Pacific"), (".com.br", "Americas"), (".com.mx", "Americas"),
+                (".es", "España"), (".de", "Europe"), (".fr", "Europe"), (".it", "Europe"),
+                (".pt", "Europe"), (".nl", "Europe"), (".be", "Europe"), (".se", "Europe"),
+                (".dk", "Europe"), (".fi", "Europe"), (".no", "Europe"), (".ch", "Europe"),
+                (".at", "Europe"), (".pl", "Europe"), (".cz", "Europe"), (".uk", "Europe"),
+                (".ie", "Europe"), (".eu", "Europe"), (".cn", "Asia-Pacific"),
+                (".jp", "Asia-Pacific"), (".kr", "Asia-Pacific"), (".sg", "Asia-Pacific"),
+                (".in", "Asia-Pacific"), (".au", "Asia-Pacific"), (".nz", "Asia-Pacific"),
+                (".ca", "Americas"), (".mx", "Americas"), (".br", "Americas"),
+            ]
+            for tld, region in tld_to_region:
+                if host.endswith(tld):
+                    return region
+        except Exception:
+            pass
         return None
 
     @staticmethod
