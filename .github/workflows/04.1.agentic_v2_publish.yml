@@ -124,37 +124,49 @@ jobs:
           python -m src.safety_readme
 
       - name: Commit and Push V2 Elite Updates
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: |
           git config --global user.name "Nubenetes Bot"
           git config --global user.email "bot@nubenetes.com"
           git add -A
           if git diff --staged --quiet; then
             echo "No automated changes to commit."
-          else
-            git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
-            # Pull, rebase, and push with automatic resolution of README.md conflicts
-            for i in {1..5}; do
-              if git pull origin develop --rebase; then
-                if git push origin develop; then
-                  exit 0
-                fi
-              else
-                echo "Rebase conflict detected, attempting self-healing..."
-                # Discard local conflicting changes to README.md and accept remote
-                git checkout --ours README.md || git checkout --theirs README.md
-                git add README.md
-                # Continue rebase
-                GIT_EDITOR=true git rebase --continue || { git rebase --abort; git pull origin develop; }
-                # Re-run README sync to update metrics with remote state incorporated
-                python -m src.readme_updater
-                python -m src.safety_readme
-                git add README.md
-                git commit --amend --no-edit
-              fi
-              sleep 5
-            done
-            git push origin develop
+            exit 0
           fi
+          git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
+          OUR=$(git rev-parse HEAD)
+          # Deterministic publish loop (replaces the fragile rebase + --ours/--theirs
+          # self-healing that could hang on a conflict and discard the bot's metrics).
+          # The render is authoritative for its generated surface, so each attempt:
+          #   1. hard-resets to the freshest remote tip (no conflict possible),
+          #   2. overlays our generated outputs verbatim (docs/, v2-docs/, inventory,
+          #      news_digest) — source configs in data/ are left untouched,
+          #   3. regenerates README.md (a pure function of the inventory) on top,
+          #   4. commits and pushes; on rejection it retries from the new tip.
+          GENERATED="docs v2-docs data/inventory.yaml data/inventory.sql data/news_digest.json"
+          for i in {1..5}; do
+            echo "Publish attempt $i/5..."
+            git fetch origin develop
+            git reset --hard origin/develop
+            git checkout "$OUR" -- $GENERATED
+            python -m src.readme_updater
+            python -m src.safety_readme
+            git add -A
+            if git diff --staged --quiet; then
+              echo "Remote already matches this render. Nothing to push."
+              exit 0
+            fi
+            git commit -m "feat: sync V2 elite curated edition and README metrics [skip ci]"
+            if git push origin develop; then
+              echo "Push succeeded on attempt $i."
+              exit 0
+            fi
+            echo "Attempt $i rejected — remote advanced, retrying from fresh tip..."
+            sleep $((i * 3))
+          done
+          echo "::error::V2 publish push failed after 5 attempts (persistent write contention on develop)."
+          exit 1
 
       - name: Create or Update Promotion PR to Master
         env:
