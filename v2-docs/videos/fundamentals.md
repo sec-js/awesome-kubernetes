@@ -1,4 +1,4 @@
-# Fundamentals
+# 🎥 Fundamentals
 
 !!! tip "Nubenetes V2 Elite Portal"
     You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).
@@ -8,8 +8,7 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
 ## Table of Contents
 
 1. [Kubernetes](#kubernetes)
-2. [Jenkins](#jenkins)
-3. [Spring Framework](#spring-framework)
+2. [Spring Framework](#spring-framework)
 
 ## Kubernetes
 
@@ -190,18 +189,6 @@ Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated hig
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
-
-    </center>
-
-## Jenkins
-
-??? note "🎬 Jenkins Tutorials"
-    !!! info "Architectural Summary"
-        This comprehensive video series details core Jenkins CI/CD automation techniques, including Pipeline-as-Code implementations and system management best practices. In a 2026 cloud-native context, mastering Jenkins remains critical for orchestrating complex build pipelines, bridging the gap between legacy infrastructure and modern Kubernetes deployment targets. The tutorials provide foundational architectural patterns for establishing scalable, automated, and reproducible continuous integration workflows across distributed enterprise environments.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=GBJtqv36O8bslj9z&amp;list=PLvBBnHmZuNQJeznYL2F-MpZYBUeLIXYEe" title="Jenkins Tutorials" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 
