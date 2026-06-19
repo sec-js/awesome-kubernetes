@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.15]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.15) - 2026-06-19
+
+### Changed
+- **Navigable Intelligence Digest TOC**: The Tech & Cloud and Industry & Geo digest pages now show their sections in the right-hand "On this page" TOC. They were rendered period-first (three time-window tabs, each nesting every category as **bold text**), so the pages had zero real headings and an empty TOC. Inverted the layout in `_generate_digest_pages()` to **category-first**: each category is a real `##` heading (Kubernetes & Orchestration, Containers & Runtime, … / Americas, Europe, Spain, Asia-Pacific), with the three time-windows (3 / 6 / 12 months) as content tabs *inside* each category. The TOC now lists all 22 tech categories and 4 geo regions exactly once, headings sit at column 0 (no more MD023 workaround), and the tabbed UX is preserved.
+
 ## [[2.9.14]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.14) - 2026-06-19
 
 ### Changed
