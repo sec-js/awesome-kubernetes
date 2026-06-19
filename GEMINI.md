@@ -401,3 +401,6 @@ This repository uses **Gitflow**. All agents and automated processes MUST follow
 - **Major**: breaking changes or architectural shifts
 - **Minor**: new features (modules, digest categories, new pipelines)
 - **Patch**: bug fixes, config tweaks, content updates
+
+## URL Policy: Clean URLs (Mandatory)
+Both V1 (`mkdocs.yml`) and V2 (`v2-mkdocs.yml`) MUST use `use_directory_urls: true` to produce clean URLs like `/kubernetes/` instead of `/kubernetes.html`. **NEVER** enable the MkDocs `offline` plugin — it forces `.html` suffixes on all URLs, breaking SEO authority and thousands of existing deep-links. This is a hard, non-negotiable rule.

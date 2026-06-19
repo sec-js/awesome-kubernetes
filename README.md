@@ -439,6 +439,10 @@ The V2 portal includes an **AI-powered Intelligence Digest** system that surface
 - **Minify Plugin** for production HTML optimization
 - **12 Stub Pages Merged** into parent categories with automatic redirects (e.g., `react.md` → `javascript.md`, `chef.md` → `ansible.md`, `oauth.md` → `securityascode.md`)
 
+#### V2 URL Policy (June 2026)
+- **Clean URLs enforced**: Both V1 and V2 use `use_directory_urls: true` producing SEO-friendly URLs (e.g., `/kubernetes/` not `/kubernetes.html`).
+- **Offline plugin permanently removed**: The MkDocs `offline` plugin forces `.html` suffixes on all URLs, breaking thousands of existing deep-links and SEO authority. It is explicitly forbidden in both `CLAUDE.md` and `GEMINI.md` mandates.
+
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
 
