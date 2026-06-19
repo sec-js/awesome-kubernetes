@@ -71,7 +71,7 @@ def find_title_duplicates(inventory: Dict, threshold: float = 0.85) -> List[Tupl
         norm = normalize_title(title)
         if len(norm) < 10:
             continue
-        entries.append((url, norm, entry.get("stars", 0)))
+        entries.append((url, norm, entry.get("stars") or 0))
 
     log_event(f"[Dedup] Building title index for {len(entries)} entries...")
 
@@ -105,7 +105,7 @@ def find_title_duplicates(inventory: Dict, threshold: float = 0.85) -> List[Tupl
 
 def _entry_score(entry: Dict) -> Tuple:
     return (
-        entry.get("stars", 0),
+        entry.get("stars") or 0,
         1 if entry.get("ai_summary") else 0,
         1 if entry.get("hierarchy") else 0,
         len(entry.get("tags", [])),

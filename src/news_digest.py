@@ -319,8 +319,8 @@ class NewsDigestEngine:
             for cat_name, entries in category_pools.items():
                 entries.sort(
                     key=lambda x: (
-                        x.get("stars", 0),
-                        x.get("discovered_at", ""),
+                        x.get("stars") or 0,
+                        x.get("discovered_at") or "",
                     ),
                     reverse=True,
                 )
