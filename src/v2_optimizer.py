@@ -1055,45 +1055,6 @@ class V2VisionEngine:
             "    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.\n"
         )
 
-        # Build digest-preview block for index
-        priority_cats = [
-            "Kubernetes & Orchestration", "AI & Agents", "Security & Compliance",
-            "Infrastructure as Code", "Observability, SRE & Testing", "CI/CD & GitOps"
-        ]
-        cat_short = {
-            "Kubernetes & Orchestration": "Kubernetes",
-            "AI & Agents": "AI & Agents",
-            "Security & Compliance": "Security",
-            "Infrastructure as Code": "IaC",
-            "Observability, SRE & Testing": "Observability",
-            "CI/CD & GitOps": "CI/CD",
-        }
-        digest_preview_md = ""
-        if digest_data and "3_months" in digest_data:
-            preview_items = []
-            for cat in priority_cats:
-                entries = digest_data["3_months"].get(cat, [])
-                if entries:
-                    e = entries[0]
-                    title = nuclear_strip(e.get("title", ""))[:65]
-                    preview_items.append((cat_short.get(cat, cat), title, e.get("url", "#")))
-            if preview_items:
-                rows = "\n".join(
-                    f'    <li><span class="digest-preview-cat">{c}</span> <a href="{u}">{t}</a></li>'
-                    for c, t, u in preview_items[:5]
-                )
-                digest_preview_md = (
-                    '<div class="digest-preview">\n'
-                    '  <div class="digest-preview-header">\n'
-                    '    <span class="digest-preview-title">📊 Intelligence Digest — Top Picks (Last 3 Months)</span>\n'
-                    '    <a href="./tech-digest/" class="digest-preview-link">View all 22 categories →</a>\n'
-                    '  </div>\n'
-                    '  <ul class="digest-preview-list">\n'
-                    f'{rows}\n'
-                    '  </ul>\n'
-                    '</div>\n\n'
-                )
-
         index_md = (
             "# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "!!! tip \"Nubenetes V2 Elite Portal: AI-Curated & High-Density\"\n"
@@ -1159,7 +1120,6 @@ class V2VisionEngine:
             "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
             f"{coverage_info}\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
-            f"{digest_preview_md}"
             f"{pulse_md}\n\n"
             "## Strategic Dimensions\n"
             "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**\n\n"

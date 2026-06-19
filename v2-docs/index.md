@@ -123,20 +123,6 @@
 </div>
 </center>
 
-<div class="digest-preview">
-  <div class="digest-preview-header">
-    <span class="digest-preview-title">📊 Intelligence Digest — Top Picks (Last 3 Months)</span>
-    <a href="./tech-digest/" class="digest-preview-link">View all 22 categories →</a>
-  </div>
-  <ul class="digest-preview-list">
-    <li><span class="digest-preview-cat">Kubernetes</span> <a href="https://www.apptio.com/products/kubecost/?src=kc-com">Kubecost — real-time cost allocation for multi-cluster K8s</a></li>
-    <li><span class="digest-preview-cat">AI & Agents</span> <a href="https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview">Claude Code CLI — agentic AI coding assistant</a></li>
-    <li><span class="digest-preview-cat">Security</span> <a href="https://github.com/policy-hub/policy-hub-cli">PolicyHub CLI — searchable Rego policy library</a></li>
-    <li><span class="digest-preview-cat">IaC</span> <a href="https://github.com/shuaibiyy/awesome-tf">Awesome Terraform — curated Terraform resources</a></li>
-    <li><span class="digest-preview-cat">Observability</span> <a href="https://grafana.com/blog/how-to-manage-high-cardinality-metrics-in-prometheus-and-kubernetes">Grafana: High cardinality metrics in Prometheus & K8s</a></li>
-  </ul>
-</div>
-
 ## The Agentic Pulse
 - **(2026)** [**==abarrak.gitbook.io: Linux SysOps Handbook 🌟==**](https://abarrak.gitbook.io/linux-sysops-handbook) 🌟🌟🌟🌟
 - **(2026)** [**==Google I/O 2026 Official NotebookLM Document==**](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook%2F87ae4230-9dda-445a-9775-df61ad7044dc%3Fauthuser%253D0%2526pageId%253Dnone&dsh=S-651079724%3A1780398802084305&followup=https%3A%2F%2Fnotebooklm.google.com%2Flogin%3Fcontinue%3Dhttps%3A%2F%2Fnotebooklm.google.com%2Fnotebook%2F87ae4230-9dda-445a-9775-df61ad7044dc%3Fauthuser%253D0%2526pageId%253Dnone&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PavtOIva2wcDqJnQlJq3nohbB8kL26HoI0qLEI-ErQFf9Roi9aGt-ViI1YzZGxXTHSAzER9n) 🌟🌟🌟🌟
