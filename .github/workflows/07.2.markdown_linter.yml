@@ -10,6 +10,11 @@ on:
     paths:
       - '**/*.md'
 
+# Supersede in-flight lint runs for the same PR/branch on new commits.
+concurrency:
+  group: md-linter-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   lint:
     runs-on: ubuntu-latest

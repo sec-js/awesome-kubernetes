@@ -10,6 +10,11 @@ on:
         required: false
         type: string
 
+# Cancel superseded Guardian runs when a PR is updated (saves CI minutes + Gemini calls).
+concurrency:
+  group: pr-guardian-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   agentic-presubmit:
     runs-on: ubuntu-latest
@@ -35,6 +40,11 @@ jobs:
           pip install --no-cache-dir pydantic PyGithub httpx fake-useragent pytz python-dotenv pyyaml tenacity
 
       - name: Run PR Guardian Analysis
+        # Advisory gate: the Guardian is an AI heuristic that can misattribute
+        # pre-existing lines or mischaracterize a PR. It always posts its findings
+        # as a PR comment, but a non-zero exit must NOT show the PR as a blocking
+        # red ❌. continue-on-error keeps the check green while preserving the comment.
+        continue-on-error: true
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}

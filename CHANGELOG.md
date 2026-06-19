@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.13]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.13) - 2026-06-19
+
+### Fixed
+- **README Sync Dirty-Tree / Race Failure (root cause)**: `05.1.readme_sync.yml` modified `README.md` in earlier steps and then ran `git pull`, which aborted with *"Your local changes to README.md would be overwritten by merge"* — guaranteed to fail whenever a concurrent bot commit (e.g. the V2 Publisher's `[skip ci]` sync) advanced `develop` first. Rewrote the commit step as a `fetch → reset --hard origin/develop → regenerate → commit → push` retry loop. Since `README.md` is a *pure function* of the inventory, hard-resetting to the freshest remote tip is always safe and removes the merge-conflict and `--ours/--theirs` confusion classes entirely. A push is now only rejected if the remote advances mid-attempt, in which case it retries from the new tip.
+
+### Changed
+- **Inventory Push Retries (03.1 / 03.2 / 03.3)**: The metadata, AI-analysis and Video-Hub workflows did a single `git pull --rebase && git push` with no retry, so any rejection from a concurrent push failed the run. Wrapped each in a 5-attempt rebase+push loop (matching the proven `09.weekly_digest.yml` idiom).
+- **PR Guardian is now advisory (07.1)**: The AI presubmit is a heuristic that can misattribute pre-existing lines or mischaracterize a PR (it flagged an untouched `about.md` line on PR #392). It still posts its findings as a PR comment, but `continue-on-error: true` stops a non-zero exit from showing the PR as a blocking red ❌. Added PR-scoped `concurrency` so superseded runs are cancelled (saving CI minutes and Gemini calls).
+- **Markdown Linter concurrency (07.2)**: Added PR/branch-scoped `concurrency` with `cancel-in-progress` so new commits supersede in-flight lint runs.
+
 ## [[2.9.12]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.12) - 2026-06-19
 
 ### Fixed
