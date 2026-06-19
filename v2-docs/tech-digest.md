@@ -5,7 +5,7 @@
 
 === "Last 3 Months"
 
-    ## Kubernetes & Orchestration
+    **Kubernetes & Orchestration**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -20,7 +20,7 @@
     | 2026-06-14 | [Serverless Architectures](https://nubenetes.com/serverless) | 🟡 high | In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-manage |
     | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🟡 high | Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3 |
 
-    ## Containers & Runtime
+    **Containers & Runtime**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -35,7 +35,7 @@
     | 2026-06-11 | [hadolint/hadolint: Haskell Dockerfile Linter](https://github.com/hadolint/hadolint) | 🟡 high | Hadolint is a Haskell-based linter that parses Dockerfiles and validates them against container best practices and Shellcheck rules. It ensures developers avoid common pitfalls such as running as root |
     | 2026-06-09 | [stepchowfun/docuum: Docuum: LRU eviction of Docker images 🌟](https://github.com/stepchowfun/docuum) | 🟡 high | Docuum is a robust, Rust-based daemon designed to run on container hosts to execute Least Recently Used (LRU) image eviction. When host disk usage exceeds a defined threshold, Docuum safely removes in |
 
-    ## Networking & Service Mesh
+    **Networking & Service Mesh**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -50,7 +50,7 @@
     | 2026-06-01 | [Linkerd](https://linkerd.io) | 🟡 high | The ultra-lightweight, CNCF-graduated Linkerd service mesh. Built on a custom Rust data-plane proxy, it delivers security (automatic mTLS), latency optimization, and traffic management with minimal CP |
     | 2026-06-01 | [memcached.org](https://memcached.org) | 🟡 high | An industry-standard distributed memory object caching system designed for extreme performance and simplicity. Utilizing multi-threaded slab allocation, Memcached continues to serve as the default hig |
 
-    ## Architecture & Microservices
+    **Architecture & Microservices**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -65,7 +65,7 @@
     | 2026-06-13 | [Awesome Angular](https://github.com/PatrickJS/awesome-angular) | 🟡 high | A comprehensive curated collection of modules, state management patterns (NgRx), and testing pipelines for the Angular framework. Primarily useful for frontend web development teams constructing large |
     | 2026-06-12 | [github.com/kubernetes: Kubernetes Icons Set](https://github.com/kubernetes/community/tree/main/icons) | 🟡 high | The official CNCF-maintained Kubernetes graphic catalog containing SVGs and PNGs representing key system objects like Pods, Services, Deployments, ingress, and Custom Resources. Vital for creating hig |
 
-    ## Data, Messaging & Storage
+    **Data, Messaging & Storage**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -80,14 +80,12 @@
     | 2026-06-12 | [percona/pg_stat_monitor](https://github.com/percona/pg_stat_monitor) | 🟡 high | Percona's advanced query performance monitoring extension for PostgreSQL. Extends the capabilities of pg_stat_statements with bucket-based statistics, client IP address tracking, visual execution plan |
     | 2026-06-12 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🟡 high | Velero is the standard open-source utility for safely backing up and restoring entire Kubernetes cluster structures and persistent volumes. Deeply integrates with both raw cloud APIs and file-level ut |
 
-    ## AI & Agents
+    **AI & Agents**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering.
-Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents.
-Enables developers to transition from local prototype builds to secure GK |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering. Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents. Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-18 | [cursor.com: Cursor AI Code Editor](https://cursor.com) | 🟡 high | The premier AI-first code editor, built as a fork of VS Code, offering features like Cursor Tab (smart autocomplete), Cmd+K (inline edits), Composer (multi-file agentic code generation), and deep code |
     | 2026-06-14 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🟡 high | Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integ |
     | 2026-06-14 | [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) | 🟡 high | The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured JSON mo |
@@ -97,7 +95,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-12 | [Skills for Real Engineers](https://github.com/mattpocock/skills) | 🟡 high | An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on ca |
     | 2026-06-11 | [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 🟡 high | Curator Insight: A community-curated collection of servers implementing the Model Context Protocol. Live Grounding: Aggregates verified integrations linking AI models to tools like relational database |
 
-    ## MLOps & Data Science
+    **MLOps & Data Science**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -112,7 +110,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-05-25 | [github.com/XuehaiPan/nvitop 🌟](https://github.com/XuehaiPan/nvitop) | 🟡 high | An interactive, terminal-based GPU monitoring tool that acts as a modern replacement for nvidia-smi. It provides real-time tracking of GPU resource consumption, memory configurations, process owners,  |
     | 2026-05-21 | [tensorchord/envd: Reproducible development environment for AI/ML 🌟](https://github.com/tensorchord/envd) | 🔵 medium | An innovative local development environment generator for ML engineering. Envd translates Python declarations into isolated container definitions, ensuring high reproducibility for CUDA packages, pip  |
 
-    ## Python, Java & Developer Ecosystem
+    **Python, Java & Developer Ecosystem**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -123,21 +121,17 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-14 | [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) | 🟡 high | A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and moc |
     | 2026-06-13 | [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) | 🟡 high | Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check endpoint |
     | 2026-06-13 | [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) | 🟡 high | A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states, JVM  |
-    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures.
-Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
+    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures. Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
     | 2026-06-13 | [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) | 🟡 high | The official Visual Studio Code Go extension, providing rich language support via the Go Language Server (gopls). Integrates Delve for robust debugging, automated importing, structural profiling, and  |
     | 2026-06-13 | [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens) | 🟡 high | Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewrit |
 
-    ## Linux & System Foundations
+    **Linux & System Foundations**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions.
-Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
-    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot.
-Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
-    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents.
-Assists developers from specification to implementation, verification, and |
+    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions. Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
+    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot. Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
+    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents. Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | 🟡 high | The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it details advanced processes, pipeline debugging, and cloud utility integrations. Live Grounding establish |
     | 2026-06-18 | [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) | 🟡 high | GitHub Flow is a lightweight, branch-based workflow that supports continuous delivery by eliminating the complex branching structures of older patterns. Developers work on short-lived feature branches |
     | 2026-06-14 | [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot) | 🟡 high | Odoo's foundational merge-bot built to orchestrate massive volume commits across multi-repository dependencies. It employs highly robust state-machine mechanics to validate test combinations and keep  |
@@ -146,7 +140,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-12 | [github.com/actions/actions-runner-controller 🌟](https://github.com/actions/actions-runner-controller) | 🟡 high | Official Kubernetes operator designed to manage self-hosted GitHub Actions runner infrastructure dynamically. Integrates natively with Horizontal Pod Autoscaler (HPA) targets to scale runner deploymen |
     | 2026-06-12 | [git-lfs/git-lfs: Git Large File Storage](https://github.com/git-lfs/git-lfs) | 🟡 high | An open-source Git extension that swaps massive media elements and build binaries for lightweight reference pointers. Reduces main repository bloat to improve checkout times in large-scale operations. |
 
-    ## Security & Compliance
+    **Security & Compliance**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -161,7 +155,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-13 | [Pomerium](https://github.com/pomerium/pomerium) | 🟡 high | Pomerium acts as an identity-aware, security-oriented context reverse proxy designed to establish robust Zero Trust access policies without relying on client-side VPN installations. It integrates with |
     | 2026-06-13 | [github.com/prowler-cloud/prowler 🌟🌟](https://github.com/prowler-cloud/prowler) | 🟡 high | An industry-standard tool for Cloud Security Posture Management (CSPM). It systematically audits multi-cloud infrastructures against CIS benchmarks, GDPR, and PCI-DSS rules, outputting detailed securi |
 
-    ## Infrastructure as Code
+    **Infrastructure as Code**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -176,7 +170,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [graphviz.org](https://graphviz.org) | 🟡 high | Open-source graph visualization software. Frequently paired with `terraform graph` to render DOT files into legible visual topologies, depicting complex network, instance, and workspace dependency gra |
     | 2026-05-29 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | The industry-standard, community-maintained Terraform module for Amazon EKS. Features exhaustive support for managed/self-managed node pools, AWS Fargate integration, security group orchestration, and |
 
-    ## CI/CD & GitOps
+    **CI/CD & GitOps**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -191,7 +185,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [onedev](https://github.com/theonedev/onedev) | 🟡 high | An all-in-one, highly scalable self-hosted Git service and CI/CD platform. Features visual pipeline construction, interactive code navigation, and issue-tracking, optimized to run as a single-node set |
     | 2026-06-14 | [pipeline-graph-view-plugin 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) | 🟡 high | The underlying backend and visualization architecture for the Pipeline Graph View. Utilizing React components, it interfaces with Jenkins Core APIs to supply real-time execution graphs and state repor |
 
-    ## Observability, SRE & Testing
+    **Observability, SRE & Testing**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -206,7 +200,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-13 | [Grafana Tempo](https://github.com/grafana/tempo) | 🟡 high | A high-scale, cost-effective distributed tracing backend designed to work exclusively with object storage like S3 or GCS. In 2026, Tempo has consolidated its position as the premier choice for large-s |
     | 2026-06-13 | [github.com/prometheus/prometheus](https://github.com/prometheus/prometheus) | 🟡 high | Source codebase for Prometheus, the benchmark cloud-native telemetry engine. Employs active scraping mechanics over HTTP alongside a custom-built local TSDB to deliver sub-second querying speeds and p |
 
-    ## DevOps & Culture
+    **DevOps & Culture**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -221,7 +215,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [puppet.com: The 2021 State of DevOps Report is here! 🌟](https://www.puppet.com/resources/state-of-devops-report) | 🟡 high | Landmark research report outlining DevOps adoption phases, focusing on the critical role of platform engineering and self-service capabilities in accelerating organizational maturity. Delivers quantif |
     | 2026-06-14 | [Google Docs: doc.new](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&dsh=S-551027576%3A1779031360486315&followup=https%3A%2F%2Fdocs.google.com%2Fdocument%2Fu%2F0%2Fcreate%3Fusp%3Ddot_new&ltmpl=docs&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&ifkv=AWa2PasT3fzmBVDogbYOa448WODYqcNpbr94eLlOd4kL-w5BLgVa3s5bweNB_q-BV6hVUtWFJzfuoQ) | 🟡 high | Direct shortcut mechanism for instantly initializing an empty, collaborative Google Doc environment under the user's active Google account identity. Highly useful for collaborative platform runtime do |
 
-    ## Platform Engineering & DevEx
+    **Platform Engineering & DevEx**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -236,7 +230,7 @@ Assists developers from specification to implementation, verification, and |
     | 2025-08-22 | [Markdown Cheat Sheet 4](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) | 🟡 high | One of the most starred and utilized Markdown references on GitHub. Curator Insight emphasizes its extreme offline utility. Live Grounding validates its legacy status as the primary standard for forma |
     | 2026-06-02 | [Google Developers Profile Dashboard](https://developers.google.com/profile/u/me/dashboard) | 🟡 high | An enterprise portal centralizing developer badges, certification pathways, and continuous education tracks for Google architectures. Allows developers to monitor personalized progress in platform-spe |
 
-    ## FinOps & Cloud Cost
+    **FinOps & Cloud Cost**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -251,7 +245,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-17 | [aws.amazon.com: Amazon S3 Glacier Price Reduction](https://aws.amazon.com/es/blogs/aws/amazon-s3-glacier-price-reduction) | 🟡 high | Analyses structural price reductions on S3 Glacier archiving solutions. Evaluates its architectural impact for enterprises storing high-volume data lakes and maintaining long-term historical complianc |
     | 2026-05-17 | [infoq.com: AWS Announces Lower Cost Storage Classes for Amazon Elastic File' System](https://www.infoq.com/news/2021/03/aws-efs-one-zone-storage-classes) | 🟡 high | Introduces the Amazon Elastic File System (EFS) One Zone storage class, offering cost-optimized options for shared storage. Cuts storage expenses by up to 47% compared to regional replication variants |
 
-    ## Certification & Training
+    **Certification & Training**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -266,7 +260,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [git-scm.com: Git reference](https://git-scm.com/docs) | 🟡 high | Curator Insight: The canonical, official Git command-line reference. Live Grounding: Serves as the ultimate authority on version control algorithms, low-level plumbing commands, complex history manipu |
     | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🟡 high | The canonical reference documentation for the kubectl command-line utility. Provides up-to-date syntax patterns for resource creation, patch edits, formatting outputs, and real-time container log anal |
 
-    ## AWS
+    **AWS**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -281,7 +275,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-17 | [Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) | 🟡 high | Exhaustive official guide detailing the design, limits, and monitoring of read-replicas for open-source engines in AWS RDS. Covers cross-region replication strategies and promoting a replica to master |
     | 2026-05-17 | [Working with an Amazon RDS DB Instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) | 🟡 high | The foundational AWS RDS VPC networking architecture reference. Analyzes subnet group designations, public versus private access configurations, and network isolation topologies for secure DB hosting. |
 
-    ## Azure
+    **Azure**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -296,7 +290,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [dbatools.io](https://dbatools.io) | 🟡 high | An open-source, community-driven PowerShell module consisting of hundreds of command abstractions for automated SQL Server administration and migration. It allows administrators to securely perform co |
     | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | The comprehensive Azure Arc Jumpstart portal, providing automated, hands-on sandbox scenarios for Arc-enabled infrastructure. It facilitates instant provisioning of hybrid Kubernetes, servers, and dat |
 
-    ## GCP, OCI & Others
+    **GCP, OCI & Others**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -311,7 +305,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [IBM Cloud](https://www.ibm.com/solutions/cloud) | 🟡 high | The business and technical portal for IBM Cloud. Live Grounding highlights its specialization in enterprise hybrid-cloud, secure financial cloud environments, and deep integration with Red Hat OpenShi |
     | 2026-05-17 | [github.com/openliberty](https://github.com/openliberty) | 🟡 high | The primary GitHub hub containing repositories for Open Liberty, hosting its core runtime, tooling, and integrations. Live Grounding shows a highly collaborative community pushing frequent optimizatio |
 
-    ## OpenShift / Red Hat
+    **OpenShift / Red Hat**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -326,7 +320,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-12 | [github - using jenkins pipelines with OKD](https://github.com/openshift/origin/tree/main/examples/jenkins/pipeline) | 🟡 high | Repository detailing baseline code configurations, sample pipelines, and deployment manifests engineered to execute scripted Jenkins procedures inside early versions of the OKD community container pla |
     | 2026-06-12 | [GitHub Quay (OSS)](https://github.com/quay/quay) | 🟡 high | Project Quay is the open-source upstream version of Red Hat Quay, providing a highly scalable container registry designed for cloud-native infrastructure. It features multi-tenancy, geo-replication, a |
 
-    ## Virtualization & Private Cloud
+    **Virtualization & Private Cloud**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -344,7 +338,7 @@ Assists developers from specification to implementation, verification, and |
 
 === "Last 6 Months"
 
-    ## Kubernetes & Orchestration
+    **Kubernetes & Orchestration**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -364,7 +358,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [iximiuz.com: How Kubernetes Reinvented Virtual Machines (in a good sense) 🌟🌟](https://labs.iximiuz.com/tutorials/kubernetes-vs-virtual-machines) | 🟡 high | Insightful analysis explaining how Kubernetes replicates hypervisor features through API-driven isolation, network namespaces, and cgroups. Demonstrates how K8s serves as the cloud operating system, a |
     | 2026-06-14 | [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) | 🟡 high | A massive open-source APM and observability platform natively integrated with OpenTelemetry. Tracks telemetry, trace spans, metrics, and application logs in a unified, high-performance UI backed by Cl |
 
-    ## Containers & Runtime
+    **Containers & Runtime**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -384,7 +378,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [Dapr](https://dapr.io) | 🟡 high | The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models. |
     | 2026-06-01 | [knative.dev](https://knative.dev) | 🟡 high | The premier Kubernetes-native platform for serverless workloads. Offers enterprise-grade Serving (scale-to-zero, request-driven autoscaling) and highly decoupled Eventing models. |
 
-    ## Networking & Service Mesh
+    **Networking & Service Mesh**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -404,7 +398,7 @@ Assists developers from specification to implementation, verification, and |
     | 2025-06-01 | [Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) | 🟡 high | A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry |
     | 2025-06-01 | [layer5.io: The Service Mesh Landscape 🌟🌟](https://layer5.io/service-mesh-landscape) | 🟡 high | An interactive tracker mapping out the diverse, evolving service mesh landscape. Managed by Layer5, it catalogues API compatibility, conformance standards, and architecture changes (e.g., sidecarless  |
 
-    ## Architecture & Microservices
+    **Architecture & Microservices**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -424,7 +418,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-09 | [mingrammer/diagrams](https://github.com/mingrammer/diagrams) | 🟡 high | A highly popular open-source Python framework that allows engineers to write cloud infrastructure diagrams directly as Python code. It supports hundreds of built-in components covering AWS, GCP, Azure |
     | 2026-06-08 | [rootsongjc/awesome-cloud-native 🌟](https://github.com/rootsongjc/awesome-cloud-native) | 🟡 high | An extensive library mapping the CNCF Cloud Native landscape, detailing Service Meshes, dynamic storages, logging setups, and database drivers. Provides platform architects with a systematic catalog t |
 
-    ## Data, Messaging & Storage
+    **Data, Messaging & Storage**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -444,14 +438,12 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-11 | [Patroni](https://github.com/patroni/patroni) | 🟡 high | Industry-standard Python-driven template for high-availability PostgreSQL. Integrates with Distributed Consensus Stores (DCS) like etcd, Consul, or ZooKeeper to manage dynamic leader election, dynamic |
     | 2026-06-11 | [openebs/zfs-localpv](https://github.com/openebs/zfs-localpv) | 🟡 high | The official OpenEBS CSI driver for ZFS-LocalPV. It dynamically provisions ZFS pools on local nodes, combining the exceptional performance of raw NVMe storage with ZFS capabilities like snapshots, clo |
 
-    ## AI & Agents
+    **AI & Agents**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering.
-Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents.
-Enables developers to transition from local prototype builds to secure GK |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering. Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents. Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-18 | [cursor.com: Cursor AI Code Editor](https://cursor.com) | 🟡 high | The premier AI-first code editor, built as a fork of VS Code, offering features like Cursor Tab (smart autocomplete), Cmd+K (inline edits), Composer (multi-file agentic code generation), and deep code |
     | 2026-06-14 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🟡 high | Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integ |
     | 2026-06-14 | [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) | 🟡 high | The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured JSON mo |
@@ -466,7 +458,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-03 | [github.com/jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai) | 🟡 high | An official JupyterLab extension that brings generative AI capabilities to interactive notebooks. It supports inline code synthesis, explanation, and error correction across multiple model APIs. |
     | 2026-06-02 | [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | 🟡 high | Curator Insight highlights this acclaimed resource for building a fully functional PyTorch Transformer from scratch. Live Grounding verifies it is an indispensable textbook for AI engineers, laying ba |
 
-    ## MLOps & Data Science
+    **MLOps & Data Science**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -486,7 +478,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-14 | [about.gitlab.com: How is AI/ML changing DevOps?](https://about.gitlab.com/blog/how-is-ai-ml-changing-devops) | 🔵 medium | Investigates the evolving integration of AI and Machine Learning inside DevSecOps pipelines. Discusses automated code suggestion mechanisms, ML-driven vulnerability remediation, and predictive diagnos |
     | 2026-05-17 | [marvelousmlops.substack.com: Sharpen your cookiecutter: speed up repo creation' with workflows](https://marvelousmlops.substack.com/p/sharpen-your-cookiecutter-speed-up) | 🔵 medium | A curated technical resource and architectural guide covering marvelousmlops.substack.com: Sharpen your cookiecutter: speed up repo creation' with workflows in the Kubernetes Tools ecosystem. |
 
-    ## Python, Java & Developer Ecosystem
+    **Python, Java & Developer Ecosystem**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -497,8 +489,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-14 | [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) | 🟡 high | A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and moc |
     | 2026-06-13 | [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) | 🟡 high | Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check endpoint |
     | 2026-06-13 | [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) | 🟡 high | A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states, JVM  |
-    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures.
-Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
+    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures. Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
     | 2026-06-13 | [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) | 🟡 high | The official Visual Studio Code Go extension, providing rich language support via the Go Language Server (gopls). Integrates Delve for robust debugging, automated importing, structural profiling, and  |
     | 2026-06-13 | [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens) | 🟡 high | Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewrit |
     | 2026-06-13 | [github.com/public-apis/public-apis: Try Public APIs for free 🌟](https://github.com/public-apis/public-apis) | 🟡 high | A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching fo |
@@ -507,16 +498,13 @@ Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees 
     | 2026-06-12 | [App-vNext/Polly](https://github.com/App-vNext/Polly) | 🟡 high | The premier resilient fault-handling library for the .NET ecosystem. Enables developers to configure sophisticated reliability policies including Retry, Circuit Breaker, Timeout, Bulkhead Isolation, a |
     | 2026-06-12 | [github: Spring Cloud Kubernetes 🌟](https://github.com/spring-cloud/spring-cloud-kubernetes) | 🟡 high | A specialized integration library that allows Spring Cloud applications to run transparently on Kubernetes. It maps Kubernetes ConfigMaps and Secrets to Spring's Environment, and translates discovery  |
 
-    ## Linux & System Foundations
+    **Linux & System Foundations**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions.
-Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
-    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot.
-Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
-    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents.
-Assists developers from specification to implementation, verification, and |
+    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions. Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
+    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot. Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
+    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents. Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | 🟡 high | The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it details advanced processes, pipeline debugging, and cloud utility integrations. Live Grounding establish |
     | 2026-06-18 | [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) | 🟡 high | GitHub Flow is a lightweight, branch-based workflow that supports continuous delivery by eliminating the complex branching structures of older patterns. Developers work on short-lived feature branches |
     | 2026-06-14 | [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot) | 🟡 high | Odoo's foundational merge-bot built to orchestrate massive volume commits across multi-repository dependencies. It employs highly robust state-machine mechanics to validate test combinations and keep  |
@@ -530,7 +518,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [**curl command**: Understanding the Hidden Powers of curl](https://nordicapis.com/understanding-the-hidden-powers-of-curl) | 🟡 high | An in-depth analysis of advanced curl functionalities, detailing raw TCP manipulation, custom HTTP headers, proxy tunneling, and authentication. A key diagnostic asset for testing REST APIs and debugg |
     | 2026-06-01 | [pre-commit](https://pre-commit.com) | 🟡 high | A multi-language package manager designed to configure, run, and scale pre-commit hooks. It prevents secrets leaks, handles multi-language formatters, and implements fast static analysis before change |
 
-    ## Security & Compliance
+    **Security & Compliance**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -550,7 +538,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-11 | [trivy](https://github.com/aquasecurity/trivy) | 🟡 high | Aqua Security's Trivy is an exceptionally fast, highly versatile security scanner for containers, IaC configurations, and software vulnerabilities. Known for its streamlined caching, wide packaging-fo |
     | 2026-06-10 | [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | 🟡 high | A robust, YAML-configured rules engine used by enterprise platform engineers to manage multi-cloud compliance, cost control, and security posture across AWS, Azure, and GCP. Automates cost-saving reso |
 
-    ## Infrastructure as Code
+    **Infrastructure as Code**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -570,7 +558,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-04-02 | [github.com/Azure/aztfexport](https://github.com/Azure/aztfexport) | 🟡 high | The repository page for Microsoft's Azure Export for Terraform (`aztfexport`). This specialized utility automatically crawls existing Azure infrastructure, converts physical setups into clean Terrafor |
     | 2026-03-16 | [github.com/GoogleCloudPlatform/terraformer 🌟](https://github.com/GoogleCloudPlatform/terraformer) | 🟡 high | A widely adopted CLI tool that reverse-engineers existing cloud infrastructure into declarative HCL code and states. Acts as a vital tool during migration processes from manual setups to systematic Gi |
 
-    ## CI/CD & GitOps
+    **CI/CD & GitOps**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -590,7 +578,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🟡 high | The official active repository for Flux v2. Rebuilt from the ground up as a set of Kubernetes controllers (GitOps Toolkit) to allow decoupled, highly parallel reconciliation of Git configurations. |
     | 2026-06-13 | [Parent POM for Jenkins Plugins. Plugin POM 4.0](https://github.com/jenkinsci/plugin-pom) | 🟡 high | The standardized parent Maven POM definition used by Jenkins plugins to enforce code quality, manage shared build dependencies, and utilize updated Jenkins core capabilities. |
 
-    ## Observability, SRE & Testing
+    **Observability, SRE & Testing**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -610,7 +598,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-13 | [Huginn](https://github.com/huginn/huginn) | 🟡 high | A highly versatile open-source system designed for orchestrating automated web-scraping, webhook handling, and event-driven tasks. In 2026, Huginn serves as a vital tool for engineers seeking a self-h |
     | 2026-06-12 | [kube-prometheus](https://github.com/prometheus-operator/kube-prometheus) | 🟡 high | The reference monitoring deployment for Kubernetes. Orchestrates the Prometheus Operator, Grafana, Alertmanager, and a collection of native exporters designed to monitor master control plane component |
 
-    ## DevOps & Culture
+    **DevOps & Culture**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -630,7 +618,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [blog.vmware.com: DevOps: Culture – Collaboration, Empowerment, Autonomy 🌟](https://blogs.vmware.com/cloud-foundation) | 🟡 high | Explores structural and cultural transformations required to establish a high-performing DevOps initiative. Focuses on decentralizing operational decisions, psychological safety, and establishing plat |
     | 2026-06-14 | [NoOps](https://nubenetes.com/noops) | 🟡 high | Comprehensive conceptual guide on NoOps (No Operations). Describes the strategic path to fully outsourcing infrastructure layers to automated platforms, serverless paradigms, and self-healing systems  |
 
-    ## Platform Engineering & DevEx
+    **Platform Engineering & DevEx**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -650,7 +638,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [smartcar.com](https://smartcar.com) | 🟡 high | Smartcar provides a developer-friendly API platform for connected vehicles, enabling telemetry collection, remote door locking, and EV battery charging management. It abstracts away complex proprietar |
     | 2026-06-01 | [BBVA API Market](https://www.bbvaapimarket.com/es) | 🟡 high | BBVA's commercial API platform, allowing external developers to securely consume core banking capabilities. It features REST integrations for payments, transactions, customer identification, and finan |
 
-    ## FinOps & Cloud Cost
+    **FinOps & Cloud Cost**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -670,7 +658,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-17 | [thenewstack.io: Cloud Bill Risks of AWS Reserved Instances and Savings Plans](https://thenewstack.io/cloud-bill-risks-of-aws-reserved-instances-and-savings-plans) | 🟡 high | Details critical commercial risks of long-term Reserved Instance and Savings Plan commitments. Outlines how changing architecture styles can render fixed financial contracts inefficient over time. |
     | 2026-05-17 | [ec2.shop: Compare AWS EC2 instance price from the CLI](https://ec2.shop) | 🟡 high | A terminal-based tool enabling fast comparisons of EC2 instance types, pricing, and configurations directly from the command line. Significantly reduces operational friction for engineers sizing cloud |
 
-    ## Certification & Training
+    **Certification & Training**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -690,7 +678,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-19 | [github.com/aws-samples: Guide to Resource Tagging Automation](https://github.com/aws-samples/resource-tagging-automation) | 🟡 high | Automated cloud governance solution leveraging AWS Lambda to automatically append standardized metadata tags onto AWS resources. Simplifies enterprise cost allocation and compliance enforcement operat |
     | 2026-05-17 | [Spring PetClinic Microservices](https://github.com/spring-petclinic/spring-petclinic-microservices) | 🟡 high | The canonical reference implementation of the Spring PetClinic application decomposed into microservices. It leverages Spring Cloud Eureka, Spring Cloud Gateway, and Spring Cloud Config Server to show |
 
-    ## AWS
+    **AWS**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -710,7 +698,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-02-09 | [github: ElectricEye](https://github.com/jonrau1/ElectricEye/blob/master/README.md) | 🟡 high | An automated cloud security assessment framework designed to continually monitor AWS environments for configuration drift, vulnerabilities, and deviations from industry standards. Outputs findings dir |
     | 2025-12-30 | [AWS Vault](https://github.com/99designs/aws-vault) | 🟡 high | The industry-standard CLI utility for securely storing and accessing AWS credentials in local development workflows. It encrypts keys in OS keystores (like macOS Keychain or KWallet) and exposes tempo |
 
-    ## Azure
+    **Azure**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -730,7 +718,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [learn.microsoft.com: AZ-204: Implement Azure Functions 🌟](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions) | 🟡 high | The official Microsoft training curriculum for implementing serverless workflows and event-driven computing via Azure Functions. It covers bindings and triggers, Durable Functions for stateful executi |
     | 2026-06-01 | [PowerShell Gallery 🌟](https://www.powershellgallery.com) | 🟡 high | The central repository for discovering, sharing, and downloading PowerShell modules, scripts, and DSC resources. Supported directly by Microsoft, it hosts crucial operational toolkits like Az, Microso |
 
-    ## GCP, OCI & Others
+    **GCP, OCI & Others**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -750,7 +738,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/pdf/installing_on_ibm_z/index) | 🔵 medium | A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem. |
     | 2026-06-18 | [](https://docs.redhat.com/en/documentation/openshift_container_platform/4.2/html/installing_on_ibm_z/index) | 🔵 medium | A curated technical resource and architectural guide covering docs.redhat.com in the Kubernetes Tools ecosystem. |
 
-    ## OpenShift / Red Hat
+    **OpenShift / Red Hat**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -770,7 +758,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-11 | [Red Hat OLM](https://github.com/operator-framework/operator-lifecycle-manager) | 🟡 high | Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions ( |
     | 2026-06-11 | [OLM Arquitecture](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md) | 🟡 high | This repository provides deep technical designs for Operator Lifecycle Manager (OLM). It handles updates, dependency validation, and multi-tenant installations of Kubernetes Operators. |
 
-    ## Virtualization & Private Cloud
+    **Virtualization & Private Cloud**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -793,7 +781,7 @@ Assists developers from specification to implementation, verification, and |
 
 === "Last 12 Months"
 
-    ## Kubernetes & Orchestration
+    **Kubernetes & Orchestration**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -818,7 +806,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [Deckhouse: NoOps Kubernetes platform 🌟](https://github.com/deckhouse/deckhouse) | 🟡 high | Deckhouse is an out-of-the-box, NoOps-oriented Kubernetes platform distribution that fully automates cluster bootstrapping, configuration management, and patching. Incorporating built-in monitoring, i |
     | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🟡 high | This specialized DaemonSet exposes physical GPU properties to the local kubelet node manager. Operating as the essential link for hardware-accelerated workloads, it handles task-scheduling configurati |
 
-    ## Containers & Runtime
+    **Containers & Runtime**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -843,7 +831,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-30 | [crun](https://github.com/containers/crun) | 🟡 high | A high-performance, lightweight, and low-memory-footprint OCI runtime written completely in C. It serves as an ultra-fast alternative to Go-based runc, offering native support for advanced Linux featu |
     | 2026-05-22 | [Libpod: Library and tool for running OCI-based containers in Pods](https://github.com/containers/podman) | 🟡 high | The core engine library underlying Podman, enabling programmatic creation and lifecycle management of OCI-compliant containers and Pods. Libpod brings native Kubernetes-style multi-container 'Pod' gro |
 
-    ## Networking & Service Mesh
+    **Networking & Service Mesh**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -868,7 +856,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [eevans.co: Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking/index.html) | 🟡 high | Curator Insight presents an exceptional architectural breakdown of the CNI layer. Live Grounding traces the packet path from Container-to-Container, Pod-to-Pod, and Pod-to-Service using concrete routi |
     | 2026-06-12 | [Kubernetes Gateway API](https://github.com/kubernetes-sigs/gateway-api) | 🟡 high | Official GitHub repository for the standard Kubernetes Gateway API. This next-generation specification supersedes standard Ingress, offering expressive, role-oriented, and extensible routing APIs (Gat |
 
-    ## Architecture & Microservices
+    **Architecture & Microservices**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -893,7 +881,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [PlantUML](https://plantuml.com) | 🟡 high | An open-source, industry-standard tool allowing engineers to generate architecture, sequence, and component diagrams from simple, human-readable markdown-like text. Extremely useful for maintaining do |
     | 2026-06-01 | [diagrams.net](https://www.drawio.com) | 🟡 high | The industry-leading, highly extensible free open-source diagramming engine. Widely used for system design, it provides deep integration with modern design elements, custom XML importing, and offline  |
 
-    ## Data, Messaging & Storage
+    **Data, Messaging & Storage**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -918,14 +906,12 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-10 | [Altinity/clickhouse-operator](https://github.com/Altinity/clickhouse-operator) | 🟡 high | The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernete |
     | 2026-06-10 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🟡 high | The main GitHub repository containing the source code for the Crunchy Postgres Operator. Written in Go, this industry-leading project automates the deployment, scaling, failover, backup, and security  |
 
-    ## AI & Agents
+    **AI & Agents**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering.
-Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
-    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents.
-Enables developers to transition from local prototype builds to secure GK |
+    | 2026-06-18 | [docs.anthropic.com: Claude Code CLI](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) | 🟡 high | Anthropic's official command-line interface (CLI) tool designed for autonomous agentic software engineering. Claude Code can read codebases, execute commands, run tests, and manage git workflows direc |
+    | 2026-06-18 | [antigravity.google: Google Antigravity Agentic Platform](https://antigravity.google) | 🟡 high | Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents. Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-18 | [cursor.com: Cursor AI Code Editor](https://cursor.com) | 🟡 high | The premier AI-first code editor, built as a fork of VS Code, offering features like Cursor Tab (smart autocomplete), Cmd+K (inline edits), Composer (multi-file agentic code generation), and deep code |
     | 2026-06-14 | [vLLM on Kubernetes](https://github.com/vllm-project/vllm) | 🟡 high | Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integ |
     | 2026-06-14 | [github.com/openai/openai-cookbook: OpenAI Cookbook](https://github.com/openai/openai-cookbook) | 🟡 high | The official, highly detailed cookbook of integration patterns and code recipes from OpenAI. Live Grounding and Curator Insight rate this as the definitive reference for engineering structured JSON mo |
@@ -945,7 +931,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-18 | [technologyreview.es: "Las empresas que empiezan a lo grande con la IA fracasan más" 🌟](https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas) | 🟡 high | Analytical piece focusing on enterprise strategies for AI adoption, arguing that companies attempting large-scale, over-ambitious transformations from day one experience higher failure rates. Advocate |
     | 2026-06-14 | [OpenOps: No-Code FinOps Automation Platform with AI](https://github.com/openops-cloud/openops) | 🟡 high | An open-source, no-code platform utilizing AI to identify and automate cloud cost optimizations. Connects directly with Kubernetes metrics to suggest sizing adjustments and automatically remove unused |
 
-    ## MLOps & Data Science
+    **MLOps & Data Science**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -970,7 +956,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-05-17 | [marvelousmlops.substack.com: Technical roles in Data Science: Who is doing' what?](https://marvelousmlops.substack.com/p/technical-roles-in-data-science-who) | 🔵 medium | A curated technical resource and architectural guide covering marvelousmlops.substack.com: Technical roles in Data Science: Who is doing' what? in the Kubernetes Tools ecosystem. |
     | 2026-05-17 | [swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps' Way, Spark - Executor Memory Structure and more... 🌟](https://swirlai.substack.com/p/sai-08-request-response-model-deployment) | 🔵 medium | A curated technical resource and architectural guide covering swirlai.substack.com: SAI #08: Request-Response Model Deployment - The MLOps' Way, Spark - Executor Memory Structure and more... 🌟 in the  |
 
-    ## Python, Java & Developer Ecosystem
+    **Python, Java & Developer Ecosystem**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -981,8 +967,7 @@ Enables developers to transition from local prototype builds to secure GK |
     | 2026-06-14 | [testcontainers-spring-boot 🌟](https://github.com/PlaytikaOSS/testcontainers-spring-boot) | 🟡 high | A powerful open-source library that automates the lifecycle of Docker containers (PostgreSQL, Kafka, Redis) during JUnit test execution. It eliminates the need for shared database environments and moc |
     | 2026-06-13 | [github.com/spring-projects: springboot enables these probes automatically when running in k8s](https://github.com/spring-projects/spring-boot#L73) | 🟡 high | Details Spring Boot's built-in Kubernetes-native integration features, specifically the auto-detection of container platform hosting. Once identified, it splits Spring Actuator's health check endpoint |
     | 2026-06-13 | [codecentric's Spring Boot Admin UI 🌟](https://github.com/codecentric/spring-boot-admin) | 🟡 high | A popular community dashboard engineered to coordinate, monitor, and manage Spring Boot applications. By parsing actuator telemetry data, it displays real-time statistics including thread states, JVM  |
-    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures.
-Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
+    | 2026-06-13 | [pydantic/pydantic](https://github.com/pydantic/pydantic) | 🟡 high | Curator Insight: The absolute industry standard data enforcement framework utilizing type annotation structures. Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees strict  |
     | 2026-06-13 | [github.com/golang/vscode-go 🌟](https://github.com/golang/vscode-go/blob/master/README.md) | 🟡 high | The official Visual Studio Code Go extension, providing rich language support via the Go Language Server (gopls). Integrates Delve for robust debugging, automated importing, structural profiling, and  |
     | 2026-06-13 | [GitLens interactive rebase](https://github.com/gitkraken/vscode-gitlens) | 🟡 high | Detailed documentation on GitLens' visual interactive rebase tool, which translates raw CLI rebase structures into a drag-and-drop workspace UI within VS Code, significantly reducing risks when rewrit |
     | 2026-06-13 | [github.com/public-apis/public-apis: Try Public APIs for free 🌟](https://github.com/public-apis/public-apis) | 🟡 high | A highly curated, massive directory of free, public APIs categorized by topic (such as Auth, Data, Analytics, and weather). This repository is the de facto standard resource for engineers searching fo |
@@ -996,16 +981,13 @@ Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees 
     | 2026-06-12 | [github.com/bloomberg/memray 🌟🌟](https://github.com/bloomberg/memray) | 🟡 high | Curator Insight details Memray as Bloomberg's advanced memory tracker for Python applications. Live Grounding confirms its preeminent role in tracking allocations inside complex microservice systems,  |
     | 2026-06-11 | [Windows Package Manager CLI (aka winget)](https://github.com/microsoft/winget-cli) | 🟡 high | The official open-source repository for winget-cli, Microsoft's Windows Package Manager. Standardizes command-line app deployment, installation, dependency discovery, and workspace updates. |
 
-    ## Linux & System Foundations
+    **Linux & System Foundations**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions.
-Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
-    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot.
-Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
-    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents.
-Assists developers from specification to implementation, verification, and |
+    | 2026-06-18 | [github.blog: Continuous Delivery with GitHub Actions](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) | 🟡 high | Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions. Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOK |
+    | 2026-06-18 | [learn.microsoft.com: Use Agent Mode in GitHub Copilot](https://learn.microsoft.com/en-us/visualstudio/ide/copilot-agent-mode) | 🟡 high | Official documentation for the Agent Mode inside GitHub Copilot. Guides developers on configuring autonomous multi-file refactoring, debugging, and advanced prompt engineering patterns. |
+    | 2026-06-18 | [githubnext.com: GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) | 🟡 high | An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents. Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) | 🟡 high | The premium, single-page reference for command-line mastery. Highly dense and comprehensive, it details advanced processes, pipeline debugging, and cloud utility integrations. Live Grounding establish |
     | 2026-06-18 | [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) | 🟡 high | GitHub Flow is a lightweight, branch-based workflow that supports continuous delivery by eliminating the complex branching structures of older patterns. Developers work on short-lived feature branches |
     | 2026-06-14 | [Odoo Mergebot](https://github.com/odoo/odoo/wiki/Mergebot) | 🟡 high | Odoo's foundational merge-bot built to orchestrate massive volume commits across multi-repository dependencies. It employs highly robust state-machine mechanics to validate test combinations and keep  |
@@ -1024,7 +1006,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-05-29 | [lucidrains/PaLM-rlhf-pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch) | 🟡 high | An open-source PyTorch implementation combining the PaLM architecture with Reinforcement Learning from Human Feedback (RLHF). Crucial blueprint for organizations aiming to construct and fine-tune priv |
     | 2026-05-26 | [github.com/giscus/giscus](https://github.com/giscus/giscus) | 🟡 high | A database-free comment widget powered natively by GitHub Discussions. Explores how mapping comments directly into static markdown contexts eliminates expensive self-hosted database servers and preven |
 
-    ## Security & Compliance
+    **Security & Compliance**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1049,7 +1031,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) | 🟡 high | The official repository for Google's `container-structure-test`. Details a powerful unit testing framework that validates container image structures (checking file layouts, metadata keys, variable exp |
     | 2026-06-01 | [deepfence/ThreatMapper 🌟](https://github.com/deepfence/ThreatMapper) | 🟡 high | ThreatMapper is an open-source Cloud Native Application Protection Platform (CNAPP) designed by Deepfence. It maps runtime behaviors to trace attack paths across networks and registries, highlighting  |
 
-    ## Infrastructure as Code
+    **Infrastructure as Code**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1074,7 +1056,7 @@ Assists developers from specification to implementation, verification, and |
     | 2025-06-01 | [terragrunt.gruntwork.io](https://terragrunt.com) | 🟡 high | Terragrunt is the industry-standard orchestrator wrapper that resolves complex code redundancy by establishing DRY configurations, managing dynamic state initialization, and handling cross-module depe |
     | 2025-06-01 | [chef.io](https://www.chef.io) | 🟡 high | Chef is an enterprise-grade infrastructure configuration management platform. While traditionally targeting virtual machines, it provides robust cloud-native toolkits to manage bare-metal nodes, OS co |
 
-    ## CI/CD & GitOps
+    **CI/CD & GitOps**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1099,7 +1081,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-12 | [git-plugin 🌟](https://github.com/jenkinsci/git-plugin) | 🟡 high | The core, indispensable integration plugin for Git in Jenkins. It provides comprehensive support for Git operations, including clone optimizations, polling, tagging, submodules, and branch tracking ac |
     | 2026-06-10 | [yokawasa/action-setup-kube-tools](https://github.com/yokawasa/action-setup-kube-tools) | 🟡 high | A dedicated GitHub Action designed to dynamically download and configure vital Kubernetes operational binaries (such as kubectl, helm, kustomize, and minikube) across runner agents, ensuring strict pa |
 
-    ## Observability, SRE & Testing
+    **Observability, SRE & Testing**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1124,7 +1106,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-12 | [TDengine](https://github.com/taosdata/TDengine) | 🟡 high | An open-source time-series database optimized specifically for IoT and telemetry data storage. Utilizing a unique 'one table per data source' structure, TDengine offers extremely fast writing speeds a |
     | 2026-06-12 | [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) | 🟡 high | A robust, CNCF-incubating chaos engineering platform designed for cloud-native ecosystems. Orchestrates extensive failure injections—spanning network partitions, node failures, system call manipulatio |
 
-    ## DevOps & Culture
+    **DevOps & Culture**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1145,12 +1127,11 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [NoOps](https://nubenetes.com/noops) | 🟡 high | Comprehensive conceptual guide on NoOps (No Operations). Describes the strategic path to fully outsourcing infrastructure layers to automated platforms, serverless paradigms, and self-healing systems  |
     | 2026-06-14 | [DevOps Tools](https://nubenetes.com/devops-tools) | 🟡 high | Catalog of modern DevOps tooling encompassing continuous integration, artifact storage, automated testing, container scheduling, and real-time telemetry pipelines to build stable, production-ready rel |
     | 2026-06-03 | [DockSTARTer](https://github.com/GhostWriters/DockSTARTer) | 🟡 high | A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containeriz |
-    | 2026-06-02 | [Annotate by Dropshare: Fast Markup for Images on iOS and iPadOS](https://dropshare.app/annotate) | 🟡 high | * **Curator Insight**: An essential utility for mobile cloud architects and SREs requiring fast markup of infrastructure topologies, application bugs, or terminal screens on the go.
-* **Live Grounding |
+    | 2026-06-02 | [Annotate by Dropshare: Fast Markup for Images on iOS and iPadOS](https://dropshare.app/annotate) | 🟡 high | * **Curator Insight**: An essential utility for mobile cloud architects and SREs requiring fast markup of infrastructure topologies, application bugs, or terminal screens on the go. * **Live Grounding |
     | 2026-06-02 | [How to run a marketing campaign from kickoff to launch using Teamwork Collection](https://community.atlassian.com/forums/Teamwork-Collection-articles/How-to-run-a-marketing-campaign-from-kickoff-to-launch-using/ba-p/3183852) | 🟡 high | This practical guide outlines an end-to-end campaign coordination workflow leveraging the Atlassian Teamwork Collection (Confluence, Jira, Loom, and the Rovo AI agent). It demonstrates how to utilize  |
     | 2026-06-02 | [MiniSim: Launcher for iOS and Android Simulators](https://www.minisim.app) | 🟡 high | MiniSim addresses local virtualization friction by providing a highly optimized, macOS native menu-bar application to launch mobile simulators. By integrating with xcrun and local Android SDK director |
 
-    ## Platform Engineering & DevEx
+    **Platform Engineering & DevEx**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1175,7 +1156,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [Cecabank API Market](https://apimarket.cecabank.es) | 🔵 medium | Cecabank's developer platform designed to align financial integration with the PSD2 mandate. It provides endpoints for third-party providers (TPPs) to execute payment initiations and retrieve consolid |
     | 2026-06-01 | [TSB API Developer Portal](https://apis.developer.tsb.co.uk) | 🔵 medium | A PSD2-compliant developer ecosystem facilitating open-banking integration with TSB Bank. It offers sandbox environments, sandbox mock data, and security protocols to test account information and paym |
 
-    ## FinOps & Cloud Cost
+    **FinOps & Cloud Cost**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1200,7 +1181,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-18 | [learnk8s/xlskubectl](https://github.com/learnk8s/xlskubectl) | 🔵 medium | An open-source spreadsheet integration that translates raw kubectl command outputs into clean cost estimation worksheets. Helps engineers understand how container limits, requests, and node sizing tra |
     | 2026-05-17 | [cloudkatha.com: How to Setup Budget in AWS to Keep your Bill in Check](https://cloudkatha.com/how-to-setup-budget-in-aws-to-keep-your-bill-in-check) | 🔵 medium | A practical guide outlining how to implement AWS Budgets to prevent unexpected invoice spikes. Walks through setup thresholds, dynamic notifications, and SNS bindings crucial for early infrastructure  |
 
-    ## Certification & Training
+    **Certification & Training**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1225,7 +1206,7 @@ Assists developers from specification to implementation, verification, and |
     | 2025-09-15 | [OpenShift AI Examples](https://github.com/CastawayEGR/openshift-ai-examples) | 🟡 high | A community collection of machine learning workflows and notebooks deployed on Red Hat OpenShift AI. Details deployment pipelines for distributed training, model serving, and GPU resource slicing. |
     | 2025-06-01 | [curl cheat sheet for Linux and Unix users](https://daniel.haxx.se/blog/wp-content/uploads/2020/01/sticker-cheat-sheet.png) | 🟡 high | Curator Insight: The definitive visual sticker/cheat sheet for curl options, designed by curl's creator Daniel Stenberg. Live Grounding: An absolute authority on debugging HTTP protocols, specifying T |
 
-    ## AWS
+    **AWS**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1250,7 +1231,7 @@ Assists developers from specification to implementation, verification, and |
     | 2025-03-25 | [aws/containers-roadmap: AWS Containers Roadmap](https://github.com/aws/containers-roadmap) | 🟡 high | The open-source public roadmap for AWS container services (ECS, EKS, ECR). It bridges developer requirements with core AWS engineering teams, offering a transparent ledger of feature designs, active d |
     | 2024-08-16 | [The Open Guide to Amazon Web Services](https://github.com/open-guides/og-aws) | 🟡 high | A massive, crowd-sourced encyclopedia offering highly critical, unvarnished technical reference material for AWS services. Distinct from official docs, it focuses on real-world engineering constraints |
 
-    ## Azure
+    **Azure**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1275,7 +1256,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-04-17 | [github.com/nicolgit/azure-firewall-mon: az-firewall-mon](https://github.com/nicolgit/azure-firewall-mon) | 🟡 high | Real-time log viewer utility for Azure Firewall. Parses JSON diagnostic streams directly from Log Analytics, providing colorized output detailing connection actions (allow/deny) on live terminals. |
     | 2026-04-16 | [thomast1906/DevOps-The-Hard-Way-Azure 🌟](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) | 🟡 high | A hands-on, end-to-end sandbox guide mapping out 'The Hard Way' of deploying infrastructure and applications on Azure. This project details virtual network design, VM provisioning, AKS deployments, an |
 
-    ## GCP, OCI & Others
+    **GCP, OCI & Others**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1300,7 +1281,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-14 | [scaleway.com: Kubernetes Kapsule](https://www.scaleway.com/en/en/kubernetes-kapsule) | 🔵 medium | Official technical guide for Scaleway's managed Kubernetes implementation (Kapsule). Describes control-plane operations, auto-scaling configuration, and provisioning persistent storage volumes across  |
     | 2026-06-14 | [Red Hat's approach to Edge Computing 🌟](https://www.redhat.com/en/solutions/edge-computing-approach) | 🔵 medium | Analyzes Red Hat's edge computing framework using lightweight OpenShift single-node configurations and MicroShift. It details how the architecture addresses low-latency processing, disconnected operat |
 
-    ## OpenShift / Red Hat
+    **OpenShift / Red Hat**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
@@ -1325,7 +1306,7 @@ Assists developers from specification to implementation, verification, and |
     | 2026-06-01 | [**k3s**](https://k3s.io) | 🟡 high | A highly popular, fully compliant, lightweight Kubernetes distribution designed specifically for Edge, IoT, and DevSecOps CI pipelines. Packaged as a single binary, it replaces heavy etcd processes wi |
     | 2026-06-01 | [Rook](https://rook.io) | 🟡 high | Rook acts as a production-hardened CNCF graduated storage orchestrator that natively embeds Ceph within Kubernetes. By managing disks, pools, and filesystems as declarative resources, Rook eliminates  |
 
-    ## Virtualization & Private Cloud
+    **Virtualization & Private Cloud**
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
