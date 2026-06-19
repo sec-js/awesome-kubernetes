@@ -49,6 +49,19 @@ jobs:
       - name: Assemble Final Site
         run: |
           mkdir -p site/
+
+          # Safety check: V2 must have a valid index.html and at least 50 pages
+          V2_PAGE_COUNT=$(find site_v2/ -name "*.html" | wc -l)
+          if [ "$V2_PAGE_COUNT" -lt 50 ] || [ ! -f site_v2/index.html ]; then
+            echo "❌ V2 build looks broken (only $V2_PAGE_COUNT HTML pages). Deploying V1 only to protect the site."
+            cp -r site_v1/* site/
+            mkdir -p site/v1/
+            cp -r site_v1/* site/v1/
+            rm -rf site_v1/ site_v2/
+            exit 0
+          fi
+
+          echo "✅ V2 build OK ($V2_PAGE_COUNT pages). Assembling dual-version site."
           # Copy V1 to root as fallback for any pages not present in V2
           cp -r site_v1/* site/
           # Overwrite root with V2 Elite Portal (matching pages will be V2 versions)
