@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Keptn. Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Cloud Native Lifecycle](#cloud-native-lifecycle)
-  - [CICD Pipelines](#cicd-pipelines)
-    - [Community Meetups](#community-meetups)
-    - [Jenkins Integration](#jenkins-integration)
-    - [Video Guides](#video-guides)
-  - [Continuous Delivery](#continuous-delivery)
-    - [Enterprise Observability](#enterprise-observability)
-    - [Guides](#guides)
-    - [Site Reliability Engineering](#site-reliability-engineering)
-  - [Local Environments](#local-environments)
-    - [K3s Sandboxing](#k3s-sandboxing)
-    - [Video Guides](#video-guides-1)
-  - [Site Reliability Engineering](#site-reliability-engineering-1)
-    - [Monitoring Automation](#monitoring-automation)
-1. [Observability](#observability)
-  - [Application Performance Monitoring](#application-performance-monitoring)
-    - [Guides](#guides-1)
-
 ## Cloud Native Lifecycle
 
 ### CICD Pipelines

@@ -6,40 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Golang - Go in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [Microservices](#microservices)
-    - [Design Patterns](#design-patterns)
-    - [Go Frameworks](#go-frameworks)
-1. [Business Applications](#business-applications)
-  - [Go Web Apps](#go-web-apps)
-    - [Email Analytics](#email-analytics)
-1. [Cloud Native](#cloud-native)
-  - [Containers](#containers)
-    - [Dockerizing Go](#dockerizing-go)
-  - [Microservice Runtimes](#microservice-runtimes)
-    - [Dapr](#dapr)
-  - [Web Frameworks](#web-frameworks)
-    - [Request Binding](#request-binding)
-1. [Cloud Native Languages](#cloud-native-languages)
-  - [Go](#go)
-    - [API Design](#api-design)
-    - [Kubernetes Integration](#kubernetes-integration)
-    - [Microservices Frameworks](#microservices-frameworks)
-    - [Performance Tuning](#performance-tuning)
-    - [Storage Integration](#storage-integration)
-1. [Programming Languages](#programming-languages)
-  - [Go](#go-1)
-    - [Project Scaffolding](#project-scaffolding)
-    - [Resources](#resources)
-1. [Public Cloud](#public-cloud)
-  - [Google Cloud](#google-cloud)
-    - [Go Samples](#go-samples)
-1. [Software Engineering](#software-engineering)
-  - [Web Development](#web-development)
-    - [NodeJS](#nodejs)
-
 ## Architecture
 
 ### Microservices

@@ -6,26 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for QA/TestOps - Continuous Testing. Software Quality Test Automation in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Microservices Architecture](#microservices-architecture)
-    - [Component Testing](#component-testing)
-    - [Quality Management](#quality-management)
-  - [Multi-Cloud Strategies](#multi-cloud-strategies)
-    - [Performance Engineering](#performance-engineering)
-1. [Software Engineering](#software-engineering)
-  - [Architecture](#architecture)
-    - [Error Handling Paradigms](#error-handling-paradigms)
-  - [Backend Development](#backend-development)
-    - [Python Testing Workflows](#python-testing-workflows)
-  - [Testing](#testing)
-    - [API Testing Principles](#api-testing-principles)
-  - [Testing Frameworks](#testing-frameworks)
-    - [Java Ecosystem](#java-ecosystem)
-  - [Testing Methodology](#testing-methodology)
-    - [Component Isolation](#component-isolation)
-
 ## Cloud Native
 
 ### Microservices Architecture

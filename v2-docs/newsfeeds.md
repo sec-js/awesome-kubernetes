@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Forums and Communities in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [FinOps and Cloud Cost](#finops-and-cloud-cost)
-  - [Community Resources](#community-resources)
-    - [Curation](#curation)
-    - [Events](#events)
-    - [Forums](#forums)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

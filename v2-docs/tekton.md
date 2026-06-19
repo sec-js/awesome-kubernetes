@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Tekton and Tekton Pipelines in the context of Engineering Pipeline.
 
-## Table of Contents
-
-1. [Cloud Native Delivery](#cloud-native-delivery)
-  - [Progressive Delivery](#progressive-delivery)
-    - [Serverless Canary](#serverless-canary)
-1. [Continuous Integration and Delivery](#continuous-integration-and-delivery)
-  - [Cloud Native CI-CD](#cloud-native-ci-cd)
-    - [Custom Extensions](#custom-extensions)
-    - [Demonstrations and Demos](#demonstrations-and-demos)
-    - [Governance and Community](#governance-and-community)
-    - [Hybrid Integration](#hybrid-integration)
-    - [OpenShift Pipelines](#openshift-pipelines)
-    - [Release Analysis](#release-analysis)
-    - [Tekton Pipelines](#tekton-pipelines)
-    - [Tekton Platform](#tekton-platform)
-    - [Tekton UI Extensions](#tekton-ui-extensions)
-
 ## Cloud Native Delivery
 
 ### Progressive Delivery

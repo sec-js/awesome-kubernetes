@@ -6,22 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Crunchy Data PostgreSQL Operator in the context of Data & Advanced Analytics.
 
-## Table of Contents
-
-1. [Data Infrastructure](#data-infrastructure)
-  - [Database Operators](#database-operators)
-    - [PostgreSQL](#postgresql)
-      - [Connection Pooling](#connection-pooling)
-      - [Developer Experience](#developer-experience)
-      - [GitOps Implementation](#gitops-implementation)
-      - [High Availability](#high-availability)
-      - [Multi-Cluster](#multi-cluster)
-      - [Packaging and CD](#packaging-and-cd)
-      - [Performance Tuning](#performance-tuning)
-      - [Platform Integration](#platform-integration)
-      - [Scheduling and Affinity](#scheduling-and-affinity)
-      - [Security](#security)
-
 ## Data Infrastructure
 
 ### Database Operators

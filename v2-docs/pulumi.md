@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Pulumi - Modern Infrastructure as Code in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Cloud-Native Provisioning](#cloud-native-provisioning)
-  - [Serverless Containers](#serverless-containers)
-    - [AWS Fargate](#aws-fargate)
-
 ## Cloud-Native Provisioning
 
 ### Serverless Containers

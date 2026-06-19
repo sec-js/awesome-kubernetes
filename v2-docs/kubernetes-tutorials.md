@@ -6,42 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Tutorials in the context of Architectural Foundations.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Education](#education)
-    - [Academic Programs](#academic-programs)
-    - [Spanish Tutorials](#spanish-tutorials)
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Service Mesh](#service-mesh)
-    - [Tutorials](#tutorials)
-1. [Cloud-Native Infrastructure](#cloud-native-infrastructure)
-  - [Learning Resources](#learning-resources)
-    - [Kubernetes Courses](#kubernetes-courses)
-1. [Container Orchestration](#container-orchestration)
-  - [AKS Labs](#aks-labs)
-    - [Hands-on Learning](#hands-on-learning)
-1. [Orchestration](#orchestration)
-  - [Containers and Kubernetes](#containers-and-kubernetes)
-    - [Video Series](#video-series)
-      - [Foundations](#foundations)
-  - [Kubernetes](#kubernetes)
-    - [Comprehensive Reference](#comprehensive-reference)
-    - [Continuous Learning](#continuous-learning)
-      - [Platform Engineering](#platform-engineering)
-    - [Fundamentals](#fundamentals)
-    - [Interactive Platform](#interactive-platform)
-    - [Learning Pathways](#learning-pathways)
-      - [GitHub Repository](#github-repository)
-    - [Official Documentation](#official-documentation)
-    - [Opinion and Strategy](#opinion-and-strategy)
-      - [Learning Pathways](#learning-pathways-1)
-    - [Video Series](#video-series-1)
-      - [Enterprise Fundamentals](#enterprise-fundamentals)
-      - [Production Mechanics](#production-mechanics)
-  - [Kubernetes Fundamentals](#kubernetes-fundamentals)
-    - [Visual Learning](#visual-learning)
-
 ## Cloud Native
 
 ### Education

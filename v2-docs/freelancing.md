@@ -6,48 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Freelancing in the context of Career & Industry.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Business and Careers](#business-and-careers)
-  - [Freelance Platforms](#freelance-platforms)
-    - [Sourcing](#sourcing)
-1. [Careers](#careers)
-  - [Freelancing](#freelancing-1)
-    - [Career Paths](#career-paths)
-    - [Cooperatives](#cooperatives)
-    - [Europe Market](#europe-market)
-    - [Financial Calculators](#financial-calculators)
-    - [Financial Strategy](#financial-strategy)
-    - [Market Overview](#market-overview)
-    - [On-Demand Mentoring](#on-demand-mentoring)
-    - [Remote Contracting](#remote-contracting)
-    - [Spanish Market](#spanish-market)
-    - [Spanish Regulations](#spanish-regulations)
-    - [Talent Marketplaces](#talent-marketplaces)
-1. [Remote Work and Career](#remote-work-and-career)
-  - [Contractor Operations](#contractor-operations)
-    - [SaaS Administration](#saas-administration)
-  - [Legal Compliance](#legal-compliance)
-    - [Spanish Contracting](#spanish-contracting)
-    - [Spanish Freelancing](#spanish-freelancing)
-    - [Spanish Taxation](#spanish-taxation)
-    - [UK Contracting](#uk-contracting)
-  - [Talent Platforms](#talent-platforms)
-    - [AI-Backed Sourcing](#ai-backed-sourcing)
-    - [Bespoke Engineering Teams](#bespoke-engineering-teams)
-    - [Contractor Compliance](#contractor-compliance)
-    - [E-commerce Freelancing](#e-commerce-freelancing)
-    - [Freelance Consulting](#freelance-consulting)
-    - [Global Sourcing](#global-sourcing)
-    - [Mentorship Networks](#mentorship-networks)
-    - [Nearshore Outsourcing](#nearshore-outsourcing)
-    - [On-Demand Delivery](#on-demand-delivery)
-    - [Staff Augmentation](#staff-augmentation)
-    - [Web Development Networks](#web-development-networks)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Troubleshooting in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Development Workflow](#development-workflow)
-  - [Local Development](#local-development)
-    - [Bridge to Kubernetes](#bridge-to-kubernetes)
-1. [Observability](#observability)
-  - [Networking](#networking)
-    - [API Traffic Analyzer](#api-traffic-analyzer)
-
 ## Development Workflow
 
 ### Local Development

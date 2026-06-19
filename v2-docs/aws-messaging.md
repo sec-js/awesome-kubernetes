@@ -6,13 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Messaging Services in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS](#aws)
-    - [Event-Driven Architecture](#event-driven-architecture)
-    - [Messaging Services](#messaging-services)
-
 ## Cloud Infrastructure
 
 ### AWS

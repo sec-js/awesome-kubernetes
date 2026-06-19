@@ -6,31 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS IaC in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [Cloud Computing](#cloud-computing)
-  - [AWS](#aws)
-    - [Infrastructure as Code](#infrastructure-as-code)
-1. [Infrastructure as Code](#infrastructure-as-code-1)
-  - [Automated Generation](#automated-generation)
-    - [AWS Resource Importers](#aws-resource-importers)
-    - [Compute Orchestration](#compute-orchestration)
-    - [Recording Tools](#recording-tools)
-  - [CloudFormation](#cloudformation)
-    - [Automated Generation](#automated-generation-1)
-    - [Compliance and Policy](#compliance-and-policy)
-    - [Criticism and Analysis](#criticism-and-analysis)
-    - [GitOps Integrations](#gitops-integrations)
-    - [Identity and Access Management](#identity-and-access-management)
-    - [Messaging Configuration](#messaging-configuration)
-    - [Pre-commit Hooks](#pre-commit-hooks)
-    - [Registries](#registries)
-    - [Starter Templates](#starter-templates)
-    - [Storage Configuration](#storage-configuration)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

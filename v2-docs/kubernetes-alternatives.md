@@ -6,36 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Alternatives in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Edge and Serverless](#edge-and-serverless)
-  - [WebAssembly Platforms](#webassembly-platforms)
-    - [Tau Edge](#tau-edge)
-1. [Orchestration](#orchestration)
-  - [AWS](#aws)
-    - [ECS vs Kubernetes](#ecs-vs-kubernetes)
-    - [Hybrid Orchestration](#hybrid-orchestration)
-  - [Alternatives](#alternatives)
-    - [Cycle.io](#cycleio)
-  - [Docker Swarm](#docker-swarm)
-    - [Comparison](#comparison)
-    - [Core](#core)
-    - [Docker Enterprise](#docker-enterprise)
-    - [PaaS Solutions](#paas-solutions)
-  - [Ecosystem](#ecosystem)
-    - [Comparison](#comparison-1)
-  - [HashiCorp Nomad](#hashicorp-nomad)
-    - [Case Study](#case-study)
-    - [Comparison](#comparison-2)
-    - [Core](#core-1)
-  - [Kubernetes](#kubernetes)
-    - [Case Study](#case-study-1)
-1. [Serverless Architecture](#serverless-architecture)
-  - [Edge Computing](#edge-computing)
-    - [AI Integration](#ai-integration)
-    - [Local Development](#local-development)
-    - [WebAssembly](#webassembly)
-
 ## Edge and Serverless
 
 ### WebAssembly Platforms

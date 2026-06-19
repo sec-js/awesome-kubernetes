@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Architecture and Best Practices in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Architecture](#cloud-architecture)
-  - [Case Studies](#case-studies)
-    - [Enterprise Scale](#enterprise-scale)
-1. [Kubernetes and Platform Engineering](#kubernetes-and-platform-engineering)
-  - [Modernization Tools](#modernization-tools)
-    - [Microservice Migration](#microservice-migration)
-
 ## Cloud Architecture
 
 ### Case Studies

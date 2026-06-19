@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Tools and Scripts in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Containers](#containers)
-  - [Developer Tooling](#developer-tooling)
-    - [Cloud Emulation](#cloud-emulation)
-1. [Infrastructure as Code](#infrastructure-as-code)
-  - [Boilerplates](#boilerplates)
-    - [AWS Templates](#aws-templates)
-
 ## Containers
 
 ### Developer Tooling

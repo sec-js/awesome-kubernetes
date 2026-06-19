@@ -6,27 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Public Cloud Solutions in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Providers](#cloud-providers)
-  - [Alternative Clouds](#alternative-clouds)
-    - [Kubernetes DOKS](#kubernetes-doks)
-1. [Cloud Strategy](#cloud-strategy)
-  - [Kubernetes Management](#kubernetes-management)
-    - [Evaluation Framework](#evaluation-framework)
-1. [Kubernetes Management](#kubernetes-management-1)
-  - [Managed Kubernetes](#managed-kubernetes)
-    - [AWS EKS Costs](#aws-eks-costs)
-    - [Azure AKS Costs](#azure-aks-costs)
-    - [Google GKE Costs](#google-gke-costs)
-  - [Multi-Cloud Operations](#multi-cloud-operations)
-    - [Rackspace Managed K8s](#rackspace-managed-k8s)
-  - [Red Hat OpenShift](#red-hat-openshift)
-    - [Azure Integration](#azure-integration)
-    - [Enterprise Costs](#enterprise-costs)
-  - [VMware Tanzu](#vmware-tanzu)
-    - [Platform Operations](#platform-operations)
-
 ## Cloud Providers
 
 ### Alternative Clouds

@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Pricing and Cost Optimization in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Infrastructure](#cloud-infrastructure)
-  - [AWS Cost Management](#aws-cost-management)
-    - [Kubernetes FinOps](#kubernetes-finops)
-
 ## Cloud Infrastructure
 
 ### AWS Cost Management

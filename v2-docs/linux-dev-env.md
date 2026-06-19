@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for WSL: Linux Dev Environment on Windows in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Development Environment](#development-environment)
-  - [Windows Subsystem for Linux](#windows-subsystem-for-linux)
-    - [Kubernetes Desktop](#kubernetes-desktop)
-
 ## Development Environment
 
 ### Windows Subsystem for Linux

@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management) in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Kubernetes](#kubernetes)
-    - [Microservice Deployment](#microservice-deployment)
-
 ## Cloud Native
 
 ### Kubernetes

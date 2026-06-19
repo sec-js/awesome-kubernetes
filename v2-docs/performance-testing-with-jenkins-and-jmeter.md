@@ -6,22 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Performance testing with jenkins and JMeter or Gatling in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Cloud Native](#cloud-native)
-  - [Kubernetes](#kubernetes)
-    - [Progressive Delivery](#progressive-delivery)
-1. [Infrastructure](#infrastructure)
-  - [Testing](#testing)
-    - [Load Testing](#load-testing)
-1. [Performance Engineering](#performance-engineering)
-  - [Load Testing](#load-testing-1)
-    - [Kubernetes Deployment](#kubernetes-deployment)
-    - [Observability](#observability)
-1. [Testing](#testing-1)
-  - [Performance Testing](#performance-testing)
-    - [Service Level Objectives](#service-level-objectives)
-
 ## Cloud Native
 
 ### Kubernetes

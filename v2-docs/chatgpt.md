@@ -6,15 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for ChatGPT in the context of AI.
 
-## Table of Contents
-
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Kubernetes Operations](#kubernetes-operations)
-    - [AIOps Diagnostics](#aiops-diagnostics)
-1. [Data Architecture](#data-architecture)
-  - [Retrieval-Augmented Generation](#retrieval-augmented-generation)
-    - [Enterprise AI](#enterprise-ai)
-
 ## Cloud Native Infrastructure
 
 ### Kubernetes Operations

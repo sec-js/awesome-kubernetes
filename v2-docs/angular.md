@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Angular framework in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [App Development](#app-development)
-  - [Frontend](#frontend)
-    - [Continuous Delivery](#continuous-delivery)
-
 ## App Development
 
 ### Frontend

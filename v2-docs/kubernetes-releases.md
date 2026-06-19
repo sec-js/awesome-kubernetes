@@ -6,17 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Releases in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Kubernetes Core](#kubernetes-core)
-  - [Releases](#releases)
-    - [v1.28 Features](#v128-features)
-  - [Resource Management](#resource-management)
-    - [Pod Resize](#pod-resize)
-1. [Platform Engineering](#platform-engineering)
-  - [Job Scheduling](#job-scheduling)
-    - [Batch Workloads](#batch-workloads)
-
 ## Kubernetes Core
 
 ### Releases

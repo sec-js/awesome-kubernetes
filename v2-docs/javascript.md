@@ -6,18 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for JavaScript in the context of Developer Ecosystem.
 
-## Table of Contents
-
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Containerization](#containerization)
-    - [Node.js Deployment](#nodejs-deployment)
-1. [Frontend Development](#frontend-development)
-  - [Real-Time Communication](#real-time-communication)
-    - [Notifications](#notifications)
-1. [Protocols and API Design](#protocols-and-api-design)
-  - [REST APIs](#rest-apis)
-    - [Rapid Prototyping](#rapid-prototyping)
-
 ## Cloud Native Infrastructure
 
 ### Containerization

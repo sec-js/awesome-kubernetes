@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for AWS Training and Certification in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Cloud Computing](#cloud-computing)
-  - [AWS](#aws)
-    - [Infrastructure as Code](#infrastructure-as-code)
-
 ## Cloud Computing
 
 ### AWS

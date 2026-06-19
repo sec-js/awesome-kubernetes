@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for NoOps aka Serverless in the context of The Container Stack.
 
-## Table of Contents
-
-1. [DevOps](#devops)
-  - [Serverless Architecture](#serverless-architecture)
-    - [NoOps Execution](#noops-execution)
-
 ## DevOps
 
 ### Serverless Architecture

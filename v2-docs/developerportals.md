@@ -6,43 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for API Marketplaces. API Management with API Gateways and Developer Portals in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Architecture](#architecture)
-  - [API Management](#api-management)
-    - [API Economy](#api-economy)
-    - [API Governance](#api-governance)
-    - [Case Studies](#case-studies)
-    - [Cloud Services](#cloud-services)
-    - [Gateway Engines](#gateway-engines)
-    - [Infrastructure Patterns](#infrastructure-patterns)
-    - [Kubernetes Orchestration](#kubernetes-orchestration)
-    - [Observability Platforms](#observability-platforms)
-    - [Operations and Deployment](#operations-and-deployment)
-    - [Persistent Connections](#persistent-connections)
-    - [Red Hat Ecosystem](#red-hat-ecosystem)
-    - [Security and Protocols](#security-and-protocols)
-    - [Video Walkthroughs](#video-walkthroughs)
-  - [Design Patterns](#design-patterns)
-    - [Microservices Patterns](#microservices-patterns)
-  - [Microservices](#microservices)
-    - [API Gateways](#api-gateways)
-1. [Domain APIs](#domain-apis)
-  - [IoT](#iot)
-    - [Smart Cities](#smart-cities)
-1. [Infrastructure](#infrastructure)
-  - [API Gateway](#api-gateway)
-    - [Cloud Native](#cloud-native)
-    - [Go Engines](#go-engines)
-    - [Industry News](#industry-news)
-    - [Java Spring Ecosystem](#java-spring-ecosystem)
-    - [Open Source Governance](#open-source-governance)
-1. [Platform Engineering](#platform-engineering)
-  - [Developer Portal](#developer-portal)
-    - [Internal Developer Platforms](#internal-developer-platforms)
-    - [Kubernetes Deployment](#kubernetes-deployment)
-    - [Tutorials](#tutorials)
-
 ## Architecture
 
 ### API Management

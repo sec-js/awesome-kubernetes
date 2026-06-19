@@ -6,27 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards in the context of The Container Stack.
 
-## Table of Contents
-
-1. [API and Integration Testing](#api-and-integration-testing)
-  - [Mocking and Virtualization](#mocking-and-virtualization)
-    - [Microcks](#microcks)
-    - [Microcks Integration](#microcks-integration)
-1. [Development Workflow](#development-workflow)
-  - [CICD Integration](#cicd-integration)
-    - [Okteto Actions](#okteto-actions)
-1. [Kubernetes Developer Experience](#kubernetes-developer-experience)
-  - [Remote Debugging](#remote-debugging)
-    - [IDE Integration](#ide-integration)
-    - [Telepresence](#telepresence)
-1. [Platform Engineering](#platform-engineering)
-  - [Application Delivery](#application-delivery)
-    - [Catalog UI](#catalog-ui)
-  - [Multi-Cloud](#multi-cloud)
-    - [PaaS Framework](#paas-framework)
-  - [UI and Dashboards](#ui-and-dashboards)
-    - [Enterprise Console](#enterprise-console)
-
 ## API and Integration Testing
 
 ### Mocking and Virtualization

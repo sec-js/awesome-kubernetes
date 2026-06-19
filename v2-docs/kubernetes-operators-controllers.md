@@ -6,34 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Operators and Controllers in the context of The Container Stack.
 
-## Table of Contents
-
-1. [CICD Pipeline](#cicd-pipeline)
-  - [Kubernetes and Containers](#kubernetes-and-containers)
-    - [Self-Hosted Infrastructure](#self-hosted-infrastructure)
-1. [Cloud Native Infrastructure](#cloud-native-infrastructure)
-  - [Kubernetes Extension](#kubernetes-extension)
-    - [Operators Go](#operators-go)
-1. [Data and Databases](#data-and-databases)
-  - [Lifecycle Management](#lifecycle-management)
-    - [Schema Migrations](#schema-migrations)
-1. [Infrastructure](#infrastructure)
-  - [Container Orchestration](#container-orchestration)
-    - [Kubernetes Operators](#kubernetes-operators)
-1. [Networking](#networking)
-  - [Ingress and Gateway](#ingress-and-gateway)
-    - [Controllers](#controllers)
-    - [Gateway API](#gateway-api)
-1. [Observability](#observability)
-  - [Distributed Tracing](#distributed-tracing)
-    - [OpenTelemetry Operator](#opentelemetry-operator)
-1. [Platform Engineering](#platform-engineering)
-  - [Job Scheduling](#job-scheduling)
-    - [Batch Workloads](#batch-workloads)
-1. [Security and Identity](#security-and-identity)
-  - [Secrets Management](#secrets-management)
-    - [External Secrets Sync](#external-secrets-sync)
-
 ## CICD Pipeline
 
 ### Kubernetes and Containers

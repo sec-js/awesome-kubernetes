@@ -6,27 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Storage. Cloud Native Storage in the context of The Container Stack.
 
-## Table of Contents
-
-1. [Cloud Native Storage Architecture](#cloud-native-storage-architecture)
-  - [Storage Architecture and Engines](#storage-architecture-and-engines)
-    - [Container Attached Storage](#container-attached-storage)
-    - [Object Storage](#object-storage)
-    - [Storage Paradigms](#storage-paradigms)
-  - [Storage Fundamentals](#storage-fundamentals)
-    - [Stateful Applications](#stateful-applications)
-    - [Storage Paradigms](#storage-paradigms-1)
-1. [Kubernetes Storage Implementation](#kubernetes-storage-implementation)
-  - [Stateful Operations](#stateful-operations)
-    - [Volume Resizing](#volume-resizing)
-1. [Storage](#storage)
-  - [Kubernetes Storage](#kubernetes-storage)
-    - [Distributed Block Storage](#distributed-block-storage)
-    - [GlusterFS Orchestration](#glusterfs-orchestration)
-1. [Storage and Data](#storage-and-data)
-  - [Container Attached Storage](#container-attached-storage-1)
-    - [OpenEBS](#openebs)
-
 ## Cloud Native Storage Architecture
 
 ### Storage Architecture and Engines

@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Oracle Cloud Infrastructure (OCI) in the context of Cloud Providers (Hyperscalers).
 
-## Table of Contents
-
-1. [Databases](#databases)
-  - [APIs](#apis)
-    - [Best Practices](#best-practices)
-
 ## Databases
 
 ### APIs

@@ -6,30 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions in the context of Hardened Infrastructure.
 
-## Table of Contents
-
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
-1. [GitOps and CICD](#gitops-and-cicd)
-  - [GitOps](#gitops)
-    - [FluxCD](#fluxcd)
-      - [Crossplane](#crossplane)
-    - [Methodologies](#methodologies)
-1. [Platform Engineering](#platform-engineering)
-  - [Control Planes](#control-planes)
-    - [Crossplane](#crossplane-1)
-      - [Code Samples](#code-samples)
-      - [History](#history)
-      - [Infrastructure as Code](#infrastructure-as-code)
-      - [Introduction](#introduction)
-      - [Platform-as-a-Service](#platform-as-a-service)
-      - [Presentations](#presentations)
-      - [RedHat OpenShift](#redhat-openshift)
-      - [Reference Architectures](#reference-architectures)
-  - [Developer Experience](#developer-experience)
-    - [Kubernetes Usability](#kubernetes-usability)
-
 ## Architectural Foundations
 
 ### Kubernetes Tools

@@ -6,23 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Engineering Leadership](#engineering-leadership)
-  - [Product Management](#product-management)
-    - [Software Architecture Design](#software-architecture-design)
-  - [Project Management](#project-management-1)
-    - [Big Tech Practices](#big-tech-practices)
-1. [Platform Engineering](#platform-engineering)
-  - [GitOps](#gitops)
-    - [Helm Lifecycle Management](#helm-lifecycle-management)
-  - [Innersource](#innersource)
-    - [DevOps Transition](#devops-transition)
-  - [Organizational Scaling](#organizational-scaling)
-    - [DevOps Transition](#devops-transition-1)
-  - [Value Stream Management](#value-stream-management)
-    - [DevOps Metrics](#devops-metrics)
-
 ## Engineering Leadership
 
 ### Product Management

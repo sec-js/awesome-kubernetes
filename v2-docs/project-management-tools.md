@@ -6,12 +6,6 @@
 !!! info "Architectural Context"
     Detailed reference for Project Management Tools in the context of Platform & Site Reliability.
 
-## Table of Contents
-
-1. [Developer Productivity](#developer-productivity)
-  - [Collaboration](#collaboration)
-    - [Micro-frontends](#micro-frontends)
-
 ## Developer Productivity
 
 ### Collaboration
