@@ -5,6 +5,49 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+> **Note:** entries for `2.6.0`–`2.9.1` are not yet backfilled here; see the
+> [GitHub Releases](https://github.com/nubenetes/awesome-kubernetes/releases) for those.
+
+## [[2.9.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.8) - 2026-06-19
+
+### Changed
+- **Inventory `gh_pushed` Data Cleanup**: Normalized 281 existing inventory entries whose `gh_pushed` date field held the literal string `"N/A"` to `null`, completing the `2.9.4` source fix. Deterministic and CI-reproducible (`last_checked` already migrated to integer by the pipeline).
+- **Changelog Maintenance**: Documented releases `2.9.2`–`2.9.8` in `CHANGELOG.md`.
+
+## [[2.9.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.7) - 2026-06-19
+
+### Fixed
+- **Hero Card Height Consistency**: Aligned the emoji-based "Intelligence Digest" hero card with the other four logo cards on the V2 index by giving `.hero-badge-icon` a 100px flex-centered box in `v2_elite.css` (was ~32px tall). Cache-bust bumped to `?v=2.9.7`.
+
+## [[2.9.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.6) - 2026-06-19
+
+### Fixed
+- **Deterministic Inventory Dump**: Stored `last_checked` as an `INTEGER` (epoch seconds) instead of a `REAL` in `inventory_manager.py`, normalizing the value on the entry before both the SQL and YAML dump. SQLite's version-specific `REAL`→text float printing previously rewrote ~every row of `inventory.sql` when regenerated outside CI. Verified `load→save` idempotent and byte-identical between local SQLite 3.40.1 and the CI-equivalent `python:3.11` (SQLite 3.46.1).
+
+## [[2.9.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.5) - 2026-06-19
+
+### Fixed
+- **Index Outage (Runaway YouTube Mosaic)**: Fixed `reorganize_mosaic.load_inventory_channels()` selecting channels by `'youtube_mosaic' in entry` (key presence). Because the SQL round-trip materializes that column as an empty dict `{}` on every entry, the filter matched all ~18,647 inventory entries and emitted ~18.6k inline image links on a single line — producing a 4 MB `v2-docs/index.md` (and 2.9 MB `docs/index.md`) that hung both the V1 and V2 index pages. Now only entries with a non-empty `youtube_mosaic` dict and a logo image are rendered (136 curated channels).
+
+## [[2.9.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.4) - 2026-06-19
+
+### Fixed
+- **`gh_pushed` Source Normalization**: The enrichment writers (`fast_enrich.py`, `gemini_utils.py`) now store `gh_pushed` as `None` when GitHub data is unavailable, instead of the string `"N/A"` that reached `datetime.fromisoformat()` downstream. `gh_license` keeps its displayed `"N/A"` string sentinel.
+- **Curator Date-Parse Hardening**: Guarded the twin `fromisoformat()` call in `agentic_curator.py`'s MVQ-penalty check so a bad date value can't crash a curation batch.
+
+### Added
+- **Inventory Migration Script**: Added `scripts/normalize_gh_pushed.py` to clean existing `gh_pushed: "N/A"` rows.
+
+## [[2.9.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.3) - 2026-06-19
+
+### Fixed
+- **Platinum Audit Null Handling**: Hardened `safety_guard.py` against null/`"N/A"` inventory fields. The MVQ compliance check no longer passes `"N/A"` to `datetime.fromisoformat()` or multiplies a `None` star count; the linguistic-tagging check no longer calls `None.lower()` on a null `language` (which had aborted the entire audit). Each mandate now runs in isolation so one bad entry cannot kill the whole report.
+
+## [[2.9.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.2) - 2026-06-19
+
+### Fixed
+- **Dark-Theme CSS Flashes**: Removed `content-visibility: auto` from broad `<ul>`/`<ol>` selectors and `.v2-tag-section` in `v2_elite.css`. On the slate (dark) theme it caused black flashes while scrolling and made link lists below the index mosaic appear collapsed (intrinsic-size mismatch). The tags page already uses collapsed `<details>` for native render-skipping, so the optimization was redundant. Cache-bust bumped to `?v=2.9.2`.
+
 ## [[2.5.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.8) - 2026-06-18
 
 ### Added
