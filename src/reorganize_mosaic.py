@@ -18,16 +18,24 @@ def load_inventory_channels():
         
     channels = []
     for url, entry in inventory.items():
-        if isinstance(entry, dict) and 'youtube_mosaic' in entry:
-            metadata = entry['youtube_mosaic']
-            channels.append({
-                'title': entry.get('title', 'Unknown Channel'),
-                'url': url,
-                'image': metadata.get('image', ''),
-                'category': metadata.get('category', 'learning_influencers_communities'),
-                'order_v1': metadata.get('order_v1', 9999),
-                'order_v2': metadata.get('order_v2', 9999)
-            })
+        if not isinstance(entry, dict):
+            continue
+        metadata = entry.get('youtube_mosaic')
+        # Every inventory entry carries a 'youtube_mosaic' column that the SQL
+        # round-trip materializes as an empty dict {}, so a bare key-presence
+        # check matches the entire inventory and explodes the mosaic to ~18k
+        # logos. Only treat an entry as a mosaic channel when it actually has
+        # mosaic metadata with a logo image.
+        if not isinstance(metadata, dict) or not metadata.get('image'):
+            continue
+        channels.append({
+            'title': entry.get('title', 'Unknown Channel'),
+            'url': url,
+            'image': metadata.get('image', ''),
+            'category': metadata.get('category', 'learning_influencers_communities'),
+            'order_v1': metadata.get('order_v1', 9999),
+            'order_v2': metadata.get('order_v2', 9999)
+        })
     return channels
 
 def build_v2_mosaic_markdown_from_channels(channels):
