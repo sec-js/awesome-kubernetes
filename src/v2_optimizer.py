@@ -963,7 +963,7 @@ class V2VisionEngine:
             "FinOps & Cloud Cost", "Certification & Training",
             "AWS", "Azure", "GCP, OCI & Others", "OpenShift / Red Hat", "Virtualization & Private Cloud"
         ]
-        geo_cats = ["Americas", "Europe", "España", "Asia-Pacific"]
+        geo_cats = ["Americas", "Europe", "Spain", "Asia-Pacific"]
         period_labels = {"3_months": "Last 3 Months", "6_months": "Last 6 Months", "12_months": "Last 12 Months"}
 
         def render_digest_page(title, categories, digest_data, search_boost=1):
