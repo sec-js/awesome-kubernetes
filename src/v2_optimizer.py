@@ -382,7 +382,7 @@ class V2VisionEngine:
                     except Exception:
                         pass
                 if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
-                    if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
+                    if project_id not in project_registry or item.get("stars") or 0 > project_registry[project_id].get("stars") or 0:
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
                     continue
@@ -444,7 +444,7 @@ class V2VisionEngine:
                         if idx < len(batch_links):
                             item = batch_links[idx].copy()
                             eval_data = {
-                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
+                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars") or 0), 0), 5),
                                 "ai_summary": res.get("summary", item.get("ai_summary", "")),
                                 "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
@@ -535,7 +535,7 @@ class V2VisionEngine:
                         if idx < len(batch):
                             item = batch[idx].copy()
                             eval_data = {
-                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars", 0)), 0), 5),
+                                "year": str(res.get("year", "N/A")), "stars": min(max(int(res.get("stars") or 0), 0), 5),
                                 "ai_summary": res.get("summary", ""), "language": res.get("language", "English"),
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
@@ -559,7 +559,7 @@ class V2VisionEngine:
                 l for l in analyst_results 
                 if "[DE FACTO STANDARD]" in l.get("tags", []) 
                 or "[ENTERPRISE-STABLE]" in l.get("tags", [])
-                or l.get("stars", 0) in [3, 4]
+                or l.get("stars") or 0 in [3, 4]
             ]
             
             if debate_candidates:
@@ -596,7 +596,7 @@ class V2VisionEngine:
                     new_data["addition_method"] = "manual"
                 update_inventory_entry(self.inventory, norm_url, new_data)
                 
-                if p_id not in project_registry or item.get("stars", 0) > project_registry[p_id].get("stars", 0):
+                if p_id not in project_registry or item.get("stars") or 0 > project_registry[p_id].get("stars") or 0:
                     if p_id in project_registry and project_registry[p_id].get("is_special"): item["is_special"] = True
                     project_registry[p_id] = item
 
@@ -699,7 +699,7 @@ class V2VisionEngine:
                 
                 # Mandate 29: Special Assets must include 100% of ALIVE links, bypassing impact filters.
                 is_special = item.get("is_special", False) or orig_file in special_rules
-                if not is_special and orig_file == "introduction.md" and item.get("stars", 0) < 3 and not item.get("is_microservice"):
+                if not is_special and orig_file == "introduction.md" and item.get("stars") or 0 < 3 and not item.get("is_microservice"):
                     continue
                 
                 if orig_file not in v2_structure:
@@ -735,7 +735,7 @@ class V2VisionEngine:
                 audit_entry = {
                     "url": item["url"],
                     "tag": ", ".join(item["tags"]),
-                    "stars": item.get("stars", 0),
+                    "stars": item.get("stars") or 0,
                     "dimension": dim,
                     "v2_locations": True 
                 }
@@ -776,13 +776,13 @@ class V2VisionEngine:
         return results
 
     async def _generate_comparison_table(self, links: List[Dict]) -> str:
-        standard_tools = [l for l in links if l.get("stars", 0) >= 3]
+        standard_tools = [l for l in links if l.get("stars") or 0 >= 3]
         if len(standard_tools) < 8: return ""
         table = "\n??? abstract \"Architect's Technical Comparison Table\"\n"
         table += "    | Solution | Maturity | Primary Focus | Language | Stars |\n"
         table += "    | :--- | :--- | :--- | :--- | :--- |\n"
         for l in standard_tools[:10]:
-            stars = "🌟" * l.get("stars", 0)
+            stars = "🌟" * l.get("stars") or 0
             focus = l.get("topic", l.get("hierarchy", ["General"])[-1])
             # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
             clean_title = nuclear_strip(l['title'])
@@ -826,7 +826,7 @@ class V2VisionEngine:
 
     async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
         md = ""
-        is_gold = is_intro and l.get("stars", 0) >= 4
+        is_gold = is_intro and l.get("stars") or 0 >= 4
         title = nuclear_strip(l['title']) 
         if is_gold:
             img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
@@ -867,7 +867,7 @@ class V2VisionEngine:
                 tag_html += f" <span class='md-tag md-tag--{color}'>{tag}</span>"
             
             # Apply Visual Highlighting based on stars
-            raw_stars = l.get('stars', 0)
+            raw_stars = l.get('stars') or 0
             link_content = title
             if raw_stars >= 5:
                 link_content = f"=={link_content}=="
@@ -895,7 +895,7 @@ class V2VisionEngine:
         year = l.get("year", "")
         year_prefix = f"**({year})** " if year and str(year).lower() != "n/a" else ""
 
-        raw_stars = l.get("stars", 0)
+        raw_stars = l.get("stars") or 0
         stars_str = f" {'🌟' * raw_stars}" if raw_stars > 0 else ""
 
         # Title formatting based on impact
@@ -1022,7 +1022,7 @@ class V2VisionEngine:
                     f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}</div>\n'
                     f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
                     f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{nuclear_strip(item.get("title", "Unknown"))}</a></div>\n'
-                    f'  <div class="trending-card__meta">{item.get("date", "")} · {"🌟" * item.get("stars", 0)}</div>\n'
+                    f'  <div class="trending-card__meta">{item.get("date", "")} · {"🌟" * item.get("stars") or 0}</div>\n'
                     f'  <div class="trending-card__why">{item.get("why", "")}</div>\n'
                     f'</div>\n'
                 )
@@ -1569,7 +1569,7 @@ if __name__ == "__main__":
     header_table = "| # | Status | Maturity | Stars | Dimension | Resource |\n| :--- | :--- | :--- | :---: | :--- | :--- |\n"
     for idx, entry in enumerate(engine.maturity_audit, 1):
         status = "💎 ELITE" if entry.get('v2_locations') else "📦 ARCHIVE"
-        row = f"| {idx} | {status} | {entry.get('tag', 'N/A')} | {'🌟'*entry.get('stars',0)} | {entry.get('dimension', 'N/A')} | {entry.get('url', 'N/A')} |\n"
+        row = f"| {idx} | {status} | {entry.get('tag', 'N/A')} | {'🌟'*(entry.get('stars') or 0)} | {entry.get('dimension', 'N/A')} | {entry.get('url', 'N/A')} |\n"
         matrix_rows.append(row)
 
     # 4. Generate PR Body (Main Report)
