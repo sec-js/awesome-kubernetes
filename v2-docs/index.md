@@ -39,6 +39,13 @@
       <div class="hero-badge-subtitle">Agentic Ecosystem</div>
     </div>
   </a>
+  <a href="./tech-digest/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--amber">
+      <div class="hero-badge-icon">📊</div>
+      <div class="hero-badge-title">Intelligence Digest</div>
+      <div class="hero-badge-subtitle">Top picks · 3/6/12 months</div>
+    </div>
+  </a>
   <a href="./videos/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--pink">
       <img src="/images/video_hub_logo.png" alt="Agentic Video Hub"/>
@@ -115,6 +122,20 @@
 
 </div>
 </center>
+
+<div class="digest-preview">
+  <div class="digest-preview-header">
+    <span class="digest-preview-title">📊 Intelligence Digest — Top Picks (Last 3 Months)</span>
+    <a href="./tech-digest/" class="digest-preview-link">View all 22 categories →</a>
+  </div>
+  <ul class="digest-preview-list">
+    <li><span class="digest-preview-cat">Kubernetes</span> <a href="https://www.apptio.com/products/kubecost/?src=kc-com">Kubecost — real-time cost allocation for multi-cluster K8s</a></li>
+    <li><span class="digest-preview-cat">AI & Agents</span> <a href="https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview">Claude Code CLI — agentic AI coding assistant</a></li>
+    <li><span class="digest-preview-cat">Security</span> <a href="https://github.com/policy-hub/policy-hub-cli">PolicyHub CLI — searchable Rego policy library</a></li>
+    <li><span class="digest-preview-cat">IaC</span> <a href="https://github.com/shuaibiyy/awesome-tf">Awesome Terraform — curated Terraform resources</a></li>
+    <li><span class="digest-preview-cat">Observability</span> <a href="https://grafana.com/blog/how-to-manage-high-cardinality-metrics-in-prometheus-and-kubernetes">Grafana: High cardinality metrics in Prometheus & K8s</a></li>
+  </ul>
+</div>
 
 ## The Agentic Pulse
 - **(2026)** [**==abarrak.gitbook.io: Linux SysOps Handbook 🌟==**](https://abarrak.gitbook.io/linux-sysops-handbook) 🌟🌟🌟🌟
