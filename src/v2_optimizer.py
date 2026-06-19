@@ -953,8 +953,9 @@ class V2VisionEngine:
         geo_cats = ["Americas", "Europe", "España", "Asia-Pacific"]
         period_labels = {"3_months": "Last 3 Months", "6_months": "Last 6 Months", "12_months": "Last 12 Months"}
 
-        def render_digest_page(title, categories, digest_data):
-            md = f"# {title}\n\n"
+        def render_digest_page(title, categories, digest_data, search_boost=1):
+            md = f"---\nsearch:\n  boost: {search_boost}\n---\n\n"
+            md += f"# {title}\n\n"
             md += "!!! tip \"Nubenetes Intelligence Digest\"\n"
             md += "    AI-curated ranking of the most impactful resources, updated monthly.\n\n"
             for period_key, period_label in period_labels.items():
@@ -976,11 +977,11 @@ class V2VisionEngine:
                 md += "\n"
             return md
 
-        tech_md = render_digest_page("📊 Nubenetes Tech & Cloud Intelligence Digest", tech_cats, digest_data)
+        tech_md = render_digest_page("📊 Nubenetes Tech & Cloud Intelligence Digest", tech_cats, digest_data, search_boost=2)
         with open(os.path.join(V2_DIR, "tech-digest.md"), "w", encoding="utf-8") as f:
             f.write(tech_md)
 
-        industry_md = render_digest_page("🌍 Nubenetes Industry & Geo Intelligence Digest", geo_cats, digest_data)
+        industry_md = render_digest_page("🌍 Nubenetes Industry & Geo Intelligence Digest", geo_cats, digest_data, search_boost=2)
         with open(os.path.join(V2_DIR, "industry-digest.md"), "w", encoding="utf-8") as f:
             f.write(industry_md)
 
@@ -1006,7 +1007,14 @@ class V2VisionEngine:
             top_items = top_items[:6]
 
             impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
-            cards_html = '<div class="trending-section">\n<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence</div>\n<div class="trending-grid">\n'
+            try:
+                digest_mtime = os.path.getmtime(digest_path)
+                from datetime import datetime as _dt
+                digest_updated = _dt.fromtimestamp(digest_mtime).strftime("%b %d, %Y")
+            except Exception:
+                digest_updated = ""
+            updated_badge = f'<span class="trending-section__updated">Updated {digest_updated}</span>' if digest_updated else ""
+            cards_html = f'<div class="trending-section">\n<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence {updated_badge}</div>\n<div class="trending-grid">\n'
             for item in top_items:
                 impact = item.get("impact", "medium")
                 cards_html += (
