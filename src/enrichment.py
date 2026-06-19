@@ -306,6 +306,7 @@ async def detect_license_changes(inventory: Dict) -> List[Dict]:
         log_event("[License] No repos with stored licenses to check")
         return []
 
+    candidates = candidates[:MAX_REPOS_DEFAULT]  # cap to same limit as activity enrichment
     log_event(f"[License] Checking {len(candidates)} repos for license changes")
 
     changes: List[Dict] = []
