@@ -1840,6 +1840,98 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The launch of the AWS Spain region is a massive milestone that addresses data residency and latency requirements, accelerating cloud-native migration for Spanish enterprises.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "This analysis of major AWS outages highlights the systemic risks of cloud centralization and underscores the importance of multi-region and multi-cloud resilience strategies.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-06-14",
+        "stars": 3,
+        "impact": "high",
+        "why": "It addresses the critical organizational and cultural hurdles of scaling DevSecOps and cloud-native practices when relying on external IT outsourcing in Spain.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "high",
+        "why": "Provides essential strategic guidance for enterprises, arguing for realistic, incremental AI adoption paths rather than high-risk, large-scale overhauls.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Provides deep, localized technical knowledge on Linux performance and storage optimization, which are foundational for running high-performance Kubernetes worker nodes.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Demonstrates a real-world enterprise implementation of API-driven architecture, facilitating digital insurance B2B integrations.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases production-ready financial API infrastructure designed to comply with PSD2, highlighting modern integration patterns in Spanish banking.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces a lightweight, next-generation IDE that supports remote backend execution, aligning with the cloud-based developer workspace trend.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Offers a highly accessible, localized resource for mastering Python, which remains a core language for cloud automation, tooling, and AI pipelines.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.atareao.es/ubuntu/tuneles-ssh",
+        "title": "Túneles SSH",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "A practical guide to SSH tunneling, a fundamental skill for secure remote access, port forwarding, and network debugging in cloud environments.",
+        "category": "España"
+      }
+    ],
     "Europe": [
       {
         "url": "https://www.justinpolidori.it/posts/20220116_sign_images_with_cosign_and_verify_with_gatekeeper",
@@ -2226,98 +2318,6 @@
         "impact": "medium",
         "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
         "category": "Americas"
-      }
-    ],
-    "Spain": [
-      {
-        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
-        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "critical",
-        "why": "The launch of the AWS Spain region is a massive milestone that addresses data residency and latency requirements, accelerating cloud-native migration for Spanish enterprises.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
-        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "high",
-        "why": "This analysis of major AWS outages highlights the systemic risks of cloud centralization and underscores the importance of multi-region and multi-cloud resilience strategies.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-06-14",
-        "stars": 3,
-        "impact": "high",
-        "why": "It addresses the critical organizational and cultural hurdles of scaling DevSecOps and cloud-native practices when relying on external IT outsourcing in Spain.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
-        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides essential strategic guidance for enterprises, arguing for realistic, incremental AI adoption paths rather than high-risk, large-scale overhauls.",
-        "category": "España"
-      },
-      {
-        "url": "https://systemadmin.es",
-        "title": "systemadmin.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Provides deep, localized technical knowledge on Linux performance and storage optimization, which are foundational for running high-performance Kubernetes worker nodes.",
-        "category": "España"
-      },
-      {
-        "url": "https://api-market.santalucia.es",
-        "title": "santalucia.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Demonstrates a real-world enterprise implementation of API-driven architecture, facilitating digital insurance B2B integrations.",
-        "category": "España"
-      },
-      {
-        "url": "https://apimarket.cecabank.es",
-        "title": "Cecabank API Market",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Showcases production-ready financial API infrastructure designed to comply with PSD2, highlighting modern integration patterns in Spanish banking.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
-        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Introduces a lightweight, next-generation IDE that supports remote backend execution, aligning with the cloud-based developer workspace trend.",
-        "category": "España"
-      },
-      {
-        "url": "https://libropython.es",
-        "title": "Think Python en espanol (Piensa en Python)",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Offers a highly accessible, localized resource for mastering Python, which remains a core language for cloud automation, tooling, and AI pipelines.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.atareao.es/ubuntu/tuneles-ssh",
-        "title": "Túneles SSH",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "A practical guide to SSH tunneling, a fundamental skill for secure remote access, port forwarding, and network debugging in cloud environments.",
-        "category": "España"
       }
     ]
   },
@@ -4162,6 +4162,98 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The opening of an AWS Region in Spain provides essential infrastructure for local cloud-native adoption and data residency compliance.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "high",
+        "why": "Provides critical strategic guidance on avoiding common pitfalls in enterprise AI transformation, which is increasingly integrated into cloud-native pipelines.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "high",
+        "why": "Demonstrates enterprise-grade API management and security compliance required by the PSD2 mandate in the Spanish financial sector.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases the shift toward API-first architectures and B2B integration patterns within the traditional insurance sector.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Provides foundational knowledge on Linux performance and storage optimization necessary for managing high-performance Kubernetes clusters.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces new developer tooling paradigms that prioritize remote execution and lightweight environments, matching cloud-native development workflows.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Addresses the structural challenges of IT outsourcing in Spain, directly impacting how organizations manage cloud-native scaling and DevOps silos.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Facilitates broader technical literacy in the Spanish community by providing a modern, accessible resource for foundational programming.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Highlights systemic risks of hyperscaler dependency, prompting necessary architecture discussions around multi-cloud and resilience strategies.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.hays.es/blog/insights/la-gran-renuncia",
+        "title": "hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando' dejar su trabajo?",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Provides essential context on talent retention and professional shifts in the Spanish IT sector, impacting team stability for cloud-native projects.",
+        "category": "España"
+      }
+    ],
     "Europe": [
       {
         "url": "https://gaia-x.eu",
@@ -4548,98 +4640,6 @@
         "impact": "medium",
         "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
         "category": "Americas"
-      }
-    ],
-    "Spain": [
-      {
-        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
-        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "critical",
-        "why": "The opening of an AWS Region in Spain provides essential infrastructure for local cloud-native adoption and data residency compliance.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
-        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides critical strategic guidance on avoiding common pitfalls in enterprise AI transformation, which is increasingly integrated into cloud-native pipelines.",
-        "category": "España"
-      },
-      {
-        "url": "https://apimarket.cecabank.es",
-        "title": "Cecabank API Market",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "high",
-        "why": "Demonstrates enterprise-grade API management and security compliance required by the PSD2 mandate in the Spanish financial sector.",
-        "category": "España"
-      },
-      {
-        "url": "https://api-market.santalucia.es",
-        "title": "santalucia.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Showcases the shift toward API-first architectures and B2B integration patterns within the traditional insurance sector.",
-        "category": "España"
-      },
-      {
-        "url": "https://systemadmin.es",
-        "title": "systemadmin.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Provides foundational knowledge on Linux performance and storage optimization necessary for managing high-performance Kubernetes clusters.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
-        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Introduces new developer tooling paradigms that prioritize remote execution and lightweight environments, matching cloud-native development workflows.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Addresses the structural challenges of IT outsourcing in Spain, directly impacting how organizations manage cloud-native scaling and DevOps silos.",
-        "category": "España"
-      },
-      {
-        "url": "https://libropython.es",
-        "title": "Think Python en espanol (Piensa en Python)",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Facilitates broader technical literacy in the Spanish community by providing a modern, accessible resource for foundational programming.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
-        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Highlights systemic risks of hyperscaler dependency, prompting necessary architecture discussions around multi-cloud and resilience strategies.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.hays.es/blog/insights/la-gran-renuncia",
-        "title": "hays.es: ‘La Gran Renuncia’: ¿por qué tantos profesionales se están planteando' dejar su trabajo?",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Provides essential context on talent retention and professional shifts in the Spanish IT sector, impacting team stability for cloud-native projects.",
-        "category": "España"
       }
     ]
   },
@@ -6484,6 +6484,98 @@
         "category": "Platform Engineering & DevEx"
       }
     ],
+    "Spain": [
+      {
+        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
+        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "The launch of the AWS Spain region is a massive milestone for local data residency compliance, low-latency applications, and accelerated enterprise cloud adoption.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
+        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
+        "date": "2026-06-01",
+        "stars": 0,
+        "impact": "high",
+        "why": "Major hyperscaler outages highlight the systemic risks of cloud centralization and drive the architectural need for resilient, multi-region setups.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-06-14",
+        "stars": 3,
+        "impact": "high",
+        "why": "Highlights the critical organizational bottlenecks Spanish enterprises face when attempting to scale DevSecOps and cloud-native practices via outsourcing.",
+        "category": "España"
+      },
+      {
+        "url": "https://systemadmin.es",
+        "title": "systemadmin.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "high",
+        "why": "Offers essential system-level optimization and Linux performance insights necessary for engineers running workloads on cloud infrastructure.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
+        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
+        "date": "2026-06-18",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Provides crucial strategic guidance for enterprises adopting AI, advising on iterative, cloud-native scaling over massive, high-risk initial rollouts.",
+        "category": "España"
+      },
+      {
+        "url": "https://libropython.es",
+        "title": "Think Python en espanol (Piensa en Python)",
+        "date": "2026-06-02",
+        "stars": 4,
+        "impact": "medium",
+        "why": "A highly visible localized educational resource that supports developer upskilling in Python, a foundational language for cloud-native scripting and AI/ML.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
+        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Introduces lightweight, remote-friendly IDE options that align with modern developer workflows and cloud-hosted development environments.",
+        "category": "España"
+      },
+      {
+        "url": "https://apimarket.cecabank.es",
+        "title": "Cecabank API Market",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Showcases a production-ready, highly regulated financial API integration platform that aligns with modern microservices architecture.",
+        "category": "España"
+      },
+      {
+        "url": "https://api-market.santalucia.es",
+        "title": "santalucia.es",
+        "date": "2026-06-01",
+        "stars": 3,
+        "impact": "medium",
+        "why": "Demonstrates how legacy enterprises in Spain are modernizing their B2B digital delivery through API-first cloud integration architectures.",
+        "category": "España"
+      },
+      {
+        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
+        "title": "computing.es: Retos del outsourcing de servicios IT en España",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "Explores strategic mitigation models for managing SLAs and operational consistency in complex, outsourced enterprise IT environments.",
+        "category": "España"
+      }
+    ],
     "Europe": [
       {
         "url": "https://gaia-x.eu",
@@ -6871,98 +6963,6 @@
         "why": "A curated technical resource and architectural guide covering businessinsider.mx: 5 trucos de ChatGPT que pueden ayudar a reducir tu carga' laboral in the Kubernetes Tools ecosystem.",
         "category": "Americas"
       }
-    ],
-    "Spain": [
-      {
-        "url": "https://www.aboutamazon.es/innovaci%C3%B3n/aws-acelera-la-apertura-de-la-regi%C3%B3n-aws-europa-espa%C3%B1a-para-apoyar-la-transformaci%C3%B3n-digital-de-espa%C3%B1a",
-        "title": "aboutamazon.es: AWS acelera la apertura de la Región AWS Europa (España)' para apoyar la transformación digital de España",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "critical",
-        "why": "The launch of the AWS Spain region is a massive milestone for local data residency compliance, low-latency applications, and accelerated enterprise cloud adoption.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.20minutos.es/tecnologia/actualidad/amazon-web-services-vuelve-a-romper-internet-se-ha-caido-ya-tres-veces-en-el-mismo-mes-y-le-llueven-las-criticas-4931834",
-        "title": "20minutos.es: Amazon Web Services vuelve a romper Internet: se ha caído ya tres veces en el mismo mes y le llueven las críticas",
-        "date": "2026-06-01",
-        "stars": 0,
-        "impact": "high",
-        "why": "Major hyperscaler outages highlight the systemic risks of cloud centralization and drive the architectural need for resilient, multi-region setups.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.computing.es/mundo-digital/retos-del-outsourcing-de-servicios-it-en-espana",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-06-14",
-        "stars": 3,
-        "impact": "high",
-        "why": "Highlights the critical organizational bottlenecks Spanish enterprises face when attempting to scale DevSecOps and cloud-native practices via outsourcing.",
-        "category": "España"
-      },
-      {
-        "url": "https://systemadmin.es",
-        "title": "systemadmin.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "high",
-        "why": "Offers essential system-level optimization and Linux performance insights necessary for engineers running workloads on cloud infrastructure.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.technologyreview.es/article/las-empresas-que-empiezan-lo-grande-con-la-ia-fracasan-mas",
-        "title": "technologyreview.es: \"Las empresas que empiezan a lo grande con la IA fracasan más\" 🌟",
-        "date": "2026-06-18",
-        "stars": 4,
-        "impact": "medium",
-        "why": "Provides crucial strategic guidance for enterprises adopting AI, advising on iterative, cloud-native scaling over massive, high-risk initial rollouts.",
-        "category": "España"
-      },
-      {
-        "url": "https://libropython.es",
-        "title": "Think Python en espanol (Piensa en Python)",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "medium",
-        "why": "A highly visible localized educational resource that supports developer upskilling in Python, a foundational language for cloud-native scripting and AI/ML.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains",
-        "title": "softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Introduces lightweight, remote-friendly IDE options that align with modern developer workflows and cloud-hosted development environments.",
-        "category": "España"
-      },
-      {
-        "url": "https://apimarket.cecabank.es",
-        "title": "Cecabank API Market",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Showcases a production-ready, highly regulated financial API integration platform that aligns with modern microservices architecture.",
-        "category": "España"
-      },
-      {
-        "url": "https://api-market.santalucia.es",
-        "title": "santalucia.es",
-        "date": "2026-06-01",
-        "stars": 3,
-        "impact": "medium",
-        "why": "Demonstrates how legacy enterprises in Spain are modernizing their B2B digital delivery through API-first cloud integration architectures.",
-        "category": "España"
-      },
-      {
-        "url": "https://www.computing.es/mundo-digital/opinion/1129764046601/retos-del-outsourcing-de-servicios-it-espana.1.html",
-        "title": "computing.es: Retos del outsourcing de servicios IT en España",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "medium",
-        "why": "Explores strategic mitigation models for managing SLAs and operational consistency in complex, outsourced enterprise IT environments.",
-        "category": "España"
-      }
     ]
   },
   "_meta": {
@@ -7087,6 +7087,12 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:16:25.205437+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
       "Europe": {
         "last_analyzed": "2026-06-19T16:16:44.072704+02:00",
         "entry_hash": "6ae2f6a7eec2c6d0",
@@ -7116,12 +7122,6 @@
         "entry_hash": "1ac69d758d138981",
         "entry_count": 2,
         "method": "fallback_small"
-      },
-      "Spain": {
-        "last_analyzed": "2026-06-19T16:16:25.205437+02:00",
-        "entry_hash": "f5c666b89ca992f3",
-        "entry_count": 37,
-        "method": "gemini"
       }
     },
     "6_months": {
@@ -7245,6 +7245,12 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:18:26.505532+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
       "Europe": {
         "last_analyzed": "2026-06-19T16:18:53.748923+02:00",
         "entry_hash": "d52198019caf4492",
@@ -7274,12 +7280,6 @@
         "entry_hash": "1ac69d758d138981",
         "entry_count": 2,
         "method": "fallback_small"
-      },
-      "Spain": {
-        "last_analyzed": "2026-06-19T16:18:26.505532+02:00",
-        "entry_hash": "f5c666b89ca992f3",
-        "entry_count": 37,
-        "method": "gemini"
       }
     },
     "12_months": {
@@ -7403,6 +7403,12 @@
         "entry_count": 76,
         "method": "gemini"
       },
+      "Spain": {
+        "last_analyzed": "2026-06-19T16:19:43.166872+02:00",
+        "entry_hash": "f5c666b89ca992f3",
+        "entry_count": 37,
+        "method": "gemini"
+      },
       "Europe": {
         "last_analyzed": "2026-06-19T16:20:02.843962+02:00",
         "entry_hash": "d52198019caf4492",
@@ -7432,14 +7438,8 @@
         "entry_hash": "1ac69d758d138981",
         "entry_count": 2,
         "method": "fallback_small"
-      },
-      "Spain": {
-        "last_analyzed": "2026-06-19T16:19:43.166872+02:00",
-        "entry_hash": "f5c666b89ca992f3",
-        "entry_count": 37,
-        "method": "gemini"
       }
     },
-    "last_updated": "2026-06-19T16:20:18.738498+02:00"
+    "last_updated": "2026-06-19T16:38:21.993641+02:00"
   }
 }

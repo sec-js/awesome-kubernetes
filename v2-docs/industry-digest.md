@@ -3,7 +3,7 @@ search:
   boost: 2
 ---
 
-# Nubenetes Industry and Geo Intelligence Digest
+# 🌍 Nubenetes Industry & Geo Intelligence Digest
 
 !!! tip "Nubenetes Intelligence Digest"
     AI-curated ranking of the most impactful resources, updated monthly.
