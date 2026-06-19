@@ -2,9 +2,10 @@ from __future__ import annotations
 
 import os
 import json
+import hashlib
 import asyncio
 from datetime import datetime, timedelta
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Tuple
 
 from src.inventory_manager import load_inventory
 from src.gemini_utils import call_gemini_with_retry
@@ -12,6 +13,10 @@ from src.config import MADRID_TZ
 from src.logger import log_event
 
 DIGEST_OUTPUT_PATH = "data/news_digest.json"
+
+# Refresh a cell even when hash matches if last_analyzed is older than this.
+# Ensures Gemini rankings stay fresh even for stable categories.
+MAX_STALENESS_DAYS = 30
 
 
 class NewsDigestEngine:
@@ -298,51 +303,119 @@ class NewsDigestEngine:
         ]
 
     # ------------------------------------------------------------------ #
+    # Incremental cache helpers                                           #
+    # ------------------------------------------------------------------ #
+
+    @staticmethod
+    def _compute_pool_hash(entries: List[dict]) -> str:
+        """Stable fingerprint of a category entry pool.
+
+        Uses sorted URLs so the hash only changes when the actual set of
+        entries changes — not when their order or metadata is updated.
+        Returns first 16 hex chars (64-bit fingerprint, collision-safe).
+        """
+        sorted_urls = sorted(e["url"] for e in entries if e.get("url"))
+        return hashlib.sha256("|".join(sorted_urls).encode()).hexdigest()[:16]
+
+    def _load_existing_digest(self) -> Tuple[dict, dict]:
+        """Load existing digest + meta block from disk.
+
+        Returns ``(periods_dict, meta_dict)``. Both are empty dicts if the
+        file does not exist or cannot be parsed.  The ``_meta`` key is
+        stripped from *periods_dict* so callers only see period data.
+        """
+        if not os.path.exists(DIGEST_OUTPUT_PATH):
+            return {}, {}
+        try:
+            with open(DIGEST_OUTPUT_PATH, encoding="utf-8") as f:
+                raw = json.load(f)
+            meta = raw.pop("_meta", {})
+            return raw, meta
+        except Exception as e:
+            log_event(
+                f"[Digest WARN] Could not load existing digest: {str(e)[:100]}"
+            )
+            return {}, {}
+
+    def _is_cache_valid(
+        self, period: str, cat: str, pool_hash: str, meta: dict
+    ) -> bool:
+        """Return True when the stored result can be reused without Gemini.
+
+        Conditions (both must hold):
+        1. Entry-pool hash matches (same URLs, same period).
+        2. Result was analysed no more than MAX_STALENESS_DAYS ago.
+        """
+        cell = meta.get(period, {}).get(cat)
+        if not cell:
+            return False
+        if cell.get("entry_hash") != pool_hash:
+            return False
+        last = cell.get("last_analyzed", "")
+        if not last:
+            return False
+        try:
+            age = (
+                datetime.now(MADRID_TZ) - datetime.fromisoformat(last)
+            ).days
+            return age <= MAX_STALENESS_DAYS
+        except Exception:
+            return False
+
+    # ------------------------------------------------------------------ #
     # Core generation loop                                                #
     # ------------------------------------------------------------------ #
 
     async def generate_digest(self) -> dict:
-        """Generate the full digest for all categories and time periods.
+        """Incrementally generate the digest for all categories / periods.
+
+        For each (category, period) cell the engine checks whether the
+        inventory pool hash has changed since the last run.  If the hash
+        is identical *and* the result is not stale, the existing ranked
+        list is reused with zero Gemini API calls.  Gemini is only invoked
+        for cells whose entry pool has actually changed or exceeded
+        MAX_STALENESS_DAYS.
 
         Returns a nested dict::
 
             {
                 "3_months": { "Kubernetes & Orchestration": [...], ... },
                 "6_months": { ... },
-                "12_months": { ... }
+                "12_months": { ... },
+                "_meta": { ... }   ← persistence metadata, internal use
             }
         """
+        existing, old_meta = self._load_existing_digest()
+        new_meta: Dict[str, Dict[str, dict]] = {}
         digest: Dict[str, Dict[str, List[dict]]] = {}
+
+        n_cached = n_refreshed = n_fallback = 0
 
         for period_name, days in self.PERIODS.items():
             cutoff = (
                 datetime.now(MADRID_TZ) - timedelta(days=days)
             ).isoformat()
             digest[period_name] = {}
+            new_meta[period_name] = {}
 
-            # Bucket entries into their digest categories
+            # Build per-category entry pools for this period
             category_pools: Dict[str, List[dict]] = {}
             for url, entry in self.inventory.items():
                 if not isinstance(entry, dict):
                     continue
                 if not self._is_within_period(entry, cutoff):
                     continue
-
-                # Tech / topic category
                 cat = self._get_entry_category(entry)
                 if cat:
                     category_pools.setdefault(cat, []).append(
                         dict(entry, url=url)
                     )
-
-                # Geo category (entry may belong to both)
                 geo = self._get_entry_geo(entry)
                 if geo:
                     category_pools.setdefault(geo, []).append(
                         dict(entry, url=url)
                     )
 
-            # Rank each category pool
             for cat_name, entries in category_pools.items():
                 entries.sort(
                     key=lambda x: (
@@ -351,25 +424,42 @@ class NewsDigestEngine:
                     ),
                     reverse=True,
                 )
-
                 max_items = self.ITEMS_PER_PERIOD.get(period_name, 10)
+                pool_hash = self._compute_pool_hash(entries)
 
+                # ── Cache hit: reuse without calling Gemini ──
+                if self._is_cache_valid(period_name, cat_name, pool_hash, old_meta):
+                    cached_items = existing.get(period_name, {}).get(cat_name, [])
+                    if cached_items:
+                        digest[period_name][cat_name] = cached_items
+                        new_meta[period_name][cat_name] = (
+                            old_meta[period_name][cat_name]
+                        )
+                        n_cached += 1
+                        continue
+
+                # ── Fewer than 3 entries: star-based fallback (no AI) ──
                 if len(entries) < 3:
                     digest[period_name][cat_name] = self._fallback_items(
                         entries, cat_name, limit=max_items
                     )
+                    new_meta[period_name][cat_name] = {
+                        "last_analyzed": datetime.now(MADRID_TZ).isoformat(),
+                        "entry_hash": pool_hash,
+                        "entry_count": len(entries),
+                        "method": "fallback_small",
+                    }
+                    n_fallback += 1
                     continue
 
+                # ── Gemini ranking ──
                 try:
                     prompt = self._build_ranking_prompt(
                         cat_name, entries, period_name
                     )
                     result = await call_gemini_with_retry(
-                        prompt,
-                        prefer_flash=True,
-                        role="Digest-Analyst",
+                        prompt, prefer_flash=True, role="Digest-Analyst"
                     )
-
                     ranked: List[dict] = []
                     for item in result.get("items", []):
                         idx = int(item.get("idx", -1))
@@ -386,26 +476,43 @@ class NewsDigestEngine:
                                     "category": cat_name,
                                 }
                             )
-
                     digest[period_name][cat_name] = ranked[:max_items]
+                    new_meta[period_name][cat_name] = {
+                        "last_analyzed": datetime.now(MADRID_TZ).isoformat(),
+                        "entry_hash": pool_hash,
+                        "entry_count": len(entries),
+                        "method": "gemini",
+                    }
+                    n_refreshed += 1
                     log_event(
                         f"  [Digest] {period_name}/{cat_name}: "
-                        f"{len(ranked)} items ranked"
+                        f"{len(ranked)} items ranked (Gemini)"
                     )
-
                 except Exception as exc:
                     log_event(
                         f"  [Digest WARN] {period_name}/{cat_name}: "
-                        f"Gemini failed ({str(exc)[:80]}), "
-                        "using star-based fallback"
+                        f"Gemini failed ({str(exc)[:80]}), using fallback"
                     )
                     digest[period_name][cat_name] = self._fallback_items(
                         entries, cat_name, limit=max_items
                     )
+                    new_meta[period_name][cat_name] = {
+                        "last_analyzed": datetime.now(MADRID_TZ).isoformat(),
+                        "entry_hash": pool_hash,
+                        "entry_count": len(entries),
+                        "method": "fallback_error",
+                    }
+                    n_fallback += 1
 
-                # Respect Gemini rate limits
                 await asyncio.sleep(1.0)
 
+        log_event(
+            f"[Digest] {n_cached} cells reused (0 API calls), "
+            f"{n_refreshed} refreshed via Gemini, "
+            f"{n_fallback} fallback"
+        )
+        new_meta["last_updated"] = datetime.now(MADRID_TZ).isoformat()
+        digest["_meta"] = new_meta
         return digest
 
     # ------------------------------------------------------------------ #
@@ -414,11 +521,29 @@ class NewsDigestEngine:
 
     @staticmethod
     def save_digest(digest: dict) -> None:
-        """Serialise *digest* to ``data/news_digest.json``."""
+        """Serialise digest (including ``_meta``) to ``data/news_digest.json``."""
         os.makedirs(os.path.dirname(DIGEST_OUTPUT_PATH), exist_ok=True)
         with open(DIGEST_OUTPUT_PATH, "w", encoding="utf-8") as fh:
             json.dump(digest, fh, indent=2, ensure_ascii=False)
-        log_event(f"[Digest] Saved to {DIGEST_OUTPUT_PATH}")
+        # Count only period keys for the total-items stat
+        total_items = sum(
+            len(items)
+            for key, period in digest.items()
+            if key != "_meta" and isinstance(period, dict)
+            for items in period.values()
+            if isinstance(items, list)
+        )
+        gemini_cells = sum(
+            1
+            for period_meta in digest.get("_meta", {}).values()
+            if isinstance(period_meta, dict)
+            for cell in period_meta.values()
+            if isinstance(cell, dict) and cell.get("method") == "gemini"
+        )
+        log_event(
+            f"[Digest] Saved to {DIGEST_OUTPUT_PATH} — "
+            f"{total_items} items, {gemini_cells} Gemini calls this run"
+        )
 
 
 # ====================================================================== #
