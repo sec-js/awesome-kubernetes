@@ -268,6 +268,10 @@ The autonomy of Nubenetes is powered by a modern, resilient tech stack that ensu
 | **Discovery** | Twikit and Playwright | Autonomous scraping and account rotation. |
 | **Resilience** | Identity Rotation | Evasion of anti-bot blocks using multiple profiles. |
 | **Deployment** | MkDocs Material & Native GH Pages | High-performance static site generation via native artifact deployment. |
+| **Intelligence** | News Digest Engine | AI-powered temporal digest across 26 categories (3/6/12 months). |
+| **Enrichment** | CNCF + GitHub Activity | Landscape graduation status, issue/PR velocity, license change detection. |
+| **Dedup** | Similarity Engine | URL, content-hash, and title-similarity deduplication (85% threshold). |
+| **Offline** | PWA Support | Service Worker caching for offline reading of the portal. |
 
 ---
 
@@ -394,10 +398,46 @@ Nubenetes operates with two distinct editions to serve different engineering nee
     - **No stars**: Standard reference documentation and technical resources.
 - **Multi-Dimensional Tagging (1:N):** Every resource is classified with multiple semantic tags (e.g., `[DE FACTO STANDARD]`, `[GUIDE]`, `[CASE STUDY]`, `[EMERGING]`) providing deep technical context and maturity status.
 - **Minimalist Inline Summaries**: Resources feature a **"Deep-Dive"** inline tag (using native HTML5 `<details>`) that expands into a rich technical summary without consuming space when collapsed. These summaries use the **Double-Evidence Synthesis** protocol to provide verified architectural insights.
-- **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**.
+- **Semantic Cross-Linking:** The portal autonomously identifies and links related categories within the same strategic dimension (e.g., suggesting `Flux` when reading about `Argo`), creating a cohesive **Industrial Knowledge Graph**. Additionally, **cross-dimension "See Also" links** connect pages that share technical tags across different dimensions.
 - **Executive Context**: Every strategic dimension features an AI-generated **State-of-the-Art Introduction** providing high-level architectural context and industry direction before the link listings.
 - **Source of Truth:** The `v2-docs/` directory (Derived from V1).
 - **Deployment:** [nubenetes.com/v2/](https://nubenetes.com/v2)
+
+#### V2 Intelligence Digest (June 2026)
+The V2 portal includes an **AI-powered Intelligence Digest** system that surfaces the most relevant resources from the last 3, 6, and 12 months across **26 curated categories**:
+
+| Category Group | Categories |
+| :--- | :--- |
+| **Tech Core (9)** | Kubernetes & Orchestration, Containers & Runtime, Networking & Service Mesh, Architecture & Microservices, Data/Messaging/Storage, AI & Agents, MLOps & Data Science, Python/Java/Dev Ecosystem, Linux & System Foundations |
+| **Platform & Ops (8)** | Security & Compliance, Infrastructure as Code, CI/CD & GitOps, Observability/SRE/Testing, DevOps & Culture, Platform Engineering & DevEx, FinOps & Cloud Cost, Certification & Training |
+| **Cloud & Enterprise (5)** | AWS, Azure, GCP/OCI/Others, OpenShift/Red Hat, Virtualization & Private Cloud (VMware/Broadcom, Proxmox, Nutanix, KubeVirt) |
+| **Industry / Geo (4)** | Americas, Europe, Spain, Asia-Pacific |
+
+**Key features:**
+- **Trending Now** cards on the index page with the top cross-category items ranked by Gemini AI
+- **Dedicated digest pages** (`tech-digest.md`, `industry-digest.md`) with tabbed 3/6/12 month views
+- **Temporal tracking** via `discovered_at` field on all 18,000+ inventory entries
+- **Company & geo-region classification** extracted by Gemini during ingestion for industry digest
+- **Automatic staleness detection**: entries enriched >6 months ago are re-evaluated by AI (`last_ai_eval`)
+
+#### V2 Data Quality and Pipeline Hardening (June 2026)
+- **CNCF Landscape Integration** (`src/enrichment.py`): Auto-fetches graduation status (Sandbox/Incubating/Graduated/Archived) for CNCF projects to power maturity tags.
+- **GitHub Activity Enrichment**: Fetches issue/PR velocity and assigns community health scores (active/healthy/low/dormant).
+- **License Change Detection**: Compares stored licenses with current GitHub data, flagging high-impact changes (e.g., BSL, SSPL switches).
+- **Deduplication Engine** (`src/dedup.py`): URL normalization, content-hash matching, and title-similarity detection (85% threshold) to eliminate duplicate entries.
+- **Exception Observability**: All 50+ bare `except: pass` patterns across the pipeline replaced with contextual logging.
+- **Expanded Discovery**: Autonomous GitHub trending discovery expanded from 6 to 14 search queries covering DevOps, observability, security, IaC, databases, CI/CD, service mesh, and platform engineering.
+- **Stale Health Re-check**: Online entries older than 30 days are automatically re-validated instead of being skipped.
+
+#### V2 MkDocs Material Enhancements (June 2026)
+- **Instant Navigation** with prefetch for SPA-like experience across 140+ pages
+- **Breadcrumbs** (`navigation.path`) for orientation in deep category hierarchies
+- **Announcement Bar** promoting the Intelligence Digest
+- **Tags Plugin** for native clickable cross-page tag navigation
+- **RSS Feed** for digest page subscription
+- **PWA/Offline Support** for cached offline reading
+- **Minify Plugin** for production HTML optimization
+- **12 Stub Pages Merged** into parent categories with automatic redirects (e.g., `react.md` → `javascript.md`, `chef.md` → `ansible.md`, `oauth.md` → `securityascode.md`)
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -1190,7 +1230,11 @@ To maintain transparency and ease of navigation, all key configuration, database
 - **Health Check Logic:** [`src/intelligent_health_checker.py`](src/intelligent_health_checker.py) - Link rot prevention and canonical updates.
 - **Twikit Ingestion:** [`src/ingestion_twikit.py`](src/ingestion_twikit.py) - X.com scraping and account rotation logic.
 - **Backup Ingestion:** [`src/ingestion_backup.py`](src/ingestion_backup.py) - Manual and historical JSON data processing.
-- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction.
+- **Discovery Engine:** [`src/autonomous_discovery.py`](src/autonomous_discovery.py) - Multi-source technical news extraction (14 GitHub search queries).
+- **News Digest Engine:** [`src/news_digest.py`](src/news_digest.py) - AI-powered temporal digest across 26 categories with Gemini ranking (3/6/12 months).
+- **Enrichment Pipeline:** [`src/enrichment.py`](src/enrichment.py) - CNCF Landscape integration, GitHub activity enrichment, and license change detection.
+- **Deduplication Engine:** [`src/dedup.py`](src/dedup.py) - URL normalization, content-hash, and title-similarity dedup (85% threshold).
+- **Backfill Utility:** [`scripts/backfill_discovered_at.py`](scripts/backfill_discovered_at.py) - One-shot `discovered_at` population for existing entries.
 - **Gemini Utils:** [`src/gemini_utils.py`](src/gemini_utils.py) - AI model discovery, rate limiting, and session tracking.
 - **Markdown Logic:** [`src/markdown_ast.py`](src/markdown_ast.py) - Sophisticated parsing of repository content.
 - **Observability:** [`src/logger.py`](src/logger.py) | [`src/report_generator.py`](src/report_generator.py) - Execution transparency and visual reporting.
