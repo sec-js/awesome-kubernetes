@@ -5,8 +5,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-> **Note:** entries for `2.6.0`–`2.9.1` are not yet backfilled here; see the
-> [GitHub Releases](https://github.com/nubenetes/awesome-kubernetes/releases) for those.
+## [[2.9.9]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.9) - 2026-06-19
+
+### Changed
+- **Changelog Backfill**: Reconstructed the missing `2.6.0`–`2.9.1` entries from the GitHub Release notes, closing the gap where `CHANGELOG.md` had stalled at `2.5.8` while releases reached `2.9.x`. The changelog is now complete and continuous.
 
 ## [[2.9.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.8) - 2026-06-19
 
@@ -47,6 +49,114 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - **Dark-Theme CSS Flashes**: Removed `content-visibility: auto` from broad `<ul>`/`<ol>` selectors and `.v2-tag-section` in `v2_elite.css`. On the slate (dark) theme it caused black flashes while scrolling and made link lists below the index mosaic appear collapsed (intrinsic-size mismatch). The tags page already uses collapsed `<details>` for native render-skipping, so the optimization was redundant. Cache-bust bumped to `?v=2.9.2`.
+
+## [[2.9.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.1) - 2026-06-19
+
+### Changed
+- **Incremental Digest Engine**: Each `(category × period)` cell in `news_digest.json` now stores a fingerprint (`entry_hash`, `entry_count`, `last_analyzed`, `method`) of its entry pool. Before calling Gemini, the engine checks the hash and staleness (`MAX_STALENESS_DAYS=30`) and reuses the stored result on a match — dropping Gemini calls from 66 to 0 when the inventory is unchanged, and to ~5–10 for a new ingestion batch.
+- **Trending Badge Source**: The freshness badge now shows the actual Gemini analysis date from `_meta.last_updated`.
+
+### Removed
+- Redundant GitHub Actions digest cache (the committed `news_digest.json` is the persistent store) and the invalid `extra_head` key from `v2-mkdocs.yml`.
+
+## [[2.9.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.0) - 2026-06-19
+
+### Fixed
+- **Portal Outage — Publisher/Deploy Safety**: Resolved a multi-bug portal outage. Pruning and nav sync are now skipped entirely in `--render-only` mode (CI uses it, and pruning had deleted pages that the render pass didn't regenerate); page deletion is gated on `_sync_enterprise_navigation` returning success; the fragile `nav:` regex was replaced with a string split; and the deploy now verifies the V2 build has a minimum page count (50+ HTML pages + `index.html`) before overwriting V1, falling back to V1-only if V2 looks broken. Pages in `self.dimensions` are never pruned.
+
+## [[2.8.5]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.5) - 2026-06-19
+
+### Fixed
+- **V2 Build**: Removed the invalid `extra_head` key from `v2-mkdocs.yml` (was breaking V2 HTML generation) and fixed a broken `digital-money.md → finops.md` redirect (now points to `kubernetes.md` since `finops.md` was removed by the publisher).
+
+## [[2.8.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.4) - 2026-06-19
+
+### Fixed
+- **Comprehensive None-Stars Guard**: Replaced all `.get('stars', 0)` patterns in `v2_optimizer.py` with `.get('stars') or 0`, fixing `TypeError: '>=' not supported between NoneType and int` in `_render_single_link` and 13 other comparison/arithmetic sites.
+
+## [[2.8.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.3) - 2026-06-19
+
+### Added
+- **Digest Cache**: The publisher and weekly cron now cache `data/news_digest.json` with a day-scoped key (`news-digest-YYYY-MM-DD`). Same-day re-runs restore from cache and skip Gemini entirely (~20 min CI + 66 API calls saved per skipped run).
+
+## [[2.8.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.2) - 2026-06-19
+
+### Fixed
+- **None-Stars Sort Crashes**: Fixed three `-x.get('stars', default)` sites in `v2_optimizer.py` that crashed with `TypeError: bad operand for unary -: 'NoneType'` when `stars` was null, using the `-(x.get('stars') or default)` pattern (`sort_rec`, `trending_pool`, `sorted_links`).
+
+## [[2.8.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.1) - 2026-06-19
+
+### Fixed
+- **None `resource_type` Crash**: Fixed `AttributeError: 'NoneType' object has no attribute 'lower'` in `_calculate_tags` when `resource_type` was present but null, via `(item.get('resource_type') or 'Reference')`.
+
+## [[2.8.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.8.0) - 2026-06-19
+
+### Added
+- **geo_region Inference**: `_infer_geo_from_url()` maps URL TLDs to regions (`.es`→España, EU TLDs→Europe, APAC TLDs→Asia-Pacific, Americas TLDs→Americas), populating the industry digest.
+- **Freshness Badge**: The Trending section header shows an `Updated <date>` pill derived from `news_digest.json` mtime.
+- **Search Boost**: `tech-digest.md` and `industry-digest.md` are generated with `search.boost: 2` frontmatter.
+- **RSS Feed**: New `src/rss_generator.py` emits `v2-docs/feed.xml` (top-20 from the 3-month digest) with autodiscovery links, at `https://nubenetes.com/feed.xml`.
+- **Weekly Cron**: `.github/workflows/09.weekly_digest.yml` runs Mondays 06:00 UTC to regenerate the digest and trigger the publisher.
+
+## [[2.7.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.7.1) - 2026-06-19
+
+### Changed
+- **Cleaner Index**: Removed the `digest-preview` list from the index — the trending cards already show the same content with better design. Flow is now hero amber card → trending cards → `/tech-digest/`.
+
+## [[2.7.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.7.0) - 2026-06-19
+
+### Added
+- **Intelligence Digest Hero Card**: New amber `Intelligence Digest` card on the V2 index linking to `/tech-digest/`, plus a `digest-preview` mini-block showing the top pick from 5 priority categories. New `hero-badge-card--amber` and `digest-preview` CSS components.
+
+## [[2.6.9]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.9) - 2026-06-19
+
+### Fixed
+- **NoneType Crashes Across Pipeline**: Inventory entries with `stars: null` crashed `_calculate_tags` (`v2_optimizer.py`), the title-dedup index and entry scoring (`dedup.py`), and category sorting (`news_digest.py`). Replaced `.get("stars", 0)` with `.get("stars") or 0`.
+
+## [[2.6.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.8) - 2026-06-19
+
+### Fixed
+- **Unbounded License Check**: `detect_license_changes()` iterated every entry with `gh_license` set (thousands of GitHub API calls). Applied the `MAX_REPOS_DEFAULT=200` cap, bringing total enrichment time to ~3–4 min.
+
+## [[2.6.7]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.7) - 2026-06-19
+
+### Changed
+- **Enrichment 7.5× Faster**: Reduced GitHub activity enrichment from 2 API calls/repo to 1 (`open_issues_count` already includes PRs), capped at 200 repos/run, 0.5s delay, with 429 backoff — ~100s vs 12.5 min.
+
+## [[2.6.6]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.6) - 2026-06-19
+
+### Fixed
+- **CNCF Enrichment API**: The CNCF Landscape API became a SPA and stopped returning JSON. Enrichment now queries the GitHub Search API with official CNCF maturity topics (`cncf-graduated`/`cncf-incubating`/`cncf-sandbox`) using the existing `GH_TOKEN`.
+
+## [[2.6.4]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.4) - 2026-06-19
+
+### Fixed
+- **Differentiated Digest Periods**: 3/6/12-month windows now yield 10/15/20 items per category; backfilled `discovered_at` entries appear in wider windows; null-`stars` entries no longer crash the generator.
+
+## [[2.6.3]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.3) - 2026-06-19
+
+### Added
+- **First Real Intelligence Digest**: Generated locally with 0 Gemini tokens — 22 categories, 660 items (220 per period) from the 18,647-entry inventory, with star-based ranking (upgrades to AI ranking on the next keyed pipeline run).
+
+## [[2.6.2]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.2) - 2026-06-19
+
+### Fixed
+- **Clean URL Policy**: Removed the `offline` plugin that forced `.html` suffixes on all V2 URLs (breaking SEO/deep-links) and added placeholder `tech-digest.md`/`industry-digest.md` pages to prevent 404s before the first Gemini run. `use_directory_urls: true` is now mandatory and `offline` permanently forbidden (documented in `CLAUDE.md`/`GEMINI.md`/`README`).
+
+## [[2.6.1]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.1) - 2026-06-19
+
+### Added
+- **Agent Instructions**: Created `CLAUDE.md` (Gitflow, repo structure, build commands, conventions) and added a Gitflow section to `GEMINI.md` so both AI agents follow the branching model automatically.
+
+## [[2.6.0]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.6.0) - 2026-06-19
+
+### Added
+- **AI-Powered Intelligence Digest**: 26-category news digest engine with Gemini ranking, 3/6/12-month temporal panels, Trending Now cards, and dedicated `tech-digest`/`industry-digest` pages with company & geo_region extraction.
+- **Data Quality Pipeline**: CNCF Landscape integration, GitHub activity enrichment, license-change detection, a deduplication engine (URL + content-hash + 85% title similarity), and AI re-evaluation flagging for stale entries.
+- **MkDocs UX Overhaul**: Enabled tags/RSS/minify/PWA plugins, instant navigation with prefetch, breadcrumbs, footer nav, and an announcement bar (28 improvements across 31 files, 4 new modules, 18,647 entries backfilled).
+
+### Fixed
+- **Disabled Plugins**: Fixed plugins being nested under `theme:` in MkDocs config (silently disabled since deployment).
 
 ## [[2.5.8]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.5.8) - 2026-06-18
 
