@@ -66,7 +66,9 @@ def get_system_mandates() -> str:
     if os.path.exists(MANDATES_JSON):
         try:
             return json.load(open(MANDATES_JSON, "r")).get("system_snippet", "")
-        except: return ""
+        except Exception as e:
+            log_event(f"[WARN] Failed to load system mandates: {str(e)[:100]}")
+            return ""
     return ""
 
 if __name__ == "__main__":

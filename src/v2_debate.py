@@ -160,13 +160,14 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             if os.path.exists(DEBATE_MEMORY_FILE):
                 try:
                     memory_data = json.load(open(DEBATE_MEMORY_FILE, "r"))
-                except: pass
+                except Exception as e:
+                    log_event(f"[WARN] load debate memory for mock persist: {str(e)[:100]}")
             memory_data.setdefault("resolved_debates", {})[normalize_url(url)] = debate_data
             with open(DEBATE_MEMORY_FILE, "w") as f:
                 json.dump(memory_data, f, indent=2)
         except Exception as e:
             log_event(f"    [!] Failed to persist debate memory: {e}")
-            
+
         return final_score, sorted(list(final_tags)), refined_summary, debate_data
 
     system_mandates = get_system_mandates()
@@ -222,13 +223,14 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
             if os.path.exists(DEBATE_MEMORY_FILE):
                 try:
                     memory_data = json.load(open(DEBATE_MEMORY_FILE, "r"))
-                except: pass
+                except Exception as e:
+                    log_event(f"[WARN] load debate memory for fast-pass persist: {str(e)[:100]}")
             memory_data.setdefault("resolved_debates", {})[normalize_url(url)] = debate_data
             with open(DEBATE_MEMORY_FILE, "w") as f:
                 json.dump(memory_data, f, indent=2)
         except Exception as e:
             log_event(f"    [!] Failed to persist debate memory: {e}")
-            
+
         return fast_pass_score, fast_pass_tags, fast_pass_summary, debate_data
         
     log_event(f"    [⚖️] Borderline score detected ({fast_pass_score}). Escalating to full Multi-Agent Debate Panel...")
@@ -364,10 +366,11 @@ async def run_debate_protocol(item: Dict, is_new_link: bool = False) -> Tuple[in
         if os.path.exists(DEBATE_MEMORY_FILE):
             try:
                 memory_data = json.load(open(DEBATE_MEMORY_FILE, "r"))
-            except: pass
-        
+            except Exception as e:
+                log_event(f"[WARN] load debate memory for final persist: {str(e)[:100]}")
+
         memory_data.setdefault("resolved_debates", {})[normalize_url(url)] = debate_data
-        
+
         # Keep blacklist and other fields intact
         with open(DEBATE_MEMORY_FILE, "w") as f:
             json.dump(memory_data, f, indent=2)

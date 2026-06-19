@@ -2,20 +2,31 @@ import aiohttp
 import json
 import httpx
 import re
-from src.config import GEMINI_API_KEY, NUBENETES_CATEGORIES
+from src.config import GEMINI_API_KEY, NUBENETES_CATEGORIES, GH_TOKEN
 from src.gemini_utils import call_gemini_with_retry
+from src.logger import log_event
 
 async def fetch_github_trending_cloud_native() -> list[dict]:
     queries = [
-        "topic:kubernetes+stars:>1000", 
-        "topic:mcp-server+stars:>0", 
+        "topic:kubernetes+stars:>1000",
+        "topic:mcp-server+stars:>0",
         "topic:model-context-protocol+stars:>0",
         "topic:ai-agents+stars:>50",
         "awesome+stars:>1000",
-        "topic:generative-ai+stars:>500"
+        "topic:generative-ai+stars:>500",
+        "topic:devops+stars:>500",
+        "topic:observability+stars:>200",
+        "topic:cloud-security+stars:>200",
+        "topic:terraform+stars:>500",
+        "topic:database+stars:>500",
+        "topic:cicd+stars:>200",
+        "topic:service-mesh+stars:>100",
+        "topic:platform-engineering+stars:>100",
     ]
     all_repos = []
     headers = {'Accept': 'application/vnd.github.v3+json'}
+    if GH_TOKEN:
+        headers['Authorization'] = f'token {GH_TOKEN}'
     async with aiohttp.ClientSession(headers=headers) as session:
         for q in queries:
             url = f"https://api.github.com/search/repositories?q={q}&sort=updated&order=desc"
@@ -29,7 +40,9 @@ async def fetch_github_trending_cloud_native() -> list[dict]:
                                 "url": repo['html_url'],
                                 "desc": repo['description'] or "No description provided."
                             })
-            except: continue
+            except Exception as e:
+                log_event(f"[WARN] GitHub search query '{q}': {str(e)[:100]}")
+                continue
     return all_repos
 
 async def discover_trending_assets() -> list[dict]:

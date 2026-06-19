@@ -33,7 +33,9 @@ class SafetyGuard:
             with open("data/link_rules.yaml", "r", encoding="utf-8") as f:
                 rules = yaml.load(f, Loader=Loader)
                 return rules.get("hierarchy_rules", {}).get("toc_exempt_files", [])
-        except: return []
+        except Exception as e:
+            log_event(f"[WARN] load exempt files from link_rules.yaml: {str(e)[:100]}")
+            return []
 
     def validate_data_integrity(self, old_inventory: dict):
         """Mandate 1: Información Preservation."""
@@ -62,7 +64,9 @@ class SafetyGuard:
         try:
             with open(SPECIAL_ASSETS_PATH, "r", encoding="utf-8") as f:
                 special = yaml.load(f, Loader=Loader).get("special_assets", [])
-        except: return
+        except Exception as e:
+            log_event(f"[WARN] load special_assets.yaml for validation: {str(e)[:100]}")
+            return
         
         for sa in special:
             if "Include 100%" in sa.get("v2_rule", "") or "Exhaustive" in sa.get("v2_rule", ""):
@@ -89,7 +93,8 @@ class SafetyGuard:
                         stars = meta.get("gh_stars", meta.get("stars", 0) * 100) 
                         if inactive_years > 4 and stars < 30:
                             self.warnings.append(f"🏚️ **MVQ Violation**: Stale repo `{url}` (>4yrs) in V2 with low impact")
-                    except: pass
+                    except Exception as e:
+                        log_event(f"[WARN] MVQ compliance check for {url}: {str(e)[:100]}")
 
     def validate_linguistic_tagging(self):
         """Mandate 10: Explicit Language Tagging."""
@@ -178,7 +183,9 @@ class SafetyGuard:
         try:
             with open(CURATION_SOURCES_PATH, "r", encoding="utf-8") as f:
                 sources = yaml.load(f, Loader=Loader).get("sources", [])
-        except: return
+        except Exception as e:
+            log_event(f"[WARN] load curation_sources.yaml for nav sync: {str(e)[:100]}")
+            return
         
         topics = [s["topic"] for s in sources]
         with open(WORKFLOW_PATH, "r") as f:
@@ -195,7 +202,8 @@ class SafetyGuard:
             with open("data/link_rules.yaml", "r", encoding="utf-8") as f:
                 rules = yaml.load(f, Loader=Loader)
                 forbidden = rules.get("safety_guard", {}).get("forbidden_tags", [])
-        except:
+        except Exception as e:
+            log_event(f"[WARN] load forbidden tags from link_rules.yaml: {str(e)[:100]}")
             return
 
         if not forbidden:
@@ -278,7 +286,8 @@ class SafetyGuard:
             try:
                 with open(old_inv_path, "r", encoding="utf-8") as f:
                     self.validate_data_integrity(yaml.load(f, Loader=Loader) or {})
-            except: pass
+            except Exception as e:
+                log_event(f"[WARN] load old inventory for data integrity check: {str(e)[:100]}")
         
         self.validate_semantic_interlinking()
         self.validate_special_assets_completeness()

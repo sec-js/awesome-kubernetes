@@ -122,7 +122,8 @@ async def discover_optimal_models():
                             if name not in all_supported: all_supported.append(name)
                 elif resp.status_code == 429:
                     log_event(f"  [!] Discovery Key is rate-limited (429). Skipping.")
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] model discovery for key: {str(e)[:100]}")
 
     if not all_supported:
         log_event("  [!] Discovery failed. Falling back to safe defaults.")
@@ -136,7 +137,8 @@ async def discover_optimal_models():
             try:
                 version = float(version_match.group(1))
                 score += version * 50
-            except: pass
+            except Exception as e:
+                log_event(f"[WARN] parse model version for {name}: {str(e)[:100]}")
         if "-ultra" in name: score += 100
         elif "-pro" in name: score += 50
         elif "-flash" in name: score += 25
@@ -169,7 +171,9 @@ class GeminiDiagnostics:
 async def resolve_url(url: str) -> str:
     shorteners = ['t.co', 'bit.ly', 'buff.ly', 'goo.gl', 'tinyurl.com', 't.ly', 'rb.gy', 'is.gd', 'drp.li', 't.me', 'lnkd.in']
     try: domain = url.split("//")[-1].split("/")[0].lower()
-    except: return url
+    except Exception as e:
+        log_event(f"[WARN] parse domain from URL {url[:50]}: {str(e)[:100]}")
+        return url
     final_url, max_hops, current_hop = url, 5, 0
     async with httpx.AsyncClient(follow_redirects=True, timeout=8) as client:
         while current_hop < max_hops:
@@ -180,7 +184,9 @@ async def resolve_url(url: str) -> str:
                 new_url = str(resp.url)
                 if new_url == final_url: break
                 final_url, current_hop = new_url, current_hop + 1
-            except: break
+            except Exception as e:
+                log_event(f"[WARN] resolve URL hop for {final_url[:50]}: {str(e)[:100]}")
+                break
     
     # Mandate 34: Prevent multiple trailing slashes using centralized utility
     return sanitize_trailing_slashes(final_url)
@@ -217,7 +223,8 @@ async def get_github_activity(url: str) -> Dict:
     try:
         from src.config import GH_TOKEN
         headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
-    except:
+    except Exception as e:
+        log_event(f"[WARN] import GH_TOKEN for GitHub activity: {str(e)[:100]}")
         headers = {}
 
     try:
@@ -232,7 +239,8 @@ async def get_github_activity(url: str) -> Dict:
                     "gh_pushed": data.get("pushed_at", "N/A"),
                     "gh_license": lic_id
                 }
-    except: pass
+    except Exception as e:
+        log_event(f"[WARN] fetch GitHub activity for {url}: {str(e)[:100]}")
     return default_meta
 
 
@@ -436,7 +444,8 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                             
                             resp_json = {}
                             try: resp_json = response.json()
-                            except: pass
+                            except Exception as e:
+                                log_event(f"[WARN] parse Gemini response JSON: {str(e)[:100]}")
                             
                             usage = resp_json.get("usageMetadata", {})
                             SESSION_TRACKER.track_call(current_idx, model, response.status_code, usage, role=role)
@@ -452,7 +461,8 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
                                             try:
                                                 data = json.loads(match.group(0))
                                                 return data
-                                            except: pass
+                                            except Exception as e:
+                                                log_event(f"[WARN] parse Gemini content JSON for model {model}: {str(e)[:100]}")
                                         
                                         # QUALITY UPGRADE: If flash failed parsing, don't give up on the key, try a Pro model
                                         if ("flash" in model or "lite" in model) and any("pro" in m for m in models):
@@ -574,7 +584,8 @@ async def fetch_youtube_metadata(url: str) -> Optional[Dict]:
         try:
             transcript = YouTubeTranscriptApi.get_transcript(vid, languages=['en', 'es'])
             transcript_text = " ".join([t['text'] for t in transcript[:100]])
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] fetch YouTube transcript for {vid}: {str(e)[:100]}")
 
         full_description = f"{description}\n\n[Transcript Snippet]: {transcript_text}" if transcript_text else description
 

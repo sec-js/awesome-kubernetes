@@ -73,6 +73,27 @@ jobs:
         run: |
           python src/reorganize_mosaic.py
 
+      - name: Run Deduplication Scan
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -u -c "import asyncio; from src.dedup import run_dedup; asyncio.run(run_dedup(dry_run=False))" || echo "Dedup scan skipped"
+
+      - name: Run Enrichment Pipeline
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -u -m src.enrichment || echo "Enrichment pipeline skipped (no token or error)"
+
+      - name: Generate News Digest
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+        run: |
+          python -u -m src.news_digest || echo "News digest generation skipped (no API key or error)"
+
       - name: Run V2 Publisher (Render-Only)
         env:
           PYTHONPATH: ${{ github.workspace }}

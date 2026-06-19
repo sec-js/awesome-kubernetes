@@ -32,5 +32,5 @@ def _write_to_file(message: str):
             os.makedirs(os.path.dirname(DEFAULT_LOG_PATH), exist_ok=True)
             with open(DEFAULT_LOG_PATH, "a") as f:
                 f.write(message + "\n")
-        except:
-            pass
+        except Exception as e:
+            print(f"[WARN] write to log file: {str(e)[:100]}")

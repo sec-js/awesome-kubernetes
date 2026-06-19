@@ -47,7 +47,8 @@ def auto_format_file(filepath: str):
             try:
                 cleaned = normalize_url(url)
                 return f"[{text}]({cleaned})"
-            except:
+            except Exception as e:
+                print(f"[WARN] URL normalization failed for '{url[:60]}': {str(e)[:100]}")
                 return match.group(0)
         return match.group(0)
     

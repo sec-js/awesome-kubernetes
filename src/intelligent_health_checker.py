@@ -44,7 +44,8 @@ class IntelligentLinkCleaner:
     def _load_memory(self) -> Dict:
         if os.path.exists(MEMORY_FILE):
             try: return json.load(open(MEMORY_FILE, 'r'))
-            except: pass
+            except Exception as e:
+                log_event(f"[WARN] load health learning memory: {str(e)[:100]}")
         return {"domains": {}, "known_soft_404_patterns": []}
 
     def _save_memory(self):
@@ -198,8 +199,10 @@ class IntelligentLinkCleaner:
                                                 else:
                                                     log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
                                                     check_results[u] = (True, "resurrected", new_loc)
-                                    except: pass
-                except: pass
+                                    except Exception as e:
+                                        log_event(f"[WARN] verify rescued URL {new_loc[:50]}: {str(e)[:100]}")
+                except Exception as e:
+                    log_event(f"[WARN] AI rescue batch: {str(e)[:100]}")
 
         # 2.8. Finalize Status
         log_event("FINALIZING STATUS AND METRICS...", section_break=True)
@@ -309,7 +312,8 @@ class IntelligentLinkCleaner:
                                         log_event(f"  [⚖️] LICENSE ALERT: {url} -> {new_lic}")
                                         entry["status"] = "review_required"
                                 entry["gh_license"] = new_lic
-                        except: pass
+                        except Exception as e:
+                            log_event(f"[WARN] license guard check for {url}: {str(e)[:100]}")
 
                     if final_url != url:
                         u_p = url.split("://")[-1].rstrip("/"); f_p = final_url.split("://")[-1].rstrip("/")
@@ -325,12 +329,15 @@ class IntelligentLinkCleaner:
                             h = url.replace("/master/", "/main/")
                             try:
                                 if (await client.get(h)).status_code < 400: return True, "healed", h
-                            except: pass
+                            except Exception as e:
+                                log_event(f"[WARN] heal master->main for {url}: {str(e)[:100]}")
                         m = re.search(r'(https?://github\.com/[^/]+/[^/]+)', url)
                         if m and (await client.get(m.group(1))).status_code < 400: return True, "consolidated", m.group(1)
                     return False, "404", None
                 return True, f"Soft Block {resp.status_code}", None
-        except: return True, "Error", None
+        except Exception as e:
+            log_event(f"[WARN] URL check logic for {url}: {str(e)[:100]}")
+            return True, "Error", None
 
     async def prune_orphaned_metadata(self):
         valid_map = {}

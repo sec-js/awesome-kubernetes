@@ -52,8 +52,8 @@ class SocialDataExtractor:
         try:
             from playwright.async_api import async_playwright
             import playwright_stealth
-        except:
-            self.log_audit("Playwright", False, "Libraries not available.")
+        except Exception as e:
+            self.log_audit("Playwright", False, f"Libraries not available: {str(e)[:100]}")
             return []
         
         collected_tweets = {}
@@ -74,14 +74,16 @@ class SocialDataExtractor:
                                 for k in ['sameSite', 'storeId', 'id']: c.pop(k, None)
                                 formatted.append(c)
                         await context.add_cookies(formatted)
-                    except: pass
+                    except Exception as e:
+                        log_event(f"[WARN] Failed to load Twitter cookies: {str(e)[:100]}")
 
                 for account in accounts:
                     page = await context.new_page()
                     try:
                         if hasattr(playwright_stealth, 'stealth_async'): await playwright_stealth.stealth_async(page)
                         elif hasattr(playwright_stealth, 'stealth'): playwright_stealth.stealth(page)
-                    except: pass
+                    except Exception as e:
+                        log_event(f"[WARN] Playwright stealth setup failed: {str(e)[:100]}")
 
                     if strategy == "search":
                         import urllib.parse

@@ -21,14 +21,16 @@ class RepositoryController:
         try:
             file_meta = self.repository.get_contents(file_path, ref=branch_name)
             return base64.b64decode(file_meta.content).decode("utf-8")
-        except:
+        except Exception as e:
+            print(f"[WARN] Failed to get file '{file_path}' from branch '{branch_name}': {str(e)[:100]}")
             return ""
 
     def apply_historical_chunk(self, updates: dict, next_since: str) -> None:
         branch_name = "bot/historical-accumulator"
         try:
             self.repository.get_branch(branch_name)
-        except:
+        except Exception as e:
+            print(f"[WARN] Branch '{branch_name}' not found, creating: {str(e)[:100]}")
             self._create_feature_branch(branch_name)
 
         for file_path, content in updates.items():
@@ -54,7 +56,8 @@ class RepositoryController:
         
         try:
             self._create_feature_branch(branch_name)
-        except:
+        except Exception as e:
+            print(f"[WARN] Branch creation failed, retrying with unique suffix: {str(e)[:100]}")
             branch_name = f"bot/knowledge-update-{timestamp_slug}-{id(updates)}"
             self._create_feature_branch(branch_name)
 

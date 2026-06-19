@@ -4,3 +4,4 @@ yt-dlp
 youtube-transcript-api
 mkdocs-redirects>=1.2.3
 mkdocs-minify-plugin>=0.8.0
+mkdocs-rss-plugin>=1.15.0

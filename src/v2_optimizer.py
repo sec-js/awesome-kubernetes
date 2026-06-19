@@ -41,14 +41,30 @@ class V2VisionEngine:
             "AI": ["ai", "ai-agents-mcp", "chatgpt", "mlops"],
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
-            "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "oauth", "devsecops", "kustomize", "liquibase", "chef"],
-            "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "scaleway", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "private-cloud-solutions", "edge-computing", "aws-architecture", "aws-security", "aws-networking", "aws-databases", "aws-storage", "aws-monitoring", "aws-iac", "aws-tools-scripts", "aws-messaging", "aws-data", "aws-devops", "aws-serverless", "aws-containers", "aws-backup", "aws-training", "aws-newfeatures", "aws-miscellaneous", "aws-pricing", "aws-spain"],
+            "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "devsecops", "kustomize", "liquibase"],
+            "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-architecture", "aws-security", "aws-networking", "aws-databases", "aws-storage", "aws-monitoring", "aws-iac", "aws-tools-scripts", "aws-messaging", "aws-data", "aws-devops", "aws-serverless", "aws-containers", "aws-backup", "aws-training", "aws-newfeatures", "aws-miscellaneous", "aws-pricing"],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
             "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp3", "ocp4", "noops"],
-            "Data & Advanced Analytics": ["databases", "nosql", "newsql", "message-queue", "crunchydata", "yaml", "bigdata"],
-            "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "stackstorm", "cicd-kubernetes-plugins"],
-            "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers", "java-and-java-performance-optimization", "dotnet", "angular", "react", "web3", "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode", "devel-sites", "dom", "linux-dev-env", "ChromeDevTools", "xamarin", "jvm-parameters-matrix-table", "maven-gradle", "embedded-servlet-containers"],
-            "Career & Industry": ["recruitment", "hr", "finops", "freelancing", "remote-tech-jobs", "workfromhome", "interview-questions", "elearning", "digital-money", "appointment-scheduling", "newsfeeds"]
+            "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
+            "Engineering Pipeline": ["cicd", "gitops", "argo", "flux", "tekton", "jenkins", "jenkins-alternatives", "openshift-pipelines", "sonarqube", "registries", "keptn", "cicd-kubernetes-plugins"],
+            "Developer Ecosystem": ["visual-studio", "javascript", "golang", "python", "java_frameworks", "java_app_servers", "java-and-java-performance-optimization", "dotnet", "angular", "web3", "api", "swagger-code-generator-for-rest-apis", "postman", "lowcode-nocode", "devel-sites", "linux-dev-env", "ChromeDevTools", "maven-gradle", "embedded-servlet-containers"],
+            "Career & Industry": ["recruitment", "hr", "finops", "freelancing", "remote-tech-jobs", "workfromhome", "interview-questions", "elearning", "appointment-scheduling", "newsfeeds"]
+        }
+
+        # Stub page merge map: content from source pages renders on target pages
+        self.merge_map = {
+            "jvm-parameters-matrix-table": "java-and-java-performance-optimization",
+            "private-cloud-solutions": "kubernetes-on-premise",
+            "stackstorm": "cicd",
+            "chef": "ansible",
+            "newsql": "databases",
+            "scaleway": "digitalocean",
+            "xamarin": "dotnet",
+            "dom": "javascript",
+            "react": "javascript",
+            "oauth": "securityascode",
+            "digital-money": "finops",
+            "aws-spain": "aws",
         }
         
         self.library_criteria = (
@@ -81,7 +97,9 @@ class V2VisionEngine:
             try:
                 with open(path, "r", encoding="utf-8") as f:
                     return yaml.load(f, Loader=Loader) or {}
-            except: return {}
+            except Exception as e:
+                log_event(f"[WARN] load special_assets.yaml: {str(e)[:100]}")
+                return {}
         return {}
 
     def _load_link_rules(self) -> Dict:
@@ -90,7 +108,9 @@ class V2VisionEngine:
             try:
                 with open(path, "r", encoding="utf-8") as f:
                     return yaml.load(f, Loader=Loader) or {}
-            except: return {}
+            except Exception as e:
+                log_event(f"[WARN] load link_rules.yaml: {str(e)[:100]}")
+                return {}
         return {}
 
     def _load_inventory(self) -> Dict:
@@ -118,7 +138,8 @@ class V2VisionEngine:
         try:
             from src.mandate_ingestor import MandateIngestor
             MandateIngestor().save_system_instructions()
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] mandate sync: {str(e)[:100]}")
 
         all_v1_links, mosaic_html, videos_html = await self._gather_all_v1_content()
         
@@ -148,12 +169,13 @@ class V2VisionEngine:
         
         # --- SURGICAL GARBAGE COLLECTION ---
         # Track every file we generate
-        generated_files = {"index.md", "audit-log.md", "videos.md", "tags.md"}
+        generated_files = {"index.md", "audit-log.md", "videos.md", "tags.md", "tech-digest.md", "industry-digest.md"}
         for f_name in v2_data.keys():
             generated_files.add(f_name)
 
 
         await self._write_premium_files(v2_data, mosaic_html, videos_html)
+        self._generate_digest_pages()
         await self._generate_global_tag_index(v2_data)
         await self._sync_enterprise_navigation(v2_data)
         
@@ -206,7 +228,11 @@ class V2VisionEngine:
                     if not url.startswith(("http", "mailto", "#")):
                         url = f"https://nubenetes.com/{url.replace('.md', '/')}"
                     # Mandate 30: MD039 - Strip all whitespace (including non-breaking space) from link text
-                    all_links.append({"title": nuclear_strip(title), "url": url.strip(), "description": full_desc.strip(), "original_file": file})
+                    orig_file = file
+                    slug = file.replace(".md", "")
+                    if slug in self.merge_map:
+                        orig_file = self.merge_map[slug] + ".md"
+                    all_links.append({"title": nuclear_strip(title), "url": url.strip(), "description": full_desc.strip(), "original_file": orig_file})
         return all_links, mosaic_html, videos_html
 
     async def _verify_link_health(self, links: List[Dict]):
@@ -221,7 +247,11 @@ class V2VisionEngine:
             if entry.get("status") == "review_required": continue
             
             if not force_full and entry.get("status") == "online":
-                fast_online.append(l)
+                last_checked = entry.get("last_checked", 0)
+                if isinstance(last_checked, (int, float)) and (datetime.now().timestamp() - last_checked) > 30 * 86400:
+                    needs_check.append(l)
+                else:
+                    fast_online.append(l)
             else:
                 needs_check.append(l)
                 
@@ -270,7 +300,8 @@ class V2VisionEngine:
                 # Mandate 22: Update last_checked for the inventory entry
                 self.inventory[normalize_url(final_url)]["last_checked"] = datetime.now().timestamp()
                 return link
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] resilient link check for {url}: {str(e)[:100]}")
         return None
 
     async def _evaluate_and_score_resources(self, links: List[Dict]):
@@ -342,7 +373,15 @@ class V2VisionEngine:
                 if is_special: item["is_special"] = True
                 # Mandate 30: Hierarchy and AI Summaries are mandatory for ELITE AI curation.
                 # Optimized Skip Logic: Only skip if we already have BOTH hierarchy and a summary.
-                if ((cached.get("hierarchy") and cached.get("ai_summary")) or self.render_only) and not force_eval:
+                last_eval = cached.get("last_ai_eval", "")
+                eval_stale = False
+                if last_eval and isinstance(last_eval, str) and len(last_eval) >= 10:
+                    try:
+                        eval_age = (datetime.now(MADRID_TZ) - datetime.fromisoformat(last_eval)).days
+                        eval_stale = eval_age > 180
+                    except Exception:
+                        pass
+                if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
                     if project_id not in project_registry or item.get("stars", 0) > project_registry[project_id].get("stars", 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
@@ -411,11 +450,15 @@ class V2VisionEngine:
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
                                 "is_microservice": bool(res.get("is_microservice", False)),
-                                "status": "online", "is_special": item.get("is_special", False)
+                                "status": "online", "is_special": item.get("is_special", False),
+                                "last_ai_eval": datetime.now(MADRID_TZ).isoformat()
                             }
+                            existing_entry = self.inventory.get(normalize_url(item["url"]), {})
+                            if existing_entry.get("discovered_at"):
+                                eval_data["discovered_at"] = existing_entry["discovered_at"]
                             item.update(eval_data)
                             batch_results.append(item)
-                            
+
                             # Incremental Persistence
                             norm_url = normalize_url(item["url"])
                             from src.inventory_manager import update_inventory_entry
@@ -497,8 +540,12 @@ class V2VisionEngine:
                                 "resource_type": res.get("type", "Reference"), "complexity": res.get("complexity", "Intermediate"),
                                 "hierarchy": res.get("hierarchy", ["General"]), "tags": res.get("tags", []),
                                 "is_microservice": bool(res.get("is_microservice", False)),
-                                "status": "online", "is_special": item.get("is_special", False)
+                                "status": "online", "is_special": item.get("is_special", False),
+                                "last_ai_eval": datetime.now(MADRID_TZ).isoformat()
                             }
+                            existing_entry = self.inventory.get(normalize_url(item["url"]), {})
+                            if existing_entry.get("discovered_at"):
+                                eval_data["discovered_at"] = existing_entry["discovered_at"]
                             item.update(eval_data)
                             analyst_results.append(item)
                 except Exception:
@@ -715,9 +762,22 @@ class V2VisionEngine:
             
         return v2_structure
 
+    def _collect_tags_from_tree(self, node: Dict) -> List[Set]:
+        """Recursively collect maturity/tech tags from a content tree for cross-referencing."""
+        results = []
+        if "__links__" in node:
+            for link in node["__links__"]:
+                tags = set(link.get("tags", []))
+                if tags:
+                    results.append(tags)
+        for key, val in node.items():
+            if key != "__links__" and isinstance(val, dict):
+                results.extend(self._collect_tags_from_tree(val))
+        return results
+
     async def _generate_comparison_table(self, links: List[Dict]) -> str:
         standard_tools = [l for l in links if l.get("stars", 0) >= 3]
-        if len(standard_tools) < 5: return ""
+        if len(standard_tools) < 8: return ""
         table = "\n??? abstract \"Architect's Technical Comparison Table\"\n"
         table += "    | Solution | Maturity | Primary Focus | Language | Stars |\n"
         table += "    | :--- | :--- | :--- | :--- | :--- |\n"
@@ -872,10 +932,100 @@ class V2VisionEngine:
 
 
 
+    def _generate_digest_pages(self):
+        """Generate tech-digest.md and industry-digest.md from news_digest.json."""
+        digest_path = "data/news_digest.json"
+        if not os.path.exists(digest_path):
+            log_event("[Digest] No digest data found, skipping page generation")
+            return
+        with open(digest_path, "r", encoding="utf-8") as f:
+            digest_data = json.load(f)
+
+        tech_cats = [
+            "Kubernetes & Orchestration", "Containers & Runtime", "Networking & Service Mesh",
+            "Architecture & Microservices", "Data, Messaging & Storage", "AI & Agents",
+            "MLOps & Data Science", "Python, Java & Developer Ecosystem", "Linux & System Foundations",
+            "Security & Compliance", "Infrastructure as Code", "CI/CD & GitOps",
+            "Observability, SRE & Testing", "DevOps & Culture", "Platform Engineering & DevEx",
+            "FinOps & Cloud Cost", "Certification & Training",
+            "AWS", "Azure", "GCP, OCI & Others", "OpenShift / Red Hat", "Virtualization & Private Cloud"
+        ]
+        geo_cats = ["Americas", "Europe", "España", "Asia-Pacific"]
+        period_labels = {"3_months": "Last 3 Months", "6_months": "Last 6 Months", "12_months": "Last 12 Months"}
+
+        def render_digest_page(title, categories, digest_data):
+            md = f"# {title}\n\n"
+            md += "!!! tip \"Nubenetes Intelligence Digest\"\n"
+            md += "    AI-curated ranking of the most impactful resources, updated monthly.\n\n"
+            for period_key, period_label in period_labels.items():
+                md += f'=== "{period_label}"\n\n'
+                period_data = digest_data.get(period_key, {})
+                for cat in categories:
+                    items = period_data.get(cat, [])
+                    if not items:
+                        continue
+                    md += f"    ## {cat}\n\n"
+                    md += "    | Date | Resource | Impact | Why It Matters |\n"
+                    md += "    | :--- | :--- | :---: | :--- |\n"
+                    for item in items:
+                        impact_badge = {"critical": "🔴", "high": "🟡", "medium": "🔵"}.get(item.get("impact", "medium"), "🔵")
+                        t = nuclear_strip(item.get("title", "Unknown"))
+                        md += f'    | {item.get("date", "")} | [{t}]({item.get("url", "#")}) | {impact_badge} {item.get("impact", "medium")} | {item.get("why", "")} |\n'
+                    md += "\n"
+                md += "\n"
+            return md
+
+        tech_md = render_digest_page("📊 Nubenetes Tech & Cloud Intelligence Digest", tech_cats, digest_data)
+        with open(os.path.join(V2_DIR, "tech-digest.md"), "w", encoding="utf-8") as f:
+            f.write(tech_md)
+
+        industry_md = render_digest_page("🌍 Nubenetes Industry & Geo Intelligence Digest", geo_cats, digest_data)
+        with open(os.path.join(V2_DIR, "industry-digest.md"), "w", encoding="utf-8") as f:
+            f.write(industry_md)
+
+        log_event("[Digest] Generated tech-digest.md and industry-digest.md")
+
     async def _write_premium_files(self, data: Dict[str, Dict], mosaic_html: str, videos_html: str):
-        # 1. Update Index with Pulse
-        trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -x.get("stars", 0)), reverse=True)
-        pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('year', 'N/A')})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
+        # 1. Build Trending Now from digest data, or fallback to star-based pulse
+        digest_data = {}
+        digest_path = "data/news_digest.json"
+        if os.path.exists(digest_path):
+            try:
+                with open(digest_path, "r", encoding="utf-8") as df:
+                    digest_data = json.load(df)
+            except Exception:
+                pass
+
+        if digest_data and "3_months" in digest_data:
+            top_items = []
+            for cat_name, items in digest_data.get("3_months", {}).items():
+                for item in items[:2]:
+                    top_items.append({**item, "digest_category": cat_name})
+            top_items.sort(key=lambda x: {"critical": 3, "high": 2, "medium": 1}.get(x.get("impact", "medium"), 0), reverse=True)
+            top_items = top_items[:6]
+
+            impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
+            cards_html = '<div class="trending-section">\n<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence</div>\n<div class="trending-grid">\n'
+            for item in top_items:
+                impact = item.get("impact", "medium")
+                cards_html += (
+                    f'<div class="trending-card">\n'
+                    f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}</div>\n'
+                    f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
+                    f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{nuclear_strip(item.get("title", "Unknown"))}</a></div>\n'
+                    f'  <div class="trending-card__meta">{item.get("date", "")} · {"🌟" * item.get("stars", 0)}</div>\n'
+                    f'  <div class="trending-card__why">{item.get("why", "")}</div>\n'
+                    f'</div>\n'
+                )
+            cards_html += '</div>\n'
+            cards_html += '<div class="digest-links">\n'
+            cards_html += '  <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>\n'
+            cards_html += '  <a href="./industry-digest/" class="digest-link-card">🌍 Industry & Geo Digest →</a>\n'
+            cards_html += '</div>\n</div>\n'
+            pulse_md = cards_html
+        else:
+            trending_pool = sorted([dict(meta, url=url) for url, meta in self.inventory.items() if isinstance(meta, dict) and meta.get("stars", 0) >= 4], key=lambda x: (str(x.get("year", "0000")) if str(x.get("year", "")).isdigit() else "0000", -x.get("stars", 0)), reverse=True)
+            pulse_md = "## The Agentic Pulse\n" + "\n".join([f"- **({l.get('year', 'N/A')})** [**=={nuclear_strip(l['title'])}==**]({l['url'].strip()}) {'🌟'*l.get('stars',3)}" for l in trending_pool[:5]])
         
         # Calculate coverage for the index
         total_v1 = len(self.inventory)
@@ -1167,10 +1317,30 @@ class V2VisionEngine:
 
             md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
             
-            # Add Semantic "See Also" ONLY ONCE at the end of the page
-            related = [f"[{data[f]['title']}](./{f})" for f in data if f != f_name and data[f]["dim"] == info["dim"]]
-            if related:
-                md += f"\n---\n💡 **Explore Related:** {' | '.join(related[:3])}\n\n"
+            # Add Semantic "See Also" — same dimension + cross-dimension by shared tags
+            same_dim = [f for f in data if f != f_name and data[f]["dim"] == info["dim"]]
+            cross_dim = []
+            if info.get("content") and isinstance(info["content"], dict):
+                page_tags = set()
+                for node_links in self._collect_tags_from_tree(info["content"]):
+                    page_tags.update(node_links)
+                if page_tags:
+                    for f in data:
+                        if f != f_name and data[f]["dim"] != info["dim"]:
+                            other_tags = set()
+                            if isinstance(data[f].get("content"), dict):
+                                for t in self._collect_tags_from_tree(data[f]["content"]):
+                                    other_tags.update(t)
+                            if page_tags & other_tags:
+                                cross_dim.append(f)
+            related = [f"[{data[f]['title']}](./{f})" for f in same_dim[:3]]
+            cross = [f"[{data[f]['title']}](./{f})" for f in cross_dim[:2]]
+            if related or cross:
+                md += "\n---\n"
+                if related:
+                    md += f"💡 **Explore Related:** {' | '.join(related)}\n\n"
+                if cross:
+                    md += f"🔗 **See Also:** {' | '.join(cross)}\n\n"
             
             # Smart Write: Only update disk if content changed
             target_path = os.path.join(V2_DIR, f_name)
@@ -1293,10 +1463,13 @@ class V2VisionEngine:
         try:
             with open("v2-mkdocs.yml", "r") as f: content = f.read()
             nav = [
-                "nav:", 
-                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/", 
+                "nav:",
+                "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
                 "  - \"Technical Tags\": tags.md",
+                "  - \"Intelligence Digest\":",
+                "    - \"Tech & Cloud Digest\": tech-digest.md",
+                "    - \"Industry & Geo Digest\": industry-digest.md",
                 "  - \"Agentic Video Hub\":",
                 "      - videos/index.md",
                 "      - \"AI Agents and MCP\": videos/ai-agents.md",
@@ -1318,7 +1491,8 @@ class V2VisionEngine:
                     nav.extend(dim_nav)                    
             updated = re.sub(r'nav:.*', "\n".join(nav), content, flags=re.DOTALL)
             with open("v2-mkdocs.yml", "w") as f: f.write(updated)
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] sync enterprise navigation: {str(e)[:100]}")
 
 import argparse
 if __name__ == "__main__":
@@ -1370,7 +1544,8 @@ if __name__ == "__main__":
             with open(os.path.join(V2_DIR, f), "r") as doc:
                 line = doc.readline()
                 if line.startswith("# "): title = line.replace("# ", "").strip()
-        except: pass
+        except Exception as e:
+            log_event(f"[WARN] extract title from V2 file {f}: {str(e)[:100]}")
         file_list_md += f"| {i} | `{f}` | {title} |\n"
 
     # 3. Decision Matrix (Maturity Audit)
