@@ -13,16 +13,13 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 4. [Ruby on Rails](#ruby-on-rails)
 5. [Ruby on Rails Hotwire](#ruby-on-rails-hotwire)
 6. [Portworx](#portworx)
-7. [HashiCorp Stack Terraform Vault Consul Boundary](#hashicorp-stack-terraform-vault-consul-boundary)
-8. [Modular Monoliths](#modular-monoliths)
-9. [Git](#git)
-10. [Distributed Systems Strategy](#distributed-systems-strategy)
-11. [FinOps](#finops)
-12. [GitOps](#gitops)
-13. [Hosted Control Planes](#hosted-control-planes)
-14. [Azure Verified Modules AVM](#azure-verified-modules-avm)
-15. [OpenShift](#openshift)
-16. [VS Code](#vs-code)
+7. [Modular Monoliths](#modular-monoliths)
+8. [Git](#git)
+9. [Distributed Systems Strategy](#distributed-systems-strategy)
+10. [Hosted Control Planes](#hosted-control-planes)
+11. [Azure Verified Modules AVM](#azure-verified-modules-avm)
+12. [OpenShift](#openshift)
+13. [VS Code](#vs-code)
 
 ## Kubernetes
 
@@ -156,23 +153,6 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
-## HashiCorp Stack Terraform Vault Consul Boundary
-
-??? note "🎬 Building a developer platform? Ask these questions."
-    !!! info "Architectural Summary"
-        This session details how to build secure, scalable developer platforms by defining 'golden paths' using HashiCorp's suite of automation tools, including Terraform, Vault, Consul, and Boundary. It provides a strategic framework for resolving key platform engineering challenges such as Day 2 operations, infrastructure dependency mapping, secure access control, and seamless local-to-remote environment transitions. By abstracting cloud complexity, the session demonstrates how to deliver high-velocity self-service capabilities to development teams while ensuring governance and security compliance.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="1Fl25dR01pw" data-video-url="https://www.youtube.com/embed/1Fl25dR01pw?si=bJlQozIfT3J4rhN3" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/1Fl25dR01pw/hqdefault.jpg" alt="Building a developer platform? Ask these questions." class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
 ## Modular Monoliths
 
 ??? note "🎬 ¿De verdad son necesarios los microservicios? [SPANISH CONTENT]"
@@ -221,35 +201,6 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
     </div>
-
-    </center>
-
-## FinOps
-
-??? note "🎬 The Brutal Truth Behind Tech Layoffs"
-    !!! info "Architectural Summary"
-        This analysis dissects the macroeconomic shift from hyper-growth talent hoarding to hyper-efficiency, highlighting the systemic collapse of bloated engineering teams in favor of lean, automated operations. For a 2026 cloud-native landscape, this underscores the critical role of platform engineering and robust FinOps architectures designed to maximize resource utilization while minimizing human-in-the-loop operational overhead. Architects must leverage these insights to build self-healing, highly automated platforms that successfully decouple organizational scale from headcount.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="hAwtrJlBVJY" data-video-url="https://www.youtube.com/embed/hAwtrJlBVJY?si=bnyptzNFx4jzOiEj" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/hAwtrJlBVJY/hqdefault.jpg" alt="The Brutal Truth Behind Tech Layoffs" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-## GitOps
-
-??? note "🎬 GitOps Guide to the Galaxy"
-    !!! info "Architectural Summary"
-        Every other Thursday at 3pm ET hosts Hilliary Lipsig and Jonathan Rickard dive into everything in the GitOps universe, from solutions to common problems in end-to-end CICD pipelines, to creating Git workflows. This series explores how GitOps enhances modern application delivery and discusses the latest news around best practices and Cloud Native architecture.
-
-    <center markdown="1">
-
-    <iframe width="720" height="405" src="https://www.youtube.com/embed/videoseries?si=zdATyq_E2wXN7AC6&amp;list=PLbMP1JcGBmSGKO8UreWpOBOhCqilejhtd" title="GitOps Guide to the Galaxy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy" style="border: 1px solid var(--md-typeset-table-color); border-radius: 8px;"></iframe>
 
     </center>
 

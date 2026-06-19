@@ -8,9 +8,6 @@
 
 ## Table of Contents
 
-1. [Architectural Foundations](#architectural-foundations)
-  - [Kubernetes Tools](#kubernetes-tools)
-    - [General Reference](#general-reference)
 1. [Container Orchestration](#container-orchestration)
   - [Kubernetes Networking](#kubernetes-networking-1)
     - [Kube-Proxy](#kube-proxy)
@@ -21,44 +18,26 @@
       - [Performance Tuning](#performance-tuning)
     - [Deep Dive](#deep-dive)
       - [Advanced Routing](#advanced-routing)
-      - [BGP Routing](#bgp-routing)
       - [Packet Flow](#packet-flow)
-      - [Service IP Allocation](#service-ip-allocation)
     - [Evaluation](#evaluation)
       - [CNI Selection](#cni-selection)
     - [Fundamentals](#fundamentals)
-      - [Network Model](#network-model)
-      - [On-Premises](#on-premises)
-      - [Overview](#overview)
-      - [Service Discovery](#service-discovery)
       - [Service Topology](#service-topology)
-      - [Service Types](#service-types)
     - [Ingress](#ingress)
-      - [Alternative Architectures](#alternative-architectures)
-      - [Evaluation](#evaluation-1)
-      - [Fundamentals](#fundamentals-1)
+      - [Azure Application Gateway](#azure-application-gateway)
       - [Ingress Controllers](#ingress-controllers)
-      - [NGINX Config](#nginx-config)
-      - [Overview](#overview-1)
+      - [Overview](#overview)
       - [Performance at Scale](#performance-at-scale)
-      - [Security](#security)
-      - [Security and TLS](#security-and-tls)
-      - [Tooling](#tooling)
-      - [Tunnels](#tunnels)
-      - [Tutorials](#tutorials)
-      - [Under the Hood](#under-the-hood)
       - [gRPC and HTTP2](#grpc-and-http2)
     - [Load Balancing](#load-balancing)
       - [Decentralized](#decentralized)
       - [Global GSLB](#global-gslb)
-      - [On-Premises](#on-premises-1)
     - [Microservices](#microservices)
       - [Inter-Service Communication](#inter-service-communication)
-    - [Proxy Mechanics](#proxy-mechanics)
-      - [Foundational Routing](#foundational-routing)
     - [Routing and Topology](#routing-and-topology)
       - [Topology Aware Routing](#topology-aware-routing)
-    - [Security](#security-1)
+    - [Security](#security)
+      - [Egress Traffic](#egress-traffic)
       - [Intent-Based Access Control](#intent-based-access-control)
       - [Network Policies](#network-policies)
       - [Packet Management](#packet-management)
@@ -67,166 +46,38 @@
     - [Architecture](#architecture)
 1. [Networking](#networking-2)
   - [CNI](#cni)
-    - [Benchmarks](#benchmarks)
     - [Cilium](#cilium)
-    - [Comparison](#comparison)
-    - [Fundamentals](#fundamentals-2)
-    - [Overlay Networks](#overlay-networks)
-    - [Scaling](#scaling)
-    - [Telco and Multi-Network](#telco-and-multi-network)
-  - [Certification](#certification)
-    - [CKAD](#ckad)
-  - [Core Architecture](#core-architecture)
-    - [Documentation](#documentation)
   - [Core Services](#core-services)
     - [DNS](#dns-1)
-    - [kube-proxy](#kube-proxy)
-  - [DNS](#dns-2)
-    - [Caching](#caching)
-    - [Global Load Balancing](#global-load-balancing)
-    - [Guides](#guides)
-    - [Ingress](#ingress-1)
-    - [Monitoring](#monitoring)
-    - [Service Discovery](#service-discovery-1)
-  - [IPAM](#ipam)
-    - [Software-Defined](#software-defined)
   - [Ingress and Gateway](#ingress-and-gateway)
     - [Automation](#automation)
     - [Contour](#contour)
     - [Controllers](#controllers)
-    - [Fundamentals](#fundamentals-3)
+    - [Fundamentals](#fundamentals-1)
     - [Gateway API](#gateway-api)
     - [NGINX](#nginx)
     - [Operations](#operations)
-    - [Traefik](#traefik)
   - [Multi-Cluster](#multi-cluster)
     - [Cluster Mesh](#cluster-mesh)
     - [Service Interconnect](#service-interconnect)
     - [WireGuard VPN](#wireguard-vpn)
-  - [Overlay Networks](#overlay-networks-1)
-    - [WireGuard VPN](#wireguard-vpn-1)
-  - [Security](#security-2)
-    - [Enterprise Solutions](#enterprise-solutions)
-    - [GitOps](#gitops)
+  - [Security](#security-1)
     - [Implementation Under the Hood](#implementation-under-the-hood)
     - [Namespace Isolation](#namespace-isolation)
     - [Network Policy](#network-policy)
     - [OpenShift](#openshift)
-    - [Policy Visualization](#policy-visualization)
     - [Recipes](#recipes)
     - [Zero Trust](#zero-trust)
   - [Service Mesh](#service-mesh)
-    - [AWS Integration](#aws-integration)
     - [Linkerd and Cilium](#linkerd-and-cilium)
 1. [Networking and Security](#networking-and-security)
   - [Kubernetes Networking](#kubernetes-networking-2)
-    - [Deep Dive](#deep-dive-1)
-    - [Global Load Balancing](#global-load-balancing-1)
     - [Ingress and Traffic](#ingress-and-traffic)
     - [Performance and Tuning](#performance-and-tuning)
+    - [Security and Hardening](#security-and-hardening)
   - [Load Balancing](#load-balancing-1)
     - [Performance and Tuning](#performance-and-tuning-1)
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [AWS-VPC](https://en.wikipedia.org/wiki/Amazon_Virtual_Private_Cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering AWS-VPC in the Kubernetes Tools ecosystem.
-  - [Project Calico](https://www.projectcalico.org)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Project Calico in the Kubernetes Tools ecosystem.
-  - [medium.com: Fighting Service Latency in Microservices With Kubernetes](https://medium.com/@sindhujacynixit/fighting-service-latency-in-microservices-with-kubernetes-f5a584f5af36)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Fighting Service Latency in Microservices With Kubernetes in the Kubernetes Tools ecosystem.
-  - [medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should' I use what? 🌟](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Kubernetes NodePort vs LoadBalancer vs Ingress? When should' I use what? 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Service Types in Kubernetes? 🌟](https://medium.com/faun/service-types-in-kubernetes-24a1587677d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Service Types in Kubernetes? 🌟 in the Kubernetes Tools ecosystem.
-  - [eevans.co: Deconstructing Kubernetes Networking](https://eevans.co/blog/deconstructing-kubernetes-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering eevans.co: Deconstructing Kubernetes Networking in the Kubernetes Tools ecosystem.
-  - [medium: How to setup Hetzner load balancer on a Kubernetes cluster](https://medium.com/@jmrobles/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to setup Hetzner load balancer on a Kubernetes cluster in the Kubernetes Tools ecosystem.
-  - [zhimin-wen.medium.com: Sticky Sessions in Kubernetes 🌟](https://zhimin-wen.medium.com/sticky-sessions-in-kubernetes-56eb0e8f257d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering zhimin-wen.medium.com: Sticky Sessions in Kubernetes 🌟 in the Kubernetes Tools ecosystem.
-  - [jmrobles.medium.com: How to setup Hetzner load balancer on a Kubernetes' cluster](https://jmrobles.medium.com/how-to-setup-hetzner-load-balancer-on-a-kubernetes-cluster-2ce79ca4a27b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering jmrobles.medium.com: How to setup Hetzner load balancer on a Kubernetes' cluster in the Kubernetes Tools ecosystem.
-  - [medium: Create a Custom Annotation for the Kubernetes ingress-nginx Controller](https://medium.com/better-programming/creating-a-custom-annotation-for-the-kubernetes-ingress-nginx-controller-444e9d486192)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Create a Custom Annotation for the Kubernetes ingress-nginx Controller in the Kubernetes Tools ecosystem.
-  - [ithands-on.com: Kubernetes 101 : External services - ExternalName, DNS and' Endpoints](https://www.ithands-on.com/2021/04/kubernetes-101-external-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ithands-on.com: Kubernetes 101 : External services - ExternalName, DNS and' Endpoints in the Kubernetes Tools ecosystem.
-  - [build.thebeat.co: A curious case of AWS NLB timeouts in Kubernetes](https://build.thebeat.co/a-curious-case-of-aws-nlb-timeouts-in-kubernetes-522bd88a3399)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering build.thebeat.co: A curious case of AWS NLB timeouts in Kubernetes in the Kubernetes Tools ecosystem.
-  - [medium: Using nginx-ingress controller to restrict access by IP (ip whitelisting)' for a service deployed to a Kubernetes (AKS) cluster](https://medium.com/@maninder.bindra/using-nginx-ingress-controller-to-restrict-access-by-ip-ip-whitelisting-for-a-service-deployed-to-bd5c86dc66d6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Using nginx-ingress controller to restrict access by IP (ip whitelisting)' for a service deployed to a Kubernetes (AKS) cluster in the Kubernetes Tools ecosystem.
-  - [blog.teamhephy.info: Running Workflow Without Any LoadBalancer](https://blog.teamhephy.info/blog/posts/tutorials/running-workflow-without-any-loadbalancer.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.teamhephy.info: Running Workflow Without Any LoadBalancer in the Kubernetes Tools ecosystem.
-  - [medium: Access Application Externally In Kubernetes Cluster using Load Balancer' Service](https://medium.com/codex/access-application-externally-in-kubernetes-cluster-using-load-balancer-service-d1b7858d51)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Access Application Externally In Kubernetes Cluster using Load Balancer' Service in the Kubernetes Tools ecosystem.
-  - [techdozo.dev: gRPC load balancing on Kubernetes (using Headless Service)](https://techdozo.dev/grpc-load-balancing-on-kubernetes-using-headless-service)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering techdozo.dev: gRPC load balancing on Kubernetes (using Headless Service) in the Kubernetes Tools ecosystem.
-  - [levelup.gitconnected.com: Setting up Application Load Balancer (Ingress)' for the Pods running in AWS EKS Fargate](https://levelup.gitconnected.com/setting-up-application-load-balancer-ingress-for-the-pods-running-in-aws-eks-fargate-519e20e97497)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Setting up Application Load Balancer (Ingress)' for the Pods running in AWS EKS Fargate in the Kubernetes Tools ecosystem.
-  - [ystatit.medium.com: How to Change Kubernetes Kube-apiserver IP Address](https://ystatit.medium.com/how-to-change-kubernetes-kube-apiserver-ip-address-402d6ddb8aa2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ystatit.medium.com: How to Change Kubernetes Kube-apiserver IP Address in the Kubernetes Tools ecosystem.
-  - [ithands-on.com: Kubernetes 101 : Changing a service type](https://www.ithands-on.com/2021/09/kubernetes-101-changing-service-type.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ithands-on.com: Kubernetes 101 : Changing a service type in the Kubernetes Tools ecosystem.
-  - [technos.medium.com: Kubernetes Services for Absolute Beginners — NodePort' 🌟](https://technos.medium.com/kubernetes-services-for-absolute-beginners-nodeport-139b7060fe3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==technos.medium.com: Kubernetes Services for Absolute Beginners — NodePort==' 🌟 in the Kubernetes Tools ecosystem.
-  - [fransemalila.medium.com: Kubernetes Networking](https://fransemalila.medium.com/kubernetes-networking-cea2e1b7d2b3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering fransemalila.medium.com: Kubernetes Networking in the Kubernetes Tools ecosystem.
-  - [medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes](https://medium.com/the-programmer/working-with-clusterip-service-type-in-kubernetes-45f2c01a89c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/the-programmer: Working With ClusterIP Service Type In Kubernetes in the Kubernetes Tools ecosystem.
-  - [olamiko.medium.com: Technical Series: Kubernetes Networking](https://olamiko.medium.com/technical-series-kubernetes-networking-5a5dc3823163)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering olamiko.medium.com: Technical Series: Kubernetes Networking in the Kubernetes Tools ecosystem.
-  - [devopslearners.com: Kubernetes Ingress Tutorial For Beginners](https://devopslearners.com/kubernetes-ingress-tutorial-for-beginners-26c2f7727bc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==devopslearners.com: Kubernetes Ingress Tutorial For Beginners== in the Kubernetes Tools ecosystem.
-  - [medium.com/techbeatly: Kubernetes Networking Fundamentals](https://medium.com/techbeatly/kubernetes-networking-fundamentals-d30baf8a28c8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/techbeatly: Kubernetes Networking Fundamentals== in the Kubernetes Tools ecosystem.
-  - [rajivsharma-2205.medium.com: Demystify how traffic reaches directly to pod' on using alb.ingress.kubernetes.io/target-type: ip](https://rajivsharma-2205.medium.com/demystify-how-traffic-reaches-directly-to-pod-on-using-alb-ingress-kubernetes-io-target-type-ip-f2d1be346b46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering rajivsharma-2205.medium.com: Demystify how traffic reaches directly to pod' on using alb.ingress.kubernetes.io/target-type: ip in the Kubernetes Tools ecosystem.
-  - [medium.com/linux-shots: Kubernetes ingress as reverse proxy to Application' running outside cluster](https://medium.com/linux-shots/kubernetes-ingress-as-reverse-proxy-to-application-running-outside-cluster-206b6003f9cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/linux-shots: Kubernetes ingress as reverse proxy to Application' running outside cluster in the Kubernetes Tools ecosystem.
-  - [medium.com/@zhaoyi0113: Kubernetes — How does service network work in the' cluster](https://medium.com/@zhaoyi0113/kubernetes-how-does-service-network-work-in-the-cluster-d235b69ff536)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@zhaoyi0113: Kubernetes — How does service network work in the' cluster in the Kubernetes Tools ecosystem.
-  - [medium.com/@pavanbelagatti: Kubernetes Service Types Explained 🌟](https://medium.com/@pavanbelagatti/kubernetes-service-types-explained-2709cde3bc0c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/@pavanbelagatti: Kubernetes Service Types Explained== 🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com/stakater: Efficiently Expose Services on Kubernetes (part 1)' 🌟](https://medium.com/stakater/efficiently-expose-services-on-kubernetes-494a80f88aad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/stakater: Efficiently Expose Services on Kubernetes (part 1)' 🌟 in the Kubernetes Tools ecosystem.
-  - [faun.pub: Kubernetes Service Types Tutorial | Pavan Belagatti 🌟](https://faun.pub/kubernetes-service-types-tutorial-39223391316c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Kubernetes Service Types Tutorial | Pavan Belagatti 🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com/slalom-build: Managing Ingress Traffic on Kubernetes Platforms' 🌟](https://medium.com/slalom-build/managing-ingress-traffic-on-kubernetes-platforms-ebd537cdfb46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/slalom-build: Managing Ingress Traffic on Kubernetes Platforms' 🌟 in the Kubernetes Tools ecosystem.
-  - [craig-godden-payne.medium.com: How does ingress work in Kubernetes?](https://craig-godden-payne.medium.com/how-does-ingress-work-in-kubernetes-f3b121d0351f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering craig-godden-payne.medium.com: How does ingress work in Kubernetes? in the Kubernetes Tools ecosystem.
-  - [sanjimoh.medium.com: Demystifying Kubernetes Networking — Episode 1](https://sanjimoh.medium.com/demystifying-kubernetes-networking-episode-1-ca5605a97f87)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering sanjimoh.medium.com: Demystifying Kubernetes Networking — Episode 1 in the Kubernetes Tools ecosystem.
-  - [medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding' ClusterIp and nodePort with hands on study](https://medium.com/@mehmetodabashi/kubernetes-networking-and-service-object-understanding-clusterip-and-nodeport-with-hands-on-study-90cfeaf66e8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mehmetodabashi: Kubernetes networking and service object: Understanding' ClusterIp and nodePort with hands on study in the Kubernetes Tools ecosystem.
-  - [medium.com/@jasonmfehr: Inspecting Kubernetes Client to API Server Network' Traffic](https://medium.com/@jasonmfehr/inspecting-kubernetes-client-to-api-server-network-traffic-cd6d1802bb43)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@jasonmfehr: Inspecting Kubernetes Client to API Server Network' Traffic in the Kubernetes Tools ecosystem.
-  - [medium.com/geekculture: K8s Network — CNI Introduction](https://medium.com/geekculture/k8s-network-cni-introduction-b035d42ad68f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: K8s Network — CNI Introduction in the Kubernetes Tools ecosystem.
-  - [medium.com/patilswapnilv: Getting Started with Kubernetes Networking' 🌟](https://medium.com/patilswapnilv/getting-started-with-kubernetes-networking-7e10623fc78f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/patilswapnilv: Getting Started with Kubernetes Networking==' 🌟 in the Kubernetes Tools ecosystem.
-  - [faun.pub: Kubernetes Ingress with Nginx](https://faun.pub/kubernetes-ingress-with-nginx-3c77e703e91a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==faun.pub: Kubernetes Ingress with Nginx== in the Kubernetes Tools ecosystem.
-  - [ovidiuborlean.medium.com: Networking latency measurement in Kubernetes with' Sockperf plugin](https://ovidiuborlean.medium.com/networking-latency-measurement-in-kubernetes-with-sockperf-plugin-68283a0ed989)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ovidiuborlean.medium.com: Networking latency measurement in Kubernetes with' Sockperf plugin in the Kubernetes Tools ecosystem.
-  - [medium.com/@muhidabid.cs: Why does Kubernetes need Ingress?](https://medium.com/@muhidabid.cs/why-does-kubernetes-need-ingress-73d969fb6ffe)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@muhidabid.cs: Why does Kubernetes need Ingress? in the Kubernetes Tools ecosystem.
-  - [blog.devgenius.io: K8s — ipvs Mode Introduction](https://blog.devgenius.io/k8s-ipvs-mode-introduction-6457a02cd91a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: K8s — ipvs Mode Introduction in the Kubernetes Tools ecosystem.
-  - [whyk8s.substack.com: Why not DNS?](https://whyk8s.substack.com/p/why-not-dns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering whyk8s.substack.com: Why not DNS? in the Kubernetes Tools ecosystem.
-  - [medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read](https://medium.com/geekculture/kubernetes-gateway-api-the-intro-you-need-to-read-80965f7acd82)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/geekculture: Kubernetes Gateway API: The Intro You Need To Read in the Kubernetes Tools ecosystem.
-  - [ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External' Services 🌟🌟](https://ksingh7.medium.com/kubernetes-endpoint-object-your-bridge-to-external-services-3fc48263b776)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==ksingh7.medium.com: Kubernetes Endpoint Object: Your Bridge to External' Services== 🌟🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com/@ahmet16ck: What Is Load Balancer and How Does It Work In Kubernetes' ? 🌟](https://medium.com/@ahmet16ck/what-is-load-balancer-and-how-does-it-work-in-kubernetes-5ab5f0537069)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@ahmet16ck: What Is Load Balancer and How Does It Work In Kubernetes' ? 🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com/illuminations-mirror: Basic | Networking and Communication Between' Pods in Kubernetes](https://medium.com/illuminations-mirror/basic-networking-and-communication-between-pods-in-kubernetes-2e1627b03a87)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/illuminations-mirror: Basic | Networking and Communication Between' Pods in Kubernetes in the Kubernetes Tools ecosystem.
-  - [blog.devops.dev: Networking in Kubernetes](https://blog.devops.dev/networking-in-kubernetes-55dcf794b9cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devops.dev: Networking in Kubernetes in the Kubernetes Tools ecosystem.
-  - [medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link' to each other](https://medium.com/@mustafaaltunok/how-ingress-service-deployment-and-pod-link-to-eachother-d3a6ae2c0e06)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@mustafaaltunok: How Ingress, Service, Deployment and Pod Link' to each other in the Kubernetes Tools ecosystem.
-  - [blog.devops.dev: Demystifying Kubernetes:Understanding Ingress, Configuration,' and Best Practices](https://blog.devops.dev/demystifying-kubernetes-understanding-ingress-configuration-and-best-practices-fb34e33e5f5f)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devops.dev: Demystifying Kubernetes:Understanding Ingress, Configuration,' and Best Practices in the Kubernetes Tools ecosystem.
-  - [medium.com/google-cloud: Kubernetes Ingress Vs Gateway API 🌟](https://medium.com/google-cloud/kubernetes-ingress-vs-gateway-api-647ee233693d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==medium.com/google-cloud: Kubernetes Ingress Vs Gateway API== 🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com/nerd-for-tech: Kubernetes: Deploying NGINX with a ConfigMap |' Chanel Jemmott](https://medium.com/nerd-for-tech/kubernetes-deploying-nginx-with-a-configmap-e8a2fe59bcb1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/nerd-for-tech: Kubernetes: Deploying NGINX with a ConfigMap |' Chanel Jemmott in the Kubernetes Tools ecosystem.
-  - [medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part' I. Service | Brandon Kang](https://medium.com/@sangjinn/how-to-communicate-with-kubernetes-workloads-1-service-abe1c5b03fc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@sangjinn: How to communicate with Kubernetes workloads — Part' I. Service | Brandon Kang in the Kubernetes Tools ecosystem.
-  - [shahneil.medium.com: What Are Kubernetes Endpoints?](https://shahneil.medium.com/what-are-kubernetes-endpoints-and-how-to-use-them-a5a5da56f4d4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==shahneil.medium.com: What Are Kubernetes Endpoints?== in the Kubernetes Tools ecosystem.
-  - [fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide](https://fr4nk.xyz/understanding-ingress-in-kubernetes-a-comprehensive-guide-b23b5cf37f8d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==fr4nk.xyz: Understanding Ingress in Kubernetes: A Comprehensive Guide== in the Kubernetes Tools ecosystem.
-  - [medium.com/@rasikzilte711: Kubernetes Networking — A Guide to Services,' Ingress, Network Policies, DNS, and CNI Plugins](https://medium.com/@rasikzilte711/kubernetes-networking-a-guide-to-services-ingress-network-policies-dns-and-cni-plugins-fc1ad7d22ab4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@rasikzilte711: Kubernetes Networking — A Guide to Services,' Ingress, Network Policies, DNS, and CNI Plugins in the Kubernetes Tools ecosystem.
-  - [medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes](https://medium.com/codex/capture-tcpdump-with-ksniff-and-wireshark-from-kubernetes-c212b93ff9f9)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/codex: Capture tcpdump with ksniff and wireshark from Kubernetes in the Kubernetes Tools ecosystem.
-  - [adil.medium.com: Network Traffic Shaping in Kubernetes: Topology Aware Routing](https://adil.medium.com/network-traffic-shaping-in-kubernetes-topology-aware-routing-e4ea4a03dd20)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering adil.medium.com: Network Traffic Shaping in Kubernetes: Topology Aware Routing in the Kubernetes Tools ecosystem.
-  - [kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟](https://kuderko.medium.com/fixing-bad-cpu-usage-distribution-in-kubernetes-e1e43ed87cd6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kuderko.medium.com: Fixing bad CPU usage distribution in Kubernetes 🌟 in the Kubernetes Tools ecosystem.
-  - [medium.com: Headless Kubernetes Service](https://medium.com/@bubu.tripathy/headless-k8s-service-924c689607a7)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com: Headless Kubernetes Service in the Kubernetes Tools ecosystem.
-  - [goglides.dev: Headless services in Kubernetes Vs Regular Service: What,' Why, and How?](https://www.goglides.dev/bkpandey/headless-services-in-kubernetes-what-why-and-how-39fl)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering goglides.dev: Headless services in Kubernetes Vs Regular Service: What,' Why, and How? in the Kubernetes Tools ecosystem.
-  - [whyk8s.substack.com: Why NetworkPolicies?](https://whyk8s.substack.com/p/why-networkpolicies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering whyk8s.substack.com: Why NetworkPolicies? in the Kubernetes Tools ecosystem.
-  - [yuminlee2.medium.com: Kubernetes Network Policies](https://yuminlee2.medium.com/kubernetes-network-policies-a93c2f588e31)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering yuminlee2.medium.com: Kubernetes Network Policies in the Kubernetes Tools ecosystem.
-  - [bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm](https://bagas-awibowo.medium.com/helm-templating-network-policy-using-helm-783b2f7e401a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==bagas-awibowo.medium.com: Helm — Templating Network Policy using Helm== in the Kubernetes Tools ecosystem.
-  - [amy-ma.medium.com: Nginx Ingress Configuration](https://amy-ma.medium.com/ingress-configuration-d9f13c5bcf1a)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering amy-ma.medium.com: Nginx Ingress Configuration in the Kubernetes Tools ecosystem.
-  - [medium.com/@jonathan_37674: How to secure Kubernetes ingress? | By ARMO](https://medium.com/@jonathan_37674/how-to-secure-kubernetes-ingress-by-armo-cb86086ec540)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@jonathan_37674: How to secure Kubernetes ingress? | By ARMO in the Kubernetes Tools ecosystem.
-  - [engineering.backmarket.com: How we improved third-party availability and' latency with Nginx in Kubernetes 🌟](https://engineering.backmarket.com/how-we-improved-third-party-availability-and-latency-with-nginx-in-kubernetes-bb3fc7224ae4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==engineering.backmarket.com: How we improved third-party availability and' latency with Nginx in Kubernetes== 🌟 in the Kubernetes Tools ecosystem.
-  - [towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps & Shared' Services with Minikube](https://towardsdev.com/kubernetes-deploying-nginx-servers-with-configmaps-shared-services-with-minikube-618aee9a8ff6)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering towardsdev.com: Kubernetes: Deploying Nginx Servers with ConfigMaps & Shared' Services with Minikube in the Kubernetes Tools ecosystem.
-  - [faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes](https://faun.pub/how-to-monitor-and-alert-on-nginx-ingress-in-kubernetes-6d7d172f0399)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: How to Monitor and Alert on Ingress-NGINX in Kubernetes in the Kubernetes Tools ecosystem.
-  - [sumanprasad.hashnode.dev: A Beginner's Guide to Ingress and Ingress Controllers' in Kubernetes](https://sumanprasad.hashnode.dev/a-beginners-guide-to-ingress-and-ingress-controllers-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering sumanprasad.hashnode.dev: A Beginner's Guide to Ingress and Ingress Controllers' in Kubernetes in the Kubernetes Tools ecosystem.
-  - [akyriako.medium.com: Configure path-based routing with Nginx Ingress Controller](https://akyriako.medium.com/configure-path-based-routing-with-nginx-ingress-controller-64a63cd4d6bd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering akyriako.medium.com: Configure path-based routing with Nginx Ingress Controller in the Kubernetes Tools ecosystem.
-  - [blog.flomesh.io: Kubernetes Gateway API — Evolution of Service Networking](https://blog.flomesh.io/kubernetes-gateway-api-evolution-of-service-networking-aa76ec4efa7e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.flomesh.io: Kubernetes Gateway API — Evolution of Service Networking in the Kubernetes Tools ecosystem.
-  - [medium.com/google-cloud: Security with Kubernetes Gateway API 🌟](https://medium.com/google-cloud/security-with-kubernetes-gateway-api-dcbb934ed2a4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/google-cloud: Security with Kubernetes Gateway API 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: How to Provision Network Policies in Kubernetes | AWS 🌟](https://medium.com/avmconsulting-blog/exploring-network-policies-in-kubernetes-c8a3d8ed00cb)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to Provision Network Policies in Kubernetes | AWS 🌟 in the Kubernetes Tools ecosystem.
-  - [faun.pub: Control traffic flow to and from Kubernetes pods with Network' Policies](https://faun.pub/control-traffic-flow-to-and-from-kubernetes-pods-with-network-policies-bc384c2d1f8c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Control traffic flow to and from Kubernetes pods with Network' Policies in the Kubernetes Tools ecosystem.
-  - [loft-sh.medium.com: Kubernetes Network Policies: A Practitioner’s Guide' 🌟](https://loft-sh.medium.com/kubernetes-network-policies-a-practitioners-guide-c9bb4cdd0dbc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering loft-sh.medium.com: Kubernetes Network Policies: A Practitioner’s Guide' 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Kubernetes Network Policies: Are They Really Useful? 🌟](https://medium.com/codex/kubernetes-network-polices-are-they-really-useful-c3a153c49316)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Kubernetes Network Policies: Are They Really Useful? 🌟 in the Kubernetes Tools ecosystem.
-  - [engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster](https://engineering.mercari.com/en/blog/entry/20220214-managing-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering engineering.mercari.com: Managing Network Policies for namespaces isolation' on a multi-tenant Kubernetes cluster in the Kubernetes Tools ecosystem.
-  - [blog.devgenius.io: Simplify Kubernetes Network Policy Generation](https://blog.devgenius.io/kubernetes-namespace-wide-network-policy-1126fafdf221)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: Simplify Kubernetes Network Policy Generation in the Kubernetes Tools ecosystem.
-  - [blog.slycreator.com: Network Policies: Understanding Kubernetes Network' Policies](https://blog.slycreator.com/network-policies-understanding-kubernetes-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.slycreator.com: Network Policies: Understanding Kubernetes Network' Policies in the Kubernetes Tools ecosystem.
-  - [medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications' with Cilium network policies](https://medium.com/@charled.breteche/kubernetes-security-control-pod-to-pod-communications-with-cilium-network-policies-d7275b2ed378)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@charled.breteche: Kubernetes Security — Control pod to pod communications' with Cilium network policies in the Kubernetes Tools ecosystem.
-  - [betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor' 🌟](https://betterprogramming.pub/k8s-network-policy-made-simple-with-cilium-editor-a5b55781291c)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering betterprogramming.pub: K8s: Network Policy Made Simple With Cilium Editor' 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Ingress service types in Kubernetes 🌟](https://medium.com/faun/ingress-service-types-in-kubernetes-3e9b68b78307)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Ingress service types in Kubernetes 🌟 in the Kubernetes Tools ecosystem.
-  - [IP Address Management (IPAM)](https://en.wikipedia.org/wiki/IP_address_management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering IP Address Management (IPAM) in the Kubernetes Tools ecosystem.
-  - [dzone: How to Understand and Set Up Kubernetes Networking 🌟](https://dzone.com/articles/how-to-understand-and-setup-kubernetes-networking)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: How to Understand and Set Up Kubernetes Networking 🌟 in the Kubernetes Tools ecosystem.
-  - [medium: Container Networking Interface aka CNI](https://medium.com/@vikram.fugro/container-networking-interface-aka-cni-bdfe23f865cf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Container Networking Interface aka CNI in the Kubernetes Tools ecosystem.
-  - [medium: Calico for Kubernetes networking: the basics & examples](https://medium.com/flant-com/calico-for-kubernetes-networking-792b41e19d69)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Calico for Kubernetes networking: the basics & examples in the Kubernetes Tools ecosystem.
-  - [projectcalico.org: Advertising Kubernetes Service IPs with Calico and BGP](https://www.projectcalico.org/advertising-kubernetes-service-ips-with-calico-and-bgp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering projectcalico.org: Advertising Kubernetes Service IPs with Calico and BGP in the Kubernetes Tools ecosystem.
-  - [blog.devgenius.io: K8s Networking — Calico (Part1)](https://blog.devgenius.io/k8s-networking-calico-part1-7f74395b6fe2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.devgenius.io: K8s Networking — Calico (Part1) in the Kubernetes Tools ecosystem.
-  - [medium.com/@arbnair97: Introduction to Kubernetes Network Policy and Calico' Based Network Policy](https://medium.com/@arbnair97/introduction-to-kubernetes-network-policy-and-calico-based-network-policy-675a7fa6b5dc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium.com/@arbnair97: Introduction to Kubernetes Network Policy and Calico' Based Network Policy in the Kubernetes Tools ecosystem.
-  - [medium: How to Autoscale the DNS Service in a Kubernetes Cluster](https://medium.com/faun/how-to-autoscale-the-dns-service-in-a-kubernetes-cluster-cbb46ae89678)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: How to Autoscale the DNS Service in a Kubernetes Cluster in the Kubernetes Tools ecosystem.
-  - [iamitcohen.medium.com: DNS in Kubernetes, how does it work?](https://iamitcohen.medium.com/dns-in-kubernetes-how-does-it-work-7c4690fd813e)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering iamitcohen.medium.com: DNS in Kubernetes, how does it work? in the Kubernetes Tools ecosystem.
-  - [levelup.gitconnected.com: Kubernetes with CoreDNS](https://levelup.gitconnected.com/kubernetes-with-coredns-e40772c5e6ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Kubernetes with CoreDNS in the Kubernetes Tools ecosystem.
-  - [blog.abaganon.com: Why you probably won’t use K8gb.io](https://blog.abaganon.com/going-global-with-kubernetes-490cf51e2bf8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.abaganon.com: Why you probably won’t use K8gb.io in the Kubernetes Tools ecosystem.
 ## Container Orchestration
 
 ### Kubernetes Networking (1)
@@ -251,15 +102,9 @@
 ##### Advanced Routing
 
   - **(2021)** [**itnext.io: Deciphering the Kubernetes Networking Maze: Navigating Load-Balance, BGP, IPVS and Beyond**](https://itnext.io/deciphering-the-kubernetes-networking-maze-navigating-load-balance-bgp-ipvs-and-beyond-7123ef428572) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An extensive architecture overview diving into the mechanics of high-scale routing environments. Evaluates the performance traits of IPVS, eBPF, and BGP routing overlays, highlighting how to design low-overhead service layers within large-scale multi-tenant networks.
-##### BGP Routing
-
-  - **(2020)** [**dustinspecker.com: Kubernetes Networking from Scratch: Using BGP and BIRD to Advertise Pod Routes**](https://dustinspecker.com/posts/kubernetes-networking-from-scratch-bgp-bird-advertise-pod-routes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on, granular guide demonstrating how to build a fully functioning Kubernetes routing topology from scratch using BGP and BIRD. Explains how underlying CNIs interface with actual routing tables to advertise dynamic pod endpoints to outer networks.
 ##### Packet Flow
 
   - **(2022)** [==learnk8s.io: Tracing the path of network traffic in Kubernetes 🌟==](https://learnkube.com/kubernetes-network-packets) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptionally precise visual reconstruction tracing the physical path of network packets through container boundaries, virtual interfaces, iptables chains, and node boundaries. Invaluable reference for platform engineers tasked with isolating root causes of packet drops and latency spikes.
-##### Service IP Allocation
-
-  - **(2021)** [**itnext.io: Inspecting and Understanding k8s Service Network 🌟**](https://itnext.io/inspecting-and-understanding-service-network-dfd8c16ff2c5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced technical inquiry examining how virtual IP endpoints are generated and tracked by the control plane. Demonstrates how to probe node routing tables, iptables rule logs, and IPVS structures to map physical packets to real-time service endpoints.
 #### Evaluation
 
 ##### CNI Selection
@@ -267,71 +112,25 @@
   - **(2022)** [**itnext.io: Kubernetes networking deep dive: Did you make the right choice?**](https://itnext.io/kubernetes-network-deep-dive-7492341e0ab5) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An engineering benchmark and comparison of leading Kubernetes CNI implementations (Calico, Cilium, Flannel). Evaluates raw throughput, CPU overhead, eBPF capabilities, and network policy performance to guide architects in making structural design choices.
 #### Fundamentals
 
-##### Network Model
-
-  - **(2022)** [==tkng.io/arch: THE KUBERNETES NETWORK MODEL 🌟🌟==](https://www.tkng.io/arch) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly precise, deep-dive architectural dissection of the core Kubernetes networking design philosophy. It systematically charts port mappings, interface attachments, loopbacks, and CNI execution chains, demonstrating how flat networks are established and maintained over diverse node pools.
-  - **(2020)** [**sookocheff.com: A Guide to the Kubernetes Networking Model 🌟**](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational architectural analysis of the Kubernetes networking model. It unpacks the four primary communications vectors—container-to-container, pod-to-pod, pod-to-service, and external-to-service—and explains why the absolute requirement of 'IP-per-pod' simplifies routing compared to traditional port-mapping models.
-##### On-Premises
-
-  - **(2021)** [nbailey.ca: Domesticated Kubernetes Networking](https://nbailey.ca/post/k8s-networking) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An informative study outlining step-by-step methods for domesticating Kubernetes networking within non-cloud or home lab setups. Details bare-metal bridge interfaces, tunnel configurations, and manual CNI implementations without high-overhead public cloud API assistance.
-##### Overview
-
-  - **(2021)** [matthewpalmer.net: Kubernetes Networking Guide for Beginners](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-networking-guide-beginners.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory, developer-focused guidebook breaking down cluster network boundaries and abstract IP allocations. Designed to demystify container routing and service discovery for application programmers.
-  - **(2020)** [edureka.co: Kubernetes Networking – A Comprehensive Guide To The Networking Concepts In Kubernetes](https://www.edureka.co/blog/kubernetes-networking) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A broad, conceptual handbook introducing standard network boundaries in cloud-native deployments. Outlines how namespaces share interfaces within a pod and details the routing hops required for intra-cluster communication.
-##### Service Discovery
-
-  - **(2024)** [**Kubernetes Services and Load Balancing Explained**](https://learnkube.com/kubernetes-services-and-load-balancing) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A contemporary structural breakdown explaining how Kubernetes leverages service endpoints to build abstract load balancing layers. Reviews the operations of kube-proxy in writing local node routing rules and traces how traffic migrates from virtual endpoints to real pod ports.
 ##### Service Topology
 
   - **(2022)** [==home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress 🌟🌟🌟==](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual, high-impact guide illuminating structural boundaries and usage paradigms across ClusterIP, NodePort, LoadBalancer, and Ingress. Translates complex routing definitions into clear deployment rules of thumb to help architects select the optimal entry channel based on target budgets and security policies.
-##### Service Types
-
-  - **(2021)** [sysdig.com: Kubernetes Services: ClusterIP, Nodeport and LoadBalancer](https://www.sysdig.com/blog/kubernetes-services-clusterip-nodeport-loadbalancer) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An analytical guide to native Kubernetes service abstraction layers, mapping how the internal control plane links Service resources to running Pod IPs. Outlines configuration protocols and target patterns for ClusterIP, NodePort, and LoadBalancer configurations.
 #### Ingress
 
-##### Alternative Architectures
+##### Azure Application Gateway
 
-  - **(2020)** [ungleich.ch: Building Ingress-less Kubernetes Clusters](https://ungleich.ch/u/blog/kubernetes-without-ingress) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural patterns to design and run Kubernetes environments without standard L7 Ingress controllers. Employs direct BGP advertisements and IPv6-native routing to link external clients directly to target containers.
-##### Evaluation (1)
-
-  - **(2022)** [**blog.palark.com: Comparing Ingress controllers for Kubernetes**](https://palark.com/blog/comparing-ingress-controllers-for-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides a comprehensive architectural analysis and evaluation of popular ingress solutions. Highlights feature readiness for HTTP/3, TLS passthrough paths, and standard authentication middleware integration.
-##### Fundamentals (1)
-
-  - **(2021)** [**itnext.io: Why and How of Kubernetes Ingress (and Networking) 🌟**](https://itnext.io/why-and-how-of-kubernetes-ingress-and-networking-6cb308ca03d2) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deconstructs the underlying flow of external traffic traversing through Ingress controllers down to the target endpoints. Outlines why standard Layer 4 proxies fall short for advanced routing and explains how Layer 7 controllers dynamically reload configurations dynamically upon API changes.
-  - **(2021)** [searchitoperations.techtarget.com: Differences between Kubernetes Ingress vs. load balancer](https://www.techtarget.com/searchitoperations/feature/Differences-between-Kubernetes-Ingress-vs-load-balancer) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference manual comparing the performance cost and operational patterns of Layer 4 LoadBalancer services against Layer 7 Ingress Controllers. Evaluates routing mechanics, cost-efficiency, and feature capabilities to assist in key infrastructure selection phases.
+  - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
+  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ##### Ingress Controllers
 
   - **(2021)** [**platform9.com: Ultimate Guide to Kubernetes Ingress Controllers 🌟**](https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive reference comparison comparing top ingress technologies (NGINX, Envoy, Traefik, HAProxy, Kong). Benchmarks each against raw throughput, latency profiles, dynamic reload capabilities, and extensibility models.
   - **(2021)** [thenewstack.io: Ingress Controllers: The More the Merrier](https://thenewstack.io/ingress-controllers-the-more-the-merrier) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents strategic advantages of operating multiple distinct Ingress Controller classes side-by-side within a single cluster. Outlines traffic isolation patterns separating internal, public API, and corporate networks.
-##### NGINX Config
-
-  - **(2021)** [**loft.sh: Kubernetes NGINX Ingress: 10 Useful Configuration Options 🌟**](https://www.vcluster.com/blog/kubernetes-nginx-ingress) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides ten practical and essential tuning annotations for NGINX Ingress controllers. Addresses tuning buffer limits, client timeouts, custom headers, and rate limits to maximize safety and application performance in production.
-##### Overview (1)
+##### Overview
 
   - **(2021)** [thenewstack.io: Ingress Controllers: The Swiss Army Knife of Kubernetes](https://thenewstack.io/ingress-controllers-the-swiss-army-knife-of-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how contemporary Ingress controllers have evolved from simple HTTP routers into sophisticated API gateways. Covers advanced capabilities such as circuit-breaking, direct rate-limiting, and canary deployment control.
 ##### Performance at Scale
 
   - **(2022)** [**api7.ai: How Does APISIX Ingress Support Thousands of Pod Replicas?**](https://api7.ai/blog/apisix-ingress-support-thousands-pod-replicas) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed case study illustrating how the Apache APISIX Ingress Controller achieves near-instant configuration reloads in environments scaling up to thousands of active pod endpoints without increasing overall connection latency.
-##### Security
-
-  - **(2022)** [armosec.io: Getting Started with Kubernetes Ingress | Ben Hirschberg](https://www.armosec.io/blog/kubernetes-ingress-beginners-guide) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory, security-focused overview of the Kubernetes Ingress resource. Analyzes common configuration pitfalls that expose clusters to threat vectors and demonstrates simple hardening techniques to safeguard public route interfaces.
-##### Security and TLS
-
-  - **(2021)** [**devopscube.com: How To Configure Ingress TLS/SSL Certificates in Kubernetes**](https://devopscube.com/configure-ingress-tls-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A tutorial guiding developers through TLS/SSL certificate generation, binding, and storage in ingress environments. Explains how to leverage native cert-manager pipelines to secure internet-facing applications automatically with Let's Encrypt certificates.
-##### Tooling
-
-  - **(2022)** [**ingressbuilder.jetstack.io 🌟🌟**](https://ingressbuilder.jetstack.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive utility created by Jetstack that aids in generating syntactic-proof configurations for Kubernetes Ingress resources. Automates cert-manager annotations and rewrite-target generation, limiting YAML drafting errors.
-##### Tunnels
-
-  - **(2023)** [**inlets.dev: How to Get Ingress for Private Kubernetes Clusters**](https://inlets.dev/blog/2023/02/24/ingress-for-local-kubernetes-clusters.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deconstructs architectures designed to route public traffic into nested enterprise VPN networks. Leverages secure tunnels to channel request paths from public exit nodes directly into localized development networks.
-  - **(2021)** [**inlets.dev: Fixing Ingress for short-lived local Kubernetes clusters**](https://inlets.dev/blog/2021/07/08/short-lived-clusters.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses traffic ingress problems for temporary local clusters (kind, k3d). Demonstrates how to leverage Inlets as an encrypted websocket bridge to route traffic into isolated dev environments seamlessly.
-  - **(2020)** [**blog.alexellis.io: Get a public LoadBalancer for your private Kubernetes cluster 🌟**](https://blog.alexellis.io/ingress-for-your-local-kubernetes-cluster) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An operational walkthrough explaining how to attach a public load balancer to private, local Kubernetes configurations using Inlets. Bypasses corporate NAT constraints, making localized clusters easily addressable for demo pipelines.
-##### Tutorials
-
-  - **(2021)** [**devopscube.com: Kubernetes Ingress Tutorial For Beginners 🌟**](https://devopscube.com/kubernetes-ingress-tutorial) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed step-by-step tutorial addressing the installation and configuration of the NGINX Ingress controller. Focuses on setting up custom host routing rules, implementing path matching, and troubleshooting entry level ingress issues.
-##### Under the Hood
-
-  - **(2022)** [**community.ops.io: Kubernetes Ingress Controller. How does it work?=**](https://community.ops.io/danielepolencic/learning-how-an-ingress-controller-works-by-building-one-in-bash-3fni) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A didactic, code-heavy walkthrough that creates a bare-minimum ingress controller from scratch in Bash. Demystifies the core control loop: querying the API server, filtering changes, and rebuilding configurations dynamically.
 ##### gRPC and HTTP2
 
   - **(2021)** [**openshift.com: gRPC or HTTP/2 Ingress Connectivity in OpenShift 🌟**](https://www.redhat.com/en/blog/grpc-or-http/2-ingress-connectivity-in-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines methods to secure and optimize high-throughput gRPC and HTTP/2 flows through OpenShift and Kubernetes ingress endpoints. Outlines router parameter optimizations and ALPN negotiation configurations to support low-latency microservice interfaces.
@@ -343,26 +142,21 @@
 ##### Global GSLB
 
   - **(2021)** [**cloud.redhat.com: Global Load Balancer Approaches 🌟**](https://www.redhat.com/en/blog/global-load-balancer-approaches) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Highlights architectural approaches to implement Global Server Load Balancing (GSLB) models across heterogeneous multi-cloud or hybrid clusters. Covers DNS-based and Anycast solutions to facilitate high-availability failover paths.
-##### On-Premises (1)
-
-  - **(2021)** [**itnext.io: Kubernetes Service Type LB for On Prem Deployments**](https://itnext.io/kubernetes-service-type-lb-for-on-prem-deployments-89e9b2a73a0c) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses the challenge of hosting ServiceType: LoadBalancer endpoints within bare-metal and on-prem architectures. Outlines implementation paths using MetalLB and BGP route advertising to lease public IPs.
 #### Microservices
 
 ##### Inter-Service Communication
 
   - **(2021)** [**dev.to/narasimha1997: Communication between Microservices in a Kubernetes cluster 🌟**](https://dev.to/narasimha1997/communication-between-microservices-in-a-kubernetes-cluster-1n41) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines internal communication protocols of microservices deployed across Kubernetes networks. Details local service resolution dynamics, headless services, and the role of service proxies in optimizing intra-cluster communication speeds.
-#### Proxy Mechanics
-
-##### Foundational Routing
-
-  - **(2022)** [cloudtechtwitter.com: Reverse Proxy vs. Forward Proxy: The Differences](https://www.cloudtechtwitter.com/2022/05/reverse-proxy-vs-forward-proxy.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A conceptual guide detailing practical differences between reverse proxy architectures (used to route public calls to backends) and forward proxy architectures (used to govern egress paths). Clarifies their specific use cases within enterprise networking configurations.
 #### Routing and Topology
 
 ##### Topology Aware Routing
 
   - **(2020)** [**opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing**](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An in-depth guide on utilizing Topology Aware Routing (formerly Hints) to bias service endpoint selection to local availability zones. Details how keeping container interactions within local AZs reduces latency, minimizes cross-zone data transfer fees, and builds resilient architectures.
-#### Security (1)
+#### Security
 
+##### Egress Traffic
+
+  - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
 ##### Intent-Based Access Control
 
   - **(2022)** [**thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud**](https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introduction to Intent-Based Access Control (IBAC) patterns using Otterize. Explains how developers outline communication intents in declarative manifests, which are automatically translated into native CNI policies.
@@ -383,76 +177,15 @@
 
 ### CNI
 
-#### Benchmarks
-
-  - **(2021)** [cilium.io: CNI Benchmark: Understanding Cilium Network Performance](https://cilium.io/blog/2021/05/11/cni-benchmark) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive benchmark analysis highlighting performance differences between standard iptables implementations and eBPF-driven engines, with a focus on latency and CPU efficiency.
-  - **(2020)** [itnext.io: Benchmark results of Kubernetes network plugins (CNI) over 10Gbit/s network (Updated: August 2020)](https://itnext.io/benchmark-results-of-kubernetes-network-plugins-cni-over-10gbit-s-network-updated-august-2020-6e1b757b9e49) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep architectural performance analysis measuring major Kubernetes Container Network Interface (CNI) plugins over a dedicated 10Gbit/s network interface. It systematically contrasts network latency, throughput, and CPU utilization overhead across options like Calico, Cilium, Flannel, and Weave. The study details how overlay encapsulation methods (VXLAN/Geneve) introduce significant processing taxes compared to native BGP/host-gw direct routing topologies.
 #### Cilium
 
-  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
   - **(2021)** [itnext.io: Installing Cilium on Kubernetes in a fast and efficient way](https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A performance-focused guide detailing modern deployment strategies for Cilium, leveraging Helm templates and CLI-driven validation to streamline infrastructure provisioning.
   - **(2021)** [cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more](https://cilium.io/blog/2021/05/20/cilium-110) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Feature overview of Cilium's v1.10 release, highlighting the integration of native WireGuard encryption, BGP routing, egress gateways, and high-performance XDP load balancing.
-#### Comparison
-
-  - **(2021)** [rancher.com: Container Network Interface (CNI) Providers](https://rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparative breakdown by Rancher evaluating the design trade-offs, architectures, and operational performance of Calico, Flannel, Canal, and Weave Net.
-#### Fundamentals (2)
-
-  - **(2026)** [==github.com/containernetworking 🌟==](https://github.com/containernetworking) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational GitHub organization hosting the official CNI specification, runtime engines, and core plugin binaries that drive the cloud-native ecosystem.
-  - **(2026)** [Kubernetes.io: Network Plugins](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative Kubernetes documentation outlining network plugin types. Defines the operational boundaries between kubenet deployments and standard Container Network Interface (CNI) environments.
-#### Overlay Networks
-
-  - **(2026)** [==Flannel==](https://github.com/flannel-io/flannel) <span class='md-tag md-tag--info'>⭐ 9475</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f42b6ab" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 9 L 20 7 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-1f42b6ab)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly stable, lightweight Layer 3 overlay CNI fabric designed specifically for simplified Kubernetes installations. It provisions a simple local agent on each cluster node to manage subnet allocations via etcd, supporting VXLAN and host-gw backends. While it lacks L7 traffic steering and NetworkPolicy parsing, its operational simplicity remains highly valuable for lightweight resource-constrained environments.
-#### Scaling
-
-  - **(2020)** [mhmxs.blogspot.com: Autoscaling Calico Route Reflector topology in Kubernetes](https://mhmxs.blogspot.com/2020/12/autoscaling-calico-route-reflector.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep engineering walkthrough for autoscaling Calico Route Reflector (RR) topologies in high-scale Kubernetes clusters. It addresses the routing table exhaustion and CPU bottlenecks associated with full-mesh node-to-node BGP routing by dynamically managing centralized Route Reflectors, maintaining high performance and operational stability as node counts grow.
-#### Telco and Multi-Network
-
-  - **(2026)** [==Damn==](https://github.com/nokia/danm) <span class='md-tag md-tag--info'>⭐ 393</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-293580f2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 10 L 30 8 L 40 2 L 50 12" fill="none" stroke="url(#spark-grad-293580f2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Nokia's DANM (Damn Another Network Manager) CNI designed to facilitate telco-grade multi-network interfaces per pod inside Kubernetes, with support for SR-IOV, IPVLAN, and MACVLAN. Curator Insight vs Live Grounding: Although originally positioned as a dynamic multitenancy interface for telco workloads, live telemetry confirms the repository is now archived and considered a legacy architecture, with modern deployments utilizing Multus CNI.
-### Certification
-
-#### CKAD
-
-  - **(2021)** [itnext.io: CKAD Scenarios about Ingress and NetworkPolicy](https://itnext.io/ckad-scenarios-about-ingress-and-networkpolicy-155ce958c9ce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical collection of task-oriented scenarios specifically curated for Certified Kubernetes Application Developer (CKAD) candidates. Focuses on isolating resources using egress policies and routing incoming traffic via Ingress resources.
-### Core Architecture
-
-#### Documentation
-
-  - **(2026)** [Kubernetes Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation outlining the structural model of Kubernetes networking. Explains the baseline constraints and requirements for pod-to-pod, pod-to-service, and external communication, establishing the standard IP-per-pod allocation axiom. Crucial reference architecture for understanding how the core API expects CNIs to behaves before overlaying sophisticated network policies.
 ### Core Services
 
 #### DNS (1)
 
   - **(2021)** [blog.cloudsigma.com: Kubernetes DNS Service: A Beginner’s Guide](https://blog.cloudsigma.com/kubernetes-dns-service-a-beginners-guide)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This reference details the mechanics of Kubernetes cluster DNS architectures. It contrasts legacy kube-dns limitations with CoreDNS performance, explaining service discovery configurations, search paths, and DNS forwarding profiles essential for microservice visibility.
-#### kube-proxy
-
-  - **(2021)** [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Low-level diagnostic guide tracing the packet path through programmed iptables rules. Demonstrates exactly how kube-proxy routes cluster IP destination calls to dynamic backend endpoints.
-  - **(2021)** [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive technical blog exploring the design principles of the node proxy. Compares user-space, iptables, and IPVS proxy modes with performance telemetry data.
-### DNS (2)
-
-#### Caching
-
-  - **(2026)** [==NodeLocal DNSCache==](https://github.com/kubernetes/enhancements) <span class='md-tag md-tag--info'>⭐ 3887</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5afe5e21" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 3 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-5afe5e21)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Kubernetes Enhancement Proposal (KEP) and repository code outlining the deployment of a local DNS caching agent on each node. Running as a DaemonSet, NodeLocal DNSCache intercepts queries at a local loopback IP, bypassing heavy iptables conntrack entries and DNAT rules to reduce latencies and resolve UDP packet drop vulnerabilities.
-  - **(2020)** [Kubernetes Node Local DNS Cache](https://povilasv.me/kubernetes-node-local-dns-cache)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide showcasing how to verify, configure, and measure performance gains of NodeLocal DNSCache in high-throughput clusters. Details configuration paths, fallback mechanisms, and troubleshooting steps to resolve configuration mismatches between DNS cache pods and system resolvers.
-#### Global Load Balancing
-
-  - **(2026)** [k8gb.io](https://www.k8gb.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — k8gb is a cloud-native Global Server Load Balancing (GSLB) operator designed to run within Kubernetes. It integrates CoreDNS with external DNS providers, enabling cross-region failover and geo-routing of incoming traffic directly from cluster ingresses without needing proprietary hardware controllers.
-#### Guides
-
-  - **(2022)** [nslookup.io: The life of a DNS query in Kubernetes](https://www.nslookup.io/learning/the-life-of-a-dns-query-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough, step-by-step structural visualization tracing a DNS resolution query from within a Kubernetes Pod. Explains the intersection of a container's /etc/resolv.conf, the DNS search parameters (ndots:5), iptables forwarding rules, and CoreDNS lookups, illustrating where latencies and packet-drops occur.
-#### Ingress (1)
-
-  - **(2021)** [ungleich.ch: Making kubernetes kube-dns/CoreDNS publicly reachable](https://ungleich.ch/u/blog/kubernetes-making-dns-publicly-reachable) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on guide explaining how to expose internal Kubernetes DNS names outside the cluster network boundaries. It highlights potential ingress routing patterns and access control rules needed to allow external clients to query cluster service records safely without introducing security risks.
-#### Monitoring
-
-  - **(2021)** [sysdig.com: How to monitor coreDNS 🌟](https://www.sysdig.com/blog/how-to-monitor-coredns)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed monitoring primer for CoreDNS using Prometheus and Sysdig. Highlights core health metrics, including latency histograms, requests counters, cache hit ratios, and error response codes (such as NXDOMAIN and SERVFAIL), to prevent DNS resolution latency from degrading microservice discovery pathways.
-#### Service Discovery (1)
-
-  - **(2021)** [thenewstack.io: Supercharge CoreDNS with Cluster Addons 🌟](https://thenewstack.io/supercharge-coredns-with-cluster-addons)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to optimize and expand CoreDNS utilizing custom cluster addons and selective plugin combinations. Details core performance profiles and caching methodologies to supercharge name resolution in dense, highly dynamic cloud environments.
-### IPAM
-
-#### Software-Defined
-
-  - **(2021)** [fusionlayer.com: Software-Defined IP Address Management (IPAM)](https://www.fusionlayer.com/products/infinity) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed product overview of enterprise Software-Defined IP Address Management (IPAM) integrations designed for automated cloud-scale container provisioning.
 ### Ingress and Gateway
 
 #### Automation
@@ -464,7 +197,7 @@
 #### Controllers
 
   - **(2021)** [InGate: Ingress & Gateway API Controller (Archived)](https://github.com/kubernetes-sigs/ingate) <span class='md-tag md-tag--info'>⭐ 728</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-80365125" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 10 L 30 12 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-80365125)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Architectural prototype designed to test Ingress integration patterns. Live engineering truth confirms this repository is archived by SIG-Network, as development has shifted entirely toward the standardized Gateway API.
-#### Fundamentals (3)
+#### Fundamentals (1)
 
   - **(2021)** [mattias.engineer: Kubernetes-101: Ingress 🌟](https://mattias.engineer/k8s/ingress)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Fundamentals guide establishing the relationship between Ingress resources, Ingress Controllers, and target Services. Demystifies layer-7 routing rules and basic ingress YAML structures for beginners.
   - **(2020)** [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Legacy Kubernetes blog post detail on the evolution and promotion of the Ingress API inside the 1.18 release lifecycle. Retained for historical design reference.
@@ -483,9 +216,6 @@
 #### Operations
 
   - **(2021)** [itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)](https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing strategies for scaling ingress controllers automatically using Horizontal Pod Autoscalers (HPA) and Prometheus-sourced custom traffic metrics.
-#### Traefik
-
-  - **(2022)** [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration blueprint walking developers through transitioning from ingress-nginx to Traefik. Details how Traefik's native middleware, dynamic routing, and CRDs simplify TLS management and traffic splitting in dynamic environments.
 ### Multi-Cluster
 
 #### Cluster Mesh
@@ -497,19 +227,8 @@
 #### WireGuard VPN
 
   - **(2022)** [itnext.io: Multi-Cluster Kubernetes Networking with Netmaker](https://itnext.io/multi-cluster-kubernetes-networking-with-netmaker-bfa4e22eb2fb) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tutorial on structuring dynamic multi-cluster virtual topologies using Netmaker. Leverages WireGuard to automate fast, low-overhead encrypted overlays bridging distributed pods.
-### Overlay Networks (1)
+### Security (1)
 
-#### WireGuard VPN (1)
-
-  - **(2025)** [**NetMaker**](https://github.com/gravitl/netmaker) <span class='md-tag md-tag--info'>⭐ 11628</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-739e10d0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 6 L 30 10 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-739e10d0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Netmaker is a high-speed, dynamic overlay network orchestrator powered by WireGuard. It facilitates direct, secure mesh networks across multi-cloud, on-premises, and edge Kubernetes nodes, drastically reducing latency compared to traditional overlay options like VXLAN or IPSec. Netmaker is highly valuable for hybrid cluster topologies and secure cross-regional communication.
-### Security (2)
-
-#### Enterprise Solutions
-
-  - **(2026)** [tigera.io](https://www.tigera.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The commercial suite behind Project Calico, delivering enterprise-grade network security, active defense mechanisms, and unified policy management across multi-cloud and bare-metal environments. It adds microsegmentation, detailed observability dashboards, and compliance frameworks on top of standard open-source Calico capabilities to satisfy tight enterprise governance regulations.
-#### GitOps
-
-  - **(2021)** [tigera.io: Enforcing Network Security Policies with GitOps – Part 1 (Calico + ArgoCD)](https://www.tigera.io/blog/enforcing-network-security-policies-with-gitops-part-1) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide for implementing continuous security compliance by pairing Calico's declarative NetworkPolicies with ArgoCD. Explains how to construct an automated GitOps lifecycle pipeline to validate, audit, and push network enforcement rules directly from version-controlled files, preventing manual configuration drift on live clusters.
 #### Implementation Under the Hood
 
   - **(2021)** [arthurchiao.art: Cracking Kubernetes Network Policy](https://arthurchiao.art/blog/cracking-k8s-network-policy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Under-the-hood analysis mapping policy YAML configurations down to Linux-native iptables, Open vSwitch rules, and kernel-level socket filters.
@@ -518,7 +237,6 @@
   - **(2022)** [loft.sh: Kubernetes Network Policies for Isolating Namespaces 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-for-isolating-namespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A prescriptive playbook for securing multi-tenant clusters, detailing how to isolate development, staging, and production namespaces using declarative policies.
 #### Network Policy
 
-  - **(2022)** [loft.sh: Kubernetes Network Policies: A Practitioner's Guide 🌟](https://www.vcluster.com/blog/kubernetes-network-policies-a-practitioners-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operator's tactical guide. Outlines configuration mistakes to avoid, selector best practices, and automated testing strategies for policy deployments.
   - **(2021)** [opensource.com: What you need to know about Kubernetes NetworkPolicy](https://opensource.com/article/21/10/kubernetes-networkpolicy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational introduction to native NetworkPolicy resources. Clarifies how policies dynamically enforce L3/L4 firewall restrictions using selector matching, highlighting the differences between default-allow and default-deny ingress/egress patterns.
   - **(2021)** [howtoforge.com: Network Policy in Kubernetes 🌟](https://www.howtoforge.com/kubernetes_network_policy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A clear, hands-on tutorial demonstrating how to enforce namespace-level isolation. Step-by-step instructions guide users through drafting rules to secure internal traffic.
   - **(2021)** [bionconsulting.com: Kubernetes Network Policies](https://www.bionconsulting.com/blog/kubernetes-network-policies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rigorous, multi-part engineering reference detailing real-world enterprise NetworkPolicy patterns. Includes step-by-step debugging methodologies and ruleset templates.
@@ -526,10 +244,6 @@
 #### OpenShift
 
   - **(2021)** [openshift.com: Network Policies: Controlling Cross-Project Communication on OpenShift](https://www.redhat.com/en/blog/network-policies-controlling-cross-project-communication-on-openshift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed enterprise manual for enforcing SDN security domains in OpenShift. Details how to control inter-project communication boundaries via specialized network policies.
-#### Policy Visualization
-
-  - **(2026)** [editor.cilium.io 🌟](https://editor.networkpolicy.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive web-based policy playground. Enables dynamic rendering and real-time visualization of Kubernetes security specifications, simplifying testing pipelines.
-  - **(2021)** [cilium.io: NetworkPolicy Editor: Create, Visualize, and Share Kubernetes NetworkPolicies 🌟](https://cilium.io/blog/2021/02/10/network-policy-editor)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement post highlighting the features of Cilium's visual editor, designed to reduce security policy drafting errors via a graphical user interface.
 #### Recipes
 
   - **(2021)** [==ahmetb/kubernetes-network-policy-recipes 🌟==](https://github.com/ahmetb/kubernetes-network-policy-recipes) <span class='md-tag md-tag--info'>⭐ 6144</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a2f52f76" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 2 L 30 4 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-a2f52f76)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier open-source repository for reusable NetworkPolicy templates. Provides validated configuration files to handle common cloud-native security patterns.
@@ -538,9 +252,6 @@
   - **(2021)** [thenewstack.io: The Kubernetes Network Security Effect 🌟](https://thenewstack.io/the-kubernetes-network-security-effect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the industry paradigm shift toward dynamic microsegmentation. Discusses the downstream security benefits of adopting strict default-deny postures in multi-tenant environments.
 ### Service Mesh
 
-#### AWS Integration
-
-  - **(2023)** [dev.to/aws-builders: Amazon VPC Lattice — Build Applications, Not Networks](https://dev.to/aws-builders/amazon-vpc-lattice-build-applications-not-networks-59j8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Amazon VPC Lattice, detailing how it decouples service communication networks from low-level VPC configuration constraints. It highlights the use of Lattice to manage traffic policies, authentication, and cross-cluster service-to-service communication with minimal operational overhead.
 #### Linkerd and Cilium
 
   - **(2021)** [buoyant.io: Kubernetes network policies with Cilium and Linkerd](https://www.buoyant.io/blog/kubernetes-network-policies-with-cilium-and-linkerd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural integration study detailing how to combine Cilium's efficient L3/L4 eBPF security policies with Linkerd's lightweight L7 mutual TLS encryption.
@@ -548,52 +259,12 @@
 
 ### Kubernetes Networking (2)
 
-#### Deep Dive (1)
-
-
-??? abstract "Architect's Technical Comparison Table"
-    | Solution | Maturity | Primary Focus | Language | Stars |
-    | :--- | :--- | :--- | :--- | :--- |
-    | [speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard) |  | Deep Dive | English | 🌟🌟🌟🌟🌟 |
-    | [ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address) |  | Deep Dive | Markdown | 🌟🌟🌟🌟🌟 |
-    | [dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!](https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses) |  | Deep Dive | Markdown | 🌟🌟🌟🌟 |
-    | [altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash) |  | Deep Dive | Bash | 🌟🌟🌟🌟 |
-    | [Network Node Manager](https://github.com/kakao/network-node-manager) |  | Deep Dive | Go | 🌟🌟🌟 |
-
-  - **(2020)** [==speakerdeck.com: Kubernetes and networks. Why is this so dan hard? 🌟==](https://speakerdeck.com/thockin/kubernetes-and-networks-why-is-this-so-dang-hard) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An essential presentation deck by Tim Hockin (Kubernetes co-founder) exploring why cloud-native networking is complex and explaining the underlying decisions behind the pod-to-pod network design. Live Grounding confirms this slide deck is a legendary reference, outlining crucial design trade-offs regarding IPv4 exhaustion, NAT, routing engines, and Service VIPs.
-  - **(2020)** [==ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟==](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exquisite, step-by-step technical analysis of the process of container instantiation and network interface creation. Explores how the Kubelet invokes CNI plugins to assign an IP address. Live Grounding validates that understanding the low-level CNI specification and IPC interactions is crucial for debugging cluster networking bottlenecks.
-  - **(2021)** [**dustinspecker.com: How Do Kubernetes and Docker Create IP Addresses?!**](https://dustinspecker.com/posts/how-do-kubernetes-and-docker-create-ip-addresses) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep technical investigation into the mechanics of Linux network namespaces, virtual ethernet pairs (veth), bridge interfaces, and IP routing rules. Demystifies how Docker and Kubernetes CNI plugins programmatically allocate IPs to containers. Live Grounding shows that understanding these low-level Linux primitives remains highly valuable for troubleshooting complex network packet drops.
-  - **(2020)** [**altoros.com: Kubernetes Networking: How to Write Your Own CNI Plug-in with Bash**](https://www.altoros.com/blog/kubernetes-networking-writing-your-own-simple-cni-plug-in-with-bash) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fantastic, educational guide explaining how to write a simple CNI plugin from scratch using Bash. Demonstrates interface provisioning, IP allocation, and local host routing rules. Live Grounding shows that while not intended for production systems, this exercise demystifies the CNI specification and improves lower-level debugging skills.
-  - **(2024)** [Network Node Manager](https://github.com/kakao/network-node-manager) <span class='md-tag md-tag--info'>⭐ 109</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-11a3a6c3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 5 L 30 7 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-11a3a6c3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized network daemon developed by Kakao for optimizing node-level routing rules and handling network interfaces inside Kubernetes. Live Grounding shows that this utility targets bare-metal clusters, streamlining system-level network management while improving connectivity troubleshooting in on-premise cloud infrastructure.
-#### Global Load Balancing (1)
-
-  - **(2024)** [**K8GB - Kubernetes Global Balancer**](https://github.com/AbsaOSS/k8gb) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-49fabae3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 2 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-49fabae3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — K8GB is a cloud-native, Kubernetes-native Global Server Load Balancing (GSLB) controller based on CoreDNS. Live Grounding indicates that K8GB is highly valued for coordinating traffic redirection across geographically distributed, multi-region clusters, enabling active-passive and active-active failover patterns without relying on proprietary hardware devices.
 #### Ingress and Traffic
 
-
-??? abstract "Architect's Technical Comparison Table"
-    | Solution | Maturity | Primary Focus | Language | Stars |
-    | :--- | :--- | :--- | :--- | :--- |
-    | [Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟🌟 |
-    | [containo.us: Kubernetes Ingress & Service API Demystified](https://traefik.io/blog/kubernetes-ingress-service-api-demystified) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
-    | [externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes](https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
-    | [thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster](https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
-    | [suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟](https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
-    | [infoq.com: Kubernetes Ingress Is Now Generally Available](https://www.infoq.com/news/2020/09/kubernetes-ingress-ga) |  | Ingress & Traffic | Markdown | 🌟🌟🌟🌟 |
-    | [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io) |  | Ingress & Traffic | Go | 🌟🌟🌟 |
-    | [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com) |  | Ingress & Traffic | Markdown | 🌟🌟🌟 |
-    | [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI) |  | Ingress & Traffic | English | 🌟🌟🌟 |
-    | [haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟](https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5) |  | Ingress & Traffic | Go | 🌟🌟🌟 |
-
-  - **(2023)** [==Learnk8s: Comparison of Kubernetes Ingress Controllers 🌟🌟==](https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An expansive, community-maintained comparison spreadsheet detailing the feature matrices, protocol supports, dynamic reloading behaviors, and ecosystem integrations of various Ingress Controllers. Live Grounding highlights this dynamic reference as an essential resource for architects choosing ingress tools based on enterprise requirements.
   - **(2021)** [**containo.us: Kubernetes Ingress & Service API Demystified**](https://traefik.io/blog/kubernetes-ingress-service-api-demystified) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demystifies the inner workings of Kubernetes Services, endpoints, and Ingress routing rules. Compares how reverse-proxy solutions like Traefik process these API resources to dynamic configurations. Live Grounding validates that Traefik remains a popular, high-performance edge router in modern multi-tenant environments due to its automated Let's Encrypt and middleware options.
   - **(2021)** [**externalTrafficPolicy=local on kubernetes. How to preserve the source IP in kubernetes**](https://blog.getambassador.io/externaltrafficpolicy-local-on-kubernetes-e66e498212f9) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Addresses how setting the Kubernetes Service configuration `externalTrafficPolicy: Local` preserves client source IPs. Analyzes the associated trade-offs, such as potential uneven load distribution across endpoints. Live Grounding confirms that preserving source IP is crucial for zero-trust authorization, geolocation rules, and audit logging.
-  - **(2021)** [**thenewstack.io: HAProxy Kubernetes Ingress Controller Moves Outside the Cluster**](https://thenewstack.io/haproxy-kubernetes-ingress-controller-moves-outside-the-cluster) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Discusses the design choice of running HAProxy controllers outside the boundaries of the core Kubernetes cluster. Exposes cluster services to external networks while protecting control-plane components. Live Grounding confirms this topology is highly valued by security teams who prefer dedicated edge tiers separating internal cluster resources from the public internet.
   - **(2021)** [**suse.com: NGINX Guest Blog: NGINX Kubernetes Ingress Controller 🌟**](https://www.suse.com/c/nginx-guest-blog-kubernetes-ingress-controller) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides an overview of the NGINX Ingress Controller within the SUSE ecosystem, explaining how it maps incoming HTTP traffic to backend pods. Live Grounding shows that NGINX remains the most widely deployed Ingress Controller due to its reliability, ease of configuration, and rich community-supported annotations.
-  - **(2020)** [**infoq.com: Kubernetes Ingress Is Now Generally Available**](https://www.infoq.com/news/2020/09/kubernetes-ingress-ga) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Reports on the milestone GA status of the `networking.k8s.io/v1` Ingress API in Kubernetes 1.19, reflecting years of API maturity, path matching enhancements, and service port mappings. Live Grounding confirms that while Ingress remains widely used, the highly customizable Kubernetes Gateway API has emerged as the primary alternative for complex multi-tenant traffic routing.
   - **(2022)** [getenroute.io: Drive API Security At Kubernetes Ingress Using Helm And Envoy 🌟](https://docs.getenroute.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enroute is a lightweight, Envoy-driven API gateway and Ingress Controller designed to secure microservices at the cluster boundary. Highlights integration with Helm and declarative custom resource configurations. Live Grounding indicates that while Envoy is standard, Enroute provides an accessible alternative for teams seeking simple, security-first ingress controls.
-  - **(2021)** [ovh.com - getting external traffic into kubernetes: clusterip, nodeport, loadbalancer and ingress](https://blog.ovhcloud.com) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive introductory guide explaining the four main methods of routing external traffic into a Kubernetes cluster: ClusterIP, NodePort, LoadBalancer, and Ingress. Compares routing efficiency and operational use cases. Live Grounding confirms this conceptual foundation is critical for engineering teams choosing between simple L4 load balancers and complex L7 ingress/gateway APIs.
-  - **(2021)** [youtube: Kubernetes Ingress Explained Completely For Beginners](https://www.youtube.com/watch?v=VicH6KojwCI) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A visual, beginner-friendly video walkthrough explaining the purpose of an Ingress resource and an Ingress Controller in Kubernetes. Breaks down how HTTP requests find their way from external users to target microservice pods. Live Grounding confirms visual guides are highly effective for bootstrapping junior engineers onto complex cloud-native networking architectures.
   - **(2021)** [haproxy.com: Announcing HAProxy Kubernetes Ingress Controller 1.5 🌟](https://www.haproxy.com/blog/announcing-haproxy-kubernetes-ingress-controller-1-5) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces features in HAProxy Ingress Controller 1.5, including support for Mutual TLS (mTLS), performance improvements, and certificate management. Live Grounding confirms HAProxy is highly reliable for high-throughput enterprise systems due to its lightweight resource footprints, low latency, and comprehensive traffic metrics.
   - **(2021)** [devclass.com: HAProxy Ingress Controller 1.5 introduces mTLS support, gives load balancing experts more power](https://www.devclass.com/containers/2021/01/26/haproxy-ingress-controller-15-introduces-mtls-support-gives-load-balancing-experts-more-power/1619777) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the release of HAProxy Ingress Controller 1.5, highlighting security enhancements and client certificate verification support at the edge. Live Grounding validates that mTLS validation at the Ingress tier is a standard approach for offloading TLS termination from microservices while meeting zero-trust design requirements.
   - **(2020)** [opensource.com: Why I use Ingress Controllers to expose Kubernetes services](https://opensource.com/article/20/8/ingress-controllers-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Argues the architectural benefits of utilizing an Ingress Controller for consolidated traffic entry rather than creating expensive cloud-provider LoadBalancer resources for every single microservice. Live Grounding confirms that using dynamic, routing-table based Ingress Controllers represents the standard cost-optimization strategy in enterprise cloud clusters.
@@ -601,6 +272,9 @@
 
   - **(2020)** [==kubernetes.io: Scaling Kubernetes Networking With EndpointSlices==](https://kubernetes.io/blog/2020/09/02/scaling-kubernetes-networking-with-endpointslices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how the EndpointSlices API addresses the scalability issues of traditional Endpoints resources. Avoids sending large network update payloads across all cluster nodes by grouping endpoints. Live Grounding shows that EndpointSlices are crucial in large clusters with thousands of pods, keeping control plane traffic minimal.
   - **(2021)** [**blog.cloudflare.com: Moving k8s communication to gRPC**](https://blog.cloudflare.com/moving-k8s-communication-to-grpc) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insightful case study detailing Cloudflare's transition of internal microservices and Kubernetes cluster control-plane communications from traditional REST/JSON endpoints to high-performance gRPC over HTTP/2. Live Grounding shows that adopting gRPC significantly reduces CPU utilization and network latency across high-throughput distributed architectures.
+#### Security and Hardening
+
+  - **(2020)** [**blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof**](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on validating network security policies using automated policy-verification and security-testing tools instead of assuming they work. Explains techniques for writing reliable assertions for ingress and egress rules. Live Grounding notes that modern 2026 enterprise teams actively integrate policy checkers (such as Sonobuoy, Cilium Hubble, or OPA) into CI/CD pipelines.
 ### Load Balancing (1)
 
 #### Performance and Tuning (1)
@@ -608,5 +282,7 @@
   - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Web Servers](./web-servers.md) | [Caching](./caching.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
+
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
