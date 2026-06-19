@@ -24,7 +24,7 @@ This repository uses **Gitflow**. All agents MUST follow this branching model:
 10. Create GitHub Release: `gh release create vX.Y.Z --title "..." --notes "..."`
 
 ### Versioning
-- Current: `v2.6.0`
+- Current: `v2.9.2`
 - Format: `v{major}.{minor}.{patch}`
 - Major: breaking changes or architectural shifts
 - Minor: new features (like the digest engine, new modules)
