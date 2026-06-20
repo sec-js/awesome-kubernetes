@@ -94,46 +94,77 @@
 <div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Jun 20, 2026</span></div>
 <div class="trending-grid">
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">AI & Agents</div>
+  <div class="trending-card__title"><a href="https://antigravity.google">Google Antigravity Agentic Platform</a></div>
+  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">It directly bridges the gap between local agent prototypes and production-grade Google Kubernetes Engine (GKE) deployments for stateful AI agents.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
   <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
   <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">Crossplane spearheads a major paradigm shift by turning Kubernetes into a universal control plane to declaratively manage any cloud infrastructure.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/Azure/azure-workload-identity">Azure/azure-workload-identity</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">This is the enterprise standard for secure, zero-trust OIDC identity federation between Kubernetes and Microsoft Entra ID.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Observability, SRE & Testing</div>
-  <div class="trending-card__title"><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></div>
-  <div class="trending-card__meta">2026-06-12 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Acts as the industry-standard, vendor-agnostic pipeline for receiving, processing, and routing metrics, logs, and traces across diverse cloud-native environments.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Observability, SRE & Testing</div>
-  <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">github.com/prometheus/prometheus</a></div>
-  <div class="trending-card__meta">2026-06-13 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Serves as the foundational, de-facto standard metrics database and query engine powering the entire cloud-native observability ecosystem.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Azure</div>
-  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">github.com/microsoft/CBL-Mariner</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
+  <div class="trending-card__meta">2026-06-14 · 5k★</div>
   <div class="trending-card__why">It acts as the secure, container-optimized base OS for Azure Kubernetes Service, minimizing footprint and maximizing security for cloud-native workloads.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">CI/CD & GitOps</div>
-  <div class="trending-card__title"><a href="https://argoproj.github.io/argo-cd">Argo CD</a></div>
-  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">As the industry standard for GitOps-based continuous delivery, Argo CD is vital for synchronizing live Kubernetes cluster states with declarative Git configurations.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
+  <div class="trending-card__title"><a href="https://github.com/metalbear-co/mirrord">metalbear-co/mirrord</a></div>
+  <div class="trending-card__meta">2026-06-14 · 5.1k★</div>
+  <div class="trending-card__why">Plugs local processes directly into remote Kubernetes namespaces to streamline local development without remote deployments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Networking & Service Mesh</div>
+  <div class="trending-card__title"><a href="https://github.com/istio/istio">Istio</a></div>
+  <div class="trending-card__meta">2026-06-14 · 38.2k★</div>
+  <div class="trending-card__why">The leading enterprise-grade service mesh that defines how modern cloud-native architectures secure, control, and observe traffic.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Security & Compliance</div>
+  <div class="trending-card__title"><a href="https://github.com/cilium/tetragon">Tetragon (Cilium)</a></div>
+  <div class="trending-card__meta">2026-06-14 · 4.7k★</div>
+  <div class="trending-card__why">eBPF-powered security observability at the kernel level represents a paradigm shift for Kubernetes runtime enforcement.</div>
+</div>
+</div>
+<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>
+<div class="trending-grid">
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">FinOps & Cloud Cost</div>
+  <div class="trending-card__title"><a href="https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend">FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend</a></div>
+  <div class="trending-card__meta">2026-06-18</div>
+  <div class="trending-card__why">Provides CNCF-backed guidance on why visibility and cost monitoring are crucial to stopping runaway costs in complex Kubernetes deployments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
+  <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
+  <div class="trending-card__why">Serves as the foundational bridge enabling GPU virtualization and hardware-accelerated scheduling for heavy AI/ML workloads inside Kubernetes.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
+  <div class="trending-card__title"><a href="https://github.com/astral-sh/ruff">Ruff</a></div>
+  <div class="trending-card__meta">2026-06-14 · 48k★</div>
+  <div class="trending-card__why">It has become the de facto standard for Python linting and formatting, drastically reducing CI/CD runtimes due to its high-performance Rust implementation.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">AI & Agents</div>
+  <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
+  <div class="trending-card__meta">2026-06-14 · 82.8k★</div>
+  <div class="trending-card__why">It standardizes high-performance, memory-efficient LLM serving via vLLM on Kubernetes clusters, directly bridging cloud-native infrastructure with AI workloads.</div>
 </div>
 </div>
 <div class="digest-links">
