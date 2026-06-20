@@ -42,7 +42,7 @@ class V2VisionEngine:
             "Architectural Foundations": ["introduction", "faq", "kubernetes", "linux", "git", "cloud-arch-diagrams", "matrix-table", "other-awesome-lists", "about"],
             "Platform & Site Reliability": ["sre", "devops", "developerportals", "scaffolding", "finops", "chaos-engineering", "performance-testing-with-jenkins-and-jmeter", "project-management-methodology", "project-management-tools", "qa", "test-automation-frameworks", "testops"],
             "Hardened Infrastructure": ["iac", "terraform", "pulumi", "crossplane", "ansible", "securityascode", "kubernetes-security", "aws-security", "devsecops", "kustomize", "liquibase"],
-            "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-architecture", "aws-security", "aws-networking", "aws-databases", "aws-storage", "aws-monitoring", "aws-iac", "aws-tools-scripts", "aws-messaging", "aws-data", "aws-devops", "aws-serverless", "aws-containers", "aws-backup", "aws-training", "aws-newfeatures", "aws-miscellaneous", "aws-pricing"],
+            "Cloud Providers (Hyperscalers)": ["aws", "azure", "GoogleCloudPlatform", "ibm_cloud", "oraclecloud", "digitalocean", "cloudflare", "managed-kubernetes-in-public-cloud", "public-cloud-solutions", "edge-computing", "aws-security", "aws-networking", "aws-storage", "aws-iac", "aws-serverless", "aws-backup", "aws-newfeatures"],
             "Networking & Service Mesh": ["networking", "kubernetes-networking", "servicemesh", "istio", "caching", "web-servers", "cloudflare"],
             "The Container Stack": ["docker", "container-managers", "serverless", "kubernetes-autoscaling", "kubernetes-operators-controllers", "kubernetes-storage", "kubernetes-monitoring", "kubernetes-troubleshooting", "kubernetes-backup-migrations", "kubernetes-on-premise", "kubernetes-bigdata", "kubernetes-client-libraries", "kubernetes-releases", "kubernetes-based-devel", "kubernetes-alternatives", "kubectl-commands", "rancher", "openshift", "ocp3", "ocp4", "noops"],
             "Data & Advanced Analytics": ["databases", "nosql", "message-queue", "crunchydata", "yaml", "bigdata"],
@@ -65,6 +65,38 @@ class V2VisionEngine:
             "oauth": "securityascode",
             "digital-money": "finops",
             "aws-spain": "aws",
+            # AWS de-fragmentation: the near-empty / junk-drawer AWS sub-pages
+            # (<=7 links, plus "miscellaneous") merge into the main aws page so
+            # it stops being a 3-link stub. The substantial AWS topics
+            # (serverless, storage, networking, security, iac, backup,
+            # newfeatures) stay as their own pages and are surfaced via the
+            # provider hub block (self.subpage_hubs) on aws.md.
+            "aws-miscellaneous": "aws",
+            "aws-databases": "aws",
+            "aws-devops": "aws",
+            "aws-containers": "aws",
+            "aws-monitoring": "aws",
+            "aws-architecture": "aws",
+            "aws-tools-scripts": "aws",
+            "aws-messaging": "aws",
+            "aws-data": "aws",
+            "aws-training": "aws",
+            "aws-pricing": "aws",
+        }
+
+        # Provider hub: pages that should render a "deep-dive topic pages" index
+        # linking to the substantial sub-pages that remain after consolidation.
+        # (slug, display label) — labels kept short and human-readable.
+        self.subpage_hubs = {
+            "aws": [
+                ("aws-serverless", "Serverless"),
+                ("aws-storage", "Storage"),
+                ("aws-networking", "Networking"),
+                ("aws-security", "Security"),
+                ("aws-iac", "IaC"),
+                ("aws-backup", "Backup"),
+                ("aws-newfeatures", "New Features"),
+            ],
         }
         
         self.library_criteria = (
@@ -1350,7 +1382,22 @@ class V2VisionEngine:
                 f"!!! info \"Architectural Context\"\n"
                 f"    Detailed reference for {info['long_title']} in the context of {info['dim']}.\n\n"
             )
-            
+
+            # Provider hub: surface the substantial sub-pages that remain after
+            # consolidation so the landing page is a navigable index, not a stub.
+            _hub_slug = f_name.replace(".md", "")
+            if _hub_slug in self.subpage_hubs:
+                _children = [
+                    (c, lbl) for (c, lbl) in self.subpage_hubs[_hub_slug]
+                    if (f"{c}.md" in data) or os.path.exists(os.path.join(V2_DIR, f"{c}.md"))
+                ]
+                if _children:
+                    _child_links = " · ".join(f"[{lbl}](./{c}/)" for (c, lbl) in _children)
+                    md += (
+                        f"!!! abstract \"Deep-Dive Topic Pages\"\n"
+                        f"    {_child_links}\n\n"
+                    )
+
             # In-page Markdown Table of Contents intentionally omitted.
             # The MkDocs Material theme renders a native, sticky "On this page" TOC
             # (right sidebar) from the headings below, so a duplicated Markdown TOC
