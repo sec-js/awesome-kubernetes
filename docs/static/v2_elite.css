@@ -1351,7 +1351,9 @@ input[type="text"] {
      be all-physical or all-logical — mixing (e.g. `bottom span-inline-end`) is
      invalid and silently computes to `none`, leaving the menu over the button. */
   position-area: bottom span-right;
-  position-try-fallbacks: flip-block, flip-inline; /* auto-flip near edges */
+  /* Only flip horizontally near the right edge. NEVER flip-block: the quick-nav
+     is a sticky top bar, so a tall menu flipped above would shoot off-screen. */
+  position-try-fallbacks: flip-inline;
   margin-block-start: 0.45rem;
   min-width: 9.5rem;
   padding: 0.35rem;
@@ -1400,6 +1402,19 @@ input[type="text"] {
   margin-block-start: 0.15rem;
   padding-block-start: 0.42rem !important;
   border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Two-column layout for long menus (e.g. Kubernetes, 22 items) so they stay
+   short enough to show in full WITHOUT a scrollbar — the scrollable tall popover
+   was unreliable. Multicol is column-major, so reading order is preserved. */
+.nb-quicknav__menu--cols {
+  display: block;
+  column-count: 2;
+  column-gap: 0.4rem;
+  min-width: 22rem;
+}
+.nb-quicknav__menu--cols a {
+  break-inside: avoid;
 }
 
 /* ── Nested submenu (e.g. Cloud → AWS ▸ → AWS pages) ──
