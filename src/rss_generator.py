@@ -61,7 +61,29 @@ def generate_rss() -> None:
     )
     items = items[:ITEMS_PER_FEED]
 
-    build_date = _rfc822(datetime.utcnow())
+    # Deterministic build date: derive from the digest's content timestamp
+    # (_meta.last_updated, the actual analysis date) instead of wall-clock now().
+    # Using now() rewrote <lastBuildDate> on every republish, so a regenerated-
+    # but-unchanged feed still differed between develop and master (perpetual
+    # cosmetic drift). Mirrors the v2_optimizer pattern that prefers
+    # _meta.last_updated over file mtime. Falls back to the most recent item
+    # date, then a fixed constant, so the feed is always a pure function of input.
+    build_dt = None
+    meta_updated = digest.get("_meta", {}).get("last_updated", "")
+    if meta_updated:
+        try:
+            build_dt = datetime.fromisoformat(meta_updated)
+        except Exception:
+            build_dt = None
+    if build_dt is None:
+        item_dates = []
+        for _it in items:
+            try:
+                item_dates.append(datetime.strptime(_it.get("date", ""), "%Y-%m-%d"))
+            except Exception:
+                pass
+        build_dt = max(item_dates) if item_dates else datetime(2026, 1, 1)
+    build_date = _rfc822(build_dt)
 
     lines = [
         '<?xml version="1.0" encoding="UTF-8"?>',
