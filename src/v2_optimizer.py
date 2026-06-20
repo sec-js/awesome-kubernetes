@@ -1429,9 +1429,15 @@ class V2VisionEngine:
             tags_to_process = list(l.get("tags", []))
             # Include language indexing for non-English resources (Mandate 10)
             lang = l.get("language", "English")
+            # Skip non-language values the AI sometimes emits, so the tag index
+            # is not polluted with meaningless "X Content" buckets.
+            _lang_junk = {
+                "english", "en", "n/a", "na", "none", "null", "unknown", "",
+                "not applicable", "multiple", "multi-language", "polyglot", "various",
+            }
             if lang.lower() in ["spanish", "es", "english/spanish"]:
                 tags_to_process.append("[SPANISH CONTENT]")
-            elif lang.lower() != "english" and lang.lower() != "n/a" and lang.lower() != "none":
+            elif lang.lower() not in _lang_junk:
                 tags_to_process.append(f"[{lang.upper()} CONTENT]")
 
             for t in tags_to_process:
@@ -1465,27 +1471,78 @@ class V2VisionEngine:
             "    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
         )
         
-        # Build TOC
-        toc_lines = []
-        for tag in sorted_tags:
-            tag_display = tag.replace("[", "").replace("]", "").replace("&", "and").title()
-            if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
-                tag_display = tag_display.upper()
-            slug = tag_display.lower().replace(" ", "-")
-            slug = re.sub(r'[^a-z0-9-]', '', slug)
-            slug = re.sub(r'-+', '-', slug).strip('-')
-            toc_lines.append(f"1. [{tag_display}](#{slug}) ({len(by_tag[tag])} resources)")
-            
-        md += "## Table of Contents\n\n" + "\n".join(toc_lines) + "\n\n"
+        # Precompute display name + UNIQUE slug for every tag, shared by both the
+        # grouped TOC and the section headers so anchors always match. This fixes
+        # collisions where C / C# / C++ all slugged to "c-content" (broken links).
+        def _tag_display(tag):
+            d = tag.replace("[", "").replace("]", "").replace("&", "and").title()
+            if d.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
+                d = d.upper()
+            return d
+
+        _seen_slugs = set()
+        def _tag_slug(tag):
+            s = tag.replace("[", "").replace("]", "").lower()
+            s = s.replace("#", "-sharp").replace("++", "-plus-plus").replace("&", "-and-").replace("/", "-")
+            s = re.sub(r'[^a-z0-9-]', '-', s)
+            s = re.sub(r'-+', '-', s).strip('-')
+            base, n = s, 1
+            while s in _seen_slugs:
+                n += 1
+                s = f"{base}-{n}"
+            _seen_slugs.add(s)
+            return s
+
+        tag_meta = {
+            tag: {"display": _tag_display(tag), "slug": _tag_slug(tag), "count": len(by_tag[tag])}
+            for tag in sorted_tags
+        }
+
+        def _count_label(n):
+            return f"{n} resource" + ("" if n == 1 else "s")
+
+        # Partition custom tags: language/format ("X CONTENT") vs technical domains,
+        # so the long, low-signal language tail does not bury the maturity tags.
+        maturity_tags = [t for t in sorted_tags if t in standard_order]
+        lang_tags = sorted(
+            [t for t in sorted_tags if t not in standard_order and t.endswith("CONTENT]")],
+            key=lambda t: -tag_meta[t]["count"],
+        )
+        other_tags = sorted(
+            [t for t in sorted_tags if t not in standard_order and not t.endswith("CONTENT]")],
+            key=lambda t: -tag_meta[t]["count"],
+        )
+
+        # Build a grouped TOC: maturity as a clean numbered list; domains and the
+        # language/format tail as compact, count-sorted inline pill rows.
+        md += "## Table of Contents\n\n"
+        if maturity_tags:
+            md += "### Maturity and Quality\n\n"
+            for t in maturity_tags:
+                m = tag_meta[t]
+                md += f"1. [{m['display']}](#{m['slug']}) ({_count_label(m['count'])})\n"
+            md += "\n"
+        if other_tags:
+            md += "### Technical Domains\n\n"
+            md += " · ".join(
+                f"[{tag_meta[t]['display']}](#{tag_meta[t]['slug']}) ({tag_meta[t]['count']})"
+                for t in other_tags
+            ) + "\n\n"
+        if lang_tags:
+            md += "### Language and Format\n\n"
+            md += "Resources indexed by their primary source language or document format.\n\n"
+            md += " · ".join(
+                f"[{tag_meta[t]['display'].replace(' Content', '')}](#{tag_meta[t]['slug']}) ({tag_meta[t]['count']})"
+                for t in lang_tags
+            ) + "\n\n"
 
         for tag in sorted_tags:
-            tag_display = tag.replace("[", "").replace("]", "").replace("&", "and").title()
-            if tag_display.upper() in ["EBPF", "WASM", "GITOPS", "IAC", "SRE", "AI", "MCP", "DB", "MLOPS"]:
-                tag_display = tag_display.upper()
-            
-            # Wrap section inside a .v2-tag-section div and details block for performance
+            m = tag_meta[tag]
+            tag_display = m["display"]
+            # Wrap section inside a .v2-tag-section div and details block for performance.
+            # Explicit {#slug} keeps the heading anchor unique and TOC-matching.
             md += f"<div class=\"v2-tag-section\" markdown=\"1\">\n\n"
-            md += f"## {tag_display}\n\n"
+            md += f"## {tag_display} {{#{m['slug']}}}\n\n"
             total_count = len(by_tag[tag])
             if total_count > 100:
                 summary_text = f"Click to view top 100 of {total_count} resources under {tag_display}"
