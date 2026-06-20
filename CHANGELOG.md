@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.23]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.23) - 2026-06-20
+
+### Changed
+- **Richer per-page SEO meta descriptions**: The unique-but-templated descriptions from 2.9.22 now lead with each page's **top-ranked resource names** (long-tail keywords) — e.g. *"Top Kubernetes resources for 2026, AI-ranked: Helm, kube-prometheus and more — curated Cloud Native tools, guides and references."* URL/path-like and emoji-laden titles are filtered out, pages whose top links are all URL-like fall back to the clean template, and the text is capped at ~160 chars on a word boundary. (There is no per-page AI intro to mine, so the page's own top resources are the cleanest source.)
+
+### Added
+- **Per-page creation dates**: Enabled `enable_creation_date` on the `git-revision-date-localized` plugin, so every V2 page footer now shows both **Created** and **Last update** — an additional age/freshness signal alongside the last-modified date introduced in 2.9.18.
+
 ## [[2.9.22]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.22) - 2026-06-20
 
 ### Added
