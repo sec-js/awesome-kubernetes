@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Python resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Python
 
 !!! tip "Nubenetes V2 Elite Portal"

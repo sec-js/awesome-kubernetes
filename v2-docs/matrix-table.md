@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Matrix Table resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Kubernetes Distributions and Installers Matrix Table
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked QA resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # QA/TestOps - Continuous Testing. Software Quality Test Automation
 
 !!! tip "Nubenetes V2 Elite Portal"

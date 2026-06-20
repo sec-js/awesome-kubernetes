@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Keptn resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Keptn. Data Driven DevOps Automation with Ketpn. Automating Service Level Indicators/Service Level Objectives based build validation with Keptn and Jenkins
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Tools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
 !!! tip "Nubenetes V2 Elite Portal"

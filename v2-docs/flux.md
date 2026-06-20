@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Flux resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Flux. The GitOps operator for Kubernetes
 
 !!! tip "Nubenetes V2 Elite Portal"

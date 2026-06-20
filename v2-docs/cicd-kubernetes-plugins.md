@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked CI/CD Kubernetes Plugins resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # CI/CD Kubernetes Plugins
 
 !!! tip "Nubenetes V2 Elite Portal"

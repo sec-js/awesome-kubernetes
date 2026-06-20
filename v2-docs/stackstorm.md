@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # StackStorm
 
 !!! tip "Nubenetes V2 Elite Portal"

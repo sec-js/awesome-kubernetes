@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Yaml resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+---
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 
 !!! tip "Nubenetes V2 Elite Portal"

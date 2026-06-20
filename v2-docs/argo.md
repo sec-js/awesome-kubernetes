@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Argo Declarative GitOps for Kubernetes
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Openshift Pipelines resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # OpenShift Pipelines
 
 !!! tip "Nubenetes V2 Elite Portal"

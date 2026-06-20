@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Cloud Arch Diagrams resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Cloud Architecture Diagram Tools
 
 !!! tip "Nubenetes V2 Elite Portal"

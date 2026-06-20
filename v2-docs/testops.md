@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Testops resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # TestOps and Continuous Testing
 
 !!! tip "Nubenetes V2 Elite Portal"

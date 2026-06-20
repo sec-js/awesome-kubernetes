@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Embedded Servlet Containers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Embedded Servlet Containers in SpringBoot: Jetty, Tomcat, Undertow and more
 
 !!! tip "Nubenetes V2 Elite Portal"

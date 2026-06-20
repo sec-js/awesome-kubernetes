@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Dotnet resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Microsoft .NET
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Mkdocs resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # MkDocs, Mardkown and GitHub Pages
 
 !!! tip "Nubenetes V2 Elite Portal"

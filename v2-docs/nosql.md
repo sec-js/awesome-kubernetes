@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked NoSQL resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+---
 # NoSQL Databases and NewSQL
 
 !!! tip "Nubenetes V2 Elite Portal"

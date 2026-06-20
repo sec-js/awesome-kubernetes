@@ -1,3 +1,6 @@
+---
+description: "The complete Nubenetes V2 directory: every curated Kubernetes, Cloud Native and DevOps category by strategic dimension, with resource counts."
+---
 # Topic Map
 
 !!! tip "The complete Nubenetes V2 directory"

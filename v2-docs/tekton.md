@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Tekton resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Tekton and Tekton Pipelines
 
 !!! tip "Nubenetes V2 Elite Portal"

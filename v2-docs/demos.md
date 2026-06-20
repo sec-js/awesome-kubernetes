@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Demos resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 
 !!! tip "Nubenetes V2 Elite Portal"

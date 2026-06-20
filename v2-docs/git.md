@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Git resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 
 !!! tip "Nubenetes V2 Elite Portal"

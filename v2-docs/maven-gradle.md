@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Maven Gradle resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Maven, Gradle and SDKMAN
 
 !!! tip "Nubenetes V2 Elite Portal"

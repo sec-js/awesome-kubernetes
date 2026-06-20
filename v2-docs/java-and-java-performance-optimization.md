@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Java And Java Performance Optimization resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Java and Memory Management
 
 !!! tip "Nubenetes V2 Elite Portal"

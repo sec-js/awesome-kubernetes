@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Appointment Scheduling resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Career & Industry)."
+---
 # Appointment Scheduling Software
 
 !!! tip "Nubenetes V2 Elite Portal"

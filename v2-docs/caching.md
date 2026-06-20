@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Caching resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+---
 # Caching Solutions
 
 !!! tip "Nubenetes V2 Elite Portal"

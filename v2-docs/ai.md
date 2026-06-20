@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked AI resources for the 2026 Cloud Native architect: top-tier tools, guides and references (AI)."
+---
 # Artificial Intelligence
 
 !!! tip "Nubenetes V2 Elite Portal"

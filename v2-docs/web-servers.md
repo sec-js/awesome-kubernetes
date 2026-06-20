@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Web Servers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
 !!! tip "Nubenetes V2 Elite Portal"

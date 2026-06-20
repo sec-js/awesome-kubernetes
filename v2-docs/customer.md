@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Customer resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Customer Success Stories. Cloud Native Projects
 
 !!! tip "Nubenetes V2 Elite Portal"

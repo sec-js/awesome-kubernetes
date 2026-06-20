@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kustomize resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+---
 # Template-Free Configuration Customization with Kustomize (Kubernetes Native Configuration Management)
 
 !!! tip "Nubenetes V2 Elite Portal"

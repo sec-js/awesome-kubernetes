@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Terraform resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+---
 # Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
 !!! tip "Nubenetes V2 Elite Portal"

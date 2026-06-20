@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Grafana resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Grafana
 
 !!! tip "Nubenetes V2 Elite Portal"

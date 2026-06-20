@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Container Managers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo
 
 !!! tip "Nubenetes V2 Elite Portal"

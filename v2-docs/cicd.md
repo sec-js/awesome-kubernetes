@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked CI/CD resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Software Delivery Pipeline. CI/CD
 
 !!! tip "Nubenetes V2 Elite Portal"

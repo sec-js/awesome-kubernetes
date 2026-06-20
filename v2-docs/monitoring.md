@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Monitoring resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 
 !!! tip "Nubenetes V2 Elite Portal"

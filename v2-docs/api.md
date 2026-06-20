@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked API resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # APIs with SOAP, REST and gRPC
 
 !!! tip "Nubenetes V2 Elite Portal"

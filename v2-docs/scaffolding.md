@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Scaffolding resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # Scaffolding Tools
 
 !!! tip "Nubenetes V2 Elite Portal"

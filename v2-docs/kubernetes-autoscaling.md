@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # Autoscaling
 
 !!! tip "Nubenetes V2 Elite Portal"

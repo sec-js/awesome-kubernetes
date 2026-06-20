@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Linux Dev Env resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # WSL: Linux Dev Environment on Windows
 
 !!! tip "Nubenetes V2 Elite Portal"

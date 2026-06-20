@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Databases resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+---
 # Databases on Kubernetes. Database DevOps
 
 !!! tip "Nubenetes V2 Elite Portal"

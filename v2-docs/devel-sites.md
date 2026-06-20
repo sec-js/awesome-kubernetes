@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Devel Sites resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Development and Frameworks. Websites for web developers
 
 !!! tip "Nubenetes V2 Elite Portal"

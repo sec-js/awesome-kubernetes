@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Based Devel resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # Kubernetes Based Development. Kubernetes Distributions for local environments. Kubernetes Development Tools and Dashboards
 
 !!! tip "Nubenetes V2 Elite Portal"
