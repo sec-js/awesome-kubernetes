@@ -97,6 +97,25 @@ class V2VisionEngine:
                 ("aws-backup", "Backup"),
                 ("aws-newfeatures", "New Features"),
             ],
+            # Kubernetes is well-classified (rich parent + substantial distinct
+            # children), so nothing is merged here — the hub is purely an index
+            # so the flagship landing surfaces its deep-dive topic pages.
+            "kubernetes": [
+                ("kubernetes-tools", "Tools"),
+                ("kubernetes-networking", "Networking"),
+                ("kubernetes-security", "Security"),
+                ("kubernetes-monitoring", "Monitoring"),
+                ("kubernetes-storage", "Storage"),
+                ("kubernetes-autoscaling", "Autoscaling"),
+                ("kubernetes-operators-controllers", "Operators"),
+                ("kubernetes-alternatives", "Alternatives"),
+                ("kubernetes-bigdata", "Big Data"),
+                ("kubernetes-tutorials", "Tutorials"),
+                ("kubernetes-backup-migrations", "Backup & Migrations"),
+                ("kubernetes-client-libraries", "Client Libraries"),
+                ("kubernetes-based-devel", "Local Dev"),
+                ("kubernetes-on-premise", "On-Premise"),
+            ],
         }
         
         self.library_criteria = (

@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.35]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.35) - 2026-06-20
+
+### Added
+- **Kubernetes provider hub**: A fragmentation audit found only two prefix clusters — `aws` (fixed in v2.9.34) and `kubernetes`. Unlike AWS, Kubernetes is well-classified (rich parent at 157 links + substantial distinct children: tools 144, networking 64, security 52, monitoring 24, …), so nothing is merged. This adds a "Deep-Dive Topic Pages" hub to `kubernetes.md` indexing its 14 substantial sub-pages (Tools · Networking · Security · Monitoring · Storage · Autoscaling · Operators · Alternatives · Big Data · Tutorials · Backup & Migrations · Client Libraries · Local Dev · On-Premise) — purely additive navigation, no merging or pruning. Other small pages (pulumi, kustomize, registries, …) are legitimate distinct topics and were intentionally left alone. Generator-only (`src/v2_optimizer.py`); republished on the next curation run.
+
 ## [[2.9.34]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.34) - 2026-06-20
 
 ### Changed
