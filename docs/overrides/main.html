@@ -13,23 +13,18 @@
   (Baseline 2026) — zero JS, with free Esc/click-outside dismissal and focus
   management. Adding a leaf grows a menu, never the bar.
 
-  Direct pills: Topic Map · Kubernetes · Docker · GitOps · Terraform · AI & MCP
-  Menus: Digest (Tech · Industry) · K8s (Tools · Helm · Managed · OpenShift · Tutorials)
-         · Cloud (AWS · Azure · GCP · Serverless · FinOps)
-         · Network (Networking · Istio · Service Mesh · K8s Net)
-         · Security (K8s Security · DevSecOps)
-         · Ops (CI/CD · IaC · Observability · SRE · DevOps · Dev Portals)
-         · More (Tags · Demos · Videos · Ansible · Messaging · MLOps · Methodology · V1)
+  Fully category-grouped: one direct pill (Topic Map) + 11 thematic dropdowns.
+  Related topics live together (CI/CD · GitOps · DevOps in Delivery; Terraform ·
+  IaC in IaC; Docker in Kubernetes; …). AWS is a NESTED submenu inside Cloud.
+  Pages may appear in more than one menu when that aids discovery.
+    Digest · Kubernetes (+Docker) · Delivery (CI/CD·GitOps·DevOps) · IaC
+    · Cloud (AWS▸ · Azure · GCP · …) · Network · Security · Observability & SRE
+    · AI & Data · Dev & Platform · More
 -#}
 {% block tabs %}
 <nav class="nb-quicknav" aria-label="Quick navigation">
   <div class="nb-quicknav__inner">
     <a class="nb-quicknav__link" href="/topic-map/">🗺️ Topic Map</a>
-    <a class="nb-quicknav__link" href="/kubernetes/">☸️ Kubernetes</a>
-    <a class="nb-quicknav__link" href="/docker/">🐳 Docker</a>
-    <a class="nb-quicknav__link" href="/gitops/">🔄 GitOps</a>
-    <a class="nb-quicknav__link" href="/terraform/">🏗️ Terraform</a>
-    <a class="nb-quicknav__link" href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
 
     <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-digest" type="button">📊 Digest <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
@@ -40,24 +35,85 @@
     </span>
 
     <span class="nb-quicknav__group">
-      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-k8s" type="button">🧰 K8s <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-k8s" type="button">☸️ Kubernetes <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-k8s" popover>
-        <a href="/kubernetes-tools/">🧰 Kubernetes Tools</a>
+        <a href="/kubernetes/">☸️ Overview</a>
+        <a href="/docker/">🐳 Docker</a>
+        <a href="/kubernetes-tools/">🧰 Tools</a>
         <a href="/helm/">📦 Helm</a>
+        <a href="/kubectl-commands/">⌨️ kubectl</a>
+        <a href="/container-managers/">📦 Container Managers</a>
+        <a href="/kubernetes-networking/">🌐 Networking</a>
+        <a href="/kubernetes-security/">🔐 Security</a>
+        <a href="/kubernetes-monitoring/">📈 Monitoring</a>
+        <a href="/kubernetes-storage/">💾 Storage</a>
+        <a href="/kubernetes-autoscaling/">⚖️ Autoscaling</a>
+        <a href="/kubernetes-operators-controllers/">🎛️ Operators</a>
+        <a href="/kubernetes-alternatives/">🔀 Alternatives</a>
+        <a href="/kubernetes-bigdata/">📊 Big Data</a>
+        <a href="/kubernetes-tutorials/">🎓 Tutorials</a>
+        <a href="/kubernetes-backup-migrations/">🗄️ Backup &amp; Migrations</a>
+        <a href="/kubernetes-client-libraries/">📚 Client Libraries</a>
+        <a href="/kubernetes-based-devel/">💻 Local Dev</a>
+        <a href="/kubernetes-on-premise/">🏢 On-Premise</a>
         <a href="/managed-kubernetes-in-public-cloud/">☁️ Managed K8s</a>
         <a href="/openshift/">🎩 OpenShift</a>
-        <a href="/kubernetes-tutorials/">🎓 Tutorials</a>
+        <a href="/rancher/">🐮 Rancher</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-delivery" type="button">🔄 Delivery <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-delivery" popover>
+        <a href="/gitops/">🔄 GitOps</a>
+        <a href="/cicd/">🚀 CI/CD</a>
+        <a href="/devops/">♾️ DevOps</a>
+        <a href="/argo/">🐙 Argo</a>
+        <a href="/flux/">🔱 Flux</a>
+        <a href="/tekton/">🛠️ Tekton</a>
+        <a href="/jenkins/">🤵 Jenkins</a>
+        <a href="/registries/">📦 Registries</a>
+        <a href="/sonarqube/">🔎 SonarQube</a>
+        <a href="/keptn/">🎯 Keptn</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-iac" type="button">🏗️ IaC <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-iac" popover>
+        <a href="/terraform/">🏗️ Terraform</a>
+        <a href="/iac/">📜 IaC</a>
+        <a href="/ansible/">📋 Ansible</a>
+        <a href="/pulumi/">🧩 Pulumi</a>
+        <a href="/crossplane/">✈️ Crossplane</a>
+        <a href="/kustomize/">🧱 Kustomize</a>
       </div>
     </span>
 
     <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-cloud" type="button">☁️ Cloud <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-cloud" popover>
-        <a href="/aws/">☁️ AWS</a>
+        <span class="nb-quicknav__subwrap">
+          <button class="nb-quicknav__subtrigger" popovertarget="nb-pop-aws" type="button"><span>☁️ AWS</span><span class="nb-quicknav__caret" aria-hidden="true">▸</span></button>
+          <div class="nb-quicknav__menu nb-quicknav__submenu" id="nb-pop-aws" popover>
+            <a href="/aws/">☁️ AWS Overview</a>
+            <a href="/aws-serverless/">⚡ Serverless</a>
+            <a href="/aws-storage/">💾 Storage</a>
+            <a href="/aws-networking/">🌐 Networking</a>
+            <a href="/aws-security/">🔐 Security</a>
+            <a href="/aws-iac/">📜 IaC</a>
+            <a href="/aws-backup/">🗄️ Backup</a>
+            <a href="/aws-newfeatures/">🆕 New Features</a>
+          </div>
+        </span>
         <a href="/azure/">☁️ Azure</a>
         <a href="/GoogleCloudPlatform/">☁️ GCP</a>
         <a href="/serverless/">⚡ Serverless</a>
         <a href="/finops/">💰 FinOps</a>
+        <a href="/edge-computing/">🌍 Edge</a>
+        <a href="/digitalocean/">🌊 DigitalOcean</a>
+        <a href="/oraclecloud/">🔴 Oracle</a>
+        <a href="/ibm_cloud/">🔵 IBM Cloud</a>
       </div>
     </span>
 
@@ -68,6 +124,8 @@
         <a href="/istio/">⛵ Istio</a>
         <a href="/servicemesh/">🕸️ Service Mesh</a>
         <a href="/kubernetes-networking/">🔗 K8s Net</a>
+        <a href="/caching/">⚡ Caching</a>
+        <a href="/web-servers/">🖥️ Web Servers</a>
       </div>
     </span>
 
@@ -76,18 +134,49 @@
       <div class="nb-quicknav__menu" id="nb-pop-sec" popover>
         <a href="/kubernetes-security/">🔐 K8s Security</a>
         <a href="/devsecops/">🛡️ DevSecOps</a>
+        <a href="/securityascode/">📜 Security as Code</a>
+        <a href="/aws-security/">☁️ AWS Security</a>
       </div>
     </span>
 
     <span class="nb-quicknav__group">
-      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-ops" type="button">⚙️ Ops <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
-      <div class="nb-quicknav__menu" id="nb-pop-ops" popover>
-        <a href="/cicd/">🚀 CI/CD</a>
-        <a href="/iac/">📜 IaC</a>
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-obs" type="button">📈 Observability <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-obs" popover>
         <a href="/monitoring/">📈 Observability</a>
+        <a href="/prometheus/">🔥 Prometheus</a>
+        <a href="/grafana/">📊 Grafana</a>
         <a href="/sre/">🛠️ SRE</a>
-        <a href="/devops/">♾️ DevOps</a>
+        <a href="/chaos-engineering/">🌪️ Chaos Engineering</a>
+        <a href="/performance-testing-with-jenkins-and-jmeter/">⏱️ Performance Testing</a>
+        <a href="/qa/">✅ QA</a>
+        <a href="/test-automation-frameworks/">🤖 Test Automation</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-aidata" type="button">🤖 AI &amp; Data <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-aidata" popover>
+        <a href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
+        <a href="/mlops/">🧠 MLOps</a>
+        <a href="/ai/">🤖 AI</a>
+        <a href="/chatgpt/">💬 ChatGPT</a>
+        <a href="/databases/">🗃️ Databases</a>
+        <a href="/nosql/">🍃 NoSQL</a>
+        <a href="/message-queue/">📨 Messaging</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-dev" type="button">🧑‍💻 Dev <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-dev" popover>
         <a href="/developerportals/">🏛️ Developer Portals</a>
+        <a href="/python/">🐍 Python</a>
+        <a href="/golang/">🐹 Go</a>
+        <a href="/java_frameworks/">☕ Java</a>
+        <a href="/javascript/">🟨 JavaScript</a>
+        <a href="/dotnet/">🟣 .NET</a>
+        <a href="/api/">🔌 API</a>
+        <a href="/postman/">📮 Postman</a>
       </div>
     </span>
 
@@ -97,10 +186,10 @@
         <a href="/tags/">🏷️ Technical Tags</a>
         <a href="/demos/">🧪 Demos</a>
         <a href="/videos/">🎥 Videos</a>
-        <a href="/ansible/">📋 Ansible</a>
-        <a href="/message-queue/">📨 Messaging</a>
-        <a href="/mlops/">🧠 MLOps</a>
         <a href="/methodology/">📐 Methodology</a>
+        <a href="/faq/">❓ FAQ</a>
+        <a href="/about/">ℹ️ About</a>
+        <a href="/recruitment/">💼 Career</a>
         <a class="nb-quicknav__menu-muted" href="/v1/">📚 V1 Archive</a>
       </div>
     </span>

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # AWS RDS Databases
 
@@ -7,7 +7,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
     You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/aws-databases/).
 
 !!! info "Architectural Context"
-    Detailed reference for AWS RDS Databases in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS RDS Databases in the context of Architectural Foundations.
 
 ## Cloud Infrastructure
 
@@ -20,7 +20,6 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 
   - **(2026)** [==Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon==](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Exhaustive official guide detailing the design, limits, and monitoring of read-replicas for open-source engines in AWS RDS. Covers cross-region replication strategies and promoting a replica to master during failovers.
   - **(2026)** [==Working with an Amazon RDS DB Instance in a VPC==](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational AWS RDS VPC networking architecture reference. Analyzes subnet group designations, public versus private access configurations, and network isolation topologies for secure DB hosting.
-  - **(2026)** [**AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS**](https://docs.aws.amazon.com/hands-on/latest/create-mysql-db/create-mysql-db.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A beginner-to-intermediate hands-on tutorial for launching a MySQL DB instance inside AWS RDS. Walks through security group access policies, DB engine parameters, and application tier connectivity patterns.
 ### Databases
 
 #### NoSQL
@@ -38,7 +37,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight describes how to manage AWS ElastiCache for Redis directly from Kubernetes. Live Grounding highlights using AWS Controllers for Kubernetes (ACK) or Crossplane to define managed Redis instances as custom resources (CRDs). This unifies stateful cloud infrastructure management within standard GitOps workflows.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 

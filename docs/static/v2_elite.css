@@ -1316,23 +1316,37 @@ input[type="text"] {
 /* Explicit anchor pairing per button↔menu — do NOT rely on the popover's
    implicit anchor (it isn't established reliably, leaving the menu in its
    static position over the button). */
-[popovertarget="nb-pop-digest"] { anchor-name: --nb-a-digest; }
-#nb-pop-digest { position-anchor: --nb-a-digest; }
-[popovertarget="nb-pop-k8s"] { anchor-name: --nb-a-k8s; }
-#nb-pop-k8s { position-anchor: --nb-a-k8s; }
-[popovertarget="nb-pop-cloud"] { anchor-name: --nb-a-cloud; }
-#nb-pop-cloud { position-anchor: --nb-a-cloud; }
-[popovertarget="nb-pop-net"] { anchor-name: --nb-a-net; }
-#nb-pop-net { position-anchor: --nb-a-net; }
-[popovertarget="nb-pop-sec"] { anchor-name: --nb-a-sec; }
-#nb-pop-sec { position-anchor: --nb-a-sec; }
-[popovertarget="nb-pop-ops"] { anchor-name: --nb-a-ops; }
-#nb-pop-ops { position-anchor: --nb-a-ops; }
-[popovertarget="nb-pop-more"] { anchor-name: --nb-a-more; }
-#nb-pop-more { position-anchor: --nb-a-more; }
+[popovertarget="nb-pop-digest"]   { anchor-name: --nb-a-digest; }
+#nb-pop-digest   { position-anchor: --nb-a-digest; }
+[popovertarget="nb-pop-k8s"]      { anchor-name: --nb-a-k8s; }
+#nb-pop-k8s      { position-anchor: --nb-a-k8s; }
+[popovertarget="nb-pop-delivery"] { anchor-name: --nb-a-delivery; }
+#nb-pop-delivery { position-anchor: --nb-a-delivery; }
+[popovertarget="nb-pop-iac"]      { anchor-name: --nb-a-iac; }
+#nb-pop-iac      { position-anchor: --nb-a-iac; }
+[popovertarget="nb-pop-cloud"]    { anchor-name: --nb-a-cloud; }
+#nb-pop-cloud    { position-anchor: --nb-a-cloud; }
+[popovertarget="nb-pop-net"]      { anchor-name: --nb-a-net; }
+#nb-pop-net      { position-anchor: --nb-a-net; }
+[popovertarget="nb-pop-sec"]      { anchor-name: --nb-a-sec; }
+#nb-pop-sec      { position-anchor: --nb-a-sec; }
+[popovertarget="nb-pop-obs"]      { anchor-name: --nb-a-obs; }
+#nb-pop-obs      { position-anchor: --nb-a-obs; }
+[popovertarget="nb-pop-aidata"]   { anchor-name: --nb-a-aidata; }
+#nb-pop-aidata   { position-anchor: --nb-a-aidata; }
+[popovertarget="nb-pop-dev"]      { anchor-name: --nb-a-dev; }
+#nb-pop-dev      { position-anchor: --nb-a-dev; }
+[popovertarget="nb-pop-more"]     { anchor-name: --nb-a-more; }
+#nb-pop-more     { position-anchor: --nb-a-more; }
+/* nested AWS submenu anchors to its in-menu trigger */
+[popovertarget="nb-pop-aws"]      { anchor-name: --nb-a-aws; }
+#nb-pop-aws      { position-anchor: --nb-a-aws; }
 .nb-quicknav__menu {
   inset: auto; /* reset the UA-centered popover defaults */
   margin: 0;
+  max-height: 82vh; /* tall menus (e.g. Kubernetes) scroll instead of overflowing */
+  overflow-y: auto;
+  overscroll-behavior: contain;
   /* drop below the invoking button, left-aligned. NB: position-area values must
      be all-physical or all-logical — mixing (e.g. `bottom span-inline-end`) is
      invalid and silently computes to `none`, leaving the menu over the button. */
@@ -1386,6 +1400,54 @@ input[type="text"] {
   margin-block-start: 0.15rem;
   padding-block-start: 0.42rem !important;
   border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ── Nested submenu (e.g. Cloud → AWS ▸ → AWS pages) ──
+   A second-level popover invoked from inside a menu. The trigger looks like a
+   menu item; the submenu opens to the side (inline-end) of the trigger, with a
+   flip fallback so it never leaves the viewport. Popover nesting keeps the
+   parent menu open while the submenu is shown. */
+.nb-quicknav__subwrap { display: contents; }
+.nb-quicknav__subtrigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  width: 100%;
+  padding: 0.34rem 0.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: none;
+  color: rgba(255, 255, 255, 0.86);
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.nb-quicknav__subtrigger:hover,
+.nb-quicknav__subtrigger:focus-visible {
+  background: color-mix(in srgb, var(--md-accent-fg-color) 30%, transparent);
+  color: #fff;
+  outline: none;
+}
+.nb-quicknav__subwrap:has(.nb-quicknav__submenu:popover-open) .nb-quicknav__caret {
+  transform: rotate(0); /* caret is a side-arrow ▸, keep it static */
+}
+.nb-quicknav__submenu {
+  /* Open to the RIGHT of the trigger, top-aligned. position-area's horizontal
+     axis isn't honored reliably when the anchor lives inside another popover,
+     so place explicitly with anchor(): left edge at the trigger's right edge. */
+  position-area: none;
+  top: anchor(top);
+  left: anchor(right);
+  right: auto;
+  bottom: auto;
+  position-try-fallbacks: flip-inline;
+  margin-block-start: 0;
+  margin-inline-start: 0.35rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
