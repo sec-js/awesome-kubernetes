@@ -60,13 +60,17 @@ def build_v2_mosaic_markdown_from_channels(channels):
         cat_chans.sort(key=lambda x: x['order_v2'])
         
         # Open category block container
-        lines.append(f'<div markdown="1" style="border: 1px solid {cat_info["color"]}; border-radius: 8px; padding: 10px; margin: 8px 0; background: rgba(255, 255, 255, 0.01);" title="{cat_info["name"]}">')
+        lines.append(f'<div markdown="1" class="mosaic-cat-block" style="border: 1px solid {cat_info["color"]}; border-radius: 8px; padding: 10px; margin: 8px 0; background: rgba(255, 255, 255, 0.01);" title="{cat_info["name"]}">')
         lines.append('') # Mandatory blank line after block tag
-        
-        # Channel links
+
+        # Visible category label (previously only exposed via the hidden title= tooltip)
+        lines.append(f'<p class="mosaic-cat-label" style="--cat-color: {cat_info["color"]}">{cat_info["name"]}</p>')
+        lines.append('')
+
+        # Channel links (loading="lazy" — ~150 logos, almost all below the fold)
         chan_links = []
         for chan in cat_chans:
-            chan_links.append(f"[![{chan['title']}]({chan['image']}){{: style=\"width:48px; height:48px; object-fit:contain; margin:6px;\" .channel-logo}}]({chan['url']})")
+            chan_links.append(f"[![{chan['title']}]({chan['image']}){{: style=\"width:48px; height:48px; object-fit:contain; margin:6px;\" loading=\"lazy\" .channel-logo}}]({chan['url']})")
         
         lines.append(" ".join(chan_links))
         lines.append('')
