@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Servicemesh resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+description: "Top Servicemesh resources for 2026, AI-ranked: Linkerd, Kubernetes Gateway API and more — curated Cloud Native tools, guides and references."
 ---
 # Service Mesh
 

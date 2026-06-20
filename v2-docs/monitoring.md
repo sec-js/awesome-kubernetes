@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Monitoring resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Monitoring resources for 2026, AI-ranked: OpenTelemetry Collector, Grafana Tempo and more — curated Cloud Native tools, guides and references."
 ---
 # Monitoring and Performance. Prometheus, Grafana, APMs and more
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Python resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Python resources for 2026, AI-ranked: Ruff, Pydeps and more — curated Cloud Native tools, guides and references."
 ---
 # Python
 

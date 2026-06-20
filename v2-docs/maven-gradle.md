@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Maven Gradle resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Maven Gradle resources for 2026, AI-ranked: GitHub: Eclipse JKube, docker-maven-plugin and more — curated Cloud Native tools, guides and references."
 ---
 # Maven, Gradle and SDKMAN
 

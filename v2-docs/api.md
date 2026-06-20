@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked API resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top API resources for 2026, AI-ranked: gRPC, GraphQL and more — curated Cloud Native tools, guides and references."
 ---
 # APIs with SOAP, REST and gRPC
 

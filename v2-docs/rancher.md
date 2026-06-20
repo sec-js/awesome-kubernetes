@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Rancher resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Rancher resources for 2026, AI-ranked: Harvester, k3s-gitlab and more — curated Cloud Native tools, guides and references."
 ---
 # SUSE Rancher
 

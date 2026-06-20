@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Cheatsheets resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Cheatsheets resources for 2026, AI-ranked: github: K8s in 30 mins, Quarkus Cheat-Sheet and more — curated Cloud Native tools, guides and references."
 ---
 # Cheat Sheets
 

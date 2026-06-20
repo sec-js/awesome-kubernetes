@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked DevOps Tools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templates, Devtron and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Tools aka Toolchain
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Helm resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Helm resources for 2026, AI-ranked: Jmeter, Codecentric Jenkins and more — curated Cloud Native tools, guides and references."
 ---
 # Helm Kubernetes Tool
 

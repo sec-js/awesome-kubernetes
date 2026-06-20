@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Prometheus resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collector, Pushgateway and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 

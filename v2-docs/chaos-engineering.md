@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Chaos Engineering resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+description: "Top Chaos Engineering resources for 2026, AI-ranked: chaosblade, Chaos Mesh and more — curated Cloud Native tools, guides and references."
 ---
 # Chaos Engineering
 

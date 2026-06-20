@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Other Awesome Lists resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Compose, Awesome Java and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 

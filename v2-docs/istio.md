@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and more — curated Cloud Native tools, guides and references."
 ---
 # Istio - Service Mesh
 

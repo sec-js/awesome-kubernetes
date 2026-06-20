@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Jenkins Alternatives resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Screwdriver API and more — curated Cloud Native tools, guides and references."
 ---
 # Jenkins Alternatives for Continuous Integration and Continuous Deployment
 

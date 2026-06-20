@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Openshift Pipelines resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+description: "Top Openshift Pipelines resources for 2026, AI-ranked: GitHub: Eclipse JKube, Fabric8 Pipeline Library and more — curated Cloud Native tools, guides and references."
 ---
 # OpenShift Pipelines
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked AI Agents MCP resources for the 2026 Cloud Native architect: top-tier tools, guides and references (AI)."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: vLLM on Kubernetes, LocalAI and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 

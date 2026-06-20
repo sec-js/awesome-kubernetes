@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Git resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Git resources for 2026, AI-ranked: Jenkins-X UpdateBOT, github-merge-bot and more — curated Cloud Native tools, guides and references."
 ---
 # Git and Patterns for Managing Source Code Branches. Merge BOTs
 

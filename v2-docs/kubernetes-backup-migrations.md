@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Backup Migrations resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Stash, konveyor and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Backup and Migrations
 

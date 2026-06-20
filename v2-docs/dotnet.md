@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Dotnet resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Dotnet resources for 2026, AI-ranked: Lamar, Paradigm framework and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft .NET
 

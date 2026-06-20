@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Devsecops resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more — curated Cloud Native tools, guides and references."
 ---
 # DevSecOps and Security. Container
 

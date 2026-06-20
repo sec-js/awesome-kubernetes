@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Tekton resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines, Tekton Pipelines Docs and more — curated Cloud Native tools, guides and references."
 ---
 # Tekton and Tekton Pipelines
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Public Cloud Solutions resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShift in Azure, AWS Kubernetes pricing and more — curated Cloud Native tools, guides and references."
 ---
 # Public Cloud Solutions
 

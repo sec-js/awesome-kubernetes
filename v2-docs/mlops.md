@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked MLOps resources for the 2026 Cloud Native architect: top-tier tools, guides and references (AI)."
+description: "Top MLOps resources for 2026, AI-ranked: kubeflow, Ray and more — curated Cloud Native tools, guides and references."
 ---
 # Machine Learning Ops (MLOps) and Data Science
 

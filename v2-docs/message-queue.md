@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Message Queue resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+description: "Top Message Queue resources for 2026, AI-ranked: Apache Flink, **Debezium** and more — curated Cloud Native tools, guides and references."
 ---
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 

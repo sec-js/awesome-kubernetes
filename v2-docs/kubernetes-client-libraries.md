@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Client Libraries resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: GitHub: Eclipse JKube, Fabric8 and more — curated Cloud Native tools, guides and references."
 ---
 # Client Libraries for Kubernetes
 

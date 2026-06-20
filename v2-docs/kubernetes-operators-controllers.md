@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Operators Controllers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Kubernetes Operators Controllers resources for 2026, AI-ranked: Kueue Release v0.14.0, Kubernetes Gateway API and more — curated Cloud Native tools, guides."
 ---
 # Kubernetes Operators and Controllers
 

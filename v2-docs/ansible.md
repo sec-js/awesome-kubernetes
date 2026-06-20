@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Ansible resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+description: "Top Ansible resources for 2026, AI-ranked: AWX, AWX Operator and more — curated Cloud Native tools, guides and references."
 ---
 # Configuration Management. Ansible
 

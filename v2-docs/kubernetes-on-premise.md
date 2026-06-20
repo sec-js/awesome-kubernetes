@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes On Premise resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Microk8s**, k0s and more — curated Cloud Native tools, guides and references."
 ---
 # On-Premise Production Kubernetes Cluster Installers
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Serverless Architectures and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 

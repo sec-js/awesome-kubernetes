@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Flux resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, github: Flux and more — curated Cloud Native tools, guides and references."
 ---
 # Flux. The GitOps operator for Kubernetes
 

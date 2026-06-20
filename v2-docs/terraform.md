@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Terraform resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+description: "Top Terraform resources for 2026, AI-ranked: K3s Private Cluster, The Segment AWS Stack and more — curated Cloud Native tools, guides and references."
 ---
 # Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
