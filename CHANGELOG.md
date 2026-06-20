@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.22]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.22) - 2026-06-20
+
+### Added
+- **robots.txt**: Added `v2-docs/robots.txt` (deployed at the site root) that allows full crawl and references both the V2 (root) and V1 (`/v1/`) sitemaps — previously the site shipped a `sitemap.xml` with no `robots.txt` pointing at it.
+
+### Changed
+- **Unique per-page SEO meta descriptions**: Every V2 page previously fell back to the identical global `site_description`, so ~140 pages shared one `<meta name="description">` (a duplicate-content SEO penalty). `v2_optimizer.py` now emits a unique `description:` front-matter per page — derived from the page title and its strategic dimension — which Material renders as `<meta name="description">` and `og:description`. The Topic Map and Methodology pages get tailored descriptions. The 12 redirect-stub pages were intentionally left untouched (they already 0s meta-refresh redirect with `canonical` pointing at the target, which passes authority better than `noindex`).
+
 ## [[2.9.21]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.21) - 2026-06-20
 
 ### Added
