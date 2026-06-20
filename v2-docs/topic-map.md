@@ -24,6 +24,10 @@ description: "The complete Nubenetes V2 directory: every curated Kubernetes, Clo
 ## Architectural Foundations
 
 - **[About](./about.md)** <span class="topic-count">4</span>
+- **[AWS Containers](./aws-containers.md)** <span class="topic-count">1</span>
+- **[AWS Databases](./aws-databases.md)** <span class="topic-count">6</span>
+- **[AWS Pricing](./aws-pricing.md)** <span class="topic-count">1</span>
+- **[AWS Tools Scripts](./aws-tools-scripts.md)** <span class="topic-count">1</span>
 - **[Cheatsheets](./cheatsheets.md)** <span class="topic-count">14</span>
 - **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)** <span class="topic-count">1</span>
 - **[Customer](./customer.md)** <span class="topic-count">8</span>
@@ -85,22 +89,11 @@ description: "The complete Nubenetes V2 directory: every curated Kubernetes, Clo
 ## Cloud Providers (Hyperscalers)
 
 - **[Googlecloudplatform](./GoogleCloudPlatform.md)** <span class="topic-count">33</span>
-- **[AWS Architecture](./aws-architecture.md)** <span class="topic-count">3</span>
-- **[AWS Containers](./aws-containers.md)** <span class="topic-count">5</span>
-- **[AWS Data](./aws-data.md)** <span class="topic-count">2</span>
-- **[AWS Databases](./aws-databases.md)** <span class="topic-count">7</span>
-- **[AWS DevOps](./aws-devops.md)** <span class="topic-count">5</span>
-- **[AWS Messaging](./aws-messaging.md)** <span class="topic-count">2</span>
-- **[AWS Miscellaneous](./aws-miscellaneous.md)** <span class="topic-count">14</span>
-- **[AWS Monitoring](./aws-monitoring.md)** <span class="topic-count">3</span>
 - **[AWS Networking](./aws-networking.md)** <span class="topic-count">12</span>
 - **[AWS Newfeatures](./aws-newfeatures.md)** <span class="topic-count">23</span>
-- **[AWS Pricing](./aws-pricing.md)** <span class="topic-count">1</span>
 - **[AWS Security](./aws-security.md)** <span class="topic-count">12</span>
 - **[AWS Serverless](./aws-serverless.md)** <span class="topic-count">35</span>
-- **[AWS Tools Scripts](./aws-tools-scripts.md)** <span class="topic-count">2</span>
-- **[AWS Training](./aws-training.md)** <span class="topic-count">1</span>
-- **[AWS](./aws.md)** <span class="topic-count">3</span>
+- **[AWS](./aws.md)** <span class="topic-count">39</span>
 - **[Azure](./azure.md)** <span class="topic-count">64</span>
 - **[Digitalocean](./digitalocean.md)** <span class="topic-count">4</span>
 - **[Edge Computing](./edge-computing.md)** <span class="topic-count">2</span>

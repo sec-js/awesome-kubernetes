@@ -166,7 +166,7 @@ description: "Top Googlecloudplatform resources for 2026, AI-ranked: Google Clou
   - **(2021)** [cloud.google.com: What is Cloud Load Balancing?](https://cloud.google.com/blog/topics/developers-practitioners/what-cloud-load-balancing) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the design of GCP's global, distributed Anycast Cloud Load Balancing system. Illustrates how Layer 4 and Layer 7 load balancers distribute traffic dynamically across regions with minimal latency, auto-scaling up to millions of requests per second.
 
 ---
-💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md) | [AWS](./aws.md)
 
 🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
