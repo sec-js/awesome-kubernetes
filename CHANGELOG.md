@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.36]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.36) - 2026-06-20
+
+### Changed
+- **Quick-nav fully regrouped into 11 thematic menus + nested AWS submenu**: Reorganized the quick-nav into one direct pill (Topic Map) plus 11 category dropdowns that group related topics so every destination has a sensible home: Digest · Kubernetes (Overview · Docker · Tools · Helm · kubectl · all kubernetes-* · Managed · OpenShift · Rancher) · Delivery (GitOps · CI/CD · DevOps · Argo · Flux · Tekton · Jenkins · …) · IaC (Terraform · IaC · Ansible · Pulumi · Crossplane · Kustomize) · Cloud · Network · Security · Observability & SRE · AI & Data · Dev & Platform · More. Docker now lives inside Kubernetes; GitOps + CI/CD + DevOps share Delivery; Terraform + IaC share IaC. **AWS is a nested submenu inside Cloud** (Cloud → AWS ▸ → 8 AWS pages), built with nested Popover API + explicit `anchor()` side-positioning (position-area's horizontal axis isn't honored when the anchor is inside another popover). Pages may appear in more than one menu where it aids discovery; menus get `max-height:82vh` + scroll for the tall Kubernetes menu. Verified in Chrome 148 (Playwright). Cache-bust `?v=2.9.36`; V2-only.
+- **AWS + Kubernetes provider hubs now live**: This release also publishes the regenerated v2-docs from v2.9.34/v2.9.35 — the AWS landing page (3 → ~40 links + "Deep-Dive Topic Pages" hub, trivial sub-pages consolidated) and the Kubernetes sub-page hub.
+
 ## [[2.9.35]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.35) - 2026-06-20
 
 ### Added
