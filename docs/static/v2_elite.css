@@ -1230,6 +1230,50 @@ input[type="text"] {
   margin-top: 0;
   font-size: 1.05rem;
 }
+
+/* ===================================================================
+   Slim quick-nav bar (rendered in the theme `tabs` block, below header)
+   Persistent one-click access to key destinations on every page.
+   =================================================================== */
+.nb-quicknav {
+  background: var(--md-header-bg-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.nb-quicknav__inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  padding: 0.4rem 1.2rem;
+}
+.nb-quicknav__link {
+  color: rgba(255, 255, 255, 0.78) !important;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+.nb-quicknav__link:hover {
+  color: var(--md-accent-fg-color) !important;
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.35);
+}
+.nb-quicknav__link--muted {
+  opacity: 0.65;
+  margin-left: auto; /* push V1 Archive to the right edge */
+}
+/* On phones the left drawer already exposes navigation; let the bar scroll. */
+@media screen and (max-width: 44.9375em) {
+  .nb-quicknav__inner {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+  }
+  .nb-quicknav__link--muted { margin-left: 1rem; }
+}
 .topic-map-dim ul {
   margin-top: 0.3rem;
 }
