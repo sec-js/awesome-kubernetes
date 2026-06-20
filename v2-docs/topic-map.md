@@ -7,7 +7,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### AI
+## AI
 
 - **[AI Agents MCP](./ai-agents-mcp.md)** <span class="topic-count">4</span>
 - **[AI](./ai.md)** <span class="topic-count">11</span>
@@ -18,7 +18,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Architectural Foundations
+## Architectural Foundations
 
 - **[About](./about.md)** <span class="topic-count">4</span>
 - **[Cheatsheets](./cheatsheets.md)** <span class="topic-count">14</span>
@@ -46,7 +46,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Platform & Site Reliability
+## Platform & Site Reliability
 
 - **[Chaos Engineering](./chaos-engineering.md)** <span class="topic-count">20</span>
 - **[Developerportals](./developerportals.md)** <span class="topic-count">38</span>
@@ -64,7 +64,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Hardened Infrastructure
+## Hardened Infrastructure
 
 - **[Ansible](./ansible.md)** <span class="topic-count">15</span>
 - **[Devsecops](./devsecops.md)** <span class="topic-count">137</span>
@@ -79,7 +79,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Cloud Providers (Hyperscalers)
+## Cloud Providers (Hyperscalers)
 
 - **[Googlecloudplatform](./GoogleCloudPlatform.md)** <span class="topic-count">33</span>
 - **[AWS Architecture](./aws-architecture.md)** <span class="topic-count">3</span>
@@ -110,7 +110,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Networking & Service Mesh
+## Networking & Service Mesh
 
 - **[Caching](./caching.md)** <span class="topic-count">3</span>
 - **[Cloudflare](./cloudflare.md)** <span class="topic-count">3</span>
@@ -123,7 +123,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### The Container Stack
+## The Container Stack
 
 - **[Container Managers](./container-managers.md)** <span class="topic-count">21</span>
 - **[Docker](./docker.md)** <span class="topic-count">28</span>
@@ -150,7 +150,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Data & Advanced Analytics
+## Data & Advanced Analytics
 
 - **[Crunchydata](./crunchydata.md)** <span class="topic-count">12</span>
 - **[Databases](./databases.md)** <span class="topic-count">46</span>
@@ -162,7 +162,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Engineering Pipeline
+## Engineering Pipeline
 
 - **[Argo](./argo.md)** <span class="topic-count">14</span>
 - **[CI/CD Kubernetes Plugins](./cicd-kubernetes-plugins.md)** <span class="topic-count">1</span>
@@ -181,7 +181,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Developer Ecosystem
+## Developer Ecosystem
 
 - **[Angular](./angular.md)** <span class="topic-count">1</span>
 - **[API](./api.md)** <span class="topic-count">53</span>
@@ -203,7 +203,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Career & Industry
+## Career & Industry
 
 - **[Appointment Scheduling](./appointment-scheduling.md)** <span class="topic-count">1</span>
 - **[Elearning](./elearning.md)** <span class="topic-count">3</span>

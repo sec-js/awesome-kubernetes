@@ -1226,8 +1226,9 @@ input[type="text"] {
   width: 100%;
   margin: 0 0 1.4rem;
 }
-.topic-map-dim h3 {
+.topic-map-dim h2 {
   margin-top: 0;
+  font-size: 1.05rem;
 }
 .topic-map-dim ul {
   margin-top: 0.3rem;
