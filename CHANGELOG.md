@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.29]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.29) - 2026-06-20
+
+### Changed
+- **Quick-nav redesign — centered category-grouped pill chips**: Grew the quick-nav bar to 21 destinations and restyled it as a modern, centered chip bar. Added CI/CD, Ansible, and the three hyperscalers (AWS, Azure, GCP), and reordered every tab into related category clusters with short labels: discovery (Topic Map · Digest · Videos) → platform (Kubernetes · Docker) → delivery (GitOps · CI/CD) → IaC (Terraform · Ansible) → cloud (AWS · Azure · GCP) → security → ops (Observability · SRE · DevOps) → data (Messaging) → AI/ML (AI & MCP · MLOps) → Methodology → V1 Archive (muted). Chip background/border/glow are derived from the theme accent via `color-mix(in srgb, …)` (Chrome 111+) so the bar restyles automatically with the palette; rows are centered (`justify-content: center`) for a balanced multi-row layout, with hover lift, `:focus-visible` outline, `prefers-reduced-motion` support, and a mobile single-row horizontal scroll. Touches `docs/overrides/main.html` + `docs/static/v2_elite.css` (cache-bust `?v=2.9.29`); V2-only, no page regeneration.
+
 ## [[2.9.28]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.28) - 2026-06-20
 
 ### Changed
