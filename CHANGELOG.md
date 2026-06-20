@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.31]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.31) - 2026-06-20
+
+### Changed
+- **Hybrid quick-nav — direct pills + Popover category menus**: Collapsed the 25-destination quick-nav from 3 wrapped rows to a single slim row that stays one row regardless of how many destinations are added. The most-used flagships remain direct one-click pills (Topic Map · Digest · Kubernetes · Docker · GitOps · Terraform · AI & MCP); the long-tail clusters fold into five category menus — ☁️ Cloud, 🌐 Network, 🔐 Security, ⚙️ Ops, ⋯ More — built with the native HTML Popover API + CSS Anchor Positioning (Baseline 2026), zero JS. Menus drop below their button via `position-area` with flip fallbacks, animate in with `@starting-style`, rotate their caret via `:has()`, and inherit the Popover API's built-in Esc / click-outside dismissal and focus management (identical on touch and desktop); `prefers-reduced-motion` honored. All 25 destinations preserved. Touches `docs/overrides/main.html` + `docs/static/v2_elite.css` (cache-bust `?v=2.9.31`); V2-only, no page regeneration.
+
 ## [[2.9.30]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.30) - 2026-06-20
 
 ### Changed
