@@ -5,6 +5,25 @@
 {% endblock %}
 
 {#-
+  Slim quick-nav bar rendered below the header on every page (via the `tabs`
+  block, which is empty here since navigation.tabs is disabled). Gives the key
+  cross-cutting destinations a persistent, one-click home — without the
+  18-tab overflow and without collapsing the full left navigation tree.
+-#}
+{% block tabs %}
+<nav class="nb-quicknav" aria-label="Quick navigation">
+  <div class="nb-quicknav__inner">
+    <a class="nb-quicknav__link" href="/topic-map/">🗺️ Topic Map</a>
+    <a class="nb-quicknav__link" href="/tech-digest/">📊 Intelligence Digest</a>
+    <a class="nb-quicknav__link" href="/videos/">🎥 Video Hub</a>
+    <a class="nb-quicknav__link" href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
+    <a class="nb-quicknav__link" href="/methodology/">📐 Methodology</a>
+    <a class="nb-quicknav__link nb-quicknav__link--muted" href="/v1/">📚 V1 Archive</a>
+  </div>
+</nav>
+{% endblock %}
+
+{#-
   JSON-LD structured data (schema.org) for richer search results: declares the
   WebSite (with a sitelinks SearchAction) and the publishing Organization.
   Only the V2 portal uses this overrides dir (custom_dir: docs/overrides), so
