@@ -114,7 +114,7 @@ extra_css:
   - static/v2_elite.css?v=2.9.17
 
 extra_javascript:
-  - static/v2_filter.js?v=2.9.12
+  - static/v2_filter.js?v=2.9.19
 
 markdown_extensions:
   - admonition

@@ -27,7 +27,13 @@
             h1.textContent.includes("Nubenetes Elite Portal (V2)") ||
             h1.textContent.includes("Agentic Video Hub") ||
             h1.textContent.includes("Technical Tags Index") ||
-            h1.textContent.includes("Intelligence Digest")
+            h1.textContent.includes("Intelligence Digest") ||
+            // Topic Map / Methodology list categories and legend rows, not
+            // tagged resources: their <li> items carry no .md-tag, so the
+            // maturity pills would always filter to zero and the "X of Y
+            // resources" count is misleading. Skip them.
+            h1.textContent.includes("Topic Map") ||
+            h1.textContent.includes("Methodology")
         )) {
             return;
         }
