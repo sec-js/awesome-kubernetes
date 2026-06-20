@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.38]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.38) - 2026-06-20
+
+### Added
+- **OpenShift submenu + grouped Kubernetes distros**: The Kubernetes menu's OpenShift entry only linked to the generic overview, hiding the substantial OpenShift 4 page (`ocp4`, 29 links) amid the ocp3-deprecated/openshift/ocp4 confusion. OpenShift is now a nested submenu (OpenShift ▸ → OpenShift 4 (current) · Overview · OpenShift 3 (legacy)), reusing the AWS nested-submenu mechanism. The Kubernetes distributions/platforms are grouped at the end of the menu — Managed K8s · OpenShift ▸ · Rancher · Distros & Alternatives (`kubernetes-alternatives` moved here and relabeled). The 2-column Kubernetes menu was also switched from CSS multicol to a deterministic column-major grid (11 rows × 2 cols, `overflow:visible`), removing a faint sub-pixel scrollbar. Verified in Chrome 148 (Playwright + screenshot): clean 2-column card with no scrollbar at viewport heights 768–1080; the OpenShift submenu opens to the side and keeps the parent open. Cache-bust `?v=2.9.38`; V2-only.
+
 ## [[2.9.37]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.37) - 2026-06-20
 
 ### Fixed
