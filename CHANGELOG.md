@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.30]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.30) - 2026-06-20
+
+### Changed
+- **Quick-nav — networking cluster + DevSecOps**: Grew the quick-nav bar to 25 destinations. Added a new networking cluster after the cloud providers (🌐 Networking · 🕸️ Istio · 🔗 K8s Net) and DevSecOps alongside Security (🔐 Security · 🛡️ DevSecOps), keeping short labels and category grouping. Template-only change to `docs/overrides/main.html` reusing the existing `.nb-quicknav` pill styling — no CSS change, no page regeneration. V2-only.
+
 ## [[2.9.29]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.29) - 2026-06-20
 
 ### Changed
