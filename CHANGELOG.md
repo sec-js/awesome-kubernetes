@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.32]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.32) - 2026-06-20
+
+### Fixed
+- **Quick-nav menus open below their button + fit one row**: Fixed two issues in the v2.9.31 hybrid quick-nav (verified in Chrome 148 via Playwright). (1) The Popover category menus did not visibly open on click — they used `position-area: bottom span-inline-end`, which mixes a physical keyword (`bottom`) with a logical one (`span-inline-end`); that is invalid CSS and silently computed to `none`, leaving the menu in its static position on top of the button. Fixed with a valid all-physical `position-area: bottom span-right` plus explicit `anchor-name` / `position-anchor` pairs per button↔menu, so each menu reliably drops below its trigger and auto-flips near the right edge. (2) The bar wrapped to a second row on common displays — reduced the chip font ~1pt (`0.7rem → 0.64rem`) and trimmed the column-gap/padding so all 7 pills + 5 menus fit a single row down to 1280px viewports. Cache-bust `?v=2.9.32`; V2-only, CSS-only.
+
 ## [[2.9.31]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.31) - 2026-06-20
 
 ### Changed
