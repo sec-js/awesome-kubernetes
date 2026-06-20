@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.21]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.21) - 2026-06-20
+
+### Added
+- **README database & lifecycle diagrams**: Added two new collapsible Mermaid diagrams — a **Database Architecture** diagram (§6.1.3) detailing the YAML + SQLite coexistence engine (`inventory.sql` Git source-of-truth → in-memory SQLite → `inventory.yaml` mirror, plus the per-resource schema), and a **full Data Lifecycle** diagram (§6.3) tracing a resource from discovery and ingestion through cached maintenance/enrichment to render and deploy, with background garbage collection.
+
+### Changed
+- **Grouped, compact Technical Tags Index TOC**: The `tags.md` table of contents was a flat 80-entry numbered list that buried the 8 maturity tags under a long tail of one-resource "X Content" language tags. It is now grouped into *Maturity and Quality* (numbered) plus *Technical Domains* / *Language and Format* (compact, count-sorted inline rows). Generator (`v2_optimizer.py`) now emits unique explicit heading anchors (`{#slug}`) shared by the TOC and section headers — fixing collisions where `C` / `C#` / `C++` all resolved to `#c-content` — corrects the `1 resource` grammar, and filters non-language values (`En`, `Not Applicable`, `Multi-Language`, `Polyglot`, …) that previously created meaningless tag buckets.
+- **README mermaid legibility & accuracy**: Fixed text overflow in four diagrams (Division of Labor, Agentic Data Flow, Debate Protocol, Deployment Lifecycle) by wrapping long node labels, removed a duplicate edge, and refreshed the V2 feature documentation with the v2.9.16–v2.9.20 work (Topic Map & Methodology pages, per-page last-updated dates, JSON-LD, branded 404, deterministic generated artifacts).
+
 ## [[2.9.20]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.20) - 2026-06-20
 
 ### Fixed
