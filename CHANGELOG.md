@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.28]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.28) - 2026-06-20
+
+### Changed
+- **Expanded quick-nav bar**: Grew the slim quick-nav bar from 6 to 16 curated one-click destinations, surfacing the principal topics across all of Nubenetes from any page. Added the cloud-native pillars (Kubernetes · Docker · GitOps · Terraform · K8s Security · Observability), the ops disciplines (SRE · DevOps), data/messaging (Message Queue), and MLOps alongside the existing AI & MCP hub. Template-only change to `docs/overrides/main.html` (no CSS change, no page regeneration); reuses the existing `.nb-quicknav__link` styling with `flex-wrap` handling density on narrow viewports. Still under the 18-tab overflow line the bar was designed to avoid. V2-only.
+
 ## [[2.9.27]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.27) - 2026-06-20
 
 ### Added
