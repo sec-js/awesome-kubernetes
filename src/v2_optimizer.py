@@ -1146,9 +1146,10 @@ class V2VisionEngine:
                             break
                 return sel
 
-            def _render_cards(items, show_new=True):
+            def _render_cards(items, show_new=True, extra_from=None):
                 html = ""
-                for item in items:
+                for idx, item in enumerate(items):
+                    extra_cls = " trending-card--extra" if extra_from is not None and idx >= extra_from else ""
                     impact = item.get("impact", "medium")
                     # Momentum: prefer real GitHub star count from the inventory join;
                     # fall back to the 1-5 Gemini impact score rendered as 🌟.
@@ -1163,7 +1164,7 @@ class V2VisionEngine:
                         meta += f" · {metric}"
                     new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if show_new and item.get("_age_days", 999) <= 7 else ""
                     html += (
-                        f'<div class="trending-card">\n'
+                        f'<div class="trending-card{extra_cls}">\n'
                         f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}{new_pill}</div>\n'
                         f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
                         f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{_clean_title(item.get("title", "Unknown"))}</a></div>\n'
@@ -1172,6 +1173,25 @@ class V2VisionEngine:
                         f'</div>\n'
                     )
                 return html
+
+            def _render_lane(title_html, items, lane_id, visible, show_new=True):
+                # Render a lane's grid; if it has more than `visible` cards, wrap the
+                # overflow in a pure-CSS (checkbox-hack) "Show N more" disclosure so
+                # the section stays dense without flooding the page. No JS required.
+                collapsible = len(items) > visible
+                grid = _render_cards(items, show_new=show_new, extra_from=visible if collapsible else None)
+                if not collapsible:
+                    return f'<div class="trending-lane">\n{title_html}\n<div class="trending-grid">\n{grid}</div>\n</div>\n'
+                extra = len(items) - visible
+                return (
+                    f'<div class="trending-lane">\n{title_html}\n'
+                    f'<input type="checkbox" id="{lane_id}" class="trending-toggle">\n'
+                    f'<div class="trending-grid">\n{grid}</div>\n'
+                    f'<label for="{lane_id}" class="trending-showmore">'
+                    f'<span class="trending-showmore__more">▼ Show {extra} more</span>'
+                    f'<span class="trending-showmore__less">▲ Show less</span></label>\n'
+                    f'</div>\n'
+                )
 
             # Proven-staying-power signal for lane 2: URLs that the digest ranks in
             # the top-2 of any category over the full 12-month window.
@@ -1200,10 +1220,11 @@ class V2VisionEngine:
                 decay = 0.5 ** (max(age_days, 0) / 120.0)
                 return _impact(item) * persistence * maturity * (0.45 + 0.55 * decay)
 
-            # Lane 1: fresh momentum (3-month window).
-            top_items = _select_lane("3_months", 6, set(), _fresh_score)
+            # Lane 1: fresh momentum (3-month window). Pull a deep, category-diverse
+            # set; the lane shows the first few and tucks the rest behind "Show more".
+            top_items = _select_lane("3_months", 16, set(), _fresh_score)
             # Lane 2: sustained momentum (6-month window), de-duplicated against lane 1.
-            rising_items = _select_lane("6_months", 4, {it.get("url") for it in top_items}, _sustained_score)
+            rising_items = _select_lane("6_months", 12, {it.get("url") for it in top_items}, _sustained_score)
 
             try:
                 from datetime import datetime as _dt
@@ -1219,13 +1240,12 @@ class V2VisionEngine:
             except Exception:
                 digest_updated = ""
             updated_badge = f'<span class="trending-section__updated">Updated {digest_updated}</span>' if digest_updated else ""
-            cards_html = f'<div class="trending-section">\n<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence {updated_badge}</div>\n<div class="trending-grid">\n'
-            cards_html += _render_cards(top_items)
-            cards_html += '</div>\n'
+            lane1_title = f'<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence {updated_badge}</div>'
+            cards_html = '<div class="trending-section">\n'
+            cards_html += _render_lane(lane1_title, top_items, "trend-expand-now", 9, show_new=True)
             if rising_items:
-                cards_html += '<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>\n<div class="trending-grid">\n'
-                cards_html += _render_cards(rising_items, show_new=False)
-                cards_html += '</div>\n'
+                lane2_title = '<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>'
+                cards_html += _render_lane(lane2_title, rising_items, "trend-expand-rising", 6, show_new=False)
             cards_html += '<div class="digest-links">\n'
             cards_html += '  <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>\n'
             cards_html += '  <a href="./industry-digest/" class="digest-link-card">🌍 Industry & Geo Digest →</a>\n'

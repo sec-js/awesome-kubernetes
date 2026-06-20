@@ -91,7 +91,9 @@
 ## Trending Now
 
 <div class="trending-section">
+<div class="trending-lane">
 <div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Jun 20, 2026</span></div>
+<input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
@@ -135,23 +137,83 @@
   <div class="trending-card__meta">2026-06-14 · 4.7k★</div>
   <div class="trending-card__why">eBPF-powered security observability at the kernel level represents a paradigm shift for Kubernetes runtime enforcement.</div>
 </div>
-</div>
-<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>
-<div class="trending-grid">
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Virtualization & Private Cloud</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/openshift">Openshift Container Platform</a></div>
+  <div class="trending-card__meta">2026-06-14</div>
+  <div class="trending-card__why">Red Hat OpenShift remains the premier enterprise platform integrating traditional virtualization with modern cloud-native workloads.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">Observability, SRE & Testing</div>
   <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
   <div class="trending-card__meta">2026-06-13 · 64.5k★</div>
-  <div class="trending-card__why">Prometheus remains the industry-standard, benchmark telemetry engine for modern cloud-native metrics collection and real-time alerting.</div>
+  <div class="trending-card__why">Serves as the foundational, de-facto standard metrics database and query engine powering the entire cloud-native observability ecosystem.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
   <div class="trending-card__category">CI/CD & GitOps</div>
   <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
   <div class="trending-card__meta">2026-06-13 · 8.2k★</div>
-  <div class="trending-card__why">Flux v2 is a foundational, graduated CNCF GitOps engine engineered specifically for highly decoupled, parallel cluster synchronization.</div>
+  <div class="trending-card__why">Flux v2 is a foundational CNCF graduated project that implements a highly parallelized, modular GitOps controller architecture for enterprise-grade reconciliation.</div>
 </div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
+  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
+  <div class="trending-card__why">Backstage is the industry-standard CNCF framework for building internal developer portals, drastically reducing cognitive load for platform engineering teams.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
+  <div class="trending-card__category">Containers & Runtime</div>
+  <div class="trending-card__title"><a href="https://github.com/containerd/containerd">containerd - An open and reliable container runtime</a></div>
+  <div class="trending-card__meta">2026-06-13 · 20.8k★</div>
+  <div class="trending-card__why">As the industry-standard container runtime for Kubernetes, containerd is foundational for modern cloud-native container execution.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Data, Messaging & Storage</div>
+  <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
+  <div class="trending-card__meta">2026-06-12 · 10.1k★</div>
+  <div class="trending-card__why">The industry-standard open-source solution for Kubernetes disaster recovery, backing up both cluster state and persistent volume data.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://github.com/openshift/hypershift">hypershift: HyperShift</a></div>
+  <div class="trending-card__meta">2026-06-12 · 526★</div>
+  <div class="trending-card__why">Decouples and containerizes the OpenShift control plane, initiating a massive paradigm shift towards faster, more cost-effective multi-cluster management.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Platform Engineering & DevEx</div>
+  <div class="trending-card__title"><a href="https://github.com/Azure/draft">Azure/Draft 🌟</a></div>
+  <div class="trending-card__meta">2026-06-11 · 642★</div>
+  <div class="trending-card__why">Significantly reduces Kubernetes onboarding friction by automatically generating containerization assets and deployment manifests directly from source code.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Architecture & Microservices</div>
+  <div class="trending-card__title"><a href="https://github.com/mfornos/awesome-microservices">Awesome microservices</a></div>
+  <div class="trending-card__meta">2026-06-10 · 14.3k★</div>
+  <div class="trending-card__why">A premier comprehensive directory detailing microservices design patterns, API gateways, and distributed consensus engines necessary for building decoupled systems.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Infrastructure as Code</div>
+  <div class="trending-card__title"><a href="https://www.infoq.com/news/2026/05/opentofu-release-terraform">OpenTofu 1.12: the Feature Terraform Never Shipped</a></div>
+  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
+  <div class="trending-card__why">OpenTofu 1.12 solves a major historical limitation of upstream Terraform by introducing dynamic, modular configurations, representing a significant milestone for the open-source fork.</div>
+</div>
+</div>
+<label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
+</div>
+<div class="trending-lane">
+<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>
+<input type="checkbox" id="trend-expand-rising" class="trending-toggle">
+<div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Linux & System Foundations</div>
@@ -161,11 +223,83 @@
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">DevOps & Culture</div>
-  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
-  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
-  <div class="trending-card__why">It is the de facto industry-standard framework for building customizable internal developer portals, centralizing platform engineering workflows.</div>
+  <div class="trending-card__category">Observability, SRE & Testing</div>
+  <div class="trending-card__title"><a href="https://github.com/open-telemetry/opentelemetry-collector">OpenTelemetry Collector</a></div>
+  <div class="trending-card__meta">2026-06-12 · 7.1k★</div>
+  <div class="trending-card__why">The OpenTelemetry Collector serves as the essential, vendor-agnostic pipeline engine for modern enterprise telemetry collection and routing.</div>
 </div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Networking & Service Mesh</div>
+  <div class="trending-card__title"><a href="https://github.com/kubernetes-sigs/gateway-api">Kubernetes Gateway API</a></div>
+  <div class="trending-card__meta">2026-06-12 · 2.9k★</div>
+  <div class="trending-card__why">This official, highly expressive next-generation routing specification fundamentally replaces the legacy Ingress resource to unify edge and service-mesh configurations.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Security & Compliance</div>
+  <div class="trending-card__title"><a href="https://github.com/hashicorp/vault">hashicorp/vault</a></div>
+  <div class="trending-card__meta">2026-06-12 · 35.8k★</div>
+  <div class="trending-card__why">It is the undisputed industry-standard tool for multi-cloud secrets management, dynamic credential brokering, and zero-trust data protection.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Infrastructure as Code</div>
+  <div class="trending-card__title"><a href="https://www.pulumi.com/releases/agentic-infrastructure-era">The Agentic Infrastructure Era | Pulumi Releases</a></div>
+  <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Introduces a major paradigm shift toward autonomous, agent-driven cloud provisioning and self-healing infrastructure systems.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Data, Messaging & Storage</div>
+  <div class="trending-card__title"><a href="https://strimzi.io">strimzi.io</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">The premier cloud-native operator for running and managing production-grade Apache Kafka clusters on Kubernetes.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">CI/CD & GitOps</div>
+  <div class="trending-card__title"><a href="https://argoproj.github.io/argo-cd">Argo CD</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">Argo CD remains the absolute industry standard for pull-based GitOps reconciliation and continuous delivery on Kubernetes.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Certification & Training</div>
+  <div class="trending-card__title"><a href="https://training.linuxfoundation.org/resources">The Linux Foundation Training</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">As the official home for the CKA, CKAD, and CKS curricula, this is the single most critical training source for cloud-native professionals.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">MLOps & Data Science</div>
+  <div class="trending-card__title"><a href="https://docs.ray.io/en/latest">Ray</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">As the dominant distributed execution framework for AI, Ray is foundational for scaling compute-heavy workloads across cloud-native environments.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">OpenShift / Red Hat</div>
+  <div class="trending-card__title"><a href="https://www.redhat.com/en/technologies/cloud-computing/openshift/aws">Amazon Red Hat OpenShift</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">ROSA is a cornerstone of hybrid-cloud enterprise strategy, delivering a fully-managed, native OpenShift experience directly integrated into AWS.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">GCP, OCI & Others</div>
+  <div class="trending-card__title"><a href="https://cloud.google.com/blog/products/identity-security/how-to-authenticate-service-accounts-to-help-keep-applications-secure">Choose the best way to use and authenticate service accounts on Google Cloud</a></div>
+  <div class="trending-card__meta">2026-06-01</div>
+  <div class="trending-card__why">Secures Kubernetes workloads on GCP by leveraging Workload Identity, eliminating the high risk of managing long-lived service account keys.</div>
+</div>
+<div class="trending-card trending-card--extra">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Platform Engineering & DevEx</div>
+  <div class="trending-card__title"><a href="https://backstage.io">Backstage Developer Portal:</a></div>
+  <div class="trending-card__meta">2026-06-01 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">As the premier CNCF project for building internal developer portals, Backstage is the industry-standard foundation for enterprise Platform Engineering and DevEx.</div>
+</div>
+</div>
+<label for="trend-expand-rising" class="trending-showmore"><span class="trending-showmore__more">▼ Show 6 more</span><span class="trending-showmore__less">▲ Show less</span></label>
 </div>
 <div class="digest-links">
   <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>
