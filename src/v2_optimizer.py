@@ -1074,7 +1074,16 @@ class V2VisionEngine:
             # --- Trending v2: momentum-weighted, category-diverse selection ---
             # Score = impact_weight * recency_decay so the section actually rotates
             # with fresh items instead of pinning evergreen/foundational tools.
+            # Anchor "now" to the digest's analysis timestamp (not wall-clock) so
+            # identical digest input always renders identical cards — re-renders on
+            # later days must not shuffle ages/NEW pills and churn the committed HTML.
             now = datetime.now(MADRID_TZ)
+            try:
+                raw_now = digest_data.get("_meta", {}).get("last_updated", "")
+                if raw_now:
+                    now = datetime.fromisoformat(raw_now)
+            except Exception as e:
+                log_event(f"[WARN] trending now-anchor: {str(e)[:100]}")
             impact_weight = {"critical": 1.0, "high": 0.66, "medium": 0.4}
             impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
 
@@ -1104,20 +1113,18 @@ class V2VisionEngine:
                     return f"{n / 1000:.1f}k★".replace(".0k", "k")
                 return f"{n}★"
 
-            def _select_lane(window_key, half_life, count, exclude_urls):
-                # Score = impact_weight * recency_decay over the given window; an
-                # aggressive half-life surfaces fresh items ("Trending Now"), a soft
-                # one favours sustained importance ("Rising this Quarter").
+            def _select_lane(window_key, count, exclude_urls, score_fn):
+                # Build a scored pool from the window's top-2 items per category,
+                # then apply a per-category diversity quota. The scoring policy is
+                # supplied by score_fn so each lane surfaces a different signal.
                 pool = []
                 for cat_name, items in digest_data.get(window_key, {}).items():
-                    for item in items[:2]:
-                        if item.get("url") in exclude_urls:
+                    for item in (items or [])[:2]:
+                        if not isinstance(item, dict) or item.get("url") in exclude_urls:
                             continue
                         d = _parse_day(item.get("date"))
                         age_days = (now.date() - d).days if d else 999
-                        recency = 0.5 ** (max(age_days, 0) / half_life)
-                        score = impact_weight.get(item.get("impact", "medium"), 0.4) * (0.35 + 0.65 * recency)
-                        pool.append({**item, "digest_category": cat_name, "_age_days": age_days, "_score": score})
+                        pool.append({**item, "digest_category": cat_name, "_age_days": age_days, "_score": score_fn(item, age_days)})
                 pool.sort(key=lambda x: x["_score"], reverse=True)
                 # Diversity quota: at most one card per category, then backfill.
                 sel, used_cats, used = [], set(), set(exclude_urls)
@@ -1139,7 +1146,7 @@ class V2VisionEngine:
                             break
                 return sel
 
-            def _render_cards(items):
+            def _render_cards(items, show_new=True):
                 html = ""
                 for item in items:
                     impact = item.get("impact", "medium")
@@ -1154,7 +1161,7 @@ class V2VisionEngine:
                     meta = item.get("date", "")
                     if metric:
                         meta += f" · {metric}"
-                    new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if item.get("_age_days", 999) <= 7 else ""
+                    new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if show_new and item.get("_age_days", 999) <= 7 else ""
                     html += (
                         f'<div class="trending-card">\n'
                         f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}{new_pill}</div>\n'
@@ -1166,11 +1173,37 @@ class V2VisionEngine:
                     )
                 return html
 
-            # Lane 1: fresh momentum (3-month window, 21d half-life).
-            top_items = _select_lane("3_months", 21.0, 6, set())
-            # Lane 2: sustained importance (6-month window, soft 60d decay),
-            # de-duplicated against lane 1 so it surfaces different resources.
-            rising_items = _select_lane("6_months", 60.0, 4, {it.get("url") for it in top_items})
+            # Proven-staying-power signal for lane 2: URLs that the digest ranks in
+            # the top-2 of any category over the full 12-month window.
+            twelve_mo_urls = {
+                it.get("url")
+                for items in digest_data.get("12_months", {}).values()
+                for it in (items or [])
+                if isinstance(it, dict)
+            }
+
+            def _impact(item):
+                return impact_weight.get(item.get("impact", "medium"), 0.4)
+
+            def _fresh_score(item, age_days):
+                # Aggressive 21d half-life: surfaces the very newest high-impact items.
+                recency = 0.5 ** (max(age_days, 0) / 21.0)
+                return _impact(item) * (0.35 + 0.65 * recency)
+
+            def _sustained_score(item, age_days):
+                # "Rising this Quarter": reward proven staying power (present across
+                # the 12-month window) and de-prioritise <7d items (those belong in
+                # lane 1) so the two lanes surface genuinely different resources —
+                # not just lane 1's leftovers under a different label.
+                persistence = 1.0 if item.get("url") in twelve_mo_urls else 0.5
+                maturity = 0.35 if age_days < 7 else 1.0
+                decay = 0.5 ** (max(age_days, 0) / 120.0)
+                return _impact(item) * persistence * maturity * (0.45 + 0.55 * decay)
+
+            # Lane 1: fresh momentum (3-month window).
+            top_items = _select_lane("3_months", 6, set(), _fresh_score)
+            # Lane 2: sustained momentum (6-month window), de-duplicated against lane 1.
+            rising_items = _select_lane("6_months", 4, {it.get("url") for it in top_items}, _sustained_score)
 
             try:
                 from datetime import datetime as _dt
@@ -1191,7 +1224,7 @@ class V2VisionEngine:
             cards_html += '</div>\n'
             if rising_items:
                 cards_html += '<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>\n<div class="trending-grid">\n'
-                cards_html += _render_cards(rising_items)
+                cards_html += _render_cards(rising_items, show_new=False)
                 cards_html += '</div>\n'
             cards_html += '<div class="digest-links">\n'
             cards_html += '  <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>\n'
