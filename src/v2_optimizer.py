@@ -1741,18 +1741,24 @@ class V2VisionEngine:
                 "nav:",
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
-                "  - \"Topic Map\": topic-map.md",
-                "  - \"Methodology\": methodology.md",
-                "  - \"Technical Tags\": tags.md",
+                # Topic Map is a collapsible hub for the three site-orientation
+                # pages (the map itself + how it's built + the tag index), with
+                # topic-map.md as its section index (navigation.indexes).
+                "  - \"Topic Map\":",
+                "    - topic-map.md",
+                "    - \"Methodology\": methodology.md",
+                "    - \"Technical Tags\": tags.md",
+                # Videos: prominent top-level dropdown, kept high in the nav with
+                # its category subpages as children.
+                "  - \"Agentic Video Hub\":",
+                "    - videos/index.md",
+                "    - \"AI Agents and MCP\": videos/ai-agents.md",
+                "    - \"DevOps, IaC, and SRE\": videos/devops-iac.md",
+                "    - \"Cloud Native Core\": videos/cloud-native.md",
+                "    - \"Fundamentals\": videos/fundamentals.md",
                 "  - \"Intelligence Digest\":",
                 "    - \"Tech & Cloud Digest\": tech-digest.md",
-                "    - \"Industry & Geo Digest\": industry-digest.md",
-                "  - \"Agentic Video Hub\":",
-                "      - videos/index.md",
-                "      - \"AI Agents and MCP\": videos/ai-agents.md",
-                "      - \"DevOps, IaC, and SRE\": videos/devops-iac.md",
-                "      - \"Cloud Native Core\": videos/cloud-native.md",
-                "      - \"Fundamentals\": videos/fundamentals.md"
+                "    - \"Industry & Geo Digest\": industry-digest.md"
             ]
 
             dim_groups = {}

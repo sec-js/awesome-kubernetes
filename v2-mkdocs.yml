@@ -154,15 +154,16 @@ markdown_extensions:
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/v1/
   - "The 2026 Vision": index.md
-  - "Topic Map": topic-map.md
-  - "Methodology": methodology.md
-  - "Technical Tags": tags.md
+  - "Topic Map":
+    - topic-map.md
+    - "Methodology": methodology.md
+    - "Technical Tags": tags.md
   - "Agentic Video Hub":
-      - videos/index.md
-      - "AI Agents and MCP": videos/ai-agents.md
-      - "DevOps, IaC, and SRE": videos/devops-iac.md
-      - "Cloud Native Core": videos/cloud-native.md
-      - "Fundamentals": videos/fundamentals.md
+    - videos/index.md
+    - "AI Agents and MCP": videos/ai-agents.md
+    - "DevOps, IaC, and SRE": videos/devops-iac.md
+    - "Cloud Native Core": videos/cloud-native.md
+    - "Fundamentals": videos/fundamentals.md
   - "Intelligence Digest":
     - "Tech & Cloud Digest": tech-digest.md
     - "Industry & Geo Digest": industry-digest.md
