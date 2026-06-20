@@ -1338,9 +1338,11 @@ input[type="text"] {
 #nb-pop-dev      { position-anchor: --nb-a-dev; }
 [popovertarget="nb-pop-more"]     { anchor-name: --nb-a-more; }
 #nb-pop-more     { position-anchor: --nb-a-more; }
-/* nested AWS submenu anchors to its in-menu trigger */
+/* nested submenus anchor to their in-menu trigger */
 [popovertarget="nb-pop-aws"]      { anchor-name: --nb-a-aws; }
 #nb-pop-aws      { position-anchor: --nb-a-aws; }
+[popovertarget="nb-pop-ocp"]      { anchor-name: --nb-a-ocp; }
+#nb-pop-ocp      { position-anchor: --nb-a-ocp; }
 .nb-quicknav__menu {
   inset: auto; /* reset the UA-centered popover defaults */
   margin: 0;
@@ -1407,14 +1409,25 @@ input[type="text"] {
 /* Two-column layout for long menus (e.g. Kubernetes, 22 items) so they stay
    short enough to show in full WITHOUT a scrollbar — the scrollable tall popover
    was unreliable. Multicol is column-major, so reading order is preserved. */
+/* Deterministic 2-column layout (column-major grid) so the menu height equals
+   the row count exactly — no balancing remainder, hence no stray scrollbar.
+   11 rows × 2 cols fits the 22 top-level Kubernetes entries. */
 .nb-quicknav__menu--cols {
-  display: block;
-  column-count: 2;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(11, auto);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 0.4rem;
   min-width: 22rem;
+  /* a 2-column menu (~370px) always fits below the sticky bar, so never
+     scroll — avoids the sub-pixel grid/overflow scrollbar entirely */
+  max-height: none;
+  overflow: visible;
 }
-.nb-quicknav__menu--cols a {
-  break-inside: avoid;
+/* the submenu wrapper must be a real block (not display:contents) so its
+   trigger occupies one grid cell cleanly */
+.nb-quicknav__menu--cols .nb-quicknav__subwrap {
+  display: block;
 }
 
 /* ── Nested submenu (e.g. Cloud → AWS ▸ → AWS pages) ──
