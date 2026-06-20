@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.19]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.19) - 2026-06-20
+
+### Fixed
+- **Deterministic RSS `lastBuildDate` (residual develop↔master drift)**: `src/rss_generator.py` set the feed's `<lastBuildDate>` to `datetime.utcnow()`, so every republish rewrote it even when the digest was unchanged — leaving a perpetual 1-line diff in `v2-docs/feed.xml` (the last residual after the PR Guardian drift fix in 2.9.18). It now derives the date from the digest's `_meta.last_updated` (the actual analysis timestamp), falling back to the most recent item date then a fixed constant, making the feed a pure function of its input. Verified byte-identical output across repeated runs; the feed now changes only when the digest content actually changes.
+- **In-page filter no longer injected on Topic Map & Methodology**: The resource search / maturity-tag widget (`static/v2_filter.js`) auto-injects wherever a page has `<ul><li>` items. Topic Map lists category links (with counts) and Methodology lists legend rows — neither carries `.md-tag` maturity tags, so the pills always filtered to zero and the "Showing X of Y resources" counter mis-counted categories/rows as resources. Added both pages to the widget's existing `<h1>`-based skip-list (alongside the home, Video Hub, Tags and Digest pages). Cache-bust `v2_filter.js?v=2.9.19`.
+
 ## [[2.9.18]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.18) - 2026-06-20
 
 ### Added
