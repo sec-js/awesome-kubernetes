@@ -58,6 +58,13 @@ theme:
 
 plugins:
   - search
+  # "Last updated" per-page date (freshness signal for SEO + reader trust).
+  # Needs full git history (fetch-depth: 0 in 06.deploy_final.yml); falls back
+  # to the build date when history is unavailable so the build never fails.
+  - git-revision-date-localized:
+      enable_creation_date: false
+      type: date
+      fallback_to_build_date: true
   - privacy
   - social:
       cards: true

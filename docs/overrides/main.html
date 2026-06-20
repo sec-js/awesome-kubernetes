@@ -3,3 +3,51 @@
 {% block announce %}
   <strong>New:</strong> <a href="./tech-digest/">Intelligence Digest</a> — AI-curated trending resources across 26 categories
 {% endblock %}
+
+{#-
+  JSON-LD structured data (schema.org) for richer search results: declares the
+  WebSite (with a sitelinks SearchAction) and the publishing Organization.
+  Only the V2 portal uses this overrides dir (custom_dir: docs/overrides), so
+  this injects on the canonical nubenetes.com root; V1 uses the stock theme.
+-#}
+{% block extrahead %}
+  {{ super() }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://nubenetes.com/#website",
+        "url": "https://nubenetes.com/",
+        "name": "Nubenetes",
+        "description": "AI-curated portal for the modern Cloud Native ecosystem: high-density, ranked selection of top-tier Kubernetes, DevOps and Cloud resources.",
+        "publisher": { "@id": "https://nubenetes.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://nubenetes.com/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://nubenetes.com/#organization",
+        "name": "Nubenetes",
+        "url": "https://nubenetes.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://nubenetes.com/images/favicon-ultra.png"
+        },
+        "sameAs": [
+          "https://github.com/nubenetes/awesome-kubernetes",
+          "https://twitter.com/nubenetes",
+          "https://www.linkedin.com/groups/1937212/"
+        ]
+      }
+    ]
+  }
+  </script>
+{% endblock %}
