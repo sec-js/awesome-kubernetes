@@ -5,27 +5,6 @@
 
 Welcome to the **AI Agents and MCP** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
-## Table of Contents
-
-1. [Red Hat OpenShift](#red-hat-openshift)
-2. [Grafana Assistant Claude Code Grafana MCP Server](#grafana-assistant-claude-code-grafana-mcp-server)
-3. [Generative AI and Large Language Models](#generative-ai-and-large-language-models)
-4. [Red Hat OpenShift AI](#red-hat-openshift-ai)
-5. [Claude Code](#claude-code)
-6. [Neural Networks](#neural-networks)
-7. [LLM Architecture and Post-Training](#llm-architecture-and-post-training)
-8. [Agentic DevOps](#agentic-devops)
-9. [AI Agents and Observability](#ai-agents-and-observability)
-10. [DevOps AI Agents](#devops-ai-agents)
-11. [SRE AI Agents](#sre-ai-agents)
-12. [AI Agents Distributed ML Operations](#ai-agents-distributed-ml-operations)
-13. [IAM AI Agents](#iam-ai-agents)
-14. [LLMs AI Agents MLOps](#llms-ai-agents-mlops)
-15. [MLOps AI Agents](#mlops-ai-agents)
-16. [Firebase Genkit Gemini AI Agents](#firebase-genkit-gemini-ai-agents)
-17. [Android Gemini AI](#android-gemini-ai)
-18. [Mobile Cloud Integration AI Agents](#mobile-cloud-integration-ai-agents)
-
 ## Red Hat OpenShift
 
 ??? note "🎬 Thursday morning general session - May 9 - Red Hat Summit 2019"
