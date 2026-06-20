@@ -1113,6 +1113,7 @@ class V2VisionEngine:
             "    </div>\n"
             "  </a>\n"
             "</div>\n\n"
+            "## Explore the Ecosystem\n\n"
             "<div class=\"hero-badge-row\">\n"
             "  <a href=\"./kubernetes/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--cyan\">\n"
@@ -1163,6 +1164,7 @@ class V2VisionEngine:
             f"{coverage_info}\n\n"
             # Altitude fix: surface the fresh, dynamic Trending/Digest BEFORE the
             # signature YouTube mosaic (which now closes the page as a brand showcase).
+            "## Trending Now\n\n"
             f"{pulse_md}\n\n"
             "## The Cloud Native Universe We Track\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"

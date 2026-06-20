@@ -34,7 +34,8 @@ theme:
     # standard vertical list and stays populated on every page incl. home.
     - navigation.top
     - navigation.tracking
-    - navigation.sections
+    # navigation.sections disabled: render top-level as COLLAPSIBLE nested
+    # sections (chevron + indentation) instead of flat group labels.
     # navigation.expand intentionally disabled: with ~169 nav entries it forced
     # every section open (heavy DOM, overwhelming). The Topic Map page now serves
     # as the full directory; the left nav stays collapsed and scannable.
@@ -51,7 +52,8 @@ theme:
     - content.action.view
     - content.action.edit
     - content.tooltips
-    - navigation.prune
+    # navigation.prune disabled: keep all children in the HTML so any section
+    # can expand (prune removed inactive children, leaving a flat list).
     # toc.integrate removed: show the native sticky "On this page" TOC in the
     # right sidebar instead of merging headings into the left nav. This replaces
     # the per-page Markdown "## Table of Contents" we no longer render.
