@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.20]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.20) - 2026-06-20
+
+### Fixed
+- **RSS feed drift fully eliminated**: The 2.9.19 fix derived the feed's `<lastBuildDate>` from `_meta.last_updated`, but that analysis timestamp is bumped on every publish even when the ranked content is unchanged, so `v2-docs/feed.xml` still drifted between `develop` and `master`. `src/rss_generator.py` now derives `lastBuildDate` from the **freshest item's content date** (the items only change when the ranking actually changes), with `_meta.last_updated`/a constant as fallbacks. Verified deterministic across reruns, and the `develop` and `master` digests both yield `2026-06-18` — so `feed.xml` is now byte-identical across branches and no longer spawns no-op promotion diffs.
+
 ## [[2.9.19]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.19) - 2026-06-20
 
 ### Fixed
