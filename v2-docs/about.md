@@ -11,9 +11,9 @@
 !!! quote "The Positive Sum Game"
     ==*"Open Source is most successful when is played as a positive sum game" (Sarah Novotny)*==
 
-<div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin: 24px 0;">
-  <iframe width="480" height="270" src="https://www.youtube.com/embed/GZl7N8sXyEo" title="Cowboy Bebop - Tank!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <iframe width="480" height="270" src="https://www.youtube.com/embed/t_hdOVsdRSE" title="Jimmy Sax - Time" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="video-embed-grid">
+  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/GZl7N8sXyEo" title="Cowboy Bebop - Tank!" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+  <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/t_hdOVsdRSE" title="Jimmy Sax - Time" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
 </div>
 
 ### 1. The Genesis: Munich 2018
