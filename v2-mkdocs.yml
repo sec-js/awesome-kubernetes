@@ -29,12 +29,10 @@ theme:
         icon: material/shield-moon-outline
         name: Switch to dark mode
   features:
-    # navigation.tabs: top-level sections render as a top tab bar AND the left
-    # sidebar stays, scoped to the active tab. With ~16 top-level sections the
-    # bar can overflow on narrow viewports; Material handles that with a
-    # horizontal scroll, and .sticky keeps the bar pinned while scrolling.
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # navigation.tabs / .sticky disabled: a top tab bar forces Material to scope
+    # the left sidebar to the active tab only, which breaks the always-populated
+    # vertical list we want. The left sidebar handles all sections as a standard
+    # collapsible list and stays populated on every page incl. home.
     - navigation.top
     - navigation.tracking
     # navigation.sections disabled: render top-level as COLLAPSIBLE nested
@@ -157,10 +155,11 @@ markdown_extensions:
 nav:
   - "🔙 Back to V1 (Exhaustive)": https://nubenetes.com/v1/
   - "The 2026 Vision": index.md
-  - "Topic Map":
-    - topic-map.md
+  - "Portal Guide":
+    - "Topic Map": topic-map.md
     - "Methodology": methodology.md
     - "Technical Tags": tags.md
+    - "About": about.md
   - "Agentic Video Hub":
     - videos/index.md
     - "AI Agents and MCP": videos/ai-agents.md
@@ -176,7 +175,6 @@ nav:
     - "ChatGPT": chatgpt.md
     - "MLOps": mlops.md
   - "Architectural Foundations":
-    - "About": about.md
     - "Cheatsheets": cheatsheets.md
     - "Cloud Arch Diagrams": cloud-arch-diagrams.md
     - "Cloud Asset Inventory": cloud-asset-inventory.md
