@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.34]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.34) - 2026-06-20
+
+### Changed
+- **AWS page de-fragmentation + provider hub**: The AWS landing page rendered with only ~3 links because AWS content was split across ~20 granular pages (Azure/GCP use a single rich page each), many with just 1-5 links. Two generator changes in `src/v2_optimizer.py` fix this: (A) `aws.md` now renders a "Deep-Dive Topic Pages" hub linking to the substantial sub-pages that remain (Serverless · Storage · Networking · Security · IaC · Backup · New Features) via a new `subpage_hubs` map; (B) the near-empty / junk-drawer AWS sub-pages (≤7 links + "miscellaneous": aws-pricing, aws-training, aws-data, aws-messaging, aws-tools-scripts, aws-monitoring, aws-architecture, aws-containers, aws-devops, aws-databases, aws-miscellaneous) merge into `aws.md` via the existing `merge_map`, with their slugs removed from `dimensions` so the pipeline prunes the orphans and auto-syncs the nav. Verified with `--render-only`: aws.md goes from 3 to 44 links plus the 7-child hub. V1 (`docs/`) is untouched by design (exhaustive archive + merge source). Generator-only; the AWS pages are republished on the next curation run.
+
 ## [[2.9.33]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.33) - 2026-06-20
 
 ### Added
