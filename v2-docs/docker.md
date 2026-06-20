@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Docker resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, jib and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 

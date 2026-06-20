@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Java_App_Servers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, WildFly and more — curated Cloud Native tools, guides and references."
 ---
 # Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes
 

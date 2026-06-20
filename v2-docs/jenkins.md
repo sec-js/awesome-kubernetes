@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Jenkins resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Example of JCasC and more — curated Cloud Native tools, guides and references."
 ---
 # Jenkins and CloudBees
 

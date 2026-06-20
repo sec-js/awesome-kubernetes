@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Demos resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Demos resources for 2026, AI-ranked: OpenShift AI Examples, knative-tutorial and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Demos. Boilerplates/Samples, Tutorials and Screencasts
 

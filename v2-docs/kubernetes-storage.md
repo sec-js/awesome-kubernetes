@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Storage resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Kubernetes Storage resources for 2026, AI-ranked: Longhorn, Kadalu and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Storage. Cloud Native Storage
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked AI resources for the 2026 Cloud Native architect: top-tier tools, guides and references (AI)."
+description: "Top AI resources for 2026, AI-ranked: Claude Code Templates, Skills for Real Engineers and more — curated Cloud Native tools, guides and references."
 ---
 # Artificial Intelligence
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked OCP 4 resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top OCP 4 resources for 2026, AI-ranked: Descheduler for Kubernetes, GitHub Quay (OSS) and more — curated Cloud Native tools, guides and references."
 ---
 # OCP 4
 

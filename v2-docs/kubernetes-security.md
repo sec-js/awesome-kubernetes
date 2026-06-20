@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Security resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+description: "Top Kubernetes Security resources for 2026, AI-ranked: Tetragon (Cilium), Kubernetes Goat and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Security
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked SRE resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, OpenSLO specification and more — curated Cloud Native tools, guides and references."
 ---
 # Site Reliability Engineering (SRE)
 

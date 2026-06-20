@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked DevOps resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+description: "Top DevOps resources for 2026, AI-ranked: Skills for Real Engineers, NoOps and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps
 

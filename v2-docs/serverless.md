@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Serverless resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless, OpenFaaS and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 

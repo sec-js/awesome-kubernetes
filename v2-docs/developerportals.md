@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Developerportals resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+description: "Top Developerportals resources for 2026, AI-ranked: Backstage Developer Portal, apisix and more — curated Cloud Native tools, guides and references."
 ---
 # API Marketplaces. API Management with API Gateways and Developer Portals
 

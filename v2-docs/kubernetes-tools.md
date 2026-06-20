@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Kubernetes Tools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kadalu and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 

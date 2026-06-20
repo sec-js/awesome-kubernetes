@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Yaml resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+description: "Top Yaml resources for 2026, AI-ranked: Kubectl output options, Kapitan and more — curated Cloud Native tools, guides and references."
 ---
 # YAML and JSON. Templating YAML with YAML Processors. Static Checking of Kubernetes YAML Files
 

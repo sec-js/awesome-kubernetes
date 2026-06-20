@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Visual Studio resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Visual Studio resources for 2026, AI-ranked: Docker, Kubernetes (by Microsoft) and more — curated Cloud Native tools, guides and references."
 ---
 # Visual Studio Code
 

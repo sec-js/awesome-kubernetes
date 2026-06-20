@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked About resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+description: "Top About resources for 2026, AI-ranked: Postman, AWX and more — curated Cloud Native tools, guides and references."
 ---
 # About Nubenetes
 

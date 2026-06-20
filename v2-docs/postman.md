@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Postman resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt and more — curated Cloud Native tools, guides and references."
 ---
 # Test Automation with Postman. API Testing
 

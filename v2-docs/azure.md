@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Azure resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft - DICOM Service and more — curated Cloud Native tools, guides and references."
 ---
 # Microsoft Azure
 

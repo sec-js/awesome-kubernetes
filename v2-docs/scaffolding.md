@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Scaffolding resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+description: "Top Scaffolding resources for 2026, AI-ranked: Maven, jhipster and more — curated Cloud Native tools, guides and references."
 ---
 # Scaffolding Tools
 

@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Golang resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+description: "Top Golang resources for 2026, AI-ranked: Awesome Go, Dapr and more — curated Cloud Native tools, guides and references."
 ---
 # Golang - Go
 
