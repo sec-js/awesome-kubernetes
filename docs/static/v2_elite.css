@@ -177,6 +177,62 @@ html {
 }
 
 /* ---------------------------------------------------- */
+/* LABEL HEATMAP (Confluence-style popular-labels cloud) */
+/* ---------------------------------------------------- */
+
+.v2-tag-heatmap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.7rem;
+  align-items: baseline;
+  padding: 1.1rem 1.2rem;
+  margin: 1rem 0 1.75rem;
+  border: 1px solid rgba(38, 50, 56, 0.12);
+  border-radius: 10px;
+  background: rgba(38, 50, 56, 0.04);
+}
+
+[data-md-color-scheme="slate"] .v2-tag-heatmap {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.v2-heat-tag {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2em;
+  line-height: 1.1;
+  font-weight: 600;
+  text-decoration: none;
+  color: #455a64;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.v2-heat-tag:hover {
+  transform: translateY(-1px);
+  color: var(--md-accent-fg-color);
+}
+
+.v2-heat-n {
+  font-size: 0.6em;
+  font-weight: 700;
+  opacity: 0.55;
+  vertical-align: super;
+}
+
+/* Size + warmth ramp: level 1 = least used, level 6 = most used. */
+.v2-heat-1 { font-size: 0.8rem;  opacity: 0.7; }
+.v2-heat-2 { font-size: 0.95rem; }
+.v2-heat-3 { font-size: 1.15rem; }
+.v2-heat-4 { font-size: 1.45rem; }
+.v2-heat-5 { font-size: 1.8rem;  color: #ef6c00; }
+.v2-heat-6 { font-size: 2.25rem; color: #d84315; font-weight: 700; }
+
+[data-md-color-scheme="slate"] .v2-heat-tag { color: #b0bec5; }
+[data-md-color-scheme="slate"] .v2-heat-5 { color: #ffb74d; }
+[data-md-color-scheme="slate"] .v2-heat-6 { color: #ff8a65; }
+
+/* ---------------------------------------------------- */
 /* MICRO-ANIMATIONS & HOVER STATES                      */
 /* ---------------------------------------------------- */
 

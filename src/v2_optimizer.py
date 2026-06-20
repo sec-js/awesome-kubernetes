@@ -1,6 +1,7 @@
 import os
 import re
 import json
+import math
 import hashlib
 import asyncio
 import yaml
@@ -1636,6 +1637,40 @@ class V2VisionEngine:
             [t for t in sorted_tags if t not in standard_order and not t.endswith("CONTENT]")],
             key=lambda t: -tag_meta[t]["count"],
         )
+
+        # Label Heatmap (Confluence-style "popular labels" cloud): every label is
+        # listed alphabetically and sized/coloured by how many resources carry it,
+        # so the most-used tags read biggest/warmest. Clicking jumps to the section.
+        # Sizing uses a LOG scale because counts span ~1..2800; a linear scale would
+        # collapse everything except the few giant maturity tags into the smallest
+        # bucket. Six levels map onto the .v2-heat-1..6 CSS ramp.
+        _heat_counts = [tag_meta[t]["count"] for t in sorted_tags]
+        if _heat_counts:
+            _cmin, _cmax = min(_heat_counts), max(_heat_counts)
+            _lmin, _lmax = math.log(_cmin), math.log(_cmax)
+
+            def _heat_level(count):
+                if _lmax == _lmin:
+                    return 3
+                frac = (math.log(count) - _lmin) / (_lmax - _lmin)
+                return 1 + round(frac * 5)  # 1..6
+
+            md += "## Label Heatmap\n\n"
+            md += (
+                "Bigger, warmer labels cover more resources. "
+                "Click any label to jump to its section below.\n\n"
+            )
+            md += '<div class="v2-tag-heatmap">\n'
+            for t in sorted(sorted_tags, key=lambda x: tag_meta[x]["display"].lower()):
+                m = tag_meta[t]
+                disp = m["display"].replace(" Content", "")
+                lvl = _heat_level(m["count"])
+                md += (
+                    f'<a class="v2-heat-tag v2-heat-{lvl}" href="#{m["slug"]}" '
+                    f'title="{m["count"]} resources">{disp}'
+                    f'<span class="v2-heat-n">{m["count"]}</span></a>\n'
+                )
+            md += "</div>\n\n"
 
         # Build a grouped TOC: maturity as a clean numbered list; domains and the
         # language/format tail as compact, count-sorted inline pill rows.
