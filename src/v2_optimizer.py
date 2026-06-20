@@ -1142,6 +1142,18 @@ class V2VisionEngine:
             "    - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.\n"
         )
 
+        # Label Heatmap for the index: identical tag aggregation to the Tags page
+        # (deterministic slugs), but each label deep-links across to /tags/#slug.
+        heat_sorted, heat_meta, _ = self._aggregate_tags(data)
+        index_heatmap = self._render_tag_heatmap(
+            heat_sorted, heat_meta, href_base="/tags/",
+            intro=(
+                "Every technical label across Nubenetes, sized by how many "
+                "resources carry it. Click any label to open it on the "
+                "[Technical Tags](/tags/) page."
+            ),
+        )
+
         index_md = (
             "# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
             "!!! tip \"Nubenetes V2 Elite Portal: AI-Curated & High-Density\"\n"
@@ -1220,6 +1232,9 @@ class V2VisionEngine:
             f"{pulse_md}\n\n"
             "## The Cloud Native Universe We Track\n\n"
             f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            # Label Heatmap: full tag cloud sized by resource count, deep-linking
+            # to the matching section on the Technical Tags page (cross-page).
+            f"{index_heatmap}"
             "---\n\n"
             "**Reference:** [🗺️ Full Topic Map](./topic-map/) · "
             "[📐 Methodology &amp; Maturity Taxonomy](./methodology/) · "
@@ -1535,7 +1550,16 @@ class V2VisionEngine:
             if md != existing_content:
                 with open(target_path, "w") as f: f.write(md)
 
-    async def _generate_global_tag_index(self, v2_structure: Dict[str, Dict]):
+    def _aggregate_tags(self, v2_structure: Dict[str, Dict]):
+        """Collect every active resource's tags into deterministic, slug-stable
+        metadata shared by the Technical Tags page and the index Label Heatmap.
+
+        Returns (sorted_tags, tag_meta, by_tag) where tag_meta[tag] holds
+        ``display``, ``slug``, ``count`` and ``kind`` (maturity | language |
+        domain). The slug logic is identical to (and deterministic with) what the
+        Tags page renders, so the heatmap on the index can deep-link to the right
+        ``/tags/#slug`` section even though it is generated in a separate pass.
+        """
         active_links = {}
         def collect_links(node):
             if "__links__" in node:
@@ -1579,23 +1603,10 @@ class V2VisionEngine:
             "[LEGACY]",
             "[SPANISH CONTENT]"
         ]
-        
-        sorted_tags = []
-        for st in standard_order:
-            if st in by_tag:
-                sorted_tags.append(st)
-        
-        custom_tags = sorted([t for t in by_tag.keys() if t not in standard_order])
-        sorted_tags.extend(custom_tags)
 
-        md = (
-            "# Technical Tags Index\n\n"
-            "!!! tip \"Nubenetes V2 Elite Portal\"\n"
-            "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).\n\n"
-            "!!! info \"Universal Tag Index\"\n"
-            "    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
-        )
-        
+        sorted_tags = [st for st in standard_order if st in by_tag]
+        sorted_tags.extend(sorted(t for t in by_tag.keys() if t not in standard_order))
+
         # Precompute display name + UNIQUE slug for every tag, shared by both the
         # grouped TOC and the section headers so anchors always match. This fixes
         # collisions where C / C# / C++ all slugged to "c-content" (broken links).
@@ -1618,59 +1629,91 @@ class V2VisionEngine:
             _seen_slugs.add(s)
             return s
 
+        def _tag_kind(tag):
+            if tag in standard_order:
+                return "maturity"
+            if tag.endswith("CONTENT]"):
+                return "language"
+            return "domain"
+
         tag_meta = {
-            tag: {"display": _tag_display(tag), "slug": _tag_slug(tag), "count": len(by_tag[tag])}
+            tag: {
+                "display": _tag_display(tag),
+                "slug": _tag_slug(tag),
+                "count": len(by_tag[tag]),
+                "kind": _tag_kind(tag),
+            }
             for tag in sorted_tags
         }
+        return sorted_tags, tag_meta, by_tag
+
+    def _render_tag_heatmap(self, sorted_tags, tag_meta, href_base: str = "", intro: str = None) -> str:
+        """Confluence-style "popular labels" Label Heatmap: every label is listed
+        alphabetically and sized/coloured by how many resources carry it, so the
+        most-used tags read biggest/warmest. Sizing uses a LOG scale because counts
+        span ~1..2800; a linear scale would collapse everything except the few giant
+        maturity tags into the smallest bucket. Six levels map onto .v2-heat-1..6.
+
+        ``href_base`` is prefixed before each ``#slug`` so the same cloud can live on
+        the Tags page (same-page anchors, "") or the index (cross-page, "/tags/").
+        """
+        counts = [tag_meta[t]["count"] for t in sorted_tags]
+        if not counts:
+            return ""
+        lmin, lmax = math.log(min(counts)), math.log(max(counts))
+
+        def _heat_level(count):
+            if lmax == lmin:
+                return 3
+            return 1 + round((math.log(count) - lmin) / (lmax - lmin) * 5)  # 1..6
+
+        if intro is None:
+            intro = (
+                "Bigger, warmer labels cover more resources. "
+                "Click any label to jump to its section below."
+            )
+        md = f"## Label Heatmap\n\n{intro}\n\n"
+        md += '<div class="v2-tag-heatmap">\n'
+        for t in sorted(sorted_tags, key=lambda x: tag_meta[x]["display"].lower()):
+            m = tag_meta[t]
+            disp = m["display"].replace(" Content", "")
+            lvl = _heat_level(m["count"])
+            md += (
+                f'<a class="v2-heat-tag v2-heat-{lvl}" href="{href_base}#{m["slug"]}" '
+                f'title="{m["count"]} resources">{disp}'
+                f'<span class="v2-heat-n">{m["count"]}</span></a>\n'
+            )
+        md += "</div>\n\n"
+        return md
+
+    async def _generate_global_tag_index(self, v2_structure: Dict[str, Dict]):
+        sorted_tags, tag_meta, by_tag = self._aggregate_tags(v2_structure)
+
+        md = (
+            "# Technical Tags Index\n\n"
+            "!!! tip \"Nubenetes V2 Elite Portal\"\n"
+            "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).\n\n"
+            "!!! info \"Universal Tag Index\"\n"
+            "    Browse all V2 resources grouped by maturity levels and technical domains.\n\n"
+        )
 
         def _count_label(n):
             return f"{n} resource" + ("" if n == 1 else "s")
 
         # Partition custom tags: language/format ("X CONTENT") vs technical domains,
         # so the long, low-signal language tail does not bury the maturity tags.
-        maturity_tags = [t for t in sorted_tags if t in standard_order]
+        maturity_tags = [t for t in sorted_tags if tag_meta[t]["kind"] == "maturity"]
         lang_tags = sorted(
-            [t for t in sorted_tags if t not in standard_order and t.endswith("CONTENT]")],
+            [t for t in sorted_tags if tag_meta[t]["kind"] == "language"],
             key=lambda t: -tag_meta[t]["count"],
         )
         other_tags = sorted(
-            [t for t in sorted_tags if t not in standard_order and not t.endswith("CONTENT]")],
+            [t for t in sorted_tags if tag_meta[t]["kind"] == "domain"],
             key=lambda t: -tag_meta[t]["count"],
         )
 
-        # Label Heatmap (Confluence-style "popular labels" cloud): every label is
-        # listed alphabetically and sized/coloured by how many resources carry it,
-        # so the most-used tags read biggest/warmest. Clicking jumps to the section.
-        # Sizing uses a LOG scale because counts span ~1..2800; a linear scale would
-        # collapse everything except the few giant maturity tags into the smallest
-        # bucket. Six levels map onto the .v2-heat-1..6 CSS ramp.
-        _heat_counts = [tag_meta[t]["count"] for t in sorted_tags]
-        if _heat_counts:
-            _cmin, _cmax = min(_heat_counts), max(_heat_counts)
-            _lmin, _lmax = math.log(_cmin), math.log(_cmax)
-
-            def _heat_level(count):
-                if _lmax == _lmin:
-                    return 3
-                frac = (math.log(count) - _lmin) / (_lmax - _lmin)
-                return 1 + round(frac * 5)  # 1..6
-
-            md += "## Label Heatmap\n\n"
-            md += (
-                "Bigger, warmer labels cover more resources. "
-                "Click any label to jump to its section below.\n\n"
-            )
-            md += '<div class="v2-tag-heatmap">\n'
-            for t in sorted(sorted_tags, key=lambda x: tag_meta[x]["display"].lower()):
-                m = tag_meta[t]
-                disp = m["display"].replace(" Content", "")
-                lvl = _heat_level(m["count"])
-                md += (
-                    f'<a class="v2-heat-tag v2-heat-{lvl}" href="#{m["slug"]}" '
-                    f'title="{m["count"]} resources">{disp}'
-                    f'<span class="v2-heat-n">{m["count"]}</span></a>\n'
-                )
-            md += "</div>\n\n"
+        # Label Heatmap at the top of the Tags page (same-page anchors).
+        md += self._render_tag_heatmap(sorted_tags, tag_meta, href_base="")
 
         # Build a grouped TOC: maturity as a clean numbered list; domains and the
         # language/format tail as compact, count-sorted inline pill rows.
