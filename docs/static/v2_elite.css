@@ -1372,8 +1372,12 @@ input[type="text"] {
 /* Explicit anchor pairing per button↔menu — do NOT rely on the popover's
    implicit anchor (it isn't established reliably, leaving the menu in its
    static position over the button). */
+[popovertarget="nb-pop-guide"]    { anchor-name: --nb-a-guide; }
+#nb-pop-guide    { position-anchor: --nb-a-guide; }
 [popovertarget="nb-pop-digest"]   { anchor-name: --nb-a-digest; }
 #nb-pop-digest   { position-anchor: --nb-a-digest; }
+[popovertarget="nb-pop-videos"]   { anchor-name: --nb-a-videos; }
+#nb-pop-videos   { position-anchor: --nb-a-videos; }
 [popovertarget="nb-pop-k8s"]      { anchor-name: --nb-a-k8s; }
 #nb-pop-k8s      { position-anchor: --nb-a-k8s; }
 [popovertarget="nb-pop-delivery"] { anchor-name: --nb-a-delivery; }
