@@ -139,32 +139,32 @@
 <div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>
 <div class="trending-grid">
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">FinOps & Cloud Cost</div>
-  <div class="trending-card__title"><a href="https://www.cncf.io/blog/2021/06/29/finops-for-kubernetes-insufficient-or-nonexistent-kubernetes-cost-monitoring-is-causing-overspend">FinOps for Kubernetes: Insufficient – or nonexistent – Kubernetes' cost monitoring is causing overspend</a></div>
-  <div class="trending-card__meta">2026-06-18</div>
-  <div class="trending-card__why">Provides CNCF-backed guidance on why visibility and cost monitoring are crucial to stopping runaway costs in complex Kubernetes deployments.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Observability, SRE & Testing</div>
+  <div class="trending-card__title"><a href="https://github.com/prometheus/prometheus">prometheus</a></div>
+  <div class="trending-card__meta">2026-06-13 · 64.5k★</div>
+  <div class="trending-card__why">Prometheus remains the industry-standard, benchmark telemetry engine for modern cloud-native metrics collection and real-time alerting.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></div>
-  <div class="trending-card__meta">2026-06-14 · 3.8k★</div>
-  <div class="trending-card__why">Serves as the foundational bridge enabling GPU virtualization and hardware-accelerated scheduling for heavy AI/ML workloads inside Kubernetes.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">CI/CD & GitOps</div>
+  <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
+  <div class="trending-card__meta">2026-06-13 · 8.2k★</div>
+  <div class="trending-card__why">Flux v2 is a foundational, graduated CNCF GitOps engine engineered specifically for highly decoupled, parallel cluster synchronization.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">Python, Java & Developer Ecosystem</div>
-  <div class="trending-card__title"><a href="https://github.com/astral-sh/ruff">Ruff</a></div>
-  <div class="trending-card__meta">2026-06-14 · 48k★</div>
-  <div class="trending-card__why">It has become the de facto standard for Python linting and formatting, drastically reducing CI/CD runtimes due to its high-performance Rust implementation.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Linux & System Foundations</div>
+  <div class="trending-card__title"><a href="https://github.com/bpftrace/bpftrace">bpftrace</a></div>
+  <div class="trending-card__meta">2026-06-13 · 10.2k★</div>
+  <div class="trending-card__why">eBPF-driven bpftrace provides safe, high-performance, dynamic kernel and userspace tracing essential for cloud-native performance analysis.</div>
 </div>
 <div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL <span class="trending-card__new">🆕 NEW</span></div>
-  <div class="trending-card__category">AI & Agents</div>
-  <div class="trending-card__title"><a href="https://github.com/vllm-project/vllm">vLLM on Kubernetes</a></div>
-  <div class="trending-card__meta">2026-06-14 · 82.8k★</div>
-  <div class="trending-card__why">It standardizes high-performance, memory-efficient LLM serving via vLLM on Kubernetes clusters, directly bridging cloud-native infrastructure with AI workloads.</div>
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">DevOps & Culture</div>
+  <div class="trending-card__title"><a href="https://github.com/backstage/backstage">backstage</a></div>
+  <div class="trending-card__meta">2026-06-13 · 33.6k★</div>
+  <div class="trending-card__why">It is the de facto industry-standard framework for building customizable internal developer portals, centralizing platform engineering workflows.</div>
 </div>
 </div>
 <div class="digest-links">
