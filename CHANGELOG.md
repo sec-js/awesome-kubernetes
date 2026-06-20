@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.17]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.17) - 2026-06-20
+
+### Fixed
+- **Topic Map heading increment (MD001 lint failure)**: The new `topic-map.md` page emitted its per-dimension headings as `###` (h3) directly under the page `#` (h1) title, skipping h2. This tripped `markdownlint` **MD001/heading-increment**, turning the `07.2. Markdown Linter` workflow red on both `develop` and `master` right after the v2.9.16 release. Fixed the generator (`v2_optimizer.py`) and the committed page to emit dimensions as `##` (h2), and updated the CSS selector to `.topic-map-dim h2`. As a bonus, the h2 dimensions now populate the right-hand "On this page" TOC with a clean per-dimension index. Verified with the exact CI `markdownlint` config (0 errors); cache-bust bumped to `?v=2.9.17`.
+
 ## [[2.9.16]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.16) - 2026-06-20
 
 ### Added
