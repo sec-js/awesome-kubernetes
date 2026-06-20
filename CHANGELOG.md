@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.33]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.33) - 2026-06-20
+
+### Added
+- **Quick-nav menu expansion — 38 destinations**: Data-driven expansion of the hybrid quick-nav (ranked by per-page link count + relevance). New 📊 Digest menu pairs both editions (Tech & Cloud Digest + Industry & Geo Digest); new 🧰 K8s menu surfaces the Kubernetes ecosystem (Kubernetes Tools · Helm · Managed K8s · OpenShift · Tutorials). Existing menus grew: ☁️ Cloud += Serverless · FinOps; 🌐 Network += Service Mesh (Istio emoji → ⛵); ⚙️ Ops += IaC · Developer Portals; ⋯ More += Technical Tags · Demos. 38 destinations total across 6 direct pills + 7 Popover menus; chip font trimmed to 0.62rem with tighter gap/padding so all 13 bar chips fit one row down to ~1280px. Verified in Chrome 148 (Playwright): every menu opens below its button, flips near the right edge, and closes on Esc. Cache-bust `?v=2.9.33`; V2-only.
+
 ## [[2.9.32]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.32) - 2026-06-20
 
 ### Fixed
