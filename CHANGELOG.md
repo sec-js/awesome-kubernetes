@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.27]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.27) - 2026-06-20
+
+### Added
+- **Slim quick-nav bar**: A thin horizontal bar below the header on every V2 page with six curated one-click destinations (Topic Map · Intelligence Digest · Video Hub · AI & MCP · Methodology · V1 Archive). These cross-cutting destinations previously only existed as badge cards on the home; the bar makes them persistently reachable from any depth. Implemented by overriding Material's `tabs` block (empty since `navigation.tabs` is disabled) plus `.nb-quicknav` CSS — so it adds persistent shortcuts WITHOUT reintroducing the 18-tab overflow and WITHOUT collapsing the full collapsible left navigation tree. Template/CSS-only (no page regeneration); V2-only.
+
 ## [[2.9.26]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.26) - 2026-06-20
 
 ### Changed
