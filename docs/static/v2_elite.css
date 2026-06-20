@@ -1121,6 +1121,72 @@ input[type="text"] {
   margin: 16px 0;
 }
 
+/* --- Collapsible "Show more" lane (pure CSS, no JS) --- */
+.trending-lane {
+  margin-bottom: 4px;
+}
+
+.trending-toggle {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.trending-card--extra {
+  display: none;
+}
+
+.trending-toggle:checked ~ .trending-grid .trending-card--extra {
+  display: block;
+  animation: trending-fade-in 0.25s ease;
+}
+
+@keyframes trending-fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.trending-showmore {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+  padding: 7px 18px;
+  font-size: 0.8em;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  color: var(--md-accent-fg-color);
+  background: rgba(14, 165, 233, 0.08);
+  border: 1px solid rgba(14, 165, 233, 0.25);
+  border-radius: 20px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.trending-showmore:hover {
+  background: rgba(14, 165, 233, 0.16);
+  transform: translateY(-1px);
+}
+
+[data-md-color-scheme="slate"] .trending-showmore {
+  background: rgba(34, 211, 238, 0.10);
+  border-color: rgba(34, 211, 238, 0.25);
+}
+
+.trending-showmore__less {
+  display: none;
+}
+
+.trending-toggle:checked ~ .trending-showmore .trending-showmore__more {
+  display: none;
+}
+
+.trending-toggle:checked ~ .trending-showmore .trending-showmore__less {
+  display: inline;
+}
+
 .trending-card {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 12px;
