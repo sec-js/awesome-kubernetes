@@ -1199,7 +1199,10 @@ class V2VisionEngine:
         for dim in self.dimensions.keys():
             if dim in dim_groups:
                 topic_md += "<section class=\"topic-map-dim\" markdown=\"1\">\n\n"
-                topic_md += f"### {dim}\n\n"
+                # h2 (not h3): the page H1 is "Topic Map", so dimensions must
+                # increment by one level (markdownlint MD001). Also gives the
+                # right-hand TOC a clean per-dimension index.
+                topic_md += f"## {dim}\n\n"
                 for f in sorted(dim_groups[dim]):
                     count = _count_links(data[f]["content"])
                     topic_md += f"- **[{data[f]['title']}](./{f})** <span class=\"topic-count\">{count}</span>\n"

@@ -34,7 +34,7 @@ We prioritize established frameworks and enterprise standards over ad-hoc, unmai
 #### 2.4. Avoiding Engineering Anti-Patterns
 We combat the culture of **Promotion-Based Development (PBD)**, where complexity is manufactured for personal career visibility rather than business value. 
 
-  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
+  - [Promotion-Based Development: A Fast Track to Mediocrity](https://vadimkravcenko.com/shorts/promotion-based-development/) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Dissects how rewarding "shiny new things" over battle-tested stability leads to fragile architectures.
   - [Reddit: The Reality of Promotion-Driven Development](https://www.reddit.com/r/ExperiencedDevs/comments/pw6vuv/promotion_driven_development) <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A raw, evidence-based discussion from senior engineers on the industry's most common misaligned incentives.
 
 ### 3. The Architectural North Star
@@ -136,7 +136,7 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
 #### Terraform Boilerplates
 
 ??? note "Terraform Kubernetes Boilerplates 🌟"
-    **[Access Resource](https://nubenetes.com/terraform)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    **[Access Resource](https://nubenetes.com/terraform/)** 🌟🌟🌟🌟🌟 | Level: Advanced
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
