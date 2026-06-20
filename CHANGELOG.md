@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.26]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.26) - 2026-06-20
+
+### Changed
+- **Collapsible, nested left navigation**: After moving the sections to the left sidebar in 2.9.25, they rendered as a *flat* list of 18 labels with no expand/indent — `navigation.sections` made them non-collapsible group labels and `navigation.prune` stripped the inactive children. Disabled both so the sidebar is now a proper collapsible, nested, indented tree (14 toggles / chevrons, collapsed by default, click to expand). No size penalty (88,213 vs 88,516 bytes per page).
+
+### Added
+- **Home section headings**: The V2 home had a single H2, leaving its right-hand "On this page" TOC empty. Added `## Explore the Ecosystem` (badge cards) and `## Trending Now` (Intelligence Digest) alongside the existing `## The Cloud Native Universe We Track`, so the home's right TOC now lists three real sections. Net effect: both side columns are now useful on every page — left = full collapsible directory, right = per-page section map.
+
 ## [[2.9.25]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.25) - 2026-06-20
 
 ### Changed
