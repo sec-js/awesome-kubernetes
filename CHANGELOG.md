@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.24]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.24) - 2026-06-20
+
+### Added
+- **Per-page JSON-LD structured data**: Each V2 content page now emits a second JSON-LD block — a schema.org `CollectionPage` tied to the existing `WebSite`/`Organization` `@graph` — carrying the page name, description, URL, and `datePublished` / `dateModified` fed by the `git-revision-date-localized` plugin's raw ISO dates (the creation/last-update dates from 2.9.23). This enables article/collection rich snippets in search results with real freshness dates. Template-only change (`docs/overrides/main.html`), applied at build time; the homepage is skipped (it is already the `WebSite` entity), and JSON is built with `| tojson` for safe escaping.
+
 ## [[2.9.23]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.23) - 2026-06-20
 
 ### Changed
