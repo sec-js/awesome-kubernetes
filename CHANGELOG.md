@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.25]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.25) - 2026-06-20
+
+### Changed
+- **V2 navigation: tabs → left sidebar**: The 18 top-level sections were rendered as a horizontal tab bar (`navigation.tabs`), whose labels total ~3300px and overflowed a typical ~1400px laptop viewport — forcing horizontal scroll to reach the right-side dimensions and leaving the left sidebar nearly empty on top-level pages like the home. Disabled `navigation.tabs` (+ `.sticky`) so the sections render in the standard vertical left sidebar: it handles all 18 collapsed sections via normal scroll, stays populated on every page (the home's rendered nav goes from 23 links to the full 178-link tree), and nothing clips. Theme-only change preserved across publishes (the optimizer's nav-sync only rewrites the `nav:` block).
+
 ## [[2.9.24]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.24) - 2026-06-20
 
 ### Added
