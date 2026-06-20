@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.37]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.37) - 2026-06-20
+
+### Fixed
+- **Kubernetes quick-nav menu reliability**: The Kubernetes dropdown (22 items) was the only menu tall enough to need a scrollbar on an anchor-positioned popover, which made it open/behave unreliably compared to the others. It now uses a 2-column layout (`column-count: 2`), halving its height (~731px → ~353px) so it shows in full without a scrollbar at any realistic viewport; multicol is column-major, so reading order is preserved. Also removed `flip-block` from the menu position-try fallbacks (kept `flip-inline`): the quick-nav is a sticky top bar, so a tall menu flipping above would shoot off the top of the screen — menus now always open downward. Verified in Chrome 148 (Playwright) at viewport heights 700–1080. Cache-bust `?v=2.9.37`; V2-only.
+
 ## [[2.9.36]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.36) - 2026-06-20
 
 ### Changed
