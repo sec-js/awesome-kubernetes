@@ -6,47 +6,76 @@
 
 {#-
   Quick-nav bar rendered below the header on every page (via the `tabs` block,
-  which is empty here since navigation.tabs is disabled). Gives the key
-  cross-cutting destinations a persistent, one-click home as centered pill
-  chips — without collapsing the full left navigation tree.
+  which is empty here since navigation.tabs is disabled). Single slim row that
+  stays one row no matter how many destinations are added: the most-used
+  flagships are direct one-click pills, and the long-tail clusters collapse into
+  category menus built with the native HTML Popover API + CSS Anchor Positioning
+  (Baseline 2026) — zero JS, with free Esc/click-outside dismissal and focus
+  management. Adding a leaf grows a menu, never the bar.
 
-  Destinations are ordered into related category clusters and use short labels
-  (even when the underlying page title is long):
-    discovery (Topic Map · Digest · Videos) → platform (Kubernetes · Docker)
-    → delivery (GitOps · CI/CD) → IaC (Terraform · Ansible)
-    → cloud (AWS · Azure · GCP) → networking (Networking · Istio · K8s Net)
-    → security (Security · DevSecOps) → ops (Observability · SRE · DevOps)
-    → data (Messaging) → AI/ML (AI & MCP · MLOps) → Methodology,
-  with V1 Archive muted last.
+  Direct pills: Topic Map · Digest · Kubernetes · Docker · GitOps · Terraform · AI & MCP
+  Menus: Cloud (AWS · Azure · GCP) · Network (Networking · Istio · K8s Net)
+         · Security (Security · DevSecOps) · Ops (CI/CD · Observability · SRE · DevOps)
+         · More (Videos · Ansible · Messaging · MLOps · Methodology · V1 Archive)
 -#}
 {% block tabs %}
 <nav class="nb-quicknav" aria-label="Quick navigation">
   <div class="nb-quicknav__inner">
     <a class="nb-quicknav__link" href="/topic-map/">🗺️ Topic Map</a>
     <a class="nb-quicknav__link" href="/tech-digest/">📊 Digest</a>
-    <a class="nb-quicknav__link" href="/videos/">🎥 Videos</a>
     <a class="nb-quicknav__link" href="/kubernetes/">☸️ Kubernetes</a>
     <a class="nb-quicknav__link" href="/docker/">🐳 Docker</a>
     <a class="nb-quicknav__link" href="/gitops/">🔄 GitOps</a>
-    <a class="nb-quicknav__link" href="/cicd/">🚀 CI/CD</a>
     <a class="nb-quicknav__link" href="/terraform/">🏗️ Terraform</a>
-    <a class="nb-quicknav__link" href="/ansible/">📋 Ansible</a>
-    <a class="nb-quicknav__link" href="/aws/">☁️ AWS</a>
-    <a class="nb-quicknav__link" href="/azure/">☁️ Azure</a>
-    <a class="nb-quicknav__link" href="/GoogleCloudPlatform/">☁️ GCP</a>
-    <a class="nb-quicknav__link" href="/networking/">🌐 Networking</a>
-    <a class="nb-quicknav__link" href="/istio/">🕸️ Istio</a>
-    <a class="nb-quicknav__link" href="/kubernetes-networking/">🔗 K8s Net</a>
-    <a class="nb-quicknav__link" href="/kubernetes-security/">🔐 Security</a>
-    <a class="nb-quicknav__link" href="/devsecops/">🛡️ DevSecOps</a>
-    <a class="nb-quicknav__link" href="/monitoring/">📈 Observability</a>
-    <a class="nb-quicknav__link" href="/sre/">🛠️ SRE</a>
-    <a class="nb-quicknav__link" href="/devops/">♾️ DevOps</a>
-    <a class="nb-quicknav__link" href="/message-queue/">📨 Messaging</a>
     <a class="nb-quicknav__link" href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
-    <a class="nb-quicknav__link" href="/mlops/">🧠 MLOps</a>
-    <a class="nb-quicknav__link" href="/methodology/">📐 Methodology</a>
-    <a class="nb-quicknav__link nb-quicknav__link--muted" href="/v1/">📚 V1 Archive</a>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-cloud" type="button">☁️ Cloud <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-cloud" popover>
+        <a href="/aws/">☁️ AWS</a>
+        <a href="/azure/">☁️ Azure</a>
+        <a href="/GoogleCloudPlatform/">☁️ GCP</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-net" type="button">🌐 Network <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-net" popover>
+        <a href="/networking/">🌐 Networking</a>
+        <a href="/istio/">🕸️ Istio</a>
+        <a href="/kubernetes-networking/">🔗 K8s Net</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-sec" type="button">🔐 Security <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-sec" popover>
+        <a href="/kubernetes-security/">🔐 K8s Security</a>
+        <a href="/devsecops/">🛡️ DevSecOps</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-ops" type="button">⚙️ Ops <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-ops" popover>
+        <a href="/cicd/">🚀 CI/CD</a>
+        <a href="/monitoring/">📈 Observability</a>
+        <a href="/sre/">🛠️ SRE</a>
+        <a href="/devops/">♾️ DevOps</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-more" type="button">⋯ More <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-more" popover>
+        <a href="/videos/">🎥 Videos</a>
+        <a href="/ansible/">📋 Ansible</a>
+        <a href="/message-queue/">📨 Messaging</a>
+        <a href="/mlops/">🧠 MLOps</a>
+        <a href="/methodology/">📐 Methodology</a>
+        <a class="nb-quicknav__menu-muted" href="/v1/">📚 V1 Archive</a>
+      </div>
+    </span>
   </div>
 </nav>
 {% endblock %}

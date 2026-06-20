@@ -1287,8 +1287,91 @@ input[type="text"] {
 .nb-quicknav__link--muted:hover {
   opacity: 1;
 }
+
+/* ── Category menus: native Popover API + CSS Anchor Positioning (Baseline 2026)
+   The long-tail clusters collapse behind category buttons so the bar stays one
+   row. Opening is click-driven via the Popover API (free Esc / click-outside
+   dismissal + focus management); zero JS. ── */
+.nb-quicknav__group {
+  display: inline-flex;
+}
+/* thin divider between the direct pills and the category menus */
+.nb-quicknav__group:first-of-type {
+  margin-inline-start: 0.3rem;
+  padding-inline-start: 0.55rem;
+  border-inline-start: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 18%, transparent);
+}
+.nb-quicknav__btn {
+  font-family: inherit;
+  cursor: pointer;
+}
+.nb-quicknav__caret {
+  font-size: 0.85em;
+  opacity: 0.75;
+  transition: transform 0.18s ease;
+}
+.nb-quicknav__group:has(.nb-quicknav__menu:popover-open) .nb-quicknav__caret {
+  transform: rotate(180deg);
+}
+.nb-quicknav__menu {
+  inset: auto; /* reset the UA-centered popover defaults */
+  margin: 0;
+  position-area: bottom span-inline-end; /* drop below the invoking button */
+  position-try-fallbacks: flip-block, flip-inline; /* auto-flip near edges */
+  margin-block-start: 0.45rem;
+  min-width: 9.5rem;
+  padding: 0.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  border: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 30%, transparent);
+  border-radius: 0.6rem;
+  background: color-mix(in srgb, var(--md-header-bg-color) 86%, #000);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  /* entry/exit animation across the display toggle */
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.16s ease, transform 0.16s ease,
+              overlay 0.16s allow-discrete, display 0.16s allow-discrete;
+}
+.nb-quicknav__menu:popover-open {
+  opacity: 1;
+  transform: translateY(0);
+}
+@starting-style {
+  .nb-quicknav__menu:popover-open {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+.nb-quicknav__menu a {
+  display: block;
+  padding: 0.34rem 0.6rem;
+  border-radius: 0.4rem;
+  color: rgba(255, 255, 255, 0.86);
+  text-decoration: none;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.14s ease, color 0.14s ease;
+}
+.nb-quicknav__menu a:hover,
+.nb-quicknav__menu a:focus-visible {
+  background: color-mix(in srgb, var(--md-accent-fg-color) 30%, transparent);
+  color: #fff;
+  outline: none;
+}
+.nb-quicknav__menu-muted {
+  opacity: 0.62;
+  margin-block-start: 0.15rem;
+  padding-block-start: 0.42rem !important;
+  border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .nb-quicknav__link { transition: none; }
+  .nb-quicknav__link,
+  .nb-quicknav__caret,
+  .nb-quicknav__menu { transition: none; }
   .nb-quicknav__link:hover { transform: none; }
 }
 /* On phones the left drawer already exposes navigation; one scrollable row. */
