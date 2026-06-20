@@ -13,24 +13,45 @@
   (Baseline 2026) — zero JS, with free Esc/click-outside dismissal and focus
   management. Adding a leaf grows a menu, never the bar.
 
-  Fully category-grouped: one direct pill (Topic Map) + 11 thematic dropdowns.
+  Fully category-grouped into 13 thematic dropdowns (no direct pills).
   Related topics live together (CI/CD · GitOps · DevOps in Delivery; Terraform ·
-  IaC in IaC; Docker in Kubernetes; …). AWS is a NESTED submenu inside Cloud.
+  IaC in IaC; Docker in Kubernetes; …). AWS is a NESTED submenu inside Cloud,
+  OpenShift a NESTED submenu inside Kubernetes.
   Pages may appear in more than one menu when that aids discovery.
-    Digest · Kubernetes (+Docker) · Delivery (CI/CD·GitOps·DevOps) · IaC
+    Portal Guide (Topic Map · Methodology · Tags · About) · Digest · Videos
+    · Kubernetes (+Docker, OpenShift▸) · Delivery (CI/CD·GitOps·DevOps) · IaC
     · Cloud (AWS▸ · Azure · GCP · …) · Network · Security · Observability & SRE
     · AI & Data · Dev & Platform · More
 -#}
 {% block tabs %}
 <nav class="nb-quicknav" aria-label="Quick navigation">
   <div class="nb-quicknav__inner">
-    <a class="nb-quicknav__link" href="/topic-map/">🗺️ Topic Map</a>
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-guide" type="button">🧭 Portal Guide <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-guide" popover>
+        <a href="/topic-map/">🗺️ Topic Map</a>
+        <a href="/methodology/">📐 Methodology</a>
+        <a href="/tags/">🏷️ Technical Tags</a>
+        <a href="/about/">ℹ️ About</a>
+      </div>
+    </span>
 
     <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-digest" type="button">📊 Digest <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-digest" popover>
         <a href="/tech-digest/">📊 Tech &amp; Cloud Digest</a>
         <a href="/industry-digest/">🌍 Industry &amp; Geo Digest</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-videos" type="button">🎥 Videos <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-videos" popover>
+        <a href="/videos/">🎥 Video Hub</a>
+        <a href="/videos/ai-agents/">🤖 AI Agents &amp; MCP</a>
+        <a href="/videos/devops-iac/">♾️ DevOps, IaC &amp; SRE</a>
+        <a href="/videos/cloud-native/">☸️ Cloud Native Core</a>
+        <a href="/videos/fundamentals/">🎓 Fundamentals</a>
       </div>
     </span>
 
@@ -190,12 +211,8 @@
     <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-more" type="button">⋯ More <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-more" popover>
-        <a href="/tags/">🏷️ Technical Tags</a>
         <a href="/demos/">🧪 Demos</a>
-        <a href="/videos/">🎥 Videos</a>
-        <a href="/methodology/">📐 Methodology</a>
         <a href="/faq/">❓ FAQ</a>
-        <a href="/about/">ℹ️ About</a>
         <a href="/recruitment/">💼 Career</a>
         <a class="nb-quicknav__menu-muted" href="/v1/">📚 V1 Archive</a>
       </div>
