@@ -62,7 +62,7 @@ plugins:
   # Needs full git history (fetch-depth: 0 in 06.deploy_final.yml); falls back
   # to the build date when history is unavailable so the build never fails.
   - git-revision-date-localized:
-      enable_creation_date: false
+      enable_creation_date: true
       type: date
       fallback_to_build_date: true
   - privacy

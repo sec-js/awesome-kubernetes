@@ -1295,13 +1295,49 @@ class V2VisionEngine:
             v1_link = f"/v1/{f_name.replace('.md', '/')}"
             # Unique per-page SEO meta description (front-matter) so each page no
             # longer falls back to the identical global site_description. Material
-            # emits it as <meta name="description"> + og:description.
+            # emits it as <meta name="description"> + og:description. Enrich it with
+            # the page's top resource names (long-tail keywords), filtering out
+            # URL/path-like titles for readability; fall back to a clean template.
+            def _collect_links(node, acc):
+                if "__links__" in node:
+                    acc.extend(node["__links__"])
+                for _k, _v in node.items():
+                    if _k != "__links__" and isinstance(_v, dict):
+                        _collect_links(_v, acc)
+                return acc
+            _page_links = _collect_links(info["content"], [])
+            _page_links.sort(key=lambda x: (-(x.get("stars") or 0), -(int(x["year"]) if str(x.get("year", "")).isdigit() else 0)))
+            _names, _seen_names = [], set()
+            for _l in _page_links:
+                _nm = nuclear_strip(str(_l.get("title", "")))
+                # Drop emojis/stars and edge punctuation that leak into titles.
+                _nm = re.sub(r'[\U0001F000-\U0001FAFF☀-➿⭐⭕️]', '', _nm)
+                _nm = re.sub(r'\s+', ' ', _nm).strip(" -–—·:|")
+                _low = _nm.lower()
+                if not (3 <= len(_nm) <= 26):
+                    continue
+                if "/" in _nm or "http" in _low or any(d in _low for d in (".com", ".io", ".org", ".net", ".dev", ".sh", ".ai", ".xyz")):
+                    continue
+                if _low in _seen_names:
+                    continue
+                _seen_names.add(_low)
+                _names.append(_nm)
+                if len(_names) >= 2:
+                    break
             _seo_title = str(info.get('title') or info['long_title'])[:60].strip()
-            _seo_desc = (
-                f"Curated, AI-ranked {_seo_title} resources for the 2026 Cloud Native "
-                f"architect: top-tier tools, guides and references ({info['dim']})."
-            )
+            if len(_names) >= 2:
+                _seo_desc = (
+                    f"Top {_seo_title} resources for 2026, AI-ranked: {', '.join(_names)} and more "
+                    f"— curated Cloud Native tools, guides and references."
+                )
+            else:
+                _seo_desc = (
+                    f"Curated, AI-ranked {_seo_title} resources for the 2026 Cloud Native "
+                    f"architect: top-tier tools, guides and references ({info['dim']})."
+                )
             _seo_desc = _seo_desc.replace("\\", " ").replace('"', "'").replace("\n", " ").strip()
+            if len(_seo_desc) > 165:
+                _seo_desc = _seo_desc[:162].rsplit(" ", 1)[0].rstrip(" ,;:—-") + "."
             md = (
                 f"---\n"
                 f"description: \"{_seo_desc}\"\n"
