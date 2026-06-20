@@ -1075,8 +1075,8 @@ class V2VisionEngine:
             # Score = impact_weight * recency_decay so the section actually rotates
             # with fresh items instead of pinning evergreen/foundational tools.
             now = datetime.now(MADRID_TZ)
-            HALF_LIFE_DAYS = 21.0
             impact_weight = {"critical": 1.0, "high": 0.66, "medium": 0.4}
+            impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
 
             def _parse_day(s):
                 try:
@@ -1085,35 +1085,6 @@ class V2VisionEngine:
                     ).date()
                 except Exception:
                     return None
-
-            pool = []
-            for cat_name, items in digest_data.get("3_months", {}).items():
-                for item in items[:2]:
-                    d = _parse_day(item.get("date"))
-                    age_days = (now.date() - d).days if d else 999
-                    recency = 0.5 ** (max(age_days, 0) / HALF_LIFE_DAYS)
-                    score = impact_weight.get(item.get("impact", "medium"), 0.4) * (0.35 + 0.65 * recency)
-                    pool.append({**item, "digest_category": cat_name, "_age_days": age_days, "_score": score})
-            pool.sort(key=lambda x: x["_score"], reverse=True)
-
-            # Diversity quota: at most one card per category, then backfill.
-            top_items, used_cats, used_urls = [], set(), set()
-            for it in pool:
-                if it["digest_category"] in used_cats:
-                    continue
-                top_items.append(it)
-                used_cats.add(it["digest_category"])
-                used_urls.add(it.get("url"))
-                if len(top_items) >= 6:
-                    break
-            if len(top_items) < 6:
-                for it in pool:
-                    if it.get("url") in used_urls:
-                        continue
-                    top_items.append(it)
-                    used_urls.add(it.get("url"))
-                    if len(top_items) >= 6:
-                        break
 
             def _clean_title(t):
                 t = nuclear_strip(t)
@@ -1133,7 +1104,74 @@ class V2VisionEngine:
                     return f"{n / 1000:.1f}k★".replace(".0k", "k")
                 return f"{n}★"
 
-            impact_icons = {"critical": "🔴", "high": "🟡", "medium": "🔵"}
+            def _select_lane(window_key, half_life, count, exclude_urls):
+                # Score = impact_weight * recency_decay over the given window; an
+                # aggressive half-life surfaces fresh items ("Trending Now"), a soft
+                # one favours sustained importance ("Rising this Quarter").
+                pool = []
+                for cat_name, items in digest_data.get(window_key, {}).items():
+                    for item in items[:2]:
+                        if item.get("url") in exclude_urls:
+                            continue
+                        d = _parse_day(item.get("date"))
+                        age_days = (now.date() - d).days if d else 999
+                        recency = 0.5 ** (max(age_days, 0) / half_life)
+                        score = impact_weight.get(item.get("impact", "medium"), 0.4) * (0.35 + 0.65 * recency)
+                        pool.append({**item, "digest_category": cat_name, "_age_days": age_days, "_score": score})
+                pool.sort(key=lambda x: x["_score"], reverse=True)
+                # Diversity quota: at most one card per category, then backfill.
+                sel, used_cats, used = [], set(), set(exclude_urls)
+                for it in pool:
+                    if it["digest_category"] in used_cats or it.get("url") in used:
+                        continue
+                    sel.append(it)
+                    used_cats.add(it["digest_category"])
+                    used.add(it.get("url"))
+                    if len(sel) >= count:
+                        break
+                if len(sel) < count:
+                    for it in pool:
+                        if it.get("url") in used:
+                            continue
+                        sel.append(it)
+                        used.add(it.get("url"))
+                        if len(sel) >= count:
+                            break
+                return sel
+
+            def _render_cards(items):
+                html = ""
+                for item in items:
+                    impact = item.get("impact", "medium")
+                    # Momentum: prefer real GitHub star count from the inventory join;
+                    # fall back to the 1-5 Gemini impact score rendered as 🌟.
+                    inv_meta = self.inventory.get(item.get("url")) if isinstance(self.inventory, dict) else None
+                    gh_stars = inv_meta.get("gh_stars") if isinstance(inv_meta, dict) else None
+                    metric = _fmt_stars(gh_stars)
+                    if not metric:
+                        score = item.get("stars") or 0
+                        metric = "🌟" * score if score else ""
+                    meta = item.get("date", "")
+                    if metric:
+                        meta += f" · {metric}"
+                    new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if item.get("_age_days", 999) <= 7 else ""
+                    html += (
+                        f'<div class="trending-card">\n'
+                        f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}{new_pill}</div>\n'
+                        f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
+                        f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{_clean_title(item.get("title", "Unknown"))}</a></div>\n'
+                        f'  <div class="trending-card__meta">{meta}</div>\n'
+                        f'  <div class="trending-card__why">{item.get("why", "")}</div>\n'
+                        f'</div>\n'
+                    )
+                return html
+
+            # Lane 1: fresh momentum (3-month window, 21d half-life).
+            top_items = _select_lane("3_months", 21.0, 6, set())
+            # Lane 2: sustained importance (6-month window, soft 60d decay),
+            # de-duplicated against lane 1 so it surfaces different resources.
+            rising_items = _select_lane("6_months", 60.0, 4, {it.get("url") for it in top_items})
+
             try:
                 from datetime import datetime as _dt
                 # Prefer _meta.last_updated (tracks actual Gemini analysis date)
@@ -1149,30 +1187,12 @@ class V2VisionEngine:
                 digest_updated = ""
             updated_badge = f'<span class="trending-section__updated">Updated {digest_updated}</span>' if digest_updated else ""
             cards_html = f'<div class="trending-section">\n<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence {updated_badge}</div>\n<div class="trending-grid">\n'
-            for item in top_items:
-                impact = item.get("impact", "medium")
-                # Momentum: prefer real GitHub star count from the inventory join;
-                # fall back to the 1-5 Gemini impact score rendered as 🌟.
-                inv_meta = self.inventory.get(item.get("url")) if isinstance(self.inventory, dict) else None
-                gh_stars = inv_meta.get("gh_stars") if isinstance(inv_meta, dict) else None
-                metric = _fmt_stars(gh_stars)
-                if not metric:
-                    score = item.get("stars") or 0
-                    metric = "🌟" * score if score else ""
-                meta = item.get("date", "")
-                if metric:
-                    meta += f" · {metric}"
-                new_pill = ' <span class="trending-card__new">🆕 NEW</span>' if item.get("_age_days", 999) <= 7 else ""
-                cards_html += (
-                    f'<div class="trending-card">\n'
-                    f'  <div class="trending-card__impact trending-card__impact--{impact}">{impact_icons.get(impact, "🔵")} {impact.upper()}{new_pill}</div>\n'
-                    f'  <div class="trending-card__category">{item.get("digest_category", "")}</div>\n'
-                    f'  <div class="trending-card__title"><a href="{item.get("url", "#")}">{_clean_title(item.get("title", "Unknown"))}</a></div>\n'
-                    f'  <div class="trending-card__meta">{meta}</div>\n'
-                    f'  <div class="trending-card__why">{item.get("why", "")}</div>\n'
-                    f'</div>\n'
-                )
+            cards_html += _render_cards(top_items)
             cards_html += '</div>\n'
+            if rising_items:
+                cards_html += '<div class="trending-section__title trending-section__title--secondary">📈 Rising this Quarter — Sustained Momentum</div>\n<div class="trending-grid">\n'
+                cards_html += _render_cards(rising_items)
+                cards_html += '</div>\n'
             cards_html += '<div class="digest-links">\n'
             cards_html += '  <a href="./tech-digest/" class="digest-link-card">📊 Full Tech & Cloud Digest →</a>\n'
             cards_html += '  <a href="./industry-digest/" class="digest-link-card">🌍 Industry & Geo Digest →</a>\n'
