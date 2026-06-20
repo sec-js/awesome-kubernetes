@@ -47,7 +47,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Platform & Site Reliability
+### Platform and Site Reliability
 
 - **[Chaos Engineering](./chaos-engineering.md)** <span class="topic-count">21</span>
 - **[Developerportals](./developerportals.md)** <span class="topic-count">40</span>
@@ -111,7 +111,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Networking & Service Mesh
+### Networking and Service Mesh
 
 - **[Caching](./caching.md)** <span class="topic-count">3</span>
 - **[Cloudflare](./cloudflare.md)** <span class="topic-count">3</span>
@@ -151,7 +151,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Data & Advanced Analytics
+### Data and Advanced Analytics
 
 - **[Crunchydata](./crunchydata.md)** <span class="topic-count">12</span>
 - **[Databases](./databases.md)** <span class="topic-count">46</span>
@@ -204,7 +204,7 @@
 
 <section class="topic-map-dim" markdown="1">
 
-### Career & Industry
+### Career and Industry
 
 - **[Appointment Scheduling](./appointment-scheduling.md)** <span class="topic-count">1</span>
 - **[Elearning](./elearning.md)** <span class="topic-count">4</span>
