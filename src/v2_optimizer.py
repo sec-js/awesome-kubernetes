@@ -1257,6 +1257,59 @@ class V2VisionEngine:
                     total += _count_links(v)
             return total
 
+        # Resource-density heatmap: a true colour matrix (distinct from the
+        # size-based Label cloud on the index/Tags pages). One tile per category,
+        # grouped by the same strategic dimensions as the directory below, with
+        # tile warmth encoding how many AI-curated resources it holds. Counts span
+        # ~1..160, so a LOG scale is used to avoid collapsing everything into the
+        # lowest bucket. Six levels map onto .th-1..6.
+        cat_counts = {f_name: _count_links(info["content"]) for f_name, info in data.items()}
+        _all_counts = [c for c in cat_counts.values() if c > 0] or [1]
+        _hmin, _hmax = math.log(min(_all_counts)), math.log(max(_all_counts))
+
+        def _topic_heat(count):
+            if count <= 0:
+                return 1
+            if _hmax == _hmin:
+                return 3
+            return 1 + round((math.log(count) - _hmin) / (_hmax - _hmin) * 5)  # 1..6
+
+        heatmap_md = (
+            "## Resource Density Heatmap\n\n"
+            "Each tile is a category; the warmer the colour, the more AI-curated "
+            "resources it holds. A fast read of where the Cloud Native ecosystem's "
+            "depth concentrates — click any tile to open its page.\n\n"
+            "<div class=\"topic-heatmap\">\n"
+            "<div class=\"topic-heatmap__legend\">"
+            "<span class=\"topic-heatmap__cap\">Fewer</span>"
+            "<span class=\"topic-heatcell th-1\"></span>"
+            "<span class=\"topic-heatcell th-2\"></span>"
+            "<span class=\"topic-heatcell th-3\"></span>"
+            "<span class=\"topic-heatcell th-4\"></span>"
+            "<span class=\"topic-heatcell th-5\"></span>"
+            "<span class=\"topic-heatcell th-6\"></span>"
+            "<span class=\"topic-heatmap__cap\">More</span>"
+            "</div>\n"
+        )
+        for dim in self.dimensions.keys():
+            if dim not in dim_groups:
+                continue
+            heatmap_md += "<div class=\"topic-heatmap__row\">\n"
+            heatmap_md += f"<div class=\"topic-heatmap__dim\">{dim}</div>\n"
+            heatmap_md += "<div class=\"topic-heatmap__cells\">\n"
+            for f in sorted(dim_groups[dim], key=lambda x: cat_counts[x], reverse=True):
+                count = cat_counts[f]
+                lvl = _topic_heat(count)
+                slug = f[:-3] if f.endswith(".md") else f
+                heatmap_md += (
+                    f"<a class=\"topic-heatcell th-{lvl}\" href=\"./{slug}/\" "
+                    f"title=\"{data[f]['title']} — {count} resources\">"
+                    f"<span class=\"topic-heatcell__name\">{data[f]['title']}</span>"
+                    f"<span class=\"topic-heatcell__n\">{count}</span></a>\n"
+                )
+            heatmap_md += "</div>\n</div>\n"
+        heatmap_md += "</div>\n\n"
+
         topic_md = (
             "---\n"
             "description: \"The complete Nubenetes V2 directory: every curated Kubernetes, "
@@ -1267,6 +1320,8 @@ class V2VisionEngine:
             "    Every curated category across all strategic dimensions, with the number of "
             "AI-selected resources in each. Looking for the landing page? Back to the "
             "[**2026 Vision**](/).\n\n"
+            + heatmap_md +
+            "## Full Category Directory\n\n"
             "<div class=\"topic-map-grid\" markdown=\"1\">\n\n"
         )
         for dim in self.dimensions.keys():
