@@ -5,18 +5,6 @@
 
 Welcome to the **DevOps, IaC, and SRE** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
-## Table of Contents
-
-1. [Prometheus](#prometheus)
-2. [Terraform Enterprise](#terraform-enterprise)
-3. [HashiCorp Stack Terraform Vault Consul Boundary](#hashicorp-stack-terraform-vault-consul-boundary)
-4. [Azure DevOps and GitHub Actions](#azure-devops-and-github-actions)
-5. [DevSecOps](#devsecops)
-6. [FinOps](#finops)
-7. [GitOps](#gitops)
-8. [Jenkins](#jenkins)
-9. [NetBox](#netbox)
-
 ## Prometheus
 
 ??? note "🎬 Prometheus: The Documentary"

@@ -6,6 +6,88 @@
 !!! info "Universal Tag Index"
     Browse all V2 resources grouped by maturity levels and technical domains.
 
+## Label Heatmap
+
+Bigger, warmer labels cover more resources. Click any label to jump to its section below.
+
+<div class="v2-tag-heatmap">
+<a class="v2-heat-tag v2-heat-3" href="#agnostic-content" title="23 resources">Agnostic<span class="v2-heat-n">23</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#asciidoc-content" title="1 resources">Asciidoc<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#ballerina-content" title="1 resources">Ballerina<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#bash-content" title="9 resources">Bash<span class="v2-heat-n">9</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#bash-yaml-content" title="1 resources">Bash/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#bicep-content" title="3 resources">Bicep<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#c-content" title="3 resources">C<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#c-sharp-python-js-content" title="1 resources">C# / Python / Js<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#c-sharp-content" title="17 resources">C#<span class="v2-heat-n">17</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#c-plus-plus-go-python-content" title="1 resources">C++ / Go / Python<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#c-plus-plus-go-content" title="1 resources">C++ / Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#c-plus-plus-content" title="2 resources">C++<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#case-study" title="39 resources">Case Study<span class="v2-heat-n">39</span></a>
+<a class="v2-heat-tag v2-heat-6" href="#community-tool" title="1764 resources">Community-Tool<span class="v2-heat-n">1764</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#conceptual-content" title="12 resources">Conceptual<span class="v2-heat-n">12</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#de-facto-standard" title="323 resources">De Facto Standard<span class="v2-heat-n">323</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#emerging" title="14 resources">Emerging<span class="v2-heat-n">14</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="366 resources">Enterprise-Stable<span class="v2-heat-n">366</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#go-yaml-content-2" title="1 resources">Go/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#groovy-content" title="11 resources">Groovy<span class="v2-heat-n">11</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#guide" title="266 resources">Guide<span class="v2-heat-n">266</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#haskell-content" title="2 resources">Haskell<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#hcl-content" title="39 resources">Hcl<span class="v2-heat-n">39</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#html-content" title="3 resources">Html<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#ini-content" title="1 resources">Ini<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#java-go-node-js-content" title="1 resources">Java / Go / Node.Js<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#java-yaml-content" title="2 resources">Java / Yaml<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#java-content" title="184 resources">Java<span class="v2-heat-n">184</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#javascript-content" title="32 resources">Javascript<span class="v2-heat-n">32</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#javascript-shell-content" title="1 resources">Javascript/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#javascript-webassembly-content" title="1 resources">Javascript/Webassembly<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#json-content" title="1 resources">Json<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#jsonnet-content" title="2 resources">Jsonnet<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#kql-content" title="2 resources">Kql<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#legacy" title="118 resources">Legacy<span class="v2-heat-n">118</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#lua-content" title="1 resources">Lua<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#markdown-content" title="69 resources">Markdown<span class="v2-heat-n">69</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#node-js-content" title="3 resources">Node.Js<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#pdf-content" title="1 resources">Pdf<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#php-content" title="1 resources">Php<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#powershell-content" title="3 resources">Powershell<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#promql-content" title="1 resources">Promql<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#protobuf-content" title="1 resources">Protobuf<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#python-c-plus-plus-content" title="1 resources">Python / C++<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#python-content" title="95 resources">Python<span class="v2-heat-n">95</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#python-terraform-content" title="1 resources">Python/Terraform<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#python-yaml-content" title="1 resources">Python/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#rego-content" title="1 resources">Rego<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#ruby-content" title="1 resources">Ruby<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#rust-content" title="18 resources">Rust<span class="v2-heat-n">18</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#scala-content" title="3 resources">Scala<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#shell-content" title="29 resources">Shell<span class="v2-heat-n">29</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#spanish-content" title="31 resources">Spanish<span class="v2-heat-n">31</span></a>
+<a class="v2-heat-tag v2-heat-2" href="#sql-content" title="4 resources">Sql<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#terraform-content" title="2 resources">Terraform<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#terraform-yaml-content" title="1 resources">Terraform/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#typescript-go-content" title="1 resources">Typescript / Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="#typescript-content" title="36 resources">Typescript<span class="v2-heat-n">36</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#typescript-elixir-content" title="1 resources">Typescript/Elixir<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#typescript-rego-content" title="1 resources">Typescript/Rego<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-c-sharp-content" title="1 resources">Yaml / C#<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-go-content" title="1 resources">Yaml / Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#yaml-content" title="157 resources">Yaml<span class="v2-heat-n">157</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-bash-content" title="1 resources">Yaml/Bash<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-go-content-2" title="1 resources">Yaml/Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-hcl-content" title="1 resources">Yaml/Hcl<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-helm-content" title="1 resources">Yaml/Helm<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="#yaml-terraform-content" title="1 resources">Yaml/Terraform<span class="v2-heat-n">1</span></a>
+</div>
+
 ## Table of Contents
 
 ### Maturity and Quality

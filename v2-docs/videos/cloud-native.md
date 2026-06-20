@@ -5,22 +5,6 @@
 
 Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
-## Table of Contents
-
-1. [Kubernetes](#kubernetes)
-2. [Red Hat OpenShift](#red-hat-openshift)
-3. [Platform Engineering](#platform-engineering)
-4. [Ruby on Rails](#ruby-on-rails)
-5. [Ruby on Rails Hotwire](#ruby-on-rails-hotwire)
-6. [Portworx](#portworx)
-7. [Modular Monoliths](#modular-monoliths)
-8. [Git](#git)
-9. [Distributed Systems Strategy](#distributed-systems-strategy)
-10. [Hosted Control Planes](#hosted-control-planes)
-11. [Azure Verified Modules AVM](#azure-verified-modules-avm)
-12. [OpenShift](#openshift)
-13. [VS Code](#vs-code)
-
 ## Kubernetes
 
 ??? note "🎬 Kubernetes for SysAdmins | Kelsey Hightower at PuppetConf | Talk & Demo"

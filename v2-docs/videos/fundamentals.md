@@ -5,11 +5,6 @@
 
 Welcome to the **Fundamentals** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.
 
-## Table of Contents
-
-1. [Kubernetes](#kubernetes)
-2. [Spring Framework](#spring-framework)
-
 ## Kubernetes
 
 ??? note "🎬 Kubernetes: The Documentary [PART 1]"

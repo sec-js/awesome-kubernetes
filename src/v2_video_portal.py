@@ -181,24 +181,18 @@ def generate_v2_videos():
             "    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/).",
             "",
             f"Welcome to the **{theme_title}** section of the V2 Video Hub. Explore curated high-density videos with architectural summaries.",
-            "",
-            "## Table of Contents",
             ""
         ]
 
-        # Group by Technology for TOC
+        # In-page Markdown Table of Contents intentionally omitted: it duplicates
+        # Material's native right-column "On this page" TOC (toc.follow). We still
+        # build the ordered technology list below because it drives the rendering
+        # order of the grouped video sections.
         techs = []
         for v in videos:
             tech = v.get("technology", "Cloud Native")
             if tech not in techs:
                 techs.append(tech)
-
-        for idx, tech in enumerate(techs, 1):
-            clean_tech = clean_header(tech)
-            slug = get_slug(tech)
-            content.append(f"{idx}. [{clean_tech}](#{slug})")
-
-        content.append("")
 
         # Render Grouped Videos
         grouped_by_tech = {}
