@@ -24,6 +24,8 @@
   </a>
 </div>
 
+## Explore the Ecosystem
+
 <div class="hero-badge-row">
   <a href="./kubernetes/" style="text-decoration: none; color: inherit; display: block;">
     <div class="hero-badge-card hero-badge-card--cyan">
@@ -85,6 +87,8 @@
     - **GitHub Metadata Coverage**: 1764 / 1764 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
+
+## Trending Now
 
 <div class="trending-section">
 <div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Jun 20, 2026</span></div>
