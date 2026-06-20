@@ -1,4 +1,4 @@
-# Nubenetes Elite Portal (V2) | Awesome Kubernetes & Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Nubenetes Elite Portal (V2) | Awesome Kubernetes and Cloud [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 !!! tip "Nubenetes V2 Elite Portal: AI-Curated & High-Density"
     You are browsing the AI-Curated V2 Elite Edition of Nubenetes. Looking for the complete historical archive? Explore the [**V1 Historical Archive**](/v1/).
