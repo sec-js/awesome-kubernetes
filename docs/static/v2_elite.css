@@ -1103,18 +1103,6 @@ input[type="text"] {
   flex-wrap: wrap;
 }
 
-.trending-section__title--secondary {
-  font-size: 1.15em;
-  margin-top: 28px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
-  color: var(--md-primary-fg-color--dark);
-}
-
-[data-md-color-scheme="slate"] .trending-section__title--secondary {
-  border-top-color: rgba(255, 255, 255, 0.08);
-}
-
 .trending-section__updated {
   font-size: 0.55em;
   font-weight: 500;
