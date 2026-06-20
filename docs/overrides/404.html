@@ -1,0 +1,23 @@
+{% extends "main.html" %}
+
+<!--
+  Branded 404. The portal cares about deep-link stability (see CLAUDE.md URL
+  policy), so a dead link lands on a helpful page with clear ways back rather
+  than the theme's bare "404 - Not found". Shared by V1 and V2 (custom_dir is
+  docs/overrides for both), so styling is self-contained and links are root-relative.
+-->
+{% block content %}
+<div style="text-align:center; max-width:42rem; margin:3rem auto; padding:0 1rem;">
+  <p style="font-size:6rem; font-weight:700; line-height:1; margin:0; opacity:0.15;">404</p>
+  <h1 style="margin-top:0.5rem;">This page took a wrong turn</h1>
+  <p style="font-size:0.9rem; opacity:0.8;">
+    The resource you are looking for may have moved or never existed. Use the
+    search at the top, or jump back to a known starting point below.
+  </p>
+  <div style="display:flex; gap:0.75rem; justify-content:center; flex-wrap:wrap; margin-top:1.5rem;">
+    <a href="/" class="md-button md-button--primary">🏠 Home</a>
+    <a href="/topic-map/" class="md-button">🗺️ Topic Map</a>
+    <a href="/v1/" class="md-button">📚 V1 Archive</a>
+  </div>
+</div>
+{% endblock %}

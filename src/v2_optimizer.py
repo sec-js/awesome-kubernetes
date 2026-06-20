@@ -169,7 +169,7 @@ class V2VisionEngine:
         
         # --- SURGICAL GARBAGE COLLECTION ---
         # Track every file we generate
-        generated_files = {"index.md", "audit-log.md", "videos.md", "tags.md", "tech-digest.md", "industry-digest.md"}
+        generated_files = {"index.md", "audit-log.md", "videos.md", "tags.md", "tech-digest.md", "industry-digest.md", "topic-map.md", "methodology.md"}
         for f_name in v2_data.keys():
             generated_files.add(f_name)
 
@@ -1113,7 +1113,7 @@ class V2VisionEngine:
             "    </div>\n"
             "  </a>\n"
             "</div>\n\n"
-            "<div style=\"display: flex; justify-content: center; gap: 24px; margin: 16px 0; flex-wrap: wrap;\">\n"
+            "<div class=\"hero-badge-row\">\n"
             "  <a href=\"./kubernetes/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--cyan\">\n"
             "      <img src=\"/images/kubernetes_logo.png\" alt=\"Kubernetes\"/>\n"
@@ -1142,6 +1142,13 @@ class V2VisionEngine:
             "      <div class=\"hero-badge-subtitle\">Architect Video Library</div>\n"
             "    </div>\n"
             "  </a>\n"
+            "  <a href=\"./topic-map/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
+            "    <div class=\"hero-badge-card hero-badge-card--indigo\">\n"
+            "      <div class=\"hero-badge-icon\">🗺️</div>\n"
+            "      <div class=\"hero-badge-title\">Topic Map</div>\n"
+            "      <div class=\"hero-badge-subtitle\">All Categories · Directory</div>\n"
+            "    </div>\n"
+            "  </a>\n"
             "  <a href=\"./introduction/\" style=\"text-decoration: none; color: inherit; display: block;\">\n"
             "    <div class=\"hero-badge-card hero-badge-card--teal\">\n"
             "      <img src=\"/images/hero-car.png\" alt=\"Nubenetes Car\"/>\n"
@@ -1154,26 +1161,59 @@ class V2VisionEngine:
             "    The V2 Edition is a curated, high-density version of the Nubenetes archive. Using **Agentic AI Orchestration**, "
             "the system selects only the most relevant, stable, and impactful resources for the modern Cloud Native ecosystem (2026 and beyond).\n\n"
             f"{coverage_info}\n\n"
-            f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            # Altitude fix: surface the fresh, dynamic Trending/Digest BEFORE the
+            # signature YouTube mosaic (which now closes the page as a brand showcase).
             f"{pulse_md}\n\n"
-            "## Strategic Dimensions\n"
-            "- **[🎥 Agentic Video Hub (Architectural Summary)](./videos/index.md)**\n\n"
+            "## The Cloud Native Universe We Track\n\n"
+            f"<center markdown=\"1\">\n{mosaic_html}\n</center>\n\n"
+            "---\n\n"
+            "**Reference:** [🗺️ Full Topic Map](./topic-map/) · "
+            "[📐 Methodology &amp; Maturity Taxonomy](./methodology/) · "
+            "[🎥 Agentic Video Hub](./videos/index.md)\n"
         )
-        
-        # Group by dimension for index
+
+        # Group by dimension (shared by the Topic Map directory page below).
         dim_groups = {}
         for f_name, info in data.items():
             dim_groups.setdefault(info["dim"], []).append(f_name)
-            
-        # Mandate: Use the order defined in self.dimensions for architectural flow
+
+        with open(os.path.join(V2_DIR, "index.md"), "w") as f:
+            f.write(index_md)
+
+        # --- Topic Map: full category directory in a multi-column grid -----------
+        def _count_links(node):
+            total = len(node.get("__links__", []))
+            for k, v in node.items():
+                if k != "__links__" and isinstance(v, dict):
+                    total += _count_links(v)
+            return total
+
+        topic_md = (
+            "# Topic Map\n\n"
+            "!!! tip \"The complete Nubenetes V2 directory\"\n"
+            "    Every curated category across all strategic dimensions, with the number of "
+            "AI-selected resources in each. Looking for the landing page? Back to the "
+            "[**2026 Vision**](/).\n\n"
+            "<div class=\"topic-map-grid\" markdown=\"1\">\n\n"
+        )
         for dim in self.dimensions.keys():
             if dim in dim_groups:
-                index_md += f"### {dim}\n"
+                topic_md += "<section class=\"topic-map-dim\" markdown=\"1\">\n\n"
+                topic_md += f"### {dim}\n\n"
                 for f in sorted(dim_groups[dim]):
-                    index_md += f"- **[{data[f]['title']}](./{f})**\n"
-        
-        index_md += (
-            "\n---\n\n"
+                    count = _count_links(data[f]["content"])
+                    topic_md += f"- **[{data[f]['title']}](./{f})** <span class=\"topic-count\">{count}</span>\n"
+                topic_md += "\n</section>\n\n"
+        topic_md += "</div>\n"
+        with open(os.path.join(V2_DIR, "topic-map.md"), "w") as f:
+            f.write(topic_md)
+
+        # --- Methodology: maturity taxonomy + technical impact reference ---------
+        methodology_md = (
+            "# Methodology\n\n"
+            "!!! abstract \"How Nubenetes V2 classifies and ranks resources\"\n"
+            "    The reference legends below explain the maturity tags and the technical "
+            "impact (star) scores applied to every resource in the portal.\n\n"
             "## The Maturity Taxonomy\n\n"
             "To ensure industrial-grade precision, every resource in V2 is classified using our proprietary 5-tier maturity system:\n\n"
             "| Tag | Description | Engineering Context |\n"
@@ -1197,7 +1237,7 @@ class V2VisionEngine:
             "| 🌟 | **Reference Only** | Basic documentation or historical reference without major current impact. | Standard Link |\n"
         )
         
-        with open(os.path.join(V2_DIR, "index.md"), "w") as f: f.write(index_md)
+        with open(os.path.join(V2_DIR, "methodology.md"), "w") as f: f.write(methodology_md)
 
         async def render_node(node, depth, base_slug, used_headers, is_intro=False):
             md = ""
@@ -1264,9 +1304,9 @@ class V2VisionEngine:
                     "## The Nubenetes Engineering Manifest\n\n"
                     "!!! quote \"The Positive Sum Game\"\n"
                     "    ==*\"Open Source is most successful when is played as a positive sum game\" (Sarah Novotny)*==\n\n"
-                    "<div style=\"display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin: 24px 0;\">\n"
-                    "  <iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/GZl7N8sXyEo\" title=\"Cowboy Bebop - Tank!\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n"
-                    "  <iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/t_hdOVsdRSE\" title=\"Jimmy Sax - Time\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>\n"
+                    "<div class=\"video-embed-grid\">\n"
+                    "  <div class=\"video-embed\"><iframe src=\"https://www.youtube-nocookie.com/embed/GZl7N8sXyEo\" title=\"Cowboy Bebop - Tank!\" loading=\"lazy\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n"
+                    "  <div class=\"video-embed\"><iframe src=\"https://www.youtube-nocookie.com/embed/t_hdOVsdRSE\" title=\"Jimmy Sax - Time\" loading=\"lazy\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>\n"
                     "</div>\n\n"
                     "### 1. The Genesis: Munich 2018\n"
                     "Nubenetes was forged in the internals of a massive Cloud Native transformation for a **major multinational car manufacturer** in Munich. Coordinating hundreds of microservices, thousands of developers, and millions of end-users taught us a fundamental truth: **Standardization, Automation, and GitOps are not \"best practices\"—they are survival requirements.**\n\n"
@@ -1482,6 +1522,8 @@ class V2VisionEngine:
                 "nav:",
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
+                "  - \"Topic Map\": topic-map.md",
+                "  - \"Methodology\": methodology.md",
                 "  - \"Technical Tags\": tags.md",
                 "  - \"Intelligence Digest\":",
                 "    - \"Tech & Cloud Digest\": tech-digest.md",

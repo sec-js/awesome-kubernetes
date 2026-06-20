@@ -1185,6 +1185,105 @@ input[type="text"] {
   color: #09090b;
 }
 
+/* ===================================================================
+   v2.9.16 — Home restructure: hero badge row, Topic Map grid,
+   mosaic labels, responsive video embeds
+   =================================================================== */
+
+/* Hero badge row (was an inline flexbox style on the index) */
+.hero-badge-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+/* Indigo accent for the new Topic Map badge card */
+.hero-badge-card--indigo {
+  border-color: rgba(99, 102, 241, 0.2);
+  background: rgba(99, 102, 241, 0.02);
+}
+.hero-badge-card--indigo:hover {
+  background: rgba(99, 102, 241, 0.06) !important;
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.18);
+  border-color: #6366f1 !important;
+}
+
+/* Topic Map: full category directory as a multi-column grid.
+   CSS columns flow the per-dimension sections into 3 (then 2, then 1)
+   columns; break-inside keeps a dimension block intact across columns. */
+.topic-map-grid {
+  column-count: 3;
+  column-gap: 2.5rem;
+  margin-top: 1.5rem;
+}
+.topic-map-dim {
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  display: inline-block; /* helps WebKit honor break-inside */
+  width: 100%;
+  margin: 0 0 1.4rem;
+}
+.topic-map-dim h3 {
+  margin-top: 0;
+}
+.topic-map-dim ul {
+  margin-top: 0.3rem;
+}
+.topic-count {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0 0.45rem;
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.4;
+  border-radius: 10px;
+  color: var(--md-default-fg-color--light);
+  background: var(--md-default-fg-color--lightest);
+  vertical-align: middle;
+}
+@media screen and (max-width: 76.1875em) {
+  .topic-map-grid { column-count: 2; }
+}
+@media screen and (max-width: 44.9375em) {
+  .topic-map-grid { column-count: 1; }
+}
+
+/* Visible label for each YouTube mosaic category block (was hidden in title=) */
+.mosaic-cat-label {
+  margin: 0 0 0.5rem;
+  padding-left: 0.55rem;
+  border-left: 3px solid var(--cat-color, #64748b);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  text-align: left;
+}
+
+/* Responsive, privacy-friendly video embeds (about page) */
+.video-embed-grid {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+.video-embed {
+  flex: 1 1 420px;
+  max-width: 480px;
+  aspect-ratio: 16 / 9;
+}
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
+
 
 
 
