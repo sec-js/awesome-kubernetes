@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Security resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+---
 # Kubernetes Security
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Angular resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Angular framework
 
 !!! tip "Nubenetes V2 Elite Portal"

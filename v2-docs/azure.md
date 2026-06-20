@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Azure resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+---
 # Microsoft Azure
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Test Automation Frameworks resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # Test Automation Frameworks and Behavior Driven Development. Selenium, Cypress, Cucumber, Appium and more
 
 !!! tip "Nubenetes V2 Elite Portal"

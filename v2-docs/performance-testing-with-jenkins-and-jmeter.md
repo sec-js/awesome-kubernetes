@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Performance Testing With Jenkins And Jmeter resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # Performance testing with jenkins and JMeter or Gatling
 
 !!! tip "Nubenetes V2 Elite Portal"

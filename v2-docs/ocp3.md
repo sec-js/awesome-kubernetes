@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked OCP 3 resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # OCP 3
 
 !!! tip "Nubenetes V2 Elite Portal"

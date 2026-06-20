@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Message Queue resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Data & Advanced Analytics)."
+---
 # Cloud Based Integration and Messaging. Data Processing and Streaming (aka Data Pipeline). Open Data Hub
 
 !!! tip "Nubenetes V2 Elite Portal"

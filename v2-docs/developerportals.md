@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Developerportals resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Platform & Site Reliability)."
+---
 # API Marketplaces. API Management with API Gateways and Developer Portals
 
 !!! tip "Nubenetes V2 Elite Portal"

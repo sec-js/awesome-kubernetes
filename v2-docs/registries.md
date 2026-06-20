@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Registries resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Engineering Pipeline)."
+---
 # Docker Registries. Quay, Nexus, JFrog Artifactory, Harbor and more
 
 !!! tip "Nubenetes V2 Elite Portal"

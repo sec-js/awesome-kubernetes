@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Devsecops resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+---
 # DevSecOps and Security. Container
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Introduction resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # Introduction. Microservice Architecture. From Java EE To Cloud Native. Openshift VS Kubernetes
 
 !!! tip "Nubenetes V2 Elite Portal"

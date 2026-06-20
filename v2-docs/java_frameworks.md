@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Java_Frameworks resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Java and Java Programming Models. Open Source Microservices Frameworks
 
 !!! tip "Nubenetes V2 Elite Portal"

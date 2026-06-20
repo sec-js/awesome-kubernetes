@@ -1,3 +1,6 @@
+---
+description: "How Nubenetes V2 classifies and ranks resources: the maturity taxonomy and technical impact (star) scoring used across the Elite portal."
+---
 # Methodology
 
 !!! abstract "How Nubenetes V2 classifies and ranks resources"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked AWS resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+---
 # Public Cloud Provider. Amazon Web Services
 
 !!! tip "Nubenetes V2 Elite Portal"

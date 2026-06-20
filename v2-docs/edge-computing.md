@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+---
 # Edge Computing
 
 !!! tip "Nubenetes V2 Elite Portal"

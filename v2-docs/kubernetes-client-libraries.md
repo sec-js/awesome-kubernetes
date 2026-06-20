@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Client Libraries resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # Client Libraries for Kubernetes
 
 !!! tip "Nubenetes V2 Elite Portal"

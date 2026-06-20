@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Java_App_Servers resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Server Vendors Providing Java EE/Jakarta EE and MicroProfile Runtimes
 
 !!! tip "Nubenetes V2 Elite Portal"

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Servicemesh resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+---
 # Service Mesh
 
 !!! tip "Nubenetes V2 Elite Portal"
