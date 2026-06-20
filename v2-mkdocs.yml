@@ -29,8 +29,9 @@ theme:
         icon: material/shield-moon-outline
         name: Switch to dark mode
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # navigation.tabs / .sticky disabled: 18 top-level sections overflowed
+    # the tab bar (horizontal scroll). The left sidebar handles them as a
+    # standard vertical list and stays populated on every page incl. home.
     - navigation.top
     - navigation.tracking
     - navigation.sections
