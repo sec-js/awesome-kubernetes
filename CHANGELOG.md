@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.18]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.18) - 2026-06-20
+
+### Added
+- **Per-page "Last update" dates (SEO freshness)**: Enabled the `git-revision-date-localized` MkDocs plugin on the V2 portal, surfacing a real last-modified date on every page. Added the dependency to `requirements.txt`, configured it in `v2-mkdocs.yml` (`type: date`, `fallback_to_build_date: true` so a missing git history never fails the build), and set `fetch-depth: 0` on the `06.deploy_final.yml` checkout so the plugin reads full history instead of collapsing every page to the build date.
+- **JSON-LD structured data**: Injected schema.org `WebSite` (with a sitelinks `SearchAction`) + publishing `Organization` markup via an `extrahead` block in `docs/overrides/main.html`, making the canonical `nubenetes.com` root eligible for richer search results and knowledge-panel association. Validated: build exits 0 and the emitted JSON-LD parses to `[WebSite, Organization]`.
+
+### Fixed
+- **`develop ↔ master` cosmetic drift loop (recurring no-op release PRs)**: The PR Guardian (`07.1.pr_guardian.yml` → `src/pr_guardian.py`) ran its auto-formatter ("&"→"and" in headings, URL trailing-slash/tracking-param stripping) on every changed `.md` — including the **generated** `v2-docs/` tree — and committed the result back to the PR branch. Because feature PRs land on `develop` (Guardian runs) but release branches merge to `master` via plain `git merge` (Guardian does not run), `develop` accumulated the normalized form while `master` kept the generator's raw form, producing a perpetual cosmetic diff that spawned recurring no-op "🚀 Release: Agentic V2 Portal Update" PRs (e.g. #399). Since `v2_optimizer.py` is the single source of truth for `v2-docs/` formatting, the Guardian now skips that tree in its auto-format loop and drops it from the auto-commit `git add`; hand-authored `docs/` and `README`/`inventory` are unaffected.
+
 ## [[2.9.17]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.17) - 2026-06-20
 
 ### Fixed
