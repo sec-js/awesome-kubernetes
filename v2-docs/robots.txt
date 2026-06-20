@@ -1,0 +1,8 @@
+# Nubenetes — https://nubenetes.com
+# The Intelligent Cloud Native Archive (V1 exhaustive + V2 elite portal)
+
+User-agent: *
+Allow: /
+
+Sitemap: https://nubenetes.com/sitemap.xml
+Sitemap: https://nubenetes.com/v1/sitemap.xml

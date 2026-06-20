@@ -1189,6 +1189,10 @@ class V2VisionEngine:
             return total
 
         topic_md = (
+            "---\n"
+            "description: \"The complete Nubenetes V2 directory: every curated Kubernetes, "
+            "Cloud Native and DevOps category by strategic dimension, with resource counts.\"\n"
+            "---\n"
             "# Topic Map\n\n"
             "!!! tip \"The complete Nubenetes V2 directory\"\n"
             "    Every curated category across all strategic dimensions, with the number of "
@@ -1213,6 +1217,10 @@ class V2VisionEngine:
 
         # --- Methodology: maturity taxonomy + technical impact reference ---------
         methodology_md = (
+            "---\n"
+            "description: \"How Nubenetes V2 classifies and ranks resources: the maturity "
+            "taxonomy and technical impact (star) scoring used across the Elite portal.\"\n"
+            "---\n"
             "# Methodology\n\n"
             "!!! abstract \"How Nubenetes V2 classifies and ranks resources\"\n"
             "    The reference legends below explain the maturity tags and the technical "
@@ -1285,7 +1293,19 @@ class V2VisionEngine:
             used_headers = {info['long_title']} # Mandate 30: MD024 - Pre-populate with H1 to avoid duplicates
             # Formulate V1 counterpart link dynamically
             v1_link = f"/v1/{f_name.replace('.md', '/')}"
+            # Unique per-page SEO meta description (front-matter) so each page no
+            # longer falls back to the identical global site_description. Material
+            # emits it as <meta name="description"> + og:description.
+            _seo_title = str(info.get('title') or info['long_title'])[:60].strip()
+            _seo_desc = (
+                f"Curated, AI-ranked {_seo_title} resources for the 2026 Cloud Native "
+                f"architect: top-tier tools, guides and references ({info['dim']})."
+            )
+            _seo_desc = _seo_desc.replace("\\", " ").replace('"', "'").replace("\n", " ").strip()
             md = (
+                f"---\n"
+                f"description: \"{_seo_desc}\"\n"
+                f"---\n"
                 f"# {info['long_title']}\n\n"
                 f"!!! tip \"Nubenetes V2 Elite Portal\"\n"
                 f"    You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**]({v1_link}).\n\n"
