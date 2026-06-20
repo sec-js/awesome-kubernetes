@@ -13,16 +13,18 @@
   (Baseline 2026) — zero JS, with free Esc/click-outside dismissal and focus
   management. Adding a leaf grows a menu, never the bar.
 
-  Direct pills: Topic Map · Digest · Kubernetes · Docker · GitOps · Terraform · AI & MCP
-  Menus: Cloud (AWS · Azure · GCP) · Network (Networking · Istio · K8s Net)
-         · Security (Security · DevSecOps) · Ops (CI/CD · Observability · SRE · DevOps)
-         · More (Videos · Ansible · Messaging · MLOps · Methodology · V1 Archive)
+  Direct pills: Topic Map · Kubernetes · Docker · GitOps · Terraform · AI & MCP
+  Menus: Digest (Tech · Industry) · K8s (Tools · Helm · Managed · OpenShift · Tutorials)
+         · Cloud (AWS · Azure · GCP · Serverless · FinOps)
+         · Network (Networking · Istio · Service Mesh · K8s Net)
+         · Security (K8s Security · DevSecOps)
+         · Ops (CI/CD · IaC · Observability · SRE · DevOps · Dev Portals)
+         · More (Tags · Demos · Videos · Ansible · Messaging · MLOps · Methodology · V1)
 -#}
 {% block tabs %}
 <nav class="nb-quicknav" aria-label="Quick navigation">
   <div class="nb-quicknav__inner">
     <a class="nb-quicknav__link" href="/topic-map/">🗺️ Topic Map</a>
-    <a class="nb-quicknav__link" href="/tech-digest/">📊 Digest</a>
     <a class="nb-quicknav__link" href="/kubernetes/">☸️ Kubernetes</a>
     <a class="nb-quicknav__link" href="/docker/">🐳 Docker</a>
     <a class="nb-quicknav__link" href="/gitops/">🔄 GitOps</a>
@@ -30,11 +32,32 @@
     <a class="nb-quicknav__link" href="/ai-agents-mcp/">🤖 AI &amp; MCP</a>
 
     <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-digest" type="button">📊 Digest <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-digest" popover>
+        <a href="/tech-digest/">📊 Tech &amp; Cloud Digest</a>
+        <a href="/industry-digest/">🌍 Industry &amp; Geo Digest</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
+      <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-k8s" type="button">🧰 K8s <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
+      <div class="nb-quicknav__menu" id="nb-pop-k8s" popover>
+        <a href="/kubernetes-tools/">🧰 Kubernetes Tools</a>
+        <a href="/helm/">📦 Helm</a>
+        <a href="/managed-kubernetes-in-public-cloud/">☁️ Managed K8s</a>
+        <a href="/openshift/">🎩 OpenShift</a>
+        <a href="/kubernetes-tutorials/">🎓 Tutorials</a>
+      </div>
+    </span>
+
+    <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-cloud" type="button">☁️ Cloud <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-cloud" popover>
         <a href="/aws/">☁️ AWS</a>
         <a href="/azure/">☁️ Azure</a>
         <a href="/GoogleCloudPlatform/">☁️ GCP</a>
+        <a href="/serverless/">⚡ Serverless</a>
+        <a href="/finops/">💰 FinOps</a>
       </div>
     </span>
 
@@ -42,7 +65,8 @@
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-net" type="button">🌐 Network <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-net" popover>
         <a href="/networking/">🌐 Networking</a>
-        <a href="/istio/">🕸️ Istio</a>
+        <a href="/istio/">⛵ Istio</a>
+        <a href="/servicemesh/">🕸️ Service Mesh</a>
         <a href="/kubernetes-networking/">🔗 K8s Net</a>
       </div>
     </span>
@@ -59,15 +83,19 @@
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-ops" type="button">⚙️ Ops <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-ops" popover>
         <a href="/cicd/">🚀 CI/CD</a>
+        <a href="/iac/">📜 IaC</a>
         <a href="/monitoring/">📈 Observability</a>
         <a href="/sre/">🛠️ SRE</a>
         <a href="/devops/">♾️ DevOps</a>
+        <a href="/developerportals/">🏛️ Developer Portals</a>
       </div>
     </span>
 
     <span class="nb-quicknav__group">
       <button class="nb-quicknav__link nb-quicknav__btn" popovertarget="nb-pop-more" type="button">⋯ More <span class="nb-quicknav__caret" aria-hidden="true">▾</span></button>
       <div class="nb-quicknav__menu" id="nb-pop-more" popover>
+        <a href="/tags/">🏷️ Technical Tags</a>
+        <a href="/demos/">🧪 Demos</a>
         <a href="/videos/">🎥 Videos</a>
         <a href="/ansible/">📋 Ansible</a>
         <a href="/message-queue/">📨 Messaging</a>

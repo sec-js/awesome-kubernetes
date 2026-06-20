@@ -1246,9 +1246,9 @@ input[type="text"] {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center; /* centered rows read as a balanced command bar */
-  gap: 0.4rem 0.38rem;
+  gap: 0.4rem 0.32rem;
   padding-block: 0.5rem;
-  padding-inline: 1rem;
+  padding-inline: 0.7rem;
 }
 .nb-quicknav__link {
   /* chip colors derived from the theme accent via color-mix (Chrome 111+) */
@@ -1259,7 +1259,7 @@ input[type="text"] {
   gap: 0.3em;
   color: rgba(255, 255, 255, 0.82) !important;
   text-decoration: none;
-  font-size: 0.64rem; /* ~1pt smaller so all pills + menus fit one row */
+  font-size: 0.62rem; /* sized so all pills + menus fit one row down to ~1280px */
   font-weight: 600;
   letter-spacing: 0.01em;
   white-space: nowrap;
@@ -1316,6 +1316,10 @@ input[type="text"] {
 /* Explicit anchor pairing per button↔menu — do NOT rely on the popover's
    implicit anchor (it isn't established reliably, leaving the menu in its
    static position over the button). */
+[popovertarget="nb-pop-digest"] { anchor-name: --nb-a-digest; }
+#nb-pop-digest { position-anchor: --nb-a-digest; }
+[popovertarget="nb-pop-k8s"] { anchor-name: --nb-a-k8s; }
+#nb-pop-k8s { position-anchor: --nb-a-k8s; }
 [popovertarget="nb-pop-cloud"] { anchor-name: --nb-a-cloud; }
 #nb-pop-cloud { position-anchor: --nb-a-cloud; }
 [popovertarget="nb-pop-net"] { anchor-name: --nb-a-net; }
