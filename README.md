@@ -350,9 +350,9 @@ Nubenetes partitions AI Agent tasks between the automated cloud pipeline and loc
 
 ```mermaid
 graph TD
-    A["awesome-kubernetes Repository"] --> B["GEMINI.md<br>(Curation & Data Mandates)"]
-    A --> C[".gemini/skills/awesome-kubernetes-ops/SKILL.md<br>(Local Dev Operations Guide)"]
-    
+    A["awesome-kubernetes Repository"] --> B["GEMINI.md<br>(Curation and Data Mandates)"]
+    A --> C[".gemini/skills/<br>awesome-kubernetes-ops/SKILL.md<br>(Local Dev Operations Guide)"]
+
     B --> D["Cloud Automation<br>(GitHub Actions runner)"]
     B --> E["Local Workspace<br>(Antigravity Coding Session)"]
     
@@ -442,6 +442,15 @@ The V2 portal includes an **AI-powered Intelligence Digest** system that surface
 #### V2 URL Policy (June 2026)
 - **Clean URLs enforced**: Both V1 and V2 use `use_directory_urls: true` producing SEO-friendly URLs (e.g., `/kubernetes/` not `/kubernetes.html`).
 - **Offline plugin permanently removed**: The MkDocs `offline` plugin forces `.html` suffixes on all URLs, breaking thousands of existing deep-links and SEO authority. It is explicitly forbidden in both `CLAUDE.md` and `GEMINI.md` mandates.
+
+#### V2 Home Restructure and SEO (v2.9.16–v2.9.20)
+- **Category-first landing page**: The home leads with the dynamic **Trending Now / Intelligence Digest**, followed by the signature YouTube mosaic (now framed under a *"The Cloud Native Universe We Track"* heading with **visible per-group category labels** and `loading="lazy"` on its ~150 logos).
+- **Topic Map page** ([`topic-map.md`](v2-docs/topic-map.md)): The complete category directory grouped by strategic dimension in a **responsive multi-column CSS grid**, with a **per-category resource count** derived from a recursive walk of each category's link tree. Replaces the long flat "Strategic Dimensions" list that previously bloated the home.
+- **Methodology page** ([`methodology.md`](v2-docs/methodology.md)): The Maturity Taxonomy and Technical Impact (star-score) legend tables, moved off the home into a dedicated reference page.
+- **Per-page "Last update" dates**: The `git-revision-date-localized` plugin surfaces a real last-modified date on every page (freshness signal for SEO and readers); the deploy checkout uses `fetch-depth: 0` for full history.
+- **JSON-LD structured data**: schema.org `WebSite` (with a sitelinks `SearchAction`) + publishing `Organization` markup injected via `docs/overrides/main.html` for richer search results.
+- **Branded 404 page** and **privacy-friendly video embeds** (`youtube-nocookie.com` + lazy-loading + responsive `aspect-ratio` wrapper).
+- **Deterministic generated artifacts**: the RSS feed's `lastBuildDate` derives from item content dates (not wall-clock), and the PR Guardian no longer auto-formats the generated `v2-docs/` tree — both eliminating spurious `develop ↔ master` churn.
 
 ### 5.3. Architecture Comparison Matrix: V1 vs. V2
 To better understand the dual-nature of the project, the following matrix details the technical and philosophical differences between the two editions:
@@ -550,6 +559,41 @@ To guarantee backward compatibility and Git efficiency, the system operates on a
 *   **Structural Intelligence**: `hierarchy` (Recursive JSON list), `tags` (JSON list), `v1_locations`, `v2_locations`, `youtube_mosaic` (JSON dict).
 *   **Platinum Lifecycle**: `content_hash` (SHA256 fingerprint), `health_score` (0-100), `source_provenance`, `social_preview_url`, `mentions_count`, `addition_method`.
 
+#### 6.1.3. Database Architecture Diagram (YAML + SQLite Coexistence)
+The following diagram details the dual-format storage engine: the flat `inventory.sql` text file is the Git source of truth, compiled into an in-memory SQLite database at runtime for relational queries, then decompiled back on save and mirrored to `inventory.yaml` for backward-compatible, high-speed parsing.
+
+<details><summary>🗺️ <b>View Database Architecture Diagram</b></summary>
+
+```mermaid
+graph TD
+    subgraph GIT["Git Source of Truth (versioned · 1 line per resource)"]
+        SQL["data/inventory.sql<br/>flat SQL text"]
+        YAML["data/inventory.yaml<br/>backward-compatible mirror"]
+    end
+
+    SQL -->|"compile on load"| MEM[("In-memory SQLite<br/>relational schema + SQL queries")]
+    MEM -->|"iterdump() on save"| SQL
+    MEM -->|"dual-save sync"| YAML
+    YAML -->|"CSafeLoader / CSafeDumper<br/>native C speed (10-20x)"| PARSE["Python consumers<br/>v2_optimizer · reorganize_mosaic<br/>safety_guard"]
+    AI["Gemini AI agents"] -->|"JSON messages in / out"| MEM
+
+    subgraph SCHEMA["Per-resource record — url = Primary Key"]
+        CORE["Core<br/>title · year · stars 0-5<br/>description V1 · ai_summary V2 · category"]
+        STRUCT["Structural<br/>hierarchy JSON · tags JSON<br/>v1/v2_locations · youtube_mosaic JSON"]
+        PLAT["Platinum lifecycle<br/>content_hash SHA256 · health_score<br/>discovered_at · last_ai_eval · addition_method"]
+    end
+
+    MEM -.->|"defines"| CORE
+    MEM -.->|"defines"| STRUCT
+    MEM -.->|"defines"| PLAT
+
+    style SQL fill:#bbf,stroke:#333,stroke-width:2px
+    style MEM fill:#f96,stroke:#333,stroke-width:2px
+    style YAML fill:#86efac,stroke:#333,stroke-width:2px
+```
+
+</details>
+
 ### 6.2. The 'Database-First' Reasoning Protocol (Zero-Redundancy)
 To maximize economic efficiency and maintain the **30-minute execution standard**, all AI agents follow a **Database-First** and **Zero-Redundancy** protocol:
 1.  **Local Lookup**: Before initiating any Gemini call, the agent queries the compiled SQLite/SQL database to see if the URL is already indexed.
@@ -561,7 +605,48 @@ To maximize economic efficiency and maintain the **30-minute execution standard*
 7.  **Mandatory Persistence**: Modified databases are automatically injected into Pull Requests, ensuring that "System Memory" is version-controlled and shared across all workflows.
 
 ### 6.3. Database Lifecycle and Hygiene
-To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols:
+To maintain a high-performance "Single Source of Truth", Nubenetes implements automated hygiene protocols. The diagram below traces a resource's full lifecycle — from autonomous discovery and ingestion, through incremental (cached) maintenance and enrichment, to rendering and deployment — with continuous background garbage collection.
+
+<details><summary>🗺️ <b>View Full Data Lifecycle Diagram</b></summary>
+
+```mermaid
+graph TD
+    subgraph S1["1 · Discovery and Ingestion"]
+        SRC["X.com · RSS · GitHub Trending<br/>autonomous source discovery"] --> CUR["Agentic Curator<br/>dedup · vaporware filter · scoring"]
+    end
+    CUR -->|"new resources"| DB[("Unified DB<br/>inventory.sql + inventory.yaml")]
+
+    subgraph S2["2 · Maintenance and Enrichment (incremental + cached)"]
+        HEALTH["Health Monitor<br/>200 OK · rescue 404s"]
+        META["Metadata Engine<br/>GitHub stars · license · CNCF status"]
+        AIEVAL["AI Curator<br/>summary · hierarchy · tags · debate"]
+        DRIFT["Drift and Staleness<br/>SHA256 · re-eval after 6 months"]
+    end
+    DB <--> HEALTH
+    DB <--> META
+    DB <--> AIEVAL
+    DB <--> DRIFT
+
+    subgraph S3["3 · Render"]
+        DB -->|"surgical line edits"| V1["V1 Archive<br/>docs/"]
+        DB -->|"elite selection + rebuild"| V2["V2 Portal<br/>v2-docs/"]
+        DB --> AUX["RSS feed · digest<br/>README metrics"]
+    end
+
+    subgraph S4["4 · Publish and Deploy"]
+        V1 --> REL["develop → master<br/>tag + GitHub Release"]
+        V2 --> REL
+        REL --> PAGES["Native GH Pages<br/>nubenetes.com"]
+    end
+
+    GC["Bi-monthly GC<br/>orphan pruning · audit log"] -.->|"hygiene"| DB
+
+    style DB fill:#f96,stroke:#333,stroke-width:2px
+    style PAGES fill:#86efac,stroke:#333,stroke-width:2px
+```
+
+</details>
+
 - **Universal Rescue Protocol (The Resurrection Rule)**: For ALL technical resources, the engine refuses to delete a link immediately upon a 404 or generic redirect. Instead, it triggers a "Technical Resurrection" cycle using **Real-time Web Grounding** to identify specific paths on destination domains. This is essential for preserving legendary content during massive corporate site migrations (e.g., **Nginx** to **F5**, or the **Ansible Blog** move to personal domains).
 - **High-Value Preservation (The 'Review Required' Rule)**: Resources identified as **High-Value** (marked with 🌟 or bold formatting) are exempt from automatic deletion. If rescue fails, they are marked as `status: review_required` for manual verification, ensuring no significant technical assets are lost during autonomous cleaning.
 
@@ -761,10 +846,10 @@ graph TD
     end
 
     subgraph "Agentic Tiering and Debate (Multi-Agent)"
-        AA["Analyst Agent (Flash)"]
-        AV["Auditor Agent (Pro)"]
-        MCP[["MCP Grounding (Search)"]]
-        DBT["Consensus and Debate (Flash and Pro)"]
+        AA["Analyst Agent<br/>(Flash)"]
+        AV["Auditor Agent<br/>(Pro)"]
+        MCP[["MCP Grounding<br/>(Search)"]]
+        DBT["Consensus and Debate<br/>(Flash and Pro)"]
     end
 
     AC -->|"Raw Discovery"| AA
@@ -876,19 +961,19 @@ To eliminate individual LLM rating bias, resolve borderline cases, and prevent a
 
 ```mermaid
 graph TD
-    A["New Resource Found"] --> FP["Fast-Pass Evaluator (Flash)"]
-    FP -->|Confident Score Outside 60-75| G["Accept / Reject Directly"]
-    FP -->|Borderline Score 60-75| B["Persona 1: Security Architect"]
-    FP -->|Borderline Score 60-75| C["Persona 2: Cloud Native SRE"]
-    FP -->|Borderline Score 60-75| D["Persona 3: AI Platform Engineer"]
-    B --> E["Independent expert Evaluations"]
+    A["New Resource Found"] --> FP["Fast-Pass Evaluator<br/>(Flash)"]
+    FP -->|Confident Score Outside 60-75| G["Accept /<br/>Reject Directly"]
+    FP -->|Borderline Score 60-75| B["Persona 1:<br/>Security Architect"]
+    FP -->|Borderline Score 60-75| C["Persona 2:<br/>Cloud Native SRE"]
+    FP -->|Borderline Score 60-75| D["Persona 3:<br/>AI Platform Engineer"]
+    B --> E["Independent Expert<br/>Evaluations"]
     C --> E
     D --> E
-    E -->|Expert Scores Diverge >= 15 points| F["Trigger Debate Round"]
+    E -->|Expert Scores Diverge >= 15 points| F["Trigger<br/>Debate Round"]
     E -->|Expert Scores Converge| G
-    F --> H["Round-Robin Discussion: Argue Pros and Cons"]
-    H --> I["Consensus Reached and Final Score Assigned"]
-    I --> J["Save Decision to Persistent Memory JSON"]
+    F --> H["Round-Robin Discussion:<br/>Argue Pros and Cons"]
+    H --> I["Consensus Reached and<br/>Final Score Assigned"]
+    I --> J["Save Decision to<br/>Persistent Memory JSON"]
     G --> J
 ```
 
@@ -1079,11 +1164,10 @@ graph LR
     B --> D["V2 Vision Engine"]
     B --> Z["README Sync"]
     D --> E["V2 Update (develop)"]
-    M["Sync to 'master'"] --> C["Pip Cache & CI/CD Build"]
+    M["Sync to 'master'"] --> C["Pip Cache and<br/>CI/CD Build"]
     C --> F["Upload Pages Artifact"]
-    F --> G["Native Deploy: V1 (Root/SEO), V2 (/v2/), V1 Fallback (/v1/)"]
-    G --> H["Inject Root Redirect to /v2/"]
-    Z --> B
+    F --> G["Native Deploy:<br/>V1 (Root/SEO) · V2 (/v2/)<br/>· V1 Fallback (/v1/)"]
+    G --> H["Inject Root<br/>Redirect to /v2/"]
     Z --> B
 ```
 
