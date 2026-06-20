@@ -1784,13 +1784,15 @@ class V2VisionEngine:
                 "nav:",
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
-                # Topic Map is a collapsible hub for the three site-orientation
-                # pages (the map itself + how it's built + the tag index), with
-                # topic-map.md as its section index (navigation.indexes).
-                "  - \"Topic Map\":",
-                "    - topic-map.md",
+                # Portal Guide: collapsible hub for the site-orientation / meta
+                # pages — the topic directory, how the portal is curated, the tag
+                # index and the project About. about.md is pulled out of its
+                # Architectural Foundations dimension here (see _FIXED_PAGES below).
+                "  - \"Portal Guide\":",
+                "    - \"Topic Map\": topic-map.md",
                 "    - \"Methodology\": methodology.md",
                 "    - \"Technical Tags\": tags.md",
+                "    - \"About\": about.md",
                 # Videos: prominent top-level dropdown, kept high in the nav with
                 # its category subpages as children.
                 "  - \"Agentic Video Hub\":",
@@ -1804,14 +1806,21 @@ class V2VisionEngine:
                 "    - \"Industry & Geo Digest\": industry-digest.md"
             ]
 
+            # Topic pages promoted into a fixed header group above; skip them in
+            # the dimension loop so they are not also listed under their dimension.
+            _FIXED_PAGES = {"about.md"}
+
             dim_groups = {}
             for f_name, info in data.items():
                 dim_groups.setdefault(info["dim"], []).append(f_name)
 
             for dim in self.dimensions.keys():
                 if dim in dim_groups:
+                    dim_files = [f for f in sorted(dim_groups[dim]) if f not in _FIXED_PAGES]
+                    if not dim_files:
+                        continue
                     dim_nav = [f"  - \"{dim}\":"]
-                    for f in sorted(dim_groups[dim]):
+                    for f in dim_files:
                         dim_nav.append(f"    - \"{data[f]['title']}\": {f}")
                     nav.extend(dim_nav)
 
