@@ -50,4 +50,33 @@
     ]
   }
   </script>
+  {#-
+    Per-page structured data: a CollectionPage (each V2 page is a curated
+    collection of resources) tied to the WebSite/Organization above, with
+    datePublished / dateModified fed by the git-revision-date plugin. Enables
+    richer search results. Skipped on the homepage (already the WebSite entity).
+  -#}
+  {% if page and not page.is_homepage and page.canonical_url %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": {{ (page.canonical_url ~ "#webpage") | tojson }},
+    "url": {{ page.canonical_url | tojson }},
+    "name": {{ (page.title or config.site_name) | tojson }},
+    "isPartOf": { "@id": "https://nubenetes.com/#website" },
+    "publisher": { "@id": "https://nubenetes.com/#organization" },
+    "inLanguage": "en"
+    {%- if page.meta and page.meta.description %},
+    "description": {{ page.meta.description | tojson }}
+    {%- endif %}
+    {%- if page.meta and page.meta.git_creation_date_localized_raw_iso_date %},
+    "datePublished": {{ page.meta.git_creation_date_localized_raw_iso_date | tojson }}
+    {%- endif %}
+    {%- if page.meta and page.meta.git_revision_date_localized_raw_iso_date %},
+    "dateModified": {{ page.meta.git_revision_date_localized_raw_iso_date | tojson }}
+    {%- endif %}
+  }
+  </script>
+  {% endif %}
 {% endblock %}
