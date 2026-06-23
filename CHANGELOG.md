@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.48]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.48) - 2026-06-23
+
+### Fixed
+- **Trending Now cards: impact badge no longer overlaps the title**: On the V2 home page "🔥 Trending Now — Cloud Native Intelligence" lane, the `CRITICAL`/`HIGH` impact badge (and the optional `🆕 NEW` pill) was `position: absolute` in the top-right corner, so a long celeste category/title flowing in normal document position could slide right underneath it and become unreadable. The badge is now an in-flow, right-aligned pill (`width: fit-content; margin-left: auto`) on its own line at the top of the card, with the `NEW` pill laid out as a flex sibling (`gap`-spaced) — so the red impact text, the celeste title, and the green `NEW` pill can never overlap, on any card width or title length. Cards with short titles stay just as tight as before. `docs/static/v2_elite.css` only; cache-bust auto-versions from the release tag.
+
 ## [[2.9.38]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.38) - 2026-06-20
 
 ### Added

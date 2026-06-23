@@ -1252,9 +1252,18 @@ input[type="text"] {
 }
 
 .trending-card__impact {
-  position: absolute;
-  top: 12px;
-  right: 12px;
+  /* In normal flow as a right-aligned pill on its own line, so a long celeste
+     category/title can never slide underneath it. `width: fit-content` keeps the
+     colored pill wrapped tightly around "CRITICAL"/"HIGH" + the optional NEW
+     pill; `margin-left: auto` pins it to the top-right corner. */
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
   font-size: 0.75em;
   font-weight: 700;
   padding: 2px 8px;
@@ -1277,7 +1286,6 @@ input[type="text"] {
 }
 
 .trending-card__new {
-  margin-left: 6px;
   padding: 1px 6px;
   border-radius: 6px;
   font-size: 0.85em;
