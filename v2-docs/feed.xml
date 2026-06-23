@@ -8,14 +8,6 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Kubecost 🌟</title>
-      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
-      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It is the industry-standard tool for real-time cost allocation, critical for FinOps practices in multi-cluster environments.</description>
-    </item>
-    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
@@ -32,28 +24,12 @@
       <description>[CRITICAL] Anthropic's official tool fundamentally shifts developer workflows by bringing autonomous agentic coding and execution directly into the terminal.</description>
     </item>
     <item>
-      <title>Project Calico 🌟</title>
-      <link>https://www.tigera.io/project-calico</link>
-      <guid isPermaLink="true">https://www.tigera.io/project-calico</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] Calico is an industry-standard networking and security engine enabling high-performance eBPF container network interface enforcement.</description>
-    </item>
-    <item>
       <title>Crossplane</title>
       <link>https://nubenetes.com/crossplane</link>
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Crossplane spearheads a major paradigm shift by turning Kubernetes into a universal control plane to declaratively manage any cloud infrastructure.</description>
-    </item>
-    <item>
-      <title>==Azure/azure-workload-identity==</title>
-      <link>https://github.com/Azure/azure-workload-identity</link>
-      <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] This is the enterprise standard for secure, zero-trust OIDC identity federation between Kubernetes and Microsoft Entra ID.</description>
+      <description>[CRITICAL] It acts as a CNCF framework that transforms Kubernetes into a universal control plane, redefining how teams declaratively manage multi-cloud infrastructure.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -61,7 +37,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It acts as the indispensable hardware integration layer required to orchestrate GPU-accelerated AI and ML workloads on Kubernetes.</description>
+      <description>[CRITICAL] It is the indispensable industry standard for exposing physical GPUs to container workloads, powering the boom in Kubernetes-based AI and ML orchestration.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -77,7 +53,7 @@
       <guid isPermaLink="true">https://github.com/cilium/tetragon</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] eBPF-powered security observability at the kernel level represents a paradigm shift for Kubernetes runtime enforcement.</description>
+      <description>[CRITICAL] Leverages eBPF at the kernel level to provide groundbreaking security observability and real-time runtime enforcement natively in Kubernetes.</description>
     </item>
     <item>
       <title>==dagger/dagger: Dagger is a portable devkit for CICD==</title>
@@ -101,15 +77,15 @@
       <guid isPermaLink="true">https://github.com/istio/istio</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] The leading enterprise-grade service mesh that defines how modern cloud-native architectures secure, control, and observe traffic.</description>
+      <description>[CRITICAL] The definitive, industry-standard service mesh that orchestrates secure, high-performance traffic management and mutual TLS across enterprise microservices.</description>
     </item>
     <item>
-      <title>Teleport 🌟</title>
-      <link>https://github.com/gravitational/teleport</link>
-      <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
+      <title>AWS Controllers for Kubernetes (ACK) 🌟</title>
+      <link>https://github.com/aws-controllers-k8s/community</link>
+      <guid isPermaLink="true">https://github.com/aws-controllers-k8s/community</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Teleport is a leading zero-trust access gateway that consolidates and audits multi-protocol, multi-cluster infrastructure access.</description>
+      <description>[CRITICAL] It enables platform engineers to manage AWS cloud resources natively using Kubernetes manifests, unifying infrastructure and application lifecycles.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -149,7 +125,7 @@
       <guid isPermaLink="true">https://github.com/hashicorp/vault</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] It remains the absolute backbone of enterprise Zero Trust architectures and dynamic secrets management across multi-cloud environments.</description>
+      <description>[CRITICAL] The undisputed gold standard for multi-cloud secrets management and dynamic credential brokering in enterprise Zero Trust architectures.</description>
     </item>
     <item>
       <title>OpenTelemetry Collector</title>
@@ -165,7 +141,31 @@
       <guid isPermaLink="true">https://github.com/kubernetes-sigs/gateway-api</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
-      <description>[CRITICAL] Establishes the next-generation standard for expressive, role-oriented, and extensible routing and ingress configurations in Kubernetes.</description>
+      <description>[CRITICAL] This next-generation standard officially supersedes legacy Kubernetes Ingress, introducing role-oriented, highly expressive, and extensible routing APIs.</description>
+    </item>
+    <item>
+      <title>github.com/vmware-tanzu/velero</title>
+      <link>https://github.com/velero-io/velero</link>
+      <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Data, Messaging &amp; Storage</category>
+      <description>[CRITICAL] The industry-standard open-source solution for Kubernetes disaster recovery, backing up both cluster state and persistent volume data.</description>
+    </item>
+    <item>
+      <title>trivy</title>
+      <link>https://github.com/aquasecurity/trivy</link>
+      <guid isPermaLink="true">https://github.com/aquasecurity/trivy</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] An exceptionally fast and highly versatile security scanner that has become the cloud-native standard for vulnerability, IaC, and container scanning.</description>
+    </item>
+    <item>
+      <title>OpenTofu 1.12: the Feature Terraform Never Shipped</title>
+      <link>https://www.infoq.com/news/2026/05/opentofu-release-terraform</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/05/opentofu-release-terraform</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] OpenTofu 1.12 solves a major historical limitation of upstream Terraform by introducing dynamic, modular configurations, representing a significant milestone for the open-source fork.</description>
     </item>
   </channel>
 </rss>
