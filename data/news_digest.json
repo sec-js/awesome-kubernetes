@@ -7,16 +7,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "It acts as a CNCF framework that transforms Kubernetes into a universal control plane, redefining how teams declaratively manage multi-cloud infrastructure.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/aws-controllers-k8s/community",
-        "title": "AWS Controllers for Kubernetes (ACK) 🌟",
-        "date": "2026-06-13",
-        "stars": 5,
-        "impact": "critical",
-        "why": "It enables platform engineers to manage AWS cloud resources natively using Kubernetes manifests, unifying infrastructure and application lifecycles.",
+        "why": "It shifts the cloud-native paradigm by turning Kubernetes clusters into universal control planes for managing external cloud infrastructure.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -25,7 +16,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "It is the indispensable industry standard for exposing physical GPUs to container workloads, powering the boom in Kubernetes-based AI and ML orchestration.",
+        "why": "As the essential link for hardware acceleration, this daemonset is critical for scaling enterprise AI/ML workloads on Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -34,7 +25,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "It sets the modern enterprise security standard for secure, passwordless authentication from Kubernetes workloads to Azure services via OIDC federation.",
+        "why": "It represents the modern enterprise standard for secure, passwordless authentication from Kubernetes workloads to Azure cloud services.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -43,25 +34,16 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "It serves as the industry-standard tool for real-time cost allocation and FinOps observability in complex multi-cluster environments.",
+        "why": "It is the industry-standard tool addressing the critical enterprise need for real-time Kubernetes cost visibility and multi-cluster allocation.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/gravitational/teleport",
-        "title": "Teleport 🌟",
+        "url": "https://github.com/aws-controllers-k8s/community",
+        "title": "AWS Controllers for Kubernetes (ACK) 🌟",
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "It unifies and audits identity-backed secure access to Kubernetes APIs and distributed infrastructure, crucial for enterprise compliance.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/SigNoz/signoz",
-        "title": "==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool== 🌟",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "high",
-        "why": "It provides a powerful OpenTelemetry-native, open-source APM and observability suite to challenge proprietary monitoring vendors.",
+        "why": "Allows engineers to manage AWS cloud resources directly through native Kubernetes APIs, streamlining unified declarative configurations.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -70,7 +52,25 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "It addresses a critical GitOps pain point by automating structured, multi-environment application promotion directly through Kubernetes controllers.",
+        "why": "It advances GitOps-native deployment pipelines by introducing declarative multi-environment application promotion directly on Kubernetes.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/SigNoz/signoz",
+        "title": "==SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool== 🌟",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "high",
+        "why": "An open-source, OpenTelemetry-native APM alternative that simplifies enterprise observability stack consolidation within Kubernetes.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/projectcapsule/capsule",
+        "title": "Capsule Operator",
+        "date": "2026-06-13",
+        "stars": 5,
+        "impact": "high",
+        "why": "Provides a robust multi-tenancy framework that aggregates namespaces into virtual tenants, solving a complex platform engineering challenge.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -78,17 +78,17 @@
         "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "high",
-        "why": "It is the premier terminal-based user interface that drastically accelerates real-time cluster management, log analysis, and debugging for SREs.",
+        "impact": "medium",
+        "why": "A globally adopted terminal UI that dramatically accelerates cluster troubleshooting and day-to-day pod interaction for developers and SREs.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/helmfile/helmfile",
-        "title": "github.com/helmfile/helmfile",
-        "date": "2026-06-14",
+        "url": "https://github.com/k8gb-io/k8gb",
+        "title": "k8gb 🌟",
+        "date": "2026-06-13",
         "stars": 5,
-        "impact": "high",
-        "why": "It provides a robust declarative orchestration layer for Helm, allowing teams to manage multi-environment, multi-chart state with ease.",
+        "impact": "medium",
+        "why": "A CNCF project that solves global multi-region traffic routing by bringing native Global Server Load Balancing directly into Kubernetes configurations.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -651,7 +651,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "The definitive training home of the Linux Foundation, serving as the official curriculum and exam administrator for CKA, CKAD, and CKS.",
+        "why": "It is the official authority hosting curricula and exams for the industry-standard CKA, CKAD, and CKS cloud-native certifications.",
         "category": "Certification & Training"
       },
       {
@@ -660,16 +660,16 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "The ultimate kubectl quick reference and the only canonical documentation permitted for live lookup during Kubernetes certification exams.",
+        "why": "Crucial official cheat sheet for mastering command-line operations essential for passing CKA, CKAD, and CKS exams.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://www.whizlabs.com",
-        "title": "Whizlabs",
+        "url": "https://cheatsheetseries.owasp.org/index.html",
+        "title": "cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟",
         "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides highly sought-after practice simulations and sandbox environments explicitly mapped to cloud-native certifications like CKA and CKS.",
+        "stars": 5,
+        "impact": "critical",
+        "why": "The definitive security reference mapping modern web application vulnerabilities, which is critical knowledge for the CKS certification.",
         "category": "Certification & Training"
       },
       {
@@ -678,25 +678,16 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "An outstanding, structured platform sponsored by VMware Tanzu that delivers highly technical, modular tracks for Kubernetes cluster operators.",
+        "why": "Provides high-quality, structured, and free modular training tracks focusing on complex Kubernetes cluster operations and architectural concepts.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://www.edx.org",
-        "title": "edx.org",
+        "url": "https://www.whizlabs.com",
+        "title": "Whizlabs",
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "Hosts the official Linux Foundation training catalog, delivering foundational to advanced university-grade cloud-native education.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://github.com/stefanprodan/podinfo",
-        "title": "==stefanprodan/podinfo==",
-        "date": "2026-06-08",
-        "stars": 4,
-        "impact": "high",
-        "why": "The standard reference application used globally to teach and demonstrate Kubernetes orchestration, health checking, and progressive delivery.",
+        "why": "Offers direct cloud-based sandbox environments and practice simulations for key CNCF certifications like CKA, CKAD, and CKS.",
         "category": "Certification & Training"
       },
       {
@@ -705,7 +696,25 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "A comprehensive hands-on library of real-world DevOps projects providing direct, template-based learning for CI/CD and infrastructure-as-code.",
+        "why": "Provides real-world, end-to-end infrastructure blueprints and multi-tier pipelines that offer practical, hands-on learning for DevOps and cloud-native engineers.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://www.edx.org",
+        "title": "edx.org",
+        "date": "2026-06-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "Hosts the official Linux Foundation cloud-native course catalog, bridging system administration theory with hands-on command-line practice.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://github.com/stefanprodan/podinfo",
+        "title": "==stefanprodan/podinfo==",
+        "date": "2026-06-08",
+        "stars": 4,
+        "impact": "high",
+        "why": "An industry-standard mock microservice used widely in workshops to teach Kubernetes deployment patterns, telemetry, and progressive delivery.",
         "category": "Certification & Training"
       },
       {
@@ -714,7 +723,7 @@
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "An active peer community offering specialized debugging support and study guides tailored for passing Kubernetes certifications.",
+        "why": "A highly active peer-to-peer community hub specifically dedicated to real-time debugging support and collaborative preparation for Kubernetes certifications.",
         "category": "Certification & Training"
       },
       {
@@ -723,16 +732,7 @@
         "date": "2026-06-18",
         "stars": 3,
         "impact": "medium",
-        "why": "An opinionated kubectl reference sheet focusing on node-level troubleshooting and network debugging, crucial for certification practice.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://github.com/learning-cloud-native-go/myapp",
-        "title": "==github.com/learning-cloud-native-go/myapp: Learning Cloud Native Go -' myapp== 🌟",
-        "date": "2026-06-03",
-        "stars": 3,
-        "impact": "medium",
-        "why": "An educational Go application specifically built to demonstrate cloud-native microservice essentials like telemetry and probe implementation.",
+        "why": "An opinionated command cheat sheet optimized for fast-paced troubleshooting and practical practice during hands-on Kubernetes exams.",
         "category": "Certification & Training"
       }
     ],
@@ -5203,7 +5203,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "cgroups v2 is the foundational architecture underpinning modern container resource isolation and memory pressure tracking in Kubernetes.",
+        "why": "Crucial for understanding modern container resource limits, QoS, and pressure stall information (PSI) in Kubernetes environments.",
         "category": "Linux & System Foundations"
       },
       {
@@ -5211,17 +5211,8 @@
         "title": "bpftrace",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "critical",
-        "why": "bpftrace leverages eBPF to provide revolutionary, low-overhead kernel-level observability and real-time performance diagnostics in production environments.",
-        "category": "Linux & System Foundations"
-      },
-      {
-        "url": "https://github.com/actions/actions-runner-controller",
-        "title": "github.com/actions/actions-runner-controller 🌟",
-        "date": "2026-06-12",
-        "stars": 5,
         "impact": "high",
-        "why": "The Actions Runner Controller bridges cloud-native orchestration with CI/CD by dynamically autoscaling self-hosted runners directly within Kubernetes clusters.",
+        "why": "Enables low-overhead, dynamic kernel tracing using eBPF, which is essential for troubleshooting complex system performance issues in cloud-native infrastructures.",
         "category": "Linux & System Foundations"
       },
       {
@@ -5230,7 +5221,7 @@
         "date": "2024-04-30",
         "stars": 5,
         "impact": "high",
-        "why": "Termshark brings interactive packet analysis to headless environments, enabling deep network troubleshooting over remote SSH and container shells.",
+        "why": "Provides a powerful Go-based terminal interface for packet analysis, simplifying network troubleshooting in headless environments and Kubernetes pods.",
         "category": "Linux & System Foundations"
       },
       {
@@ -5239,7 +5230,25 @@
         "date": "2026-03-05",
         "stars": 5,
         "impact": "high",
-        "why": "This repository provides a critical, highly structured checklist for hardening enterprise Linux kernels, network daemons, and host security.",
+        "why": "Provides actionable security hardening steps essential for securing host nodes running production container workloads.",
+        "category": "Linux & System Foundations"
+      },
+      {
+        "url": "https://lwn.net",
+        "title": "LWN.net",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as the definitive authority on Linux kernel developments, giving platform engineers early insight into new containerization and virtual memory technologies.",
+        "category": "Linux & System Foundations"
+      },
+      {
+        "url": "https://abarrak.gitbook.io/linux-sysops-handbook",
+        "title": "abarrak.gitbook.io: Linux SysOps Handbook 🌟",
+        "date": "2026-06-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "Serves as a comprehensive, high-density reference for on-call engineers diagnosing system, network, and performance bottlenecks at the host level.",
         "category": "Linux & System Foundations"
       },
       {
@@ -5248,16 +5257,7 @@
         "date": "2026-01-05",
         "stars": 5,
         "impact": "medium",
-        "why": "Defines defensive programming patterns in Bash to prevent syntax exploitation and state failures in critical infrastructure automation scripts.",
-        "category": "Linux & System Foundations"
-      },
-      {
-        "url": "https://github.com/oils-for-unix/oils/wiki/Alternative-Shells",
-        "title": "oilshell: Alternative shells",
-        "date": "2026-05-31",
-        "stars": 5,
-        "impact": "medium",
-        "why": "Evaluates next-generation Unix shells that incorporate structured data formats like JSON to replace fragile, text-only legacy shell pipelines.",
+        "why": "Establishes secure scripting patterns that prevent runtime failures in container entrypoints and platform automation pipelines.",
         "category": "Linux & System Foundations"
       },
       {
@@ -5266,25 +5266,25 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "medium",
-        "why": "Contrasts legacy netstat with modern ss utility commands, which are essential for debugging container socket bindings and network ingress.",
+        "why": "Provides essential knowledge on the modern 'ss' utility for real-time socket tracking, critical for debugging microservice networking and ingress routes.",
         "category": "Linux & System Foundations"
       },
       {
-        "url": "https://github.com/google/zx",
-        "title": "zx",
-        "date": "2026-06-13",
+        "url": "https://nordicapis.com/understanding-the-hidden-powers-of-curl",
+        "title": "**curl command**: Understanding the Hidden Powers of curl",
+        "date": "2026-06-01",
         "stars": 5,
         "impact": "medium",
-        "why": "Google's zx empowers platform engineers to write secure and robust system scripts in JavaScript/TypeScript rather than error-prone shell scripting languages.",
+        "why": "Unlocks advanced API testing, proxy tunneling, and raw network diagnostic techniques vital for debugging distributed systems.",
         "category": "Linux & System Foundations"
       },
       {
-        "url": "https://abarrak.gitbook.io/linux-sysops-handbook",
-        "title": "abarrak.gitbook.io: Linux SysOps Handbook 🌟",
+        "url": "https://nikhilism.com/post/2020/mystery-knowledge-useful-tools",
+        "title": "nikhilism.com: Mystery Knowledge and Useful Tools",
         "date": "2026-06-01",
         "stars": 4,
         "impact": "medium",
-        "why": "Serves as an indispensable, high-density reference manual for on-call engineers debugging Linux kernel, memory, and storage subsystems.",
+        "why": "Offers deep systems-level troubleshooting wisdom and alternative diagnostic utilities to solve hard-to-catch kernel and process edge cases.",
         "category": "Linux & System Foundations"
       }
     ],
@@ -6968,9 +6968,9 @@
   "_meta": {
     "3_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-06-23T13:58:15.149869+02:00",
-        "entry_hash": "79d9cb0b30cb5fb2",
-        "entry_count": 1409,
+        "last_analyzed": "2026-06-24T18:30:48.674080+02:00",
+        "entry_hash": "0dee4a0e88884170",
+        "entry_count": 1408,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7010,9 +7010,9 @@
         "method": "gemini"
       },
       "Certification & Training": {
-        "last_analyzed": "2026-06-19T14:41:31.026043+02:00",
-        "entry_hash": "203ecc98823414f8",
-        "entry_count": 408,
+        "last_analyzed": "2026-06-24T18:31:05.858334+02:00",
+        "entry_hash": "9eede2f0a4c2e141",
+        "entry_count": 407,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
@@ -7320,9 +7320,9 @@
         "method": "gemini"
       },
       "Linux & System Foundations": {
-        "last_analyzed": "2026-06-19T14:55:03.314966+02:00",
-        "entry_hash": "d403e23bc5b0be8d",
-        "entry_count": 295,
+        "last_analyzed": "2026-06-24T18:31:28.929369+02:00",
+        "entry_hash": "7526bc113cb5c051",
+        "entry_count": 294,
         "method": "gemini"
       },
       "AI & Agents": {
@@ -7440,6 +7440,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-06-23T13:59:48.009213+02:00"
+    "last_updated": "2026-06-24T18:31:29.934951+02:00"
   }
 }

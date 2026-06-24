@@ -14,16 +14,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | It acts as a CNCF framework that transforms Kubernetes into a universal control plane, redefining how teams declaratively manage multi-cloud infrastructure. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🔴 critical | It enables platform engineers to manage AWS cloud resources natively using Kubernetes manifests, unifying infrastructure and application lifecycles. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | It is the indispensable industry standard for exposing physical GPUs to container workloads, powering the boom in Kubernetes-based AI and ML orchestration. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | It sets the modern enterprise security standard for secure, passwordless authentication from Kubernetes workloads to Azure services via OIDC federation. |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | It serves as the industry-standard tool for real-time cost allocation and FinOps observability in complex multi-cluster environments. |
-    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🟡 high | It unifies and audits identity-backed secure access to Kubernetes APIs and distributed infrastructure, crucial for enterprise compliance. |
-    | 2026-06-14 | [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) | 🟡 high | It provides a powerful OpenTelemetry-native, open-source APM and observability suite to challenge proprietary monitoring vendors. |
-    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | It addresses a critical GitOps pain point by automating structured, multi-environment application promotion directly through Kubernetes controllers. |
-    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🟡 high | It is the premier terminal-based user interface that drastically accelerates real-time cluster management, log analysis, and debugging for SREs. |
-    | 2026-06-14 | [github.com/helmfile/helmfile](https://github.com/helmfile/helmfile) | 🟡 high | It provides a robust declarative orchestration layer for Helm, allowing teams to manage multi-environment, multi-chart state with ease. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | It shifts the cloud-native paradigm by turning Kubernetes clusters into universal control planes for managing external cloud infrastructure. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | As the essential link for hardware acceleration, this daemonset is critical for scaling enterprise AI/ML workloads on Kubernetes. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🟡 high | It represents the modern enterprise standard for secure, passwordless authentication from Kubernetes workloads to Azure cloud services. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | It is the industry-standard tool addressing the critical enterprise need for real-time Kubernetes cost visibility and multi-cluster allocation. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Allows engineers to manage AWS cloud resources directly through native Kubernetes APIs, streamlining unified declarative configurations. |
+    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | It advances GitOps-native deployment pipelines by introducing declarative multi-environment application promotion directly on Kubernetes. |
+    | 2026-06-14 | [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) | 🟡 high | An open-source, OpenTelemetry-native APM alternative that simplifies enterprise observability stack consolidation within Kubernetes. |
+    | 2026-06-13 | [Capsule Operator](https://github.com/projectcapsule/capsule) | 🟡 high | Provides a robust multi-tenancy framework that aggregates namespaces into virtual tenants, solving a complex platform engineering challenge. |
+    | 2026-06-13 | [K9s - Kubernetes CLI To Manage Your Clusters In Style!](https://github.com/derailed/k9s) | 🔵 medium | A globally adopted terminal UI that dramatically accelerates cluster troubleshooting and day-to-day pod interaction for developers and SREs. |
+    | 2026-06-13 | [k8gb 🌟](https://github.com/k8gb-io/k8gb) | 🔵 medium | A CNCF project that solves global multi-region traffic routing by bringing native Global Server Load Balancing directly into Kubernetes configurations. |
 
 === "Last 6 Months"
 
@@ -428,16 +428,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2](https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2) | 🔴 critical | cgroups v2 is the foundational architecture underpinning modern container resource isolation and memory pressure tracking in Kubernetes. |
-    | 2026-06-13 | [bpftrace](https://github.com/bpftrace/bpftrace) | 🔴 critical | bpftrace leverages eBPF to provide revolutionary, low-overhead kernel-level observability and real-time performance diagnostics in production environments. |
-    | 2026-06-12 | [github.com/actions/actions-runner-controller 🌟](https://github.com/actions/actions-runner-controller) | 🟡 high | The Actions Runner Controller bridges cloud-native orchestration with CI/CD by dynamically autoscaling self-hosted runners directly within Kubernetes clusters. |
-    | 2024-04-30 | [termshark](https://github.com/gcla/termshark) | 🟡 high | Termshark brings interactive packet analysis to headless environments, enabling deep network troubleshooting over remote SSH and container shells. |
-    | 2026-03-05 | [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | 🟡 high | This repository provides a critical, highly structured checklist for hardening enterprise Linux kernels, network daemons, and host security. |
-    | 2026-01-05 | [github: Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) | 🔵 medium | Defines defensive programming patterns in Bash to prevent syntax exploitation and state failures in critical infrastructure automation scripts. |
-    | 2026-05-31 | [oilshell: Alternative shells](https://github.com/oils-for-unix/oils/wiki/Alternative-Shells) | 🔵 medium | Evaluates next-generation Unix shells that incorporate structured data formats like JSON to replace fragile, text-only legacy shell pipelines. |
-    | 2026-06-01 | [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux) | 🔵 medium | Contrasts legacy netstat with modern ss utility commands, which are essential for debugging container socket bindings and network ingress. |
-    | 2026-06-13 | [zx](https://github.com/google/zx) | 🔵 medium | Google's zx empowers platform engineers to write secure and robust system scripts in JavaScript/TypeScript rather than error-prone shell scripting languages. |
-    | 2026-06-01 | [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) | 🔵 medium | Serves as an indispensable, high-density reference manual for on-call engineers debugging Linux kernel, memory, and storage subsystems. |
+    | 2026-06-01 | [redhat.com: World domination with cgroups part 8: down and dirty with cgroup v2](https://www.redhat.com/en/blog/world-domination-cgroups-part-8-down-and-dirty-cgroup-v2) | 🔴 critical | Crucial for understanding modern container resource limits, QoS, and pressure stall information (PSI) in Kubernetes environments. |
+    | 2026-06-13 | [bpftrace](https://github.com/bpftrace/bpftrace) | 🟡 high | Enables low-overhead, dynamic kernel tracing using eBPF, which is essential for troubleshooting complex system performance issues in cloud-native infrastructures. |
+    | 2024-04-30 | [termshark](https://github.com/gcla/termshark) | 🟡 high | Provides a powerful Go-based terminal interface for packet analysis, simplifying network troubleshooting in headless environments and Kubernetes pods. |
+    | 2026-03-05 | [How-To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) | 🟡 high | Provides actionable security hardening steps essential for securing host nodes running production container workloads. |
+    | 2026-06-01 | [LWN.net](https://lwn.net) | 🟡 high | Serves as the definitive authority on Linux kernel developments, giving platform engineers early insight into new containerization and virtual memory technologies. |
+    | 2026-06-01 | [abarrak.gitbook.io: Linux SysOps Handbook 🌟](https://abarrak.gitbook.io/linux-sysops-handbook) | 🟡 high | Serves as a comprehensive, high-density reference for on-call engineers diagnosing system, network, and performance bottlenecks at the host level. |
+    | 2026-01-05 | [github: Safe ways to do things in bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) | 🔵 medium | Establishes secure scripting patterns that prevent runtime failures in container entrypoints and platform automation pipelines. |
+    | 2026-06-01 | [sysadminxpert.com: How to watch real time TCP and UDP ports on Linux (netstat & ss) 🌟](https://sysadminxpert.com/how-to-watch-real-time-tcp-and-udp-ports-on-linux) | 🔵 medium | Provides essential knowledge on the modern 'ss' utility for real-time socket tracking, critical for debugging microservice networking and ingress routes. |
+    | 2026-06-01 | [**curl command**: Understanding the Hidden Powers of curl](https://nordicapis.com/understanding-the-hidden-powers-of-curl) | 🔵 medium | Unlocks advanced API testing, proxy tunneling, and raw network diagnostic techniques vital for debugging distributed systems. |
+    | 2026-06-01 | [nikhilism.com: Mystery Knowledge and Useful Tools](https://nikhilism.com/post/2020/mystery-knowledge-useful-tools) | 🔵 medium | Offers deep systems-level troubleshooting wisdom and alternative diagnostic utilities to solve hard-to-catch kernel and process edge cases. |
 
 
 ## Security & Compliance
@@ -782,16 +782,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | The definitive training home of the Linux Foundation, serving as the official curriculum and exam administrator for CKA, CKAD, and CKS. |
-    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | The ultimate kubectl quick reference and the only canonical documentation permitted for live lookup during Kubernetes certification exams. |
-    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Provides highly sought-after practice simulations and sandbox environments explicitly mapped to cloud-native certifications like CKA and CKS. |
-    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | An outstanding, structured platform sponsored by VMware Tanzu that delivers highly technical, modular tracks for Kubernetes cluster operators. |
-    | 2026-06-01 | [edx.org](https://www.edx.org) | 🟡 high | Hosts the official Linux Foundation training catalog, delivering foundational to advanced university-grade cloud-native education. |
-    | 2026-06-08 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🟡 high | The standard reference application used globally to teach and demonstrate Kubernetes orchestration, health checking, and progressive delivery. |
-    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | A comprehensive hands-on library of real-world DevOps projects providing direct, template-based learning for CI/CD and infrastructure-as-code. |
-    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | An active peer community offering specialized debugging support and study guides tailored for passing Kubernetes certifications. |
-    | 2026-06-18 | [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets) | 🔵 medium | An opinionated kubectl reference sheet focusing on node-level troubleshooting and network debugging, crucial for certification practice. |
-    | 2026-06-03 | [github.com/learning-cloud-native-go/myapp: Learning Cloud Native Go -' myapp 🌟](https://github.com/learning-cloud-native-go/myapp) | 🔵 medium | An educational Go application specifically built to demonstrate cloud-native microservice essentials like telemetry and probe implementation. |
+    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | It is the official authority hosting curricula and exams for the industry-standard CKA, CKAD, and CKS cloud-native certifications. |
+    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | Crucial official cheat sheet for mastering command-line operations essential for passing CKA, CKAD, and CKS exams. |
+    | 2026-06-01 | [cheatsheetseries.owasp.org: OWASP Cheat Sheet Series 🌟🌟](https://cheatsheetseries.owasp.org/index.html) | 🔴 critical | The definitive security reference mapping modern web application vulnerabilities, which is critical knowledge for the CKS certification. |
+    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Provides high-quality, structured, and free modular training tracks focusing on complex Kubernetes cluster operations and architectural concepts. |
+    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers direct cloud-based sandbox environments and practice simulations for key CNCF certifications like CKA, CKAD, and CKS. |
+    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Provides real-world, end-to-end infrastructure blueprints and multi-tier pipelines that offer practical, hands-on learning for DevOps and cloud-native engineers. |
+    | 2026-06-01 | [edx.org](https://www.edx.org) | 🟡 high | Hosts the official Linux Foundation cloud-native course catalog, bridging system administration theory with hands-on command-line practice. |
+    | 2026-06-08 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🟡 high | An industry-standard mock microservice used widely in workshops to teach Kubernetes deployment patterns, telemetry, and progressive delivery. |
+    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🔵 medium | A highly active peer-to-peer community hub specifically dedicated to real-time debugging support and collaborative preparation for Kubernetes certifications. |
+    | 2026-06-18 | [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets) | 🔵 medium | An opinionated command cheat sheet optimized for fast-paced troubleshooting and practical practice during hands-on Kubernetes exams. |
 
 === "Last 6 Months"
 
