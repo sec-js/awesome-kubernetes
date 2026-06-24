@@ -29,7 +29,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It acts as a CNCF framework that transforms Kubernetes into a universal control plane, redefining how teams declaratively manage multi-cloud infrastructure.</description>
+      <description>[CRITICAL] It shifts the cloud-native paradigm by turning Kubernetes clusters into universal control planes for managing external cloud infrastructure.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It is the indispensable industry standard for exposing physical GPUs to container workloads, powering the boom in Kubernetes-based AI and ML orchestration.</description>
+      <description>[CRITICAL] As the essential link for hardware acceleration, this daemonset is critical for scaling enterprise AI/ML workloads on Kubernetes.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -78,14 +78,6 @@
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] The definitive, industry-standard service mesh that orchestrates secure, high-performance traffic management and mutual TLS across enterprise microservices.</description>
-    </item>
-    <item>
-      <title>AWS Controllers for Kubernetes (ACK) 🌟</title>
-      <link>https://github.com/aws-controllers-k8s/community</link>
-      <guid isPermaLink="true">https://github.com/aws-controllers-k8s/community</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It enables platform engineers to manage AWS cloud resources natively using Kubernetes manifests, unifying infrastructure and application lifecycles.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -166,6 +158,14 @@
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <category>Infrastructure as Code</category>
       <description>[CRITICAL] OpenTofu 1.12 solves a major historical limitation of upstream Terraform by introducing dynamic, modular configurations, representing a significant milestone for the open-source fork.</description>
+    </item>
+    <item>
+      <title>The Agentic Infrastructure Era | Pulumi Releases</title>
+      <link>https://www.pulumi.com/releases/agentic-infrastructure-era</link>
+      <guid isPermaLink="true">https://www.pulumi.com/releases/agentic-infrastructure-era</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] This release marks a fundamental paradigm shift in cloud engineering toward autonomous, agent-driven infrastructure provisioning and self-healing environments.</description>
     </item>
   </channel>
 </rss>
