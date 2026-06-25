@@ -9,7 +9,6 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Com
 !!! info "Architectural Context"
     Detailed reference for Awesome Lists in the context of Architectural Foundations.
 
-
 <div class="awesome-hero">
   <div class="awesome-hero__badge">⭐ AWESOME LISTS ⭐</div>
   <div class="awesome-hero__sub">The best curated <code>awesome-*</code> lists · AI-classified · link-validated</div>
