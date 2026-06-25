@@ -69,6 +69,13 @@
       <div class="hero-badge-subtitle">Introduction Guide</div>
     </div>
   </a>
+  <a href="./other-awesome-lists/" style="text-decoration: none; color: inherit; display: block;">
+    <div class="hero-badge-card hero-badge-card--gold">
+      <img src="/images/awesome-lists-cover.svg" alt="Awesome Lists"/>
+      <div class="hero-badge-title">Awesome Lists</div>
+      <div class="hero-badge-subtitle">Curated awesome-* directory</div>
+    </div>
+  </a>
 </div>
 
 !!! abstract "The High-Density Vision"
