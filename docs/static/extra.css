@@ -49,6 +49,14 @@ reset max-width with the following CSS: */
   filter: brightness(1.2);
 }
 
+/* Dark-logo fix: invert black-on-transparent logos so they remain visible in dark mode */
+[data-md-color-scheme="slate"] img[src*="nutanix_logo"] {
+  filter: invert(1);
+}
+[data-md-color-scheme="slate"] img[src*="nutanix_logo"]:hover {
+  filter: invert(1) brightness(1.2);
+}
+
 
 
 
