@@ -22,11 +22,6 @@ description: "Top About resources for 2026, AI-ranked: Postman, AWX and more —
 ### 1. The Genesis: Munich 2018
 Nubenetes was forged in the internals of a massive Cloud Native transformation for a **major multinational car manufacturer** in Munich. Coordinating hundreds of microservices, thousands of developers, and millions of end-users taught us a fundamental truth: **Standardization, Automation, and GitOps are not "best practices"—they are survival requirements.**
 
-!!! quote "The Standardization Thesis"
-    ==*"Kubernetes is not for application development but for platform development. Its magic is in enterprise standardization, not app portability."*== — **[Kelsey Hightower](https://www.techrepublic.com/article/kubernetes-magic-is-in-enterprise-standardization-not-app-portability)**
-
-    This is the core insight Nubenetes was built on. Kubernetes' real value is not app portability—it is a **standardized platform substrate** that lets an entire organization build on common ground, eliminating per-team snowflakes and person-dependent silos.
-
 ### 2. Our Engineering Philosophy
 We reject technical obfuscation as a competitive advantage. Solutions that are "the hard way" by design do not scale and create fragile, person-dependent silos. 
 
@@ -74,17 +69,6 @@ Engineering excellence is as much about **culture** as it is about code. These f
   - [The 4 Levels of GitOps Maturity](https://cloudnativenow.com/features/the-4-levels-of-gitops-maturity) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A roadmap for evolving from manual deployments to a fully automated, self-healing state.
   - [Necessary Culture Change with GitOps](https://itnext.io/necessary-culture-change-with-gitops-2c63f4fe9604) <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> — Dissects the organizational friction and the necessary mindset shift required to adopt declarative infrastructure.
 
-#### 5.1. Red Hat's Standardization Thesis
-Industry momentum has aligned behind Kubernetes as the **de facto orchestration standard** for Linux® containers—choosing it means running the standard regardless of which cloud providers are in your future. The following perspectives, gathered in [Red Hat's approach to Kubernetes](https://www.redhat.com/en/solutions/kubernetes-approach), articulate why standardization—not novelty—is the strategic win:
-
-| Insight | Source |
-| :--- | :--- |
-| *"Given the difficulty of navigating the cloud-native ecosystem, especially the one around Kubernetes, there is a high demand for **easy-to-administer development platforms** that deliver applications in Kubernetes-managed containers."* | [OMDIA](https://www.redhat.com/en/solutions/kubernetes-approach) |
-| *"Choosing Kubernetes means you'll be running the **de facto standard** regardless of which cloud environments and providers are in your future."* | [CNCF Survey 2019](https://www.redhat.com/en/solutions/kubernetes-approach) |
-| *"It's not just enough to do Kubernetes. **You do need to do CI/CD.** You need to use alerting. You need to understand how the security model of the cloud and your applications interplay."* | [Clayton Coleman](https://www.redhat.com/en/solutions/kubernetes-approach) — Senior Distinguished Engineer, Red Hat |
-| *"Kubernetes is scalable. It helps develop applications faster. It does hybrid and multicloud. These are not just technology buzzwords, they're real, legitimate business problems."* | [Brian Gracely](https://www.redhat.com/en/solutions/kubernetes-approach) — Director, Product Strategy, Red Hat OpenShift |
-| *"Our job is to **make it easier and easier to use**, either from an ops point of view or a developer point of view—while acknowledging it is complex, because we're solving a complex problem."* | [Chris Wright](https://www.redhat.com/en/solutions/kubernetes-approach) — Chief Technology Officer, Red Hat |
-
 ### 6. Scaling with Evidence: DORA and Value Streams
 We advocate for data-driven engineering management to avoid the trap of "gut-feeling" decision making.
 
@@ -103,11 +87,6 @@ We advocate for a technical sector where quality and evidence-based decisions ta
 
   - [HBR: Stop Hiring for Culture Fit](https://hbr.org/2019/11/stop-hiring-for-culture-fit) <span class='md-tag md-tag--warning'>[EMERGING]</span> — A critical perspective on how "culture fit" often hides bias and hinders technical innovation.
   - [Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations) <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shifts the focus from the excitement of the first deployment to the long-term reality of maintaining production stability.
-
-#### 8.1. Automation Anxiety
-A human barrier to adoption deserves naming. Sysadmins and engineers may carry a personal fear about adopting automation, since much of their typical day revolves around the very manual tasks and processes that automation promises to eliminate. **Automation anxiety** is the fear that if these tasks can be handled by automated tools, there will no longer be any reason to keep a person in that role—and nobody likes being automated out of a job.
-
-This fear is largely unfounded, however: automating manual tasks **frees up people's time** that can instead be spent on more innovative, more strategic, and higher-value projects. The cattle service model does not eliminate engineers—it elevates them from repetitive operators to platform builders.
 
 ### 9. The 2026 Vision: Agentic Intelligence
 Nubenetes has evolved from a historical manual archive into an **Agentic Knowledge Graph**. 
