@@ -16,6 +16,7 @@ from src.config import GEMINI_API_KEYS, GH_TOKEN, TARGET_REPO, MADRID_TZ, INVENT
 from src.gemini_utils import call_gemini_with_retry, normalize_url, clean_toc_text, get_github_activity, fetch_youtube_metadata
 from src.logger import log_event
 from src.inventory_manager import update_inventory_entry
+from src.awesome_page import build_awesome_lists_header
 
 
 def nuclear_strip(text: str) -> str:
@@ -1724,8 +1725,16 @@ class V2VisionEngine:
                 )
 
 
-            md += await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
-            
+            _body = await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
+            # The flagship "Awesome Lists" page gets a high-impact hero + a grid
+            # of its categories (auto-derived from the rendered H2 sections).
+            if f_name == "other-awesome-lists.md":
+                try:
+                    md += build_awesome_lists_header(_body)
+                except Exception as e:
+                    log_event(f"[WARN] awesome-lists header failed: {str(e)[:100]}")
+            md += _body
+
             # Add Semantic "See Also" — same dimension + cross-dimension by shared tags
             same_dim = [f for f in data if f != f_name and data[f]["dim"] == info["dim"]]
             cross_dim = []
