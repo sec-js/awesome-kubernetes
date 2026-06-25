@@ -2010,12 +2010,16 @@ class V2VisionEngine:
                 "nav:",
                 "  - \"🔙 Back to V1 (Exhaustive)\": https://nubenetes.com/v1/",
                 "  - \"The 2026 Vision\": index.md",
+                # Flagship: the curated Awesome Lists directory, promoted to a
+                # prominent top-level entry (also surfaced in Portal Guide below).
+                "  - \"⭐ Awesome Lists\": other-awesome-lists.md",
                 # Portal Guide: collapsible hub for the site-orientation / meta
                 # pages — the topic directory, how the portal is curated, the tag
-                # index and the project About. about.md is pulled out of its
-                # Architectural Foundations dimension here (see _FIXED_PAGES below).
+                # index and the project About. about.md and other-awesome-lists.md
+                # are pulled out of their dimension here (see _FIXED_PAGES below).
                 "  - \"Portal Guide\":",
                 "    - \"Topic Map\": topic-map.md",
+                "    - \"Awesome Lists\": other-awesome-lists.md",
                 "    - \"Methodology\": methodology.md",
                 "    - \"Technical Tags\": tags.md",
                 "    - \"About\": about.md",
@@ -2034,7 +2038,7 @@ class V2VisionEngine:
 
             # Topic pages promoted into a fixed header group above; skip them in
             # the dimension loop so they are not also listed under their dimension.
-            _FIXED_PAGES = {"about.md"}
+            _FIXED_PAGES = {"about.md", "other-awesome-lists.md"}
 
             dim_groups = {}
             for f_name, info in data.items():
