@@ -114,6 +114,7 @@
 - https://aws.amazon.com/whitepapers
 - https://docs.aws.amazon.com
 - https://www.aws.training
+- [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) - AWS's official digital learning center with free and paid courses, hands-on labs, and learning paths for cloud certifications
 - https://aws.amazon.com/solutions/case-studies
 - https://www.youtube.com/user/amazonWebServices
 - https://repost.aws
