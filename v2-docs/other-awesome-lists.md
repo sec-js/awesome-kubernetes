@@ -9,6 +9,74 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Com
 !!! info "Architectural Context"
     Detailed reference for Awesome Lists in the context of Architectural Foundations.
 
+
+<div class="awesome-hero">
+  <div class="awesome-hero__badge">⭐ AWESOME LISTS ⭐</div>
+  <div class="awesome-hero__sub">The best curated <code>awesome-*</code> lists · AI-classified · link-validated</div>
+  <div class="awesome-hero__stats">
+    <span class="awesome-hero__stat"><strong>33</strong>curated lists</span>
+    <span class="awesome-hero__stat"><strong>13</strong>categories</span>
+  </div>
+</div>
+
+!!! tip "The meta-directory of the Cloud Native ecosystem"
+    A hand-picked, AI-classified index of the most valuable community **awesome-* lists** — every one link-validated and filed by topic. Jump to a category below, or browse the full directory. For the original exhaustive archive, see the [**V1 Historical Archive**](/v1/other-awesome-lists/).
+
+<div class="awesome-grid">
+  <a class="awesome-card" href="#ai-and-machine-learning">
+    <span class="awesome-card__name">AI and Machine Learning</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#api-development">
+    <span class="awesome-card__name">API Development</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">2</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#artificial-intelligence">
+    <span class="awesome-card__name">Artificial Intelligence</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#cloud-native">
+    <span class="awesome-card__name">Cloud Native</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">10</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#continuous-delivery">
+    <span class="awesome-card__name">Continuous Delivery</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#curation">
+    <span class="awesome-card__name">Curation</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">3</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#deployment-and-delivery">
+    <span class="awesome-card__name">Deployment and Delivery</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#devops-and-platform-engineering">
+    <span class="awesome-card__name">DevOps and Platform Engineering</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#infrastructure">
+    <span class="awesome-card__name">Infrastructure</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#infrastructure-and-operations">
+    <span class="awesome-card__name">Infrastructure and Operations</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">5</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#observability-and-monitoring">
+    <span class="awesome-card__name">Observability and Monitoring</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#programming-languages">
+    <span class="awesome-card__name">Programming Languages</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">3</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+  <a class="awesome-card" href="#software-engineering">
+    <span class="awesome-card__name">Software Engineering</span>
+    <span class="awesome-card__meta"><span class="awesome-card__count">3</span><span class="awesome-card__stars">lists</span></span>
+  </a>
+</div>
+
 ## AI and Machine Learning
 
 ### MLOps

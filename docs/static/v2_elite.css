@@ -1804,3 +1804,108 @@ input[type="text"] {
 
 
 
+
+/* ===================================================================
+   The Awesome Lists page: high-impact hero + category card grid.
+   Used by other-awesome-lists.md (header injected by src/awesome_page.py).
+   =================================================================== */
+.awesome-hero {
+  margin: 1.2rem 0 1.6rem;
+  padding: 2.2rem 1.5rem;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  background:
+    radial-gradient(120% 140% at 50% 0%,
+      color-mix(in srgb, var(--md-accent-fg-color) 70%, #6d28d9) 0%,
+      color-mix(in srgb, var(--md-primary-fg-color) 80%, #111827) 75%);
+  box-shadow: 0 10px 34px -12px color-mix(in srgb, var(--md-accent-fg-color) 60%, transparent);
+  overflow: hidden;
+}
+.awesome-hero__badge {
+  font-size: clamp(1.4rem, 3.2vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+}
+.awesome-hero__sub {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.92;
+}
+.awesome-hero__sub code {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  padding: 0.05em 0.35em;
+  border-radius: 5px;
+}
+.awesome-hero__stats {
+  margin-top: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem 1.4rem;
+}
+.awesome-hero__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.9;
+}
+.awesome-hero__stat strong {
+  font-size: 1.55rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+.awesome-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.85rem;
+  margin: 1.4rem 0 2rem;
+}
+.awesome-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.6rem;
+  min-height: 84px;
+  padding: 0.85rem 1rem;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 24%, transparent);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease;
+}
+.awesome-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 12px 26px -14px color-mix(in srgb, var(--md-accent-fg-color) 70%, transparent);
+}
+.awesome-card__name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+.awesome-card__meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.awesome-card__count {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--md-accent-fg-color);
+  line-height: 1;
+}
+.awesome-card__stars {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+}
