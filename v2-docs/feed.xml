@@ -8,6 +8,14 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Kubecost 🌟</title>
+      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
+      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] It serves as the industry standard for real-time cost allocation and FinOps observability in multi-cluster enterprise Kubernetes environments.</description>
+    </item>
+    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
@@ -29,7 +37,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Crossplane revolutionizes cloud operations by transforming Kubernetes into a universal control plane to declaratively manage non-K8s infrastructure.</description>
+      <description>[CRITICAL] It drives a major paradigm shift by enabling teams to use Kubernetes as a universal control plane to manage any external cloud infrastructure declaratively.</description>
     </item>
     <item>
       <title>==Azure/azure-workload-identity==</title>
@@ -37,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] Azure Workload Identity sets the enterprise standard for secure, passwordless authentication by mapping Kubernetes Service Accounts to Microsoft Entra ID.</description>
+      <description>[CRITICAL] It establishes the enterprise security standard for passwordless OIDC-based identity mapping between Kubernetes service accounts and cloud resources.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -45,7 +53,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] The NVIDIA device plugin is a vital enablement layer for scheduling and running hardware-accelerated AI/ML workloads inside modern Kubernetes clusters.</description>
+      <description>[CRITICAL] It is the foundational component enabling physical GPU hardware allocation and scheduling for AI/ML workloads inside Kubernetes clusters.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -86,6 +94,14 @@
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] The definitive, industry-standard service mesh that orchestrates secure, high-performance traffic management and mutual TLS across enterprise microservices.</description>
+    </item>
+    <item>
+      <title>Teleport 🌟</title>
+      <link>https://github.com/gravitational/teleport</link>
+      <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] It provides a robust, identity-aware access gateway that secures and audits developer connectivity to Kubernetes APIs and database workloads.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -150,22 +166,6 @@
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Data, Messaging &amp; Storage</category>
       <description>[CRITICAL] The industry-standard open-source solution for Kubernetes disaster recovery, backing up both cluster state and persistent volume data.</description>
-    </item>
-    <item>
-      <title>trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <guid isPermaLink="true">https://github.com/aquasecurity/trivy</guid>
-      <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Security &amp; Compliance</category>
-      <description>[CRITICAL] An exceptionally fast, versatile, and industry-standard security scanner for containers, IaC configurations, and software vulnerabilities.</description>
-    </item>
-    <item>
-      <title>OpenTofu 1.12: the Feature Terraform Never Shipped</title>
-      <link>https://www.infoq.com/news/2026/05/opentofu-release-terraform</link>
-      <guid isPermaLink="true">https://www.infoq.com/news/2026/05/opentofu-release-terraform</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Infrastructure as Code</category>
-      <description>[CRITICAL] This major release solves a decade-old modular limitation in upstream Terraform by introducing early block evaluation for dynamic provider configurations.</description>
     </item>
   </channel>
 </rss>

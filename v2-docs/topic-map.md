@@ -15,7 +15,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">AI</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-5" href="./mlops/" title="MLOps — 37 resources"><span class="topic-heatcell__name">MLOps</span><span class="topic-heatcell__n">37</span></a>
+<a class="topic-heatcell th-5" href="./mlops/" title="MLOps — 38 resources"><span class="topic-heatcell__name">MLOps</span><span class="topic-heatcell__n">38</span></a>
 <a class="topic-heatcell th-3" href="./ai/" title="AI — 11 resources"><span class="topic-heatcell__name">AI</span><span class="topic-heatcell__n">11</span></a>
 <a class="topic-heatcell th-2" href="./ai-agents-mcp/" title="AI Agents MCP — 4 resources"><span class="topic-heatcell__name">AI Agents MCP</span><span class="topic-heatcell__n">4</span></a>
 <a class="topic-heatcell th-2" href="./chatgpt/" title="ChatGPT — 3 resources"><span class="topic-heatcell__name">ChatGPT</span><span class="topic-heatcell__n">3</span></a>
@@ -85,7 +85,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-5" href="./managed-kubernetes-in-public-cloud/" title="Managed Kubernetes In Public Cloud — 65 resources"><span class="topic-heatcell__name">Managed Kubernetes In Public Cloud</span><span class="topic-heatcell__n">65</span></a>
 <a class="topic-heatcell th-5" href="./azure/" title="Azure — 64 resources"><span class="topic-heatcell__name">Azure</span><span class="topic-heatcell__n">64</span></a>
-<a class="topic-heatcell th-5" href="./aws/" title="AWS — 39 resources"><span class="topic-heatcell__name">AWS</span><span class="topic-heatcell__n">39</span></a>
+<a class="topic-heatcell th-5" href="./aws/" title="AWS — 40 resources"><span class="topic-heatcell__name">AWS</span><span class="topic-heatcell__n">40</span></a>
 <a class="topic-heatcell th-5" href="./aws-serverless/" title="AWS Serverless — 35 resources"><span class="topic-heatcell__name">AWS Serverless</span><span class="topic-heatcell__n">35</span></a>
 <a class="topic-heatcell th-4" href="./GoogleCloudPlatform/" title="Googlecloudplatform — 33 resources"><span class="topic-heatcell__name">Googlecloudplatform</span><span class="topic-heatcell__n">33</span></a>
 <a class="topic-heatcell th-4" href="./aws-newfeatures/" title="AWS Newfeatures — 23 resources"><span class="topic-heatcell__name">AWS Newfeatures</span><span class="topic-heatcell__n">23</span></a>
@@ -202,7 +202,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[AI Agents MCP](./ai-agents-mcp.md)** <span class="topic-count">4</span>
 - **[AI](./ai.md)** <span class="topic-count">11</span>
 - **[ChatGPT](./chatgpt.md)** <span class="topic-count">3</span>
-- **[MLOps](./mlops.md)** <span class="topic-count">37</span>
+- **[MLOps](./mlops.md)** <span class="topic-count">38</span>
 
 </section>
 
@@ -280,7 +280,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[AWS Newfeatures](./aws-newfeatures.md)** <span class="topic-count">23</span>
 - **[AWS Security](./aws-security.md)** <span class="topic-count">12</span>
 - **[AWS Serverless](./aws-serverless.md)** <span class="topic-count">35</span>
-- **[AWS](./aws.md)** <span class="topic-count">39</span>
+- **[AWS](./aws.md)** <span class="topic-count">40</span>
 - **[Azure](./azure.md)** <span class="topic-count">64</span>
 - **[Digitalocean](./digitalocean.md)** <span class="topic-count">4</span>
 - **[Edge Computing](./edge-computing.md)** <span class="topic-count">2</span>

@@ -2,39 +2,21 @@
   "3_months": {
     "Kubernetes & Orchestration": [
       {
+        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
+        "title": "Kubecost 🌟",
+        "date": "2026-06-18",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It serves as the industry standard for real-time cost allocation and FinOps observability in multi-cluster enterprise Kubernetes environments.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
         "url": "https://nubenetes.com/crossplane",
         "title": "Crossplane",
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "Crossplane revolutionizes cloud operations by transforming Kubernetes into a universal control plane to declaratively manage non-K8s infrastructure.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/Azure/azure-workload-identity",
-        "title": "==Azure/azure-workload-identity==",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "Azure Workload Identity sets the enterprise standard for secure, passwordless authentication by mapping Kubernetes Service Accounts to Microsoft Entra ID.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://github.com/NVIDIA/k8s-device-plugin",
-        "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
-        "date": "2026-06-14",
-        "stars": 5,
-        "impact": "critical",
-        "why": "The NVIDIA device plugin is a vital enablement layer for scheduling and running hardware-accelerated AI/ML workloads inside modern Kubernetes clusters.",
-        "category": "Kubernetes & Orchestration"
-      },
-      {
-        "url": "https://www.apptio.com/products/kubecost/?src=kc-com",
-        "title": "Kubecost 🌟",
-        "date": "2026-06-18",
-        "stars": 5,
-        "impact": "high",
-        "why": "Kubecost is the industry-standard tool for real-time cost allocation and observability, proving essential for enterprise cloud-native FinOps practices.",
+        "why": "It drives a major paradigm shift by enabling teams to use Kubernetes as a universal control plane to manage any external cloud infrastructure declaratively.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -43,7 +25,25 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "SigNoz offers a powerful, open-source APM alternative that natively integrates OpenTelemetry standards to simplify application observability.",
+        "why": "It offers a powerful, open-source, OpenTelemetry-native APM alternative that consolidates metrics, traces, and logs in a unified high-performance interface.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/Azure/azure-workload-identity",
+        "title": "==Azure/azure-workload-identity==",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It establishes the enterprise security standard for passwordless OIDC-based identity mapping between Kubernetes service accounts and cloud resources.",
+        "category": "Kubernetes & Orchestration"
+      },
+      {
+        "url": "https://github.com/NVIDIA/k8s-device-plugin",
+        "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
+        "date": "2026-06-14",
+        "stars": 5,
+        "impact": "critical",
+        "why": "It is the foundational component enabling physical GPU hardware allocation and scheduling for AI/ML workloads inside Kubernetes clusters.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -52,7 +52,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "Kargo addresses a major operational gap by providing a GitOps-native controller to orchestrate safe application promotions across multiple stages.",
+        "why": "It addresses a critical DevOps challenge by providing a GitOps-native lifecycle engine for promoting application releases across multiple environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -60,8 +60,8 @@
         "title": "Teleport 🌟",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "high",
-        "why": "Teleport enforces zero-trust security by consolidating identity-backed, audited access control for Kubernetes APIs and underlying infrastructure.",
+        "impact": "critical",
+        "why": "It provides a robust, identity-aware access gateway that secures and audits developer connectivity to Kubernetes APIs and database workloads.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -70,7 +70,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "ACK enables platform engineers to manage native AWS cloud services directly through Kubernetes custom resources and declarative APIs.",
+        "why": "It bridges the gap between infrastructure layers by allowing teams to provision and manage AWS resources natively via Kubernetes custom resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -78,17 +78,17 @@
         "title": "K9s - Kubernetes CLI To Manage Your Clusters In Style!",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "medium",
-        "why": "K9s is an immensely popular terminal user interface that drastically accelerates day-to-day cluster administration and active log troubleshooting.",
+        "impact": "high",
+        "why": "It remains the most popular and highly efficient terminal user interface for real-time cluster management, troubleshooting, and daily operations.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/pulumi/pulumi",
-        "title": "Pulumi: Infrastructure as Code in Any Programming Language",
+        "url": "https://github.com/k8gb-io/k8gb",
+        "title": "k8gb 🌟",
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "Pulumi redefines Infrastructure-as-Code by allowing developers to configure and deploy Kubernetes manifests using general-purpose programming languages.",
+        "why": "It simplifies global traffic routing by providing a cloud-native, CoreDNS-driven global server load balancing solution for multi-region high availability.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -5663,16 +5663,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "It serves as the foundational distributed compute engine for scaling modern AI training and inference on cloud-native platforms.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://openai.com/research/scaling-kubernetes-to-7500-nodes",
-        "title": "openai.com: Scaling Kubernetes to 7,500 nodes 🌟",
-        "date": "2026-05-17",
-        "stars": 0,
-        "impact": "critical",
-        "why": "It provides the definitive industry blueprint and engineering lessons for orchestrating massive-scale deep learning infrastructure on Kubernetes.",
+        "why": "Ray is the industry-standard distributed execution framework essential for scaling heavy AI training and inference workloads across cloud-native environments.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5681,7 +5672,16 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "It seamlessly bridges the gap between local data science development and robust, production-grade cloud execution environments.",
+        "why": "Metaflow seamlessly bridges local data science development with enterprise-scale cloud infrastructure, making it a premier pipeline framework.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://openai.com/research/scaling-kubernetes-to-7500-nodes",
+        "title": "openai.com: Scaling Kubernetes to 7,500 nodes 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "critical",
+        "why": "This landmark case study outlines the critical infrastructure patterns required to scale Kubernetes to thousands of nodes for massive-scale ML training workloads.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5690,7 +5690,7 @@
         "date": "2026-05-19",
         "stars": 5,
         "impact": "high",
-        "why": "It standardizes enterprise-level optimization, quantization, and fine-tuning strategies for operationalizing open-source LLMs.",
+        "why": "It provides the foundational enterprise recipes for scaling, optimizing, and fine-tuning LLMs in production environments.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5699,7 +5699,7 @@
         "date": "2026-06-18",
         "stars": 4,
         "impact": "high",
-        "why": "It acts as a comprehensive architectural handbook for configuring, deploying, and managing complex machine learning stacks on Kubernetes.",
+        "why": "This comprehensive guide serves as a vital blueprint for architecting, deploying, and managing complex machine learning platforms on Kubernetes.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5708,7 +5708,7 @@
         "date": "2026-06-08",
         "stars": 5,
         "impact": "high",
-        "why": "It establishes an open-source platform for human-in-the-loop data curation, which is vital for aligning and fine-tuning production LLMs.",
+        "why": "Argilla delivers crucial human-in-the-loop data curation capabilities necessary for continuously fine-tuning production LLM workflows.",
         "category": "MLOps & Data Science"
       },
       {
@@ -5717,34 +5717,34 @@
         "date": "2026-05-21",
         "stars": 3,
         "impact": "high",
-        "why": "It dramatically simplifies the creation of reproducible, containerized development environments with complex CUDA dependencies.",
+        "why": "Envd dramatically simplifies cloud-native ML operations by translating Python definitions into reproducible, containerized GPU development environments.",
         "category": "MLOps & Data Science"
       },
       {
-        "url": "https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems",
-        "title": "SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems",
-        "date": "2026-06-02",
-        "stars": 4,
-        "impact": "high",
-        "why": "It introduces a major architectural shift by consolidating recommendation pipeline retrieval and scoring into a single GPU-optimized model.",
-        "category": "MLOps & Data Science"
-      },
-      {
-        "url": "https://github.com/postgresml/postgresml",
-        "title": "postgresml/postgresml 🌟",
-        "date": "2025-07-01",
+        "url": "https://github.com/aimhubio/aim",
+        "title": "github.com/aimhubio/aim",
+        "date": "2026-06-13",
         "stars": 4,
         "impact": "medium",
-        "why": "It drives database-level ML optimization by enabling users to run Rust-powered training and inference directly inside PostgreSQL.",
+        "why": "Aim offers a modern, highly responsive open-source alternative for tracking and visualizing massive volumes of ML experiment metrics.",
         "category": "MLOps & Data Science"
       },
       {
-        "url": "https://github.com/XuehaiPan/nvitop",
-        "title": "==github.com/XuehaiPan/nvitop== 🌟",
-        "date": "2026-05-25",
-        "stars": 4,
+        "url": "https://medium.com/workday-engineering/implementing-a-fully-automated-sharding-strategy-on-kubernetes-for-multi-tenanted-machine-learning-4371c48122ae",
+        "title": "medium.com/workday-engineering: Implementing a Fully Automated Sharding' Strategy on Kubernetes for Multi-tenanted Machine Learning Applications",
+        "date": "2026-05-17",
+        "stars": 0,
         "impact": "medium",
-        "why": "It dramatically improves on-node GPU observability for MLOps engineers through an interactive, terminal-based resource monitor.",
+        "why": "This presents an advanced architectural blueprint for automating database sharding for multi-tenant machine learning applications on Kubernetes.",
+        "category": "MLOps & Data Science"
+      },
+      {
+        "url": "https://medium.com/@kevin30101999/machine-learning-pipeline-using-argo-workflow-be91feb07c41",
+        "title": "medium.com/@kevin30101999: Machine Learning Pipeline using Argo workflow' 🌟",
+        "date": "2026-05-17",
+        "stars": 0,
+        "impact": "medium",
+        "why": "It demonstrates how to orchestrate end-to-end machine learning pipelines natively on Kubernetes using Argo Workflows.",
         "category": "MLOps & Data Science"
       }
     ],
@@ -6968,9 +6968,9 @@
   "_meta": {
     "3_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-07-01T11:38:01.334165+02:00",
-        "entry_hash": "d4bacf21acd283de",
-        "entry_count": 1403,
+        "last_analyzed": "2026-07-01T14:54:18.106393+02:00",
+        "entry_hash": "0ec4bc6bc88ddb3c",
+        "entry_count": 1402,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7350,9 +7350,9 @@
         "method": "gemini"
       },
       "MLOps & Data Science": {
-        "last_analyzed": "2026-06-25T12:05:26.860402+02:00",
-        "entry_hash": "55a12501e7102d13",
-        "entry_count": 54,
+        "last_analyzed": "2026-07-01T14:54:30.476428+02:00",
+        "entry_hash": "331739211353b187",
+        "entry_count": 53,
         "method": "gemini"
       },
       "OpenShift / Red Hat": {
@@ -7440,6 +7440,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-07-01T11:44:42.540651+02:00"
+    "last_updated": "2026-07-01T14:54:31.480721+02:00"
   }
 }

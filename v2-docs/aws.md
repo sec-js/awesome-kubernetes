@@ -172,6 +172,9 @@ description: "Top AWS resources for 2026, AI-ranked: AWS App Runner, Amazon ECS-
 #### Prometheus Integration
 
   - **(2020)** [Amazon CloudWatch now monitors Prometheus metrics from Container environments](https://aws.amazon.com/about-aws/whats-new/2020/09/amazon-cloudwatch-monitors-prometheus-metrics-container-environments) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documents Amazon CloudWatch Container Insights' ability to ingest, index, and visualize standard Prometheus application metrics directly from Elastic Kubernetes Service (EKS) cluster deployments.
+## Platform Engineering  Observability  Service Topology Mapping
+
+  - **(2026)** [**From Silos to Service Topology: Why Netflix Built a Real-Time Service Map**](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — To manage and troubleshoot its massive microservices architecture, Netflix engineered a real-time service topology mapping system. The system correlates three independent data streams: eBPF network flow logs for network-level coverage, IPC metrics for endpoint-level granularity, and distributed tracing for transaction execution paths. By mapping these sources into a custom graph database, Netflix achieved a unified, sub-second query interface that eliminates human-maintained architectural diagrams and reduces Mean Time to Detection (MTTD) during critical outages.
 ## Serverless
 
 ### Voice User Interfaces

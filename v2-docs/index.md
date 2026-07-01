@@ -89,8 +89,8 @@
 
     **Current Inventory Coverage:**
     - **V1 Base Inventory**: 18657 total resources analyzed.
-    - **V2 Elite Selection**: 14489 candidates identified (77.66% density ratio).
-    - **AI Enrichment Coverage**: 14489 / 14489 (100.0%)
+    - **V2 Elite Selection**: 14533 candidates identified (77.9% density ratio).
+    - **AI Enrichment Coverage**: 14533 / 14533 (100.0%)
     - **GitHub Metadata Coverage**: 1764 / 1764 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -104,17 +104,17 @@
 <div class="trending-grid">
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://www.apptio.com/products/kubecost/?src=kc-com">Kubecost 🌟</a></div>
+  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">It serves as the industry standard for real-time cost allocation and FinOps observability in multi-cluster enterprise Kubernetes environments.</div>
+</div>
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://antigravity.google">Google Antigravity Agentic Platform</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">It directly bridges the gap between local agent prototypes and production-grade Google Kubernetes Engine (GKE) deployments for stateful AI agents.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">Crossplane revolutionizes cloud operations by transforming Kubernetes into a universal control plane to declaratively manage non-K8s infrastructure.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -238,9 +238,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/Azure/azure-workload-identity">Azure/azure-workload-identity</a></div>
-  <div class="trending-card__meta">2026-06-14 · 333★</div>
-  <div class="trending-card__why">It provides the modern security standard for mapping Kubernetes Service Accounts to cloud provider identities securely via OIDC federation without secrets.</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">It transforms Kubernetes into a universal control plane, allowing teams to manage multi-cloud infrastructure declaratively through the K8s API.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -400,7 +400,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#emerging" title="14 resources">Emerging<span class="v2-heat-n">14</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="366 resources">Enterprise-Stable<span class="v2-heat-n">366</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="368 resources">Enterprise-Stable<span class="v2-heat-n">368</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
