@@ -111,3 +111,5 @@
 
 	</center>
 
+### Cassandra
+  - **(2026)** [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1?source=rss----2615bd06b42e---4) 🌟 - How Netflix redesigned their high-scale Cassandra-to-Iceberg data pipelines using Apache Cassandra Analytics.
