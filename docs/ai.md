@@ -164,3 +164,5 @@ security from the beginning with continuous testing, automation, zero trust, and
     <iframe width="560" height="315" src="https://www.youtube.com/embed/M5QHwkkHgAA?si=yoygGsgi0QL4N8Ul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </center>
+
+  - **(2026)** [Amazon ECS introduces new high-resolution metrics for faster service auto scaling](https://aws.amazon.com/blogs/aws/amazon-ecs-introduces-new-high-resolution-metrics-for-faster-service-auto-scaling) 🌟 - Amazon ECS adds 20-second high-resolution metrics for Target Tracking policies, decreasing scale-out trigger delay by 76% and end-to-end task provisioning time by 72%.
