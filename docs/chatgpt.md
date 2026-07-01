@@ -87,3 +87,9 @@
 - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65)
 - [numerous.ai](https://numerous.ai) Prompt ChatGPT in bulk, in your spreadsheets. Use AI for writing content, product descriptions, SEO keywords, and more in bulk.
 - [chat.openai.com/g/g-6eSNNNvsB-kubernetes-terraformer: Kubernetes Terraformer](https://chatgpt.com/g/g-6eSNNNvsB-kubernetes-terraformer) Converts Kubernetes YAML to Terraform HCL, extracting key variables. By Mark Tinderholt
+
+## ChatGPT Enterprise
+  - **(2026)** [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) 🌟 - Granular cost tracking and policy enforcement tools within the ChatGPT Enterprise Global Admin Console.
+
+## ChatGPT in Healthcare
+  - **(2026)** [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) 🌟 - Enhancing user-facing health queries and clinical safety through physician-evaluated reasoning in GPT-5.5 Instant.

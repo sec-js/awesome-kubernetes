@@ -41,3 +41,6 @@
 ## AWS S3 Sync
 
 - [==blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide==](https://awsfundamentals.com/blog/aws-s3-sync) Learn all about AWS S3 sync - covering download, upload, synchronize buckets, file selection patterns, dry-run, and more - examples included. The CLI is a daily tool for every DevOps engineer working with AWS. A deep-dive for the 𝗮𝘄𝘀 𝘀𝟯 𝘀𝘆𝗻𝗰 command & its powerful options.
+
+## Amazon S3
+  - **(2026)** [Amazon S3 annotations: attach rich, queryable context directly to your objects](https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects) 🌟 - An innovative metadata layer on S3 allowing up to 1 GB of rich, mutable, and queryable annotations directly on stored objects.

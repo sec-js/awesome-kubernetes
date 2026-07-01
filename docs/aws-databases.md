@@ -62,7 +62,10 @@
 - [Tutorial: Tuning Table Design](https://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html) you will learn how to optimize the design of your tables.
 
 ## AWS Data Mesh and Batch Data Processing
+  - **(2026)** [Data Projects: Managing Data Assets at Netflix Scale](https://netflixtechblog.com/data-projects-managing-data-assets-at-netflix-scale-7ca25888591e?source=rss----2615bd06b42e---4) 🌟 - An introduction to Data Projects, an abstraction designed to manage access governance, identity, and assets collectively at scale.
 
 ## AWS NoSQL DynamoDB
 
 - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub)
+
+  - **(2026)** [How we built Cloudflare's data platform and an AI agent on top of it](https://blog.cloudflare.com/our-unified-data-platform) 🌟 - Cloudflare introduces Town Lake, their in-house unified data platform featuring a single SQL interface, and Skipper, an AI agent enabling natural language queries over metadata, ClickHouse, and R2 logs.

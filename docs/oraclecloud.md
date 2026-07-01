@@ -20,3 +20,6 @@
 
 - [Oracle Container Engine for Kubernetes (OKE)](https://docs.oracle.com/en-us/iaas/Content/ContEng/Concepts/contengoverview.htm)
 - [blogs.oracle.com: Announcing private Kubernetes clusters](https://blogs.oracle.com/cloud-infrastructure/announcing-private-kubernetes-clusters)
+
+## Artificial Intelligence
+  - **(2026)** [Access OpenAI Models and Codex Through Your Oracle Cloud Commitment](https://openai.com/index/openai-on-oracle-cloud) 🌟 - A strategic partnership enabling native access to OpenAI frontier models and Codex on Oracle Cloud Infrastructure.

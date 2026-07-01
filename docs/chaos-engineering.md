@@ -82,3 +82,6 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/B8DfYnDh2F4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </center>
+
+## Infrastructure Chaos Engineering
+  - **(2026)** [Lights Out, Systems On: Validating Instant Power Loss Readiness](https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness) 🌟 - Meta introduces Instantaneous PowerLoss Storm, a testing paradigm validating zero-notice power loss readiness across entire data center regions.

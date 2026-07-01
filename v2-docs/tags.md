@@ -31,7 +31,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-2" href="#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="#emerging" title="14 resources">Emerging<span class="v2-heat-n">14</span></a>
-<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="366 resources">Enterprise-Stable<span class="v2-heat-n">366</span></a>
+<a class="v2-heat-tag v2-heat-5" href="#enterprise-stable" title="368 resources">Enterprise-Stable<span class="v2-heat-n">368</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
@@ -93,7 +93,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 ### Maturity and Quality
 
 1. [De Facto Standard](#de-facto-standard) (323 resources)
-1. [Enterprise-Stable](#enterprise-stable) (366 resources)
+1. [Enterprise-Stable](#enterprise-stable) (368 resources)
 1. [Emerging](#emerging) (14 resources)
 1. [Guide](#guide) (266 resources)
 1. [Case Study](#case-study) (39 resources)
@@ -225,7 +225,7 @@ Resources indexed by their primary source language or document format.
 ## Enterprise-Stable {#enterprise-stable}
 
 <details markdown="1">
-<summary>Click to view top 100 of 366 resources under Enterprise-Stable</summary>
+<summary>Click to view top 100 of 368 resources under Enterprise-Stable</summary>
 
   - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./docker.md)*
   - **(2026)** [**NoOps**](https://nubenetes.com/noops/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./devops.md)*
@@ -237,6 +237,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**AWX Operator**](https://github.com/ansible/awx-operator) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./ansible.md)*
   - **(2026)** [**Meshery.io:**](https://meshery.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./servicemesh.md)*
   - **(2026)** [**consul.io**](https://developer.hashicorp.com/consul) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./servicemesh.md)*
+  - **(2026)** [**SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems**](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./mlops.md)*
   - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> — *Go to [Section](./devops-tools.md)*
   - **(2026)** [**GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp: Google Secret' Manager Provider for Secret Store CSI Driver**](https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
   - **(2026)** [**aws/secrets-store-csi-driver-provider-aws: AWS Secrets Manager and Config' Provider for Secret Store CSI Driver**](https://github.com/aws/secrets-store-csi-driver-provider-aws) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./devsecops.md)*
@@ -246,6 +247,7 @@ Resources indexed by their primary source language or document format.
   - **(2026)** [**Awesome microservices**](https://github.com/mfornos/awesome-microservices) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2026)** [**developer.hashicorp.com 🌟**](https://developer.hashicorp.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2026)** [**AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS**](https://docs.aws.amazon.com/hands-on/latest/create-mysql-db/create-mysql-db.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — *Go to [Section](./aws.md)*
+  - **(2026)** [**From Silos to Service Topology: Why Netflix Built a Real-Time Service Map**](https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc?source=rss----2615bd06b42e---4) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[EN CONTENT]</span> — *Go to [Section](./aws.md)*
   - **(2026)** [**microcks.io**](https://microcks.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
   - **(2026)** [**github.com/openshift/console 🌟**](https://github.com/openshift/console) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
   - **(2026)** [**telepresence.io 🌟**](https://telepresence.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-based-devel.md)*
@@ -325,10 +327,8 @@ Resources indexed by their primary source language or document format.
   - **(2024)** [**iann0036/iamlive**](https://github.com/iann0036/iamlive) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./aws-security.md)*
   - **(2024)** [**youtube playlist: DevNation Lessons: Kubernetes Fundamentals**](https://www.youtube.com/playlist?list=PLf3vm0UK6HKpOqIY2fcu_M0sCSpluyXMW) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — *Go to [Section](./kubernetes-tutorials.md)*
   - **(2024)** [**techcommunity.microsoft.com: Advanced Network Observability for your Azure Kubernetes Service clusters through Azure Monitor**](https://techcommunity.microsoft.com/blog/azureobservabilityblog/advanced-network-observability-for-your-azure-kubernetes-service-clusters-throug/4176736) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> — *Go to [Section](./azure.md)*
-  - **(2024)** [**techcommunity.microsoft.com: How To Monitor Your Multi-Tenant Solution on Azure With Azure Monitor**](https://techcommunity.microsoft.com/blog/azureobservabilityblog/how-to-monitor-your-multi-tenant-solution-on-azure-with-azure-monitor/4042140) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--warning'>[KQL CONTENT]</span> — *Go to [Section](./azure.md)*
-  - **(2024)** [**github.com/JFolberth/TheYAMLPipelineOne 🌟**](https://github.com/JFolberth/TheYAMLPipelineOne) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> — *Go to [Section](./azure.md)*
 
-*... and 266 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 268 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>

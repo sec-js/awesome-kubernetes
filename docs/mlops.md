@@ -93,6 +93,7 @@
 
 - [==youtube.com: Optimizing LLM Training with Airbnb's Next-Gen ML Platform==](https://www.youtube.com/watch?v=-sZvzW40NrM&ab_channel=Anyscale)
 - [==Ray==](https://docs.ray.io/en/latest) is an open-source unified framework for scaling AI and Python applications. It provides the compute layer for parallel processing so that you don’t need to be a distributed systems expert.
+  - **(2026)** [SilverTorch: Index as Model — A New Retrieval Paradigm for Recommendation Systems](https://engineering.fb.com/2026/05/26/ml-applications/silvertorch-index-as-model-new-retrieval-paradigm-recommendation-systems) 🌟 - Meta introduces SilverTorch, a unified PyTorch model-based system that replaces separate microservices for vector indexing, filtering, and scoring with a single GPU-optimized execution graph.
 
 ## Object Detection Libraries
 
@@ -171,6 +172,7 @@
 - [redhat.com: Introducing Red Hat OpenShift Data Science](https://www.redhat.com/en/blog/introducing-red-hat-openshift-data-science)
 - [redhat.com: Bring Your Own Knowledge - Automation Intelligent Assistant (RAG)](https://www.redhat.com/en/blog/bring-your-own-knowledge-automation-intelligent-assistant)
 - [towardsdatascience.com: From DevOps to MLOPS: Integrate Machine Learning Models using Jenkins and Docker](https://towardsdatascience.com/from-devops-to-mlops-integrate-machine-learning-models-using-jenkins-and-docker-79034dbedf1) How to automate data science code with Jenkins and Docker: MLOps = ML + DEV + OPS
+  - **(2026)** [Predicting Risk in Content Launches: How Data-Driven Insights can Transform Launch Planning](https://netflixtechblog.com/predicting-risk-in-content-launches-how-data-driven-insights-can-transform-launch-planning-587b1f2de928?source=rss----2615bd06b42e---4) 🌟 - How Netflix leverages predictive modeling and historical signals to forecast schedule slips in content launches.
 
 ## Machine Learning workloads in kubernetes using Nix and NVIDIA. Running NVIDIA GPUs on Kubernetes
 
