@@ -127,3 +127,8 @@
 
 </center>
 </details>
+
+## BGP
+  - **(2026)** [Enforcing the First AS in BGP AS_PATHs - The Cloudflare Blog](https://blog.cloudflare.com/enforce-first-as-bgp) 🌟 - Learn the routing mechanics and configuration policies to enforce First AS validation on EBGP sessions to safeguard networks from malformed path hijacks.
+
+  - **(2026)** [Adopting AV1 for Real-Time Communication (RTC) at Scale](https://engineering.fb.com/2026/06/22/video-engineering/adopting-av1-for-real-time-communication-rtc-meta) 🌟 - Meta shares the multi-year effort of adopting and scaling AV1 for real-time video calls in Messenger and WhatsApp, focusing on rate control, device eligibility, and error resilience.
