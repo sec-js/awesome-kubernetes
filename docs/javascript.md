@@ -86,3 +86,6 @@
 
 </center>
 </details>
+
+## JavaScript Tooling
+  - **(2026)** [VoidZero is joining Cloudflare](https://blog.cloudflare.com/voidzero-joins-cloudflare) 🌟 - Cloudflare announces VoidZero is joining the company to commit engineering and resources to the Vite, Vitest, Rolldown, and Oxc ecosystem while maintaining their open-source foundation.

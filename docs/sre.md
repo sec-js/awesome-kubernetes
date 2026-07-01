@@ -77,6 +77,7 @@
 - [dzone.com: DevOps vs. SRE vs. Platform Engineer vs. Cloud Engineer; Substance or Semantics?](https://dzone.com/articles/devops-vs-sre-vs-platform-engineer-vs-cloud-engine)
 - [==phoenixnap.com: SRE Vs. DevOps: Differences Explained== 🌟](https://phoenixnap.com/blog/sre-vs-devops) Take an in-depth look at the similarities & differences between SRE & DevOps, their benefits, usual tasks, and go-to tools to explain their distinct roles in the software development lifecycle (SDLC)
 - [thenewstack.io: SRE vs. DevOps? Successful Platform Engineering Needs Both](https://thenewstack.io/sre-vs-devops-successful-platform-engineering-needs-both) A look at the differences, what they do, how they benefit the business and why organizations need all three to succeed.
+  - **(2026)** [How we reduced core unit boot time from hours to minutes](https://blog.cloudflare.com/optimizing-core-unit-boot-time) 🌟 - Cloudflare outlines how they debugged and resolved UEFI firmware boot bottlenecks on their Gen12 core bare-metal servers, reducing boot times from four hours to under a minute.
 
 ## SRE Tools
   - [Monitoring Distributed Systems - Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems) - *(Related to monitoring topic)*
@@ -148,3 +149,6 @@
 
 </center>
 </details>
+
+## Canary Analysis
+  - **(2026)** [The Data Canary: How Netflix Validates Catalog Metadata](https://netflixtechblog.com/the-data-canary-how-netflix-validates-catalog-metadata-18b699d58e36?source=rss----2615bd06b42e---4) 🌟 - How Netflix built an automated data canary system that validates critical catalog metadata transformations using production traffic.

@@ -74,3 +74,6 @@
 - [medium.com/@HirenDhaduk1: Best choice to run your containers: AWS FARGATE or AWS LAMBDA or Both?](https://medium.com/@HirenDhaduk1/best-choice-to-run-your-containers-aws-fargate-or-aws-lambda-or-both-d9e14685a363)
 - [github.com/awslabs/specctl](https://github.com/awslabs/specctl) CLI to convert Kubernetes specifications to ECS Fargate and vice-versa
   - [AWS SAM CLI Advanced Serverless Deployments](https://medium.com/@mertmengu/aws-sam-cli-advanced-serverless-deployments-07432fee87ab) 🌟 - This article explores advanced deployment strategies using AWS SAM CLI for serverless applications.
+
+## AWS Lambda
+  - **(2026)** [Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs](https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms) 🌟 - AWS launches AWS Lambda MicroVMs, a serverless compute primitive that exposes stateful, isolated Firecracker execution environments with unopinionated network ingress and full lifecycle control.

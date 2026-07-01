@@ -237,3 +237,9 @@ These are the core tools and frameworks that have been or are significant in my 
 [![automated_ansible](images/automated_ansible.jpg)](https://probably.co.uk/posts/migrating-the-runbook-a-journey-from-legacy-to-devops)
 
 </center>
+
+## Artificial Intelligence
+  - **(2026)** [HP Inc. launches Frontier Strategic Partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) 🌟 - HP scales its partnership with OpenAI to integrate advanced models across global customer workflows, development pipelines, and IT telemetry.
+  - **(2026)** [Supporting Europe's Work in Ensuring a Trustworthy AI Ecosystem](https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem) 🌟 - An overview of OpenAI's alignment and support for the EU Code of Practice on Transparency of AI-generated content.
+  - **(2026)** [Industrial policy for the Intelligence Age: Ideas to Keep People First](https://openai.com/index/industrial-policy-for-the-intelligence-age) 🌟 - OpenAI presents a comprehensive, 13-page socio-economic blueprint proposing public wealth funds, tax reforms, and a universal 'Right to AI' as public utility infrastructure.
+  - **(2026)** [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan) 🌟 - OpenAI details its long-term strategic plan and structural alignment, demonstrating how its Public Benefit Corporation structure and the OpenAI Foundation distribute AGI's benefits.

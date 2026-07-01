@@ -143,3 +143,9 @@
   </center>
 
 </details>
+
+## Omio
+  - **(2026)** [How Omio is building the future of conversational travel](https://openai.com/index/omio) 🌟 - Enterprise case study of Omio deploying ChatGPT Enterprise, Codex, and agent systems to transform conversational travel workflows.
+
+## Samsung
+  - **(2026)** [Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment) 🌟 - Case study of Samsung deploying ChatGPT Enterprise and Codex to DX division employees worldwide.

@@ -37,3 +37,6 @@
 ## Console Recorder for AWS
 
 - [==onecloudplease.com: Console Recorder for AWS==](https://onecloudplease.com/project/console-recorder) **Records actions made in the AWS Management Console and outputs the equivalent CLI / SDK commands and CloudFormation / Terraform templates.**
+
+## AWS CloudFormation
+  - **(2026)** [Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode](https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode) 🌟 - AWS introduces CloudFormation Express Mode, a new deployment mode that bypasses full stabilization checks to accelerate iterative resource delivery by up to 4x.

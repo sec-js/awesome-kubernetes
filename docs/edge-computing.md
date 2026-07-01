@@ -9,3 +9,9 @@
 - [==developers.redhat.com: Bring your Kubernetes workloads to the edge==](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge)
 - [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture)
 - [betterprogramming.pub: I Worked at Microsoft Cloud and Google Mobile for 3 Years — Here Are the Differences in Ecosystems](https://betterprogramming.pub/why-working-on-cloud-vs-mobile-edge-is-so-different-e32930f1c801) Why working on cloud vs. mobile (Edge) is so different?
+
+## WebAssembly
+  - **(2026)** [How Wasmer used Codex to build Edge.js](https://openai.com/index/wasmer) 🌟 - Wasmer engineers leverage OpenAI Codex to accelerate the deployment of Edge.js, a lightweight Node.js runtime for WebAssembly.
+
+## Edge Hardware
+  - **(2026)** [How Meta Engineered Ultra-Narrow Batteries for AI Glasses](https://engineering.fb.com/2026/06/23/production-engineering/how-meta-built-ultra-narrow-batteries-for-ai-glasses-meta-tech-podcast) 🌟 - Podcast episode exploring Meta's engineering achievements in developing 7mm steel-can batteries using die-cut stacked electrodes for smart wearables.

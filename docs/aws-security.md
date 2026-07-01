@@ -66,6 +66,7 @@
   - [Securing Azure DevOps When Using Private Repositories](https://www.linkedin.com/top-content/?trk=article_not_found) - *(Related to azure topic)*
 
 - [docs.aws.amazon.com: Application security](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/application-security.html) Application security (AppSec) describes the overall process of how you design, build, and test the security properties of the workloads you develop. You should have appropriately trained people in your organization, understand the security properties of your build and release infrastructure, and use automation to identify security issues.
+  - **(2026)** [AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more](https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more) 🌟 - Autonomous threat modeling updates and IDE integrations via Kiro Power and Claude Code plugins to shift security verification left.
 
 ## Policy as Code with AWS CDK and Open Policy Agent
 
@@ -151,6 +152,7 @@
 - [medium: Protecting your Web Application or APIs using AWS WAF](https://medium.com/avmconsulting-blog/protecting-your-web-application-or-apis-using-aws-waf-1829ff79275a)
 - [faun.pub: Set up global rate limiting with AWS WAF in 5 minutes](https://faun.pub/set-up-global-rate-limiting-with-aws-waf-in-5-minutes-bd43a9309683)
 - [dev.to: AWS WAF (Web Application Firewall): Deep Dive](https://dev.to/aws-builders/aws-waf-web-application-firewall-deep-dive-15bd)
+  - **(2026)** [AWS WAF adds AI traffic monetization capability to help content owners charge AI bots for content access](https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access) 🌟 - AWS WAF launches an edge-based capability within Bot Control allowing publishers to charge AI agents for web and API content access.
 
 ## AWS Secrets Manager
   - [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide) - *(Related to azure topic)*
@@ -175,3 +177,6 @@
 
 </center>
 </details>
+
+## AWS Certificate Manager
+  - **(2026)** [Automate public TLS certificate issuance with ACME support in AWS Certificate Manager](https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager) 🌟 - AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through ACMEv2-compatible clients.

@@ -23,6 +23,7 @@
 ## Continuous Deployment with AWS
 
 - [Continuous Deployment with AWS](https://aws.amazon.com/blogs/devops/tag/continuous-deployment)
+  - **(2026)** [AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)](https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview) 🌟 - Introducing automated release-readiness reviews and autonomous staging testing for risk assessment within CI/CD pipelines.
 
 ## AWS CodeDeploy
 
@@ -35,3 +36,10 @@
 - [admiralty.io](https://admiralty.io) The simplest way to deploy applications to multiple Kubernetes clusters.
 - [thenewstack.io: Making Kubernetes Serverless and Global with AWS Fargate on EKS and Admiralty](https://thenewstack.io/making-kubernetes-serverless-and-global-with-aws-fargate-on-eks-and-admiralty)
 - [admiralty.io: Multi-Region AWS Fargate on EKS](https://admiralty.io/docs/tutorials/fargate)
+
+  - **(2026)** [Core Dump Epidemiology: Fixing an 18-Year-Old Bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) 🌟 - OpenAI engineers utilize large-scale stack-trace signatures to isolate a silent hardware error and an 18-year-old GNU libunwind race condition.
+
+  - **(2026)** [OpenAI and Broadcom Unveil LLM-Optimized Inference Chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip) 🌟 - OpenAI and Broadcom debut Jalapeño, a custom Intelligence Processor ASIC built specifically for LLM inference workloads.
+
+## AWS Transform
+  - **(2026)** [Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)](https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview) 🌟 - An autonomous agentic service that continuously scans codebases to detect, prioritize, and remediate tech debt at scale.

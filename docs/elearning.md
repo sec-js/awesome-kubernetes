@@ -71,3 +71,9 @@
 
 </center>
 </details>
+
+## AI Courses
+  - **(2026)** [Introducing OpenAI Academy Courses](https://openai.com/index/academy-courses-applying-ai-at-work) 🌟 - Structured learning pathways designed to help organizations build practical, repeatable AI skills at work.
+
+## AI in Education
+  - **(2026)** [Students prototype learning tools with AI at University of Waterloo](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs) 🌟 - An educational showcase of students building AI-driven prototypes like sign language tutors at the University of Waterloo.
