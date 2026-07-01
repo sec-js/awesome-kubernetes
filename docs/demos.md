@@ -943,3 +943,11 @@ Grab them from here: [awesome-kubernetes/scripts](https://github.com/nubenetes/a
 ## Labs
 
 - [==learntocloud.guide: 3 ways to get hands on (AWS, Azure, GCP)==](https://learntocloud.guide)
+
+## AI and Machine Learning
+  - **(2026)** [How Preply Combines AI and Human Tutors to Personalize Learning](https://openai.com/index/preply) 🌟 - Case study detailing Preply's integration of OpenAI models to build customized educational and tutoring workflows.
+  - **(2026)** [BBVA Puts AI at the Core of Banking with OpenAI](https://openai.com/index/bbva) 🌟 - Strategic case study of BBVA deploying ChatGPT Enterprise to 120,000 employees globally to drive banking transformation.
+  - **(2026)** [How an Astrophysicist Uses Codex to Help Simulate Black Holes](https://openai.com/index/using-codex-to-simulate-black-holes) 🌟 - A case study exploring the intersection of generative AI models and general relativity code synthesis.
+  - **(2026)** [Take our I/O 2026 quiz, vibe coded in Google AI Studio](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz) 🌟 - An interactive web quiz built in Google AI Studio demonstrating prompt-based software prototyping.
+  - **(2026)** [Watch 9 Google videos of Gemini Omni and Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos) 🌟 - A collection of nine demonstration videos showcasing the latency and multimodal capabilities of Gemini Omni and Gemini 3.5 Flash.
+  - **(2026)** [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos) 🌟 - A curated collection of Google I/O 2026 keynote moments, highlighting Gemini Omni and Gemini 3.5 Flash.
