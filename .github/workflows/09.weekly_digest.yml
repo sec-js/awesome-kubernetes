@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: develop
           fetch-depth: 0
@@ -75,7 +75,7 @@ jobs:
           fi
 
       - name: Trigger V2 Publisher
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           event-type: weekly-digest-ready
