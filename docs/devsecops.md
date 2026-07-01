@@ -397,6 +397,8 @@
   - [GitHub Code Security Risk Assessment: Free Vulnerability Scanning](https://github.blog/security/application-security/how-exposed-is-your-code-find-out-in-minutes-for-free) - This blog post from GitHub introduces the Code Security Risk Assessment, a free, one-click tool that scans up to 20 active repositories for vulnerabilities using CodeQL. It provides a dashboard summarizing findings by severity, language, detected rules, and vulnerable repositories, aiming to help organizations quickly identify and prioritize code security risks.
 
 - [GitHub security: what does it take to protect your company from credentials leaking on GitHub? 🌟](https://blog.gitguardian.com/github-security)
+  - **(2026)** [How GitHub maintains compliance for open source dependencies](https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies) 🌟 - An inside look at how GitHub's OSPO deploys the GitHub License Compliance product to manage dependency risks at scale.
+  - **(2026)** [Inside the Advisory Database and what happens when vulnerability volume breaks records](https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records) 🌟 - A look at the factors driving the massive increase in global vulnerability disclosures and how GitHub's security curation processes adapt.
 
 ## Databases in DMZ and Intranet
 
@@ -751,6 +753,7 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 ## WAF Web Application Firewall
 
 - [thenewstack.io: WAF: Securing Applications at the Edge](https://thenewstack.io/waf-securing-applications-at-the-edge)
+  - **(2026)** [Turning Cloudflare's threat indicators into real-time WAF rules](https://blog.cloudflare.com/realtime-threat-intel-waf-rules) 🌟 - Cloudflare announces the integration of Cloudforce One threat indicators natively within WAF rules, enabling high-performance, real-time threat blocking.
 
 ## More Security Tools
 
@@ -788,3 +791,15 @@ to restrict any unwanted, malicious behavior of cloud-native workloads at runtim
 
 	</center>
   - [Kubernetes Security Best Practices: A DevSecOps Perspective](https://www.linkedin.com/top-content/career) - This LinkedIn post discusses the challenges women face in advancing their careers in asset management, particularly concerning promotion decisions during childbearing years. It highlights how career interruptions and childcare responsibilities can disproportionately affect women's earnings and career progression. The author also touches on the career risks associated with pregnancy for women in new roles.
+
+## AI Security and Standards
+  - **(2026)** [Helping Build Shared Standards for Advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai) 🌟 - OpenAI collaborates with global standards bodies and launches the Appia Foundation to develop open technical guidelines for AI safety.
+  - **(2026)** [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world) 🌟 - Overview of OpenAI's Daybreak cyber initiative, delivering Codex Security and GPT-5.5-Cyber for end-to-end patch automation.
+  - **(2026)** [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness) 🌟 - Cloudflare details the system architecture of its multi-stage security testing harness using adversarial agent critiques.
+  - **(2026)** [Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study](https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study) 🌟 - Meta documents its high-scale, privacy-aware data infrastructure, leveraging deterministic rules and fallback LLM classifiers to govern millions of schemas and assets.
+
+## Open Source Security
+  - **(2026)** [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) 🌟 - Collaboration between OpenAI, Trail of Bits, HackerOne, and Calif to deliver automated security patches for open-source software.
+
+## Web Application Security and Scanning
+  - **(2026)** [Scaling Security Insights: how we achieved a 10x increase in global scanning capacity](https://blog.cloudflare.com/scaling-security-scans) 🌟 - Cloudflare details how it scaled its Security Insights automated scanner system by 10x to handle 120 scans per second without increasing hardware footprints.
