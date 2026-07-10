@@ -199,6 +199,7 @@ Kubernetes packages
 - [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts)
 - [boxunix.com: Developer’s Guide to Writing a Good Helm Chart](https://boxunix.com/2022/02/05/developers-guide-to-writing-a-good-helm-chart)
 - [HULL](https://github.com/vidispine/hull) The incredible HULL - Helm Uniform Layer Library - is a Helm library chart to improve Helm chart based workflows
+- [Doubleword Control Layer](https://github.com/doublewordai/control-layer-chart) Helm chart (Helm 3, installable from an OCI registry) for deploying the Doubleword Control Layer on Kubernetes, including the Deployment, Service, ConfigMap, database Secret, and an optional Prometheus ServiceMonitor. The Control Layer is an open-source, Rust-based AI model gateway (450x less overhead than LiteLLM) that provides unified access to LLMs across providers behind a single authentication layer, with API key generation, user management, and request logging.
 
 ## Shalm. Scriptable helm charts
 
