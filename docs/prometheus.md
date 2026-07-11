@@ -52,7 +52,7 @@
 - [Monitoring kubernetes with Prometheus](https://opensource.com/article/19/11/introduction-monitoring-prometheus)
 - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)
 - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra) How to set up and configure Prometheus and Grafana to enable application performance monitoring for REST applications.
-- [Prometheus vs. Graphite: Which Should You Choose for Time Series or Monitoring? [ARCHIVED]]( http://web.archive.org/web/20230605202857/https://dzone.com/articles/prometheus-vs-graphite-which-should-you-choose-for)
+- [Prometheus vs. Graphite: Which Should You Choose for Time Series or Monitoring? [ARCHIVED]](http://web.archive.org/web/20230605202857/https://dzone.com/articles/prometheus-vs-graphite-which-should-you-choose-for)
 - [PromQL Tutorial](https://medium.com/@valyala/promql-tutorial-for-beginners-9ab455142085)
 - [How to use Ansible to set up system monitoring with Prometheus](https://opensource.com/article/18/3/how-use-ansible-set-system-monitoring-prometheus)
 - [Initial experiences with the Prometheus monitoring system](https://medium.com/@griggheo/initial-experiences-with-the-prometheus-monitoring-system-167054ac439c)
@@ -320,7 +320,7 @@ Although it's exciting to see attempts to address the challenges of running Prom
 - [Telegraf Prometheus Output Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client)
 - [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf)
 - [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf)
-- [dzone: Synthetic Monitoring With Telegraf (white-box monitoring) [ARCHIVED]]( http://web.archive.org/web/20220927234147/https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
+- [dzone: Synthetic Monitoring With Telegraf (white-box monitoring) [ARCHIVED]](http://web.archive.org/web/20220927234147/https://dzone.com/articles/synthetic-monitoring-with-telegraf) Monitoring based on metrics exposed by the internals of the system
 - [grafana.com: Using Telegraf plugins to visualize industrial IoT data with the Grafana Cloud Hosted Prometheus service](https://grafana.com/blog/using-telegraf-plugins-to-visualize-industrial-iot-data-with-the-grafana-cloud-hosted-prometheus-service)
 - [sysadminxpert.com: How to Monitor Linux System with Grafana and Telegraf](https://sysadminxpert.com/monitor-linux-system-with-grafana-and-telegraf)
 - [influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf](https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf)

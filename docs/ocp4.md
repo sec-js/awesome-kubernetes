@@ -85,19 +85,19 @@
 - [blog.openshift.com: Simplifying OpenShift Case Information Gathering Workflow: **Must-Gather Operator** (In the context of Red Hat OpenShift 4.x and Kubernetes, **it is considered a bad practice to ssh into a node and perform debugging actions**) 🌟](https://www.redhat.com/en/blog/simplifying-openshift-case-information-gathering-workflow-must-gather-operator)
 - [blog.openshift.com: Configure the OpenShift Image Registry backed by OpenShift Container Storage](https://www.redhat.com/en/blog/configure-the-openshift-image-registry-backed-by-openshift-container-storage)
 - [blog.openshift.com: OpenShift Scale: Running 500 Pods Per Node 🌟](https://www.redhat.com/en/blog/500_pods_per_node)
-- [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/enterprise-kubernetes-with-openshift-part-one)
+- [blog.openshift.com: Enterprise Kubernetes with OpenShift (Part one) 🌟](https://www.redhat.com/en/blog/enterprise-kubernetes-with-openshift-part-one)
 - [devclass.com: OpenShift 4.4 goes all out on mixed workloads, puts observability at devs’ fingertips 🌟](https://www.devclass.com/containers/2020/05/04/openshift-44-goes-all-out-on-mixed-workloads-puts-observability-at-devs-fingertips/1625566)
-- [OpenShift 4.5: Node Improvements](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-4.5-node-improvements)
+- [OpenShift 4.5: Node Improvements](https://www.redhat.com/en/blog/openshift-4.5-node-improvements)
 - [Fully Automated OpenShift Deployments With VMware vSphere](https://www.redhat.com/en/blog/fully-automated-openshift-deployments-with-vmware-vsphere)
 - [OpenShift 4 “under-the-hood” 🌟](https://medium.com/faun/openshift-4-under-the-hood-ab854c3439dd)
 - [thenewstack.io: Red Hat Launches an OpenShift-Based Marketplace to Aid Multicloud Portability 🌟](https://thenewstack.io/red-hat-launches-an-openshift-based-marketplace-to-aid-multicloud-portability)
-- [openshift.com: OpenShift UPI using static IPs](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-upi-using-static-ips)
+- [openshift.com: OpenShift UPI using static IPs](https://www.redhat.com/en/blog/openshift-upi-using-static-ips)
 - [developers.redhat.com: OpenShift for Kubernetes developers: Getting started 🌟](https://developers.redhat.com/blog/2020/08/14/openshift-for-kubernetes-developers-getting-started)
 - [developers.redhat.com: Command-line cluster management with Red Hat OpenShift’s new web terminal (tech preview)](https://developers.redhat.com/blog/2020/10/01/command-line-cluster-management-with-red-hat-openshifts-new-web-terminal-tech-preview)
-- [Improved tooling and best practices to help you migrate to OpenShift 4](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/improved-tooling-and-best-practices-to-help-you-migrate-to-openshift-4)
-- [openshift.com: OpenShift Architectures for the Edge With OpenShift 4.6](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-architectures-for-the-edge-with-openshift-4.6)
+- [Improved tooling and best practices to help you migrate to OpenShift 4](https://www.redhat.com/en/blog/improved-tooling-and-best-practices-to-help-you-migrate-to-openshift-4)
+- [openshift.com: OpenShift Architectures for the Edge With OpenShift 4.6](https://www.redhat.com/en/blog/openshift-architectures-for-the-edge-with-openshift-4.6)
 - [dzone refcard: Getting Started With OpenShift 🌟](https://dzone.com/refcardz/getting-started-with-openshift)
-- [openshift.com: Nested OpenShift using OpenShift Virtualization](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/nested-openshift-using-openshift-virtualization)
+- [openshift.com: Nested OpenShift using OpenShift Virtualization](https://www.redhat.com/en/blog/nested-openshift-using-openshift-virtualization)
 - [developers.redhat.com: Deploying Kubernetes Operators with Operator Lifecycle Manager bundles](https://developers.redhat.com/blog/2021/02/08/deploying-kubernetes-operators-with-operator-lifecycle-manager-bundles)
 - [openshift.com: 8 Answers to 7 OpenShift Questions 🌟](https://www.redhat.com/en/blog/8-answers-to-7-openshift-questions)
 - [openshift.com: Red Hat OpenShift 4.7 Is Now Available](https://www.redhat.com/en/blog/red-hat-openshift-4.7-is-now-available)
@@ -114,20 +114,20 @@
 - [developers.redhat.com: A guide to Red Hat OpenShift 4.5 installer-provisioned infrastructure on vSphere 🌟](https://developers.redhat.com/blog/2021/03/09/a-guide-to-red-hat-openshift-4-5-installer-provisioned-infrastructure-on-vsphere)
 - [openshift.com: OpenShift Security Best Practices for Kubernetes Cluster Design 🌟](https://www.redhat.com/en/blog/openshift-security-best-practices-for-kubernetes-cluster-design)
 - [fiercetelecom.com: Red Hat bundles security, management into OpenShift Plus](https://www.fierce-network.com/platforms/red-hat-bundles-security-management-into-openshift-plus) IBM subsidiary Red Hat put its recently acquired StackRox assets to work, rolling out a new version of its OpenShift cloud platform that incorporates security, cluster management and registry capabilities in a single package.
-- [openshift.com: Descheduler GA in OpenShift 4.7 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/descheduler-ga-in-openshift-4.7) The [Descheduler](https://github.com/kubernetes-sigs/descheduler) is an upstream Kubernetes subproject owned by SIG-Scheduling. Its purpose is to serve as a complement to the stock kube-scheduler, which assigns new pods to nodes based on the myriad criteria and algorithms it provides.
-- [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
+- [openshift.com: Descheduler GA in OpenShift 4.7 🌟](https://www.redhat.com/en/blog/descheduler-ga-in-openshift-4.7) The [Descheduler](https://github.com/kubernetes-sigs/descheduler) is an upstream Kubernetes subproject owned by SIG-Scheduling. Its purpose is to serve as a complement to the stock kube-scheduler, which assigns new pods to nodes based on the myriad criteria and algorithms it provides.
+- [openshift.com: How to Configure LDAP Sync With CronJobs in OpenShift 🌟](https://www.redhat.com/en/blog/how-to-configure-ldap-sync-with-cronjobs-in-openshift)
 - [schabell.org: How to setup the OpenShift Container Platform 4.7 on your local machine](https://www.schabell.org/2021/03/codeready-containers-howto-setup-openshift-47-on-local-machine.html)
 - [developers.redhat.com: Containerize .NET for Red Hat OpenShift: Use a Windows VM like a container](https://developers.redhat.com/blog/2021/04/29/containerize-net-for-red-hat-openshift-use-a-windows-vm-like-a-container)
-- [openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/a-brief-introduction-to-red-hat-advanced-cluster-security-for-kubernetes)
-- [openshift.com: Customizing Virtual Machine Templates in OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/customizing-virtual-machine-templates-in-openshift-1)
+- [openshift.com: A Brief Introduction to Red Hat Advanced Cluster Security for Kubernetes](https://www.redhat.com/en/blog/a-brief-introduction-to-red-hat-advanced-cluster-security-for-kubernetes)
+- [openshift.com: Customizing Virtual Machine Templates in OpenShift](https://www.redhat.com/en/blog/customizing-virtual-machine-templates-in-openshift-1)
 - [thenewstack.io: Red Hat OpenShift 4.8 Adds Serverless Functions, Pipelines-As-Code](https://thenewstack.io/red-hat-openshift-4-8-adds-serverless-functions-pipelines-as-code)
 - [itprotoday.com: With OpenShift 4.8, Red Hat Seeks to 'Expand Workload Possibilities'](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget) With OpenShift 4.8, Red Hat seeks to simplify the developer experience and to expand use cases and workload possibilities.
-- [openshift.com: Strategies for Moving .NET Workloads to OpenShift Container Platform](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/strategies-for-moving-.net-workloads-to-openshift-container-platform)
+- [openshift.com: Strategies for Moving .NET Workloads to OpenShift Container Platform](https://www.redhat.com/en/blog/strategies-for-moving-.net-workloads-to-openshift-container-platform)
 - [openshift.com: Ask an OpenShift Admin Office Hour - Authentication and Authorization](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-authentication-and-authorization)
-- [openshift.com: Workload Support for Red Hat OpenShift Matures Across the Industry](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/workload-support-for-red-hat-openshift-matures-across-the-industry)
+- [openshift.com: Workload Support for Red Hat OpenShift Matures Across the Industry](https://www.redhat.com/en/blog/workload-support-for-red-hat-openshift-matures-across-the-industry)
 - [blog.byte.builders: Manage MongoDB in Openshift Using KubeDB](https://appscode.com/blog/post/openshift-mongodb)
 - [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 1: Requirements](https://developers.redhat.com/articles/2021/07/08/troubleshooting-application-performance-red-hat-openshift-metrics-part-1)
-- [openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)
+- [openshift.com: OCP Disaster Recovery Part 3: Recovering an OpenShift 4 IPI cluster With the Loss of Two Master Nodes 🌟](https://www.redhat.com/en/blog/ocp-disaster-recovery-part-3-recovering-an-openshift-4-ipi-cluster-with-the-loss-of-two-master-nodes)
 - [openshift.com: OpenShift on ARM Developer Preview Now Available for AWS](https://www.redhat.com/en/blog/openshift-on-arm-developer-preview-now-available-for-aws)
 - [cloud.redhat.com: Changes coming for OpenShift.com and Cloud.Redhat.com](https://www.redhat.com/en/blog/check-out-our-new-look) We are moving! On July 29th, we will move OpenShift.com content into the RedHat.com domain. The console applications currently at Cloud.RedHat.com will move to a new URL at console.redhat.com. All current URLs and bookmarks will redirect to their new destinations. This change will make RedHat.com a one-stop destination for all our hybrid cloud and simplify your experience.
 - [developers.redhat.com: Troubleshooting application performance with Red Hat OpenShift metrics, Part 4: Gathering performance metrics](https://developers.redhat.com/articles/2021/07/29/troubleshooting-application-performance-red-hat-openshift-metrics-part-4)
@@ -175,14 +175,14 @@
 
 - [developers.redhat.com - Best practices: Using health checks in the OpenShift 4.5 web console 🌟](https://developers.redhat.com/blog/2020/07/20/best-practices-using-health-checks-in-the-openshift-4-5-web-console) 3 types of health checks offered in OpenShift 4.5 to improve application reliability and uptime
 - [redhat-cop.github.io: Best practices for migrating from OpenShift Container Platform 3 to 4 🌟](https://redhat-cop.github.io/openshift-migration-best-practices) This guide provides recommendations and best practices for migrating from OpenShift Container Platform 3.9+ to OpenShift 4.x with the Migration Tookit for Containers (MTC).
-- [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/applications-here-applications-there-part-3-application-migration) Application Migration on Advanced Cluster Management
+- [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration) Application Migration on Advanced Cluster Management
 - [openshift-yolo](https://github.com/e-minguez/openshift-yolo) OpenShift CronJob to check if updates are available, and if so, upgrade the cluster to the latest version.
 
 ### Setting up OCP4 on AWS
 
 - [AWS Account Set Up 🌟](https://github.com/openshift/installer/blob/main/docs/user/aws/README.md)).
 - [OpenShift 4 on AWS Quick Starts 🌟](https://aws.amazon.com/blogs/opensource/openshift-4-on-aws-quick-start)
-- [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
+- [openshift.com: Control Regional Access to Your Service on OpenShift Running on AWS](https://www.redhat.com/en/blog/control-regional-access-to-your-service-on-openshift-running-on-aws)
 - [==cloud.redhat.com: OpenShift Virtualization on Amazon Web Services==](https://www.redhat.com/en/blog/openshift-virtualization-on-amazon-web-services) Of the many selling points for OpenShift, one of the biggest is its ability to provide a common platform for workloads whether they are on premise or at one of the major cloud providers. With the availability of AWS bare metal instance types, Red Hat has announced that OpenShift 4.9 supports OpenShift Virtualization on AWS as a tech preview. Now virtual machines can be managed in much the same way in the cloud as on-premise.
 
 ### ROSA Red Hat OpenShift Service on AWS
@@ -199,7 +199,7 @@
 
 <center markdown="1">
 
-[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/enterprise-kubernetes-with-openshift-part-one)
+[![OCP 4 Architecture](images/ocp4_arch.png)](https://www.redhat.com/en/blog/enterprise-kubernetes-with-openshift-part-one)
 
 </center>
 
@@ -213,15 +213,15 @@
 
 ## OpenShift End-to-End. Day 0, Day 1 and Day 2
 
-- [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-plan-and-deploy)
-- [OpenShift End-to-End: **Day 1** - Core Services](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-core-services)
-- [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-cluster-customization)
+- [OpenShift End-to-End: **Day 0** - Plan and Deploy](https://www.redhat.com/en/blog/openshift-end-to-end-plan-and-deploy)
+- [OpenShift End-to-End: **Day 1** - Core Services](https://www.redhat.com/en/blog/openshift-end-to-end-core-services)
+- [OpenShift End-to-End: **Day 2** - Cluster Customization 🌟](https://www.redhat.com/en/blog/openshift-end-to-end-cluster-customization)
     - [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 1](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-1)
     - [Ask an OpenShift Admin Office Hour - Day 2 Operations, Part 2](https://www.redhat.com/en/blog/ask-an-openshift-admin-office-hour-day-2-operations-part-2)
 
 <center markdown="1">
 
-[![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/openshift-end-to-end-plan-and-deploy)
+[![OCP 4 Pland and Deploy](images/ocp_plan_deploy.png)](https://www.redhat.com/en/blog/openshift-end-to-end-plan-and-deploy)
 
 </center>
 
@@ -363,7 +363,7 @@
 - Similarly to cluster maintenance, [operator framework](https://www.redhat.com/en/blog/introducing-operator-framework-building-apps-kubernetes) used for applications. As a user, you get SDK, [OLM](https://docs.openshift.com/container-platform/4.4/operators/understanding_olm/olm-understanding-olm.html) (Lifecycle Manager of all Operators and their associated services running across their clusters) and embedded [operator hub](https://www.redhat.com/en/blog/new-kubernetes-operatorhub-red-hat-openshift-enable-hybrid-cloud-flexibility-enterprises).
 - [OLM Arquitecture](https://github.com/operator-framework/operator-lifecycle-manager/blob/master/doc/design/architecture.md)
 - [Adding Operators to a Cluster](https://docs.openshift.com/container-platform/4.4/operators/olm-adding-operators-to-cluster.html) (They can be added via **CatalogSource**)
-- The supported method of using **Helm charts** with Openshift is via the [Helm Operator](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/build-kubernetes-operators-from-helm-charts-in-5-steps)
+- The supported method of using **Helm charts** with Openshift is via the [Helm Operator](https://www.redhat.com/en/blog/build-kubernetes-operators-from-helm-charts-in-5-steps)
 - [twitter.com/operatorhubio](https://x.com/operatorhubio)
 - View the list of Operators available to the cluster from the OperatorHub:
 
@@ -478,7 +478,7 @@ etcd 14h myoperator 14h
     - The Ingress Operator implements the ingresscontroller API and is the component responsible for enabling external access to OpenShift Container Platform cluster services.
     - The operator makes this possible by deploying and managing one or more HAProxy-based [Ingress Controllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers) to handle routing.
 - [Network Security Zones in Openshift (DMZ)](https://www.redhat.com/en/blog/openshift-and-network-security-zones-coexistence-approaches)
-- [openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)
+- [openshift.com: Global Load Balancer for OpenShift clusters: an Operator-Based Approach](https://www.redhat.com/en/blog/global-load-balancer-for-openshift-clusters-an-operator-based-approach)
 
 ```bash
 oc describe clusteroperators/ingress
@@ -673,7 +673,7 @@ oc login
 
 ### Calico CNI Plug-in
 
-- [Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟](https://www.redhat.com/en/technologies/cloud-computing/openshift/blog/operator-based-calico-cni-plug-in-is-supported-on-openshift-4)
+- [Operator-based Calico CNI Plug-In is Supported on OpenShift 4 🌟](https://www.redhat.com/en/blog/operator-based-calico-cni-plug-in-is-supported-on-openshift-4)
 - [docs.projectcalico.org: Install an OpenShift 4 cluster with Calico](https://docs.tigera.io/calico/latest/getting-started/kubernetes/openshift/installation)
 
 ### Third Party Network Operators with OpenShift

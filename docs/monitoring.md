@@ -89,7 +89,7 @@
 - [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid) Find 4 common mistakes engineers make when using histograms to monitor API latencies from release to release.
 - [thenewstack.io: Monitoring API Latencies After Releases: 4 Mistakes to Avoid](https://thenewstack.io/monitoring-api-latencies-after-releases-4-mistakes-to-avoid)
 - [thenewstack.io: DevOps Observability from Code to Cloud](https://thenewstack.io/devops-observability-from-code-to-cloud)
-- [ortelius.io: Microservice Monitoring and Visualization with Ortelius open source project [ARCHIVED]]( http://web.archive.org/web/20260208074902/https://ortelius.io/blog/2021/03/26/microservice-monitoring-and-visualization)
+- [ortelius.io: Microservice Monitoring and Visualization with Ortelius open source project [ARCHIVED]](http://web.archive.org/web/20260208074902/https://ortelius.io/blog/2021/03/26/microservice-monitoring-and-visualization)
 - [thenewstack.io: CI Observability for Effective Change Management 🌟](https://thenewstack.io/ci-observability-for-effective-change-management)
 - [thenewstack.io: Monitor Your Containers with Sysdig](https://thenewstack.io/monitor-your-containers-with-sysdig)
 - [thenewstack.io: Applying Basic vs. Advanced Monitoring Techniques](https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques)

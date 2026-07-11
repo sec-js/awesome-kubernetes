@@ -77,7 +77,7 @@
 - [9 awesome git tricks](https://tychoish.com/post/9-awesome-git-tricks)
 - [Awesome Git 🌟](https://github.com/dictcp/awesome-git)
 - [dzone.com: Top 20 git commands with examples 🌟](https://dzone.com/articles/top-20-git-commands-with-examples)
-- [dzone.com: 8 Useful But Not Well-Known Git Concepts [ARCHIVED]]( http://web.archive.org/web/20220820091342/https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
+- [dzone.com: 8 Useful But Not Well-Known Git Concepts [ARCHIVED]](http://web.archive.org/web/20220820091342/https://dzone.com/articles/8-useful-but-not-well-known-git-concepts) These lesser-known Git tricks can help you solve problems that are not handled well by the GitHub and BitBucket GUIs
 - [Dzone refcard: Getting started with Git](https://dzone.com/refcardz/getting-started-git)
 - [Oh shit, git!](https://ohshitgit.com)
 - [freecodecamp.org: Learn Git Fundamentals – A Handbook on Day-to-Day Development Tasks 🌟](https://www.freecodecamp.org/news/learn-git-basics)
