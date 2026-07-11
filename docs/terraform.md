@@ -143,7 +143,7 @@
 - [terraform.io](https://developer.hashicorp.com/terraform)
 - [Terraform Registry - registry.terraform.io: Terraform Providers and Modules 🌟](https://registry.terraform.io)
 - [medium.com: Why should Terraform be one of your DevOps tools?](https://medium.com/devopslinks/why-should-terraform-be-one-of-your-devops-tools-29ae15861b1f)
-- [Dzone: intro to terraform [ARCHIVED]]( http://web.archive.org/web/20230530000108/https://dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
+- [Dzone: intro to terraform [ARCHIVED]](http://web.archive.org/web/20230530000108/https://dzone.com/articles/intro-to-terraform-way-of-infra-as-code)
 - [blog.teemo.co: Terraform in 10 commands](https://blog.teemo.co/terraform-in-10-commands-e737dfd8bf31)
 - [udemy.com: Learn DevOps: Infrastructure Automation With Terraform](https://www.udemy.com/learn-devops-infrastructure-automation-with-terraform)
 - [terraform-infraestructura.readthedocs.io](https://terraform-infraestructura.readthedocs.io/es/latest)
@@ -390,7 +390,7 @@
 
 - [docs.gitlab.com: GitLab managed Terraform State 🌟](https://docs.gitlab.com/ee/user/infrastructure/terraform_state.html) Gitlab Terraform now share tfstate directly on gitlab.
 - [about.gitlab.com: How to use a push-based approach for GitOps with Terraform and AWS ECS and EC2](https://about.gitlab.com/blog/how-to-agentless-gitops-aws)
-- [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]]( http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab)
+- [squareops.com: Terraform CI/CD Pipelines with Gitlab [ARCHIVED]](http://web.archive.org/web/20240724222526/https://squareops.com/terraform-pipeline-with-gitlab)
 
 ## Terraform Testing
   - [Terraform & OpenTofu Skill for AI Agents](https://github.com/antonbabenko/terraform-skill) 🌟 - A repository providing best-practices for Terraform and OpenTofu, designed to serve as a skill for AI coding agents. It covers testing strategies (native tests vs. Terratest), testing workflows (static, integration, E2E), module patterns, CI/CD workflows, and production infrastructure code.

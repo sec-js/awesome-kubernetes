@@ -68,7 +68,7 @@
 - [thenewstack.io: Microservices vs. Monoliths: An Operational Comparison](https://thenewstack.io/microservices/microservices-vs-monoliths-an-operational-comparison)
 - [weave.works: 6 Business Benefits of Kubernetes](https://www.weave.works/blog/6-business-benefits-of-kubernetes)
 - [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)
-- [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]]( http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
+- [Introducing Domain-Oriented Microservice Architecture 🌟 [ARCHIVED]](http://web.archive.org/web/20220716010821/https://eng.uber.com/microservice-architecture)
 - [Monolithic versus Microservice architecture](https://www.enterprisetimes.co.uk/2020/07/23/monolithic-versus-microservice-architecture)
 - [Modernize legacy applications with containers, microservices](https://www.techtarget.com/searchcloudcomputing/feature/Modernize-legacy-applications-with-containers-microservices) To break down monolithic apps and modernize them for cloud deployment, enterprise development teams continue to turn to containers and microservices.
 - [blog.heroku.com: Deconstructing Monolithic Applications into Services](https://www.heroku.com/blog/monolithic-applications-into-services)
@@ -398,7 +398,7 @@
 - [dotnetcurry.com: Microservices Architecture Pattern 🌟](https://www.dotnetcurry.com/microsoft-azure/microservices-architecture)
 - [geeksarray.com: Microservice Architecture Pattern for Architects 🌟](https://geeksarray.com/blog/microservice-architecture-pattern-for-architects)
 - [==developers.redhat.com: 5 design principles for microservices==](https://developers.redhat.com/articles/2022/01/11/5-design-principles-microservices)
-- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]]( http://web.archive.org/web/20251005184420/https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
+- [==elastisys.com: Principles for Designing and Deploying Scalable Applications on Kubernetes== [ARCHIVED]](http://web.archive.org/web/20251005184420/https://elastisys.com/designing-and-deploying-scalable-applications-on-kubernetes) you will find 15 principles for how to design and deploy cloud-native applications on Kubernetes - for scalability, observability, automation & security.
 - [simform.com: Microservices Design Principles: Do We Really Know It Well Enough? 🌟](https://www.simform.com/blog/microservices-design-principles) We are all well aware of microservices architecture, but do we know about its basic design principles and tenants that determine its implementation success? Read to find out more!
 - [javarevisited.blogspot.com: Top 10 Microservices Design Patterns and Principles - Examples](https://javarevisited.blogspot.com/2021/09/microservices-design-patterns-principles.html)
     1. Database per Microservice

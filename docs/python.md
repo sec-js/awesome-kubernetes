@@ -82,7 +82,7 @@
 - [reddit.com: Functions vs. Classes](https://www.reddit.com/r/learnpython/comments/40rieo/functions_vs_classes)
 - [Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 - [reddit.com: Multiprocessing vs Threading?](https://www.reddit.com/r/learnpython/comments/418z8b/multiprocessing_vs_threading)
-    - [Python Threads and the Global Interpreter Lock [ARCHIVED]]( http://web.archive.org/web/20220504020411/http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock)
+    - [Python Threads and the Global Interpreter Lock [ARCHIVED]](http://web.archive.org/web/20220504020411/http://jessenoller.com/blog/2009/02/01/python-threads-and-the-global-interpreter-lock)
 - [devbattles.com: Python list. Functions and Methods lists](https://www.devbattles.com/en/sand/post-1754-Python_list_Functions_and_Methods_lists)
 - [devbattles.com: Python: sorting lists by .sort () with - in simple words](https://www.devbattles.com/en/sand/post-1752-Python_sorting_lists_by_sort__with__in_simple_words)
 - [Create a GUI Application Using Qt and Python in Minutes: Example Web Browser](https://www.digitalpeer.com/blog/create-a-gui-application-using-qt-and-python-in-minutes-example-web-browser)
@@ -374,7 +374,7 @@
 ## Python and AWS
 
 - [Ansible and AWS: cloud IT automation management](https://cloudacademy.com/blog/ansible-aws)
-- [Python and AWS Cookbook. Boto library [ARCHIVED]]( http://web.archive.org/web/20250908234802/https://it-ebooks.info/book/542)
+- [Python and AWS Cookbook. Boto library [ARCHIVED]](http://web.archive.org/web/20250908234802/https://it-ebooks.info/book/542)
 - [Boto](https://github.com/boto/boto)
 - [Migrating to Boto3](https://aws.amazon.com/es/blogs/developer/migrating-to-boto3)
 - [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](https://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python)

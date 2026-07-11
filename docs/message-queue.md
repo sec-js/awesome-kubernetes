@@ -258,7 +258,7 @@ comsysto about their usage of Debezium, touching on many details like outbox pat
 - [medium: Apache Kafka Startup Guide: System Design Architectures: Notification System, Web Activity Tracker, ELT Pipeline, Storage System 🌟](https://medium.com/swlh/apache-kafka-startup-guide-system-design-architectures-notification-system-web-activity-tracker-6dcaf0cf8a7)
 - [medium: Getting Started With Kafka on OpenShift](https://medium.com/swlh/getting-started-with-kafka-on-openshift-c44c0fdec384)
 - [containerjournal.com: Red Hat Platform Brings Kafka Closer to Kubernetes](https://cloudnativenow.com/topics/cloudnativeplatforms/red-hat-platform-brings-kafka-closer-to-kubernetes)
-- [lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter [ARCHIVED]]( http://web.archive.org/web/20241113105415/https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter)
+- [lightbend.com: Monitor Kafka Consumer Group Latency with Kafka Lag Exporter [ARCHIVED]](http://web.archive.org/web/20241113105415/https://www.lightbend.com/blog/monitor-kafka-consumer-group-latency-with-kafka-lag-exporter)
 - [AKHQ (previously known as KafkaHQ) 🌟](https://github.com/tchiotludo/akhq) Kafka GUI for Apache Kafka to manage topics, topics data, consumers group, schema registry, connect and more...
 - [banzaicloud.com: Kafka Schema Registry on Kubernetes the declarative way](https://banzaicloud.com/blog/kafka-schemareg)
 - [Build a simple cloud-native change data capture pipeline](https://developers.redhat.com/blog/2020/07/02/build-a-simple-cloud-native-change-data-capture-pipeline)

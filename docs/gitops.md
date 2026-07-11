@@ -249,7 +249,7 @@
 - [weave.works: Weave Kubernetes Platform (WKP) Unlocks Cross Team Collaboration with Workspaces](https://www.weave.works/blog/wkp-team-workspaces-rbac)
 - [blog.container-solutions.com: FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You? 🌟](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)
 - [cloudogu.com: Automation Assistants: GitOps tools in comparison 🌟](https://platform.cloudogu.com/en/blog/gitops-tools)
-- [shipa.io: From Terraform to GitOps to Pulumi 🌟 [ARCHIVED]]( http://web.archive.org/web/20211020205037/https://shipa.io/2021/10/from-terraform-to-gitops-to-pulumi)
+- [shipa.io: From Terraform to GitOps to Pulumi 🌟 [ARCHIVED]](http://web.archive.org/web/20211020205037/https://shipa.io/2021/10/from-terraform-to-gitops-to-pulumi)
 - [==vimeo.com: Weaveworks - Hybrid and Multi-Cloud Strategies for Kubernetes with GitOps==](https://vimeo.com/516520492) One of the biggest advantages Kubernetes has to offer is that it is agnostic to infrastructure and capable of managing diverse workloads running on different compute resources. This allows organizations to manage multiple developer platforms, who can operate across many environments such as on premise, hybrid and multiple clouds.
     - Streamlined processes and automation is pivotal for operations when managing clusters at scale and maintaining security and policy checks. Paul Curtis, Principal Solutions Architect will demonstrate GitOps and Weave Kubernetes Platform in a hybrid and multi-cloud setup.
     - Learn how to:
