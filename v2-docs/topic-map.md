@@ -123,8 +123,8 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <a class="topic-heatcell th-3" href="./rancher/" title="Rancher — 10 resources"><span class="topic-heatcell__name">Rancher</span><span class="topic-heatcell__n">10</span></a>
 <a class="topic-heatcell th-3" href="./kubernetes-operators-controllers/" title="Kubernetes Operators Controllers — 9 resources"><span class="topic-heatcell__name">Kubernetes Operators Controllers</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-3" href="./kubernetes-client-libraries/" title="Kubernetes Client Libraries — 9 resources"><span class="topic-heatcell__name">Kubernetes Client Libraries</span><span class="topic-heatcell__n">9</span></a>
-<a class="topic-heatcell th-3" href="./kubernetes-backup-migrations/" title="Kubernetes Backup Migrations — 9 resources"><span class="topic-heatcell__name">Kubernetes Backup Migrations</span><span class="topic-heatcell__n">9</span></a>
 <a class="topic-heatcell th-3" href="./kubernetes-based-devel/" title="Kubernetes Based Devel — 8 resources"><span class="topic-heatcell__name">Kubernetes Based Devel</span><span class="topic-heatcell__n">8</span></a>
+<a class="topic-heatcell th-3" href="./kubernetes-backup-migrations/" title="Kubernetes Backup Migrations — 8 resources"><span class="topic-heatcell__name">Kubernetes Backup Migrations</span><span class="topic-heatcell__n">8</span></a>
 <a class="topic-heatcell th-3" href="./kubernetes-on-premise/" title="Kubernetes On Premise — 7 resources"><span class="topic-heatcell__name">Kubernetes On Premise</span><span class="topic-heatcell__n">7</span></a>
 <a class="topic-heatcell th-3" href="./openshift/" title="Openshift — 6 resources"><span class="topic-heatcell__name">Openshift</span><span class="topic-heatcell__n">6</span></a>
 <a class="topic-heatcell th-2" href="./kubernetes-releases/" title="Kubernetes Releases — 3 resources"><span class="topic-heatcell__name">Kubernetes Releases</span><span class="topic-heatcell__n">3</span></a>
@@ -313,7 +313,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Kubectl Commands](./kubectl-commands.md)** <span class="topic-count">2</span>
 - **[Kubernetes Alternatives](./kubernetes-alternatives.md)** <span class="topic-count">25</span>
 - **[Kubernetes Autoscaling](./kubernetes-autoscaling.md)** <span class="topic-count">13</span>
-- **[Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)** <span class="topic-count">9</span>
+- **[Kubernetes Backup Migrations](./kubernetes-backup-migrations.md)** <span class="topic-count">8</span>
 - **[Kubernetes Based Devel](./kubernetes-based-devel.md)** <span class="topic-count">8</span>
 - **[Kubernetes Client Libraries](./kubernetes-client-libraries.md)** <span class="topic-count">9</span>
 - **[Kubernetes Monitoring](./kubernetes-monitoring.md)** <span class="topic-count">24</span>

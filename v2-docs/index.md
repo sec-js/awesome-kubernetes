@@ -420,7 +420,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#json-content" title="1 resources">Json<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#jsonnet-content" title="2 resources">Jsonnet<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#kql-content" title="2 resources">Kql<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="118 resources">Legacy<span class="v2-heat-n">118</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="117 resources">Legacy<span class="v2-heat-n">117</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="1 resources">Lua<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="69 resources">Markdown<span class="v2-heat-n">69</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
