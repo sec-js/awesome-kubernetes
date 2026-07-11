@@ -1766,6 +1766,34 @@ class V2VisionEngine:
 """
                 _body = _body.replace("### Configuration as Code\n\n", f"### Configuration as Code\n{dsl_injection}\n")
                 
+                _body = _body.replace(
+                    "#### Docker Deployment\n\n",
+                    "#### Docker Deployment\n\n"
+                    "  - **[Official Jenkins Docker Image](https://github.com/jenkinsci/docker)** <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official Docker templates and build scripts for Jenkins controllers.\n"
+                    "  - **[jenkins-in-docker Swarm Cluster setup](https://github.com/shazChaudhry/docker-jenkins)** <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A reference setup demonstrating how to run scalable Jenkins workers inside a Docker Swarm environment.\n"
+                )
+                
+                _body = _body.replace(
+                    "#### Kubernetes Operators\n\n",
+                    "#### Kubernetes Operators\n\n"
+                    "  - **[Kubernetes Native Jenkins Operator](https://github.com/jenkinsci/kubernetes-operator)** <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Fully-featured Kubernetes Operator to manage Jenkins controllers declaratively.\n"
+                    "  - **[Jenkins Operator documentation](https://jenkinsci.github.io/kubernetes-operator/)** <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> — Setup, configuration, backup and restore guides for Jenkins Operator.\n"
+                )
+
+                _body = _body.replace(
+                    "#### Security and Hardening\n\n",
+                    "#### Security and Hardening\n\n"
+                    "  - **[Jenkins Security Guide](https://www.jenkins.io/doc/book/security/)** <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official hardening guide for configuring access control, credentials, protocols, and plugins safely.\n"
+                    "  - **[OWASP Jenkins Security Assessment](https://owasp.org/www-project-integration-standards/writeups/jenkins/)** <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Threat modeling and vulnerability checks to secure CI/CD pipelines.\n"
+                )
+
+                _body = _body.replace(
+                    "#### Troubleshooting\n\n",
+                    "#### Troubleshooting\n\n"
+                    "  - **[CloudBees: Troubleshooting Jenkins Performance](https://support.cloudbees.com/hc/en-us/articles/204856094-Troubleshooting-Jenkins-Performance)** <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Exhaustive reference for debugging heap usage, thread dumps, garbage collection pauses, and pipeline serialization bottlenecks.\n"
+                    "  - **[Jenkins Health Advisor by CloudBees](https://plugins.jenkins.io/jenkins-health-advisor-by-cloudbees/)** <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automatically scans Jenkins controllers for known issues, security vulnerabilities, and performance anomalies.\n"
+                )
+                
                 media_section = """
 ## Curated Slides and Videos
 
