@@ -6,6 +6,8 @@ from typing import Dict
 
 INVENTORY_PATH = "data/inventory.yaml"
 SQL_PATH = "data/inventory.sql"
+TOTAL_SHARDS = 1
+
 
 try:
     from yaml import CSafeLoader as Loader, CSafeDumper as Dumper
