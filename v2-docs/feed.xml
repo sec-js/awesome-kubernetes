@@ -8,14 +8,6 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Kubecost 🌟</title>
-      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
-      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It serves as the industry standard for real-time cost allocation and FinOps observability in multi-cluster enterprise Kubernetes environments.</description>
-    </item>
-    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
@@ -37,7 +29,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It drives a major paradigm shift by enabling teams to use Kubernetes as a universal control plane to manage any external cloud infrastructure declaratively.</description>
+      <description>[CRITICAL] It shifts the infrastructure paradigm by turning Kubernetes clusters into universal control planes to manage external cloud resources declaratively.</description>
     </item>
     <item>
       <title>==Azure/azure-workload-identity==</title>
@@ -45,7 +37,7 @@
       <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It establishes the enterprise security standard for passwordless OIDC-based identity mapping between Kubernetes service accounts and cloud resources.</description>
+      <description>[CRITICAL] It provides the critical enterprise security standard for mapping Kubernetes Service Accounts to cloud identities using OIDC federation.</description>
     </item>
     <item>
       <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
@@ -53,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It is the foundational component enabling physical GPU hardware allocation and scheduling for AI/ML workloads inside Kubernetes clusters.</description>
+      <description>[CRITICAL] This essential plugin bridges Kubernetes with physical GPUs, enabling hardware-accelerated resource scheduling for AI and machine learning workloads.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -80,14 +72,6 @@
       <description>[CRITICAL] Dagger represents a major paradigm shift in CI/CD by replacing brittle YAML pipelines with portable, code-driven workflows executed on BuildKit.</description>
     </item>
     <item>
-      <title>kube-state-metrics 🌟</title>
-      <link>https://github.com/kubernetes/kube-state-metrics</link>
-      <guid isPermaLink="true">https://github.com/kubernetes/kube-state-metrics</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Essential cluster service that translates internal Kubernetes API resources into Prometheus metrics for accurate, real-time infrastructure state analysis.</description>
-    </item>
-    <item>
       <title>github.com: Istio</title>
       <link>https://github.com/istio/istio</link>
       <guid isPermaLink="true">https://github.com/istio/istio</guid>
@@ -101,7 +85,15 @@
       <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It provides a robust, identity-aware access gateway that secures and audits developer connectivity to Kubernetes APIs and database workloads.</description>
+      <description>[CRITICAL] It consolidates identity-backed, fully audited access control across SSH, databases, and Kubernetes APIs for enterprise-grade security compliance.</description>
+    </item>
+    <item>
+      <title>AWS Controllers for Kubernetes (ACK) 🌟</title>
+      <link>https://github.com/aws-controllers-k8s/community</link>
+      <guid isPermaLink="true">https://github.com/aws-controllers-k8s/community</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] It allows platform engineers to manage native AWS cloud resources directly through declarative Kubernetes manifests and APIs.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -117,7 +109,7 @@
       <guid isPermaLink="true">https://github.com/prometheus/prometheus</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Serves as the foundational, de-facto standard metrics database and query engine powering the entire cloud-native observability ecosystem.</description>
+      <description>[CRITICAL] The undisputed standard telemetry engine for cloud-native metrics collection, storage, and querying.</description>
     </item>
     <item>
       <title>containerd - An open and reliable container runtime</title>
@@ -149,7 +141,7 @@
       <guid isPermaLink="true">https://github.com/open-telemetry/opentelemetry-collector</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Observability, SRE &amp; Testing</category>
-      <description>[CRITICAL] Acts as the industry-standard, vendor-agnostic pipeline for receiving, processing, and routing metrics, logs, and traces across diverse cloud-native environments.</description>
+      <description>[CRITICAL] The definitive vendor-agnostic pipeline for collecting, processing, and routing cloud-native metrics, logs, and traces.</description>
     </item>
     <item>
       <title>Kubernetes Gateway API</title>
@@ -165,7 +157,15 @@
       <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] The industry-standard open-source solution for Kubernetes disaster recovery, backing up both cluster state and persistent volume data.</description>
+      <description>[CRITICAL] Velero is the de facto industry standard for backing up and restoring Kubernetes persistent volumes and cluster state.</description>
+    </item>
+    <item>
+      <title>trivy</title>
+      <link>https://github.com/aquasecurity/trivy</link>
+      <guid isPermaLink="true">https://github.com/aquasecurity/trivy</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Security &amp; Compliance</category>
+      <description>[CRITICAL] An exceptionally fast, versatile, and industry-standard security scanner for containers, IaC configurations, and software vulnerabilities.</description>
     </item>
   </channel>
 </rss>
