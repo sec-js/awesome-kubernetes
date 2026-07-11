@@ -41,7 +41,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: St
   - **(2024)** [**github.com/konveyor/crane: Crane 2.0 🌟**](https://github.com/migtools/crane) <span class='md-tag md-tag--info'>⭐ 54</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-552f272c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 6 L 30 5 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-552f272c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Crane 2.0 provides continuous state synchronization, target resource modifications, and mock-run configurations to assist operators with real-time Kubernetes cluster replatforming campaigns.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

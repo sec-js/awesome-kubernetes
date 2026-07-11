@@ -41,7 +41,7 @@ description: "Curated, AI-ranked Test Automation Frameworks resources for the 20
   - **(2021)** [youtube: execution test Selenium + Grafana + Jenkins](https://www.youtube.com/watch?v=vDj5IsWjU0A) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video walkthrough showing how to build a unified QA feedback loop. Demonstrates integrating Jenkins CI runs with automated Selenium tests and Grafana telemetry for visual analysis.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [SRE](./sre.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

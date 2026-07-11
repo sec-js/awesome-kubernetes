@@ -114,7 +114,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2021)** [==aws.amazon.com: Amazon Managed Service for Prometheus Is Now Generally Available with Alert Manager and Ruler==](https://aws.amazon.com/blogs/aws/amazon-managed-service-for-prometheus-is-now-generally-available-with-alert-manager-and-ruler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Reaches General Availability, adding key enterprise capabilities such as Alert Manager and Ruler. Users can define native Prometheus alerting rules and route alerts to downstream incident response hubs like PagerDuty or AWS SNS. It reinforces the managed monitoring story by guaranteeing security, high availability, and out-of-the-box multi-region reliability.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

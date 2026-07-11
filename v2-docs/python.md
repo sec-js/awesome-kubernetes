@@ -220,7 +220,7 @@ Live Grounding: High-density Rust-compiled (V2) validation tool that guarantees 
   - **(2023)** [realpython.com: Development and Deployment of Cookiecutter-Django via Docker](https://realpython.com/learning-paths/django-web-development) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explains the deployment of standard, industry-grade templates using Cookiecutter-Django and Docker. Integrates external elements like Celery queues, Redis caches, Sentry reporting, and automated multi-stage build systems out of the box.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
 

@@ -32,7 +32,7 @@ description: "Curated, AI-ranked Javascript resources for the 2026 Cloud Native 
   - **(2021)** [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration of automated REST API generation from relational schemas using code generator frameworks. Examines dynamic routing models, DB pool initialization, and the trade-offs of using automated ORMs versus custom SQL design.
 
 ---
-💡 **Explore Related:** [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md) | [Maven Gradle](./maven-gradle.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Cloudflare](./cloudflare.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 

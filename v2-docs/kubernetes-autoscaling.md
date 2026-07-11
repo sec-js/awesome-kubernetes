@@ -9,6 +9,13 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 !!! info "Architectural Context"
     Detailed reference for Autoscaling in the context of The Container Stack.
 
+## Architecture
+
+### Design Patterns
+
+#### Sidecar Pattern
+
+  - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
 ## Infrastructure and Platform
 
 ### Autoscaling (1)
@@ -29,6 +36,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
 
 #### Load Testing
 
+  - **(2021)** [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architect-level guide to high-load performance testing and OS/Kernel-level tuning inside Kubernetes clusters. Highlights connection limits, TCP socket recycling, thread pooling adjustments, and optimizing conntrack tables to handle traffic spikes.
   - **(2021)** [engineering.zalando.com: Building an End to End load test automation system on top of Kubernetes](https://engineering.zalando.com/posts/2021/03/building-an-end-to-end-load-test-automation-system-on-top-of-kubernetes.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Zalando's architectural implementation of an end-to-end load test automation pipeline hosted natively on Kubernetes. Explains how they orchestrate distributed locust/JMeter agents to continuously validate systemic performance thresholds during deployment cycles.
 ## Kubernetes and Scaling
 
@@ -44,7 +52,7 @@ description: "Curated, AI-ranked Kubernetes Autoscaling resources for the 2026 C
   - **(2021)** [thenewstack.io: Scaling Microservices on Kubernetes 🌟](https://thenewstack.io/scaling-microservices-on-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A systematic review outlining why microservice-based applications on Kubernetes scale more efficiently than monolithic equivalents. Details patterns for isolating performance-critical application layers and scaling them horizontally without bloated infrastructure footprints.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 

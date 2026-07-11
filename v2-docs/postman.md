@@ -65,7 +65,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive architectural documentation detailing Postman's built-in performance testing runner. This system enables localized load simulation, virtual user profiling, and API concurrency metrics analysis.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Golang](./golang.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
 

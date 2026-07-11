@@ -70,7 +70,6 @@ description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft - DICOM 
   - **(2026)** [==learn.microsoft.com: Environment variables and app settings in Azure App Service==](https://learn.microsoft.com/en-us/azure/app-service/reference-app-settings) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Official reference detailing how App Settings and Connection Strings map directly to environment variables at container execution time. It covers critical security aspects, including referencing Key Vault secrets natively to prevent plaintext credential leaks in code. This configuration framework forms the architectural baseline for deploying portable, 12-factor cloud-native applications.
 #### App Service Diagnostics
 
-  - **(2025)** [**Azure App Service Auto-Heal: Capturing Relevant Data During Performance Issues**](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-app-service-auto-heal-capturing-relevant-data-during-performance-issues/4390351) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical breakdown of the Azure App Service Auto-Heal capability, showing how to trigger automated mitigation actions during performance regressions. It explains how to collect diagnostic artifacts, such as thread dumps, memory dumps, and profiler traces, right before an instance restarts. This proactive debugging practice prevents transient microservice failures from escalating into major outages.
   - **(2024)** [azure.github.io/AppService: General availability of Diagnostics tools for App Service on Linux Node.js apps](https://azure.github.io/AppService/2024/01/05/Diagnose-Tools-for-NodeJs-Linux-apps.html) <span class='md-tag md-tag--warning'>[NODE.JS CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement and documentation highlighting advanced diagnostic tools built specifically for Node.js workloads running on Linux-based Azure App Services. It explains the integration of CPU profiling, memory allocation tracking, and automated core dump collection. These tools enable real-time analysis of single-threaded event loop blockages and memory leaks directly from the Azure portal.
 #### Custom Containers
 
@@ -116,6 +115,14 @@ description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft - DICOM 
   - **(2022)** [==thomast1906/DevOps-The-Hard-Way-Azure 🌟==](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure) <span class='md-tag md-tag--info'>⭐ 582</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-37f99e5e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 3 L 30 4 L 40 11 L 50 6" fill="none" stroke="url(#spark-grad-37f99e5e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A hands-on, end-to-end sandbox guide mapping out 'The Hard Way' of deploying infrastructure and applications on Azure. This project details virtual network design, VM provisioning, AKS deployments, and pipeline-driven application releases. 2026 live grounding validates this repository as a premier community benchmark for building custom, highly-secure lab environments.
 ## Cloud Infrastructure
 
+### Azure Networking
+
+#### Private Access
+
+  - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
+#### Security
+
+  - **(2025)** [Azure Network Security Perimeter Concepts](https://learn.microsoft.com/en-us/azure/private-link/network-security-perimeter-concepts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official conceptual reference for Azure Network Security Perimeters (NSP). This architecture allows enterprises to group PaaS resources—such as Azure Key Vault and Storage—and enforce access boundaries based on network identity, preventing data exfiltration and streamlining complex subnet-based network isolation policies.
 ### Container Orchestration (2)
 
 #### AKS Fleet Manager
@@ -276,16 +283,6 @@ description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft - DICOM 
 ##### Graph API
 
   - **(2022)** [blog.yannickreekmans.be: Secretless applications: add permissions to a Managed Identity](https://blog.yannickreekmans.be/secretless-applications-add-permissions-to-a-managed-identity) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Instructs engineers on configuring credential-free infrastructure inside Azure. Demystifies direct graph permissions injection on active user or system Managed Identities to avoid hardcoded credentials.
-## Infrastructure
-
-### Networking
-
-#### Ingress
-
-##### Azure Application Gateway
-
-  - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
-  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ## Infrastructure Automation
 
 ### Infrastructure as Code (2)
@@ -352,7 +349,7 @@ description: "Top Azure resources for 2026, AI-ranked: Bicep, Microsoft - DICOM 
   - **(2021)** [unit42.paloaltonetworks.com: Finding Azurescape – Cross-Account Container Takeover in Azure Container Instances](https://unit42.paloaltonetworks.com/azure-container-instances) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical autopsy of 'Azurescape', a cross-account vulnerability discovered in Azure Container Instances (ACI). Analyzes multitenancy container host escapes and explains subsequent platform-level security mitigations.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Edge Computing](./edge-computing.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

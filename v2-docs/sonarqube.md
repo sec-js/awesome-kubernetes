@@ -27,7 +27,7 @@ description: "Curated, AI-ranked Sonarqube resources for the 2026 Cloud Native a
   - **(2026)** [==Sonarqube.org==](https://www.sonarsource.com/products/sonarqube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Industry-standard platform for automated static code analysis, structural design checks, and bug detection. Integrates directly into modern CI pipelines to enforce automated quality gates and track technical debt.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Keptn](./keptn.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

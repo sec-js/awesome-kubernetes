@@ -25,9 +25,21 @@ description: "Curated, AI-ranked Kubernetes Monitoring resources for the 2026 Cl
 
 ### Kubernetes
 
+#### Helm Deployments
+
+  - **(2026)** [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard Helm chart package representing the Kubernetes Prometheus Operator stack. Streamlines deployment of custom resources like ServiceMonitors and PrometheusRules.
 #### Telemetry Bundles
 
   - **(2026)** [==kube-prometheus==](https://github.com/prometheus-operator/kube-prometheus) <span class='md-tag md-tag--info'>⭐ 7673</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8996851a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 13 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-8996851a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The reference monitoring deployment for Kubernetes. Orchestrates the Prometheus Operator, Grafana, Alertmanager, and a collection of native exporters designed to monitor master control plane components.
+## Container Orchestration
+
+### Kubernetes (1)
+
+#### Observability
+
+##### Best Practices
+
+  - **(2023)** [sysdig.com: Seven Kubernetes monitoring best practices every monitoring solution should enable](https://www.sysdig.com/blog/kubernetes-monitoring-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven core principles for establishing a reliable Kubernetes monitoring framework, highlighting metric aggregation, container life-cycle awareness, and Prometheus auto-discovery. Curator Insight: Essential practices for K8s monitoring. Live Grounding: Practical guidelines for scaling Prometheus and agent-based scrapers without experiencing massive ingestion bottlenecks.
 ## Dynamic Component Monitoring
 
 ### Workload Monitoring
@@ -68,7 +80,7 @@ description: "Curated, AI-ranked Kubernetes Monitoring resources for the 2026 Cl
 #### Commercial Integrations
 
   - **(2022)** [newrelic.com: Pixie](https://newrelic.com/platform/kubernetes-pixie) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights New Relic's platform integration of Pixie, the open-source eBPF observability tool. Explains how kernel-level tracing simplifies microservice communication tracking, HTTP/gRPC parsing, and resource utilization monitoring without code modifications.
-## Observability
+## Observability (1)
 
 ### ChatOps
 
@@ -115,7 +127,7 @@ description: "Curated, AI-ranked Kubernetes Monitoring resources for the 2026 Cl
   - **(2024)** [==grafana.com: How to monitor Kubernetes clusters with the Prometheus Operator==](https://grafana.com/blog/how-to-monitor-kubernetes-clusters-with-the-prometheus-operator) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive configuration guide for deploying and managing the Prometheus Operator on Kubernetes. Demonstrates configuring ServiceMonitor and PodMonitor custom resources to automate collection of dynamic microservice targets.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

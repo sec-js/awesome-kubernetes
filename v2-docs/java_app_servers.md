@@ -34,9 +34,22 @@ description: "Top Java_App_Servers resources for 2026, AI-ranked: Payara Micro, 
 
   - **(2021)** [opensource.com: Get started with WildFly for Java web development](https://opensource.com/article/21/7/wildfly) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory guide on using WildFly for web application development, demonstrating fast setup and deploy loops. Live Grounding indicates its practical value for developers looking to run traditional web-profiles on modular container frameworks without heavy J2EE runtime friction.
   - **(2026)** [**WildFly**](https://www.wildfly.org) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project homepage for WildFly, Red Hat's open-source application server executing modern Jakarta EE specifications. Live Grounding highlights WildFly as a high-performance, modular system featuring fast startup and low memory usage, heavily favored for container deployments.
+## Enterprise Java
+
+### Runtimes (1)
+
+#### Apache TomEE
+
+  - **(2026)** [TomEE from Tomitribe](https://tomee.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apache TomEE is a lightweight, certified Jakarta EE and MicroProfile implementation built on Apache Tomcat. It merges Tomcat's speed and small footprint with full Java Enterprise capabilities, including CDI, JTA, and JPA, making it ideal for microservice deployments requiring standardized API layers.
+#### KumuluzEE
+
+  - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.
+#### Payara Server (1)
+
+  - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro provide high-performance, container-friendly environments for running Jakarta EE and MicroProfile workloads. Designed for critical production architectures, it supports built-in clustering, hazelcast-powered data grids, and auto-tuning capabilities inside Kubernetes deployments.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
 

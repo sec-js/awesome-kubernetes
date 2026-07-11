@@ -65,7 +65,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templa
   - **(2026)** [**Keptn**](https://nubenetes.com/keptn/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Nubenetes architectural reference on Keptn, a CNCF enterprise-grade control plane for cloud-native application lifecycle orchestration. Integrates SLO-based evaluations, automated canary promotions, and zero-touch application remediation out of the box.
 
 ---
-💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 
