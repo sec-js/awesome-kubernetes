@@ -297,7 +297,7 @@ Cilium allows users to specify an egress NAT policy
 
 <center markdown="1">
 
-<script async class="speakerdeck-embed" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-host="speakerdeck.com" data-id="9251193501114da199d70b2a679c552f" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
 </center>
 

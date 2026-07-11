@@ -536,7 +536,7 @@ Red Hat AMQ 7|JBoss AMQ 7 (Broker) or Red Hat AMQ 7 Suite|Apache ActiveMQ Artemi
 
 	<center markdown="1">
 
-	<script async class="speakerdeck-embed" data-id="54c1ce6ee6e44d68a0c311c31ddc8225" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+	<script async class="speakerdeck-embed" data-host="speakerdeck.com" data-id="54c1ce6ee6e44d68a0c311c31ddc8225" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
 	</center>
 

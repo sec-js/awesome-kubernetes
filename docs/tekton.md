@@ -57,9 +57,9 @@
 
 <center markdown="1">
 
-<script async class="speakerdeck-embed" data-id="d3d70ab67e894e74912beb835e927d10" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-host="speakerdeck.com" data-id="d3d70ab67e894e74912beb835e927d10" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
-<script async class="speakerdeck-embed" data-id="63bd2b3c53d748b0be8e2f91ac3e6870" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-host="speakerdeck.com" data-id="63bd2b3c53d748b0be8e2f91ac3e6870" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
 </center>
 </details>

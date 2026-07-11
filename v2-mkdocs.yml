@@ -74,7 +74,9 @@ plugins:
       enable_creation_date: true
       type: date
       fallback_to_build_date: true
-  - privacy
+  - privacy:
+      externals_exclude:
+        - speakerdeck.com/*
   - social:
       cards: true
       cards_layout_options:

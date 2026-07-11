@@ -49,7 +49,9 @@ theme:
     - search.suggest
 plugins:
   - search
-  - privacy
+  - privacy:
+      externals_exclude:
+        - speakerdeck.com/*
   - social:
       cards: true
       cards_layout_options:
