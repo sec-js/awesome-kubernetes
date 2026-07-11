@@ -1788,6 +1788,13 @@ class V2VisionEngine:
                 )
 
                 _body = _body.replace(
+                    "#### Helm Deployments\n\n",
+                    "#### Helm Deployments\n\n"
+                    "  - **[Official Red Hat Jenkins Image for OpenShift](https://github.com/openshift/jenkins)** <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's official repository containing container image templates, configurations, and plugins customized for OpenShift.\n"
+                    "  - **[Deploy Helm charts with Jenkins on OpenShift 4](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)** <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical Red Hat tutorial demonstrating Helm deployment orchestration within Jenkins pipelines on OpenShift.\n"
+                )
+
+                _body = _body.replace(
                     "#### Troubleshooting\n\n",
                     "#### Troubleshooting\n\n"
                     "  - **[CloudBees: Troubleshooting Jenkins Performance](https://support.cloudbees.com/hc/en-us/articles/204856094-Troubleshooting-Jenkins-Performance)** <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Exhaustive reference for debugging heap usage, thread dumps, garbage collection pauses, and pipeline serialization bottlenecks.\n"
