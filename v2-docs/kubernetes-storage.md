@@ -61,7 +61,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: Longhorn, Ka
   - **(2023)** [OpenEBS Features and Benefits](https://openebs.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide to OpenEBS Container Attached Storage (CAS) engine. Details how local volumes, Jiva, and Mayastor architectures allow teams to build highly resilient, dynamic persistent storage volumes directly using local disk pools. CNCF validation confirms OpenEBS's position as a robust storage framework for stateful microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
 

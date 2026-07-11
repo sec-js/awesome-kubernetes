@@ -33,9 +33,16 @@ description: "Curated, AI-ranked Testops resources for the 2026 Cloud Native arc
 #### API Mocking
 
   - **(2020)** [==Smocker (server mock) is a simple and efficient HTTP mock server==](https://github.com/smocker-dev/smocker) <span class='md-tag md-tag--info'>⭐ 1281</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e0846160" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 7 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-e0846160)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Smocker is an execution-efficient, REST API-driven HTTP mocking utility designed for microservice local integration testing. It allows defining dynamic request matches and custom mocking scenarios via direct YAML configurations.
+## Infrastructure and Platform
+
+### Performance Engineering
+
+#### Load Testing
+
+  - **(2021)** [itnext.io: Kubernetes: load-testing and high-load tuning — problems and solutions](https://itnext.io/kubernetes-load-testing-and-high-load-tuning-problems-and-solutions-244d869a9791) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architect-level guide to high-load performance testing and OS/Kernel-level tuning inside Kubernetes clusters. Highlights connection limits, TCP socket recycling, thread pooling adjustments, and optimizing conntrack tables to handle traffic spikes.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
+💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

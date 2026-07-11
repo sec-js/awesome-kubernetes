@@ -13,9 +13,6 @@ description: "Curated, AI-ranked Kubernetes Based Devel resources for the 2026 C
 
 ### Mocking and Virtualization
 
-#### Microcks
-
-  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
@@ -38,11 +35,6 @@ description: "Curated, AI-ranked Kubernetes Based Devel resources for the 2026 C
   - **(2026)** [**telepresence.io 🌟**](https://telepresence.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Telepresence is a CNCF proxying tool that connects a local development machine directly to a remote Kubernetes cluster. It redirects service traffic, enabling developers to run integration tests and debug local services as if they were live in the cluster.
 ## Platform Engineering
 
-### Application Delivery
-
-#### Catalog UI
-
-  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 ### Multi-Cloud
 
 #### PaaS Framework
@@ -55,7 +47,7 @@ description: "Curated, AI-ranked Kubernetes Based Devel resources for the 2026 C
   - **(2026)** [**github.com/openshift/console 🌟**](https://github.com/openshift/console) <span class='md-tag md-tag--info'>⭐ 456</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7a86b161" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 11 L 30 11 L 40 13 L 50 13" fill="none" stroke="url(#spark-grad-7a86b161)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official enterprise-grade administrative console for OpenShift environments. Offers advanced visualization dashboards for developers and platform operators, featuring real-time telemetry, custom resource definition (CRD) rendering, and multi-tenant security.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
 

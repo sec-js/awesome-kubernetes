@@ -327,6 +327,13 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Flink, **D
 #### Event-Driven Architecture (4)
 
   - **(2020)** [stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This study from StackOverflow contrasts traditional request-response architectures with asynchronous event structures. It explains how shifting to non-blocking patterns resolves high-concurrency web app bottlenecks, increasing system fault tolerance.
+## Networking and Security
+
+### Load Balancing
+
+#### Performance and Tuning
+
+  - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
 ## Orchestration
 
 ### Workflow Engines
@@ -362,7 +369,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Flink, **D
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [NoSQL](./nosql.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -33,6 +33,11 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Jenkins Integrations
 
   - **(2023)** [Jenkins Plugin: Anchore Container Image Scanner](https://plugins.jenkins.io/anchore-container-scanner) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The integration plugin for Jenkins enabling seamless automation of Anchore scans during build orchestration. Allows developers to write declarative Jenkins pipelines that audit images and break builds if severe security policies or license restrictions are violated. Essential for Jenkins compliance architectures.
+### Continuous Delivery
+
+#### Security Policy
+
+  - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
 ### Observability
 
 #### Dashboards
@@ -478,7 +483,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2020)** [infoq.com: The Defense Department's Journey with DevSecOps](https://www.infoq.com/news/2020/06/defense-department-devsecops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This case study details the US Department of Defense's massive transition to DevSecOps with its Platform One initiative. Explains executing secure, containerized software deployments directly on tactical hardware and weapon platforms under strict regulatory oversight.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Terraform](./terraform.md)
+💡 **Explore Related:** [Terraform](./terraform.md) | [Ansible](./ansible.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

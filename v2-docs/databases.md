@@ -9,13 +9,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 !!! info "Architectural Context"
     Detailed reference for Databases on Kubernetes. Database DevOps in the context of Data & Advanced Analytics.
 
-## Cloud Infrastructure
-
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ## Cloud-Native Design
 
 ### Architecture Patterns
@@ -163,13 +156,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Database Migrations
 
   - **(2020)** [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed deployment blueprint focusing on the execution of schema migrations within ASP.NET Core and relational databases inside Kubernetes. Critically compares using Kubernetes Jobs, Init Containers, and application bootstrap processes for migrations.
-## Observability
-
-### Distributed Storage
-
-#### VictoriaMetrics
-
-  - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
 ## PostgreSQL (1)
 
 ### Alternative Paradigms
@@ -215,7 +201,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

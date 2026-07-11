@@ -47,7 +47,7 @@ description: "Curated, AI-ranked Linux resources for the 2026 Cloud Native archi
   - **(2026)** [**Timezone Bullshit**](https://blog.wesleyac.com/posts/timezone-bullshit) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical exploration of the systemic complexities and failure modes inherent to international timezones and UTC serialization. Essential reading for system designers building distributed microservices tracking strict historical audit logs.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
