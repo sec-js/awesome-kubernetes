@@ -102,7 +102,7 @@
 - [github.com/konveyor/crane: Crane 2.0 🌟](https://github.com/migtools/crane) Crane 2, a tool for rehosting cloud workloads for Kubernetes.
     - [youtube: Crane 2 Preview: Introduction and Demo](https://www.youtube.com/watch?v=esIZS7PVrvs&ab_channel=Konveyor) Migrating workloads across clusters, from one k8s distro to another, will be the focus of open-source tool Crane 2.0. (A tool that's part of the Konveyor community.)
 - [kubebyexample.com: Migrating to Kubernetes with Open Source Tools (Konveyor, Tackle, KubeVirt, Forklift) 🌟](https://kubebyexample.com/community/blog/migrating-to-kubernetes-with-open-source-tools) **KubeByExample's newest learning path applies open source tools to help you rehost, replatform, and refractor your applications to Kubernetes.**
-- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
+- [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With S2I](https:/https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i)
     - Despite the incredible pace of adoption of container orchestration platforms, the vast majority of EAP workloads are still running on VMs or bare metal. In a lot of cases enterprise operation teams are mandated to modernize and move these workloads to the cloud, and containerization and migration to Kubernetes is the natural destination. When talking about this migration path, we're often asked questions like:
         - What's involved?
         - How easy is it to move these workloads?
@@ -133,7 +133,7 @@
 
 <center markdown="1">
 
-<iframe src="/www.slideshare.net/slideshow/embed_code/key/1AC3zrxTauWgCT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i" title="Migrating Java JBoss EAP Applications to Kubernetes With S2I" target="_blank">Migrating Java JBoss EAP Applications to Kubernetes With S2I</a> </strong> from <strong><a href="/www.slideshare.net/KonveyorIO" target="_blank">Konveyor Community</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/1AC3zrxTauWgCT" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i" title="Migrating Java JBoss EAP Applications to Kubernetes With S2I" target="_blank">Migrating Java JBoss EAP Applications to Kubernetes With S2I</a> </strong> from <strong><a href="https://www.slideshare.net/KonveyorIO" target="_blank">Konveyor Community</a></strong> </div>
 
 </center>
 </details>

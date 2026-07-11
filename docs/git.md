@@ -294,7 +294,7 @@ It prescribes that software designers should define formal, precise and verifiab
 
     <center markdown="1">
 
-    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
+    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
     </center>
 
@@ -727,7 +727,7 @@ git rebase -i HEAD~5
 - [twitter.com/azuredevops](https://x.com/azuredevops)
 - [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts)
 - [Microsoft Visual Studio Team Services (VSTS) Tutorial: The Cloud ALM Platform](https://www.softwaretestinghelp.com/microsoft-vsts-tutorial-1)
-- [slideshare.net: Git version control and trunk based approach with VSTS](https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts)
+- [slideshare.net: Git version control and trunk based approach with VSTS](https:/https://www.slideshare.net/arunmurughan/git-version-control-and-trunk-based-approach-with-vsts)
 - [Microsoft Replacing Visual Studio Team Services with Azure DevOps](https://redmondmag.com/articles/2018/09/10/microsoft-replacing-vsts-with-azure-devops.aspx)
 - [How We Use Git at Microsoft](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git)
 
@@ -844,7 +844,7 @@ Automate them.
 
     <center markdown="1">
 
-    <iframe src="/www.slideshare.net/slideshow/embed_code/key/ju2kFOuS5w1jk4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692" title="Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović" target="_blank">Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović</a> </strong> from <strong><a href="/www.slideshare.net/kobac" target="_blank">Dragan Stepanović</a></strong> </div>
+    <iframe src="https://www.slideshare.net/slideshow/embed_code/key/ju2kFOuS5w1jk4" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/kobac/async-code-reviews-are-killing-your-companys-throughput-248758692" title="Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović" target="_blank">Async Code Reviews Are Killing Your Company’s Throughput - Dragan Stepanović</a> </strong> from <strong><a href="https://www.slideshare.net/kobac" target="_blank">Dragan Stepanović</a></strong> </div>
 
     </center>
 

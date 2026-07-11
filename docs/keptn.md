@@ -54,7 +54,7 @@
 
 	<center markdown="1">
 
-	<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
+	<script async class="speakerdeck-embed" data-id="0aed9437839247ffb5f6af817b90773b" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
 	</center>
 

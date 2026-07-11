@@ -362,7 +362,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
     <center markdown="1">
 
-    <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
+    <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
     </center>
 
