@@ -236,7 +236,7 @@
     - **OpenShift**:
         - [Wide enterprise adoption](https://www.redhat.com/en/technologies/cloud-computing/openshift)
         - [Security](https://docs.openshift.com/container-platform/4.4/authentication/managing-security-context-constraints.html)
-        - [Multi-tenancy features](https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
+        - [Multi-tenancy features](https:/https://www.slideshare.net/slideshow/20171010-multitenancy-in-openshift/80696233) (self-service)
 - OpenShift 4 is built on top of Kubernetes 1.13+ 
 - [Release Notes](https://docs.openshift.com/container-platform/4.4/release_notes/ocp-4-4-release-notes.html)
 
@@ -296,7 +296,7 @@
     - Node provisioning with [ignition](https://www.redhat.com/en/blog/channel/hybrid-cloud-infrastructure), which came with CoreOS Container Linux
     - Atomic host updates with [rpm-ostree](https://github.com/coreos/rpm-ostree)
     - [CRI-O](https://cri-o.io) as a container runtime
-    - [SELinux](https://www.slideshare.net/openshift/openshift-18812162) enabled by default
+    - [SELinux](https:/https://www.slideshare.net/openshift/openshift-18812162) enabled by default
 - [Machine API](https://github.com/openshift/machine-api-operator/tree/main): Provisioning of nodes. Abstraction mechanism added (API objects to declaratively manage the cluster):
     - Based on [Kubernetes Cluster API project](https://github.com/kubernetes-sigs/cluster-api) Cluster API is a Kubernetes sub-project focused on providing declarative APIs and tooling to simplify provisioning, upgrading, and operating multiple Kubernetes clusters.
     - Provides a new set of machine resources:
@@ -842,10 +842,10 @@ oc login
 
 <center markdown="1">
 
-<iframe src="/www.slideshare.net/slideshow/embed_code/key/qc1rIHqvXuiuzj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/KangarootLinux/openshift-4-the-smarter-kubernetes-platform" title="OpenShift 4, the smarter Kubernetes platform" target="_blank">OpenShift 4, the smarter Kubernetes platform</a> </strong> from <strong><a href="/www.slideshare.net/KangarootLinux" target="_blank">Kangaroot</a></strong> </div>
-<iframe src="/www.slideshare.net/slideshow/embed_code/key/ko4KgmpBYmqhyf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="/www.slideshare.net/wintonjkt/open-shift-4-infra-deep-dive" title="Open shift 4 infra deep dive" target="_blank">Open shift 4 infra deep dive</a> </strong> from <strong><a href="/www.slideshare.net/wintonjkt" target="_blank">Winton Winton</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/qc1rIHqvXuiuzj" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/KangarootLinux/openshift-4-the-smarter-kubernetes-platform" title="OpenShift 4, the smarter Kubernetes platform" target="_blank">OpenShift 4, the smarter Kubernetes platform</a> </strong> from <strong><a href="https://www.slideshare.net/KangarootLinux" target="_blank">Kangaroot</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/ko4KgmpBYmqhyf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/wintonjkt/open-shift-4-infra-deep-dive" title="Open shift 4 infra deep dive" target="_blank">Open shift 4 infra deep dive</a> </strong> from <strong><a href="https://www.slideshare.net/wintonjkt" target="_blank">Winton Winton</a></strong> </div>
 
-<script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="/speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="7b2d9055749147ba83ad89acfd11b8b6" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
 </center>
 </details>
