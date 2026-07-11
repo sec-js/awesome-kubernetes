@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Serverless Architectures and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes resources for 2026, AI-ranked: Helm, kube-prometheus and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 
@@ -69,6 +69,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
   - **(2021)** [==thenewstack.io: Monolithic Development Practices Kill Powerful Kubernetes Benefits 🌟🌟==](https://thenewstack.io/monolithic-development-practices-kill-powerful-kubernetes-benefits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Critiques the common anti-pattern of running tightly-coupled monolithic applications on Kubernetes without adjusting architectural paradigms. Demonstrates why horizontal scaling and self-healing require loose coupling.
 #### Sidecar Pattern
 
+  - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
   - **(2023)** [dev.to/fermyon: Scaling Sidecars to Zero in Kubernetes](https://dev.to/fermyon/scaling-sidecars-to-zero-in-kubernetes-2m23) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates serverless techniques to scale resource-intensive sidecars down to zero when idle. Addresses the lifecycle synchronization challenges between the application container and its helper sidecar instances.
 ### Distributed Systems
 
@@ -157,13 +158,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 #### Workload Management
 
   - **(2021)** [K8s prevent queue worker Pod from being killed during deployment](https://itnext.io/k8s-prevent-queue-worker-pod-from-being-killed-during-deployment-4252ea7c13f6) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This operations guide details how to prevent queue-consuming pods from being killed mid-job during rolling deployments on Kubernetes. It explains how to coordinate preStop hooks and terminationGracePeriodSeconds configurations.
-## Cloud Infrastructure and Orchestration
-
-### Container Orchestration (2)
-
-#### Helm and Packaging
-
-  - **(2022)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive deep-dive tutorial series on orchestrating .NET applications inside Kubernetes using Helm. Analyzes templating, YAML manifests, dependency injections, dynamic secret handling, and values customization patterns.
 ## Cloud Native Platforms
 
 ### Kubernetes (2)
@@ -224,7 +218,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 #### Config and Secrets
 
   - **(2023)** [k21academy.com: Kubernetes ConfigMaps and Secrets: Guide to Create and Update 🌟](https://k21academy.com/kubernetes/configmaps-secrets) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A fundamental playbook illustrating the lifecycle, generation, and updates of ConfigMaps and Secrets. Establishes the core differences in creation mechanisms and direct manifest applications.
-## Container Orchestration (3)
+## Container Orchestration (2)
 
 ### Azure Kubernetes Service
 
@@ -390,7 +384,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 
 ### Migration (1)
 
-#### Container Orchestration (4)
+#### Container Orchestration (3)
 
   - **(2021)** [opensourcerers.org: How to go from Docker to Kubernetes the right way 🌟](https://www.opensourcerers.org/2021/02/01/how-to-go-from-docker-to-kubernetes-the-right-way) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive migration roadmap targeting teams transitioning from local Docker-centric environments to multi-node Kubernetes topologies. Focuses on rewriting network exposes, volume mounts, and orchestrating stateful workloads.
 #### Dev Environments
@@ -403,13 +397,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 #### Tooling
 
   - **(2024)** [==github.com/kubecost: kubecost-exporter - Running Kubecost as a Prometheus metric exporter==](https://github.com/opencost/opencost) <span class='md-tag md-tag--info'>⭐ 6590</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-16b8fe89" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 13 L 30 11 L 40 2 L 50 4" fill="none" stroke="url(#spark-grad-16b8fe89)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official repository for OpenCost, the CNCF sandbox standard defining vendor-neutral APIs for cloud-native cost allocation. Operates as an open-source real-time metrics exporter for Prometheus, serving as the industry standard benchmark across multi-cloud deployments.
-## Kubernetes Platform Engine
-
-### Cluster Operations
-
-#### Memory Management
-
-  - **(2025)** [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses Kubernetes `OOMKilled` (Exit Code 137) events caused by memory leaks, misconfigured resource limits, and JVM heap management issues. Explains how to set appropriate limits/requests while implementing profiling tools to prevent container churn.
 ## Networking
 
 ### Multi-Cluster
@@ -537,6 +524,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 
   - **(2023)** [devopscube.com: Kubernetes Pod Priority, PriorityClass, and Preemption Explained 🌟](https://devopscube.com/pod-priorityclass-preemption) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing the setup, risk mitigation, and security policies governing PriorityClasses, helping operators protect critical platform controllers from being starved of compute resources.
   - **(2022)** [bytes.devopscube.com: Kubernetes Pod Priority & Preemption](https://bytes.devopscube.com/p/pod-priority-preemption-explained) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural overview of Kubernetes Pod Priority and Preemption. It explains how high-priority containers can evict lower-priority workloads from fully saturated worker nodes.
+## Orchestration and Packaging
+
+### Helm and GitOps
+
+#### Helm Overview
+
+  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
 ## Platform Engineering (1)
 
 ### Ecosystem Tools
@@ -605,7 +599,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
   - **(2022)** [wbhegedus.me: Demystifying Kubernetes CPU Limits (and Throttling)](https://wbhegedus.me/understanding-kubernetes-cpu-limits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the inner workings of CPU limits, CFS periods, and subsequent application throttling.
 - Offers practical Prometheus query recipes to calculate real-world CPU throttling percentages.
 - Provides guidelines on when to safely omit limits in production.
-#### Memory Management (1)
+#### Memory Management
 
   - **(2022)** [itnext.io: Memory Request + Limit in Kubernetes | Daniele Polencic 🌟🌟](https://itnext.io/memory-requests-and-limits-in-kubernetes-1c9cd573b3ab) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth guide explaining how memory allocations behave on Linux/Kubernetes.
 - Discusses how the kernel manages memory limits, page cache, and anonymous memory.
@@ -696,13 +690,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 #### Architecture Scaling
 
   - **(2021)** [infoq.com: Kubernetes Workloads in the Serverless Era: Architecture, Platforms, and Trends](https://www.infoq.com/articles/kubernetes-workloads-serverless-era) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the structural patterns, frameworks (Knative, KEDA), and architectural challenges of running scale-to-zero serverless runtimes inside a standard Kubernetes control loop. Focuses on lifecycle scaling profiles and routing constraints.
-## Service Mesh
-
-### Networking (2)
-
-#### Traffic Management
-
-  - **(2026)** [Istio.io](https://istio.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the de facto standard open-source service mesh. Implements a uniform plane for managing, securing, and routing microservices traffic across hybrid cloud container clusters.
 ## Storage
 
 ### Volume Mounts
@@ -734,7 +721,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
 #### Microcks
 
   - **(2021)** [**microcksio**](https://x.com/microcksio) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Social and developer hub for Microcks, an open-source tool for mocking and testing APIs (REST, gRPC, GraphQL, and event-driven architectures) in Kubernetes. Accelerates microservice development and automated contract testing in CI/CD pipelines.
-## Traffic Management (1)
+## Traffic Management
 
 ### Ingress
 
@@ -821,7 +808,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Ser
   - **(2022)** [learnk8s.io: Scaling Celery workers with RabbitMQ on Kubernetes](https://learnkube.com/scaling-celery-rabbitmq-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exceptional, step-by-step architectural guide on scaling distributed Python/Celery workers using Custom Metrics and RabbitMQ. Explains why scaling based on queue depth is superior to CPU-based HPA scaling for asynchronous workloads.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

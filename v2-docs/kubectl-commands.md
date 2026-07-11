@@ -1,5 +1,5 @@
 ---
-description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat Sheets, Helm and more — curated Cloud Native tools, guides and references."
+description: "Curated, AI-ranked Kubectl Commands resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
 ---
 # Kubectl commands
 
@@ -9,23 +9,16 @@ description: "Top Kubectl Commands resources for 2026, AI-ranked: Gradle Cheat S
 !!! info "Architectural Context"
     Detailed reference for Kubectl commands in the context of The Container Stack.
 
-## DevSecOps and Registry
+## Container Orchestration
 
-### Java Tools
+### Kubernetes
 
-#### Gradle Reference
+#### Ansible Integration
 
-  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
-## Orchestration and Packaging
-
-### Helm and GitOps
-
-#### Helm Overview
-
-  - **(2026)** [==Helm==](https://nubenetes.com/helm/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Deep-dive architecture portal on Helm, the package manager for Kubernetes. Focuses on structuring dry templates, lifecycle hooks, chart dependencies, release versioning, and secure variables management inside GitOps pipelines.
+  - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference site for Jeff Geerling's "Ansible for Kubernetes" book. It showcases advanced architectural patterns using Ansible to orchestrate cloud-native Kubernetes systems, write custom operators, and manage application lifecycles inside pods.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
 

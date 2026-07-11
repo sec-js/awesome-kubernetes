@@ -1733,6 +1733,50 @@ class V2VisionEngine:
 
 
             _body = await render_node(info["content"], -1, f_name.replace(".md", ""), used_headers, is_intro=(f_name=="introduction.md" or f_name=="about.md"))
+            
+            if f_name == "jenkins.md":
+                dsl_injection = """
+!!! info "Jenkins Configuration as Code Solutions: The 3 Available DSLs"
+    - **Job DSL**: Historically one of the first popular plugins for managing Jenkins configuration as code. It utilizes a Groovy-based domain-specific language to declare and generate Jenkins jobs dynamically.
+    - **Jenkins (Declarative) Pipeline**: The modern standard for declaring build pipelines as code using a structured, readable syntax inside a `Jenkinsfile`.
+    - **Jenkins Configuration as Code (JCasC)**: Allows declaring the entire state of the Jenkins controller (plugins, credentials, global settings, agents) using YAML configurations.
+    
+    *Tip: Avoid manually configured freestyle jobs. Leverage JCasC for controller configuration and Declarative Pipelines for job execution.*
+"""
+                _body = _body.replace("### Configuration as Code\n\n", f"### Configuration as Code\n{dsl_injection}\n")
+                
+                media_section = """
+## Curated Slides and Videos
+
+??? note "Jenkinsfile Runner slides. Click to expand!"
+
+    <center markdown="1">
+
+    <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js" data-host="speakerdeck.com"></script>
+
+    </center>
+
+??? note "Jenkins Blue Ocean Videos. Click to expand!"
+
+    <center markdown="1">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </center>
+
+??? note "Cloudbees Flow Videos. Click to expand!"
+
+    <center markdown="1">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </center>
+"""
+                _body += media_section
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
             if f_name == "other-awesome-lists.md":

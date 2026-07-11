@@ -37,7 +37,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - [itnext.io: Manage Redis on AWS from Kubernetes](https://itnext.io/manage-redis-on-aws-from-kubernetes-eeadba7eb889) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight describes how to manage AWS ElastiCache for Redis directly from Kubernetes. Live Grounding highlights using AWS Controllers for Kubernetes (ACK) or Crossplane to define managed Redis instances as custom resources (CRDs). This unifies stateful cloud infrastructure management within standard GitOps workflows.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
