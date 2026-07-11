@@ -77,16 +77,16 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
   - **(2020)** [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 1 (2020) 🌟](https://www.cloudbees.com/blog/apm-tools-jenkins-performance) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part one of an engineering diagnostic series for hunting down master slowdowns in Kubernetes clusters. Focuses on setting up proper application performance monitoring and resolving severe disk-level I/O latency blocks.
 ## CICD Pipeline Architecture
 
-!!! info "Pipeline as Code with Jenkins: Architectural Core Principles"
+!!! info "[Pipeline as Code with Jenkins: Architectural Core Principles](https://www.jenkins.io/solutions/pipeline)"
     As defined in the official [Jenkins Pipeline Book](https://www.jenkins.io/doc/book/pipeline), Jenkins is fundamentally an automation engine that supports diverse delivery patterns. Modeling your delivery workflow as a **Pipeline** adds a powerful set of automation capabilities:
     
     *   **Code**: Pipelines are implemented directly in code (usually a `Jenkinsfile`) and checked into version control, enabling peer code reviews and auditability.
     *   **Durable**: Pipelines are built to survive both planned and unplanned restarts of the Jenkins controller.
     *   **Pausable**: Pipelines can pause execution to wait for human approval or input before proceeding to deployment.
     *   **Versatile**: They naturally support complex real-world CD topologies, including parallel execution, looping, and fork/join patterns.
-    *   **Extensible**: The Pipeline DSL supports custom extensions (e.g., Shared Libraries) and integrations with external plugins.
+    *   **Extensible**: The Pipeline [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) supports custom extensions (e.g., Shared Libraries) and integrations with external plugins.
 
-!!! info "Jenkins Pipeline Best Practices: Declarative, Scripted, and Shared Libraries"
+!!! info "[Jenkins Pipeline Best Practices: Declarative, Scripted, and Shared Libraries](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin)"
     Based on CloudBees' strategic guide: [Top 10 Jenkins Pipeline Best Practices](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin):
     
     *   **Prefer Declarative Syntax**: Declarative syntax (introduced in 2017) is the modern standard. Many advanced features—such as matrix builds—are exclusively available in Declarative. Avoid legacy Scripted syntax (2014) unless absolutely necessary.
@@ -96,7 +96,7 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
     *   **Declarative inside Shared Libraries**: **Shared-libraries with scripted pipeline syntax are not recommended** since more custom coding involves more maintenance issues. Use **Declarative Pipeline Syntax** as much as possible inside your libraries.
 
 
-!!! info "Building Declarative Pipelines with OpenShift: Jenkinsfile as Code and Syntax Structures"
+!!! info "[Building Declarative Pipelines with OpenShift: Jenkinsfile as Code and Syntax Structures](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin)"
     As detailed in Red Hat's engineering guide: [Building Declarative Pipelines with OpenShift DSL Plugin](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin):
     
     *   **Jenkinsfiles as the De-Facto Standard**: Since Jenkins 2, Jenkinsfiles have quickly become the **de-facto standard for building continuous delivery pipelines**, allowing teams to track, review, audit, and manage the pipeline lifecycle inside source version control just like application code.
