@@ -164,6 +164,8 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 
 - [blog.devops.dev: Deploying Helm Charts with Jenkins and Groovy: A Comprehensive Guide](https://blog.devops.dev/deploying-helm-charts-with-jenkins-and-groovy-a-comprehensive-guide-c2aa0f2bd424)
 - [==github.com/jenkinsci/helm-charts==](https://github.com/jenkinsci/helm-charts)
+- [github.com/openshift/jenkins: Red Hat's official container image templates and configuration tooling for running Jenkins on OpenShift](https://github.com/openshift/jenkins)
+
 
 ## Jenkins and Terraform
 
@@ -208,11 +210,16 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 ## Jenkins on Docker
 
 - [ssbostan/jenkins-stack-docker](https://github.com/ssbostan/jenkins-stack-docker) Docker-compose version of jenkins-stack-kubernetes
+- [github.com/jenkinsci/docker: Official Docker templates and build scripts for Jenkins controllers](https://github.com/jenkinsci/docker)
+- [github.com/shazChaudhry/docker-jenkins: Swarm Cluster setup demonstrating how to run scalable Jenkins workers inside a Docker Swarm environment](https://github.com/shazChaudhry/docker-jenkins)
+
 
 ### Kubernetes Native Jenkins Operator
 
 - [github.com/jenkinsci/kubernetes-operator: 🌟](https://github.com/jenkinsci/kubernetes-operator) Kubernetes platform was released ten years after the first version of Hudson project. It means Jenkins couldn’t be designed to run on top of it. Jenkins Operator tries to bridge that gap.
 - [jenkins.io: Jenkins Operator becomes an official sub-project!](https://www.jenkins.io/blog/2021/04/15/jenkins-operator-sub-project)
+- [jenkinsci.github.io/kubernetes-operator: Setup, configuration, backup and restore guides for Jenkins Operator](https://jenkinsci.github.io/kubernetes-operator/)
+
 - [jenkins.io: Security Validator for Jenkins Operator for Kubernetes](https://www.jenkins.io/blog/2021/08/23/jenkins-operator-security-work-report)
 - [cd.foundation: Going Cloud Native with Jenkins Kubernetes Operator](https://cd.foundation/blog/2021/09/02/going-cloud-native-with-jenkins-kubernetes-operator)
 
@@ -419,8 +426,16 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [cloudbees.com: Troubleshooting Jenkins Performance: Kubernetes Edition - Part 2 (2020) 🌟](https://www.cloudbees.com/blog/application-performance-monitoring-tools)
 - [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them 🌟](https://www.cloudbees.com/blog/most-common-issues-scaling-jenkins) Jenkins is a fantastic CI/CD solution but it has a significant weak point: Managing & scaling Jenkins for the enterprise is an uphill battle. Tanya Jacob shares the 2 most common issues we hear from enterprises using Jenkins & how to fix them.
 - [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance)
+- [support.cloudbees.com: Troubleshooting Jenkins Performance](https://support.cloudbees.com/hc/en-us/articles/204856094-Troubleshooting-Jenkins-Performance) Exhaustive reference for debugging heap usage, thread dumps, garbage collection pauses, and pipeline serialization bottlenecks.
+- [plugins.jenkins.io/jenkins-health-advisor-by-cloudbees: Jenkins Health Advisor by CloudBees](https://plugins.jenkins.io/jenkins-health-advisor-by-cloudbees/) Automatically scans Jenkins controllers for known issues, security vulnerabilities, and performance anomalies.
+
+## Jenkins Security
+
+- [jenkins.io/doc/book/security: Jenkins Security Guide](https://www.jenkins.io/doc/book/security/) Hardening guide for configuring access control, credentials, protocols, and plugins safely.
+- [owasp.org: OWASP Jenkins Security Assessment](https://owasp.org/www-project-integration-standards/writeups/jenkins/) Threat modeling and vulnerability checks to secure CI/CD pipelines.
 
 ## Ansible and Jenkins. Running Ansible Playbooks From Jenkins
+
 
 - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)
 - [itnext.io: Ansible and Jenkins — automate your scritps 🌟](https://itnext.io/ansible-and-jenkins-automate-your-scritps-8dff99ef653)
