@@ -1812,16 +1812,6 @@ class V2VisionEngine:
 
     </center>
 
-??? note "Jenkins Blue Ocean Videos. Click to expand!"
-
-    <center markdown="1">
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </center>
-
 ??? note "Cloudbees Flow Videos. Click to expand!"
 
     <center markdown="1">
