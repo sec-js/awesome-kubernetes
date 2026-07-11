@@ -507,7 +507,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [Kubernetes Continuous Deploy 🌟](https://plugins.jenkins.io/kubernetes-cd)
 - [Kubernetes CLI 🌟](https://plugins.jenkins.io/kubernetes-cli)
 - [Atlassian's new Bitbucket Server integration for Jenkins 🌟](https://www.jenkins.io/blog/2020/01/08/atlassians-new-bitbucket-server-integration-for-jenkins)
-- [Blue Ocean 🌟](https://plugins.jenkins.io/blueocean)
+- [Pipeline Graph View 🌟](https://plugins.jenkins.io/pipeline-graph-view) (Successor to the deprecated Blue Ocean plugin)
 - [Cloudbees Flow 🌟](https://plugins.jenkins.io/electricflow)
 - [Cloudbees Credentials 🌟](https://plugins.jenkins.io/cloudbees-credentials)
 - [CloudBees Health Advisor 🌟](https://plugins.jenkins.io/cloudbees-jenkins-advisor) Jenkins Health Advisor by CloudBees (formerly known as "CloudBees Jenkins Advisor") proactively notifies you of problems with your Jenkins-based environment. Jenkins Health Advisor by CloudBees identifies numerous issues before they affect your users, including security vulnerabilities, performance problems, and plugin version issues. Best of all, Jenkins Health Advisor by CloudBees is constantly being improved by the CloudBees Support and Engineering teams to cover the most recent identified issues.
@@ -594,20 +594,11 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - Maven is widely used for Jenkins plugin development, more than 90% of plugins use it. In order to simplify plugin development, the Jenkins project offers a standard Parent POM which defines the recommended build, verification and release flow. Such parent POM helps us to ensure quality of the Jenkins plugins. In April 2020 we released a new major release of the parent POM which includes a number of important and sometimes incompatible changes: Jenkins core Bill of materials, full migration to SpotBugs, etc.
 - [In this presentation](https://www.meetup.com/jenkins-online-meetup/events/270630108) James Nord will talk about the changes introduced in Plugin POM 4.0. What do plugin developers and users get by upgrading? How to upgrade? What obstacles to expect, and how to resolve them?
 
-### Jenkins Blue Ocean
+### Jenkins Pipeline Graph View (Blue Ocean Successor)
 
-- [Jenkins BlueOcean 🌟](https://www.jenkins.io/doc/book/blueocean/getting-started)
-- [Blue Ocean plugin](https://plugins.jenkins.io/blueocean)
-- [cd.foundation: Bringing Blue Ocean into the future of Jenkins](https://cd.foundation/blog/2021/09/02/bringing-blue-ocean-into-the-future-of-jenkins)
+- [Pipeline Graph View Plugin 🌟](https://plugins.jenkins.io/pipeline-graph-view) This plugin provides a new Action and View to view a WorkflowRun via the modern, interactive "Pipeline Graph" visualization (the successor to the deprecated Blue Ocean plugin).
+- [pipeline-graph-view-plugin repository 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) Official source code repository for the Pipeline Graph View plugin.
 
-??? note "Jenkins Blue Ocean Videos. Click to expand!"
-
-    <center markdown="1">
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    </center>
 
 ### Cloudbees Flow
 
