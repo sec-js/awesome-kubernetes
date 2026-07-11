@@ -27,6 +27,9 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, AWX Operator and m
 
 ### Kubernetes
 
+#### Ansible Integration
+
+  - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference site for Jeff Geerling's "Ansible for Kubernetes" book. It showcases advanced architectural patterns using Ansible to orchestrate cloud-native Kubernetes systems, write custom operators, and manage application lifecycles inside pods.
 #### Deployments
 
   - **(2022)** [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rapid deployment guide demonstrating how to bootstrap an instance of Ansible AWX on a Kubernetes cluster using the AWX Operator. It covers namespace preparation, applying the custom resource manifest, and verifying initial service exposures.
@@ -56,9 +59,6 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, AWX Operator and m
 #### Containers
 
   - **(2021)** [fedoramagazine.org: Using Ansible to configure Podman containers 🌟](https://fedoramagazine.org/using-ansible-to-configure-podman-containers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Podman automation using native Ansible modules. Details how to coordinate rootless container deployments, configure volume mapping, publish network ports, and manage container life cycles without requiring a system-level Docker daemon.
-#### Image Provisioning
-
-  - **(2021)** [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.empowersurvivors.net) <span class='md-tag md-tag--warning'>[YAML/HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint demonstrating how to integrate Ansible playbooks as provisioning engines inside HashiCorp Packer build runs. Outlines processes to construct audited, standardized, and security-hardened Docker images.
 #### NGINX Automation
 
   - **(2021)** [**galaxy.ansible.com/nginxinc/nginx_core**](https://galaxy.ansible.com/nginxinc/nginx_core) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Ansible NGINX Core Collection. It automates the installation, configuration, and execution of NGINX Open Source and NGINX Plus instances. It provides modular, enterprise-ready playbooks to streamline load-balancing, reverse proxies, and web operations across heterogeneous environments.
@@ -70,7 +70,7 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, AWX Operator and m
   - **(2022)** [Ansistrano](https://github.com/ansistrano) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An Ansible-based application deployment solution heavily inspired by Ruby's Capistrano. It targets zero-downtime scripting setups using multi-release symlink rotations. While highly valuable for legacy monorepo VMs, it is mostly archived in modern cloud-native, containerized architectures.
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [Terraform](./terraform.md) | [Kubernetes Security](./kubernetes-security.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Devsecops](./devsecops.md) | [Terraform](./terraform.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

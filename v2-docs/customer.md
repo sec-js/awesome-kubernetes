@@ -47,7 +47,7 @@ description: "Curated, AI-ranked Customer resources for the 2026 Cloud Native ar
   - **(2023)** [==quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus==](https://quarkus.io/blog/decathlon-user-story) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Outlines Decathlon's development of VCStream, a high-throughput messaging platform built on Quarkus to optimize its global supply and value chain. Quarkus's sub-atomic, reactive execution model allowed Decathlon to dramatically reduce memory footprint and startup times compared to traditional Spring Boot setups. The architecture utilizes reactive streams and Kafka integrations to deliver real-time data synchronization at scale.
 
 ---
-💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 

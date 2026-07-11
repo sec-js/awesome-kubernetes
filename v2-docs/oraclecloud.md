@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Oraclecloud resources for the 2026 Cloud Native
   - **(2022)** [thatjeffsmith.com: Best Practices: REST APIs for your Database {Draft!}](https://www.thatjeffsmith.com/archive/2022/02/best-practices-rest-apis-for-your-database-draft)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth draft outlining architectural patterns and best practices for creating secure, low-latency REST APIs on top of enterprise relational databases. It details serialization strategies, rate limiting, and optimization pathways using Oracle REST Data Services (ORDS) to construct highly resilient microservices backends.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS](./aws.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
 

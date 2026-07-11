@@ -9,13 +9,6 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
 !!! info "Architectural Context"
     Detailed reference for Kubernetes Networking in the context of Networking & Service Mesh.
 
-## Cloud Infrastructure
-
-### Azure Networking
-
-#### Private Access
-
-  - **(2025)** [Private Link Reality Bites: Service Endpoints vs Private Link](https://blog.cloudtrooper.net/2025/02/17/private-link-reality-bites-service-endpoints-vs-private-link) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive comparison of Azure Service Endpoints versus Private Link. The author details critical architectural trade-offs: while Service Endpoints are simple to configure and leverage public IPs, Private Link allocates private endpoints within your virtual network, enhancing the security posture of microservice deployments by blocking data exfiltration channels, albeit with increased cost and complexity.
 ## Container Orchestration
 
 ### Kubernetes Networking (1)
@@ -55,6 +48,10 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
   - **(2022)** [==home.robusta.dev: The ultimate guide to Kubernetes Services, LoadBalancers, and Ingress 🌟🌟🌟==](https://home.robusta.dev/blog/kubernetes-service-vs-loadbalancer-vs-ingress) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A visual, high-impact guide illuminating structural boundaries and usage paradigms across ClusterIP, NodePort, LoadBalancer, and Ingress. Translates complex routing definitions into clear deployment rules of thumb to help architects select the optimal entry channel based on target budgets and security policies.
 #### Ingress
 
+##### Azure Application Gateway
+
+  - **(2025)** [==Application Gateway for Containers with AKS Overlay Networking and VNet Flow Logs==](https://blog.cloudtrooper.net/2025/04/02/application-gateway-for-containers-a-not-so-gentle-intro-4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep-dive technical investigation of Azure's next-generation Application Gateway for Containers (AGC) running atop AKS Overlay Networking. Details the setup, logging mechanics, and network telemetry capture.
+  - **(2025)** [**Introduction to Azure Application Gateway for Containers (AGC)**](https://blog.cloudtrooper.net/2025/02/28/application-gateway-for-containers-a-not-so-gentle-intro-1) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introductory architecture guide covering the capabilities of Azure's modern Application Gateway for Containers (AGC). Illustrates how it integrates natively via Gateway API parameters to deliver low-latency application routing.
 ##### Ingress Controllers
 
   - **(2021)** [**platform9.com: Ultimate Guide to Kubernetes Ingress Controllers 🌟**](https://platform9.com/blog/ultimate-guide-to-kubernetes-ingress-controllers) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A definitive reference comparison comparing top ingress technologies (NGINX, Envoy, Traefik, HAProxy, Kong). Benchmarks each against raw throughput, latency profiles, dynamic reload capabilities, and extensibility models.
@@ -88,6 +85,9 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
   - **(2020)** [**opensource.googleblog.com: Kubernetes: Efficient Multi-Zone Networking with Topology Aware Routing**](https://opensource.googleblog.com/2020/11/kubernetes-efficient-multi-zone.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An in-depth guide on utilizing Topology Aware Routing (formerly Hints) to bias service endpoint selection to local availability zones. Details how keeping container interactions within local AZs reduces latency, minimizes cross-zone data transfer fees, and builds resilient architectures.
 #### Security
 
+##### Egress Traffic
+
+  - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
 ##### Intent-Based Access Control
 
   - **(2022)** [**thenewstack.io: Otterize: Intent-Based Access Control for Kubernetes and Cloud**](https://thenewstack.io/otterize-intent-based-access-control-for-kubernetes-and-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An introduction to Intent-Based Access Control (IBAC) patterns using Otterize. Explains how developers outline communication intents in declarative manifests, which are automatically translated into native CNI policies.
@@ -110,7 +110,6 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
 
 #### Cilium
 
-  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
   - **(2021)** [itnext.io: Installing Cilium on Kubernetes in a fast and efficient way](https://itnext.io/installing-cilium-on-kubernetes-in-a-fast-and-efficient-way-dbcb79ce9699)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A performance-focused guide detailing modern deployment strategies for Cilium, leveraging Helm templates and CLI-driven validation to streamline infrastructure provisioning.
   - **(2021)** [cilium.io: Cilium 1.10: WireGuard, BGP Support, Egress IP Gateway, New Cilium CLI, XDP Load Balancer, Alibaba Cloud Integration and more](https://cilium.io/blog/2021/05/20/cilium-110) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Feature overview of Cilium's v1.10 release, highlighting the integration of native WireGuard encryption, BGP routing, egress gateways, and high-performance XDP load balancing.
 ### Core Services
@@ -148,9 +147,6 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
 #### Operations
 
   - **(2021)** [itnext.io: Autoscaling Ingress Controllers in  Kubernetes (Daniele Polencic)](https://itnext.io/autoscaling-ingress-controllers-in-kubernetes-c64b47088485) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing strategies for scaling ingress controllers automatically using Horizontal Pod Autoscalers (HPA) and Prometheus-sourced custom traffic metrics.
-#### Traefik
-
-  - **(2022)** [Transitioning from ingress-nginx to Traefik in Kubernetes](https://traefik.io/blog/transition-from-ingress-nginx-to-traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A migration blueprint walking developers through transitioning from ingress-nginx to Traefik. Details how Traefik's native middleware, dynamic routing, and CRDs simplify TLS management and traffic splitting in dynamic environments.
 ### Multi-Cluster
 
 #### Cluster Mesh
@@ -210,9 +206,14 @@ description: "Curated, AI-ranked Kubernetes Networking resources for the 2026 Cl
 #### Security and Hardening
 
   - **(2020)** [**blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof**](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on validating network security policies using automated policy-verification and security-testing tools instead of assuming they work. Explains techniques for writing reliable assertions for ingress and egress rules. Live Grounding notes that modern 2026 enterprise teams actively integrate policy checkers (such as Sonobuoy, Cilium Hubble, or OPA) into CI/CD pipelines.
+### Load Balancing (1)
+
+#### Performance and Tuning (1)
+
+  - **(2023)** [==learnk8s.io: Load balancing and scaling long-lived connections in Kubernetes 🌟🌟🌟==](https://learnkube.com/kubernetes-long-lived-connections) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional, highly-detailed exploration of how Kubernetes handles long-lived connections such as gRPC, HTTP/2, and WebSockets. Analyzes why standard iptables-based kube-proxy L4 load balancing fails to distribute traffic evenly, causing backend starvation. Live Grounding highlights that resolving these issues requires client-side load balancing, proxy-assisted gRPC routing, or active connection-termination intervals.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Servicemesh](./servicemesh.md) | [Web Servers](./web-servers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

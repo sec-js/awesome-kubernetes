@@ -96,11 +96,6 @@ description: "Top AWS resources for 2026, AI-ranked: AWS App Runner, Amazon ECS-
 #### Comparison
 
   - **(2021)** [**whizlabs.com: AWS Kinesis vs Kafka Apache**](https://www.whizlabs.com/blog/kinesis-vs-kafka) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comparative architectural review between AWS Kinesis and Apache Kafka. Analyzes data retention policies, throughput capabilities, scaling overheads, and total cost of ownership (TCO) profiles.
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ## Cloud Native Infrastructure
 
 ### Service Mesh
@@ -108,6 +103,13 @@ description: "Top AWS resources for 2026, AI-ranked: AWS App Runner, Amazon ECS-
 #### AWS (2)
 
   - **(2022)** [aws.amazon.com/app-mesh](https://aws.amazon.com/app-mesh) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Live Grounding Synthesis: Built on Envoy as AWS's managed service mesh, AWS App Mesh was deprecated in late 2024 and fully sunsetted. Platform teams are urged to transition to Amazon ECS Service Connect or Amazon VPC Lattice.
+## Cloud Native Platforms
+
+### AWS (3)
+
+#### Managed Observability
+
+  - **(2026)** [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS fully-managed metric service designed around open-source Cortex core architecture. Automatically scales telemetry storage, ingestion, and query resources in secure enterprise environments.
 ## Cloud-Native Provisioning
 
 ### CICD Integration
@@ -120,7 +122,7 @@ description: "Top AWS resources for 2026, AI-ranked: AWS App Runner, Amazon ECS-
   - **(2026)** [Continuous Deployment with AWS](https://aws.amazon.com/blogs/devops/tag/continuous-deployment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated collection of continuous deployment strategies optimized for AWS runtimes. Explains canary releases, blue/green cluster migrations, and automated rollbacks on ECS and EKS.
 ## Edge and IoT
 
-### AWS (3)
+### AWS (4)
 
 #### IoT Platforms
 
@@ -196,7 +198,7 @@ description: "Top AWS resources for 2026, AI-ranked: AWS App Runner, Amazon ECS-
   - **(2021)** [thenewstack.io: Remote Debugging in AWS: The Missing Link in Your Debugging Toolset](https://thenewstack.io/remote-debugging-in-aws-the-missing-link-in-your-debugging-toolset) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight exposes methodologies for live-debugging cloud-hosted microservices without causing disruption. Live Grounding tracks the evolution of these techniques into sophisticated cloud-native debugging proxies and observability integrations (like OpenTelemetry and Telepresence), bridging local IDEs with remote VPC resources.
 
 ---
-💡 **Explore Related:** [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md) | [Edge Computing](./edge-computing.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

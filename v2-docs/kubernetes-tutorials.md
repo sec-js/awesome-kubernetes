@@ -94,7 +94,7 @@ description: "Curated, AI-ranked Kubernetes Tutorials resources for the 2026 Clo
   - **(2022)** [**cloud.google.com: kubernetes comic**](https://cloud.google.com/kubernetes-engine/kubernetes-comic) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's classic, highly creative visual guide explaining modern container scaling, lifecycle, and orchestration concepts through graphic storytelling. Perfect for explaining Kubernetes business advantages to technical managers.
 
 ---
-💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 
