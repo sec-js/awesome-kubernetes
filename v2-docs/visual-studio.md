@@ -124,7 +124,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Docker, Kubernete
   - **(2025)** [==Ruff==](https://github.com/astral-sh/ruff) <span class='md-tag md-tag--info'>⭐ 47969</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ad2ba4fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 9 L 20 4 L 30 9 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-ad2ba4fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight introduces Ruff as an extremely fast Python linter and formatter written in Rust. Live Grounding confirms Ruff is a de facto industry standard, dramatically lowering CI run times by replacing several older style checkers with a single compiled utility.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md)
 
-🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

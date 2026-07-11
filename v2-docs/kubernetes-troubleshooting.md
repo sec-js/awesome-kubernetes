@@ -25,7 +25,7 @@ description: "Curated, AI-ranked Kubernetes Troubleshooting resources for the 20
   - **(2024)** [kubetools.io: Kubeshark – API Traffic Analyzer for Kubernetes](https://kubetools.io/mastering-kubernetes-debugging-and-troubleshooting-with-kubeshark-real-time-visibility-query-language-service-map-and-integrations) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced network analyzer for Kubernetes (formerly API Tap) that captures and decrypts cluster traffic in real-time. Leverages modern eBPF and packet capture technologies to trace service-to-service communication.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Serverless](./serverless.md) | [Kubectl Commands](./kubectl-commands.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [QA](./qa.md)
 

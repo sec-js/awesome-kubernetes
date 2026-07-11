@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kadalu and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Tools resources for 2026, AI-ranked: Kadalu, Authelia and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Plugins, Tools, Extensions and Projects
 
@@ -97,20 +97,9 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Integration Tools
 
   - **(2020)** [ekglue - Envoy/Kubernetes glue](https://github.com/jrockway/ekglue) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ff1d5b3c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 2 L 30 5 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-ff1d5b3c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight utility developed to bridge Envoy configuration directly with Kubernetes API endpoints. It parses Kubernetes services and endpoints to dynamically construct Envoy-compatible bootstrap configurations. While highly illustrative of early custom control plane mechanics, it has largely been superseded by native Kubernetes Gateway API and modern Envoy-based ingress controllers.
-## Cloud Native Operations
-
-### Kubernetes
-
-#### Configuration Management (1)
-
-  - **(2021)** [**k8syaml.com 🌟**](https://k8syaml.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An interactive web environment designed to generate clean, standard Kubernetes manifests based on best-practice configurations. It enables operators to construct and validate resources without writing boilerplate templates from scratch.
-#### Policy Enforcement
-
-  - **(2022)** [==datree.io==](https://www.datree.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade CLI validation engine built to run policy and configuration checks on Kubernetes manifests. Datree evaluates configurations against schema rules and security standards before they reach clusters. This is a critical validation step for CI/CD GitOps pipelines.
-  - **(2021)** [**dev.to: Automating quality checks for Kubernetes YAMLs**](https://dev.to/wkrzywiec/automating-quality-checks-for-kubernetes-yamls-398) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed technical guide demonstrating how to integrate automated quality controls for Kubernetes manifests within build pipelines. It explains how to combine linters and security checks to validate configurations before they are deployed.
 ## Cloud Native Platforms
 
-### Kubernetes (1)
+### Kubernetes
 
 #### Multi-Arch Telemetry
 
@@ -122,7 +111,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Dynamic Scaling
 
   - **(2022)** [custom-pod-autoscaler](https://github.com/jthomperoo/custom-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 300</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-88b21155" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 6 L 20 10 L 30 4 L 40 8 L 50 7" fill="none" stroke="url(#spark-grad-88b21155)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A framework allowing developers to write custom pod autoscaling logic inside Kubernetes, bypassing rigid HPA limitations. By supporting custom metrics, user-defined shell scripts, or HTTP APIs, it enables fine-grained scaling patterns tailored to specialized processing workloads.
-### Configuration Management (2)
+### Configuration Management (1)
 
 #### Dynamic Metadata
 
@@ -191,6 +180,13 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Real-time Streaming
 
   - **(2025)** [github.com/DataCater/datacater (real-time, cloud-native data pipeline platform)](https://github.com/DataCater/datacater) <span class='md-tag md-tag--info'>⭐ 83</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9f83e955" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 10 L 30 3 L 40 5 L 50 9" fill="none" stroke="url(#spark-grad-9f83e955)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — DataCater is a cloud-native platform designed to build real-time Change Data Capture (CDC) and data streaming pipelines. It helps transfer events cleanly across heterogeneous databases using declarative Kubernetes-native custom resources and lightweight containerized processors.
+## Deployment and Delivery
+
+### Platform Engineering
+
+#### Kubernetes Management
+
+  - **(2025)** [Devtron Labs: Devtron provides a 'seamless,’ 'implementation agnostic uniform interface' across Kubernetes Life Cycle integrated with most Opensource and commercial tools](https://devtron.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source, tool-agnostic application management platform for Kubernetes. Unifies discrete CI/CD workflows, GitOps, observability tooling, and cluster resource debugging into a single visual interface, drastically lowering cognitive load.
 ## DevOps
 
 ### Static Analysis
@@ -214,7 +210,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
   - **(2024)** [Metacontroller](https://github.com/metacontroller/metacontroller) <span class='md-tag md-tag--info'>⭐ 993</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23363b6c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 4 L 30 3 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-23363b6c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An add-on for Kubernetes that simplifies writing custom controllers by letting developers implement business logic via webhooks in any programming language. It manages the low-level API mechanics of watching, syncing, and reconciling resources, reducing operator boilerplate. Widely maintained by the community through 2026, it is an elegant bridge for non-Go operators.
 ## GitOps and Delivery
 
-### Configuration Management (3)
+### Configuration Management (2)
 
 #### Sidecar Utilities
 
@@ -271,7 +267,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Auditing and Compliance
 
   - **(2023)** [k8s-node-label-monitor: Kubernetes Node Label Monitor provides a custom' Kubernetes controller for monitoring and notifying changes in the label states of Kubernetes nodes (labels added, deleted, or updated), and can be run either node-local or cluster-wide](https://github.com/adaptant-labs/k8s-node-label-monitor) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d30bc534" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 5 L 30 4 L 40 6 L 50 7" fill="none" stroke="url(#spark-grad-d30bc534)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A custom controller built to monitor label states on Kubernetes node resources. It dispatches notifications on label updates, additions, or deletions, maintaining configuration trust across larger clusters.
-### Platform Engineering
+### Platform Engineering (1)
 
 #### GitOps Platforms
 
@@ -309,7 +305,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Edge Networking
 
   - **(2023)** [kVDI](https://github.com/webmeshproj/webmesh-vdi) <span class='md-tag md-tag--info'>⭐ 459</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-67039847" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 12 L 30 5 L 40 10 L 50 7" fill="none" stroke="url(#spark-grad-67039847)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Duplicated reference of the peer-to-peer cloud-native VDI platform. It enables scalable running of interactive virtual desktops inside standard Kubernetes pods via automated remote-protocol streaming.
-## Kubernetes (2)
+## Kubernetes (1)
 
 ### Observability
 
@@ -318,7 +314,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
   - **(2022)** [==github.com/oslabs-beta/oslabs==](https://github.com/oslabs-beta/KubernOcular) <span class='md-tag md-tag--info'>⭐ 65</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b0ab1b58" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 6 L 20 11 L 30 4 L 40 10 L 50 11" fill="none" stroke="url(#spark-grad-b0ab1b58)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — KubernOcular is an open-source visualizer and troubleshooting tool designed to map and monitor live Kubernetes topologies. It helps operators identify bottlenecks and configuration misalignments by representing workloads and networking rules in an intuitive graphical flow.
 ## Kubernetes and Container Orchestration
 
-### Platform Engineering (1)
+### Platform Engineering (2)
 
 #### AppOps and GitOps
 
@@ -370,11 +366,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
   - **(2026)** [teamcode-inc/kubeorbit](https://github.com/teamcode-inc/kubeorbit) <span class='md-tag md-tag--info'>⭐ 454</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c0d8cf0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 4 L 30 2 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-6c0d8cf0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kubeorbit is a specialized service routing tool focused on creating isolated testing channels within shared microservice topologies. By injecting dynamic headers into requests, it allows engineers to test unstable feature versions without duplicating entire clusters. Live engineering checks indicate the project has suffered low maintenance recently, making it a reference rather than a production candidate.
 ## Networking and Security
 
-### Access Control (1)
-
-#### Identity Gateways
-
-  - **(2026)** [==Teleport 🌟==](https://github.com/gravitational/teleport) <span class='md-tag md-tag--info'>⭐ 20488</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-488a2fb0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 12 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-488a2fb0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-protocol infrastructure access gateway. Teleport consolidates SSH, database, web app, and Kubernetes API session access into an audited, identity-backed portal with detailed record-keeping, biometric integration, and enterprise access reviews.
 ### Global Load Balancing
 
 #### GSLB Operator
@@ -513,7 +504,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Visualizer
 
   - **(2021)** [sciuro](https://github.com/cloudflare/sciuro) <span class='md-tag md-tag--info'>⭐ 180</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-83fbf11b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 12 L 30 3 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-83fbf11b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental graphical interface developed by Cloudflare to visualize Kubernetes workloads, cluster nodes, and networking paths in real time. It was designed to highlight resource topology and mapping structures. In 2026, the repository is unmaintained but serves as an informative architectural archetype for web UI mapping.
-### Platform Engineering (2)
+### Platform Engineering (3)
 
 #### Control Planes
 
@@ -539,13 +530,6 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Observability (3)
 
   - **(2021)** [==ddosify/ddosify==](https://github.com/getanteon/anteon) <span class='md-tag md-tag--info'>⭐ 8528</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d9d3505e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 12 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-d9d3505e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rebranded from Ddosify to Anteon, this is a high-performance, developer-centric network load-testing and observability platform. It allows simulating high concurrency to benchmark REST APIs, HTTP endpoints, and Kubernetes workloads.
-## Performance Engineering
-
-### Kubernetes Optimization
-
-#### Autonomous Tuning
-
-  - **(2025)** [**How Kruize Optimizes OpenShift Workloads**](https://developers.redhat.com/articles/2025/06/25/how-kruize-optimizes-openshift-workloads) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical review explaining how the Kruize Autotune project leverages prometheus metrics to autonomously profile and adjust microservices allocations on enterprise OpenShift clusters.
 ## Platform
 
 ### PaaS
@@ -553,7 +537,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Cloud Foundry
 
   - **(2022)** [cf-for-k8s](https://github.com/cloudfoundry/cf-for-k8s) <span class='md-tag md-tag--info'>⭐ 292</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-76cd91f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 4 L 20 9 L 30 7 L 40 2 L 50 2" fill="none" stroke="url(#spark-grad-76cd91f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An implementation of Cloud Foundry designed to run natively on Kubernetes, blending the Cloud Foundry developer experience (cf push) with Kubernetes infrastructure. By 2026, this repository is archived as Cloud Foundry has transitioned its Kubernetes strategy toward more modular tools (like Korifi), rendering this specific integrated project a legacy reference.
-## Platform Engineering (3)
+## Platform Engineering (4)
 
 ### Application Delivery (2)
 
@@ -601,7 +585,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
   - **(2020)** [Armada](https://github.com/armadaproject/armada) <span class='md-tag md-tag--info'>⭐ 600</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d6872f4d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 8 L 20 9 L 30 12 L 40 13 L 50 10" fill="none" stroke="url(#spark-grad-d6872f4d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-throughput, multi-cluster batch queuing system built on top of Kubernetes. Armada manages tens of thousands of concurrent jobs across geographically distributed clusters, optimized for machine learning and quantitative analysis.
 ## Security
 
-### Access Control (2)
+### Access Control (1)
 
 #### RBAC Management
 
@@ -635,7 +619,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### LDAP Authentication
 
   - **(2018)** [vbouchaud/k8s-ldap-auth](https://github.com/HopopOps/k8s-ldap-auth) <span class='md-tag md-tag--info'>⭐ 54</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-720c350b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 11 L 30 9 L 40 11 L 50 10" fill="none" stroke="url(#spark-grad-720c350b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight Kubernetes webhook authentication service interfacing directly with external LDAP/Active Directory engines. It maps LDAP group memberships into Kubernetes groups for clean RBAC authorization.
-### Policy Enforcement (1)
+### Policy Enforcement
 
 #### Admission Control (1)
 
@@ -710,7 +694,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
 #### Dependency Tracking
 
   - **(2025)** [vesion-checker](https://github.com/jetstack/version-checker) <span class='md-tag md-tag--info'>⭐ 773</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ac05ebbe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 3 L 20 2 L 30 8 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-ac05ebbe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A utility developed by Jetstack that checks running cluster image versions against public container registries to report outdated dependencies, exposing compatibility statuses as Prometheus metrics for proactive patching.
-### Configuration Management (4)
+### Configuration Management (3)
 
 #### Backup Tools
 
@@ -749,7 +733,7 @@ description: "Top Kubernetes Tools resources for 2026, AI-ranked: Teleport, Kada
   - **(2026)** [pvc-autoresizer](https://github.com/topolvm/pvc-autoresizer) <span class='md-tag md-tag--info'>⭐ 398</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64afc1b7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 7 L 30 2 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-64afc1b7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pvc-autoresizer dynamically expands PVC capacities before they hit threshold limits. By monitoring Prometheus volume metrics and modifying API descriptors on the fly, it prevents disk exhaustion failures automatically.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -1766,6 +1766,18 @@ class V2VisionEngine:
 """
                 _body = _body.replace("### Configuration as Code\n\n", f"### Configuration as Code\n{dsl_injection}\n")
                 
+                pipeline_code_injection = """
+!!! info "Pipeline as Code with Jenkins: Architectural Core Principles"
+    As defined in the official [Jenkins Pipeline Book](https://www.jenkins.io/doc/book/pipeline), Jenkins is fundamentally an automation engine that supports diverse delivery patterns. Modeling your delivery workflow as a **Pipeline** adds a powerful set of automation capabilities:
+    
+    *   **Code**: Pipelines are implemented directly in code (usually a `Jenkinsfile`) and checked into version control, enabling peer code reviews and auditability.
+    *   **Durable**: Pipelines are built to survive both planned and unplanned restarts of the Jenkins controller.
+    *   **Pausable**: Pipelines can pause execution to wait for human approval or input before proceeding to deployment.
+    *   **Versatile**: They naturally support complex real-world CD topologies, including parallel execution, looping, and fork/join patterns.
+    *   **Extensible**: The Pipeline DSL supports custom extensions (e.g., Shared Libraries) and integrations with external plugins.
+"""
+                _body = _body.replace("## CICD Pipeline Architecture\n\n", f"## CICD Pipeline Architecture\n{pipeline_code_injection}\n")
+                
                 _body = _body.replace(
                     "#### Docker Deployment\n\n",
                     "#### Docker Deployment\n\n"

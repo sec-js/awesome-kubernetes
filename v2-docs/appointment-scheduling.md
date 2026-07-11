@@ -20,5 +20,5 @@ description: "Curated, AI-ranked Appointment Scheduling resources for the 2026 C
 ---
 💡 **Explore Related:** [Elearning](./elearning.md) | [Interview Questions](./interview-questions.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -395,7 +395,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#case-study" title="39 resources">Case Study<span class="v2-heat-n">39</span></a>
 <a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="1764 resources">Community-Tool<span class="v2-heat-n">1764</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#conceptual-content" title="12 resources">Conceptual<span class="v2-heat-n">12</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="323 resources">De Facto Standard<span class="v2-heat-n">323</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="322 resources">De Facto Standard<span class="v2-heat-n">322</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
@@ -403,7 +403,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="368 resources">Enterprise-Stable<span class="v2-heat-n">368</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="319 resources">Go<span class="v2-heat-n">319</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content-2" title="1 resources">Go/Yaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="11 resources">Groovy<span class="v2-heat-n">11</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="266 resources">Guide<span class="v2-heat-n">266</span></a>

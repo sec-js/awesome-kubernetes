@@ -107,11 +107,6 @@ description: "Top Terraform resources for 2026, AI-ranked: K3s Private Cluster, 
 #### Legacy Tooling
 
   - **(2021)** [**segmentio/stack**](https://github.com/segmentio/stack) <span class='md-tag md-tag--info'>⭐ 2091</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2b2c8331" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 12 L 30 7 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-2b2c8331)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Segment's production-proven infrastructure baseline template codebase for AWS workloads. Standardized on ECS, Auto-scaling, and foundational network controls, but now archived in favor of native Kubernetes/EKS methodologies.
-### Ansible
-
-#### Image Provisioning
-
-  - **(2021)** [getbetterdevops.io: Build Docker Images Using Ansible and Packer](https://www.empowersurvivors.net) <span class='md-tag md-tag--warning'>[YAML/HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint demonstrating how to integrate Ansible playbooks as provisioning engines inside HashiCorp Packer build runs. Outlines processes to construct audited, standardized, and security-hardened Docker images.
 ### Best Practices
 
 #### Case Studies
@@ -148,11 +143,6 @@ description: "Top Terraform resources for 2026, AI-ranked: K3s Private Cluster, 
 #### Azure Integration
 
   - **(2023)** [devopshubproject/azure-terraform-ansible](https://github.com/devopshubproject/azure-terraform-ansible) <span class='md-tag md-tag--info'>⭐ 3</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c7fd9deb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 4 L 30 13 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-c7fd9deb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A functional integration project demonstrating hybrid automation on Azure. Illustrates patterns using Terraform to instantiate structural subnets and compute hosts, passing outputs directly into Ansible for fast runtime bootstrapping.
-### Serverless Integration
-
-#### Hybrid Automation
-
-  - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
 ### Terraform
 
 #### AWS Integration
@@ -201,7 +191,7 @@ description: "Top Terraform resources for 2026, AI-ranked: K3s Private Cluster, 
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a88e588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8a88e588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Ansible](./ansible.md) | [Kubernetes Security](./kubernetes-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
