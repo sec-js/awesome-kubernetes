@@ -1775,6 +1775,23 @@ class V2VisionEngine:
     *   **Pausable**: Pipelines can pause execution to wait for human approval or input before proceeding to deployment.
     *   **Versatile**: They naturally support complex real-world CD topologies, including parallel execution, looping, and fork/join patterns.
     *   **Extensible**: The Pipeline DSL supports custom extensions (e.g., Shared Libraries) and integrations with external plugins.
+
+!!! info "Jenkins Pipeline Best Practices: Declarative, Scripted, and Shared Libraries"
+    Based on CloudBees' strategic guide: [Top 10 Jenkins Pipeline Best Practices](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin):
+    
+    *   **Prefer Declarative Syntax**: Declarative syntax (introduced in 2017) is the modern standard. Many advanced features—such as matrix builds—are exclusively available in Declarative. Avoid legacy Scripted syntax (2014) unless absolutely necessary.
+    *   **Use Shared Libraries to Avoid Inline Scripts**: Using `script` tags inside a Declarative pipeline is an anti-pattern. Instead of inline Groovy scripting, encapsulate complex logic as custom steps inside a version-controlled **Shared Library**.
+    *   **Do Not Treat Shared Libraries as General Programming Projects**: Pipelines should only orchestrate CI tasks, not run complex business logic. Heavy computations or scripting inside a Shared Library execute on the Jenkins controller (master) rather than the build agents, causing severe memory leaks and performance bottlenecks.
+    *   **Scripted Syntax Fallback**: Only resort to Scripted syntax when a task cannot be achieved using a combination of Declarative syntax and a custom Shared Library step.
+    *   **Declarative inside Shared Libraries**: **Shared-libraries with scripted pipeline syntax are not recommended** since more custom coding involves more maintenance issues. Use **Declarative Pipeline Syntax** as much as possible inside your libraries.
+
+
+!!! info "Building Declarative Pipelines with OpenShift: Jenkinsfile as Code and Syntax Structures"
+    As detailed in Red Hat's engineering guide: [Building Declarative Pipelines with OpenShift DSL Plugin](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin):
+    
+    *   **Jenkinsfiles as the De-Facto Standard**: Since Jenkins 2, Jenkinsfiles have quickly become the **de-facto standard for building continuous delivery pipelines**, allowing teams to track, review, audit, and manage the pipeline lifecycle inside source version control just like application code.
+    *   **Scripted vs. Declarative Execution**: While the Groovy-based **scripted syntax** was the default in Jenkins 2, the **declarative syntax** (introduced in Jenkins 2.5) offers a simplified way to control all pipeline aspects. Ultimately, **both syntaxes translate to the same execution blocks** in Jenkins and achieve the same result.
+    *   **Structure of Declarative Pipelines**: In its simplest form, a declarative pipeline is composed of an **`agent`** (defining the build executor/slave) and a series of **`stages`**, with each stage containing the specific **`steps`** to be executed.
 """
                 _body = _body.replace("## CICD Pipeline Architecture\n\n", f"## CICD Pipeline Architecture\n{pipeline_code_injection}\n")
                 
