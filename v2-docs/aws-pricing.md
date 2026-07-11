@@ -18,7 +18,7 @@ description: "Curated, AI-ranked AWS Pricing resources for the 2026 Cloud Native
   - **(2021)** [==cast.ai: Keep your AWS Kubernetes costs in check with intelligent allocation' (EKS)==](https://cast.ai/blog/keep-your-aws-kubernetes-costs-in-check-with-intelligent-allocation) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explores Kubernetes resource provisioning on EKS using automated container allocations. Offers strategies to prevent container-level over-provisioning and dynamically handle node scaling tasks to curb cluster waste.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

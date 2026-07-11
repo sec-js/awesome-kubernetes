@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Compose, Awesome Java and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Compose, Awesome Go and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -251,7 +251,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Com
   - **(2026)** [**Awesome microservices**](https://github.com/mfornos/awesome-microservices) <span class='md-tag md-tag--info'>⭐ 14325</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-20198e13" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 4 L 30 12 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-20198e13)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The premier comprehensive catalog charting microservices design patterns, distributed consensus engines, API gateways, tracing tools, and event-streaming buses. Essential for building scalable, decoupled service meshes.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [AWS Tools Scripts](./aws-tools-scripts.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

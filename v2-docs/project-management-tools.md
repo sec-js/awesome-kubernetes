@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Project Management Tools resources for the 2026
   - **(2020)** [Podium](https://github.com/sa-mw-dach/podium) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer tool designed to orchestrate server-side-rendered micro-frontends (podlets) in modular architectures, ensuring fast composition and high decoupling of user interfaces.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
+💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

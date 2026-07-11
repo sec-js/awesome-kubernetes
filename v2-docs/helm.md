@@ -64,9 +64,12 @@ description: "Top Helm resources for 2026, AI-ranked: Jmeter, Codecentric Jenkin
 ##### Jenkins
 
   - **(2021)** [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid bootstrap of a Jenkins-driven CI/CD workflow utilizing Helm charts for packaging. Showcases how automation systems leverage the Helm CLI to rapidly package, version, and deploy builds into target namespaces.
+##### Red Hat OpenShift (1)
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Enterprise Platforms
 
-#### Red Hat OpenShift (1)
+#### Red Hat OpenShift (2)
 
 ##### Microservices
 
@@ -101,6 +104,16 @@ description: "Top Helm resources for 2026, AI-ranked: Jmeter, Codecentric Jenkin
   - **(2022)** [apiiro.com: Malicious Kubernetes Helm Charts can be used to steal sensitive information from Argo CD deployments](https://apiiro.com/blog/malicious-kubernetes-helm-charts-can-be-used-to-steal-sensitive-information-from-argo-cd-deployments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Crucial security report highlighting vulnerabilities where malicious or compromised Helm charts exploit the template-rendering engine of GitOps systems (like Argo CD) to expose sensitive secrets or execute side-channel attacks.
 ## Platform Engineering
 
+### Application Delivery (1)
+
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
+### GitOps (1)
+
+#### Helm Lifecycle Management
+
+  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ### Kubernetes GitOps and Packaging
 
 #### DevOps Pipelines
@@ -114,7 +127,7 @@ description: "Top Helm resources for 2026, AI-ranked: Jmeter, Codecentric Jenkin
   - **(2020)** [==Jmeter==](https://github.com/helm/charts/tree/master/stable/distributed-jmeter) <span class='md-tag md-tag--info'>⭐ 15424</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-21c8dbb6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 13 L 30 7 L 40 3 L 50 4" fill="none" stroke="url(#spark-grad-21c8dbb6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The legacy Helm implementation of distributed Apache JMeter performance testing. For dynamic cluster scaling, modern performance engineering teams should transition to k6 operators or active community performance test packaging.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

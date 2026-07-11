@@ -49,7 +49,7 @@ description: "Curated, AI-ranked Crunchydata resources for the 2026 Cloud Native
   - **(2021)** [blog.crunchydata.com: Using Cert Manager to Deploy TLS for Postgres on Kubernetes](https://www.crunchydata.com/blog/using-cert-manager-to-deploy-tls-for-postgres-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how to interface the cert-manager operator with Crunchy PostgreSQL deployments to automate TLS certificate lifecycles. Standardizing certificate issuance and automatic renewal eliminates risks of unexpected database communication outages. It represents a foundational best-practice for zero-trust microservice communications.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [NoSQL](./nosql.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [NoSQL](./nosql.md) | [Message Queue](./message-queue.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -54,13 +54,6 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
 #### Internal Developer Platforms
 
   - **(2023)** [**itnext.io: Build a Lightweight Internal Developer Platform with Argo CD and Kubernetes Labels**](https://itnext.io/build-a-lightweight-internal-developer-platform-with-argo-cd-and-kubernetes-labels-4c0e52c6c0f4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Demonstrates how to design a lightweight, self-service Internal Developer Platform (IDP) by leveraging Kubernetes metadata labels, admission webhooks, and ArgoCD's API to dynamically generate applications.
-### CICD Migration
-
-#### Argo Workflows
-
-##### Jenkins
-
-  - **(2022)** [**Migrating CI/CD from Jenkins to Argo Workflows**](https://dev.to/intuitdev/migrating-cicd-from-jenkins-to-argo-1km4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Shares practical lessons from migrating a legacy Jenkins CI pipeline stack over to container-native Argo Workflows. Compares the performance, cost efficiency, resource overhead, and maintainability of step-based DAG flows.
 ### GitOps
 
 #### AWS EKS
@@ -87,7 +80,7 @@ description: "Curated, AI-ranked Argo resources for the 2026 Cloud Native archit
   - **(2022)** [**infracloud.io: How to Setup Blue Green Deployments with DNS Routing 🌟**](https://www.infracloud.io/blogs/blue-green-deployments-dns-routing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines advanced architectural design patterns using DNS-based routing to switch traffic for Blue-Green deployments. Discusses how to coordinate external load balancers and global DNS systems during the migration window.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Keptn](./keptn.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

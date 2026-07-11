@@ -18,6 +18,13 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
   - **(2025)** [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager) <span class='md-tag md-tag--info'>⭐ 87</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eb9ca518" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 12 L 30 13 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-eb9ca518)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Duplicate citation verification for the Custom WAR Packager. Serves as the primary operational tool used to generate custom, pre-hardened enterprise Jenkins distributions tailored with pre-allocated configurations.
 ### Configuration as Code
 
+!!! info "Jenkins Configuration as Code Solutions: The 3 Available DSLs"
+    - **Job DSL**: Historically one of the first popular plugins for managing Jenkins configuration as code. It utilizes a Groovy-based domain-specific language to declare and generate Jenkins jobs dynamically.
+    - **Jenkins (Declarative) Pipeline**: The modern standard for declaring build pipelines as code using a structured, readable syntax inside a `Jenkinsfile`.
+    - **Jenkins Configuration as Code (JCasC)**: Allows declaring the entire state of the Jenkins controller (plugins, credentials, global settings, agents) using YAML configurations.
+    
+    *Tip: Avoid manually configured freestyle jobs. Leverage JCasC for controller configuration and Declarative Pipelines for job execution.*
+
 #### Docker Deployment
 
   - **(2025)** [Example of JCasC](https://github.com/halkeye-docker/docker-jenkins) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba5342fe" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 9 L 40 12 L 50 9" fill="none" stroke="url(#spark-grad-ba5342fe)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference architecture repository deploying containerized Jenkins masters using pre-mounted configurations and declarative configurations. Ideal for sandboxing configuration-as-code workflows.
@@ -44,22 +51,13 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
 #### Local Execution
 
   - **(2025)** [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfile-runner) <span class='md-tag md-tag--info'>⭐ 1203</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-85377dc0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 3 L 30 10 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-85377dc0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An ephemeral, lightweight execution engine that encapsulates Jenkins pipelines outside a persistent master daemon. This tool runs custom pipelines as short-lived, isolated single-use tasks—ideal for cloud-native serverless orchestrators like Knative or AWS Fargate.
-## Cloud Native
+## Continuous Integration and Delivery
 
-### Continuous Integration
+### Cloud Native CI-CD
 
-#### CI-CD Pipelines
+#### Hybrid Integration
 
-##### Red Hat OpenShift
-
-  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
-## Deployment and Delivery
-
-### CICD Platforms
-
-#### Kubernetes-Native CI
-
-  - **(2021)** [jenkins-x.io](https://jayex.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Jenkins X is an automated, cloud-native CI/CD platform engineered specifically for Kubernetes environments. Driven by Tekton and Helm, it implements comprehensive GitOps-based environment promotion and dynamic preview deployment capabilities.
+  - **(2021)** [**Easily reuse Tekton and Jenkins X from Jenkins**](https://www.jenkins.io/blog/2021/04/21/tekton-plugin) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details the technical cooperation between Jenkins, Jenkins X, and Tekton. It demonstrates how traditional Jenkins users can trigger Tekton's containerized cloud-native tasks, allowing teams to smoothly modernize their build architectures incrementally without completely rewriting their legacy Jenkinsfiles.
 ## Infrastructure
 
 ### Cloud Environments
@@ -107,13 +105,6 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
 #### Special Interest Groups
 
   - **(2021)** [Jenkins SIG Cloud Native 🌟](https://www.jenkins.io/sigs/cloud-native) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The portal for the Cloud Native Jenkins SIG, driving efforts to re-architect Jenkins for cloud infrastructures. Documents strategic design work on pluggable storage backends (e.g., AWS S3, Azure Blob), serverless runtimes, and optimized execution mechanisms for Kubernetes clusters.
-## Kubernetes and Cloud Native
-
-### CICD
-
-#### Dockerization
-
-  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details optimal Docker containerization patterns for Spring Boot microservices, addressing multi-stage image builds, layer caching, and minimizing runtime footprint sizes. It shows how to design pipeline steps to generate secure, unprivileged OCI-compliant container images.
 ## Microservices
 
 ### Application Development
@@ -121,18 +112,39 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
 #### Kotlin
 
   - **(2019)** [piotrminkowski.wordpress.com: Kotlin microservice with spring boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural walk-through for establishing lightweight, container-ready Kotlin microservices utilizing Spring Boot. Explores native integration patterns, testing, and modern language features optimized for cloud environments.
-## Site Reliability Engineering
 
-### Observability
+## Curated Slides and Videos
 
-#### Data Management
+??? note "Jenkinsfile Runner slides. Click to expand!"
 
-##### Cost Optimization
+    <center markdown="1">
 
-  - **(2023)** [instana.com: The Hidden Cost of Observability: Data Volume](https://www.ibm.com/think) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the financial and performance ramifications of high-cardinality data ingestion in modern APM systems. Discusses smart sampling, log aggregation, and metric filtering strategies. Curator Insight: Crucial warning on the price of raw ingestion. Live Grounding: Highly relevant for architects designing telemetry pipelines where unchecked trace collection can exceed production infrastructure budgets.
+    <script async class="speakerdeck-embed" data-id="c8dea2f5571a4067868401e4316382af" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js" data-host="speakerdeck.com"></script>
+
+    </center>
+
+??? note "Jenkins Blue Ocean Videos. Click to expand!"
+
+    <center markdown="1">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NVicei-Ew4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJZW0j2eTQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </center>
+
+??? note "Cloudbees Flow Videos. Click to expand!"
+
+    <center markdown="1">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tuhGzaQx8gY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4RFlwU9klQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </center>
 
 ---
-💡 **Explore Related:** [Tekton](./tekton.md) | [Argo](./argo.md) | [Jenkins Alternatives](./jenkins-alternatives.md)
+💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Keptn](./keptn.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

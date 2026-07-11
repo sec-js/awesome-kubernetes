@@ -1,5 +1,5 @@
 ---
-description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Screwdriver API and more — curated Cloud Native tools, guides and references."
+description: "Top Jenkins Alternatives resources for 2026, AI-ranked: kubeflow, Prow and more — curated Cloud Native tools, guides and references."
 ---
 # Jenkins Alternatives for Continuous Integration and Continuous Deployment
 
@@ -9,13 +9,6 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 !!! info "Architectural Context"
     Detailed reference for Jenkins Alternatives for Continuous Integration and Continuous Deployment in the context of Engineering Pipeline.
 
-## Cloud Infrastructure
-
-### AWS Ecosystem
-
-#### Cloud Services
-
-  - **(2026)** [AWS DevOps 🌟](https://aws.amazon.com/devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS’s primary DevOps portal, presenting their native continuous delivery and infrastructure management stack, including CodePipeline, CodeBuild, and CloudFormation. While curator listings highlight frictionless integration with EC2 and ECS, live architectural patterns in 2026 showcase teams frequently combining AWS-native compute with cloud-agnostic deployment runtimes to avoid platform lock-in.
 ## Deployment and Delivery
 
 ### CICD Engines
@@ -40,6 +33,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### Kubernetes-Native CI
 
   - **(2022)** [==csweichel/werft==](https://github.com/csweichel/werft) <span class='md-tag md-tag--info'>⭐ 194</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-82a5d1ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 4 L 30 13 L 40 12 L 50 8" fill="none" stroke="url(#spark-grad-82a5d1ac)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Werft is a lightweight, Kubernetes-native CI system designed to launch build tasks as custom pods directly from Git actions. Bypassing bulky traditional build systems, it leverages native Kubernetes scheduling to guarantee isolated, deterministic execution environments.
+  - **(2021)** [jenkins-x.io](https://jayex.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Jenkins X is an automated, cloud-native CI/CD platform engineered specifically for Kubernetes environments. Driven by Tekton and Helm, it implements comprehensive GitOps-based environment promotion and dynamic preview deployment capabilities.
   - **(2020)** [cloudbees.com: what is jenkins-x](https://www.cloudbees.com/whitepapers/building-cloud-native-apps-painlessly)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational whitepaper exploring Jenkins X as a cloud-native re-architecture of traditional Jenkins patterns. Focuses on its dependency on Tekton for containerized build pipelines and its adoption of GitOps as the definitive state mechanism.
   - **(2020)** [devopstoolkitseries.com](https://www.devopstoolkitseries.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A video-guided tutorial from the DevOps Toolkit Series demonstrating Jenkins X setups. It details the process of establishing Kubernetes-native continuous delivery, showcasing automated PR checks and progressive staging mechanics.
   - **(2020)** [Book: The DevOps 2.6 Toolkit: Jenkins X](https://leanpub.com/the-devops-2-6-toolkit) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly technical book outlining the implementation of automated, Kubernetes-native workflows using Jenkins X. Details advanced patterns using Helm, Tekton, and Prow, providing solid strategies for robust continuous delivery.
@@ -96,6 +90,13 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
 #### AppOps and GitOps
 
   - **(2025)** [==Devtron==](https://github.com/devtron-labs/devtron) <span class='md-tag md-tag--info'>⭐ 5513</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cdd1e066" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 13 L 30 12 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-cdd1e066)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive, open-source AppOps platform for Kubernetes designed to consolidate CI/CD pipelines, GitOps, observability, and cost optimization. Provides self-service deployment interfaces, security checks, and deep resource validation for multicluster operations.
+## MLOps
+
+### Kubernetes
+
+#### Kubeflow
+
+  - **(2026)** [==kubeflow==](https://www.kubeflow.org) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kubeflow is the leading cloud-native open-source MLOps suite designed to construct, deploy, and run modular machine learning workflows on Kubernetes clusters. Provides a comprehensive platform for managing Jupyter notebooks, workflow pipelines, and highly optimized inference deployments.
 ## Software Delivery
 
 ### Artifact Management
@@ -139,7 +140,7 @@ description: "Top Jenkins Alternatives resources for 2026, AI-ranked: Prow, Scre
   - **(2026)** [Codefresh](https://octopus.com/codefresh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An enterprise GitOps and progressive delivery platform built entirely on Argo CD and Argo Rollouts (acquired by Octopus Deploy). Provides centralized, multi-cluster deployment visibility, automated release analytics, and advanced deployment strategies (Canary, Blue/Green) within Kubernetes topologies.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Argo](./argo.md)
+💡 **Explore Related:** [Keptn](./keptn.md) | [Gitops](./gitops.md) | [Tekton](./tekton.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
