@@ -18,12 +18,33 @@ description: "Top Jenkins resources for 2026, AI-ranked: Jenkinsfile Runner, Exa
   - **(2025)** [Jenkins Custom WAR Packager](https://github.com/jenkinsci/custom-war-packager) <span class='md-tag md-tag--info'>⭐ 87</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eb9ca518" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 12 L 30 13 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-eb9ca518)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Duplicate citation verification for the Custom WAR Packager. Serves as the primary operational tool used to generate custom, pre-hardened enterprise Jenkins distributions tailored with pre-allocated configurations.
 ### Configuration as Code
 
-!!! info "Jenkins Configuration as Code Solutions: The 3 Available DSLs"
-    - **Job DSL**: Historically one of the first popular plugins for managing Jenkins configuration as code. It utilizes a Groovy-based domain-specific language to declare and generate Jenkins jobs dynamically.
-    - **Jenkins (Declarative) Pipeline**: The modern standard for declaring build pipelines as code using a structured, readable syntax inside a `Jenkinsfile`.
-    - **Jenkins Configuration as Code (JCasC)**: Allows declaring the entire state of the Jenkins controller (plugins, credentials, global settings, agents) using YAML configurations.
+!!! info "Jenkins Configuration as Code (CasC) Architectural Reference"
+    To design a robust, modern, and reproducible Jenkins infrastructure in 2026, you must understand the distinction and interplay between the three complementary Configuration-as-Code layers.
     
-    *Tip: Avoid manually configured freestyle jobs. Leverage JCasC for controller configuration and Declarative Pipelines for job execution.*
+    ### 1. The Controller Layer: [Jenkins Configuration as Code (JCasC)](https://plugins.jenkins.io/configuration-as-code)
+    Managing the controller's settings, plugin installations, and credentials via the web UI creates operational snowflakes. JCasC solves this by defining the entire controller configuration in declarative YAML files.
+    - **Key Resources**:
+        - [Official JCasC Plugin 🌟](https://plugins.jenkins.io/configuration-as-code) — The entry point for declaring your Jenkins configuration in YAML.
+        - [Example of JCasC for Kubernetes 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s) — A practical bootstrap reference.
+        - [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) — Lock down the UI configuration screens using JEP-224 to enforce CasC immutability.
+    
+    ### 2. The Job Generation Layer: [Job DSL Plugin](https://plugins.jenkins.io/job-dsl)
+    If you have hundreds of repositories, manually creating Jenkins jobs is non-viable. The Job DSL plugin allows you to describe Jenkins jobs programmatically using a Groovy-based DSL.
+    - **Key Resources**:
+        - [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl) — Programmatic job generation.
+        - [Jenkins Job DSL API Reference 🌟](https://jenkinsci.github.io/job-dsl-plugin) — Comprehensive API reference documentation.
+        - [Guide: Jenkins Jobs as Code with Groovy DSL 🌟](https://tech.gogoair.com/jenkins-jobs-as-code-with-groovy-dsl-c8143837593a) — A step-by-step introduction.
+    
+    ### 3. The Pipeline Execution Layer: [Jenkins Declarative Pipeline](https://www.jenkins.io/solutions/pipeline)
+    The execution steps of your build, test, and deploy pipeline belong in the application repository. The `Jenkinsfile` defines this using the Declarative Pipeline syntax, which provides a structured, version-controlled delivery flow.
+    - **Key Resources**:
+        - [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline) — Conceptual overview.
+        - [Jenkinsfile Syntax Book 🌟](https://www.jenkins.io/doc/book/pipeline/jenkinsfile) — Official syntax and grammar reference.
+        - [DZone Refcard: Declarative Pipeline with Jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins) — Quick reference sheet.
+        - [Dzone Refcard: Continuous Delivery with Jenkins Pipeline 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline) — CD workflow design.
+
+    ---
+    💡 **Architectural Recommendation**: Use **JCasC** to set up the controller, **Job DSL** to generate your multibranch pipeline jobs automatically, and a **Declarative Jenkinsfile** inside each repo to define the build steps. Lock the UI down to read-only mode to prevent configuration drift.
 
 #### Docker Deployment
 
