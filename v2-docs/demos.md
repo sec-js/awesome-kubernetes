@@ -47,11 +47,6 @@ description: "Top Demos resources for 2026, AI-ranked: OpenShift AI Examples, kn
 #### Local Development
 
   - **(2021)** [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://shipa.io/deploying-applications-on-kubernetes) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Showcases local application delivery pipelines combining Minikube with Shipa's developer-focused abstractions. Allows engineers to deploy code without writing verbose YAML. (Live Grounding: Important context for 2026 Developer Platforms. Shipa was acquired by Snyk in 2023, shifting its core value towards Snyk AppRisk for secure cloud development).
-### Enterprise Modernization
-
-#### Multi-Cluster Strategy
-
-  - **(2021)** [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates strategies for migrating active application states and resource structures between hybrid and multi-cloud OpenShift clusters without losing critical metadata or transaction continuity.
 ### GitOps
 
 #### Microservices Showcase

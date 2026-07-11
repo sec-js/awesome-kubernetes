@@ -16,6 +16,13 @@ description: "Top OCP 4 resources for 2026, AI-ranked: Descheduler for Kubernete
 #### Quarkus
 
   - **(2020)** [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An exploration of Red Hat's Migration Toolkit for Applications 5.1.0, focusing on automating the migration path from legacy Spring Boot dependencies to lightweight, Kubernetes-native Quarkus microservices to reduce resource overhead.
+## Application Delivery
+
+### Enterprise Modernization
+
+#### Multi-Cluster Strategy
+
+  - **(2021)** [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates strategies for migrating active application states and resource structures between hybrid and multi-cloud OpenShift clusters without losing critical metadata or transaction continuity.
 ## Artifact Management
 
 ### Container Registries

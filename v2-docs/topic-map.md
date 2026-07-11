@@ -26,7 +26,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-6" href="./kubernetes/" title="Kubernetes — 157 resources"><span class="topic-heatcell__name">Kubernetes</span><span class="topic-heatcell__n">157</span></a>
 <a class="topic-heatcell th-6" href="./kubernetes-tools/" title="Kubernetes Tools — 144 resources"><span class="topic-heatcell__name">Kubernetes Tools</span><span class="topic-heatcell__n">144</span></a>
-<a class="topic-heatcell th-6" href="./demos/" title="Demos — 102 resources"><span class="topic-heatcell__name">Demos</span><span class="topic-heatcell__n">102</span></a>
+<a class="topic-heatcell th-6" href="./demos/" title="Demos — 101 resources"><span class="topic-heatcell__name">Demos</span><span class="topic-heatcell__n">101</span></a>
 <a class="topic-heatcell th-5" href="./introduction/" title="Introduction — 83 resources"><span class="topic-heatcell__name">Introduction</span><span class="topic-heatcell__n">83</span></a>
 <a class="topic-heatcell th-5" href="./monitoring/" title="Monitoring — 73 resources"><span class="topic-heatcell__name">Monitoring</span><span class="topic-heatcell__n">73</span></a>
 <a class="topic-heatcell th-4" href="./other-awesome-lists/" title="Other Awesome Lists — 33 resources"><span class="topic-heatcell__name">Other Awesome Lists</span><span class="topic-heatcell__n">33</span></a>
@@ -113,7 +113,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__dim">The Container Stack</div>
 <div class="topic-heatmap__cells">
 <a class="topic-heatcell th-5" href="./serverless/" title="Serverless — 48 resources"><span class="topic-heatcell__name">Serverless</span><span class="topic-heatcell__n">48</span></a>
-<a class="topic-heatcell th-4" href="./ocp4/" title="OCP 4 — 29 resources"><span class="topic-heatcell__name">OCP 4</span><span class="topic-heatcell__n">29</span></a>
+<a class="topic-heatcell th-4" href="./ocp4/" title="OCP 4 — 30 resources"><span class="topic-heatcell__name">OCP 4</span><span class="topic-heatcell__n">30</span></a>
 <a class="topic-heatcell th-4" href="./docker/" title="Docker — 28 resources"><span class="topic-heatcell__name">Docker</span><span class="topic-heatcell__n">28</span></a>
 <a class="topic-heatcell th-4" href="./kubernetes-alternatives/" title="Kubernetes Alternatives — 25 resources"><span class="topic-heatcell__name">Kubernetes Alternatives</span><span class="topic-heatcell__n">25</span></a>
 <a class="topic-heatcell th-4" href="./kubernetes-monitoring/" title="Kubernetes Monitoring — 24 resources"><span class="topic-heatcell__name">Kubernetes Monitoring</span><span class="topic-heatcell__n">24</span></a>
@@ -218,7 +218,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Cheatsheets](./cheatsheets.md)** <span class="topic-count">14</span>
 - **[Cloud Arch Diagrams](./cloud-arch-diagrams.md)** <span class="topic-count">1</span>
 - **[Customer](./customer.md)** <span class="topic-count">8</span>
-- **[Demos](./demos.md)** <span class="topic-count">102</span>
+- **[Demos](./demos.md)** <span class="topic-count">101</span>
 - **[DevOps Tools](./devops-tools.md)** <span class="topic-count">8</span>
 - **[Faq](./faq.md)** <span class="topic-count">12</span>
 - **[Git](./git.md)** <span class="topic-count">17</span>
@@ -324,7 +324,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Kubernetes Troubleshooting](./kubernetes-troubleshooting.md)** <span class="topic-count">2</span>
 - **[Noops](./noops.md)** <span class="topic-count">1</span>
 - **[OCP 3](./ocp3.md)** <span class="topic-count">3</span>
-- **[OCP 4](./ocp4.md)** <span class="topic-count">29</span>
+- **[OCP 4](./ocp4.md)** <span class="topic-count">30</span>
 - **[Openshift](./openshift.md)** <span class="topic-count">6</span>
 - **[Rancher](./rancher.md)** <span class="topic-count">10</span>
 - **[Serverless](./serverless.md)** <span class="topic-count">48</span>
