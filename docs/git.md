@@ -294,7 +294,7 @@ It prescribes that software designers should define formal, precise and verifiab
 
     <center markdown="1">
 
-    <script async class="speakerdeck-embed" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
+    <script async class="speakerdeck-embed" data-host="speakerdeck.com" data-id="1eaed7dabacb4f9b9c96b08de38eb9e1" data-ratio="1.77777777777778" src="https://speakerdeck.com/assets/embed.js"></script>
 
     </center>
 

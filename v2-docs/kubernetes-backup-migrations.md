@@ -16,13 +16,6 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: St
 #### Enterprise Migration
 
   - **(2020)** [**konveyor 🌟**](https://konveyor.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An open-source application modernization platform that helps developers migrate legacy virtual machines, stateful services, and bare-metal workloads to Kubernetes. It provides discovery, analysis, and execution tools for large-scale container migrations.
-## Cloud-Native Migration
-
-### Application Modernization
-
-#### Source-to-Image
-
-  - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Presentation outlining migration strategies for porting legacy Java JBoss EAP applications into Red Hat OpenShift/Kubernetes using Source-to-Image (S2I). While S2I remains an enterprise staple in traditional OpenShift pipelines, the industry in 2026 has increasingly shifted toward Cloud Native Buildpacks.
 ## Infrastructure
 
 ### Control Plane

@@ -51,7 +51,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-1" href="#json-content" title="1 resources">Json<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#jsonnet-content" title="2 resources">Jsonnet<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#kql-content" title="2 resources">Kql<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="#legacy" title="118 resources">Legacy<span class="v2-heat-n">118</span></a>
+<a class="v2-heat-tag v2-heat-4" href="#legacy" title="117 resources">Legacy<span class="v2-heat-n">117</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#lua-content" title="1 resources">Lua<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-4" href="#markdown-content" title="69 resources">Markdown<span class="v2-heat-n">69</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
@@ -98,7 +98,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 1. [Guide](#guide) (266 resources)
 1. [Case Study](#case-study) (39 resources)
 1. [Community-Tool](#community-tool) (1764 resources)
-1. [Legacy](#legacy) (118 resources)
+1. [Legacy](#legacy) (117 resources)
 1. [Spanish Content](#spanish-content) (31 resources)
 
 ### Language and Format
@@ -641,7 +641,7 @@ Resources indexed by their primary source language or document format.
 ## Legacy {#legacy}
 
 <details markdown="1">
-<summary>Click to view top 100 of 118 resources under Legacy</summary>
+<summary>Click to view top 100 of 117 resources under Legacy</summary>
 
   - **(2026)** [==Awesome Java 🌟==](https://github.com/akullpp/awesome-java) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
   - **(2026)** [==sherifabdlnaby/kubephp==](https://github.com/sherifabdlnaby/kubephp) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[PHP CONTENT]</span> — *Go to [Section](./docker.md)*
@@ -675,7 +675,6 @@ Resources indexed by their primary source language or document format.
   - **(2023)** [orchest.io](https://orchest.io) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> — *Go to [Section](./python.md)*
   - **(2022)** [Kspan - Turning Kubernetes Events into spans 🌟](https://github.com/weaveworks-experiments/kspan) 🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
   - **(2022)** [Ansistrano](https://github.com/ansistrano) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> — *Go to [Section](./ansible.md)*
-  - **(2022)** [slideshare.net: Migrating Java JBoss EAP Applications to Kubernetes With' S2I](https://www.slideshare.net/KonveyorIO/migrating-java-jboss-eap-applications-to-kubernetes-with-s2i) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubernetes-backup-migrations.md)*
   - **(2021)** [thenewstack.io: This Week in Programming: Kubernetes from Day One? 🌟](https://thenewstack.io/this-week-in-programming-kubernetes-from-day-one) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubernetes.md)*
   - **(2021)** [thenewstack.io: Accelerate Kubernetes Adoption with a Service Mesh](https://thenewstack.io/accelerate-kubernetes-adoption-with-a-service-mesh) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./servicemesh.md)*
   - **(2020)** [**Google Traffic Director** and the **L7 Internal Load Balancer** Intermingles **Cloud Native** and **Legacy Workloads**](https://thenewstack.io/google-traffic-director-and-the-l7-internal-load-balancer-intermingles-cloud-native-and-legacy-workloads) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./servicemesh.md)*
@@ -743,8 +742,9 @@ Resources indexed by their primary source language or document format.
   - **(2020)** [Bringing Kubernetes’ goodness to Windows Server apps with Anthos](https://cloud.google.com/blog/topics/anthos/windows-server-support-comes-to-anthos-on-prem) <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./GoogleCloudPlatform.md)*
   - **(2020)** [developers.redhat.com: Spring Boot to Quarkus migrations and more in Red Hat’s migration toolkit for applications 5.1.0](https://developers.redhat.com/blog/2020/12/08/spring-boot-to-quarkus-migrations-and-more-in-red-hats-migration-toolkit-for-applications-5-1-0) <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./ocp4.md)*
   - **(2020)** [network-king.net: IoT use in healthcare grows but has some pitfalls](https://network-king.net/iot-use-in-healthcare-grows-but-has-its-pitfalls) <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./monitoring.md)*
+  - **(2020)** [Supporting the Evolving Ingress Specification in Kubernetes 1.18](https://kubernetes.io/blog/2020/06/05/supporting-the-evolving-ingress-specification-in-kubernetes-1.18) <span class='md-tag md-tag--critical'>[LEGACY]</span> — *Go to [Section](./kubernetes-networking.md)*
 
-*... and 18 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 17 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
