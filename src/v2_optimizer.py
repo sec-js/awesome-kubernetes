@@ -1761,8 +1761,14 @@ class V2VisionEngine:
         - [DZone Refcard: Declarative Pipeline with Jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins) — Quick reference sheet.
         - [Dzone Refcard: Continuous Delivery with Jenkins Pipeline 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline) — CD workflow design.
 
+    ### 4. The Visual/User Interface Layer: [Pipeline Graph View Plugin](https://plugins.jenkins.io/pipeline-graph-view)
+    With the official deprecation of the Blue Ocean plugin, the Pipeline Graph View plugin is the de-facto standard for interactive pipeline visualizations directly embedded in the native Jenkins UI.
+    - **Key Resources**:
+        - [Pipeline Graph View Plugin 🌟](https://plugins.jenkins.io/pipeline-graph-view) — The modern interactive UI to view execution graphs and stages.
+        - [pipeline-graph-view-plugin repository 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) — Open-source repository for the Pipeline Graph View project.
+
     ---
-    💡 **Architectural Recommendation**: Use **JCasC** to set up the controller, **Job DSL** to generate your multibranch pipeline jobs automatically, and a **Declarative Jenkinsfile** inside each repo to define the build steps. Lock the UI down to read-only mode to prevent configuration drift.
+    💡 **Architectural Recommendation**: Use **JCasC** to set up the controller, **Job DSL** to generate your multibranch pipeline jobs automatically, and a **Declarative Jenkinsfile** inside each repo to define the build steps. Enrich the visual feedback loop by deploying the **Pipeline Graph View Plugin**, and lock the UI down to read-only mode to prevent configuration drift.
 """
                 _body = _body.replace("### Configuration as Code\n\n", f"### Configuration as Code\n{dsl_injection}\n")
                 
