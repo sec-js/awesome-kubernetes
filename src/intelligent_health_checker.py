@@ -37,6 +37,10 @@ class IntelligentLinkCleaner:
         self.shard_file = f"shard_{self.shard_index:02d}.yaml" if self.shard_index is not None else None
         self.inventory = load_inventory(self.shard_file)
         
+        # Determine checkpoint file and load it
+        self.checkpoint_file = f"checkpoint_{self.shard_index:02d}.json" if self.shard_index is not None else "health_check_checkpoint.json"
+        self.checkpoint_data = self._load_checkpoint()
+        
         self.full_report_metrics = [] 
         self.detailed_stats = {"total_scanned": 0, "skipped_recent": 0, "by_file": {}, "operation_types": {"removals": 0, "consolidated": 0, "healed": 0, "enriched": 0}}
         self.stats = {"total_links": 0, "dead_links_removed": 0, "orphans_fixed": 0, "enriched_descriptions": 0}
@@ -51,6 +55,38 @@ class IntelligentLinkCleaner:
     def _save_memory(self):
         os.makedirs(os.path.dirname(MEMORY_FILE), exist_ok=True)
         json.dump(self.learning_data, open(MEMORY_FILE, "w"), indent=2)
+
+    def _load_checkpoint(self) -> Dict:
+        if os.path.exists(self.checkpoint_file) and os.path.getsize(self.checkpoint_file) > 0:
+            try:
+                with open(self.checkpoint_file, "r") as f:
+                    data = json.load(f)
+                log_event(f"[*] Resuming from checkpoint file: {self.checkpoint_file}")
+                # Restore checkpoint data into self variables
+                self.inventory.update(data.get("inventory_updates", {}))
+                return data
+            except Exception as e:
+                log_event(f"[WARN] Failed to load checkpoint {self.checkpoint_file}: {str(e)[:100]}")
+        return {
+            "checked_urls": {}, # url -> [alive, reason, final_url]
+            "inventory_updates": {}, # url -> inventory_entry
+            "rescued_urls": [] # list of URLs that we attempted to rescue
+        }
+
+    def _save_checkpoint(self):
+        try:
+            with open(self.checkpoint_file, "w") as f:
+                json.dump(self.checkpoint_data, f, indent=2)
+        except Exception as e:
+            log_event(f"[WARN] Failed to save checkpoint {self.checkpoint_file}: {str(e)[:100]}")
+
+    def _delete_checkpoint(self):
+        if os.path.exists(self.checkpoint_file):
+            try:
+                os.remove(self.checkpoint_file)
+                log_event(f"[*] Cleaned up checkpoint file: {self.checkpoint_file}")
+            except Exception as e:
+                log_event(f"[WARN] Failed to delete checkpoint {self.checkpoint_file}: {str(e)[:100]}")
 
 
 
@@ -135,6 +171,10 @@ class IntelligentLinkCleaner:
                 if get_shard_name(nu) != self.shard_file:
                     continue
 
+            # Checkpoint filtering: skip if already checked in checkpoint
+            if nu in self.checkpoint_data["checked_urls"]:
+                continue
+
             entry = self.inventory.get(nu, {})
             is_suspicious = False
             if entry.get("status") == "online":
@@ -148,20 +188,31 @@ class IntelligentLinkCleaner:
                 to_check.append(u)
 
         total_to_check = len(to_check)
-        log_event(f"[*] Queue: {total_to_check} links prioritized for validation.")
+        log_event(f"[*] Queue: {total_to_check} links prioritized for validation (skipped {len(self.checkpoint_data['checked_urls'])} already checked).")
 
         # 2. Parallel Network Checks (Optimized with Mandate 22 & 33)
         BATCH_SIZE = 15 # Slightly smaller batch to accommodate deep fetch
         check_results = {}
+        for nu, res in self.checkpoint_data["checked_urls"].items():
+            check_results[nu] = tuple(res)
+
         for i in range(0, total_to_check, BATCH_SIZE):
             batch = to_check[i:i+BATCH_SIZE]
             tasks = [self._check_url_logic(url) for url in batch]
             results = await asyncio.gather(*tasks)
-            for url, res in zip(batch, results): check_results[url] = res
+            for url, res in zip(batch, results):
+                check_results[url] = res
+                nu = normalize_url(url)
+                self.checkpoint_data["checked_urls"][nu] = list(res)
+                self.checkpoint_data["inventory_updates"][nu] = self.inventory.get(nu)
+            
+            self._save_checkpoint()
             if i % 45 == 0: log_event(f"  [>] Progress: [{i}/{total_to_check}] links validated...")
 
         # 2.5. UNIVERSAL AI RESCUE
         to_rescue = [u for u, res in check_results.items() if not res[0] or res[1] == "generic_redirect_loss"]
+        to_rescue = [u for u in to_rescue if normalize_url(u) not in self.checkpoint_data["rescued_urls"]]
+        
         if to_rescue:
             AI_BATCH_SIZE = 10
             for i in range(0, len(to_rescue), AI_BATCH_SIZE):
@@ -185,7 +236,11 @@ class IntelligentLinkCleaner:
                         if isinstance(ai_results, list):
                             res_map = {normalize_url(r.get("old_url", "")): r.get("new_url") for r in ai_results}
                             for u in batch:
-                                new_loc = res_map.get(normalize_url(u))
+                                nu = normalize_url(u)
+                                if nu not in self.checkpoint_data["rescued_urls"]:
+                                    self.checkpoint_data["rescued_urls"].append(nu)
+                                
+                                new_loc = res_map.get(nu)
                                 if new_loc and new_loc.startswith("http") and "NONE" not in new_loc.upper():
                                     try:
                                         async with httpx.AsyncClient(timeout=10, follow_redirects=True, verify=False) as client:
@@ -199,8 +254,11 @@ class IntelligentLinkCleaner:
                                                 else:
                                                     log_event(f"  [✨] RESCUED: {u} -> {new_loc}")
                                                     check_results[u] = (True, "resurrected", new_loc)
+                                                    self.checkpoint_data["checked_urls"][nu] = [True, "resurrected", new_loc]
                                     except Exception as e:
                                         log_event(f"[WARN] verify rescued URL {new_loc[:50]}: {str(e)[:100]}")
+                            
+                            self._save_checkpoint()
                 except Exception as e:
                     log_event(f"[WARN] AI rescue batch: {str(e)[:100]}")
 
@@ -245,6 +303,7 @@ class IntelligentLinkCleaner:
             self.inventory[nu] = entry
 
         await self.apply_changes()
+        self._delete_checkpoint()
 
     async def apply_changes(self):
         # Export JSON artifact for the reducer instead of applying Git changes directly

@@ -59,6 +59,7 @@ jobs:
           path: |
             shard_result.json
             triage_report.md
+            health_check_checkpoint.json
           key: link-cleaner-results-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
             link-cleaner-results-${{ github.run_id }}-
@@ -73,8 +74,8 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: 1
         run: |
-          if [ -f shard_result.json ]; then
-            echo "shard_result.json found in cache/restored files. Skipping health checker execution."
+          if [ -s shard_result.json ]; then
+            echo "shard_result.json found in cache/restored files and has content. Skipping health checker execution."
           else
             python src/intelligent_health_checker.py
           fi
@@ -91,11 +92,11 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ -f triage_report.md ]; then
+          if [ -f triage_report.md ] && [ -s triage_report.md ]; then
             ISSUE_TITLE="🚨 Manual Triage Required: High-Value Links Failing ($(date +'%Y-%m-%d'))"
-            EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
+            EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0] | select(. != null) | .number')
             
-            if [ -z "$EXISTING_ISSUE" ]; then
+            if [ -z "$EXISTING_ISSUE" ] || [ "$EXISTING_ISSUE" = "null" ]; then
               gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md --label "triage, automated-report" || gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md
             else
               echo "A triage issue already exists (#$EXISTING_ISSUE). Updating with new report..."
@@ -106,7 +107,7 @@ jobs:
       - name: Ensure Cache Files Exist
         if: always()
         run: |
-          touch shard_result.json triage_report.md
+          touch shard_result.json triage_report.md health_check_checkpoint.json
 
       - name: Save Link Checker Cache
         if: always()
@@ -115,4 +116,5 @@ jobs:
           path: |
             shard_result.json
             triage_report.md
+            health_check_checkpoint.json
           key: link-cleaner-results-${{ github.run_id }}-${{ github.run_attempt }}
