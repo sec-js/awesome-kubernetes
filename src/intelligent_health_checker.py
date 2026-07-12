@@ -144,7 +144,7 @@ class IntelligentLinkCleaner:
             
             if is_suspicious or entry.get("needs_ai_refresh") or os.getenv("FORCE_FULL_CHECK") == "true":
                 to_check.append(u)
-            elif (datetime.now().timestamp() - entry.get("last_checked", 0)) > (86400 * 21):
+            elif (datetime.now().timestamp() - (entry.get("last_checked") or 0)) > (86400 * 21):
                 to_check.append(u)
 
         total_to_check = len(to_check)
