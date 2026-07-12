@@ -23,7 +23,7 @@
 - [AWS Security Blog](https://aws.amazon.com/blogs/security)
 - [AWS Security](https://aws.amazon.com/security)
 - [AWS Security docs](https://docs.aws.amazon.com/security)
-- [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](https://docs.aws.amazon.com/linux/al2/ug/SSL-on-amazon-linux-2.html?utm_medium=blog&utm_campaign=OUT_eficienciaenergetica_29102024)
+- [Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS](https://docs.aws.amazon.com/linux/al2/ug/SSL-on-amazon-linux-2.html)
 - [The Most Popular AWS Security Blog Posts in 2015](https://aws.amazon.com/blogs/security/the-most-popular-aws-security-blog-posts-in-2015)
 - [Amazon’s customer service backdoor](https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4)
 - [Announcing Industry Best Practices for Securing AWS Resources](https://aws.amazon.com/blogs/security/announcing-industry-best-practices-for-securing-aws-resources)

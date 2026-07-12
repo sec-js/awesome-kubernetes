@@ -550,7 +550,7 @@
 - [infracloud.io: Avoiding Kubernetes Cluster Outages with Synthetic Monitoring](https://www.infracloud.io/blogs/avoiding-kubernetes-cluster-outages-synthetic-monitoring) Synthetic monitoring consists of pre-defined checks to proactively monitor the critical elements in your infrastructure. These checks simulate the functionality of the elements. We can also simulate the communication between the elements to ensure end-to-end connectivity. Continuous monitoring of these checks also helps to measure overall performance in terms of availability and response times.
 - [talos-systems.com: Is Vanilla Kubernetes Really Too Heavy For The Raspberry Pi?](https://www.siderolabs.com/blog/is-vanilla-kubernetes-really-too-heavy-for-the-raspberry-pi)
 - [blog.kintone.io: Tolerating failures in container image registries 🌟](https://blog.kintone.io/entry/neco-registry)
-- [thenucleargeeks.com: Taints and Tolerations in Kubernetes](https://thenucleargeeks.com/2023/01/28/taints-and-tolerations-in-kubernetes/)
+- [thenucleargeeks.com: Taints and Tolerations in Kubernetes](https://thenucleargeeks.com/2023/01/28/taints-and-tolerations-in-kubernetes)
 - [devopshubproject/cka-lab](https://github.com/devopshubproject/cka-lab) This repo contains set of practice questions which will help you to get ready for the cka exam.
 - [medium: Run Kubernetes Production Environment on EC2 Spot Instances With Zero Downtime: A Complete Guide](https://medium.com/riskified-technology/run-kubernetes-on-aws-ec2-spot-instances-with-zero-downtime-f7327a95dea)
 - [shayn-71079.medium.com: Scaling Kubernetes Clusters](https://talks.cloudify.co/scaling-kubernetes-clusters-8a061321de93?gi=66d550140f85) The below figure presents a schematic diagram of how cluster auto-scaling is done in AWS EKS clusters.
@@ -1610,7 +1610,7 @@ will dive into the details of how they work
 ## Kubernetes Scheduling and Scheduling Profiles
 
 - [Kubernetes Scheduling](https://kubernetes.io/docs/reference/scheduling)
-- [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/config/#profiles)
+- [Scheduling Profiles](https://kubernetes.io/docs/reference/scheduling/config)
 - [granulate.io: A Deep Dive into Kubernetes Scheduling](https://granulate.io/a-deep-dive-into-kubernetes-scheduling)
 - [medium: K8S - Creating a kube-scheduler plugin](https://medium.com/@juliorenner123/k8s-creating-a-kube-scheduler-plugin-8a826c486a1)
 

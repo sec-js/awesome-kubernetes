@@ -231,7 +231,7 @@
   - [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga) - GitHub's Copilot can now assist users by explaining why an Actions job failed. This feature, now Generally Available, allows users to select 'Explain Error' from a failing check in the pull request merge box or on the Actions job page. Copilot analyzes the job and provides tailored guidance for resolution, consuming one chat message per use. This integration aims to streamline debugging and improve CI/CD workflows.
 
 - [plutora.com: Artifacts management tools](https://www.plutora.com/ci-cd-tools/artifacts-management-tools)
-- [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/enterprise-need-modern-software-delivery?utm_campaign=dev-2025&utm_content=hypercore-hybrid-row-storage-engine)
+- [cloudbees.com: Continuous Delivery Tools: The 5 You Absolutely Need to Know in 2021](https://www.cloudbees.com/blog/enterprise-need-modern-software-delivery)
 - [dzone: DevOps: CI/CD Tools to Watch Out for in 2022](https://dzone.com/articles/devops-cicd-tools-to-watch-out-for-in-2022) CI/CD is an integral part of any successful DevOps team. This list includes the finest CI/CD tools currently available in the market.
 - [betterprogramming.pub: When Should You Self-Host CI Tools? | William Anderson](https://betterprogramming.pub/when-should-you-self-host-ci-tools-330fc38d2a6) How to decide whether you should self-host, go with a SaaS option, or bundle your choice of CI tool through a vendor
 

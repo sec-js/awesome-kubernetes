@@ -161,7 +161,7 @@
 
 ## Database Continuous Integration
 
-- [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/ci-cd-pipeline?ref=the-mergify-blog)
+- [cloudbees.com: Introductory Handbook for Database Continuous Integration](https://www.cloudbees.com/blog/ci-cd-pipeline)
 
 ## Databases on Kubernetes
 

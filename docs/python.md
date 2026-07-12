@@ -47,7 +47,7 @@
 - [Awesome Django. A curated list of awesome Django apps, projects and resources](https://gitlab.com/rosarior/awesome-django)
 - [pyvideo.org](https://pyvideo.org)
 - [Talk Python To Me Podcast](https://talkpython.fm)
-    - [Transcript for Episode #39: Getting your first dev job as a Python developer (part 1)](https://talkpython.fm/episodes/show/39/getting-your-first-dev-job-as-a-python-developer-part-1#transcript-section)
+    - [Transcript for Episode #39: Getting your first dev job as a Python developer (part 1)](https://talkpython.fm/episodes/show/39/getting-your-first-dev-job-as-a-python-developer-part-1)
 - [Microsoft: Python Engineering](https://devblogs.microsoft.com/python)
 - [blog.pythonlibrary.org 🌟](https://blog.pythonlibrary.org)
 - [nixCraft: Python Execute Unix/Linux Command Examples 🌟](https://www.cyberciti.biz/faq/python-execute-unix-linux-command-examples)
@@ -262,7 +262,7 @@
 
 ## Python Django Framework
 
-- [gettopical.com: Get Django Latest News](https://www.djangoproject.com/)
+- [gettopical.com: Get Django Latest News](https://www.djangoproject.com)
 - [realpython.com: Django Development With Docker Compose and Machine](https://realpython.com/learning-paths/django-web-development)
 - [realpython.com: Fun With Django's New Postgres Features](https://realpython.com/learning-paths/django-web-development)
 - [realpython.com: Deploying a Django App to AWS Elastic Beanstalk](https://realpython.com/learning-paths/django-web-development)
