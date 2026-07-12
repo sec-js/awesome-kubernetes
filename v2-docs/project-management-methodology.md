@@ -23,6 +23,11 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2021)** [==blog.pragmaticengineer.com: How Big Tech Runs Tech Projects and the Curious Absence of Scrum==](https://blog.pragmaticengineer.com/project-management-at-big-tech) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A seminal critique of Scrum frameworks within modern hyper-scale technology companies. Contrasts classical prescriptive Scrum ceremonies with the pragmatism found in Big Tech, which prioritizes engineer-led planning, asynchronous progress tracking, and outcome-based roadmapping. Highlights how microservices-oriented teams achieve high agility through direct system ownership and continuous delivery without overhead-heavy ceremonies.
 ## Platform Engineering
 
+### GitOps
+
+#### Helm Lifecycle Management
+
+  - **(2022)** [**codefresh.io: Using a Kanban board to manage and promote Helm Releases 🌟**](https://octopus.com/devops) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the application of visual Kanban paradigms to Kubernetes deployment pipelines, specifically managing and promoting Helm releases across environments. Contrasts traditional CI/CD promotion techniques with visual value stream modeling, demonstrating how platform teams can reduce deployment friction and coordinate microservice boundaries with clear board transitions.
 ### Innersource
 
 #### DevOps Transition
@@ -40,7 +45,7 @@ description: "Curated, AI-ranked Project Management Methodology resources for th
   - **(2020)** [==infoq.com: Driving DevOps with Value Stream Management==](https://www.infoq.com/articles/DevOps-value-stream) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into Value Stream Management (VSM) as a framework for aligning microservice delivery pipelines with business outcomes. Details how to identify bottlenecks in the software development lifecycle (SDLC) by mapping flow metrics (lead time, cycle time, throughput). Illustrates how VSM coordinates engineering efforts to maximize systemic efficiency and avoid localized optimization traps.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

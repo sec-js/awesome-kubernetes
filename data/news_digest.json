@@ -6,8 +6,8 @@
         "title": "Kubecost 🌟",
         "date": "2026-06-18",
         "stars": 5,
-        "impact": "high",
-        "why": "It serves as the industry-standard tool for real-time cost allocation and optimization across multi-cluster Kubernetes environments.",
+        "impact": "critical",
+        "why": "The industry standard for real-time Kubernetes cost allocation, helping enterprises tackle cloud waste in multi-cluster environments.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -16,7 +16,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "It shifts the infrastructure paradigm by turning Kubernetes clusters into universal control planes to manage external cloud resources declaratively.",
+        "why": "A transformative CNCF control-plane framework that turns Kubernetes clusters into universal infrastructure schedulers for public cloud resources.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -25,7 +25,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "This open-source APM platform delivers natively integrated, high-performance observability based on OpenTelemetry standards.",
+        "why": "A highly popular open-source, OpenTelemetry-native APM platform that unifies metrics, traces, and logs under one dashboard.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -34,7 +34,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "critical",
-        "why": "It provides the critical enterprise security standard for mapping Kubernetes Service Accounts to cloud identities using OIDC federation.",
+        "why": "The modern enterprise-standard mechanism for mapping Kubernetes Service Accounts to Azure Active Directory identities using secure OIDC federation.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -42,17 +42,17 @@
         "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
         "date": "2026-06-14",
         "stars": 5,
-        "impact": "critical",
-        "why": "This essential plugin bridges Kubernetes with physical GPUs, enabling hardware-accelerated resource scheduling for AI and machine learning workloads.",
+        "impact": "high",
+        "why": "An essential link for modern AI/ML infrastructure, enabling the orchestration and scheduling of physical GPU resources inside Kubernetes.",
         "category": "Kubernetes & Orchestration"
       },
       {
-        "url": "https://github.com/liqotech/liqo",
-        "title": "liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies",
+        "url": "https://github.com/akuity/kargo",
+        "title": "==github.com/akuity/kargo==",
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "It enables dynamic multi-cluster topologies and resource sharing, allowing seamless pod scheduling across disparate cloud boundaries.",
+        "why": "Introduces a GitOps-native controller paradigm to coordinate and orchestrate complex application releases and promotion stages.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -61,7 +61,7 @@
         "date": "2026-06-14",
         "stars": 5,
         "impact": "high",
-        "why": "It acts as the premier declarative orchestrator to manage and scale multi-chart Helm deployments across diverse environments.",
+        "why": "The premier declarative orchestrator for multi-chart Helm environments, simplifying complex multi-environment configurations.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -70,7 +70,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "critical",
-        "why": "It consolidates identity-backed, fully audited access control across SSH, databases, and Kubernetes APIs for enterprise-grade security compliance.",
+        "why": "A leading identity-aware access gateway that securely consolidates and audits multi-protocol connections to Kubernetes APIs and servers.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -78,8 +78,8 @@
         "title": "AWS Controllers for Kubernetes (ACK) 🌟",
         "date": "2026-06-13",
         "stars": 5,
-        "impact": "critical",
-        "why": "It allows platform engineers to manage native AWS cloud resources directly through declarative Kubernetes manifests and APIs.",
+        "impact": "high",
+        "why": "Allows platform engineers to provision and manage AWS resources directly through Kubernetes CRDs, aligning application and infra lifecycles.",
         "category": "Kubernetes & Orchestration"
       },
       {
@@ -88,7 +88,7 @@
         "date": "2026-06-13",
         "stars": 5,
         "impact": "high",
-        "why": "This CNCF sandbox project addresses complex multi-region high availability by bringing global server load balancing directly into Kubernetes.",
+        "why": "A highly novel CNCF sandbox GSLB operator that enables seamless multi-cluster geo-redundancy and high availability using CoreDNS.",
         "category": "Kubernetes & Orchestration"
       }
     ],
@@ -651,7 +651,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "As the official training arm of the Linux Foundation, it establishes and maintains the curricula for industry-standard CKA, CKAD, and CKS certifications.",
+        "why": "It is the definitive official gateway and training platform for the benchmark CKA, CKAD, and CKS cloud-native certifications.",
         "category": "Certification & Training"
       },
       {
@@ -660,34 +660,7 @@
         "date": "2026-06-01",
         "stars": 5,
         "impact": "critical",
-        "why": "This is the canonical kubectl command reference and is the primary external document allowed for consultation during official Kubernetes exams.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://kube.academy",
-        "title": "kube.academy",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Provides highly polished, free, and modular training tracks covering advanced Kubernetes administration and security patterns.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://www.whizlabs.com",
-        "title": "Whizlabs",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Offers comprehensive practice exams and cloud-based sandbox environments specifically tailored to prepare candidates for CNCF certifications.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://www.edx.org",
-        "title": "edx.org",
-        "date": "2026-06-01",
-        "stars": 4,
-        "impact": "high",
-        "why": "Acts as the key academic partner hosting the Linux Foundation's official entry-level cloud-native and container courses.",
+        "why": "This canonical CLI reference is an indispensable practical resource for developers preparing for hands-on Kubernetes examinations.",
         "category": "Certification & Training"
       },
       {
@@ -696,25 +669,16 @@
         "date": "2026-06-18",
         "stars": 5,
         "impact": "high",
-        "why": "Provides structured, real-world infrastructure and CI/CD blueprints that allow engineers to practice hands-on platform engineering skills.",
+        "why": "Provides comprehensive, real-world DevOps pipelines and IaC templates essential for practical, project-based cloud-native learning.",
         "category": "Certification & Training"
       },
       {
-        "url": "https://techstudyslack.com",
-        "title": "techstudyslack.com",
+        "url": "https://kube.academy",
+        "title": "kube.academy",
         "date": "2026-06-01",
         "stars": 4,
         "impact": "high",
-        "why": "A massive, active peer-led community offering study groups, real-time debugging, and mentoring for cloud and Kubernetes certification prep.",
-        "category": "Certification & Training"
-      },
-      {
-        "url": "https://github.com/stefanprodan/podinfo",
-        "title": "==stefanprodan/podinfo==",
-        "date": "2026-06-08",
-        "stars": 4,
-        "impact": "high",
-        "why": "The definitive microservice tool used across the industry to learn and demonstrate Kubernetes features, instrumentation, and progressive delivery.",
+        "why": "An outstanding, structured Kubernetes training portal focused on enterprise cluster architecture, multi-tenancy, and security.",
         "category": "Certification & Training"
       },
       {
@@ -723,7 +687,34 @@
         "date": "2026-06-25",
         "stars": 5,
         "impact": "high",
-        "why": "The official learning portal for AWS, delivering structured paths and exam readiness assessments crucial for cloud architects and developers.",
+        "why": "The official unified AWS training ecosystem containing crucial pathways for enterprise public cloud certifications and hands-on labs.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://www.whizlabs.com",
+        "title": "Whizlabs",
+        "date": "2026-06-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "A premier professional exam preparation platform that pairs structured simulations with cloud sandboxes for CKA, CKAD, and CKS.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://github.com/stefanprodan/podinfo",
+        "title": "==stefanprodan/podinfo==",
+        "date": "2026-06-08",
+        "stars": 4,
+        "impact": "high",
+        "why": "The industry's premier microservice application used for learning and testing Kubernetes deployment, instrumentation, and progressive delivery.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://www.edx.org",
+        "title": "edx.org",
+        "date": "2026-06-01",
+        "stars": 4,
+        "impact": "high",
+        "why": "Serves as the primary academic portal hosting the Linux Foundation's verified introductory courses for cloud-native engineering.",
         "category": "Certification & Training"
       },
       {
@@ -732,7 +723,16 @@
         "date": "2026-06-18",
         "stars": 3,
         "impact": "medium",
-        "why": "Curates opinionated, real-world troubleshooting commands that serve as an excellent study guide for the hands-on portions of container exams.",
+        "why": "A highly practical troubleshooting and command reference optimized for real-time debugging and Kubernetes certification exams.",
+        "category": "Certification & Training"
+      },
+      {
+        "url": "https://developer.hashicorp.com/terraform/cli/commands",
+        "title": "terraform.io: Terraform Commands",
+        "date": "2026-06-01",
+        "stars": 5,
+        "impact": "medium",
+        "why": "The canonical HashiCorp command reference required for developers preparing for the Terraform Associate certification.",
         "category": "Certification & Training"
       }
     ],
@@ -835,16 +835,16 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "OpenTofu 1.12 introduces early-stage evaluation to solve long-standing modular limitations, solidifying its position as a highly competitive open-source alternative to Terraform.",
+        "why": "Solves a decade-old limitation of upstream Terraform by enabling dynamic modular dependencies, marking a major milestone for the open-source fork.",
         "category": "Infrastructure as Code"
       },
       {
-        "url": "https://www.pulumi.com/blog/the-agentic-infrastructure-era",
-        "title": "The Agentic Infrastructure Era",
+        "url": "https://www.pulumi.com/releases/agentic-infrastructure-era",
+        "title": "The Agentic Infrastructure Era | Pulumi Releases",
         "date": "2026-06-02",
         "stars": 4,
         "impact": "critical",
-        "why": "This release marks a major industry paradigm shift toward autonomous, self-healing platforms by transitioning from static YAML declarations to agentic, AI-driven infrastructure.",
+        "why": "Launches a paradigm shift from static declarative configurations to autonomous, self-healing platforms managed by AI agents.",
         "category": "Infrastructure as Code"
       },
       {
@@ -853,7 +853,7 @@
         "date": "2026-06-02",
         "stars": 4,
         "impact": "high",
-        "why": "Terraform 1.15 introduces native dynamic module sources, significantly simplifying dynamic dependency management for enterprise platform engineering teams.",
+        "why": "Introduces powerful native capabilities including dynamic module sources and variable configuration to simplify complex enterprise deployments.",
         "category": "Infrastructure as Code"
       },
       {
@@ -862,7 +862,7 @@
         "date": "2026-05-29",
         "stars": 5,
         "impact": "high",
-        "why": "As the de facto community standard for provisioning Amazon EKS, this module is critical for orchestrating production-grade cloud-native Kubernetes clusters.",
+        "why": "Represents the gold standard, community-driven resource for automating complex, production-grade Amazon EKS cluster deployments.",
         "category": "Infrastructure as Code"
       },
       {
@@ -871,7 +871,7 @@
         "date": "2026-03-05",
         "stars": 5,
         "impact": "high",
-        "why": "Kubestack successfully unifies Terraform-driven infrastructure provisioning with GitOps deployment workflows for public cloud Kubernetes environments.",
+        "why": "Integrates Terraform and Kubernetes GitOps natively to simplify public cloud platform engineering and deployment workflows.",
         "category": "Infrastructure as Code"
       },
       {
@@ -880,7 +880,7 @@
         "date": "2026-06-10",
         "stars": 4,
         "impact": "high",
-        "why": "The AWX Operator modernizes Ansible automation control planes by packaging them as native Kubernetes Operators for GitOps-friendly lifecycle management.",
+        "why": "Brings cloud-native automation management to Kubernetes, simplifying deployment and lifecycle orchestration of AWX.",
         "category": "Infrastructure as Code"
       },
       {
@@ -889,7 +889,25 @@
         "date": "2026-06-03",
         "stars": 5,
         "impact": "high",
-        "why": "Infracost shifts cloud cost optimization left by parsing HCL variables to deliver deep pricing projections directly within CI/CD pipelines before deployment.",
+        "why": "Enables proactive cost optimization by feeding infrastructure plans to real-time pricing APIs directly inside CI/CD workflows.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/infiniumtek/terraform-review-agent",
+        "title": "terraform-review-agent",
+        "date": "2026-05-21",
+        "stars": 4,
+        "impact": "medium",
+        "why": "Pioneers cognitive, agentic code review for IaC setups, moving beyond traditional static analysis to automated AI validation.",
+        "category": "Infrastructure as Code"
+      },
+      {
+        "url": "https://github.com/terraform-aws-modules",
+        "title": "==github.com/terraform-aws-modules==",
+        "date": "2026-05-17",
+        "stars": 5,
+        "impact": "high",
+        "why": "Serves as the foundational, battle-tested registry driving enterprise cloud networking and managed service patterns on AWS.",
         "category": "Infrastructure as Code"
       },
       {
@@ -897,26 +915,8 @@
         "title": "==Checkmarx/kics==",
         "date": "2026-06-10",
         "stars": 3,
-        "impact": "high",
-        "why": "KICS provides critical multi-framework static security analysis across Terraform, Kubernetes, Helm, and Docker to secure cloud-native delivery pipelines.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0",
-        "title": "github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0",
-        "date": "2026-06-09",
-        "stars": 3,
-        "impact": "high",
-        "why": "Reaching the official v1.0.0 production-ready milestone enables enterprise-grade automation and governance of Azure DevOps environments using Terraform.",
-        "category": "Infrastructure as Code"
-      },
-      {
-        "url": "https://www.pulumi.com/blog/pulumi-neo-cli",
-        "title": "Neo, Now in the Terminal | Pulumi Blog",
-        "date": "2026-06-02",
-        "stars": 4,
         "impact": "medium",
-        "why": "Bringing Pulumi's Neo AI assistant directly into the terminal simplifies IaC workflows and accelerates rapid prototyping for developers and operators.",
+        "why": "Provides a vital open-source security engine capable of scanning multi-flavor IaC (Terraform, Helm, Kubernetes) for vulnerabilities in pipeline checks.",
         "category": "Infrastructure as Code"
       }
     ],
@@ -6968,9 +6968,9 @@
   "_meta": {
     "3_months": {
       "Kubernetes & Orchestration": {
-        "last_analyzed": "2026-07-11T12:21:12.191989+02:00",
-        "entry_hash": "7d6d88ef4f1920f9",
-        "entry_count": 1400,
+        "last_analyzed": "2026-07-12T13:28:11.156891+02:00",
+        "entry_hash": "e299488b13660269",
+        "entry_count": 1399,
         "method": "gemini"
       },
       "Observability, SRE & Testing": {
@@ -7010,9 +7010,9 @@
         "method": "gemini"
       },
       "Certification & Training": {
-        "last_analyzed": "2026-06-25T12:04:08.750036+02:00",
-        "entry_hash": "6258ce94873fd671",
-        "entry_count": 408,
+        "last_analyzed": "2026-07-12T13:28:25.998900+02:00",
+        "entry_hash": "0b82efb9944f6042",
+        "entry_count": 407,
         "method": "gemini"
       },
       "Data, Messaging & Storage": {
@@ -7022,9 +7022,9 @@
         "method": "gemini"
       },
       "Infrastructure as Code": {
-        "last_analyzed": "2026-07-11T12:22:14.947019+02:00",
-        "entry_hash": "5045da7efe80bca8",
-        "entry_count": 378,
+        "last_analyzed": "2026-07-12T13:28:43.447149+02:00",
+        "entry_hash": "0b82a0973419ea38",
+        "entry_count": 377,
         "method": "gemini"
       },
       "DevOps & Culture": {
@@ -7440,6 +7440,6 @@
         "method": "fallback_small"
       }
     },
-    "last_updated": "2026-07-11T16:06:10.319856+02:00"
+    "last_updated": "2026-07-12T13:32:47.055534+02:00"
   }
 }

@@ -8,6 +8,14 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Kubecost 🌟</title>
+      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
+      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] The industry standard for real-time Kubernetes cost allocation, helping enterprises tackle cloud waste in multi-cluster environments.</description>
+    </item>
+    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
@@ -29,7 +37,7 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It shifts the infrastructure paradigm by turning Kubernetes clusters into universal control planes to manage external cloud resources declaratively.</description>
+      <description>[CRITICAL] A transformative CNCF control-plane framework that turns Kubernetes clusters into universal infrastructure schedulers for public cloud resources.</description>
     </item>
     <item>
       <title>==Azure/azure-workload-identity==</title>
@@ -37,15 +45,7 @@
       <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It provides the critical enterprise security standard for mapping Kubernetes Service Accounts to cloud identities using OIDC federation.</description>
-    </item>
-    <item>
-      <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
-      <link>https://github.com/NVIDIA/k8s-device-plugin</link>
-      <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] This essential plugin bridges Kubernetes with physical GPUs, enabling hardware-accelerated resource scheduling for AI and machine learning workloads.</description>
+      <description>[CRITICAL] The modern enterprise-standard mechanism for mapping Kubernetes Service Accounts to Azure Active Directory identities using secure OIDC federation.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -85,15 +85,7 @@
       <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It consolidates identity-backed, fully audited access control across SSH, databases, and Kubernetes APIs for enterprise-grade security compliance.</description>
-    </item>
-    <item>
-      <title>AWS Controllers for Kubernetes (ACK) 🌟</title>
-      <link>https://github.com/aws-controllers-k8s/community</link>
-      <guid isPermaLink="true">https://github.com/aws-controllers-k8s/community</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] It allows platform engineers to manage native AWS cloud resources directly through declarative Kubernetes manifests and APIs.</description>
+      <description>[CRITICAL] A leading identity-aware access gateway that securely consolidates and audits multi-protocol connections to Kubernetes APIs and servers.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -166,6 +158,14 @@
       <pubDate>Thu, 11 Jun 2026 00:00:00 -0000</pubDate>
       <category>Security &amp; Compliance</category>
       <description>[CRITICAL] An exceptionally fast, versatile, and industry-standard security scanner for containers, IaC configurations, and software vulnerabilities.</description>
+    </item>
+    <item>
+      <title>OpenTofu 1.12: the Feature Terraform Never Shipped</title>
+      <link>https://www.infoq.com/news/2026/05/opentofu-release-terraform</link>
+      <guid isPermaLink="true">https://www.infoq.com/news/2026/05/opentofu-release-terraform</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] Solves a decade-old limitation of upstream Terraform by enabling dynamic modular dependencies, marking a major milestone for the open-source fork.</description>
     </item>
   </channel>
 </rss>

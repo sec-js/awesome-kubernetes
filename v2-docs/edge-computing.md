@@ -23,7 +23,7 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
   - **(2021)** [developers.redhat.com: Bring your Kubernetes workloads to the edge](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide on scaling down and adapting standard containerized workloads to small, resource-constrained edge computing environments. It outlines storage optimizations and minimized memory footprint topologies.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Oraclecloud](./oraclecloud.md) | [AWS](./aws.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
 

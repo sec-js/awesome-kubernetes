@@ -14,16 +14,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🟡 high | It serves as the industry-standard tool for real-time cost allocation and optimization across multi-cluster Kubernetes environments. |
-    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | It shifts the infrastructure paradigm by turning Kubernetes clusters into universal control planes to manage external cloud resources declaratively. |
-    | 2026-06-14 | [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) | 🟡 high | This open-source APM platform delivers natively integrated, high-performance observability based on OpenTelemetry standards. |
-    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🔴 critical | It provides the critical enterprise security standard for mapping Kubernetes Service Accounts to cloud identities using OIDC federation. |
-    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🔴 critical | This essential plugin bridges Kubernetes with physical GPUs, enabling hardware-accelerated resource scheduling for AI and machine learning workloads. |
-    | 2026-06-14 | [liqo: Enable dynamic and seamless Kubernetes multi-cluster topologies](https://github.com/liqotech/liqo) | 🟡 high | It enables dynamic multi-cluster topologies and resource sharing, allowing seamless pod scheduling across disparate cloud boundaries. |
-    | 2026-06-14 | [github.com/helmfile/helmfile](https://github.com/helmfile/helmfile) | 🟡 high | It acts as the premier declarative orchestrator to manage and scale multi-chart Helm deployments across diverse environments. |
-    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🔴 critical | It consolidates identity-backed, fully audited access control across SSH, databases, and Kubernetes APIs for enterprise-grade security compliance. |
-    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🔴 critical | It allows platform engineers to manage native AWS cloud resources directly through declarative Kubernetes manifests and APIs. |
-    | 2026-06-13 | [k8gb 🌟](https://github.com/k8gb-io/k8gb) | 🟡 high | This CNCF sandbox project addresses complex multi-region high availability by bringing global server load balancing directly into Kubernetes. |
+    | 2026-06-18 | [Kubecost 🌟](https://www.apptio.com/products/kubecost/?src=kc-com) | 🔴 critical | The industry standard for real-time Kubernetes cost allocation, helping enterprises tackle cloud waste in multi-cluster environments. |
+    | 2026-06-14 | [Crossplane](https://nubenetes.com/crossplane) | 🔴 critical | A transformative CNCF control-plane framework that turns Kubernetes clusters into universal infrastructure schedulers for public cloud resources. |
+    | 2026-06-14 | [SigNoz: Open source Application Performance Monitoring (APM) & Observability' tool 🌟](https://github.com/SigNoz/signoz) | 🟡 high | A highly popular open-source, OpenTelemetry-native APM platform that unifies metrics, traces, and logs under one dashboard. |
+    | 2026-06-14 | [Azure/azure-workload-identity](https://github.com/Azure/azure-workload-identity) | 🔴 critical | The modern enterprise-standard mechanism for mapping Kubernetes Service Accounts to Azure Active Directory identities using secure OIDC federation. |
+    | 2026-06-14 | [NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin) | 🟡 high | An essential link for modern AI/ML infrastructure, enabling the orchestration and scheduling of physical GPU resources inside Kubernetes. |
+    | 2026-06-14 | [github.com/akuity/kargo](https://github.com/akuity/kargo) | 🟡 high | Introduces a GitOps-native controller paradigm to coordinate and orchestrate complex application releases and promotion stages. |
+    | 2026-06-14 | [github.com/helmfile/helmfile](https://github.com/helmfile/helmfile) | 🟡 high | The premier declarative orchestrator for multi-chart Helm environments, simplifying complex multi-environment configurations. |
+    | 2026-06-13 | [Teleport 🌟](https://github.com/gravitational/teleport) | 🔴 critical | A leading identity-aware access gateway that securely consolidates and audits multi-protocol connections to Kubernetes APIs and servers. |
+    | 2026-06-13 | [AWS Controllers for Kubernetes (ACK) 🌟](https://github.com/aws-controllers-k8s/community) | 🟡 high | Allows platform engineers to provision and manage AWS resources directly through Kubernetes CRDs, aligning application and infra lifecycles. |
+    | 2026-06-13 | [k8gb 🌟](https://github.com/k8gb-io/k8gb) | 🟡 high | A highly novel CNCF sandbox GSLB operator that enables seamless multi-cluster geo-redundancy and high availability using CoreDNS. |
 
 === "Last 6 Months"
 
@@ -494,16 +494,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-02 | [OpenTofu 1.12: the Feature Terraform Never Shipped](https://www.infoq.com/news/2026/05/opentofu-release-terraform) | 🔴 critical | OpenTofu 1.12 introduces early-stage evaluation to solve long-standing modular limitations, solidifying its position as a highly competitive open-source alternative to Terraform. |
-    | 2026-06-02 | [The Agentic Infrastructure Era](https://www.pulumi.com/blog/the-agentic-infrastructure-era) | 🔴 critical | This release marks a major industry paradigm shift toward autonomous, self-healing platforms by transitioning from static YAML declarations to agentic, AI-driven infrastructure. |
-    | 2026-06-02 | [New in Terraform 1.15: Dynamic sources, variable deprecation, and more](https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more) | 🟡 high | Terraform 1.15 introduces native dynamic module sources, significantly simplifying dynamic dependency management for enterprise platform engineering teams. |
-    | 2026-05-29 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | As the de facto community standard for provisioning Amazon EKS, this module is critical for orchestrating production-grade cloud-native Kubernetes clusters. |
-    | 2026-03-05 | [Kubestack Gitops Framework](https://github.com/kbst/terraform-kubestack) | 🟡 high | Kubestack successfully unifies Terraform-driven infrastructure provisioning with GitOps deployment workflows for public cloud Kubernetes environments. |
-    | 2026-06-10 | [AWX Operator](https://github.com/ansible/awx-operator) | 🟡 high | The AWX Operator modernizes Ansible automation control planes by packaging them as native Kubernetes Operators for GitOps-friendly lifecycle management. |
-    | 2026-06-03 | [Infracost 🌟](https://github.com/infracost/infracost) | 🟡 high | Infracost shifts cloud cost optimization left by parsing HCL variables to deliver deep pricing projections directly within CI/CD pipelines before deployment. |
-    | 2026-06-10 | [Checkmarx/kics](https://github.com/Checkmarx/kics) | 🟡 high | KICS provides critical multi-framework static security analysis across Terraform, Kubernetes, Helm, and Docker to secure cloud-native delivery pipelines. |
-    | 2026-06-09 | [github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0](https://github.com/microsoft/terraform-provider-azuredevops/releases/tag/v1.0.0) | 🟡 high | Reaching the official v1.0.0 production-ready milestone enables enterprise-grade automation and governance of Azure DevOps environments using Terraform. |
-    | 2026-06-02 | [Neo, Now in the Terminal \| Pulumi Blog](https://www.pulumi.com/blog/pulumi-neo-cli) | 🔵 medium | Bringing Pulumi's Neo AI assistant directly into the terminal simplifies IaC workflows and accelerates rapid prototyping for developers and operators. |
+    | 2026-06-02 | [OpenTofu 1.12: the Feature Terraform Never Shipped](https://www.infoq.com/news/2026/05/opentofu-release-terraform) | 🔴 critical | Solves a decade-old limitation of upstream Terraform by enabling dynamic modular dependencies, marking a major milestone for the open-source fork. |
+    | 2026-06-02 | [The Agentic Infrastructure Era \| Pulumi Releases](https://www.pulumi.com/releases/agentic-infrastructure-era) | 🔴 critical | Launches a paradigm shift from static declarative configurations to autonomous, self-healing platforms managed by AI agents. |
+    | 2026-06-02 | [New in Terraform 1.15: Dynamic sources, variable deprecation, and more](https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more) | 🟡 high | Introduces powerful native capabilities including dynamic module sources and variable configuration to simplify complex enterprise deployments. |
+    | 2026-05-29 | [github.com/terraform-aws-modules/terraform-aws-eks: AWS EKS Terraform module](https://github.com/terraform-aws-modules/terraform-aws-eks) | 🟡 high | Represents the gold standard, community-driven resource for automating complex, production-grade Amazon EKS cluster deployments. |
+    | 2026-03-05 | [Kubestack Gitops Framework](https://github.com/kbst/terraform-kubestack) | 🟡 high | Integrates Terraform and Kubernetes GitOps natively to simplify public cloud platform engineering and deployment workflows. |
+    | 2026-06-10 | [AWX Operator](https://github.com/ansible/awx-operator) | 🟡 high | Brings cloud-native automation management to Kubernetes, simplifying deployment and lifecycle orchestration of AWX. |
+    | 2026-06-03 | [Infracost 🌟](https://github.com/infracost/infracost) | 🟡 high | Enables proactive cost optimization by feeding infrastructure plans to real-time pricing APIs directly inside CI/CD workflows. |
+    | 2026-05-21 | [terraform-review-agent](https://github.com/infiniumtek/terraform-review-agent) | 🔵 medium | Pioneers cognitive, agentic code review for IaC setups, moving beyond traditional static analysis to automated AI validation. |
+    | 2026-05-17 | [github.com/terraform-aws-modules](https://github.com/terraform-aws-modules) | 🟡 high | Serves as the foundational, battle-tested registry driving enterprise cloud networking and managed service patterns on AWS. |
+    | 2026-06-10 | [Checkmarx/kics](https://github.com/Checkmarx/kics) | 🔵 medium | Provides a vital open-source security engine capable of scanning multi-flavor IaC (Terraform, Helm, Kubernetes) for vulnerabilities in pipeline checks. |
 
 === "Last 6 Months"
 
@@ -782,16 +782,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | As the official training arm of the Linux Foundation, it establishes and maintains the curricula for industry-standard CKA, CKAD, and CKS certifications. |
-    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | This is the canonical kubectl command reference and is the primary external document allowed for consultation during official Kubernetes exams. |
-    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | Provides highly polished, free, and modular training tracks covering advanced Kubernetes administration and security patterns. |
-    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | Offers comprehensive practice exams and cloud-based sandbox environments specifically tailored to prepare candidates for CNCF certifications. |
-    | 2026-06-01 | [edx.org](https://www.edx.org) | 🟡 high | Acts as the key academic partner hosting the Linux Foundation's official entry-level cloud-native and container courses. |
-    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Provides structured, real-world infrastructure and CI/CD blueprints that allow engineers to practice hands-on platform engineering skills. |
-    | 2026-06-01 | [techstudyslack.com](https://techstudyslack.com) | 🟡 high | A massive, active peer-led community offering study groups, real-time debugging, and mentoring for cloud and Kubernetes certification prep. |
-    | 2026-06-08 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🟡 high | The definitive microservice tool used across the industry to learn and demonstrate Kubernetes features, instrumentation, and progressive delivery. |
-    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | The official learning portal for AWS, delivering structured paths and exam readiness assessments crucial for cloud architects and developers. |
-    | 2026-06-18 | [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets) | 🔵 medium | Curates opinionated, real-world troubleshooting commands that serve as an excellent study guide for the hands-on portions of container exams. |
+    | 2026-06-01 | [The Linux Foundation Training](https://training.linuxfoundation.org/resources) | 🔴 critical | It is the definitive official gateway and training platform for the benchmark CKA, CKAD, and CKS cloud-native certifications. |
+    | 2026-06-01 | [kubernetes.io 🌟](https://kubernetes.io/docs/reference/kubectl/quick-reference) | 🔴 critical | This canonical CLI reference is an indispensable practical resource for developers preparing for hands-on Kubernetes examinations. |
+    | 2026-06-18 | [techiescamp/devops-projects:Real-World DevOps Projects For Learning](https://github.com/techiescamp/devops-projects) | 🟡 high | Provides comprehensive, real-world DevOps pipelines and IaC templates essential for practical, project-based cloud-native learning. |
+    | 2026-06-01 | [kube.academy](https://kube.academy) | 🟡 high | An outstanding, structured Kubernetes training portal focused on enterprise cluster architecture, multi-tenancy, and security. |
+    | 2026-06-25 | [skillbuilder.aws: AWS Skill Builder](https://skillbuilder.aws/) | 🟡 high | The official unified AWS training ecosystem containing crucial pathways for enterprise public cloud certifications and hands-on labs. |
+    | 2026-06-01 | [Whizlabs](https://www.whizlabs.com) | 🟡 high | A premier professional exam preparation platform that pairs structured simulations with cloud sandboxes for CKA, CKAD, and CKS. |
+    | 2026-06-08 | [stefanprodan/podinfo](https://github.com/stefanprodan/podinfo) | 🟡 high | The industry's premier microservice application used for learning and testing Kubernetes deployment, instrumentation, and progressive delivery. |
+    | 2026-06-01 | [edx.org](https://www.edx.org) | 🟡 high | Serves as the primary academic portal hosting the Linux Foundation's verified introductory courses for cloud-native engineering. |
+    | 2026-06-18 | [github.com/devoriales/kubectl-cheatsheet](https://github.com/devoriales/cheatsheets) | 🔵 medium | A highly practical troubleshooting and command reference optimized for real-time debugging and Kubernetes certification exams. |
+    | 2026-06-01 | [terraform.io: Terraform Commands](https://developer.hashicorp.com/terraform/cli/commands) | 🔵 medium | The canonical HashiCorp command reference required for developers preparing for the Terraform Associate certification. |
 
 === "Last 6 Months"
 

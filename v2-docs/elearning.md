@@ -9,13 +9,6 @@ description: "Curated, AI-ranked Elearning resources for the 2026 Cloud Native a
 !!! info "Architectural Context"
     Detailed reference for E-learning in the context of Career & Industry.
 
-## DevOps
-
-### Education
-
-#### Training Courses
-
-  - **(2023)** [Techworld with Nana: Learn DevOps topics easily](https://www.techworld-with-nana.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier technical curriculum focused on infrastructure automation, container mechanics, and deployment pipelines. Successfully bridges the gap between raw system administration and cloud native deployment methodologies.
 ## Orchestration
 
 ### Infrastructure as Code
@@ -41,5 +34,5 @@ description: "Curated, AI-ranked Elearning resources for the 2026 Cloud Native a
 ---
 💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Interview Questions](./interview-questions.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

@@ -30,7 +30,7 @@ description: "Curated, AI-ranked Devel Sites resources for the 2026 Cloud Native
   - **(2021)** [infoq.com: Ballerina for Full-Stack Developers: A Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api) <span class='md-tag md-tag--warning'>[BALLERINA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical evaluation of Ballerina as an open-source programming language specifically designed for backend microservice integration. Focuses on native support for HTTP/2, gRPC, and JSON data transformations.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Linux Dev Env](./linux-dev-env.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Cloudflare](./cloudflare.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 

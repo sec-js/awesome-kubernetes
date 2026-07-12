@@ -32,7 +32,7 @@ description: "Curated, AI-ranked Caching resources for the 2026 Cloud Native arc
   - **(2021)** [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deployment documentation detailing how to install and configure Varnish Cache on RedHat Enterprise Linux. Focuses on setting up Varnish as an edge reverse-proxy caching layer to handle high-concurrency HTTP/S read operations in web services.
 
 ---
-💡 **Explore Related:** [Kubernetes Networking](./kubernetes-networking.md) | [Cloudflare](./cloudflare.md) | [Istio](./istio.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

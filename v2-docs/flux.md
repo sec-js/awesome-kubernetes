@@ -40,7 +40,7 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
   - **(2022)** [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores deploying resilient, stateful microservices using Ondat (formerly StorageOS) as a persistent software-defined storage layer combined with Flux for deployment state synchronization. Live Grounding notes that while Ondat offered advanced CSI-driven capabilities, consolidation in the cloud-native storage sector has shifted focus toward alternatives like Longhorn, Rook/Ceph, or cloud-managed block storage.
 
 ---
-💡 **Explore Related:** [Jenkins Alternatives](./jenkins-alternatives.md) | [Keptn](./keptn.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Argo](./argo.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
