@@ -231,13 +231,6 @@ description: "Curated, AI-ranked Managed Kubernetes In Public Cloud resources fo
 #### AWS CDK and Multicluster
 
   - **(2022)** [Using CDK to perform continuous deployments in multi-region Kubernetes environments](https://aws.amazon.com/blogs/containers/using-cdk-to-perform-continuous-deployments-in-multi-region-kubernetes-environments) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the use of AWS Cloud Development Kit (CDK) to model continuous delivery systems across multi-region Kubernetes deployments. Highly relevant for cloud engineers designing hybrid-cloud architectures that span AKS and EKS infrastructure.
-## Networking (2)
-
-### Multi-Cluster
-
-#### DNS
-
-  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Observability
 
 ### Telemetry
@@ -277,13 +270,6 @@ description: "Curated, AI-ranked Managed Kubernetes In Public Cloud resources fo
 #### Legacy Scaffolding
 
   - **(2022)** [blog.baeke.info: Trying out Draft 2 on AKS](https://baeke.info/2022/06/02/trying-out-draft-2-on-aks) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early evaluation testing out the Draft v2 workflow within AKS environments. Evaluates standard dev loops and notes architectural changes between initial Draft implementations and subsequent buildpack-driven tools. Modern architects should target standard buildpacks and OCI artifacts over older Draft versions.
-## Research
-
-### Architecture Analysis
-
-#### Infrastructure Design (1)
-
-  - **(2024)** [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnkube.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional, data-driven research catalog evaluating critical Kubernetes deployment components. Compiles comparative benchmarks and analyses of CNI plugins (Cilium, Calico), cloud providers (EKS, GKE, AKS), virtual machine shapes, and Ingress Controller solutions, highlighting costs and latencies.
 ## Resilience
 
 ### Chaos Engineering
@@ -308,7 +294,7 @@ description: "Curated, AI-ranked Managed Kubernetes In Public Cloud resources fo
   - **(2020)** [medium: Secure your Microservices on AKS — Part 1 🌟](https://itnext.io/running-your-microservices-securely-on-aks-417a110b2e76) <span class='md-tag md-tag--warning'>[TERRAFORM/YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth security architecture guide covering secure microservices deployment on AKS. Leverages Azure Active Directory (AAD) Pod Identity (and modern Workload Identity shifts) along with network security policies. Details methods to restrict pod-to-pod communications, configure secret vaults, and enforce security baselines at the runtime layer.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Edge Computing](./edge-computing.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

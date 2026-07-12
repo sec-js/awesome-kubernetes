@@ -47,11 +47,6 @@ description: "Top Demos resources for 2026, AI-ranked: OpenShift AI Examples, kn
 #### Local Development
 
   - **(2021)** [shipa.io: Developing and deploying applications to Kubernetes locally with Shipa and Minikube](https://shipa.io/deploying-applications-on-kubernetes) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Showcases local application delivery pipelines combining Minikube with Shipa's developer-focused abstractions. Allows engineers to deploy code without writing verbose YAML. (Live Grounding: Important context for 2026 Developer Platforms. Shipa was acquired by Snyk in 2023, shifting its core value towards Snyk AppRisk for secure cloud development).
-### Enterprise Modernization
-
-#### Multi-Cluster Strategy
-
-  - **(2021)** [openshift.com: Applications Here, Applications There! - Part 3 - Application Migration](https://www.redhat.com/en/blog/applications-here-applications-there-part-3-application-migration) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates strategies for migrating active application states and resource structures between hybrid and multi-cloud OpenShift clusters without losing critical metadata or transaction continuity.
 ### GitOps
 
 #### Microservices Showcase
@@ -567,7 +562,7 @@ description: "Top Demos resources for 2026, AI-ranked: OpenShift AI Examples, kn
   - **(2020)** [github.com/redhat-developer-demos/spring-petclinic 🌟](https://github.com/redhat-developer-demos/spring-petclinic) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight maps out Red Hat's customized developer demo fork of the Spring Petclinic project. Live Grounding indicates this version is heavily optimized for OpenShift deployments, featuring native integration with OpenShift build configs and Kubernetes secrets. It is ideal for illustrating red-hat native cloud development workflows.
 
 ---
-💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Kubernetes](./kubernetes.md) | [Kubernetes Tools](./kubernetes-tools.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
 

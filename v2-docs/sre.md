@@ -9,13 +9,6 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
 !!! info "Architectural Context"
     Detailed reference for Site Reliability Engineering (SRE) in the context of Platform & Site Reliability.
 
-## Cloud Native
-
-### Kubernetes
-
-#### Progressive Delivery
-
-  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Continuous Delivery
 
 ### Feature Management
@@ -97,15 +90,6 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2022)** [getcortexapp.com: A guide to the best SRE tools](https://www.cortex.io/post/a-guide-to-the-best-sre-tools)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Cortex's architectural guide evaluating modern SRE tooling stacks. Highlights service catalogs, central tracking, alert deduplication, automated runbooks, and performance benchmarking.
   - **(2021)** [thenewstack.io: The Site Reliability Engineering Tool Stack](https://thenewstack.io/the-site-reliability-engineering-tool-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the fundamental tooling categories necessary for robust SRE practices, spanning declarative Infrastructure as Code (IaC), performance profiling, on-call management, and automated monitoring integrations.
   - **(2021)** [thenewstack.io: The Best Site Reliability Engineering Tools in 2021](https://thenewstack.io/the-best-site-reliability-engineering-tools-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evaluative overview of top-tier reliability platforms. Focuses on tools addressing continuous anomaly detection, SLO dashboards, chaos engineering, and incident management pipelines.
-## Site Reliability Engineering (2)
-
-### Observability (1)
-
-#### Monitoring Theory
-
-##### Distributed Systems
-
-  - **(2016)** [==Monitoring Distributed Systems - Google SRE Book==](https://sre.google/sre-book/monitoring-distributed-systems) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The foundational text establishing distributed systems monitoring fundamentals. Introduces the 'four golden signals' (latency, traffic, errors, and saturation) and addresses the core engineering trade-offs between white-box and black-box monitoring. Curator Insight: Seminal SRE literature defining core telemetry metrics. Live Grounding: Remains the architectural blueprint for modern production-grade telemetry frameworks globally.
 ## Software Engineering
 
 ### Professional Development
@@ -115,7 +99,7 @@ description: "Top SRE resources for 2026, AI-ranked: Skills for Real Engineers, 
   - **(2025)** [==Skills for Real Engineers==](https://github.com/mattpocock/skills) <span class='md-tag md-tag--info'>⭐ 128202</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ae169fb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 9 L 20 4 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-1ae169fb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular repository detailing the foundational principles, design philosophies, and architectural protocols required for master-level software delivery. While the curator focuses on career advancement, live engineering practice indicates that mastering these fundamentals is vital to surviving rapid AI development shifts. It represents an elite reference for engineering standardizations.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [Project Management Tools](./project-management-tools.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

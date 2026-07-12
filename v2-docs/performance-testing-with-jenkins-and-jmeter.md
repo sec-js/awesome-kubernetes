@@ -9,6 +9,13 @@ description: "Curated, AI-ranked Performance Testing With Jenkins And Jmeter res
 !!! info "Architectural Context"
     Detailed reference for Performance testing with jenkins and JMeter or Gatling in the context of Platform & Site Reliability.
 
+## Cloud Native
+
+### Kubernetes
+
+#### Progressive Delivery
+
+  - **(2024)** [**Iter8**](https://iter8.tools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Kubernetes-native release validation and progressive delivery tool. Iter8 enables automated canary testing, A/B testing, and SLO evaluation. It coordinates traffic shifting using Service Meshes or Gateways, evaluating metrics from Prometheus and metrics-server to automate rollbacks or promote stable microservice builds.
 ## Infrastructure
 
 ### Testing
@@ -35,7 +42,7 @@ description: "Curated, AI-ranked Performance Testing With Jenkins And Jmeter res
   - **(2023)** [thenewstack.io: Simple HTTP Load Testing with SLOs](https://thenewstack.io/simple-http-load-testing-with-slos) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical exploration of how modern load testing tools are adopting Service Level Objectives (SLOs) as first-class assertions. It contrasts classical metric collections against modern SLO-driven assertions (e.g., verifying 95th percentile latency is under 100ms), showcasing how to integrate these checks directly into automated deployment flows.
 
 ---
-💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

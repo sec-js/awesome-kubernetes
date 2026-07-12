@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Linux Dev Env resources for the 2026 Cloud Nati
   - **(2020)** [kubernetes.io: WSL+Docker: Kubernetes on the Windows Desktop 🌟](https://kubernetes.io/blog/2020/05/21/wsl-docker-kubernetes-on-the-windows-desktop) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An official Kubernetes community article focusing on the orchestration of a Kubernetes environment using WSL 2 and Docker Desktop. It contrasts WSL 2's native virtualization approach with older hypervisor methods, emphasizing lower memory footprints and rapid start times. This setup provides developers with a robust playground to evaluate Helm charts and microservices locally.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Maven Gradle](./maven-gradle.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Cloudflare](./cloudflare.md) | [Googlecloudplatform](./GoogleCloudPlatform.md)
 

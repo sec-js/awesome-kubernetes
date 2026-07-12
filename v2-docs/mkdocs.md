@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Mkdocs resources for the 2026 Cloud Native arch
   - **(2026)** [docs.traefik.io](https://doc.traefik.io/traefik)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The production documentation portal of Traefik Proxy, itself a prime real-world showcase of dynamic MkDocs engineering. Details configuration of ingress routing, TLS terminations, and middleware inside Kubernetes. In 2026, it represents a standard design pattern for deploying zero-trust edge proxies.
 
 ---
-💡 **Explore Related:** [Git](./git.md) | [Other Awesome Lists](./other-awesome-lists.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
 

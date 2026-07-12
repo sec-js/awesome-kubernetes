@@ -17,13 +17,6 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
 
   - [github.com/robusta-dev/kubernetes-chatgpt-bot](https://github.com/robusta-dev/kubernetes-chatgpt-bot) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intelligent triage chatbot linking cluster failures directly to LLM advice. Hooks Prometheus alert outputs to supply operators with instantaneous log summaries and debug steps.
   - [itnext.io: K8sGPT + LocalAI: Unlock Kubernetes superpowers for free!](https://itnext.io/k8sgpt-localai-unlock-kubernetes-superpowers-for-free-584790de9b65) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — In-depth guide configuring a fully offline AI diagnostics engine inside protected networks. Combines K8sGPT analytical tooling with LocalAI offline LLMs to safeguard internal data streams.
-## Cloud Native Operations
-
-### AI-Powered Operations AIOps
-
-#### Kubernetes Troubleshooting
-
-  - **(2023)** [k8sgpt.ai](https://k8sgpt.ai) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative, community-driven tool that integrates LLMs directly with Kubernetes diagnostic commands. By parsing cluster states, configuration anomalies, and system logs, k8sgpt provides clear explanations and automated remediation commands. It is a premier tool in the shift towards AI-powered autonomous operations (AIOps).
 ## Data Architecture
 
 ### Retrieval-Augmented Generation
@@ -33,7 +26,7 @@ description: "Curated, AI-ranked ChatGPT resources for the 2026 Cloud Native arc
   - [thenewstack.io: Using ChatGPT for Questions Specific to Your Company Data](https://thenewstack.io/using-chatgpt-for-questions-specific-to-your-company-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical deep-dive on Retrieval-Augmented Generation (RAG). Outlines how to query private corporate document indexes using semantic vector databases paired with ChatGPT-style APIs securely.
 
 ---
-💡 **Explore Related:** [MLOps](./mlops.md) | [AI](./ai.md) | [AI Agents MCP](./ai-agents-mcp.md)
+💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [AI Agents MCP](./ai-agents-mcp.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

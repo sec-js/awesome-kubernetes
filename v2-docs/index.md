@@ -88,9 +88,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18657 total resources analyzed.
-    - **V2 Elite Selection**: 14533 candidates identified (77.9% density ratio).
-    - **AI Enrichment Coverage**: 14533 / 14533 (100.0%)
+    - **V1 Base Inventory**: 18659 total resources analyzed.
+    - **V2 Elite Selection**: 14535 candidates identified (77.9% density ratio).
+    - **AI Enrichment Coverage**: 14535 / 14535 (100.0%)
     - **GitHub Metadata Coverage**: 1764 / 1764 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -99,22 +99,22 @@
 
 <div class="trending-section">
 <div class="trending-lane">
-<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Jul 11, 2026</span></div>
+<div class="trending-section__title">🔥 Trending Now — Cloud Native Intelligence <span class="trending-section__updated">Updated Jul 12, 2026</span></div>
 <input type="checkbox" id="trend-expand-now" class="trending-toggle">
 <div class="trending-grid">
+<div class="trending-card">
+  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
+  <div class="trending-card__category">Kubernetes & Orchestration</div>
+  <div class="trending-card__title"><a href="https://www.apptio.com/products/kubecost/?src=kc-com">Kubecost 🌟</a></div>
+  <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">The industry standard for real-time Kubernetes cost allocation, helping enterprises tackle cloud waste in multi-cluster environments.</div>
+</div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">AI & Agents</div>
   <div class="trending-card__title"><a href="https://antigravity.google">Google Antigravity Agentic Platform</a></div>
   <div class="trending-card__meta">2026-06-18 · 🌟🌟🌟🌟🌟</div>
   <div class="trending-card__why">It directly bridges the gap between local agent prototypes and production-grade Google Kubernetes Engine (GKE) deployments for stateful AI agents.</div>
-</div>
-<div class="trending-card">
-  <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
-  <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
-  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
-  <div class="trending-card__why">It shifts the infrastructure paradigm by turning Kubernetes clusters into universal control planes to manage external cloud resources declaratively.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -212,7 +212,7 @@
   <div class="trending-card__category">Infrastructure as Code</div>
   <div class="trending-card__title"><a href="https://www.infoq.com/news/2026/05/opentofu-release-terraform">OpenTofu 1.12: the Feature Terraform Never Shipped</a></div>
   <div class="trending-card__meta">2026-06-02 · 🌟🌟🌟🌟</div>
-  <div class="trending-card__why">OpenTofu 1.12 introduces early-stage evaluation to solve long-standing modular limitations, solidifying its position as a highly competitive open-source alternative to Terraform.</div>
+  <div class="trending-card__why">Solves a decade-old limitation of upstream Terraform by enabling dynamic modular dependencies, marking a major milestone for the open-source fork.</div>
 </div>
 </div>
 <label for="trend-expand-now" class="trending-showmore"><span class="trending-showmore__more">▼ Show 7 more</span><span class="trending-showmore__less">▲ Show less</span></label>
@@ -238,9 +238,9 @@
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Kubernetes & Orchestration</div>
-  <div class="trending-card__title"><a href="https://github.com/Azure/azure-workload-identity">Azure/azure-workload-identity</a></div>
-  <div class="trending-card__meta">2026-06-14 · 333★</div>
-  <div class="trending-card__why">It provides the modern security standard for mapping Kubernetes Service Accounts to cloud provider identities securely via OIDC federation without secrets.</div>
+  <div class="trending-card__title"><a href="https://nubenetes.com/crossplane">Crossplane</a></div>
+  <div class="trending-card__meta">2026-06-14 · 🌟🌟🌟🌟🌟</div>
+  <div class="trending-card__why">It transforms Kubernetes into a universal control plane, allowing teams to manage multi-cloud infrastructure declaratively through the K8s API.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -318,7 +318,6 @@
 ## The Cloud Native Universe We Track
 
 <center markdown="1">
-
 <div markdown="1" class="mosaic-cat-block" style="border: 1px solid #8b5cf6; border-radius: 8px; padding: 10px; margin: 8px 0; background: rgba(255, 255, 255, 0.01);" title="AI & Advanced Tech">
 
 <p class="mosaic-cat-label" style="--cat-color: #8b5cf6">AI & Advanced Tech</p>
@@ -374,7 +373,6 @@
 [![cloud academy](images/cloud_academy_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Cloudacademy) [![acloudguru](images/acloudguru_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/AcloudGuru) [![devops_tv](images/devops_tv_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Devopsdotcom) [![xebialabs](images/xebialabs_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/XebiaLabs) [![devops library](images/devops_library_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Devopslibrary) [![codecademy](images/codecademy.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/codecademy) [![coursera](images/coursera_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/user/coursera) [![academind](images/academind_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Academind) [![guru99](images/guru99_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/guru99comm) [![intellipaat](images/intellipaat_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Intellipaat) [![cloud quick POCs](images/cloudquickpocs.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/channel/UCv9MUffHWyo2GgLIDLVu0KQ) [![thetips4you](images/thethips4you.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Thetips4you) [![cloud learnhub](images/cloud_learn_hub.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/channel/UC57acx8sCmE7uFHfVMvIlNg) [![John Savill](images/John_Savill.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/NTFAQGuy) [![microservice factory](images/microservice_factory.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/channel/UCorFV-WGnajyfNu4zPI0AAA) [![kubedb appscode](images/kubedb_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/AppsCodeInc) [![devops toolkit](images/devops_toolkit.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/DevOpsToolkit) [![ansible pilot](images/ansiblepilot.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/AnsiblePilot) [![codelytv](images/codelytv_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/CodelyTV) [![pelado nerd](images/pelado_nerd.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/PeladoNerd) [![hola mundo](images/hola_mundo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/HolaMundoDev) [![javier garzas](images/jgarzas.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/JavierGarz%C3%A1s) [![london IAC](images/londonIAC.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/LondonIAC) [![techworld nana](images/techworld_nana.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/TechWorldwithNana) [![honeypot](images/honeypot.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Honeypotio) [![Ali Spittel](images/aspittel.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/AliSpittelDev) [![thomas maurer](images/thomas_maurer.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/ThomasMaurerCloud) [![freecodecamp](images/freecodecamp.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/Freecodecamp) [![thenewstack](images/thenewstack.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/TheNewStack) [![the cloud girl](images/thecloudgirl.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/priyankavergadia) [![tina huang](images/tinahuang.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/TinaHuang1) [![azure cloud native](images/azure_cloud_native.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/channel/UC2Pk9GcHhlVV0R9CQIU6gLw) [![gps](images/gps.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/MadeByGPS) [![anais urlichs](images/anais_urlichs.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/AnaisUrlichs) [![the digital life](images/the_digital_life.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/TheDigitalLifeTech) [![Tech with Helen](images/techwithhelen.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@techwithhelen) [![bytebytego](images/bytebytego.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@ByteByteGo) [![midulive](images/midulive.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@midulive) [![returngis](images/returngis_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@returngis) [![Olena Kutsenko](images/olena_kutsenko.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@OlenaKutsenko) [![mouredev](images/mouredev.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@mouredev) [![CloudNativeMadrid](images/cloudnativemadrid_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@CloudNativeMadrid) [![itopstalk](images/itopstalk_logo.png){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@ITOpsTalk) [![dzone](images/dzone_logo.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/c/dzone) [![Jorge Monzonís SAP](images/jorgemonzonis_sap.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@JorgeMonzon%C3%ADsSAP) [![IT Televisión ES](images/ittelevision_es.jpg){: style="width:48px; height:48px; object-fit:contain; margin:6px;" loading="lazy" .channel-logo}](https://www.youtube.com/@ITTelevisi%C3%B3n_ES)
 
 </div>
-
 </center>
 
 ## Label Heatmap
@@ -397,7 +395,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-3" href="/tags/#case-study" title="39 resources">Case Study<span class="v2-heat-n">39</span></a>
 <a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="1764 resources">Community-Tool<span class="v2-heat-n">1764</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#conceptual-content" title="12 resources">Conceptual<span class="v2-heat-n">12</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="322 resources">De Facto Standard<span class="v2-heat-n">322</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="323 resources">De Facto Standard<span class="v2-heat-n">323</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
@@ -405,7 +403,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="368 resources">Enterprise-Stable<span class="v2-heat-n">368</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="319 resources">Go<span class="v2-heat-n">319</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content-2" title="1 resources">Go/Yaml<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="11 resources">Groovy<span class="v2-heat-n">11</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="266 resources">Guide<span class="v2-heat-n">266</span></a>

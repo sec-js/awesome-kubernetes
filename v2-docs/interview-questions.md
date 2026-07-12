@@ -51,5 +51,5 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 ---
 💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Elearning](./elearning.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
