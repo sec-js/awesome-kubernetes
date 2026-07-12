@@ -216,7 +216,7 @@ class IntelligentLinkCleaner:
             
             # Mandate 22 & 33 were handled in _check_url_logic to avoid sequential bottlenecks
             is_important = any(occ.get("is_important") for occ in self.link_registry.get(nu, []))
-            if entry.get("stars", 0) >= 3: is_important = True
+            if (entry.get("stars") or 0) >= 3: is_important = True
 
             status, final_reason = ("INCLUDED", reason) if alive else ("FILTERED", reason)
             
@@ -239,7 +239,7 @@ class IntelligentLinkCleaner:
             self.full_report_metrics.append({
                 "url": url, "status": status, "reason": final_reason,
                 "category": entry.get("category", "N/A"), "post_date": entry.get("pub_date"),
-                "source": "Health Checker", "impact_score": entry.get("stars", 0) * 20,
+                "source": "Health Checker", "impact_score": (entry.get("stars") or 0) * 20,
                 "language": entry.get("language", "EN"), "type": entry.get("resource_type", "Ref")
             })
             self.inventory[nu] = entry
@@ -265,7 +265,7 @@ class IntelligentLinkCleaner:
         triage_links = []
         for url, meta in self.inventory.items():
             if meta.get('status') == 'review_required':
-                triage_links.append({"url": url, "stars": meta.get('stars', 0), "desc": meta.get('description', 'N/A')})
+                triage_links.append({"url": url, "stars": meta.get('stars') or 0, "desc": meta.get('description', 'N/A')})
         
         if triage_links:
             # Sort by stars (impact) DESC
