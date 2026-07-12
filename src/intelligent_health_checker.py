@@ -208,7 +208,9 @@ class IntelligentLinkCleaner:
         log_event("FINALIZING STATUS AND METRICS...", section_break=True)
         for url, (alive, reason, final) in check_results.items():
             nu = normalize_url(url); entry = self.inventory.get(nu, {})
-            score = entry.get("health_score", 100)
+            score = entry.get("health_score")
+            if score is None:
+                score = 100.0
             score = (score * 0.8) + (100 if alive else 0) * 0.2
             entry["health_score"] = round(score, 1); entry["last_checked"] = datetime.now().timestamp()
             
