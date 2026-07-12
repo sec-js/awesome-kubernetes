@@ -292,7 +292,9 @@ class GeminiQuotaExhausted(Exception):
 
 def handle_retry_error(retry_state):
     import sys
-    log_event("  [🚨] CIRCUIT BREAKER TRIPPED: Tenacity exhausted retries. Emitting exit code 42.")
+    exc = retry_state.outcome.exception()
+    log_event(f"  [🚨] CIRCUIT BREAKER TRIPPED: Tenacity exhausted retries. Exception: {exc}")
+    log_event("  Emitting exit code 42.")
     sys.exit(42)
 
 @retry(
@@ -391,16 +393,16 @@ async def call_gemini_with_retry(prompt: str, response_format: str = "json", max
     base_wait_time = 2.0
     
     # 1. Smart Filtering and Re-ordering
-    if prefer_flash:
-        # Strict filter: Only allow flash/lite models
-        models = [m for m in models_pool if "flash" in m or "lite" in m]
-        if not models:
-            models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
-    elif use_grounding:
+    if use_grounding:
         # For grounding, we MANDATE Pro models as they have superior search/reasoning capabilities
         models = [m for m in models_pool if "pro" in m]
         if not models:
             models = ["gemini-1.5-pro", "gemini-1.5-pro-latest"]
+    elif prefer_flash:
+        # Strict filter: Only allow flash/lite models
+        models = [m for m in models_pool if "flash" in m or "lite" in m]
+        if not models:
+            models = ["gemini-1.5-flash", "gemini-1.5-flash-latest"]
     else:
         models = models_pool
 
