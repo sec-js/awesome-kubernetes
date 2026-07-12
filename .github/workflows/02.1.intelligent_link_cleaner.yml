@@ -51,6 +51,17 @@ jobs:
         if: steps.playwright-cache.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
+      - name: Restore Link Checker Cache
+        uses: actions/cache/restore@v4
+        id: link-checker-cache
+        with:
+          path: |
+            shard_result.json
+            triage_report.md
+          key: link-cleaner-results-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            link-cleaner-results-${{ github.run_id }}-
+
       - name: Global Intelligent Cleaning Execution (Sequential Fast-Track)
         env:
           GEMINI_API_KEY_1: ${{ secrets.GEMINI_API_KEY_1 }}
@@ -60,7 +71,11 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
           PYTHONUNBUFFERED: 1
         run: |
-          python src/intelligent_health_checker.py
+          if [ -f shard_result.json ]; then
+            echo "shard_result.json found in cache/restored files. Skipping health checker execution."
+          else
+            python src/intelligent_health_checker.py
+          fi
 
       - name: Run Inventory Reducer & Apply Changes
         env:
@@ -79,9 +94,23 @@ jobs:
             EXISTING_ISSUE=$(gh issue list --search "$ISSUE_TITLE" --state open --json number --jq '.[0].number')
             
             if [ -z "$EXISTING_ISSUE" ]; then
-              gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md --label "triage, automated-report"
+              gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md --label "triage, automated-report" || gh issue create --title "$ISSUE_TITLE" --body-file triage_report.md
             else
               echo "A triage issue already exists (#$EXISTING_ISSUE). Updating with new report..."
               gh issue comment $EXISTING_ISSUE --body-file triage_report.md
             fi
           fi
+
+      - name: Ensure Cache Files Exist
+        if: always()
+        run: |
+          touch shard_result.json triage_report.md
+
+      - name: Save Link Checker Cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            shard_result.json
+            triage_report.md
+          key: link-cleaner-results-${{ github.run_id }}-${{ github.run_attempt }}

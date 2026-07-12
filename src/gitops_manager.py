@@ -151,12 +151,24 @@ class RepositoryController:
             
         pr_body += f"{ai_intel}\n\n{mermaid}\n{source_md}\n{gems_md}\n---\n**Audit Matrix and Logs follow in successive comments.**\n"
 
-        pr = self.repository.create_pull(
-            title=f"💎 Knowledge Update & Optimization: {datetime.now().strftime('%d %b %Y')}",
-            body=pr_body[:65000],
-            head=branch_name,
-            base=self.default_branch_name
-        )
+        try:
+            pr = self.repository.create_pull(
+                title=f"💎 Knowledge Update & Optimization: {datetime.now().strftime('%d %b %Y')}",
+                body=pr_body[:65000],
+                head=branch_name,
+                base=self.default_branch_name
+            )
+        except Exception as e:
+            if "pull request already exists" in str(e).lower() or "422" in str(e):
+                print(f"[INFO] Pull request already exists for branch {branch_name}. Fetching existing one...")
+                pulls = self.repository.get_pulls(state='open', head=f"{self.repository.owner.login}:{branch_name}")
+                if pulls.totalCount > 0:
+                    pr = pulls[0]
+                    pr.edit(body=pr_body[:65000])
+                else:
+                    raise e
+            else:
+                raise e
 
         # 1. Safety Report (if huge)
         if not safety_in_body:
