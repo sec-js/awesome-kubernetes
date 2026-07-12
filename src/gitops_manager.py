@@ -52,11 +52,11 @@ class RepositoryController:
 
     def apply_multi_file_changes(self, updates: dict, metrics: dict, safety_report: str = "") -> str:
         import os
+        timestamp_slug = datetime.now().strftime("%Y%m%d-%H%M")
         run_id = os.environ.get("GITHUB_RUN_ID")
         if run_id:
             branch_name = f"bot/knowledge-update-run-{run_id}"
         else:
-            timestamp_slug = datetime.now().strftime("%Y%m%d")
             branch_name = f"bot/knowledge-update-{timestamp_slug}"
         
         try:
