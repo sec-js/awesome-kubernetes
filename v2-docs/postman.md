@@ -13,9 +13,26 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 
 ### Testing and Debugging
 
+#### Getting Started
+
+  - **(2021)** [blog.postman.com: First 5 Things to Try If You’re New to Postman](https://blog.postman.com/postman-first-5-things-to-try)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational guide covering fundamental Postman workflows, including sending requests, creating collections, executing environment variables, and automated test scripting. It introduces developers to rapid API prototyping and assertions using Chai-based test libraries. This entry point establishes robust habits for automated integration testing in microservices architectures.
 #### Postman Proxy
 
   - **(2021)** [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman's built-in proxy captures HTTPS traffic directly from mobile devices and desktop clients, facilitating API inspection. Utilizing custom SSL certificates, it decrypts SSL/TLS payloads locally to allow seamless request debugging. This integration accelerates contract testing and troubleshooting within local microservices environments.
+## API Lifecycle
+
+### Testing and Mocking
+
+#### Engineering Blogs
+
+  - **(2026)** [**blog.getpostman.com**](https://blog.postman.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Postman engineering blog highlighting modern practices in API design, automated testing, mocking, and API-first architectures. Contains high-depth articles on security, governance, and integrating API testing into global pipelines. Offers valuable insights into cross-team API collaboration.
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Dzone: how to use postman to manage and execute your APIs](https://dzone.com/articles/how-to-use-postman-to-manage-and-execute-your-apis)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: how to use postman to manage and execute your APIs in the Kubernetes Tools ecosystem.
 ## Architecture
 
 ### Microservices
@@ -23,6 +40,22 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 #### Internal Developer Platforms
 
   - **(2021)** [blog.postman.com: Meet Matrix: Postman’s Internal Tool for Working with' Microservices](https://blog.postman.com/matrix-postman-internal-tool-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Matrix is Postman's internal developer tool designed to orchestrate local microservices development, simplifying the execution and coordination of dependent services. It acts as a lightweight developer portal, bridging the gap between local compose files and remote staging environments. Live engineering truth reveals it as a custom service runner that enhances developer workflow automation and mitigates configuration drift.
+## Quality Assurance
+
+### API Testing Automation
+
+#### Postman Guides
+
+##### Testing Frameworks
+
+  - **(2021)** [freecodecamp.org: Master API Testing with Postman](https://www.freecodecamp.org/news/master-api-testing-with-postman) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents this masterclass from FreeCodeCamp for comprehensive API testing utilizing Postman. Live Grounding notes that while GUI based testing is powerful for debugging, exporting these suites for CLI integration via Newman remains the gold standard for automated pipelines. It serves as an essential foundational guide for quality engineering.
+## Security and Governance
+
+### API Lifecycle (1)
+
+#### Secrets Management
+
+  - **(2023)** [blog.postman.com: Introducing the Secret Variable Type in Postman](https://blog.postman.com/introducing-secret-variable-type-in-postman) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman's 'Secret' variable type enhances security workflows by preventing sensitive data leakage in API tests and collections. It masks sensitive values (like API keys or tokens) in the Postman UI and console logs, protecting them from accidental exposure during sharing or screen-sharing sessions. This feature represents a critical upgrade for enterprise DevSecOps pipelines integrating automated API testing.
 ## Software Architecture
 
 ### Business Rules
@@ -35,6 +68,11 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [Drools](https://kie.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Drools is a powerful, production-ready Business Rules Management System (BRMS) featuring a forward and backward-chaining inference engine (RETE OO-algorithm) for decoupling enterprise logic from complex microservice structures.
 ## Software Testing
 
+### API Automation
+
+#### KIE Server
+
+  - **(2020)** [developers.redhat.com: Automated API testing for the KIE Server](https://developers.redhat.com/blog/2020/05/01/automated-api-testing-for-the-kie-server) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on setting up automated REST API test runners for KIE decision services. Demonstrates performance execution metrics, payload validation models, and CI integration pipelines using Postman and Newman test wrappers.
 ### API Security
 
 #### Postman Integrations
@@ -58,14 +96,9 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
 #### Productivity
 
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
-### Performance Testing
-
-#### API Testing (1)
-
-  - **(2026)** [learning.postman.com: Simulate user traffic to test your API performance](https://learning.postman.com/docs/collections/performance-testing/testing-api-performance) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive architectural documentation detailing Postman's built-in performance testing runner. This system enables localized load simulation, virtual user profiling, and API concurrency metrics analysis.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Golang](./golang.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

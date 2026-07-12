@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked AWS Architecture resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+description: "Curated, AI-ranked AWS Architecture resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
 ---
 # AWS Architecture and Best Practices
 
@@ -7,26 +7,32 @@ description: "Curated, AI-ranked AWS Architecture resources for the 2026 Cloud N
     You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/aws-architecture/).
 
 !!! info "Architectural Context"
-    Detailed reference for AWS Architecture and Best Practices in the context of Cloud Providers (Hyperscalers).
+    Detailed reference for AWS Architecture and Best Practices in the context of Architectural Foundations.
 
-## Cloud Architecture
+## Cloud Infrastructure
 
-### Case Studies
+### Infrastructure as Code
 
-#### Enterprise Scale
+#### Compliance Auditing
 
-  - **(2019)** [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study mapping Trainline's migrations onto AWS using ECS containerized deployments and RDS clusters. Demonstrates successful reduction in database locking periods and outlines zero-downtime blue/green microservice delivery strategies.
-## Kubernetes and Platform Engineering
+  - **(2026)** [AWS Well-Architected IaC Analyzer](https://github.com/aws-samples/well-architected-iac-analyzer) <span class='md-tag md-tag--info'>⭐ 483</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1f73eea1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 9 L 30 11 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-1f73eea1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-backed auditing analyzer designed to inspect CloudFormation and Terraform designs against the AWS Well-Architected standard. Evaluates infrastructure-as-code deployments for security vulnerabilities and reliability issues before runtime provisioning.
+## Cloud Platform
 
-### Modernization Tools
+### AWS Infrastructure
 
-#### Microservice Migration
+#### Reference Architectures
 
-  - **(2023)** [AWS App2Container: Migrate your Applications to Containers at Scale](https://aws.amazon.com/blogs/architecture/migrate-your-applications-to-containers-at-scale) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Introduces AWS App2Container, a tool that automates the migration of legacy .NET and Java web applications into containerized structures ready for deployment on Amazon ECS or EKS.
-  - **(2023)** [Let’s Architect! Architecting microservices with containers](https://aws.amazon.com/blogs/architecture/lets-architect-architecting-microservices-with-containers)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A foundational guide for decoupling large legacy applications. Explores container hosting options on ECS and EKS, microservice discovery patterns, and inter-service security standards.
+  - **(2026)** [AWS Labs GitHub](https://github.com/awslabs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The central AWS Labs GitHub organization housing hundreds of active experimental projects, tooling integrations, and reference CDK blueprints. Live Grounding highlights this hub as a critical launchpad for emerging patterns in infrastructure-as-code and cloud automation. It provides platform engineering teams with robust, peer-reviewed building blocks for accelerated architecture design.
+## Enterprise Architecture
+
+### Cloud Governance
+
+#### Case Studies
+
+  - **(2023)** [==github.com/ministryofjustice: Modernisation Platform - Architecture Decisions==](https://github.com/ministryofjustice/modernisation-platform/tree/main/architecture-decision-record) <span class='md-tag md-tag--info'>⭐ 724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-14620c6e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 8 L 30 8 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-14620c6e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The public collection of Architecture Decision Records (ADRs) from the UK Ministry of Justice Modernisation Platform. This serves as a key reference for cloud governance, public sector IT standards, and clear decision documentation.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

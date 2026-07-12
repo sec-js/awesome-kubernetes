@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless, OpenFaaS and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift Serverless and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -9,6 +9,16 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 !!! info "Architectural Context"
     Detailed reference for Serverless Architectures and Frameworks in the context of The Container Stack.
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
+  - [dzone: Implementing Serverless Microservices Architecture on AWS](https://dzone.com/articles/implementing-serverless-microservices-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Implementing Serverless Microservices Architecture on AWS in the Kubernetes Tools ecosystem.
+  - [dzone: When to Use Serverless, and When to Use Kubernetes 🌟](https://dzone.com/articles/when-to-use-serverless-when-to-use-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Serverless, and When to Use Kubernetes 🌟 in the Kubernetes Tools ecosystem.
+  - [dzone: When to Use Logic Apps and Azure Functions](https://dzone.com/articles/when-to-use-logic-apps-and-azure-functions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: When to Use Logic Apps and Azure Functions in the Kubernetes Tools ecosystem.
 ## Architecture Decisions
 
 ### Comparisons
@@ -39,9 +49,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 #### Microservices Strategy
 
   - **(2020)** [theregister.com: Microservices guru says think serverless, not Kubernetes: You don't want to manage 'a towering edifice of stuff'](https://www.theregister.com/software/2020/09/22/microservices-guru-says-think-serverless-not-kubernetes-you-dont-want-to-manage-a-towering-edifice-of-stuff/353334)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the perspective that modern development teams should choose serverless configurations over Kubernetes to prevent managing complex platforms. Evaluates operational trade-offs and explains when to utilize FaaS to optimize business logic focus.
-#### Scalability
-
-  - **(2021)** [itnext.io: Scaling My App: Serverless vs Kubernetes 🌟](https://itnext.io/scaling-my-app-serverless-vs-kubernetes-cdb8adf446e1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive technical comparison contrasting serverless scaling models against container orchestration platforms like Kubernetes. Breaks down cost efficiency, resource management overhead, cold starts, scale-to-zero capabilities, and developer productivity trade-offs.
 ### Serverless
 
 #### Event-Driven Systems
@@ -75,6 +82,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
   - **(2026)** [**openwhisk.apache.org**](https://openwhisk.apache.org) <span class='md-tag md-tag--warning'>[SCALA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source distributed event-driven platform capable of executing discrete serverless logic. Utilizes container runtimes to isolate and invoke handlers in millisecond timelines.
 #### Framework Comparisons
 
+  - **(2021)** [**vshn.ch: A (Very!) Quick Comparison of Kubernetes Serverless Frameworks**](https://www.vshn.ch/en/blog/a-very-quick-comparison-of-kubernetes-serverless-frameworks) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A condensed comparative post evaluating resource profiles, container dependencies, and lifecycle abstractions for executing serverless frameworks on Kubernetes.
   - **(2021)** [**epsagon.com: Serverless Open-Source Frameworks: **OpenFaaS**, **Knative**, & More 🌟**](https://epsagon.com/blog/serverless-open-source-frameworks-openfaas-knative-more) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Compares open-source serverless frameworks like OpenFaaS and Knative, focusing on custom deployment controllers, API routing architectures, and native scale-to-zero capabilities.
   - **(2021)** [**winderresearch.com: A Comparison of Serverless Frameworks for Kubernetes: OpenFaas, OpenWhisk, Fission, Kubeless and more**](https://winder.ai/a-comparison-of-serverless-frameworks-for-kubernetes-openfaas-openwhisk-fission-kubeless-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Technical analysis of OpenFaaS, OpenWhisk, Fission, and Kubeless. Compares execution mechanics, custom resource dependencies, and cold start management profiles.
 #### Knative
@@ -82,6 +90,9 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
   - **(2026)** [==knative.dev==](https://knative.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier Kubernetes-native platform for serverless workloads. Offers enterprise-grade Serving (scale-to-zero, request-driven autoscaling) and highly decoupled Eventing models.
   - **(2021)** [**redhat.com: What is knative?**](https://www.redhat.com/en/topics/microservices/what-is-knative) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Red Hat's baseline structural review of Knative, mapping its internal serving controllers, ingress routes, and cluster event models for enterprise operators.
   - **(2020)** [**datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants**](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines Knative's industry goal of creating an open, pluggable platform layer that frees enterprise organizations from public cloud vendor lock-in.
+#### Knative Tooling
+
+  - **(2026)** [**kn: knative client**](https://github.com/knative/client) <span class='md-tag md-tag--info'>⭐ 385</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d255076" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 12 L 30 11 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-6d255076)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official CLI client ('kn') for interacting with Knative installations, enabling rapid deployment of serving entities and management of decoupled event bindings.
 #### Knative and API Gateways
 
   - **(2021)** [**dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway**](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical technical demonstration outlining how to replicate proprietary cloud FaaS configurations by using open components like Knative and Kong API Gateway inside a Kubernetes cluster.
@@ -89,7 +100,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 
   - **(2026)** [==OpenFaaS==](https://www.openfaas.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptionally popular, developer-friendly FaaS engine on Kubernetes. Features built-in auto-scaling, Prometheus metrics integration, and allows running any code in standard containers.
   - **(2021)** [**openfaas.com: Learn how to build functions faster using Rancher's kim and K3s**](https://www.openfaas.com/blog/kim) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Shows how to accelerate development loops by leveraging Rancher's kim builder along with K3s to compile, load, and deploy OpenFaaS functions without external registries.
-  - **(2020)** [**itnext.io: Deploy your first Serverless Function to Kubernetes**](https://itnext.io/deploy-your-first-serverless-function-to-kubernetes-232307f7b0a9) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A step-by-step developer tutorial showing how to install, test, and expose your first OpenFaaS serverless function inside a local Kubernetes testing cluster.
   - **(2021)** [xenonstack.com: Serverless Architecture with OpenFaaS and Java](https://www.xenonstack.com/blog/serverless-open-faas-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates using JVM workloads within OpenFaaS, detailing compilation strategies, framework footprint reduction, and optimizing startup latency for container pods.
 #### OpenFunction
 
@@ -104,6 +114,9 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 #### Advanced Best Practices
 
   - **(2021)** [**dev.to: Serverless - Beyond the Basics | Kristi Perreault 🌟**](https://dev.to/aws-heroes/serverless-beyond-the-basics-kom) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Delves past initial hello-world templates to address production concerns like advanced testing strategies, strict security configurations, and proper CI/CD pipelines.
+#### Anti-patterns
+
+  - **(2020)** [**serverlesshorrors.com 🌟**](https://serverlesshorrors.com) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open community catalog detailing critical serverless horror stories, execution loops, cold-start bottlenecks, and configuration mistakes to help engineers avoid similar traps.
 #### CI-CD
 
   - **(2019)** [**theburningmonk.com: Why you should use ephemeral environments when you do serverless**](https://theburningmonk.com/2019/09/why-you-should-use-temporary-stacks-when-you-do-serverless) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Recommends utilizing ephemeral stack deployments per developer or pull request. Highlights how to leverage zero-marginal-cost resource provisioning characteristics of cloud serverless.
@@ -114,6 +127,15 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 #### Design Patterns
 
   - **(2020)** [**architectelevator.com: Concerned about Serverless Lock-in? Consider Patterns!**](https://architectelevator.com/cloud/serverless-design-patterns) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Proposes core mitigation strategies for cloud vendor lock-in through abstraction layers, hexagonal architecture, and port-and-adapters design patterns.
+#### Ecosystem Landscapes
+
+  - **(2019)** [techbeacon.com: An essential guide to the 2019 serverless ecosystem](https://techbeacon.com/enterprise-it/essential-guide-2019-serverless-ecosystem) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A historical overview detailing the serverless framework, cloud tools, and platform landscape of 2019, tracing the market growth towards modern container standards.
+#### Enterprise Strategy
+
+  - **(2022)** [**serverlessguru.com: Enterprise Serverless Adoption 🌟**](https://www.sls.guru/blog/enterprise-serverless-adoption) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Explores the organizational strategies, cultural shifts, and governance models required to successfully integrate serverless execution engines into legacy enterprise architectures.
+#### Operational Guides
+
+  - **(2021)** [**docs.google.com: Serverless Guide to Success 2021**](https://docs.google.com/document/u/0/d/1VEkUvTbqxfC1XyVGb2Z3DtEk9NA1M6PJpeCqEYRATLM/mobilebasic) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This document acts as an operational blueprint offering tactical patterns for adoption, cost estimation, and lifecycle management within serverless paradigms. It bridges the gap between basic functions and enterprise execution strategies.
 #### Scaling Paradigms
 
   - **(2022)** [**readysetcloud.io: Building Serverless Applications That Scale The Perfect Amount 🌟**](https://www.readysetcloud.io/blog/allen.helton/how-to-design-serverless-apps-that-scale-the-perfect-amount) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes practical mechanisms to throttle, buffer, and control scaling thresholds in serverless topologies. Helps architects avoid cascade failures by preventing downstream database and external API bottlenecks.
@@ -122,6 +144,9 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 #### Azure Functions
 
   - **(2021)** [c-sharpcorner.com: Why and When to use Azure Functions](https://www.c-sharpcorner.com/article/why-and-when-to-use-azure-functions) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates architectural use-cases, pricing models, and trigger mechanisms for Azure Functions. Focuses on integrating event-driven execution patterns with enterprise dotnet ecosystems.
+#### Cost Optimization
+
+  - **(2021)** [dev.to: Price Comparison of Popular Serverless Architecture Providers](https://dev.to/d1020/price-comparison-of-popular-serverless-architecture-providers-2jk9) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Performs financial comparisons between public cloud providers (AWS, Azure, GCP), modeling billing triggers, resource provisioning scales, and data egress pricing.
 #### Frameworks
 
   - **(2026)** [==serverless.com: Serverless Framework==](https://www.serverless.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier multi-provider IaC wrapper for packaging and deploying serverless applications. Standardizes function definitions, network triggers, and permission models.
@@ -165,6 +190,11 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
   - **(2022)** [**redhat-scholars.github.io: Welcome to OpenShift Serverless Logic Tutorial**](https://redhat-scholars.github.io/serverless-workflow/osl/index.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guided academic and professional lab tutorial teaching developers to orchestrate complex state machines using the CNCF Serverless Workflow specification.
 ## Event Driven Architecture
 
+### Data Processing
+
+#### Batch vs Streaming
+
+  - **(2023)** [**serverlessland.com: BATCH PROCESSING VS EVENT STREAMING**](https://serverlessland.com/event-driven-architecture/visuals/batching-vs-event-streams) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A clear comparative analysis detailing when to leverage high-throughput batching against real-time low-latency event streaming patterns. Crucial for designing data pipeline boundaries.
 ### Design Patterns (1)
 
 #### Enterprise Integration Patterns
@@ -175,9 +205,19 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenShift Serverless
 #### Concepts
 
   - **(2022)** [==serverlessland.com/event-driven-architecture: Introduction to Event Driven Architecture 🌟==](https://serverlessland.com/event-driven-architecture) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A foundational deep dive into decoupled event-driven systems, detailing key components such as event producers, routers, and consumers. Essential reading for establishing loose-coupling patterns.
+#### Visuals
+
+  - **(2023)** [==serverlessland.com: EDA VISUALS 🌟🌟🌟==](https://serverlessland.com/event-driven-architecture/visuals) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated collection of visual explanations covering event-driven mechanics. Helps developers visually digest routing, choreographies, and filtering topologies.
+## FinOps and Cloud Cost
+
+### Azure Optimization
+
+#### Serverless (3)
+
+  - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubectl Commands](./kubectl-commands.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Kubernetes Bigdata resources for the 2026 Cloud Native architect: top-tier tools, guides and references (The Container Stack)."
+---
 # Big Data and Kubernetes Big Data
 
 !!! tip "Nubenetes V2 Elite Portal"
@@ -12,18 +15,12 @@
 
 #### General Reference
 
-  - [tomlous.medium.com: CI/CD for Data Engineers. Reliably Deploying Scala Spark' containers for Kubernetes with Github Actions](https://tomlous.medium.com/ci-cd-for-data-engineers-68b0fd915545)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering tomlous.medium.com: CI/CD for Data Engineers. Reliably Deploying Scala Spark' containers for Kubernetes with Github Actions in the Kubernetes Tools ecosystem.
   - [dzone: Run and Scale an Apache Spark Application on Kubernetes](https://dzone.com/articles/run-and-scale-an-apache-spark-application-on-kuber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Run and Scale an Apache Spark Application on Kubernetes in the Kubernetes Tools ecosystem.
   - [dzone: Running Apache Spark on Kubernetes](https://dzone.com/articles/running-apache-spark-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Running Apache Spark on Kubernetes in the Kubernetes Tools ecosystem.
-  - [medium: Running Apache Spark on Kubernetes](https://medium.com/empathyco/running-apache-spark-on-kubernetes-2e64c73d0bb2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Running Apache Spark on Kubernetes in the Kubernetes Tools ecosystem.
-  - [levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning](https://levelup.gitconnected.com/master-sparkml-practical-guide-for-machine-learning-1efe1bd9cdce)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering levelup.gitconnected.com: Master SparkML: Practical Guide for Machine Learning in the Kubernetes Tools ecosystem.
 ## Data and AI
 
 ### Apache Spark
 
-#### Cloud Migration
-
-  - **(2021)** [**itnext.io: Migrating Apache Spark workloads from AWS EMR to Kubernetes**](https://itnext.io/migrating-apache-spark-workloads-from-aws-emr-to-kubernetes-463742b49fda) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly granular migration case study describing the engineering process of moving Apache Spark analytical jobs from AWS EMR to Amazon EKS. Addresses key architectural trade-offs such as node grouping, instance types, spot instance lifecycle management, and driver/executor scheduling. Live Grounding underscores that moving Spark workloads to Kubernetes optimizes compute utilization and reduces vendor lock-in.
 #### Cost Optimization
 
   - **(2023)** [spot.io: Setting up, Managing & Monitoring Spark on Kubernetes](https://www.flexera.com/products/flexera-one/container-optimization) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the financial and operational mechanics of running Spark executor pods on heterogeneous Kubernetes clusters. Emphasizes automated cost optimization, spot instance utilization, and intelligent scaling practices. Live Grounding shows that dynamically shifting Spark executor tasks to spot instances under strict fallback rules is essential for scaling modern, cost-sensitive big data pipelines.
@@ -46,11 +43,6 @@
 #### Databricks
 
   - **(2022)** [aprenderbigdata.com: Databricks: Introducción a Spark en la nube](https://aprenderbigdata.com/databricks) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Offers a clear Spanish-language introduction to Databricks, highlighting its managed Apache Spark ecosystem across AWS and Azure. Demystifies collaborative notebooks, workspace management, and optimized runtimes. Live Grounding shows that Databricks continues to expand its lakehouse dominance, abstracting underlying infrastructure away from data engineers while offering native cloud integrations.
-### Data Pipelines
-
-#### Apache Spark (1)
-
-  - **(2022)** [hevodata.com: Building Apache Spark Data Pipeline? Made Easy 101 🌟](https://hevodata.com/learn/spark-data-pipeline) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory primer outlining the core concepts of building end-to-end data processing pipelines with Apache Spark. Focuses on data ingestion, transformations, and loading into modern target data warehouses. Live Grounding confirms that while Spark remains a foundational ETL standard, contemporary architectures increasingly wrap these pipelines inside orchestrated dbt-on-Kubernetes or SparkOperator setups.
 ### Databricks (1)
 
 #### Governance
@@ -63,5 +55,7 @@
   - **(2021)** [opensourceforu.com: Kubernetes Adoption Widespread for Big Data: Survey](https://www.opensourceforu.com/2021/12/kubernetes-adoption-widespread-for-big-data-survey/?amp) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details industry survey results illustrating the widespread migration of Big Data and stateful analytics workloads onto Kubernetes. Shows the transition from static, dedicated bare-metal clusters to dynamic, container-orchestrated platforms. Live Grounding confirms this historical trajectory has culminated in 2026, where cloud-native orchestration is the unquestioned standard for running Spark, Flink, and ML training pipelines.
 
 ---
-💡 **Explore Related:** [Kubernetes Storage](./kubernetes-storage.md) | [Kubernetes Alternatives](./kubernetes-alternatives.md) | [Kubernetes Client Libraries](./kubernetes-client-libraries.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked HR resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Career & Industry)."
+---
 # Human Resources
 
 !!! tip "Nubenetes V2 Elite Portal"
@@ -6,13 +9,6 @@
 !!! info "Architectural Context"
     Detailed reference for Human Resources in the context of Career & Industry.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [ft.com: Women in finance say ‘mediocre’ male managers block progress](https://www.ft.com/content/08ff1bd0-2e2b-4d20-bb9f-dfe8c5a9807b)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ft.com: Women in finance say ‘mediocre’ male managers block progress in the Kubernetes Tools ecosystem.
 ## Organizations
 
 ### Financial Risk
@@ -32,5 +28,7 @@
   - **(2026)** [elconfidencial.com: Olvida RRHH, ahora es el Departamento de Diversión: la infantilización del país de las 6.000 'startups'](https://www.elconfidencial.com/mundo/2023-03-10/milenializacion-mercado-laboral-israeli-startups_3551800) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study investigating modern employee retention trends in high-tech environments, specifically exploring the architectural shifts in human resources and corporate cultural structures.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Recruitment](./recruitment.md) | [Digital Money](./digital-money.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md)
+
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
