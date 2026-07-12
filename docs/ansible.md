@@ -155,7 +155,7 @@
 
 ## Ansible UI
 
-- [==Semaphore UI== 🌟](https://semaphoreui.com/)
+- [==Semaphore UI== 🌟](https://semaphoreui.com)
 - [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore) Ansible can be great for automating routine IT tasks, but some may feel stymied by the command line. Here's how to install the Semaphore graphical user interface.
 
 ## Deploying custom files with Jinja2 templates
