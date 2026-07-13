@@ -120,6 +120,38 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     </center>
 
+## OpenShift
+
+??? note "🎬 Kubernetes vs. OpenShift: Choosing DevOps and CI/CD Workflows"
+    !!! info "Architectural Summary"
+        This panel discussion features Ray Abaid detailing the core operational and architectural differences between running vanilla Kubernetes and Red Hat OpenShift. While Kubernetes provides the foundational container scheduling and cluster connectivity, OpenShift layers pre-integrated operators, automated build pipelines, and enterprise-grade security out of the box. For platform teams, this comparison highlights how choosing between the modularity of raw Kubernetes and the unified developer experience of OpenShift directly impacts delivery velocity and day-2 maintenance overhead.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="TcE56uuB1Qc" data-video-url="https://www.youtube.com/embed/TcE56uuB1Qc" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/TcE56uuB1Qc/hqdefault.jpg" alt="Kubernetes vs. OpenShift: Choosing DevOps and CI/CD Workflows" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
+??? note "🎬 Fran Heeran, Red Hat | Red Hat Summit 2026"
+    !!! info "Architectural Summary"
+        In this Red Hat Summit 2026 interview, Fran Heeran details how telecommunications providers are shifting from heavily siloed infrastructure to unified cloud-native architectures. By leveraging OpenShift Virtualization, telcos can centrally manage both legacy virtual machines and modern containers across core networks and the far edge, accelerating deployments up to 50%. This unified architecture additionally enables sovereign cloud offerings and closed-loop network automation by feeding AI outputs directly into Ansible-driven remediation workflows.
+
+    <center markdown="1">
+
+    <div class="video-lazy-container" data-video-id="Tr4onEST70I" data-video-url="https://www.youtube.com/embed/Tr4onEST70I" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
+      <img src="https://img.youtube.com/vi/Tr4onEST70I/hqdefault.jpg" alt="Fran Heeran, Red Hat | Red Hat Summit 2026" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
+      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
+      </div>
+    </div>
+
+    </center>
+
 ## Portworx
 
 ??? note "🎬 Murli Thirumale | KubeCon CloudNativeCon EU 2023"
@@ -215,23 +247,6 @@ Welcome to the **Cloud Native Core** section of the V2 Video Hub. Explore curate
 
     <div class="video-lazy-container" data-video-id="QBqRAMVTmwE" data-video-url="https://www.youtube.com/embed/QBqRAMVTmwE" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
       <img src="https://img.youtube.com/vi/QBqRAMVTmwE/hqdefault.jpg" alt="Building Secure, Well‑Architected Azure Workloads with Azure Verified Modules and GitHub Copilot" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
-      <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
-        <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-    </div>
-
-    </center>
-
-## OpenShift
-
-??? note "🎬 Fran Heeran, Red Hat | Red Hat Summit 2026"
-    !!! info "Architectural Summary"
-        In this Red Hat Summit 2026 interview, Fran Heeran details how telecommunications providers are shifting from heavily siloed infrastructure to unified cloud-native architectures. By leveraging OpenShift Virtualization, telcos can centrally manage both legacy virtual machines and modern containers across core networks and the far edge, accelerating deployments up to 50%. This unified architecture additionally enables sovereign cloud offerings and closed-loop network automation by feeding AI outputs directly into Ansible-driven remediation workflows.
-
-    <center markdown="1">
-
-    <div class="video-lazy-container" data-video-id="Tr4onEST70I" data-video-url="https://www.youtube.com/embed/Tr4onEST70I" style="position: relative; width: 720px; max-width: 100%; aspect-ratio: 16/9; background: #000; border-radius: 8px; overflow: hidden; cursor: pointer; border: 1px solid var(--md-typeset-table-color);">
-      <img src="https://img.youtube.com/vi/Tr4onEST70I/hqdefault.jpg" alt="Fran Heeran, Red Hat | Red Hat Summit 2026" class="video-lazy-thumbnail" style="width: 100%; height: 100%; object-fit: cover; opacity: 0.8; transition: opacity 0.3s, transform 0.3s;">
       <div class="video-lazy-play-btn" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px; background: rgba(0, 0, 0, 0.7); border-radius: 12px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease;">
         <svg viewBox="0 0 24 24" style="width: 30px; height: 30px; fill: #fff; transition: fill 0.3s;"><path d="M8 5v14l11-7z"/></svg>
       </div>
