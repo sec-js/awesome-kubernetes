@@ -230,7 +230,7 @@
 - Result of RedHat’s (now IBM) acquisition of CoreOS -> [RHCOS](https://docs.openshift.com/container-platform/4.4/architecture/architecture-rhcos.html) (Red Hat Enterprise Linux CoreOS)
 - Merge of two leading Kubernetes distributions, Tectonic and OpenShift:
     - **CoreOS Tectonic**:
-        - [Operator Framework](https://www.redhat.com/en/technologies/cloud-computing/openshift/learn/topics/operators)
+        - [Operator Framework](https://www.redhat.com/en/technologies/cloud-computing/openshift/what-are-openshift-operators)
         - [quay.io](https://quay.io) container build and registry service
         - Stable tiny Linux distribution with [ignition bootstrap](https://coreos.github.io/ignition) and transaction-based update engine.
     - **OpenShift**:

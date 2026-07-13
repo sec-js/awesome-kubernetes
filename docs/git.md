@@ -813,7 +813,7 @@ Automate them.
     - [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
 - [stackoverflow.com: Bot to automatically reverse GitHub pull request merges](https://stackoverflow.com/questions/27820309/bot-to-automatically-reverse-github-pull-request-merges). Maybe it's best to not allow the merges instead of reverting them:
     - [help.github.com: Configuring protected branches](https://docs.github.com/en)
-    - [help.github.com: Enabling required status checks:](https://docs.github.com/en/administering-a-repository/enabling-required-status-checks)
+    - [help.github.com: Enabling required status checks:](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)
         - Select Require status checks to pass before merging
         - Choose (create) a status check, that always fails
 

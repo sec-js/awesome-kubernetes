@@ -17,7 +17,7 @@
 - [NoSQL vs. SQL: Choosing a Data Management Solution](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)
 - [NoSQL Guide, by Martin Fowler](https://martinfowler.com/data/index.html)
 - [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview)
-- [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.facilcloud.com/noticias/?p=1294&lang=es_ES)
+- [Diferencias entre SQL y NoSQL ¿Sabes cuál usar?](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)
 - [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days)
 - [NoSQL Databases: 4 Game-Changing Use Cases](https://www.smartdatacollective.com/kingmesal/373466/nosql-databases-4-game-changing-use-cases)
 - [How to Evolve from RDBMS to NoSQL + SQL 🌟](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott)

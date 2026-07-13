@@ -162,7 +162,7 @@
   - [Pulumi: Infrastructure as Code in Any Programming Language](https://github.com/pulumi/pulumi) - *(Related to iac topic)*
   - [PMEase QuickBuild](https://www.pmease.com) - *(Related to cicd topic)*
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) - *(Related to gitops topic)*
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
+  - [FossFLOW](https://github.com/victortassinari/FossFLOW) - *(Related to cicd topic)*
   - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) 🌟 - Canine is an open-source deployment platform designed to simplify the deployment and management of applications on Kubernetes. It offers a Heroku-like experience, enabling developers to push code and have Canine manage the build, deployment, and entire application lifecycle. Key features include GitHub integration, one-click deployments and rollbacks, automatic SSL certificate management via Let's Encrypt, and a developer-friendly CLI. It aims to provide cost-effective hosting by making cheaper cloud providers as easy to use as more expensive ones.
   - [Platform Engineering Guide - 5 Key Use Cases of Internal Developer Platforms](https://www.techworld-with-nana.com/post/platform-engineering-guide) - *(Related to devops topic)*
   - [Warp: The Agentic Development Environment](https://www.warp.dev) 🌟 - Warp is an open-source agentic development environment that allows developers to build software with AI agents, locally and in the cloud. It offers a modern terminal for agentic coding and an orchestration platform for cloud agents. It aims to accelerate development workflows by integrating AI capabilities.
