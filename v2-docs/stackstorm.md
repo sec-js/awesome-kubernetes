@@ -18,7 +18,7 @@ description: "Curated, AI-ranked Stackstorm resources for the 2026 Cloud Native 
   - **(2025)** [github.com/StackStorm](https://github.com/StackStorm) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Central repositories for the StackStorm platform containing internal event loops, action runners, rules-engine components, pack loaders, and comprehensive infrastructure orchestration drivers.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

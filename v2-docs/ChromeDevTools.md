@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Chromedevtools resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Chrome and Firefox DevTools. HTTP Protocols and WebSockets
 
 !!! tip "Nubenetes V2 Elite Portal"
@@ -8,11 +11,6 @@
 
 ## Developer Workspace
 
-### Command-Line Tooling
-
-#### JSON and YAML Manipulators
-
-  - **(2024)** [jsontoolbox.com](https://jsontoolbox.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern online toolkit offering unified interfaces for compression, conversion, structure validation, and mapping of raw JSON payloads without data leakage risks.
 ### Diagnostics and Debugging
 
 #### Browser Developer Tools
@@ -26,5 +24,7 @@
   - **(2021)** [digitalocean.com: How To Debug Node.js with the Built-In Debugger and Chrome DevTools](https://www.digitalocean.com/community/tutorials/how-to-debug-node-js-with-the-built-in-debugger-and-chrome-devtools) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive tutorial on attaching Chrome DevTools directly to Node.js backend processes. Step-by-step guidance on setting execution break points, inspecting call stacks, and detecting memory leaks.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

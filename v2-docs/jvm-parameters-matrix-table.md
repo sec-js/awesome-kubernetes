@@ -1,19 +1,22 @@
+---
+description: "Curated, AI-ranked JVM Parameters Matrix Table resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Architectural Foundations)."
+---
 # JVM Parameters Matrix Table
 
 !!! tip "Nubenetes V2 Elite Portal"
     You are browsing the AI-Curated V2 Elite Edition. Looking for the exhaustive list of references? Check out the [**V1 Historical Archive**](/v1/jvm-parameters-matrix-table/).
 
 !!! info "Architectural Context"
-    Detailed reference for JVM Parameters Matrix Table in the context of Developer Ecosystem.
+    Detailed reference for JVM Parameters Matrix Table in the context of Architectural Foundations.
 
-## Architectural Foundations
+## Kubernetes Tools
 
-### Kubernetes Tools
-
-#### General Reference
+### General Reference
 
   - [Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟](https://dzone.com/articles/7-jvm-arguments-of-highly-effective-applications-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 7 JVM Arguments of Highly Effective Applications 🌟🌟🌟 in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

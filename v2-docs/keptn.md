@@ -35,9 +35,6 @@ description: "Top Keptn resources for 2026, AI-ranked: Keptn, Quick Start and mo
   - **(2023)** [Keptn](https://keptn.sh/stable) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A CNCF incubating project providing event-driven orchestration for continuous delivery and automated operations. Uses CloudEvents standards and a GitOps approach to automate deployment, testing, and multi-stage promotion of services.
 ### Local Environments
 
-#### K3s Sandboxing
-
-  - **(2021)** [github.com/keptn-sandbox/keptn-on-k3s: Tutorial: Keptn for Dynatrace Users' in 5 Minutes 🌟](https://github.com/keptn-sandbox/keptn-on-k3s/blob/master/README-KeptnForDynatrace.md) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-41230870" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 11 L 30 9 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-41230870)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Lightweight integration environment designed to host a full-featured Keptn sandbox on a resource-constrained K3s Kubernetes cluster, integrated with Dynatrace agents for rapid performance evaluations.
 #### Video Guides (1)
 
   - **(2021)** [youtube: Tutorial - Keptn in a box](https://www.youtube.com/watch?v=OQAXQrKhIt0&ab_channel=keptn)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step video configuration demonstrating the execution of Keptn within local virtualized micro-clusters, streamlining testing of SRE control-planes on local machines.
@@ -55,7 +52,7 @@ description: "Top Keptn resources for 2026, AI-ranked: Keptn, Quick Start and mo
   - **(2021)** [dynatrace-perfclinics.github.io: Why Devs Love Dynatrace 🌟](https://dynatrace-perfclinics.github.io/codelabs/why-devs-love-dynatrace-2/index.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical codelab demonstrating how developers leverage Dynatrace APM to identify code-level bottlenecks, analyze database performance, and utilize auto-remediation loops within automated delivery pipelines.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Tekton](./tekton.md) | [Argo](./argo.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

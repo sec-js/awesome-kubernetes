@@ -448,7 +448,7 @@ class V2VisionEngine:
                     except Exception:
                         pass
                 if ((cached.get("hierarchy") and cached.get("ai_summary") and not eval_stale) or self.render_only) and not force_eval:
-                    if project_id not in project_registry or item.get("stars") or 0 > project_registry[project_id].get("stars") or 0:
+                    if project_id not in project_registry or (item.get("stars") or 0) > (project_registry[project_id].get("stars") or 0):
                         if project_id in project_registry and project_registry[project_id].get("is_special"): item["is_special"] = True
                         project_registry[project_id] = item
                     continue
@@ -712,7 +712,7 @@ class V2VisionEngine:
             tags.add("[CASE STUDY]")
         
         # 3. Emerging / Legacy logic
-        ai_summary = item.get("ai_summary", "").lower()
+        ai_summary = (item.get("ai_summary") or "").lower()
         complexity = item.get("complexity", "Intermediate")
         if complexity == "Cutting Edge" or "emerging" in ai_summary or "experimental" in ai_summary or "alpha" in ai_summary:
             tags.add("[EMERGING]")
@@ -765,7 +765,7 @@ class V2VisionEngine:
                 
                 # Mandate 29: Special Assets must include 100% of ALIVE links, bypassing impact filters.
                 is_special = item.get("is_special", False) or orig_file in special_rules
-                if not is_special and orig_file == "introduction.md" and item.get("stars") or 0 < 3 and not item.get("is_microservice"):
+                if not is_special and orig_file == "introduction.md" and (item.get("stars") or 0) < 3 and not item.get("is_microservice"):
                     continue
                 
                 if orig_file not in v2_structure:
@@ -906,11 +906,11 @@ class V2VisionEngine:
                 sparkline = " " + self.generate_sparkline_svg(l['url'], l.get('gh_stars', 0))
             
             icon = " 🎥" if l.get("is_video") else ""
-            lang = l.get("language", "English")
+            lang = l.get("language") or "English"
             lang_tag = f" <span class='md-tag md-tag--warning'>[{lang.upper()} CONTENT]</span>" if lang.lower() != "english" else ""
-            comp = l.get("complexity", "Intermediate")
+            comp = l.get("complexity") or "Intermediate"
             level_tag = f" <span class='md-tag md-tag--critical'>[{comp.upper()} LEVEL]</span>" if comp.lower() in ["architect", "advanced"] else ""
-            res_type = l.get("resource_type", "Reference")
+            res_type = l.get("resource_type") or "Reference"
             type_tag = ""
             if res_type.lower() in ["case study", "guide", "documentation"]:
                 if f"[{res_type.upper()}]" not in l.get("tags", []):
@@ -1928,7 +1928,7 @@ class V2VisionEngine:
         for l in active_links.values():
             tags_to_process = list(l.get("tags", []))
             # Include language indexing for non-English resources (Mandate 10)
-            lang = l.get("language", "English")
+            lang = l.get("language") or "English"
             # Skip non-language values the AI sometimes emits, so the tag index
             # is not polluted with meaningless "X Content" buckets.
             _lang_junk = {

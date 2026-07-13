@@ -9,6 +9,17 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
 !!! info "Architectural Context"
     Detailed reference for Liquibase in the context of Hardened Infrastructure.
 
+## Architectural Foundations
+
+### Kubernetes Tools
+
+#### General Reference
+
+  - [dzone: Introduction to Liquibase and Managing Your Database Source Code](https://dzone.com/articles/introduction-to-liquibase-and-managing-your-databa)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Introduction to Liquibase and Managing Your Database Source Code in the Kubernetes Tools ecosystem.
+  - [dzone: Managing Your Database With Liquibase and Gradle](https://dzone.com/articles/managing-your-database-with-liquibase-and-gradle)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Managing Your Database With Liquibase and Gradle in the Kubernetes Tools ecosystem.
+  - [dzone: Executing Liquibase: 3 Use Cases](https://dzone.com/articles/executing-liquibase-3-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Executing Liquibase: 3 Use Cases in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://www.red-gate.com/products/flyway/community)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.red-gate.com in the Kubernetes Tools ecosystem.
+  - [dzone: Build a Spring Boot App With Flyway and Postgres](https://dzone.com/articles/build-a-spring-boot-app-with-flyway-and-postgres)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Build a Spring Boot App With Flyway and Postgres in the Kubernetes Tools ecosystem.
 ## Cloud Native Infrastructure
 
 ### Kubernetes Deployment Patterns
@@ -32,6 +43,11 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
   - **(2024)** [liquibase.org: Liquibase vs. Flyway](https://www.liquibase.com/liquibase-vs-flyway)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed evaluation of the architectural trade-offs between Liquibase and Flyway. This resource explores Liquibase's multi-database abstraction layers (XML, YAML, JSON) alongside Flyway's developer-focused, SQL-first approach, explaining their impact on continuous delivery pipelines and database schema version control.
 ## Database Architecture
 
+### Cloud Native Databases
+
+#### Vitess
+
+  - **(2021)** [docs.planetscale.com: The PlanetScale workflow 🌟](https://planetscale.com/docs/vitess/best-practices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation outlining the schema migration workflow in PlanetScale, powered by Vitess. Introduces non-blocking schema changes and deployment branches, enabling developers to modify production databases without locking tables or causing downtime.
 ### Database GitOps (1)
 
 #### Schema Management
@@ -46,7 +62,7 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
   - **(2023)** [martinfowler.com](https://martinfowler.com/articles/evodb.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal essay on evolutionary database architectures. Highlights methods for treating database schemas as declarative code, versioning migrations, and automating data migrations safely inside unified application delivery pipelines.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Devsecops](./devsecops.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

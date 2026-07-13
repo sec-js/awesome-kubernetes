@@ -1,5 +1,5 @@
 ---
-description: "Top Scaffolding resources for 2026, AI-ranked: Maven, jhipster and more — curated Cloud Native tools, guides and references."
+description: "Top Scaffolding resources for 2026, AI-ranked: Skaffold, Maven and more — curated Cloud Native tools, guides and references."
 ---
 # Scaffolding Tools
 
@@ -9,6 +9,25 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Maven, jhipster and
 !!! info "Architectural Context"
     Detailed reference for Scaffolding Tools in the context of Platform & Site Reliability.
 
+## Developer Experience
+
+### Inner Loop Development
+
+#### Local Tooling
+
+  - **(2023)** [cloud.google.com: configuring_with_snippets 🌟](https://docs.cloud.google.com/code/docs/vscode/yaml-editing) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference manual for configuring IDE tooling with specialized cloud code snippets. Demonstrates how Cloud Code streamlines the creation of valid Kubernetes YAML definitions directly inside IDE environments like VS Code.
+## Kubernetes Developer Experience
+
+### Graph-Based Dev and Test
+
+#### Garden Documentation
+
+  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
+### Inner-Loop Automation
+
+#### Skaffold
+
+  - **(2026)** [**Skaffold 🌟**](https://skaffold.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Google's Skaffold remains an industry-leading workflow engine that orchestrates code building, artifact pushing, and target deployment steps. It features smart caching, file sync capability, and multi-profile handling configurations.
 ## Software Engineering
 
 ### Application Scaffolding
@@ -25,7 +44,7 @@ description: "Top Scaffolding resources for 2026, AI-ranked: Maven, jhipster and
   - **(2025)** [Maven](https://nubenetes.com/maven-gradle/) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative architectural overview of Maven and Gradle. Outlines declarative XML configurations versus programmatic Groovy/Kotlin Gradle DSL scripts, analyzing cache efficiency, parallel build runtimes, and enterprise dependency-resolution policies.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Test Automation Frameworks](./test-automation-frameworks.md) | [SRE](./sre.md)
+💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Cloudflare](./cloudflare.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
