@@ -16,15 +16,34 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
 #### Enterprise Migration
 
   - **(2020)** [**konveyor 🌟**](https://konveyor.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An open-source application modernization platform that helps developers migrate legacy virtual machines, stateful services, and bare-metal workloads to Kubernetes. It provides discovery, analysis, and execution tools for large-scale container migrations.
+## Cloud Architecture
+
+### Infrastructure Automation
+
+#### Hybrid Cloud Strategy
+
+  - **(2021)** [cloudify.co: Your Guide to Infrastructure Automation & Hybrid Cloud Orchestration 🌟](https://docs.cloudify.co) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural manual focused on multi-cloud orchestration and automation frameworks. Discusses leveraging open-source TOSCA-based standards to orchestrate compute resources, handle multi-site network topologies, and coordinate complex deployments across multiple hypervisors.
+## Databases
+
+### SQL Server
+
+#### Backup Administration
+
+  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
 ## Hybrid Cloud and Enterprise
 
-### OpenShift
+### Openshift
 
 #### Data Management
 
   - **(2024)** [**redhat.com: OpenShift Backup and Recovery with Kasten K10**](https://www.redhat.com/es/blog) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical guide on integrating Veeam's Kasten K10 platform with Red Hat OpenShift. Demonstrates policy-based automation for backup, disaster recovery, and mobility across multi-tenant clusters while ensuring encrypted volume snapshots.
 ## Infrastructure
 
+### Cluster Management
+
+#### RKE2
+
+  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Control Plane
 
 #### ETCD Administration
@@ -47,7 +66,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
 #### Database Snapshots
 
   - **(2021)** [**percona.com: Using Volume Snapshot/Clone in Kubernetes (GKE & Percona Kubernetes Operator for XtraDB Cluster)**](https://www.percona.com/blog/using-volume-snapshot-clone-in-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical case study using GKE CSI Volume Snapshots alongside the Percona Operator for MySQL XtraDB. Outlines mechanisms for zero-downtime database point-in-time synchronization and replication strategies.
-#### GitOps Synchronizers
+#### Gitops Synchronizers
 
   - **(2023)** [kube-backup: Kubernetes resource state sync to git](https://github.com/pieterlange/kube-backup) <span class='md-tag md-tag--info'>⭐ 493</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-631d607c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 6 L 30 7 L 40 9 L 50 10" fill="none" stroke="url(#spark-grad-631d607c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automates Kubernetes resource state replication directly to target Git repositories. This pattern acts as an early architectural precursor to fully fledged declarative GitOps platforms, maintaining a point-in-time configuration ledger.
 #### Industry Analysis
@@ -74,7 +93,10 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2021)** [thenewstack.io: Cloud Native Backups, Disaster Recovery and Migrations on Kubernetes](https://thenewstack.io/cloud-native-backups-disaster-recovery-and-migrations-on-kubernetes) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines structural paradigm shifts from VM-level backups to container-native, application-aware snapshots inside Kubernetes. Outlines how to decouple configuration matrices from underlying persistent storage objects for scalable restoration.
 ### Enterprise Backup
 
-#### OpenShift Integration
+#### Cloud-native Integration
+
+  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
+#### Openshift Integration
 
   - **(2020)** [aithority.com: Bacula Systems Announces World’s First Enterprise-Class Backup and Recovery Solution for Red Hat OpenShift](https://aithority.com/it-and-devops/cloud/bacula-systems-announces-worlds-first-enterprise-class-backup-and-recovery-solution-for-red-hat-openshift) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the integration of Bacula's backup engines within Red Hat OpenShift clusters. Offers direct bare-metal and hybrid-cloud state serialization and disaster recovery procedures compatible with traditional SANs.
 #### Proprietary Platforms
@@ -87,7 +109,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2021)** [**thenewstack.io: Kasten K10 V4.5: Grafana Observability, More Edge Support**](https://thenewstack.io/kasten-k10-v4-5-grafana-observability-more-edge-support) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the Kasten K10 v4.5 software release, introducing native Prometheus-driven Grafana monitoring profiles and enhanced protection rules for decentralized Edge compute clusters.
 ### Storage Systems
 
-#### OpenShift Ecosystem
+#### Openshift Ecosystem
 
   - **(2021)** [**thenewstack.io: Red Hat Brings Backup, Snapshots to OpenShift Container Storage**](https://thenewstack.io/red-hat-brings-backup-snapshots-to-openshift-container-storage) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines the native storage snapshot and restoration interfaces added to Red Hat OpenShift Container Storage (now ODF). Demonstrates policy-driven volume protection and native multi-cloud replication architectures.
   - **(2021)** [blocksandfiles.com: Red Hat OpenShift now does container storage backup 🌟](https://www.blocksandfiles.com/container-storage/2021/01/27/red-hat-openshift-now-does-container-storage-backup/1611166) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry report outlining Red Hat OpenShift's container storage data protection upgrades. Evaluates backup orchestration solutions addressing scale constraints in multi-tenant enterprise data pools.
@@ -115,7 +137,7 @@ description: "Top Kubernetes Backup Migrations resources for 2026, AI-ranked: Ka
   - **(2022)** [martinheinz.dev: Backup-and-Restore of Containers with Kubernetes Checkpointing API](https://martinheinz.dev/blog/85) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — The Kubernetes Checkpointing API introduces the revolutionary ability to freeze and snapshot a running container's state to disk for backup or migration purposes. This technical analysis demonstrates how to leverage this API to capture memory-level states, enabling ultra-fast recovery and deep forensics of active workloads. However, as of 2026, this feature remains highly experimental and runtime-dependent.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md) | [Docker](./docker.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

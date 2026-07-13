@@ -11,7 +11,7 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
 
 ## Cloud Native Delivery
 
-### CICD and GitOps
+### CICD
 
 #### Policy and Enforcement
 
@@ -29,7 +29,7 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
   - **(2022)** [piotrminkowski.com: Canary Release on Kubernetes with Knative and Tekton](https://piotrminkowski.com/2022/03/29/canary-release-on-kubernetes-with-knative-and-tekton) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to build automated canary deployments by chaining Knative's serverless scaling properties with Tekton delivery workflows. By defining declarative Knative service revisions, teams can systematically route a fraction of incoming traffic to green deployments while verifying performance telemetry. It delivers an excellent architectural design for self-healing serverless microservices.
 ## Continuous Integration and Delivery
 
-### Cloud Native CI-CD
+### CICD (1)
 
 #### Demonstrations and Demos
 
@@ -37,7 +37,10 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
 #### Governance and Community
 
   - **(2024)** [**Tekton community**](https://github.com/tektoncd/community) <span class='md-tag md-tag--info'>⭐ 396</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-403b8f35" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 4 L 30 5 L 40 6 L 50 8" fill="none" stroke="url(#spark-grad-403b8f35)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Features the repository hosting governance, contribution guidelines, design proposals (TEPs), and meeting schedules for the Tekton open-source ecosystem. Vital for understanding the community-driven roadmap, architecture reviews, and technical steering decisions shaping the future of Tekton CI/CD.
-#### OpenShift Pipelines
+#### Hybrid Integration
+
+  - **(2021)** [**Easily reuse Tekton and Jenkins X from Jenkins**](https://www.jenkins.io/blog/2021/04/21/tekton-plugin) <span class='md-tag md-tag--warning'>[GROOVY CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details the technical cooperation between Jenkins, Jenkins X, and Tekton. It demonstrates how traditional Jenkins users can trigger Tekton's containerized cloud-native tasks, allowing teams to smoothly modernize their build architectures incrementally without completely rewriting their legacy Jenkinsfiles.
+#### Openshift Pipelines
 
   - **(2024)** [==OpenShift Tekton pipelines==](https://www.redhat.com/en/topics/devops/what-cicd-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise overview of OpenShift Pipelines, Red Hat's native CI/CD solution built entirely on Tekton. Explains how OpenShift integrates Tekton into its developer console, securing execution with OpenShift RBAC, and offering out-of-the-box cluster tasks to streamline secure container builds.
 #### Release Analysis
@@ -56,14 +59,14 @@ description: "Top Tekton resources for 2026, AI-ranked: github: Tekton Pipelines
   - **(2021)** [tekline 🌟](https://github.com/joyrex2001/tekline) <span class='md-tag md-tag--info'>⭐ 11</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6cf91a49" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 9 L 20 4 L 30 12 L 40 9 L 50 11" fill="none" stroke="url(#spark-grad-6cf91a49)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Tekline, a lightweight community-driven visualization and command-line helper tool for viewing the status of Tekton Pipeline runs. Bypasses the complex dashboard setups, providing developers with instant, readable feedback on pipeline step executions and container build logs directly in terminal dashboards.
 ## Platform Architecture
 
-### CICD
+### CICD (2)
 
 #### Tekton Pipelines (2)
 
   - **(2020)** [openshift.com: Cloud-Native CI/CD with OpenShift Pipelines based on Tekton](https://www.redhat.com/en/blog/cloud-native-ci-cd-with-openshift-pipelines) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces OpenShift Pipelines as the modern serverless, cloud-native standard built on the Tekton project. Explains how Tekton's CRD-first strategy delivers secure, isolated build containers without a centralized daemon or controller bottlenecks.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

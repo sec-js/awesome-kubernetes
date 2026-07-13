@@ -41,15 +41,15 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 #### Aviation and Career Tools
 
   - **(2026)** [grow.google: interview warmup](https://grow.google/grow-your-career/articles/interview-tips) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive tool developed by Google that leverages voice-to-text and NLP algorithms to evaluate mock interview responses. Analyzes candidate language patterns to offer structural feedback for technical and programmatic roles.
+#### CICD and DevOps
+
+  - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews scaling methodologies for massive enterprise continuous delivery systems. Addresses parallel task routing, build agent autoscaling, caching mechanisms, and automatic rollbacks upon deployment errors.
+  - **(2026)** [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A broad-spectrum reference manual for fundamental DevOps interview evaluations. Features technical breakdowns of virtualization, basic configuration pipelines, microservice deployment strategies, and monitoring solutions.
 #### Database and SQL
 
   - **(2026)** [gcreddy.com: SQL Interview Questions and Answers](https://www.gcreddy.com/2022/02/sql-interview-questions-and-answers.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides fundamental SQL database query interview questions. Teaches logical query execution paths, normalization theories, basic syntax structure, and joining mechanisms across tabular databases.
   - **(2026)** [artoftesting.com: Top 40 SQL Query Interview Questions and Answers for Practice](https://artoftesting.com/sql-queries-for-interview) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical SQL query cookbook focusing on technical interview situations. Demonstrates complex nested joins, window analytic functions, indexing patterns, and deduplication queries under high-performance criteria.
   - **(2026)** [intellipaat.com: Top Answers to MySQL Interview Questions](https://intellipaat.com/blog/interview-question/mysql-interview-questions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on MySQL transactional optimizations and engineering details. Covers storage engines (InnoDB configurations), lock structures, indexing hierarchies, and query execution optimizations.
-#### DevOps and CICD
-
-  - **(2026)** [learnsteps.com: DevOps Interview Questions: How will you scale your current CI-CD pipeline](https://www.learnsteps.com/devops-interview-questions-how-will-you-scale-your-current-ci-cd-pipeline) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews scaling methodologies for massive enterprise continuous delivery systems. Addresses parallel task routing, build agent autoscaling, caching mechanisms, and automatic rollbacks upon deployment errors.
-  - **(2026)** [intellipaat.com: Top DevOps Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/devops-interview-questions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A broad-spectrum reference manual for fundamental DevOps interview evaluations. Features technical breakdowns of virtualization, basic configuration pipelines, microservice deployment strategies, and monitoring solutions.
 #### Git and Version Control
 
   - **(2026)** [intellipaat.com: Top Git Interview Questions And Answers 🌟](https://intellipaat.com/blog/interview-question/git-interview-questions-answers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Git architecture and workflow interview standards. Details differences between merge and rebase commands, conflict resolution strategies, index states, and local commit tracking features.
@@ -110,7 +110,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
 #### Python
 
   - **(2020)** [learnsteps.com: DevOps Interview Questions: Important Python questions](https://www.learnsteps.com/devops-interview-questions-important-python-questions) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Python's usage in shell scripting, infrastructure provisioning, parsing unstructured system logs, and building resilient communication wrappers around cloud SDKs.
-### CI-CD
+### CICD
 
 #### Jenkins
 
@@ -173,7 +173,7 @@ description: "Curated, AI-ranked Interview Questions resources for the 2026 Clou
   - **(2021)** [automationreinvented.blogspot.com: Top 70 interview questions on Automation Testing-Selenium-TestNG Set-06? TestNG Tricky Interview questions 2021 for SDET-QAE?](https://automationreinvented.blogspot.com/2021/01/top-60-interview-questions-on.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Broad UI automation preparation set evaluating Selenium WebDriver API combined with TestNG assertions. Covers dynamic wait mechanisms, Page Object Pattern configurations, and multi-thread test runs.
 
 ---
-💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
+💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

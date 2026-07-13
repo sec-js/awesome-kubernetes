@@ -13,7 +13,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 
 ### Bioinformatics
 
-#### High-Performance Computing
+#### High-performance Computing
 
   - **(2022)** [==aws.amazon.com: AstraZeneca’s Drug Design Program Built using AWS wins Innovation Award==](https://aws.amazon.com/blogs/industries/astrazenecas-drug-design-program-built-using-aws-wins-innovation-award) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Analyzes AstraZeneca's cloud-native molecular drug design framework, which earned an AWS Innovation Award. The architecture leverages AWS high-performance computing (HPC) and serverless batch processing to run massive, parallel virtual screenings and machine learning models. This scalable platform drastically reduces the time needed to evaluate candidate compounds, showcasing cloud infrastructure as a force multiplier in pharmaceutical research.
 ### DevOps and Automation
@@ -46,7 +46,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**hms.harvard.edu: Does AI Help or Hurt Human Radiologists’ Performance? It Depends on the Doctor**](https://hms.harvard.edu/news/does-ai-help-or-hurt-human-radiologists-performance-depends-doctor) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates the human-AI interface within radiology, detailing how AI assistance does not universally improve diagnostics but depends on the doctor's specific expertise and the system's operational design. This research underscores that AI tools should not be deployed as absolute diagnostic arbiters but as contextual assistants, highlighting the need for UI/UX integration that exposes model confidence and reasoning paths.
   - **(2024)** [cronicaglobal.elespanol.com: Roberto Ardon (Incepto): "A la IA no se le pueden pedir imposibles"](https://cronicaglobal.elespanol.com/vida/20240604/roberto-ardon-incepto-ia-pueden-pedir-imposibles/860164103_0.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Roberto Ardon, co-founder of Incepto Medical, framing the realistic capabilities and limitations of clinical AI deployment in European hospitals. Ardon discusses how AI should be engineered as a targeted productivity tool (e.g., reducing routine screening fatigue) rather than a replacement for human clinicians. It offers deep insights into market deployment, medical device certification, and data security hurdles.
   - **(2023)** [imperialbiosciencereview.wordpress.com: Redefining diagnostics: the integration of machine learning in medical imaging](https://imperialbiosciencereview.wordpress.com/2023/05/26/redefining-diagnostics-the-integration-of-machine-learning-in-medical-imaging-2) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive review of the algorithmic and pipeline mechanics behind machine learning integration in clinical imaging diagnostics. It covers key bottlenecks including image normalization, bounding-box annotations, model interpretability, and the challenge of adversarial attacks in clinical datasets. It serves as a great structural introduction to medical imaging ML architectures.
-## Domain APIs
+## Domain Apis
 
 ### Automotive
 
@@ -62,13 +62,13 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2022)** [==falco.org/about/case-studies/incepto-medical: Protect shared clusters for medical imaging==](https://falco.org/about/case-studies/incepto-medical) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Shows how Incepto Medical leverages Falco to secure multi-tenant Kubernetes clusters processing highly-sensitive patient medical imaging. Falco detects anomalous runtime container activity, raw system calls, and unauthorized namespace access in real-time. This runtime instrumentation enables compliance with stringent medical data privacy regulations (e.g., GDPR, HIPAA) without introducing heavy performance overhead to GPU-intensive AI inference workloads.
 ### Container Platforms
 
-#### Kubernetes at Scale
+#### Kubernetes At Scale
 
   - **(2023)** [==infoworld.com: Why Mercedes-Benz runs on 900 Kubernetes clusters==](https://www.infoworld.com/article/2335723/why-mercedes-benz-runs-on-900-kubernetes-clusters.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the architectural rationale behind Mercedes-Benz's deployment of over 900 highly-segregated Kubernetes clusters globally. To balance multi-tenancy risk, blast radius mitigation, and compliance across geographical boundaries, the engineering team opted for a fleet management model using declarative GitOps pipelines. This scale illustrates the operational viability of running numerous, small, purpose-built clusters instead of giant, complex, shared multi-tenant systems.
   - **(2023)** [==youtube: Keynote: 7 Years of Running Kubernetes for Mercedes-Benz - Jens Erat, Peter Mueller, Sabine Wolz==](https://www.youtube.com/watch?v=UmbjwSK9b3I) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A technical retrospective spanning seven years of operating Kubernetes clusters at Mercedes-Benz. The speakers share crucial architectural insights regarding cluster lifecycle automation, centralized telemetry, platform engineering organizational structures, and the evolution of their self-service developer platforms. It acts as an authoritative operational guide for deploying Kubernetes at enterprise scale.
 ### Edge Computing
 
-#### GitOps Operations
+#### Gitops Operations
 
   - **(2023)** [==thenewstack.io: How Deutsche Telekom Manages Edge Infrastructure with GitOps==](https://thenewstack.io/how-deutsche-telekom-manages-edge-infrastructure-with-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explores how Deutsche Telekom automates and manages thousands of highly-distributed edge infrastructure deployments using GitOps paradigms. By defining edge environments declaratively in Git and leveraging tools like Argo CD and Flux, they ensure consistency and zero-touch provisioning across heterogeneous telecom nodes. This architecture significantly minimizes manual field configurations and limits configuration drift.
 ### Open Source Software
@@ -91,9 +91,14 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
 
 ### Automotive Systems
 
-#### Software-Defined Vehicles
+#### Software-defined Vehicles
 
   - **(2023)** [xataka.com: El auge del coche eléctrico y autónomo se ha topado con otra barrera: el software. Volkswagen lo sabe bien](https://www.xataka.com/movilidad/auge-coche-electrico-autonomo-se-ha-topado-otra-barrera-software-volkswagen-sabe-bien) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Analyzes the structural and architectural software challenges faced by Volkswagen (specifically Cariad) during its transition to Electric Vehicles (EVs) and Autonomous Driving (AD). The analysis covers the friction between legacy hardware-centric development cycles and modern, unified software-defined platform architectures. It highlights how decoupled hardware/software layers are critical to avoiding catastrophic launch delays in complex distributed automotive systems.
+### Data Management (1)
+
+#### Enterprise Migration
+
+  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
 ### Industrial Engineering
 
 #### Hardware Integration
@@ -104,7 +109,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [hibridosyelectricos.com: Tesla recurre a China para aumentar la calidad de fabricación de sus coches eléctricos](https://www.hibridosyelectricos.com/coches/tesla-recurre-china-calidad-fabricacion-coches-electricos_66230_102.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Examines Tesla's adaptation of W. Edwards Deming’s Total Quality Management (TQM) principles at the Shanghai Gigafactory under Tom Zhu. The article contrasts how focusing on systemic quality optimizations organically drives down production costs, refuting the legacy approach of prioritizing cost reduction at the expense of engineering refinement. This demonstrates how modern automated manufacturing lines mimic clean software deployment pipelines using feedback loops.
 ### Messaging Systems
 
-#### Event-Driven Microservices
+#### Event-driven Microservices
 
   - **(2023)** [==quarkus.io: VCStream: a new messaging platform for DECATHLON’s Value Chain, built on Quarkus==](https://quarkus.io/blog/decathlon-user-story) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Outlines Decathlon's development of VCStream, a high-throughput messaging platform built on Quarkus to optimize its global supply and value chain. Quarkus's sub-atomic, reactive execution model allowed Decathlon to dramatically reduce memory footprint and startup times compared to traditional Spring Boot setups. The architecture utilizes reactive streams and Kafka integrations to deliver real-time data synchronization at scale.
 ### Open Source Software (1)
@@ -117,7 +122,7 @@ description: "Top Customer resources for 2026, AI-ranked: chaimeleon.eu, BMW Inn
   - **(2023)** [**thenewstack.io: Mercedes-Benz: 4 Reasons to Sponsor Open Source Projects**](https://thenewstack.io/mercedes-benz-4-reasons-to-sponsor-open-source-projects) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines four strategic motivations for Mercedes-Benz to sponsor open-source software. By funding critical up-stream components, the enterprise reduces technical debt, improves system security, attracts elite software engineering talent, and actively influences standard roadmaps. It provides a blueprint for enterprise open-source program offices (OSPOs) seeking to justify upstream contributions.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

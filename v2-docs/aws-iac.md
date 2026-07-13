@@ -21,10 +21,10 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
 
 ### AWS
 
-#### Infrastructure as Code
+#### Infrastructure As Code
 
   - **(2022)** [youtube.com: AWS Cloud Complete Bootcamp Course - CloudFormation | freeCodeCamp 🌟](https://www.youtube.com/watch?v=zA8guDqfv40)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive, open-access video bootcamp by freeCodeCamp focusing on AWS CloudFormation. Teaches declarative resource provisioning, nested templates, drift detection, and deployment strategies for managing large AWS architectures as code.
-## Infrastructure as Code (1)
+## Infrastructure As Code (1)
 
 ### Automated Generation
 
@@ -38,7 +38,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
 #### Recording Tools
 
   - **(2022)** [onecloudplease.com: Console Recorder for AWS](https://onecloudplease.com/project/console-recorder) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Console Recorder for AWS is a developer browser extension that records API actions within the AWS Console and translates them into Terraform or CloudFormation scripts. It provides a quick way to generate code while manually configuring resources for prototyping.
-### CloudFormation
+### Cloudformation
 
 #### Automated Generation (1)
 
@@ -49,7 +49,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
 #### Criticism and Analysis
 
   - **(2021)** [luminousmen.com: A very quick introduction to the pain of AWS CloudFormation](https://luminousmen.com/post/a-very-quick-introduction-to-the-pain-of-aws-cloudformation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An objective critique analyzing the structural drawbacks of CloudFormation, including deployment delays, unhelpful rollbacks, and lack of client-side validation. It advises platform engineering teams on managing these pain points or transitioning to modern programmatic alternatives.
-#### GitOps Integrations
+#### Gitops Integrations
 
   - **(2023)** [AWS CloudFormation introduces Git management of stacks](https://aws.amazon.com/about-aws/whats-new/2023/11/aws-cloudformation-git-management-stacks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS CloudFormation native Git integration allows deployment stacks to synchronize directly with repositories in GitHub, GitLab, and Bitbucket. This feature simplifies continuous delivery of infrastructure, reducing dependencies on third-party CI pipelines.
 #### Identity and Access Management
@@ -74,7 +74,7 @@ description: "Curated, AI-ranked AWS IaC resources for the 2026 Cloud Native arc
   - **(2022)** [cloudkatha.com: How to Create an S3 Bucket using CloudFormation](https://cloudkatha.com/how-to-create-an-s3-bucket-using-cloudformation) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational tutorial detailing the YAML patterns required to create and lock down basic AWS S3 buckets inside CloudFormation templates. It details parameters for versioning rules, basic access controls, and server-side encryption.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

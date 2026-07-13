@@ -20,9 +20,9 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
   - [dzone.com: GitOps: Flux vs Argo CD 🌟](https://dzone.com/articles/gitops-flux-vs-argo-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: GitOps: Flux vs Argo CD 🌟 in the Kubernetes Tools ecosystem.
 ## Deployment and Orchestration
 
-### GitOps
+### Gitops
 
-#### ArgoCD and Flux
+#### Argocd and Flux
 
   - **(2023)** [flux-subsystem-argo.github.io: GitOps Terraform Resources with Argo CD and Flux Subsystem for Argo](https://flux-subsystem-argo.github.io/website/tutorials/terraform) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines the integration of Flux's specialized controller capabilities with Argo CD's visual application management via the Flux Subsystem for Argo (FSA). Highlights the declarative orchestration of Terraform/OpenTofu resources. Live Grounding notes that while hybrid Argo-Flux architectures exist, most modern 2026 enterprise teams prefer consolidated control planes (e.g., pure Crossplane or pure Tofu-Controller) to limit orchestration overhead.
 #### Cluster Provisioning
@@ -40,11 +40,11 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
 #### Helm and Flux
 
   - **(2021)** [**gist.github.com: GitOps for Helm Users 🌟**](https://gist.github.com/scottrigby/a1a42c3292ec7899837c578ffdaaf92a) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A comprehensive developer-focused outline addressing the conceptual transition from manual Helm installations to fully automated Helm Controller reconciliations in Flux. Live Grounding emphasizes that treating Helm charts as declarative artifacts rather than CLI actions represents the core shift to reliable, self-healing application lifecycles inside modern Kubernetes clusters.
-## Infrastructure as Code
+## Infrastructure As Code
 
-### OpenTofu
+### Opentofu
 
-#### GitOps (1)
+#### Gitops (1)
 
   - **(2024)** [==github.com/flux-iac/tofu-controller==](https://github.com/flux-iac/tofu-controller) <span class='md-tag md-tag--info'>⭐ 1653</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-616acf68" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 11 L 30 5 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-616acf68)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The successor to the TF-controller, this project provides a Kubernetes custom controller designed to reconcile OpenTofu and Terraform resources natively using GitOps principles. Live Grounding indicates that in 2026, the Tofu-Controller is highly valued across enterprise systems, allowing teams to seamlessly declare infrastructure dependencies directly in Git alongside their Kubernetes applications.
 ### Pulumi
@@ -54,7 +54,7 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
   - **(2022)** [dirien/pulumi-civo-flux-bucket](https://github.com/dirien/pulumi-civo-flux-bucket) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a practical blueprint for bootstrapping a Civo Kubernetes cluster utilizing Pulumi for resource provision and establishing Flux GitOps configuration using Object Storage (S3-compatible buckets) as the source of truth. Live Grounding reveals that utilizing object storage instead of git repositories offers lower latency and bypassing Git API rate limits, serving as a highly specialized but viable alternative in modern multi-cloud pipelines.
 ### Terraform
 
-#### GitOps (2)
+#### Gitops (2)
 
   - **(2022)** [**fluxcd.io: How to GitOps Your Terraform**](https://fluxcd.io/blog/2022/09/how-to-gitops-your-terraform) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces declarative lifecycle management of Terraform-provisioned infrastructure resources using Kubernetes custom controllers. Highlights how reconciling Terraform state within the control plane eliminates state drift. Live Grounding reveals that this controller-driven paradigm has matured, bridging the gap between application-level GitOps and platform-level infrastructure provisioning.
 ## Networking and Security
@@ -66,7 +66,7 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
   - **(2022)** [**solo.io: The 3 best ways to use Flux and Flagger for GitOps with your Envoy Proxy API gateways**](https://www.solo.io/blog/the-3-best-ways-to-use-flux-and-flagger-for-gitops-with-your-envoy-proxy-api-gateways) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines integration patterns for orchestrating progressive delivery at the ingress boundary using Flux, Flagger, and Envoy-based gateways. Evaluates traffic-shifting methodologies including canary deployments, A/B testing, and blue-green releases. Live Grounding confirms Envoy-based ingress traffic shaping remains the de facto method for automated canary analysis in cloud-native topologies.
 ## Platform Engineering
 
-### GitOps and Deployment
+### Gitops and Deployment
 
 #### Flux Ecosystem
 
@@ -81,14 +81,14 @@ description: "Top Flux resources for 2026, AI-ranked: github: Flux Version 2, gi
   - **(2020)** [alicegg.tech: Managing a Kubernetes cluster with Helm and FluxCD](https://alicegg.tech/2020/11/09/helm) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed architectural analysis of managing Helm releases within Flux GitOps pipelines. Explores automated release upgrades, HelmRepository declarations, and rollback mechanisms.
 ## Storage and Databases
 
-### Cloud-Native Storage
+### Cloud-native Storage
 
-#### Stateful GitOps
+#### Stateful Gitops
 
   - **(2022)** [thenewstack.io: Deploy Stateful Workloads on Kubernetes with Ondat and FluxCD](https://thenewstack.io/deploy-stateful-workloads-on-kubernetes-with-ondat-and-fluxcd) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores deploying resilient, stateful microservices using Ondat (formerly StorageOS) as a persistent software-defined storage layer combined with Flux for deployment state synchronization. Live Grounding notes that while Ondat offered advanced CSI-driven capabilities, consolidation in the cloud-native storage sector has shifted focus toward alternatives like Longhorn, Rook/Ceph, or cloud-managed block storage.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Argo](./argo.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

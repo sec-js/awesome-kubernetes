@@ -11,7 +11,7 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 
 ## Application Configuration
 
-### Declarative GitOps
+### Declarative Gitops
 
 #### Helm and Kustomize
 
@@ -41,7 +41,7 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 #### Extensibility
 
   - **(2022)** [tech.aabouzaid.com: Set OpenAPI patch strategy for Kubernetes Custom Resources - Kustomize](https://tech.aabouzaid.com/2022/11/set-openapi-patch-strategy-for-kubernetes-custom-resources-kustomize.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical deep dive into configuring custom OpenAPI schemas for CRDs within Kustomize. Explores defining strategic merge patch strategies (e.g., replace, merge, or delete) on Custom Resources, bypassing default merge limitations of standard JSON patches.
-#### GitOps
+#### Gitops
 
   - **(2022)** [**codefresh.io: Applied GitOps with Kustomize**](https://octopus.com/blog/applied-gitops-with-kustomize) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — High-density exploration of integrating Kustomize into GitOps pipelines. Emphasizes structured multi-environment promotion strategies, maintaining a single source of truth, and coordinating configuration changes using tools like Argo CD to ensure cluster reconciliation matches Git state.
   - **(2021)** [**github.com/kostis-codefresh: How to Model Your Gitops Environments with' kustomize 🌟**](https://github.com/kostis-codefresh/gitops-environment-promotion) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A seminal GitHub repository modeling scalable GitOps environment promotion. Outlines structural patterns for directory trees (base vs environments) that prevent duplicate configuration drift and simplify environment-specific promotions through Git commits.
@@ -56,16 +56,23 @@ description: "Top Kustomize resources for 2026, AI-ranked: Kubestack Gitops Fram
 #### Secrets Management
 
   - **(2020)** [Secretize 🌟](https://github.com/bbl/secretize) <span class='md-tag md-tag--info'>⭐ 71</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6c350058" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 9 L 30 6 L 40 12 L 50 12" fill="none" stroke="url(#spark-grad-6c350058)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight command-line utility to convert raw secrets and environment variables directly into encrypted Kubernetes Secret manifests. Helpful for basic automation pipelines, although modern enterprise workflows typically favor external systems like Vault, External Secrets Operator, or sealed-secrets.
-## Declarative GitOps (1)
+## Declarative Gitops (1)
 
-### GitOps Frameworks
+### Gitops Frameworks
 
 #### Kubestack
 
   - **(2026)** [==Kubestack Gitops Framework==](https://github.com/kbst/terraform-kubestack) <span class='md-tag md-tag--info'>⭐ 709</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b44ef4f3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 6 L 20 12 L 30 9 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-b44ef4f3)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source Terraform-driven GitOps framework configured to simplify public cloud Kubernetes platform deployments and application configurations. It leverages native inheritance behaviors of Terraform modules to manage multi-cluster topologies predictably. It bridges infrastructure provisioning and GitOps continuous delivery workflows.
+## Infrastructure Security
+
+### Inbound Traffic Management
+
+#### Traefik
+
+  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

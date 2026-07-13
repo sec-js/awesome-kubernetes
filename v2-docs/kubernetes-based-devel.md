@@ -13,6 +13,9 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 
 ### Mocking and Virtualization
 
+#### Microcks
+
+  - **(2026)** [**microcks.io**](https://microcks.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Microcks is a cloud-native platform for mocking and virtualization of APIs (REST, gRPC, GraphQL, AsyncAPI). It speeds up microservices testing by generating mock endpoints and testing compliance directly against enterprise schemas.
 #### Microcks Integration
 
   - **(2022)** [microcks.io: Podman Compose support in Microcks](https://microcks.io/blog/podman-compose-support)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to design local mock environments using Microcks combined with Podman Compose. This is ideal for developers running daemonless environments who require automated contract API validation.
@@ -25,7 +28,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - [cncf.io: Tools to develop apps on Kubernetes 🌟](https://www.cncf.io/blog/2021/05/10/tools-to-develop-apps-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Tools to develop apps on Kubernetes 🌟 in the Kubernetes Tools ecosystem.
   - [kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape](https://kccncna20.sched.com/event/ekAd/a-walk-through-the-kubernetes-ui-landscape-joaquim-rocha-kinvolk-henning-jacobs-zalando-se)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kccncna20.sched.com: A Walk Through the Kubernetes UI Landscape in the Kubernetes Tools ecosystem.
   - [williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes](https://williamlam.com/2020/04/useful-interactive-terminal-and-graphical-ui-tools-for-kubernetes.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering williamlam.com: Useful Interactive Terminal and Graphical UI Tools for Kubernetes in the Kubernetes Tools ecosystem.
-## Bare-Metal Deployments
+## Bare-metal Deployments
 
 ### Legacy Helpers
 
@@ -34,7 +37,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2020)** [Metal Kubes](https://github.com/shank-git/metal-kubes) <span class='md-tag md-tag--info'>⭐ 34</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e9bb6c22" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 2 L 30 2 L 40 5 L 50 6" fill="none" stroke="url(#spark-grad-e9bb6c22)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An early bare-metal helper script collection. Live Grounding verifies that the repository is archived and inactive, as the ecosystem has shifted entirely to production automation like Cluster API or Talos OS.
 ## Development Workflow
 
-### CICD Integration
+### CICD
 
 #### Okteto Actions
 
@@ -51,15 +54,15 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 #### Okteto
 
   - **(2021)** [okteto.com: Kubernetes for Developers Blog Series by Okteto](https://www.okteto.com/blog/kubernetes-basics)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide series covering Okteto's Cloud Development Environment (CDE) paradigm. Demonstrates how developers can synchronize code in real-time straight to remote container runtimes without local compiler requirements.
-### Inner-Loop Automation
+### Inner-loop Automation
 
 #### Comparisons
 
   - **(2021)** [loft.sh: Skaffold vs Tilt vs DevSpace](https://www.vcluster.com/blog/skaffold-vs-tilt-vs-devspace) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth evaluation comparing Skaffold, Tilt, and DevSpace. Highlights real-time build and synchronization mechanics, declarative profiles, and templated manifest rendering capabilities.
-#### DevSpace
+#### Devspace
 
   - **(2026)** [**devspace.sh**](https://www.devspace.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — DevSpace is a high-performance developer command-line tool designed to lower the Kubernetes learning curve. It provides extremely fast, bidirectional file synchronization that bypasses container rebuilding cycles for instant hot-reloading.
-#### DevSpace Analysis
+#### Devspace Analysis
 
   - **(2020)** [thenewstack.io: DevSpace Designed to Lower the Kubernetes Learning Curve](https://thenewstack.io/devspace-designed-to-lower-the-kubernetes-learning-curve)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how DevSpace simplifies cluster testing for backend teams by replacing complex kubectl calls and image building scripts with high-performance, real-time file-reloading profiles.
 #### Skaffold Tutorials
@@ -94,7 +97,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2021)** [loft.sh: Checklist for Kubernetes-Based Development 🌟](https://www.vcluster.com/blog/checklist-for-kubernetes-based-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused architecture checklist detailing ideal steps to build, optimize, and organize localized dev frameworks on top of cluster infrastructure without incurring severe cognitive overhead.
 ### Workflow Migration
 
-#### Docker Compose to Skaffold
+#### Docker Compose To Skaffold
 
   - **(2021)** [testingclouds.wordpress.com: Migrating from Docker Compose to Skaffold 🌟](https://testingclouds.wordpress.com/2021/03/09/migrating-from-docker-compose-to-skaffold)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive migration handbook addressing transition patterns from basic multi-container Docker Compose structures to unified cloud-native architectures governed by Skaffold-driven deployment pipelines.
 ## Kubernetes Observability
@@ -126,7 +129,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2021)** [blog.flant.com: Small Kubernetes for your local experiments: k0s, MicroK8s, kind, k3s, and Minikube](https://palark.com/blog/small-local-kubernetes-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An intensive technical comparison of k0s, MicroK8s, kind, k3s, and Minikube. Explores core configuration profiles, runtime dependency footprints, CNI defaults, and the performance overhead of built-in components.
 ### Legacy VMs
 
-#### Vagrant Multi-Node
+#### Vagrant Multi-node
 
   - **(2021)** [dj-wasabi/vagrant-kubernetes](https://github.com/dj-wasabi/vagrant-kubernetes) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A classic VM-based multi-node local cluster provisioning framework using Vagrant and Ansible. Retained as a historic architecture template for local VM orchestrations prior to lightweight container runtimes.
 #### Vagrant Toolkits
@@ -137,7 +140,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 #### Analysis
 
   - **(2021)** [padok.fr: MiniKube, Kubeadm, Kind, K3S, how to get started on Kubernetes?](https://www.theodo.com/en-fr/blog/kubernetes-technologies-kubeadm-vs-minikube-kind-and-k3s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical breakdown comparing the core use cases, design philosophies, and architectural profiles of Kubeadm, Minikube, kind, and K3s. Guides engineers to choose the correct testing distribution.
-### Single-Node Clusters
+### Single-node Clusters
 
 #### Comparisons (2)
 
@@ -162,17 +165,20 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
 
 ### Application Delivery
 
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 #### Dynamic Forms
 
   - **(2025)** [**github.com/cyclops-ui/cyclops**](https://github.com/cyclops-ui/cyclops) <span class='md-tag md-tag--info'>⭐ 3323</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7efb435f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 11 L 20 3 L 30 5 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-7efb435f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source developer-focused UI that dynamically generates highly intuitive forms from Kubernetes configurations and Helm schemas. Reduces cognitive overhead for non-operations teams, allowing secure and error-free deployments.
-### GitOps
+### Gitops
 
 #### Configuration Management
 
   - **(2025)** [**kubeshop.github.io/monokle**](https://docs.monokle.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source IDE developed by Kubeshop for managing, refactoring, and verifying Kubernetes manifests. Facilitates dynamic schema-based validation, pre-deployment policy checks, and structural reviews of raw YAML, Helm, and Kustomize files.
-### Multi-Cloud
+### Multi-cloud
 
-#### PaaS Framework
+#### Paas Framework
 
   - **(2023)** [**thenewstack.io: Cloud Manager: A New Multicloud PaaS Platform Built on Kubernetes**](https://thenewstack.io/cloud-manager-a-new-multicloud-paas-platform-built-on-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Architectural breakdown of Cloud Manager, analyzing its design as a next-generation multi-cloud Platform-as-a-Service (PaaS) built directly on top of Kubernetes operators to streamline resource orchestration.
 ### UI and Dashboards
@@ -229,7 +235,7 @@ description: "Top Kubernetes Based Devel resources for 2026, AI-ranked: Minikube
   - **(2022)** [**blog.aquasec.com: RATs (remote access tools) in the Cloud: Kubernetes UI Tools Turn into a Weapon**](https://blog.aquasec.com/kubernetes-ui-tools-security-threat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A cybersecurity threat analysis exposing how unsecured and misconfigured Kubernetes administration dashboards can be targeted by attackers as remote access tools (RATs). Outlines strict network isolation, zero-trust patterns, and RBAC strategies.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

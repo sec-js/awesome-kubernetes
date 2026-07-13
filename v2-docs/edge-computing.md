@@ -28,10 +28,10 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
 ### Architecture (1)
 
   - **(2021)** [thenewstack.io: A New Kubernetes Edge Architecture](https://thenewstack.io/a-new-kubernetes-edge-architecture) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exploratory piece mapping out cutting-edge architectural patterns for multi-cluster edge configurations, comparing unified central control plane models with highly autonomous, decoupled local cluster patterns.
-### KubeEdge
+### Kubeedge
 
   - **(2021)** [opensource.com: Why KubeEdge is my favorite open source project of 2020 🌟](https://opensource.com/article/21/1/kubeedge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source profile detailing KubeEdge. The article outlines how KubeEdge extends the standard Kubernetes control plane to remote systems, ensuring offline local node execution and MQTT-driven IoT connectivity.
-### MicroShift
+### Microshift
 
   - **(2021)** [developers.redhat.com: Bring your Kubernetes workloads to the edge](https://developers.redhat.com/articles/2021/11/22/bring-your-kubernetes-workloads-edge) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide on scaling down and adapting standard containerized workloads to small, resource-constrained edge computing environments. It outlines storage optimizations and minimized memory footprint topologies.
 ## Monitoring
@@ -46,7 +46,7 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
   - **(2021)** [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive perspective from Cloudian highlighting Kubernetes standardization as the foundational component of modern edge architecture. It analyzes strategies to coordinate hybrid storage clusters safely across remote zones.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Storage](./aws-storage.md) | [Oraclecloud](./oraclecloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

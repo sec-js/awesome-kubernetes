@@ -54,7 +54,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
   - **(2026)** [faddom.com: Cloud Computing Costs & Pricing Comparisons for 2023](https://faddom.com/cloud-computing-costs-and-pricing-comparison)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed 2023 summary of public cloud pricing trends and total cost of ownership (TCO) calculators. It focuses on under-provisioned resources and hidden storage costs. Live grounding highlights its value as a foundational reference for optimization algorithms in cloud management platforms.
 ## Cloud Learning
 
-### Multi-Cloud Strategy
+### Multi-cloud Strategy
 
 #### Business Case
 
@@ -75,10 +75,10 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
 
 ### Architecture
 
-#### Multi-Cloud Assessment
+#### Multi-cloud Assessment
 
   - **(2026)** [digitalisationworld.com: Multicloud: Two truths and a lie](https://digitalisationworld.com/blogs/57435/multicloud-two-truths-and-a-lie)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration of the strategic myths versus realities of adopting a multi-cloud architecture. It warns against unnecessary engineering overhead and complex network topology while admitting its value in high-availability designs. Live grounding supports its status as a valuable corporate reality check.
-### Blockchain as a Service
+### Blockchain As A Service
 
 #### Distributed Ledgers
 
@@ -90,12 +90,12 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
   - **(2026)** [acloudguru.com: Cloud developer tooling compared: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-developer-tooling-compared-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical review comparing native CLI tools, IDE plugins, CI/CD runtimes, and Infrastructure as Code integrations across AWS, Azure, and GCP. It provides architects with insights into developer velocity. Live grounding demonstrates its ongoing relevance as cloud-native toolchains continue to converge.
 ### Hyperscalers (2)
 
-#### AWS-Azure-GCP comparison
+#### Aws-azure-gcp Comparison
 
   - **(2026)** [intellipaat.com: AWS vs Azure vs Google – Detailed Cloud Comparison](https://intellipaat.com/blog/aws-vs-azure-vs-google-cloud)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A side-by-side technical comparison of services across AWS, Azure, and Google Cloud Platform. It charts corresponding compute, networking, database, and IAM paradigms. Live grounding proves its value as a rapid reference for architects translating infrastructure footprints between cloud providers.
-### Internet of Things
+### Internet Of Things
 
-#### IoT Cloud Platforms
+#### Iot Cloud Platforms
 
   - **(2026)** [iot-analytics.com: The IoT cloud: Microsoft Azure vs. AWS vs. Google Cloud](https://iot-analytics.com/iot-cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth IoT Analytics report mapping the differences in IoT architectures, ingestion protocols, and message-broker setups across AWS, Azure, and Google Cloud. Live grounding highlights the strategic exit of GCP IoT Core, which shifted the enterprise IoT landscape heavily toward Azure IoT Hub and AWS IoT.
 ### Kubernetes Management
@@ -120,7 +120,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
   - **(2026)** [acloudguru.com: Cloud security comparison: AWS vs. Azure vs. GCP](https://www.pluralsight.com/resources/blog/cloud/cloud-security-comparison-aws-vs-azure-vs-gcp)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An analytical breakdown evaluating the native security architectures of AWS, Azure, and Google Cloud. It details default encryption mechanisms, fine-grained access management (IAM), and compliance frameworks. Live grounding validates its position as a highly targeted study guide for multi-cloud security certifications.
 ### Service Mapping (1)
 
-#### AWS-Azure Mapping
+#### Aws-azure Mapping
 
   - **(2026)** [cloudtechtwitter.com: Let's check about AWS v/s Azure Service](https://www.cloudtechtwitter.com/2022/05/lets-check-about-aws-vs-azure-services.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A direct comparison table matching corresponding AWS and Azure services for infrastructure architects translating environments. Includes virtualization, identity governance, and container orchestration layers. Live grounding demonstrates its high value as a quick-lookup cheatsheet during design sprints.
 ### Storage Architectures
@@ -137,15 +137,15 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
 
 ### Regulatory Ecosystems
 
-#### Gaia-X Core
+#### Gaia-x Core
 
   - **(2026)** [Gaia-X.eu](https://gaia-x.eu) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal for Gaia-X, a European initiative seeking to establish unified requirements for an open, secure, and federated data architecture. Curated as a data sovereignty system; live grounding reflects its transition from theoretical architectural documents to real-world deployment of Gaia-X Compliance Engines.
-#### Gaia-X Dossier
+#### Gaia-x Dossier
 
   - **(2026)** [GAIA-X: A Federated Data Infrastructure for Europe](https://www.bundeswirtschaftsministerium.de/Redaktion/EN/Dossier/gaia-x.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--warning'>[EMERGING]</span> — German Federal Ministry dossier presenting Gaia-X's vision for data sovereignty, interoperability, and reducing hyperscaler lock-in across the EU. Live grounding demonstrates its influence on emerging EU legislation (Data Act) and federated cloud-computing structures in highly regulated sectors.
 ## Infrastructure Resilience
 
-### Outage Post-Mortem
+### Outage Post-mortem
 
 #### AWS Failure Analysis
 
@@ -166,7 +166,7 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
 #### Google GKE Costs
 
   - **(2026)** [Google cloud kubernetes pricing](https://cloud.google.com/kubernetes-engine/pricing)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google Kubernetes Engine (GKE) pricing details, introducing Autopilot vs Standard modes. Analyzes cluster management fees, dynamic provisioning costs, and spot instance discounts. Live grounding confirms GKE Autopilot as the industry standard for highly optimized serverless container architectures.
-### Red Hat OpenShift
+### Red Hat Openshift
 
 #### Azure Integration
 
@@ -174,14 +174,14 @@ description: "Top Public Cloud Solutions resources for 2026, AI-ranked: OpenShif
 #### Enterprise Costs
 
   - **(2026)** [Openshift.com pricing](https://www.redhat.com/en/technologies/cloud-computing/openshift/pricing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's official licensing, pricing, and deployment cost matrix for its enterprise-grade OpenShift container platform. It outlines bare-metal setups, hybrid pricing, and cloud integrations. Live grounding validates OpenShift as the premier choice for highly regulated, security-critical multi-cloud microservices.
-### VMware Tanzu
+### Vmware Tanzu
 
 #### Platform Operations
 
   - **(2026)** [Pivotal.io: Pivotal Container Service (PKS), owned by VMware](https://pivotal.io/platform/pivotal-container-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally Pivotal Container Service (PKS), this enterprise-ready Kubernetes runtime has been integrated directly into the VMware Tanzu Portfolio. It features multi-cluster management, declarative deployment, and deep integration with NSX-T networking. Live grounding labels the PKS brand as legacy, now superseded by Tanzu Kubernetes Grid.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

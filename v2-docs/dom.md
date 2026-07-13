@@ -13,14 +13,14 @@ description: "Curated, AI-ranked Dom resources for the 2026 Cloud Native archite
 
 ### DOM
 
-#### JavaScript
+#### Javascript
 
   - **(2026)** [digitalocean.com: Understanding the DOM — Document Object Model eBook](https://www.digitalocean.com/community/books/understanding-the-dom-document-object-model-ebook) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive pedagogical resource exploring the Document Object Model (DOM) as a programming interface. It introduces how modern browsers parse HTML into tree-like object models and details programmatic mutation approaches using native JavaScript APIs.
   - **(2026)** [freecodecamp.org: JavaScript DOM Tutorial – How to Build a Calculator App' in JS](https://www.freecodecamp.org/news/javascript-dom-build-a-calculator-app) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, task-oriented tutorial on DOM manipulation designed for front-end engineers. It walks through building an interactive UI component from scratch, emphasizing dynamic node creation, event handling, and performant state updates in native JavaScript.
   - **(2026)** [freecodecamp.org: How the Document Object Model Works in JavaScript – DOM' Tutorial for Beginners](https://www.freecodecamp.org/news/javascript-dom) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide breaking down DOM traversal and event propagation mechanics (bubbling and capturing). Essential for intermediate UI engineering, it covers the structural boundaries of web browsers and highlights optimization patterns for interface updates.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

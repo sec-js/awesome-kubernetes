@@ -21,7 +21,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2021)** [blog.postman.com: Postman’s Proxy Now Fully Supports HTTPS Endpoints](https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Postman's built-in proxy captures HTTPS traffic directly from mobile devices and desktop clients, facilitating API inspection. Utilizing custom SSL certificates, it decrypts SSL/TLS payloads locally to allow seamless request debugging. This integration accelerates contract testing and troubleshooting within local microservices environments.
 ## API Lifecycle
 
-### Testing and Mocking
+### Testing And Mocking
 
 #### Engineering Blogs
 
@@ -80,7 +80,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [Postman Pynt 🌟](https://www.postman.com/pynt-io/workspace/pynt/overview) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pynt is a dynamic API security testing tool built directly inside the Postman ecosystem. It scans microservice endpoints for vulnerabilities like OWASP Top 10 exploits during regular runtime tests.
 ### API Testing
 
-#### CI-CD
+#### CICD
 
   - **(2026)** [Linkedin: API Testing with Postman](https://www.linkedin.com/pulse/api-testing-postman-michael-montgomery)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An industry-proven guide addressing automated API test orchestration with Postman and Jenkins. Focuses on setting up automated collection runs as critical build gates within modern DevOps pipelines.
   - **(2026)** [Linkedin: API Testing with Postman — Build a Dynamic Test Suite](https://www.linkedin.com/pulse/api-testing-postman-build-dynamic-test-suite-michael-montgomery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial for engineering highly dynamic, data-driven test suites inside Postman. Highlights variable scoping, pre-request scripts, and test scripting to dynamically adapt across environments.
@@ -98,7 +98,7 @@ description: "Top Postman resources for 2026, AI-ranked: Newman, Postman Pynt an
   - **(2026)** [dev.to: 1 Tip to Double Your Productivity in Postman](https://dev.to/jburroughs/1-tip-to-double-your-productivity-using-postman-3bdm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic guide focused on boosting daily Postman testing performance. Explores quick environment switching, keyboard shortcuts, and automated pre-request scripts to streamline developers' active debugging loops.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

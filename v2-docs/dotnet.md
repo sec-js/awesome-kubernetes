@@ -28,18 +28,18 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Ecosystem Comparisons
 
   - **(2022)** [stackify.com: Who will Dominate in the future: .Net or Java?](https://stackify.com/who-will-dominate-in-the-future-net-or-java) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares performance metrics, runtime speeds, and support costs of .NET against Oracle Java. Analyzes how container optimizations, start-up times, and ecosystem tooling affect cloud resource efficiency.
+#### Grpc Communication
+
+  - **(2021)** [**blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC**](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a technical guide on configuring high-performance gRPC services using ASP.NET Core. Details protobuf schema creation, client generation, and HTTP/2 connection pooling to achieve ultra-low latency between microservices.
 #### Microservices Design
 
   - **(2021)** [**telerik.com: Your First Microservice in .NET 6**](https://www.telerik.com/blogs/your-first-microservice-dotnet-6) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A hands-on guide to building a microservice using ASP.NET Core 6 Minimal APIs. Demonstrates how to write lightweight, highly optimized web APIs with minimal boilerplate code, perfect for deployment within containerized clusters.
-#### OpenShift Containers
+#### Openshift Containers
 
   - **(2021)** [**developers.redhat.com: Three ways to containerize .NET applications on Red Hat OpenShift**](https://developers.redhat.com/blog/2021/03/16/three-ways-to-containerize-net-applications-on-red-hat-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details three distinct strategies to containerize and run .NET applications on Red Hat OpenShift. Evaluates the benefits of Dockerfile builds, Source-to-Image (S2I) pipelines, and deployment templates for enterprise scalability.
 #### RHEL Support
 
   - **(2021)** [**developers.redhat.com: .NET 6 now available for RHEL and OpenShift**](https://developers.redhat.com/articles/2021/11/15/net-60-now-available-rhel-and-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Announces native Red Hat Enterprise Linux (RHEL) and OpenShift support for .NET 6. Focuses on pre-configured, secure container base images and integration setups that simplify enterprise deployments.
-#### gRPC Communication
-
-  - **(2021)** [**blog.jetbrains.com: Getting Started with ASP.NET Core and gRPC**](https://blog.jetbrains.com/dotnet/2021/07/19/getting-started-with-asp-net-core-and-grpc) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Presents a technical guide on configuring high-performance gRPC services using ASP.NET Core. Details protobuf schema creation, client generation, and HTTP/2 connection pooling to achieve ultra-low latency between microservices.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -51,12 +51,15 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 
 ### Container Orchestration
 
+#### Helm and Packaging
+
+  - **(2022)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive deep-dive tutorial series on orchestrating .NET applications inside Kubernetes using Helm. Analyzes templating, YAML manifests, dependency injections, dynamic secret handling, and values customization patterns.
 #### Kubernetes
 
   - **(2021)** [dotnetcurry.com: Kubernetes for ASP.NET Core Developers – Introduction, Architecture, Hands-On](https://www.dotnetcurry.com/aspnet-core/kubernetes-for-developers) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An educational guide targeted at .NET architects migrating legacy backends to Kubernetes. Details fundamental infrastructure layers including Pods, ReplicaSets, Deployments, Services, and containerization pipelines using Docker.
 ## Mobile Development
 
-### Cross-Platform
+### Cross-platform
 
 #### Xamarin
 
@@ -71,9 +74,14 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Environment Validation
 
   - **(2021)** [jeremydmiller.com: Self Diagnosing Deployments with Oakton and Lamar](https://jeremydmiller.com/2021/10/12/self-diagnosing-deployments-with-oakton-and-lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a design paradigm combining Lamar's compilation-safe IoC container with Oakton's self-diagnostics capability. Outlines systems validation strategies that trigger build failures if container registrations or service setups fail.
-#### IoC Containers
+#### Ioc Containers
 
   - **(2025)** [Lamar](https://jasperfx.github.io/lamar) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An advanced, high-performance IoC container and assembly scanning engine compatible with Microsoft's DI standards. Leverages Roslyn-powered dynamic code compilation to optimize dependency resolution pathways in microservices.
+### Artificial Intelligence
+
+#### Agent Integration
+
+  - **(2024)** [Extend your coding agent with .NET Skills](https://devblogs.microsoft.com/dotnet/extend-your-coding-agent-with-dotnet-skills) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines methods for extending autonomous AI coding agents with direct .NET skill injection. Uses Semantic Kernel to build tools enabling LLMs to execute C# compilations, format files, and interact natively with code bases.
 ### Client Technologies
 
 #### CICD and DevOps
@@ -90,7 +98,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
 #### Ecosystem Curation
 
   - **(2022)** [syncfusion.com: 10 Best C# NuGet Packages to Improve Your Productivity in 2022](https://www.syncfusion.com/blogs/post/10-best-c-nuget-packages-to-improve-your-productivity-in-2022) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated evaluation of top-tier NuGet packages designed to elevate developer productivity inside modern .NET enterprise ecosystems. Features utility frameworks covering high-speed serialization, deep-object mapping, unit testing extensions, logging, and database interfacing.
-#### NuGet Specification
+#### Nuget Specification
 
   - **(2026)** [NuGet/docs.microsoft.com-nuget: nuspec](https://github.com/NuGet/docs.microsoft.com-nuget/blob/main/docs/reference/nuspec.md) <span class='md-tag md-tag--info'>⭐ 160</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8c02da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 3 L 20 10 L 30 13 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-bf8c02da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[XML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This reference specification details the .nuspec XML manifest schema governing NuGet packages. It provides structured guidance on targeting framework frameworks, orchestrating assembly dependencies, defining metadata, and managing compilation assemblies, acting as the foundational automation configuration schema for .NET artifact pipelines.
   - **(2023)** [devblogs.microsoft.com: Introducing Compatible Packages on NuGet.org](https://devblogs.microsoft.com/dotnet/introducing-compatible-frameworks-on-nuget-org) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details framework compatibility structures implemented by NuGet.org, facilitating cross-platform library discovery. Explains target framework resolution paradigms mapping dependencies across .NET Standard, .NET Core, and legacy frameworks.
@@ -105,7 +113,7 @@ description: "Top Dotnet resources for 2026, AI-ranked: Oakton, Lamar and more �
   - **(2024)** [Paradigm framework](https://www.paradigm.net.co) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source development platform designed to facilitate rapid, highly structured .NET microservice engineering. Standardizes dependency configurations, modular architectures, data mapping protocols, and enterprise repository patterns.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

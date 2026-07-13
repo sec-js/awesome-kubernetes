@@ -36,7 +36,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 
   - **(2016)** [AWS Schema Conversion Tool now supports PostgreSQL as conversion target](https://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight chronicles the historical release when AWS SCT introduced target support for Amazon RDS PostgreSQL. Live Grounding indicates that this addition laid the groundwork for open-source migrations of commercial PL/SQL and T-SQL. Included for tracing AWS ecosystem historical growth.
   - [AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization](https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight announces legacy enhancements to AWS SCT, focusing on target conversions to Amazon Redshift. Live Grounding confirms this enabled automation for migrating complex on-premises data warehouses like Teradata and Oracle DW to modern cloud analytics warehouses. [SPANISH CONTENT]
-#### Multi-Region Storage
+#### Multi-region Storage
 
   - [Replicate and transform data in Amazon Aurora PostgreSQL across multiple Regions using AWS DMS](https://aws.amazon.com/blogs/database/replicate-and-transform-data-in-amazon-aurora-postgresql-across-multiple-regions-using-aws-dms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight explains complex data replication and real-time schema transformations using AWS DMS across geographic zones. Live Grounding demonstrates how DMS filters and manipulates streaming CDC events to populate distinct regional schemas. An advanced implementation reference for global multi-region database architectures.
 #### Oracle Migrations
@@ -50,7 +50,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### Architectural Patterns
 
   - [thenewstack.io: Diving into AWS Databases: Amazon RDS and DynamoDB Explained](https://thenewstack.io/diving-into-aws-databases-amazon-rds-and-dynamodb-explained)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight compares relational databases (RDS) and non-relational databases (DynamoDB) on AWS. Live Grounding emphasizes the trade-offs of relational constraints and ACID compliance against horizontal scaling and key-value performance. Recommended for architects mapping domain data requirements to cloud storage options.
-#### Compliance and Security
+#### Compliance And Security
 
   - [Auditing for highly regulated industries using Amazon Aurora PostgreSQL](https://aws.amazon.com/blogs/database/auditing-for-highly-regulated-industries-using-amazon-aurora-postgresql) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight details compliance and auditing methodologies for highly regulated sectors utilizing Amazon Aurora PostgreSQL. Live Grounding confirms the deployment patterns involve pgAudit integration, AWS CloudWatch Logs, and database activity streams. It provides actionable reference designs for achieving HIPAA, PCI-DSS, and SOC compliance.
 #### Deployments
@@ -59,7 +59,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
 #### High Availability
 
   - [New Amazon RDS for MySQL & PostgreSQL Multi-AZ Deployment Option: Improved' Write Performance & Faster Failover](https://aws.amazon.com/blogs/aws/amazon-rds-multi-az-db-cluster) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights the introduction of Amazon RDS Multi-AZ DB clusters designed with two readable standbys and transaction log replication. Live Grounding demonstrates write performance improvements of up to 2x alongside faster failover times (typically under 35 seconds). This architecture mitigates standard single-standby replication latency bottlenecks.
-#### Hybrid Cloud and Edge
+#### Hybrid Cloud And Edge
 
   - [New – Create Microsoft SQL Server Instances of Amazon RDS on AWS Outposts](https://aws.amazon.com/blogs/aws/new-create-microsoft-sql-server-instances-of-amazon-rds-on-aws-outposts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights the expansion of Amazon RDS capabilities to hybrid environments using AWS Outposts. Live Grounding verifies this enables low-latency, on-premises execution of Microsoft SQL Server workloads with cloud-style managed operations. The architecture supports local data residency while utilizing automated backups and scaling.
 #### Legacy Releases (1)
@@ -87,7 +87,7 @@ description: "Curated, AI-ranked AWS Databases resources for the 2026 Cloud Nati
   - [Easily model your app data in a NoSQL database with AWS Mobile Hub](https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight details a legacy utility tool (AWS Mobile Hub) that assisted developers in bootstrapping NoSQL data layers. Live Grounding highlights that AWS Mobile Hub has been replaced by the more powerful AWS Amplify framework. Included for legacy archeological reference. [SPANISH CONTENT]
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -53,7 +53,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Governance
 
   - **(2015)** [**AWS Config Rules – Dynamic Compliance Checking for Cloud Resources**](https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduction to AWS Config Rules for dynamic resource auditing. Outlines custom Lambda-backed compliance checks, automated change detection, and state verification rules across multi-account structures.
-#### Internet of Things
+#### Internet Of Things
 
   - **(2015)** [**AWS IoT – Cloud Services for Connected Devices**](https://aws.amazon.com/blogs/aws/aws-iot-cloud-services-for-connected-devices) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Core introduction of AWS IoT architecture. Details high-throughput MQTT broker brokers, secure device shadow states, rules engines, and telemetry stream mapping to AWS analytics components.
 #### Management Tools
@@ -92,7 +92,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### EC2 Troubleshooting
 
   - **(2021)** [**infoq.com: AWS Introduces EC2 Serial Console: Troubleshoot Boot and Networking Issues**](https://www.infoq.com/news/2021/04/aws-ec2-serial-console) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides secure, interactive access to the physical serial port of EC2 instances, bypassing traditional IP-based network configuration. This enables real-time diagnostic debugging of boot issues, kernel panics, and misconfigured firewall or network interfaces. Architecturally, it serves as a critical break-glass tool for enterprise sysadmins to avoid data loss during OS-level misconfigurations.
-#### Multi-Region Operations
+#### Multi-region Operations
 
   - **(2021)** [Amazon EC2 now offers Global View on the console to view all resources across regions together](https://aws.amazon.com/about-aws/whats-new/2021/09/amazon-ec2-global-view-console-regions) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Offers a centralized dashboard on the EC2 Console to view all running instances, volumes, VPCs, and subnets across all AWS Regions simultaneously. This feature drastically improves operational visibility, allowing engineers to track shadow IT, verify multi-region deployments, and quickly locate orphaned resources. It provides a foundational unified pane for multi-region operations.
 #### Operating Systems
@@ -136,7 +136,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Local Zones
 
   - **(2021)** [techcrunch.com: AWS to launch over 30 new Local Zones internationally starting in 2022](https://techcrunch.com/2021/12/02/aws-to-launch-over-30-new-local-zones-starting-in-2022) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines AWS's international expansion of Local Zones to provide low-latency edge computing, storage, and database services in metropolitan areas globally. This addresses strict residency laws and provides sub-10ms performance targets for localized financial systems or real-time gaming backends. Architecturally, it extends public cloud boundaries directly to metropolitan data centers.
-### FinOps
+### Finops
 
 #### Cost Management
 
@@ -185,13 +185,13 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Critical Review
 
   - **(2021)** [theregister.com: The big AWS event: 120 announcements but nothing has changed](https://www.theregister.com/off-prem/2021/12/09/the-big-aws-event-120-announcements-but-nothing-has-changed/605657) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a critical perspective on the massive volume of re:Invent releases, arguing that many represent incremental API upgrades rather than fundamental architectural breakthroughs. The article challenges tech teams to focus on core design architectures rather than chasing every new managed wrapper. It serves as a pragmatic guide against architectural over-engineering.
-#### ReInvent Announcements
+#### Reinvent Announcements
 
   - **(2021)** [**aws.amazon.com/blogs: Top Announcements of AWS re:Invent 2021**](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2021) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Synthesizes the major platform transformations unveiled at re:Invent 2021, focusing on serverless options for Redshift, EMR, and MSK alongside new Graviton3 silicon. The catalog underscores a massive architectural drive towards serverless operational models across the analytics stack. These updates solidify AWS's platform-as-a-service offerings for enterprise engineering.
   - **(2021)** [**infoq.com: Recap of AWS re:Invent 2021**](https://www.infoq.com/news/2021/12/recap-reinvent-2021) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Delivers an industry analyst review of re:Invent 2021's technical releases, capturing structural advancements across compute, databases, and serverless compute paradigms. Key topics include AWS Mainframe Modernization, IoT FleetWise, and security standard compliance tooling. It maps out these ecosystem developments to long-term enterprise migration strategies.
 ### Messaging
 
-#### Event-Driven
+#### Event-driven
 
   - **(2022)** [Amazon SNS increases the default quota for subscription filter policies by 50x to 10,000 per account](https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-sns-increases-default-quota-subscription-filter-policies-account) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon SNS increased the default subscription filter policy limit 50-fold to 10,000 per account. This enhancement permits highly granular filtering configurations within event-driven architectures, eliminating the need to deploy complex dispatch microservices to parse message payloads.
 ### Migration
@@ -243,12 +243,12 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Metrics
 
   - **(2022)** [Introducing Amazon CloudWatch Metrics Insights (General Availability)](https://aws.amazon.com/about-aws/whats-new/2022/04/amazon-cloudwatch-metrics-insights) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon CloudWatch Metrics Insights is a highly performant SQL-based query engine that allows developers and administrators to analyze system metrics at scale in real-time. It enables querying millions of metrics dynamically, grouping by dimensions, and creating dashboard visualizers to pinpoint anomalous behaviors rapidly across distributed cloud architectures.
-#### Multi-Account
+#### Multi-account
 
   - **(2022)** [Amazon CloudWatch launches cross-account observability across multiple AWS accounts](https://aws.amazon.com/about-aws/whats-new/2022/11/amazon-cloudwatch-cross-account-observability-multiple-aws-accounts) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon CloudWatch added native cross-account observability, enabling operators to aggregate and query metrics, logs, and traces seamlessly across multiple target accounts in an organization. This removes the need for custom ingestion microservices and pipelines to centralize application telemetry.
 ### Security (1)
 
-#### DDoS Protection
+#### Ddos Protection
 
   - **(2022)** [AWS Shield Advanced now supports Application Load Balancer for automatic application layer DDoS mitigation](https://aws.amazon.com/about-aws/whats-new/2022/04/aws-shield-application-balancer-automatic-ddos-mitigation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS Shield Advanced introduced automatic mitigation of application layer (Layer 7) DDoS attacks for Application Load Balancers (ALB). This capability dynamically creates, tests, and deploys AWS WAF rules on behalf of the user to block malicious traffic patterns, reducing manual intervention and minimizing downstream application downtime during sustained attacks.
 #### Key Management
@@ -271,7 +271,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2023)** [AWS WAF enhances rate-based rules to support request headers and composite keys](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-waf-rate-based-rules-request-headers-composite-keys) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS WAF updated rate-limiting rules to support composite key inspection, combining IP with headers, cookies, or query arguments. This helps target and neutralize sophisticated distributed L7 attacks.
 ### Security and Service Mesh
 
-#### HashiCorp HCP
+#### Hashicorp HCP
 
   - **(2021)** [**thenewstack.io: HashiCorp Adds Consul and Vault to Cloud Platform for AWS**](https://thenewstack.io/hashicorp-adds-consul-and-vault-to-cloud-platform-for-aws) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Launches fully managed Consul and Vault offerings on the HashiCorp Cloud Platform (HCP) integrated with AWS. This allows engineering teams to leverage secure secret storage and high-performance service mesh patterns without operational cluster overhead. Architecturally, it integrates seamlessly into AWS VPC routing and transit gateway topologies.
 ### Serverless (1)
@@ -316,7 +316,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2021)** [==Amazon EKS clusters now support user authentication with OIDC compatible identity providers==](https://aws.amazon.com/about-aws/whats-new/2021/02/amazon-eks-clusters-support-user-authentication-oidc-compatible-identity-providers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enables EKS clusters to utilize external OpenID Connect (OIDC) compatible identity providers for user authentication. This decouples Kubernetes RBAC from direct IAM identity mappings, allowing developers to leverage existing SSO solutions like Okta or Keycloak. It simplifies security governance by maintaining enterprise identity standards at the cluster API level.
 ### Market Analysis (1)
 
-#### ReInvent Announcements (1)
+#### Reinvent Announcements (1)
 
   - **(2021)** [**forbes.com: AWS re:Invent - A Roundup Of Container Services Announcements**](https://www.forbes.com/sites/janakirammsv/2021/12/03/aws-reinventa-roundup-of-container-services-announcements) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Synthesizes containerization announcements from re:Invent 2021, highlighting Karpenter, EKS Anywhere, and ECS Anywhere expansion. This analysis emphasizes AWS's push to support hybrid and multi-cloud Kubernetes deployments. It details how Karpenter challenges standard Cluster Autoscaler architectures with direct, fast provisioning of right-sized EC2 instances.
 ## Data and Analytics
@@ -339,7 +339,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Redshift
 
   - **(2021)** [==Announcing General Availability of Amazon Redshift Cross-account Data Sharing==](https://aws.amazon.com/about-aws/whats-new/2021/08/announcing-general-availability-amazon-redshift-cross-account-data-sharing) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Allows instant, secure data sharing across different Amazon Redshift clusters and AWS accounts without moving or copying data. It decouples storage from compute, allowing downstream analytic nodes or consumers to run isolated queries against shared data structures in real-time. This drastically optimizes data lake engineering architectures.
-## Database
+## Databases (1)
 
 ### RDS Proxy
 
@@ -351,21 +351,21 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### RDS High Availability
 
   - **(2022)** [==infoq.com: Amazon RDS Introduces Readable Standby Instances in Multi-AZ Deployments==](https://www.infoq.com/news/2022/01/aws-rds-readable-standby) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Introduces Multi-AZ deployments with two readable standby instances, allowing read queries to be offloaded from the primary instance while offering sub-35 second automatic failovers. Architecturally, this maximizes utilization of standby infrastructure while scaling database read throughput significantly. It is highly beneficial for transaction-heavy workloads with strong analytics or reporting requirements.
-## Infrastructure as Code
+## Infrastructure As Code
 
-### CloudFormation
+### Cloudformation
 
 #### State Management
 
   - **(2021)** [**New for AWS CloudFormation – Quickly Retry Stack Operations from the Point of Failure**](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces the ability to retry failed CloudFormation stack operations from the point of failure, omitting the need to rollback and rebuild the entire deployment from scratch. This drastically optimizes development feedback loops, especially when dealing with flaky external resources or transient timeouts. It dramatically changes IaC debugging workflows on AWS.
 ## Observability (1)
 
-### CloudWatch
+### Cloudwatch
 
 #### Access Management
 
   - **(2021)** [aws.amazon.com: Share your Amazon CloudWatch Dashboards with anyone using AWS Single Sign-On](https://aws.amazon.com/blogs/mt/share-your-amazon-cloudwatch-dashboards-with-anyone-using-aws-single-sign-on) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enables engineers to share CloudWatch dashboards with stakeholders outside the AWS Console using IAM Identity Center (formerly AWS SSO). This decouples operations visualization from root access management, offering a secure path to operational metrics. It ensures fine-grained dashboard sharing across federated organizational entities.
-#### Multi-Account Monitoring
+#### Multi-account Monitoring
 
   - **(2021)** [**infoq.com: Amazon Introduces Cloudwatch Cross Account Alarms to Consolidate Management**](https://www.infoq.com/news/2021/08/aws-cloudwatch-alarms) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Introduces CloudWatch cross-account alarms, enabling teams to aggregate telemetry, trace metrics, and execute operational alerts from multiple AWS accounts under a single monitoring cockpit. It aligns with multi-account architectural landing zones, minimizing alert-routing complexity. It enhances real-time incident remediation by centralizing operational context.
 ### Grafana
@@ -373,7 +373,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
 #### Managed Visualization
 
   - **(2021)** [**Amazon Managed Service for Grafana (AMG) preview updated with new capabilities**](https://aws.amazon.com/blogs/mt/amazon-managed-service-for-grafana-amg-preview-updated-with-new-capabilities) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Outlines preview enhancements to AMG, incorporating support for Grafana Enterprise upgrades, security posture controls, and direct data source connectivity (Prometheus, CloudWatch, OpenSearch). This update automates visualization scaling and secures connection configurations. It forms a central visualization plane across AWS-managed monitoring services.
-### OpenTelemetry
+### Opentelemetry
 
 #### Distributed Tracing
 
@@ -405,7 +405,7 @@ description: "Curated, AI-ranked AWS Newfeatures resources for the 2026 Cloud Na
   - **(2021)** [Introducing new self-paced courses to improve Java and Python code quality with Amazon CodeGuru](https://aws.amazon.com/blogs/devops/new-self-paced-courses-to-improve-java-and-python-code-quality-with-amazon-codeguru) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Educational curriculum focusing on utilizing CodeGuru's machine-learning engines to detect concurrency bugs, resource leaks, and performance bottlenecks in Java and Python. These courses provide hands-on telemetry guides to maximize DevSecOps efficiency. Architecturally, CodeGuru integrates into CI/CD pipelines to enforce static and dynamic code quality.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

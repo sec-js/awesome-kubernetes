@@ -19,8 +19,13 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(None)** [](https://code.visualstudio.com/updates/v1_120/v1_46)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering code.visualstudio.com in the Kubernetes Tools ecosystem.
   - [dzone.com: 10 VS Code Extensions to Fight Technical Debt](https://dzone.com/articles/10-vs-code-extensions-to-fight-technical-debt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: 10 VS Code Extensions to Fight Technical Debt in the Kubernetes Tools ecosystem.
   - **(None)** [](https://ona.com/stories/gitpod-is-now-ona)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ona.com in the Kubernetes Tools ecosystem.
-## CICD Pipeline
+## CICD
 
+### Configuration As Code
+
+#### Developer Tooling
+
+  - **(2024)** [Visual Studio Code JCasC-Plugin 🌟](https://marketplace.visualstudio.com/items?itemName=jcasc-developers.jcasc-plugin) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance developer editor tool designed to provide autocompletion, real-time schema linting, and context-aware validation syntax checks specifically for managing complex Jenkins Configuration as Code declarations.
 ### Jenkins Tools
 
 #### Monitoring
@@ -36,17 +41,17 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2021)** [JM Meessen: Declarative Jenkinsfile Support](https://marketplace.visualstudio.com/items?itemName=jmMeessen.jenkins-declarative-support) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides targeted code snippets, auto-complete utilities, and syntax validations optimized for declarative Jenkinsfiles. It dramatically reduces developer syntax errors when managing complex multi-stage pipeline steps.
 ## Cloud Infrastructure
 
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### Azure
 
   - **(2026)** [**Azure Resource Manager (ARM) Tools 🌟**](https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides language server support, validation, and autocomplete for Azure Resource Manager (ARM) JSON templates. Although Microsoft Bicep and Terraform are often preferred for new projects, ARM tools remain critical for maintaining enterprise deployment patterns.
-### PaaS
+### Paas
 
 #### Azure (1)
 
   - **(2026)** [**marketplace.visualstudio.com: Azure App Service for Visual Studio Code**](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Simplifies deployment, configuration, and monitoring of applications hosted on Azure App Service. Useful for deploying monolithic apps and APIs, though complex architectures have shifted toward Kubernetes and Serverless.
-### SecOps
+### Secops
 
 #### AWS IAM
 
@@ -67,13 +72,13 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 
   - **(2026)** [**marketplace.visualstudio.com: Kubernetes Reference Highlighter 🌟**](https://marketplace.visualstudio.com/items?itemName=dag-andersen.kubernetes-reference-highlighter) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Highlights cross-references inside Kubernetes manifest files, such as linking ConfigMaps and Secrets to Deployment specifications. Reduces misconfigurations and deployments crashes in complex environments.
   - **(2026)** [**marketplace.visualstudio.com: Kubernetes YAML Formatter 🌟**](https://marketplace.visualstudio.com/items?itemName=kennylong.kubernetes-yaml-formatter) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Formats Kubernetes YAML manifests specifically, enforcing standardization across deployments. Crucial for platform engineers managing large declarative infrastructures in multi-tenant environments.
-#### GitOps
+#### Gitops
 
   - **(2026)** [**marketplace.visualstudio.com: GitOps Tools for Flux 🌟**](https://marketplace.visualstudio.com/items?itemName=Weaveworks.vscode-gitops-tools) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Simplifies managing and visualizing GitOps resources powered by Flux directly inside the editor. Despite Weaveworks restructuring, the Flux ecosystem remains a dominant engine for production-grade Kubernetes deployments.
 #### Local Clusters
 
   - **(2026)** [**Kubernetes Kind (by Microsoft)**](https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.kind-vscode) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Integrates KinD (Kubernetes in Docker) cluster management directly within VS Code, easing local microservice prototyping and controller debugging workflows.
-#### Red Hat OpenShift
+#### Red Hat Openshift
 
   - **(2026)** [**developers.redhat.com: Devfiles and Kubernetes cluster support in OpenShift' Connector 0.2.0 extension for VS Code 🌟**](https://developers.redhat.com/blog/2020/11/16/devfiles-and-kubernetes-cluster-support-in-openshift-connector-0-2-0-extension-for-vs-code) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed Red Hat technical blog showcasing the integration of Devfiles and Kubernetes cluster targeting within OpenShift Connector. It highlights how developers can maintain container-native configurations directly from their IDE.
 #### VS Code Tooling (1)
@@ -87,7 +92,14 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### Kubernetes Integration
 
   - [blog.getambassador.io: Debugging Go Microservices in Kubernetes with VScode](https://blog.getambassador.io/debugging-go-microservices-in-kubernetes-with-vscode-a36beb48ef1) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores techniques for real-time remote debugging of Go microservices running inside a Kubernetes cluster using Telepresence and VSCode, bridging local development environments with cloud resources.
-## Cloud-Native Development
+## Cloud Platform
+
+### AWS Infrastructure
+
+#### Developer Tooling (1)
+
+  - **(2021)** [AWS Toolkits for Cloud9, JetBrains and VS Code now support interaction with over 200 new resource types 🌟](https://aws.amazon.com/about-aws/whats-new/2021/11/aws-toolkits-cloud9-jetbrains-vs-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS announcement highlighting the release of updated AWS Toolkits for popular IDEs (Cloud9, JetBrains, VS Code), expanding interaction capabilities to over 200 resource types. This update greatly reduced context switching for developers, enabling local generation of IAM, DynamoDB, and CloudFormation schemas without visiting the AWS web console.
+## Cloud-native Development
 
 ### Azure (2)
 
@@ -185,7 +197,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2023)** [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Error Lens improves dev speed by outputting warning and error diagnostic texts directly on the code line. Eliminates the need to hover over syntax errors, reducing debug-cycle latency.
   - **(2021)** [dev.to: How to configure VSCode Bracket Pair Colors Natively](https://dev.to/amanhimself/how-to-configure-vscode-bracket-pair-colors-natively-3nl) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides deep details on configuring native bracket pair colorization in VS Code settings. Highlights the migration from resource-heavy third-party extensions to the built-in, highly optimized AST-based rendering engine to lower CPU utilization.
   - **(2020)** [blogs.windows.com: Bringing the browser developer tools to Visual Studio' Code](https://blogs.windows.com/msedgedev/2020/10/01/microsoft-edge-tools-vscode) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Microsoft Edge Developer Tools integration directly inside VS Code. This allows engineers to run element inspection, network profiling, and DOM debugging natively in the IDE, reducing context-switching latency during web application development.
-##### Language-Specific Tooling
+##### Language-specific Tooling
 
   - **(2024)** [==Python Visual Studio Code==](https://github.com/microsoft/vscode-python) <span class='md-tag md-tag--info'>⭐ 4623</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c41afb0e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 7 L 30 7 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-c41afb0e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official VS Code Python extension repository. Serves as a primary integration layer for code-formatting, Jupyter Notebook systems, pytest architectures, and type checker implementations.
   - **(2022)** [freecodecamp.org: How to Use Markdown in VSCode – Syntax and Examples](https://www.freecodecamp.org/news/how-to-use-markdown-in-vscode) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide to writing, parsing, and rendering Markdown natively in VS Code. Highlights capabilities for inline previewing, styling syntax, and utilizing the editor for software architecture decision records (ADRs).
@@ -266,7 +278,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2023)** [Minimap Makeover](https://www.youtube.com/shorts/t5vXCNIBVYw) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows customization options for the editor minimap to emphasize error markers, highlights, and structural complexity indicators.
 ### Version Control (1)
 
-#### GitHub
+#### Github
 
   - **(2022)** [Hacking GitHub?](https://www.youtube.com/shorts/nMJBbH7g1M4) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers high-impact shortcuts on the GitHub interface, focusing on the browser-based VS Code environment launcher. Streamlines remote file traversal and light code reviews without requiring a local clone.
 ## Developer Tools
@@ -276,6 +288,11 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### VS Code (1)
 
   - **(2026)** [==Awesome Visual Studio Code==](https://github.com/viatsko/awesome-vscode) <span class='md-tag md-tag--info'>⭐ 28747</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-604f5ec7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 8 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-604f5ec7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A massive directory of extensions, themes, and configuration recipes designed to turn VS Code into a productivity powerhouse. Highly relevant for cloud-native developers seeking extensions for Kubernetes, Terraform, Docker, and remote workspace development. Serves as a daily driver resource for developer enablement teams.
+### IDE Extensions
+
+#### Azure Learning
+
+  - **(2024)** [marketplace.visualstudio.com: Learn Cloud 🌟](https://marketplace.visualstudio.com/items?itemName=azurepaas-tools.vscode-learncloud) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual Studio Code extension designed to accelerate cloud onboarding directly within the developer workspace. It streamlines access to Azure training modules and sandboxed labs, reducing cognitive context switching during technical training.
 ## Development
 
 ### DevOps
@@ -285,7 +302,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2022)** [gitlab.com: VS Code extension development with GitLab](https://about.gitlab.com/blog/vscode-extension-development-with-gitlab) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how developers can construct VS Code extensions integrated with GitLab CI/CD and APIs. The post showcases best practices for extension design, testing automation, and deployment mechanisms, streamlining local-to-cloud workspace automation.
 ## Development Environment
 
-### AI-Assisted Engineering
+### Ai-assisted Engineering
 
 #### VS Code Tooling (7)
 
@@ -335,7 +352,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### VS Code Tooling (11)
 
   - **(2026)** [**Path Intellisense**](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Provides dynamic path autocompletion during import statements and file references. This capability reduces import failures across large directories. Although modern language servers have improved built-in path resolution, this extension remains popular for deep directory layouts.
-### IDE Extensions
+### IDE Extensions (1)
 
 #### Git Integration (1)
 
@@ -355,14 +372,14 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2022)** [realpython.com: Python Development in Visual Studio Code](https://realpython.com/python-development-visual-studio-code) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive deep dive by Real Python into configuring Visual Studio Code as a professional Python development IDE. Covers workspace setup, linters, debug configurations, and unit testing frameworks.
   - **(2021)** [Python in Visual Studio Code – January 2021 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-january-2021-release) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the January 2021 releases for Python in VS Code, emphasizing Pylance type checker improvements, multi-root workspace support, and simplified Pytest test discovery structures.
   - **(2020)** [Python in Visual Studio Code – September 2020 Release](https://devblogs.microsoft.com/python/python-in-visual-studio-code-september-2020-release) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the September 2020 updates for Python in VS Code, detailing enhancements to Debug Adapter Protocol (DAP) implementations and environment discovery. Streamlines the execution of local virtual environment packages.
-### Linter and Formatter
+### Linter And Formatter
 
 #### Python (2)
 
   - **(2026)** [==marketplace.visualstudio.com: Ruff extension for Visual Studio Code==](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Integrates the ultra-fast Rust-based Ruff linter and formatter directly into VS Code. In 2026, it is the standard for microservice backends, replacing flake8 and black with massive speed enhancements.
-### Next-Gen IDE
+### Next-gen IDE
 
-#### JetBrains
+#### Jetbrains
 
   - **(2024)** [Fleet](https://www.jetbrains.com/fleet) <span class='md-tag md-tag--warning'>[KOTLIN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — JetBrains' polyglot, lightweight development editor designed with a distributed, collaborative architecture. Supports local file editing or remote backend offloading, providing competition to VS Code's remote development extensions.
   - **(2022)** [softzone.es: Conoce Fleet, el nuevo IDE ultraligero de la mano de JetBrains](https://www.softzone.es/noticias/programas/conoce-fleet-ide-ultraligero-mano-jetbrains) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early assessment of JetBrains Fleet, detailing its modular UI and hybrid mode. Focuses on the IDE's rapid start times, remote engine execution, and embedded collaboration features.
@@ -392,7 +409,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2026)** [**Local History**](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Maintains an independent local timeline of file changes, acting as a fallback when code modifications have not yet been committed to Git. This local safety net helps prevent accidental data loss during local refactoring.
 ## Development Environments
 
-### Cloud IDEs
+### Cloud Ides
 
 #### CDE
 
@@ -418,7 +435,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### Architecture Visualization
 
   - **(2022)** [dev.to: Video: Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://dev.to/appmap/video-visualize-the-architecture-of-your-java-app-in-vs-code-in-2-minutes-568j) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to AppMap for VS Code, illustrating how to automatically record and render execution paths, database queries, and architectural layouts of Java applications in real time.
-#### CICD Extensions
+#### CICD (1)
 
   - **(2022)** [GitHub Actions 🌟](https://marketplace.visualstudio.com/items?itemName=github.vscode-github-actions) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official GitHub Actions extension for VS Code, enabling developers to build, validate, monitor, and run CI/CD workflows natively within the IDE with real-time log streaming.
   - **(2019)** [GitLab Workflow](https://marketplace.visualstudio.com/items?itemName=gitlab.gitlab-workflow) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integrates GitLab's merge requests, issues, and CI/CD pipelines directly into VS Code, allowing platform engineers to monitor CI statuses and conduct code reviews seamlessly inside the workspace.
@@ -464,7 +481,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2015)** [Using Version Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official guide detailing VS Code's native source control integration, enabling developers to execute Git workflows directly within the editor. It covers staging, committing, branching, and resolving merge conflicts without switching to an external terminal.
 ## Documentation (3)
 
-### Developer Tooling
+### Developer Tooling (2)
 
 #### IDE Platforms
 
@@ -521,7 +538,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
 #### NoSQL
 
   - **(2026)** [**MongoDB for VS Code**](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores, queries, and modifies MongoDB data collections natively without leaving the editor. Essential tool for developers writing and verifying backend microservices backed by document stores.
-#### ORM and Tools
+#### ORM And Tools
 
   - **(2026)** [==prisma.io: Improving the Prisma Visual Studio Code Extension with WebAssembly' 🌟==](https://www.prisma.io/blog/vscode-extension-prisma-rust-webassembly) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive explaining the compilation of Prisma's core engine to WebAssembly to optimize VS Code schema analysis and validation. It demonstrates how WASM can be used to improve tool startup performance and runtime efficiency.
 ### Python (3)
@@ -536,7 +553,7 @@ description: "Top Visual Studio resources for 2026, AI-ranked: Awesome Visual St
   - **(2026)** [**Jest**](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Integrates Jest unit testing workflows directly into the editor. It offers real-time inline test failures, active watch mode triggers, and visual coverage reports. This setup simplifies local feedback loops for enterprise microservices developed in TypeScript or JavaScript.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

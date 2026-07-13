@@ -25,7 +25,7 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2022)** [r-bloggers.com: How to use R Markdown (part one)](https://www.r-bloggers.com/2022/02/how-to-use-r-markdown-part-one) <span class='md-tag md-tag--warning'>[R CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive practical guide on R Markdown implementation strategies. Illustrates how to merge active mathematical scripts (R, Python, SQL) with clean prose to compile beautiful reproducible reports. Essential knowledge for building data pipeline documentation platforms.
 ## Documentation and Workflow
 
-### CICD Pipelines
+### CICD
 
 #### Pandoc Conversions
 
@@ -35,12 +35,12 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2022)** [thomasthornton.cloud: Deploying MkDocs to GitHub Pages with GitHub Actions](https://thomasthornton.cloud/deploying-mkdocs-to-github-pages-with-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A pipeline tutorial detailing GitHub Actions workflows configured to auto-compile MkDocs sources and deploy the generated static pages to GitHub Pages. It highlights secure token usage, automated branch creation, and caching mechanisms to optimize documentation build speeds.
 ### Knowledge Management
 
-#### GitOps Docs
+#### Gitops Docs
 
   - **(2022)** [dev.to: An amazing note-taking system with Markdown and Git Series' Articles](https://dev.to/scottshipp/series/15100)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative developer series exploring the construction of a personalized knowledge-base built using Git repository version control and plain-text Markdown. Establishes the organizational structures needed to run rapid note-taking workflows with low operational overhead.
-### SaaS Portals
+### Saas Portals
 
-#### GitBook
+#### Gitbook
 
   - **(2026)** [gitbook.com](https://www.gitbook.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for GitBook, a cloud SaaS platform designed for high-performance team knowledge bases and collaborative API hubs. Bridges the gap between git-based developers and non-technical document writers with live bi-directional sync tools.
 ### Static Site Generators
@@ -60,10 +60,10 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
 #### Jekyll
 
   - **(2021)** [opensource.com: Build your website with Jekyll](https://opensource.com/article/21/9/build-website-jekyll) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide outlining how to design, customize, and publish responsive websites using Jekyll, the Ruby-based static site compiler. Details Liquid template structures, metadata variables, and seamless integrations with default GitHub Pages pipelines.
-#### MkDocs
+#### Mkdocs
 
   - **(2026)** [MkDocs](https://www.mkdocs.org) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The home of the MkDocs static site generator, a highly extensible Python-based system built specifically for developer documentation compiled from Markdown. It supports continuous integration workflows perfectly, rendering light, lightning-fast static assets optimized for standard search engine indexing.
-#### MkDocs Themes
+#### Mkdocs Themes
 
   - **(2026)** [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Material for MkDocs, the industry-standard UI layout for engineering document sites. Highlights integrated site search, dark-mode styling, responsive navigation layouts, and rich plugin customization features. In 2026, it is the standard base for global developer portals.
 #### Static Hosting (1)
@@ -71,7 +71,7 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2026)** [pages.github.com](https://pages.github.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A static site hosting service offered directly by GitHub that takes HTML, CSS, and JavaScript files straight from a repository. The primary deployment target for documentation sites, live grounding confirms GitHub Pages remains the most integrated, reliable, and cost-effective hosting layer.
 ### Writing Tools
 
-#### Diagrams as Code
+#### Diagrams As Code
 
   - **(2022)** [github.blog: Include diagrams in your Markdown files with Mermaid](https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of the native integration of Mermaid.js rendering directly inside GitHub repository Markdown parsers. Enables platform teams to compile architectures, flowcharts, and sequence diagrams programmatically using simple text syntax inside Git documentation files.
 #### Documentation Libraries
@@ -110,7 +110,7 @@ description: "Top Mkdocs resources for 2026, AI-ranked: Markdown Cheat Sheet 4, 
   - **(2026)** [**guides.github.com: Markdown Cheat Sheet 2**](https://docs.github.com/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The authoritative reference guide for GitHub Flavored Markdown (GFM). Essential for managing documentation structures, creating rich README files, formatting issue trackers, and building interactive templates within the developer workflow.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

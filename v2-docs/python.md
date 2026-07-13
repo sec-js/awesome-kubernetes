@@ -54,7 +54,7 @@ description: "Top Python resources for 2026, AI-ranked: PyGithub, Click and more
   - **(2015)** [How To Deadlock Your Python With getaddrinfo()](https://emptysqua.re/blog/getaddrinfo-deadlock) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — In-depth technical analysis explaining threading blockages and deadlocks caused by concurrent calls to glibc DNS resolution. Crucial for engineering reliable microservices on POSIX environments.
 ### Protocols and API Design
 
-#### E-Mail Services
+#### E-mail Services
 
   - **(2015)** [==Yagmail: Python e-mail library==](https://github.com/kootenpv/yagmail) <span class='md-tag md-tag--info'>⭐ 2726</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d5e2557" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 10 L 30 10 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-5d5e2557)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simplified, robust Gmail and SMTP automation client for Python. Simplifies the boilerplate needed for multi-part messages, inline attachment encoding, and HTML structures.
 ### Python Ecosystem
@@ -66,7 +66,7 @@ description: "Top Python resources for 2026, AI-ranked: PyGithub, Click and more
 #### Enterprise Integration
 
   - **(2019)** [Microsoft: Python Engineering](https://devblogs.microsoft.com/python) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Microsoft blog detailing corporate tooling improvements, PyCharm and VSCode engineering collaborations, Windows system level optimizations, and CPython interpreter speed investments.
-#### Full-Stack Development
+#### Full-stack Development
 
   - **(2012)** [Full Stack Python is an open book that explains each Python web application stack layer and provides the best web resources for those topics](https://www.fullstackpython.com) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive open-access roadmap classifying the entire Python web stack. Details deployments, databases, security configurations, and web servers, bridging the gap between basic code and production scaling.
 #### Interactive Learning
@@ -174,7 +174,7 @@ Live Grounding: Details search implementations, algorithmic sorting complexities
   - **(2023)** [anaconda.com: Why Data Scientists Should Be Excited About Python in Excel](https://www.anaconda.com/blog/why-data-scientists-should-be-excited-about-python-in-excel) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Anaconda's direct integration of the Python runtime inside Microsoft Excel. Analyzes how this architecture enables enterprise data analysts to execute pandas, statsmodels, and visualization routines locally inside spreadsheets without complex external environments.
 ### Databases and Storage
 
-#### ORMs
+#### Orms
 
   - **(2021)** [towardsdatascience.com: Work with SQL in Python Using SQLAlchemy and Pandas](https://towardsdatascience.com/work-with-sql-in-python-using-sqlalchemy-and-pandas-cd7693def708) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: Constructs high-performance database extraction architectures by binding SQLAlchemy configurations directly to Pandas workflows.
 Live Grounding: Explains object-relational abstraction mechanisms, parameterized SQL queries, memory management during dataframe ingestion, and database engine parameters.
@@ -222,6 +222,9 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
   - **(2025)** [**WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows**](https://sourceforge.net/projects/winpython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents WinPython as a portable, isolated scientific Python distribution for Windows environments. Live Grounding confirms its value for locked-down systems, giving data scientists complete offline capabilities without requiring administrator installation permissions.
 ### Tooling
 
+#### Data Wrangling
+
+  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
 #### Excel Integration
 
   - **(2024)** [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter) <span class='md-tag md-tag--info'>⭐ 162</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8140407" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 2 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-c8140407)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases PyXLL-Jupyter as an extension that runs Jupyter notebooks directly inside Excel sheets. Live Grounding confirms it serves as a critical bridge in corporate financial modeling, allowing analysts to enrich spreadsheet data using high-powered Python libraries.
@@ -284,7 +287,7 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
   - **(2021)** [dashbird.io: 8 Must-Know Tricks to Use S3 More Effectively in Python](https://dashbird.io/blog/aws-s3-python-tricks) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight outlines S3 optimization patterns in Python, including multipart transfers and concurrency tuning. Live Grounding emphasizes these optimizations are critical in high-throughput pipelines, directly impacting network resource management and costs in production cloud architectures.
 ### Data Engineering (2)
 
-#### MLOps Architecture
+#### Mlops Architecture
 
   - **(2021)** [**huyenchip.com: Why data scientists shouldn’t need to know Kubernetes**](https://huyenchip.com/2021/09/13/data-science-infrastructure.html) <span class='md-tag md-tag--warning'>[NOT APPLICABLE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents an argument for abstracting infrastructure layer complexities away from data science personas. Live Grounding confirms that modern MLOps architectures emphasize platform engineering teams, deploying orchestration platforms that expose abstract pipelines while silently managing underlying Kubernetes workloads.
 ### DevOps (1)
@@ -292,6 +295,9 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
 #### Cloud Automation
 
   - **(2014)** [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](https://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight indexes a EuroPython presentation on utilizing Python to script cloud systems. Live Grounding positions this as a major historical milestone, showcasing the fundamental paradigms that enabled modern declarative and programmatic Infrastructure-as-Code (IaC) architectures.
+#### Command Line Utilities
+
+  - **(2016)** [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents a set of CLI wrappers for resolving AWS EC2 instance metadata to facilitate fast SSH access. Live Grounding indicates that modern secure architectures prioritize AWS Systems Manager Session Manager (SSM) and private endpoint setups over direct, port-22 SSH routing models.
 ### Kubernetes (1)
 
 #### Data Science Platform
@@ -314,7 +320,7 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
   - **(2021)** [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study detailing horizontal scaling of Python Flask APIs inside Kubernetes clusters. Reviews setup of ingress layers, resource requests/limits, Horizontal Pod Autoscalers, and persistent data layers.
 ### Dependency Management
 
-#### AI-Driven Operations
+#### Ai-driven Operations
 
   - **(2023)** [Project Thoth](https://thoth-station.ninja) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Project Thoth is Red Hat's AI-driven build engine providing automated recommendations on Python packaging setups. Recommends target-optimized, secure package versions by tracking execution metrics, compatibility bugs, and vulnerability profiles in container runtimes.
 #### Package Security
@@ -431,7 +437,7 @@ Live Grounding: Explores system-level database hooks, mock execution paradigms, 
 #### Migration
 
   - **(2016)** [Python FAQ: Why should I use Python 3? 🌟](https://eev.ee/blog/2016/07/31/python-faq-why-should-i-use-python-3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Thorough technical justification for upgrading from Python 2 to Python 3, covering unicode string representation, syntax improvements, core engine optimizations, and ecosystem support. Represents a vital historical milestone in the migration timeline.
-#### Object-Oriented Programming
+#### Object-oriented Programming
 
   - **(2021)** [analyticsindiamag.com: Object-Oriented Programming with Python](https://analyticsindiamag.com/object-oriented-programming-python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deeply explores core OOP principles within Python, covering classes, method resolution order (MRO), inheritance, abstract classes, encapsulation, and magic/dunder methods to ensure high architectural modularity.
   - **(2021)** [blog.teclado.com: Python Methods: Instance, Static and Class](https://blog.teclado.com/python-methods-instance-static-class)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical dissection of method boundaries in Python objects. Contrasts instance methods (`self`) with dynamic factory capabilities of classmethods (`cls`) and namespace-isolated staticmethods.
@@ -440,7 +446,7 @@ Live Grounding: Explores system-level database hooks, mock execution paradigms, 
   - **(2021)** [freecodecamp.org: Python String split() and join() Methods – Explained with Examples](https://www.freecodecamp.org/news/python-string-split-and-join-methods-explained-with-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Outlines basic usage of Python's string manipulation methods `split()` and `join()`. Shows how these helper functions parse tokens and clean unstructured user payloads efficiently.
 ### Python Database
 
-#### SQLite
+#### Sqlite
 
   - **(2021)** [kdnuggets.com: How To Build A Database Using Python](https://www.kdnuggets.com/2021/09/build-database-using-python.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides backend engineers on instantiating relational databases using standard library `sqlite3`. Covers schema definitions, transactional execution loops, mapping queries, and processing raw record payloads securely.
 ### Python Ecosystem (1)
@@ -453,12 +459,12 @@ Live Grounding: Explores system-level database hooks, mock execution paradigms, 
   - **(2021)** [genbeta.com: Python se convierte en el lenguaje de programación más popular según el índice TIOBE: adiós al largo reinado de C](https://www.genbeta.com/actualidad/python-se-convierte-lista-tiobe-lenguaje-popular-red-superando-incluso-a-c) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Article in Spanish covering Python's rise to the number one spot on the TIOBE Index. Discusses trends across data science, web development, and educational adoption driving Python's ecosystem dominance.
 ### Python GUI
 
-#### PyQt
+#### Pyqt
 
   - **(2016)** [Create a GUI Application Using Qt and Python in Minutes: Example Web Browser](https://www.digitalpeer.com/blog/create-a-gui-application-using-qt-and-python-in-minutes-example-web-browser)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial on building desktop graphical user interfaces using PyQt and QtWebEngine. Explains MVC architecture in Python GUI frameworks and quickly instantiates a minimal web browser interface, detailing event loop integrations.
 ### Python Microservices
 
-#### gRPC
+#### Grpc
 
   - **(2021)** [realpython.com: Python Microservices With gRPC 🌟](https://realpython.com/python-microservices-grpc) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architectural tutorial demonstrating how to build robust, high-performance microservices in Python using gRPC and Protocol Buffers. Explores synchronous and asynchronous streaming mechanisms over HTTP/2, facilitating rapid inter-service communication.
 ### Python Observability
@@ -492,7 +498,7 @@ Live Grounding: Explores system-level database hooks, mock execution paradigms, 
   - **(2021)** [opensource.com: Make your API better with this positional trick from Python 3.8](https://opensource.com/article/21/5/python-38-features) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to use Python 3.8's positional-only argument separator ('/') to construct secure and declarative APIs. Analyzes parameters isolation, namespace safety, and backwards compatibility advantages for package developers.
 ### API Integration
 
-#### GitHub Automation
+#### Github Automation
 
   - **(2026)** [==PyGithub 🌟==](https://github.com/PyGithub/PyGithub) <span class='md-tag md-tag--info'>⭐ 7724</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cb90039f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 9 L 20 4 L 30 3 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-cb90039f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A fully featured, object-oriented Python library designed to interact with the complete GitHub REST API v3 and GitHub Enterprise instances. Simplifies execution of automated repository operations, pull request management, security vulnerability reviews, and release deployment pipelines directly via Python applications.
 #### HTTP Clients
@@ -517,7 +523,7 @@ Live Grounding: Evaluates web stream automation, messaging integrations, graphic
 #### Automated Billing
 
   - **(2024)** [==github.com: Django app + RESTful API for automatic billing==](https://github.com/silverapp/silver) <span class='md-tag md-tag--info'>⭐ 309</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57b1f65e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 12 L 30 6 L 40 2 L 50 10" fill="none" stroke="url(#spark-grad-57b1f65e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Silver is an open-source invoicing and automated billing engine built on Django, offering declarative RESTful structures for subscription management. Enables seamless mapping of custom invoice workflows and state machines. Excellent enterprise baseline for custom financial systems.
-### CI-CD
+### CICD
 
 #### Code Quality
 
@@ -597,7 +603,7 @@ Live Grounding: Identifies trends in cloud automation, microservice scripting, d
 
   - **(2022)** [javarevisited.blogspot.com: Java vs Python - Which Programming Language beginners should learn in 2022?](https://javarevisited.blogspot.com/2018/06/java-vs-python-which-programming-language-to-learn-first.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: A technical comparison of static type execution in Java versus dynamic runtimes in Python.
 Live Grounding: Reviews execution overhead profiles, virtual machine performance, learning paths, and application design parameters across enterprise development landscapes.
-### IDEs and Editors
+### Ides and Editors
 
 #### Eclipse Integration
 
@@ -613,7 +619,7 @@ Live Grounding: Walks through scaling paths, rotational modifications, dynamic c
 #### Feature Management
 
   - **(2021)** [Python Feature Flag Resources/Solutions](https://featureflags.io/python-feature-flags) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight aggregates feature flagging solutions for Python-based stacks. Live Grounding emphasizes that modern distributed microservices rely on dynamic flag management platforms (such as Unleash or LaunchDarkly) to execute runtime decoupling, safe continuous delivery, and progressive rollout protocols without service disruption.
-### Object-Oriented Programming (1)
+### Object-oriented Programming (1)
 
 #### Attributes
 
@@ -633,7 +639,7 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
 #### Functional Programming (1)
 
   - **(2021)** [realpython.com: Functional Programming in Python](https://realpython.com/courses/functional-programming-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Investigates functional paradigms within Python, detailing immutability, side-effect isolation, and first-class functions. Provides tactical advice on leveraging the standard libraries 'functools' and 'itertools' to generate declarative and highly unit-testable application code.
-#### Object-Oriented Programming (2)
+#### Object-oriented Programming (2)
 
   - **(2023)** [freecodecamp.org: How to Build an Online Banking System – Python Object-Oriented Programming Tutorial](https://www.freecodecamp.org/news/how-to-build-an-online-banking-system-python-oop-tutorial) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on tutorial building a simulated online banking API to explore OOP design patterns. Walks through practical use cases of structural encapsulation, class-based inheritance, and custom exception handling within a financial business domain.
 ### Python (3)
@@ -682,7 +688,7 @@ Live Grounding: Deep-dives into subclassing mechanics, resolving method chains v
   - **(2024)** [**Pydeps 🌟**](https://github.com/thebjorn/pydeps) <span class='md-tag md-tag--info'>⭐ 2096</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-635f1f37" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 8 L 30 5 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-635f1f37)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights Pydeps as a visual engine designed to diagram python import structures. Live Grounding validates its status as an excellent tool for architectural decomposition, enabling teams to trace cyclic dependencies and plan clean decoupling pathways.
 ### Python Development
 
-#### Command-Line Utilities
+#### Command-line Utilities
 
   - **(2026)** [==Click 🌟==](https://click.palletsprojects.com/en/stable) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Python's premier command-line interface creation kit, designed to make writing composable CLI tools quick and fun with minimal boilerplate. Leverages Python decorators to declare options, arguments, and validation logic, offering a highly structured runtime environment with native support for nested commands and automated help page generation.
 ### Python Fundamentals
@@ -825,7 +831,7 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](https://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -9,21 +9,21 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 !!! info "Architectural Context"
     Detailed reference for Pulumi - Modern Infrastructure as Code in the context of Hardened Infrastructure.
 
-## Cloud-Native Provisioning
+## Cloud-native Provisioning
 
 ### Serverless Containers
 
 #### AWS Fargate
 
   - **(2026)** [pulumi.com: Running Containers on ECS Fargate](https://www.pulumi.com/registry/packages/aws/how-to-guides/ecs-fargate) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Architecture guide detailing how to use Pulumi to configure AWS ECS Fargate environments. Covers programmatic configuration of subnets, target groups, auto-scaling thresholds, and secure IAM policies.
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### API Integration
 
 #### Pulumi
 
   - **(2021)** [pulumi.com: Announcing the Pulumi REST API](https://www.pulumi.com/blog/pulumi-rest-api) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical briefing on the Pulumi REST API, enabling software engineering organizations to programmatically trigger, query, and govern cloud deployments directly from custom developer platforms.
-### CICD Integration
+### CICD
 
 #### Pulumi (1)
 
@@ -52,12 +52,12 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 #### Pulumi (3)
 
   - **(2022)** [travis.media: Pulumi Tutorial: Automate Kubernetes Deployments and Operations with this Complete Guide](https://travis.media/blog/pulumi-tutorial-automate-kubernetes-operations) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — End-to-end tutorial detailing the programmatic definition of namespaces, ingress controllers, replicas, and pod affinity rules inside target Kubernetes environments using Pulumi's type-safe bindings.
-### Multi-Cloud
+### Multi-cloud
 
 #### Pulumi Registry
 
   - **(2024)** [Pulumi Cloud Providers](https://www.pulumi.com/registry/packages) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The central registry portal hosting official Pulumi cloud infrastructure providers. Enables multi-cloud platform declaration (AWS, Kubernetes, Azure, GCP) using modern programming languages, supporting highly parameterized microservice deployments.
-### Multi-Cloud Provisioning
+### Multi-cloud Provisioning
 
 #### Comparisons
 
@@ -81,16 +81,9 @@ description: "Top Pulumi resources for 2026, AI-ranked: Pulumi, Pulumi VS Terraf
 #### Pulumi Registry (1)
 
   - **(2021)** [siliconangle.com: Pulumi’s new registry aims to ease sharing and reusing cloud infrastructure building blocks](https://siliconangle.com/2021/10/18/pulumis-new-registry-makes-easy-share-reuse-cloud-infrastructure-building-blocks)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed insight into the launch of the Pulumi Registry, a public marketplace supporting modular package sharing and reusability of multi-cloud components across diverse language boundaries.
-## Kubernetes Developer Experience
-
-### Graph-Based Dev and Test
-
-#### Garden Documentation
-
-  - **(2021)** [garden.io: cloud native devops platform](https://docs.garden.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural specifications for the Garden orchestration tool. Details graph configurations, Helm-based packaging models, pipeline test automation patterns, and enterprise testing setups inside remote clusters.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

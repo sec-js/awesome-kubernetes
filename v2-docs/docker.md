@@ -1,5 +1,5 @@
 ---
-description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive and more — curated Cloud Native tools, guides and references."
+description: "Top Docker resources for 2026, AI-ranked: dive, ctop and more — curated Cloud Native tools, guides and references."
 ---
 # Docker
 
@@ -13,7 +13,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 
 ### CICD
 
-#### GitHub Actions
+#### Github Actions
 
   - **(2026)** [==**GitHub build-push-action**==](https://github.com/docker/build-push-action) <span class='md-tag md-tag--info'>⭐ 5304</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bdf56c78" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 7 L 30 6 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-bdf56c78)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The industry standard GitHub Action for building and pushing container images. Supports Docker Buildx, multi-platform builds, cache importing/exporting configurations, and native OCI-compliant registry deployments.
 ## Application Architecture
@@ -46,7 +46,6 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 
 #### General Reference
 
-  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [docker.com: Top Questions for Getting Started with Docker 🌟](https://www.docker.com/blog/top-questions-for-getting-started-with-docker)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Top Questions for Getting Started with Docker 🌟 in the Kubernetes Tools ecosystem.
   - [docker.com: Docker Hub Experimental CLI tool](https://www.docker.com/blog/docker-hub-experimental-cli-tool)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A curated technical resource and architectural guide covering docker.com: Docker Hub Experimental CLI tool in the Kubernetes Tools ecosystem.
   - [pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies](https://pawelurbanek.com/asdf-docker-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering pawelurbanek.com: asdf and Docker for Managing Local Development Dependencies in the Kubernetes Tools ecosystem.
@@ -54,6 +53,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - [docker.com: Docker Compose: What’s New, What’s Changing, What’s Next](https://www.docker.com/blog/new-docker-compose-v2-and-v1-deprecation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Docker Compose: What’s New, What’s Changing, What’s Next in the Kubernetes Tools ecosystem.
   - [dzone: Components of Container Management](https://dzone.com/articles/components-of-container-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Components of Container Management in the Kubernetes Tools ecosystem.
   - [docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices](https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Speed Up Your Development Flow With These Dockerfile Best Practices in the Kubernetes Tools ecosystem.
+  - [Docker for LLMs](https://www.docker.com/llm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker for LLMs in the Kubernetes Tools ecosystem.
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
   - [docker.com: Reduce Your Image Size with the Dive-In Docker Extension](https://www.docker.com/blog/reduce-your-image-size-with-the-dive-in-docker-extension)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Reduce Your Image Size with the Dive-In Docker Extension in the Kubernetes Tools ecosystem.
   - [Creating the best Linux Development experience on Windows & WSL 2](https://www.docker.com/blog/creating-the-best-linux-development-experience-on-windows-wsl-2)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Creating the best Linux Development experience on Windows & WSL 2 in the Kubernetes Tools ecosystem.
@@ -61,25 +61,23 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - [docker.com: Docker Compose for Amazon ECS Now Available](https://www.docker.com/blog/docker-compose-for-amazon-ecs-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering docker.com: Docker Compose for Amazon ECS Now Available in the Kubernetes Tools ecosystem.
   - [dzone: Alternatives to Docker Desktop](https://dzone.com/articles/alternatives-to-docker-desktop)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Alternatives to Docker Desktop in the Kubernetes Tools ecosystem.
   - [dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application](https://dzone.com/articles/docker-alternatives-10-alternatives-to-docker-for)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Docker Alternatives: 10 Alternatives to Docker for Your SaaS Application in the Kubernetes Tools ecosystem.
-## CI-CD
-
-### DevOps Pipelines
-
-#### Container Delivery
-
-  - **(2023)** [dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide](https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architects high-performance integration pipelines utilizing localized image-building agents. Emphasizes step caching, secure build variable injection, and automated image lifecycle promotion directly to secure registries.
-## CICD Pipelines
+## CICD (1)
 
 ### Build Speed
 
 #### Docker Buildx
 
   - **(2021)** [releasehub.com: Cutting Build Time In Half with Docker’s Buildx Kubernetes Driver](https://release.com/blog/cutting-build-time-in-half-docker-buildx-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines how to optimize CI/CD pipeline build performance by scaling compilation workloads using the Docker Buildx Kubernetes driver. Demonstrates how offloading build tasks to Kubernetes clusters yields massive cache reuse and parallelization gains.
+### DevOps Pipelines
+
+#### Container Delivery
+
+  - **(2023)** [dev.to: Building a Robust CI/CD Pipeline with Docker: A Comprehensive Guide](https://dev.to/itsahsanmangal/building-a-robust-cicd-pipeline-with-docker-a-comprehensive-guide-4k8b) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architects high-performance integration pipelines utilizing localized image-building agents. Emphasizes step caching, secure build variable injection, and automated image lifecycle promotion directly to secure registries.
 ## Cloud Computing
 
 ### Training
 
-#### Multi-Cloud Education
+#### Multi-cloud Education
 
   - **(2023)** [acloudguru.com](https://www.pluralsight.com/cloud-guru)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier e-learning platform (now part of Pluralsight) specializing in cloud computing, DevOps, and container certifications (AWS, Azure, GCP, Kubernetes). Provides hands-on sandbox environments and deep technical pathways designed to train enterprise-grade engineering organizations.
 ## Cloud Infrastructure
@@ -91,7 +89,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2020)** [docker-ecs-plugin: Docker Releases Plugin for Simplified Deployments into AWS ECS and Fargate](https://www.infoq.com/news/2020/07/docker-ecs-plugin) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This article highlights the historical collaboration between Docker and AWS to integrate ECS and Fargate deployments directly into the Docker CLI via ECS integration plugins. While the native CLI integration has been largely deprecated or archived in favor of AWS Copilot or direct Terraform/CDK provisioning, it serves as a crucial evolutionary link in cloud-native developer workflows, illustrating the trend toward unifying local compose specs with cloud orchestration APIs.
 ## Cloud Orchestration
 
-### Multi-Cloud Deployments
+### Multi-cloud Deployments
 
 #### Application Architecture (1)
 
@@ -127,7 +125,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2021)** [jpetazzo.github.io: Anti-Patterns When Building Container Images](https://jpetazzo.github.io/2021/11/30/docker-build-container-images-antipatterns) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An experienced architect's critique of bad habits in image composition. Identifies dependencies on build host features, missing ignore-files, and bad layering decisions.
 ### Build Optimization
 
-#### BuildKit
+#### Buildkit
 
   - **(2022)** [pythonspeed.com: Docker BuildKit: faster builds, new features, and now it’s stable](https://pythonspeed.com/articles/docker-buildkit) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the shift to BuildKit as the primary engine compiler. Evaluates features including multi-stage parallelization, secret mounting without environment leaks, and advanced build-cache mounts.
 #### Caching
@@ -146,7 +144,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 
   - **(2023)** [learnk8s.io: 3 simple tricks for smaller Docker images 🌟](https://learnkube.com/blog/smaller-docker-images) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents three highly concrete engineering actions to reduce footprint size. Addresses the use of alpine/distroless, pruning development environments, and optimizing layers.
   - **(2022)** [sequoia.makes.software: Reducing Docker Image Size (Particularly for Kubernetes Environments) 🌟](https://sequoia.makes.software/reducing-docker-image-size-particularly-for-kubernetes-environments) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines image sizing optimizations specifically within large-scale Kubernetes production networks. Highlights how smaller footprints accelerate pull cycles and deployment velocity.
-#### Multi-Arch Images
+#### Multi-arch Images
 
   - **(2024)** [docs.docker.com: docker buildx imagetools](https://docs.docker.com/reference/cli/docker/buildx/imagetools) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official CLI manual for Buildx Imagetools, documenting dynamic multi-platform manifest manipulation directly within registries. Avoids rebuild cycles by merging existing CPU architecture definitions.
 #### Multi-stage Build
@@ -255,6 +253,9 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Build Optimization (1)
 
   - **(2024)** [augmentedmind.de: Docker optimization guide: the 12 best tips to optimize Docker image security](https://www.augmentedmind.de/2024/06/12/optimize-docker-image-security) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides twelve optimization patterns aligning build speeds with image security. Topics focus on multi-stage build workflows, package manager caching, minimal base systems, and dynamic secret loading.
+#### Compliance Frameworks
+
+  - **(2025)** [cheatsheetseries.owasp.org: Docker Security Cheat Sheet 🌟🌟](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The gold-standard security reference outlining precise configuration structures for Docker environments. Covers namespaces, read-only filesystems, network configurations, and active runtime protection policies.
 #### Kernel Isolation
 
   - **(2022)** [infoq.com: Is Docker Secure Enough?](https://www.infoq.com/articles/securing-docker) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security exploration contrasting container shared-kernel mechanisms against sandboxed hypervisor layers like Firecracker and gVisor. Analyzes side-channel vulnerabilities and threat vectors.
@@ -264,6 +265,9 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Process Boundaries
 
   - **(2023)** [securitylabs.datadoghq.com: Container security fundamentals: Exploring containers as processes](https://securitylabs.datadoghq.com/articles/container-security-fundamentals-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the operational nature of containers as isolated host processes. Analyzes syscall structures, cgroup isolation properties, and modern runtime inspection workflows for developers.
+#### Supply Chain Security
+
+  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An urgent technical warning investigating cryptojacking campaigns spreading malware via compromised registries. Underscores the critical requirement for automated image validation and registry access restrictions.
 #### Vulnerability Assessment
 
   - **(2021)** [brianchristner.io: How to use Docker Security Scan Locally](https://brianchristner.io/how-to-use-docker-scan) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical manual outlining static security scanning on developer workstations. Demonstrates how to discover vulnerabilities and outdated packages inside target OCI layers prior to CI deployment.
@@ -282,7 +286,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2021)** [==iximiuz.com: Learning Containers From The Bottom Up | Ivan Velichko 🌟🌟🌟==](https://iximiuz.com/en/posts/container-learning-path) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly-rated, bottom-up container learning path created by Ivan Velichko. Traces container concepts back to bare-metal OS fundamentals, covering chroot, cgroups, linux namespaces, and runc.
 ### Container Builds
 
-#### Docker BuildKit
+#### Docker Buildkit
 
   - **(2026)** [==buildkit==](https://docs.docker.com/build) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Docker's next-generation container image building engine, designed to replace the legacy builder. It introduces high-performance features including concurrent stage execution, efficient caching via import/export, and secret-mounting without leaving traces in image history.
 ### Container Engines
@@ -349,7 +353,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Python Ecosystem
 
   - **(2022)** [codeproject.com: How to Create an Image in Docker using Python](https://www.codeproject.com/Tips/5323808/How-To-Create-An-Image-In-Docker-Using-Python)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Shows how to containerize Python applications. Focuses on setting up local working directories, managing dependencies via requirements files, and structuring multi-stage builds to shrink image footprints.
-### Red Hat OpenShift
+### Red Hat Openshift
 
 #### Registry Management
 
@@ -370,7 +374,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2021)** [r-bloggers.com: Dockerizing Shiny Applications](https://www.r-bloggers.com/2021/05/dockerizing-shiny-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates the step-by-step process of packaging R Shiny applications inside Docker containers. Addresses compiler flags, OS-level dependencies, and static runtime packages required to deliver predictable, reproducible analytical dashboards.
 ## Databases
 
-### PostgreSQL
+### Postgresql
 
 #### Local Environments (1)
 
@@ -417,6 +421,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
   - **(2020)** [developers.redhat.com: Red Hat Universal Base Images for Docker users](https://developers.redhat.com/blog/2020/03/24/red-hat-universal-base-images-for-docker-users) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide explains the structure, licensing, and optimization of Red Hat Universal Base Images (UBI) for developers using Docker or other non-RHEL runtimes. It showcases how UBI provides a free, secure, and enterprise-grade base image platform that maintains strict compatibility with Red Hat Enterprise Linux. It is crucial for standardizing commercial container dependencies.
 #### Container Management (1)
 
+  - **(2026)** [Portainer 🌟](https://www.portainer.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Portainer is a leading container management platform designed to simplify Docker, Kubernetes, and Azure ACI environments through an intuitive web interface. It allows platform administrators to easily deploy stacks, monitor real-time resources, manage networks/volumes, and control user access (RBAC). In 2026, it serves as a robust bridging portal between command-line container engines and full-scale orchestration management.
   - **(2026)** [Portainer Community Edition](https://www.portainer.io/install) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The Community Edition of Portainer provides a self-hosted, lightweight administration portal for managing standalone Docker daemons, Swarm clusters, and edge environments. It abstracts complex container and volume operations into a responsive dashboard, reducing operational friction. It remains a popular, stable, and highly trusted portal for developer environments and internal infrastructure management.
 #### Debugging
 
@@ -437,6 +442,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Image Building (3)
 
   - **(2026)** [==img==](https://github.com/genuinetools/img) <span class='md-tag md-tag--info'>⭐ 3986</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5ebd34d7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 5 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-5ebd34d7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Img is a standalone, daemonless, and unprivileged container image builder designed on top of BuildKit. It allows users to build OCI images in secure, rootless environments without mounting privileged Docker sockets, which is highly beneficial for isolated CI/CD pipelines. While development has cooled down in favor of upstream BuildKit or Kaniko, it remains a pioneering reference tool for secure image building.
+  - **(2026)** [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by cloud-native expert Alex Ellis, this post explores build tools (such as BuildKit, Buildah, and Kaniko) that compile container images without relying on a local Docker daemon. It unpacks the benefits of using non-docker setups inside Kubernetes CI/CD runner environments, avoiding Docker-in-Docker (DinD) security compromises. It serves as an essential manual for modern cloud pipeline designs.
 #### Image Optimization
 
   - **(2026)** [==dive 🌟==](https://github.com/wagoodman/dive) <span class='md-tag md-tag--info'>⭐ 54224</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e7d68713" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 9 L 30 4 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-e7d68713)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dive is an indispensable terminal-based tool designed to inspect Docker images, analyze layer contents, and discover ways to shrink image size. By calculating the efficiency metric of individual layers and identifying wasted space from modified or deleted files, it gives platform teams precise insight into image build processes. In 2026, it remains a de facto standard tool for CI/CD optimization pipelines to keep enterprise container sizes lean and secure.
@@ -446,6 +452,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Runtimes
 
   - **(2026)** [==nerdctl 🌟==](https://github.com/containerd/nerdctl) <span class='md-tag md-tag--info'>⭐ 10146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf44832e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 2 L 30 3 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-bf44832e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Nerdctl is a Docker-compatible CLI designed specifically for containerd, offering matching CLI experiences (e.g., nerdctl run, nerdctl compose) for non-Docker environments. It supports advanced container features like lazy pulling (e.g., eStargz/soci), rootless execution, IPFS container sharing, and encryption. It acts as a bridge for developers migrating to pure containerd-based systems.
+  - **(2026)** [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison analyzing the structural differences between Docker and Podman. It highlights Podman's daemonless, rootless-by-default execution model and explains how this design reduces security attack vectors compared to Docker's centralized daemon. It also details Podman's native support for pod-like multi-container groupings, easing transitions toward Kubernetes.
   - **(2026)** [jfrog.com: THE BASICS: 7 Alternatives to Docker: All-in-One Solutions and Standalone Container Tools 🌟](https://jfrog.com/learn/devops/alternatives-to-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This JFrog learning resource breaks down alternative container tools in the OCI ecosystem, highlighting specialized runtimes, engines, and build utilities. By contrasting options like Podman, containerd, LXC, and Kaniko, it provides architects with a comprehensive roadmap for selecting tools based on security, speed, and platform architecture requirements.
 #### Tool Ecosystem
 
@@ -480,6 +487,11 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Container Management (2)
 
   - **(2026)** [thenewstack.io: Deploy a Persistent Kubernetes Application with Portainer](https://thenewstack.io/deploy-a-persistent-kubernetes-application-with-portainer) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This step-by-step article illustrates how Portainer's web UI can be utilized to deploy a persistent application (e.g., WordPress with MySQL) onto a Kubernetes cluster. It demystifies the setup of Persistent Volume Claims (PVCs), service ingress, and network isolation, mapping these complex Kubernetes abstractions into accessible dashboard steps. It serves as an excellent onboarding tutorial for operations teams adapting to K8s paradigms.
+### Kubernetes Distributions
+
+#### Market Landscapes
+
+  - **(2022)** [itprotoday.com: Who's Winning in the Container Software Market 🌟](https://www.techtarget.com/searchcio/answer/ITPro-Today-Network-Computing-IoT-World-Today-combine-with-TechTarget)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A business and market analysis of the container software landscape, highlighting market share dynamics, consolidation waves, and the competitive positioning of major players like Red Hat, VMware, Rancher, and cloud hyperscalers. Reflects the strategic evolution toward managed platform-as-a-service models.
 ### Linux OS Integration
 
 #### RHEL Derivatives
@@ -542,7 +554,7 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 
 ### Grafana
 
-#### Metrics collection
+#### Metrics Collection
 
   - **(2022)** [grafana.com: Docker Integration for Grafana Cloud](https://grafana.com/docs/grafana-cloud/monitor-infrastructure/integrations/integration-reference/integration-docker) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exhaustive integration manual for routing Prometheus-compatible engine metrics from Docker daemons directly to Grafana Cloud. Demonstrates telemetry extraction, container health monitoring, and system dashboard provisioning.
 ## Observability
@@ -566,6 +578,14 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### Alternatives (3)
 
   - **(2022)** [blog.logrocket.com: Top Docker alternatives for 2022](https://blog.logrocket.com/docker-alternatives) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical framework evaluating OCI runtime alternatives to standard Docker. Key trade-offs focused on security profiles, developer experience, and system-level dependencies for engines like Podman, Buildah, and Kaniko.
+#### Daemonless Runtimes
+
+  - **(2026)** [==podman==](https://podman.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Podman delivers a daemonless container engine framework for executing, managing, and building OCI containers. Rootless orchestration patterns are native to Podman, allowing seamless integration with Linux systemd configurations.
+### Container Security
+
+#### OCI Builders
+
+  - **(2026)** [==buildah==](https://buildah.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.
 ## Security
 
 ### Container Architecture (1)
@@ -573,12 +593,12 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 #### OS Level Virtualization (1)
 
   - **(2021)** [blog.aquasec.com: How Do Containers Contain? Container Isolation Techniques](https://blog.aquasec.com/container-isolation-techniques) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An elite architectural breakdown explaining kernel-level containment mechanisms. Explores Linux Namespaces (PID, Mount, Net, User) and Control Groups (cgroups), as well as supplementary security layers like AppArmor, SELinux, and Seccomp filters.
-### Container Security
+### Container Security (1)
 
-#### Dockerfile optimization
+#### Dockerfile Optimization
 
   - **(2020)** [Broken by default: why you should avoid most Dockerfile example 🌟](https://pythonspeed.com/articles/dockerizing-python-is-hard) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critically evaluates common Dockerfile patterns. Highlights failure vectors like poor caching strategies, bloated build images, and running containers as root. Offers concrete engineering improvements for Python.
-#### RunAsUser
+#### Runasuser
 
   - **(2020)** [americanexpress.io: **Do Not Run Dockerized Applications as Root** 🌟](https://americanexpress.io/do-not-run-dockerized-applications-as-root) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An essential security analysis explaining why running container workloads as root is highly vulnerable to privilege escalation. Highlights how OpenShift's default Security Context Constraints (SCCs) enforce rootless container profiles.
 ### Docker Daemon Hardening
@@ -615,12 +635,12 @@ description: "Top Docker resources for 2026, AI-ranked: Awesome Compose, dive an
 
 ### Integration Testing
 
-#### Infrastructure as Code
+#### Infrastructure As Code
 
   - **(2026)** [==ory/dockertest==](https://github.com/ory/dockertest) <span class='md-tag md-tag--info'>⭐ 4519</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-06b35c36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-06b35c36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Dockertest enables developers to spin up ephemeral Docker containers directly from Go, Rust, or other language test suites to act as real dependencies (e.g., PostgreSQL, Redis). Unlike mock interfaces, it guarantees that integration tests run against actual database engines and stateful systems, disposing of them automatically when tests finish. It represents a gold standard in unit and integration testing pipelines for cloud-native microservices.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

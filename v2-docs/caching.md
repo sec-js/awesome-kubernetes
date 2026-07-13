@@ -31,7 +31,7 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - **(2022)** [surfingcomplexity.blog: Cache invalidation really is one of the hardest problems in computer science](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical exploration detailing the complex nature of distributed cache invalidation strategies. It breaks down systemic issues with race conditions, expiration parameters, and multi-region database sync mechanisms.
 ### Data Grid
 
-#### In-Memory Caching
+#### In-memory Caching
 
   - **(2025)** [Red Hat Data Grid](https://www.redhat.com/en/technologies/jboss-middleware/data-grid) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Data Grid is a distributed, in-memory key-value store built on top of Infinispan. It facilitates fast transaction caching, active real-time data streaming, and cross-datacenter state sync across Kubernetes clusters.
   - **(2020)** [developers.redhat.com: Red Hat Data Grid 8.0 brings new server architecture, improved REST API, and more](https://developers.redhat.com/blog/2020/04/13/red-hat-data-grid-8-0-brings-new-server-architecture-improved-rest-api-and-more) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical release evaluation showcasing Red Hat Data Grid 8.0's updated cloud-native engine. It details the lightweight server container footprint, modern REST API integration pathways, and advanced CLI automation.
@@ -46,18 +46,11 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - **(2020)** [The Varnish Book](https://info.varnish-software.com/the-varnish-book) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive technical documentation book for Varnish configurations. It provides advanced tutorials on VCL architecture, Edge Side Includes (ESI) structures, security rules, and performance analysis.
 ## Edge and Serverless
 
-### WebAssembly Platforms
+### Webassembly Platforms
 
 #### Tau Edge
 
   - **(2025)** [==github.com/taubyte/tau: Tau==](https://github.com/taubyte/tau) <span class='md-tag md-tag--info'>⭐ 5051</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-944a1678" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 12 L 20 5 L 30 3 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-944a1678)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Tau is an innovative, high-performance decentralized computing platform running WebAssembly (Wasm) workloads on the edge. It integrates autonomous routing, multi-tenant serverless orchestration, and distributed transactional db sync natively without standard cloud overhead.
-## Infrastructure
-
-### Caching
-
-#### Redis
-
-  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Infrastructure and Caching
 
 ### Database and Storage
@@ -70,12 +63,12 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
 #### VM Administration
 
   - **(2020)** [digitalocean.com: How To Speed Up Static Web Pages with Varnish Cache Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-speed-up-static-web-pages-with-varnish-cache-server-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on installation manual detailing how to integrate Varnish Cache on Ubuntu VM environments to accelerate static content delivery. Serves as an excellent foundational reference for monolithic deployments and non-containerized reverse proxies.
-### In-Memory Datastores
+### In-memory Datastores
 
-#### High-Performance Caching
+#### High-performance Caching
 
   - **(2026)** [==memcached.org==](https://memcached.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An industry-standard distributed memory object caching system designed for extreme performance and simplicity. Utilizing multi-threaded slab allocation, Memcached continues to serve as the default high-efficiency tier for raw key-value pair lookups.
-#### Redis Deep-Dive
+#### Redis Deep-dive
 
   - **(2022)** [**architecturenotes.co: Redis Explained 🌟🌟**](https://architecturenotes.co/p/redis) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An exceptional, visually illustrated deep-dive analyzing Redis execution cycles, single-threaded multiplexing event loops, and data structural formats. Demystifies complex operational mechanisms such as AOF/RDB persistence and memory eviction strategies.
 ### Kubernetes Caching
@@ -103,21 +96,26 @@ description: "Top Caching resources for 2026, AI-ranked: Red Hat Data Grid, Varn
   - **(2015)** [Nginx: a caching, thumbnailing, reverse proxying image server? 🌟](https://charlesleifer.com/blog/nginx-a-caching-thumbnailing-reverse-proxying-image-server-) <span class='md-tag md-tag--warning'>[NGINX CONF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural configuration showcase demonstrating Nginx's ability to act as a real-time, lightweight image resizing proxy using its native image filter module. Illustrates the power of Nginx as an all-in-one low-footprint media engine.
 ## Networking
 
+### Load Balancing
+
+#### Haproxy
+
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
 ### Security
 
-#### HAProxy
+#### Haproxy (1)
 
   - **(2023)** [haproxy.com: The HAProxy Enterprise WAF 🌟](https://www.haproxy.com/blog/the-haproxy-enterprise-waf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product portal for HAProxy's Enterprise Web Application Firewall (WAF). It reviews native layer 7 filtering options, custom protection rule sets, and performance profiles designed to mitigate OWASP risks at high traffic volume.
 ## Performance
 
-### Caching (1)
+### Caching
 
-#### Varnish on RHEL
+#### Varnish On RHEL
 
   - **(2021)** [varnish-cache.org: Installation on RedHat](https://vinyl-cache.org/docs/trunk/installation/index.html) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deployment documentation detailing how to install and configure Varnish Cache on RedHat Enterprise Linux. Focuses on setting up Varnish as an edge reverse-proxy caching layer to handle high-concurrency HTTP/S read operations in web services.
 
 ---
 💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

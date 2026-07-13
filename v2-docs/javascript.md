@@ -18,6 +18,11 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2021)** [developers.redhat.com: Introduction to the Node.js reference architecture, Part 5: Building good containers](https://developers.redhat.com/articles/2021/08/26/introduction-nodejs-reference-architecture-part-5-building-good-containers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Part of Red Hat's Node.js reference architecture focusing on secure container images. Outlines distroless base choices, multi-stage Docker builds, user permissions management, and resource allocation policies for production runtimes.
 ## Developer Productivity
 
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ### Package Management
 
 #### Supply Chain Security
@@ -46,7 +51,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### State Persistence
 
   - **(2021)** [freecodecamp.org: Web Storage API – How to Store Data on the Browser](https://www.freecodecamp.org/news/web-storage-api-how-to-store-data-on-the-browser) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores client-side data persistence layers including LocalStorage, SessionStorage, and modern alternatives like IndexedDB. Compares design tradeoffs between execution thread safety, payload capacity limits, and synchronous blocking.
-### JavaScript Fundamentals
+### Javascript Fundamentals
 
 #### Data Structures
 
@@ -60,7 +65,10 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 #### Software Architecture
 
   - **(2020)** [==react js: mithi/react-philosophies==](https://github.com/mithi/react-philosophies) <span class='md-tag md-tag--info'>⭐ 3728</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1bfb9598" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 6 L 30 12 L 40 10 L 50 4" fill="none" stroke="url(#spark-grad-1bfb9598)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly structured philosophy repository outlining architectural principles for designing maintainable React codebases. Emphasizes declarative code patterns, state encapsulation, hook extraction, and unit testing strategies.
-### Real-Time Communication
+#### State Management
+
+  - **(2019)** [useHooks - React Hooks Library](https://usehooks.com) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Production-ready React hook recipes facilitating decoupled side effects, event listener bindings, dynamic state persistence, and responsive UI behaviors without custom boilerplate code.
+### Real-time Communication
 
 #### Notifications
 
@@ -74,17 +82,17 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
 
 ### HTTP Networking
 
-#### Client-Server Communication
+#### Client-server Communication
 
   - **(2022)** [freecodecamp.org: HTTP Networking in JavaScript –Handbook for Beginners](https://www.freecodecamp.org/news/http-full-course) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep-dive handbook covering HTTP protocols, status codes, fetch APIs, CORS configurations, and asynchronous stream handling. Essential reading for constructing robust and latency-aware client-server network requests.
-### REST APIs
+### REST Apis
 
 #### Rapid Prototyping
 
   - **(2021)** [dev.to: How to build 7,000+ REST APIs within 2 mins (Node.js + MySQL) !!](https://dev.to/o1lab/how-to-build-7-000-rest-apis-within-2-mins-node-js-mysql-470b) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstration of automated REST API generation from relational schemas using code generator frameworks. Examines dynamic routing models, DB pool initialization, and the trade-offs of using automated ORMs versus custom SQL design.
 ## Runtime Environments
 
-### JavaScript Engines
+### Javascript Engines
 
 #### Optimization
 
@@ -107,7 +115,7 @@ description: "Top Javascript resources for 2026, AI-ranked: dev.to: JavaScript O
   - **(2022)** [web.dev/explore/react](https://web.dev/explore/react) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Google's comprehensive developer resource hub focused on optimizing React application performance. Emphasizes web vitals, code-splitting, bundle reduction, and server-side rendering strategies crucial for designing low-latency web interfaces.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

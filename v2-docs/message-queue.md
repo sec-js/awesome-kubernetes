@@ -53,12 +53,12 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Google Anthos
 
   - **(2021)** [confluent.fr: Infrastructure Modernization with Google Anthos and Apache Kafka](https://www.confluent.io/fr-fr/blog/modernize-apps-and-infrastructure-with-anthos-confluent-kafka) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural study outlines app modernization paradigms using Google Anthos alongside Confluent Kafka. It covers cross-cloud synchronization models, data residency strategies, and how to maintain high availability for hybrid event-driven systems.
-### Infrastructure as Code
+### Infrastructure As Code
 
-#### Event-Driven
+#### Event-driven
 
   - **(2021)** [daily.dev: Building a fault-tolerant event-driven architecture with Google Cloud, Pulumi and Debezium](https://daily.dev/blog/building-a-fault-tolerant-event-driven-architecture-with-google-cloud-pulumi-and-debezium) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide demonstrating how to build a fault-tolerant, event-driven architecture using Google Cloud services, Pulumi as Infrastructure as Code (IaC), and Debezium. It focuses on declarative environment setups for Change Data Capture pipelines, ensuring easy replication and scaling.
-### IoT
+### Iot
 
 #### Protocols
 
@@ -68,7 +68,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Decoupling
 
   - **(2019)** [developers.redhat.com: Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This guide covers the integration of Apache Camel and Debezium to decouple microservice database dependencies. By leveraging Camel's rich Enterprise Integration Patterns (EIP) to consume and route Debezium change event logs, organizations can eliminate dual-write risks and ensure resilient distributed transactions.
-#### No-Code CDC
+#### No-code CDC
 
   - **(2020)** [developers.redhat.com: Change data capture for microservices without writing any code](https://developers.redhat.com/blog/2020/05/15/change-data-capture-for-microservices-without-writing-any-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This article demonstrates how to establish a low-maintenance, zero-code Change Data Capture (CDC) pipeline using Debezium and Kafka Connect. It explains how to decouple microservice databases using declarative configurations, bypassing custom transactional outbox implementation code entirely.
 #### Schema Governance
@@ -89,7 +89,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Message Brokers
 
   - **(2019)** [devops.com: Best of 2019: Implementing Message Queue in Kubernetes](https://devops.com/implementing-message-queue-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article outlines best practices for deploying message queues inside Kubernetes clusters. It addresses challenges related to stateful set allocations, persistent volume claims, and handling node failure scenarios.
-### PaaS
+### Paas
 
 #### Google Cloud
 
@@ -98,7 +98,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 ### Enterprise Messaging
 
-#### Kafka on Kubernetes
+#### Kafka On Kubernetes
 
 ##### Architecture Overview
 
@@ -145,7 +145,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Pipelines
 
   - **(2020)** [Build a simple cloud-native change data capture pipeline](https://developers.redhat.com/blog/2020/07/02/build-a-simple-cloud-native-change-data-capture-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer tutorial illustrating how to compile a cloud-native Change Data Capture pipeline. It utilizes Strimzi (AMQ Streams) and Debezium on Kubernetes to propagate database updates instantly into reactive microservice topologies.
-#### PostgreSQL
+#### Postgresql
 
   - **(2020)** [info.crunchydata.com: PostgreSQL Change Data Capture With Debezium](https://www.crunchydata.com/blog/postgresql-change-data-capture-with-debezium) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A deep technical dive into configuring log-based Change Data Capture (CDC) for PostgreSQL databases using Debezium. It details logical replication slots, pgoutput plugin optimizations, WAL management, and reliable target-stream syncs inside mission-critical setups.
 #### Production Case Studies
@@ -153,7 +153,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [debezium.io: Lessons Learned from Running Debezium with PostgreSQL on Amazon RDS](https://debezium.io/blog/2020/02/25/lessons-learned-running-debezium-with-postgresql-on-rds) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This operational retrospective outlines key lessons from running Debezium with PostgreSQL databases on Amazon RDS. It addresses replication slot management, Write-Ahead Log (WAL) retention dynamics, network failover behaviors, and AWS-specific performance configurations under heavy write operations.
 ### Cultural Shift
 
-#### Real-Time Data
+#### Real-time Data
 
   - **(2020)** [linkedin.com: How to Move From a “Wait for it...” Batch-Processing Culture to a “Get It Now” Real-Time Data Culture](https://www.linkedin.com/pulse/how-move-from-wait-batch-processing-culture-get-now-tomsen-bukovec)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This article discusses the cultural and structural challenges of migrating enterprise data teams from legacy overnight batch processing to a real-time stream processing framework. It explains how to align platform operations and developers.
 ### Data Lakehouse
@@ -169,7 +169,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### History
 
   - **(2021)** [thenewstack.io: Part 1: The Evolution of Data Pipeline Architecture](https://thenewstack.io/part-1-the-evolution-of-data-pipeline-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An evolutionary study tracing the maturation of data pipelines from legacy batch-based ETL architectures to real-time event-streaming topologies. It provides key insights into how microservice patterns and cloud infrastructure have shifted corporate data strategy toward low-latency stream processing.
-#### OpenShift
+#### Openshift
 
   - **(2021)** [openshift.com: How to Orchestrate Data Pipelines with Applications Deployed on OpenShift](https://www.redhat.com/en/blog/how-to-orchestrate-data-pipelines-with-applications-deployed-on-openshift) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This guide reviews techniques for deploying and orchestrating resilient data pipelines within Red Hat OpenShift. It outlines utilizing Kubernetes-native orchestration patterns and operators to manage high-throughput ETL/ELT tasks alongside standard microservice applications.
 ### Databases
@@ -191,7 +191,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Foundations (2)
 
   - **(2021)** [Confluent.io: Intro to Apache Kafka: How Kafka Works 🌟](https://developer.confluent.io/what-is-apache-kafka) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Confluent's foundational training manual detailing how Apache Kafka works under the hood. It explains partitions, replication, producers, consumer offsets, and transaction patterns, serving as the primer for event-driven systems.
-#### How-To
+#### How-to
 
   - **(2022)** [thenewstack.io: How to Get Started with Data Streaming](https://thenewstack.io/how-to-get-started-with-data-streaming)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide outlining how organizations can pivot from classic batch workflows to real-time event streaming systems. It highlights the deployment phases of streaming platforms and details data integration patterns.
 #### Installation
@@ -206,16 +206,16 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Machine Learning
 
   - **(2021)** [confluent.io: How to Build and Deploy Scalable Machine Learning in Production with Apache Kafka](https://www.confluent.io/blog/build-deploy-scalable-machine-learning-production-apache-kafka) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This architectural blueprint covers deploying machine learning models in production using Apache Kafka. It outlines real-time stream scoring patterns using Kafka Streams and how to architect reliable event structures for online model evaluation pipelines.
-#### Meta-Resources
+#### Meta-resources
 
   - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
-#### Multi-Cluster
+#### Multi-cluster
 
   - **(2021)** [confluent.io: Simplifying Apache Kafka Multi-Cluster Management Using Control Center and Cluster Registry](https://www.confluent.io/blog/simplify-multiple-kafka-cluster-management-monitoring-using-confluent) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational manual detailing how to manage and monitor multi-cluster Apache Kafka topologies. It explores Confluent Control Center and Cluster Registry to facilitate real-time lag tracking, multi-region synchronization, and centralized security policy compliance.
 #### Podcasts
 
   - **(2020)** [softwareengineeringdaily.com: Kafka Applications with Tim Berglund (podcast) 🌟](https://softwareengineeringdaily.com/2020/12/16/kafka-applications-with-tim-berglund-repeat) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A podcast discussing real-world Kafka application patterns with Tim Berglund. The conversation covers key design trade-offs of log-based systems, stream-table dualities, and shifting from synchronous request-response models to event-driven architectures.
-#### Real-Time Data (1)
+#### Real-time Data (1)
 
   - **(2022)** [thenewstack.io: Streaming Data and the Modern Real-Time Data Stack](https://thenewstack.io/streaming-data-and-the-modern-real-time-data-stack)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical comparison contrasts the offline batch processing of the Modern Data Stack with the low-latency Modern Real-Time Data Stack. It details the mechanics of utilizing Kafka, Pulsar, or Redpanda to feed continuous pipeline architectures.
 #### Tutorials
@@ -240,7 +240,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Google Cloud Dataflow
 
   - **(2020)** [cloudblog.withgoogle.com: Turn any Dataflow pipeline into a reusable template](https://cloud.google.com/blog/products/data-analytics/create-templates-from-any-dataflow-pipeline) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This tutorial shows how to convert Apache Beam stream-processing pipelines into reusable, parameterized Google Cloud Dataflow templates. It demonstrates how to decouple application logic from environment parameters to simplify pipeline delivery and scaling.
-#### Meta-Resources (1)
+#### Meta-resources (1)
 
   - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
 #### Quarkus
@@ -281,12 +281,12 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 ### Data Pipelines (2)
 
-#### RudderStack
+#### Rudderstack
 
 ##### Customer Data Platform
 
   - **(2021)** [rudderstack.com iPaaS](https://www.rudderstack.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — RudderStack is a warehouse-first, developer-focused Customer Data Platform (CDP) and event-streaming pipeline engine. Architected as a secure, open-source alternative to Segment, it allows enterprises to route customer telemetry directly to cloud data warehouses without compromising privacy or incurring high third-party SaaS fees.
-### iPaaS
+### Ipaas
 
 #### Architecture Concepts
 
@@ -294,7 +294,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Market Review
 
   - **(2021)** [blog.hubspot.com: The 22 Best iPaaS Vendors for Any Budget](https://blog.hubspot.com/marketing/ipaas-vendors) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry survey of 22 leading iPaaS platforms. It contrasts heavy enterprise offerings like MuleSoft and Workato with modern developer-centric alternatives. Evaluates features such as pre-built connectors, low-code interface flexibility, data translation capabilities, and target developer personas.
-#### MuleSoft
+#### Mulesoft
 
 ##### Enterprise Integration Platform
 
@@ -306,11 +306,11 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Learning Resources
 
   - **(2024)** [==conduktor.io/kafka: Learn Apache Kafka like never before==](https://www.conduktor.io/kafka) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight points to Conduktor's exhaustive learning guides. Live Grounding verifies this is one of the premier visually-driven educational portals for understanding Apache Kafka cluster topologies, consumers, and partition strategies. An absolute standard reference.
-## Event-Driven Systems
+## Event-driven Systems
 
 ### Apache Kafka (2)
 
-#### Architecture and KRaft
+#### Architecture and Kraft
 
   - **(2021)** [confluent.io: Apache Kafka Made Simple: A First Glimpse of a Kafka Without ZooKeeper](https://www.confluent.io/blog/latest-apache-kafka-release) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the mechanical underpinnings of the KRaft consensus engine in Apache Kafka. It demonstrates how eliminating ZooKeeper's external state store leads to faster controller failovers, simplified operational footprints, and massive single-cluster scaling capabilities.
   - **(2021)** [devclass.com: Apache Kafka 2.8.0 previews life without ZooKeeper](https://www.devclass.com/databases/2021/04/20/apache-kafka-280-previews-life-without-zookeeper/1627009)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details the technical implications of running Apache Kafka without its legacy ZooKeeper dependency as introduced in version 2.8.0. Explains how KRaft-based metadata replication simplifies cluster management and scales partition throughput limits.
@@ -326,7 +326,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Disaster Recovery
 
   - **(2021)** [tech.ebayinc.com: Resiliency and Disaster Recovery with Kafka](https://innovation.ebayinc.com/stories/resiliency-and-disaster-recovery-with-kafka) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep operational case study detailing how eBay manages disaster recovery and maintains multi-region high availability across global Kafka clusters. Highlights mirroring tools, replication offsets, network routing strategies, and automated failover validation tests.
-#### Kubernetes and GitOps
+#### Kubernetes and Gitops
 
   - **(2021)** [confluent.io: DevOps for Apache Kafka with Kubernetes and GitOps 🌟](https://www.confluent.io/blog/devops-for-apache-kafka-with-kubernetes-and-gitops) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural playbook details the convergence of Apache Kafka infrastructure automation and GitOps declarative workflows. It highlights the use of specialized Kubernetes Operators (e.g., Confluent Operator, Strimzi) alongside tools like ArgoCD or Flux to manage clusters, schemas, and ACLs from version-controlled configurations.
 #### Kubernetes Deployment
@@ -409,7 +409,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 ### Cloud Native Integration
 
-#### ActiveMQ Artemis
+#### Activemq Artemis
 
 ##### Networking
 
@@ -422,7 +422,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### AMQ Streams
 
   - **(2019)** [Understanding Red Hat AMQ Streams components for OpenShift and Kubernetes 🌟](https://developers.redhat.com/blog/2019/12/04/understanding-red-hat-amq-streams-components-for-openshift-and-kubernetes-part-1) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the underlying architectural parts of AMQ Streams (Red Hat's enterprise packaging of the Strimzi operator). It walks engineers through utilizing operator mechanisms to deploy highly-secure, production-ready Kafka instances inside OpenShift environments.
-##### ActiveMQ Artemis (1)
+##### Activemq Artemis (1)
 
   - **(2026)** [**Apache ActiveMQ Artemis broker**](https://artemis.apache.org/components/artemis) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Apache ActiveMQ Artemis is the next-generation messaging broker featuring a high-performance, asynchronous non-blocking execution model. Supporting AMQP, MQTT, STOMP, and JMS, it represents the primary engine under Red Hat AMQ deployments.
 ##### Red Hat AMQ
@@ -479,7 +479,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2026)** [==confluent.io==](https://www.confluent.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The corporate engine driving enterprise-grade Kafka. Confluent provides a comprehensive distribution containing cloud-managed Kafka clusters, an extensive library of managed source/sink connectors, Schema Registry, and advanced governance features required for complex multi-region hybrid topologies.
 #### Integrations
 
-##### MongoDB
+##### Mongodb
 
   - **(2021)** [mongodb.com: DaaS with MongoDB and Confluent](https://www.mongodb.com/company/blog/technical/daa-s-with-mongo-db-and-confluent) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the construction of a low-latency Data-as-a-Service (DaaS) layer combining MongoDB's document-based storage engine with Confluent's real-time messaging pipeline. This architecture provides microservices with immediate, synchronized access to transactional and analytics database endpoints.
 #### Kafka Tooling
@@ -487,7 +487,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### CLI and TUI
 
   - **(2023)** [==github.com/sauljabin/kaskade==](https://github.com/sauljabin/kaskade) <span class='md-tag md-tag--info'>⭐ 1015</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d6fad1c4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 9 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-d6fad1c4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive, terminal-based dashboard built using Python's Textual framework to easily inspect Kafka topics. Unlike bulky desktop clients, Kaskade runs directly in developer shells, permitting efficient topic navigation, dynamic JSON payload inspection, and rapid troubleshooting of Kafka message streams.
-##### Enterprise GUIs
+##### Enterprise Guis
 
   - **(2026)** [**conduktor.io 🌟**](https://www.conduktor.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Conduktor stands as the premier developer and enterprise GUI ecosystem for Kafka data governance and troubleshooting. Providing deep visual insight into consumer lag, topic state, schema registry configurations, and message payloads, it is critical for managing scale in event-driven systems.
 #### Managed Services
@@ -500,7 +500,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### Prometheus and Grafana
 
   - **(2021)** [confluent.io: Monitoring Your Event Streams: Integrating Confluent with Prometheus and Grafana](https://www.confluent.io/blog/monitor-kafka-clusters-with-prometheus-grafana-and-confluent) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations playbook describing how to deploy JMX exporters to route vital Kafka metrics into Prometheus and display them on Grafana. It targets important service-level indicators like under-replicated partitions, offline brokers, and consumer group offset lag.
-#### Next-Gen Event Brokers
+#### Next-gen Event Brokers
 
 ##### Pulsar
 
@@ -522,7 +522,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### Architectural Patterns (2)
 
   - **(2021)** [Kafka Streams and ksqlDB Compared – How to Choose](https://docs.confluent.io/platform/current/streams/overview.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide contrasting the application patterns of using ksqlDB with writing custom Java code via the Kafka Streams library. It provides engineers with logical decision paths based on pipeline scale, deployment models, and development team specializations.
-##### ksqlDB
+##### Ksqldb
 
   - **(2026)** [**ksqlDB**](https://www.confluent.io/product/ksqldb) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An event-streaming database engineered specifically to build stream-processing applications on top of Apache Kafka. By translating familiar SQL queries into stateful Kafka Streams topologies, ksqlDB enables microservices to construct real-time materialized views and joins with minimal code.
 ### Enterprise Integration (1)
@@ -542,7 +542,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Kafka Connect (1)
 
   - **(2020)** [developers.redhat.com: Extending Kafka connectivity with Apache Camel Kafka connectors](https://developers.redhat.com/blog/2020/05/19/extending-kafka-connectivity-with-apache-camel-kafka-connectors) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This guide outlines how to use the Apache Camel Kafka Connector framework to connect standard enterprise integration endpoints directly to Kafka topics, eliminating the need to write custom connector code.
-### IoT and Edge Messaging
+### Iot and Edge Messaging
 
 #### Brokers
 
@@ -566,7 +566,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2021)** [developers.redhat.com: Design event-driven integrations with Kamelets and Camel K](https://developers.redhat.com/blog/2021/04/02/design-event-driven-integrations-with-kamelets-and-camel-k) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates how to build integration paths utilizing Kamelets (Camel Route Snippets) and Camel K. It explains how Kamelets allow developers to configure complex system integrations via standard Kubernetes Custom Resources (CRDs).
 ### Message Brokers (1)
 
-#### ActiveMQ
+#### Activemq
 
   - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3be59a46" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-3be59a46)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
   - **(2023)** [Apache ActiveMQ](https://activemq.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main technical reference for Apache ActiveMQ, a classic multi-protocol message broker. It supports standard messaging protocols such as AMQP, MQTT, and OpenWire, making it a reliable choice for enterprise JMS applications.
@@ -582,11 +582,11 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Docker
 
   - **(2021)** [geshan.com.np: How to use RabbitMQ and Node.js with Docker and Docker-compose](https://geshan.com.np/blog/2021/07/rabbitmq-docker-nodejs) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical tutorial for orchestrating RabbitMQ alongside Node.js microservices using Docker Compose. It outlines steps to build local development environments and configure basic exchange-bound AMQP workflows.
-#### KubeMQ
+#### Kubemq
 
   - **(2024)** [==github.com/kubemq-io/kubemq-community 🌟==](https://github.com/kubemq-io/kubemq-community) <span class='md-tag md-tag--info'>⭐ 667</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-004501f9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 10 L 20 6 L 30 9 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-004501f9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The primary community codebase for KubeMQ. It showcases a lightweight, high-throughput message broker written in Go, specifically optimized for containerized microservice routing patterns inside Kubernetes.
   - **(2023)** [KubeMQ.io: Kubernetes Native Message Queue Broker](https://kubemq.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main page for KubeMQ, an enterprise-grade message broker built container-first for Kubernetes. KubeMQ provides queuing, pub/sub, and gRPC patterns with low CPU and memory footprints.
-#### RabbitMQ
+#### Rabbitmq
 
   - **(2021)** [blog.rabbitmq.com: First Application With RabbitMQ Streams](https://www.rabbitmq.com/blog/2021/07/19/rabbitmq-streams-first-application) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introduction to RabbitMQ Streams, a protocol addition designed to bring high-performance append-only log capabilities directly to traditional RabbitMQ setups, enabling message replay and high throughput.
 ### Messaging
@@ -601,7 +601,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### Kubernetes Deployment (1)
 
   - **(2021)** [**flink.apache.org: How to natively deploy Flink on Kubernetes with High-Availability (HA)**](https://flink.apache.org/2021/02/10/native-k8s-with-ha.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A detailed technical guide explaining how to deploy stateful Flink jobs natively on Kubernetes with High Availability (HA). It details integration patterns using ZooKeeper or Kubernetes API endpoints to coordinate active leader election and prevent split-brain states.
-#### In-Memory Compute
+#### In-memory Compute
 
 ##### Hazelcast
 
@@ -623,7 +623,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Red Hat Fuse
 
   - **(2026)** [**Red Hat Fuse**](https://www.redhat.com/en/products/application-foundations) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Historically a distributed integration platform based on Apache Camel, Red Hat Fuse has transitioned into the Red Hat Application Foundations suite. It provides enterprise-level connectivity for hybrid clouds, routing APIs, and legacy applications. Contemporary architectures deploy Camel Extensions for Quarkus to achieve high performance on Kubernetes.
-### Low-Code Integration
+### Low-code Integration
 
 #### Syndesis
 
@@ -635,12 +635,12 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 ### Cloud Native
 
-#### Event-Driven Architecture
+#### Event-driven Architecture
 
   - **(2023)** [ibm.com: Event-driven cloud-native applications (microservices)](https://www.ibm.com/think/topics/cloud-native) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This IBM resource details how event-driven applications scale natively inside Kubernetes clusters. It focuses on isolating boundaries and implementing lightweight message-driven scaling paths for complex enterprise systems.
 ### Decomposition
 
-#### Event-Driven Architecture (1)
+#### Event-driven Architecture (1)
 
   - **(2020)** [infoq.com: From Monolith to Event-Driven: Finding Seams in Your Future Architecture](https://www.infoq.com/articles/event-driven-finding-seams) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article outlines methodologies for finding boundaries within tight-knit monolithic structures to facilitate migration. It contrasts synchronous runtime calls with asynchronous eventing boundaries, demonstrating how to isolate transactional domains using Domain-Driven Design (DDD) aggregates.
 ### Distributed Transactions
@@ -648,17 +648,17 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Patterns
 
   - **(2021)** [developers.redhat.com: Distributed transaction patterns for microservices compared](https://developers.redhat.com/articles/2021/09/21/distributed-transaction-patterns-microservices-compared) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article analyzes patterns for distributed transaction management in decoupled architectures. It contrasts two-phase commit (2PC) limitations with the Saga pattern (both orchestrated and choreographed styles), providing a practical guide on maintaining transactional state.
-### Domain-Driven Design
+### Domain-driven Design
 
 #### Patterns (1)
 
   - **(2019)** [verraes.net: DDD and Messaging Architectures 🌟](https://verraes.net/2019/05/ddd-msg-arch) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This resource maps Domain-Driven Design (DDD) concepts onto messaging architectures. It explores how to structure messaging channels and aggregate roots to avoid distributed monolith structures and optimize data routing.
 ### Enterprise Integration (2)
 
-#### Event-Driven Architecture (2)
+#### Event-driven Architecture (2)
 
   - **(2021)** [redhat.com: Event-driven architecture: Understanding the essential benefits 🌟](https://www.redhat.com/en/blog/event-driven-architecture-essentials)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Red Hat architectural summary documents the enterprise benefits of Event-Driven Architectures (EDA). It focuses on asynchronous communication, decoupling execution contexts, and enabling real-time analytics integrations.
-### Event-Driven Architecture (3)
+### Event-driven Architecture (3)
 
 #### Industry Trends
 
@@ -666,14 +666,14 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 #### Kafka
 
   - **(2021)** [confluent.io: Event-Driven Microservices Architecture (white paper) 🌟](https://www.confluent.io/resources/white-paper/event-driven-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive Confluent white paper establishing design principles for event-driven microservices. It highlights Apache Kafka as an immutable commit log, detailing exact execution models for Event Sourcing and Command Query Responsibility Segregation (CQRS).
-### Inter-Service Communication
+### Inter-service Communication
 
 #### Comparison (2)
 
   - **(2021)** [particular.net: RPC vs. Messaging – which is faster?](https://particular.net/blog/rpc-vs-messaging-which-is-faster) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This performance analysis evaluates the trade-offs of RPC-style communication patterns against broker-mediated messaging. It details the impact of synchronous blocking calls on microservice performance and explains how message queues improve reliability.
 ### Kubernetes (1)
 
-#### CloudEvents
+#### Cloudevents
 
   - **(2022)** [salaboy.com: Event-Driven applications with CloudEvents on Kubernetes](https://www.salaboy.com/2022/01/29/event-driven-applications-with-cloudevents-on-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article explores deploying CloudEvents inside Kubernetes ecosystems to build standardized event schemas. It shows how the CloudEvents standard, combined with serverless tools like Knative, drives event-driven microservice integration.
 ### Patterns (2)
@@ -684,7 +684,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
   - **(2020)** [blog.bitsrc.io: Why Microservices Should use Event Sourcing 🌟](https://blog.bitsrc.io/why-microservices-should-use-event-sourcing-9755a54ebfb4) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth analysis advocating for Event Sourcing inside microservice frameworks. It details how recording every event state change enables historical auditability and decouples read queries from primary transaction engines via CQRS.
 ### Web Development
 
-#### Event-Driven Architecture (4)
+#### Event-driven Architecture (4)
 
   - **(2020)** [stackoverflow.blog: How event-driven architecture solves modern web app problems 🌟](https://stackoverflow.blog/2020/03/16/how-event-driven-architecture-solves-modern-web-app-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This study from StackOverflow contrasts traditional request-response architectures with asynchronous event structures. It explains how shifting to non-blocking patterns resolves high-concurrency web app bottlenecks, increasing system fault tolerance.
 ## Orchestration
@@ -693,7 +693,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 #### Patterns (3)
 
-##### Event-Driven Orchestration
+##### Event-driven Orchestration
 
   - **(2019)** [infoq.com: Event Streams and Workflow Engines – Kafka and Zeebe 🌟](https://www.infoq.com/news/2019/05/kafka-zeebe-streams-workflows) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study contrasting event-driven choreography with workflow orchestration. It shows how combining Kafka's decoupled event model with Zeebe's stateful execution engine resolves typical observability and error-handling bottlenecks in microservice topologies.
 ### Workflows
@@ -709,7 +709,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### DAG Management
 
   - **(2022)** [airflow.apache.org: Add Owner Links to DAG](https://airflow.apache.org/docs/apache-airflow/stable/howto/add-owner-links.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to add dynamic owner links inside Airflow's user interface to map custom DAGs back to responsible engineering teams, monitoring channels, or contact points. This is highly useful for organizing multi-tenant team systems.
-##### Dynamic DAGs
+##### Dynamic Dags
 
   - **(2026)** [**docs.astronomer.io: Dynamically generating DAGs in Airflow**](https://www.astronomer.io/docs/learn/dynamically-generating-dags) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep dive on building dynamically-generated DAGs in Airflow. This blueprint showcases how to dynamically compile hundreds of different workflows from external JSON or YAML configurations, dramatically reducing redundant code in large-scale platform teams.
 ##### Introduction (1)
@@ -725,7 +725,7 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 ##### Monitoring (2)
 
   - **(2021)** [redhat.com: Monitoring Apache Airflow using Prometheus](https://www.redhat.com/en/blog/monitoring-apache-airflow-using-prometheus) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing the integration of Apache Airflow metrics with Prometheus and Grafana dashboards. By leveraging StatsD exporters to capture worker runs and task duration logs, platform engineers can proactively identify bottlenecks in data ingestion pipelines.
-#### Kubernetes SDKs
+#### Kubernetes Sdks
 
 ##### Couler
 
@@ -736,12 +736,12 @@ description: "Top Message Queue resources for 2026, AI-ranked: Apache Kafka, **D
 
 #### Java Enterprise
 
-##### MicroProfile
+##### Microprofile
 
   - **(2020)** [adambien.blog - 75th **airhacks.tv** Questions and Answers: Kafka, JAX-RS, MicroProfile, JSON-B, GSON, JWT, VSC, NetBeans, Java Fullstack](https://adambien.blog/roller/abien/entry/kafka_jax_rs_microprofile_json) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An edition of Adam Bien's 'airhacks.tv' Q&A series focusing on modern enterprise Java backend architectures. Key engineering discussions cover reactive Kafka messaging integration using MicroProfile, JAX-RS REST endpoint implementations, and a comparison of JSON serialization libraries (JSON-B vs GSON).
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Databases](./databases.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [NoSQL](./nosql.md) | [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

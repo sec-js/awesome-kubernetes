@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available kubectl plugins, Awesome Kubectl plugins and more — curated Cloud Native tools, guides and."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Test Automation, Tech Interview Handbook and more — curated Cloud Native tools, guides and references."
 ---
 # Awesome Lists
 
@@ -59,7 +59,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
     <span class="awesome-card__meta"><span class="awesome-card__count">2</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#cloud-native-platforms">
-    <span class="awesome-card__name">Cloud-Native Platforms</span>
+    <span class="awesome-card__name">Cloud-native Platforms</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#container-orchestration">
@@ -111,11 +111,11 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
     <span class="awesome-card__meta"><span class="awesome-card__count">15</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#infrastructure-as-code-1">
-    <span class="awesome-card__name">Infrastructure as Code (1)</span>
+    <span class="awesome-card__name">Infrastructure As Code (1)</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">5</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#kubernetes-and-openshift">
-    <span class="awesome-card__name">Kubernetes and OpenShift</span>
+    <span class="awesome-card__name">Kubernetes and Openshift</span>
     <span class="awesome-card__meta"><span class="awesome-card__count">1</span><span class="awesome-card__stars">lists</span></span>
   </a>
   <a class="awesome-card" href="#kubernetes-management">
@@ -154,7 +154,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 
 ## AI and Machine Learning
 
-### MLOps
+### Mlops
 
 #### Resources
 
@@ -192,12 +192,12 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2024)** [==Devdocs.io API Documentation 🌟==](https://devdocs.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — DevDocs combines multiple API documentations into a single, searchable, fast, and offline-capable user interface. By indexing documentation for dozens of languages, frameworks, and web technologies in a unified workspace, it optimizes developer workflow speed. It is widely recognized as a crucial utility tool in modern, high-velocity engineering environments.
 ## Artificial Intelligence
 
-### LLMOps and MLOps
+### Llmops and Mlops
 
 #### Curated Ecosystems
 
   - **(2023)** [github.com/tensorchord/Awesome-LLMOps: Awesome LLMOps](https://github.com/tensorchord/Awesome-LLMOps) <span class='md-tag md-tag--info'>⭐ 5843</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6eb12657" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 5 L 20 11 L 30 7 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-6eb12657)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An expansive, curated catalog of leading open-source LLMOps tooling, libraries, and frameworks. Curator Insight and Live Grounding validate this repository as a comprehensive roadmap for configuring production vector databases, distributed training trackers, model testing beds, and low-latency inference gateways.
-### MLOps (1)
+### Mlops (1)
 
 #### Kubernetes Machine Learning
 
@@ -228,7 +228,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Training (1)
 
   - **(2026)** [==github.com/iam-veeramalla/Azure-zero-to-hero: Azure Zero to Hero Course==](https://github.com/iam-veeramalla/Azure-zero-to-hero) <span class='md-tag md-tag--info'>⭐ 5104</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c59a87d6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 9 L 20 10 L 30 6 L 40 4 L 50 3" fill="none" stroke="url(#spark-grad-c59a87d6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON/SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured, hands-on learning roadmap tracking Azure Cloud Administration, DevOps architectures, and fundamental services. Focuses on practical engineering exercises, building CI/CD pipelines, and writing ARM/Bicep infrastructure templates. Serves as an exceptional onboarding tool for transition-phase cloud engineers.
-### DigitalOcean
+### Digitalocean
 
 #### Resources (5)
 
@@ -245,7 +245,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [free-for.dev](https://free-for.dev) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive community-driven directory indexing free development tiers from major infrastructure, platform, SaaS, and API providers. Highly useful for architects scoping zero-cost environments for development sandboxes and lightweight container testbeds.
 ## Cloud Native
 
-### GitOps
+### Gitops
 
 #### Argo Project Ecosystem
 
@@ -263,7 +263,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [Awesome Cloud Native](https://awesome.jimmysong.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A central web portal framing the CNCF landscape, offering production-tested system diagrams, cloud architectural patterns, and guides. Essential for platform architects implementing service meshes, GitOps pipelines, and multi-tenant containers.
 ### Observability
 
-#### Telemetry and Metrics
+#### Telemetry And Metrics
 
   - **(2026)** [github.com/adriannovegil/awesome-observability: Awesome Observability 🌟](https://github.com/adriannovegil/awesome-observability) <span class='md-tag md-tag--info'>⭐ 636</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b97fe38b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 3 L 20 7 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-b97fe38b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly structured catalog mapping telemetry collection systems, including OpenTelemetry exporters, Prometheus metric architectures, Grafana monitoring boards, and continuous system profiling dashboards.
 ### Security
@@ -271,10 +271,10 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Container Hardening
 
   - **(2026)** [koslib/awesome-containerized-security 🌟](https://github.com/koslib/awesome-containerized-security) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open repository cataloging security scanners, image validation standards, and host sandboxing tools. Aids DevSecOps engineers in hardening continuous integration pipelines and preventing privilege escalation exploits within cluster nodes.
-#### DevSecOps Integration
+#### Devsecops Integration
 
   - **(2026)** [sottlmarek/DevSecOps: Ultimate DevSecOps library 🌟](https://github.com/sottlmarek/DevSecOps) <span class='md-tag md-tag--info'>⭐ 6760</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8e17c95c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 8 L 20 6 L 30 4 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-8e17c95c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A comprehensive reference detailing methodologies, pipeline security patterns, and scanners for DevSecOps implementation. Provides instructions on integrating static and dynamic analysis, secrets detection, and compliance gates within continuous delivery pipelines.
-#### DevSecOps Tools
+#### Devsecops Tools
 
   - **(2026)** [hahwul/DevSecOps](https://github.com/hahwul/DevSecOps) <span class='md-tag md-tag--info'>⭐ 2127</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3f7c3b4a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 8 L 20 10 L 30 7 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-3f7c3b4a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly structured index cataloging security automation software, container scanning scripts, dependency checkers, and automated risk analysis systems. Essential for hardening software supply chains.
 #### Runtime Threat Detection
@@ -289,7 +289,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 
 ### AWS (1)
 
-#### SecOps
+#### Secops
 
   - **(2026)** [==github.com/toniblyx/my-arsenal-of-aws-security-tools==](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) <span class='md-tag md-tag--info'>⭐ 9458</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b8e49b79" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 13 L 20 11 L 30 3 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-b8e49b79)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exceptional collection of open-source security tools, auditing frameworks, and penetration testing scripts specifically curated for AWS environments. It includes foundational systems for IAM scanning, network path analysis, and continuous compliance. This repository is widely recognized by security teams as a must-have resource for AWS vulnerability assessments.
 ### Azure (1)
@@ -297,7 +297,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Governance
 
   - **(2026)** [==globalbao/awesome-azure-policy: AWESOME-Azure-Policy==](https://github.com/globalbao/awesome-azure-policy) <span class='md-tag md-tag--info'>⭐ 539</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-af9d651a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 2 L 30 10 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-af9d651a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive collection of custom Azure Policy definitions, initiative templates, and execution scripts. This project enables cloud architects to enforce automated governance, compliance frameworks, and infrastructure standards across complex tenant hierarchies. Highly valuable for heavily regulated financial and healthcare cloud environments.
-## Cloud-Native Platforms
+## Cloud-native Platforms
 
 ### Kubernetes Operations
 
@@ -326,15 +326,15 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [collabnix.github.io: Docker Extensions 🌟](https://collabnix.github.io/docker-community-extensions) <span class='md-tag md-tag--warning'>[JAVASCRIPT/TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A community-driven catalog indexing Docker Desktop extensions, which expand container runtime tooling into IDEs and local dashboards. Assists engineering teams in building customized workflows directly within the Docker Desktop environment. Provides concrete examples of utility integrations for local testing of cloud services.
 ## Continuous Delivery
 
-### CI-CD Pipelines
+### CICD
 
-#### GitHub Actions
+#### Github Actions
 
   - **(2026)** [**Awesome GitHub Actions**](https://github.com/sdras/awesome-actions) <span class='md-tag md-tag--info'>⭐ 27907</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6685da38" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 12 L 30 3 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-6685da38)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-backed library for GitHub Actions workflows, custom actions, and orchestrator tools. Streamlines structural pipelines by detailing matrix patterns, self-hosted runner optimizations, and security hardening configurations.
 #### Jenkins Ecosystem
 
   - **(2026)** [sahilsk/awesome-jenkins](https://github.com/sahilsk/awesome-jenkins) <span class='md-tag md-tag--info'>⭐ 70</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c95017a2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 10 L 30 9 L 40 8 L 50 8" fill="none" stroke="url(#spark-grad-c95017a2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A focused index consolidating plugins, shared pipeline library patterns, and optimization practices for Jenkins automation servers. Excellent resource for maintaining complex legacy enterprise build pipelines.
-#### Multi-Cloud Continuous Delivery
+#### Multi-cloud Continuous Delivery
 
   - **(2026)** [Awesome Spinnaker](https://github.com/robzienert/awesome-spinnaker) <span class='md-tag md-tag--info'>⭐ 13</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92d7ebf4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 12 L 20 12 L 30 9 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-92d7ebf4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer resource library for Spinnaker continuous delivery engines. Details advanced declarative pipeline patterns, blue-green delivery topologies, and integration guidelines for multi-cloud deployments.
 ### Security (1)
@@ -367,7 +367,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Linux
 
   - **(2023)** [==Awesome Linux==](https://github.com/inputsh/awesome-linux) <span class='md-tag md-tag--info'>⭐ 5048</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-59a55b0b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 2 L 30 9 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-59a55b0b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A premier directory of Linux performance diagnostic utilities, shell configurations, system metrics collectors, and custom distributions. This guide is an invaluable reference for platform engineers optimizing base host OS layers for container node hosts.
-#### Meta-Analysis
+#### Meta-analysis
 
   - **(2023)** [dev.to: The Awesome Side of GitHub - Awesome Lists | Leonardo Montini](https://dev.to/playfulprogramming/the-awesome-side-of-github-awesome-lists-2a5h)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece exploring the architectural and community value of GitHub's curated lists. Explains how these directories democratize community knowledge sharing and guides software developers in discovering, evaluating, and contributing to open-source resource landscapes.
 #### Operators
@@ -420,7 +420,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated library focused on pipeline and scientific workflow engines such as Apache Airflow, Nextflow, and Snakemake. Facilitates rapid discovery of massive datasets processing frameworks and high-concurrency task managers.
 ### Event Streaming
 
-#### Meta-Resources
+#### Meta-resources
 
   - **(2026)** [Awesome Kafka](https://github.com/monksy/awesome-kafka/blob/master/tools.md) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive, community-curated list of tools, command-line utilities, clients, and GUI frameworks for Apache Kafka administration. It serves as an essential hub for engineers searching for proven ecosystem additions.
 ### Learning Roadmap
@@ -435,12 +435,12 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [github.com/DataExpert-io/data-engineer-handbook 🌟](https://github.com/DataExpert-io/data-engineer-handbook) <span class='md-tag md-tag--info'>⭐ 41702</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-515531fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 7 L 20 10 L 30 8 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-515531fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured playbook outlining state-of-the-art patterns in modern data architecture, lakehouse designs, data modeling, and performance optimization. Serves as a vital curriculum resource for systems designers managing petabyte-scale analysis jobs. Integrates software engineering best practices with database management.
 ### Stream Processing
 
-#### Meta-Resources (1)
+#### Meta-resources (1)
 
   - **(2026)** [Awesome Streaming](https://github.com/manuzhang/awesome-streaming) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A massive, community-maintained compilation of stream processing resources. It catalogues major ingestion engines, streaming databases, connector standards, and operational tools, serving as an exhaustive reference manual for data and cloud architects.
 ## Deployment and Delivery
 
-### CICD and Delivery
+### CICD (1)
 
 #### Resource Portals
 
@@ -481,7 +481,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Bash
 
   - **(2026)** [Bash and Expect Snippets](https://www.igoroseledko.com/bash-and-expect-snippets) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A practical blog and snippet collection focused on automation patterns using Bash scripting combined with Expect. Highly useful for scripting interactions with CLI interfaces that lack native APIs or configuration options. Largely legacy in modern IaC environments, but remains a vital Swiss army knife for legacy systems integration.
-#### PowerShell
+#### Powershell
 
   - **(2026)** [==janikvonrotz/awesome-powershell==](https://github.com/janikvonrotz/awesome-powershell) <span class='md-tag md-tag--info'>⭐ 5396</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9cc577c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 13 L 30 8 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-9cc577c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A curated repository detailing modules, cmdlets, and automation patterns using cross-platform PowerShell. Invaluable for platform engineers managing hybrid cloud setups, Windows nodes inside container networks, or Active Directory automation. This serves as a vital tool for enterprise systems integration.
 ## Documentation (1)
@@ -534,7 +534,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Shell Ecosystems
 
   - **(2026)** [**unixorn/awesome-zsh-plugins**](https://github.com/unixorn/awesome-zsh-plugins) <span class='md-tag md-tag--info'>⭐ 17762</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-301b4130" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 11 L 30 12 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-301b4130)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive index of Zsh themes, performance plugins, and CLI integrations designed to improve operational throughput. Streamlines developer environment workflows, integrating native shell helpers for Kubernetes, Git, and Docker operations.
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### Enterprise Documentation
 
@@ -563,10 +563,10 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2018)** [**trimstray/test-your-sysadmin-skills**](https://github.com/trimstray/test-your-sysadmin-skills) <span class='md-tag md-tag--info'>⭐ 11657</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2fd85c5b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 7 L 30 12 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-2fd85c5b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An intensive, community-driven collection of system administration questions covering Linux kernel parameters, networking, security controls, and CI/CD pipelines. Curator Insight flags it as an essential baseline framework. Live Grounding notes that while static, it remains a fantastic benchmarking schema.
 ### Systems Administration
 
-#### Tools and Infrastructure
+#### Tools And Infrastructure
 
   - **(2026)** [**Awesome SysAdmin**](https://github.com/kahun/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 24308</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fc325f2a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 13 L 30 13 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-fc325f2a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier community-led index indexing system administration tools and software solutions. Essential for discovering stable, self-hosted services for network mapping, backups, monitoring, and automated system setups.
-## Infrastructure as Code (1)
+## Infrastructure As Code (1)
 
 ### Ansible
 
@@ -589,7 +589,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Images
 
   - **(2026)** [==dawitnida/Awesome Packer==](https://github.com/dchonch/awesome-packer) <span class='md-tag md-tag--info'>⭐ 29</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5a481629" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 6 L 30 3 L 40 11 L 50 6" fill="none" stroke="url(#spark-grad-5a481629)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A resource list containing Packer templates, multi-cloud builders, and post-processor scripts. It aids infrastructure engineers in compiling secure, automated gold images used across hybrid environments and Kubernetes worker pool nodes. Essential for automating the generation of immutable AMIs or VM templates.
-## Kubernetes and OpenShift
+## Kubernetes and Openshift
 
 ### Resources (10)
 
@@ -598,7 +598,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2020)** [Awesome Openshift 2](https://github.com/oscp/awesome-openshift3) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8aae42ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 12 L 30 13 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-8aae42ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory cataloging administration guides, tools, operators, and integration scripts specialized for Red Hat OpenShift 3.x cluster topologies.
 ## Kubernetes Management
 
-### Multi-Cluster
+### Multi-cluster
 
 #### Search Engine
 
@@ -655,7 +655,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Resources (12)
 
   - **(2026)** [==Awesome Java 🌟==](https://github.com/akullpp/awesome-java) <span class='md-tag md-tag--info'>⭐ 48210</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0003787b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 8 L 30 10 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-0003787b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A premier directory of validated Java frameworks, high-performance serialization libraries, and microservices engines like Spring Boot, Quarkus, and Micronaut. Essential for legacy modernization projects and enterprise-grade distributed systems. Remains a foundational handbook for enterprise JVM optimization.
-### JavaScript
+### Javascript
 
 #### Angular
 
@@ -677,7 +677,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 #### Resources (13)
 
   - **(2026)** [==sbilly/awesome-security: Awesome Security==](https://github.com/sbilly/awesome-security) <span class='md-tag md-tag--info'>⭐ 14421</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-266009ba" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 9 L 30 13 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-266009ba)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A monumental collection of software security components, pen-testing tools, cryptography resources, and threat intelligence feeds. Essential for SecOps engineers establishing modern compliance standards across application and network boundaries. Highly versatile, spanning from host security to Kubernetes runtime defenses.
-### Policy as Code
+### Policy As Code
 
 #### OPA
 
@@ -696,7 +696,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [github.com/collections/learn-to-code 🌟](https://github.com/collections/learn-to-code) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official curated GitHub collection designed to outline primary programming routes, fundamental data structures, and foundational algorithms. Helps novice and intermediate engineers rapidly build software development skills.
 ### Open Source Software
 
-#### SaaS Alternatives
+#### Saas Alternatives
 
   - **(2026)** [**runacapital/awesome-oss-alternatives: Awesome open-source alternatives to' SaaS 🌟**](https://github.com/runacapital/awesome-oss-alternatives) <span class='md-tag md-tag--info'>⭐ 19234</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-be7376cf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 13 L 20 9 L 30 9 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-be7376cf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An architectural directory showcasing open-source, self-hostable equivalents to commercial SaaS platforms. Helps enterprise tech architects mitigate vendor lock-in, streamline data compliance, and deploy privacy-centric containerized services locally.
 ### Quality Assurance
@@ -726,7 +726,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
 
 ### Testing (1)
 
-#### JMeter
+#### Jmeter
 
   - **(2026)** [==Awesome JMeter==](https://github.com/aliesbelik/awesome-jmeter) <span class='md-tag md-tag--info'>⭐ 790</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-23653c0f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 6 L 30 4 L 40 3 L 50 6" fill="none" stroke="url(#spark-grad-23653c0f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A structured list of plugins, performance test plans, and reporting scripts designed to optimize Apache JMeter pipelines. Essential for load testing web services, gRPC endpoints, and databases under intense scale constraints. Acts as an excellent resource for performance engineering teams targeting resource bottlenecks.
 #### QA
@@ -737,7 +737,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available k
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [About](./about.md) | [AWS Architecture](./aws-architecture.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

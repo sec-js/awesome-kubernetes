@@ -37,16 +37,16 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### Migration Strategies
 
   - **(2022)** [**How to Evolve from RDBMS to NoSQL + SQL 🌟**](https://www.linkedin.com/pulse/how-evolve-from-rdbms-nosql-sql-jim-scott) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Detailed blueprint for migrating legacy relational databases to a hybrid SQL/NoSQL polyglot persistence design. Explores data modeling normalization adjustments, write path segregation, and dual-run synchronization mechanisms.
-#### SQL vs NoSQL
+#### SQL Vs NoSQL
 
   - **(2023)** [intellipaat.com: NoSQL vs. SQL - Difference between SQL and NoSQL](https://intellipaat.com/blog/nosql-vs-sql-what-is-better) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative breakdown of relational databases against non-relational storage engines. Outlines key differentiators such as dynamic schema definitions, vertical vs horizontal scalability vectors, and CAP theorem profiles.
   - **(2021)** [zdnet.com: SQL, NoSQL? What's the difference these days?](https://www.zdnet.com/article/sql-nosql-whats-the-difference-these-days) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the modern convergence of SQL and NoSQL engines. Highlights how traditional relational engines added JSON/document support while NoSQL databases implemented ACID transactional mechanics, blurring historical architectural lines.
 ### Database Design
 
-#### E-Commerce Applications
+#### E-commerce Applications
 
   - **(2021)** [dev.to: NoSQL Database Design for E-Commerce Apps in 2021](https://dev.to/danielkolb/nosql-database-design-for-e-commerce-apps-in-2021-390e) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pragmatic application of document-oriented schemas to modern digital commerce platforms. Discusses design patterns for cart state retention, product catalog nesting, and denormalization workflows optimized for low-latency retrieval.
-### MongoDB Ecosystem
+### Mongodb Ecosystem
 
 #### Database Security
 
@@ -55,7 +55,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 
   - **(2023)** [MongoDB Tools - Admin GUIs, Monitoring and Other Good Stuff](https://mongodb-tools.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated index of key administrative GUIs, monitoring agents, and helper utilities for the MongoDB engine. Streamlines administration, schema analysis, and query optimization workflows.
   - **(2021)** [hashinteractive.com: MONGODUMP AND MONGORESTORE VS MONGOEXPORT AND MONGOIMPORT](https://hashinteractive.com/blog/mongodump-and-mongorestore-vs-mongoexport-and-mongoimport) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Differentiates native utility commands: mongodump/mongorestore (BSON binary backup for full disaster recovery) vs mongoexport/mongoimport (JSON/CSV semantic exports ideal for external analytics).
-#### Database-as-a-Service
+#### Database-as-a-service
 
   - **(2022)** [**MongoDB Cloud Manager**](https://www.youtube.com/watch?v=bB57HKeOvmw&feature=youtu.be) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Video demonstration of MongoDB Cloud Manager's deployment automation capabilities. Explores point-in-time recovery setups, dynamic alerting rules, and multi-node cluster provisioning in public cloud networks.
 #### Kubernetes Networking
@@ -81,7 +81,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### Introductions
 
   - **(2020)** [thoughtworks.com: NoSQL Databases, an overview](https://www.thoughtworks.com/insights/blog/nosql-databases-overview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Thoughtworks overview detailing horizontal scaling paradigms, schema flexibility, and non-relational query models. Establishes critical architectural criteria for selecting optimal distributed databases inside microservices environments.
-#### Real-Time Databases
+#### Real-time Databases
 
   - **(2026)** [**rethinkdb.com**](https://rethinkdb.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Open-source NoSQL database built to push live updates and query changes directly to client-facing web applications. Utilizes its proprietary ReQL language to manage real-time event feeds.
 #### Reference Guides
@@ -90,7 +90,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### Time Series
 
   - **(2023)** [**thenewstack.io: How to Choose and Model Time Series Databases**](https://thenewstack.io/how-to-choose-and-model-time-series-databases) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Deep dive into Time Series Database (TSDB) selection, comparing compression algorithms and write-heavy workloads. Discusses optimization techniques like rollups, downsampling, and indexing temporal event data.
-#### Wide-Column Stores
+#### Wide-column Stores
 
   - **(2026)** [**HBase.apache.org**](https://hbase.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Open-source, distributed, column-oriented database running atop Hadoop DFS. Delivers real-time, random read/write storage access to billions of rows, modeled directly after Google's original Bigtable design.
 ## Data Management
@@ -100,6 +100,13 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### NoSQL
 
   - **(2012)** [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler’s classic presentation detailing NoSQL database paradigms. Analyzes key-value, document, column-family, and graph databases, clarifying aggregate-oriented modeling and performance trade-offs against relational databases.
+## Infrastructure
+
+### Caching
+
+#### Redis
+
+  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Observability
 
 ### Microservices Monitoring
@@ -109,7 +116,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -21,12 +21,12 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
 ### Package Repositories
 
-#### JFrog Artifactory
+#### Jfrog Artifactory
 
   - **(2026)** [JFrog Container Registry](https://jfrog.com/container-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the dedicated, free-tier edition of JFrog Container Registry built specifically for Docker, Helm, and OCI image curation. Powered by Artifactory engine mechanics, it delivers high performance and local caching. It offers a solid starting registry for developers transitioning to robust artifact tracking.
   - **(2021)** [JFrog Artifactory: Your Kubernetes Registry](https://jfrog.com/blog/jfrog-artifactory-kubernetes-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed platform landing page showing how JFrog Artifactory serves as an enterprise-grade Kubernetes container registry. It highlights native support for helm charts, secure repository proxies, and geographical cluster mirroring. This product is a leading commercial solution for robust software artifact management.
   - **(2021)** [jfrog.com: What Artifactory as your kubernetes docker registry means to you](https://jfrog.com/integrations/kubernetes-docker-registry) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores technical benefits of leveraging JFrog Artifactory as a Kubernetes-native registry, detailing how its universal binary repository engine supports multiple environments simultaneously. It covers secure image scanning, remote repository proxy configuration, and integration with Kubernetes cluster pull secrets. This guide assists architects in scaling their application runtimes securely.
-#### JFrog Best Practices
+#### Jfrog Best Practices
 
   - **(2021)** [The JFrog journey to kubernetes: best practices for taking your containers all the way to production](https://jfrog.com/whitepaper/the-jfrog-journey-to-kubernetes-best-practices-for-taking-your-containers-all-the-way-to-production) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural whitepaper addressing modern methodologies and challenges when transitioning containerized systems from development to Kubernetes production. It explores concepts such as immutable builds, metadata tagging, and geo-replication of artifact registries. An essential document for platform architects planning large-scale rollouts.
 #### Nexus
@@ -56,7 +56,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 #### Nexus Tutorials
 
   - **(2021)** [Devopscube.com: Setup Nexus Kubernetes 🌟](https://devopscube.com/setup-nexus-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through detailing how to install and configure Sonatype Nexus Repository Manager on a Kubernetes cluster. It breaks down persistent volume claims (PVCs), service exposes, and deployment manifest constructs. The guide simplifies the process of establishing a self-managed, centralized artifact cache on top of cloud-native infrastructure.
-## CICD Pipeline
+## CICD
 
 ### Integration Tutorials
 
@@ -64,7 +64,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
   - **(2020)** [youtube: Jenkins Integration with Nexus](https://www.youtube.com/watch?v=qbO4MTESiJQ) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial focusing on the integration of Jenkins CI servers with Sonatype Nexus Repository Manager. It explains plugin configurations, build step triggers, and authentication variables needed to securely push builds to repository hosts. This resource offers a visual walk-through of pipeline configurations.
   - **(2020)** [youtube: uploading artifacts from jenkins to nexus](https://www.youtube.com/watch?v=7NmGSnqLd58) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Video tutorial demonstrating standard techniques for configuring Maven, Gradle, or shell scripts inside Jenkins pipelines to automate artifact delivery to Nexus targets. It details credential management and pipeline syntax. Perfect for developers transitioning from manual delivery configurations to pipeline-managed deliveries.
-### OpenShift and JFrog
+### Openshift and Jfrog
 
 #### DevOps Integrations
 
@@ -86,10 +86,10 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
 ### DevOps Comparison
 
-#### GitHub vs JFrog
+#### Github Vs Jfrog
 
   - **(2022)** [jfrog.com: GitHub vs JFrog: Who Can do the Job for DevOps?](https://jfrog.com/blog/github-vs-jfrog-who-can-do-the-job-for-devops) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative analysis evaluating the technical capabilities, package registry performance, and CI/CD tools of GitHub (Actions and Packages) versus JFrog's dedicated artifact management ecosystem. It highlights differences in granular access, performance scalability, and enterprise regulatory support. The article advises when to rely on a hybrid model or dedicated artifact platform.
-## DevSecOps and Registry
+## Devsecops and Registry
 
 ### Artifact Management (1)
 
@@ -124,19 +124,19 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
 
 ### DevOps Platforms
 
-#### JFrog Strategy
+#### Jfrog Strategy
 
   - **(2021)** [seekingalpha.com: JFrog Reminds Me Of MongoDB](https://seekingalpha.com/article/4427517-jfrog-reminds-me-of-mongodb) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An external market analysis tracing JFrog's economic trajectory and product adoption patterns, comparing its position in the DevOps ecosystem to MongoDB's disruptive influence in databases. It discusses developer adoption, platform consolidation, and commercial growth. The article presents a non-technical overview of JFrog's platform viability.
 ## Orchestration and Packaging
 
-### Helm and GitOps
+### Helm and Gitops
 
 #### Artifactory
 
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
+💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

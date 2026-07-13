@@ -25,17 +25,17 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
   - **(2016)** [New AWS Competency – AWS Migration](https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — The announcement introducing the AWS Migration Competency, establishing a formalized framework to validate partner organizations' migration expertise. Live Grounding shows this standard continues to qualify system integrators executing mass migrations from legacy datacenters to cloud-native platforms.
 ### AWS MGN
 
-#### Multi-Region
+#### Multi-region
 
   - **(2021)** [**Multi-Region Migration using AWS Application Migration Service**](https://aws.amazon.com/blogs/architecture/multi-region-migration-using-aws-application-migration-service) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This architectural guide details scale-out multi-region migrations utilizing the AWS Application Migration Service (MGN). Live Grounding confirms MGN as the de facto tool for enterprise host-level migrations, replacing CloudEndure to provide low-downtime, continuous block-level physical disk replication.
-### Multi-Account Strategy
+### Multi-account Strategy
 
 #### AWS Resources
 
   - **(2021)** [**Migrate Resources Between AWS Accounts**](https://aws.amazon.com/blogs/architecture/migrate-resources-between-aws-accounts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An architectural guide analyzing methodologies for transferring AWS resources and database volumes across separate AWS accounts during spin-offs or restructuring. Live Grounding confirms that secure inter-account migration relies on complex IAM resource policies, KMS key sharing, and automated cross-account pipeline tooling.
-### VM ImportExport
+### VM Importexport
 
-#### On-Premises
+#### On-premises
 
   - **(2020)** [youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server](https://www.youtube.com/watch?v=buzusNljpy4&feature=youtu.be) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A video demonstrating VM Import/Export steps to convert on-premises hypervisor disk images directly into active AWS EC2 instances. Live Grounding points out that while modern migration favors automated agents like AWS MGN, raw VM imports are still critical for offline image importing, licensing checks, and legacy OS setups.
 ## Data and Analytics
@@ -64,7 +64,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
 ##### AWS Backup (1)
 
   - **(2026)** [==AWS Backup Service==](https://aws.amazon.com/backup) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The main technical portal for AWS Backup, a fully managed backup hub that centralizes and automates data protection across various AWS services. Live Grounding affirms AWS Backup as the primary enterprise solution for compliance auditing, cross-account security, and centralized backup policies.
-##### Multi-Region (1)
+##### Multi-region (1)
 
   - **(2023)** [AWS Backup supports cross-Region backups in four new Regions](https://aws.amazon.com/about-aws/whats-new/2023/05/aws-backup-cross-region-backups-four-regions) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS announcement highlighting the addition of cross-region backup capabilities in four additional regions. Live Grounding emphasizes that cross-region vault copying is crucial for meeting geographic compliance and defending enterprise databases against whole-region infrastructure outages.
 ##### S3 Protection
@@ -95,7 +95,7 @@ description: "Top AWS Backup resources for 2026, AI-ranked: Chaos Monkey, AWS Ba
   - **(2016)** [Design for failure lessons learnt from the Sydney AWS outage](https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural retrospective analyzing service failures during a historic AWS Sydney region outage. Live Grounding highlights how this post underscores the vital design-for-failure paradigm, proving that high availability requires cross-region failovers, active-active topologies, and robust client retry configurations.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

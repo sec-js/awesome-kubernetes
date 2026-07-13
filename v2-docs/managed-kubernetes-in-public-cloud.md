@@ -11,12 +11,12 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 
 ## Alternative Cloud
 
-### DigitalOcean Kubernetes DOKS
+### Digitalocean Kubernetes DOKS
 
 #### Core Platforms
 
   - **(2025)** [docs.digitalocean.com: Kubernetes on DigitalOcean](https://docs.digitalocean.com/products/kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The baseline documentation hub for DigitalOcean Kubernetes (DOKS). Features developer-friendly setup guides, automated node pool configurations, and block storage integrations. Recommended for startups and medium-sized application workloads seeking an intuitive managed container orchestrator.
-#### GitOps and Continuous Delivery
+#### Gitops and Continuous Delivery
 
   - **(2022)** [digitalocean.com: Automating GitOps and Continuous Delivery With DigitalOcean Kubernetes (Terraform, Helm and Flux)](https://www.digitalocean.com/community/tech-talks/automating-gitops-and-continuous-delivery-with-digitalocean-kubernetes) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide on implementing declarative GitOps structures on DOKS using Flux CD, Terraform, and Helm charts. Provides a complete architectural template for managing infrastructure and application configurations declaration-first, reducing configuration drift in production.
 ### IBM Kubernetes Service IKS
@@ -51,11 +51,33 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [dev.to: Moving Azure Functions from AKS to Container Apps](https://dev.to/christle/moving-azure-functions-from-aks-to-container-apps-k60) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical migration post detailing the shift of Azure Functions from AKS (utilizing KEDA) into Azure Container Apps (ACA). Compares resource footprints, administration friction, and scale behaviors. Highly educational for choosing the correct serverless scale model.
 ## Architecture Blueprint
 
-### Multi-Cloud and Azure
+### Multi-cloud and Azure
 
 #### Infrastructure Design
 
   - **(2024)** [github.com/stephaneey/azure-and-k8s-architecture: Azure and K8s Architecture' 🌟](https://github.com/stephaneey/azure-and-k8s-architecture) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated open-source repository featuring detailed visual design maps and deployment blueprints for running enterprise-grade workloads on Azure and AKS. Demonstrates architectural patterns for network security zoning, private endpoints, DNS configuration, and highly isolated hub-and-spoke virtual networks.
+## CICD
+
+### Application Packaging
+
+#### Draft and Acorn
+
+  - **(2023)** [medium.com/@pauldotyu: Effortlessly Deploy to AKS with Open Source Tools Draft and Acorn](https://medium.com/@pauldotyu/app-to-aks-with-draft-and-acorn-2d25f19649b7) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on simplifying development workflows on AKS using Draft and Acorn. Streamlines container generation and cluster deployments. Live grounding note: Acorn changed operations in early 2024, emphasizing legacy community-tool status.
+### Continuous Deployment
+
+#### Azure Pipelines
+
+  - **(2023)** [azuredevopslabs.com: Deploying a multi-container application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, practical lab illustrating the step-by-step setup of continuous delivery pipelines targeting AKS using Azure DevOps. Covers container builds, ACR image pushes, and multi-stage YAML pipeline deployment structures.
+### Github Actions
+
+#### Oracle Cloud Infrastructure
+
+  - **(2021)** [arnoldgalovics.com: GitHub Actions CI/CD For Oracle Cloud Kubernetes](https://arnoldgalovics.com/github-actions-oracle-cloud-kubernetes) <span class='md-tag md-tag--warning'>[YAML/SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical walkthrough showcasing the implementation of automated deployment pipelines using GitHub Actions to target Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE). It delineates secure OCI API authentication configurations, container image construction, and rollout orchestrations. (Live Grounding: Represents a standard, practical approach to OKE deployments using runners, contrasting with traditional enterprise Jenkins setups).
+### Kubesphere
+
+#### Jenkins
+
+  - **(2022)** [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&ab_channel=KubeSphere) <span class='md-tag md-tag--warning'>[GROOVY/YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A visual demonstration detailing the creation of declarative Jenkins pipelines within the KubeSphere platform interface. Covers pipeline templates, integrated credential stores, and multi-stage container build-to-deploy workflows inside Kubernetes namespaces. (Live Grounding: Demonstrates how KubeSphere bridges legacy Jenkins pipelines with cloud-native execution runners).
 ## Cloud Infrastructure
 
 ### AWS
@@ -123,7 +145,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2023)** [Amazon EKS introduces EKS Pod Identity](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-eks-pod-identity) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — EKS Pod Identity simplifies the association of IAM roles with Kubernetes service accounts. This model bypasses the complexities of OIDC trust configurations, offering highly scalable, secure, and isolated credential structures for containers.
 ### Continuous Delivery
 
-#### GitOps
+#### Gitops
 
   - **(2020)** [pages.awscloud.com: GitOps on AWS for High Performing Team Operations (eBook)](https://pages.awscloud.com/GLOBAL-partner-DL-DevOps-weaveworks-ebook-2020-learn.html) <span class='md-tag md-tag--warning'>[PDF CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An e-book co-authored by AWS and Weaveworks exploring the deployment of GitOps workflows on AWS. It presents architectural patterns for using declarative systems to synchronize desired states defined in Git with operational EKS environments.
 #### Preview Environments
@@ -137,7 +159,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Kubecost
 
   - **(2022)** [AWS and Kubecost collaborate to deliver cost monitoring for EKS customers](https://aws.amazon.com/blogs/containers/aws-and-kubecost-collaborate-to-deliver-cost-monitoring-for-eks-customers) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the native integration of Kubecost with Amazon EKS to provide free, high-granularity in-cluster resource cost allocations. Demonstrates how administrators trace expenditures back to namespaces, labels, and specific engineering departments.
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### AWS CDK
 
@@ -146,7 +168,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Terraform
 
   - **(2021)** [youtube: CloudGeeks - Terraform Eks Kubernetes RDS Secrets Manager Eksctl Cloudformation ALB Controller (Redmine App)](https://www.youtube.com/watch?v=OFZYIr66Ku4&ab_channel=cloudgeeksinc) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical video guide displaying multi-tier app deployment. Integrates Terraform, EKS, RDS, AWS Secrets Manager, and AWS ALB Controller to assemble an enterprise-grade cloud footprint.
-### Multi-Cluster Management
+### Multi-cluster Management
 
 #### Case Study
 
@@ -274,14 +296,14 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 ##### Node Scaling Metrics
 
   - **(2023)** [**awslabs/eks-node-viewer**](https://github.com/awslabs/eks-node-viewer) <span class='md-tag md-tag--info'>⭐ 1632</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-15036de0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 6 L 20 9 L 30 9 L 40 11 L 50 4" fill="none" stroke="url(#spark-grad-15036de0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly functional CLI diagnostic tool designed to visualize real-time cost, resource utilization, and scheduling efficiency across Amazon EKS node groups. Highly integrated with dynamic autoscaling engines like Karpenter to optimize infrastructure financial footprints.
-#### GitOps and Automation
+#### Gitops and Automation
 
 ##### Infrastructure Provisioning
 
   - **(2023)** [aws.amazon.com: GitOps model for provisioning and bootstrapping Amazon EKS clusters using Crossplane and Argo CD](https://aws.amazon.com/blogs/containers/gitops-model-for-provisioning-and-bootstrapping-amazon-eks-clusters-using-crossplane-and-argo-cd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates an elegant architectural GitOps paradigm that unifies cloud infrastructure and software delivery. Integrates Crossplane for declarative AWS API provisioning with Argo CD for continuous application state synchronizations.
 #### Hybrid Cloud
 
-##### Blue-Green Upgrades
+##### Blue-green Upgrades
 
   - **(2022)** [aws.amazon.com: Blue/Green Kubernetes upgrades for Amazon EKS Anywhere using Flux](https://aws.amazon.com/blogs/containers/blue-green-kubernetes-upgrades-for-amazon-eks-anywhere-using-flux) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Showcases a robust GitOps upgrading mechanism using Flux CD on EKS Anywhere clusters. Focuses on orchestrating safe blue/green cluster migrations to minimize physical infrastructure interruptions.
 ##### Feature Matrix
@@ -290,16 +312,16 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 ##### Getting Started
 
   - **(2021)** [aws.amazon.com: Getting started with Amazon EKS Anywhere](https://aws.amazon.com/blogs/containers/introducing-general-availability-of-amazon-eks-anywhere) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Fundamental provisioning guide to instantiate an EKS Anywhere sandbox cluster. Leverages Docker-based local execution to demonstrate the configuration profiles and administration scripts of local EKS-compliant architectures.
-##### On-Premises EKS
+##### On-premises EKS
 
   - **(2023)** [**EKS Anywhere: github.com/aws/eks-anywhere**](https://github.com/aws/eks-anywhere) <span class='md-tag md-tag--info'>⭐ 2096</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92931615" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 6 L 30 4 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-92931615)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Official hybrid-cloud open-source distribution bringing EKS lifecycle tooling, operational practices, and configurations directly into bare-metal, vSphere, or Nutanix environments. Maintains uniform operational patterns across hybrid infrastructures.
-##### On-Premises Launch
+##### On-premises Launch
 
   - **(2021)** [aws.amazon.com: Amazon EKS Anywhere – Now Generally Available to Create and Manage Kubernetes Clusters on Premises](https://aws.amazon.com/blogs/aws/amazon-eks-anywhere-now-generally-available-to-create-and-manage-kubernetes-clusters-on-premises) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launches EKS Anywhere into general availability, introducing key hybrid cloud deployment architectures. Examines how on-premises teams can leverage automated OS patching, tooling uniformity, and professional AWS support channels.
 ##### Service Mesh Integration
 
   - **(2022)** [solo.io: Connect Your Services Seamlessly with Amazon EKS Anywhere and Istio](https://www.solo.io/blog/amazon-eks-anywhere-and-solo-istio) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on extending enterprise network topologies and security controls to the hybrid-edge using Solo Gloo Mesh (Istio) over EKS Anywhere nodes. Streamlines cross-cloud security boundaries and load balancing profiles.
-#### Infrastructure as Code (1)
+#### Infrastructure As Code (1)
 
 ##### NFS Storage Autoprovisioning
 
@@ -321,7 +343,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [aws.amazon.com: Troubleshooting Amazon EKS API servers with Prometheus and Grafana](https://aws.amazon.com/blogs/containers/troubleshooting-amazon-eks-api-servers-with-prometheus) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide for diagnosing Amazon EKS API server performance using metrics scraped by Prometheus and rendered via Grafana dashboards. Explains how to identify bottlenecks like throttling, request latency, and resource starvation in managed control planes.
 #### Networking (2)
 
-##### CoreDNS Scaling
+##### Coredns Scaling
 
   - **(2024)** [aws.amazon.com: Amazon EKS announces native support for autoscaling CoreDNS Pods](https://aws.amazon.com/about-aws/whats-new/2024/05/amazon-eks-native-support-autoscaling-coredns-pods) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the native capabilities of EKS to automatically configure horizontal scaling for CoreDNS deployments based on cluster scale metrics. Solves structural DNS performance bottlenecks during massive scaling events without custom cron jobs.
 ##### IP Management
@@ -413,9 +435,12 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Evolution and History
 
   - **(2020)** [Looking ahead as GKE, the original managed Kubernetes, turns 5](https://cloud.google.com/blog/products/containers-kubernetes/5-ways-google-cloud-is-making-gke-the-best-place-to-run-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece reflecting on the five-year evolutionary path of GKE as the pioneer managed Kubernetes provider. Explores the development of multi-cluster mechanics, integrated security baselines, and automated upgrade routines. Valuable as context for evaluating current orchestrator capabilities.
-#### FinOps
+#### Finops
 
   - **(2022)** [cloud.google.com: Know more, spend less: how GKE cost optimization insights help you optimize Kubernetes](https://cloud.google.com/blog/products/containers-kubernetes/gke-cost-optimization-insights-now-ga) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines GKE's native cost optimization insights, which surface over-provisioned CPU/Memory metrics directly within the console. Guides platform architects on utilizing automated rightsizing recommendations to minimize container cost overruns while maintaining necessary performance profiles.
+#### GKE Core
+
+  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
 #### Industry Analysis
 
   - **(2021)** [techcrunch.com: Google Cloud puts its Kubernetes Engine on autopilot](https://techcrunch.com/2021/02/24/google-cloud-puts-its-kubernetes-engine-on-autopilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — TechCrunch's coverage of GKE Autopilot, highlighting its impact on managed container orchestration trends. Focuses on the trade-offs of restricting low-level node configurations in exchange for SLA-backed operations and optimized bin-packing. Evaluates the strategic TCO reductions of serverless-style Kubernetes models.
@@ -423,10 +448,10 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Ingress and Routing (1)
 
   - **(2022)** [Using new traffic control features in External HTTP(S) load balancer](https://cloud.google.com/blog/products/networking/how-to-use-new-traffic-control-features-in-cloud-load-balancing) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details advanced traffic engineering patterns utilizing Google Cloud external HTTP(S) Load Balancing. Outlines how GKE architects can configure header-based request redirection, traffic mirroring, and weight-based canary routes directly at the external ingress tier to construct robust microservices patterns.
-#### Multi-Cluster Architectures
+#### Multi-cluster Architectures
 
   - **(2022)** [cloud.google.com: How to do multi-cluster Kubernetes in the real world—one GKE shop’s approach](https://cloud.google.com/blog/products/containers-kubernetes/multi-cluster-kubernetes-with-gke-at-geotab) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A real-world engineering case study from Geotab detailing their approach to multi-cluster GKE administration. Addresses cross-region latency issues, regional failover strategies, and global DNS configurations, demonstrating how to maintain highly available microservices environments at scale.
-#### Multi-Cluster Networking
+#### Multi-cluster Networking
 
   - **(2021)** [cloud.google.com: Discover and invoke services across clusters with GKE multi-cluster services](https://cloud.google.com/blog/products/containers-kubernetes/introducing-gke-multi-cluster-services) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces GKE Multi-Cluster Services (MCS), allowing cross-cluster service discovery and load balancing using standard Kubernetes primitives. Enables seamless cross-cluster communication, simplifying geographic scaling, disaster recovery architectures, and multi-region microservice fabrics.
 #### Observability (2)
@@ -458,7 +483,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 ##### Secure Architecture
 
   - **(2023)** [docs.microsoft.com: Baseline architecture for an Azure Kubernetes Service (AKS) cluster 🌟](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/containers/aks/baseline-aks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Azure Well-Architected Framework baseline architecture for establishing a highly secure, private, and resilient AKS cluster. Focuses on network isolation, hub-spoke topology, and enterprise integration.
-#### Infrastructure as Code (2)
+#### Infrastructure As Code (2)
 
 ##### Template Generator
 
@@ -511,18 +536,23 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2021)** [github.com: AKS: Use AAD identity for pods and make your SecOps happy](https://github.com/dfrappart/articles/blob/master/podidentityjourney.md) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e4277572" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 3 L 30 2 L 40 3 L 50 9" fill="none" stroke="url(#spark-grad-e4277572)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Journal exploring Azure AD Pod Identity to authorize pods. Note: While historically significant, modern live grounding indicates this pattern has been succeeded by Microsoft Entra Workload Identity.
 #### Storage (2)
 
-##### StatefulSet Volume Scaling
+##### Statefulset Volume Scaling
 
   - **(2022)** [adamrushuk.github.io: Increasing the volumeClaimTemplates Disk Size in a Statefulset on AKS](https://adamrushuk.github.io/increasing-the-volumeclaimtemplates-disk-size-in-a-statefulset-on-aks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Addresses technical hurdles and step-by-step procedures when attempting to live-resize Persistent Volumes linked to stateful applications orchestrated via StatefulSets inside AKS.
-## Cloud-Native Infrastructure
+## Cloud-native Infrastructure
 
 ### Cluster Provisioning (2)
 
-#### KubeKey
+#### Kubekey
 
   - **(2025)** [**kubekey**](https://github.com/kubesphere/kubekey) <span class='md-tag md-tag--info'>⭐ 2821</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fb9764c9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 7 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-fb9764c9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Go-based command-line utility engineered to rapidly install, configure, and upgrade Kubernetes clusters, KubeSphere components, and runtime layers (containerd, Docker) on bare-metal and cloud environments. It highly excels in air-gapped, offline installations using custom artifact packages. (Live Grounding: KubeKey remains a highly-rated installer alternative to Kubeadm, especially popular in hybrid/on-prem environments requiring deterministic runtime setups).
   - **(2021)** [kubesphere.io: Install Kubernetes 1.22 and containerd the Easy Way with kubekey](https://kubesphere.io/blogs/install-kubernetes-containerd) <span class='md-tag md-tag--warning'>[GO/YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines a streamlined procedural approach to installing Kubernetes 1.22 and containerd using the KubeKey engine. The guide emphasizes the migration away from Docker shim and configures high-performance runtime options using bare-metal architecture targets. (Live Grounding: Although v1.22 is legacy by 2026 standards, the architectural concepts of containerd orchestration and bare-metal bootstrapping via KubeKey remain highly instructional).
   - **(2021)** [kubesphere.io: Scaling a Kubernetes Cluster: One of the Best Practices for Using KubeKey](https://kubesphere.io/blogs/scale-kubernetes-cluster-using-kubekey) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide demonstrating how to horizontally scale existing Kubernetes compute capacities using KubeKey execution manifests. Focuses on declarative modifications of cluster-configuration files to dynamically append new worker nodes without service disruptions. (Live Grounding: Vital operations reference for cluster administrators managing hardware expansions within hybrid/private clouds).
+### Infrastructure Provisioning (1)
+
+#### Kubernetes Operators
+
+  - **(2022)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the paradigm shift of utilizing Kubernetes-native custom resource definitions (CRDs) and operators to provision external cloud resources (such as AWS ACK, GCP Config Connector, and Azure Service Operator). This declarative Infrastructure-as-Code pattern replaces external Terraform runs with continuous control loops inside the cluster. (Live Grounding: Standardizes management under unified Kubernetes control planes, resolving out-of-band drifts).
 ### Managed Kubernetes
 
 #### Azure AKS
@@ -542,24 +572,12 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Cluster API
 
   - **(2022)** [giantswarm.io:](https://www.giantswarm.io/blog/turtles-all-the-way-down-are-still-just-turtles-giant-swarm) <span class='md-tag md-tag--warning'>[GO/YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An in-depth post detailing Giant Swarm's operational adoption of Cluster API (CAPI) for provisioning 'clusters within clusters.' It breaks down the philosophical and technical paradigms of declarative multi-cluster orchestration where management planes treat tenant clusters as Kubernetes resources. (Live Grounding: Illustrates the robust shift away from legacy custom provisioning scripts toward cloud-native standard CAPI specifications).
-#### KubeSphere
+#### Kubesphere (1)
 
   - **(2026)** [kubesphere.io](https://kubesphere.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — KubeSphere is a distributed, multi-tenant enterprise container platform built on top of Kubernetes. It provides an intuitive GUI dashboard for managing multi-cloud container orchestration, DevOps pipelines (Jenkins-based), service meshes (Istio), observability, and microservice governance. (Live Grounding: Actively developed in 2026, offering a complete, modular, cloud-agnostic platform alternative to OpenShift).
 #### Managed Kubernetes (1)
 
   - **(2026)** [Giant Swarm](https://www.giantswarm.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Giant Swarm is an enterprise-tier fully managed Kubernetes platform that emphasizes cluster lifecycle management across multi-cloud environments (AWS, Azure) and bare-metal setups. Known for utilizing the Cluster API (CAPI) pattern to automate cluster lifecycle management natively. (Live Grounding: Solidly positioned as a premium provider of GitOps-driven, multi-tenant container orchestration architectures in 2026).
-## Delivery and CICD
-
-### Application Packaging
-
-#### Draft and Acorn
-
-  - **(2023)** [medium.com/@pauldotyu: Effortlessly Deploy to AKS with Open Source Tools Draft and Acorn](https://medium.com/@pauldotyu/app-to-aks-with-draft-and-acorn-2d25f19649b7) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Focuses on simplifying development workflows on AKS using Draft and Acorn. Streamlines container generation and cluster deployments. Live grounding note: Acorn changed operations in early 2024, emphasizing legacy community-tool status.
-### Continuous Deployment
-
-#### Azure Pipelines
-
-  - **(2023)** [azuredevopslabs.com: Deploying a multi-container application to Azure Kubernetes Services](https://azuredevopslabs.com/labs/vstsextend/kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive, practical lab illustrating the step-by-step setup of continuous delivery pipelines targeting AKS using Azure DevOps. Covers container builds, ACR image pushes, and multi-stage YAML pipeline deployment structures.
 ## Developer Experience
 
 ### Inner Loop Development
@@ -574,18 +592,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Volume Synchronization
 
   - **(2026)** [==github.com/rebataur/djkube==](https://github.com/rebataur/fskube) <span class='md-tag md-tag--info'>⭐ 27</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e925cb15" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 11 L 20 7 L 30 12 L 40 6 L 50 6" fill="none" stroke="url(#spark-grad-e925cb15)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A lightweight, community-driven development aid designed to bridge local filesystems with Kubernetes volumes. Live Grounding indicates the project has had minimal recent activity, classifying it as a legacy utility. It may serve as a historical reference implementation for simple synchronization mechanisms.
-## FinOps and Cloud Cost
-
-### AWS Optimization
-
-#### EKS Log Optimization
-
-  - **(2023)** [**aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs**](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the high CloudWatch cost challenges generated by Amazon EKS control plane logs (API server, authenticator, audit, scheduler). Demonstrates how to configure fluent-bit to filter and route only essential telemetry records to cheap storage.
-### Kubernetes FinOps
-
-#### Cost Management
-
-  - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
 ## Financial Operations
 
 ### Cost Optimization (4)
@@ -593,14 +599,21 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Node Allocation
 
   - **(2021)** [zartis.com: How To Save A Fortune On Azure Kubernetes Service](https://www.zartis.com/minimizing-costs-aks) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details structural cost optimization methods for AKS deployment. Discusses right-sizing node configurations, deploying Azure Spot instances for non-critical environments, and configuring cluster autoscalers. Grounding confirms these strategies are essential in architectural cost-governance pipelines.
+## Finops and Cloud Cost
+
+### AWS Optimization
+
+#### EKS Log Optimization
+
+  - **(2023)** [**aws.amazon.com: Understanding and Cost Optimizing Amazon EKS Control Plane Logs**](https://aws.amazon.com/blogs/containers/understanding-and-cost-optimizing-amazon-eks-control-plane-logs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the high CloudWatch cost challenges generated by Amazon EKS control plane logs (API server, authenticator, audit, scheduler). Demonstrates how to configure fluent-bit to filter and route only essential telemetry records to cheap storage.
+### Kubernetes Finops
+
+#### Cost Management
+
+  - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
 ## Infrastructure
 
-### Enterprise Backup
-
-#### Cloud-Native Integration
-
-  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
-### Hybrid and On-Premises
+### Hybrid and On-premises
 
 #### Azure Stack Hub
 
@@ -613,7 +626,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Dynamic DNS
 
   - **(2022)** [dev.to/javiermarasco: HTTPs with Ingress controller, cert-manager and DuckDNS (in AKS/Kubernetes)](https://dev.to/javiermarasco/https-with-ingress-controller-cert-manager-and-duckdns-in-akskubernetes-2jd1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a dynamic DNS development environment setup using cert-manager, NGINX ingress, and DuckDNS on AKS clusters. Helps development teams quickly wire secure, externally accessible TLS endpoints without needing official domain registrations.
-#### ExternalDNS
+#### Externaldns
 
   - **(2023)** [techcommunity.microsoft.com: Kubernetes External DNS for Azure DNS & AKS](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/kubernetes-external-dns-for-azure-dns--aks/3809393) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines configuring ExternalDNS inside an AKS cluster to dynamically sync Kubernetes Ingress resources with Azure DNS zones. Avoids manual DNS configuration, automating resource and IP updates on target domain records.
 #### Hybrid Ingress Architecture
@@ -633,13 +646,13 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### BYO CNI
 
   - **(2022)** [pixelrobots.co.uk: Bring your own Container Network Interface (CNI) plugin with Azure Kubernetes Service (AKS) (PREVIEW)](https://pixelrobots.co.uk/2022/04/bring-your-own-container-network-interface-cni-plugin-with-azure-kubernetes-service-aks-preview) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines utilizing the Bring Your Own CNI (BYO CNI) preview option in AKS. Allows engineering teams to manage and run their own custom CNI platforms (such as custom Cilium structures) while still leveraging the managed control plane benefits of AKS.
-#### Calico eBPF
+#### Calico Ebpf
 
   - **(2021)** [thenewstack.io: Turbocharging AKS Networking with Calico eBPF](https://thenewstack.io/turbocharging-aks-networking-with-calico-ebpf) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the performance enhancements derived from running Calico's eBPF data plane over AKS cluster topologies. Discusses how bypassing traditional iptables routing overhead reduces connection latency and CPU usage. It remains a relevant comparative benchmark for high-performance networks.
-#### Kubenet vs Azure CNI
+#### Kubenet Vs Azure CNI
 
   - **(2022)** [medium.com/@vamsi.lakshman: Overview of Azure Kubernetes Services Networking Models](https://medium.com/@vamsi.lakshman/overview-of-azure-kubernetes-services-networking-models-e3ca0591aebe) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural overview contrasting AKS's native CNI models: Kubenet versus Azure CNI. Analyzes the trade-offs of IP space consumption, routing tables, and overall performance dynamics across large clusters.
-#### WireGuard Encryption
+#### Wireguard Encryption
 
   - **(2021)** [tigera.io: Calico WireGuard support with Azure CNI](https://www.tigera.io/blog/calico-wireguard-support-with-azure-cni) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines configuring Calico WireGuard encryption overlaying Azure CNI networks. Details setting up highly secure node-to-node transport layer encryption with minimal CPU overhead. Grounding points to this as an excellent alternative to heavy IPsec deployments.
 ### Node Pools
@@ -660,27 +673,20 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Private Endpoints
 
   - **(2021)** [carlos.mendible.com: AKS: Persistent Volume Claim with an Azure File Storage protected with a Private Endpoint](https://carlos.mendible.com/2021/08/02/aks-persistent-volume-claim-with-an-azure-file-storage-protected-with-a-private-endpoint) <span class='md-tag md-tag--warning'>[YAML/TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines configuring a Persistent Volume Claim (PVC) using Azure Files storage secured with a Private Endpoint in AKS. Prevents the storage accounts from being exposed to the public internet. Grounding confirms this is a critical enterprise pattern for storage layer hardening.
-## Infrastructure as Code and CI-CD
-
-### CI-CD Pipelines
-
-#### GitHub Actions
-
-##### Oracle Cloud Infrastructure
-
-  - **(2021)** [arnoldgalovics.com: GitHub Actions CI/CD For Oracle Cloud Kubernetes](https://arnoldgalovics.com/github-actions-oracle-cloud-kubernetes) <span class='md-tag md-tag--warning'>[YAML/SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical walkthrough showcasing the implementation of automated deployment pipelines using GitHub Actions to target Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE). It delineates secure OCI API authentication configurations, container image construction, and rollout orchestrations. (Live Grounding: Represents a standard, practical approach to OKE deployments using runners, contrasting with traditional enterprise Jenkins setups).
-#### KubeSphere (1)
-
-##### Jenkins
-
-  - **(2022)** [youtube: Create a Jenkins Pipeline on Kubernetes with CI/CD Pipeline Template in KubeSphere](https://www.youtube.com/watch?v=MU5LdM83x9s&ab_channel=KubeSphere) <span class='md-tag md-tag--warning'>[GROOVY/YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A visual demonstration detailing the creation of declarative Jenkins pipelines within the KubeSphere platform interface. Covers pipeline templates, integrated credential stores, and multi-stage container build-to-deploy workflows inside Kubernetes namespaces. (Live Grounding: Demonstrates how KubeSphere bridges legacy Jenkins pipelines with cloud-native execution runners).
-## Multi-Cloud Management
+## Multi-cloud Management
 
 ### Platform Engineering (1)
 
 #### Tooling Comparison
 
   - **(2021)** [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Synthesizes and contrasts several enterprise-grade multi-cloud Kubernetes management suites including Red Hat OpenShift, Rancher, Platform9, and Terraform. Highlights the design trade-offs between hypervisor-style centralized management interfaces and modular GitOps delivery systems. (Live Grounding: While some listed tools like StackPointCloud are defunct or archived, the architectural comparison criteria remains critical for multi-cluster evaluations in 2026).
+## Networking (5)
+
+### Multi-cluster
+
+#### DNS
+
+  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Observability (3)
 
 ### Telemetry
@@ -755,12 +761,12 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2023)** [danielstechblog.io: Mitigating slow container image pulls on Azure Kubernetes Service](https://www.danielstechblog.io/mitigating-slow-container-image-pulls-on-azure-kubernetes-service) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details concrete strategies to accelerate slow container image pull durations on AKS. Discusses configuring Azure Container Registry (ACR) replica caches, optimizing network speeds, and tuning persistent storage configs.
 ## Platform Engineering (2)
 
-### CICD and Delivery
+### CICD (1)
 
 #### Developer Experience (1)
 
   - **(2023)** [youtube: Day -25 | No Dockerfile, No K8s Manifests | Setup CI/CD in 5 minutes for any programming language](https://www.youtube.com/watch?v=io_yBU7vhIo) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid deployment flows to Kubernetes bypassing standard manual Dockerfile and YAML manifest configurations. Showcases automated scaffolding utilities like Draft and Cloud Native Buildpacks. Targeted at reducing onboarding friction for software developers moving applications to production orchestrators.
-#### GitHub Actions (1)
+#### Github Actions (1)
 
   - **(2023)** [insights.project-a.com: Using GitHub Actions to deploy to Kubernetes in GKE 🌟](https://www.project-a.vc/perspectives) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical roadmap for setting up secure Continuous Delivery pipelines to GKE using GitHub Actions. Specifically covers passwordless identity validation utilizing GCP Workload Identity Federation (WIF) to eliminate long-lived GCP service account JSON keys. Walks through Docker builds, GCR/GAR pushes, and Helm deployments.
 ### Developer Experience (2)
@@ -768,11 +774,18 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Legacy Scaffolding
 
   - **(2022)** [blog.baeke.info: Trying out Draft 2 on AKS](https://baeke.info/2022/06/02/trying-out-draft-2-on-aks) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early evaluation testing out the Draft v2 workflow within AKS environments. Evaluates standard dev loops and notes architectural changes between initial Draft implementations and subsequent buildpack-driven tools. Modern architects should target standard buildpacks and OCI artifacts over older Draft versions.
-### GitOps (1)
+### Gitops (1)
 
 #### Declarative Infrastructure
 
   - **(2021)** [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Google Cloud Config Controller, highlighting its use of the Kubernetes Resource Model (KRM) to declare and govern external GCP services. Allows platform teams to enforce stateful GitOps practices, treating cloud resources (like databases and networking) identical to standard Kubernetes manifests.
+## Research
+
+### Architecture Analysis
+
+#### Infrastructure Design (1)
+
+  - **(2024)** [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnkube.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional, data-driven research catalog evaluating critical Kubernetes deployment components. Compiles comparative benchmarks and analyses of CNI plugins (Cilium, Calico), cloud providers (EKS, GKE, AKS), virtual machine shapes, and Ingress Controller solutions, highlighting costs and latencies.
 ## Resilience
 
 ### Chaos Engineering (1)
@@ -795,7 +808,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 
   - **(2023)** [community.ops.io: Configuring AKS to read secrets and certificates from Azure KeyVaults](https://community.ops.io/javi_labs/configuring-aks-to-read-secrets-and-certificates-from-azure-keyvaults-17o1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical reference manual demonstrating integration patterns using Secrets Store CSI Driver inside AKS. Focuses on dynamically injecting certificates, keys, and operational credentials from Azure Key Vault into container workloads.
   - **(2022)** [dev.to: Access Secrets in AKV using Managed identities for AKS 🌟](https://dev.to/vivekanandrapaka/access-secrets-from-akv-using-managed-identities-for-aks-91p) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to retrieve and access secrets securely within AKS workloads using Managed Identities and Azure Key Vault CSI Provider. Avoids persisting plaintext credentials in cluster definitions, mounting secrets as secure volumes instead.
-#### OAuth2 Proxy
+#### Oauth2 Proxy
 
   - **(2022)** [kristhecodingunicorn.com: Setting Up OAuth 2.0 Authentication for Applications in AKS With NGINX and OAuth2 Proxy](https://www.kristhecodingunicorn.com/post/aks-oauth2-proxy-with-nginx-ingress-controller) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides detailed YAML deployment specs for running OAuth2 Proxy alongside NGINX on AKS. Demonstrates configuring ingress annotations and token validation loops, creating a robust baseline for securing production routes.
 #### Workload Identity
@@ -804,12 +817,12 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [blog.baeke.info: AKS Workload Identity Revisited](https://baeke.info/2022/11/24/aks-workload-identity-revisited) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A deep-dive analyzing Azure AD Workload Identity mechanics. Compares this modern OIDC token-exchange flow against legacy pod identities. Essential reading for secure application migrations requiring direct integration with Azure Cloud resources.
 ### Cluster Security
 
-#### Multi-Tenancy Isolation
+#### Multi-tenancy Isolation
 
   - **(2022)** [docs.microsoft.com: Best practices for cluster isolation in Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/operator-best-practices-cluster-isolation) <span class='md-tag md-tag--warning'>[YAML/MARKDOWN CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides official architectural best practices regarding logical and physical multi-tenant isolation in AKS. Details utilizing network policies, namespaces, and Kubernetes RBAC. A crucial resource for enterprise operators planning multi-team cluster sharing models.
 ### Network Security
 
-#### VNet Peering
+#### Vnet Peering
 
   - **(2022)** [blog.coffeeapplied.com: Securing AKS in peered virtual networks using only network security groups (NSGs)](https://blog.coffeeapplied.com/securing-aks-in-peered-virtual-networks-using-only-network-security-groups-nsgs-c43d6a215f32) <span class='md-tag md-tag--warning'>[BASH/ARM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates locking down traffic inside peered Azure virtual networks utilizing Network Security Groups (NSGs) exclusively. Shows how to avoid routing complexity and high firewall transit charges in multi-tenant hub-and-spoke virtual environments.
 ## State and Data
@@ -826,7 +839,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Edge Kubernetes
 
   - **(2023)** [infoq.com: Microsoft Brings Kubernetes to the Edge with AKS Edge Essentials](https://www.infoq.com/news/2023/03/aks-edge-essentials-ga) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the release of AKS Edge Essentials, Microsoft's lightweight managed Kubernetes distribution optimized for resource-constrained edge machines and industrial OT setups. Outlines how this strategy extends cloud-native operations directly to factory floors.
-#### Pricing and SLA tiers
+#### Pricing and SLA Tiers
 
   - **(2023)** [techcommunity.microsoft.com: Azure Kubernetes Service Free tier and Standard tier](https://techcommunity.microsoft.com/blog/appsonazureblog/azure-kubernetes-service-free-tier-and-standard-tier/3731432) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the structural and performance differences between the AKS Free and Standard pricing tiers. Analyzes the financial guarantees (SLAs), auto-scaler boundaries, and support systems required when migrating workloads to production environments.
 #### Product Roadmap
@@ -854,7 +867,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural strategy guide assessing the costs and benefits of introducing Kubernetes inside early-stage startup ecosystems. Covers common mistakes like over-engineering cluster setups early on and maps out criteria for when to transition from PaaS tools to fully-managed Kubernetes environments.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

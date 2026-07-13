@@ -1,5 +1,5 @@
 ---
-description: "Top AI Agents MCP resources for 2026, AI-ranked: vLLM on Kubernetes, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: Claude Code Best Practice, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -23,6 +23,43 @@ Claude Code can read codebases, execute commands, run tests, and manage git work
 
   - **(2026)** [==antigravity.google: Google Antigravity Agentic Platform==](https://antigravity.google) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's unified development platform and SDK (google-antigravity) for building, evaluating, and deploying stateful AI agents.
 Enables developers to transition from local prototype builds to secure GKE production environments and leverage the Gemini Enterprise Agent Platform.
+## AI And Machine Learning
+
+### Reasoning Models
+
+#### Mathematical Discoveries
+
+  - **(2026)** [**OpenAI Model Disproves Central Conjecture in Discrete Geometry**](https://openai.com/index/model-disproves-discrete-geometry-conjecture) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical announcement detailed by OpenAI outlining how a general-purpose reasoning model autonomously disproved Paul Erdős' 1946 unit distance conjecture. This milestone marks an architectural shift from assistive AI to autonomous mathematical synthesis, constructing dense unit-distance algebraic graphs that exceed traditional rescaled square grid limits.
+## AI And Machine Learning  AI Agents  Data Science Automation
+
+  - **(2026)** [**How data science teams use Codex**](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This publication highlights a pivot for OpenAI's Codex, moving it beyond pure autocomplete code-generation toward orchestrating complex, end-to-end data analytics and business context pipelines.
+
+Live Grounding: Industry evaluations demonstrate that data engineering and operations teams use Codex to process unstructured work tracker and dashboard inputs directly, automating the generation of executive-ready KPI memos and diagnostic specifications.
+## AI And Machine Learning  AI Agents  Operations Automation
+
+  - **(2026)** [**How business operations teams use Codex**](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This piece presents the operational transition toward proactive LLM workflows, showing how agents can interact with local files to manage cross-functional projects.
+
+Live Grounding: Operations engineers leverage Codex's ability to ingest messy trackers and stakeholder notes, converting fragmented communications into formalized off-track briefs and resource trade-off plans.
+## AI And Machine Learning  AI Agents  Workflow Automation
+
+  - **(2026)** [**How sales teams use Codex**](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This framework outlines the integration of LLMs within unstructured enterprise data streams, transitioning sales enablement from static spreadsheets to dynamic agentic execution.
+
+Live Grounding: Community testing confirms that utilizing Codex's plugins and customized skills enables the rapid synthesis of multi-source inputs—such as call transcripts and CRM entries—into structured pipeline prioritization briefs.
+## AI And Machine Learning  Consumer Agents  Financial Technology
+
+  - **(2026)** [**A new personal finance experience in ChatGPT**](https://openai.com/index/personal-finance-chatgpt) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Integrating banking APIs with conversational LLMs introduces a novel paradigm of context-aware financial planning, shifting attention away from traditional search directories.
+
+Live Grounding: The implementation leverages Plaid to secure read-only access across over 12,000 financial institutions, enabling real-time categorization of expenses and portfolios, though users must carefully manage the inherent third-party connection vectors.
+## AI And Machine Learning  Creative AI  Generative Production
+
+  - **(2026)** [**How we used Gemini to build Google I/O 2026**](https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Google's internal campaign serves as an industrial case study for embedding multimodal tools directly into creative asset-generation pipelines.
+
+Live Grounding: By combining Google AI Studio, Gemini Omni, and experimental DeepMind models, the team accelerated video and animation production—such as the 'Timmy TPU' film—reducing routine turnaround times.
+## AI And Machine Learning  Enterprise Llms  Agent Integration
+
+  - **(2026)** [**Databricks brings GPT-5.5 to enterprise agent workflows - OpenAI**](https://openai.com/index/databricks) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Merging GPT-5.5's reasoning capabilities with Databricks' structured lakehouse repositories forms a highly resilient architecture for secure enterprise AI operations.
+
+Live Grounding: Evaluation metrics on the OfficeQA Pro benchmark indicate that this pairing is the first to cross the 50% accuracy threshold when parsing complex enterprise documentation, contracts, and old reports directly from distributed data systems.
 ## AI Engineering
 
 ### AI Agents
@@ -54,7 +91,7 @@ Enables developers to transition from local prototype builds to secure GKE produ
 
 ### Distributed Computing
 
-#### Kube-Ray
+#### Kube-ray
 
   - **(2025)** [Kube-Ray](https://github.com/ray-project/kuberay) <span class='md-tag md-tag--info'>⭐ 2541</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2471d9c8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 11 L 20 3 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-2471d9c8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An open-source Kubernetes Operator enabling the deployment and management of Ray clusters. Live Grounding: Serves as the backbone for distributed machine learning workloads on Kubernetes, abstracting compute node scaling, memory configuration, and actor scheduling.
 ### Hardware Orchestration
@@ -73,49 +110,12 @@ Enables developers to transition from local prototype builds to secure GKE produ
 - Details advanced thermal-cooling solutions, high-density energy grids, and union labor agreements required to construct the physical backbone of the Intelligence Age.
 ### LLM Serving
 
-#### LocalAI
+#### Localai
 
   - **(2025)** [**LocalAI**](https://github.com/mudler/LocalAI) <span class='md-tag md-tag--info'>⭐ 46845</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ea9eeb00" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 12 L 30 7 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-ea9eeb00)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: A self-hosted, community-first OpenAI-compatible API gateway running on local hardware. Live Grounding: Allows developers to host LLMs, audio-to-text, and image generation services inside Kubernetes without external data dependencies, optimized for consumer-grade and enterprise hardware.
-#### vLLM
+#### Vllm
 
   - **(2025)** [==vLLM on Kubernetes==](https://github.com/vllm-project/vllm) <span class='md-tag md-tag--info'>⭐ 82816</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6caed060" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 6 L 30 7 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-6caed060)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight: Integration guides and deployment schemas for hosting vLLM on Kubernetes clusters. Live Grounding: Standardizes memory-efficient LLM serving using PagedAttention. Features rapid integration with Kubernetes HPA (Horizontal Pod Autoscaler) and native Prometheus performance scraping.
-## AI and Machine Learning
-
-### Reasoning Models
-
-#### Mathematical Discoveries
-
-  - **(2026)** [**OpenAI Model Disproves Central Conjecture in Discrete Geometry**](https://openai.com/index/model-disproves-discrete-geometry-conjecture) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A technical announcement detailed by OpenAI outlining how a general-purpose reasoning model autonomously disproved Paul Erdős' 1946 unit distance conjecture. This milestone marks an architectural shift from assistive AI to autonomous mathematical synthesis, constructing dense unit-distance algebraic graphs that exceed traditional rescaled square grid limits.
-## AI and Machine Learning  AI Agents  Data Science Automation
-
-  - **(2026)** [**How data science teams use Codex**](https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This publication highlights a pivot for OpenAI's Codex, moving it beyond pure autocomplete code-generation toward orchestrating complex, end-to-end data analytics and business context pipelines.
-
-Live Grounding: Industry evaluations demonstrate that data engineering and operations teams use Codex to process unstructured work tracker and dashboard inputs directly, automating the generation of executive-ready KPI memos and diagnostic specifications.
-## AI and Machine Learning  AI Agents  Operations Automation
-
-  - **(2026)** [**How business operations teams use Codex**](https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This piece presents the operational transition toward proactive LLM workflows, showing how agents can interact with local files to manage cross-functional projects.
-
-Live Grounding: Operations engineers leverage Codex's ability to ingest messy trackers and stakeholder notes, converting fragmented communications into formalized off-track briefs and resource trade-off plans.
-## AI and Machine Learning  AI Agents  Workflow Automation
-
-  - **(2026)** [**How sales teams use Codex**](https://openai.com/academy/codex-for-work/how-sales-teams-use-codex) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Curator Insight: This framework outlines the integration of LLMs within unstructured enterprise data streams, transitioning sales enablement from static spreadsheets to dynamic agentic execution.
-
-Live Grounding: Community testing confirms that utilizing Codex's plugins and customized skills enables the rapid synthesis of multi-source inputs—such as call transcripts and CRM entries—into structured pipeline prioritization briefs.
-## AI and Machine Learning  Consumer Agents  Financial Technology
-
-  - **(2026)** [**A new personal finance experience in ChatGPT**](https://openai.com/index/personal-finance-chatgpt) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Integrating banking APIs with conversational LLMs introduces a novel paradigm of context-aware financial planning, shifting attention away from traditional search directories.
-
-Live Grounding: The implementation leverages Plaid to secure read-only access across over 12,000 financial institutions, enabling real-time categorization of expenses and portfolios, though users must carefully manage the inherent third-party connection vectors.
-## AI and Machine Learning  Creative AI  Generative Production
-
-  - **(2026)** [**How we used Gemini to build Google I/O 2026**](https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Google's internal campaign serves as an industrial case study for embedding multimodal tools directly into creative asset-generation pipelines.
-
-Live Grounding: By combining Google AI Studio, Gemini Omni, and experimental DeepMind models, the team accelerated video and animation production—such as the 'Timmy TPU' film—reducing routine turnaround times.
-## AI and Machine Learning  Enterprise LLMs  Agent Integration
-
-  - **(2026)** [**Databricks brings GPT-5.5 to enterprise agent workflows - OpenAI**](https://openai.com/index/databricks) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight: Merging GPT-5.5's reasoning capabilities with Databricks' structured lakehouse repositories forms a highly resilient architecture for secure enterprise AI operations.
-
-Live Grounding: Evaluation metrics on the OfficeQA Pro benchmark indicate that this pairing is the first to cross the 50% accuracy threshold when parsing complex enterprise documentation, contracts, and old reports directly from distributed data systems.
 ## Applied AI
 
 ### Biosecurity
@@ -129,7 +129,7 @@ Live Grounding: Evaluation metrics on the OfficeQA Pro benchmark indicate that t
 
 #### Automated Code Review
 
-##### Fintech CICD Pipelines
+##### CICD
 
   - **(2026)** [**How Ramp engineers accelerate code review with Codex**](https://openai.com/index/ramp) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This article analyzes the technical deployment of OpenAI Codex with GPT-5.5 at fintech leader Ramp to scale internal code review operations. By automating semantic syntax evaluation, pattern checking, and vulnerability assessments, the pipeline yields high-fidelity architectural feedback in minutes.
 
@@ -163,7 +163,7 @@ Key engineering highlights:
 
   - **(2026)** [**Our Views on AI Policy and Political Advocacy**](https://openai.com/index/our-views-on-ai-policy-and-political-advocacy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — ### Curator Insight
 This policy brief outlines OpenAI's official stance on global AI governance and political advocacy. Published amidst escalating debates surrounding national regulatory frameworks, OpenAI clarifies its operational decision to refrain from forming PACs or funding political campaigns. This document provides critical transparency for enterprise stakeholders navigating compliance, safety alignment, and corporate responsibility in the Intelligence Age.
-#### Safety and Trust
+#### Safety And Trust
 
 ##### Election Safeguards
 
@@ -173,7 +173,7 @@ Key pillars include:
 - Enhancing real-time content watermarking and digital signature mechanisms.
 - Deploying active threat intelligence pipelines to identify and disrupt state-sponsored influence networks.
 - Enforcing strict API and product usage guidelines to block coordinated interactive manipulation.
-### AI in Education
+### AI In Education
 
 #### Sovereign AI Adoption
 
@@ -185,11 +185,11 @@ Structural frameworks include:
 - Co-designing teacher-led classroom assets to cultivate safe AI integration.
 - Launching the 'OpenAI Luminaries' program for global educational curriculum exchange.
 - Supporting evidence-based deployments monitored by research teams to optimize learning outcomes.
-### AI in Healthcare
+### AI In Healthcare
 
 #### EHR Integration
 
-##### Compliance and HIPAA
+##### Compliance And HIPAA
 
   - **(2026)** [**AdventHealth advances whole-person care with OpenAI**](https://openai.com/index/adventhealth) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — This case study details AdventHealth's adoption of 'ChatGPT for Healthcare', utilizing a secure, HIPAA-compliant workspace to optimize clinical workflows. The integration automates the drafting of post-discharge summaries and parses disconnected medical records, drastically reducing administrative burden without sacrificing clinical accuracy.
 
@@ -227,7 +227,7 @@ This OpenAI release details the ongoing paradigm shift of OpenAI Codex from an e
 
 #### Dell AI Data Platform Integration
 
-##### On-Premises Codex Deployment
+##### On-premises Codex Deployment
 
   - **(2026)** [**OpenAI and Dell Technologies partner to bring Codex to hybrid and on-premises enterprise environments**](https://openai.com/index/dell-codex-enterprise-partnership) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — This enterprise release highlights the integration of OpenAI Codex with the Dell AI Data Platform and the Dell AI Factory. The architecture provides a secure deployment bridge, allowing complex coding agents to operate locally on hybrid or on-premises server infrastructure where legacy databases reside.
 
@@ -271,7 +271,7 @@ Key architectural benefits:
 
   - **(2026)** [**How AI Mode is changing and expanding the way people search**](https://blog.google/products-and-platforms/products/search/ai-mode-us-insights) <span class='md-tag md-tag--warning'>[EN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — * **Curator Insight**: One year post-deployment, Google's 'AI Mode' transition illustrates a major architectural pivot towards intent-based, long-context reasoning instead of literal keyphrase mapping.
 * **Live Grounding**: Real-world search logs demonstrate that conversational interfaces encourage multi-step structured queries, forcing search engines to integrate real-time multi-source reasoning trees.
-### Security and Ethics
+### Security And Ethics
 
 #### Content Provenance
 
@@ -311,14 +311,14 @@ Core technical aims:
 - Fostering local ecosystem engineering capacity directly connected to OpenAI research platforms.
 ## Cloud Native Operations
 
-### AI AIOps
+### AI Aiops
 
 #### Kubernetes Troubleshooting
 
   - **(2025)** [HolmesGPT (Robusta)](https://github.com/HolmesGPT/holmesgpt) <span class='md-tag md-tag--info'>⭐ 2623</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-892577ed" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 6 L 30 13 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-892577ed)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight: An AI-driven troubleshooting assistant for Kubernetes clusters by Robusta. Live Grounding: Utilizes LLM agents to autonomously parse Prometheus alerts, collect pod logs, inspect live status, and deliver actionable remediation steps for infrastructure incidents.
 ## Developer Experience (1)
 
-### AI-Assisted Coding
+### Ai-assisted Coding
 
 #### Claude Code
 
@@ -337,7 +337,7 @@ Core technical aims:
 
 ### AI Safety
 
-#### Compliance and Regulation
+#### Compliance And Regulation
 
   - **(2026)** [**OpenAI Frontier Governance Framework**](https://openai.com/index/openai-frontier-governance-framework) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--warning'>[EMERGING]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive guide mapping OpenAI's internal risk mitigation protocols to emerging global regulatory standards.
 *   **Architectural Value**: Translates California's TFAIA and the EU AI Act into concrete technical requirements for safe deployment.
@@ -361,7 +361,7 @@ Core technical aims:
 
 ### Agentic Workflows (1)
 
-#### Infrastructure as Code
+#### Infrastructure As Code
 
   - **(2026)** [**Cisco and OpenAI redefine enterprise engineering with Codex**](https://openai.com/index/cisco) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores Cisco's integration of OpenAI Codex and GPT-5.5-Cyber to automate enterprise engineering and network security operations.
 *   **Architectural Value**: Combines generative coding agents with physical and cloud network infrastructure to create autonomous healing environments.
@@ -398,7 +398,7 @@ Core technical aims:
 *   **Technical Significance**: Redefines open-source collaboration, demonstrating a paradigm where human and AI agents securely build and maintain a massive public codebase.
 
 ---
-💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [MLOps](./mlops.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

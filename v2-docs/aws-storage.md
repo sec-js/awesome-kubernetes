@@ -30,7 +30,7 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
   - **(2023)** [Making Requests to Amazon S3 over IPv6](https://docs.aws.amazon.com/AmazonS3/latest/API) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight views this as an essential networking guide for modern cloud topologies. Live Grounding validates that configuring S3 endpoints over IPv6 reduces IPv4 address exhaustion issues and optimizes hybrid-cloud routing. It offers actionable configuration endpoints and IAM policy adaptations.
 ### Reliability Engineering
 
-#### Multi-Region Architectures
+#### Multi-region Architectures
 
   - **(2021)** [Building an active-active, latency-based application across multiple Regions 🌟](https://aws.amazon.com/blogs/storage/building-an-active-active-latency-based-application-across-multiple-regions) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines patterns for constructing active-active, latency-routed storage setups across multiple geographical AWS Regions. Focuses on orchestrating distributed systems with zero-RTO ambitions, detailing replication policies, DNS-level routing strategies, and conflict-free data synchronization. Key trade-offs in consistency and replication lag are analyzed to build resilient enterprise services.
 ### Storage
@@ -92,16 +92,9 @@ description: "Top AWS Storage resources for 2026, AI-ranked: S3 FAQ, EFS Elastic
 #### S3 Security
 
   - **(2023)** [blog.min.io: Certificate-based Authentication for S3](https://www.min.io/blog/certificate-based-authentication-with-s3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — MinIO's security engineering guide detailing dynamic certificate-based authentication protocols (mTLS) over S3-compatible APIs. In 2026, MinIO remains the preferred choice for running high-performance private cloud object storage securely without relying on IAM SaaS solutions.
-## Cloud Platform
-
-### AWS Infrastructure
-
-#### Storage Management
-
-  - **(2023)** [blog.awsfundamentals.com: AWS S3 Sync - An Extensive Guide](https://awsfundamentals.com/blog/aws-s3-sync) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive guide on using AWS S3 Sync commands, showing how to achieve efficient filesystems syncs between local storage and S3 targets. It explains multi-threading optimization, inclusion/exclusion rules, and integrity checks. This reference is highly valuable for system administrators maintaining basic backup and sync pipelines.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -9,14 +9,6 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 !!! info "Architectural Context"
     Detailed reference for AWS Security in the context of Cloud Providers (Hyperscalers).
 
-## AWS
-
-### Multi-Account Setup
-
-#### Governance
-
-  - **(2023)** [aws.amazon.com: AWS Control Tower](https://aws.amazon.com/controltower) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS product reference for AWS Control Tower, a managed service that streamlines multi-account governance and landing zone orchestration. It details how the platform enforces automated guardrails, visualizes enterprise health, and coordinates with AWS Organizations for centralized billing and policy compliance.
-  - **(2022)** [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical introduction to the AWS Control Tower Account Factory for Terraform (AFT), enabling GitOps-driven deployment of AWS accounts. Discusses custom pipeline orchestration and landing zone configurations that maintain strict security compliance metrics across large organizations.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -38,7 +30,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(None)** [](https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
 ## Cloud Architecture
 
-### AWS (1)
+### AWS
 
 #### Cryptography
 
@@ -51,7 +43,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 
   - **(2021)** [keepler.io: Gestionando el control de accesos en nuestro data lake en AWS](https://keepler.io/es/2021/03/15/gestionando-el-control-de-accesos-en-nuestro-data-lake-en-aws) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical case study analyzing fine-grained data-access patterns inside AWS-based Data Lakes. Outlines integrations with AWS Lake Formation, Tag-based IAM access control, and metadata catalog security schemes to implement secure data-at-rest policies.
   - **(2018)** [Oracle Database Encryption Options on Amazon RDS](https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical architectural blog guiding engineers through configuring database security on Amazon RDS. It focuses on integrating Oracle Transparent Data Encryption (TDE) with AWS KMS, ensuring low-latency column and tablespace encryption-at-rest with robust enterprise key separation.
-#### Identity and Access Management
+#### Identity And Access Management
 
   - **(2024)** [**iann0036/iamlive**](https://github.com/iann0036/iamlive) <span class='md-tag md-tag--info'>⭐ 3388</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-256c10e7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 10 L 20 3 L 30 7 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-256c10e7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source utility that monitors local AWS CLI or SDK actions via a proxy engine to dynamically generate minimal-privilege IAM policies. This tool reduces the manual work of writing policies by creating accurate least-privilege configurations based on actual API calls.
   - **(2023)** [awslabs/cognito-at-edge](https://github.com/awslabs/cognito-at-edge) <span class='md-tag md-tag--info'>⭐ 238</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c126fe85" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 9 L 20 12 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-c126fe85)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS Labs utility for parsing and verifying Amazon Cognito user authentication tokens directly inside CloudFront Lambda@Edge functions. This shifts JWT parsing to the network edge, avoiding cold starts on regional API servers.
@@ -70,17 +62,13 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Networking
 
   - **(2021)** [linkedin.com: Complexities of AWS Security Groups in the Cloud World](https://www.linkedin.com/pulse/complexities-aws-security-groups-cloud-world-ashish-kar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pragmatic assessment of structural limits and networking complexities when handling AWS Security Groups at enterprise scale. Covers limits on rule volume, challenges with nested rules, and operational strategies for transitioning to centralized firewalls or transit gateways.
-#### SaaS Architecture
+#### Saas Architecture
 
   - **(2021)** [Security practices in AWS multi-tenant SaaS environments](https://aws.amazon.com/blogs/security/security-practices-in-aws-multi-tenant-saas-environments) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide establishing SaaS tenant isolation policies on AWS. Discusses partitioning patterns across compute resources, dynamically generating short-lived IAM session credentials to enforce data-layer security boundaries, and configuring tenant-specific encryption keys via KMS.
 #### Secrets Management
 
   - **(2022)** [github.com/aws-samples: How to set up continuous replication from your third-party' secrets manager to AWS Secrets Manager](https://github.com/aws-samples/aws-secrets-manager-hybrid-secret-replication-from-hashicorp-vault) <span class='md-tag md-tag--info'>⭐ 16</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0ba6e5a7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 5 L 30 11 L 40 10 L 50 13" fill="none" stroke="url(#spark-grad-0ba6e5a7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON/TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS-samples repository containing code to continuously replicate secret assets between external managers (such as HashiCorp Vault) and AWS Secrets Manager. Features serverless execution scripts to maintain secrets synchronization across hybrid-cloud infrastructures.
-#### Security Auditing
-
-  - **(2022)** [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A reference architecture blueprint demonstrating how to centralize finding logs from AWS Security Hub and ingestion-routing them into Amazon OpenSearch Service. It serves as a cost-effective, real-time Security Information and Event Management (SIEM) dashboard for continuous log investigation.
-  - **(2021)** [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security auditor's checklist for securing AWS account topologies. Outlines strategies for enforcing Multi-Factor Authentication (MFA), isolating billing lines, establishing AWS Organizations boundaries, locking down default root configuration, and initiating persistent CloudTrail logs.
-#### Security and Compliance
+#### Security And Compliance
 
   - **(2023)** [github.com/aws-samples: Service Control Policy examples](https://github.com/aws-samples/service-control-policy-examples) <span class='md-tag md-tag--info'>⭐ 305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-888f3d62" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 13 L 30 9 L 40 2 L 50 6" fill="none" stroke="url(#spark-grad-888f3d62)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory of structural AWS Service Control Policies (SCPs) utilized within AWS Organizations. It provides architectural JSON blocks to establish hard regional restrictions, enforce multi-factor authentication, restrict dangerous actions, and protect critical cloud monitoring tools.
   - **(2026)** [AWS Security](https://aws.amazon.com/security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS portal showcasing native infrastructure security solutions. Focuses on physical data center compliance, hypervisor-level boundaries, AWS Shield protection, and global compliance standards (ISO, SOC, and PCI DSS).
@@ -90,6 +78,10 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2023)** [aws.amazon.com: Update of AWS Security Reference Architecture is now available](https://aws.amazon.com/blogs/security/update-of-aws-security-reference-architecture-is-now-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural announcement detailing updates made to the AWS Security Reference Architecture (SRA). Details integrations with newly evolved AWS security services, updated multi-account strategies, and delegation changes designed to simplify operational overhead.
   - **(2016)** [Learn AWS Security Fundamentals with Free and Online Training](https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical training material landing page detailing basic AWS security constructs. Highly useful for onboarding developers to the AWS Shared Responsibility Model, VPC security groups, IAM users, and primitive API auditing.
   - **(2016)** [PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical release information outlining AWS's automated Quick Start reference architecture blueprint for PCI DSS Level 1 compliance. Provides pre-built CloudFormation nesting designs designed to construct multi-tier secure enclaves on AWS.
+#### Security Auditing
+
+  - **(2022)** [How to use AWS Security Hub and Amazon OpenSearch Service for SIEM](https://aws.amazon.com/blogs/security/how-to-use-aws-security-hub-and-amazon-opensearch-service-for-siem) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A reference architecture blueprint demonstrating how to centralize finding logs from AWS Security Hub and ingestion-routing them into Amazon OpenSearch Service. It serves as a cost-effective, real-time Security Information and Event Management (SIEM) dashboard for continuous log investigation.
+  - **(2021)** [acloudguru.com: How to audit and secure an AWS account](https://www.pluralsight.com/resources/blog/cloud/how-to-audit-and-secure-an-aws-account)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security auditor's checklist for securing AWS account topologies. Outlines strategies for enforcing Multi-Factor Authentication (MFA), isolating billing lines, establishing AWS Organizations boundaries, locking down default root configuration, and initiating persistent CloudTrail logs.
 #### Sustainability
 
   - **(2023)** [github.com/awslabs/sustainability-scanner: Sustainability Scanner (SusScanner)](https://github.com/awslabs/sustainability-scanner) <span class='md-tag md-tag--info'>⭐ 124</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fefd9627" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 2 L 20 8 L 30 3 L 40 3 L 50 12" fill="none" stroke="url(#spark-grad-fefd9627)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS Labs security linter (SusScanner) designed to parse CloudFormation templates, highlighting optimization and resource usage anomalies. The tool aids in reducing carbon footprints and waste overhead by aligning resource choices with the AWS Sustainability Pillar.
@@ -107,17 +99,10 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Landing Zone Automation
 
   - **(2023)** [aws.amazon.com: Automate AWS Control Tower landing zone operations using APIs](https://aws.amazon.com/about-aws/whats-new/2023/11/automate-aws-control-tower-zone-operations-apis) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering overview of API-driven landing zone automation. By leveraging AWS SDKs and CLI commands for Control Tower lifecycle events, platform teams can programmatically deploy, upgrade, and track the compliance state of landing zones within their CI/CD release cycles.
-#### Multi-Account Strategy
+#### Multi-account Strategy
 
   - **(2024)** [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS framework defining multi-account best practices using AWS Organizations and AWS Control Tower. It outlines critical isolation patterns for security, billing, and operational autonomy. Architecturally, it serves as the foundation for modern enterprise landing zones, ensuring strict blast-radius limitation.
   - **(2024)** [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical analysis of the pitfalls and administrative hurdles encountered when migrating AWS accounts between Organizational Units (OUs) or organizations. It examines the operational impact on Service Control Policies (SCPs), resource shares, CloudFormation StackSets, and global integrations during transition phases.
-## Cloud Engineering
-
-### DevSecOps
-
-#### Security
-
-  - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security deep dive into AWS IAM OIDC trust relationships. Explains how misconfigured OIDC settings can allow unauthorized actions in GitHub Actions pipelines and outlines steps to prevent account compromise.
 ## Cloud Native Platforms
 
 ### Azure
@@ -125,21 +110,21 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Security Automation
 
   - **(2024)** [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructional resource on deploying ACME Bot inside Azure. Automates key lifecycles of Let's Encrypt certificates directly into secure Key Vaults.
-## DevSecOps (1)
+## Devsecops
 
-### Policy as Code
+### Policy As Code
 
 #### Open Policy Agent
 
   - **(2022)** [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent) <span class='md-tag md-tag--warning'>[TYPESCRIPT/REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating Policy-as-Code setups within AWS CDK deployment models using Open Policy Agent (OPA). Teaches engineers how to compile cloud infrastructure representations and parse them against Rego policies to catch insecure setups before resource creation.
-## Security (1)
+## Security
 
 ### Identity and Access
 
 #### AWS IAM
 
   - **(2022)** [ermetic.com: Diving Deeply into IAM Policy Evaluation – Highlights from AWS re:Inforce IAM433](https://www.tenable.com/blog/diving-deeply-into-iam-policy-evaluation-highlights-from-aws-reinforce-iam433) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An in-depth analysis of AWS Identity and Access Management policy logic based on re:Inforce insights. Decodes complex interaction flows between implicit and explicit denies, SCP policies, permissions boundaries, and resource-based rules.
-## Security and Compliance (1)
+## Security and Compliance
 
 ### Linux Hardening
 
@@ -148,9 +133,9 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2026)** [==How-To Secure A Linux Server==](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) <span class='md-tag md-tag--info'>⭐ 27773</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-32d078ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 2 L 30 6 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-32d078ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly comprehensive, widely reference-validated repository providing detailed, step-by-step instructions for securing enterprise Linux installations. Key configurations cover SSH daemon hardening, secure user boundaries, kernel performance optimizations, and automated intrusion monitoring. In modern 2026 operations, this guide remains a vital source for building secure base golden images inside automated IaC pipelines.
 ## Security and Governance
 
-### CICD Security
+### CICD
 
-#### Azure and GitHub Integration
+#### Azure and Github Integration
 
   - **(2022)** [Deploying to Azure: Secure Your GitHub Workflow with OIDC](https://thomasthornton.cloud/deploying-to-azure-secure-your-github-workflow-with-oidc) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the mechanism of securing deployment pipelines on Azure by leveraging GitHub Actions with OIDC federation. This setup eliminates credential rotation burdens and prevents high-privilege credential leakage. The article guides developers through creating federated credentials in Azure AD and configuring GitHub workflows for passwordless authentication.
 ## Security and Identity
@@ -201,7 +186,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

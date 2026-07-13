@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Longhorn and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Storage resources for 2026, AI-ranked: Rook, OpenEBS and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes Storage. Cloud Native Storage
 
@@ -20,13 +20,6 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
   - [portworx.com: Kubernetes Persistent Volume Tutorial by Portworx](https://portworx.com/tutorial-kubernetes-persistent-volumes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering portworx.com: Kubernetes Persistent Volume Tutorial by Portworx in the Kubernetes Tools ecosystem.
   - [Portworx](https://portworx.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Portworx in the Kubernetes Tools ecosystem.
   - [LightOS](https://www.lightbitslabs.com/product)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering LightOS in the Kubernetes Tools ecosystem.
-## Cloud Architecture and Infrastructure Strategy
-
-### Storage and Hybrid Systems
-
-#### Topology Comparison
-
-  - **(2023)** [**blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds**](https://www.min.io/blog) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
 ## Cloud Infrastructure and Orchestration
 
 ### Storage and Databases
@@ -83,23 +76,6 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
 #### Storage Paradigms (1)
 
   - **(2020)** [thenewstack.io: Compute and Storage Should Be Decoupled for Log Management at Scale](https://thenewstack.io/why-compute-and-storage-should-be-decoupled-for-log-management-at-scale) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural case study advocating for the strict decoupling of compute nodes and storage backends within log-aggregation systems. This pattern, exemplified by Loki and Elasticsearch, ensures that volatile search workloads do not degrade raw historical index durability.
-## Database and Storage
-
-### Storage Infrastructure
-
-#### Persistent Volumes
-
-  - **(2020)** [developers.redhat.com: Persistent storage in action: Understanding Red Hat OpenShift’s persistent volume framework 🌟](https://developers.redhat.com/blog/2020/10/22/persistent-storage-in-action-understanding-red-hat-openshifts-persistent-volume-framework) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dives into Red Hat OpenShift's persistent volume (PV) framework, focusing on the Container Storage Interface (CSI). Explains dynamic storage allocation, access modes, and how to safely secure transaction-heavy datastores.
-## Enterprise Integration
-
-### Cloud-Native Storage
-
-#### IBM Spectrum Scale Integration
-
-  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
-#### IBM Storage Systems
-
-  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ## Kubernetes Storage Implementation
 
 ### Persistent Volumes and Provisioners
@@ -121,19 +97,34 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
   - **(2021)** [blog.newrelic.com: Kubernetes Fundamentals, Part 5: Working with Kubernetes Volumes](https://newrelic.com/blog/infrastructure-monitoring/how-to-use-kubernetes-volumes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed New Relic platform tutorial detailing how Kubernetes Volumes function. It maps practical configurations from local directories up to persistent network volumes, helping engineers establish robust observability patterns around disk metrics.
   - **(2021)** [kubermatic.com: Keeping the State of Apps 1: Introduction to Volume and volumeMounts](https://www.kubermatic.com/blog/keeping-the-state-of-apps-1-introduction-to-volume-and-volumemounts) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A focused architectural introduction explaining the crucial distinction between a declared Volume (the backend data provider) and a volumeMount (how that data is projected inside a container). It covers essential syntax parameters for configuration.
   - **(2021)** [matthewpalmer.net: Filesystem vs Volume vs Persistent Volume 🌟](https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-volumes-example-nfs-persistent-volume.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-oriented guide explaining the conceptual differences between filesystems, generic container volumes, and Persistent Volumes. It uses clear examples, such as an NFS-backed Volume, to clarify how and when to use each configuration pattern.
+## Platform Engineering
+
+### Ecosystem
+
+#### Marketplace
+
+  - **(2024)** [Red Hat Marketplace](https://marketplace.redhat.com/sunset) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Originally a portal dedicated to discovering, buying, and provisioning certified operators and third-party software on OpenShift. While the standalone portal has transitioned, the actual operational flow has been assimilated directly into the internal OpenShift OperatorHub interface.
 ## Storage
 
+### Distributed Storage
+
+#### Ceph
+
+  - **(2026)** [Red Hat Ceph Storage](https://ceph.io/en) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat Ceph Storage is an enterprise product offering distributed block, file, and object storage coupled with multi-cloud data federation via NooBaa. It incorporates enterprise efficiency tools like global data compression, data deduplication, asynchronous multi-site replication, and strong encryption policies.
 ### Enterprise Storage
 
 #### Legacy Platforms
 
   - **(2020)** [Reduxio](https://www.reduxio.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Reduxio was an enterprise storage innovator that designed unified primary and secondary storage frameworks with granular, instantaneous recovery capabilities. Though the product has transitioned into a legacy technology, its foundational approaches to metadata-defined back-dating continue to influence cloud-native backup paradigms.
+#### Red Hat Storage
+
+  - **(2021)** [State of OpenShift Container Storage](https://www.redhat.com/en/blog/state-of-openshift-container-storage-eran-tamir-and-duncan-hardie-red-hat)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural overview analyzes the Red Hat OpenShift Container Storage platform (now OpenShift Data Foundation). It details how combining Ceph, NooBaa, and Rook creates an integrated control plane to deliver multi-cloud block, file, and object endpoints for OpenShift workloads.
 ### Kubernetes CSI
 
 #### Documentation
 
   - **(2026)** [kubernetes-csi.github.io](https://kubernetes-csi.github.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official documentation portal for the Kubernetes Container Storage Interface (CSI) specification. It is the definitive engineering reference for storage vendors developing pluggable drivers and platform architects designing interoperable container storage controllers.
-#### How-To
+#### How-to
 
   - **(2020)** [sklar.rocks: How the CSI (Container Storage Interface) Works](https://sklar.rocks/how-container-storage-interface-works)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instructional overview explaining how the Container Storage Interface (CSI) specification coordinates volume management. It details the precise structural operations between the Kubelet, Kubernetes API servers, and vendor-specific CSI driver components.
 #### S3 Integration
@@ -167,7 +158,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
 
   - **(2026)** [iomesh.com](https://www.iomesh.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IOMesh is an enterprise-oriented cloud-native storage product built to support high-throughput, latency-sensitive database workloads on Kubernetes. By pooling host storage assets and executing performance optimizations in user space, it aims to compete directly with proprietary SAN arrays.
   - **(2021)** [iomesh.com: Outperforming Peer Products, IOMesh Takes Cloud Native Storage to the Next Level](https://www.iomesh.com/blog/announcing_iomesh_preview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory release article for IOMesh, explaining how its cloud-native software-defined architecture delivers bare-metal storage speeds. It emphasizes optimized resource utilization, host pooling mechanics, and integrated security frameworks designed for container workloads.
-#### GlusterFS Orchestration
+#### Glusterfs Orchestration
 
   - **(2026)** [==Kadalu==](https://github.com/kadalu/kadalu) <span class='md-tag md-tag--info'>⭐ 748</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f2c7d9d9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 9 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-f2c7d9d9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kadalu is a lightweight, container-native storage solution that utilizes GlusterFS to orchestrate persistent volumes inside Kubernetes. It runs storage services inside application pods as microservices, offering a lightweight alternative to external GlusterFS cluster configurations.
 #### High Performance Block Storage
@@ -180,7 +171,7 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
 #### Local Storage Provisioning
 
   - **(2026)** [==openebs/dynamic-localpv-provisioner: Dynamic Kubernetes Local Persistent' Volumes==](https://github.com/openebs/dynamic-localpv-provisioner) <span class='md-tag md-tag--info'>⭐ 208</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7ce32d8b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 4 L 30 2 L 40 9 L 50 8" fill="none" stroke="url(#spark-grad-7ce32d8b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An OpenEBS sub-project designed to provision Kubernetes local hostpath or raw block persistent volumes dynamically. This controller eliminates manual static volume definitions, allowing database applications to seamlessly run at native drive speed while relying on Kubernetes scheduling rules.
-#### NVMe-oF
+#### Nvme-of
 
   - **(2020)** [blocksandfiles.com: Lightbits Labs adds Kubernetes table stakes: CSI support](https://www.blocksandfiles.com/block/2020/06/23/lightbits-labs-adds-kubernetes-table-stakes-csi-support/1598623)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical review of Lightbits Labs adding native CSI support to its LightOS platform, bridging disaggregated NVMe-over-Fabrics (NVMe-oF) with Kubernetes. This integration enables low-overhead, hardware-accelerated block storage access for scale-out, high-throughput cloud database deployments.
 #### Open Source Governance
@@ -195,19 +186,22 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
 #### Storage Operators
 
   - **(2026)** [==libopenstorage/stork: Stork - Storage Operator Runtime for Kubernetes==](https://github.com/libopenstorage/stork) <span class='md-tag md-tag--info'>⭐ 401</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-45da6b45" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 9 L 20 11 L 30 6 L 40 8 L 50 6" fill="none" stroke="url(#spark-grad-45da6b45)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Stork (Storage Operator Runtime for Kubernetes) is an open-source utility developed by Portworx to facilitate storage-aware scheduling and backup operations. It communicates with local storage nodes to ensure container workloads are scheduled on the exact physical hardware housing their replicated volumes.
+#### Storage Orchestrators
+
+  - **(2026)** [==Rook==](https://rook.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Rook acts as a production-hardened CNCF graduated storage orchestrator that natively embeds Ceph within Kubernetes. By managing disks, pools, and filesystems as declarative resources, Rook eliminates manual storage administration and bridges Kubernetes-native paradigms with high-availability bare metal storage.
 ### Object Storage (1)
 
-#### MinIO
+#### Minio
 
   - **(2026)** [==min.io==](https://www.min.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — MinIO is a high-performance, S3-compatible object storage platform built specifically for native Kubernetes deployments. Architected for enterprise private clouds, it delivers high-throughput storage for demanding data workloads, including AI training pipelines and distributed object analytics.
 ## Storage and Data
 
 ### Container Attached Storage (2)
 
-#### OpenEBS
+#### Openebs
 
   - **(2023)** [OpenEBS Features and Benefits](https://openebs.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guide to OpenEBS Container Attached Storage (CAS) engine. Details how local volumes, Jiva, and Mayastor architectures allow teams to build highly resilient, dynamic persistent storage volumes directly using local disk pools. CNCF validation confirms OpenEBS's position as a robust storage framework for stateful microservices.
-### Data on Kubernetes
+### Data On Kubernetes
 
 #### Community Hub
 
@@ -215,14 +209,9 @@ description: "Top Kubernetes Storage resources for 2026, AI-ranked: OpenEBS, Lon
 #### Industry Research
 
   - **(2021)** [dok.community: Data on Kubernetes 2021 Report](https://dok.community/dokc-2021-report)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This classic report maps standard adoption trends of stateful workloads in containerized environments. It highlights performance, operations, and resource efficiency as key factors convincing enterprises to run workloads on native Kubernetes storage pools instead of external infrastructure.
-### Performance Benchmarking
-
-#### Etcd Storage Tuning
-
-  - **(2021)** [ibm.com: Using Fio to Tell Whether Your Storage is Fast Enough for Etcd](https://www.ibm.com/think/cloud) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical benchmarking guide using the `fio` utility to measure disk write latency, specifically validating physical storage readiness for critical Kubernetes Etcd backends. Outlines how high write latency triggers cluster-wide instability and master-node leader election failures. Crucial reading for systems administrators configuring bare-metal or hypervisor storage fabrics.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 
