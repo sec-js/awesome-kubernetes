@@ -280,13 +280,34 @@ class IntelligentLinkCleaner:
             
             if not alive or reason == "generic_redirect_loss":
                 if is_important:
-                    entry["status"] = "review_required"
-                    entry["review_metadata"] = {
-                        "original_url": url, "proposed_url": final if final else "NONE",
-                        "reason": f"High-Value Protection: {reason}", "timestamp": datetime.now().isoformat()
-                    }
-                    log_event(f"  [⚠️] REVIEW STORED: {url}")
-                    status, final_reason = "INCLUDED", f"Preserved for Review ({reason})"
+                    orig_metadata = entry.get("review_metadata") or {}
+                    orig_timestamp = orig_metadata.get("timestamp")
+                    
+                    is_expired = False
+                    if orig_timestamp:
+                        try:
+                            dt = datetime.fromisoformat(orig_timestamp)
+                            age_days = (datetime.now() - dt).days
+                            if age_days >= 30:
+                                is_expired = True
+                                log_event(f"  [❌] REVIEW EXPIRED (Age: {age_days} days): {url} has been dead for too long. Pruning.")
+                        except Exception as e:
+                            log_event(f"[WARN] Parse review timestamp {orig_timestamp}: {e}")
+                    
+                    if is_expired:
+                        entry["status"] = "dead"
+                        self.dead_links[url] = (None, "review_expired")
+                        status, final_reason = "FILTERED", "Review expired (30-day TTL)"
+                    else:
+                        entry["status"] = "review_required"
+                        entry["review_metadata"] = {
+                            "original_url": url,
+                            "proposed_url": final if final else "NONE",
+                            "reason": f"High-Value Protection: {reason}",
+                            "timestamp": orig_timestamp if orig_timestamp else datetime.now().isoformat()
+                        }
+                        log_event(f"  [⚠️] REVIEW STORED/MAINTAINED: {url}")
+                        status, final_reason = "INCLUDED", f"Preserved for Review ({reason})"
                 elif score < 20: 
                     entry["status"] = "dead"; self.dead_links[url] = (None, reason)
                     status, final_reason = "FILTERED", f"Dead: {reason}"
