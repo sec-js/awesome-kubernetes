@@ -84,13 +84,6 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Tracing
 
   - **(2021)** [SystemTap](https://sourceware.org/systemtap) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep diagnostic software for Linux kernels allowing engineers to trace system calls and profile execution pathways in black-box binaries dynamically without recompilation.
-## Kubernetes Developer Experience
-
-### Inner-Loop Automation
-
-#### Guides
-
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 ## Security
 
 ### CICD Integration
@@ -132,7 +125,6 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### API Testing Principles
 
   - **(2023)** [linkedin.com/pulse: Importance of API Automation Testing 🌟](https://www.linkedin.com/pulse/importance-api-automation-testing-manish-saini) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece framing automated API testing as a cornerstone of decoupled software architectures. Emphasizes continuous API verification to isolate business logic changes from UI presentation variations.
-  - **(2022)** [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured learning path for mastering API-level automation testing. Guides developers from core HTTP methods to building custom suite environments using modern testing engines.
 #### Code Review
 
   - **(2023)** [**reviewdog - A code review dog who keeps your codebase healthy.**](https://github.com/reviewdog/reviewdog) <span class='md-tag md-tag--info'>⭐ 9365</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f28c7cdf" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 5 L 30 11 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-f28c7cdf)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Automated code review bot designed to parse error inputs from arbitrary linter systems and post inline comments directly back to pull requests on GitHub, GitLab, or Bitbucket.
@@ -188,7 +180,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

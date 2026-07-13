@@ -1,5 +1,5 @@
 ---
-description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, Claude Code Templates and more — curated Cloud Native tools, guides and references."
+description: "Top DevOps Tools resources for 2026, AI-ranked: Claude Code Templates, ASDF and more — curated Cloud Native tools, guides and references."
 ---
 # DevOps Tools aka Toolchain
 
@@ -9,6 +9,13 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
 !!! info "Architectural Context"
     Detailed reference for DevOps Tools aka Toolchain in the context of Architectural Foundations.
 
+## AI and Platform Engineering
+
+### AI Assistants
+
+#### Developer Productivity
+
+  - **(2025)** [GitHub Copilot Now Explains Failed Actions Jobs (GA)](https://github.blog/changelog/2025-01-15-copilot-users-can-ask-about-a-failed-actions-job-ga)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — General availability announcement detailing Copilot's integration into the GitHub Actions run logs. Empowers engineers to ask AI to interpret errors, trace failures, and propose immediate pipeline repair steps.
 ## AI Engineering
 
 ### Agentic Frameworks
@@ -41,7 +48,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
 
 ### CICD and Delivery
 
-#### Developer Productivity
+#### Developer Productivity (1)
 
   - **(2025)** [**action-tmate: Debug GitHub Actions via SSH**](https://github.com/mxschmitt/action-tmate) <span class='md-tag md-tag--info'>⭐ 3550</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-378402c1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 5 L 30 4 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-378402c1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An essential interactive troubleshooting tool that opens a secure tmate SSH session directly into active GitHub Actions runners, enabling real-time terminal diagnostics of failing pipeline runs.
 #### Enterprise Tooling
@@ -95,9 +102,6 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
   - **(2026)** [==Claude Code Templates==](https://github.com/davila7/claude-code-templates) <span class='md-tag md-tag--info'>⭐ 28036</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-95ae7120" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 2 L 20 11 L 30 13 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-95ae7120)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Claude Code Templates is an extensive community library containing structured system designs, context guidelines, and prompt schemas optimized for Anthropic's Claude Code and CLI. It helps teams configure context-aware coding agents that integrate smoothly into microservice development cycles.
 ### Developer Knowledge
 
-#### Cheat Sheets
-
-  - **(2025)** [**QuickRef.ME - Quick Reference Cheat Sheets**](https://quickref.me/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — QuickRef.ME offers highly organized cheat sheets covering major programming languages, CLI utilities, databases, and platform architectures. It serves as a rapid reference dashboard that reduces lookup overhead during continuous programming cycles.
 #### Curation Repositories
 
   - **(2021)** [devops.com: 11 Open Source DevOps Tools We Love For 2021](https://devops.com/11-open-source-devops-tools-we-love-for-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This evaluation spotlights eleven critical open-source DevOps projects covering areas like monitoring, infrastructure automation, container workflows, and CI/CD frameworks. It presents real-world architectural trade-offs, helping teams evaluate modern platform engineering toolchains.
@@ -135,6 +139,11 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
 #### Docker Compose
 
   - **(2025)** [**DockSTARTer**](https://github.com/GhostWriters/DockSTARTer) <span class='md-tag md-tag--info'>⭐ 2560</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e14d560a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 9 L 20 8 L 30 2 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e14d560a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A user-friendly CLI utility designed to simplify the configuration and installation of self-hosted server software via structured Docker Compose patterns. Serves as a solid entry point for containerization concepts in local server and edge hardware topologies.
+### Version Management
+
+#### Multi-Language Runtimes
+
+  - **(2026)** [==ASDF 🌟==](https://asdf-vm.com) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible CLI runtime version manager that unifies environment configurations (Node.js, Ruby, Python, Elixir, Go, and more) under a single .tool-versions file. Successfully eliminates environment drift across development machines and CI runners via a robust plugin-driven architecture.
 ## Observability
 
 ### UI Clients
@@ -144,7 +153,7 @@ description: "Top DevOps Tools resources for 2026, AI-ranked: Awesome Sysadmin, 
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

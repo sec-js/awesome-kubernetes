@@ -8,28 +8,12 @@
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 -0000</lastBuildDate>
     <atom:link href="https://nubenetes.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Kubecost 🌟</title>
-      <link>https://www.apptio.com/products/kubecost/?src=kc-com</link>
-      <guid isPermaLink="true">https://www.apptio.com/products/kubecost/?src=kc-com</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] The industry standard for real-time Kubernetes cost allocation, helping enterprises tackle cloud waste in multi-cluster environments.</description>
-    </item>
-    <item>
       <title>antigravity.google: Google Antigravity Agentic Platform</title>
       <link>https://antigravity.google</link>
       <guid isPermaLink="true">https://antigravity.google</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] It directly bridges the gap between local agent prototypes and production-grade Google Kubernetes Engine (GKE) deployments for stateful AI agents.</description>
-    </item>
-    <item>
-      <title>docs.anthropic.com: Claude Code CLI</title>
-      <link>https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</link>
-      <guid isPermaLink="true">https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 -0000</pubDate>
-      <category>AI &amp; Agents</category>
-      <description>[CRITICAL] Anthropic's official tool fundamentally shifts developer workflows by bringing autonomous agentic coding and execution directly into the terminal.</description>
+      <description>[CRITICAL] Enables seamless enterprise scaling of stateful AI agents by bridging local prototyping with secure Google Kubernetes Engine deployments.</description>
     </item>
     <item>
       <title>Crossplane</title>
@@ -37,7 +21,15 @@
       <guid isPermaLink="true">https://nubenetes.com/crossplane</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] A transformative CNCF control-plane framework that turns Kubernetes clusters into universal infrastructure schedulers for public cloud resources.</description>
+      <description>[CRITICAL] Enables teams to transition from traditional IaC to control-plane driven platform engineering by managing external cloud resources natively via Kubernetes.</description>
+    </item>
+    <item>
+      <title>NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</title>
+      <link>https://github.com/NVIDIA/k8s-device-plugin</link>
+      <guid isPermaLink="true">https://github.com/NVIDIA/k8s-device-plugin</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Kubernetes &amp; Orchestration</category>
+      <description>[CRITICAL] Acts as the indispensable hardware integration layer enabling Kubernetes clusters to orchestrate physical GPU resources for AI and high-performance computing workloads.</description>
     </item>
     <item>
       <title>==Azure/azure-workload-identity==</title>
@@ -45,7 +37,7 @@
       <guid isPermaLink="true">https://github.com/Azure/azure-workload-identity</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] The modern enterprise-standard mechanism for mapping Kubernetes Service Accounts to Azure Active Directory identities using secure OIDC federation.</description>
+      <description>[CRITICAL] Establishes a critical enterprise security standard by replacing static secrets with secure, OIDC-federated identities for Kubernetes service accounts on Azure.</description>
     </item>
     <item>
       <title>vLLM on Kubernetes</title>
@@ -53,7 +45,7 @@
       <guid isPermaLink="true">https://github.com/vllm-project/vllm</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>AI &amp; Agents</category>
-      <description>[CRITICAL] It provides the definitive standard for hosting highly optimized, memory-efficient LLM serving engines using PagedAttention on Kubernetes.</description>
+      <description>[CRITICAL] Standardizes memory-efficient LLM serving and scaling on Kubernetes clusters using PagedAttention, directly bridging cloud-native infrastructure with AI workloads.</description>
     </item>
     <item>
       <title>Tetragon (Cilium)</title>
@@ -78,14 +70,6 @@
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>Networking &amp; Service Mesh</category>
       <description>[CRITICAL] The definitive, industry-standard service mesh that orchestrates secure, high-performance traffic management and mutual TLS across enterprise microservices.</description>
-    </item>
-    <item>
-      <title>Teleport 🌟</title>
-      <link>https://github.com/gravitational/teleport</link>
-      <guid isPermaLink="true">https://github.com/gravitational/teleport</guid>
-      <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Kubernetes &amp; Orchestration</category>
-      <description>[CRITICAL] A leading identity-aware access gateway that securely consolidates and audits multi-protocol connections to Kubernetes APIs and servers.</description>
     </item>
     <item>
       <title>github: Flux Version 2</title>
@@ -165,7 +149,23 @@
       <guid isPermaLink="true">https://www.infoq.com/news/2026/05/opentofu-release-terraform</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <category>Infrastructure as Code</category>
-      <description>[CRITICAL] Solves a decade-old limitation of upstream Terraform by enabling dynamic modular dependencies, marking a major milestone for the open-source fork.</description>
+      <description>[CRITICAL] This major release solves a long-standing modular limitation of upstream Terraform, solidifying OpenTofu as a highly competitive and innovative open-source alternative.</description>
+    </item>
+    <item>
+      <title>The Agentic Infrastructure Era | Pulumi Releases</title>
+      <link>https://www.pulumi.com/releases/agentic-infrastructure-era</link>
+      <guid isPermaLink="true">https://www.pulumi.com/releases/agentic-infrastructure-era</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] This release marks a massive industry shift toward autonomous, AI-driven infrastructure provisioning and self-healing environments.</description>
+    </item>
+    <item>
+      <title>New in Terraform 1.15: Dynamic sources, variable deprecation, and more</title>
+      <link>https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</link>
+      <guid isPermaLink="true">https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Infrastructure as Code</category>
+      <description>[CRITICAL] This major upstream release introduces native dynamic module sources and versioning, greatly improving how practitioners manage complex runtime configurations.</description>
     </item>
   </channel>
 </rss>

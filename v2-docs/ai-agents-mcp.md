@@ -1,5 +1,5 @@
 ---
-description: "Top AI Agents MCP resources for 2026, AI-ranked: Claude Code Best Practice, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
+description: "Top AI Agents MCP resources for 2026, AI-ranked: vLLM on Kubernetes, Awesome MCP Servers and more — curated Cloud Native tools, guides and references."
 ---
 # AI Agents and Model Context Protocol (MCP) for Kubernetes
 
@@ -398,7 +398,7 @@ Core technical aims:
 *   **Technical Significance**: Redefines open-source collaboration, demonstrating a paradigm where human and AI agents securely build and maintain a massive public codebase.
 
 ---
-💡 **Explore Related:** [MLOps](./mlops.md) | [AI](./ai.md) | [ChatGPT](./chatgpt.md)
+💡 **Explore Related:** [AI](./ai.md) | [MLOps](./mlops.md) | [ChatGPT](./chatgpt.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

@@ -192,7 +192,7 @@
 
 ## Rancher Software Defined Storage with Longhorn
 
-- [rancher.com/blog: Getting Started with Longhorn Distributed Block Storage and Cloud-Native Distributed SQL](https://www.rancher.com/blog/2020/yugabyte)
+- [rancher.com/blog: Getting Started with Longhorn Distributed Block Storage and Cloud-Native Distributed SQL](https://www.suse.com/c/rancher_blog/getting-started-with-longhorn-distributed-block-storage-and-cloud-native-distributed-sql)
 
 ## Rancher Fleet to manage multiple kubernetes clusters
 

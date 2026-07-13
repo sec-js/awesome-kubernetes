@@ -19,10 +19,10 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 
 #### General Reference
 
+  - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Running Ansible Playbooks From Jenkins in the Kubernetes Tools ecosystem.
   - [Dzone: Part 2: Deploying Applications](https://dzone.com/articles/part-2-deploying-applications)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Part 2: Deploying Applications in the Kubernetes Tools ecosystem.
   - [Dzone: 10 easy to use modules in ansible](https://dzone.com/articles/10-easy-to-use-modules-in-ansible-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 10 easy to use modules in ansible in the Kubernetes Tools ecosystem.
   - [Dzone: Running Ansible at Scale](https://dzone.com/articles/running-ansible-at-scale)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Running Ansible at Scale in the Kubernetes Tools ecosystem.
-  - [Dzone: Running Ansible Playbooks From Jenkins](https://dzone.com/articles/running-ansible-playbooks-from-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Running Ansible Playbooks From Jenkins in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: Ansible playbook to execute Oracle script](https://stackoverflow.com/questions/41796466/ansible-playbook-to-execute-oracle-script)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Ansible playbook to execute Oracle script in the Kubernetes Tools ecosystem.
   - [stackoverflow.com: Running Oracle SQL scripts with Ansible playbook](https://stackoverflow.com/questions/41341823/running-oracle-sql-scripts-with-ansible-playbook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering stackoverflow.com: Running Oracle SQL scripts with Ansible playbook in the Kubernetes Tools ecosystem.
 ## Automation
@@ -190,7 +190,6 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 
   - **(2023)** [tomsitcafe.com: Enhancing Ansible Automation: Exploring the Power of Ansible Semaphore, a Modern Open-Source GUI](https://tomsitcafe.com/2023/05/15/ansible-semaphore-a-modern-open-source-gui-for-our-ansible-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Overview of Semaphore, an lightweight, open-source web-based management UI for Ansible playbooks. Discusses its usefulness as a low-overhead, resource-efficient alternative to Red Hat AWX or Tower.
   - **(2023)** [thenewstack.io: How to Put a GUI on Ansible, Using Semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed, step-by-step tutorial on deploying and managing Semaphore UI. Highlights configuration of inventory integration, credential injection, and user role management.
-  - [Semaphore UI 🌟](https://semaphoreui.com/)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A modern web-based graphical user interface for Ansible, Terraform, OpenTofu and other automation runners. It enables teams to run playbooks and manage keys, inventories, and configurations in a responsive frontend.
 ### Ansible Integration (1)
 
 #### API Automation
@@ -283,6 +282,9 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
   - **(2021)** [maquinasvirtuales.eu: Docker Swarm: Instalar Ansible AWX](https://www.maquinasvirtuales.eu/docker-swarm-instalar-ansible-awx) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Spanish language guide detailing the installation and configuration of Ansible AWX on Docker Swarm. Since modern AWX development has strictly pivoted to Kubernetes/AWX Operator, this resource serves primarily as a legacy reference for swarm-based topologies.
 ### Kubernetes (1)
 
+#### Ansible Integration (2)
+
+  - **(2025)** [ansibleforkubernetes.com 🌟](https://www.ansibleforkubernetes.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference site for Jeff Geerling's "Ansible for Kubernetes" book. It showcases advanced architectural patterns using Ansible to orchestrate cloud-native Kubernetes systems, write custom operators, and manage application lifecycles inside pods.
 #### Deployments (1)
 
   - **(2022)** [linuxsysadmins.com: Install Ansible AWX on Kubernetes in 5 minutes](https://www.linuxsysadmins.com/install-ansible-awx-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rapid deployment guide demonstrating how to bootstrap an instance of Ansible AWX on a Kubernetes cluster using the AWX Operator. It covers namespace preparation, applying the custom resource manifest, and verifying initial service exposures.
@@ -299,13 +301,6 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 #### Operators
 
   - **(2026)** [**AWX Operator**](https://github.com/ansible/awx-operator) <span class='md-tag md-tag--info'>⭐ 1487</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-69f7bf8d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 3 L 30 3 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-69f7bf8d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The AWX Operator is a cloud-native Kubernetes Operator designed to automate the deployment, lifecycle management, scaling, and upgrades of AWX. By leveraging Custom Resource Definitions (CRDs), it simplifies complex Postgres and web-app state management inside K8s.
-## Continuous Integration
-
-### Jenkins
-
-#### Automation Server
-
-  - **(2026)** [Jenkins](https://www.jenkins.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Jenkins remains the foundational open-source automation server supporting highly extensible CI/CD pipelines. Its exhaustive plugin ecosystem allows seamless orchestration of Ansible runs, Git operations, and target-system provisioning as part of delivery loops.
 ## DevOps and Learning Resources
 
 ### Video Courses
@@ -375,7 +370,6 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
 #### Core Concepts
 
   - **(2024)** [docs.ansible.com: Working With Playbooks](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for writing and executing Ansible Playbooks. This standard manual explains YAML syntax, task execution flows, variable precedence, and handler behaviors, forming the fundamental baseline for all Ansible-driven infrastructure automation.
-  - **(2022)** [The Beginner’s Guide to the Ansible Inventory](https://www.packetcoders.io/the-beginners-guide-to-the-ansible-inventory) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive primer exploring how to declare, structure, and organize Ansible inventories. Covers standard INI and YAML file declarations, host-group structures, nested grouping, and introductory dynamic inventory strategies.
 #### Curated Lists
 
   - **(2022)** [**https://github.com/jdauphant/awesome-ansible**](https://github.com/jdauphant/awesome-ansible) <span class='md-tag md-tag--info'>⭐ 1004</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-52265256" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 8 L 30 13 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-52265256)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A curated repository listing valuable Ansible tools, libraries, playbooks, roles, and learning materials. Ideal for discovering community extensions, monitoring integrations, and operational best-practices.
@@ -471,6 +465,7 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
   - **(2021)** [linuxtechlab.com: Ansible Tutorial: Introduction to simple Ansible commands](https://linuxtechlab.com/ansible-tutorial-simple-commands) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on instant-impact shell execution using Ansible ad hoc commands. Details fast syntax constructs for basic file copying, service manipulation, shell executions, and quick state analysis without the overhead of writing full-scale playbooks.
 #### Releases (1)
 
+  - **(2021)** [ansible.com: Announcing the Community Ansible 3.0.0 Package 🌟](https://www.redhat.com/en/blog/channel/open-source-communities)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the structural transition introduced in Ansible 3.0.0. Focuses on the architectural split that separated 'ansible-core' engine components from 'collections' packages, resolving dependency bottlenecks and streamlining modern community module delivery.
   - **(2021)** [Ansible 3.3.0 released](https://groups.google.com/g/ansible-devel/c/CdQ7eWUUm8k?pli=1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Release analysis for Ansible 3.3.0. Details backward compatibility constraints, system engine integration tests, updated community collections, and critical bug fixes mapped back to the underlying 'ansible-core' codebase.
 #### Scheduling and Automation
 
@@ -564,7 +559,7 @@ description: "Top Ansible resources for 2026, AI-ranked: AWX, jinja and more —
   - **(2021)** [vagrant: centos-awx](https://portal.cloud.hashicorp.com/vagrant/discover/krlex/centos-awx) <span class='md-tag md-tag--warning'>[RUBY CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specific Vagrant box packaging AWX pre-installed on CentOS. Provides a historical self-contained laboratory for testing old iterations of AWX before the modern, mandatory transition to Kubernetes-based runtime platforms.
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Crossplane](./crossplane.md) | [Devsecops](./devsecops.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

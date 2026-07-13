@@ -236,7 +236,7 @@
 ## GitOps Tools
   - [EntraExporter](https://github.com/microsoft/entraexporter) - *(Related to azure topic)*
   - [AWS EKS Argo CD Terraform Component](https://github.com/cloudposse-terraform-components/aws-eks-argocd) 🌟 - A Terraform component from Cloud Posse for provisioning Argo CD on AWS EKS, facilitating declarative GitOps continuous delivery for Kubernetes. Note that Argo CD CRDs need separate installation.
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - *(Related to cicd topic)*
+  - [FossFLOW](https://github.com/victortassinari/FossFLOW) - *(Related to cicd topic)*
   - [Announcing Private Preview: ArgoCD through Microsoft GitOps](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-private-preview-argocd-through-microsoft-gitops/4399747) 🌟 - Microsoft is announcing the private preview of ArgoCD delivered as a cluster extension for Azure Kubernetes Service (AKS) and Azure Arc-enabled Kubernetes. This offering aims to provide a consistent management, security, and deployment experience for ArgoCD across heterogeneous environments, complementing existing Flux support. Key advantages highlighted include simplified deployment, managed upgrades, official supportability, integration with Azure identity, and sample application deployments.
 
 - [FluxCD, ArgoCD or Jenkins X: Which Is the Right GitOps Tool for You?](https://blog.container-solutions.com/fluxcd-argocd-jenkins-x-gitops-tools)

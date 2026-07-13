@@ -156,7 +156,7 @@
 
 ## AWS Clients
 
-- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview)
+- [Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid](https://www.theregister.com/software/2016/07/13/trainlinecom-dumps-oracle-and-microsoft-gulps-aws-kool-aid/1097117)
 - [London DevOps - Trainline, A DevOps Journey - Chris Turvil](https://www.youtube.com/watch?v=IUvUmqu1MBQ)
 - [aws.amazon.com: Trainline Case Study](https://aws.amazon.com/solutions/case-studies)
 - [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank)

@@ -1,5 +1,5 @@
 ---
-description: "Top Container Managers resources for 2026, AI-ranked: Frakti, crun and more — curated Cloud Native tools, guides and references."
+description: "Top Container Managers resources for 2026, AI-ranked: podman, buildah and more — curated Cloud Native tools, guides and references."
 ---
 # Container Runtimes/Managers, Base Images and Container Tools. Podman, Buildah and Skopeo
 
@@ -221,9 +221,17 @@ description: "Top Container Managers resources for 2026, AI-ranked: Frakti, crun
   - **(2022)** [scrivano.org: the journey to speed up running OCI containers](https://scrivano.org/posts/2022-10-21-the-journey-to-speed-up-oci-containers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional technical post investigating performance optimization avenues for OCI containers. It explores the historical startup bottlenecks of container initialization and deep dives into storage drivers, container startup phases, and runtime improvements inside tools like crun.
 ## Infrastructure
 
-### Containers
+### Containerization (1)
 
 #### Image Building
+
+  - **(2026)** [blog.alexellis.io: Building containers without Docker 🌟](https://blog.alexellis.io/building-containers-without-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by cloud-native expert Alex Ellis, this post explores build tools (such as BuildKit, Buildah, and Kaniko) that compile container images without relying on a local Docker daemon. It unpacks the benefits of using non-docker setups inside Kubernetes CI/CD runner environments, avoiding Docker-in-Docker (DinD) security compromises. It serves as an essential manual for modern cloud pipeline designs.
+#### Runtimes (1)
+
+  - **(2026)** [What is Podman and How Does it Compare to Docker?](https://build5nines.com/what-is-podman-and-how-does-it-compare-to-docker) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural comparison analyzing the structural differences between Docker and Podman. It highlights Podman's daemonless, rootless-by-default execution model and explains how this design reduces security attack vectors compared to Docker's centralized daemon. It also details Podman's native support for pod-like multi-container groupings, easing transitions toward Kubernetes.
+### Containers
+
+#### Image Building (1)
 
   - **(2021)** [developers.redhat.com: Getting started with Buildah](https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A comprehensive Red Hat Developers guide detailing the architectural transition from Dockerfile-based workflows to Buildah commands. It provides deep insights into script-driven image creation, showing engineers how to build nested filesystems directly inside OCI containers. The guide is highly practical for migrating complex legacy enterprise builds into lightweight Kubernetes-native deployment artifacts.
 #### Image Management
@@ -232,6 +240,11 @@ description: "Top Container Managers resources for 2026, AI-ranked: Frakti, crun
 #### Migration
 
   - **(2022)** [youtube: How to live without Docker for developers - Part 1 | Migration from Docker to Buildah and Podman](https://www.youtube.com/watch?app=desktop&v=Fl0iLoAMdzc&ab_channel=AndrewMalkov) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A video-based tutorial guiding developers through migration from Docker to Podman and Buildah, detailing how to live without a daemon. It contrasts performance profiles, daemon socket vulnerabilities, and tool-chain integrations. Highly recommended for system architects looking to secure local environments and standardize on OCI-compliant developer workflows.
+### Kernel
+
+#### Resource Allocation
+
+  - **(2021)** [Controlling Process Resources with Linux Control Groups (cgroups)](https://labs.iximiuz.com/tutorials/controlling-process-resources-with-cgroups) <span class='md-tag md-tag--warning'>[C/BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A system-level deep dive explaining Linux control groups (cgroups v1/v2). Demonstrates how Kubernetes translates resource limits/requests in YAML manifests to cgroup system boundaries, enforcing CPU and memory quotas.
 ## Log Management and Diagnostics
 
 ### Command Line Tools
@@ -246,9 +259,21 @@ description: "Top Container Managers resources for 2026, AI-ranked: Frakti, crun
 #### Podman Compose Integration
 
   - **(2021)** [developers.redhat.com: Using Podman Compose with Microcks: A cloud-native API mocking and testing tool](https://developers.redhat.com/blog/2021/04/22/using-podman-compose-with-microcks-a-cloud-native-api-mocking-and-testing-tool) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates executing Microcks, a cloud-native API mocking and testing tool, with Podman Compose in unprivileged host environments. This integration enables developers to simulate OpenAPI, gRPC, and AsyncAPI services locally without the overhead or security risks of managing a complex virtualized Docker daemon.
+## Platform
+
+### Container Engines (2)
+
+#### Daemonless Runtimes
+
+  - **(2026)** [==podman==](https://podman.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Podman delivers a daemonless container engine framework for executing, managing, and building OCI containers. Rootless orchestration patterns are native to Podman, allowing seamless integration with Linux systemd configurations.
+### Container Security
+
+#### OCI Builders
+
+  - **(2026)** [==buildah==](https://buildah.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Buildah specializes in crafting OCI-compliant container images without requiring a background container daemon. It enables fine-grained Layer management, dramatically reducing the security footprint of target images by keeping build tools outside the final layers.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Openshift](./openshift.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

@@ -15,10 +15,10 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 
 #### General Reference
 
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
   - [dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟](https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟 in the Kubernetes Tools ecosystem.
   - [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included in the Kubernetes Tools ecosystem.
   - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Cloudformation vs. Terraform: Which is better? in the Kubernetes Tools ecosystem.
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
 ## Cloud Governance
 
 ### Enterprise Architecture
@@ -29,6 +29,11 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
 ## Cloud Infrastructure
 
+### AWS Automation
+
+#### Serverless Orchestration
+
+  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
 ### Azure Networking
 
 #### Multi-Tenant Topology
@@ -185,11 +190,6 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4b9ffdc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 7 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-4b9ffdc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
 ## Infrastructure as Code (3)
 
-### AI Integration (1)
-
-#### Copilot for Azure
-
-  - **(2025)** [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical optimization guide exploring the use of GitHub Copilot for drafting Bicep, ARM, and Terraform configurations. Shows how to engineer precise prompt schemas to maintain syntax standards.
 ### Architecture (1)
 
 #### Diagrams
@@ -207,7 +207,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

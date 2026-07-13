@@ -32,22 +32,13 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - [dzone: Managing Secrets Deployment in GitOps Workflow 🌟](https://dzone.com/articles/managing-kubernetes-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Managing Secrets Deployment in GitOps Workflow 🌟 in the Kubernetes Tools ecosystem.
   - [dzone: A Practical Guide for Container Security](https://dzone.com/articles/a-practical-guide-for-container-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: A Practical Guide for Container Security in the Kubernetes Tools ecosystem.
   - [itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison](https://www.itbusinessedge.com/security/okta-vs-azure-ad)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering itbusinessedge.com: Okta vs. Azure AD: IAM Tool Comparison in the Kubernetes Tools ecosystem.
-## CICD Pipeline
+## Cloud Architecture
 
-### Pipeline Automation
+### Infrastructure Automation
 
-#### JFrog Pipelines
+#### Hybrid Cloud Strategy
 
-  - **(2021)** [jfrog.com: How I Leaped Forward My Jenkins Build with JFrog Pipelines](https://jfrog.com/blog) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the transition of software build jobs from standard Jenkins architectures to optimized JFrog Pipelines. It details structural enhancements in build speeds, caching mechanisms, and overall pipeline orchestrations using Artifactory integrations. This technical blog demonstrates techniques for reducing CI bottleneck overhead.
-## Cloud Native
-
-### Application Delivery
-
-#### Package Management
-
-##### Introductory
-
-  - **(2021)** [harness.io: Introduction to Helm: Charts, Deployments, & More 🌟](https://www.harness.io/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact breakdown of Helm core components including Chart.yaml, value overriding mechanics, and templating practices. Details how modern continuous delivery engines natively incorporate Helm to optimize release logic.
+  - **(2021)** [cloudify.co: Your Guide to Infrastructure Automation & Hybrid Cloud Orchestration 🌟](https://docs.cloudify.co) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural manual focused on multi-cloud orchestration and automation frameworks. Discusses leveraging open-source TOSCA-based standards to orchestrate compute resources, handle multi-site network topologies, and coordinate complex deployments across multiple hypervisors.
 ## Cloud Native Operations
 
 ### Kubernetes
@@ -62,6 +53,13 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Pipeline Security
 
   - **(2022)** [Build trusted pipelines/Guards with Podman containers](https://www.redhat.com/en/blog/using-container-technology-make-trusted-pipeline) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes how to design highly secure, isolated CI/CD pipelines using Podman container guards. By isolating execution steps within unprivileged container sandboxes, this architecture protects build systems and host servers from security compromises.
+## Containers
+
+### Security and Hardening
+
+#### Supply Chain Security
+
+  - **(2020)** [thehackernews.com: Docker Images Containing Cryptojacking Malware Distributed via Docker Hub](https://thehackernews.com/2020/06/cryptocurrency-docker-image.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An urgent technical warning investigating cryptojacking campaigns spreading malware via compromised registries. Underscores the critical requirement for automated image validation and registry access restrictions.
 ## DevOps
 
 ### CICD Pipeline Security
@@ -82,6 +80,11 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Static Analysis
 
   - **(2021)** [securecoding.com: Code Audit: How to Ensure Compliance for an Application](https://www.securecoding.com/blog/code-audit-how-to-ensure-compliance-for-an-application) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on designing structural code auditing protocols to assure continuous regulatory and technical compliance. Outlines SAST/DAST tooling patterns, automated linting integration, and structured reviewer workflows. Designed for engineering managers seeking to build high-maturity compliance loops into software delivery pipelines.
+### Continuous Delivery
+
+#### Security Policy
+
+  - **(2020)** [computing.co.uk: CloudBees gets busy with security, visibility and control as DevOps evolves](https://www.computing.co.uk/news/4020521/cloudbees-busy-security-visibility-control-devops-evolves) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines corporate initiatives aimed at embedding security validations and automated pipeline compliance directly within Jenkins-based and unified enterprise orchestration systems.
 ### GitOps Secrets
 
 #### Mozilla SOPS
@@ -169,11 +172,18 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Open Source Curation
 
   - **(2021)** [cloud.redhat.com: Top Open Source Kubernetes Security Tools of 2021 🌟🌟](https://www.redhat.com/en/blog/top-open-source-kubernetes-security-tools-of-2021) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews top open-source security tooling from 2021, including static analysis tools, vulnerability scanners, runtime anomaly detectors, and compliance auditors used within CI/CD pipelines.
+## Linux
+
+### Security
+
+#### Auditing
+
+  - **(2021)** [sysadminxpert.com: How to do Security Auditing of CentOS System Using Lynis Tool](https://sysadminxpert.com/how-to-do-security-auditing-of-centos-system-using-lynis-tool) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Step-by-step tutorial on executing Lynis for systemic compliance checks, privilege audits, and vulnerability detection. Live grounding notes that while CentOS is deprecated, Lynis remains an enterprise-stable auditor on Rocky, Alma, and generic RHEL-family distributions.
 ## Networking and Security
 
 ### Kubernetes Networking
 
-#### Security and Hardening
+#### Security and Hardening (1)
 
   - **(2020)** [**blog.nody.cc: Verify your Kubernetes Cluster Network Policies: From Faith to Proof**](https://blog.nody.cc/posts/2020-06-kubernetes-network-policy-verification) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Focuses on validating network security policies using automated policy-verification and security-testing tools instead of assuming they work. Explains techniques for writing reliable assertions for ingress and egress rules. Live Grounding notes that modern 2026 enterprise teams actively integrate policy checkers (such as Sonobuoy, Cilium Hubble, or OPA) into CI/CD pipelines.
 ## Observability (1)
@@ -195,7 +205,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Validation and Linting
 
   - **(2025)** [==KubeLinter==](https://github.com/stackrox/kube-linter) <span class='md-tag md-tag--info'>⭐ 3469</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-99439a6f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 5 L 20 4 L 30 13 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-99439a6f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-grade static analyzer for raw Kubernetes manifest files and Helm charts. Translates security benchmarks, privileged container checks, and missing resource limits into actionable DevOps signals.
-## Security
+## Security (1)
 
 ### AI and SecOps
 
@@ -707,7 +717,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
 #### Dependency Management
 
   - **(2022)** [blog.sonatype.com: Python Packages Upload Your AWS Keys, env vars, Secrets to the Web](https://www.sonatype.com/blog/python-packages-upload-your-aws-keys-env-vars-secrets-to-web) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical warning analysis of malicious packages uploaded to public registries like PyPI. Details how typosquatting and supply-chain compromises are used to harvest AWS credentials and environment variables, highlighting the importance of dependency locking and private proxy firewalls.
-### Supply Chain Security
+### Supply Chain Security (1)
 
 #### AWS Integration
 
@@ -956,7 +966,7 @@ description: "Top Devsecops resources for 2026, AI-ranked: Clair, trivy and more
   - **(2022)** [permission.site](https://permission.site)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive security validation platform that allows engineers to test how various browser APIs, iframe permissions, and Content Security Policies (CSP) behave, enabling precise verification of client-side web application security postures.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [IaC](./iac.md) | [Ansible](./ansible.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

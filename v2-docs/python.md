@@ -222,9 +222,6 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
   - **(2025)** [**WinPython: Portable Scientific Python 2/3 32/64bit Distribution for Windows**](https://sourceforge.net/projects/winpython) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents WinPython as a portable, isolated scientific Python distribution for Windows environments. Live Grounding confirms its value for locked-down systems, giving data scientists complete offline capabilities without requiring administrator installation permissions.
 ### Tooling
 
-#### Data Wrangling
-
-  - **(2023)** [**Getting Started with Data Wrangler in VS Code**](https://code.visualstudio.com/docs/datascience/data-wrangler) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight outlines VS Code's visual data preparation extension. Live Grounding shows that Data Wrangler bridges the visual gap in exploratory data analysis (EDA), generating reproducible Python code in Pandas and Polars dialects directly inside Jupyter environments.
 #### Excel Integration
 
   - **(2024)** [pyxll-jupyter: Integration for Jupyter notebooks and Microsoft Excel](https://github.com/pyxll/pyxll-jupyter) <span class='md-tag md-tag--info'>⭐ 162</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c8140407" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 6 L 20 7 L 30 2 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-c8140407)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight showcases PyXLL-Jupyter as an extension that runs Jupyter notebooks directly inside Excel sheets. Live Grounding confirms it serves as a critical bridge in corporate financial modeling, allowing analysts to enrich spreadsheet data using high-powered Python libraries.
@@ -295,9 +292,6 @@ Live Grounding: Synthesizes programmatic data mining, parsing web crawler paths 
 #### Cloud Automation
 
   - **(2014)** [Managing the Cloud with a Few Lines of Python (EuroPython 2014)](https://pyvideo.org/video/2987/managing-the-cloud-with-a-few-lines-of-python) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight indexes a EuroPython presentation on utilizing Python to script cloud systems. Live Grounding positions this as a major historical milestone, showcasing the fundamental paradigms that enabled modern declarative and programmatic Infrastructure-as-Code (IaC) architectures.
-#### Command Line Utilities
-
-  - **(2016)** [ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)](https://pypi.org/project/ec2-ssh-yplan) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight presents a set of CLI wrappers for resolving AWS EC2 instance metadata to facilitate fast SSH access. Live Grounding indicates that modern secure architectures prioritize AWS Systems Manager Session Manager (SSM) and private endpoint setups over direct, port-22 SSH routing models.
 ### Kubernetes (1)
 
 #### Data Science Platform
@@ -831,7 +825,7 @@ Live Grounding: Assesses PyScript's interface layer, detailing direct DOM manipu
   - **(2015)** [TDD with Django, from scratch: a beginner's intro to testing and web development](https://www.pyvideo.org/video/3509/tdd-with-django-from-scratch-a-beginners-intro) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Historical tutorial introducing Test-Driven Development (TDD) concepts in Django. Evaluates assertion workflows, testing isolated model components, and unit test integrations within early Python CI environments.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
 
