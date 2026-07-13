@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [[2.9.60]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.60) - 2026-07-13
+## [[2.9.61]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.61) - 2026-07-13
 
 ### Added
 - **Compile-time Safety Assertions for Injections**: Added permanent compiler assertions in `v2_optimizer.py` verifying that JCasC, Pipeline Principles, Best Practices, and OpenShift callout boxes are successfully merged into the V2 Jenkins page, failing the build immediately on any silent regression.
