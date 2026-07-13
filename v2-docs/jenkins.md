@@ -34,6 +34,32 @@ description: "Top Jenkins resources for 2026, AI-ranked: git-plugin, Warnings Ne
   - [Building Docker images when running Jenkins in Kubernetes](https://www.reddit.com/r/jenkinsci/comments/ctirsc/building_docker_images_when_running_jenkins_in)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Building Docker images when running Jenkins in Kubernetes in the Kubernetes Tools ecosystem.
 ## CICD
 
+!!! info "[Pipeline as Code with Jenkins: Architectural Core Principles](https://www.jenkins.io/solutions/pipeline)"
+    As defined in the official [Jenkins Pipeline Book](https://www.jenkins.io/doc/book/pipeline), Jenkins is fundamentally an automation engine that supports diverse delivery patterns. Modeling your delivery workflow as a **Pipeline** adds a powerful set of automation capabilities:
+    
+    *   **Code**: Pipelines are implemented directly in code (usually a `Jenkinsfile`) and checked into version control, enabling peer code reviews and auditability.
+    *   **Durable**: Pipelines are built to survive both planned and unplanned restarts of the Jenkins controller.
+    *   **Pausable**: Pipelines can pause execution to wait for human approval or input before proceeding to deployment.
+    *   **Versatile**: They naturally support complex real-world CD topologies, including parallel execution, looping, and fork/join patterns.
+    *   **Extensible**: The Pipeline [DSL](https://en.wikipedia.org/wiki/Domain-specific_language) supports custom extensions (e.g., Shared Libraries) and integrations with external plugins.
+
+!!! info "[Jenkins Pipeline Best Practices: Declarative, Scripted, and Shared Libraries](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin)"
+    Based on CloudBees' strategic guide: [Top 10 Jenkins Pipeline Best Practices](https://www.cloudbees.com/blog/top-10-best-practices-jenkins-pipeline-plugin):
+    
+    *   **Prefer Declarative Syntax**: Declarative syntax (introduced in 2017) is the modern standard. Many advanced features—such as matrix builds—are exclusively available in Declarative. Avoid legacy Scripted syntax (2014) unless absolutely necessary.
+    *   **Use Shared Libraries to Avoid Inline Scripts**: Using `script` tags inside a Declarative pipeline is an anti-pattern. Instead of inline Groovy scripting, encapsulate complex logic as custom steps inside a version-controlled **Shared Library**.
+    *   **Do Not Treat Shared Libraries as General Programming Projects**: Pipelines should only orchestrate CI tasks, not run complex business logic. Heavy computations or scripting inside a Shared Library execute on the Jenkins controller (master) rather than the build agents, causing severe memory leaks and performance bottlenecks.
+    *   **Scripted Syntax Fallback**: Only resort to Scripted syntax when a task cannot be achieved using a combination of Declarative syntax and a custom Shared Library step.
+    *   **Declarative inside Shared Libraries**: **Shared-libraries with scripted pipeline syntax are not recommended** since more custom coding involves more maintenance issues. Use **Declarative Pipeline Syntax** as much as possible inside your libraries.
+
+
+!!! info "[Building Declarative Pipelines with OpenShift: Jenkinsfile as Code and Syntax Structures](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin)"
+    As detailed in Red Hat's engineering guide: [Building Declarative Pipelines with OpenShift DSL Plugin](https://www.redhat.com/en/blog/building-declarative-pipelines-openshift-dsl-plugin):
+    
+    *   **Jenkinsfiles as the De-Facto Standard**: Since Jenkins 2, Jenkinsfiles have quickly become the **de-facto standard for building continuous delivery pipelines**, allowing teams to track, review, audit, and manage the pipeline lifecycle inside source version control just like application code.
+    *   **Scripted vs. Declarative Execution**: While the Groovy-based **scripted syntax** was the default in Jenkins 2, the **declarative syntax** (introduced in Jenkins 2.5) offers a simplified way to control all pipeline aspects. Ultimately, **both syntaxes translate to the same execution blocks** in Jenkins and achieve the same result.
+    *   **Structure of Declarative Pipelines**: In its simplest form, a declarative pipeline is composed of an **`agent`** (defining the build executor/slave) and a series of **`stages`**, with each stage containing the specific **`steps`** to be executed.
+
 ### Administration
 
 #### Migration Utilities
@@ -78,6 +104,40 @@ description: "Top Jenkins resources for 2026, AI-ranked: git-plugin, Warnings Ne
   - **(2021)** [youtube LambdaTest: Jenkins Tutorial For Beginners | Part 9 | Cross Browser Testing With LambdaTest Jenkins Plugin](https://www.youtube.com/watch?v=x5cyrE9ecis&ab_channel=LambdaTest)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows integration of the LambdaTest automated cross-browser matrix plugin inside Jenkins pipeline stages. *Curator Insight*: UI and browser testing. *Live Grounding*: Critical for frontend systems to execute visual verification and cross-browser coverage during the CI stage.
   - **(2021)** [automationqahub.com: How To Publish ExtentReport Using Jenkins](https://automationqahub.com/how-to-publish-extentreport-using-jenkins)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shows how to integrate the Jenkins HTML Publisher plugin to generate interactive ExtentReport test reports inside build views. *Curator Insight*: Publishing test metrics. *Live Grounding*: Essential for making automation test feedback available inside build dashboards.
 ### Configuration As Code
+
+!!! info "Jenkins Configuration as Code (CasC) Architectural Reference"
+    To design a robust, modern, and reproducible Jenkins infrastructure in 2026, you must understand the distinction and interplay between the three complementary Configuration-as-Code layers.
+    
+    ### 1. The Controller Layer: [Jenkins Configuration as Code (JCasC)](https://plugins.jenkins.io/configuration-as-code)
+    Managing the controller's settings, plugin installations, and credentials via the web UI creates operational snowflakes. JCasC solves this by defining the entire controller configuration in declarative YAML files.
+    - **Key Resources**:
+        - [Official JCasC Plugin 🌟](https://plugins.jenkins.io/configuration-as-code) — The entry point for declaring your Jenkins configuration in YAML.
+        - [Example of JCasC for Kubernetes 🌟](https://github.com/figaw/configuration-as-code-jenkins-k8s) — A practical bootstrap reference.
+        - [Read-only Jenkins Configuration 🌟](https://www.jenkins.io/blog/2020/05/25/read-only-jenkins-announcement/) — Lock down the UI configuration screens using JEP-224 to enforce CasC immutability.
+    
+    ### 2. The Job Generation Layer: [Job DSL Plugin](https://plugins.jenkins.io/job-dsl)
+    If you have hundreds of repositories, manually creating Jenkins jobs is non-viable. The Job DSL plugin allows you to describe Jenkins jobs programmatically using a Groovy-based DSL.
+    - **Key Resources**:
+        - [Job DSL Plugin 🌟](https://plugins.jenkins.io/job-dsl) — Programmatic job generation.
+        - [Jenkins Job DSL API Reference 🌟](https://jenkinsci.github.io/job-dsl-plugin) — Comprehensive API reference documentation.
+        - [Guide: Jenkins Jobs as Code with Groovy DSL 🌟](https://tech.gogoair.com/jenkins-jobs-as-code-with-groovy-dsl-c8143837593a) — A step-by-step introduction.
+    
+    ### 3. The Pipeline Execution Layer: [Jenkins Declarative Pipeline](https://www.jenkins.io/solutions/pipeline)
+    The execution steps of your build, test, and deploy pipeline belong in the application repository. The `Jenkinsfile` defines this using the Declarative Pipeline syntax, which provides a structured, version-controlled delivery flow.
+    - **Key Resources**:
+        - [Pipeline as Code with Jenkins 🌟](https://www.jenkins.io/solutions/pipeline) — Conceptual overview.
+        - [Jenkinsfile Syntax Book 🌟](https://www.jenkins.io/doc/book/pipeline/jenkinsfile) — Official syntax and grammar reference.
+        - [DZone Refcard: Declarative Pipeline with Jenkins 🌟](https://dzone.com/refcardz/declarative-pipeline-with-jenkins) — Quick reference sheet.
+        - [Dzone Refcard: Continuous Delivery with Jenkins Pipeline 🌟](https://dzone.com/refcardz/continuous-delivery-with-jenkins-pipeline) — CD workflow design.
+
+    ### 4. The Visual/User Interface Layer: [Pipeline Graph View Plugin](https://plugins.jenkins.io/pipeline-graph-view)
+    With the official deprecation of the Blue Ocean plugin, the Pipeline Graph View plugin is the de-facto standard for interactive pipeline visualizations directly embedded in the native Jenkins UI.
+    - **Key Resources**:
+        - [Pipeline Graph View Plugin 🌟](https://plugins.jenkins.io/pipeline-graph-view) — The modern interactive UI to view execution graphs and stages.
+        - [pipeline-graph-view-plugin repository 🌟](https://github.com/jenkinsci/pipeline-graph-view-plugin) — Open-source repository for the Pipeline Graph View project.
+
+    ---
+    💡 **Architectural Recommendation**: Use **JCasC** to set up the controller, **Job DSL** to generate your multibranch pipeline jobs automatically, and a **Declarative Jenkinsfile** inside each repo to define the build steps. Enrich the visual feedback loop by deploying the **Pipeline Graph View Plugin**, and lock the UI down to read-only mode to prevent configuration drift.
 
 #### Docker Deployment
 
