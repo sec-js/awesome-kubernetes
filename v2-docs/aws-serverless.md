@@ -11,11 +11,21 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 
 ## API Management
 
-### GraphQL and AppSync
+### Graphql and Appsync
 
 #### Security
 
   - **(2022)** [How to enforce user quota on AWS AppSync with Lambda Authorizer](https://aws.amazon.com/blogs/mobile/how-to-enforce-user-quota-on-aws-appsync-with-lambda-authorizer) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to design custom Lambda Authorizers for AWS AppSync (GraphQL) to implement rate-limiting, user tier quotas, and tenant-based isolation. Reduces compute strain by verifying credentials and quotas at the API edge.
+## CICD and DevOps
+
+### Serverless Deployment
+
+#### AWS SAM
+
+  - **(2021)** [Simplify CI/CD configuration for serverless applications and your favorite CI/CD system — Public Preview](https://aws.amazon.com/about-aws/whats-new/2021/07/simplify-ci-cd-configuration-serverless-applications-your-favorite-ci-cd-system-public-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores AWS's expanded support for external CI/CD toolkits using SAM. It simplifies deployment templates, lowers barriers to multi-environment promotions, and enables secure AWS credential management using OpenID Connect (OIDC) with major git repository providers.
+#### AWS SAM Pipelines
+
+  - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
 ## Cloud Platforms
 
 ### Serverless Architecture
@@ -53,24 +63,14 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 #### Serverless Containers
 
   - **(2022)** [deloitte.com: Fargate con EKS](https://www.deloitte.com/es/es/services/consulting/blogs/todo-tecnologia/fargate-con-eks.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates using AWS Fargate with Amazon EKS to run serverless Kubernetes pods. Eliminates the overhead of configuring, patching, and scaling standard EC2 worker node pools, transferring structural management duties back to AWS.
-## DevOps and CICD
-
-### Serverless Deployment
-
-#### AWS SAM
-
-  - **(2021)** [Simplify CI/CD configuration for serverless applications and your favorite CI/CD system — Public Preview](https://aws.amazon.com/about-aws/whats-new/2021/07/simplify-ci-cd-configuration-serverless-applications-your-favorite-ci-cd-system-public-preview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores AWS's expanded support for external CI/CD toolkits using SAM. It simplifies deployment templates, lowers barriers to multi-environment promotions, and enables secure AWS credential management using OpenID Connect (OIDC) with major git repository providers.
-#### AWS SAM Pipelines
-
-  - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
 ## Infrastructure
 
 ### Automation
 
-#### AWS Lambda and EventBridge
+#### AWS Lambda and Eventbridge
 
   - **(2024)** [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational video walkthrough demonstrating serverless compute cost-reduction routines. Details how to coordinate AWS Lambda with EventBridge cron schedules to automate lifecycle actions for EC2 fleets.
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### AWS CDK
 
@@ -96,7 +96,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
   - **(2022)** [Migrating a monolithic .NET REST API to AWS Lambda](https://aws.amazon.com/blogs/compute/migrating-a-monolithic-net-rest-api-to-aws-lambda) <span class='md-tag md-tag--warning'>[C# CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formulates a structured migration plan to convert a monolithic ASP.NET Core Web API into a serverless AWS Lambda execution environment. Evaluates the use of the Amazon.Lambda.AspNetCoreServer bridge, highlighting cold start profiling and memory management strategies.
 ## Observability and Monitoring
 
-### CloudWatch
+### Cloudwatch
 
 #### Alerting Systems
 
@@ -122,7 +122,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 
 ### API Gateway
 
-#### REST APIs
+#### REST Apis
 
   - **(2022)** [freecodecamp.org: How to Setup a Basic Serverless REST API with AWS Lambda and API Gateway](https://www.freecodecamp.org/news/how-to-setup-a-basic-serverless-backend-with-aws-lambda-and-api-gateway) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A beginner-oriented walkthrough demonstrating the integration of Amazon API Gateway with AWS Lambda. Illustrates how to build an HTTP endpoint, configure CORS, parse incoming JSON request payloads, and return standardized JSON responses to a frontend client.
 ### AWS Lambda (1)
@@ -161,7 +161,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 #### Selection Criteria
 
   - **(2023)** [theserverlessmindset.com: Choosing the Best Database for Your Serverless Project](https://www.theserverlessmindset.com/p/best-serverless-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive comparison of serverless-friendly databases, covering DynamoDB, Aurora Serverless, Supabase, and PlanetScale. Focuses on scaling limits, execution connection limits, cold-start latency, and transactional suitability.
-### Event-Driven
+### Event-driven
 
 #### Design Patterns
 
@@ -178,7 +178,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

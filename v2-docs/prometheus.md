@@ -1,5 +1,5 @@
 ---
-description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collector, Pushgateway and more — curated Cloud Native tools, guides and references."
+description: "Top Prometheus resources for 2026, AI-ranked: Pushgateway, OpenTelemetry Collector and more — curated Cloud Native tools, guides and references."
 ---
 # Prometheus
 
@@ -34,6 +34,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 ##### Database Monitoring
 
   - **(2020)** [sysdig.com: Top 10 metrics in PostgreSQL monitoring with Prometheus 🌟](https://www.sysdig.com/blog/postgresql-monitoring) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth article evaluating the top 10 PostgreSQL performance metrics to monitor with Prometheus via postgres_exporter. Highlights queries, cache hit ratios, active connections, vacuum frequency, lock contentions, and replication lag optimization.
+  - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
 ##### Deployment
 
   - **(2020)** [howtoforge.com: How to Install Prometheus System Monitoring Tool on Ubuntu 20.04](https://www.howtoforge.com/how-to-install-prometheus-on-ubuntu-20-04) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A standard system administration guide explaining the manual compilation, security provisioning, and installation of the Prometheus system monitoring engine on Ubuntu 20.04 LTS servers. Focuses on directory provisioning, systemd automation, and basic target verification.
@@ -82,6 +83,11 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2019)** [youtube playlist: How to setup Prometheus 🌟](https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured video playlist designed for developers and administrators learning Prometheus. Walks through server configuration, writing simple PromQL metric expressions, creating Prometheus alerting rules, and building operational metrics dashboards in Grafana.
 ## Cloud Native Platforms
 
+### AWS
+
+#### Managed Observability
+
+  - **(2026)** [Amazon Managed Service for Prometheus](https://aws.amazon.com/prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS fully-managed metric service designed around open-source Cortex core architecture. Automatically scales telemetry storage, ingestion, and query resources in secure enterprise environments.
 ### Azure
 
 #### Azure Monitor Integration
@@ -89,7 +95,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2025)** [Promitor 🌟](https://promitor.io) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An Azure Monitor collector that translates native Microsoft cloud diagnostics into a standard Prometheus-compatible API format, linking closed-source telemetry with open tools.
 ### Google Cloud Platform
 
-#### Managed Observability
+#### Managed Observability (1)
 
   - **(2026)** [cloud.google.com: Google Cloud Managed Service for Prometheus](https://docs.cloud.google.com/stackdriver/docs/managed-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering configuration docs for GCP's managed Prometheus service. Guides users on setting up GKE-based scrapers and writing scalable PromQL statements.
   - **(2021)** [cloud.google.com: Get planet-scale monitoring with Managed Service for Prometheus](https://cloud.google.com/blog/products/operations/introducing-google-cloud-managed-service-for-prometheus) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement details of Google's managed Prometheus service. Details how GCP scales metric workloads globally using Monarch storage engines while preserving native PromQL and operator structures.
@@ -98,17 +104,20 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2022)** [cloud.google.com: Google Cloud Managed Service for Prometheus is now generally available](https://cloud.google.com/blog/products/devops-sre/easy-managed-prometheus-metrics-service-for-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical general availability statement for Google's managed Prometheus. Highlights seamless backend compatibility designed to handle high-frequency system workloads.
 ### Kubernetes
 
-#### Multi-Arch Telemetry
+#### Helm Deployments
+
+  - **(2026)** [prometheus-community/kube-prometheus-stack 🌟🌟](https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard Helm chart package representing the Kubernetes Prometheus Operator stack. Streamlines deployment of custom resources like ServiceMonitors and PrometheusRules.
+#### Multi-arch Telemetry
 
   - **(2025)** [==Cluster Monitoring stack for ARM / X86-64 platforms==](https://github.com/carlosedp/cluster-monitoring) <span class='md-tag md-tag--info'>⭐ 754</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c7b3de5e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 2 L 20 11 L 30 2 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-c7b3de5e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized telemetry suite crafted for physical, edge, and multi-architecture Kubernetes clusters running on ARM or x86 systems. Extends modern operators to resource-constrained environments.
 ## Infrastructure
 
 ### Message Brokers
 
-#### ActiveMQ
+#### Activemq
 
   - **(2024)** [==Apache Artemis JMeter==](https://github.com/apache/artemis) <span class='md-tag md-tag--info'>⭐ 1024</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3be59a46" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-3be59a46)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official source repository for Apache ActiveMQ Artemis. Built with Netty, this broker delivers low-latency messaging, supports AMQP, MQTT, and STOMP, and provides an efficient data distribution engine for high-density architectures.
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### Ansible
 
@@ -126,31 +135,39 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### Telegraf Deployment
 
   - **(2024)** [Telegraf Ansible Role](https://github.com/rossmcdonald/telegraf) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Ansible playbook role to provision and configure the Telegraf agent across varied Linux operating systems. Automates configuration generation and systemd unit registration.
+### Helm
+
+#### Prometheus Deployment (1)
+
+  - **(2023)** [Setup Prometheus Using Helm Chart on Kubernetes](https://devopscube.com/setup-prometheus-helm-chart) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical guide on installing a production-ready Prometheus instance into Kubernetes using Helm. Explains configuring persistent storage claims, setting retention policies, and overriding default ingress objects.
 ### Package Archives
 
 #### Metric Collection
 
   - **(2020)** [telegraf-1.14.0-1 (rpm)](https://www.influxdata.com/time-series-platform/telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A targeted RPM bundle archive compiling Telegraf 1.14 alongside dependencies like Apache ActiveMQ scripts. Retained for air-gapped systems running legacy RedHat workloads.
+#### Visualization
+
+  - **(2020)** [grafana-6.7.2-1.x86_64.rpm](https://grafana.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy RPM binary package of Grafana 6.7.2. Kept as a reference point for historical dashboards and older enterprise network configurations.
 ## Kubernetes Tools
 
 ### General Reference
 
-  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
-  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [Monitoring Self-Destructing Apps Using Prometheus](https://dzone.com/articles/prometheus-collectors)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Monitoring Self-Destructing Apps Using Prometheus in the Kubernetes Tools ecosystem.
   - [Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus](https://dzone.com/articles/ensure-high-availability-and-uptime-with-kubernete)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Ensure High Availability and Uptime With Kubernetes Horizontal Pod Autoscaler (HPA) and Prometheus in the Kubernetes Tools ecosystem.
   - [Set Up and Integrate Prometheus With Grafana for Monitoring.](https://dzone.com/articles/monitoring-using-spring-boot-20-prometheus-and-gra)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Set Up and Integrate Prometheus With Grafana for Monitoring. in the Kubernetes Tools ecosystem.
+  - [logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io](https://logz.io/blog/aws-lambda-metrics-monitoring-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io: A Guide to Monitoring AWS Lambda Metrics with Prometheus & Logz.io in the Kubernetes Tools ecosystem.
   - [dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards](https://dzone.com/articles/deploying-prometheus-and-grafana-as-applications-u)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Deploying Prometheus and Grafana as Applications Using ArgoCD — Including' Dashboards== in the Kubernetes Tools ecosystem.
   - [cncf.io: Prometheus announces an Agent to address a new range of use cases](https://www.cncf.io/blog/2021/11/16/prometheus-announces-an-agent-to-address-a-new-range-of-use-cases)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Prometheus announces an Agent to address a new range of use cases in the Kubernetes Tools ecosystem.
   - [dzone: Flux queries](https://dzone.com/articles/flux-windowing-and-aggregation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Flux queries in the Kubernetes Tools ecosystem.
   - [Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ)](https://www.openlogic.com/blog/prometheus-java-monitoring-and-gathering-data)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Example: How to Use Prometheus Monitoring With Java to Gather Data. Gathering' Java Metrics with Prometheus Monitoring (ActiveMQ) in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.cncf.io/blog/2021/04/29/from-distributed-tracing-to-apm-taking-opentelemetry-and-jaeger-up-a-level)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.cncf.io in the Kubernetes Tools ecosystem.
   - [logz.io](https://logz.io)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering logz.io in the Kubernetes Tools ecosystem.
+  - [openlogic.com: How to develop Grafana Dashboards 🌟](https://www.openlogic.com/blog/how-visualize-prometheus-data-grafana)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering openlogic.com: How to develop Grafana Dashboards 🌟 in the Kubernetes Tools ecosystem.
 ## Middleware
 
 ### Messaging Orchestration
 
-#### ActiveMQ Classic
+#### Activemq Classic
 
   - **(2026)** [activemq.apache.org/components/classic/documentation](https://activemq.apache.org/components/classic/documentation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for ActiveMQ Classic. Walks developers through configuring JMX performance statistics, thread monitoring, and telemetry collection with tools like Telegraf.
 #### Artemis Extensions
@@ -180,8 +197,9 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 
   - **(2024)** [==github.com/cortexproject/cortex==](https://github.com/cortexproject/cortex) <span class='md-tag md-tag--info'>⭐ 5811</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9287ae06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 8 L 20 8 L 30 9 L 40 2 L 50 4" fill="none" stroke="url(#spark-grad-9287ae06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository for Cortex. Implements Prometheus as a service, allowing isolated multi-tenancy, long-term metric durability in object storage (S3/GCS), and horizontally scalable querying.
   - **(2024)** [**Cortex**:](https://cortexmetrics.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural landing page of Cortex, an enterprise-grade, horizontally scalable, multi-tenant TSDB. Note: Since 2024-2025, many users have migrated toward Thanos or VictoriaMetrics, yet Cortex remains a highly resilient classic for long-term storage.
-#### InfluxDB
+#### Influxdb
 
+  - **(2022)** [influxdb-templates](https://www.influxdata.com) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pre-packaged configurations and manifests containing Telegraf setups, dashboards, and alert rules. Simplifies rapid deployment of specialized monitoring tasks (e.g., Redis, Nginx) within InfluxDB.
   - **(2022)** [influxdata.com: InfluxDB Tech Tips: API Invokable Scripts in InfluxDB Cloud](https://www.influxdata.com/blog/tldr-influxdb-tech-tips-api-invokable-scripts-influxdb-cloud) <span class='md-tag md-tag--warning'>[FLUX CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to leverage API Invokable Scripts in InfluxDB Cloud to run parameterized queries over HTTP, creating lightweight backend APIs for custom metric visualization utilities.
   - **(2021)** [influxdata.com: Building a Metrics & Alerts as a Service (MaaS) Monitoring Solution Using the InfluxDB Stack](https://www.influxdata.com/blog/building-a-metrics-alerts-as-a-service-maas-monitoring-solution-using-the-influxdb-stack) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores an architecture for metrics and alerting as a service (MaaS) built on the InfluxDB stack. Highlights utilizing multi-tenancy, dynamic bucket allocations, and custom push metric pipelines.
   - **(2021)** [thenewstack.io: Make a GitOps Workflow Using InfluxDB Templates](https://thenewstack.io/make-a-gitops-workflow-using-influxdb-templates) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates how to manage InfluxDB templates inside a GitOps continuous deployment pipeline. Highlights automated testing, version control, and validation of monitoring components via declarative mechanisms.
@@ -196,7 +214,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2021)** [github.com/ruanbekker: Thanos Cluster Setup](https://github.com/ruanbekker/thanos-cluster-setup) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer guide outlining the architectural deployment of a highly available Thanos cluster with Docker Compose. Demonstrates configuring Thanos Sidecar, Querier, Store Gateway, and S3 object storage targets.
 ### Load Testing
 
-#### k6 Integrations
+#### K6 Integrations
 
   - **(2022)** [youtube: Monitoring your k6 load test: how to install Grafana and Prometheus on a Kubernetes cluster](https://www.youtube.com/watch?v=GL2v81xYuAQ&ab_channel=k6) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step tutorial on integrating k6 load tests with Prometheus and Grafana on Kubernetes. Explains configuring the k6 operator, exposing metrics, and visualising request rate and response distribution dashboards.
 ### Metrics
@@ -206,13 +224,10 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2026)** [==Telegraf Prometheus Output Plugin==](https://github.com/influxdata/telegraf/tree/master/plugins/outputs/prometheus_client) <span class='md-tag md-tag--info'>⭐ 17615</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6d66d1c2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 2 L 20 7 L 30 12 L 40 5 L 50 4" fill="none" stroke="url(#spark-grad-6d66d1c2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Source code and implementation guide for Telegraf's Prometheus output integration. Allows standard push-based collection architectures to export telemetry data via a pull-based scraping API.
 ### Monitoring
 
-#### Metrics Collection
-
-  - **(2024)** [Prometheus](https://nubenetes.com/prometheus/#aws-managed-services-for-prometheus-and-grafana) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. It utilizes a pull-based metrics collection model over HTTP, powered by a highly efficient dimensional data model (TSDB) with PromQL. Essential for Kubernetes cloud-native environments, it excels in dynamic service discovery and real-time operational visibility.
 #### Prometheus Getting Started
 
   - **(2023)** [grafana.com: Get started with Prometheus with these three easy projects](https://grafana.com/blog/get-started-with-prometheus-with-these-three-easy-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on, multi-project tutorial designed to build core competencies with Prometheus metrics collections, PromQL search syntax, and standard Node Exporter integrations.
-#### Prometheus Meta-Monitoring
+#### Prometheus Meta-monitoring
 
   - **(2023)** [grafana.com: How we use metamonitoring Prometheus servers to monitor all other Prometheus servers at Grafana Labs](https://grafana.com/blog/how-we-use-metamonitoring-prometheus-servers-to-monitor-all-other-prometheus-servers-at-grafana-labs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance monitoring case study from Grafana Labs. Illustrates the architectural pattern of metamonitoring, utilizing dedicated Prometheus servers to watch, query, and alert on larger global telemetry networks.
 ### Monitoring Integrations
@@ -223,7 +238,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### Ingress and Proxy
 
   - **(2021)** [dev.to: How to monitor nginx in Kubernetes with Prometheus](https://dev.to/eckelon/how-to-monitor-nginx-in-kubernetes-with-prometheus-j5f) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Covers setting up Prometheus metrics for Nginx in Kubernetes clusters. Discusses configuring sidecars using Nginx VTS or official stub status metrics to trace payload rates and latency distribution.
-### OpenTelemetry
+### Opentelemetry
 
 #### Collector Infrastructure
 
@@ -243,7 +258,7 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### SDK Bootstraps
 
   - **(2021)** [OpenTelemetry Launchers 🌟](https://github.com/search?q=org%3Alightstep+launcher) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Repository group containing Lightstep’s multi-language configuration wrappers. Designed to assist telemetry setup, though developers in 2026 have transitioned to upstream OTel SDK extensions for long-term support.
-#### Zero-Code Instrumentation
+#### Zero-code Instrumentation
 
   - **(2021)** [thenewstack.io: Lightstep’s OpenTelemetry Launchers Simplify Integration to Line of Code](https://thenewstack.io/lightsteps-opentelemetry-launchers-simplify-integration-to-line-of-code) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical analysis of Lightstep’s OTel Launchers, designed to streamline SDK initialization down to a single configuration command. Curator Insight: Provides simplified bootstrappers. Live Grounding: Modern architectures have shifted fully to official upstream OpenTelemetry auto-instrumentation packages.
 ### Prometheus (2)
@@ -296,18 +311,6 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### Releases and Governance
 
   - **(2022)** [sysdig.com: Prometheus 2.37 – The first long-term supported release! 🌟](https://www.sysdig.com/blog) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architecture and long-term support (LTS) lifecycle of the Prometheus 2.37 release. Addresses enterprise-level security backports, stability matrices, and long-term patch guarantees.
-### SLAs and SLOs
-
-#### Generators
-
-  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2501</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3443744" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 13 L 30 11 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e3443744)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
-  - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-113e1f97" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 5 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-113e1f97)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
-#### Jsonnet Libraries
-
-  - **(2022)** [==slo-libsonnet==](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a00b5eb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 6 L 30 10 L 40 13 L 50 9" fill="none" stroke="url(#spark-grad-1a00b5eb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modular Jsonnet library designed for defining and generating Prometheus-based SLOs, multi-window burn rates, and dashboards using a modular configuration-as-code pattern. Highly compatible with kube-prometheus.
-#### Reference Implementation
-
-  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f1a985c0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 6 L 30 12 L 40 7 L 50 11" fill="none" stroke="url(#spark-grad-f1a985c0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
 ### Scraping and Exporters
 
 #### Blackbox Probing
@@ -330,12 +333,24 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
   - **(2020)** [engineeringblog.yelp.com: Improving the performance of the Prometheus JMX Exporter](https://engineeringblog.yelp.com/2020/10/improving-the-performance-of-the-prometheus-jmx-exporter.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study exploring performance bottlenecks in the standard JMX Exporter. Details tuning allocations and scrape intervals to dramatically reduce CPU and garbage collection overhead in heavily metrics-dense Cassandra clusters.
 #### Kubernetes Exporters
 
-  - **(2023)** [==sstarcher/helm-exporter==](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 301</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-150b93f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 10 L 30 6 L 40 7 L 50 7" fill="none" stroke="url(#spark-grad-150b93f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
   - **(2023)** [==k8s-image-availability-exporter==](https://github.com/deckhouse/k8s-image-availability-exporter) <span class='md-tag md-tag--info'>⭐ 251</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-783cc18a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 8 L 20 4 L 30 9 L 40 7 L 50 9" fill="none" stroke="url(#spark-grad-783cc18a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized Prometheus exporter that continuously verifies container registry availability for images specified in Kubernetes configurations. Helps catch container start failures (e.g., ErrImagePull) before pods crash.
+  - **(2023)** [==sstarcher/helm-exporter==](https://github.com/sstarcher/helm-exporter) <span class='md-tag md-tag--info'>⭐ 301</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-150b93f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 8 L 20 10 L 30 6 L 40 7 L 50 7" fill="none" stroke="url(#spark-grad-150b93f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A Prometheus exporter designed to surface real-time metrics for deployed Helm releases. It monitors charts metadata, tracking status, revisions, and health states across namespaces to empower advanced alert rules.
 #### Security Exporters
 
   - **(2024)** [==enix/x509-certificate-exporter==](https://github.com/enix/x509-certificate-exporter) <span class='md-tag md-tag--info'>⭐ 929</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f808ec33" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 10 L 20 2 L 30 6 L 40 4 L 50 11" fill="none" stroke="url(#spark-grad-f808ec33)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highly configurable Prometheus exporter focused on scanning and detecting TLS/SSL certificates from filesystems, Kubernetes Secrets, and PEM files. Helps automatically alert on expiring network assets.
   - **(2021)** [==muxinc/certificate-expiry-monitor==](https://github.com/muxinc/certificate-expiry-monitor) <span class='md-tag md-tag--info'>⭐ 169</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-54b2c15d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 5 L 20 4 L 30 13 L 40 9 L 50 13" fill="none" stroke="url(#spark-grad-54b2c15d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Lightweight utility that continuously monitors the expiration of X.509 SSL/TLS certificates. Generates metrics consumable by Prometheus to allow early alerting on certificate renewals.
+### Slas and Slos
+
+#### Generators
+
+  - **(2023)** [==Sloth 🌟==](https://github.com/slok/sloth) <span class='md-tag md-tag--info'>⭐ 2501</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e3443744" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 8 L 20 13 L 30 11 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-e3443744)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Sloth is an automated, developer-friendly generator for SLO alerting. Evaluates declarative YAML templates and outputs production-grade PromQL rules representing complex multi-window, multi-burn-rate algorithms.
+  - **(2023)** [==SLO Generator==](https://github.com/google/slo-generator) <span class='md-tag md-tag--info'>⭐ 562</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-113e1f97" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 5 L 40 12 L 50 11" fill="none" stroke="url(#spark-grad-113e1f97)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive open-source tool built to parse SLO specifications and compute service level indicators, supporting data extraction from both Prometheus and diverse multi-cloud storage backends.
+#### Jsonnet Libraries
+
+  - **(2022)** [==slo-libsonnet==](https://github.com/metalmatze/slo-libsonnet) <span class='md-tag md-tag--info'>⭐ 118</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1a00b5eb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 12 L 20 6 L 30 10 L 40 13 L 50 9" fill="none" stroke="url(#spark-grad-1a00b5eb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A modular Jsonnet library designed for defining and generating Prometheus-based SLOs, multi-window burn rates, and dashboards using a modular configuration-as-code pattern. Highly compatible with kube-prometheus.
+#### Reference Implementation
+
+  - **(2021)** [==opensource.google: Prometheus SLO example==](https://github.com/google/prometheus-slo-burn-example) <span class='md-tag md-tag--info'>⭐ 142</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f1a985c0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 6 L 30 12 L 40 7 L 50 11" fill="none" stroke="url(#spark-grad-f1a985c0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Google's open-source templates demonstrating complex multi-window, multi-burn-rate Alerting on Service Level Objectives (SLOs) within Prometheus. Establishes the standard implementation of modern SRE monitoring guidelines.
 ### System Monitoring
 
 #### Linux
@@ -346,23 +361,14 @@ description: "Top Prometheus resources for 2026, AI-ranked: OpenTelemetry Collec
 #### Cardinality Management
 
   - **(2020)** [influxdata.com: Three Ways to Keep Cardinality Under Control When Using Telegraf](https://www.influxdata.com/blog/three-ways-to-keep-cardinality-under-control-when-using-telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses strategies to control high-cardinality metadata tag explosions inside InfluxDB and other time-series databases. Outlines data lifecycle controls and tag-filtering options inside Telegraf.
-### Visualization
+### Visualization (1)
 
 #### Grafana Dashboards
 
   - **(2026)** [Grafana Dashboards with Telegraf Collectors](https://grafana.com/grafana/dashboards/?collector=Telegraf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated dashboard collection optimized for displaying metrics gathered via Telegraf. Provides visual paradigms for memory, system operations, disk throughput, and CPU scaling.
-## Systems Design
-
-### Observability (2)
-
-#### Infrastructure Design
-
-##### Telemetry Pipelines
-
-  - **(2022)** [learnsteps.com: Monitoring Infrastructure System Design](https://www.learnsteps.com/monitoring-infrastructure-system-design) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural breakdown of designing an end-to-end monitoring infrastructure from scratch. Examines the selection of pull vs. push telemetry models, buffer queues (like Kafka), and time-series databases (TSDBs). Curator Insight: High-level overview of system design for monitoring platforms. Live Grounding: Serves as a great architectural primer for platform engineering teams building internal metrics systems.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

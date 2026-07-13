@@ -1,5 +1,5 @@
 ---
-description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and more — curated Cloud Native tools, guides and references."
+description: "Top Web Servers resources for 2026, AI-ranked: Apache, Apache Reverse Proxy Guide and more — curated Cloud Native tools, guides and references."
 ---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
@@ -36,7 +36,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 #### App Servers
 
   - **(2025)** [unit.nginx.org](https://unit.nginx.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official portal for NGINX Unit, a dynamic, lightweight application server designed to run polyglot microservices simultaneously. Dynamically configured on the fly via JSON REST APIs without service disruption.
-#### CICD Integration
+#### CICD
 
   - **(2020)** [Apache Reverse Proxy for Jenkins](https://github.com/nubenetes/apache-reverse-proxy-jenkins) <span class='md-tag md-tag--info'>⭐ 1</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dac7b8da" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 13 L 30 7 L 40 3 L 50 8" fill="none" stroke="url(#spark-grad-dac7b8da)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[APACHECONF CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A historical configuration repository detailing reverse-proxy deployment configurations for Jenkins behind Apache. Due to more than 4 years of inactivity, it is maintained as a legacy setup reference.
 #### NGINX Handbooks
@@ -45,30 +45,6 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
 #### Reverse Proxy
 
   - **(2025)** [Apache Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering handbook illustrating the deployment and configuration of the Apache HTTP Server as a reverse proxy. Details mod_proxy directives, buffer limits, and load-balancer grouping policies.
-## Infrastructure Security
-
-### Inbound Traffic Management
-
-#### Traefik
-
-  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
-## NGINXConfig
-
-### Community Tools
-
-  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
-## Networking
-
-### Load Balancing (1)
-
-#### HAProxy
-
-  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
-### Multi-Cluster
-
-#### DNS
-
-  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Traffic Management
 
 ### Kubernetes Ingress Controllers
@@ -78,12 +54,11 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
   - **(2020)** [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Skipper, an open-source HTTP router and reverse proxy designed for highly customized routing scenarios. It highlights Skipper's unique strength in dynamically modifying requests using an extensible filter chain, though it occupies a niche compared to market-dominant ingress engines.
 #### Traefik Ingress
 
-  - **(2026)** [Traefik](https://traefik.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical repository and site for Traefik, a modern cloud-native reverse proxy and ingress controller designed for dynamic service discovery. It automatically listens to platform API registries (such as Kubernetes and Consul) to dynamically update routing tables without manual reloads.
   - **(2020)** [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory engineering guide outlining the mechanics of deploying Traefik to route internal cluster traffic. The resource demonstrates how Traefik processes Custom Resource Definitions (CRDs) to define advanced routing rules, headers, and SSL termination points transparently.
   - **(2020)** [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural examination of combining Traefik's edge ingress capabilities with the granular micro-segmentation of the Istio Service Mesh. This dual-layer approach optimizes ingress pathing while maintaining strict mTLS and telemetry enforcement across internal pod networks.
 ### Load Balancing and Reverse Proxy
 
-#### HAProxy Administration
+#### Haproxy Administration
 
   - **(2020)** [tecmint.com: How to Setup High-Availability Load Balancer with ‘HAProxy’ to Control Web Server Traffic](https://www.tecmint.com/install-haproxy-load-balancer-in-linux) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive hands-on tutorial detailing the implementation of high-availability load balancing using HAProxy. It guides administrators through configuring active-passive failover and traffic scheduling algorithms, serving as an operational reference for classical infrastructure paradigms.
   - **(2020)** [Tecmint.com: How to Setup HAProxy as Load Balancer for Nginx on CentOS 8](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A targeted administrative blueprint for deploying HAProxy as a frontend load balancer to manage multiple backend Nginx web server nodes. While CentOS 8 has transitioned to stream variants, the underlying architecture pattern for proxy pass and upstream failover remains structurally sound and highly applicable.
@@ -93,7 +68,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

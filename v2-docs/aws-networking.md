@@ -18,7 +18,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Architecture
 
   - **(2020)** [alexdebrie.com: A Detailed Overview of AWS API Gateway](https://www.alexdebrie.com/posts/api-gateway-elements)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive architectural analysis of AWS API Gateway, deconstructing HTTP APIs, REST APIs, and WebSockets. Provides deep insights into routing, request validation, and authorization strategies that underpin serverless microservices architectures.
-##### Cross-Account Patterns
+##### Cross-account Patterns
 
   - **(2021)** [aws.amazon.com: Architecture patterns for consuming private APIs cross-account](https://aws.amazon.com/blogs/compute/architecture-patterns-for-consuming-private-apis-cross-account) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security and network topology blueprints for consuming private APIs across different AWS accounts. Highlights the interaction of VPC endpoints, API Gateway resource policies, and Route 53 resolver rules to secure enterprise SaaS products.
 #### Architecture Best Practices
@@ -26,17 +26,12 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2018)** [cloudonaut.io: What Architects Need to Know About Networking on AWS](https://cloudonaut.io/what-architects-need-to-know-about-networking-on-aws)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rigorous exploration of architectural decision-making within AWS networking. Focuses on the trade-offs of VPC endpoints, routing tables, and peering limits. Grounded in 2026 engineering truths, this piece highlights the shift from complex transit VPCs to Transit Gateway standards.
 #### CDN
 
-##### CloudFront
+##### Cloudfront
 
   - **(2016)** [Amazon CloudFront now supports HTTP/2](https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces native HTTP/2 support in CloudFront, highlighting performance gains from request multiplexing and header compression. A major historical milestone for fast content delivery networks, paving the way for modern responsive web applications.
 ##### Edge Security
 
   - **(2021)** [aws.amazon.com: Authorization@Edge using cookies: Protect your Amazon CloudFront content from being downloaded by unauthenticated users](https://aws.amazon.com/de/blogs/networking-and-content-delivery/authorizationedge-using-cookies-protect-your-amazon-cloudfront-content-from-being-downloaded-by-unauthenticated-users) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents edge security patterns leveraging Lambda@Edge or CloudFront Functions to validate cookies and JWTs. This approach prevents unauthorized downloads of static content directly at the CDN tier, dramatically reducing backend origin load.
-#### DNS and Domain Management
-
-##### Route 53
-
-  - **(2021)** [How do I transfer a domain to AWS from another registrar?](https://repost.aws/knowledge-center) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular tutorial on migrating DNS management to Amazon Route 53 from external registrars. While straightforward, real-world deployment requires careful TTL planning and nameserver transition strategies to prevent query dropouts and route interruptions during migration.
 #### Direct Connect
 
 ##### BGP Routing
@@ -79,9 +74,6 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Serverless Integration
 
   - **(2020)** [dashbird.io: AWS Elastic Load Balancing from a Serverless perspective](https://dashbird.io/blog/aws-application-load-balancer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes Application Load Balancer configurations when integrated with serverless backends like AWS Lambda. Details pricing, cold-starts, and architectural trade-offs compared to API Gateway. Live systems often choose ALB for cost-effective, high-volume HTTP routing.
-#### Network Management
-
-  - **(2019)** [aws.amazon.com: Network operations with AWS Network Manager](https://aws.amazon.com/products) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on AWS Network Manager as a single pane of glass for monitoring global hybrid networks. Live cloud architectures utilize Network Manager to synthesize telemetry from AWS Transit Gateway, SD-WAN devices, and on-premises branch offices into actionable alerts.
 #### Networking Concepts
 
   - **(2020)** [AWS Networking for Developers](https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes AWS's core networking constructs for software engineers. While early guides treat VPC and subnetting as peripheral, modern development architectures position these as foundational security boundaries. The guide details CIDR blocks, VPC structure, and security groups.
@@ -106,7 +98,7 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
   - **(2016)** [NGINX Plus on the AWS Cloud: Quick Start Reference Deployment](https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy but highly informative deployment blueprint for configuring high-availability NGINX Plus instances on AWS. Explains load-balancing patterns, session persistence, and active health checks that bridge standard EC2 architectures with NGINX's enterprise proxy features.
 #### Security
 
-##### DDoS Resiliency
+##### Ddos Resiliency
 
   - **(2022)** [Configuring Route 53 for cost protection from NXDOMAIN attacks](https://docs.aws.amazon.com/whitepapers/latest/aws-best-practices-ddos-resiliency/configuring-route53-for-cost-protection-from-nxdomain-attacks.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines security blueprints to mitigate Route 53 billing anomalies caused by NXDOMAIN flood attacks. Demonstrates Route 53 Resolver query logging, caching, and CloudFront-to-Route53 integrations. Essential for enterprise architectural planning to protect cloud budgets from DDoS vectors.
 ##### EC2 Connect
@@ -138,23 +130,18 @@ description: "Top AWS Networking resources for 2026, AI-ranked: Application Load
 ##### Tailscale
 
   - **(2022)** [tailscale.com: Connect to an AWS VPC using subnet routes](https://tailscale.com/docs/install/cloud/aws) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the installation of Tailscale inside an AWS VPC to build low-overhead overlay networks using subnet routing. Real-world engineering proves that Tailscale's WireGuard-based routing simplifies cross-cloud access without the complexity of traditional IPsec VPNs.
-### Azure Networking
-
-#### Hybrid Connectivity
-
-  - **(2025)** [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.
 ## Software Engineering
 
 ### Deployment Patterns
 
-#### Blue-Green
+#### Blue-green
 
 ##### ALB
 
   - **(2021)** [Fine-tuning blue/green deployments on application load balancer](https://aws.amazon.com/blogs/devops/blue-green-deployments-with-application-load-balancer) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on ALB's advanced routing capabilities to orchestrate safe blue/green deployments by shifting traffic percentages between target groups. A crucial operational pattern for continuous delivery pipelines, minimizing deployment blast radius.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

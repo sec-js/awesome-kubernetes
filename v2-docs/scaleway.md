@@ -16,7 +16,7 @@ description: "Curated, AI-ranked Scaleway resources for the 2026 Cloud Native ar
   - **(None)** [](https://www.scaleway.com/en/en)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.scaleway.com in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

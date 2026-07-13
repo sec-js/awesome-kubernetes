@@ -11,9 +11,9 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 
 ## Cloud Infrastructure
 
-### PaaS
+### Paas
 
-#### DigitalOcean
+#### Digitalocean
 
   - **(2020)** [theregister.com: DigitalOcean decides to head rivals off at the PaaS, floats App Platform to deploy, run code without juggling servers](https://www.theregister.com/off-prem/2020/10/07/digitalocean-decides-to-head-rivals-off-at-the-paas-floats-app-platform-to-deploy-run-code-without-juggling-servers/802967)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article analyzes DigitalOcean's App Platform launch, presenting it as a direct PaaS alternative designed to counter Heroku. The platform abstracts Kubernetes infrastructure to allow multi-tenant zero-config deployments directly from source control. Curator insights highlights its developers-first simplicity, while current industry status verifies its solid integration with modern container workflows.
   - **(2020)** [thenewstack.io: DigitalOcean App Platform Eases Kubernetes Deployments for Developers](https://thenewstack.io/digitalocean-app-platform-eases-kubernetes-deployments-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical review evaluates how the DigitalOcean App Platform utilizes native Kubernetes under the hood. It explains how DO managed to build a serverless PaaS that hides operational complexities like ingress configurations and TLS certificate rotation. The platform simplifies containerized app pipelines for teams without dedicated platform engineers.
@@ -24,21 +24,28 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 #### Community Portal
 
   - **(2025)** [Community Tools 🌟](https://www.digitalocean.com/community/tools) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An aggregate repository of developer-led open-source automation templates, networking tools, and infrastructure deployment scripts optimized for the DigitalOcean platform ecosystem.
-#### DigitalOcean (1)
+#### Digitalocean (1)
 
   - **(2026)** [Digital Ocean](https://www.digitalocean.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developers-first cloud services platform focusing on simplicity, lower cost predictability, and rapid droplet virtual server allocations. Expanded enterprise capacities to accommodate containerized microservices and modern pipelines.
 #### Visual Deployment
 
   - **(2022)** [try.digitalocean.com/cloudplex](https://try.digitalocean.com/cloudplex) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reference landing portal for visual architecture design tools integrated with DigitalOcean Kubernetes. Historically allowed developers to visualize infrastructure topologies and generate corresponding Kubernetes configurations.
-### PaaS (1)
+### Paas (1)
 
-#### DigitalOcean App Platform
+#### Digitalocean App Platform
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
   - **(2024)** [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights onboarding pathways and scalability paradigms inside DigitalOcean's PaaS. Highly optimized for small-to-medium enterprises wanting to run microservice networks without complex VM configurations.
+## Web Servers
+
+### Nginxconfig
+
+#### Community Tools
+
+  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

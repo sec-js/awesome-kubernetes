@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Cloud Providers (Hyperscalers))."
+description: "Top Ibm_Cloud resources for 2026, AI-ranked: IBM Cloud, IBM Spectrum and more — curated Cloud Native tools, guides and references."
 ---
 # IBM
 
@@ -9,7 +9,7 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
 !!! info "Architectural Context"
     Detailed reference for IBM in the context of Cloud Providers (Hyperscalers).
 
-## Cloud-Native Java
+## Cloud-native Java
 
 ### Runtimes
 
@@ -19,13 +19,21 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
 
   - **(2026)** [**github.com/openliberty**](https://github.com/openliberty) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The primary GitHub hub containing repositories for Open Liberty, hosting its core runtime, tooling, and integrations. Live Grounding shows a highly collaborative community pushing frequent optimizations for Jakarta EE and MicroProfile.
   - **(2026)** [**openliberty.io**](https://openliberty.io) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The project portal for Open Liberty, IBM's open-source, highly modular Java runtime designed for microservices and cloud-native applications. Live Grounding highlights its performance, dynamic reloading capabilities, and seamless integration with container platforms.
-#### WebSphere
+#### Websphere
 
 ##### Docker
 
   - **(2026)** [**DockerHub: websphere-liberty**](https://hub.docker.com/_/websphere-liberty) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official WebSphere Liberty image on Docker Hub, providing a highly optimized cloud-native runtime designed for Java EE and MicroProfile. Live Grounding emphasizes its value for enterprise application modernization, delivering low-footprint containers with IBM technical backing.
 ## Enterprise Integration
 
+### Cloud-native Storage
+
+#### IBM Spectrum Scale Integration
+
+  - **(2020)** [redbooks.ibm.com: IBM Storage for Red Hat OpenShift. IBM block storage & IBM Spectrum Scale](https://www.redbooks.ibm.com/abstracts/redp5565.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This comprehensive Redbook outlines deployment architecture guidelines for IBM Block Storage and IBM Spectrum Scale CSI drivers within OpenShift environments. It details technical patterns for high-performance file sharing, security isolation, multi-zone availability, and persistent volume provisioning needed for enterprise-grade workloads.
+#### IBM Storage Systems
+
+  - **(2022)** [IBM Spectrum](https://www.ibm.com/solutions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — IBM Spectrum (now rebranded under IBM Storage) delivers enterprise-grade software-defined storage architectures tailored for highly demanding Kubernetes deployments. The portfolio provides integrated high-performance block, file, and object interfaces designed for secure backup, recovery, and dynamic persistent volume management in complex hybrid-cloud ecosystems.
 ### Enterprise Mainframe
 
 #### Bare Metal Installation
@@ -34,15 +42,15 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
 #### Deployment Experience
 
   - **(2020)** [Red Hat OpenShift Installation Process Experiences on IBM Z/LinuxONE](https://www.redhat.com/en/blog/red-hat-openshift-installation-process-experiences-on-ibm-z-linuxone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical review of provisioning OpenShift on IBM Z and LinuxONE infrastructures, discussing user-provisioned infrastructure (UPI) workflows. It details network configuration challenges, storage integration (FCP/FC), and operating system (RHCOS) deployment mechanics typical of s390x systems.
-#### OpenShift on IBM Z
+#### Openshift On IBM Z
 
   - **(2020)** [IBM and Red Hat bring OpenShift to IBM Z and LinuxONE](https://www.redhat.com/en/blog/ibm-and-red-hat-bring-openshift-to-ibm-z-and-linuxone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This collaboration expands the Red Hat OpenShift Container Platform to IBM Z and LinuxONE s390x architectures. It bridges heritage mainframe reliability with modern container orchestration, enabling low-latency integration with transactional data and secure execution via IBM's Secure Service Container technology.
 ### Microservices
 
-#### GraphQL and Open Liberty
+#### Graphql and Open Liberty
 
   - **(2020)** [developers.redhat.com: Support for GraphQL with Open Liberty 20.0.0.6](https://developers.redhat.com/blog/2020/06/17/support-for-graphql-with-open-liberty-20-0-0-6) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open Liberty 20.0.0.6 introduces first-class support for Eclipse MicroProfile GraphQL, enabling enterprise Java developers to build type-safe, efficient, and schema-first microservice APIs. By mitigating over-fetching and under-fetching, this integration optimizes network overhead in cloud-native deployments while aligning with OpenShift ecosystem norms.
-### Multi-Cluster Management
+### Multi-cluster Management
 
 #### IBM Cloud Pak SDK
 
@@ -70,7 +78,7 @@ description: "Curated, AI-ranked Ibm_Cloud resources for the 2026 Cloud Native a
   - **(2019)** [IBM Leverages Containers to Advance DevOps on Mainframes](https://cloudnativenow.com/topics/cloudnativedevelopment/ibm-leverages-containers-to-advance-devops-on-mainframes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how IBM brought containerization architectures (like z/OS Container Extensions) to its zSystems mainframes. Live Grounding confirms this as a key modernization vector, enabling developers to build and test mainframe workloads using Git-driven Docker/Kubernetes workflows.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

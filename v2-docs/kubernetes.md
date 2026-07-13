@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl plugins, Awesome Kubectl plugins and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes resources for 2026, AI-ranked: kube-prometheus, Available kubectl plugins and more — curated Cloud Native tools, guides and references."
 ---
 # Kubernetes
 
@@ -16,7 +16,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Agentic Workflows
 
-#### Command-Line Tools
+#### Command-line Tools
 
   - **(2025)** [**Google Agents CLI**](https://github.com/google/agents-cli) <span class='md-tag md-tag--info'>⭐ 2853</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f7881b53" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 6 L 20 6 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-f7881b53)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An official command-line tool from Google built to design, test, and deploy agentic AI workflows. Leveraging the Model Context Protocol (MCP) and Google LLM APIs, it facilitates automated task orchestration across local filesystems and remote cloud APIs.
 ## API Server
@@ -52,7 +52,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Architecture (1)
 
   - **(2021)** [==iximiuz.com: How To Extend Kubernetes API - Kubernetes vs. Django==](https://iximiuz.com/en/posts/kubernetes-api-how-to-extend) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Contrasts the architectural approaches of the Kubernetes API with classical web frameworks like Django. Highlights reconciliation loops and declarative infrastructure patterns.
-#### CRDs
+#### Crds
 
   - **(2021)** [**evancordell.com: 16 things you didn't know about Kube APIs and CRDs**](https://evancordell.com/posts/kube-apis-crds) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An insider exploration of complex Kubernetes API attributes. Delves into Custom Resource Definition schemas, conversion webhooks, admission structures, and API registration behaviors.
 ### Governance
@@ -102,7 +102,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Frameworks
 
-#### Ruby on Rails
+#### Ruby On Rails
 
   - **(2020)** [thoughtbot.com: Zero Downtime Rails Deployments with Kubernetes](https://thoughtbot.com/blog/zero-downtime-rails-deployments-with-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the unique operational challenges of rolling out Ruby on Rails workloads dynamically. Synthesizes migration orchestration pipelines, preStop lifecycle adjustments, and database scaling hooks to prevent downtime during database schema updates and container recycling.
 ## Application Design
@@ -116,7 +116,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Custom Controllers
 
-#### OpenKruise
+#### Openkruise
 
   - **(2024)** [==OpenKruise/Kruise==](https://github.com/openkruise/kruise) <span class='md-tag md-tag--info'>⭐ 5267</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b53afbf6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 13 L 20 4 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-b53afbf6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The implementation repository for OpenKruise controllers. Provides crucial custom workload abstractions like CloneSets, SidecarSets, and Advanced StatefulSets to enable high-performance operations, including in-place updates.
   - **(2024)** [openkruise.io](https://openkruise.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the OpenKruise engine. OpenKruise is a CNCF incubating project delivering advanced application automation tools that address complex, scale-intensive deployment scenarios.
@@ -160,7 +160,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Core Concepts
 
   - **(2022)** [opensource.com: A guide to Kubernetes architecture](https://opensource.com/article/22/2/kubernetes-architecture) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-level architectural walkthrough introducing components of master and worker topologies. Clearly distinguishes logical cluster planes and details container execution layers.
-#### Declarative APIs
+#### Declarative Apis
 
   - **(2021)** [containerjournal.com: Kubernetes’ True Superpower is its Control Plane](https://cloudnativenow.com/kubeconcnc/kubernetes-true-superpower-is-its-control-plane)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural perspective evaluating why the real capability of Kubernetes is its extensible control plane. Explores how CRDs, custom controller reconciliation loops, and dynamic validation webhooks allow engineering teams to model external IT infrastructure declaratively.
 #### Developer Experience
@@ -175,7 +175,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Scalability Limits
 
   - **(2025)** [==github.com/kubernetes: Kubernetes Scalability thresholds==](https://github.com/kubernetes/community/blob/main/sig-scalability/configs-and-limits/thresholds.md) <span class='md-tag md-tag--info'>⭐ 12886</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63f8e2ff" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 6 L 30 10 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-63f8e2ff)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The authoritative SIG-Scalability technical specifications outlining physical structural and behavioral boundaries in a standard Kubernetes cluster (such as a maximum of 5,000 nodes, 150,000 total pods, and etcd throughput limits). Documents constraints and performance degradations encountered as these thresholds are reached.
-### Deployment Anti-Patterns
+### Deployment Anti-patterns
 
 #### Operational Safety
 
@@ -186,7 +186,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Microservices
 
   - **(2021)** [==thenewstack.io: Monolithic Development Practices Kill Powerful Kubernetes Benefits 🌟🌟==](https://thenewstack.io/monolithic-development-practices-kill-powerful-kubernetes-benefits) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Critiques the common anti-pattern of running tightly-coupled monolithic applications on Kubernetes without adjusting architectural paradigms. Demonstrates why horizontal scaling and self-healing require loose coupling.
-#### Multi-Container Pods
+#### Multi-container Pods
 
   - **(2026)** [kubernetes.io: container design patterns](https://kubernetes.io/blog/2016/06/container-design-patterns) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational blog post outlining design patterns for multi-container deployments. It establishes the theory behind sidecar (behavior extension), ambassador (network proxy), and adapter (metric translation) container layouts, which are now standard practices in distributed platforms.
   - **(2026)** [learnk8s.io: Extending applications on Kubernetes with multi-container pods](https://learnkube.com/sidecar-containers-patterns) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical manual explaining sidecar patterns, detailing how multiple containers share network interfaces and storage volumes inside a single pod. Shows how this facilitates logging, mutual TLS injection, and runtime instrumentation without bloating core runtime software components.
@@ -195,6 +195,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [==github.com/sharadbhat/KubernetesPatterns: YAML and Golang implementations' of common Kubernetes patterns==](https://github.com/sharadbhat/KubernetesPatterns) <span class='md-tag md-tag--info'>⭐ 72</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2fc975b4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 13 L 20 2 L 30 13 L 40 6 L 50 12" fill="none" stroke="url(#spark-grad-2fc975b4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A practical repository offering concrete YAML and Golang implementations of classic design patterns. Highly valuable for application developers, as it translates theoretical paradigms like Ambassadors and Adapters into functioning Go code and matching Kubernetes manifests.
 #### Sidecar Pattern
 
+  - **(2023)** [thenewstack.io: Sidecars are Changing the Kubernetes Load-Testing Landscape](https://thenewstack.io/sidecars-are-changing-the-kubernetes-load-testing-landscape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores how native sidecar containers (introduced in K8s 1.28) redefine load-testing execution. By decoupling helper utilities from core application workloads, sidecars simplify performance benchmarking and operational telemetry.
   - **(2023)** [dev.to/fermyon: Scaling Sidecars to Zero in Kubernetes](https://dev.to/fermyon/scaling-sidecars-to-zero-in-kubernetes-2m23) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates serverless techniques to scale resource-intensive sidecars down to zero when idle. Addresses the lifecycle synchronization challenges between the application container and its helper sidecar instances.
 #### Standard Practice
 
@@ -209,10 +210,10 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [infoq.com: The Evolution of Distributed Systems on Kubernetes](https://www.infoq.com/articles/distributed-systems-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This architectural study tracks how Kubernetes evolved from basic container scheduling to a cohesive system layer for distributed systems. It contrasts the sidecar pattern and Service Meshes with native control structures, showing how developers can isolate business logic from distributed constraints like state, consensus, and security policies.
 ### Ecosystem
 
-#### Infrastructure as Code
+#### Infrastructure As Code
 
   - **(2021)** [**nextplatform.com: KUBERNETES EXPANDS FROM CONTAINERS TO INFRASTRUCTURE MANAGEMENT 🌟**](https://www.nextplatform.com/store/2021/08/02/kubernetes-expands-from-containers-to-infrastructure-management/1654000) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the transformation of Kubernetes from a container orchestrator to a universal control plane managing virtual machines, cloud APIs, and physical infrastructure. Analyzes tools like Crossplane and Cluster API.
-### Edge and IoT
+### Edge and Iot
 
 #### Talos OS Optimization
 
@@ -243,7 +244,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [**kubesphere.io: Kubernetes High Availability Essential Practices Simply Explained**](https://kubesphere.io/blogs/k8s-ha-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Translates high-availability architectural constraints into concrete implementation tactics. Evaluates load balancer setups, redundant etcd configurations, and optimal node distributions across availability zones.
 ### Infrastructure Sizing
 
-#### Bare Metal vs VM
+#### Bare Metal Vs VM
 
   - **(2023)** [thenewstack.io: Does Kubernetes Really Perform Better on Bare Metal vs. VMs? 🌟](https://thenewstack.io/does-kubernetes-really-perform-better-on-bare-metal-vs-vms) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates performance metrics, latency bottlenecks, and hypervisor overhead costs. Compares control plane efficiency on bare-metal architectures versus standard virtualization structures.
 #### Compute Scaling
@@ -254,11 +255,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Control Loops
 
   - **(2026)** [learnsteps.com: How Kubernetes works on reconciler pattern](https://www.learnsteps.com/how-kubernetes-works-on-a-reconciler-pattern) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A breakdown detailing the core control loop underlying Kubernetes' architecture: the state reconciliation pattern. Explains how controllers constantly poll state using an active feedback loop, identifying deviations between target specifications and current infrastructure status, and scheduling atomic changes to reconcile them.
-### Kubernetes Enhancements
-
-#### Resources
-
-  - **(2021)** [==KEP-2837: Especificaciones de Recursos a Nivel de Pod==](https://github.com/kubernetes/enhancements/blob/ddf7d2a8c098e97b0714f31e88abad3b3e0e706c/keps/sig-node/2837-pod-level-resource-spec/README.md) <span class='md-tag md-tag--info'>⭐ 3887</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-63123df8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 12 L 30 13 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-63123df8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A critical Kubernetes Enhancement Proposal (KEP) addressing resource specification directly at the Pod level rather than duplicating definitions across individual container configurations. This proposed structural shift promises to optimize vertical pod autoscaling, simplify scheduler math, and streamline declarative application configurations.
 ### Microservices (1)
 
 #### Platform Engineering
@@ -269,7 +265,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Serverless
 
   - **(2021)** [==infoq.com: The Great Lambda Migration to Kubernetes Jobs—a Journey in Three Parts 🌟==](https://www.infoq.com/articles/lambda-migration-k8s-jobs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A thorough post-mortem migrating heavy serverless infrastructure (AWS Lambda) into native Kubernetes batch Jobs. Discusses runtime optimizations, cost benefits, and developer velocity differences of running self-hosted orchestrations.
-### Multi-Cloud
+### Multi-cloud
 
 #### Federation
 
@@ -328,7 +324,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [**brennerm.github.io: Kubernetes Overview Diagrams 🌟**](https://shipit.dev/posts/kubernetes-overview-diagrams.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An exceptional visual and architectural map detailing the data flow and interconnectivity between the API server, etcd, controller manager, and worker nodes. Essential reference for understanding component-level communications and network policies.
 ### Workloads
 
-#### Enterprise Use-Cases
+#### Enterprise Use-cases
 
   - **(2021)** [thenewstack.io: What Workloads Do Businesses Run on Kubernetes?](https://thenewstack.io/what-workloads-do-businesses-run-on-kubernetes) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Surveys modern workload distribution patterns on Kubernetes. Identifies the progressive shift from purely stateless microservices to highly data-intensive stateful applications like database instances, AI/ML pipelines, and data queues.
 ## Architecture and Visualization
@@ -362,8 +358,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Best Practices
 
   - **(2020)** [hackernoon.com: How To Deploy Code Faster Using Kubernetes](https://hackernoon.com/how-to-deploy-code-faster-using-kubernetes-jh1y3ul0) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on optimizing continuous integration/continuous delivery deployment velocity. Discusses container build layer caching strategies, multi-stage Dockerfiles, and fine-tuning Kubernetes deployment rolling update specifications (maxSurge and maxUnavailable) to safely execute rapid iterations.
-## CICD Pipelines
-
 ### Security and Supply Chain
 
 #### Dependabot
@@ -383,6 +377,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Historical Data
 
   - **(2021)** [kube.careers: Kubernetes jobs market (Q2 2021)](https://kube.careers/report-2021-q2)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — A historical analysis of the cloud-native recruitment landscape in Q2 2021. Tracks emerging salary ranges, high-demand Kubernetes technical sub-skills (Helm, GitOps, Prometheus), and regional job opportunities across North America and Europe.
+#### Salary Analytics
+
+  - **(2022)** [kube.careers: Kubernetes jobs market trends for 2022 Q4](https://kube.careers)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides end-of-year 2022 hiring telemetry. Synthesizes standard prerequisites for engineering levels, emphasizing the transformation of Kubernetes knowledge from a specialized 'plus' to a fundamental baseline requirement across software engineering roles.
 ### Skill Alignment
 
 #### Container Orchestration (1)
@@ -390,30 +387,23 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2023)** [dev.to: Why Developers Should Learn Docker and Kubernetes in 2023 🌟](https://dev.to/javinpaul/why-developers-should-learn-docker-and-kubernetes-in-2023-4hof)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry-focused piece advocating for developer mastery of containerization and orchestration. Highlights the paradigm shift toward cloud-native microservices, demonstrating why containerization and declarative API competency have become standard prerequisites for modern backend engineering positions.
 ## Case Studies
 
-### Large-Scale Migration
+### Large-scale Migration
 
 #### Traffic Scaling
 
   - **(2019)** [**youtube: Tinder's Move to Kubernetes - Chris O'Brien & Chris Thomas, Tinder**](https://www.youtube.com/watch?app=desktop&v=o3WXPXDuCSU) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An in-depth presentation detailing Tinder’s migration of their massive monolithic architecture to Kubernetes. Discusses scaling issues, DNS latency challenges in CoreDNS, networking constraints, and how containerization reduced service footprint and accelerated deployments.
-### Multi-Cluster Architecture
+### Multi-cluster Architecture
 
 #### Scale Strategies
 
   - **(2020)** [srcco.de: Zalando - Many Kubernetes Clusters instead of 1 huge cluster](https://srcco.de/posts/many-kubernetes-clusters.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Zalando's landmark architectural analysis of their decision to deploy hundreds of single-tenant, purpose-built clusters instead of one giant shared cluster. This text addresses multi-tenancy, blast radius containment, and automated control-plane orchestration.
 ## Cloud Architecture
 
-### NoOps and Serverless
+### Noops and Serverless
 
 #### Overview
 
   - **(2026)** [==Serverless Architectures==](https://nubenetes.com/serverless/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — In-depth analysis exploring execution concepts, billing architectures, scalability curves, and performance tradeoffs inherent in Serverless patterns. Details key differences between FaaS, cloud-managed runtimes, and self-hosted Knative workloads.
-## Cloud Architecture and Infrastructure Strategy
-
-### High Availability (1)
-
-#### Multi-Region Deployments
-
-  - **(2023)** [==engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive==](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
 ## Cloud Infrastructure
 
 ### Azure Networking
@@ -421,13 +411,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Latency Optimization
 
   - **(2025)** [Reduce Latency with Azure Proximity Placement Groups](https://hansencloud.com/2025/02/24/reduce-latency-with-azure-proximity-placement-groups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the utility of Azure Proximity Placement Groups (PPGs) to achieve sub-millisecond physical latency for interdependent compute resources. It outlines design considerations for co-locating VMs, Virtual Machine Scale Sets, and Kubernetes nodes within the same physical data center boundary to support high-performance microservices.
-## Cloud Infrastructure and Orchestration
-
-### Container Orchestration (2)
-
-#### Helm and Packaging
-
-  - **(2022)** [andrewlock.net: Series: Deploying ASP.NET Core applications to Kubernetes with Helm 🌟](https://andrewlock.net/series/deploying-asp-net-core-applications-to-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive deep-dive tutorial series on orchestrating .NET applications inside Kubernetes using Helm. Analyzes templating, YAML manifests, dependency injections, dynamic secret handling, and values customization patterns.
 ## Cloud Native
 
 ### Community
@@ -437,23 +420,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [techbeacon.com: 25 Kubernetes experts you should follow on Twitter](https://techbeacon.com/enterprise-it/25-kubernetes-experts-you-should-follow-twitter) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A curated directory of 25 Kubernetes experts and thought leaders. While compiled in 2021, current 2026 analysis indicates that many highlighted figures have transitioned to wider Platform Engineering, AI infrastructure, and multi-cloud platform architectures, though their legacy core insights on orchestration remain highly foundational.
 #### Events
 
-##### ArgoCon
+##### Argocon
 
   - **(2026)** [ArgoCon North America 2026 Call for Proposals](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/argocon)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official Call for Proposals portal for ArgoCon North America 2026. Focuses on collecting real-world architectures, case studies, and enterprise patterns utilizing Argo CD, Argo Workflows, Argo Rollouts, and Argo Events.
-## Cloud Native and Kubernetes
-
-### Networking and Edge Routing
-
-#### Gateway API
-
-  - **(2025)** [**Application Gateway for Containers: Istio Integration**](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced architectural post demonstrating how Azure Application Gateway for Containers (AGC) integrates with Istio Service Mesh via Kubernetes Gateway API. It details how edge traffic routing seamlessly hands off to internal mesh proxy sidecars while preserving end-to-end mTLS and header-based routing. This integration is critical for high-security microservices topologies demanding zero-trust communication.
-## Cloud Native and Kubernetes Core
-
-### Container Orchestration (3)
-
-#### Fundamentals (3)
-
-  - **(2023)** [==cloud.google.com: What is Kubernetes? 🌟==](https://cloud.google.com/learn/what-is-kubernetes) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 ## Cloud Native Platforms
 
 ### Kubernetes (1)
@@ -483,7 +452,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Strategy (1)
 
   - **(2021)** [datacenterknowledge.com: The Pros and Cons of Kubernetes-Based Hybrid Cloud](https://www.datacenterknowledge.com/cloud/the-pros-and-cons-of-kubernetes-based-hybrid-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details structural advantages and operational challenges of maintaining a hybrid-cloud Kubernetes topology. Analyzes network latency bottlenecks, data compliance demands, and cluster tooling unified control setups.
-### Multi-Cluster
+### Multi-cluster
 
 #### Management
 
@@ -492,7 +461,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
   - **(2023)** [learnk8s.io: Architecting Kubernetes clusters — how many should you have?](https://learnkube.com/how-many-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the design choices behind multi-cluster deployments versus expansive single-cluster topologies. Explores security zoning, geo-location latency requirements, blast radius mitigation, and operational complexity limits.
   - **(2021)** [redhat.com: 3 questions to answer when considering a multi-cluster Kubernetes architecture](https://www.redhat.com/en/blog/multi-cluster-kubernetes-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A decision framework for assessing multi-cluster infrastructures. Guides administrators through considerations of global routing setup, uniform access management across clusters, and fleet management overhead.
-### On-Premises
+### On-premises
 
 #### Infrastructure (1)
 
@@ -534,7 +503,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
   - **(2024)** [**FreeLens**](https://github.com/freelensapp/freelens) <span class='md-tag md-tag--info'>⭐ 5146</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-74db2c75" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 3 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-74db2c75)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — FreeLens is a lightweight, open-source alternative desktop client for managing Kubernetes clusters. It provides platform operators with real-time visual telemetry and container log streams, optimizing daily operational tasks without complex terminal overhead.
   - **(2025)** [Kubeterm: Graphical Management Tool for Kubernetes](https://github.com/kbterm/kubeterm) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-32486649" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 13 L 20 8 L 30 11 L 40 13 L 50 6" fill="none" stroke="url(#spark-grad-32486649)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source desktop client designed to simplify Kubernetes administration and performance monitoring. By rendering graphical resource mappings, it significantly lowers the cognitive load required to debug deployments, services, and complex namespaces.
-### Multi-Cluster (1)
+### Multi-cluster (1)
 
 #### Lifecycle Automation
 
@@ -568,7 +537,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Forums
 
   - **(2024)** [Community Forums 🌟](https://discuss.kubernetes.io) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The primary discussion forum for the global Kubernetes community. Houses technical discussion threads, design reviews, ecosystem updates, and collaborative troubleshooting conversations.
-### SIGs
+### Sigs
 
 #### Repositories
 
@@ -610,16 +579,16 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2023)** [devopscube.com/kubernetes-pod](https://devopscube.com/kubernetes-pod) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational, end-to-end technical reference manual mapping the Pod lifecycle, container initialization vectors, probe configurations, and common workload operational runbooks.
 ## Configuration
 
-### CDK and DSLs
+### CDK and Dsls
 
-#### CDK8s
+#### Cdk8s
 
   - **(2026)** [cdk8s.io](https://cdk8s.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official homepage for Cloud Development Kit for Kubernetes (cdk8s), an open-source framework for defining Kubernetes applications using familiar programming languages. It compiles object-oriented code into standards-compliant YAML manifests, bringing programming patterns like classes, loops, and conditions to configuration management.
   - **(2026)** [AWS: Introducing CDK for Kubernetes](https://aws.amazon.com/blogs/containers/introducing-cdk-for-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — AWS technical launch post announcing CDK for Kubernetes (cdk8s). It outlines the core architectural principles, detailing how software developers can use general-purpose programming interfaces to output strongly-typed, verifiable raw YAML files for any Kubernetes cluster.
 #### Jsonnet
 
   - **(2026)** [==jsonnet data templating language==](https://github.com/google/jsonnet/tree/master/case_studies/kubernetes) <span class='md-tag md-tag--info'>⭐ 7517</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b3f29505" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 12 L 30 13 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-b3f29505)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSONNET CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A data templating language designed for application configurations. This case study demonstrates how Jsonnet models complex Kubernetes resources through variables, imports, conditionals, and functions, generating valid JSON configurations that compile directly into clean Kubernetes YAML.
-### ConfigMaps
+### Configmaps
 
 #### Application State
 
@@ -657,11 +626,11 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Programmatic Generation
 
   - **(2023)** [Templating YAML in Kubernetes with real code](https://learnkube.com/templating-yaml-with-code) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advocates for programmatic Kubernetes resource generation in real-world programming languages (Go, Python, Java) over raw text-interpolated tools like Helm. Details static typing validation advantages, testing, and GitOps orchestration scale benefits.
-## Container Orchestration (4)
+## Container Orchestration (2)
 
 ### Azure Kubernetes Service
 
-#### Well-Architected Framework
+#### Well-architected Framework
 
   - **(2026)** [Architecture Best Practices for Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/azure-kubernetes-service) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official technical guide mapping Azure Well-Architected Framework (WAF) principles to Azure Kubernetes Service (AKS). It details architectural guidance on cluster networking, high availability, node pools, security integration, and cost management. This serves as the definitive reference for engineering enterprise-grade, highly resilient Kubernetes control and data planes on Azure.
 ### Kubernetes (2)
@@ -676,13 +645,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Execution Engines
 
   - **(2026)** [==containerd - An open and reliable container runtime==](https://github.com/containerd/containerd) <span class='md-tag md-tag--info'>⭐ 20835</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-591370f5" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 7 L 30 9 L 40 6 L 50 4" fill="none" stroke="url(#spark-grad-591370f5)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — containerd is an industry-standard container runtime designed to be embedded into larger systems like Kubernetes. Following the deprecation of Docker's native runtime engine in Kubernetes, containerd has emerged as the de facto execution engine for production-grade orchestrators.
-## Container Runtimes
-
-### containerd
-
-#### ctr CLI
-
-  - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
 ## Containers and Orchestration
 
 ### Container Concepts
@@ -714,7 +676,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Controller Manager
 
-#### ReplicationController
+#### Replicationcontroller
 
   - **(2021)** [opensource.com: How the Kubernetes ReplicationController works](https://opensource.com/article/21/11/kubernetes-replicationcontroller) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An analysis of the historical ReplicationController object in Kubernetes. Contrast Curator Insight (analyzing the tool's mechanics) with Live Grounding (the ReplicationController is legacy, replaced entirely by Deployments and ReplicaSets for modern container orchestration).
 ### Extensibility (1)
@@ -732,7 +694,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [komodor.com: Kubernetes Nodes – The Complete Guide](https://komodor.com/learn/kubernetes-nodes-complete-guide) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational compendium covering Kubernetes node design, including control plane interfaces, kubelet interactions, and lifecycle states. Explores memory pressure reclamation, node conditions, and scheduling optimizations using taints, tolerations, and affinities.
 ### Object Identification
 
-#### Labels and Selectors
+#### Labels And Selectors
 
   - **(2021)** [Kubernetes. Label and Selector. Important Topic. Identify object in cluster. CKA Exam Tips](https://www.youtube.com/watch?app=desktop&v=Vh3piGAxcf8&ab_channel=AlokKumar) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An instructional guide analyzing Kubernetes labels and selectors, essential for object identification and scheduling criteria. Focuses on practical CKA exam tactics, highlighting label syntax, set-based selectors, and decoupling mechanisms.
 ### Visual Resources (1)
@@ -744,7 +706,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Containerization
 
-#### Fundamentals (4)
+#### Fundamentals (3)
 
   - **(2023)** [geeksforgeeks.org: Kubernetes – Concept of Containers](https://www.geeksforgeeks.org/cloud-computing/kubernetes-concept-of-containers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational resource decomposing container primitives within cloud computing environments. Details namespace isolation, cgroups resource enforcement, and how Kubernetes orchestrates these isolated Linux runtimes across virtual and physical bare-metal hardware.
 #### Virtualization Layers
@@ -768,7 +730,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Controller Comparison
 
   - **(2023)** [semaphoreci.com: Understanding ReplicaSet vs. StatefulSet vs. DaemonSet vs. Deployments](https://semaphore.io/blog/replicaset-statefulset-daemonset-deployments)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A rigorous comparative guide contrasting Kubernetes workload controllers. Outlines when to use Deployments (stateless scaling), StatefulSets (stable network IDs, persistent disk-to-pod mappings), DaemonSets (single instance per node), and ReplicaSets, explaining how scheduling algorithms process each type differently.
-#### DaemonSets
+#### Daemonsets
 
   - **(2023)** [devopscube.com: Kubernetes Daemonset: A Comprehensive Guide](https://devopscube.com/kubernetes-daemonset)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed engineering breakdown of the DaemonSet controller pattern. Explains how to deploy system-level agents (like log collectors, CNI daemons, and monitoring agents) on every cluster node, specifying advanced scheduling techniques, tolerations, node affinity, and resource constraints.
 #### Pod and Controllers
@@ -779,7 +741,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Batch Jobs
 
   - **(2020)** [opensource.com: A beginner's guide to Kubernetes Jobs and CronJobs](https://opensource.com/article/20/11/kubernetes-jobs-cronjobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introduction to batch processing in Kubernetes. Clarifies the design principles behind run-to-completion Jobs and schedules periodic workloads using CronJobs.
-#### DaemonSets (1)
+#### Daemonsets (1)
 
   - **(2021)** [thenewstack.io: Kubernetes DaemonSets: A Detailed Introductory Tutorial](https://thenewstack.io/kubernetes-daemonsets-a-detailed-introductory-tutorial) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides a comprehensive overview of DaemonSet workloads in Kubernetes. Discusses daemon placement, tolerations for node taints, and classic infrastructure use cases like logging collectors and metric daemons.
 #### Deployments (2)
@@ -788,7 +750,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Pods (1)
 
   - **(2021)** [**martinheinz.dev: Could Kubernetes Pods Ever Become Deprecated? 🌟**](https://martinheinz.dev/blog/53) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An intellectual exploration of the foundational Pod abstraction. Outlines the technical realities of shared network namespaces and disk storage, and why Pods will remain the atomic unit of the cluster scheduler.
-#### StatefulSets
+#### Statefulsets
 
   - **(2020)** [kubermatic.com: Keeping the State of Apps 6: Introduction to StatefulSets](https://www.kubermatic.com/blog/keeping-the-state-of-apps-6-introduction-to-statefulsets) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the structural differences between Deployments and StatefulSets. Explores why databases and distributed systems demand unique host networks, persistent volumes, and ordered orchestration topologies.
 ## Core Kubernetes
@@ -803,6 +765,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [thenewstack.io: Kubernetes Is the New Standard for Computing, Including the Edge](https://thenewstack.io/kubernetes-is-the-new-standard-for-computing-including-the-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the industry shift to deploy lightweight Kubernetes frameworks (like K3s) at edge computation nodes, establishing a uniform runtime fabric.
 ### Basics
 
+#### Glossary
+
+  - **(2023)** [Kubernetes Glossary 🌟](https://www.bluematador.com/learn/kubernetes-glossary)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive lexicon defining fundamental cloud-native jargon, pods, ingress, services, and statefulsets to smooth the initial developer learning curve.
 #### Introduction (1)
 
   - **(2021)** [thenewstack.io: How does kubernetes work?](https://thenewstack.io/how-does-kubernetes-work)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clear, programmatic step-by-step breakdown of container deployment orchestration, detailing controller reconciliations, network namespaces, and service routing.
@@ -819,7 +784,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Deployment Strategies
 
-#### Blue-Green and Canary
+#### Blue-green and Canary
 
   - **(2024)** [semaphoreci.com: Continuous Blue-Green Deployments With Kubernetes 🌟](https://semaphore.io/blog/continuous-blue-green-deployments-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical tutorial illustrating native implementation of blue-green deployments on Kubernetes. Demonstrates how to manipulate service selectors, manage ingress controllers, and swap traffic dynamically with zero application downtime.
 ## DevOps
@@ -836,7 +801,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Telepresence
 
   - **(2021)** [==telepresenceio==](https://x.com/telepresenceio) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Community resources for Telepresence (CNCF Sandbox), a critical developer tool for fast-loop local microservice debugging against remote Kubernetes clusters. Telepresence establishes a bidirectional network proxy, bridging local IDEs with in-cluster dependencies.
-### PaaS
+### Paas
 
 #### Developer Ergonomics
 
@@ -848,19 +813,19 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Container Lifecycle
 
   - **(2023)** [freecodecamp.org: How to Deploy an Application to a Kubernetes Cluster](https://www.freecodecamp.org/news/deploy-docker-image-to-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walkthrough detailing the workflow of pushing a localized Docker image to a container registry, writing declarative deployment manifests, configuring a ClusterIP service, and deploying the resulting application topology onto a running Kubernetes cluster.
-### Infrastructure-as-Code
+### Infrastructure-as-code
 
 #### Pulumi Integration
 
   - **(2021)** [pulumi.com: Kubernetes Fundamentals Part One - Python instead of YAML 🌟](https://www.pulumi.com/blog/kubernetes-fundamentals-part-one) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces programmatic manifest definitions using Pulumi in Python. Demonstrates how using programming structures (like functions, loops, and conditional compilation) to compile manifests offers better safety and cleaner abstractions than complex YAML configurations.
 ### Preview Environments
 
-#### CICD Integration
+#### CICD (2)
 
   - **(2021)** [okteto.com: Run your Pull Request Preview Environments on Kubernetes](https://www.okteto.com/blog/preview-environments-for-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step architecture guide detailing how to build automated pull-request preview environments inside Kubernetes namespace boundaries. Leverages ingress controllers, isolated network setups, and Okteto engine tooling to manage ephemeral environment lifecycles.
 ### Validation Protocols
 
-#### CICD Integration (1)
+#### CICD (3)
 
   - **(2021)** [dev.to: A Deep Dive Into Kubernetes Schema Validation](https://dev.to/datreeio/a-deep-dive-into-kubernetes-schema-validation-39ll)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down how the API server processes client submissions through OpenAPI schema validators. Details how developers can use automated validation frameworks in CI/CD chains to catch bad resource specs before applying manifests to clusters.
 ## Education
@@ -908,17 +873,24 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Catalog
 
   - **(2023)** [github.com/datreeio/CRDs-catalog: CRDs Catalog](https://github.com/datreeio/CRDs-catalog) <span class='md-tag md-tag--info'>⭐ 830</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-798a338d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 11 L 20 12 L 30 6 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-798a338d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive centralized catalog of raw JSON schemas mapping popular Kubernetes CRDs. Helps development teams configure automated YAML validation engines in continuous integration pipelines prior to API server execution.
-#### Tutorial
+#### Tutorials
 
   - **(2020)** [dev.to: Creating a Custom Resource Definition In Kubernetes | Michael Levan](https://dev.to/thenjdevopsguy/creating-a-custom-resource-definition-in-kubernetes-2k7o) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through detailing how to construct and deploy Custom Resource Definitions. Explores API versioning schema fields, spec declarations, and the foundational design of corresponding controller reconciliation loops.
-## FinOps
+## Extensibility (2)
+
+### Operators
+
+#### Lifecycle Management
+
+  - **(2024)** [==Red Hat OLM==](https://github.com/operator-framework/operator-lifecycle-manager) <span class='md-tag md-tag--info'>⭐ 1857</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dd898253" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 11 L 30 9 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-dd898253)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Part of the Operator Framework, OLM manages the installation, updates, and role-based access control of Operators running inside a cluster. It acts as an orchestrator for custom resource definitions (CRDs) and controller versions, ensuring dependencies are resolved safely. This tool is standard infrastructure across Red Hat OpenShift and enterprise Kubernetes configurations to scale operations reliably.
+## Finops
 
 ### Resource Optimization (1)
 
 #### API Usage
 
   - **(2021)** [harness.io: Introducing Recommendations API: Find Potential Cost Savings Programmatically](https://www.harness.io/blog/recommendations-api)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines programmatic cost reduction strategies utilizing Harness's Recommendations API. Shows how development teams can continuously query and apply optimized CPU/Memory resource constraints to reconcile performance with budget limits.
-## Fundamentals (5)
+## Fundamentals (4)
 
 ### Advocacy
 
@@ -964,7 +936,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Conceptual Explanations
 
   - **(2017)** [enterprisersproject.com: How to explain Kubernetes in plain English](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive-level conceptual guide explaining Kubernetes orchestration concepts through real-world analogies. Ideal for bridging communication between technical architects and business stakeholders regarding cloud-native resource optimization.
-#### Container Runtimes (1)
+#### Container Runtimes
 
   - **(2020)** [css-tricks.com: Kubernetes Explained Simply: Containers, Pods and Images](https://css-tricks.com/kubernetes-explained-simply-containers-pods-and-images) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly accessible guide targeting front-end and full-stack developers. It traces the hierarchy from container images and isolated container layers up to multi-container Pod topologies and network configuration.
 #### Core Abstractions
@@ -994,7 +966,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Practical Guides
 
   - **(2020)** [elmanytas.es: Kubernetes para impostores III](https://elmanytas.es/?q=node/358) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical Spanish-language guide dissecting Kubernetes primitives and runtime structures. It demystifies the steep learning curve by explaining pods, services, and deployments with a pragmatic, developer-focused narrative.
-### Tutorials
+### Tutorials (1)
 
 #### Deployment Workflow
 
@@ -1002,9 +974,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Practical Handson
 
   - **(2021)** [dev.to: Getting Started Tutorial for Learning Kubernetes 🌟](https://dev.to/chefgs/getting-started-tutorial-for-learning-kubernetes-455e) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory technical tutorial outlining basic kubectl commands, resource deployments, and cluster interactions. Provides practical commands for spinning up, monitoring, and debugging test pods.
-## GitOps and Delivery
+## Gitops and Delivery
 
-### Enterprise CICD
+### CICD (4)
 
 #### Delivery Pipelines
 
@@ -1013,7 +985,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Core Philosophy
 
-#### Borg to Kubernetes
+#### Borg To Kubernetes
 
   - **(2021)** [cloud.google.com: The past, present, and future of Kubernetes with Eric Brewer](https://cloud.google.com/blog/products/containers-kubernetes/the-rise-and-future-of-kubernetes-and-open-source-at-google) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Eric Brewer tracing the lineage of Kubernetes back to Google's internal cluster management engine, Borg. Explores open-source governance strategies, community scaling, and the evolving direction of container virtualization.
 ## Industry Analysis (1)
@@ -1069,12 +1041,12 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Reference Designs
 
   - **(2023)** [kubernetes-on-aws.readthedocs.io](https://kubernetes-on-aws.readthedocs.io/en/latest) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical playbook detailing the architectural nuances of deploying Kubernetes on Amazon Web Services. It offers production-grade setups utilizing EC2, EBS, VPC, and IAM integration before the widespread consolidation under managed EKS.
-### Bare-Metal Setup
+### Bare-metal Setup
 
 #### Device Plugins
 
   - **(2021)** [blog.brujordet.no: Using custom hardware in kubernetes](https://blog.brujordet.no/post/homelab/using_custom_hardware_in_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details how to configure Kubernetes to detect and consume custom hardware resources like GPUs, specialized USB controllers, and serial devices. Explains device plugin setups, node labels, and mounting pathways for host paths into targeted containers.
-#### Self-Hosted Clusters
+#### Self-hosted Clusters
 
   - **(2021)** [==hobby-kube/guide 🌟==](https://github.com/hobby-kube/guide) <span class='md-tag md-tag--info'>⭐ 5658</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3a4fd230" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 2 L 20 5 L 30 13 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-3a4fd230)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive guide on bootstrapping an fully production-ready, highly available Kubernetes cluster on bare-metal or cheap cloud providers using CoreOS (Flatcar) and kubeadm. Outlines security hardening, manual network provisioning, and declarative automation.
 ### CRI
@@ -1082,7 +1054,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Alternative Runtimes
 
   - **(2020)** [blog.sighup.io: How to run Kubernetes without Docker](https://blog.sighup.io/how-to-run-kubernetes-without-docker) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Demonstrates runtime decoupling by running a fully functional Kubernetes cluster without the legacy Docker engine. Leverages Container Runtime Interface (CRI) options like Containerd or CRI-O directly to optimize cluster performance.
-#### Container Runtimes (2)
+#### Container Runtimes (1)
 
   - **(2021)** [kruyt.org: Migrate from Docker to Containerd in Kubernetes](https://kruyt.org/migrate-docker-containerd-kubernetes) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Walks engineers through swapping the Docker container engine for Containerd inside a running Kubernetes node group, addressing the DockerShim deprecation and explaining runtime socket migration.
 ### Container Runtime (2)
@@ -1105,13 +1077,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2020)** [Creating a Kubernetes cloud provider, doesn't required boiling the ocean](https://thebsdbox.co.uk/2020/03/18/Creating-a-Kubernetes-cloud-doesn-t-required-boiling-the-ocean) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed structural breakdown explaining how to implement a custom cloud-controller-manager (CCM) without rebuilding upstream infrastructure. It provides foundational guidance for cloud providers wishing to offer specialized bare-metal orchestrations.
 ### Data Store
 
-#### etcd Administration
+#### Etcd Administration
 
   - **(2023)** [kubernetes.io: Operating etcd clusters for Kubernetes](https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official operational guidelines for running production etcd clusters. Focuses on cluster deployment, securing communication with mutual TLS (mTLS), performance tuning, and performing safe backup and restore operations.
-#### etcd Core Concepts
+#### Etcd Core Concepts
 
   - **(2022)** [learnk8s.io: How etcd works with and without Kubernetes](https://learnkube.com/etcd-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Compares the execution of etcd as a standalone key-value store with its role as Kubernetes' single source of truth. Investigates Raft consensus mechanics, write paths, and how the API server serializes resource states.
-#### etcd Monitoring
+#### Etcd Monitoring
 
   - **(2022)** [sysdig.com: How to monitor etcd](https://www.sysdig.com/blog/monitor-etcd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive guide detailing key metrics (consensus latency, database size, and leader changes) required for monitoring etcd's health. Covers Prometheus integration and alerting strategies to prevent cluster downtime.
 ### Etcd
@@ -1119,7 +1091,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Performance Tuning
 
   - **(2021)** [blog.px.dev: How etcd works and 6 tips to keep in mind](https://blog.px.dev/etcd-6-tips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analyzing etcd internals under the Raft consensus mechanism. Provides six optimization techniques covering disk partition isolating, compact tasks, db sizing, lease scaling, and defragmentation routines necessary to protect cluster health.
-### Fundamentals (6)
+### Fundamentals (5)
 
 #### Comparisons
 
@@ -1137,12 +1109,12 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2020)** [redhat.com: Building containers by hand: The PID namespace](https://www.redhat.com/en/blog/pid-namespace) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular kernel-level tutorial demonstrating how to construct process isolation wrappers manually. Shows the inner workings of Linux PID namespaces to illustrate how Kubernetes models process trees and isolates resources inside a Pod boundary.
 ### Lightweight Kubernetes
 
-#### k0s
+#### K0s
 
   - **(2021)** [**k0sproject**](https://x.com/k0sproject) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Project tracker for k0s, a zero-friction, single-binary Kubernetes distribution designed by Mirantis. k0s strips away operational complexity by packaging control plane components together, optimizing for resource-constrained edge, IoT, and bare-metal environments.
 ### Local Clusters
 
-#### MicroK8s
+#### Microk8s
 
   - **(2021)** [ubuntu.com: How to test the latest Kubernetes 1.22 release candidate with MicroK8s](https://ubuntu.com/blog/how-to-test-the-latest-kubernetes-with-microk8s) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walkthrough on leveraging MicroK8s to evaluate Kubernetes release candidates. This resource demonstrates the minimal configuration overhead required to spin up lightweight clusters on local workstations, enabling early-stage API compatibility validation.
 ### Managed Offerings
@@ -1152,7 +1124,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2020)** [revistacloudcomputing.com: Los mejores proveedores de Kubernetes](https://www.revistacloudcomputing.com/2020/09/los-mejores-proveedores-de-kubernetes) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparison of leading managed Kubernetes providers (EKS, GKE, AKS) assessing features such as control plane pricing, scaling responsiveness, and upgrade paths. Extremely useful for infrastructure strategists.
 ### Migration (1)
 
-#### Container Orchestration (5)
+#### Container Orchestration (3)
 
   - **(2021)** [opensourcerers.org: How to go from Docker to Kubernetes the right way 🌟](https://www.opensourcerers.org/2021/02/01/how-to-go-from-docker-to-kubernetes-the-right-way) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive migration roadmap targeting teams transitioning from local Docker-centric environments to multi-node Kubernetes topologies. Focuses on rewriting network exposes, volume mounts, and orchestrating stateful workloads.
 #### Dev Environments
@@ -1165,7 +1137,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2023)** [==github.com/kairos-io/kairos: Kairos - Kubernetes-focused, Cloud Native Linux' meta-distribution==](https://github.com/kairos-io/kairos) <span class='md-tag md-tag--info'>⭐ 1739</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b4822cfa" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 11 L 30 2 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-b4822cfa)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Kairos is an open-source, immutable Linux meta-distribution optimized specifically for edge and cloud-native Kubernetes deployments. It treats the base operating system as an appliance, allowing declarative, zero-touch provisioning and atomic node upgrades.
 ### Private Cloud
 
-#### OpenStack Integration
+#### Openstack Integration
 
   - **(2021)** [superuser.openstack.org: Run Your Kubernetes Cluster on OpenStack in Production](https://superuser.openinfra.org/articles/run-your-kubernetes-cluster-on-openstack-in-production) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical playbook outlining how to marry OpenStack's bare-metal/VM resources with Kubernetes automation. Outlines storage mapping through Cinder, network integration via Octavia/Neutron, and high-performance production topologies.
 ### Registry
@@ -1178,6 +1150,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Guides (1)
 
   - **(2022)** [loft.sh: Kubernetes on Windows: 6 Life-Saving Tools & Tips](https://www.vcluster.com/blog/kubernetes-on-windows-6-life-saving-tools-and-tips) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A technical resource detailing operational best practices, troubleshooting mechanisms, and performance-tuning tricks for running Windows Server containers on hybrid Kubernetes clusters. It addresses common networking pitfalls (such as Calico or Flannel overlay differences) and resource limitation differences between Linux namespaces and Windows Job Objects. It provides engineering teams with practical tips to facilitate legacy .NET Framework containerization.
+## Infrastructure As Code (1)
+
+### Crossplane and Control Planes
+
+#### Overview (1)
+
+  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Infrastructure Optimization
 
 ### Cluster Architecture (1)
@@ -1196,7 +1175,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### EKS Integration
 
   - **(2022)** [How to track costs in multi-tenant Amazon EKS clusters using Kubecost](https://aws.amazon.com/blogs/containers/how-to-track-costs-in-multi-tenant-amazon-eks-clusters-using-kubecost) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step implementation guide detailing how to run Kubecost within AWS EKS environments. Explains namespace-level attribution, handling shared load balancers, and calculating storage and compute resources accurately against live AWS billing registers.
-#### FinOps Practices
+#### Finops Practices
 
   - **(2021)** [thenewstack.io: 5 Essential Tips to Manage Kubernetes Costs](https://thenewstack.io/5-essential-tips-to-manage-kubernetes-costs) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents a strategic blueprint for limiting resource waste within cloud-native infrastructures. It focuses on setting realistic resource request and limit boundaries, utilizing horizontal and vertical autoscaling mechanisms, and eliminating orphaned volume structures.
   - **(2021)** [thenewstack.io: 5 Expensive Kubernetes Cost Traps and How to Deal with Them](https://thenewstack.io/5-expensive-kubernetes-cost-traps-and-how-to-deal-with-them) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies the core operational anti-patterns that lead to rapid cluster cost inflation. Offers actionable patterns to address over-provisioning, unthrottled non-production environments, and structural failures to leverage public cloud savings plans.
@@ -1212,18 +1191,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [infracloud.io: Kubernetes Cost Reporting using Kubecost](https://www.infracloud.io/blogs/kubernetes-cost-reporting-using-kubecost) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations-focused walk-through for integrating Kubecost into enterprise environments. Covers capturing Prometheus-formatted infrastructure telemetry and leveraging internal dashboards to visualize actual cost structures.
   - **(2021)** [thenewstack.io: KubeCost: Monitor Kubernetes Costs with kubectl](https://thenewstack.io/kubecost-monitor-kubernetes-costs-with-kubectl) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces CLI-driven financial observability workflows via the `kubectl-cost` plugin. Teaches engineers to quickly isolate resource-heavy configurations and run cost analysis commands directly within terminal shells.
   - **(2021)** [rtfm.co.ua: Kubernetes: Cluster Cost Monitoring – Kubernetes Resource Report and Kubecost](https://rtfm.co.ua/en/kubernetes-cluster-cost-monitoring-kubernetes-resource-report-and-kubecost) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Contrasts the resource-efficient 'Kubernetes Resource Report' project with the full-featured analytical depth of Kubecost. Assists engineers in finding the ideal balance between low deployment overhead and comprehensive reporting capability.
-## Infrastructure as Code (1)
-
-### CICD and Delivery
-
-#### Self-Hosted Runners
-
-  - **(2025)** [RunsOn: Self-hosted GitHub Actions Runners in AWS](https://runs-on.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An innovative open-source self-hosting solution that provisions fast, secure, on-demand EC2 single-use runners for GitHub Actions on AWS. Offers extreme cost reductions (up to 10x) utilizing EC2 spot instances with minimal boot delays.
-### Crossplane and Control Planes
-
-#### Overview (1)
-
-  - **(2026)** [==Crossplane==](https://nubenetes.com/crossplane/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive review of Crossplane, a CNCF control-plane framework transforming Kubernetes clusters into universal infrastructure schedulers. Permits declarative definition of cloud resources (RDS, S3, VMs) alongside native Kubernetes schemas.
 ## Introductory
 
 ### Concepts (1)
@@ -1231,19 +1198,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Kubernetes Basics
 
   - **(2021)** [qwinix.io: What Is Kubernetes? K8s Uses, Benefits, & More](https://www.qwinix.io/blog-what-is-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-level review detailing containerization benefits, resource allocation, self-healing architectures, and declarative desired states. Aimed at introducing product leads and junior engineers to the core patterns of K8s orchestration.
-## Kubernetes Platform Engine
-
-### Cluster Operations
-
-#### Memory Management
-
-  - **(2025)** [OOMKilled in Kubernetes: Understanding and Preventing Hidden Memory Leaks](https://unixarena.com/2025/04/oomkilled-in-kubernetes-the-hidden-memory-leaks-youre-missing.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses Kubernetes `OOMKilled` (Exit Code 137) events caused by memory leaks, misconfigured resource limits, and JVM heap management issues. Explains how to set appropriate limits/requests while implementing profiling tools to prevent container churn.
 ## Kubernetes Tools
 
 ### General Reference
 
-  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Kubernetes Troubleshooting: A Step-by-Step Guide in the Kubernetes Tools ecosystem.
   - [Docker Hardened Images for Every Developer](https://www.docker.com/blog/docker-hardened-images-for-every-developer)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Docker Hardened Images for Every Developer in the Kubernetes Tools ecosystem.
+  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Performance Patterns in Microservices-Based Integrations in the Kubernetes Tools ecosystem.
+  - [Kubernetes Troubleshooting: A Step-by-Step Guide](https://www.cncf.io/blog/2025/03/13/kubernetes-troubleshooting-a-step-by-step-guide)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Kubernetes Troubleshooting: A Step-by-Step Guide in the Kubernetes Tools ecosystem.
   - [dzone: Introduction To Kubernetes 🌟](https://dzone.com/articles/introduction-to-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Introduction To Kubernetes 🌟 in the Kubernetes Tools ecosystem.
   - [cncf.io: Kubernetes 101: An Introduction 🌟](https://www.cncf.io/blog/2020/12/14/kubernetes-101-an-introduction)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Kubernetes 101: An Introduction 🌟 in the Kubernetes Tools ecosystem.
   - [dzone.com: Kubernetes Architecture Diagram 🌟🌟🌟](https://dzone.com/articles/kubernetes-architecture-diagram)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Kubernetes Architecture Diagram== 🌟🌟🌟 in the Kubernetes Tools ecosystem.
@@ -1260,7 +1221,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - [cncf.io: 5 Problems with Kubernetes Cost Estimation Strategies](https://www.cncf.io/blog/2020/09/18/5-problems-with-kubernetes-cost-estimation-strategies)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: 5 Problems with Kubernetes Cost Estimation Strategies in the Kubernetes Tools ecosystem.
   - [cncf.io: Simplifying multi-clusters in Kubernetes](https://www.cncf.io/blog/2021/04/12/simplifying-multi-clusters-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Simplifying multi-clusters in Kubernetes in the Kubernetes Tools ecosystem.
   - [pixelstech.net: Build a Kubectl Plugin from Scratch](https://www.pixelstech.net/article/1606901393-Build-a-Kubectl-Plugin-from-Scratch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering pixelstech.net: Build a Kubectl Plugin from Scratch in the Kubernetes Tools ecosystem.
-  - [dzone.com: Performance Patterns in Microservices-Based Integrations](https://dzone.com/articles/performance-patterns-in-microservices-based-integr-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com: Performance Patterns in Microservices-Based Integrations in the Kubernetes Tools ecosystem.
   - [dzone: Microservices Patterns: Sidecar](https://dzone.com/articles/microservices-patterns-sidecar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Microservices Patterns: Sidecar in the Kubernetes Tools ecosystem.
   - [dzone: Multi-Container Pod Design Patterns in Kubernetes](https://dzone.com/articles/multi-container-pod-design-patterns-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Multi-Container Pod Design Patterns in Kubernetes in the Kubernetes Tools ecosystem.
   - **(None)** [](https://kubernetes.io/docs/reference/scheduling/config)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering kubernetes.io in the Kubernetes Tools ecosystem.
@@ -1269,10 +1229,10 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
 ### Kubeflow
 
-#### MLOps Infrastructure
+#### Mlops Infrastructure
 
   - **(2021)** [civo.com: Get up and running with Kubeflow on Civo Kubernetes](https://www.civo.com/learn/get-up-and-running-with-kubeflow-on-civo-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed installation and operations guide showing how to deploy Kubeflow pipelines onto lightweight managed Civo K3s clusters. Covers setting up deep learning environments, model pipelines, and monitoring routines.
-## Multi-Cluster (2)
+## Multi-cluster (2)
 
 ### Federation (1)
 
@@ -1286,18 +1246,20 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2023)** [==KubeCarrier - Service Management at Scale==](https://github.com/kubermatic/kubecarrier) <span class='md-tag md-tag--info'>⭐ 291</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3b022a83" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 11 L 30 6 L 40 2 L 50 2" fill="none" stroke="url(#spark-grad-3b022a83)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — KubeCarrier is an open-source system designed for managing services across multiple Kubernetes clusters using a Service App Store model based on CRDs. Curator insights framed it as an enterprise-ready hub for multi-tenant services; however, live grounding reveals the project has been archived by Kubermatic. It remains academically and architecturally notable for showing how to use Hub-and-Spoke cluster patterns to automate service provisioning.
 ## Networking
 
-### Core Services
+### Kube-proxy
 
-#### kube-proxy
+#### IPVS Routing
 
-  - **(2021)** [dustinspecker.com: iptables: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/iptables-how-kubernetes-services-direct-traffic-to-pods) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Low-level diagnostic guide tracing the packet path through programmed iptables rules. Demonstrates exactly how kube-proxy routes cluster IP destination calls to dynamic backend endpoints.
-  - **(2021)** [arthurchiao.art: Cracking kubernetes node proxy (aka kube-proxy)](https://arthurchiao.art/blog/cracking-k8s-node-proxy) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep-dive technical blog exploring the design principles of the node proxy. Compares user-space, iptables, and IPVS proxy modes with performance telemetry data.
-### Multi-Cluster (3)
+  - **(2021)** [tigera.io: Comparing kube-proxy modes: iptables or IPVS?](https://www.tigera.io/blog/comparing-kube-proxy-modes-iptables-or-ipvs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical performance comparison between iptables and IPVS (IP Virtual Server) routing modes in kube-proxy. Demonstrates why IPVS's hash table lookup structures scale with O(1) performance, avoiding the O(N) linear performance degradation of iptables in clusters with thousands of services.
+#### Traffic Routing
+
+  - **(2020)** [learnsteps.com: How exactly kube-proxy works: Basics on Kubernetes](https://www.learnsteps.com/how-exactly-kube-proxy-works-basics-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide outlining how kube-proxy tracks the cluster API server to process changes to Endpoints and Services. Details packet forwarding patterns using user-space proxy routing and kernel-level iptables translation chains.
+### Multi-cluster (3)
 
 #### MCS-API
 
   - **(2021)** [**thenewstack.io: Extending Kubernetes Services with Multi-Cluster Services API**](https://thenewstack.io/extending-kubernetes-services-with-multi-cluster-services-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the Multi-Cluster Services (MCS) API. Analyzes cross-cluster traffic routing mechanisms and explains how to publish and consume services spanning multiple Kubernetes environments.
-### Multi-Cluster Networking
+### Multi-cluster Networking
 
 #### Submariner
 
@@ -1319,7 +1281,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [iximiuz.com: Service discovery in Kubernetes - combining the best of two worlds](https://iximiuz.com/en/posts/service-discovery-in-kubernetes) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis mapping how network packages resolve endpoints inside Kubernetes. Contrasts environment-variable injection against internal CoreDNS discovery systems, detailing how virtual ClusterIP networks route requests to running pods via iptables rules.
 ### Service Mesh and Proxy
 
-#### kube-proxy Mechanics
+#### Kube-proxy Mechanics
 
   - **(2022)** [**mayankshah.dev: Demystifying kube-proxy**](https://mayankshah.dev/blog/demystifying-kube-proxy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A comprehensive breakdown of kube-proxy, the crucial network daemon on each Kubernetes node. Explains how kube-proxy implements virtual IP mechanics, routes traffic using iptables, and translates Kubernetes Service abstractions into actual networking actions.
 ### Services
@@ -1330,20 +1292,12 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Deep Dive (1)
 
   - **(2021)** [**harness.io: Kubernetes Services Explained 🌟**](https://www.harness.io/blog/kubernetes-services-explained) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the network mechanics of Kubernetes Services, detailing internal DNS resolution, kube-proxy iptables configurations, and IPVS packet translation rules. Useful for tracing service discovery latencies.
-#### Fundamentals (7)
+#### Fundamentals (6)
 
   - **(2020)** [blog.alexellis.io: A Primer: Accessing services in Kubernetes](https://blog.alexellis.io/primer-accessing-kubernetes-services) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies service exposition mechanisms. Breaks down the network plumbing and structural configuration differences between ClusterIP, NodePort, and cloud-provider LoadBalancer integrations.
 #### IPVS
 
   - **(2021)** [dustinspecker.com: IPVS: How Kubernetes Services Direct Traffic to Pods](https://dustinspecker.com/posts/ipvs-how-kubernetes-services-direct-traffic-to-pods) <span class='md-tag md-tag--warning'>[GO/BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A core-level networking analysis explaining how the IP Virtual Server (IPVS) routing layer handles service balancing inside high-scale clusters, demonstrating massive throughput advantages over standard iptables.
-### kube-proxy (1)
-
-#### IPVS Routing
-
-  - **(2021)** [tigera.io: Comparing kube-proxy modes: iptables or IPVS?](https://www.tigera.io/blog/comparing-kube-proxy-modes-iptables-or-ipvs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical performance comparison between iptables and IPVS (IP Virtual Server) routing modes in kube-proxy. Demonstrates why IPVS's hash table lookup structures scale with O(1) performance, avoiding the O(N) linear performance degradation of iptables in clusters with thousands of services.
-#### Traffic Routing
-
-  - **(2020)** [learnsteps.com: How exactly kube-proxy works: Basics on Kubernetes](https://www.learnsteps.com/how-exactly-kube-proxy-works-basics-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical guide outlining how kube-proxy tracks the cluster API server to process changes to Endpoints and Services. Details packet forwarding patterns using user-space proxy routing and kernel-level iptables translation chains.
 ## Networking and Ingress
 
 ### DNS
@@ -1351,23 +1305,16 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Automation (1)
 
   - **(2024)** [==external-dns==](https://github.com/kubernetes-sigs/external-dns) <span class='md-tag md-tag--info'>⭐ 8985</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09d8dd72" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 7 L 20 11 L 30 13 L 40 7 L 50 4" fill="none" stroke="url(#spark-grad-09d8dd72)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A vital ecosystem add-on that dynamically configures external DNS providers based on active Ingress and Service host declarations. Ensures automated external network connectivity.
-## Networking and Security
-
-### Kubernetes Networking
-
-#### Deep Dive (2)
-
-  - **(2020)** [==ronaknathani.com: How a Kubernetes Pod Gets an IP Address 🌟==](https://ronaknathani.com/blog/2020/08/how-a-kubernetes-pod-gets-an-ip-address) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exquisite, step-by-step technical analysis of the process of container instantiation and network interface creation. Explores how the Kubelet invokes CNI plugins to assign an IP address. Live Grounding validates that understanding the low-level CNI specification and IPC interactions is crucial for debugging cluster networking bottlenecks.
 ## Observability (1)
 
 ### Debugging (2)
 
+#### Ebpf Diagnostics
+
+  - **(2026)** [==kubectl-trace==](https://github.com/iovisor/kubectl-trace) <span class='md-tag md-tag--info'>⭐ 2177</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-032e8ad9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 5 L 20 7 L 30 8 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-032e8ad9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An administrative kubectl plugin designed to schedule and run bpftrace programs directly on target cluster nodes. It spawns custom, privileged debugging pods to attach eBPF tracing hooks into the host kernel, enabling high-performance diagnostic analysis of system calls and system bottlenecks without modifying application code.
 #### Resource Lifecycle
 
   - **(2026)** [==kubespy==](https://github.com/huazhihao/kubespy) <span class='md-tag md-tag--info'>⭐ 140</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7c449e32" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 4 L 30 10 L 40 13 L 50 8" fill="none" stroke="url(#spark-grad-7c449e32)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An interactive real-time observability CLI tool designed to 'spy' on active API resources. By monitoring resource lifecycles and publishing structural diffs directly to the terminal, it helps developers demystify custom resource definitions and native controller states during live deployment events.
-#### eBPF Diagnostics
-
-  - **(2026)** [==kubectl-trace==](https://github.com/iovisor/kubectl-trace) <span class='md-tag md-tag--info'>⭐ 2177</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-032e8ad9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 5 L 20 7 L 30 8 L 40 10 L 50 2" fill="none" stroke="url(#spark-grad-032e8ad9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An administrative kubectl plugin designed to schedule and run bpftrace programs directly on target cluster nodes. It spawns custom, privileged debugging pods to attach eBPF tracing hooks into the host kernel, enabling high-performance diagnostic analysis of system calls and system bottlenecks without modifying application code.
 ### Monitoring
 
 #### Telemetry Protocols
@@ -1396,15 +1343,15 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [releasehub.com: Kubernetes Health Checks - 2 Ways to Improve Stability in Your Production Applications](https://release.com/blog/kubernetes-health-checks-2-ways-to-improve-stability)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates how properly defined health checks prevent bad deployments. Contrasts the operational differences of readiness probes (traffic routing control) with liveness probes (container restart trigger).
 ### Autoscaling
 
-#### Queue-Based Scaling
+#### Queue-based Scaling
 
   - **(2026)** [==k8s-worker-pod-autoscaler==](https://github.com/practo/k8s-worker-pod-autoscaler) <span class='md-tag md-tag--info'>⭐ 161</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-92341f52" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 11 L 30 9 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-92341f52)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized worker autoscaler controller that targets instances consuming messages from queue brokers (such as SQS, Beanstalk, and RabbitMQ). It optimizes capacity scaling by using real-time backlog latency metrics rather than basic CPU or Memory usage averages, avoiding issues with delayed processing loops.
 ### Best Practices (2)
 
-#### Cloud-Native Design
+#### Cloud-native Design
 
   - **(2022)** [cloud.google.com: Kubernetes Best Practices](https://cloud.google.com/blog/products/containers-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive guides from GCP detailing container building, application exposure, cost optimization, and multi-tenant security structures using GKE-centric and general Kubernetes standards.
-#### Common Anti-Patterns
+#### Common Anti-patterns
 
   - **(2022)** [harness.io: Kubernetes Mistakes: A Beginner’s Guide To Avoiding Common Pitfalls](https://www.harness.io/blog/kubernetes-mistakes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tailored for beginners, detailing typical traps: using 'latest' tags for images, lacking health endpoints, neglecting namespace isolation, and hardcoding application secrets directly into YAML.
   - **(2020)** [10 most common mistakes when using Kubernetes](https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores core architectural errors: missing CPU/Memory requests/limits, misconfigured liveness/readiness probes, exposing all HTTP services via individual Cloud LoadBalancers, and neglecting IAM/RBAC context integration.
@@ -1473,7 +1420,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [youtube: Welcome to the world of kubectl plugins](https://www.youtube.com/watch?v=_W2qZvQT6XY) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A video presentation covering the landscape, development, and use cases of kubectl plugins. It serves as an accessible introduction to extending local terminal tooling with practical examples of custom workflows and automated command pipelines.
 ### Continuous Delivery
 
-#### GitOps
+#### Gitops
 
   - **(2020)** [blog.lukechannings.com: Mistakes made and lessons learned with Kubernetes and GitOps](https://lukechannings.com/blog/2020-05-10-kubernetes-gitops-lessons) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A candid retrospective exploring hard-learned GitOps lessons. Focuses on synchronizing cluster state with Git, managing secrets securely within declarative repositories, and structuring repositories for multi-environment lifecycles.
 ### Cost Optimization
@@ -1505,7 +1452,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Maturity Frameworks
 
   - **(2022)** [fairwinds.medium.com: Kubernetes Maturity Model](https://www.fairwinds.com/kubernetes-maturity-model)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces a multi-phased maturity model mapping an organization's path from raw experimentation and initial containerization to advanced, automated platform optimization, enterprise governance, declarative policy enforcement, and multi-cluster orchestration.
-### High Availability (2)
+### High Availability (1)
 
 #### Deployment Best Practices
 
@@ -1518,7 +1465,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Architecture Overview
 
   - **(2023)** [linkedin.com: DAY 01: Kubernetes : Understanding Architecture, Components, Installation and Configuration](https://www.linkedin.com/pulse/day-01-kubernetes-understanding-architecture-anup-ghattikar)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory training log explaining initial cluster bootstrapping, control plane configurations, and node joining sequences. It details common installation paths and highlights basic networking/etcd configurations needed to establish a stable cluster control plane.
-### Lifecycle Management
+### Lifecycle Management (1)
 
 #### Day 2 Operations
 
@@ -1533,7 +1480,10 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Industry Trends (2)
 
   - **(2022)** [**infoworld.com: No one wants to manage Kubernetes anymore 🌟**](https://www.infoworld.com/article/2264392/no-one-wants-to-manage-kubernetes-anymore.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the enterprise shift away from running custom, self-managed vanilla Kubernetes clusters towards fully managed cloud platforms like EKS, GKE, and serverless container ecosystems. Underlines the operational complexities of maintaining control plane elements.
-### Multi-Cluster (4)
+#### Performance Benchmarking
+
+  - **(2023)** [symbiosis.host: Benchmarking cluster creation time for 8 managed Kubernetes providers](https://symbiosis.host)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative performance study evaluating cluster provisioning latency across eight prominent cloud providers (such as AWS EKS, GCP GKE, Azure AKS, DigitalOcean, and Symbiosis). Tracks control plane bootstrap speed, node joining times, and API availability to guide DevOps teams in emergency scale-out or dynamic environment workflows.
+### Multi-cluster (4)
 
 #### Add-on Management
 
@@ -1541,14 +1491,14 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Federation (2)
 
   - **(2026)** [==KubeFed: Kubernetes Cluster Federation==](https://github.com/kubernetes-retired/kubefed) <span class='md-tag md-tag--info'>⭐ 2483</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a3a4b493" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 13 L 20 12 L 30 11 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-a3a4b493)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The retired multi-cluster federation engine (KubeFed). Designed to coordinate resources across multiple clusters, it was retired due to design limitations. Modern production multi-cluster strategies have migrated to architectures like Karmada, Open Cluster Management (OCM), or global service meshes.
-### Multi-Cluster Management
+### Multi-cluster Management
 
 #### Fleet Orchestration
 
   - **(2021)** [**thenewstack.io: What Does It Take to Manage Hundreds of Kubernetes Clusters?**](https://thenewstack.io/what-does-it-take-to-manage-hundreds-of-kubernetes-clusters) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines the challenges of managing large fleets of Kubernetes clusters in production. Evaluates key strategies for GitOps-driven deployment automation, programmatic RBAC enforcement, policy propagation, and consolidated fleet telemetry across environments.
 ### Node Management
 
-#### Auto-Remediation
+#### Auto-remediation
 
   - **(2026)** [==Draino==](https://github.com/planetlabs/draino) <span class='md-tag md-tag--info'>⭐ 682</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9c7a76d0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 12 L 20 9 L 30 8 L 40 12 L 50 12" fill="none" stroke="url(#spark-grad-9c7a76d0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An automated daemon designed to safely cordon and drain compute hosts when specific kernel or physical errors are flagged by the Node Problem Detector. It processes node status updates and gracefully evicts active workloads while strictly respecting configured Pod Disruption Budgets (PDBs).
 #### Declarative Automation
@@ -1565,7 +1515,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Workload Scaling
 
   - **(2021)** [**infoq.com: Six Tips for Running Scalable Workloads on Kubernetes**](https://www.infoq.com/articles/tips-running-scalable-workloads-kubernetes) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Architectural insights on managing high-throughput, highly available workloads in Kubernetes. Explains critical configuration paradigms including resource requests and limits, Horizontal Pod Autoscaling (HPA) triggers, readiness/liveness probe design, and graceful termination hooks.
-### Post-Mortems
+### Post-mortems
 
 #### Resiliency Engineering
 
@@ -1578,14 +1528,13 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [**kubermatic.com: The Ultimate Checklist for Running Kubernetes in Production**](https://www.kubermatic.com/resources/the-ultimate-checklist-for-running-kubernetes-in-production) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An extensive production operations checklist for Kubernetes deployments. Covers crucial production readiness requirements across observability, ingress security, RBAC policies, network segmentation, and backup recovery operations.
 ### Registry (1)
 
-#### High Availability (3)
+#### High Availability (2)
 
   - **(2021)** [blog.kintone.io: Tolerating failures in container image registries 🌟](https://blog.kintone.io/entry/neco-registry) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Case study analyzing how to deploy failure-tolerant private registries in high-availability environments. Explains how to set up resilient storage layers, handle replication synchronization, and use local pull-through caching to shield nodes from upstream network outages.
 ### Reliability (2)
 
 #### Probes (1)
 
-  - **(2020)** [==If you have a livenessProbe that takes over one second, it’ll fail when you update to kubernetes 1.20, because a long-standing bug with how the default was handled has been fixed. You must override the ExecProbeTimeout if your probe takes more than 1s==](https://github.com/kubernetes/kubernetes/pull/97057) <span class='md-tag md-tag--info'>⭐ 123002</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5acba9dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 11 L 30 10 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-5acba9dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Highlights a critical behavior change in Kubernetes 1.20 where `timeoutSeconds` is strictly enforced for Exec probes. Warns how previously un-timeout-bound scripts can trigger sudden restarts across critical services.
   - **(2021)** [**loft.sh: Kubernetes Readiness Probes - Examples & Common Pitfalls**](https://website.vcluster.com/blog/kubernetes-readiness-probes-examples-and-common-pitfalls) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes advanced operational pitfalls in readiness probe configurations. Explains how bad dependency validation (e.g. database pings inside web pod probes) can cause catastrophic, cascading cluster failures.
 #### Troubleshooting (1)
 
@@ -1597,7 +1546,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2020)** [dbafromthecold.com: Adjusting pod eviction time in Kubernetes](https://dbafromthecold.com/2020/04/08/adjusting-pod-eviction-time-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to customize node and pod eviction behaviors during network partitions. Shows how to adjust parameters like pod-eviction-timeout and node-monitor-grace-period to prevent unnecessary database state re-syncs during transient packet loss.
 ### Resiliency
 
-#### DaemonSets (2)
+#### Daemonsets (2)
 
   - **(2019)** [engineering.prezi.com: How to avoid global outage — Seamlessly migrating DaemonSet labels](https://engineering.prezi.com/intro-4727024fc2c1) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed post-mortem and strategy guide on safely migrating selector labels for active DaemonSets without triggering catastrophic cluster outages. It introduces mechanisms to stage transitions using interim labels and node-level scaling constraints.
 ### Resource Limits (1)
@@ -1623,7 +1572,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Wait Strategies
 
   - **(2021)** [vadosware.io: So you need to wait for some Kubernetes resources?](https://vadosware.io/post/so-you-need-to-wait-for-some-kubernetes-resources) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide explaining how to synchronize the initialization sequence of dependent Kubernetes resources. Highlights the use of `kubectl wait`, init containers, and programmatic polling to prevent startup failures in microservice topologies.
-### Self-Healing
+### Self-healing
 
 #### Automation Platforms
 
@@ -1635,7 +1584,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [==Ramilito/kubesess==](https://github.com/Ramilito/kubesess) <span class='md-tag md-tag--info'>⭐ 284</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-899e59ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 10 L 30 7 L 40 8 L 50 2" fill="none" stroke="url(#spark-grad-899e59ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[RUST CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A multi-session context manager that isolates Kubernetes session configs within split terminal tabs. Unlike default global switches, this Rust utility guarantees engineers can safely run separate commands targeting different zones and clusters simultaneously without cross-cluster command contamination.
 ### System Administration (1)
 
-#### Fundamentals (8)
+#### Fundamentals (7)
 
   - **(2021)** [redhat.com: Kubernetes basics for sysadmins](https://www.redhat.com/en/blog/kubernetes-basics-sysadmins) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines Kubernetes through the lens of bare-metal and VM sysadmins. Contextualizes namespaces, control groups (cgroups), and network namespaces against traditional Linux system administration paradigms.
 ### Troubleshooting (2)
@@ -1686,7 +1635,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 
   - **(2023)** [devopscube.com: Kubernetes Pod Priority, PriorityClass, and Preemption Explained 🌟](https://devopscube.com/pod-priorityclass-preemption) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing the setup, risk mitigation, and security policies governing PriorityClasses, helping operators protect critical platform controllers from being starved of compute resources.
   - **(2022)** [bytes.devopscube.com: Kubernetes Pod Priority & Preemption](https://bytes.devopscube.com/p/pod-priority-preemption-explained) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architectural overview of Kubernetes Pod Priority and Preemption. It explains how high-priority containers can evict lower-priority workloads from fully saturated worker nodes.
-#### Taints and Tolerations
+#### Taints And Tolerations
 
   - **(2020)** [returngis.net: Organizar los pods en Kubernetes usando taints y tolerations](https://www.returngis.net/2020/06/organizar-los-pods-en-kubernetes-usando-taints-y-tolerations) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes scheduling isolation strategies using Node Taints and Pod Tolerations. Outlines patterns to dedicate specific hardware pools to isolated tenant classes or heavy ML workloads (written in Spanish).
 ## Platform Engineering (2)
@@ -1734,12 +1683,12 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Network Operations
 
   - **(2021)** [containerjournal.com: Overcoming Kubernetes Infrastructure Challenges](https://cloudnativenow.com/topics/cloudnativeplatforms/overcoming-kubernetes-infrastructure-challenges) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical survey of operational friction points, such as networking complexity, ingress management, and security posture in hybrid topologies. Provides concrete architectural strategies to reduce platform engineering complexity.
-### Multi-Tenancy
+### Multi-tenancy
 
 #### Admission Control (1)
 
   - **(2022)** [==loft-sh/kiosk==](https://github.com/loft-sh/kiosk) <span class='md-tag md-tag--info'>⭐ 1071</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a54fbf40" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 2 L 20 7 L 30 12 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-a54fbf40)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source extension for managing logical multi-tenancy. Configures self-service namespace provisioning and tenant resource allocations, though now largely replaced by vcluster workflows.
-#### Anti-Patterns
+#### Anti-patterns
 
   - **(2022)** [thenewstack.io: Avoiding the Pitfalls of Multitenancy in Kubernetes](https://thenewstack.io/avoiding-the-pitfalls-of-multitenancy-in-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the architectural failure modes of poorly isolated multi-tenant clusters. Outlines mitigation paths for noisy neighbors, CPU-throttled namespaces, and leaky container workloads.
 #### Architectural Models
@@ -1768,7 +1717,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Namespace Isolation
 
   - **(2021)** [opensource.com: Configure multi-tenancy with Kubernetes namespaces 🌟](https://opensource.com/article/21/2/kubernetes-namespaces) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates logical multi-tenancy implementation using native Kubernetes resource primitives. Focuses on combining RBAC boundaries, NetworkPolicies, and ResourceQuotas to insulate co-located developer teams.
-#### Self-Service
+#### Self-service
 
   - **(2023)** [Self-Service Kubernetes Namespaces Are A Game-Changer 🌟](https://www.vcluster.com/blog/self-service-kubernetes-namespaces-are-a-game-changer) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines developer onboarding architectures using vcluster to spawn self-service virtual namespaces. Reduces shared API control plane bottlenecks and simplifies structural governance for platform operators.
 #### Tooling Evaluation
@@ -1780,10 +1729,10 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [blog.joshgav.com: Clusters for all! - 16 May 2022 on Multitenancy, Clusters](https://blog.joshgav.com/posts/cluster-level-multitenancy) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes advanced platform patterns for slice-based API multitenancy. Argues that virtualized control planes represent the most scalable approach for complex multi-user setups.
 ### Namespace Isolation (1)
 
-#### Cross-Namespace Sharing
+#### Cross-namespace Sharing
 
   - **(2022)** [engineering.salesforce.com: Project Agumbe: Share Objects Across Namespaces in Kubernetes 🌟](https://engineering.salesforce.com/project-agumbe-share-objects-across-namespaces-in-kubernetes-1fc2e1ddb3eb) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Presents Salesforce's Project Agumbe, which synchronizes and shares select Kubernetes resources across namespace boundaries safely, preserving logical security partitions while reducing etcd redundancy.
-### PaaS (1)
+### Paas (1)
 
 #### Adoption Strategy (1)
 
@@ -1795,16 +1744,9 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2025)** [blog.palark.com](https://palark.com/blog/tag/kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Palark's technical blog delivers authoritative articles detailing production-grade Kubernetes challenges and platform engineering techniques. It emphasizes cluster security, container storage interfaces, and bare-metal cluster architectures.
 ### Training and Education
 
-#### Tutorials (1)
+#### Tutorials (2)
 
   - **(2024)** [learnk8s.io/blog](https://learnkube.com/blog) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Learnk8s offers high-fidelity, visually rich technical deep dives focusing on cluster mechanics and deployment configurations. Their educational guides resolve core operational complexities, making it a stellar developer resource for production container configuration.
-## Provisioning
-
-### Deployment Tools
-
-#### Ubuntu Stack
-
-  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
 ## Resource Management (2)
 
 ### Automation and Tools
@@ -1896,17 +1838,17 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [sysdig.com: Kubernetes capacity planning: How to rightsize the requests of your cluster](https://www.sysdig.com/blog/kubernetes-capacity-planning) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sysdig's guide to capacity planning and rightsizing cluster-wide resources.
 - Explains how to aggregate individual container requests to determine actual node provisioning thresholds.
 - Demystifies how rightsizing avoids both over-provisioning spend and scheduling latency.
-#### Quality of Service QoS
+#### Quality Of Service qos
 
   - **(2022)** [cloudtechtwitter.com: Kubernetes Quality of Service (QoS) class](https://www.cloudtechtwitter.com/2022/04/kubernetes-quality-of-service-qos-class.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how Kubernetes dynamically classifies pods into Quality of Service (QoS) classes: Guaranteed, Burstable, and BestEffort.
 - Outlines how QoS configurations directly dictate Out-Of-Memory (OOM) score scoring.
 - Demonstrates how nodes select eviction targets during resource pressure based on these rankings.
-#### Reliability vs Cost
+#### Reliability Vs Cost
 
   - **(2023)** [home.robusta.dev: You can't have both high utilization and high reliability 🌟](https://home.robusta.dev/blog/kubernetes-utilization-vs-reliability) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the mathematical trade-off between resource utilization and cluster reliability.
 - Argues that running nodes at near-maximum capacity inevitably causes scheduling bottlenecks and evictions.
 - Recommends structured buffers to preserve high availability.
-#### Requests and Limits
+#### Requests And Limits
 
   - **(2022)** [learnk8s.io: Setting the right requests and limits in Kubernetes 🌟](https://learnkube.com/setting-cpu-memory-limits-requests)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly structured, visual guide clarifying requests (scheduling floor) and limits (runtime ceiling).
 - Contrasts how CPU (compressible) vs Memory (non-compressible) behave when limits are exceeded.
@@ -1965,7 +1907,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [All you need to know to get started with the Kube Scheduler](https://gist.github.com/luisalfonsopreciado/40a0fc2319241d517832affdce2bc1ff)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structured developer reference summarizing primary Kube Scheduler mechanisms.
 - Explains configuring node affinity, taints, tolerations, and scheduling profile plugins.
 - Provides a robust cheat-sheet format for engineering custom resource schedules.
-#### Filtering and Scoring
+#### Filtering And Scoring
 
   - **(2020)** [opensource.com: How the Kubernetes scheduler works](https://opensource.com/article/20/11/kubernetes-scheduler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep dive into the core execution loops of the `kube-scheduler` component.
 - Walks through the filtering (Predicates) and scoring (Priorities) phases used to select candidate nodes.
@@ -1996,7 +1938,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [==kconnect - The Kubernetes Connection Manager CLI==](https://github.com/fidelity/kconnect) <span class='md-tag md-tag--info'>⭐ 243</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b3857338" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 13 L 30 3 L 40 7 L 50 7" fill="none" stroke="url(#spark-grad-b3857338)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An enterprise-ready connection manager used to secure and automate context discovery in cloud environments. It integrates CLI authentication directly with corporate directory providers (such as SAML, OIDC, AWS IAM, Azure AD), making it simple to manage multi-tenant access safely.
 ### Authentication Protocols
 
-#### CICD Security
+#### CICD (5)
 
   - **(2021)** [tremolosecurity.com: Pipelines and Kubernetes Authentication](https://www.tremolo.io/post/pipelines-and-kubernetes-authentication) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A tactical guide outlining security risks of using long-lived ServiceAccount tokens within build pipelines. Recommends implementing ephemeral OIDC federation tokens and short-lived credential models to authenticate pipelines securely.
 ### Best Practices (4)
@@ -2026,14 +1968,11 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [fairwinds.com: K8s Clinic: How to Run Kubernetes Securely and Efficiently 🌟](https://www.fairwinds.com/blog/k8s-clinic-how-to-run-kubernetes-securely-and-efficiently)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses methods for shifting security policies left into developer workflows. Explains how to integrate validation checks into build systems to enforce security contexts, resource quotas, and drop default capabilities prior to cluster deployment.
 ### Identity
 
-#### OpenShift
+#### Openshift
 
   - **(2022)** [rcarrata.github.io: Regenerating Kubeconfig for system:admin user in OpenShift clusters](https://rcarrata.github.io/openshift/regenerate-kubeconfig) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical procedure for regenerating administrative Kubeconfig structures for the `system:admin` user inside Red Hat OpenShift clusters. Focuses on resolving expired control plane authentication certificates via backend master node mechanics.
 ### Identity and Access
 
-#### AKS
-
-  - **(2024)** [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive handbook for architecting identity boundaries in Azure Kubernetes Service (AKS). It details the integration of Entra ID with native Kubernetes RBAC to eliminate static credentials. Utilizing managed identities ensures secure, audit-compliant interactions with external Azure cloud assets.
 #### RBAC
 
   - **(2022)** [cloudhero.io](https://cloudhero.io/creating-users-for-your-kubernetes-cluster) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical guide to onboarding cluster users. Explains how to generate TLS client certificates and bind them to Kubernetes RBAC RoleBindings to enforce safe access controls.
@@ -2044,7 +1983,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2022)** [cloudogu.com: Kubernetes least privilege implementation using the Google Cloud as an axample](https://platform.cloudogu.com/en/blog/kubernetes-least-privilege-gcp-example) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive walkthrough demonstrating how to enforce the Principle of Least Privilege. Combines GCP IAM roles and Kubernetes RBAC configuration to lock down namespaces and cluster resources.
 ### Infrastructure Security
 
-#### etcd Vulnerabilities
+#### Etcd Vulnerabilities
 
   - **(2022)** [dev.to: A Detailed Brief About Offence and Defence on Cloud Security - Etcd Risks](https://dev.to/tutorialboy/a-detailed-brief-about-offence-and-defence-on-cloud-security-etcd-risks-4h02)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores security vectors targeting unauthenticated etcd endpoints. Analyzes potential attack paths leading to full cluster takeover and offers defensive practices, including strict network policies and RBAC configurations.
 ### Integrity and Signature
@@ -2075,7 +2014,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2026)** [==open-policy-agent/conftest==](https://github.com/open-policy-agent/conftest) <span class='md-tag md-tag--info'>⭐ 3199</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-522b7857" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 6 L 20 12 L 30 11 L 40 10 L 50 3" fill="none" stroke="url(#spark-grad-522b7857)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A policy-testing framework used to execute structural tests against declarative configuration files. Leveraging Open Policy Agent (OPA) and the Rego language, it validates Kubernetes templates, Helm values, and Terraform files before they enter production environments.
 ### Registry Integration
 
-#### Container Runtimes (3)
+#### Container Runtimes (2)
 
   - **(2026)** [==k8scr 🌟==](https://github.com/hasheddan/k8scr) <span class='md-tag md-tag--info'>⭐ 119</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-511d05c1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 2 L 20 11 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-511d05c1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight and specific CLI utility used to inspect and fetch container image metadata from within a Kubernetes context. It bypasses complex registry credential configurations, allowing developers and administrators to debug and analyze container layers directly.
 ### Resource Management (3)
@@ -2135,13 +2074,6 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Architecture Scaling
 
   - **(2021)** [infoq.com: Kubernetes Workloads in the Serverless Era: Architecture, Platforms, and Trends](https://www.infoq.com/articles/kubernetes-workloads-serverless-era) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Traces the structural patterns, frameworks (Knative, KEDA), and architectural challenges of running scale-to-zero serverless runtimes inside a standard Kubernetes control loop. Focuses on lifecycle scaling profiles and routing constraints.
-## Service Mesh
-
-### Networking (2)
-
-#### Traffic Management
-
-  - **(2026)** [Istio.io](https://istio.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the de facto standard open-source service mesh. Implements a uniform plane for managing, securing, and routing microservices traffic across hybrid cloud container clusters.
 ## Storage
 
 ### Failure Stories
@@ -2213,7 +2145,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Core Literature (1)
 
   - **(2019)** [Kubernetes: Up and Running, 2nd Edition](https://shop.oreilly.com/product/0636920223788.do)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Written by co-creators of Kubernetes, this canonical O'Reilly volume serves as the gold-standard literature for understanding the architecture, design choices, and day-to-day operation of Kubernetes clusters. It covers declarative API design, multi-container pod patterns, and distributed service state.
-#### NodeJS
+#### Nodejs
 
   - **(2019)** [digitalocean.com: From Containers to Kubernetes with Node.js eBook](https://www.digitalocean.com/community/books/from-containers-to-kubernetes-with-node-js-ebook)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical, application-focused eBook demonstrating the end-to-end containerization lifecycle of a Node.js application. It walks through drafting efficient Dockerfiles, setting up local development via Minikube, and writing declarative manifests to scale production microservices on Kubernetes.
 ### Certification
@@ -2267,7 +2199,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Literature
 
   - **(2021)** [ubuntuask.com: Best New Kubernetes Books](https://ubuntuask.com/blog/best-new-kubernetes-books)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated index review evaluating the latest and most impactful publications on Kubernetes administration, cloud-native security, and microservices design patterns. It helps technology leaders select high-quality literature to train engineering teams on modern cloud architectures.
-### Tutorial (1)
+### Tutorials (3)
 
 #### Beginner (1)
 
@@ -2281,7 +2213,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2024)** [k21academy.com/category/docker-kubernetes](https://k21academy.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — K21Academy delivers structured educational paths centered on Docker and Kubernetes certifications such as CKA, CKAD, and CKS. The materials focus heavily on exam objectives, foundational container mechanics, and secure administrative practices.
 ### Foundational
 
-#### Tutorials (2)
+#### Tutorials (4)
 
   - **(2023)** [learnsteps.com/tag/basics-on-kubernetes](https://www.learnsteps.com/tag/basics-on-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Learnsteps provides step-by-step foundational guides designed to reduce the steep learning curve of container scheduling. It addresses core concepts like Pods, Deployments, and Services, making it ideal for software developers new to infrastructure.
 ### Professional Development
@@ -2328,7 +2260,7 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
   - **(2021)** [martinheinz.dev: Improving Application Availability with Pod Readiness Gates](https://martinheinz.dev/blog/63) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced exploration of Pod Readiness Gates as an extensibility interface for validating external network state.
 - Covers how cloud-native load balancers and service meshes interact with custom Pod conditions.
 - Indispensable for architectures requiring external validation prior to directing production traffic to Pods.
-##### Tutorial (2)
+##### Tutorials (5)
 
   - **(2021)** [dev.to: Configure Kubernetes Readiness and Liveness Probes - Tutorial | Pavan Belagatti 🌟](https://dev.to/pavanbelagatti/configure-kubernetes-readiness-and-liveness-probes-tutorial-478p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step developer guide on implementing probe specifications in Kubernetes manifests.
 - Covers the fundamental differences between HTTP, TCP, and Exec handlers.
@@ -2365,17 +2297,17 @@ description: "Top Kubernetes resources for 2026, AI-ranked: Available kubectl pl
 #### Tooling (3)
 
   - **(2020)** [github.com/alexellis/run-job](https://github.com/alexellis/run-job) <span class='md-tag md-tag--info'>⭐ 211</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fdd899b9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 7 L 40 9 L 50 9" fill="none" stroke="url(#spark-grad-fdd899b9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-oriented utility written in Go to quickly trigger Kubernetes Jobs, track execution statuses, and stream execution logs directly to stdout. Simplifies local workflow testing and diagnostic debugging.
-#### Tutorials (3)
+#### Tutorials (6)
 
   - **(2021)** [devopscube.com: How To Create Kubernetes Jobs/Cron Jobs – Getting Started Guide](https://devopscube.com/create-kubernetes-jobs-cron-jobs) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical guide detailing the creation of parallel Jobs and recurring CronJobs. Offers a clear reference for backoff limits, completion conditions, and active execution deadlines.
-### StatefulSets (1)
+### Statefulsets (1)
 
 #### Best Practices (6)
 
   - **(2021)** [**loft.sh: Kubernetes StatefulSet - Examples & Best Practices**](https://www.vcluster.com/blog/kubernetes-statefulset-examples-and-best-practices) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores the design space of StatefulSets, concentrating on Volume Claim Templates, headless services, and storage scaling hazards. Highlights best practices for migrating production database clusters into cloud-native topologies.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Other Awesome Lists](./other-awesome-lists.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

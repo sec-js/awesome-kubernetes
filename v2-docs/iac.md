@@ -15,10 +15,30 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 
 #### General Reference
 
-  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
   - [dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟](https://dzone.com/articles/a-beginners-guide-to-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone.com/articles: A Beginner's Guide to Infrastructure as Code 🌟 in the Kubernetes Tools ecosystem.
   - [javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included](https://www.javacodegeeks.com/2023/03/infrastructure-as-code-best-tools-for-2023-included.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering javacodegeeks.com: Infrastructure as Code: Best Tools For 2023 Included in the Kubernetes Tools ecosystem.
   - [cncf.io: Cloudformation vs. Terraform: Which is better?](https://www.cncf.io/blog/2021/04/06/cloudformation-vs-terraform-which-is-better)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Cloudformation vs. Terraform: Which is better? in the Kubernetes Tools ecosystem.
+  - [Azure Landing Zone IaC Accelerator](https://azure.github.io/Azure-Landing-Zones/accelerator)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Azure Landing Zone IaC Accelerator in the Kubernetes Tools ecosystem.
+## CICD and DevOps
+
+### CICD
+
+#### Terraform Release Management
+
+  - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ab0fdde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 12 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-2ab0fdde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
+### Infrastructure As Code
+
+#### AI Code Generation
+
+  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55081732" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-55081732)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
+#### Security Scanning
+
+  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dd92cc7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 8 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-3dd92cc7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
+### Roadmaps
+
+#### Career Path
+
+  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
 ## Cloud Governance
 
 ### Enterprise Architecture
@@ -29,17 +49,12 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2026)** [Azure Landing Zone - Microsoft Cloud Adoption Framework](https://learn.microsoft.com/nb-no/azure/cloud-adoption-framework/ready/landing-zone) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the architectural principles of Azure Landing Zones under the Microsoft CAF. It emphasizes separation of concerns across management, connectivity, and identity planes, while using custom policy assignments for automated control. This guidance helps platform teams establish a robust foundation for onboarding application workloads.
 ## Cloud Infrastructure
 
-### AWS Automation
-
-#### Serverless Orchestration
-
-  - **(2026)** [Enhanced Local IDE Experience for AWS Step Functions](https://aws.amazon.com/blogs/compute/introducing-an-enhanced-local-ide-experience-for-aws-step-functions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details local IDE integration utilities for designing and tracing AWS Step Functions. Enhances developer inner-loops by rendering local visual workflow representations and offering live Amazon States Language schema validation directly in-editor.
 ### Azure Networking
 
-#### Multi-Tenant Topology
+#### Multi-tenant Topology
 
   - **(2025)** [Deploying Virtual Networks Across Tenants Using Azure Virtual Network Manager](https://techcommunity.microsoft.com/blog/azurenetworkingblog/deploying-virtual-networks-across-tenants-using-azure-virtual-network-manager-ip/4410161) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An official exploration of Azure Virtual Network Manager (AVNM) capabilities for coordinating network topologies across distinct enterprise Entra ID tenants. Architects learn how to leverage AVNM to scale governance, enforce global security rules, and simplify cross-tenant hub-and-spoke peerings programmatically.
-### Infrastructure as Code
+### Infrastructure As Code (1)
 
 #### Compliance Auditing
 
@@ -68,19 +83,19 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2025)** [Subscription Vending Implementation Guidance](https://learn.microsoft.com/en-us/azure/architecture/landing-zones/subscription-vending) <span class='md-tag md-tag--warning'>[BICEP CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Automated governance framework detailing Azure Subscription Vending models. Outlines how to programmatically create subscription structures incorporating secure routing, virtual network configurations, policies, and role-based access management.
 ## Cloud Management
 
-### FinOps
+### Finops
 
 #### Optimization
 
   - **(2024)** [infoworld.com: 5 priorities that cut cloud costs and improve IT ops](https://www.infoworld.com/article/2338245/5-priorities-that-cut-cloud-costs-and-improve-it-ops.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines five critical priorities for cutting cloud computing costs and enhancing operations. Covers automated resource destruction, VM rightsizing, and leveraging IaC templates to eliminate abandoned cloud environments.
 ## DevOps
 
-### GitOps
+### Gitops
 
 #### Automation
 
   - **(2023)** [thenewstack.io: Achieve GitOps on Day One with IaC Automation](https://thenewstack.io/achieve-gitops-on-day-one-with-iac-automation)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive pathway to establish GitOps on day one. Demonstrates how uniting declarative IaC tools with Git-based source repositories ensures compliance, configuration auditing, and unified cluster state management.
-### Infrastructure as Code (1)
+### Infrastructure As Code (2)
 
 #### AI Assisted
 
@@ -94,7 +109,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Best Practices
 
   - **(2023)** [build5nines.com: Benefits of Convention over Configuration for IaC Deployment Projects](https://build5nines.com/benefits-of-convention-over-configuration-for-iac-deployment-projects)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the benefits of standardizing infrastructure template files using Convention over Configuration patterns. Demonstrates how strict naming rules, predictable directory structures, and shared default values eliminate redundant code segments.
-#### CICD Platforms
+#### CICD (1)
 
   - **(2023)** [spacelift.io: Why Generic CI/CD Tools Will Not Deliver Successful IaC](https://spacelift.io/blog/infrastructure-as-code-with-generic-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains why generic CI/CD tooling lacks features required to safely deploy stateful IaC projects. Details why specialized state engines, runtime locking mechanisms, policy enforcement, and drift tracking are required for reliable cloud management.
 #### Culture
@@ -147,27 +162,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Workflows
 
   - **(2022)** [alpacked.io: Infrastructure as Code in DevOps 🌟](https://alpacked.io/blog/infrastructure-as-code-for-devops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Synthesizes why Infrastructure as Code represents the baseline of high-velocity DevOps frameworks. Features modular code design, collaborative version-control practices, and multi-tenant environment consistency.
-## DevOps and CICD
-
-### CICD Automation
-
-#### Terraform Release Management
-
-  - **(2026)** [Terraform Module Releaser GitHub Action](https://github.com/techpivot/terraform-module-releaser) <span class='md-tag md-tag--info'>⭐ 223</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ab0fdde" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 12 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-2ab0fdde)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automated GitHub Action that manages release tagging, semantic version tracking, and registration publication processes for Terraform modules. Mitigates distribution overhead by auto-generating changelogs and managing tags.
-### Infrastructure as Code (2)
-
-#### AI Code Generation
-
-  - **(2026)** [gofireflyio/aiac 🌟](https://github.com/gofireflyio/aiac) <span class='md-tag md-tag--info'>⭐ 3792</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-55081732" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 13 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-55081732)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Duplicate entry of the AI-powered infrastructure command-line application (aiac). Generates clean IaC templates, Dockerfiles, and CI pipelines through natural language translation engines.
-#### Security Scanning
-
-  - **(2026)** [Checkmarx/kics](https://github.com/Checkmarx/kics) <span class='md-tag md-tag--info'>⭐ 2649</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3dd92cc7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 13 L 20 8 L 30 2 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-3dd92cc7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source static code analysis engine designed to uncover vulnerabilities and structural issues in IaC manifests. Parses Terraform, Kubernetes manifests, Helm charts, Dockerfiles, and Ansible files for compliance discrepancies.
-### Roadmaps
-
-#### Career Path
-
-  - **(2026)** [**DevOps Roadmap for 2026**](https://github.com/milanm/DevOps-Roadmap) <span class='md-tag md-tag--info'>⭐ 19614</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ba31f722" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 12 L 20 4 L 30 3 L 40 6 L 50 2" fill="none" stroke="url(#spark-grad-ba31f722)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensive, highly-vetted community map outlining modern DevOps and platform engineering educational pathways. Synthesizes knowledge milestones across systems internals, network protocols, continuous integration/continuous delivery protocols, and hybrid observability.
-## FinOps and Cloud Cost
+## Finops and Cloud Cost
 
 ### Azure Optimization
 
@@ -188,8 +183,13 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
 #### Resources
 
   - **(2026)** [==Awesome Sysadmin==](https://github.com/awesome-foss/awesome-sysadmin) <span class='md-tag md-tag--info'>⭐ 34277</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4b9ffdc6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 7 L 20 7 L 30 12 L 40 4 L 50 4" fill="none" stroke="url(#spark-grad-4b9ffdc6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An exhaustive curation of open-source sysadmin resources, listing production-ready system monitors, configuration management tools, security suites, and virtualization frameworks used globally by SREs.
-## Infrastructure as Code (3)
+## Infrastructure As Code (3)
 
+### AI Integration (1)
+
+#### Copilot For Azure
+
+  - **(2025)** [Enhancing Infrastructure as Code Generation with GitHub Copilot for Azure](https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/enhancing-infrastructure-as-code-generation-with-github-copilot-for-azure/4388514) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical optimization guide exploring the use of GitHub Copilot for drafting Bicep, ARM, and Terraform configurations. Shows how to engineer precise prompt schemas to maintain syntax standards.
 ### Architecture (1)
 
 #### Diagrams
@@ -207,7 +207,7 @@ description: "Top IaC resources for 2026, AI-ranked: Awesome Sysadmin, DevOps Ro
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [Ansible](./ansible.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -35,27 +35,27 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Awesome Lists
 
   - **(2023)** [==Awesome Chaos Engineering==](https://github.com/dastergon/awesome-chaos-engineering) <span class='md-tag md-tag--info'>⭐ 6589</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-65c32571" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 4 L 20 5 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-65c32571)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier curated directory of resources, tools, and papers dedicated to the practice of Chaos Engineering. It indexes tools for simulating network latency, injecting resource stress, and terminating instances across various platforms, with a strong focus on cloud-native environments. This is a must-have reference for engineering teams building self-healing, fault-tolerant distributed systems.
-## Cloud-Native Platforms
+## Cloud-native Platforms
 
 ### Operating Systems
 
 #### Flatcar Linux
 
   - **(2024)** [kinvolk.io](https://kinvolk.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official portal of Kinvolk (acquired by Microsoft), pioneers of Flatcar Container Linux, Lokomotive Kubernetes, and Inspektor Gadget. The platform represents an essential pillar in the development of minimal, immutable operating systems and eBPF-based Kubernetes tooling.
+## Container Runtimes
+
+### Containerd
+
+#### Ctr CLI
+
+  - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
 ## Development Workflow
 
 ### Local Development
 
-#### Bridge to Kubernetes
+#### Bridge To Kubernetes
 
   - **(2021)** [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on guide focusing on Microsoft's 'Bridge to Kubernetes' tool for direct local debugging within an active cluster context. Evaluates how the mechanism redirects traffic to a local machine without modifying production routing topologies.
-## Infrastructure
-
-### Compute
-
-#### CPU Performance
-
-  - **(2023)** [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates latency spikes caused by the Linux CFS (Completely Fair Scheduler) quota enforcement mechanism in Kubernetes. Highlights how kernel bugs throttle containerized workloads even when usage is far below limits, providing remediation strategies such as adjusting quotas or using CPU pins.
 ## Kubernetes
 
 ### Core Mechanics
@@ -87,7 +87,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### OOM and Throttling
 
   - **(2021)** [sysdig.com: Kubernetes OOM and CPU Throttling](https://www.sysdig.com/blog/troubleshoot-kubernetes-oom)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly analytical post from Sysdig comparing the operational impacts of memory exhaustion (OOM) versus CPU exhaustion (Throttling). While OOM errors lead to sudden container termination and service disruption, CPU throttling leads to slow response times and latency degradation. The guide explains how to monitor these metrics to balance cluster cost against application performance.
-#### QoS and OOM Score
+#### Qos and OOM Score
 
   - **(2020)** [cloudyuga.guru: How does Kubernetes assign QoS class to pods through OOM score?](https://cloudyuga.guru/blogs/k8s-qos-oomkilled) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article provides a rigorous, technical exploration of how Kubernetes maps container memory/CPU requests and limits to Quality of Service (QoS) classes: Guaranteed, Burstable, and BestEffort. It details how the orchestrator translates these classes into Linux OOM scores, which the kernel uses to select victim processes during memory pressure. Mastering this mapping is vital for designing reliable, high-density cluster workloads.
 ### Runtime Security
@@ -111,7 +111,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Command Line
 
   - **(2021)** [thenewstack.io: Living with Kubernetes: Debug Clusters in 8 Commands 🌟](https://thenewstack.io/living-with-kubernetes-debug-clusters-in-8-commands)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical command-line cheat sheet that isolates eight crucial kubectl commands for diagnosing cluster and application failures. By leveraging advanced output formatting and resource filtering, engineers can quickly drill down from high-level service failures to underlying node exhaustion. This primer is designed for rapid incident response and system validation.
-#### CrashLoopBackOff
+#### Crashloopbackoff
 
   - **(2023)** [devtron.ai: Troubleshoot: Pod Crashloopbackoff](https://devtron.ai/blog/troubleshoot_crashloopbackoff_pod)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A targeted diagnostic manual focusing exclusively on resolving Pod CrashLoopBackOff errors within a Kubernetes cluster. It details the precise troubleshooting path, examining application configuration errors, environment variable omissions, and permission issues. It also includes strategies for extracting logs from previously terminated container instances.
   - **(2022)** [komodor.com: Kubernetes CrashLoopBackOff Error: What It Is and How to Fix It](https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive playbook from Komodor designed to help engineers systematically isolate the root causes of CrashLoopBackOff errors. It covers common trigger events such as database connection timeouts, file access permissions, and mismatched configuration maps. By mapping these triggers, it helps engineers transition from reactive troubleshooting to proactive reliability planning.
@@ -149,12 +149,12 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Pod Scheduling
 
   - **(2021)** [sysdig.com: Understanding Kubernetes pod pending problems](https://www.sysdig.com/blog/kubernetes-pod-pending-problems)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Pods trapped in a 'Pending' state point directly to scheduling failures caused by resource exhaustion, node selectors, or volume binding delays. This deep dive from Sysdig explains how to read scheduler events and analyze resource request limits to unlock stuck deployments. Engineers will learn how to identify node-affinity conflicts and taint/toleration mismatches.
-#### Real-World Examples
+#### Real-world Examples
 
   - **(2022)** [tennexas.com: Kubernetes Troubleshooting Examples](https://tennexas.com/kubernetes-troubleshooting-examples)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential compilation of practical Kubernetes troubleshooting scenarios focusing on common network, storage, and configuration failures. It provides hands-on diagnostic scripts and commands to dissect failing pods and unresolvable services. This playbook bridges the gap between theoretical knowledge and day-to-day cluster administration.
 ### Troubleshooting Tooling
 
-#### kubectl plugins
+#### Kubectl Plugins
 
   - **(2020)** [==kubectl-debug==](https://github.com/aylei/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 2305</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-3ce999e8" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 6 L 20 4 L 30 9 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-3ce999e8)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Originally a popular community-built plugin to launch debugging containers within target pods, `kubectl-debug` has largely been superseded by native Kubernetes Ephemeral Containers (`kubectl debug` command) in modern releases. This project remains a valuable reference for historical context and legacy cluster compatibility. For modern clusters, engineers are strongly advised to transition to built-in Kubernetes diagnostic commands.
 ## Observability (1)
@@ -169,7 +169,6 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-582e5a31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 13 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-582e5a31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
 #### CLI Operations
 
-  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
   - **(2021)** [thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated list of 12 essential kubectl commands designed to streamline low-level container and network diagnostics. Targets common day-2 operational challenges, addressing resource pressure, storage attachments, and system event inspection.
 #### Container Debugging
 
@@ -208,12 +207,12 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - **(2024)** [komodor.com](https://komodor.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Commercial troubleshooting and observability platform offering absolute end-to-end lineage visualization for Kubernetes resources. Pinpoints root causes of failures by cross-referencing changes, logs, and metrics.
 ### UI Clients
 
-#### Multi-Cluster
+#### Multi-cluster
 
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

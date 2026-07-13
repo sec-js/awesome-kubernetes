@@ -1,5 +1,5 @@
 ---
-description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and more — curated Cloud Native tools, guides and references."
+description: "Top Golang resources for 2026, AI-ranked: Awesome Go, Dapr and more — curated Cloud Native tools, guides and references."
 ---
 # Golang - Go
 
@@ -29,7 +29,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [go-kratos/kratos](https://github.com/go-kratos/kratos) <span class='md-tag md-tag--info'>⭐ 25727</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bda7df2a" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 5 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-bda7df2a)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight defines Kratos as a heavy-duty microservice framework for Go, designed for highly scalable web-scale systems. Live Grounding highlights its extensive use of gRPC/Protobuf-first code generation, integrated observability, and pluggable service discovery protocols.
 ### Networking
 
-#### Go High-Performance Network Libraries
+#### Go High-performance Network Libraries
 
   - [gnet](https://github.com/panjf2000/gnet) <span class='md-tag md-tag--info'>⭐ 11172</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-64a85b83" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 5 L 20 5 L 30 2 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-64a85b83)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights gnet as a high-performance, non-blocking, event-driven networking library built on top of epoll/kqueue. Live Grounding showcases its superiority over Go's standard net library for raw throughput and ultra-low latency, making it ideal for custom edge proxies and IoT gateways.
 ## Business Applications
@@ -56,7 +56,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 #### Client Wrappers
 
   - [forbearing/k8s](https://github.com/forbearing/k8s) <span class='md-tag md-tag--info'>⭐ 73</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9c54d89f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 9 L 30 8 L 40 13 L 50 7" fill="none" stroke="url(#spark-grad-9c54d89f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight describes forbearing/k8s as an abstraction wrapper over client-go to offer a simpler API for standard Kubernetes resource orchestration. Live Grounding indicates it reduces boilerplate for minor tooling but lacks the ecosystem stability of standard controllers.
-#### Go Client-Go
+#### Go Client-go
 
 ##### Informer Pattern
 
@@ -73,6 +73,11 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 #### Debugging Tools
 
   - [github.com/groundcover-com: Container Restarts Watcher](https://github.com/groundcover-com/blog/tree/main/blog_k8s_containers_restarts)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight points to a companion code repository for a Groundcover blog exploring Kubernetes container restart triggers. Live Grounding confirms it serves as a lightweight diagnostic template to intercept CrashLoopBackOff states in real-time.
+### Microservice Runtimes
+
+#### Dapr
+
+  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
 ### Web Frameworks
 
 #### Request Binding
@@ -128,7 +133,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [developer.okta.com: Elasticsearch in Go: A Developer's Guide](https://developer.okta.com/blog/2021/04/23/elasticsearch-go-developers-guide) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer's guide demonstrating how to connect, index, and query Elasticsearch instances natively using the official Go client driver. Illustrates clean integration patterns for backend microservices.
   - [thenewstack.io: Getting Started with Go and InfluxDB](https://thenewstack.io/getting-started-with-go-and-influxdb) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical introduction to pushing time-series metrics from Go applications to InfluxDB. Essential for engineering robust observability pipelines inside distributed microservices.
   - [blog.logrocket.com: Building a simple app with Go and PostgreSQL](https://blog.logrocket.com/building-simple-app-go-postgresql) <span class='md-tag md-tag--warning'>[EN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A hands-on tutorial on developing a database-backed CRUD application in Go using the PostgreSQL driver. Covers connection pool tuning and safe SQL transaction strategies.
-## Database
+## Databases
 
 ### ORM
 
@@ -144,7 +149,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [Masterminds/sprig: Sprig: Template functions for Go templates](https://github.com/Masterminds/sprig) <span class='md-tag md-tag--info'>⭐ 4721</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e69250e6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 8 L 30 6 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e69250e6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Sprig as a comprehensive library of template functions for Go, heavily utilized in Helm charts. Live Grounding confirms its status as an industry-standard dependency for dynamic Helm manifest generation, though recent development has shifted to maintenance mode.
 ## Kubernetes Platform
 
-### K8s API and Development
+### Kubernetes API and Development
 
 #### Golang Client
 
@@ -158,7 +163,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [github.com/iawia002/lux 🌟](https://github.com/iawia002/lux) <span class='md-tag md-tag--info'>⭐ 31408</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-18984911" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 5 L 20 7 L 30 9 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-18984911)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight describes Lux (formerly Annie) as a fast, concurrent video downloader written in Go supporting multiple global media platforms. Live Grounding shows its vast popularity due to its high speed, multiple output formats, and clean concurrent implementation.
 ### Go Packages
 
-#### YouTube Downloader
+#### Youtube Downloader
 
   - [kkdai/youtube](https://github.com/kkdai/youtube) <span class='md-tag md-tag--info'>⭐ 3899</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6e580ed2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 4 L 20 13 L 30 9 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-6e580ed2)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight identifies this package as a popular Go library and CLI for downloading YouTube videos. Live Grounding verifies it actively handles the ever-shifting signature and decryption schemas deployed by YouTube to maintain reliable media extraction.
 ## Programming Languages
@@ -216,10 +221,11 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
 
 #### Go (2)
 
+  - **(2025)** [devhints.io/go: Go cheatsheet](https://devhints.io/go) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density Go interface dashboard providing rapid syntactical access. Highlights slice memory operations, struct compositions, dynamic channels, and concurrency waitgroups to speed up systems programming.
   - **(2025)** [github.com: golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet) <span class='md-tag md-tag--info'>⭐ 8800</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f540cad0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 7 L 30 4 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-f540cad0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A high-density Go reference database. It details Go core syntaxes, standard library definitions, channels, interface rules, and concurrency patterns to accelerate systems-level software development.
 ### Web Development
 
-#### NodeJS
+#### Nodejs
 
   - **(2024)** [==NodeJS Best Practices (Spanish Translation)==](https://github.com/goldbergyoni/nodebestpractices/blob/spanish-translation/README.spanish.md) <span class='md-tag md-tag--info'>⭐ 105318</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b63ca5bb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 4 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-b63ca5bb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish localization of the leading Node.js architecture and security handbook. It offers comprehensive design blueprints covering error handling, clean architecture, security, production readiness, and testing guidelines for scalable enterprise systems.
 ## Utilities
@@ -231,7 +237,7 @@ description: "Top Golang resources for 2026, AI-ranked: Awesome Go, go-micro and
   - [rehacktive/caffeine](https://github.com/rehacktive/caffeine) <span class='md-tag md-tag--info'>⭐ 1176</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9746b620" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 11 L 20 4 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-9746b620)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight shows Caffeine as a simple Go command-line tool designed to prevent system sleep cycles. Live Grounding shows stable but quiet activity, functioning perfectly as an OS-level utility.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -15,7 +15,6 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 
 #### General Reference
 
-  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
   - [reddit.com/r/java](https://www.reddit.com/r/java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering reddit.com/r/java in the Kubernetes Tools ecosystem.
   - [dzone: Java Creator James Gosling Interview](https://dzone.com/articles/java-creator-james-gosling-interview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Java Creator James Gosling Interview in the Kubernetes Tools ecosystem.
   - [dzone: Choosing Library To Build Rest API in Java](https://dzone.com/articles/building-rest-api-in-java)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Choosing Library To Build Rest API in Java in the Kubernetes Tools ecosystem.
@@ -29,6 +28,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - [dzone: Spring Cloud Config Server on Kubernetes (Part 1)](https://dzone.com/articles/spring-cloud-config-server-on-kubernetes-part-1)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Spring Cloud Config Server on Kubernetes (Part 1) in the Kubernetes Tools ecosystem.
   - [dzone: Build a Java REST API With Quarkus](https://dzone.com/articles/build-a-java-rest-api-with-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Build a Java REST API With Quarkus in the Kubernetes Tools ecosystem.
   - [dzone: A Java developer's guide to Quarkus](https://dzone.com/articles/a-java-developers-guide-to-quarkus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: A Java developer's guide to Quarkus in the Kubernetes Tools ecosystem.
+  - [Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟](https://dzone.com/articles/programming-styles-spring-boot-vis-a-vis-with-ecli)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: Programming Styles Compared: Spring Framework vis-a-vis Eclipse MicroProfile' 🌟🌟 in the Kubernetes Tools ecosystem.
   - [dzone: Microservices: Quarkus vs. Spring Boot](https://dzone.com/articles/microservices-quarkus-vs-spring-boot)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: Microservices: Quarkus vs. Spring Boot in the Kubernetes Tools ecosystem.
   - [dzone: The Best Java Testing Frameworks to focus in 2021](https://dzone.com/articles/the-best-java-testing-frameworks-to-focus-in-2021)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: The Best Java Testing Frameworks to focus in 2021 in the Kubernetes Tools ecosystem.
 ## Cloud Native
@@ -50,7 +50,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Case Study
 
   - **(2023)** [Salaboy/From Monolith to K8s](https://github.com/Salaboy/from-monolith-to-k8s) <span class='md-tag md-tag--info'>⭐ 354</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2ba9f9fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 5 L 20 5 L 30 8 L 40 13 L 50 8" fill="none" stroke="url(#spark-grad-2ba9f9fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive practical blueprint mapping out the refactoring of monolithic architectures to Kubernetes-native services. Demonstrates key modernization steps including structural separation of services, data partitioning, and ingress configuration. This project is highly referenceable as a hands-on pedagogical resource for architectural transitions.
-## Cloud-Native Platforms
+## Cloud-native Platforms
 
 ### Java Microservices
 
@@ -88,6 +88,9 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Manifest Generation
 
   - **(2025)** [**Dekorate**](https://dekorate.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An annotation-based code generation tool that automatically creates Kubernetes manifests (YAML, JSON) during compile time. By decorating Java code directly, developers can emit Deployment, Service, and Ingress templates without leaving their IDEs. While highly convenient for Java-centric shops, it can obscure platform-level complexities that DevOps teams may need to manage externally.
+#### Maven Integration
+
+  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 #### Orchestration Tooling
 
   - **(2025)** [==Skaffold --generate-manifests==](https://skaffold.dev/docs/pipeline-stages/init) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Detail on Skaffold's `--generate-manifests` capability, which facilitates local build and deployment orchestration on Kubernetes. This tool manages the developer inner loop by tracking local code modifications, triggering rebuilding/tagging of images, and automating deployments. It has become an industry standard for continuous local feedback loops in multi-service local environments.
@@ -122,17 +125,17 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Market Analysis
 
   - **(2022)** [Best Java Frameworks Solutions](https://www.peerspot.com/categories/java-frameworks) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated directory compiling enterprise evaluations and peer reviews of leading Java frameworks. It contrasts Spring, Jakarta EE, Quarkus, and Micronaut along critical axes such as developer experience, memory footprint, cold-start latencies, and containerization maturity.
-### JBoss EAP
-
-#### Development Environment
-
-  - **(2020)** [developers.redhat.com: Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides engineers in deploying MicroProfile-based applications on Red Hat JBoss EAP Expansion Pack. It illustrates how to leverage cloud-integrated environments such as CodeReady Workspaces to run, test, and containerize certified enterprise services inside Kubernetes namespaces.
 ### Jakarta EE
 
 #### Core Platform
 
   - **(2019)** [developers.redhat.com: Jakarta EE 8: The new era of Java EE explained](https://developers.redhat.com/blog/2019/09/12/jakarta-ee-8-the-new-era-of-java-ee-explained) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains the transition of Java EE to the Eclipse Foundation as Jakarta EE 8. While maintaining API compatibility with Java EE 8, it established the open governance model and vendor-neutral IP processes required for subsequent namespace evolution and cloud-native specification delivery.
-### MicroProfile
+### Jboss EAP
+
+#### Development Environment
+
+  - **(2020)** [developers.redhat.com: Develop Eclipse MicroProfile applications on Red Hat JBoss Enterprise Application Platform Expansion Pack 1.0 with Red Hat CodeReady Workspaces](https://developers.redhat.com/blog/2020/07/01/develop-eclipse-microprofile-applications-on-red-hat-jboss-enterprise-application-platform-expansion-pack-1-0-with-red-hat-codeready-workspaces) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides engineers in deploying MicroProfile-based applications on Red Hat JBoss EAP Expansion Pack. It illustrates how to leverage cloud-integrated environments such as CodeReady Workspaces to run, test, and containerize certified enterprise services inside Kubernetes namespaces.
+### Microprofile
 
 #### Framework Standard
 
@@ -150,10 +153,19 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - **(2021)** [developers.redhat.com: Spring Boot on Quarkus: Magic or madness?](https://developers.redhat.com/blog/2021/02/09/spring-boot-on-quarkus-magic-or-madness) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates the Quarkus extension layer designed to process Spring API annotations. This architecture allows developers to reuse Spring Web, Security, and DI code while benefiting from Quarkus's ultra-low memory usage, rapid boot times, and optimized GraalVM native builds.
 ### Runtimes
 
-#### WildFly Swarm
+#### Apache Tomee
+
+  - **(2026)** [TomEE from Tomitribe](https://tomee.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Apache TomEE is a lightweight, certified Jakarta EE and MicroProfile implementation built on Apache Tomcat. It merges Tomcat's speed and small footprint with full Java Enterprise capabilities, including CDI, JTA, and JPA, making it ideal for microservice deployments requiring standardized API layers.
+#### Kumuluzee
+
+  - **(2026)** [KumuluzEE](https://ee.kumuluz.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An award-winning, lightweight microservice framework that enables standard Java EE APIs to run as independent, containerized applications. It focuses on modular, plug-and-play architecture, bypassing heavy runtime components to achieve fast startup times and minimal cloud resource utilization.
+#### Payara Server
+
+  - **(2026)** [Payara](https://payara.fish) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Payara Server and Payara Micro provide high-performance, container-friendly environments for running Jakarta EE and MicroProfile workloads. Designed for critical production architectures, it supports built-in clustering, hazelcast-powered data grids, and auto-tuning capabilities inside Kubernetes deployments.
+#### Wildfly Swarm
 
   - **(2018)** [RedHat’s WildFly Swarm](https://wildfly-swarm.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — WildFly Swarm (subsequently renamed Thorntail) was Red Hat's early approach to packaging Java EE apps as customized, self-contained executable JARs. This project is now archived and deprecated, with Red Hat channeling cloud-native engineering resources toward Quarkus.
-## Event-Driven Architecture
+## Event-driven Architecture
 
 ### Distributed Transactions
 
@@ -289,8 +301,21 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Javadoc
 
   - **(2021)** [openjdk.java.net: JEP 413: Code Snippets in Java API Documentation](https://openjdk.org/jeps/413) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This proposal details JEP 413, introducing the `@snippet` tag for Java API documentation. By allowing the integration of validated, syntax-highlighted code snippets directly from external source files or internal blocks, it replaces fragile HTML `<pre>` tags, streamlining the documentation-as-code workflow for large enterprise platforms.
+### Runtime and JVM
+
+#### Garbage Collection
+
+  - **(2021)** [kstefanj.github.io: GC progress from JDK 8 to JDK 17](https://kstefanj.github.io/2021/11/24/gc-progress-8-17.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical evaluation tracking the performance evolution and design changes of garbage collectors from JDK 8 to JDK 17. The analysis highlights significant throughput gains, memory footprint reductions, and sub-millisecond pause-time optimizations achieved in modern G1 and ZGC algorithms, making Java 17 highly optimized for containerized microservice execution environments.
 ## Kubernetes and Cloud Native
 
+### CICD
+
+#### Continuous Deployment
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 2. Extending CI/CD: Kubernetes Continuous Deployment for Microservices](https://devm.io/blog) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Part two of the microservices CI/CD series, detailing continuous deployment onto active Kubernetes clusters. Focuses on orchestrating declarative manifest YAML files, configuring deployment strategies like rolling updates, and handling Kubernetes secrets securely.
+#### Dockerization
+
+  - **(2020)** [jaxenter.com: CI/CD for Spring Boot Microservices: Part 1](https://devm.io/microservices/cicd-microservices-docker-162408) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details optimal Docker containerization patterns for Spring Boot microservices, addressing multi-stage image builds, layer caching, and minimizing runtime footprint sizes. It shows how to design pipeline steps to generate secure, unprivileged OCI-compliant container images.
 ### Microservices (1)
 
 #### Best Practices
@@ -330,7 +355,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Logging (3)
 
   - **(2026)** [==logbook==](https://github.com/zalando/logbook) <span class='md-tag md-tag--info'>⭐ 2048</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e9777950" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 2 L 20 5 L 30 4 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e9777950)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An extensible Java library developed by Zalando for logging HTTP requests and responses. In 2026, Logbook is a de facto standard for security compliance and audit logging in distributed environments, providing clean, structured JSON payloads with context-safe credential masking.
-#### MicroProfile (1)
+#### Microprofile (1)
 
   - **(2021)** [Red Hat Thorntail](https://thorntail.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Formerly known as WildFly Swarm, Thorntail was Red Hat's early MicroProfile runtime. In 2026, Thorntail is entirely deprecated and archived. Red Hat has transitioned its engineering effort and user community to Quarkus, which serves as the modern standard for fast cloud-native Java.
 #### Migrations
@@ -340,7 +365,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 
   - **(2021)** [piotrminkowski.com: Quarkus Tips, Tricks and Techniques 🌟](https://piotrminkowski.com/2021/10/12/quarkus-tips-tricks-and-techniques) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated blog post packed with tips, tricks, and advanced architectural patterns for Quarkus developers. It highlights key features like reactive programming, Panache ORM, and Quarkus Dev Services. 2026 practices emphasize using Dev Services to automatically spin up Testcontainers dynamically.
   - **(2021)** [infoq.com: Kubernetes Native Java with Quarkus](https://www.infoq.com/articles/native-java-quarkus) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive analysis of running native Java workloads on Kubernetes. It covers ahead-of-time (AOT) compilation trade-offs and build pipelines. In 2026, these native compilation profiles are standard practice, ensuring enterprise Java workloads start in milliseconds and use minimal memory.
-#### Quarkus vs Spring
+#### Quarkus Vs Spring
 
   - **(2021)** [developers.redhat.com: Why should I choose Quarkus over Spring for my microservices?](https://developers.redhat.com/articles/2021/08/31/why-should-i-choose-quarkus-over-spring-my-microservices) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical comparison explaining the advantages of Quarkus over Spring for cloud-native Java workloads. While Spring Boot 3 has improved native compilation, Quarkus remains highly competitive in 2026 for serverless startup time, memory footprints, and GraalVM build optimization.
 #### Reactive Programming (1)
@@ -387,7 +412,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - **(2022)** [javatechonline.com: Making Java easy to learn - OOPs Design Principles](https://javatechonline.com/oops-principles-oops-design-principles) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth guide on SOLID design principles and Object-Oriented Programming (OOP) methodologies. This resource links core design patterns to system modularity and maintainability, providing developers with the tools to construct long-term, evolvable software systems.
 ### JVM Internals
 
-#### Garbage Collection
+#### Garbage Collection (1)
 
   - **(2021)** [developers.redhat.com: Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://developers.redhat.com/articles/2021/09/16/shenandoah-openjdk-17-sub-millisecond-gc-pauses) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This Red Hat engineering analysis covers Shenandoah GC in OpenJDK 17. It details how the garbage collector achieves sub-millisecond pauses by performing evacuation and compacting concurrently with active application threads, making it ideal for low-latency Java microservices.
   - **(2021)** [tschatzl.github.io: JDK 17 G1/Parallel GC changes](https://tschatzl.github.io/2021/09/16/jdk17-g1-parallel-gc-changes.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An expert analysis on GC improvements within JDK 17, specifically targeting the G1 and Parallel garbage collectors. It explains the runtime optimizations that reduce memory footprints, improve memory reclaiming speeds, and stabilize GC latency during containerized workloads.
@@ -416,7 +441,8 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Licensing
 
   - **(2021)** [Oracle Java](https://www.oracle.com/java/technologies/java-se-glance.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Oracle's licensing pivot with the introduction of the No-Fee Terms and Conditions (NFTC) license for JDK 17. The analysis explains how this license permits free production usage, easing previous compliance friction for enterprise environments.
-#### OpenJDK Support
+  - **(2018)** [Oracle's Java 11 trap - Use OpenJDK instead! 🌟](https://blog.joda.org/2018/09/do-not-fall-into-oracles-java-11-trap.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly discussed warning article regarding the commercial risks associated with using Oracle JDK 11 without a paid subscription. The piece strongly urges teams to migrate standard JVM deployments to community OpenJDK distributions to maintain licensing compliance.
+#### Openjdk Support
 
   - **(2018)** [developers.redhat.com: The future of Java and OpenJDK updates without Oracle support](https://developers.redhat.com/blog/2018/09/24/the-future-of-java-and-openjdk-updates-without-oracle-support) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's strategic statement on taking over the stewardship of OpenJDK updates (specifically JDK 8 and JDK 11) after Oracle's support cycles. It outlines Red Hat's commitment to community-driven, enterprise-grade, open-source Java runtimes suitable for cloud native microservices.
 #### Roadmaps
@@ -430,7 +456,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### Migration (1)
 
   - **(2019)** [All You Need To Know For Migrating To Java 11](https://nipafx.dev/java-11-migration-guide) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A granular, highly practical developer migration handbook for transitioning older codebases from Java 8 to Java 11. It highlights class path vs module path adjustments, removed APIs, and deprecated flags essential for upgrading core software systems.
-#### Syntax and Features
+#### Syntax And Features
 
   - **(2022)** [foojay.io: Top 10 Java Language Features](https://foojay.io/today/top-10-java-language-features) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curates the top ten most impactful modern language features in Java. Highlighting functional programming enhancements, records, pattern matching, and var inference, this guide demonstrates how modern Java matches the developer ergonomics of younger languages.
   - **(2021)** [marcobehler.com: Java Versions and Features 🌟](https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A structured developer guide tracing major feature updates and API additions across Java versions from JDK 8 up to modern LTS releases. Highly useful for architects evaluating migration paths, refactoring legacy codebases, or choosing compile-time targets.
@@ -496,14 +522,14 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
 #### JDBC
 
   - **(2020)** [javarevisited.blogspot.com: 10 JdbcTemplate Examples in Spring Framework](https://javarevisited.blogspot.com/2020/05/10-jdbctemplate-examples-in-spring.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides ten practical coding patterns for leveraging Spring's robust `JdbcTemplate`. It highlights how the framework automates SQL connection pool resource management, handles query mapping, and converts vendor-specific SQL exceptions into standard Spring-based exceptions.
-### GraalVM
+### Graalvm
 
 #### Native Image
 
   - **(2020)** [Spring Boot native images. The path towards Spring Boot native applications](https://spring.io/blog/2020/06/10/the-path-towards-spring-boot-native-applications) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details Spring's path towards compiling JVM applications into GraalVM native binaries. By executing class-path analysis and proxy initialization at compile time, native compilation minimizes memory overhead and scales startup times down to milliseconds, transforming Java's serverless viability.
 ### Interoperability (1)
 
-#### MicroProfile (2)
+#### Microprofile (2)
 
   - **(2018)** [developers.redhat.com: Eclipse MicroProfile for Spring Boot developers](https://developers.redhat.com/blog/2018/11/21/eclipse-microprofile-for-spring-boot-developers) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A mapping reference designed to help Spring Boot developers translate standard Spring concepts into Eclipse MicroProfile equivalents. It details how CDI annotation-driven injection patterns align with Spring's dependency injection mechanisms, easing cross-framework platform migrations.
 ### Microservices (2)
@@ -545,7 +571,7 @@ description: "Top Java_Frameworks resources for 2026, AI-ranked: Spring Cloud, l
   - **(2022)** [javarevisited.blogspot.com: Spring Boot + Angular Example Tutorial for Java Developers](https://javarevisited.blogspot.com/2022/01/spring-boot-angular-example-tutorial.html) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fullstack starter tutorial demonstrating how to integrate a Spring Boot backend API with an Angular single-page frontend application. It covers structuring cross-origin request policies (CORS), handling JSON model parsing, and securing application endpoints.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

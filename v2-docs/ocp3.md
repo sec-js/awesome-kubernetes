@@ -11,6 +11,11 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 
 ## App Development
 
+### Frontend
+
+#### Continuous Delivery
+
+  - **(2019)** [developers.redhat.com: Handling Angular environments in continuous delivery with Red Hat OpenShift](https://developers.redhat.com/blog/2019/11/27/handling-angular-environments-in-continuous-delivery-with-red-hat-openshift) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details clean patterns for deploying Angular-based web applications on OpenShift. Demonstrates injecting environment variables at container start time instead of packaging distinct, static bundles for each target environment.
 ### Packaging
 
 #### Helm Charts
@@ -23,17 +28,17 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 
 #### General Reference
 
+  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/using-openshift-3-on-your-local-environment)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-5-a-capacity-management-dashboard)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.redhat.com in the Kubernetes Tools ecosystem.
-  - [dzone: 8 Options for Capturing Thread Dumps](https://dzone.com/articles/how-to-take-thread-dumps-7-options)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: 8 Options for Capturing Thread Dumps in the Kubernetes Tools ecosystem.
-## CI-CD
+## CICD
 
-### GitOps
+### Gitops
 
 #### Migration Strategies
 
   - **(2021)** [blog.openshift.com/: is it too late to integrate GitOps?](https://www.redhat.com/en/blog/is-it-too-late-to-integrate-gitops) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight maps the path for legacy environments migrating to continuous sync models. Live Grounding reviews incremental conversion blueprints to safe declarative setups under OpenShift. It acts as an advisory piece for migration architects.
-#### OpenShift
+#### Openshift
 
   - **(2020)** [**blog.openshift.com/: Introduction to GitOps with OpenShift**](https://www.redhat.com/en/blog/introduction-to-gitops-with-openshift) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight defines the OpenShift declarative application delivery model. Live Grounding details the Red Hat OpenShift GitOps operator powered by Argo CD. This is the official blueprint for establishing structured continuous integration on Red Hat environments.
 ## Kubernetes Cluster Operations
@@ -43,7 +48,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
 #### Vertical Pod Autoscaler
 
   - **(2020)** [**blog.openshift.com/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler**](https://www.redhat.com/en/blog/how-full-is-my-cluster-part-4-right-sizing-pods-with-vertical-pod-autoscaler) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight focuses on the role of Vertical Pod Autoscalers (VPA). Live Grounding evaluates recommendation engines, safety limits, and automatic resource reallocations on OpenShift. Important reference for auto-scaling and efficiency.
-### Multi-Cluster
+### Multi-cluster
 
 #### Legacy Federation
 
@@ -51,18 +56,11 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2018)** [OpenShift 3.11 Multi-cluster Federation](https://www.redhat.com/en/blog/kubernetes-federation-v2-on-openshift-3-11) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight looks at multi-cluster federation on older OpenShift 3.11 setups. Live Grounding illustrates early architectural attempts to distribute workloads across cloud regions. Crucial historical context before modern GitOps and Cluster API paradigms took over.
 ### Resource Management
 
-#### OpenShift (1)
+#### Openshift (1)
 
   - **(2019)** [blog.openshift.com/full-cluster-capacity-management-monitoring-openshift](https://www.redhat.com/en/blog/full-cluster-capacity-management-monitoring-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight initiates a series on OpenShift capacity planning. Live Grounding details Prometheus and Grafana alerts, memory saturation metrics, and CPU scheduling limits. Essential for cluster administrators managing highly dense node resources.
   - **(2019)** [blog.openshift.com/full-cluster-part-2-protecting-nodes](https://www.redhat.com/en/blog/full-cluster-part-2-protecting-nodes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight focuses on securing host resources from rogue applications. Live Grounding details eviction thresholds, pod limits, and system-reserved configuration paths inside OpenShift clusters. Vital for maintaining node reliability.
   - **(2019)** [full-cluster-part-3-capacity-management](https://www.redhat.com/en/blog/full-cluster-part-3-capacity-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight reviews multi-tenant resource optimization. Live Grounding analyzes quotas, LimitRanges, and tenant isolation layers in enterprise workloads. Highly effective for designing multi-team cluster footprints.
-## Observability
-
-### Application Monitoring
-
-#### Java JMX
-
-  - **(2017)** [developers.redhat.com: Troubleshooting java applications on openshift (Jolokia)](https://developers.redhat.com/blog/2017/08/16/troubleshooting-java-applications-on-openshift) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Guides developers on using Jolokia, an HTTP/JSON bridge for JMX, to securely query and troubleshoot Java microservices deployed inside Red Hat OpenShift pods.
 ## Platform Architecture
 
 ### Administration
@@ -115,16 +113,16 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2019)** [techbeatly.com: How to create, increase or decrease project quota](https://techbeatly.com/how-to-create-increase-or-decrease-project-quota-in-openshift) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides step-by-step guidance on managing project resource limits inside OpenShift namespaces. Explores configuring quotas via the oc CLI to enforce hard boundaries on CPU, RAM, and storage allocations.
 ### Resources
 
-#### Learning paths
+#### Learning Paths
 
   - **(2019)** [certdepot.net: OpenShift Free available resources 🌟](https://www.certdepot.net/openshift-free-available-resources) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational index detailing free courses, interactive sandbox playgrounds, and study materials for professionals pursuing official Red Hat OpenShift certifications.
 ## Platform Engineering
 
-### GitOps (1)
+### Gitops (1)
 
 #### Authentication and SSO
 
-##### OpenShift (2)
+##### Openshift (2)
 
   - **(2022)** [**openshift.com: OpenShift Authentication Integration with ArgoCD**](https://www.redhat.com/en/blog/openshift-authentication-integration-with-argocd) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Analyzes the integration of OpenShift's native OAuth server with ArgoCD. Explains how to map OpenShift user groups to ArgoCD RBAC roles, establishing a secure, unified single sign-on (SSO) experience for enterprise platforms.
 ## Security
@@ -136,7 +134,7 @@ description: "Top OCP 3 resources for 2026, AI-ranked: **KubeFed Operator**, Non
   - **(2018)** [developers.redhat.com: Securing .NET Core on OpenShift using HTTPS](https://developers.redhat.com/blog/2018/10/12/securing-net-core-on-openshift-using-https) <span class='md-tag md-tag--warning'>[C# CONTENT]</span>  <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Guides engineers through configuring ASP.NET Core microservices with end-to-end TLS encryption on OpenShift. Discusses dynamic integration of local server certificates using OpenShift's service serving certificates feature.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

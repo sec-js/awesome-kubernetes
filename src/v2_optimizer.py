@@ -27,6 +27,69 @@ def nuclear_strip(text: str) -> str:
     text = re.sub(r'[\s\u00a0\u200b\u1680\u180e\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$', '', text)
     return text.replace("==", "")
 
+
+def clean_hierarchy_section_name(name: str) -> str:
+    """Normalizes hierarchy names to standard canonical versions to avoid redundant sections."""
+    if not name: return ""
+    name_stripped = name.strip()
+    
+    # 1. Normalize CI/CD patterns (CI-CD, CICD, CI/CD, and combinations with DevOps)
+    ci_cd_pattern = re.compile(r'\b(ci[-/]cd|cicd)\b', re.IGNORECASE)
+    if ci_cd_pattern.search(name_stripped):
+        if re.search(r'\bdevops\b', name_stripped, re.IGNORECASE):
+            return "CI/CD and DevOps"
+        return "CI/CD"
+        
+    # 2. Case-insensitive exact mappings for common synonyms/variants
+    name_lower = name_stripped.lower()
+    mappings = {
+        "k8s": "Kubernetes",
+        "kubernetes": "Kubernetes",
+        "aws": "AWS",
+        "gcp": "GCP",
+        "api": "API",
+        "apis": "APIs",
+        "cli": "CLI",
+        "sre": "SRE",
+        "iac": "IaC",
+        "vm": "VMs",
+        "vms": "VMs",
+        "database": "Databases",
+        "databases": "Databases",
+        "microservice": "Microservices",
+        "microservices": "Microservices",
+        "container": "Containers",
+        "containers": "Containers",
+        "plugin": "Plugins",
+        "plugins": "Plugins",
+        "tutorial": "Tutorials",
+        "tutorials": "Tutorials",
+        "guide": "Guides",
+        "guides": "Guides",
+        "tool": "Tools",
+        "tools": "Tools"
+    }
+    if name_lower in mappings:
+        return mappings[name_lower]
+        
+    # 3. Capitalize standard acronyms in arbitrary strings
+    words = name_stripped.split()
+    for i, w in enumerate(words):
+        w_clean = re.sub(r'[^\w]', '', w).lower()
+        acronyms_map = {
+            "aws": "AWS", "gcp": "GCP", "api": "API", "sre": "SRE", "iac": "IaC",
+            "cli": "CLI", "vm": "VM", "vms": "VMs", "k8s": "Kubernetes", "cicd": "CI/CD",
+            "sql": "SQL", "nosql": "NoSQL", "xml": "XML", "yaml": "YAML", "json": "JSON",
+            "devops": "DevOps"
+        }
+        if w_clean in acronyms_map:
+            words[i] = w.lower().replace(w_clean, acronyms_map[w_clean])
+        else:
+            if not words[i].isupper():
+                words[i] = words[i].capitalize()
+                
+    return " ".join(words)
+
 V1_DIR = "docs"
 V2_DIR = "v2-docs"
 
@@ -813,7 +876,13 @@ class V2VisionEngine:
                 if hierarchy and (hierarchy[0] == dim or hierarchy[0] == v2_structure[orig_file]["title"]): hierarchy = hierarchy[1:]
                 
                 current = v2_structure[orig_file]["content"]
-                for h_name in hierarchy[:self.max_depth]:
+                cleaned_hierarchy = []
+                for h_raw in hierarchy:
+                    h_name = clean_hierarchy_section_name(h_raw)
+                    if h_name and (not cleaned_hierarchy or h_name != cleaned_hierarchy[-1]):
+                        cleaned_hierarchy.append(h_name)
+                
+                for h_name in cleaned_hierarchy[:self.max_depth]:
                     if h_name not in current: current[h_name] = {"__links__": []}
                     current = current[h_name]
                 current["__links__"].append(item)

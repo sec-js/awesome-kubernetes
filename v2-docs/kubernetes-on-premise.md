@@ -13,7 +13,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 
 ### Developer Platforms
 
-#### VMware Tanzu
+#### Vmware Tanzu
 
   - **(2022)** [zdnet.com: VMware brings Tanzu Application Platform into GA to ease Kubernetes adoption](https://www.zdnet.com/article/vmware-brings-tanzu-application-platform-into-ga-to-ease-kubernetes-adoption) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — News of VMware's general availability announcement of Tanzu Application Platform (TAP). TAP serves as an enterprise-grade PaaS (Platform-as-a-Service) overlay on Kubernetes, packaging cloud-native buildpacks, API portals, Cartographer supply chains, and security scanning tools to deliver a streamlined developer experience.
 ## Architectural Foundations
@@ -27,12 +27,12 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 
 ### Kubernetes Operators
 
-#### VMware Tanzu (1)
+#### Vmware Tanzu (1)
 
   - **(2020)** [tanzu.vmware.com: VMware Tanzu SQL: MySQL at Scale Made Easy for Kubernetes](https://blogs.vmware.com/tanzu/vmware-tanzu-sql-mysql-at-scale-kubernetes) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tanzu SQL provides a robust, operator-driven solution for provisioning and operating MySQL databases within Kubernetes clusters. It automates common lifecycle events such as data replication, high availability clustering, automatic backups, and critical security patching.
 ## Delivery
 
-### Air-Gapped Deployments
+### Air-gapped Deployments
 
 #### Zero Trust
 
@@ -48,7 +48,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 
 ### AI and GPU Computing
 
-#### VMware Tanzu (2)
+#### Vmware Tanzu (2)
 
   - **(2022)** [dev.to/saintdle: Deploying Nvidia GPU enabled Tanzu Kubernetes Clusters](https://dev.to/saintdle/deploying-nvidia-gpu-enabled-tanzu-kubernetes-clusters-40ma) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed engineering walkthrough detailing the enablement of Nvidia GPU acceleration within guest Tanzu Kubernetes Grid (TKG) clusters on vSphere. Covers vGPU profiles, driver configuration, and assigning hardware-accelerated nodes to support AI/ML and deep learning workloads.
 ### Bare Metal
@@ -58,7 +58,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2021)** [thenewstack.io: Provision Bare-Metal Kubernetes with the Cluster API](https://thenewstack.io/provision-bare-metal-kubernetes-with-the-cluster-api) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into utilizing Cluster API for declarative provisioning on physical hardware. The guide details how Cluster API Provider BYOH (Bring Your Own Host) and Metal3 bridge the gap between bare-metal lifecycle management and cloud-like declarative workflows, orchestrating native bare-metal nodes through Kubernetes CRDs.
 ### Cloud Market
 
-#### OpenStack
+#### Openstack
 
   - **(2019)** [thenewstack.io: Bad News for Cloud Computing: OpenStack Use Plummets and Discounts Dry Up](https://thenewstack.io/bad-news-for-cloud-computing-openstack-use-plummets-and-discounts-dry-up) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical piece detailing the sharp decline in OpenStack market share as public cloud hyperscalers expanded. Live Grounding confirms that OpenStack remains stable only in telecom NFV and niche on-premises private clouds, while generic enterprise deployments have shifted to Kubernetes and hybrid-cloud runtimes.
 ### Cluster Management
@@ -70,7 +70,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Cluster API Providers
 
   - **(2023)** [==weaveworks/cluster-api-provider-existinginfra==](https://github.com/weaveworks/cluster-api-provider-existinginfra) <span class='md-tag md-tag--info'>⭐ 45</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-14160f2c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 12 L 40 6 L 50 12" fill="none" stroke="url(#spark-grad-14160f2c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Formerly known as CAPE, this Cluster API provider enabled declarative cluster bootstrap over pre-existing SSH-accessible infrastructure (bare-metal or legacy virtual machines). Following the shutdown of Weaveworks in 2024, the project was officially archived, yet it continues to serve as an engineering reference for building custom SSH-driven infrastructure control loops.
-#### GitOps
+#### Gitops
 
   - **(2021)** [piotrminkowski.com: Create and Manage Kubernetes Clusters with Cluster API and ArgoCD](https://piotrminkowski.com/2021/12/03/create-kubernetes-clusters-with-cluster-api-and-argocd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive technical guide showcasing the integration of Cluster API and ArgoCD to manage the infrastructure lifecycle through a GitOps model. The author demonstrates declarative target cluster definitions stored in Git, allowing ArgoCD to reconcile and trigger Cluster API operators on a management cluster for automated target cluster deployments.
 ### Cluster Provisioning
@@ -91,7 +91,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Custom Installers
 
   - **(2026)** [kurl.sh](https://kurl.sh) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source online utility and framework designed to construct custom, production-ready, air-gapped Kubernetes distribution installers. Replicated/kurl aggregates chosen components (like CNIs, storage, and registries) into a single bash-driven installer script to facilitate simple downstream application deliveries.
-#### Edge and IoT
+#### Edge and Iot
 
   - **(2026)** [==K0s - Zero Friction Kubernetes==](https://github.com/k0sproject/k0s) <span class='md-tag md-tag--info'>⭐ 6239</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e23c48a1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 5 L 20 12 L 30 2 L 40 9 L 50 4" fill="none" stroke="url(#spark-grad-e23c48a1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official open-source repository for the k0s Kubernetes distribution. Features active enterprise-grade developer tracks, offering built-in advanced networking plugins (Calico CNI, Kube-router), support for virtualized control planes, and automated bootstrapping tools without external dependencies.
   - **(2023)** [==xiaods/k8e==](https://github.com/xiaods/k8e) <span class='md-tag md-tag--info'>⭐ 449</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-93a7dc4f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 5 L 20 9 L 30 10 L 40 13 L 50 2" fill="none" stroke="url(#spark-grad-93a7dc4f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A lightweight Kubernetes distribution (k8e, standing for "k8s easy") modeled after K3s but strictly adhering to standard upstream components. It is tailored for low-resource edge architectures, CI environments, and hobbyist networks requiring low memory profiles and simple setups.
@@ -100,6 +100,9 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2020)** [thenewstack.io: Deploy Microk8s and the Kubernetes Dashboard for K8s Development](https://thenewstack.io/deploy-microk8s-and-the-kubernetes-dashboard-for-k8s-development)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical tutorial covering the setup of Canonical's MicroK8s on local environments coupled with the enablement of the official Kubernetes Web UI (Dashboard). The guide details how MicroK8s' single-command add-on framework simplifies cluster observability and bootstrapping for developers.
   - **(2020)** [thenewstack.io: Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step guide outlining how to install, configure, and scale MicroK8s on an Ubuntu Server environment. It demonstrates the simplicity of setting up multi-node local clusters with high availability (dqlite-backed control planes) using snap commands.
   - **(2020)** [infoq.com: Mirantis Announces k0s, a New Kubernetes Distribution](https://www.infoq.com/news/2020/12/k0s-kubernetes-distribution)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A retrospective announcement of Mirantis' launch of k0s. Highlighted its zero-friction approach, multi-master architectural patterns with a decentralized control plane, and its capability to run isolated control planes separate from application workload nodes.
+#### Enterprise Distributions
+
+  - **(2026)** [OKD](https://okd.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The community-backed, open-source upstream counterpart to Red Hat OpenShift. OKD integrates Kubernetes with core Linux container tools (like Fedora CoreOS) to offer a complete self-managing, multi-tenant container platform designed for declarative applications, CI/CD, and simplified enterprise operations.
 #### Market Landscapes
 
   - **(2022)** [infoworld.com: 6 Kubernetes distributions leading the container revolution](https://www.infoworld.com/article/2266054/6-kubernetes-distributions-leading-the-container-revolution.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative market overview focusing on major commercial Kubernetes platforms driving enterprise cloud-native architecture. Evaluates core features of Red Hat OpenShift, VMware Tanzu Grid, Rancher Kubernetes Engine (RKE), Mirantis Kubernetes Engine, Docker Enterprise, and Canonical Kubernetes, contrasting their operational models and target markets.
@@ -116,18 +119,11 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2026)** [VMware hands-on Labs 🌟](https://labs.hol.vmware.com/HOL)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly rated, free cloud-based interactive training platform provided by Broadcom/VMware. It allows platform engineers and administrators to gain hands-on operational experience with VMware Tanzu, vSphere with Kubernetes, NSX-T, and modern multicloud management tools without needing local hardware.
 ### Virtualization
 
-#### VMware Tanzu (3)
+#### Vmware Tanzu (3)
 
   - **(2020)** [**VMware vSphere 7 with Kubernetes** - Project Pacific](https://www.vmware.com/products/cloud-infrastructure/vsphere) <span class='md-tag md-tag--warning'>[PROPRIETARY CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A transformative enterprise initiative (Project Pacific) that embedded native Kubernetes capabilities directly into the ESXi hypervisor. vSphere with Tanzu enables virtualization administrators to manage VMs and native Tanzu Kubernetes Grid (TKG) guest clusters inside a single vSphere Client interface, converging IT operations.
   - **(2020)** [cormachogan.com: A first look at vSphere with Kubernetes in action](https://cormachogan.com/2020/04/01/a-first-look-at-vsphere-with-kubernetes-in-action)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on architectural exploration of the early vSphere with Kubernetes implementation. The post walks through supervisor cluster enablement, native vSphere Pods execution, storage class integration with VMware CNS (Cloud Native Storage), and basic network policies.
   - **(2020)** [cormachogan.com: Building a TKG Cluster in vSphere with Kubernetes](https://cormachogan.com/2020/04/07/building-a-tkg-guest-cluster-in-vsphere-with-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical guide demonstrating how to declare and bootstrap Tanzu Kubernetes Grid (TKG) workload clusters (guest clusters) inside a vSphere supervisor cluster. Explains the underlying declarative custom resource definition (CRD) configurations matching Cluster API mechanics.
-## Kubernetes (1)
-
-### Operations
-
-#### Productivity
-
-  - **(2021)** [Kubernetes productivity tips and tricks 🌟](https://www.theodo.com/en-fr/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practitioner's guide to enhancing CLI-based Kubernetes productivity. It explores advanced setups such as custom shell autocompletion, kubectx/kubens utilities, smart aliases, and log-tailing helpers designed to reduce cognitive overhead during real-time incident responses.
 ## Kubernetes Platforms
 
 ### Mirantis
@@ -137,10 +133,10 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2020)** [Mirantis Docker Enterprise 3.1+ with Kubernetes](https://www.mirantis.com/software/mirantis-kubernetes-engine) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Formerly Docker Enterprise, Mirantis Kubernetes Engine (MKE) provides enterprise-ready cluster deployment capabilities utilizing either Kubernetes or Swarm orchestrators. It features integrated identity management, safe private image registries, and granular role-based security tooling.
 ### Rancher
 
-#### Multi-Cluster
+#### Multi-cluster
 
   - **(2026)** [Rancher: Enterprise management for Kubernetes](https://nubenetes.com/rancher/) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Rancher is a unified platform for managing multi-cluster, heterogeneous Kubernetes deployments across diverse cloud providers and bare metal hosts. It simplifies operational management by providing centralized authentication, unified RBAC access, structured audit logs, and simplified Helm catalog deployments.
-### Red Hat OpenShift
+### Red Hat Openshift
 
 #### Enterprise (1)
 
@@ -154,7 +150,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2024)** [==github: Weave Net - Weaving Containers into Applications==](https://github.com/weaveworks/weave) <span class='md-tag md-tag--info'>⭐ 6612</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d5161111" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 10 L 20 12 L 30 7 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-d5161111)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Weave Net is a widely adopted container CNI plugin that creates an autonomous peer-to-peer overlay network with no external database requirements. The repository was archived by Weaveworks in 2024, prompting enterprise engineering teams to migrate to active, high-performance CNIs like Cilium (eBPF-driven) or Calico.
 ### Service Mesh
 
-#### VMware Tanzu (4)
+#### Vmware Tanzu (4)
 
   - **(2020)** [blogs.vmware.com: VMware Tanzu Service Mesh, built on VMware NSX is Now Available!](https://blogs.vmware.com/networkvirtualization/2020/03/vmware-tanzu-service-mesh-built-on-vmware-nsx-is-now-available.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement of VMware Tanzu Service Mesh (TSM), an Istio-based commercial service mesh integrated with VMware NSX. TSM delivers end-to-end traffic management, zero-trust security policies, cross-cluster connectivity, and deep API observability across hybrid and multi-cloud Kubernetes deployments.
 ## Observability
@@ -220,7 +216,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Ubuntu
 
   - **(2021)** [blog.radwell.codes: Provisioning Single-node Kubernetes Cluster using kubeadm on Ubuntu 20.04](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step workflow focused on configuring a single-node Kubernetes cluster on Ubuntu 20.04 using Kubeadm. Outlines how to untaint the control plane node to enable single-node scheduling for development and resource-constrained test beds.
-#### VirtualBox
+#### Virtualbox
 
   - **(2020)** [kosyfrances.com: Using kubeadm to create a Kubernetes 1.20 cluster on VirtualBox with Ubuntu](https://kosyfrances.com/kubernetes-cluster)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step local sandboxing guide describing how to set up a multi-node Kubernetes 1.20 cluster on VirtualBox using Ubuntu and Kubeadm. Valuable for local learning, CNI testing, and running sandboxed environments.
 ### Declarative Infrastructure
@@ -239,12 +235,15 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
 #### Security
 
   - **(2020)** [blog.ivnilv.com: Rotating Kops Etcd Certificates](https://blog.ivnilv.com/posts/rotating-kops-etcd-certificates) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical troubleshooting guide mapping out the precise sequence required to rotate internal etcd client and peer certificates within a running, Kops-managed cluster. Addresses avoidance of control plane downtime and potential etcd split-brain scenarios during CA transitions.
-### GitOps (1)
+#### Ubuntu Stack
+
+  - **(2026)** [**Conjure up**](https://canonical.com/juju) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight vs Live Grounding: Canonical's Conjure-up tool was originally developed to orchestrate Juju applications and configure Charmed Kubernetes dynamically. Live status confirms the tool is deprecated and retired, with Canonical directing teams to use direct Juju or MicroK8s setups.
+### Gitops (1)
 
 #### Legacy Tools
 
   - **(2026)** [==Weave Kubernetes System Control - wksctl==](https://github.com/weaveworks/wksctl) <span class='md-tag md-tag--info'>⭐ 389</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-edca5296" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 7 L 20 10 L 30 4 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-edca5296)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Weaveworks' Weave Kubernetes System Control (wksctl) was a GitOps-based tool for cluster creation, configuring infrastructure directly from a declared state stored in git. Curator Insight vs Live Grounding: Following Weaveworks' operational shutdown, this tool has been archived and is considered historical legacy.
-### Infrastructure-as-Code
+### Infrastructure-as-code
 
 #### Exoscale
 
@@ -265,7 +264,7 @@ description: "Top Kubernetes On Premise resources for 2026, AI-ranked: **Kubespr
   - **(2019)** [Stateful Kubernetes-In-a-Box with Kontena Pharos](https://blog.purestorage.com/stateful-kubernetes-pure-service-orchestrator-kontena-pharos) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical blog post detailing stateful storage solutions in Kubernetes using Pure Service Orchestrator on Kontena Pharos, a lightweight enterprise distribution. With Kontena Pharos discontinued and Pure Storage workflows fully migrated to standard CSI plugins (like Portworx), this remains of historical interest only.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

@@ -1,5 +1,5 @@
 ---
-description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and more — curated Cloud Native tools, guides and references."
+description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and more — curated Cloud Native tools, guides and references."
 ---
 # Helm Kubernetes Tool
 
@@ -106,15 +106,15 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2022)** [DevOps with Azure, Kubernetes, and Helm](https://www.youtube.com/watch?v=INv-VCZvM_o)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Integration guide demonstrating the deployment of multi-tier applications onto Azure Kubernetes Service (AKS) using Helm. Clarifies Managed Identity setups and DevOps pipelines optimized for cloud-native workloads.
 ### Continuous Delivery
 
-#### GitOps
+#### Gitops
 
-##### HashiCorp Waypoint
+##### Hashicorp Waypoint
 
   - **(2021)** [**learn.hashicorp.com: Deploy a Helm-based application automatically with GitOps**](https://github.com/hashicorp/waypoint/tree/main/website/content/docs) <span class='md-tag md-tag--info'>⭐ 4727</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-29d81a2f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 5 L 20 7 L 30 12 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-29d81a2f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical guide deploying Helm-based software within HashiCorp Waypoint pipelines. Compares native Waypoint continuous operations with declarative GitOps reconciliations, establishing streamlined automation protocols.
 ##### Helm Integration (2)
 
   - **(2021)** [codefresh.io: Using Helm with GitOps 🌟](https://octopus.com/blog/using-helm-with-gitops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the synergies and friction points of matching the declarative GitOps model with Helm's transactional release engine. Recommends strategies for separating configuration definitions from package logic.
-##### Red Hat OpenShift
+##### Red Hat Openshift
 
   - **(2021)** [youtube: GitOps Guide to the Galaxy: Working with Helm](https://www.youtube.com/watch?v=1FzOlSed5ts&ab_channel=OpenShift)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Video detailing best practices when pairing Helm with GitOps engines (such as Argo CD). Investigates template-rendering synchronization patterns, managing secret encryption, and maintaining single-source-of-truth states in git.
 #### Helm Integration (3)
@@ -122,14 +122,17 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2022)** [Continuously delivering apps to Kubernetes using Helm](https://www.youtube.com/watch?v=CmPK93hg5w8)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Visual and technical walkthrough illustrating the orchestration of continuous delivery models with Helm. Emphasizes declarative rollouts, blue-green strategy alignment, and handling configurations inside unified CI/CD systems.
 ### Continuous Integration
 
-#### CI-CD Pipelines
+#### CICD
 
 ##### Jenkins
 
   - **(2021)** [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid bootstrap of a Jenkins-driven CI/CD workflow utilizing Helm charts for packaging. Showcases how automation systems leverage the Helm CLI to rapidly package, version, and deploy builds into target namespaces.
+##### Red Hat Openshift (1)
+
+  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Enterprise Platforms
 
-#### Red Hat OpenShift (1)
+#### Red Hat Openshift (2)
 
 ##### Certifications
 
@@ -153,7 +156,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2021)** [blog.knell.it: Making your Helm Chart observable for Prometheus](https://christianhuth.de/making-your-helm-chart-observable-for-prometheus)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to embed ServiceMonitor or PodMonitor definitions natively into Helm templates. Simplifies application observability by automatically registering target resources for Prometheus scraping post-deployment.
 ### Reliability
 
-#### Post-Mortems
+#### Post-mortems
 
 ##### Deployment Failures
 
@@ -192,7 +195,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - [dzone: create install upgrade and rollback a helm chart - part 1](https://dzone.com/articles/create-install-upgrade-and-rollback-a-helm-chart-p)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: create install upgrade and rollback a helm chart - part 1 in the Kubernetes Tools ecosystem.
   - [dzone: cicd with kubernetes and helm](https://dzone.com/articles/cicd-with-kubernetes-and-helm)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: cicd with kubernetes and helm in the Kubernetes Tools ecosystem.
   - [cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly](https://www.cncf.io/blog/2021/03/24/add-java-agents-to-existing-kubernetes-and-helm-applications-instantly)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering cncf.io: Add Java Agents to Existing Kubernetes and Helm Applications Instantly in the Kubernetes Tools ecosystem.
-## Multi-Cluster Management
+## Multi-cluster Management
 
 ### Project Sveltos
 
@@ -203,7 +206,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
 
 ### Ingress Controllers
 
-#### HAProxy Deployments
+#### Haproxy Deployments
 
   - **(2026)** [artifacthub.io: Official Helm charts for HAProxy and the HAProxy Kubernetes Ingress Controller on Artifact Hub 🌟](https://artifacthub.io/packages/search?repo=haproxytech) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official, production-grade Helm packages for HAProxy load balancers and Ingress Controllers. They offer high-performance routing, custom security profiles, proxy-protocol support, and robust SSL/TLS termination configs suitable for web traffic at scale.
 ## Observability (1)
@@ -222,12 +225,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2026)** [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Prometheus community Helm charts registry, housing the essential kube-prometheus-stack. This remains the absolute industry standard for managing Prometheus, Grafana dashboards, Alertmanager definitions, and metrics-collector sidecars.
 ## Platform Engineering
 
-### Application Delivery (2)
-
-#### Catalog UI
-
-  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
-### Kubernetes GitOps and Packaging
+### Kubernetes Gitops and Packaging
 
 #### Alternative Deployment Engines
 
@@ -281,7 +279,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2021)** [maorfr/helm-backup: Helm Backup Plugin](https://github.com/maorfr/helm-backup) <span class='md-tag md-tag--info'>⭐ 83</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-6ddc120b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 3 L 30 5 L 40 11 L 50 11" fill="none" stroke="url(#spark-grad-6ddc120b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An early state backup plugin designed to preserve localized copies of active Helm releases. Modern declarative GitOps frameworks (such as Argo CD or Flux) have made manual stateful backups obsolete.
   - **(2021)** [Kubecrt](https://github.com/blendle/kubecrt) <span class='md-tag md-tag--info'>⭐ 113</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-89cf1f12" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 12 L 10 5 L 20 13 L 30 6 L 40 5 L 50 8" fill="none" stroke="url(#spark-grad-89cf1f12)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archived, early-stage conversion utility built to convert Helm charts into raw Kubernetes manifests. This project has been fully superseded by standard native capabilities like 'helm template' and is preserved solely as a historical reference of early declarative rendering strategies.
   - **(2019)** [github.com/jkosik: helm-decomposer](https://github.com/jkosik/helm-decomposer) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — An archived utility that parsed static Kubernetes manifests to automatically generate modular Helm charts. Unmaintained for several years, it serves as a legacy proof-of-concept for automated chart generation.
-#### Multi-Chart Orchestration
+#### Multi-chart Orchestration
 
   - **(2026)** [==github.com/helmfile/helmfile==](https://github.com/helmfile/helmfile) <span class='md-tag md-tag--info'>⭐ 5136</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-4af64d8c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 4 L 20 8 L 30 12 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-4af64d8c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier declarative orchestrator for multi-chart environments. Helmfile allows infrastructure-as-code developers to build multi-environment states, map release hierarchies, automate parameter layering, and enforce GitOps deployment sequences seamlessly.
   - **(2025)** [**Helmsman: Helm Charts as Code 🌟**](https://github.com/mkubaczyk/helmsman) <span class='md-tag md-tag--info'>⭐ 1498</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bfe13c2e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 3 L 20 5 L 30 2 L 40 10 L 50 5" fill="none" stroke="url(#spark-grad-bfe13c2e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — An enterprise-grade, GitOps-friendly engine for declaring Helm charts as code. By monitoring desired state files, it automates lifecycle tasks including installations, cross-cluster upgrades, namespace setup, and purging deprecated releases.
@@ -304,7 +302,7 @@ description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

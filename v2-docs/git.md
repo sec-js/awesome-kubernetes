@@ -14,14 +14,14 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - [Auto-merge between release branches](https://gitlab.com/gitlab-org/gitlab/-/issues/2785)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
   - [Provide merge bot functionality](https://gitlab.com/gitlab-org/gitlab/-/issues/14595)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span>
 
-## CICD Pipeline
+## CICD
 
 ### Automation Tools
 
 #### Ansible Orchestration
 
   - **(2021)** [laravel-news.com: Deploy your PHP Codebase with Ansible and GitHub Actions](https://laravel-news.com/deploy-your-php-app-with-ansible-and-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates the integration of Ansible configuration playbooks within GitHub Actions pipelines. Explores automated key management, target server state validation, and secure deployment procedures for PHP and Laravel applications.
-### GitHub Actions
+### Github Actions
 
 #### Automation Fundamentals
 
@@ -58,13 +58,14 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Continuous Deployment
 
   - **(2021)** [vimeo.com: How to Create a CI/CD Pipeline with GitHub Actions and K8s Like a Boss](https://vimeo.com/552276182) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integrations-focused tutorial detailing end-to-end continuous deployment workflows. Integrates GitHub Actions with target Kubernetes (K8s) clusters using secure container registries and dynamic manifest deployments.
-#### Self-Hosted Infrastructure
+#### Self-hosted Infrastructure
 
   - **(2021)** [github.blog: GitHub Actions: Ephemeral self-hosted runners & new webhooks for auto-scaling](https://github.blog/changelog/2021-09-20-github-actions-ephemeral-self-hosted-runners-new-webhooks-for-auto-scaling) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces ephemeral self-hosted runner modes and targeted autoscaling webhooks. Allows security engineers to provision one-time use, isolated container runtimes, neutralizing cross-job state corruption risk and persistence vulnerabilities.
 ### Security and Compliance
 
 #### Access Control
 
+  - **(2024)** [mattias.engineer: Azure Federated Identity Credentials for GitHub](https://mattias.engineer/blog/2024/azure-federated-credentials-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to implement OIDC (OpenID Connect) federated identity credentials between GitHub Actions and Microsoft Azure. Eliminates the critical security risk of long-lived corporate service principal credentials by relying on cryptographically short-lived runtime tokens.
   - **(2021)** [github.blog: GitHub Actions: Control permissions for GITHUB_TOKEN 🌟](https://github.blog/changelog/2021-04-20-github-actions-control-permissions-for-github_token) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Exposes crucial YAML syntax controls for configuring granular scopes on standard `GITHUB_TOKEN` values. Restricts security threat profiles by allowing administrators to configure strict read/write variables on repository sub-objects.
 #### Open Source Workflows
 
@@ -88,24 +89,24 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [github.blog: How we use GitHub Actions to manage GitHub Docs](https://github.blog/engineering/use-github-actions-manage-docs) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural case study explaining how GitHub leverages parallelized workflows to deploy its documentation engine. Covers markdown linting, internal link verification, localization checks, and blue-green web server updates.
 ## Cloud Infrastructure
 
-### Cloud-Native IDEs
+### Cloud-native Ides
 
 #### Developer Environments
 
   - **(2023)** [GitHub Codespaces](https://github.com/features/codespaces)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — GitHub Codespaces delivers cloud-hosted, highly configurable development environments running directly inside Visual Studio Code or browser instances. By leveraging declarative configuration (devcontainer.json), platform teams can eliminate the standard 'works on my machine' problem and onboard developers in seconds. It represents a paradigm shift in software engineering productivity, replacing heavy local setups with scalable, secure cloud-native workstations.
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### Terraform Modules
 
   - **(2023)** [registry.terraform.io/modules/markti/github-runner](https://registry.terraform.io/modules/markti/github-runner/azurerm) <span class='md-tag md-tag--warning'>[TERRAFORM CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An infrastructure-as-code (IaC) Terraform module tailored for automating self-hosted GitHub Actions runners in Microsoft Azure. Employs Virtual Machine Scale Sets (VMSS) alongside ephemeral instances to secure and scale cluster execution tasks. Essential for enterprise workloads demanding isolated network pathways.
 ## Cloud Native
 
-### GitOps
+### Gitops
 
-#### GitLab Kubernetes Agent
+#### Gitlab Kubernetes Agent
 
   - **(2022)** [about.gitlab.com: A new era of Kubernetes integrations on GitLab.com](https://about.gitlab.com/blog/gitlab-kubernetes-agent-on-gitlab-com) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the GitLab Agent for Kubernetes, enabling pull-based GitOps deployment workflows. This architecture shifts away from traditional push-based CI models, offering enhanced security and continuous state reconciliation.
-#### GitLab Operator
+#### Gitlab Operator
 
   - **(2022)** [about.gitlab.com: How to install and use the GitLab Kubernetes Operator (on OCP)](https://about.gitlab.com/blog/gko-on-ocp) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational installation guide for deploying the GitLab Kubernetes Operator on Red Hat OpenShift. Discusses Ingress controllers, Security Context Constraints (SCC), and persistent storage volumes.
 ## Cloud Native Operations
@@ -121,7 +122,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 #### Stack Overflow
 
-##### GitLab
+##### Gitlab
 
   - **(2021)** [stackoverflow.blog: GitLab launches Collective on Stack Overflow](https://stackoverflow.blog/2021/09/22/gitlab-launches-collective-on-stack-overflow) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement highlighting the launch of the GitLab Collective on Stack Overflow, establishing a curated ecosystem of verified Q&As, knowledge-sharing, and technical interaction for modern DevSecOps practices.
 ## DevOps
@@ -130,10 +131,10 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 #### Git Tools
 
-##### git-xargs
+##### Git-xargs
 
   - **(2021)** [blog.gruntwork.io: Introducing git-xargs: an open source tool to update multiple GitHub repos](https://www.gruntwork.io/blog/introducing-git-xargs-an-open-source-tool-to-update-multiple-github-repos) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Gruntwork's introduction to git-xargs, a Go-based open-source CLI utility designed to execute shell commands, inject files, and generate programmatic pull requests across multi-repository fleets.
-### CICD Platforms
+### CICD (1)
 
 #### Branch Protection
 
@@ -142,10 +143,16 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Dotnet Workflows
 
   - **(2022)** [devblogs.microsoft.com: .NET 💜 GitHub Actions](https://devblogs.microsoft.com/dotnet/dotnet-loves-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the deeply integrated continuous delivery paths between the .NET ecosystem and GitHub Actions. Details official templates designed to compile, containerize, and deploy complex modern .NET microservices. Focuses on security key storage configurations and pipeline telemetry visualization.
+#### Flutter Automation
+
+  - **(2022)** [blog.gskinner.com: Flutter: Easily add CI testing with GitHub Actions](https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical implementation blueprint for integrating Flutter automated testing pipelines within GitHub Actions. Outlines configuration paradigms for environment caching, automated test suite execution, and artifact compilation. Significantly minimizes manual pre-flight validation overhead for cross-platform workflows.
+#### Platform Workflows
+
+  - **(2022)** [infoq.com: How GitHub Does DevOps for its iOS and Android Apps](https://www.infoq.com/news/2022/01/GitHub-devops-mobile-apps) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses GitHub's internal orchestration patterns for native iOS and Android continuous integration pipelines. Highlights optimization patterns for automated builds, secure code signing, and binary release strategies utilizing native GitHub Actions runner farms. Relies on internal platform telemetry to structure high-performance mobile deployments.
 #### Workflow Dispatch
 
   - **(2021)** [build5nines.com: Configuring Manual Triggers in GitHub Actions with `workflow_dispatch`](https://build5nines.com/configuring-manual-triggers-in-github-actions-with-workflow_dispatch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A granular guide to declaring human-in-the-loop manual overrides in GitHub Actions using the `workflow_dispatch` event trigger. Discusses configuration of strict typing parameters and dynamic input options in the YAML configuration matrix. Assists in restricting dangerous execution actions in production environments.
-### ChatOps
+### Chatops
 
 #### AI Assistants
 
@@ -155,30 +162,28 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [BitBucket Bot for Microsoft Teams](https://techcommunity.microsoft.com/blog/microsoftteamsblog/new-bitbucket-bot-for-microsoft-teams/218212) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Microsoft Teams integration for Bitbucket Server and Cloud. Relays rich contextual alerts regarding repository updates, commit feedback, and pull requests directly to team channels to collapse developer communication latency.
 ### Container Orchestration
 
-#### CICD Libraries
+#### CICD (2)
 
   - **(2023)** [github.com: RedHat Actions 🌟](https://github.com/redhat-actions) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main organizational hub housing Red Hat's official actions for OpenShift deployment. These components standardize cluster authentication, CLI installation, and container orchestration tasks directly in pipeline code. Acts as the primary bridge for enterprise Kubernetes pipeline operations.
-#### CICD Pipelines
-
   - **(2021)** [openshift.com: Deploying to OpenShift using GitHub Actions](https://www.redhat.com/en/blog/deploying-to-openshift-using-github-actions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A step-by-step technical blueprint showing the integration of OpenShift API endpoints within automated GitHub pipelines. Highlights OAuth-based login processes, image registry configuration, and seamless rolling updates. Essential for maintaining secure hybrid-cloud application states.
 #### Red Hat Integration
 
   - **(2020)** [redhat.com: Red Hat and GitHub Collaborate to Expand the Developer Experience on Red Hat OpenShift with GitHub Actions 🌟](https://www.redhat.com/en/about/press-releases/red-hat-and-github-collaborate-expand-developer-experience-red-hat-openshift-github-actions)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announces the strategic engineering collaboration between Red Hat and GitHub to bring native OpenShift deployment controls to GitHub Actions. Bridges enterprise Kubernetes platforms and developer workflows by standardizing on Red Hat's native actions suite.
-#### Self-Hosted Runners
+#### Self-hosted Runners
 
   - **(2024)** [github.com: OpenShift GitHub Actions Runner 🌟](https://github.com/redhat-actions/openshift-actions-runners) <span class='md-tag md-tag--warning'>[DOCKERFILE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Holds Red Hat's containerized self-hosted GitHub Actions runner configurations optimized for execution on OpenShift clusters. Offers secure scaling patterns that allow pipelines to process resource-intensive compilation and container builds natively within the cluster fabric.
 ### Continuous Delivery
 
-#### ChatOps (1)
+#### Chatops (1)
 
   - **(2022)** [Rultor](https://www.rultor.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A unique ChatOps merge agent that handles branch integration and deployments entirely via comments inside GitHub issue trackers. Employs isolated Docker containers to guarantee repeatable, hermetic build environments during continuous delivery.
   - **(2014)** [Rultor, a Merging Bot](https://www.yegor256.com/2014/07/24/rultor-automated-merging.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A philosophical and architectural essay framing the necessity of automated merging bots. Argues that manual merging introduces critical continuous integration vulnerabilities and details how systems like Rultor resolve this operational anti-pattern.
-#### GitLab (1)
+#### Gitlab (1)
 
-##### OpenShift Operator
+##### Openshift Operator
 
   - **(2021)** [containerjournal.com: GitLab Brings Kubernetes Operator to Red Hat OpenShift](https://cloudnativenow.com/features/gitlab-brings-kubernetes-operator-to-red-hat-openshift) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The GitLab Kubernetes Operator on Red Hat OpenShift automates the lifecycle management of self-hosted GitLab instances. By leveraging the Operator SDK, it provides native integration with OpenShift security contexts, automated upgrades, and scale-out capabilities for enterprise-grade GitOps engines.
-#### GitOps (1)
+#### Gitops (1)
 
   - **(2025)** [Jenkins-X UpdateBOT](https://github.com/jenkins-x/updatebot) <span class='md-tag md-tag--info'>⭐ 40</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ab4c227b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 9 L 20 5 L 30 11 L 40 5 L 50 3" fill="none" stroke="url(#spark-grad-ab4c227b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A dynamic automation component within the Jenkins-X ecosystem. It monitors downstream project dependencies and automatically creates, updates, and merges pull requests across microservices' configuration and manifest repositories.
 ### Continuous Deployment (1)
@@ -192,12 +197,12 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Bitbucket Pipelines
 
   - **(2019)** [Configure bitbucket-pipelines.yml to automatically merge feature branch to master?](https://community.atlassian.com/forums/Bitbucket-questions/configure-bitbucket-pipelines-yml-to-automatically-merge-feature/qaq-p/793222) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A community-focused guide outlining configuration recipes for automerging feature branches into staging or master using `bitbucket-pipelines.yml`. Uses shell scripts and pipeline runners to securely push merge commits back to the remote repository.
-#### GitHub Actions (1)
+#### Github Actions (1)
 
 ##### Secrets Management
 
   - **(2021)** [adamtheautomator.com: How to Manage GitHub Actions Environment Variables and Secrets](https://adamtheautomator.com/github-actions-environment-variables) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Walkthrough tracing steps to declare environment variables, configure repository variables, and securely reference encrypted secrets inside continuous workflow files.
-#### GitLab CI
+#### Gitlab CI
 
 ##### Education
 
@@ -217,10 +222,10 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2019)** [PlasticSCM MergeBot Jenkins Plugin](https://plugins.jenkins.io/plasticscm-mergebot) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy Jenkins integration plugin designed to connect Plastic SCM's native MergeBot engine with continuous integration pipelines. It monitors merge requests and automates verification runs before checking changes back into the trunk.
 #### Test Automation
 
-##### GitLab CI (1)
+##### Gitlab CI (1)
 
   - **(2022)** [testmo.com: GitLab CI/CD Test Automation Pipeline & Reporting](https://www.testmo.com/guides/gitlab-ci-test-automation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Integration guide outlining how to embed automated test execution and real-time test execution reporting within GitLab CI/CD pipelines. This pattern ensures high-fidelity test telemetry and immediate failure alerts inside the merge request interface.
-### DevSecOps
+### Devsecops
 
 #### Supply Chain Security
 
@@ -235,21 +240,13 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2024)** [twitter.com/azuredevops](https://x.com/azuredevops)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official communication stream detailing updates and security patches for Azure DevOps platforms. Serves as a useful secondary source for tracking telemetry optimizations and service level agreements (SLAs) directly from engineering teams.
   - **(2018)** [Microsoft Visual Studio Team Services (VSTS)](https://www.dotnetcurry.com/visualstudio/1322/what-is-visual-studio-team-system-vsts) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the architectural features of Microsoft's Visual Studio Team Services (VSTS) before its transition to Azure DevOps. Focuses on classical application lifecycle management (ALM) mechanisms and pipeline integration schemas.
   - **(2018)** [Microsoft Visual Studio Team Services (VSTS) Tutorial: The Cloud ALM Platform](https://www.softwaretestinghelp.com/microsoft-vsts-tutorial-1)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A fundamental tutorial documenting task management and build execution models inside legacy VSTS configurations. Serves as a migration reference for enterprise architects aiming to port legacy environments to modern Azure DevOps structures.
-### GitOps (2)
+### Gitops (2)
 
-#### Reliability-as-Code
+#### Reliability-as-code
 
-##### GitHub Actions (2)
+##### Github Actions (2)
 
   - **(2021)** [github.blog: Extending GitOps to reliability-as-code with GitHub and StackPulse](https://github.blog/enterprise-software/devops/extending-gitops-to-reliability-as-code-with-github-and-stackpulse) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analysis detailing how teams integrate StackPulse runbooks and GitHub Actions definitions to orchestrate continuous resilience, extending classic declarative GitOps practices to automated incident response.
-### Mobile CICD
-
-#### Flutter Automation
-
-  - **(2022)** [blog.gskinner.com: Flutter: Easily add CI testing with GitHub Actions](https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical implementation blueprint for integrating Flutter automated testing pipelines within GitHub Actions. Outlines configuration paradigms for environment caching, automated test suite execution, and artifact compilation. Significantly minimizes manual pre-flight validation overhead for cross-platform workflows.
-#### Platform Workflows
-
-  - **(2022)** [infoq.com: How GitHub Does DevOps for its iOS and Android Apps](https://www.infoq.com/news/2022/01/GitHub-devops-mobile-apps) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyses GitHub's internal orchestration patterns for native iOS and Android continuous integration pipelines. Highlights optimization patterns for automated builds, secure code signing, and binary release strategies utilizing native GitHub Actions runner farms. Relies on internal platform telemetry to structure high-performance mobile deployments.
 ### Version Control
 
 #### Desktop Git Clients
@@ -306,7 +303,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 #### Scalable SCM Systems
 
   - **(2022)** [sapling-scm.com](https://sapling-scm.com/docs/introduction) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Sapling is Meta’s Git-compatible source control management system engineered specifically for massive monolithic repositories. Integrates client-side logic with deep server-side virtual file optimizations to provide rapid execution on filesystems with millions of files.
-#### Self-Hosted Git
+#### Self-hosted Git
 
   - **(2024)** [Gitea](https://about.gitea.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly performant, lightweight self-hosted Git platform written in Go. Ideal for low-resource environments, local test clusters, or edge deployments where running complex server infrastructures like GitLab is impossible.
 ## Developer Platform
@@ -327,7 +324,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2018)** [github.com: Branch Cleanup Action 🌟](https://github.com/jessfraz/branch-cleanup-action) <span class='md-tag md-tag--info'>⭐ 422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d0eed18c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 3 L 30 9 L 40 11 L 50 6" fill="none" stroke="url(#spark-grad-d0eed18c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — An automated GitHub Action designed to delete merged branches. Classified as legacy under MVQ protocols due to years of inactivity, since native GitHub repositories now support automatic head branch deletion.
 ### Collaboration Tools
 
-#### CICD Governance
+#### CICD (3)
 
   - **(2021)** [dev.to/opensauced: How to Create a Good Pull Request Template (and Why You Should Add Gifs)](https://dev.to/opensauced/how-to-create-a-good-pull-request-template-and-why-you-should-add-gifs-4i0l) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides blueprint strategies for designing high-yield pull request templates. Explains how structuring issue link references, visual UI regression context (like screenshots/GIFs), and self-review checklists enforces repository code standards.
 #### Open Source Workflows (1)
@@ -366,9 +363,9 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 ### API Design
 
-#### GitHub API
+#### Github API
 
-##### OpenAPI Spec
+##### Openapi Spec
 
   - **(2020)** [Introducing GitHub’s OpenAPI Description](https://github.blog/news-insights/product-news/introducing-githubs-openapi-description) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the generation and open-sourcing of comprehensive OpenAPI (Swagger) specifications for GitHub's REST API, enabling automated SDK generation and typed API integration.
   - **(2020)** [GitHub's OpenAPI Spec Open-Sourced in Beta](https://www.infoq.com/news/2020/08/GitHub-open-api-spec) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Industry report analyzing the initial beta release of GitHub's OpenAPI specification, detailing how standard compliance lowers friction for automated security audits and API interactions.
@@ -377,45 +374,48 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2020)** [github.blog: Learn about ghapi, a new third-party Python client for the GitHub API](https://github.blog/developer-skills/programming-languages-and-frameworks/learn-about-ghapi-a-new-third-party-python-client-for-the-github-api) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer profile of ghapi, an open-source, lightweight Python client targeting the GitHub REST API. Dynamically updates with GitHub's OpenAPI specs to guarantee parity.
 ### CLI Utilities
 
-#### GitHub CLI
+#### Github CLI
 
 ##### Extensions
 
   - **(2021)** [github.blog: GitHub CLI 2.0 includes extensions!](https://github.blog/news-insights/product-news/github-cli-2-0-includes-extensions) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Product release overview for GitHub CLI v2.0, describing the integration of customizable extension engines. Empowers DevOps platform teams to author, deploy, and execute bespoke commands natively via gh.
   - **(2020)** [GitHub CLI](https://cli.github.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official command-line utility (gh) designed to orchestrate GitHub platform resources directly from local terminal shells. Enables developers to query, create, and manage PRs, repository assets, workflows, and issue trackers.
-#### hub CLI
+#### Hub CLI
 
 ##### Legacy Tools
 
   - **(2021)** [==github/hub 🌟==](https://github.com/mislav/hub) <span class='md-tag md-tag--info'>⭐ 22954</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-77ba1893" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 10 L 20 6 L 30 11 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-77ba1893)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight highlights 'hub' as the classic command-line utility wrapping Git to simplify GitHub-specific tasks. Live Grounding verifies that the repository is officially archived by GitHub in favor of the newer 'gh' CLI.
 ### Cloud Workstations
 
-#### GitHub Codespaces
+#### Github Codespaces
 
 ##### Performance
 
   - **(2022)** [infoq.com: GitHub Codespaces Can Now Be Templated to Improve Performance](https://www.infoq.com/news/2022/02/github-codespaces-templates) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highly detailed architectural update explaining the utilization of pre-built templates inside GitHub Codespaces. By pre-building workspace snapshots, teams bypass complex dependencies and image extraction phases during startup.
-#### GitHub dev
+#### Github Dev
 
   - **(2021)** [dev.to: 10 Fun Things You Can Do With GitHub.dev 😎](https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on exploration outlining the capabilities of using github.dev, a quick browser-based VS Code environment loaded instantly by hitting the '.' key on any repository interface.
 ### Documentation (1)
 
-#### GitHub Docs Architecture
+#### Github Docs Architecture
 
   - **(2020)** [github.blog: How we launched docs.github.com](https://github.blog/engineering/how-we-launched-docs-github-com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep technical architectural overview tracing the migration of GitHub's official documentation pipeline to a modernized, dynamic platform built atop Node.js, Markdown pipelines, and rapid CDN delivery.
+#### Github Wiki
+
+  - **(2022)** [What is a GitHub Wiki and How Do You Use it?](https://www.freecodecamp.org/news/what-is-github-wiki-and-how-do-you-use-it) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on utilizing GitHub Wikis for repository documentation. It describes markdown editing, sidebar customization, and managing wiki repositories locally as standard Git remotes.
 ### Education (1)
 
-#### GitHub Education
+#### Github Education
 
   - **(2026)** [**education.github.com**](https://github.com/education) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive educational portal serving industry-grade developer setups, cloud environments, and pipeline environments directly to students, teachers, and university networks.
 ### Frontend Integrations
 
-#### GitHub Buttons
+#### Github Buttons
 
   - **(2021)** [buttons.github.io: GitHub Buttons](https://buttons.github.io) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Simple frontend utility generator that provides clean, interactive, and customizable social buttons (such as Follow, Star, Fork) to integrate easily within product documentation, blogs, or landing pages.
 ### Git Repositories
 
-#### GitHub
+#### Github
 
 ##### Advanced Diffing
 
@@ -437,6 +437,9 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 ##### Merging Strategies
 
   - **(2021)** [dev.to: Git and GitHub: The Complete Guides - Chapter 6: GitHub Merging](https://dev.to/ifierygod/git-and-github-the-complete-guides-chapter-6-2c74) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive walkthrough analyzing various Git merge models supported natively inside GitHub, tracing structural differences between classic merge commits, squashing, and rebasing.
+##### Open Source
+
+  - **(2022)** [GitHub for Beginners: Getting Started with OSS Contributions](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-oss-contributions) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical handbook introducing developers to open-source software (OSS) contribution workflows on GitHub. Explains fork-and-pull-request models, issue triage, branch hygiene, and code review communication norms.
 ##### Team Collaboration
 
   - **(2021)** [dev.to: Learn how to use Git and GitHub in a team like a pro](https://dev.to/colocodes/learn-how-to-use-git-and-github-in-a-team-like-a-pro-2dk7) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Focuses on best-practice development operations inside multi-person engineering branches. Describes clean feature-branching architectures, tracking issues, and utilizing labels during production cycles.
@@ -447,7 +450,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
 
 #### Continuous Delivery (1)
 
-##### GitHub Deployment
+##### Github Deployment
 
   - **(2021)** [github.blog: Improving how we deploy GitHub](https://github.blog/enterprise-software/devops/improving-how-we-deploy-github) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Structural breakdown detailing internal architectural strategies utilized by GitHub engineers to deploy the global, high-availability web platform safely and with minimized downtime profiles.
 ##### Reliability
@@ -455,7 +458,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [github.blog: Deployment reliability at GitHub](https://github.blog/developer-skills/github/deployment-reliability-at-github) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural dive into safe release pipelines, progressive deployment rings, canary testing environments, and automated rollback triggers developed to maintain GitHub’s enterprise-level reliability.
 ### Infrastructure Status
 
-#### GitHub Operations
+#### Github Operations
 
 ##### Uptime Metrics
 
@@ -470,7 +473,7 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [github.blog: Solving the innersource discovery problem - Discoverability](https://github.blog/enterprise-software/devops/solving-the-innersource-discovery-problem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Insights into mitigating duplicate development projects inside massive enterprises by adopting innersource frameworks. Leverages GitHub tags, topics, and custom platform discoverability catalogs.
 ### Platform Migration
 
-#### BitBucket to GitHub
+#### Bitbucket To Github
 
   - **(2021)** [returngis.net: Migrar un repositorio de un BitBucket Server local a GitHub](https://www.returngis.net/2021/11/migrar-un-repositorio-de-un-bitbucket-server-local-a-github) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step practical migration blueprint describing git clone command loops, mirroring repository history, and exporting branch policies from local BitBucket instances to GitHub Cloud.
 ### Platform Security
@@ -486,23 +489,30 @@ description: "Top Git resources for 2026, AI-ranked: pre-commit, Odoo Mergebot a
   - **(2021)** [dev.to: How to never type passwords when using Git](https://dev.to/github/how-to-never-type-passwords-when-using-git-18bb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical guide highlighting configuration steps for credentials caching, SSH key configuration, and GPG setup to bypass basic user login constraints securely during recurring Git actions.
 ### Product Strategy
 
-#### GitHub Roadmap
+#### Github Roadmap
 
   - **(2026)** [==GitHub public roadmap 🌟==](https://github.com/github/roadmap) <span class='md-tag md-tag--info'>⭐ 8766</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d51b664f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 8 L 30 5 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-d51b664f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source repository compiling features and timelines across the GitHub product spectrum. Enables platform architects to plan internal upgrades matching upcoming core features.
 ## Developer Productivity (2)
 
-### CICD
+### CICD (4)
 
-#### GitHub Actions (3)
+#### Github Actions (3)
 
   - **(2025)** [==github.blog: Continuous Delivery with GitHub Actions==](https://github.blog/enterprise-software/ci-cd/continuous-delivery-github-actions-best-practices) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise patterns and best practices for continuous delivery (CD) using GitHub Actions.
 Highlights secure credential management, least privilege, runner isolation, environment checks, and GITHUB_TOKEN configurations.
-### IDEs
+### Ides
 
-#### GitHub Copilot
+#### Github Copilot
 
   - **(2025)** [==githubnext.com: GitHub Copilot Workspace==](https://githubnext.com/projects/copilot-workspace) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An agentic development environment by GitHub Next designed to orchestrate software changes using autonomous developer agents.
 Assists developers from specification to implementation, verification, and code generation across complex repositories.
+## Devsecops and Registry
+
+### Java Tools
+
+#### Gradle Reference
+
+  - **(2026)** [==Gradle Cheat Sheets==](https://nubenetes.com/cheatsheets/) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — High-density command syntax cheatsheet for Gradle, highlighting Kotlin/Groovy DSL setups, caching options, task graphs management, and daemon management to significantly improve build execution times.
 ## Engineering Education
 
 ### Developer Platform (1)
@@ -521,7 +531,7 @@ Assists developers from specification to implementation, verification, and code 
 
 #### AWS
 
-##### GitLab Runner
+##### Gitlab Runner
 
   - **(2021)** [Deploy and Manage Gitlab Runners on Amazon EC2](https://aws.amazon.com/blogs/devops/deploy-and-manage-gitlab-runners-on-amazon-ec2) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — This AWS DevOps guide outlines the deployment, scaling, and operational management of self-hosted GitLab Runners on Amazon EC2 instances. It covers autoscaling configurations via AWS Auto Scaling Groups and secure execution boundaries using AWS IAM instance profiles.
 ### Code Search
@@ -546,7 +556,7 @@ Assists developers from specification to implementation, verification, and code 
 
 ### Agile and Planning
 
-#### GitHub Projects
+#### Github Projects
 
   - **(2021)** [github.blog: Getting started with project planning on GitHub](https://github.blog/developer-skills/github/getting-started-with-project-planning-on-github) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights the unified, spreadsheets-meets-kanban project planning toolset integrated directly inside GitHub's code host. Explores dynamic custom fields, custom board layouts, and high-level progress tracking designed to eliminate external project coordination platforms.
 ## Security and Compliance (1)
@@ -572,7 +582,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2022)** [github.blog: Dependency graph now supports GitHub Actions](https://github.blog/news-insights/product-news/dependency-graph-now-supports-github-actions) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces dependency graph native tracking for GitHub Actions. Provides deep security oversight by indexing actions, workflows, and third-party task plugins, exposing vulnerabilities, and generating automatic Dependabot alert remedies across pipeline executions.
 ## Software Engineering (1)
 
-### AI-Assisted Development
+### Ai-assisted Development
 
 #### AI Testing Tools
 
@@ -608,9 +618,10 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2022)** [genbeta.com: Ya hay organizaciones pro-software libre abandonando GitHub por su uso comercial de proyectos open source en Copilot](https://www.genbeta.com/desarrollo/hay-organizaciones-pro-software-libre-abandonando-github-su-uso-comercial-proyectos-open-source-copilot) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the open-source community backlash and subsequent project migrations away from GitHub due to the commercial ingestion of copyleft-licensed codebases for training Copilot. Outlines the ethical and legal complexities of automated code reuse.
   - **(2022)** [xataka.com: Copilot es una revolución para programadores (pero también un potencial problema legal para Microsoft)](https://www.xataka.com/robotica-e-ia/copilot-revolucion-para-programadores-tambien-potencial-problema-legal-para-microsoft) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed legal exploration into copyright violation risks Microsoft accepted when commercializing Copilot. Analyzes how training models on public codebases challenges the fair-use doctrine. Establishes context for enterprise IP protection policies in AI-assisted development.
-#### Next-Gen Platforms
+#### Next-gen Platforms
 
   - **(2023)** [github.blog: GitHub Copilot X: The AI-powered developer experience](https://github.blog/news-insights/product-news/github-copilot-x-the-ai-powered-developer-experience) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Launches GitHub Copilot X, integrating advanced conversational LLMs directly into pull requests, system terminals, and developer documentation frameworks. Highlights the transition from raw autocomplete tools to full conversational software lifecycle management.
+  - **(2023)** [computerhoy.com: GitHub Copilot X: así es la nueva IA parecida a ChatGPT y destinada a ayudar a programadores](https://computerhoy.20minutos.es) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the technical specifications of Copilot X, including terminal tool integration, automated PR description synthesis, and integrated chat widgets. Examines the performance gains from switching to OpenAI's GPT-4 framework.
 #### Practical Guide
 
   - **(2021)** [towardsdatascience.com: Generating Python Scripts with OpenAi’s Github Copilot](https://towardsdatascience.com/generating-python-scripts-with-openais-github-copilot-da0b3fdd989)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A hands-on exploration demonstrating code generation strategies for Python scripts using Copilot. Focuses on writing high-quality comments to prompt correct library imports and database operations. Outlines testing methodologies to weed out hallucinations.
@@ -618,12 +629,12 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2021)** [xataka.com: Para qué programar cuando una máquina lo hace (un poco) por ti: así es Github Copilot, un sistema que se nutre del prodigioso GPT-3](https://www.xataka.com/robotica-e-ia/programar-cuando-maquina-hace-poco-ti-asi-github-copilot-sistema-que-se-nutre-prodigioso-gpt-3) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analysis of GitHub Copilot's initial GPT-3 powered capabilities. Explains how neural networks infer developer intent from raw codebase comments and structural definitions. Anticipates major technical transitions from manual coding to template-based prompt engineering.
   - **(2021)** [thenewstack.io: GitHub Copilot: A Powerful, Controversial Autocomplete for Developers](https://thenewstack.io/github-copilot-a-powerful-controversial-autocomplete-for-developers)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A critical overview of the productivity opportunities and structural controversies introduced by the early deployment of Copilot. Examines the tension between automated code reuse and copyright licensing schemes. Explores the initial legal definitions of AI-generated content.
-### CICD Platforms (1)
+### CICD (5)
 
-#### GitLab CI Basics
+#### Gitlab CI Basics
 
   - **(2022)** [gitlab.com: GitLab’s guide to CI/CD for beginners](https://about.gitlab.com/blog/beginner-guide-ci-cd)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An introductory educational guide to GitLab CI/CD fundamentals. Outlines basic pipeline stages, executor configuration structures, and standard YAML declarative properties.
-#### GitLab CI Optimization
+#### Gitlab CI Optimization
 
   - **(2023)** [about.gitlab.com: Want a more effective CI/CD pipeline? Try our pro tips](https://about.gitlab.com/blog/effective-ci-cd-pipelines) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Advanced tuning guide for optimizing GitLab CI/CD workflows. Focuses on implementing Directed Acyclic Graphs (DAG), tuning runner cache policies, and constructing efficient pipeline inheritance layers.
 ### Collaborative Platforms
@@ -632,7 +643,7 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2021)** [lambdatest.com: How To Use GitLab CI To Run Tests Locally? 🌟](https://www.testmuai.com/blog/use-gitlab-ci-to-run-test-locally) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A developer-focused tutorial on running GitLab CI tests locally using the GitLab Runner CLI. Outlines setup, debugging practices, and environment configuration steps to speed up pipeline validation without waiting on remote systems.
   - **(2021)** [pythonspeed.com: Building Docker images on GitLab CI: Docker-in-Docker and Podman 🌟](https://pythonspeed.com/articles/gitlab-build-docker-image) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed technical guide comparing Docker-in-Docker (DinD) and Podman for building container images in GitLab CI. Evaluates speed, safety, system privileges, and alternative rootless compilation methods within Kubernetes runners.
-#### DevSecOps Platforms
+#### Devsecops Platforms
 
   - **(2021)** [devclass.com: Git a March on: GitLab 13.10 ramps up security, adds support for OpenShift, DORA](https://www.devclass.com/ci-cd/2021/03/23/git-a-march-on-gitlab-1310-ramps-up-security-adds-support-for-openshift-dora/1619889) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A product breakdown of the GitLab 13.10 release, highlighting its improved OpenShift integration and built-in DORA metrics tracking. These features help enterprise teams better evaluate development velocity, pipeline health, and deploy cycles.
   - **(2021)** [sdtimes: GitLab 14 aims to do away with DIY DevOps toolchains 🌟](https://sdtimes.com/devops/gitlab-14-aims-to-do-away-with-diy-devops-toolchains) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analysis of GitLab 14, highlighting its goal to replace fragmented custom DevOps pipelines with a single integrated system. Covers its native epic planning, container security scanning, and automated pipeline governance features.
@@ -643,9 +654,10 @@ Assists developers from specification to implementation, verification, and code 
 #### Kubernetes Integration
 
   - **(2021)** [docs.gitlab.com: Install GitLab Runner on Red Hat OpenShift](https://docs.gitlab.com/runner/install/openshift.html) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official guide for installing GitLab Runner on Red Hat OpenShift using the GitLab Runner Operator. Outlines configuration steps, security context constraints (SCC), and custom resource designs for managing secure, scalable pipeline workloads.
+  - **(2021)** [about.gitlab.com: GitLab 14.1 released with Helm Chart Registry and Escalation Policies](https://docs.gitlab.com/releases) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the GitLab 14.1 release, highlighting its integrated Helm chart registry and custom escalation policies. Explains how teams can store and manage Kubernetes deployment packaging files directly alongside their application source code.
 ### Developer Productivity (4)
 
-#### Grafana GitHub Integration
+#### Grafana Github Integration
 
   - **(2022)** [grafana: How we use the Grafana GitHub plugin to track outstanding pull requests](https://grafana.com/blog/how-we-use-the-grafana-github-plugin-to-track-outstanding-pull-requests)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed technical guide on configuring Grafana dashboards with GitHub plugins. Demonstrates building engineering performance visualizations to track commit frequencies, PR lifetimes, and team review velocities.
 #### VS Code Extensions
@@ -734,7 +746,7 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2021)** [Automatic branch merging](https://confluence.atlassian.com/bitbucketserver/automatic-branch-merging-776639993.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official Atlassian documentation explaining Bitbucket Server's automated downstream cascading merge capabilities. It executes safe automated merges from release branches down to main after successful builds, resolving merge conflicts cleanly inside structured enterprise environments.
   - **(2021)** [Checks for merging pull requests](https://confluence.atlassian.com/bitbucketserver/checks-for-merging-pull-requests-776640039.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Atlassian's reference on configuring merge check policies inside Bitbucket Server. Explores how to enforce critical compliance gates such as minimum required reviewers, successful build statuses, and resolved task lists prior to merging code.
-#### CI-CD Automation
+#### CICD (6)
 
   - **(2021)** [**julien.danjou.info: Stop merging your pull requests manually 🌟**](https://julien.danjou.info/stop-merging-your-pull-request-manually) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Advocates for automated merge engines like Mergify over manual Pull Request integration. Examines how manual merges introduce race conditions, inconsistent test states, and build failures. Suggests adopting policy-driven merge queues to safeguard trunk health and optimize integration pipelines.
 #### Configuration Management (1)
@@ -758,6 +770,9 @@ Assists developers from specification to implementation, verification, and code 
 
   - **(2022)** [**gitkraken.com: Git Tutorials: Instructional Training Videos 🌟**](https://www.gitkraken.com/learn/git/tutorials) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive directory of instructional video tutorials exploring GitKraken's GUI engine. Demystifies visual representation of complex Git histories, interactive rebasing, multi-profile credential coordination, and conflict-resolution workflows.
   - **(2021)** [dev.to: Get lazy with lazygit](https://dev.to/tahsinature/get-lazy-with-lazygit-4h37)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces lazygit, a terminal-based UI tool. Highlights features like fast interactive staging, rapid conflict resolution, branch navigation, and interactive rebase management directly from the CLI.
+#### Git Best Practices
+
+  - **(2018)** [Purposeful Commits](https://chrisarcand.com/purposeful-commits) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical essay discussing optimal commit message hygiene and atomic commits. Argues that purposeful, structured histories are critical for tracking down regression roots and ensuring easy codebase traversability.
 #### Git CLI Basics
 
   - **(2022)** [**intellipaat.com: Git Tutorial - Learn Git 🌟**](https://intellipaat.com/blog/tutorial/devops-tutorial/git-tutorial) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A comprehensive tutorial on distributed version control concepts, branching mechanics, and stage isolation in Git. Links localized version control with downstream continuous integration and delivery loops within automated DevOps pipelines.
@@ -791,7 +806,7 @@ Assists developers from specification to implementation, verification, and code 
 #### Git Rebasing
 
   - **(2023)** [gitlab.com: How to keep your Git history clean with interactive rebase](https://about.gitlab.com/blog/keep-git-history-clean-with-interactive-rebase)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical walk-through of interactive Git rebasing workflows. Explains strategies for squashing commit histories and resolving code conflicts before initiating target branch merges.
-#### GitLab Automation
+#### Gitlab Automation
 
   - **(2026)** [**Marge-bot: A merge-bot for GitLab**](https://github.com/smarkets/marge-bot) <span class='md-tag md-tag--info'>⭐ 738</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-9dfa0e36" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 11 L 20 6 L 30 4 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-9dfa0e36)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly robust Python-based merge bot for GitLab. Implements a strict 'not-by-default' merge pipeline strategy, testing rebased target branches in isolation prior to master commits. Essential for keeping high-throughput GitLab monorepos permanently green.
   - **(2022)** [Example: gitlab.gnome.org/marge-merge-bot](https://gitlab.gnome.org/users/sign_in) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical real-world case study showcasing the implementation of the Smarkets Marge-bot inside GNOME's GitLab infrastructure. Examines performance outcomes when maintaining high-volume open-source codebases under automated review queues.
@@ -800,11 +815,11 @@ Assists developers from specification to implementation, verification, and code 
 #### Monorepo Strategy
 
   - **(2020)** [**How We Use Git at Microsoft**](https://learn.microsoft.com/en-us/devops/develop/git/what-is-git) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Explores Microsoft's internal scaling strategies for Git, focusing on large-scale engineering pipelines and the Virtual File System for Git (VFS for Git). Outlines physical scale limitations and monorepo performance tuning. Current industry patterns validate that virtualized filesystems remain crucial for multi-gigabyte corporate codebases.
-#### Monorepos and Performance
+#### Monorepos And Performance
 
   - **(2021)** [==github.blog: Improve Git monorepo performance with a file system monitor 🌟==](https://github.blog/engineering/improve-git-monorepo-performance-with-a-file-system-monitor) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Addresses scaling challenges in large monorepos. Explains how Git uses FSMonitor (File System Monitor) integration to drastically reduce command response times for commands like `git status`.
   - **(2020)** [==github.blog: Get up to speed with partial clone and shallow clone==](https://github.blog/open-source/git/get-up-to-speed-with-partial-clone-and-shallow-clone) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Explains how to optimize clone performance in extremely large codebases using partial clones (blobless and treeless) and shallow clones. Compares how these strategies reduce network payloads and local disk consumption, making them ideal for high-throughput CI/CD runtimes.
-#### Security and Authentication
+#### Security And Authentication
 
   - **(2021)** [==github.blog: Token authentication requirements for Git operations==](https://github.blog/security/application-security/token-authentication-requirements-for-git-operations) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Details GitHub's transition away from legacy basic password authentication for Git operations. Highlights security compliance frameworks, token creation protocols (fine-grained vs. classic), SSH key strategies, and automated credential manager operations.
   - **(2021)** [==blog.gitguardian.com: Rewriting your git history, removing files permanently - cheatsheet & guide==](https://blog.gitguardian.com/rewriting-git-history-cheatsheet) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — A detailed security guide for removing sensitive files, secrets, and large payloads from Git history. Compares legacy `git filter-branch` with the faster, modern `git-filter-repo` and BFG Repo-Cleaner tools, outlining downstream impacts of forced push updates.
@@ -828,6 +843,7 @@ Assists developers from specification to implementation, verification, and code 
 
 #### Git Operations (3)
 
+  - **(2018)** [Atlassian Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Atlassian's reference cheatsheet detailing basic and advanced Git operations. Provides quick access to commands for cloning, staging, merging, rebasing, and troubleshooting common version-control issues.
   - **(2014)** [Removing the last commit](https://gist.github.com/CrookedNumber/8964442) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical troubleshooting guide mapping out strategies to revert or reset the latest Git commit. Explains the critical differences between `--soft`, `--mixed`, and `--hard` reset commands for local and remote recovery workflows.
 #### Git Workflows (3)
 
@@ -837,6 +853,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [freecodecamp.org: What is Trunk Based Development? A Different Approach to the Software Development Lifecycle](https://www.freecodecamp.org/news/what-is-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An educational guide that introduces developers to Trunk-Based Development. It contrasts TBD with traditional GitFlow, showing how merging frequent, small commits to a single trunk prevents major merge conflicts and accelerates deployment cycles.
   - **(2020)** [kubernetes.dev: GitHub Workflow](https://www.kubernetes.dev/docs/guide/github-workflow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — The official Kubernetes project contributor guidelines detailing its custom, large-scale upstream/downstream fork-and-pull Git workflow. Emphasizes rebase strategies, PR conventions, and the specialized automated Prow bot systems used to manage gating, label tracking, and multi-SIG code approvals.
   - **(2020)** [kean.github.io: Trunk-Based Development](https://kean.blog/post/trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical retrospective examining the execution of Trunk-Based Development (TBD) within cloud environments. Explores how fast feedback loops, automated testing, and branch-by-abstraction strategies work together to eliminate long-lived branching headaches.
+  - **(2020)** [victorops.com: Source Code Control: Trunk-Based Development vs. GitFlow](https://www.splunk.com/en_us/about-splunk/acquisitions/splunk-on-call.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An evaluation of GitFlow versus Trunk-Based Development, analyzing how branching strategies affect MTTR, deployment frequency, and software quality. It details the operational changes and tooling adjustments required to adopt trunk-based methodologies.
   - **(2019)** [atlassian.com: Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Atlassian's classic git tutorial on Gitflow, outlining its mechanics, workflows, and common command patterns. It contrasts this highly structured model with alternative setups, helping teams choose the right balance between isolation and continuous integration.
   - **(2019)** [team-coder.com: From Git Flow to Trunk Based Development](https://team-coder.com/from-git-flow-to-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical migration blueprint outlining how to move teams from GitFlow to Trunk-Based Development. It highlights real-world challenges, such as adapting CI pipelines and managing team workflows during the transition.
   - **(2018)** [devblogs.microsoft.com: Release Flow: How We Do Branching on the VSTS Team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep technical analysis of Microsoft's 'Release Flow' branching model, developed to manage the Azure DevOps/VSTS codebase. The model focuses on short-lived topic branches that target `main`, and uses cherry-picked hotfixes and isolated release branches to protect and maintain trunk stability.
@@ -848,6 +865,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2014)** [paulhammant.com: Microsoft's Trunk-Based Development](https://paulhammant.com/2014/04/03/microsofts-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical study on how Microsoft adapted Trunk-Based Development practices across large engineering groups. Explores the tooling upgrades and operational adaptations necessary to support thousands of developers pushing to a single main branch daily.
   - **(2013)** [paulhammant.com: What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An foundational architectural essay by Paul Hammant detailing Trunk-Based Development mechanics. He argues that delayed integrations cause system-wide delivery bottlenecks, explaining why high-performing systems rely on dynamic runtime toggling and direct-to-main trunk pushes.
   - **(2012)** [git-flow.readthedocs.io](https://git-flow.readthedocs.io/en/latest) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference documentation for the git-flow CLI extension, which wraps core Git commands to automate Vincent Driessen's branching model. It details low-level subcommands for features, releases, and hotfixes, making complex git operations more accessible from the command line.
+  - **(2012)** [Git-flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An interactive, visual cheatsheet summarizing standard `git-flow` command line operations. Provides developers with quick, copy-pasteable snippets for initializing, executing, and finalizing feature, release, and hotfix branches.
   - **(2010)** [nvie.com: Feature Branches. A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An extract of Vincent Driessen's GitFlow detailing feature branch mechanics. It outlines the conventions for branching off and merging back into the `develop` line, providing a structured approach for isolation that is best suited for scheduled release cycles.
 ## Version Control (3)
 
@@ -891,7 +909,7 @@ Assists developers from specification to implementation, verification, and code 
 #### Metadata Display
 
   - **(2023)** [shields.io 🌟](https://shields.io) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Shields.io is the standard metadata badge generation service for developer readmes and project hubs. It provides dynamic SVG badges showing continuous integration status, test coverage, package versioning, and license compliance across open-source and enterprise repositories.
-#### Open Source
+#### Open Source (1)
 
   - **(2022)** [dev.to: Open Source: Multiple branches and git merges](https://dev.to/okimotomizuho/open-source-multiple-branches-and-git-merges-2f69)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on integration strategies for contributors managing branch hierarchies in open-source projects. Offers concrete tips on coordinating forks, staging changes across distinct feature branches, and safely executing pulls and merges with upstream main branches.
 #### Standards
@@ -964,7 +982,7 @@ Assists developers from specification to implementation, verification, and code 
   - **(2021)** [css-tricks.com: Git: Switching Unstaged Changes to a New Branch](https://css-tricks.com/git-switching-unstaged-changes-to-a-new-branch)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes rapid tactics for extracting uncommitted, unstaged alterations into a newly spawned local feature branch. Guides developers on preserving workspace fluidity when starting feature-work inside the wrong branch context without triggering merge hazards.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -78,16 +78,16 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
   - **(2020)** [vogella.com: Maven for Building Java application - Tutorial](https://www.vogella.com/tutorials/ApacheMaven/article.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step foundational tutorial covering Project Object Model configuration, standard lifecycle phases, dependency management, and Eclipse integration patterns.
 ## Cloud Providers
 
-### OpenShift and RedHat
+### Openshift and Redhat
 
 #### JVM Deployment Patterns
 
   - **(2020)** [developers.redhat.com: How the fabric8 Maven plug-in deploys Java applications to OpenShift](https://developers.redhat.com/blog/2020/06/02/how-the-fabric8-maven-plug-in-deploys-java-applications-to-openshift) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates integration methods to deploy containerized Java packages onto enterprise Kubernetes (OpenShift). Showcases the configuration mechanisms, although the platform has historically evolved toward modern JKube pipelines.
-## Cloud-Native Java
+## Cloud-native Java
 
 ### Build Tools
 
-#### Eclipse JKube
+#### Eclipse Jkube
 
 ##### Overview
 
@@ -100,12 +100,12 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
   - **(2020)** [**GitHub: Eclipse JKube**](https://github.com/eclipse-jkube/jkube) <span class='md-tag md-tag--info'>⭐ 849</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2dc7ec48" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 4 L 30 5 L 40 12 L 50 6" fill="none" stroke="url(#spark-grad-2dc7ec48)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The active GitHub repository for Eclipse JKube, housing Maven/Gradle plugins, extensions, and core libraries. Live Grounding indicates robust ongoing community support, enabling local resource generation, deployment, and hot-swapping inside active clusters. The project is crucial for bridging the gap between standard Java compilation and Kubernetes runtimes.
 ### Package Management
 
-#### JitPack
+#### Jitpack
 
   - **(2026)** [==jitpack.io 🌟==](https://jitpack.io) 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — JitPack is a package repository service that builds Git repositories on demand and distributes the resulting artifacts directly. Live Grounding confirms JitPack is heavily utilized for rapid prototyping and publishing developer-forked versions of libraries, completely bypassing traditional Maven Central release overheads.
 ### Scripting
 
-#### JBang
+#### Jbang
 
   - **(2026)** [**JBang**](https://www.jbang.dev) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — JBang offers a simplified approach to writing and running JVM-based code as self-contained scripts, handling dependency declaration and download seamlessly. Live Grounding shows that JBang has matured into a powerful tool for operations, DevOps task scripting, and rapid local prototyping without standard Java project boilerplate.
 ## DevOps
@@ -125,7 +125,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
 
 ### IDE Integrations
 
-#### IntelliJ IDEA
+#### Intellij IDEA
 
   - **(2026)** [==jetbrains.com/help/idea/maven-support.html==](https://www.jetbrains.com/help/idea/maven-support.html) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Comprehensive configuration documentation outlining JetBrains IntelliJ IDEA's native integration with Apache Maven. Explains POM dependency sync, interactive lifecycle graphs, and advanced dependency analyzer tools.
 #### VS Code Java
@@ -133,7 +133,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

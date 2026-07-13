@@ -35,11 +35,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2021)** [unifieddatascience.com: Data lake design patterns on google (GCP) cloud](https://www.unifieddatascience.com/data-lake-design-patterns-on-google-cloud) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Detailed reference architecture mapping design paths for deploying scalable data lakes inside Google Cloud Platform (GCP). Reviews Cloud Storage setups, BigQuery access schemas, and serverless ingestion patterns.
 ## Cloud Infrastructure
 
-### FinOps
-
-#### Cost Optimization
-
-  - **(2023)** [treblle.com: How does Treblle scale on AWS without breaking the bank?](https://treblle.com/blog/how-does-treblle-scale-on-aws-without-breaking-the-bank) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight highlights Treblle’s architectural strategy for processing billions of API requests on AWS affordably. Live Grounding details how modern SaaS platforms leverage spot instances, API gateway caching, serverless scale-to-zero databases, and intensive performance profiling to decouple traffic volume from infrastructure costs.
 ### Market Trends
 
 #### Cloud Databases
@@ -49,11 +44,11 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 
 ### Kubernetes Operators
 
-#### ClickHouse
+#### Clickhouse
 
   - **(2024)** [==Altinity/clickhouse-operator==](https://github.com/Altinity/clickhouse-operator) <span class='md-tag md-tag--info'>⭐ 2520</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e865583f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 8 L 20 7 L 30 2 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-e865583f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The enterprise standard ClickHouse Operator developed by Altinity. Automates the deployment, provisioning, scaling, configuration, and monitoring of high-throughput columnar databases inside Kubernetes environments.
   - **(2021)** [==radondb/radondb-clickhouse-kubernetes==](https://github.com/radondb/radondb-clickhouse-kubernetes) <span class='md-tag md-tag--info'>⭐ 86</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a3b50c24" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 6 L 30 13 L 40 7 L 50 10" fill="none" stroke="url(#spark-grad-a3b50c24)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — RadonDB's legacy operator and integration configurations for orchestrating ClickHouse OLAP environments. Highly useful as a historic reference for custom columnar database operators.
-#### MySQL
+#### Mysql
 
   - **(2024)** [Percona.com: Percona Kubernetes Operator for Percona XtraDB Cluster](https://docs.percona.com/percona-operator-for-mysql/pxc/index.html) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official reference guide to deploying and managing high-availability Percona XtraDB Clusters on Kubernetes. Provides programmatic automation for zero-downtime upgrades, secure backup routines, node discovery, and automatic recovery protocols.
 #### Redis
@@ -62,27 +57,11 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Secrets Management
 
   - **(2021)** [percona.com: Storing Kubernetes Operator for Percona Server for MongoDB Secrets in Github](https://www.percona.com/blog/storing-kubernetes-operator-for-percona-server-for-mongodb-secrets-in-github) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates security pipelines for managing MongoDB database credentials inside GitHub. Automates deployment configurations securely through GitOps, injecting secrets directly to Percona Kubernetes Operator instances.
-## Cloud Native Infrastructure
-
-### Observability
-
-#### Prometheus
-
-##### Database Monitoring
-
-  - **(2020)** [tech.marksblogg.com: Monitor ClickHouse column oriented database with Prometheus & Grafana](https://tech.marksblogg.com/clickhouse-prometheus-grafana.html) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical integration guide on monitoring ClickHouse database clusters with Prometheus and Grafana. It details how to enable ClickHouse's native Prometheus metrics exporter in config.xml, configures Prometheus to scrape ClickHouse metrics, and reviews visualization dashboards.
-## Cloud-Native Design
+## Cloud-native Design
 
 ### Architecture Patterns
 
   - **(2022)** [blog.yugabyte.com: Are Stored Procedures and Triggers Anti-Patterns in the Cloud Native World?](https://blog.yugabyte.com/are-stored-procedures-and-triggers-anti-patterns-in-the-cloud-native-world) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines stored procedures and database triggers in cloud-native microservice topologies. Warns against architectural coupling and operational performance bottlenecks, advocating for stateless application logic to preserve horizontal scalability.
-## Cloud-Native Infrastructure
-
-### Infrastructure Provisioning
-
-#### Kubernetes Operators (1)
-
-  - **(2022)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the paradigm shift of utilizing Kubernetes-native custom resource definitions (CRDs) and operators to provision external cloud resources (such as AWS ACK, GCP Config Connector, and Azure Service Operator). This declarative Infrastructure-as-Code pattern replaces external Terraform runs with continuous control loops inside the cluster. (Live Grounding: Standardizes management under unified Kubernetes control planes, resolving out-of-band drifts).
 ## Data Analytics
 
 ### Real-time Analytics
@@ -95,34 +74,29 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Data Analytics Engine
 
   - **(2021)** [opensource.com: Make your data boss-friendly with EDA - Enterprise Data Analytics](https://opensource.com/article/21/4/visualize-data-eda) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A guide on employing Enterprise Data Analytics (EDA) configurations to design executive-friendly dashboards, translating complex transactional data queries into clear, actionable business telemetry visualizations.
-## Data Operations
+## Data On Kubernetes
 
-### DataOps
-
-  - **(2022)** [thenewstack.io: The Benefits and Drawbacks of DataOps in Practice](https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the practical benefits and deployment drawbacks of DataOps. Outlines continuous integration strategies for analytical workflows, database schema migration safety, automated validation testing, and orchestrating massive data pipelines.
-## Data on Kubernetes
-
-### DBaaS
-
-#### Enterprise RedHat
-
-  - **(2021)** [cloud.redhat.com: Simplifying Database Cloud Service Access](https://www.redhat.com/en/blog/simplifying-database-cloud-service-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details standard patterns for binding external managed cloud databases to Kubernetes workloads. Highlights the Service Binding Operator specification, simplifying secret delivery, and enforcing secure connection parameters.
-#### Internal Mechanics
-
-  - **(2021)** [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of the architecture behind running custom, private Database-as-a-Service platforms inside a Kubernetes environment. Demonstrates automated provisioning, high availability clustering, and backup pipelines through Percona's open-source database operators.
 ### Data Governance
 
 #### Infrastructure
 
   - **(2022)** [thenewstack.io: What Is Data Management in the Kubernetes Age?](https://thenewstack.io/what-is-data-management-in-the-kubernetes-age)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Redefines how data management must adapt to the API-first, declarative paradigm of Kubernetes. Highlights key criteria including multi-cloud data transportability, self-healing database engines, and policy-driven backups.
+### Dbaas
+
+#### Enterprise Redhat
+
+  - **(2021)** [cloud.redhat.com: Simplifying Database Cloud Service Access](https://www.redhat.com/en/blog/simplifying-database-cloud-service-access)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details standard patterns for binding external managed cloud databases to Kubernetes workloads. Highlights the Service Binding Operator specification, simplifying secret delivery, and enforcing secure connection parameters.
+#### Internal Mechanics
+
+  - **(2021)** [percona.com: DBaaS on Kubernetes: Under the Hood 🌟](https://www.percona.com/blog/dbaas-on-kubernetes-under-the-hood) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of the architecture behind running custom, private Database-as-a-Service platforms inside a Kubernetes environment. Demonstrates automated provisioning, high availability clustering, and backup pipelines through Percona's open-source database operators.
 ### Disaster Recovery
 
-#### Enterprise RedHat (1)
+#### Enterprise Redhat (1)
 
   - **(2021)** [cloud.redhat.com: OpenShift Commons Briefing: Database Disaster Recovery Made Easy with Annette Clewett (Red Hat) and Andrew L'Ecuyer (Crunchy Data)](https://www.redhat.com/en/blog/openshift-commons-briefing-database-disaster-recovery-made-easy-with-annette-clewett-red-hat-and-andrew-lecuyer-crunchy-data) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An expert briefing on constructing bulletproof disaster recovery pipelines for PostgreSQL databases hosted inside OpenShift. Showcases multi-region replication strategies, off-site storage configurations, and seamless failovers.
 ### Distributed Systems
 
-#### ShardingSphere
+#### Shardingsphere
 
   - **(2022)** [infoq.com: Create Your Distributed Database on Kubernetes with Existing Monolithic Databases](https://www.infoq.com/articles/kubernetes-databases-apache-sharding-sphere) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An implementation guide for modernizing monolithic databases into highly distributed, sharded databases using Apache ShardingSphere on Kubernetes. Outlines high-performance read-write splitting, data sharding strategies, and state orchestration.
 ### Enterprise Databases
@@ -130,7 +104,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Future Trends
 
   - **(2021)** [thenewstack.io: Kubernetes Will Revolutionize Enterprise Database Management](https://thenewstack.io/kubernetes-will-revolutionize-enterprise-database-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the systemic shift toward automated multi-cloud database topologies managed exclusively by Kubernetes. Outlines standard enterprise savings, compliance, and rapid multi-tenant provisioning strategies.
-### Kubernetes Operators (2)
+### Kubernetes Operators (1)
 
 #### Standards
 
@@ -153,7 +127,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Operations
 
   - **(2021)** [sqlshack.com: SQL Database on Kubernetes: Considerations and Best Practices 🌟](https://www.sqlshack.com/sql-database-on-kubernetes-considerations-and-best-practices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides actionable guidance on running relational workloads inside container orchestration layers. Outlines patterns for configuring StateSet controllers, choosing fast storage classes, and applying anti-affinity rules to enforce cluster high availability.
-#### PostgreSQL
+#### Postgresql
 
   - **(2022)** [blog.crunchydata.com: Using Kubernetes? Chances Are You Need a Database 🌟](https://www.crunchydata.com/blog/using-kubernetes-chances-are-you-need-a-database)  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Examines why PostgreSQL is standardizing on Kubernetes. Explains how the Crunchy Data PostgreSQL Operator implements high availability, automated back-ups, pgBackRest integration, and localized failovers for microservice application stacks.
 ### Stateful Architecture (1)
@@ -167,13 +141,11 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### History
 
   - **(2021)** [thenewstack.io: Databases — Finally — Get Containerized](https://thenewstack.io/databases-finally-get-containerized)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews the technological shift from simple stateless containerized microservices to orchestrating complex distributed database engines on Kubernetes using persistent storage interfaces (CSI) and local persistent volumes.
-## Database
+## Data Operations
 
-### PostgreSQL (1)
+### Dataops
 
-#### Database Administration
-
-  - **(2020)** [info.crunchydata.com: Quickly Document Your Postgres Database Using psql Meta-Commands](https://www.crunchydata.com/blog/d-meta) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Interactive tutorial on the utilization of native psql meta-commands to rapidly trace schema layouts, inspect index sizes, and generate database structure documentation directly via CLI commands.
+  - **(2022)** [thenewstack.io: The Benefits and Drawbacks of DataOps in Practice](https://thenewstack.io/the-benefits-and-drawbacks-of-dataops-in-practice) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Explores the practical benefits and deployment drawbacks of DataOps. Outlines continuous integration strategies for analytical workflows, database schema migration safety, automated validation testing, and orchestrating massive data pipelines.
 ## Database and Storage Management
 
 ### Data Administration
@@ -191,11 +163,6 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Engineering Essentials
 
   - **(2022)** [architecturenotes.co: Things You Should Know About Databases](https://architecturenotes.co/p/things-you-should-know-about-databases) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density masterclass on database internals. Provides clear, deeply visual breakdowns of write-ahead logs (WAL), transaction isolation levels, indexing data structures (B-Trees vs LSM Trees), and database buffer pools.
-### DBaaS (1)
-
-#### Market Trends (2)
-
-  - **(2021)** [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates how the adoption of cloud-native DBaaS increases deployment velocity for modern, distributed engineering organizations by abstracting routine scaling and maintenance behind APIs.
 ### Data Storage
 
 #### Core Concepts (1)
@@ -214,6 +181,11 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 #### Selection Guide
 
   - **(2021)** [towardsdatascience.com: SQL vs. NoSQL: How to Select from 12 Database Types 🌟🌟](https://towardsdatascience.com/datastore-choices-sql-vs-nosql-database-ebec24d56106)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-density taxonomic guide that compares 12 distinct database variants including relational, document, key-value, graph, time-series, and ledger systems, mapping performance characteristics to concrete transactional use cases.
+### Dbaas (1)
+
+#### Market Trends (2)
+
+  - **(2021)** [thenewstack.io: Database-as-a-Service: A Key Technology for Agile Growth](https://thenewstack.io/database-as-a-service-a-key-technology-for-agile-growth)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates how the adoption of cloud-native DBaaS increases deployment velocity for modern, distributed engineering organizations by abstracting routine scaling and maintenance behind APIs.
 ### Distributed Systems (1)
 
 #### Core Concepts (2)
@@ -253,19 +225,12 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Migrations
 
   - **(2024)** [==SHMIG==](https://github.com/mbucc/shmig) <span class='md-tag md-tag--info'>⭐ 474</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-09c58a37" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 7 L 30 4 L 40 11 L 50 13" fill="none" stroke="url(#spark-grad-09c58a37)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="13" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A minimalist Shell-based database migration utility. Designed to remain programming-language agnostic, it manages schema evolutionary steps and structured rollbacks executing plain raw SQL scripts.
-## DevOps
-
-### CI-CD Pipelines
-
-#### Fundamentals
-
-  - **(2022)** [cloudbees.com: Key Components of a CI/CD Pipeline](https://www.cloudbees.com/blog/ci-cd-pipeline)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Breaks down core structural parts of pipeline delivery workflows. Details standard roles for source version managers, build runtimes, package registries, and staging environments.
 ## Distributed SQL
 
 ### APIs
 
   - **(2021)** [dev.to: REST Data Service on YugabyteDB / PostgreSQL](https://dev.to/yugabyte/rest-data-service-on-yugabytedb-postgresql-5f2h) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating how to configure and deploy a high-throughput REST data microservice backed by YugabyteDB's PostgreSQL-compatible distributed SQL core. Bridges database replication and horizontally scalable API development patterns.
-### CockroachDB
+### Cockroachdb
 
   - **(2025)** [Cockroach](https://www.cockroachlabs.com/docs/stable/kubernetes-overview) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering design blueprint for executing CockroachDB on Kubernetes. Details multi-active master clustering, Raft consensus mechanics, anti-entropy processes, and seamless horizontal write scaling utilizing Kubernetes orchestration primitives.
 ## Graph Databases
@@ -276,7 +241,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### ORM
 
   - **(2021)** [==SQErzo: Tiny ORM for Graph databases==](https://github.com/BBVA/sqerzo) <span class='md-tag md-tag--info'>⭐ 35</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-51f67ada" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 7 L 20 13 L 30 3 L 40 13 L 50 12" fill="none" stroke="url(#spark-grad-51f67ada)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--warning'>[EMERGING]</span> — An experimental, lightweight ORM library for Graph databases developed by BBVA. While highly interesting for research, it exhibits low active maintenance and is kept primarily as an architectural design reference.
-## In-Memory
+## In-memory
 
 ### Distributed Systems (2)
 
@@ -285,25 +250,25 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 
 ### Container Orchestration
 
-#### Data on Kubernetes (1)
+#### Data On Kubernetes (1)
 
   - **(2022)** [thenewstack.io: Data on Kubernetes: The Next Frontier](https://thenewstack.io/data-on-kubernetes-the-next-frontier) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Tracks the expansion of the 'Data on Kubernetes' (DoK) movement. Highlights how native operator progress and persistent storage plugins are enabling enterprise organizations to containerize databases, stream analytics, and run ML model pipelines directly on K8s clusters.
   - **(2022)** [cloud.google.com: To run or not to run a database on Kubernetes - What to consider](https://cloud.google.com/blog/products/databases/to-run-or-not-to-run-a-database-on-kubernetes-what-to-consider) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google Cloud's decision matrix for running database structures on Kubernetes. Compares managed SaaS vs. native GKE container deployments, outlining networking, storage IOPS, recovery, and failover topologies.
   - **(2018)** [threadreaderapp.com:  Kelsey Hightower: "Kubernetes has made huge improvements in the ability to run stateful workloads including databases and message queues, but I still prefer not to run them on Kubernetes" 🌟](https://threadreaderapp.com/thread/963413508300812295.html) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Kelsey Hightower's historical analysis on running stateful databases inside Kubernetes. While operator maturity has improved significantly, the core operational warning remains relevant: separating state from compute minimizes platform complexity and failure domain blast radius.
-#### GitOps
+#### Gitops
 
   - **(2022)** [percona.com: MySQL on Kubernetes with GitOps 🌟](https://www.percona.com/blog/mysql-on-kubernetes-with-gitops) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's technical case study on deploying MySQL clusters inside Kubernetes using GitOps pipelines. Connects ArgoCD or Flux workflows with declarative Percona Operators to automate database replication topologies.
-#### Kubernetes Operators (3)
+#### Kubernetes Operators (2)
 
   - **(2024)** [kubedb.com](https://kubedb.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical review of KubeDB, an operator platform for automating databases on Kubernetes. Highlights declarative management of clustering, scheduling backups, and schema updates across multiple database engines (PostgreSQL, MySQL, MongoDB).
-#### MySQL Operators
+#### Mysql Operators
 
   - **(2024)** [Moco](https://cybozu-go.github.io/moco) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduction to Cybozu's Moco, a highly resilient, modern Go-written MySQL operator for Kubernetes. Focuses on cluster setups, fast failover mechanics, and maintaining an extremely small operational footprint.
   - **(2021)** [tusacentral.com: MySQL on Kubernetes demystified](https://www.tusacentral.com/joomla/index.php/mysql-blogs/243-mysql-on-kubernetes-demystified) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies MySQL container orchestration inside Kubernetes. Details local storage access, stateful set configuration, service discovery networks, and high-availability design constraints.
-#### PostgreSQL HA
+#### Postgresql HA
 
   - **(2023)** [devopscube.com: How to Deploy PostgreSQL Statefulset in Kubernetes With High Availability](https://devopscube.com/deploy-postgresql-statefulset) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive architectural guide to deploying a highly available PostgreSQL cluster on Kubernetes using standard StatefulSets. Covers headless services, persistent volume claims, replica configurations, and health probes.
-#### PostgreSQL Operators
+#### Postgresql Operators
 
   - **(2023)** [blog.flant.com: Comparing Kubernetes operators for PostgreSQL](https://palark.com/blog/comparing-kubernetes-operators-for-postgresql) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive comparison of major Postgres operators for Kubernetes, including Crunchy Data, Zalando, and CloudNativePG. Evaluates failover metrics, backup reliability, upgrade safety, and overall complexity.
 #### State Management
@@ -311,15 +276,15 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [xenonstack.com: Stateful and Stateless Applications Best Practices and Advantages](https://www.xenonstack.com/insights/stateful-and-stateless-applications) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational comparison of stateful vs. stateless application lifecycles. Discusses container orchestration challenges, dynamic volume provisioning, storage performance targets, and state management trends for scalable distributed networks.
 ### Enterprise Kubernetes
 
-#### OpenShift Databases
+#### Openshift Databases
 
   - **(2021)** [openshift.com: OpenShift, Databases and You: When to Put Containerized Database Workloads on OpenShift 🌟](https://www.redhat.com/en/blog/openshift-databases-and-you-when-to-put-containerized-database-workloads-on-openshift) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's structured criteria for running stateful production databases on OpenShift. Discusses storage tier performance, native high-availability architectures, and operator patterns to ensure robust containerized database operations.
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### Terraform Database Ops
 
   - **(2022)** [cockroachlabs.com: Automated database operations with Terraform](https://www.cockroachlabs.com/blog/automate-database-ops-with-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demonstrates utilizing HashiCorp Terraform to automate CockroachDB configurations, database creation, user permissions, and deployment topologies. Standardizes declarative infrastructure-as-code patterns across production database deployments.
-### PostgreSQL HA (1)
+### Postgresql HA (1)
 
 #### Kubernetes Operations
 
@@ -333,12 +298,12 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2025)** [==Spilo: HA PostgreSQL Clusters with Docker==](https://github.com/zalando/spilo) <span class='md-tag md-tag--info'>⭐ 1839</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2c312736" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 8 L 10 10 L 20 7 L 30 11 L 40 4 L 50 5" fill="none" stroke="url(#spark-grad-2c312736)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spilo is Zalando's container image bundling PostgreSQL, Patroni, pgBackRest, and WAL-E/WAL-G. Built for mission-critical production reliability, it serves as the stable, standard database core for the Zalando Postgres Operator.
 ## Kubernetes Workloads
 
-### CICD Pipelines
+### CICD
 
 #### Database Migrations
 
   - **(2020)** [andrewlock.net: Running database migrations when deploying to Kubernetes 🌟](https://andrewlock.net/deploying-asp-net-core-applications-to-kubernetes-part-7-running-database-migrations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A detailed deployment blueprint focusing on the execution of schema migrations within ASP.NET Core and relational databases inside Kubernetes. Critically compares using Kubernetes Jobs, Init Containers, and application bootstrap processes for migrations.
-## MySQL (1)
+## Mysql (1)
 
 ### Migration
 
@@ -353,7 +318,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2021)** [freecodecamp.org: How to Get Started with PysonDB](https://www.freecodecamp.org/news/how-to-get-started-with-pysondb) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introductory guide to PysonDB, a lightweight file-based database engine that stores schema payloads as structured JSON files. Best utilized for simple micro-application development, scripting, and testing prototypes.
 ## OLAP
 
-### ClickHouse (1)
+### Clickhouse (1)
 
   - **(2026)** [clickhouse.com](https://clickhouse.com) <span class='md-tag md-tag--warning'>[C++ CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation site for ClickHouse, the high-performance columnar relational database engine optimized for massive real-time analytical queries (OLAP). Highlights vectorized execution paths and extreme compression.
 ### Kubernetes
@@ -362,19 +327,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Real-time Analytics (1)
 
   - **(2025)** [Apache Druid](https://druid.apache.org) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Main documentation repository for Apache Druid, a real-time analytical database optimized for sub-second ad-hoc queries over massive streaming event data volumes. Standard core utility for streaming platforms.
-## Observability (1)
-
-### Distributed Storage
-
-#### VictoriaMetrics
-
-  - **(2024)** [VictoriaMetrics](https://victoriametrics.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official site of VictoriaMetrics, an extremely fast and cost-effective TSDB solution. Widely used as a drop-in replacement for Prometheus storage owing to high compression ratios and out-of-the-box cluster scalability.
-### PostgreSQL (2)
-
-#### Database Monitoring (1)
-
-  - **(2020)** [info.crunchydata.com: How to Setup PostgreSQL Monitoring in Kubernetes](https://www.crunchydata.com/blog/setup-postgresql-monitoring-in-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Hands-on implementation guide for deploying a scalable monitoring architecture for PostgreSQL. Instructs on integrating postgres_exporter configurations, configuring Prometheus scrape pools, and importing Grafana analytics interfaces.
-## PostgreSQL (3)
+## Postgresql (1)
 
 ### Alternative Paradigms
 
@@ -388,7 +341,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Backups
 
   - **(2024)** [==orgrim/pg_back: Simple backup tool for PostgreSQL==](https://github.com/orgrim/pg_back) <span class='md-tag md-tag--info'>⭐ 563</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-73479964" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 7 L 30 5 L 40 8 L 50 10" fill="none" stroke="url(#spark-grad-73479964)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A simple CLI automation utility for backing up PostgreSQL databases. Features structured schema and data exports, customizable compression, automated backup retention sweeps, and cron-friendly integration configurations.
-### Database Administration (1)
+### Database Administration
 
   - **(2021)** [percona.com: Should I Create an Index on Foreign Keys in PostgreSQL?](https://www.percona.com/blog/should-i-create-an-index-on-foreign-keys-in-postgresql) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the performance impact of indexing foreign keys in PostgreSQL. Evaluates join performance, query plans, and lock contention during parent table updates to optimize schema write throughput.
 ### Database Architecture (1)
@@ -400,7 +353,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Extensions
 
   - **(2024)** [==percona/pg_stat_monitor==](https://github.com/percona/pg_stat_monitor) <span class='md-tag md-tag--info'>⭐ 581</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-60e9e17d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 12 L 20 8 L 30 7 L 40 4 L 50 6" fill="none" stroke="url(#spark-grad-60e9e17d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="6" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Percona's advanced query performance monitoring extension for PostgreSQL. Extends the capabilities of pg_stat_statements with bucket-based statistics, client IP address tracking, visual execution plan analysis, and granular resource utilization metrics.
-### Fundamentals (1)
+### Fundamentals
 
   - **(2021)** [towardsdatascience.com: Practical Introduction to PostgreSQL](https://towardsdatascience.com/practical-introduction-to-postgresql-5f73d3d394e) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory guide to PostgreSQL. Covers basic architecture, core relational operations, basic optimization, and index configurations, providing a clean onboarding path for engineers.
 ### Kubernetes (1)
@@ -425,7 +378,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### System Tuning
 
   - **(2021)** [percona.com: How to Adjust Linux Out-Of-Memory Killer Settings for PostgreSQL](https://www.percona.com/blog/out-of-memory-killer-or-savior) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — System-level guide on adjusting Linux Out-Of-Memory (OOM) Killer settings for PostgreSQL. Details kernel parameters and systemd overrides to prevent the OS from terminating core database services during memory spikes.
-### TypeORM Integration
+### Typeorm Integration
 
   - **(2021)** [wanago.io: Creating views with PostgreSQL](https://wanago.io/2021/12/06/views-postgresql-typeorm) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A pragmatic tutorial outlining standard practices for creating database views inside PostgreSQL using Node.js and TypeORM. Demonstrates schema definitions, migration integrations, and abstract query isolation techniques to separate persistence concerns from application business logic.
 ## Query Languages
@@ -444,17 +397,17 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
 ### Database Drivers
 
   - **(2020)** [thenewstack.io: Maria DB Gets Reactive with a Non-Blocking Connector for Java](https://thenewstack.io/maria-db-gets-reactive-with-a-non-blocking-connector-for-java) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores MariaDB's reactive Java driver. Details how non-blocking I/O operations and asynchronous connections improve database throughput in highly concurrent microservice runtimes.
-### Git-for-Data
+### Git-for-data
 
   - **(2026)** [==github.com/dolthub/dolt==](https://github.com/dolthub/dolt) <span class='md-tag md-tag--info'>⭐ 23422</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-bf8fb1d0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 11 L 20 13 L 30 7 L 40 9 L 50 2" fill="none" stroke="url(#spark-grad-bf8fb1d0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative SQL database implementing Git-style version control concepts (clone, push, pull, branch, merge) over table structures and data cells. Perfect for decentralized collaborative data management pipelines.
 ### Local Development (1)
 
   - **(2022)** [thenewstack.io: Deploy MySQL and phpMyAdmin with Docker](https://thenewstack.io/deploy-mysql-and-phpmyadmin-with-docker) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical tutorial for setting up local developer environments with Docker Compose. Pairs a standard MySQL instance with phpMyAdmin for rapid schema prototyping and database visualization.
-### MySQL Features
+### Mysql Features
 
   - **(2023)** [blog.eduguru.in: mysql create index on table](https://blog.eduguru.in/mysql-2/mysql-create-index-on-table) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Detailed guide on index creation mechanics inside MySQL. Focuses on planning, key-length constraints, B-tree index structures, and avoiding table lock scenarios during schema operations.
   - **(2021)** [vladmihalcea.com: MySQL JSON_TABLE – Map a JSON object to a relational database table](https://vladmihalcea.com/mysql-json-table) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deconstructs MySQL's JSON_TABLE function, mapping unstructured JSON documents directly into tabular SQL formats. Explores query execution performance, index optimization options, and hybrid schemaless architectural patterns inside traditional relational systems.
-### MySQL Optimization
+### Mysql Optimization
 
   - **(2021)** [percona.com: MySQL 101: Parameters to Tune for MySQL Performance](https://www.percona.com/blog/mysql-101-parameters-to-tune-for-mysql-performance) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Percona's MySQL tuning guide focusing on key memory and I/O parameters. Explains optimizing parameters like innodb_buffer_pool_size, max_connections, and thread cache limits to handle massive query volumes.
 ## SQL
@@ -508,10 +461,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2023)** [geeksforgeeks.org: Best Practices for SQL Query Optimization](https://www.geeksforgeeks.org/sql/best-practices-for-sql-query-optimizations) <span class='md-tag md-tag--warning'>[SQL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Architectural guide outlining core strategies for relational query optimization. Highlights planning optimization via EXPLAIN plans, index selection logic, partition tuning, and the avoidance of common performance-draining database queries.
 ## SQL Server
 
-### Backup Administration
-
-  - **(2025)** [Automate SQL Server Backups with PowerShell](https://datacrazyworld.com/index.php/2025/03/16/automatiza-backups-de-sql-server-con-powershell) <span class='md-tag md-tag--warning'>[POWERSHELL CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates native PowerShell script templates to automate Microsoft SQL Server backups. Offers a valuable guide for planning traditional database state transitions into hybrid Kubernetes clusters.
-### DevOps (1)
+### DevOps
 
   - **(2022)** [devblogs.microsoft.com: DevOps for Azure SQL 🌟](https://devblogs.microsoft.com/azure-sql/devops-for-azure-sql) <span class='md-tag md-tag--warning'>[CONCEPTUAL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Practical DevOps pipeline patterns for Azure SQL. Outlines dynamic deployment workflows using GitHub Actions and Azure DevOps to coordinate declarative state synchronizations matching app changes.
 ### Enterprise Deployment
@@ -539,7 +489,7 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2024)** [==DATA-DOG/go-sqlmock==](https://github.com/DATA-DOG/go-sqlmock) <span class='md-tag md-tag--info'>⭐ 6554</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-68e7cc1e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 4 L 20 12 L 30 2 L 40 8 L 50 5" fill="none" stroke="url(#spark-grad-68e7cc1e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A highly adopted SQL mock library for Golang designed to mock standard database/sql/driver behaviors. Facilitates robust database interaction testing without spinning up active infrastructure engines.
 ## Storage and Data
 
-### Data on Kubernetes (2)
+### Data On Kubernetes (2)
 
 #### Industry Research
 
@@ -551,27 +501,17 @@ description: "Top Databases resources for 2026, AI-ranked: Zalando Postgres Oper
   - **(2021)** [informationweek.com: Can Enterprises Benefit From Adopting Database DevOps?](https://www.informationweek.com/software-services/can-enterprises-benefit-from-adopting-database-devops-)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines the benefits and execution risks of incorporating schema migrations and database state configurations into CI/CD pipelines. Discusses tools like Liquibase and Flyway to version-control structural changes alongside software deployments. This integration reduces deployment mismatches and prevents manual database drift.
 ### Database Operators
 
-#### Crunchy PostgreSQL
+#### Crunchy Postgresql
 
   - **(2023)** [Crunchy Data PostgreSQL Operator](https://nubenetes.com/crunchydata/) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Evaluates the Crunchy PostgreSQL Operator (PGO) which automates production-grade PostgreSQL deployments on Kubernetes. Features include automated high availability, pgBackRest-driven backup orchestration, connection pooling via pgBouncer, and deep monitoring metrics. A de facto standard solution for enterprises migrating critical relational engines into Kubernetes platforms.
-## System Architecture
-
-### Data Management
-
-#### Enterprise Migration
-
-  - **(2024)** [**xataka.com: El Excel se ha usado en la Fórmula 1 hasta que se han dado cuenta que no es la mejor forma de controlar las 20.000 piezas del coche**](https://www.xataka.com/automovil/excel-se-ha-usado-formula-1-que-se-han-dado-cuenta-que-no-mejor-forma-controlar-20-000-piezas-coche) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Investigates Williams Racing's historic reliance on Microsoft Excel for managing over 20,000 individual Formula 1 car components, and their subsequent modernization. The lack of relational integrity, collaborative concurrency, and historical audit trails in spreadsheets led to massive operational overhead and design desynchronization. This serves as a stark warning on the limits of "shadow IT" and the urgent necessity of database-backed configuration management databases (CMDBs).
-## Time-Series
+## Time-series
 
 ### Architecture (1)
 
   - **(2021)** [thenewstack.io: You Don’t Need a Blockchain, You Need a Time-Series Database](https://thenewstack.io/you-dont-need-a-blockchain-you-need-a-time-series-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical architectural article arguing against the systemic misuse of blockchain technologies for transactional audit logging. Demonstrates that time-series databases provide equivalent historic immutability, superior indexing speed, and scalable writes.
-### VictoriaMetrics (1)
-
-  - **(2024)** [victoriametrics.com: Q2 2024 Round Up: VictoriaMetrics & VictoriaLogs Updates](https://victoriametrics.com/blog/q2-2024-round-up-victoriametrics-and-victorialogs-updates/index.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical feature overview covering VictoriaMetrics and VictoriaLogs updates, focusing on dynamic retention strategies, ingestion enhancements, storage footprint reduction, and custom query language performance.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Crunchydata](./crunchydata.md)
+💡 **Explore Related:** [NoSQL](./nosql.md) | [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

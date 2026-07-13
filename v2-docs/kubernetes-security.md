@@ -46,6 +46,13 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Historical Exploit Analysis
 
   - **(2021)** [thenewstack.io: Kubernetes: An Examination of Major Attacks 🌟](https://thenewstack.io/kubernetes-an-examination-of-major-attacks) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Conducts retrospective post-mortems on major real-world Kubernetes security incidents, tracing malicious lateral movements, coin-miner deployments, and critical data breaches back to root posture issues.
+## Cloud Infrastructure
+
+### Azure Networking
+
+#### Security
+
+  - **(2025)** [Building a DDoS Response Plan with Azure DDoS Protection](https://techcommunity.microsoft.com/blog/azurenetworksecurityblog/building-a-ddos-response-plan/4372256) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical operational playbook on structuring a rapid-response plan using Azure DDoS Protection. It details integration with Azure Firewall, Web Application Firewall (WAF), and automated telemetry routing to mitigate distributed attack vectors while ensuring business continuity for microservice APIs.
 ## Cloud Native Networking
 
 ### Network Policies
@@ -55,7 +62,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [tigera.io: Kubernetes security policy design: 10 critical best practices 🌟](https://www.tigera.io/blog/kubernetes-security-policy-10-critical-best-practices) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic framework for designing cluster-wide network policies, using tiered structures, explicit default-deny states, and labeling schemas to scale security dynamically.
 ## Cloud Native Security
 
-### The 4Cs of Cloud Native Security
+### The 4cs Of Cloud Native Security
 
   - **(2020)** [kubernetes.io: Cloud native security for your clusters](https://kubernetes.io/blog/2020/11/18/cloud-native-security-for-your-clusters) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An authoritative review of the '4C's of Cloud Native Security' (Cloud, Cluster, Container, Code). Explains how defense-in-depth principles apply across all layers of the cloud-native application stack.
 ## Cluster Hardening
@@ -79,7 +86,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Common Mistakes
 
   - **(2021)** [fairwinds.com: Discover the Top 5 Kubernetes Security Mistakes You're (Probably) Making](https://www.fairwinds.com/blog/top-5-kubernetes-security-mistakes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies common configuration mistakes like neglected CPU/memory limits, running containers as root, and using unvalidated base images, offering immediate structural remedies.
-## Defense in Depth
+## Defense In Depth
 
 ### Cluster Hardening (1)
 
@@ -116,13 +123,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Runtime Isolation
 
   - **(2020)** [thenewstack.io: A Security Comparison of Docker, CRI-O and Containerd 🌟](https://thenewstack.io/a-security-comparison-of-docker-cri-o-and-containerd) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares the security architecture and attack surfaces of primary container runtimes: Docker, CRI-O, and Containerd. Discusses rootless execution, sandboxed runtimes (Kata, gVisor), and syscall filtering.
-## Networking (1)
-
-### CNI
-
-#### Cilium
-
-  - **(2026)** [cilium.io 🌟](https://cilium.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main website for Cilium, the industry-standard networking, security, and observability engine powered by eBPF. Eliminates routing performance penalties and delivers deep API metrics.
 ## Networking and Security
 
 ### Security Compliance
@@ -132,6 +132,11 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2026)** [==kube-bench 🌟==](https://github.com/aquasecurity/kube-bench) <span class='md-tag md-tag--info'>⭐ 8078</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-534a8e3f" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 4 L 20 13 L 30 9 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-534a8e3f)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry standard tool to check whether Kubernetes clusters are deployed securely according to the Center for Internet Security (CIS) benchmarks. Can be run inside container workloads or directly on node hosts, outputting detailed reports identifying API, TLS, and permissions vulnerabilities.
 ## Observability and Monitoring
 
+### Ebpf Runtime Enforcement
+
+#### Tetragon Platform
+
+  - **(2022)** [==Tetragon (Cilium)==](https://github.com/cilium/tetragon) <span class='md-tag md-tag--info'>⭐ 4749</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d9825fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 11 L 30 3 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-5d9825fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered security observability and runtime enforcement platform. It monitors and blocks system events at the kernel level, providing granular process execution, network activity, and file system audit streams with zero container overhead.
 ### Runtime Security
 
 #### Falco and K3s Audit Logging
@@ -143,11 +148,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Sysdig and Falco Audit Integration
 
   - **(2020)** [sysdig.com: Getting started with Kubernetes audit logs and Falco 🌟](https://www.sysdig.com/blog/kubernetes-audit-log-falco) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explains how to integrate Kubernetes API audit logs with CNCF Falco to capture real-time control plane actions and alert on malicious requests, credential abuse, or abnormal operational API traffic.
-### eBPF Runtime Enforcement
-
-#### Tetragon Platform
-
-  - **(2022)** [==Tetragon (Cilium)==](https://github.com/cilium/tetragon) <span class='md-tag md-tag--info'>⭐ 4749</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-5d9825fc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 3 L 20 11 L 30 3 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-5d9825fc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An eBPF-powered security observability and runtime enforcement platform. It monitors and blocks system events at the kernel level, providing granular process execution, network activity, and file system audit streams with zero container overhead.
 ## Penetration Testing
 
 ### Security Operations
@@ -158,7 +158,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ### Vulnerability Exploitation
 
   - **(2020)** [labs.bishopfox.com: Bad Pods: Kubernetes Pod Privilege Escalation 🌟](https://bishopfox.com/blog/kubernetes-pod-privilege-escalation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly cited technical analysis demonstrating how misconfigured container host namespaces, capabilities, and volume mounts can be exploited to escape container boundaries and gain full host-level access.
-## Policy-as-Code
+## Policy-as-code
 
 ### Kyverno Administration
 
@@ -178,10 +178,10 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [tldrsec.com: Risk8s Business: Risk Analysis of Kubernetes Clusters 🌟](https://tldrsec.com/?404=%2Fguides%2Fkubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive vulnerability catalog and risk analysis guide highlighting exploitation pathways in typical cluster deployments. Highlights the security impacts of insecure volume mounts and metadata service access.
 ## Secrets Management
 
-### HashiCorp Vault Integration
+### Hashicorp Vault Integration
 
   - **(2020)** [learn.hashicorp.com: Integrate a Kubernetes Cluster with an External Vault 🌟](https://developer.hashicorp.com/vault/tutorials/kubernetes-introduction/kubernetes-external-vault) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical implementation guide showcasing how to leverage the HashiCorp Vault Agent Injector sidecar to dynamically inject secrets directly into application pods via in-memory tmpfs mounts.
-## Security
+## Security (1)
 
 ### Access Control
 
@@ -197,12 +197,12 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Custom Authentication
 
   - **(2023)** [Implementing a custom Kubernetes authentication method](https://learnkube.com/kubernetes-custom-authentication) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Provides a technical blueprint for implementing bespoke authentication strategies using webhook token authentication. It explains the integration of custom identity backends with the kube-apiserver lifecycle. Recommended for highly specialized security architectures with legacy SSO restrictions.
+#### Kubectl Authentication
+
+  - **(2020)** [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy-focused technical exploration explaining the login process flow through kubectl. This article breaks down the historical and contemporary mechanics of authentication helpers and tokens. Ideal for engineers seeking to demystify credential caching behaviors.
 #### RBAC
 
   - **(2022)** [engineering.dynatrace.com: Kubernetes Security Best Practices -Part 1: Role Based Access Control (RBAC)](https://www.dynatrace.com/news/engineering) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep dive into Kubernetes Role-Based Access Control (RBAC) mechanisms and configuration patterns. The guide stresses the architectural importance of the Principle of Least Privilege, outlining best practices for defining Roles and ClusterRoles. Practical mitigation strategies focus on auditing wildcard permissions to avoid escalation risks.
-#### kubectl Authentication
-
-  - **(2020)** [kubernetes login](https://blog.christianposta.com/kubernetes/logging-into-a-kubernetes-cluster-with-kubectl)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — A legacy-focused technical exploration explaining the login process flow through kubectl. This article breaks down the historical and contemporary mechanics of authentication helpers and tokens. Ideal for engineers seeking to demystify credential caching behaviors.
 ### Application Security
 
 #### Client Security
@@ -210,7 +210,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2022)** [curity.io: Client Security](https://curity.io/resources/client-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on security patterns when structuring application clients that interface with identity ecosystems. Covers patterns like Token Handlers and Backend-for-Frontend (BFF) to safely abstract tokens away from client browsers or apps. Reduces target exposures to common cross-site scripting risks.
 ### Architecture
 
-#### DevSecOps
+#### Devsecops
 
   - **(2022)** [thenewstack.io: Securing Kubernetes in a Cloud Native World](https://thenewstack.io/securing-kubernetes-in-a-cloud-native-world)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This technical analysis explores how security shifts within high-velocity cloud-native deployments. Outlines strategies for managing immutable infrastructure, dynamic policy updates, and zero-trust routing. Strongly advocates for shifting security controls left and using automated gating engines.
 #### Future Trends
@@ -251,9 +251,9 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Standard Checklists
 
   - **(2023)** [kubernetes.io: Security Checklist 🌟🌟](https://kubernetes.io/docs/concepts/security/security-checklist) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official security checklist published by upstream Kubernetes maintainers. It serves as an authoritative map for hardening cluster networks, applying role access structures, and validating runtimes. Essential baseline documentation for cloud infrastructure engineers.
-### DevSecOps (1)
+### Devsecops (1)
 
-#### CICD Pipeline Security
+#### CICD
 
   - **(2022)** [infoworld.com: 10 steps to automating security in Kubernetes pipelines](https://www.infoworld.com/article/2258136/10-steps-to-automating-security-in-kubernetes-pipelines.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A ten-step technical blueprint focused on integrating security scanners directly into automated CI/CD deployment pipelines. Covers static application security testing (SAST), secrets detection, and manifest scanning before changes reach staging or production clusters. Outlines shift-left strategies to mitigate misconfiguration deployment risks.
 #### Continuous Security
@@ -284,11 +284,18 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Authentication and Authorization
 
   - **(2022)** [dev.to/thenjdevopsguy: The 4 C’s Of Kubernetes Security](https://dev.to/thenjdevopsguy/the-4-cs-of-kubernetes-security-3i9e) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates enterprise patterns for integrating Kubernetes Role-Based Access Control (RBAC) with corporate directory systems (OIDC, Active Directory). Examines tools like Dex to implement single sign-on (SSO) strategies across multi-cluster environments. Essential reading for cluster operations scaling across departments.
+#### Protocols
+
+  - **(2022)** [curity.io: OAuth 2.0 Overview](https://curity.io/resources/learn/oauth-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industrial-grade review of the OAuth 2.0 protocol specifications, flows, and grant types. Provides system architects with core design criteria to safely establish authorization states between microservice deployments. Underlines secure handling of access, refresh, and id tokens.
+  - **(2022)** [curity.io: OpenID Connect Overview](https://curity.io/resources/learn/openid-connect-overview)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive architecture overview of OpenID Connect (OIDC) acting as the authentication layer on top of OAuth 2.0. Analyzes ID token syntax, discovery endpoints, and flows for multi-tenant systems. Essential background knowledge for implementing cloud-native federated identities.
 #### SSO
 
   - **(2022)** [dev.to/gabrielbiasi: Automatic SSO in Kubernetes workloads using a sidecar container](https://dev.to/gabrielbiasi/automatic-sso-in-kubernetes-workloads-using-a-sidecar-container-3752)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines an automated SSO sidecar integration pattern inside Kubernetes pods, abstracting authentication logic away from application-level containers. Details OAuth token management and redirect intercept strategies executed transparently at the pod level. Simplifies identity integration across multiple microservices.
 ### Identity and Access
 
+#### AKS
+
+  - **(2024)** [From Zero to Hero with Identity and Access Control in Azure Kubernetes Service](https://techcommunity.microsoft.com/blog/startupsatmicrosoftblog/from-zero-to-hero-with-identity-and-access-control-in-azure-kubernetes-service/4386350) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive handbook for architecting identity boundaries in Azure Kubernetes Service (AKS). It details the integration of Entra ID with native Kubernetes RBAC to eliminate static credentials. Utilizing managed identities ensures secure, audit-compliant interactions with external Azure cloud assets.
 #### AWS IRSA
 
 ##### Hybrid Cloud
@@ -317,7 +324,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ##### Legacy Tools (1)
 
   - **(2020)** [==gini/dexter==](https://github.com/gini/dexter) <span class='md-tag md-tag--info'>⭐ 168</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f44207cc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 9 L 30 9 L 40 11 L 50 9" fill="none" stroke="url(#spark-grad-f44207cc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="9" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight: An OIDC-helper CLI tool for generating kubectl credential configurations. Live Grounding: Inactive for over 4 years; considered legacy under Nubenetes MVQ rules. It has been superseded by tools like kubelogin.
-##### OAuth2 Proxy
+##### Oauth2 Proxy
 
   - **(2021)** [geek-cookbook.funkypenguin.co.nz: Using OAuth2 proxy for Kubernetes Dashboard](https://geek-cookbook.funkypenguin.co.nz/recipes/kubernetes/oauth2-proxy)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A configuration guide describing how to wrap the Kubernetes Dashboard and sensitive internal APIs with oauth2-proxy, enabling secure OIDC integrations and SSO workflows.
   - **(2024)** [OpenID Connect](https://openid.net) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official specifications for OpenID Connect, the dominant federation protocol for Kubernetes authentication. Implementing OIDC enables modern clusters to offload authentication to external identity providers like Okta, Keycloak, or Microsoft Entra ID. This standardizes identity tokens globally across decentralized services.
@@ -348,7 +355,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Zero Trust Access
 
   - **(2024)** [paralus.io 🌟](https://www.paralus.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Paralus is an open-source tool for managing access to multi-cluster Kubernetes environments. Offers a centralized portal for configuring Just-In-Time (JIT) access, OIDC integration, auditing, and RBAC synchronization across cloud providers.
-### Identity and Access Management (1)
+### Identity And Access Management
 
 #### Access Control (1)
 
@@ -377,6 +384,13 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2021)** [thenewstack.io: Jetstack Secure Promises to Ease Kubernetes TLS Security](https://thenewstack.io/jetstack-secure-promises-to-ease-kubernetes-tls-security)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the release and architecture of Jetstack Secure, which simplifies and automates TLS lifecycle tracking via cert-manager. Explains the centralization of public key infrastructures (PKIs) across multi-cluster hybrid clouds. Prevents application downtime caused by unpredicted certificate expirations.
 ### PKI and Certificates
 
+#### Cert-manager
+
+##### Access Control (2)
+
+  - **(2024)** [==github.com/cert-manager: Policy Approver==](https://github.com/cert-manager/approver-policy) <span class='md-tag md-tag--info'>⭐ 90</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cc1fad06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 13 L 30 10 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-cc1fad06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The cert-manager approver-policy extension code repository. Intercepts CertificateRequest resources before submission, evaluating requested commonNames, SANs, and key constraints against user-defined security guidelines.
+  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13859</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c62f35f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 3 L 30 8 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-c62f35f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager repository, automating certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
+  - **(2026)** [cert-manager.io 🌟](https://cert-manager.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation portal for cert-manager, the standard tool for cloud-native PKI. Explains configuring Issuers and Certificate manifests, detailing dynamic ACME solver pipelines, Let's Encrypt integration, and automated internal trust routing.
 #### Conceptual
 
   - **(2022)** [dev.to: Kubernetes TLS, Demystified 🌟](https://dev.to/otomato_io/possible-paths-2hfc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies Kubernetes TLS configurations by explaining public/private key pairs, certificate authorities, client-cert server validations, and common Ingress security setups.
@@ -385,13 +399,6 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 ##### Lets Encrypt
 
   - **(2021)** [rejupillai.com: Let’s Encrypt the Web (for free)](https://rejupillai.com/index.php/2021/03/06/configure-tls-on-gke-ingress-for-free-with-lets-encrypt)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A practical walk-through detailing TLS integration on a GKE Ingress controller. Guides the configuration of HTTP-01 and DNS-01 ACME validations using cert-manager, resulting in automated, free public certificates.
-#### cert-manager
-
-##### Access Control (2)
-
-  - **(2024)** [==github.com/cert-manager: Policy Approver==](https://github.com/cert-manager/approver-policy) <span class='md-tag md-tag--info'>⭐ 90</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cc1fad06" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 13 L 30 10 L 40 4 L 50 2" fill="none" stroke="url(#spark-grad-cc1fad06)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The cert-manager approver-policy extension code repository. Intercepts CertificateRequest resources before submission, evaluating requested commonNames, SANs, and key constraints against user-defined security guidelines.
-  - **(2026)** [==cert-manager/cert-manager==](https://github.com/cert-manager/cert-manager) <span class='md-tag md-tag--info'>⭐ 13859</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-c62f35f1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 3 L 30 8 L 40 12 L 50 3" fill="none" stroke="url(#spark-grad-c62f35f1)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Consolidated record of the cert-manager repository, automating certificate lifecycles to guarantee encrypted transport paths between internal microservice runtimes.
-  - **(2026)** [cert-manager.io 🌟](https://cert-manager.io/docs) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation portal for cert-manager, the standard tool for cloud-native PKI. Explains configuring Issuers and Certificate manifests, detailing dynamic ACME solver pipelines, Let's Encrypt integration, and automated internal trust routing.
 ### Platform Hardening
 
 #### Best Practices (2)
@@ -426,17 +433,22 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2022)** [Neon Mirrors: Kubernetes Policy Comparison: OPA/Gatekeeper vs Kyverno](https://kind-brown-cfb734.netlify.app/post/2021-02/kubernetes-policy-comparison-opa-gatekeeper-vs-kyverno) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural face-off evaluating Rego-based OPA/Gatekeeper and YAML-native Kyverno. Kyverno offers exceptional ease of use for native K8s manifests, while OPA provides unparalleled expressive power for cross-system policies. It helps architects choose the correct declarative policy engine for high-compliance environments.
 ### Runtime Security (2)
 
+#### Ebpf
+
+  - **(2021)** [developers.redhat.com: Secure your Kubernetes deployments with eBPF](https://developers.redhat.com/articles/2021/12/16/secure-your-kubernetes-deployments-ebpf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how eBPF (Extended Berkeley Packet Filter) technology shifts the runtime security paradigm away from heavy, sidecar-based observability architectures. Demonstrates writing and attaching kernel sandboxed utilities to track execution and networking footprints with minimal CPU overhead. Crucial reading for high-scale, security-conscious platform teams.
+#### Ebpf and Cilium
+
+  - **(2021)** [isovalent.com: Detecting a Container Escape with Cilium and eBPF](https://isovalent.com/blog/post/2021-11-container-escape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth case study of container escape tactics and real-time detection utilizing eBPF and Cilium. It highlights limits of traditional syscall auditing, showcasing how kernel-level hooks identify privilege escalation without agent-induced overhead. Live Grounding points to eBPF-based security as the modern baseline for runtime security orchestration.
 #### Ephemeral Containers
 
   - **(2022)** [xenitab.github.io: Kubernetes Ephemeral Container Security 🌟](https://xenitab.github.io/blog/2022/04/12/ephemeral-container-security) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores security boundaries regarding ephemeral debugging containers, analyzing potential escalation threats through 'kubectl debug'. Highlights how improper RBAC permissions on debugging tools can expose the underlying host or container namespace. Outlines defensive constraints like restricting hostIPC and hostPID mappings.
-#### eBPF
-
-  - **(2021)** [developers.redhat.com: Secure your Kubernetes deployments with eBPF](https://developers.redhat.com/articles/2021/12/16/secure-your-kubernetes-deployments-ebpf) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details how eBPF (Extended Berkeley Packet Filter) technology shifts the runtime security paradigm away from heavy, sidecar-based observability architectures. Demonstrates writing and attaching kernel sandboxed utilities to track execution and networking footprints with minimal CPU overhead. Crucial reading for high-scale, security-conscious platform teams.
-#### eBPF and Cilium
-
-  - **(2021)** [isovalent.com: Detecting a Container Escape with Cilium and eBPF](https://isovalent.com/blog/post/2021-11-container-escape) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An in-depth case study of container escape tactics and real-time detection utilizing eBPF and Cilium. It highlights limits of traditional syscall auditing, showcasing how kernel-level hooks identify privilege escalation without agent-induced overhead. Live Grounding points to eBPF-based security as the modern baseline for runtime security orchestration.
 ### Secrets Management (2)
 
+#### Cloud Integrations (1)
+
+##### Azure
+
+  - **(2025)** [Four Methods to Access Azure Key Vault from Azure Kubernetes Service (AKS)](https://techcommunity.microsoft.com/discussions/azurepartners/four-methods-to-access-azure-key-vault-from-azure-kubernetes-service-aks/4376662)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores key architectural patterns for integrating Azure Key Vault (AKV) with Azure Kubernetes Service (AKS). Reviews Azure AD Workload Identity federation, the Secrets Store CSI Driver, and AKS-native mechanisms. Enables engineering teams to eliminate static cloud credentials from cluster runtime contexts.
 #### Conceptual (1)
 
   - **(2022)** [macchaffee.com: Plain Kubernetes Secrets are fine 🌟](https://www.macchaffee.com/blog/2022/k8s-secrets)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An alternative architectural perspective defending native Kubernetes Secrets. Argues that when matched with strong RBAC controls, namespace boundaries, and cluster-level etcd KMS encryption, native solutions provide sufficient enterprise protection.
@@ -446,7 +458,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### External Secrets
 
   - **(2025)** [==external-secrets.io 🌟==](https://external-secrets.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-standard operator for syncing external secrets management services (like AWS Secrets Manager, Vault, or GCP Secret Manager) into Kubernetes Secret objects. This eliminates storing sensitive configuration inside git repositories, supporting true GitOps workflows. Decoupled and secure, it is a critical security-centric component.
-#### GitOps
+#### Gitops
 
 ##### External Secrets Operator
 
@@ -500,7 +512,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
 #### Case Studies (1)
 
   - **(2021)** [hackerone.com: Authenticated kubernetes principal with restricted permissions can retrieve ingress-nginx serviceaccount token and secrets across all namespaces](https://hackerone.com/reports/1249583) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed post-mortem report demonstrating how restricted cluster principals could extract ingress-nginx service account tokens. This real-world vulnerability highlights the architectural danger of over-privileged system namespaces. It emphasizes the need to isolate and continuously audit ingress controller configurations.
-#### Post-Deployment Scanning
+#### Post-deployment Scanning
 
   - **(2025)** [==kubescape==](https://github.com/kubescape/kubescape) <span class='md-tag md-tag--info'>⭐ 11480</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-405075a0" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 5 L 20 5 L 30 10 L 40 13 L 50 5" fill="none" stroke="url(#spark-grad-405075a0)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An active CNCF Sandbox tool providing multi-framework configuration scanning, risk analysis, and vulnerability management. It integrates into CI/CD pipelines to ensure continuous verification of compliance frameworks (like CIS and NSA-CISA). Essential for enterprise teams seeking unified security visibility.
 ### Vulnerability Assessment
@@ -549,7 +561,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2021)** [helpnetsecurity.com: Kubestriker: A security auditing tool for Kubernetes clusters 🌟](https://www.helpnetsecurity.com/2021/05/04/security-kubernetes) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reviews Kubestriker, a lightweight, agentless open-source security scanner that audits Kubernetes control plane configurations, insecure ports, and IAM roles for vulnerabilities.
 ## Workload Hardening
 
-### Identity and Access Management (2)
+### Identity and Access Management (1)
 
   - **(2020)** [thenewstack.io: Laying the Groundwork for Kubernetes Security, Across Workloads, Pods and Users](https://thenewstack.io/laying-the-groundwork-for-kubernetes-security-across-workloads-pods-and-users) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes the multi-dimensional security layers required for modern Kubernetes deployments, addressing workload isolation, Pod Security Standards (PSS), and secure developer workflow patterns.
 ### Pod Security Context
@@ -565,7 +577,7 @@ description: "Top Kubernetes Security resources for 2026, AI-ranked: kube-bench,
   - **(2020)** [gist.github.com: How to protect your ~/.kube/ configuration](https://gist.github.com/PatrLind/e651d3cbc3bf68e4bd9fcc9568cbd3fb) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides hardening steps for securing developer workstation `~/.kube/config` files. Details POSIX permissions adjustments, the usage of credential helpers, and avoiding static administrative token storage.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

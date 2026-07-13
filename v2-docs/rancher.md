@@ -29,7 +29,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(None)** [](https://www.suse.com/c/rancher_blog/deploy-kubernetes-clusters-on-microsoft-azure-with-rancher)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.suse.com/c/rancher_blog/stateful-kubernetes-workloads-on-vsphere-with-rke)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.suse.com/c/rancher_blog/fleet-management-for-kubernetes-is-here)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.suse.com in the Kubernetes Tools ecosystem.
-## CI-CD
+## CICD
 
 ### Infrastructure
 
@@ -50,7 +50,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Archived Projects
 
   - **(2021)** [K3C](https://github.com/rancher/k3c) <span class='md-tag md-tag--info'>⭐ 564</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f29b0e6d" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 12 L 20 4 L 30 8 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-f29b0e6d)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Curator Insight features K3C as a classic lightweight container engine. Live grounding in 2026 confirms that K3C is an archived repository, serving primarily as an intellectual precursor to container daemon simplification and modular containerd patterns.
-## Edge and IoT
+## Edge and Iot
 
 ### Application Lifecycle
 
@@ -72,9 +72,9 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Infrastructure (1)
 
   - **(2020)** [blog.alexellis.io: Bare-metal Kubernetes with K3s](https://blog.alexellis.io/bare-metal-kubernetes-with-k3s) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational tutorial by Alex Ellis on provisioning fully compliant bare-metal Kubernetes nodes on physical hardware using K3s, metalLB, and generic local network environments.
-### CICD Integration
+### CICD (1)
 
-#### GitLab Runners
+#### Gitlab Runners
 
   - **(2021)** [k3s-gitlab](https://github.com/apk8s/k3s-gitlab) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An automation repository dedicated to bootstrapping a local K3s runtime optimized for orchestrating GitLab CI runners, streamlining testing of containerized microservices.
 ### Cluster Provisioning
@@ -101,7 +101,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Database Options
 
   - **(2021)** [gabrieltanner.org: Setting up a HA Kubernetes cluster using K3S](https://gabrieltanner.org/blog/ha-kubernetes-cluster-using-k3s) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A technical tutorial demonstrating how to install high-availability K3s clusters by leveraging external SQL databases (like PostgreSQL) to store states as an alternative to etcd.
-### Infrastructure as Code
+### Infrastructure As Code
 
 #### AWS CDK
 
@@ -133,7 +133,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(2024)** [**techno-tim/k3s-ansible**](https://github.com/timothystewart6/k3s-ansible) <span class='md-tag md-tag--info'>⭐ 2986</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0bac0d0e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 11 L 20 11 L 30 9 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-0bac0d0e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight highlights k3s-ansible as a widely adopted playbook for HA K3s deployments. Live grounding in 2026 shows that while still highly useful for bare-metal home labs and edge clusters, active maintainer shifts require users to cross-verify configuration options against newer Ansible collections. It remains a reliable solution for provisioning multi-master etcd setups and edge nodes.
 ### Kubernetes Provisioning
 
-#### AutoK3s
+#### Autok3s
 
   - **(2023)** [cnrancher/autok3s](https://github.com/cnrancher/autok3s) <span class='md-tag md-tag--info'>⭐ 938</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-ec034e9c" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 9 L 20 5 L 30 6 L 40 11 L 50 2" fill="none" stroke="url(#spark-grad-ec034e9c)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight defines autok3s as a lightweight tool to provision and manage K3s clusters across various cloud providers. Live engineering truth in 2026 notes that its development has stabilized, functioning well for localized multi-cloud rapid prototyping. It provides an API and a CLI wrapper to simplify provisioning on AWS, Alibaba, and Tencent Cloud.
 ### Operating Systems
@@ -144,18 +144,13 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(2020)** [**K3OS Value Add**](https://www.youtube.com/watch?v=2LNxGVS81mE)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight details the conceptual value add of k3OS. Live grounding in 2026 reviews this video for historical context on single-purpose OS design, emphasizing immutable infrastructure patterns that have now matured into modern OS initiatives.
 ## Enterprise Infrastructure
 
-### GitOps
+### Gitops
 
 #### Fleet Management
 
   - **(2025)** [**github.com/rancher/fleet**](https://github.com/rancher/fleet) <span class='md-tag md-tag--info'>⭐ 1708</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-771743dc" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 8 L 30 3 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-771743dc)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Curator Insight presents Fleet as Rancher's GitOps engine for massive scale. Live grounding in 2026 verifies Fleet remains highly enterprise-stable, powering large-scale multi-cluster deployments across thousands of distributed edge devices by optimizing resource footprints compared to traditional GitOps operators.
 ## Infrastructure (2)
 
-### Cluster Management
-
-#### RKE2
-
-  - **(2024)** [RKE2 Standalone Disaster Recovery Guide](https://support.tools/post/rke2-standalone-disaster-recovery) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Critical disaster recovery operational manual targeting RKE2 standalone clusters. Focuses on backup restoration, etcd snapshot recovery, and certificate rotation when cluster management planes fail.
 ### Hyperconverged Infrastructure
 
 #### Bare Metal (1)
@@ -195,7 +190,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Funding
 
   - **(2020)** [zdnet.com: Rancher Labs closes $40M funding round to "run Kubernetes everywhere"](https://www.zdnet.com/article/rancher-labs-closes-40m-funding-round-to-run-kubernetes-everywhere) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Historical coverage of Rancher Labs' $40 million Series D funding round in 2020. This pivotal event accelerated global enterprise Kubernetes adoption and set the stage for its acquisition by SUSE.
-### Infrastructure as Code (1)
+### Infrastructure As Code (1)
 
 #### Government RKE2
 
@@ -213,15 +208,12 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Alerting
 
   - **(2023)** [rancher.com: Custom alerts using Prometheus queries](https://www.suse.com/c/rancher_blog/custom-alerts-using-prometheus-queries) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational guide focusing on formulating custom alert conditions using PromQL queries in Rancher. Shows how to integrate metrics with alert systems and route notifications to modern receivers like Slack or PagerDuty.
-#### etcd Monitoring
-
-  - **(2023)** [Monitor Etcd with Prometheus and Grafana using Rancher](https://www.suse.com/c/rancher_blog/monitor-etcd-with-prometheus-and-grafana-using-rancher) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operational runbook explaining how to configure Prometheus and Grafana within SUSE Rancher to audit and visualize etcd status. Evaluates critical etcd parameters including database size, disk synchronization latency, and peer communication health.
-### Multi-Cluster Orchestration
+### Multi-cluster Orchestration
 
 #### Enterprise Management
 
   - **(2026)** [==rancher.com==](https://www.rancher.com) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A leading enterprise Kubernetes platform facilitating multi-cluster operations across bare-metal, private, and public clouds. It centralizes cluster provisioning, authentication policies, access control (RBAC), and observability under a unified interface.
-### Multi-Tenancy
+### Multi-tenancy
 
 #### Projects
 
@@ -233,7 +225,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(2025)** [Rancher CNI Providers 🌟](https://www.rancher.com/docs/rancher/v2.x/en/faq/networking/cni-providers) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Centralized reference for configuring Container Network Interface (CNI) providers within Rancher clusters. Details the networking benefits, security policies, and eBPF routing properties of Canal, Calico, Flannel, and Cilium.
 ### Product Updates
 
-#### GitOps (1)
+#### Gitops (1)
 
   - **(2020)** [thenewstack.io: Rancher 2.5 Sets out to Be the Stock Kubernetes Build for GitOps](https://thenewstack.io/rancher-2-5-sets-out-to-be-the-stock-kubernetes-build-for-gitops) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An editorial evaluating Rancher 2.5's ambition to serve as the unified standard platform for GitOps continuous deployment, scaling from local systems up to millions of edge computing clusters.
 #### Rancher 2.5
@@ -250,19 +242,19 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
 #### Kubernetes Local
 
   - **(2026)** [**rancherdesktop.io**](https://rancherdesktop.io) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source desktop application bringing Kubernetes and container management to macOS, Windows, and Linux. Built on K3s and nerdctl, it serves as a robust local developer alternative to commercial virtualization solutions.
-### GitOps (2)
+### Gitops (2)
 
 #### Local Sandboxes
 
   - **(2021)** [github.com/gruberdev/local-gitops: Local Gitops 🌟](https://github.com/gruberdev/local-gitops) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A lightweight developer tool simulating local GitOps loops inside isolated testing frameworks. Ideal for testing Kubernetes state declarations on personal development hardware.
 ### Kubernetes Environments
 
+#### K3d
+
+  - **(2025)** [==**k3d**==](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6458</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1c4ba5ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 9 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-1c4ba5ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight features k3d as an indispensable utility for launching multi-node K3s clusters inside Docker containers. Live grounding in 2026 affirms k3d remains the leading choice for local multi-node Kubernetes orchestration, integration testing, and local CI/CD pipelines due to its rapid spin-up speeds and minimal resource footprint.
 #### Tutorials
 
   - **(2021)** [dev.to/iamunnip: Building a local Kubernetes cluster using k3d](https://dev.to/iamunnip/building-a-local-kubernetes-cluster-using-k3d-2p3d)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curator Insight provides a basic building block tutorial for local k3d clusters. Live grounding in 2026 confirms this guide is an excellent entry-level resource for developer onboarding, offering step-by-step instructions on setting up multi-node environments and local load balancers.
-#### k3d
-
-  - **(2025)** [==**k3d**==](https://github.com/k3d-io/k3d) <span class='md-tag md-tag--info'>⭐ 6458</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1c4ba5ce" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 7 L 20 9 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-1c4ba5ce)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight features k3d as an indispensable utility for launching multi-node K3s clusters inside Docker containers. Live grounding in 2026 affirms k3d remains the leading choice for local multi-node Kubernetes orchestration, integration testing, and local CI/CD pipelines due to its rapid spin-up speeds and minimal resource footprint.
 ### Product Updates (1)
 
 #### Rancher Desktop
@@ -282,7 +274,7 @@ description: "Top Rancher resources for 2026, AI-ranked: **k3s**, **k3d** and mo
   - **(2025)** [==Harvester==](https://github.com/harvester/harvester) <span class='md-tag md-tag--info'>⭐ 5054</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-1ef341f9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 12 L 20 12 L 30 9 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-1ef341f9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Curator Insight showcases Harvester as a modern open-source HCI built on KubeVirt and Longhorn. Live grounding in 2026 confirms Harvester has fully matured into an enterprise-stable alternative to VMware ESXi, enabling seamless co-habitation of VM and container environments under unified Kubernetes control planes.
 
 ---
-💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
+💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
 

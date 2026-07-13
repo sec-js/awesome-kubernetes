@@ -20,34 +20,23 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - [dzone: API Testing With Cucumber](https://dzone.com/articles/api-testing-with-cucumber)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: API Testing With Cucumber in the Kubernetes Tools ecosystem.
   - [Dzone: 14 of the best automation testing tools available](https://dzone.com/articles/14-of-the-best-automation-testing-tools-available)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: 14 of the best automation testing tools available in the Kubernetes Tools ecosystem.
   - [Dzone: The power of automated testing and test management](https://dzone.com/articles/the-power-of-automated-testing-and-test-management)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Dzone: The power of automated testing and test management in the Kubernetes Tools ecosystem.
-## Cloud Architecture
-
-### Governance
-
-#### Azure
-
-##### Cloud Adoption Framework
-
-###### Monitoring
-
-  - **(2024)** [Monitor your Azure cloud estate - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/manage/monitor) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Microsoft's official framework for implementing enterprise-wide monitoring strategies across Azure subscription models. It details Azure Monitor integrations, Log Analytics configurations, and service-level baseline configurations. Curator Insight: Strategic enterprise adoption guide. Live Grounding: Focuses heavily on mapping technical telemetry directly to business outcomes and platform compliance frameworks.
 ## Cloud Operations
 
 ### Infrastructure Validation
 
-#### OpenStack Testing
+#### Openstack Testing
 
   - **(2024)** [**Tempest Testing Project**](https://docs.openstack.org/tempest/latest) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes Tempest, the comprehensive open-source integration test suite designed specifically to validate OpenStack cloud deployments. Evaluates how Tempest performs API validation and functional scenario testing across core OpenStack components (like Nova, Neutron, and Keystone) to ensure infrastructure conformance and stability.
 ## Quality Assurance and Testing
 
 ### API Automation
 
-#### Low-Code Testing
+#### Low-code Testing
 
   - **(2022)** [tutorials.virtualan.io: Idaithalam - Lowcode Test Automation](https://tutorials.virtualan.io) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Idaithalam, a low-code, metadata-driven API testing framework built under Virtualan. It details how to leverage declarative Excel spreadsheets or Postman collections to generate and execute complex integration test suites, reducing the necessity for heavy programming while ensuring high test coverage.
 ### Acceptance Testing
 
-#### Keyword-Driven Frameworks
+#### Keyword-driven Frameworks
 
   - **(2024)** [==Robot Framework 🌟==](https://robotframework.org) <span class='md-tag md-tag--warning'>[ROBOT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, keyword-driven acceptance testing and robotic process automation (RPA) framework. Built on Python, Robot Framework provides an abstraction layer over Selenium, Appium, and API clients, enabling non-programmers to define readable testing scripts while keeping underlying code highly modular and extensible.
 ### Containerization
@@ -67,7 +56,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
 #### Build Tooling
 
   - **(2023)** [**lambdatest.com: Why You Need Build Automation Tools for Selenium Automation Testing?**](https://www.testmuai.com/blog/why-you-need-build-automation-tools-for-selenium-automation-testing) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analyzes the essential role of build tools like Maven, Gradle, and Ant in managing external dependencies, orchestrating test execution, and generating unified reports for Selenium frameworks. Highlights the risk of manual dependency management and how build tools standardize QA pipelines across teams.
-#### GitHub Actions
+#### Github Actions
 
   - **(2023)** [**lambdatest.com: Complete Guide To Selenium Testing with GitHub Actions 🌟**](https://www.testmuai.com/blog/selenium-github-actions-example) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Demystifies the deployment of browser-based automation tests within GitHub Actions runner environments. Evaluates the configurations needed to run headless Chrome or Firefox inside Linux containers, specifying steps to checkout code, cache Maven artifacts, and publish execution reports. Establishes a modernized, Git-centric continuous testing practice.
 #### Parallel Testing
@@ -183,7 +172,7 @@ description: "Top Test Automation Frameworks resources for 2026, AI-ranked: Robo
   - **(2022)** [freecodecamp.org: Use Selenium to Create a Web Scraping Bot](https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An engineering guide demonstrating how to leverage Selenium for scraping complex, dynamic JavaScript-rendered single-page applications where simple HTTP libraries fail. It outlines managing browser sessions, interacting with dynamic elements, bypassing basic detection systems, and extracting raw DOM data systematically.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

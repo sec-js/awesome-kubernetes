@@ -13,12 +13,12 @@ description: "Curated, AI-ranked Swagger Code Generator For Rest APIs resources 
 
 ### API Design
 
-#### Tutorial
+#### Tutorials
 
   - **(2019)** [youtube.com: Building an API with Swagger](https://www.youtube.com/watch?v=PbwQWw7xSOM)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical hands-on video demonstration illustrating how to draft, test, and render interactive REST APIs using Swagger Editor and Swagger UI interfaces.
 ### API Design Collaboration
 
-#### SwaggerHub
+#### Swaggerhub
 
   - **(2020)** [youtube.com: SwaggerHub 101 An Introduction to Getting Started with SwaggerHub](https://www.youtube.com/watch?v=CoUl9_NWdqQ)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A fast-track video guide introducing SwaggerHub, focusing on collaborative design structures, style guide validation, unified organization workspaces, and automatic mock testing for enterprise API platforms.
 ### API Specification
@@ -40,7 +40,7 @@ description: "Curated, AI-ranked Swagger Code Generator For Rest APIs resources 
   - **(2015)** [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen) <span class='md-tag md-tag--info'>⭐ 17758</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-eda1e66e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 6 L 30 11 L 40 8 L 50 3" fill="none" stroke="url(#spark-grad-eda1e66e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
 
 ---
-💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
 
-🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

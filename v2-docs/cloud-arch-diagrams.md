@@ -11,9 +11,9 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 
 ## Architecture and Design
 
-### Diagrams-as-Code
+### Diagrams-as-code
 
-#### Guide
+#### Guides
 
   - **(2022)** [navveenbalani.dev: Code To Custom Cloud Architecture Diagrams](https://navveenbalani.dev/index.php/articles/code-to-custom-cloud-architecture-diagrams) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical tutorial detailing how to build custom, programmatically generated cloud architecture diagrams using open-source, code-driven graphic drawing libraries and custom Python configurations.
 #### Markup Tool
@@ -22,7 +22,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### Mermaid Integration
 
   - **(2025)** [==kubernetes.io: Diagram Guide - Mermaid JavaScript library 🌟==](https://kubernetes.io/docs/contribute/style/diagram-guide) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The official Kubernetes contributor documentation on diagram style guidelines, demonstrating how to programmatically draft flowcharts and sequence maps using Mermaid JS code syntax embedded directly in markdown files.
-#### PlantUML Library
+#### Plantuml Library
 
   - **(2024)** [github.com/dcasati/kubernetes-PlantUML](https://github.com/dcasati/kubernetes-PlantUML) <span class='md-tag md-tag--info'>⭐ 282</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-57ef1877" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 8 L 20 10 L 30 2 L 40 3 L 50 7" fill="none" stroke="url(#spark-grad-57ef1877)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="7" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An essential open-source library containing specialized sprites, components, and macro templates to model highly detailed, complex Kubernetes configurations using PlantUML syntax.
 #### Python Tooling
@@ -39,7 +39,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### Automated Discovery
 
   - **(2025)** [**Hyperglance**](https://www.hyperglance.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An enterprise-grade IT visualization and automated inventory mapper. Discovers, maps, and generates complete topology diagrams of cloud environments, tracking Kubernetes resources and network policies automatically.
-#### Diagramming SaaS
+#### Diagramming Saas
 
   - **(2026)** [==diagrams.net==](https://www.drawio.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The industry-leading, highly extensible free open-source diagramming engine. Widely used for system design, it provides deep integration with modern design elements, custom XML importing, and offline execution capabilities.
   - **(2024)** [**draw.io**](https://drawio-app.com) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Comprehensive documentation and application guide detailing how to generate Azure cloud architecture diagrams programmatically and design flexible mind maps using draw.io's code-import features.
@@ -49,7 +49,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
   - **(2022)** [acloudguru.com: The top cloud diagramming tools, ranked](https://www.pluralsight.com/resources/blog/cloud/the-top-cloud-diagramming-tools-ranked) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed technical review comparing and ranking leading cloud architectural design tools. Focuses on speed, automatic layout generation capabilities, API extensibility, and modern iconography support.
   - **(2022)** [redhat.com: 6 architectural diagramming tools for cloud infrastructure](https://www.redhat.com/en/blog/diagramming-tools-cloud-infrastructure) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly curated Red Hat technical review evaluating six open-source and professional cloud drawing tools designed to simplify complex Kubernetes, VM, and serverless network architecture mapping.
   - **(2022)** [redhat.com: Try these 5 diagramming tools for network architecture](https://www.redhat.com/en/blog/diagramming-tools-network-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A practical technical overview analyzing five outstanding diagramming utilities optimized to map network topology, complex VLAN structures, and overlay networks within distributed microservices environments.
-#### Guide (1)
+#### Guides (1)
 
   - **(2021)** [redhat.com: Design professional enterprise architecture diagrams with this open source tool (diagrams.net)](https://www.redhat.com/en/blog/design-enterprise-architecture-diagrams) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering guide showing how to design professional enterprise infrastructure diagrams using diagrams.net, explaining how to utilize layers and libraries to depict container dependencies.
 #### Methodology
@@ -65,7 +65,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### AWS
 
   - **(2025)** [cloudcraft.co](https://www.cloudcraft.co) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-fidelity 3D/2D inventory visualizer specialized in AWS environments. Automates structural documentation generation while parsing underlying instance types to calculate real-time baseline infrastructure costs.
-#### Multi-Cloud
+#### Multi-cloud
 
   - **(2025)** [hava.io](https://www.hava.io) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — SaaS infrastructure visualization engine that connects securely to cloud backends (AWS, GCP, Azure) to draw up-to-date layout sheets. Facilitates continuous compliance tracking by logging history changes over time.
 #### Security
@@ -85,9 +85,9 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### Security (1)
 
   - **(2021)** [aquasecurity/cloudsec-icons](https://github.com/aquasecurity/cloudsec-icons) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An open-source library of dedicated cybersecurity and DevSecOps icons created by Aqua Security. Empowers application security professionals to visually document threat boundaries, firewall parameters, and container compliance elements in systems architecture graphs.
-### Diagrams as Code
+### Diagrams As Code
 
-#### AWS CloudFormation
+#### AWS Cloudformation
 
   - **(2023)** [cfn-diagram 🌟](https://github.com/mhlabs/cfn-diagram) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A developer-focused CLI tool designed to parse AWS CloudFormation nested templates and instantly generate clean, interactive resource dependency maps, simplifying infrastructure inspection.
 #### Airflow
@@ -113,16 +113,6 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### Go
 
   - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00078e7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 4 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-00078e7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
-## Cloud Infrastructure
-
-### Azure Networking
-
-#### Global Infrastructure
-
-  - **(2026)** [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive, live-updated reference catalog mapping the global availability of Azure services and network products across all Azure regions. This matrices-driven tool is vital for cloud architects designing multi-region redundancy, data residency compliance, and edge microservice topologies.
-#### Network Topology
-
-  - **(2025)** [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blueprint for Azure Hub-and-Spoke network design patterns. This guide details how to centralize shared infrastructure services—such as firewalls, DNS, and ExpressRoute gateways—within a hub VNet, while separating distinct microservice workloads into isolated spoke VNets.
 ## Cloud Platforms
 
 ### AWS Integration
@@ -140,7 +130,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### GCP Diagramming
 
   - **(2021)** [cloud.google.com: Introducing a Google Cloud architecture diagramming tool](https://cloud.google.com/blog)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Google Cloud's web-based console architecture designer. Explains how engineering departments construct, validate, and export precise GCP topology maps using standardized reference modules.
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### Architecture
 
@@ -154,7 +144,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

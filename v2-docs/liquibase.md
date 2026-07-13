@@ -29,7 +29,7 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
   - **(2021)** [piotrminkowski.com: Blue-green deployment with a database on Kubernetes 🌟](https://piotrminkowski.com/2021/02/18/blue-green-deployment-with-a-database-on-kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint demonstrating blue-green deployments on Kubernetes for applications bound to transactional databases. Explores state synchronization, schema compatibility, and traffic routing mechanisms to prevent transaction loss during rolling updates.
 ## Continuous Delivery
 
-### Database GitOps
+### Database Gitops
 
 #### Liquibase (1)
 
@@ -48,21 +48,21 @@ description: "Curated, AI-ranked Liquibase resources for the 2026 Cloud Native a
 #### Vitess
 
   - **(2021)** [docs.planetscale.com: The PlanetScale workflow 🌟](https://planetscale.com/docs/vitess/best-practices) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Documentation outlining the schema migration workflow in PlanetScale, powered by Vitess. Introduces non-blocking schema changes and deployment branches, enabling developers to modify production databases without locking tables or causing downtime.
-### Database GitOps (1)
+### Database Gitops (1)
 
 #### Schema Management
 
   - **(2021)** [==bytebase/bytebase==](https://github.com/bytebase/bytebase) <span class='md-tag md-tag--info'>⭐ 14143</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-d71ad053" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 4 L 20 8 L 30 10 L 40 2 L 50 5" fill="none" stroke="url(#spark-grad-d71ad053)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Open-source, web-based database schema change and collaboration tool engineered for DevOps teams and DBAs. Features GitOps-driven workflow mechanics, automated visual SQL review, and centralized security compliance policies to govern multi-engine environments.
-## Infrastructure as Code
+## Infrastructure As Code
 
 ### Database Migration
 
-#### CICD and Delivery
+#### CICD
 
   - **(2023)** [martinfowler.com](https://martinfowler.com/articles/evodb.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A seminal essay on evolutionary database architectures. Highlights methods for treating database schemas as declarative code, versioning migrations, and automating data migrations safely inside unified application delivery pipelines.
 
 ---
-💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

@@ -11,7 +11,7 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 
 ## Collaboration Tools
 
-### SaaS Utilities
+### Saas Utilities
 
 #### Quick Link
 
@@ -56,7 +56,7 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 
   - **(2026)** [Atlassian Confluence](https://www.atlassian.com/software/confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Enterprise corporate wiki and collaborative document editor platform. Helps development teams compile, search, and maintain technical wikis, sprint retrospectives, and Architecture Decision Records (ADRs).
   - **(2020)** [opensource.com: 3 open source alternatives to Confluence](https://opensource.com/article/20/9/open-source-alternatives-confluence)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comparative guide highlighting three popular open-source alternatives to Confluence, enabling teams to build customizable, cost-effective, and secure self-hosted internal documentation bases.
-#### Note-Taking
+#### Note-taking
 
   - **(2026)** [==joplin==](https://github.com/laurent22/joplin) <span class='md-tag md-tag--info'>⭐ 55187</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-b38a4328" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 3 L 20 12 L 30 7 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-b38a4328)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely adopted open-source note-taking and to-do application. Supports End-to-End Encryption (E2EE), Markdown editing, and dynamic synchronization across private cloud systems.
 ### Project Management
@@ -80,13 +80,13 @@ description: "Top Project Management Tools resources for 2026, AI-ranked: joplin
 #### Alternatives Finder
 
   - **(2022)** [btw.so: Open Source Alternatives 🌟](https://www.btw.so/open-source-alternatives)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive database index mapping popular proprietary SaaS applications to functional, privacy-focused open-source alternatives, assisting companies in reducing licensing expenditures.
-#### GitHub Shortcuts
+#### Github Shortcuts
 
   - **(2026)** [GH repos: repo.new](https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The standard browser shortcut (`repo.new`) designed to route authenticated developer sessions directly to GitHub's repository creation workspace. Enables rapid workspace initialization and deployment pipeline seeding.
   - **(2026)** [GH Gists: gist.new](https://gist.github.com/starred)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An efficiency shortcut (`gist.new`) that directs users to GitHub's Gist creation environment. Allows developers to rapidly save, share, and audit isolated code configurations, terminal scripts, or stack traces without initializing full Git trees.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [QA](./qa.md)
+💡 **Explore Related:** [QA](./qa.md) | [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

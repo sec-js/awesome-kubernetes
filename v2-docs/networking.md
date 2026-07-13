@@ -16,6 +16,23 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
 #### General Reference
 
   - [dzone: What Is CIDR (Classless Inter-Domain Routing)](https://dzone.com/articles/what-is-cidr-classless-inter-domain-routing-in-mul)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering dzone: What Is CIDR (Classless Inter-Domain Routing) in the Kubernetes Tools ecosystem.
+## Cloud Infrastructure
+
+### Azure Networking
+
+#### Cost Optimization
+
+  - **(2026)** [Which Azure Network is Cheaper?](https://blog.cloudtrooper.net/2026/01/16/which-azure-network-is-cheaper) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This cost-analysis guide scrutinizes the pricing structures of Azure networking patterns, contrasting VNet Peering, Private Link, Virtual WAN, and ExpressRoute. It provides system architects with actionable formulas to optimize egress and internal data transfer fees, which are critical for high-throughput, multi-region distributed microservices.
+  - **(2025)** [A Guide to Azure Data Transfer Pricing](https://techcommunity.microsoft.com/blog/AzureNetworkingBlog/a-guide-to-azure-data-transfer-pricing/4374538) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep analysis of the financial implications of Azure data transit. The guide breaks down costs associated with intra-region, inter-region, availability zone traversal, and internet egress. It is highly valuable for designing cost-efficient microservices that utilize high-frequency data synchronizations.
+#### Global Infrastructure
+
+  - **(2026)** [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive, live-updated reference catalog mapping the global availability of Azure services and network products across all Azure regions. This matrices-driven tool is vital for cloud architects designing multi-region redundancy, data residency compliance, and edge microservice topologies.
+#### Hybrid Connectivity
+
+  - **(2025)** [Azure ExpressRoute Resiliency: Best Practices for Production-Critical Workloads](https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-expressroute-resiliency-best-practices-for-production-critical-workloads/4394842) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines best practices for designing resilient Azure ExpressRoute topologies to safeguard production-critical hybrid cloud environments. Architects are guided through configuring dual-homing, active-active paths, BFD (Bidirectional Forwarding Detection), and automated failover strategies to prevent network isolation.
+#### Network Topology
+
+  - **(2025)** [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blueprint for Azure Hub-and-Spoke network design patterns. This guide details how to centralize shared infrastructure services—such as firewalls, DNS, and ExpressRoute gateways—within a hub VNet, while separating distinct microservice workloads into isolated spoke VNets.
 ## Computer Networking and IPAM
 
 ### Infrastructure Management
@@ -46,7 +63,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2022)** [networkproguide.com: CIDR Subnet Mask Cheat Sheet](https://networkproguide.com/cidr-subnet-mask-ipv4-cheat-sheet) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An educational cheat sheet breaking down subnet masking protocols, mapping binary configurations to standard decimal equivalents, and addressing structural divisions.
   - **(2021)** [aelius.com: subnet sheet](https://www.aelius.com/njh/subnet_sheet.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A clear, tabular web reference catalog summarizing IP addressing, mask divisions, wildcard configuration values, and IP ranges. Built to accelerate system infrastructure designs.
   - **(2020)** [pbxbook.com: CIDR Cheat Sheet](https://pbxbook.com/other/cidrcheat.html) <span class='md-tag md-tag--warning'>[HTML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A concise CIDR mapping compilation layout summarizing subnet formats, equivalent netmasks, aggregate host counts, and binary mappings from /1 up to /32 prefixes for immediate sysadmin review.
-#### Command-Line Utilities
+#### Command-line Utilities
 
   - **(2022)** [tecmint.com: How to Calculate IP Subnet Address with ipcalc Tool](https://www.tecmint.com/calculate-ip-subnet-address-with-ipcalc-tool) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Technical tutorial detailing step-by-step instructions for computing network, broadcast, and host addresses using the Linux command-line CLI engine `ipcalc`.
   - **(2020)** [gist.github.com: chadmcrowell/cidr.sh 🌟](https://gist.github.com/chadmcrowell/f3fc3be2ca1fcb887034162c14d77e74) <span class='md-tag md-tag--warning'>[SHELL CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A portable Bash shell scripting library for programmatic calculation of CIDR blocks, host scopes, and netmask translations directly inside Linux terminal host environments.
@@ -105,7 +122,7 @@ description: "Curated, AI-ranked Networking resources for the 2026 Cloud Native 
   - **(2024)** [alexandrehtrb.github.io: HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A thorough engineering analysis contrasting architectural behaviors of HTTP/2 and HTTP/3. Examines the structural transition from TCP-based flows to UDP-based QUIC, detailing performance impacts.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

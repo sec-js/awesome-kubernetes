@@ -420,7 +420,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#german-content" title="1 resources">German<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1046 resources">Go<span class="v2-heat-n">1046</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1050 resources">Go<span class="v2-heat-n">1050</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -451,10 +451,10 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#jsonnet-content" title="5 resources">Jsonnet<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="553 resources">Legacy<span class="v2-heat-n">553</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="554 resources">Legacy<span class="v2-heat-n">554</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="348 resources">Markdown<span class="v2-heat-n">348</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="346 resources">Markdown<span class="v2-heat-n">346</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
