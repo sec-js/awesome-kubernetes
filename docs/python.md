@@ -290,7 +290,7 @@
 - [Flask Documentation 🌟](https://flask.palletsprojects.com/en/stable)
 - [The Flask Mega-Tutorial: Now with Python 3 Support](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-now-with-python-3-support)
 - [realpython.com: Discover Flask, Part 1 - Setting Up a Static Site](https://realpython.com/learning-paths/flask-by-example)
-- [devbattles.com: Python Flask, Part 1: Hello World!](https://flask.palletsprojects.com/en/latest/quickstart/)
+- [devbattles.com: Python Flask, Part 1: Hello World!](https://flask.palletsprojects.com/en/latest/quickstart)
 - [mherman.org: Scaling Flask with Kubernetes 🌟](https://mherman.org/presentations/flask-kubernetes)
 - [kdnuggets.com: How to Deploy a Flask API in Kubernetes and Connect it with Other Micro-services](https://www.kdnuggets.com/2021/02/deploy-flask-api-kubernetes-connect-micro-services.html)
 - [dev.to: Getting Started with Flask and Docker](https://dev.to/ken_mwaura1/getting-started-with-flask-and-docker-3ie8)
