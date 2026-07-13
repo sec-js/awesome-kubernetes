@@ -36,16 +36,9 @@ description: "Top Digitalocean resources for 2026, AI-ranked: Digital Ocean, Com
 
   - **(2024)** [App Platform](https://docs.digitalocean.com/products/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — App Platform reference document outlining core specs of DigitalOcean's fully managed Platform-as-a-Service (PaaS). Allows automated code deployments directly from Git systems, managing containers, databases, and SSL endpoints.
   - **(2024)** [App Platform - Digital Ocean PaaS](https://try.digitalocean.com/app-platform) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Highlights onboarding pathways and scalability paradigms inside DigitalOcean's PaaS. Highly optimized for small-to-medium enterprises wanting to run microservice networks without complex VM configurations.
-## Web Servers
-
-### NGINXConfig
-
-#### Community Tools
-
-  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

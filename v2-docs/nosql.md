@@ -16,6 +16,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### General Reference
 
   - **(None)** [](https://www.javacodegeeks.com/2015/10/nosql-vs-sql.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
+  - **(None)** [](https://www.blog.facilcloud.com/noticias/sql-vs-nosql-which-one-should-i-use/?lang=es_ES)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.blog.facilcloud.com in the Kubernetes Tools ecosystem.
   - [Query JSON Using SQL With Couchbase Query Workbench](https://dzone.com/articles/query-json-using-sql-with-couchbase-query-workbenc)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering Query JSON Using SQL With Couchbase Query Workbench in the Kubernetes Tools ecosystem.
   - **(None)** [](https://www.javacodegeeks.com/2015/09/mongodb-a-scalable-nosql-db.html)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering www.javacodegeeks.com in the Kubernetes Tools ecosystem.
 ## Data Architecture
@@ -99,13 +100,6 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
 #### NoSQL
 
   - **(2012)** [Youtube: Introduction to NoSQL by Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler’s classic presentation detailing NoSQL database paradigms. Analyzes key-value, document, column-family, and graph databases, clarifying aggregate-oriented modeling and performance trade-offs against relational databases.
-## Infrastructure
-
-### Caching
-
-#### Redis
-
-  - **(2023)** [Redis](https://redis.io) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The documentation portal for Redis, an in-memory data store used as a cache, database, and message broker. It highlights key features like replication, clustering, and data structures (such as Streams and Sorted Sets) that power real-time apps.
 ## Observability
 
 ### Microservices Monitoring
@@ -115,7 +109,7 @@ description: "Top NoSQL resources for 2026, AI-ranked: MongoDB security tutorial
   - **(2021)** [github.com/oslabs-beta: Odin's Eye](https://github.com/oslabs-beta/OdinsEye) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Open-source developer utility designed to monitor distributed microservices architecture patterns, tracking internal query metrics and communication flows. Primarily active within the community sandbox.
 
 ---
-💡 **Explore Related:** [Yaml](./yaml.md) | [Crunchydata](./crunchydata.md) | [Databases](./databases.md)
+💡 **Explore Related:** [Yaml](./yaml.md) | [Message Queue](./message-queue.md) | [Databases](./databases.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

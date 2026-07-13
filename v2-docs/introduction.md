@@ -157,13 +157,6 @@ graph TD
   - **(2022)** [redhat.com: 5 strategies to shift your career from sysadmin to architect](https://www.redhat.com/en/blog/from-sysadmin-to-architect)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Maps professional development strategies for system administrators transitioning to IT architect roles. Emphasizes system-level thinking, mastering cloud-native paradigms, understanding business metrics, and cultivating strong communication skills.
 ## Cloud Architecture
 
-### Certification
-
-#### AWS
-
-##### Solutions Architect Professional
-
-  - **(2020)** [Tips on Passing AWS Certified Solutions Architect - Professional Level](https://www.linkedin.com/top-content/?trk=article_not_found) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A strategic study guide for passing the AWS Certified Solutions Architect - Professional exam. The content focuses on advanced architectural design patterns, multi-tier application migration, cost optimization, and high-availability setups across complex AWS environments. Curator Insight: Highly structured blueprint for enterprise AWS exam prep. Live Grounding: Real-world value lies in understanding multi-account strategies, organizational governance, and security at scale.
 ### Cloud Strategy
 
 #### Design Anti-patterns
@@ -316,13 +309,6 @@ graph TD
     
     Explores three fundamental high-availability cloud strategies: active-active vs active-passive configurations, geo-redundant database replication, and zero-downtime DNS-routed failovers. Discusses mathematical SLA models and network traffic planning required to achieve high service uptime.
 
-#### Multi-Region Deployments
-
-??? note "engineering.monday.com: monday.com’s Multi-Regional Architecture: A Deep Dive"
-    **[Access Resource](https://engineering.monday.com/monday-coms-multi-regional-architecture-a-deep-dive)** 🌟🌟🌟🌟🌟 | Level: Advanced
-    
-    A real-world architectural dissection of how monday.com implemented a highly resilient, multi-regional cloud strategy to improve latency and adhere to strict regional data regulations. Explains state replication strategies, request routing optimizations, and database scaling bottlenecks encountered during global scaling.
-
 ### Market Trends (1)
 
 #### Open Source Business Models
@@ -380,15 +366,6 @@ graph TD
     
     Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
 
-### Storage and Hybrid Systems
-
-#### Topology Comparison
-
-??? note "blog.min.io: Mono Clouds vs Multi-Clouds & Hybrid Clouds"
-    **[Access Resource](https://www.min.io/blog)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Details the comparative trade-offs between mono-cloud, multi-cloud, and hybrid cloud topologies from an object storage and data gravity perspective. MinIO highlights the critical role of data portability and standardized APIs (S3) in enabling architectural freedom across multi-cloud footprints.
-
 ## Cloud Infrastructure
 
 ### Automation
@@ -443,13 +420,6 @@ graph TD
     **[Access Resource](https://www.alibabacloud.com/blog/getting-started-with-kubernetes-%7C-deep-dive-into-kubernetes-core-concepts_595896)** 🌟🌟🌟🌟 | Level: Advanced
     
     Deep dive into core Kubernetes architectures, detailing controller-manager reconciliation mechanisms, kube-scheduler filters, and API-driven status updates. Provides a technical reference for engineers wanting to design resource control loops and manage standard system interactions.
-
-#### Fundamentals (1)
-
-??? note "cloud.google.com: What is Kubernetes? 🌟"
-    **[Access Resource](https://cloud.google.com/learn/what-is-kubernetes)** 🌟🌟🌟🌟🌟 | Level: Beginner
-    
-    A comprehensive foundation on Kubernetes, detailing its architectural pillars including the control plane, worker nodes, and declarative API engine. It outlines container scheduling, automated self-healing, and service discovery mechanisms essential for running resilient, modern cloud-native systems.
 
 #### Orchestrator Comparison
 
@@ -579,7 +549,7 @@ graph TD
 
 ### Containerization (1)
 
-#### Fundamentals (2)
+#### Fundamentals (1)
 
 ??? note "opensource.com: 6 container concepts you need to understand"
     **[Access Resource](https://opensource.com/article/20/12/containers-101)** 🌟🌟🌟 | Level: Beginner
@@ -609,7 +579,7 @@ graph TD
 
 ### Kubernetes Orchestration
 
-#### Fundamentals (3)
+#### Fundamentals (2)
 
 ??? note "loves.cloud: Kubernetes: An Introduction"
     **[Access Resource](https://loves.cloud/kubernetes-an-introduction)** 🌟🌟🌟 | Level: Beginner
@@ -658,13 +628,6 @@ graph TD
     
     Discusses the evolution of the Kubernetes API and the growing necessity for user interfaces that abstract the complex YAML declarations. Explores trends like custom controllers, platform wrappers, and programmatic DSLs to simplify operations for non-expert system developers.
 
-#### Technology Assessment
-
-??? note "thenewstack.io: Do I Really Need Kubernetes? 🌟"
-    **[Access Resource](https://thenewstack.io/do-i-really-need-kubernetes)** 🌟🌟🌟🌟 | Level: Intermediate
-    
-    Offers a pragmatic architectural counter-argument to automatic Kubernetes adoption. Evaluates alternatives such as managed serverless containers (ECS, Cloud Run) and PaaS solutions, analyzing whether the infrastructure scale justifies K8s operational complexity and platform engineering overhead.
-
 ### Professional Development (1)
 
 #### Career Engineering (1)
@@ -674,7 +637,7 @@ graph TD
     
     Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
 
-### Technology Assessment (1)
+### Technology Assessment
 
 #### Compute Paradigms
 
@@ -757,13 +720,6 @@ graph TD
 
 ### Software Engineering Principles
 
-#### Developer Cognitive Load
-
-??? note "infoworld.com: Complexity is killing software developers"
-    **[Access Resource](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html)** 🌟🌟🌟 | Level: Intermediate
-    
-    Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
-
 #### Programming Languages
 
 ??? note "enter.co: Estos son los 10 lenguajes de programación más populares en 2021"
@@ -794,14 +750,9 @@ graph TD
   - **(2021)** [spectrum.ieee.org: How Software Is Eating the Car](https://spectrum.ieee.org/software-eating-car)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An industry analysis of software-defined vehicle (SDV) architectures. Investigates how safety-critical embedded frameworks are migrating toward virtualized hardware, container workloads, and modular microservices structures in advanced automotive systems.
 ## Emerging Technology
 
-### Machine Learning
-
-#### Course
-
-  - **(2024)** [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course?hl=es-419) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Google's structured technical course on ML foundations. Covers gradient descent, model loss, deep neural networks, and scalable tensor processing, serving as an entry point for engineers integrating ML systems into modern APIs.
 ### Quantum Computing
 
-#### Fundamentals (4)
+#### Fundamentals (3)
 
   - **(2024)** [cope.es: El ejemplo de 'la moneda' con el que entender cómo funciona un ordenador cuántico: "Será una revolución"](https://www.cope.es/programas/la-linterna/noticias/ejemplo-moneda-con-que-entender-como-funciona-ordenador-cuantico-una-revolucion-20240407_3232557) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduce los principios de la computación cuántica de manera accesible mediante la analogía de una moneda girando para ilustrar la superposición. Destaca el impacto potencial de los cúbits frente a la computación clásica.
 ## Frontend Architecture
@@ -1028,7 +979,7 @@ graph TD
     
     Establishes a rigorous decision framework for migrating from monolithic systems to microservices, balancing organization size, domain boundaries, and cognitive load. The synthesis emphasizes that microservices should only be selected when parallel development velocity and independent horizontal scaling justify the added network complexity.
 
-#### Fundamentals (5)
+#### Fundamentals (4)
 
 ??? note "thenewstack.io: What Is Microservices Architecture?"
     **[Access Resource](https://thenewstack.io/microservices/what-is-microservices-architecture)** 🌟🌟🌟🌟 | Level: Beginner
@@ -1307,7 +1258,7 @@ graph TD
   - **(2022)** [ubiqum.com: 20 Software Development Tools that will make you more productive](https://ubiqum.com/blog/20-software-development-tools-that-will-make-you-more-productive)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated technical list analyzing software development tools engineered to enhance engineering velocity. Explores IDE extensions, local container utilities, source control clients, and task automators critical for scaling developer operations.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

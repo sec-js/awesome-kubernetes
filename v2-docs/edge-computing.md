@@ -46,7 +46,7 @@ description: "Curated, AI-ranked Edge Computing resources for the 2026 Cloud Nat
   - **(2021)** [thenewstack.io: Cloudian CTO: Kubernetes, Standardization Key to Edge](https://thenewstack.io/cloudian-cto-kubernetes-standardization-key-to-edge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An executive perspective from Cloudian highlighting Kubernetes standardization as the foundational component of modern edge architecture. It analyzes strategies to coordinate hybrid storage clusters safely across remote zones.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [AWS Storage](./aws-storage.md) | [Oraclecloud](./oraclecloud.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

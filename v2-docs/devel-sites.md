@@ -16,13 +16,6 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### General Reference
 
   - [dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow](https://dzone.com/articles/software-engineering-best-practices-that-high-perf)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==dzone.com: Software Engineering Best Practices That High-Performing Teams' Follow== in the Kubernetes Tools ecosystem.
-## Artificial Intelligence
-
-### Developer Agents
-
-#### Amazon Q
-
-  - **(2026)** [Amazon CodeWhisperer](https://aws.amazon.com/q/developer) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon Q Developer (formerly CodeWhisperer) is AWS's flagship generative AI-assisted programming agent. It generates real-time, context-aware code suggestions while performing security scanning and structural code upgrades. Live grounding demonstrates its evolution into a highly secure, enterprise-compliant workspace tool with advanced reference tracking mechanisms.
 ## Backend-as-a-Service
 
 ### Google Cloud
@@ -65,6 +58,20 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Amazon CodeGuru
 
   - **(2026)** [Amazon CodeGuru Reviewer](https://aws.amazon.com/codeguru/profiler) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Amazon CodeGuru Reviewer is an AI-driven security and performance analysis service built to find hard-to-detect defects within CI/CD pipelines. It identifies security vulnerabilities, synchronization issues, and resource leaks. In 2026, it offers refined cloud-native optimization suggestions tailored to AWS service dependencies and serverless execution environments.
+## DevOps Automation and Modern Systems Engineering
+
+### Software Engineering Principles
+
+#### Developer Cognitive Load
+
+  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
+## Developer Productivity
+
+### Integrated Development Environments
+
+#### Rust
+
+  - **(2022)** [IntelliJ vs. VSCode for Rust Development](https://users.rust-lang.org/t/anyone-here-go-intellij-vscode/84499) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comparative review evaluating IntelliJ Rust versus VSCode + rust-analyzer. Analyzes memory footprint, compilation speed feedback loops, macro expansion accuracy, and integrated debugger performance.
 ## Developer Tooling
 
 ### CLI Frameworks
@@ -118,7 +125,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
 #### Refactoring
 
   - **(2026)** [refactoring.guru: Design Patterns](https://refactoring.guru/design-patterns) <span class='md-tag md-tag--warning'>[MULTI-LANGUAGE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional digital guide outlining classical Creational, Structural, and Behavioral software design patterns. Provides clean, production-ready code examples in Go, Python, Java, and TypeScript alongside practical refactoring advice.
-### Developer Productivity
+### Developer Productivity (1)
 
 #### Learning Paths (1)
 
@@ -167,7 +174,7 @@ description: "Top Devel Sites resources for 2026, AI-ranked: Build Your Own X, G
   - **(2021)** [dev.to: A Better Way To Code: Documentation Driven Development](https://dev.to/playfulprogramming/a-better-way-to-code-documentation-driven-development-1kem) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces Documentation Driven Development (DDD). Explains how specifying schemas, system boundaries, and API interfaces in documentation before coding leads to cleaner microservice separation.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
 

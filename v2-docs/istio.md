@@ -1,5 +1,5 @@
 ---
-description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Networking & Service Mesh)."
+description: "Top Istio resources for 2026, AI-ranked: Envoy Gateway, Jaeger and more — curated Cloud Native tools, guides and references."
 ---
 # Istio - Service Mesh
 
@@ -23,13 +23,6 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Istio Examples
 
   - **(2024)** [istiobyexample.dev 🌟](https://istiobyexample.dev)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An exemplary repository of practical, real-world Istio deployment configurations. Provides direct templates for traffic routing, rate limiting, and mTLS security configurations, serving as an indispensable resource for platform teams building service mesh architectures.
-## Cloud Native and Kubernetes
-
-### Networking and Edge Routing
-
-#### Gateway API
-
-  - **(2025)** [**Application Gateway for Containers: Istio Integration**](https://blog.cloudtrooper.net/2025/11/21/application-gateway-for-containers-istio-integration) <span class='md-tag md-tag--warning'>[GO / YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An advanced architectural post demonstrating how Azure Application Gateway for Containers (AGC) integrates with Istio Service Mesh via Kubernetes Gateway API. It details how edge traffic routing seamlessly hands off to internal mesh proxy sidecars while preserving end-to-end mTLS and header-based routing. This integration is critical for high-security microservices topologies demanding zero-trust communication.
 ## Cloud Native Infrastructure
 
 ### Data Plane
@@ -40,9 +33,6 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Installation
 
   - **(2022)** [getenvoy.io](https://www.envoyproxy.io/docs/envoy/latest/start/install) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Distribution platform providing certified binaries, installer packages, and bootstrapping resources for Envoy Proxy, facilitating direct deployments on local machines or hybrid container systems.
-#### Proxy
-
-  - **(2022)** [envoyproxy.io](https://www.envoyproxy.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Envoy Proxy, the C++ cloud-native L7 edge and service proxy. Serving as the primary data plane for Istio and modern gateway tools, it offers unmatched extensibility, advanced load balancing, and dynamic runtime configuration.
 ### Multi-Cluster
 
 #### Automation
@@ -113,6 +103,15 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Progressive Delivery
 
   - **(2020)** [dev.to: A GitOps recipe for Progressive Delivery with Istio 🌟](https://dev.to/stefanprodan/a-gitops-recipe-for-progressive-delivery-2pa3)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A production-grade GitOps blueprint leveraging Flagger, Flux, and Istio to implement progressive canary deployments. Explores how continuous automated monitoring and Prometheus metrics validate rollouts and trigger instant rollbacks on error.
+## Infrastructure
+
+### Networking
+
+#### Security (1)
+
+##### Egress Traffic
+
+  - **(2019)** [==monzo.com: Controlling outbound traffic from Kubernetes==](https://monzo.com/blog/controlling-outbound-traffic-from-kubernetes) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Details the technical execution of isolating and managing external network endpoints from within a production Kubernetes banking cluster. Features strategies on proxy security, dynamic firewall rule sets, and compliance monitoring.
 ## Observability
 
 ### Continuous Profiling
@@ -125,12 +124,20 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Deployment
 
   - **(2021)** [hackernoon.com: A Guide to Deploying Jaeger on Kubernetes in Production](https://hackernoon.com/a-guide-to-deploying-jaeger-on-kubernetes-in-production-0p2n3tub)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An operations guide detailing how to run Jaeger in high-traffic production environments on Kubernetes. Compares Elasticsearch and Cassandra storage backends and reviews the deployment of collectors and agents.
+#### Jaeger
+
+  - **(2026)** [Jaeger](https://www.jaegertracing.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The flagship Jaeger engine for distributed tracing, featuring comprehensive backend storage backends (Elasticsearch, Cassandra) and advanced UI query panels for deep dive transaction forensics.
 #### OpenTelemetry
 
   - **(2022)** [hackernoon.com: How To Use OpenTelemetry And Jaeger To Implement Distributed Tracing And APM](https://hackernoon.com/how-to-use-opentelemetry-and-jaeger-to-implement-distributed-tracing-and-apm-jcx34fi)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An integration tutorial illustrating how to link OpenTelemetry APIs with Jaeger collectors. Outlines architectural best practices for standardizing traces, contextual metadata, and spans across polyglot microservice environments.
-### Service Mesh (3)
+### Log Management
 
 #### Visualization
+
+  - **(2026)** [Kibana](https://www.elastic.co/kibana) <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The industry-standard data visualization and exploration dashboard designed specifically for Elastic Stack and OpenSearch engines. Enables deep analytical queries, log visualization, machine learning anomalies detection, and application performance monitoring (APM) reporting.
+### Service Mesh (3)
+
+#### Visualization (1)
 
   - **(2023)** [==github.com: kiali==](https://github.com/kiali/kiali) <span class='md-tag md-tag--info'>⭐ 3617</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-7a0acd1b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 2 L 30 9 L 40 9 L 50 5" fill="none" stroke="url(#spark-grad-7a0acd1b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The source repository for Kiali, an indispensable observability dashboard. Provides real-time interactive topologies, configuration validation, and native wizard-based creations of complex traffic routing mechanisms directly within Istio.
   - **(2022)** [kiali.io](https://kiali.io) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Homepage for Kiali, the primary management and visualization console for Istio. Delivers dynamic physical and logical topology maps, active health metrics, and direct configurations diagnostic tracking.
@@ -156,7 +163,7 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Architecture (2)
 
   - **(2023)** [istio.io: Learn Microservices using Kubernetes and Istio 🌟](https://istio.io/latest/docs/examples/microservices-istio)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Official tutorial illustrating how to orchestrate multi-language microservices inside Kubernetes using Istio to handle service discovery, fault injection, and dynamic traffic routing.
-### Networking
+### Networking (1)
 
 #### API Gateway (2)
 
@@ -170,7 +177,6 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Traffic Management (2)
 
   - **(2026)** [==github.com: Istio==](https://github.com/istio/istio) <span class='md-tag md-tag--info'>⭐ 38217</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-e09e6060" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 7 L 20 13 L 30 2 L 40 12 L 50 5" fill="none" stroke="url(#spark-grad-e09e6060)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Main repository containing Istio's unified control plane (Istiod) and orchestration engines. Configures secure high-performance Envoy proxies as sidecars (or in ambient mode) to manage ingress, egress, and mutual TLS.
-  - **(2026)** [Istio.io](https://istio.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Home of the de facto standard open-source service mesh. Implements a uniform plane for managing, securing, and routing microservices traffic across hybrid cloud container clusters.
 #### Troubleshooting
 
   - **(2021)** [karlstoney.com: Istio 503's with UC's and TCP Fun Times](https://karlstoney.com/istio-503s-ucs-and-tcp-fun-times) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — High-impact technical case study investigating intermittent HTTP 503 errors and connection closure (UC) challenges under high TCP load inside Istio service meshes. Excellent deep-dive into sidecar race conditions.
@@ -184,7 +190,6 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
 #### Enterprise Platforms
 
   - **(2024)** [Red Hat Developer: Istio Service Mesh](https://developers.redhat.com/topics/service-mesh) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Red Hat's developer hub offering deep integration architectures for managing Red Hat OpenShift Service Mesh. Synthesizes Istio, Kiali, and Jaeger into an enterprise-ready networking stack.
-  - **(2020)** [blog.openshift.com: Red Hat OpenShift Service Mesh is now available: What you should know 🌟](https://www.redhat.com/en/blog/red-hat-openshift-service-mesh-is-now-available-what-you-should-know)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Announcement detailing the GA availability of Red Hat OpenShift Service Mesh. Explains the integrated packaging of Istio, Envoy, and Jaeger under OpenShift's strict security paradigms.
 #### Observability (2)
 
   - **(2020)** [openshift.com: Monitoring Services like an SRE in OpenShift ServiceMesh Part 2: Collecting Standard Metrics 🌟](https://www.redhat.com/en/blog/monitoring-services-like-an-sre-in-openshift-servicemesh-part-2-collecting-standard-metrics-3) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Step-by-step SRE manual describing standard metrics collection (latency, error rates, throughput) across an enterprise OpenShift Service Mesh. Leveraging Prometheus and Kiali telemetry mappings.
@@ -200,7 +205,7 @@ description: "Curated, AI-ranked Istio resources for the 2026 Cloud Native archi
   - **(2023)** [redhat-scholars: istio-tutorial 🌟](https://github.com/redhat-scholars/istio-tutorial) <span class='md-tag md-tag--info'>⭐ 1206</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0d267da7" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 6 L 20 4 L 30 10 L 40 7 L 50 5" fill="none" stroke="url(#spark-grad-0d267da7)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HTML CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A comprehensive scenario-driven learning path designed by Red Hat. Covers service deployment, routing, traffic splitting, canary deployments, circuit breakers, and advanced security models using Envoy.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

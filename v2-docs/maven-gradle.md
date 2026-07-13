@@ -133,7 +133,7 @@ description: "Top Maven Gradle resources for 2026, AI-ranked: JBang, GitHub: Ecl
   - **(2026)** [**code.visualstudio.com: Java Project Management in VS Code**](https://code.visualstudio.com/docs/java/java-project) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Guide on setting up VS Code for enterprise Java development. Showcases full integration with Apache Maven, offering seamless debugging, project dependency visualization, and execution pipelines.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
 

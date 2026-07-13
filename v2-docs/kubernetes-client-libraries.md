@@ -1,5 +1,5 @@
 ---
-description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk8s, GitHub: Eclipse JKube and more — curated Cloud Native tools, guides and references."
+description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk8s, JKube and more — curated Cloud Native tools, guides and references."
 ---
 # Client Libraries for Kubernetes
 
@@ -63,6 +63,9 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 
 #### Eclipse JKube
 
+##### Developer Workflow
+
+  - **(2020)** [developers.redhat.com: Java development on top of Kubernetes using Eclipse JKube](https://developers.redhat.com/blog/2020/08/24/java-development-on-top-of-kubernetes-using-eclipse-jkube) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — This article demonstrates outer-loop developer workflows utilizing Eclipse JKube to deploy Java applications straight to running Kubernetes clusters. Live Grounding illustrates how JKube's design empowers local development cycles by bypassing manual YAML writing, instead building and pushing directly via standard IDE integrations and build loops.
 ##### Migration
 
   - **(2020)** [**eclipse.org: Migration Guide for projects using Fabric8 Maven Plugin to Eclipse JKube 🌟**](https://eclipse.dev/jkube/docs/migration-guide) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The official Eclipse foundation migration documentation for moving from Fabric8 to JKube. Live Grounding confirms this is the authoritative reference for modifying existing POM.xml profiles, aligning configuration namespaces, and preserving legacy custom templates under the new JKube APIs.
@@ -90,6 +93,13 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
 #### CDK8s
 
   - **(2026)** [==cdk8s==](https://github.com/cdk8s-team/cdk8s) <span class='md-tag md-tag--info'>⭐ 4823</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-2899cf8e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 7 L 20 12 L 30 13 L 40 5 L 50 5" fill="none" stroke="url(#spark-grad-2899cf8e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The GitHub repository containing the core source code for CDK8s. It allows developers to model Kubernetes resources as structured code in TypeScript, Python, Java, or Go. It features full support for custom-generated CRDs, letting platform teams build clean, reusable configuration libraries.
+## Developer Experience
+
+### Inner Loop
+
+#### Maven Integration
+
+  - **(2025)** [**JKube**](https://eclipse.dev/jkube) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Eclipse JKube is a collection of plugins and libraries used for building container images and generating Kubernetes manifests out of Java projects. Successor to the popular Fabric8 Maven Plugin, it integrates natively into Maven and Gradle builds. In 2026, it remains a robust enterprise choice for teams seeking to automate image builds and deployments directly from their existing JVM build pipelines.
 ## Kubernetes Development
 
 ### Code Generation
@@ -118,7 +128,7 @@ description: "Top Kubernetes Client Libraries resources for 2026, AI-ranked: cdk
   - **(2021)** [blog.marcnuri.com](https://blog.marcnuri.com) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A deep-dive analysis of Eclipse JKube 1.4.0 improvements, focusing on streamlined Helm chart compilation, upgraded core API clients, and enhanced native build properties for container engines.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
