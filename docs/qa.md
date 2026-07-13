@@ -48,7 +48,7 @@ the #1 test automation community.
 - [getxray.app: The top 5 software testing trends of 2022](https://www.getxray.app/blog/the-top-5-software-testing-trends-of-2022)
 - [linkedin.com: Microservices are testable in isolation 🌟](https://www.linkedin.com/pulse/microservices-testable-isolation-chris-richardson)
 - [dzone: Testing the Untestable and Other Anti-Patterns](https://dzone.com/articles/testing-the-untestable-and-other-anti-patterns) The productive path to establishing and maintaining effective test automation is not easy. explore well-intentioned yet harmful anti-patterns.
-- [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.softwaretestingsapiens.com/roadmap-to-learn-api-testing)
+- [softwaretestingsapiens.com: Roadmap to learn API Testing in Just 30 days](https://www.grantneufeld.ca)
 
 ## Blogs
 
