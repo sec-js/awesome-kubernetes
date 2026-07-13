@@ -961,7 +961,7 @@ class V2VisionEngine:
 
     async def _render_single_link(self, l: Dict, is_intro: bool) -> str:
         md = ""
-        is_gold = is_intro and l.get("stars") or 0 >= 4
+        is_gold = is_intro and (l.get("stars") or 0) >= 4
         title = nuclear_strip(l['title']) 
         if is_gold:
             img = f"    ![Preview]({l.get('social_preview_url')})\n" if l.get('social_preview_url') else ""
@@ -1839,7 +1839,7 @@ class V2VisionEngine:
     ---
     💡 **Architectural Recommendation**: Use **JCasC** to set up the controller, **Job DSL** to generate your multibranch pipeline jobs automatically, and a **Declarative Jenkinsfile** inside each repo to define the build steps. Enrich the visual feedback loop by deploying the **Pipeline Graph View Plugin**, and lock the UI down to read-only mode to prevent configuration drift.
 """
-                _body = _body.replace("### Configuration as Code\n\n", f"### Configuration as Code\n{dsl_injection}\n")
+                _body = _body.replace("### Configuration As Code\n\n", f"### Configuration As Code\n{dsl_injection}\n")
                 
                 pipeline_code_injection = """
 !!! info "[Pipeline as Code with Jenkins: Architectural Core Principles](https://www.jenkins.io/solutions/pipeline)"
@@ -1868,7 +1868,7 @@ class V2VisionEngine:
     *   **Scripted vs. Declarative Execution**: While the Groovy-based **scripted syntax** was the default in Jenkins 2, the **declarative syntax** (introduced in Jenkins 2.5) offers a simplified way to control all pipeline aspects. Ultimately, **both syntaxes translate to the same execution blocks** in Jenkins and achieve the same result.
     *   **Structure of Declarative Pipelines**: In its simplest form, a declarative pipeline is composed of an **`agent`** (defining the build executor/slave) and a series of **`stages`**, with each stage containing the specific **`steps`** to be executed.
 """
-                _body = _body.replace("## CICD Pipeline Architecture\n\n", f"## CICD Pipeline Architecture\n{pipeline_code_injection}\n")
+                _body = _body.replace("## CICD\n\n", f"## CICD\n{pipeline_code_injection}\n")
                 
                 _body = _body.replace(
                     "#### Docker Deployment\n\n",
@@ -1927,6 +1927,13 @@ class V2VisionEngine:
     </center>
 """
                 _body += media_section
+                
+                # Permanent Safeguard Validation (Mandate check)
+                # Enforce that critical callout injections were successfully merged and did not fail silently due to heading schema drift.
+                assert "Jenkins Configuration as Code (CasC) Architectural Reference" in _body, "Safety assertion failed: JCasC callout injection was skipped in V2 jenkins.md!"
+                assert "Pipeline as Code with Jenkins: Architectural Core Principles" in _body, "Safety assertion failed: Jenkins Pipeline principles callout was skipped in V2 jenkins.md!"
+                assert "Jenkins Pipeline Best Practices" in _body, "Safety assertion failed: Jenkins Pipeline best practices callout was skipped in V2 jenkins.md!"
+                assert "Building Declarative Pipelines with OpenShift" in _body, "Safety assertion failed: OpenShift pipeline callout was skipped in V2 jenkins.md!"
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
             if f_name == "other-awesome-lists.md":

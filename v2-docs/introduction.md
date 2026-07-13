@@ -47,11 +47,7 @@ graph TD
 
 #### Protocols
 
-??? note "nordicapis.com: 5 Protocols For Event-Driven API Architectures 🌟🌟🌟"
-    **[Access Resource](https://nordicapis.com/5-protocols-for-event-driven-api-architectures)** 🌟🌟🌟 | Level: Intermediate
-    
-    Explores five critical protocols enabling asynchronous API communications: WebSockets, Webhooks, REST Hooks, Pub-Sub models, and Server-Sent Events (SSE). Details how eliminating polling reduces compute overhead and saves bandwidth.
-
+  - **(2021)** [nordicapis.com: 5 Protocols For Event-Driven API Architectures 🌟🌟🌟](https://nordicapis.com/5-protocols-for-event-driven-api-architectures) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores five critical protocols enabling asynchronous API communications: WebSockets, Webhooks, REST Hooks, Pub-Sub models, and Server-Sent Events (SSE). Details how eliminating polling reduces compute overhead and saves bandwidth.
 ### Best Practices
 
 #### EDA
@@ -71,22 +67,10 @@ graph TD
 
 #### EDA (1)
 
-??? note "eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture 🌟"
-    **[Access Resource](https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture)** 🌟 | Level: Intermediate
-    
-    Comprehensively contrasts the request-response paradigm of traditional SOA with the asynchronous, log-centric model of Event-Driven Architectures. Highlights Event Store and event sourcing patterns for strict audit trails.
-
+  - **(2023)** [eventstore.com: Service-Oriented Architecture vs Event-Driven Architecture 🌟](https://www.kurrent.io/blog/service-oriented-architecture-vs-event-driven-architecture) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensively contrasts the request-response paradigm of traditional SOA with the asynchronous, log-centric model of Event-Driven Architectures. Highlights Event Store and event sourcing patterns for strict audit trails.
   - **(2023)** [dev.to/aws-builders: Un Modelo de EDA: Event Driven Architectures](https://dev.to/aws-builders/un-modelo-de-eda-event-driven-architectures-4d9f) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Una guía detallada sobre cómo implementar arquitecturas dirigidas por eventos (EDA) utilizando servicios nativos de AWS como EventBridge, SNS, SQS y Lambda para lograr un desacoplamiento de componentes de backend robusto.
-??? note "equalexperts.com: Event driven architecture: the good, the bad, and the ugly 🌟"
-    **[Access Resource](https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly)** 🌟 | Level: Intermediate
-    
-    Discusses the practical realities of deploying EDA at scale. Evaluates benefits (decoupling, high performance) against complexities (distributed debugging, out-of-order execution, schema evolution management).
-
-??? note "martinfowler.com: What do you mean by “Event-Driven”? 🌟"
-    **[Access Resource](https://martinfowler.com/articles/201701-event-driven.html)** 🌟 | Level: Advanced
-    
-    Martin Fowler clarifies the ambiguous term 'Event-Driven'. Outlines four distinct patterns: Event Notification, Event-Carried State Transfer, Event Sourcing, and CQRS, detailing their operational advantages and pain points.
-
+  - **(2021)** [equalexperts.com: Event driven architecture: the good, the bad, and the ugly 🌟](https://www.equalexperts.com/blog/tech-focus/event-driven-architecture-the-good-the-bad-and-the-ugly) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Discusses the practical realities of deploying EDA at scale. Evaluates benefits (decoupling, high performance) against complexities (distributed debugging, out-of-order execution, schema evolution management).
+  - **(2017)** [martinfowler.com: What do you mean by “Event-Driven”? 🌟](https://martinfowler.com/articles/201701-event-driven.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Martin Fowler clarifies the ambiguous term 'Event-Driven'. Outlines four distinct patterns: Event Notification, Event-Carried State Transfer, Event Sourcing, and CQRS, detailing their operational advantages and pain points.
 #### Evolution
 
   - **(2023)** [designgurus.io: Monolithic vs. Service-Oriented vs. Microservice Architecture: Top Architectural Design Patterns](https://www.designgurus.io/blog/monolithic-service-oriented-microservice-architecture)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Compares monolithic systems, Enterprise Service Bus (ESB)-based SOAs, and decoupled microservices. Identifies modern trade-offs such as operational complexity, deployment velocity, and distributed transaction management.
@@ -109,11 +93,7 @@ graph TD
   - **(2022)** [infoq.com: Managing Technical Debt in a Microservice Architecture](https://www.infoq.com/articles/managing-technical-debt-microservices) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates the specific vectors of technical debt in microservices, including library drift, API versioning overhead, and domain-model fragmentation. Offers architectural rules of thumb to control distributed sprawl.
 #### Orchestration
 
-??? note "stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟"
-    **[Access Resource](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety)** 🌟 | Level: Intermediate
-    
-    Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
-
+  - **(2021)** [stackoverflow.blog: Using Kubernetes to rethink your system architecture and ease technical debt 🌟](https://stackoverflow.blog/2021/05/19/rethinking-system-architecture-can-kubernetes-help-to-solve-rewrite-anxiety) 🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Discusses utilizing a migration to Kubernetes as a strategic catalyst to refactor legacy monoliths. Reorganizes monolithic systems into decoupled containers, successfully lowering long-term architectural tech debt.
 ## Architecture Patterns
 
 ### Microservices (2)
@@ -134,20 +114,12 @@ graph TD
 
 #### Cultural Dynamics
 
-??? note "lavanguardia.com: Por qué la transformación digital es mentira 🌟"
-    **[Access Resource](https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html)** 🌟🌟🌟 | Level: Beginner
-    
-    Un análisis crítico sobre las falacias que rodean el concepto de 'transformación digital' en el mundo corporativo. El autor argumenta que la tecnología por sí sola no arregla procesos rotos, señalando que el verdadero cambio radica en la reestructuración cultural y la optimización organizativa.
-
+  - **(2020)** [lavanguardia.com: Por qué la transformación digital es mentira 🌟](https://www.lavanguardia.com/economia/20201014/484036217179/transformacion-digital-empresas-foncillas-pf-video-seo-lv.html) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Un análisis crítico sobre las falacias que rodean el concepto de 'transformación digital' en el mundo corporativo. El autor argumenta que la tecnología por sí sola no arregla procesos rotos, señalando que el verdadero cambio radica en la reestructuración cultural y la optimización organizativa.
 ### Organizational Structure
 
 #### DevOps Culture
 
-??? note "thenewstack.io: Study: Silos Are the Chief Impediment to IT and Business Value"
-    **[Access Resource](https://thenewstack.io/study-silos-are-chief-impediment-to-it-and-business-value)** 🌟🌟🌟 | Level: Intermediate
-    
-    Analyzes survey data proving how organizational and technological silos directly impede software delivery velocity and downstream business value. Argues that introducing modern container technology without breaking down departmental silos leads to failed platform transformations.
-
+  - **(2020)** [thenewstack.io: Study: Silos Are the Chief Impediment to IT and Business Value](https://thenewstack.io/study-silos-are-chief-impediment-to-it-and-business-value) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analyzes survey data proving how organizational and technological silos directly impede software delivery velocity and downstream business value. Argues that introducing modern container technology without breaking down departmental silos leads to failed platform transformations.
 ## CICD and DevOps
 
 ### Continuous Integration
@@ -214,11 +186,7 @@ graph TD
 
 #### Market Trends
 
-??? note "enterprisersproject.com: 5 hybrid cloud trends to watch in 2021"
-    **[Access Resource](https://enterprisersproject.com/article/2021/1/5-hybrid-cloud-trends-2021)** 🌟🌟🌟 | Level: Intermediate
-    
-    Identifies key industry shifts in the hybrid and multi-cloud landscape, focusing on managed hybrid control planes, unified security tooling, and the integration of edge environments with central public cloud architectures to meet data compliance requirements.
-
+  - **(2021)** [enterprisersproject.com: 5 hybrid cloud trends to watch in 2021](https://enterprisersproject.com/article/2021/1/5-hybrid-cloud-trends-2021) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Identifies key industry shifts in the hybrid and multi-cloud landscape, focusing on managed hybrid control planes, unified security tooling, and the integration of edge environments with central public cloud architectures to meet data compliance requirements.
 ### Migration
 
 #### Hands-on
@@ -262,20 +230,12 @@ graph TD
 
 #### Hybrid Cloud Strategy (1)
 
-??? note "thenewstack.io: Are Private Clouds Proliferating?"
-    **[Access Resource](https://thenewstack.io/google-and-oracle-cloud-adoption-doubles-among-enterprises-3)** 🌟🌟🌟 | Level: Intermediate
-    
-    Examines enterprise hybrid cloud data, highlighting why many organizations continue to maintain, build, or modernize private clouds alongside public cloud footprints. Looks at compliance, data sovereignty, predictable workloads, and hybrid architectures (e.g. Anthos, Outposts).
-
+  - **(2020)** [thenewstack.io: Are Private Clouds Proliferating?](https://thenewstack.io/google-and-oracle-cloud-adoption-doubles-among-enterprises-3) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines enterprise hybrid cloud data, highlighting why many organizations continue to maintain, build, or modernize private clouds alongside public cloud footprints. Looks at compliance, data sovereignty, predictable workloads, and hybrid architectures (e.g. Anthos, Outposts).
 ### Professional Development
 
 #### Career Engineering
 
-??? note "ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar"
-    **[Access Resource](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar)** 🌟🌟🌟 | Level: Intermediate
-    
-    Analiza las competencias técnicas e interpersonales críticas para un arquitecto cloud en el panorama empresarial moderno. Destaca la necesidad de dominar no solo arquitecturas multinube, automatización con IaC y seguridad, sino también habilidades de comunicación para traducir decisiones tecnológicas en valor de negocio.
-
+  - **(2020)** [ituser.es: Las principales habilidades que un arquitecto cloud necesita para triunfar](https://www.ituser.es/opinion/2020/07/las-principales-habilidades-que-un-arquitecto-cloud-necesita-para-triunfar) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza las competencias técnicas e interpersonales críticas para un arquitecto cloud en el panorama empresarial moderno. Destaca la necesidad de dominar no solo arquitecturas multinube, automatización con IaC y seguridad, sino también habilidades de comunicación para traducir decisiones tecnológicas en valor de negocio.
 ### Strategy
 
 #### Multi-cloud Benefits
@@ -315,11 +275,7 @@ graph TD
 
 #### Comparison
 
-??? note "acloudguru.com: Public cloud vs private cloud: What’s the difference? 🌟"
-    **[Access Resource](https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference)** 🌟🌟🌟 | Level: Beginner
-    
-    Demystifies the core operational, fiscal, and regulatory distinctions between public and private cloud models. The article provides a structured baseline for cloud engineering teams to evaluate infrastructure capital expenditures (CapEx) against operational expenditures (OpEx) based on resource control needs.
-
+  - **(2022)** [acloudguru.com: Public cloud vs private cloud: What’s the difference? 🌟](https://www.pluralsight.com/resources/blog/business-and-leadership/public-cloud-vs-private-cloud-whats-the-difference) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies the core operational, fiscal, and regulatory distinctions between public and private cloud models. The article provides a structured baseline for cloud engineering teams to evaluate infrastructure capital expenditures (CapEx) against operational expenditures (OpEx) based on resource control needs.
 #### Hybrid and Private Cloud
 
 ??? note "thenewstack.io: Private vs. Public Cloud: How Kubernetes Shifts the Balance"
@@ -347,11 +303,7 @@ graph TD
 
 #### Open Source Business Models
 
-??? note "websiteplanet.com: What’s Open Source Software + How It Makes Money 2022"
-    **[Access Resource](https://www.websiteplanet.com/blog/what-is-open-source-software/?geo=us&device=desktop)** 🌟🌟🌟 | Level: Beginner
-    
-    Details the monetization mechanics driving open-source software (OSS) ecosystems, covering models like open-core, dual-licensing, and cloud hosting. Helps engineering leaders assess the long-term sustainability and licensing risks associated with critical software dependencies.
-
+  - **(2022)** [websiteplanet.com: What’s Open Source Software + How It Makes Money 2022](https://www.websiteplanet.com/blog/what-is-open-source-software/?geo=us&device=desktop) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the monetization mechanics driving open-source software (OSS) ecosystems, covering models like open-core, dual-licensing, and cloud hosting. Helps engineering leaders assess the long-term sustainability and licensing risks associated with critical software dependencies.
 ### Migration and Modernization
 
 #### Enterprise Solutions
@@ -395,11 +347,7 @@ graph TD
 
 #### Business Drivers
 
-??? note "thenewstack.io: Reasons to Opt for a Multicloud Strategy"
-    **[Access Resource](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy)** 🌟🌟🌟 | Level: Beginner
-    
-    Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
-
+  - **(2022)** [thenewstack.io: Reasons to Opt for a Multicloud Strategy](https://thenewstack.io/reasons-to-opt-for-a-multicloud-strategy) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines key operational drivers supporting a deliberate multi-cloud migration strategy, centering on geographic expansion, regional regulatory mandates, and optimized billing leverage. The resource emphasizes treating multi-cloud as a strategic framework to optimize application delivery across diverse vendor strengths.
 ### Storage and Hybrid Systems
 
 #### Topology Comparison
@@ -450,11 +398,7 @@ graph TD
 
 #### Operational Automation
 
-??? note "theregister.com: How Kubernetes lowers costs and automates IT department work"
-    **[Access Resource](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708)** 🌟🌟🌟 | Level: Intermediate
-    
-    Evaluates the cost-efficiency and performance benefits of transitioning IT operations from legacy VMs to Kubernetes-orchestrated workloads. Examines auto-scaling, bin-packing, and automated operations as primary factors for decreasing infrastructural and labor expenditures.
-
+  - **(2021)** [theregister.com: How Kubernetes lowers costs and automates IT department work](https://www.theregister.com/software/2021/12/21/how-kubernetes-lowers-costs-and-automates-it-department-work/1316708) 🌟🌟🌟 <span class='md-tag md-tag--critical'>[LEGACY]</span> — Evaluates the cost-efficiency and performance benefits of transitioning IT operations from legacy VMs to Kubernetes-orchestrated workloads. Examines auto-scaling, bin-packing, and automated operations as primary factors for decreasing infrastructural and labor expenditures.
 ### Container Orchestration
 
 #### Deep Dive
@@ -578,11 +522,7 @@ graph TD
 
 #### Infrastructure Management
 
-??? note "addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?"
-    **[Access Resource](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure)** 🌟🌟🌟 | Level: Beginner
-    
-    Outlines the business-level value propositions of Kubernetes, including horizontal auto-scaling, resource optimization, and reduced cloud vendor lock-in. It bridges the gap between technical orchestration features and business metrics like accelerated time-to-market and infrastructure cost-efficiency.
-
+  - **(2021)** [addwebsolution.com: How Kubernetes helps businesses manage their IT infrastructure?](https://www.addwebsolution.com/blog/how-kubernetes-helps-businesses-manage-their-it-infrastructure) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the business-level value propositions of Kubernetes, including horizontal auto-scaling, resource optimization, and reduced cloud vendor lock-in. It bridges the gap between technical orchestration features and business metrics like accelerated time-to-market and infrastructure cost-efficiency.
 ### CNCF Ecosystem
 
 #### Platform Engineering (1)
@@ -601,16 +541,8 @@ graph TD
 
 #### Fundamentals (2)
 
-??? note "opensource.com: 6 container concepts you need to understand"
-    **[Access Resource](https://opensource.com/article/20/12/containers-101)** 🌟🌟🌟 | Level: Beginner
-    
-    Demystifies Linux kernel-level container mechanisms by breaking down the core abstractions. Provides clear explanations of namespaces, cgroups, container images, registries, runtimes, and the relationship between containers and virtual machines.
-
-??? note "makeuseof.com: hich Container System Should You Use: Kubernetes or Docker?"
-    **[Access Resource](https://www.makeuseof.com/kubernetes-or-docker)** 🌟🌟 | Level: Beginner
-    
-    Clarifies the common beginner point of confusion comparing Docker with Kubernetes. Explains that Docker is a containerization engine focused on packing and running single application workloads, while Kubernetes is an orchestrator managing fleets of containers across physical resources.
-
+  - **(2020)** [opensource.com: 6 container concepts you need to understand](https://opensource.com/article/20/12/containers-101) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demystifies Linux kernel-level container mechanisms by breaking down the core abstractions. Provides clear explanations of namespaces, cgroups, container images, registries, runtimes, and the relationship between containers and virtual machines.
+  - **(2021)** [makeuseof.com: hich Container System Should You Use: Kubernetes or Docker?](https://www.makeuseof.com/kubernetes-or-docker) 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Clarifies the common beginner point of confusion comparing Docker with Kubernetes. Explains that Docker is a containerization engine focused on packing and running single application workloads, while Kubernetes is an orchestrator managing fleets of containers across physical resources.
 #### Operations Guide
 
 ??? note "redhat.com: A sysadmin's guide to containerizing applications"
@@ -631,11 +563,7 @@ graph TD
 
 #### Fundamentals (3)
 
-??? note "loves.cloud: Kubernetes: An Introduction"
-    **[Access Resource](https://loves.cloud/kubernetes-an-introduction)** 🌟🌟🌟 | Level: Beginner
-    
-    Introduces the foundational architecture of Kubernetes, tracing its heritage from Google's internal Borg system to an open-source standard. Explains core concepts such as Pods, Services, Deployments, and the control plane architecture (API Server, etcd, Scheduler, Controller Manager) for bare-metal and cloud migrations.
-
+  - **(2020)** [loves.cloud: Kubernetes: An Introduction](https://loves.cloud/kubernetes-an-introduction) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the foundational architecture of Kubernetes, tracing its heritage from Google's internal Borg system to an open-source standard. Explains core concepts such as Pods, Services, Deployments, and the control plane architecture (API Server, etcd, Scheduler, Controller Manager) for bare-metal and cloud migrations.
 #### Future Trends
 
 ??? note "jaxenter.com: Kubernetes Is Much Bigger Than Containers: Here’s Where It Will Go Next"
@@ -652,11 +580,7 @@ graph TD
 
 #### Industry Trends
 
-??? note "devprojournal.com: Containers, Kubernetes and Software Development in 2021"
-    **[Access Resource](https://www.devprojournal.com/technology-trends/kubernetes/containers-kubernetes-and-software-development-in-2021)** 🌟🌟🌟 | Level: Intermediate
-    
-    Evaluates market adoption trends of container ecosystems. Discusses how organizations leverage automated container configurations to speed up local testing cycles, isolate software runtimes, and optimize multi-cloud deployment paradigms.
-
+  - **(2021)** [devprojournal.com: Containers, Kubernetes and Software Development in 2021](https://www.devprojournal.com/technology-trends/kubernetes/containers-kubernetes-and-software-development-in-2021) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates market adoption trends of container ecosystems. Discusses how organizations leverage automated container configurations to speed up local testing cycles, isolate software runtimes, and optimize multi-cloud deployment paradigms.
 #### Kubernetes Tools
 
 ??? note "jaxenter.com: Six Essential Kubernetes Extensions to Add to Your Toolkit 🌟"
@@ -689,11 +613,7 @@ graph TD
 
 #### Career Engineering (1)
 
-??? note "javarevisited.blogspot.com: Why Every Programmer, DevOps Engineer Should learn Docker and Kubernetes in 2020"
-    **[Access Resource](https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html)** 🌟🌟🌟 | Level: Beginner
-    
-    Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
-
+  - **(2020)** [javarevisited.blogspot.com: Why Every Programmer, DevOps Engineer Should learn Docker and Kubernetes in 2020](https://javarevisited.blogspot.com/2020/11/why-devops-engineer-learn-docker-kubernetes.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines why containerization and container orchestration skills have transitioned from advanced operational specialties to core software development competencies. Highlights the industry-wide ubiquity of Docker and Kubernetes for consistent, reproducible builds across local and cloud environments.
 ### Technology Assessment (1)
 
 #### Compute Paradigms
@@ -723,20 +643,12 @@ graph TD
 
 #### Operational Efficiency
 
-??? note "redhat.com: Use automation to combat your increased workload"
-    **[Access Resource](https://www.redhat.com/en/blog/automation-combat-increased-workload)** 🌟🌟🌟 | Level: Beginner
-    
-    Focuses on the role of system-wide automation frameworks (e.g., Ansible, Chef) in managing scale complexity within modern engineering groups. Illustrates how automating toil and routine operations reduces human error rate and frees cognitive resources for high-value architecture planning.
-
+  - **(2021)** [redhat.com: Use automation to combat your increased workload](https://www.redhat.com/en/blog/automation-combat-increased-workload) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Focuses on the role of system-wide automation frameworks (e.g., Ansible, Chef) in managing scale complexity within modern engineering groups. Illustrates how automating toil and routine operations reduces human error rate and frees cognitive resources for high-value architecture planning.
 ### Culture and Roles
 
 #### Systems Administration Evolution
 
-??? note "opensource.com: What do we call post-modern system administrators?"
-    **[Access Resource](https://opensource.com/article/21/7/system-administrators)** 🌟🌟🌟 | Level: Beginner
-    
-    Reflects on the transformation of the system administrator role into Site Reliability Engineering (SRE), Platform Engineering, and DevOps roles. It highlights how infrastructure-as-code, GitOps, and high automation levels have reshaped the operational skills required to maintain state-of-the-art enterprise platforms.
-
+  - **(2021)** [opensource.com: What do we call post-modern system administrators?](https://opensource.com/article/21/7/system-administrators) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Reflects on the transformation of the system administrator role into Site Reliability Engineering (SRE), Platform Engineering, and DevOps roles. It highlights how infrastructure-as-code, GitOps, and high automation levels have reshaped the operational skills required to maintain state-of-the-art enterprise platforms.
 ### Infrastructure-as-code
 
 #### Self-healing Systems
@@ -759,25 +671,13 @@ graph TD
 
 #### Developer Cognitive Load
 
-??? note "infoworld.com: Complexity is killing software developers"
-    **[Access Resource](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html)** 🌟🌟🌟 | Level: Intermediate
-    
-    Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
-
+  - **(2022)** [infoworld.com: Complexity is killing software developers](https://www.infoworld.com/article/2270714/complexity-is-killing-software-developers.html) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Addresses the rising developer cognitive load induced by the sprawl of cloud-native configurations, tooling, and infrastructure details. Argues for developer-centric abstractions and internal developer platforms (IDPs) to insulate application developers from cloud complexity and boost velocity.
 #### Programming Languages
 
-??? note "enter.co: Estos son los 10 lenguajes de programación más populares en 2021"
-    **[Access Resource](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021)** 🌟🌟🌟 | Level: Beginner
-    
-    Revisa los lenguajes de programación más influyentes y demandados del año 2021, evaluando su adopción en microservicios, frontend y desarrollo móvil. Ayuda a los equipos de desarrollo a evaluar qué tecnologías garantizan mayor facilidad para contratar talento y compatibilidad de librerías a largo plazo.
-
+  - **(2021)** [enter.co: Estos son los 10 lenguajes de programación más populares en 2021](https://www.enter.co/especiales/dev/herramientas-dev/estos-son-los-10-lenguajes-de-programacion-mas-populares-en-2021) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Revisa los lenguajes de programación más influyentes y demandados del año 2021, evaluando su adopción en microservicios, frontend y desarrollo móvil. Ayuda a los equipos de desarrollo a evaluar qué tecnologías garantizan mayor facilidad para contratar talento y compatibilidad de librerías a largo plazo.
 #### Technical Debt (1)
 
-??? note "xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas"
-    **[Access Resource](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas)** 🌟🌟🌟 | Level: Beginner
-    
-    Analiza las repercusiones financieras y operativas de la deuda técnica dentro de los equipos de desarrollo modernos, destacando que los ingenieros pierden aproximadamente un día por semana mitigándola. El informe subraya la necesidad de implementar prácticas de refactorización continuas y arquitecturas robustas para mitigar este impacto.
-
+  - **(2021)** [xataka.com: La deuda técnica, un lastre para las tecnológicas: un estudio señala que los informáticos pierden casi un día de trabajo a la semana para solventarlas](https://www.xataka.com/pro/deuda-tecnica-lastre-para-tecnologicas-estudio-senala-que-informaticos-pierden-casi-dia-trabajo-a-semana-para-solventarlas) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Analiza las repercusiones financieras y operativas de la deuda técnica dentro de los equipos de desarrollo modernos, destacando que los ingenieros pierden aproximadamente un día por semana mitigándola. El informe subraya la necesidad de implementar prácticas de refactorización continuas y arquitecturas robustas para mitigar este impacto.
 ## Distributed Systems
 
 ### Consensus
@@ -1000,11 +900,7 @@ graph TD
 
 #### Curated Reference
 
-??? note "redhat.com: Top 8 resources for microservices architecture of 2021"
-    **[Access Resource](https://www.redhat.com/en/blog/best-microservices-2021)** 🌟🌟🌟 | Level: Intermediate
-    
-    A curated compilation of top-tier resources discussing microservices, distributed logging, service mesh implementations, and event-driven patterns. Provides platform architects with a quick roadmap to explore advanced container patterns and decentralized database design approaches.
-
+  - **(2021)** [redhat.com: Top 8 resources for microservices architecture of 2021](https://www.redhat.com/en/blog/best-microservices-2021) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated compilation of top-tier resources discussing microservices, distributed logging, service mesh implementations, and event-driven patterns. Provides platform architects with a quick roadmap to explore advanced container patterns and decentralized database design approaches.
 ### Architecture Patterns (1)
 
 #### Best Practices (4)
@@ -1090,11 +986,7 @@ graph TD
   - **(2022)** [acloudguru.com: Twelve-Factor Apps in Kubernetes](https://www.pluralsight.com/resources/blog/cloud/twelve-factor-apps-in-kubernetes)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates mapping the 12-Factor framework directly onto Kubernetes primitives. Maps ConfigMaps and Secrets to Factor III (Config), and Deployments/ReplicaSets to Factor IX (Disposability).
 #### Workloads
 
-??? note "thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟"
-    **[Access Resource](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse)** 🌟🌟 | Level: Advanced
-    
-    Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
-
+  - **(2024)** [thenewstack.io: Kubernetes Evolution: From Microservices to Batch Processing Powerhouse 🌟🌟](https://thenewstack.io/kubernetes-evolution-from-microservices-to-batch-processing-powerhouse) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Kubernetes' evolution from a simple microservices hosting platform to an advanced orchestrator for heavy batch processing, AI/ML training runs, and high-performance computing (HPC) jobs.
 ## Platform Engineering (3)
 
 ### Paas Solutions
@@ -1120,11 +1012,7 @@ graph TD
 
 #### Microservices Governance
 
-??? note "getcortexapp.com: Why You Need a Microservices Catalog Tool"
-    **[Access Resource](https://www.cortex.io/post/why-you-need-a-microservices-catalog-tool)** 🌟🌟🌟 | Level: Intermediate
-    
-    Details the operational sprawl that occurs as organizations scale their microservices topologies. Proposes centralized service catalogs (similar to Backstage or Cortex) to map dependencies, track security compliance, enforce reliability standards, and assign service ownership across teams.
-
+  - **(2021)** [getcortexapp.com: Why You Need a Microservices Catalog Tool](https://www.cortex.io/post/why-you-need-a-microservices-catalog-tool) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Details the operational sprawl that occurs as organizations scale their microservices topologies. Proposes centralized service catalogs (similar to Backstage or Cortex) to map dependencies, track security compliance, enforce reliability standards, and assign service ownership across teams.
 ## Professional Development (2)
 
 ### Career Guidance
@@ -1230,11 +1118,7 @@ graph TD
 
 #### Value Proposition
 
-??? note "devops.com: 6 Advantages of Microservices"
-    **[Access Resource](https://devops.com/6-advantages-of-microservices)** 🌟🌟🌟 | Level: Beginner
-    
-    Outlines the foundational architectural advantages of adopting a microservices pattern, including technological flexibility, autonomous deployability, localized scaling, fault isolation, and improved team ownership over distinct domain services.
-
+  - **(2020)** [devops.com: 6 Advantages of Microservices](https://devops.com/6-advantages-of-microservices) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines the foundational architectural advantages of adopting a microservices pattern, including technological flexibility, autonomous deployability, localized scaling, fault isolation, and improved team ownership over distinct domain services.
 ### Modernization (2)
 
 #### Strangler Pattern
@@ -1272,11 +1156,7 @@ graph TD
 
 #### Architectural Roles
 
-??? note "viewnext.com: Front End vs Back End (spanish)"
-    **[Access Resource](https://www.viewnext.com/front-end-vs-back-end)** 🌟🌟 | Level: Beginner
-    
-    Explica la división fundamental del desarrollo de software entre el Front End y el Back End. Describe las tecnologías clave de la capa de presentación (HTML, CSS, JavaScript frameworks) y las arquitecturas de servidor de la capa lógica, bases de datos y APIs que las sostienen.
-
+  - **(2020)** [viewnext.com: Front End vs Back End (spanish)](https://www.viewnext.com/front-end-vs-back-end) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explica la división fundamental del desarrollo de software entre el Front End y el Back End. Describe las tecnologías clave de la capa de presentación (HTML, CSS, JavaScript frameworks) y las arquitecturas de servidor de la capa lógica, bases de datos y APIs que las sostienen.
 ### Performance Optimization
 
 #### System Architecture
