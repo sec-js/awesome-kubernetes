@@ -140,9 +140,9 @@ Additionally, as of May 2026, Nubenetes has reached the **Platinum Operational T
 <!-- HEART_STATS_START -->
 | Metric | Value |
 | :--- | :--- |
-| **Total Technical Resources (Links)** | **18660+** |
+| **Total Technical Resources (Links)** | **18663+** |
 | **Specialized MD Pages** | **162** |
-| **Total Commits** | **6907+** |
+| **Total Commits** | **6909+** |
 | **Primary AI Engine** | **Google Gemini (Agentic)** |
 <!-- HEART_STATS_END -->
 
@@ -180,7 +180,7 @@ The growth of Nubenetes reflects the acceleration of the Cloud Native ecosystem.
 | 6 | 2023 | 30 | 123 | Maintenance & Refinement |
 | 7 | 2024 | 53 | 218 | Curation Strategy Pivot |
 | 8 | 2025 | 5 | 20 | Stability & Research Phase |
-| 9 | 2026 | 3348 | 13,827 | **Agentic AI Surge** (May 2026 Inception) |
+| 9 | 2026 | 3350 | 13,835 | **Agentic AI Surge** (May 2026 Inception) |
 <!-- ANNUAL_GROWTH_END -->
 
 <!-- ANNUAL_CHART_START -->
@@ -196,8 +196,8 @@ xychart-beta
     title "Nubenetes Annual Growth Metrics (2018–2026)"
     x-axis ["2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"]
     y-axis "Volume (Commits / Estimated New Refs)" 0 --> 14000
-    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 13827]
-    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3348]
+    bar [1445, 586, 8449, 2193, 1660, 123, 218, 20, 13835]
+    bar [350, 142, 2046, 531, 402, 30, 53, 5, 3350]
 ```
 <!-- ANNUAL_CHART_END -->
 
@@ -208,7 +208,7 @@ xychart-beta
 | 2026-04 | 25 | 103 | Active Curation |
 | 2026-05 | 2101 | 8,677 | **Agentic Inception (Gemini Era)** |
 | 2026-06 | 853 | 3,522 | Active Curation |
-| 2026-07 | 369 | 1,523 | Active Curation |
+| 2026-07 | 371 | 1,532 | Active Curation |
 <!-- MONTHLY_SURGE_END -->
 
 ### 2.4. Content Distribution and Semantic Clustering
@@ -221,7 +221,7 @@ This chart shows the high-level distribution across the primary domains of Cloud
 <!-- PILLAR_CHART_START -->
 ```mermaid
 pie title Nubenetes Major Ecosystem Pillars
-    "Specialized Topics" : 4260
+    "Specialized Topics" : 4263
     "Kubernetes Ecosystem" : 3500
     "Developer Ecosystem" : 3000
     "Public/Private Cloud" : 2500
@@ -242,7 +242,7 @@ Reflecting Nubenetes' mission of global access while maintaining technical Engli
 <!-- SUB_ECO_CHART_START -->
 ```mermaid
 pie title Linguistic Diversity (Global Access)
-    "English" : 16794
+    "English" : 16796
     "Spanish" : 1119
     "French" : 186
     "Others" : 559
