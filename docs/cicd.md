@@ -213,7 +213,7 @@
   - [Draw.io MCP for Diagram Generation: Why It’s Worth Using](https://thomasthornton.cloud/draw-io-mcp-for-diagram-generation-why-its-worth-using) - *(Related to cloud-arch-diagrams topic)*
   - [Buildbot](https://buildbot.net) - Buildbot is an open-source Python-based framework for automating software build, test, and release processes. It facilitates continuous integration and continuous delivery pipelines.
   - [PMEase QuickBuild](https://www.pmease.com) - QuickBuild is a flexible continuous integration and continuous deployment (CI/CD) server designed for DevOps teams. It offers features like build promotion, integration with LDAP, and support for various build customization options. Version 16.0 includes updates for Java LTS, improved build subscriptions, artifact reservation, and API enhancements.
-  - [FossFLOW](https://github.com/stan-smith/FossFLOW) - A CI/CD pipeline for GitHub projects using GitHub Actions, Argo CD for GitOps, and FluxCD.
+  - [FossFLOW](https://github.com/victortassinari/FossFLOW) - A CI/CD pipeline for GitHub projects using GitHub Actions, Argo CD for GitOps, and FluxCD.
   - [Canine: A Developer-friendly PaaS for Kubernetes](https://canine.sh) - *(Related to kubernetes-tools topic)*
   - [Azure DevOps MCP Server](https://github.com/microsoft/azure-devops-mcp) - *(Related to azure topic)*
   - [Azure DevOps MCP Server Public Preview](https://devblogs.microsoft.com/devops/azure-devops-mcp-server-public-preview) - *(Related to ai topic)*
