@@ -84,13 +84,6 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
 #### Tracing
 
   - **(2021)** [SystemTap](https://sourceware.org/systemtap) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Deep diagnostic software for Linux kernels allowing engineers to trace system calls and profile execution pathways in black-box binaries dynamically without recompilation.
-## Kubernetes Developer Experience
-
-### Inner-loop Automation
-
-#### Guides
-
-  - **(2021)** [rookout.com: Developer Tools for Kubernetes in 2021: Helm, Kustomize, and Skaffold (Part 1)](https://www.dynatrace.com/solutions/observability-for-developers) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Comprehensive multi-part review of critical Kubernetes development tools. Examines deployment mechanisms (Helm, Kustomize), real-time sync engines (Skaffold, Tilt, Garden), IDE extensions, and container building alternatives.
 ## Security
 
 ### CICD
@@ -187,7 +180,7 @@ description: "Top QA resources for 2026, AI-ranked: Awesome Test Automation, JUn
   - **(2022)** [thenewstack.io: 7 Benefits of Testing in Isolation](https://thenewstack.io/7-benefits-of-testing-in-isolation) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines seven architectural advantages of isolated component testing. Details why using service mocks, localized databases, and sandboxed test environments accelerates regression tracking and simplifies dependency configurations.
 
 ---
-💡 **Explore Related:** [DevOps](./devops.md) | [Chaos Engineering](./chaos-engineering.md) | [SRE](./sre.md)
+💡 **Explore Related:** [DevOps](./devops.md) | [Performance Testing With Jenkins And Jmeter](./performance-testing-with-jenkins-and-jmeter.md) | [Test Automation Frameworks](./test-automation-frameworks.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

@@ -136,7 +136,7 @@ description: "Top Registries resources for 2026, AI-ranked: GitHub: Nexus-CLI, H
   - **(2025)** [==jfrog.com: Kubernetes Helm Chart Repositories 🌟==](https://docs.jfrog.com) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Enterprise guide to leveraging JFrog Artifactory as a secure, high-availability Helm chart repository. Covers repository layout, role-based access control, package versioning, and integration with Kubernetes container execution steps.
 
 ---
-💡 **Explore Related:** [CI/CD](./cicd.md) | [Jenkins Alternatives](./jenkins-alternatives.md) | [Gitops](./gitops.md)
+💡 **Explore Related:** [Jenkins](./jenkins.md) | [Openshift Pipelines](./openshift-pipelines.md) | [Flux](./flux.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

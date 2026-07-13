@@ -61,7 +61,15 @@
       <guid isPermaLink="true">https://github.com/dagger/dagger</guid>
       <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Dagger represents a major paradigm shift in CI/CD by replacing brittle YAML pipelines with portable, code-driven workflows executed on BuildKit.</description>
+      <description>[CRITICAL] Dagger introduces a paradigm shift by replacing complex, vendor-locked YAML pipelines with portable, code-based CI/CD environments built on BuildKit.</description>
+    </item>
+    <item>
+      <title>Helm</title>
+      <link>https://nubenetes.com/helm</link>
+      <guid isPermaLink="true">https://nubenetes.com/helm</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 -0000</pubDate>
+      <category>CI/CD &amp; GitOps</category>
+      <description>[CRITICAL] The foundational package manager for Kubernetes that powers modern declarative deployments and serves as a vital component in GitOps pipelines.</description>
     </item>
     <item>
       <title>github.com: Istio</title>
@@ -77,7 +85,7 @@
       <guid isPermaLink="true">https://github.com/fluxcd/flux2</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 -0000</pubDate>
       <category>CI/CD &amp; GitOps</category>
-      <description>[CRITICAL] Flux v2 is a foundational CNCF graduated project that implements a highly parallelized, modular GitOps controller architecture for enterprise-grade reconciliation.</description>
+      <description>[CRITICAL] A core CNCF GitOps engine that provides highly parallelized and decoupled multi-tenant reconciliation for Kubernetes clusters.</description>
     </item>
     <item>
       <title>github.com/prometheus/prometheus</title>
@@ -128,12 +136,20 @@
       <description>[CRITICAL] This next-generation standard officially supersedes legacy Kubernetes Ingress, introducing role-oriented, highly expressive, and extensible routing APIs.</description>
     </item>
     <item>
+      <title>Zalando Postgres Operator</title>
+      <link>https://github.com/zalando/postgres-operator</link>
+      <guid isPermaLink="true">https://github.com/zalando/postgres-operator</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
+      <category>Data, Messaging &amp; Storage</category>
+      <description>[CRITICAL] The industry-standard operator for deploying highly available PostgreSQL clusters with Patroni on Kubernetes.</description>
+    </item>
+    <item>
       <title>github.com/vmware-tanzu/velero</title>
       <link>https://github.com/velero-io/velero</link>
       <guid isPermaLink="true">https://github.com/velero-io/velero</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 -0000</pubDate>
       <category>Data, Messaging &amp; Storage</category>
-      <description>[CRITICAL] Velero is the de facto industry standard for backing up and restoring Kubernetes persistent volumes and cluster state.</description>
+      <description>[CRITICAL] The de facto open-source standard for backing up, restoring, and migrating Kubernetes cluster resources and persistent volumes.</description>
     </item>
     <item>
       <title>trivy</title>
@@ -150,22 +166,6 @@
       <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
       <category>Infrastructure as Code</category>
       <description>[CRITICAL] This major release solves a long-standing modular limitation of upstream Terraform, solidifying OpenTofu as a highly competitive and innovative open-source alternative.</description>
-    </item>
-    <item>
-      <title>The Agentic Infrastructure Era | Pulumi Releases</title>
-      <link>https://www.pulumi.com/releases/agentic-infrastructure-era</link>
-      <guid isPermaLink="true">https://www.pulumi.com/releases/agentic-infrastructure-era</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Infrastructure as Code</category>
-      <description>[CRITICAL] This release marks a massive industry shift toward autonomous, AI-driven infrastructure provisioning and self-healing environments.</description>
-    </item>
-    <item>
-      <title>New in Terraform 1.15: Dynamic sources, variable deprecation, and more</title>
-      <link>https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</link>
-      <guid isPermaLink="true">https://www.hashicorp.com/en/blog/new-in-terraform-115-dynamic-sources-variable-deprecation-and-more</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 -0000</pubDate>
-      <category>Infrastructure as Code</category>
-      <description>[CRITICAL] This major upstream release introduces native dynamic module sources and versioning, greatly improving how practitioners manage complex runtime configurations.</description>
     </item>
   </channel>
 </rss>

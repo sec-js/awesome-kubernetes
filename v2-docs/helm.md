@@ -1,5 +1,5 @@
 ---
-description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and more — curated Cloud Native tools, guides and references."
+description: "Top Helm resources for 2026, AI-ranked: Helm, Artifact Hub and more — curated Cloud Native tools, guides and references."
 ---
 # Helm Kubernetes Tool
 
@@ -127,12 +127,9 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
 ##### Jenkins
 
   - **(2021)** [Zero to Kubernetes CI/CD in 5 minutes with Jenkins and Helm](https://www.youtube.com/watch?v=eMOzF_xAm7w)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Demonstrates rapid bootstrap of a Jenkins-driven CI/CD workflow utilizing Helm charts for packaging. Showcases how automation systems leverage the Helm CLI to rapidly package, version, and deploy builds into target namespaces.
-##### Red Hat Openshift (1)
-
-  - **(2021)** [developers.redhat.com: Deploy Helm charts with Jenkins CI/CD in Red Hat OpenShift 4 🌟](https://developers.redhat.com/articles/2021/05/24/deploy-helm-charts-jenkins-cicd-red-hat-openshift-4)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Developer workflow demonstrating automated packaging and continuous delivery of Helm charts using Jenkins pipelines in OpenShift 4. Reviews the integration of enterprise security constraints and build processes.
 ### Enterprise Platforms
 
-#### Red Hat Openshift (2)
+#### Red Hat Openshift (1)
 
 ##### Certifications
 
@@ -225,6 +222,11 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2026)** [prometheus-community.github.io: Prometheus Community Kubernetes Helm Charts 🌟](https://prometheus-community.github.io/helm-charts) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official Prometheus community Helm charts registry, housing the essential kube-prometheus-stack. This remains the absolute industry standard for managing Prometheus, Grafana dashboards, Alertmanager definitions, and metrics-collector sidecars.
 ## Platform Engineering
 
+### Application Delivery (2)
+
+#### Catalog UI
+
+  - **(2025)** [==kubeapps.dev 🌟==](https://kubeapps.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A web-based control plane for deploying and managing packaged cloud-native applications on Kubernetes. Provides visual tooling to interact with Helm charts, Operators, and Carvel packages with integrated RBAC and multi-cluster deployment scopes.
 ### Kubernetes Gitops and Packaging
 
 #### Alternative Deployment Engines
@@ -302,7 +304,7 @@ description: "Top Helm resources for 2026, AI-ranked: Artifact Hub, Helm and mor
   - **(2022)** [aws.amazon.com: Preventing Kubernetes misconfigurations using Datree](https://aws.amazon.com/blogs/containers/preventing-kubernetes-misconfigurations-using-datree) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An AWS technical write-up detailing the configuration of Datree policies inside Amazon EKS clusters to catch security and configuration drift. It details automated testing strategies to block misconfigured resource manifests at pre-commit and pipeline execution gates.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

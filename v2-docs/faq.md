@@ -47,13 +47,6 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
 #### Storage Strategy
 
   - **(2022)** [thenewstack.io: Choosing Between Container-Native and Container-Ready Storage 🌟](https://thenewstack.io/choosing-between-container-native-and-container-ready-storage) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A structural comparison between container-native and container-ready storage systems for Kubernetes. It explains how container-native storage operates inside the orchestration engine using CSI (Container Storage Interface), offering dynamic scaling and pod-level isolation, whereas container-ready options rely on enterprise external SAN/NAS storage arrays mapped to Kubernetes nodes.
-## DevOps
-
-### CICD
-
-#### Kubernetes Orchestration
-
-  - **(2021)** [devopsdigest.com: CI/CD Deployments: How to Expedite Across a Kubernetes Environment With DevOps Orchestration](https://www.devopsdigest.com/cicd-deployments-how-to-expedite-across-a-kubernetes-environment-with-devops-orchestration)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Accelerating release cycles in Kubernetes environments requires modernizing the CI/CD pipeline with cloud-native orchestration techniques. By automating build, test, and container promotion workflows, teams can minimize deployment errors and configuration drift. The focus is on implementing progressive delivery strategies such as canary and blue-green deployments to de-risk production releases.
 ## Kubernetes Tools
 
 ### General Reference
@@ -102,7 +95,7 @@ description: "Curated, AI-ranked Faq resources for the 2026 Cloud Native archite
   - **(2019)** [From monolith to containers: How Verizon containerized legacy applications on OpenShift 🌟](https://www.youtube.com/watch?v=Q6i0LK4vHsU)  <span class='md-tag md-tag--critical'>[LEGACY]</span> — This real-world enterprise case study details Verizon's migration journey from a legacy monolithic architecture to containerized workloads on Red Hat OpenShift. It highlights practical strategies for managing stateful applications, addressing legacy security constraints, and overcoming organizational resistance. The resulting deployment demonstrates how automated orchestration accelerates feature delivery and improves cluster utilization.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

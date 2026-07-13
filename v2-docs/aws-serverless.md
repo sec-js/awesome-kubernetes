@@ -178,7 +178,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

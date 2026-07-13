@@ -22,6 +22,13 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 
   - [guru99.com](https://www.guru99.com)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering guru99.com in the Kubernetes Tools ecosystem.
   - [harvard.edu: CS50: Introduction to Computer Science (free)](https://pll.harvard.edu/course/cs50-introduction-computer-science)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering harvard.edu: CS50: Introduction to Computer Science (free) in the Kubernetes Tools ecosystem.
+## CICD
+
+### Git Integration
+
+#### Azure DevOps
+
+  - **(2024)** [cloudskills.io: Getting Started with Git and Azure DevOps: The Ultimate Guide 🌟](https://ine.com) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An extensive workflow guide demonstrating advanced Git version control configurations within Azure DevOps projects. Shows how to set up strict PR approval limits and automated checkouts.
 ## Cloud Platforms
 
 ### Openshift
@@ -38,6 +45,20 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 ##### Gamified Learning
 
   - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized gamified engine where users solve mock criminal investigations writing relational SQL queries. Highly effective for building structural query efficiency and database logic before moving to complex stateful containerization.
+## DevOps
+
+### Education
+
+#### Training Courses
+
+  - **(2023)** [Techworld with Nana: Learn DevOps topics easily](https://www.techworld-with-nana.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A premier technical curriculum focused on infrastructure automation, container mechanics, and deployment pipelines. Successfully bridges the gap between raw system administration and cloud native deployment methodologies.
+## Operating Systems and Infrastructure
+
+### Linux
+
+#### Sysadmin Tutorials
+
+  - **(2026)** [**learnitguide.net 🌟**](https://www.learnitguide.net) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A curated educational platform providing in-depth guides on enterprise Linux administration, DevOps tools, automation, and cloud platforms. Its systematic tutorials are designed to prepare system administrators for managing highly available enterprise environments.
 ## Orchestration
 
 ### Infrastructure As Code
@@ -50,6 +71,18 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
 #### Vmware Tanzu Ecosystem
 
   - **(2026)** [**kube.academy**](https://kube.academy) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A highly polished training engine sponsored by VMware Tanzu. Walks engineers through complex modular tracks detailing multi-tenancy, cluster scaling, control-plane metrics, and security controls within corporate environments.
+## Platform Engineering
+
+### Legacy Sandboxes
+
+#### Interactive Learning
+
+  - **(2022)** [katacoda.com 🌟](https://www.katacoda.com) 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Katacoda was a widely used interactive browser platform for practicing Kubernetes and container administration. The platform was officially terminated by O'Reilly in 2022. Platform engineers in 2026 utilize alternatives like Killercoda for sandbox exercises.
+### Security and Compliance
+
+#### Public Sector
+
+  - **(2026)** [**redhatgov.io**](https://redhatgov.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Specialized platform engineering portal with focused guides on locking down OpenShift infrastructure to meet strict military, intelligence, and federal government security benchmarks (DISA STIG, FIPS, NIST). A mandatory reference for architects building air-gapped, zero-trust container setups.
 ## Professional Development
 
 ### Certifications
@@ -130,7 +163,7 @@ Live Grounding: Students at the Waterloo Futures Lab developed physical and soft
   - **(2026)** [==codely.tv==](https://codely.com/en) <span class='md-tag md-tag--warning'>[SPANISH CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Spanish-language portal dedicated to Domain-Driven Design (DDD), Clean Code, CQRS patterns, and resilient microservice designs. It details testing strategies for highly decoupled, container-centric production architectures.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Finops](./finops.md) | [Newsfeeds](./newsfeeds.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

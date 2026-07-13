@@ -1,5 +1,5 @@
 ---
-description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift Serverless and more — curated Cloud Native tools, guides and references."
+description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, Dapr and more — curated Cloud Native tools, guides and references."
 ---
 # Serverless Architectures and Frameworks
 
@@ -88,8 +88,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift 
 #### Knative
 
   - **(2026)** [==knative.dev==](https://knative.dev) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The premier Kubernetes-native platform for serverless workloads. Offers enterprise-grade Serving (scale-to-zero, request-driven autoscaling) and highly decoupled Eventing models.
-  - **(2021)** [**redhat.com: What is knative?**](https://www.redhat.com/en/topics/microservices/what-is-knative) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Red Hat's baseline structural review of Knative, mapping its internal serving controllers, ingress routes, and cluster event models for enterprise operators.
-  - **(2020)** [**datacenterknowledge.com: Explaining Knative, the Project to Liberate Serverless from Cloud Giants**](https://www.datacenterknowledge.com/servers/explaining-knative-the-project-to-liberate-serverless-from-cloud-giants) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines Knative's industry goal of creating an open, pluggable platform layer that frees enterprise organizations from public cloud vendor lock-in.
 #### Knative And API Gateways
 
   - **(2021)** [**dev.to: FaaS on Kubernetes: From AWS Lambda & API Gateway To Knative & Kong API Gateway**](https://dev.to/pmbanugo/faas-on-kubernetes-from-aws-lambda-api-gateway-to-knative-kong-api-gateway-4n84) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Practical technical demonstration outlining how to replicate proprietary cloud FaaS configurations by using open components like Knative and Kong API Gateway inside a Kubernetes cluster.
@@ -108,6 +106,7 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift 
 
 #### Dapr
 
+  - **(2026)** [==Dapr==](https://dapr.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — The Distributed Application Runtime. Employs a highly modular sidecar design to deliver developer-focused APIs for pub/sub messaging, state management, and actor models.
   - **(2022)** [**Building microservices? Give Dapr a try**](https://www.infoworld.com/article/2261795/building-microservices-give-dapr-a-try.html) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A deep analysis of Dapr's capabilities, detailing how its service abstraction layer accelerates microservice software delivery while avoiding tight coupling to infrastructure providers.
 ### Serverless (1)
 
@@ -180,7 +179,6 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift 
 
 #### Openshift Serverless
 
-  - **(2026)** [==OpenShift Serverless==](https://www.redhat.com/en/technologies/cloud-computing/openshift/serverless) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — Red Hat's production-hardened Knative integration. Provides out-of-the-box scale-to-zero capabilities, event routing, and secure cluster integration under the OpenShift console.
   - **(2021)** [**openshift.com: Why and When you need to consider OpenShift Serverless**](https://www.redhat.com/en/blog/why-and-when-you-need-to-consider-openshift-serverless) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Analytically presents key decision variables for deploying OpenShift Serverless, highlighting resource cost reductions, pod auto-scaling, and cluster efficiency.
 #### Openshift Serverless Integration
 
@@ -215,9 +213,16 @@ description: "Top Serverless resources for 2026, AI-ranked: OpenFaaS, OpenShift 
 #### Serverless (3)
 
   - **(2024)** [**Azure Functions Cost Considerations and Optimization**](https://build5nines.com/azure-functions-cost-considerations-and-optimization) 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — Examines cost structures and billing patterns in serverless environments, focusing on Azure Functions. Compares Consumption, Premium, and Dedicated App Service plans, outlining how to minimize cold starts and optimize execution runtimes.
+## Infrastructure As Code
+
+### Serverless Integration
+
+#### Hybrid Automation
+
+  - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

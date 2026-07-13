@@ -113,6 +113,16 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
 #### Go
 
   - **(2021)** [cloudogu/k8s-diagrams](https://github.com/cloudogu/k8s-diagrams) <span class='md-tag md-tag--info'>⭐ 339</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-00078e7e" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 5 L 10 3 L 20 4 L 30 5 L 40 5 L 50 2" fill="none" stroke="url(#spark-grad-00078e7e)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A specialized CLI utility built to parse Kubernetes live states and manifest specifications directly into clean, structured architectural diagrams. Resolves the operational pain point of manual cluster mapping, providing engineers with an accurate visual layout of active workloads, routes, and cluster components.
+## Cloud Infrastructure
+
+### Azure Networking
+
+#### Global Infrastructure
+
+  - **(2026)** [Azure Products by Region Table](https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/table) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The definitive, live-updated reference catalog mapping the global availability of Azure services and network products across all Azure regions. This matrices-driven tool is vital for cloud architects designing multi-region redundancy, data residency compliance, and edge microservice topologies.
+#### Network Topology
+
+  - **(2025)** [Hub-Spoke Network Topology in Azure - Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/networking/architecture/hub-spoke) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The foundational blueprint for Azure Hub-and-Spoke network design patterns. This guide details how to centralize shared infrastructure services—such as firewalls, DNS, and ExpressRoute gateways—within a hub VNet, while separating distinct microservice workloads into isolated spoke VNets.
 ## Cloud Platforms
 
 ### AWS Integration
@@ -144,7 +154,7 @@ description: "Top Cloud Arch Diagrams resources for 2026, AI-ranked: PlantUML, H
   - **(2025)** [==AZVerify: Bridging Azure Resources, Bicep Templates, and Diagrams with GitHub' Copilot==](https://github.com/Azure/AZVerify) <span class='md-tag md-tag--info'>⭐ 95</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-0351c56b" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 11 L 10 2 L 20 5 L 30 9 L 40 13 L 50 11" fill="none" stroke="url(#spark-grad-0351c56b)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An innovative open-source tool bridging declarative Bicep files, live Azure deployments, and system diagrams using GitHub Copilot. Standardizes validation processes during complex infrastructure-as-code planning.
 
 ---
-💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [About](./about.md) | [AWS Architecture](./aws-architecture.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

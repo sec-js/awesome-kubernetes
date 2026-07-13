@@ -1,5 +1,5 @@
 ---
-description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Test Automation, Tech Interview Handbook and more — curated Cloud Native tools, guides and references."
+description: "Top Other Awesome Lists resources for 2026, AI-ranked: Available kubectl plugins, Awesome Kubectl plugins and more — curated Cloud Native tools, guides and."
 ---
 # Awesome Lists
 
@@ -737,7 +737,7 @@ description: "Top Other Awesome Lists resources for 2026, AI-ranked: Awesome Tes
   - **(2026)** [Awesome Testing code snippets](https://github.com/slawekradzyminski/AwesomeTesting) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A handy collection of code snippets, unit tests, and mocking architectures written across various development frameworks. Assists individual developers in quickly establishing mock-ups and isolated test cases. Ideal for bootstrapping automated integration tests in diverse multi-language environments.
 
 ---
-💡 **Explore Related:** [About](./about.md) | [AWS Architecture](./aws-architecture.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
+💡 **Explore Related:** [About](./about.md) | [Demos](./demos.md) | [Kubernetes](./kubernetes.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [Postman](./postman.md) | [HR](./hr.md)
 

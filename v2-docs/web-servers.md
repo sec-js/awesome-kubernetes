@@ -1,5 +1,5 @@
 ---
-description: "Top Web Servers resources for 2026, AI-ranked: Apache, Apache Reverse Proxy Guide and more — curated Cloud Native tools, guides and references."
+description: "Top Web Servers resources for 2026, AI-ranked: Traefik, Apache and more — curated Cloud Native tools, guides and references."
 ---
 # Web Servers and Reverse Proxies: Apache, Nginx, HAProxy, Traefik and more
 
@@ -45,6 +45,30 @@ description: "Top Web Servers resources for 2026, AI-ranked: Apache, Apache Reve
 #### Reverse Proxy
 
   - **(2025)** [Apache Reverse Proxy Guide](https://httpd.apache.org/docs/2.4/howto/reverse_proxy.html) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official engineering handbook illustrating the deployment and configuration of the Apache HTTP Server as a reverse proxy. Details mod_proxy directives, buffer limits, and load-balancer grouping policies.
+## Infrastructure Security
+
+### Inbound Traffic Management
+
+#### Traefik
+
+  - **(2020)** [blog.tomarrell.com: Kustomize: Traefik v2.2 as a Kubernetes Ingress Controller](https://blog.tomarrell.com/post/traefik_v2_on_kubernetes) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical integration blog detailing how to deploy and customize the Traefik v2.2 Ingress Controller using Kustomize configurations. It illustrates how to define overlays for environment-specific network values, secure SSL contexts, and service exposures. Useful reference for managing non-trivial ingress manifests programmatically.
+## Networking
+
+### Load Balancing (1)
+
+#### Haproxy
+
+  - **(2025)** [HAProxy](https://www.haproxy.org) <span class='md-tag md-tag--warning'>[C CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — HAProxy is an industry-standard, high-performance TCP/HTTP load balancer and proxy. It is widely praised for its raw event-driven architecture, rich session routing mechanisms, security structures, and efficiency.
+### Multi-cluster
+
+#### DNS
+
+  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
+## Nginxconfig
+
+### Community Tools
+
+  - **(2025)** [NGINXConfig](https://www.digitalocean.com/community/tools/nginx) <span class='md-tag md-tag--warning'>[JAVASCRIPT CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interactive visual web config builder for constructing highly secure and performant NGINX configuration templates. Addresses reverse proxy configurations, SSL parameters, caching limits, and security headers.
 ## Traffic Management
 
 ### Kubernetes Ingress Controllers
@@ -54,6 +78,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Apache, Apache Reve
   - **(2020)** [opensource.com: Try this Kubernetes HTTP router and reverse proxy](https://opensource.com/article/20/4/http-kubernetes-skipper) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An overview of Skipper, an open-source HTTP router and reverse proxy designed for highly customized routing scenarios. It highlights Skipper's unique strength in dynamically modifying requests using an extensible filter chain, though it occupies a niche compared to market-dominant ingress engines.
 #### Traefik Ingress
 
+  - **(2026)** [Traefik](https://traefik.io) <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The canonical repository and site for Traefik, a modern cloud-native reverse proxy and ingress controller designed for dynamic service discovery. It automatically listens to platform API registries (such as Kubernetes and Consul) to dynamically update routing tables without manual reloads.
   - **(2020)** [opensource.com: Directing Kubernetes traffic with Traefik](https://opensource.com/article/20/3/kubernetes-traefik) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An introductory engineering guide outlining the mechanics of deploying Traefik to route internal cluster traffic. The resource demonstrates how Traefik processes Custom Resource Definitions (CRDs) to define advanced routing rules, headers, and SSL termination points transparently.
   - **(2020)** [thenewstack.io: Using Traefik Ingress Controller with Istio Service Mesh](https://thenewstack.io/using-traefik-ingress-controller-with-istio-service-mesh) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural examination of combining Traefik's edge ingress capabilities with the granular micro-segmentation of the Istio Service Mesh. This dual-layer approach optimizes ingress pathing while maintaining strict mTLS and telemetry enforcement across internal pod networks.
 ### Load Balancing and Reverse Proxy
@@ -68,7 +93,7 @@ description: "Top Web Servers resources for 2026, AI-ranked: Apache, Apache Reve
   - **(2021)** [nginx-playground.wizardzines.com 🌟](https://nginx-playground.wizardzines.com) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The live application corresponding to Julia Evans' Nginx configuration playground. It delivers a sandboxed, browser-based runtime that dynamically executes and reports Nginx behavior on arbitrary configurations, bridging the gap between theoretical syntax and actual routing behaviors without local environment overhead.
 
 ---
-💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Caching](./caching.md) | [Kubernetes Networking](./kubernetes-networking.md)
+💡 **Explore Related:** [Cloudflare](./cloudflare.md) | [Kubernetes Networking](./kubernetes-networking.md) | [Servicemesh](./servicemesh.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

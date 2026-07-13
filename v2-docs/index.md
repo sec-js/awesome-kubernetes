@@ -121,7 +121,7 @@
   <div class="trending-card__category">Azure</div>
   <div class="trending-card__title"><a href="https://github.com/microsoft/azurelinux">CBL-Mariner</a></div>
   <div class="trending-card__meta">2026-06-14 · 5k★</div>
-  <div class="trending-card__why">It acts as the secure, container-optimized base OS for Azure Kubernetes Service, minimizing footprint and maximizing security for cloud-native workloads.</div>
+  <div class="trending-card__why">Provides a secure, lightweight, and container-optimized base operating system designed specifically to minimize overhead and maximize security inside AKS.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -156,7 +156,7 @@
   <div class="trending-card__category">CI/CD & GitOps</div>
   <div class="trending-card__title"><a href="https://github.com/fluxcd/flux2">github: Flux Version 2</a></div>
   <div class="trending-card__meta">2026-06-13 · 8.2k★</div>
-  <div class="trending-card__why">Flux v2 is a foundational CNCF graduated project that implements a highly parallelized, modular GitOps controller architecture for enterprise-grade reconciliation.</div>
+  <div class="trending-card__why">A core CNCF GitOps engine that provides highly parallelized and decoupled multi-tenant reconciliation for Kubernetes clusters.</div>
 </div>
 <div class="trending-card">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -182,9 +182,9 @@
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
   <div class="trending-card__category">Data, Messaging & Storage</div>
-  <div class="trending-card__title"><a href="https://github.com/velero-io/velero">velero</a></div>
-  <div class="trending-card__meta">2026-06-12 · 10.1k★</div>
-  <div class="trending-card__why">Velero is the de facto industry standard for backing up and restoring Kubernetes persistent volumes and cluster state.</div>
+  <div class="trending-card__title"><a href="https://github.com/zalando/postgres-operator">Zalando Postgres Operator</a></div>
+  <div class="trending-card__meta">2026-06-12 · 5.2k★</div>
+  <div class="trending-card__why">The industry-standard operator for deploying highly available PostgreSQL clusters with Patroni on Kubernetes.</div>
 </div>
 <div class="trending-card trending-card--extra">
   <div class="trending-card__impact trending-card__impact--critical">🔴 CRITICAL</div>
@@ -420,7 +420,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-1" href="/tags/#german-content" title="1 resources">German<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1050 resources">Go<span class="v2-heat-n">1050</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1046 resources">Go<span class="v2-heat-n">1046</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
@@ -451,10 +451,10 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-2" href="/tags/#jsonnet-content" title="5 resources">Jsonnet<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="554 resources">Legacy<span class="v2-heat-n">554</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="553 resources">Legacy<span class="v2-heat-n">553</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="346 resources">Markdown<span class="v2-heat-n">346</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="348 resources">Markdown<span class="v2-heat-n">348</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>

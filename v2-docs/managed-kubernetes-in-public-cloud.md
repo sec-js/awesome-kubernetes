@@ -438,9 +438,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Finops
 
   - **(2022)** [cloud.google.com: Know more, spend less: how GKE cost optimization insights help you optimize Kubernetes](https://cloud.google.com/blog/products/containers-kubernetes/gke-cost-optimization-insights-now-ga) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines GKE's native cost optimization insights, which surface over-provisioned CPU/Memory metrics directly within the console. Guides platform architects on utilizing automated rightsizing recommendations to minimize container cost overruns while maintaining necessary performance profiles.
-#### GKE Core
-
-  - **(2025)** [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Core landing documentation for Google Kubernetes Engine (GKE), highlighting GKE's industry-standard capabilities. Specifically focuses on setting up node pools with custom kernel parameters, eliminating post-bootstrap script workarounds. Provides the baseline reference for standard-setting enterprise container management.
 #### Industry Analysis
 
   - **(2021)** [techcrunch.com: Google Cloud puts its Kubernetes Engine on autopilot](https://techcrunch.com/2021/02/24/google-cloud-puts-its-kubernetes-engine-on-autopilot) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — TechCrunch's coverage of GKE Autopilot, highlighting its impact on managed container orchestration trends. Focuses on the trade-offs of restricting low-level node configurations in exchange for SLA-backed operations and optimized bin-packing. Evaluates the strategic TCO reductions of serverless-style Kubernetes models.
@@ -548,11 +545,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2025)** [**kubekey**](https://github.com/kubesphere/kubekey) <span class='md-tag md-tag--info'>⭐ 2821</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-fb9764c9" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 3 L 20 11 L 30 7 L 40 13 L 50 3" fill="none" stroke="url(#spark-grad-fb9764c9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="3" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A Go-based command-line utility engineered to rapidly install, configure, and upgrade Kubernetes clusters, KubeSphere components, and runtime layers (containerd, Docker) on bare-metal and cloud environments. It highly excels in air-gapped, offline installations using custom artifact packages. (Live Grounding: KubeKey remains a highly-rated installer alternative to Kubeadm, especially popular in hybrid/on-prem environments requiring deterministic runtime setups).
   - **(2021)** [kubesphere.io: Install Kubernetes 1.22 and containerd the Easy Way with kubekey](https://kubesphere.io/blogs/install-kubernetes-containerd) <span class='md-tag md-tag--warning'>[GO/YAML CONTENT]</span>  <span class='md-tag md-tag--secondary'>[GUIDE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — Outlines a streamlined procedural approach to installing Kubernetes 1.22 and containerd using the KubeKey engine. The guide emphasizes the migration away from Docker shim and configures high-performance runtime options using bare-metal architecture targets. (Live Grounding: Although v1.22 is legacy by 2026 standards, the architectural concepts of containerd orchestration and bare-metal bootstrapping via KubeKey remain highly instructional).
   - **(2021)** [kubesphere.io: Scaling a Kubernetes Cluster: One of the Best Practices for Using KubeKey](https://kubesphere.io/blogs/scale-kubernetes-cluster-using-kubekey) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A technical guide demonstrating how to horizontally scale existing Kubernetes compute capacities using KubeKey execution manifests. Focuses on declarative modifications of cluster-configuration files to dynamically append new worker nodes without service disruptions. (Live Grounding: Vital operations reference for cluster administrators managing hardware expansions within hybrid/private clouds).
-### Infrastructure Provisioning (1)
-
-#### Kubernetes Operators
-
-  - **(2022)** [learnk8s.io: Provisioning cloud resources (AWS, GCP, Azure) in Kubernetes](https://learnkube.com/cloud-resources-kubernetes) <span class='md-tag md-tag--warning'>[YAML/GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores the paradigm shift of utilizing Kubernetes-native custom resource definitions (CRDs) and operators to provision external cloud resources (such as AWS ACK, GCP Config Connector, and Azure Service Operator). This declarative Infrastructure-as-Code pattern replaces external Terraform runs with continuous control loops inside the cluster. (Live Grounding: Standardizes management under unified Kubernetes control planes, resolving out-of-band drifts).
 ### Managed Kubernetes
 
 #### Azure AKS
@@ -613,6 +605,11 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2023)** [==infoworld.com: Kubernetes cost management for the real world==](https://www.infoworld.com/article/2338428/kubernetes-cost-management-for-the-real-world.html) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A deep dive into the challenges of multi-tenant Kubernetes cost attribution across dynamic namespaces. Contrasts raw hyper-scaler billing records against granular container resource consumption metrics, detailing how Kubecost and OpenCost establish accurate, real-world chargeback frameworks.
 ## Infrastructure
 
+### Enterprise Backup
+
+#### Cloud-native Integration
+
+  - **(2021)** [**cloud.google.com: Announcing Backup for GKE: the easiest way to protect GKE workloads**](https://cloud.google.com/blog/products/storage-data-transfer/google-cloud-launches-backups-for-gke) <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An announcement introducing Backup for GKE, a fully-managed Google Cloud service for GKE environments. Operates via the GCP API control plane to restore configurations and storage elements natively.
 ### Hybrid and On-premises
 
 #### Azure Stack Hub
@@ -680,13 +677,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Tooling Comparison
 
   - **(2021)** [Compare tools for multi-cloud Kubernetes management 🌟](https://www.techtarget.com/searchcloudcomputing/tip/Compare-tools-for-multi-cloud-Kubernetes-management) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--critical'>[LEGACY]</span> — Synthesizes and contrasts several enterprise-grade multi-cloud Kubernetes management suites including Red Hat OpenShift, Rancher, Platform9, and Terraform. Highlights the design trade-offs between hypervisor-style centralized management interfaces and modular GitOps delivery systems. (Live Grounding: While some listed tools like StackPointCloud are defunct or archived, the architectural comparison criteria remains critical for multi-cluster evaluations in 2026).
-## Networking (5)
-
-### Multi-cluster
-
-#### DNS
-
-  - **(2022)** [nginx.com: Automating Multi-Cluster DNS with NGINX Ingress Controller](https://www.f5.com/products/nginx) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Technical blueprint showcasing DNS synchronization and traffic routing automation across multi-cluster environments. Demonstrates leveraging NGINX Ingress for global load balancing and resilient geographical failovers.
 ## Observability (3)
 
 ### Telemetry
@@ -779,13 +769,6 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
 #### Declarative Infrastructure
 
   - **(2021)** [seroter.com: Using the new Google Cloud Config Controller to provision and manage cloud services via the Kubernetes Resource Model](https://seroter.com/2021/08/18/using-the-new-google-cloud-config-controller-to-provision-and-manage-cloud-services-via-the-kubernetes-resource-model) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces the Google Cloud Config Controller, highlighting its use of the Kubernetes Resource Model (KRM) to declare and govern external GCP services. Allows platform teams to enforce stateful GitOps practices, treating cloud resources (like databases and networking) identical to standard Kubernetes manifests.
-## Research
-
-### Architecture Analysis
-
-#### Infrastructure Design (1)
-
-  - **(2024)** [learnk8s.io: Kubernetes Research. Research documents on node instance types, managed services, ingress controllers, CNIs, etc.](https://learnkube.com/research) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An exceptional, data-driven research catalog evaluating critical Kubernetes deployment components. Compiles comparative benchmarks and analyses of CNI plugins (Cilium, Calico), cloud providers (EKS, GKE, AKS), virtual machine shapes, and Ingress Controller solutions, highlighting costs and latencies.
 ## Resilience
 
 ### Chaos Engineering (1)
@@ -867,7 +850,7 @@ description: "Top Managed Kubernetes In Public Cloud resources for 2026, AI-rank
   - **(2022)** [digitalocean.com: Kubernetes for startups: Why, when, and how to adopt](https://www.digitalocean.com/resources/articles/kubernetes-for-startups) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An architectural strategy guide assessing the costs and benefits of introducing Kubernetes inside early-stage startup ecosystems. Covers common mistakes like over-engineering cluster setups early on and maps out criteria for when to transition from PaaS tools to fully-managed Kubernetes environments.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

@@ -21,7 +21,7 @@ description: "Curated, AI-ranked Embedded Servlet Containers resources for the 2
   - **(2026)** [Undertow](https://undertow.io) <span class='md-tag md-tag--warning'>[JAVA CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly performant, modular web server designed by Red Hat. Written in Java, it features non-blocking, asynchronous capabilities, functioning as a powerful, lightweight container engine for high-density microservices.
 
 ---
-💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
+💡 **Explore Related:** [Postman](./postman.md) | [Angular](./angular.md) | [Swagger Code Generator For Rest APIs](./swagger-code-generator-for-rest-apis.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [HR](./hr.md)
 

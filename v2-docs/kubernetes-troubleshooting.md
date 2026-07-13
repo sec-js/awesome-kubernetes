@@ -42,13 +42,6 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Flatcar Linux
 
   - **(2024)** [kinvolk.io](https://kinvolk.io) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official portal of Kinvolk (acquired by Microsoft), pioneers of Flatcar Container Linux, Lokomotive Kubernetes, and Inspektor Gadget. The platform represents an essential pillar in the development of minimal, immutable operating systems and eBPF-based Kubernetes tooling.
-## Container Runtimes
-
-### Containerd
-
-#### Ctr CLI
-
-  - **(2023)** [labs.iximiuz.com: How to work with container images using ctr](https://labs.iximiuz.com/courses/containerd-cli/ctr/image-management) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Deep technical laboratory exercise focused on managing low-level container images using the containerd 'ctr' CLI. Vital for operations engineers debugging nodes directly where high-level runtimes like docker are not installed.
 ## Development Workflow
 
 ### Local Development
@@ -56,6 +49,13 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
 #### Bridge To Kubernetes
 
   - **(2021)** [thorsten-hans.com: Debugging apps in Kubernetes with Bridge](https://www.thorsten-hans.com/debugging-apps-in-kubernetes-with-bridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Hands-on guide focusing on Microsoft's 'Bridge to Kubernetes' tool for direct local debugging within an active cluster context. Evaluates how the mechanism redirects traffic to a local machine without modifying production routing topologies.
+## Infrastructure
+
+### Compute
+
+#### CPU Performance
+
+  - **(2023)** [The Hidden CPU Throttling Crisis in Kubernetes Clusters](https://www.kubenatives.com/p/the-hidden-cpu-throttling-crisis) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Investigates latency spikes caused by the Linux CFS (Completely Fair Scheduler) quota enforcement mechanism in Kubernetes. Highlights how kernel bugs throttle containerized workloads even when usage is far below limits, providing remediation strategies such as adjusting quotas or using CPU pins.
 ## Kubernetes
 
 ### Core Mechanics
@@ -169,6 +169,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - **(2021)** [github.com/JamesTGrant/kubectl-debug](https://github.com/JamesTGrant/kubectl-debug) <span class='md-tag md-tag--info'>⭐ 373</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-582e5a31" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 9 L 20 13 L 30 7 L 40 11 L 50 12" fill="none" stroke="url(#spark-grad-582e5a31)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="12" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A kubectl plugin designed to launch temporary debugging containers within a target pod namespace. Streamlines manual container introspection prior to the widespread adoption of native ephemeral containers.
 #### CLI Operations
 
+  - **(2023)** [A Complete Guide to Kubectl exec](https://refine.dev/blog/kubectl-exec-command)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Comprehensive guide explaining the inner workings of the 'kubectl exec' command. Breaks down how connection handshakes occur between the API server, Kubelet, and container runtimes (CRI).
   - **(2021)** [thenewstack.io: Living with Kubernetes: 12 Commands to Debug Your Workloads 🌟](https://thenewstack.io/living-with-kubernetes-12-commands-to-debug-your-workloads)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Curated list of 12 essential kubectl commands designed to streamline low-level container and network diagnostics. Targets common day-2 operational challenges, addressing resource pressure, storage attachments, and system event inspection.
 #### Container Debugging
 
@@ -212,7 +213,7 @@ description: "Top Kubernetes Troubleshooting resources for 2026, AI-ranked: Awes
   - **(2024)** [KubeUI: A Desktop Kubernetes Client](https://github.com/IvanJosipovic/KubeUI) <span class='md-tag md-tag--info'>⭐ 311</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-723a78a4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 10 L 10 6 L 20 11 L 30 7 L 40 10 L 50 8" fill="none" stroke="url(#spark-grad-723a78a4)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="8" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[C# CONTENT]</span> 🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A high-performance, desktop-optimized UI designed to stream, monitor, and interact with live cluster metrics and objects. It enhances developer agility through dynamic views of multi-cluster namespaces and active workload metrics.
 
 ---
-💡 **Explore Related:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md) | [Kubernetes Operators Controllers](./kubernetes-operators-controllers.md)
+💡 **Explore Related:** [OCP 4](./ocp4.md) | [Container Managers](./container-managers.md) | [Openshift](./openshift.md)
 
-🔗 **See Also:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

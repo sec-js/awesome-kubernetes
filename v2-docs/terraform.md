@@ -1,5 +1,5 @@
 ---
-description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk and more — curated Cloud Native tools, guides and references."
+description: "Top Terraform resources for 2026, AI-ranked: terraform-cdk, Infracost and more — curated Cloud Native tools, guides and references."
 ---
 # Hashicorp Terraform and Packer. Kubernetes Boilerplates
 
@@ -26,10 +26,6 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
   - **(2023)** [dev.to/verifacrew: How to assume an AWS IAM role from a Service Account in EKS with Terraform](https://dev.to/verifacrew/how-to-assume-an-aws-iam-role-from-a-service-account-in-eks-with-terraform-28gd) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Walks through implementing AWS IAM Roles for Service Accounts (IRSA) inside EKS using Terraform configuration templates. Explains federated identity mapping via OpenID Connect (OIDC) to enable native Kubernetes service accounts to assume precise IAM roles. This guide enforces the Principle of Least Privilege for pod execution environments.
 ### Multi-account Setup
 
-#### Governance
-
-  - **(2023)** [aws.amazon.com: AWS Control Tower](https://aws.amazon.com/controltower) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS product reference for AWS Control Tower, a managed service that streamlines multi-account governance and landing zone orchestration. It details how the platform enforces automated guardrails, visualizes enterprise health, and coordinates with AWS Organizations for centralized billing and policy compliance.
-  - **(2022)** [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical introduction to the AWS Control Tower Account Factory for Terraform (AFT), enabling GitOps-driven deployment of AWS accounts. Discusses custom pipeline orchestration and landing zone configurations that maintain strict security compliance metrics across large organizations.
 #### Strategy
 
   - **(2023)** [trek10.com: Control Tower: Then vs Now](https://caylent.com/insights) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An evolutionary comparison of AWS landing zone patterns, comparing historic custom pipelines against modern managed AWS Control Tower architectures. It details best practices for organizational planning and highlights the shift toward managed control planes that simplify compliance overhead.
@@ -117,7 +113,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 
   - **(2024)** [**github.com/Azure/terraform-azurerm-caf-enterprise-scale**](https://github.com/Azure/terraform-azurerm-caf-enterprise-scale) <span class='md-tag md-tag--info'>⭐ 961</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-a0e0bcbb" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 13 L 10 4 L 20 9 L 30 7 L 40 5 L 50 10" fill="none" stroke="url(#spark-grad-a0e0bcbb)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="10" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> <span class='md-tag md-tag--critical'>[LEGACY]</span> — The legacy enterprise scale module (CAF) for managing cloud landscapes. While a dominant historical template, engineering teams are transitioning toward Azure Verified Modules (AVM) for modern landing zones.
   - **(2023)** [**techcommunity.microsoft.com: Implement Azure landing zones with HashiCorp Terraform**](https://techcommunity.microsoft.com/blog/azuremigrationblog/implement-azure-landing-zones-with-hashicorp-terraform/3241071) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An authoritative technical summary of how to implement Microsoft's Cloud Adoption Framework (CAF) Landing Zones using Terraform. Explains deep-seated architectural principles, governance models, and scalable networking blueprints aligned with official enterprise standards.
-#### Governance (1)
+#### Governance
 
   - **(2024)** [**registry.terraform.io/modules/Azure/lz-vending**](https://registry.terraform.io/modules/Azure/lz-vending) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — The official Azure Landing Zone Subscription Vending module. It automates account lifecycle actions, network configurations, identity bindings, and security rules across enterprise multi-subscription landscapes.
 ### Monitoring (1)
@@ -442,14 +438,11 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 
 #### AI Integration
 
-##### Terraform (2)
-
-  - **(2024)** [Terraform 2.0 in Practice: Using AI to Generate Infrastructure as Code](https://markaicode.com/terraform-ai-infrastructure-as-code)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Examines workflow improvements, automated code validation, and prompt-to-infrastructure engineering using modern LLM integrations in Terraform development lifecycles.
   - **(2026)** [**Terraform & OpenTofu Skill for AI Agents**](https://github.com/antonbabenko/terraform-skill) <span class='md-tag md-tag--info'>⭐ 2012</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-581800ca" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 12 L 20 4 L 30 7 L 40 11 L 50 5" fill="none" stroke="url(#spark-grad-581800ca)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[TYPESCRIPT CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — An open-source Model Context Protocol (MCP) skill set built for AI agents. Simplifies parsing, validating, and managing Terraform and OpenTofu infrastructure configurations through intelligent, context-aware LLM tool calls.
 #### Pulumi
 
   - **(2026)** [==Pulumi: Infrastructure as Code in Any Programming Language==](https://github.com/pulumi/pulumi) <span class='md-tag md-tag--info'>⭐ 25299</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-dc212d00" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 9 L 10 11 L 20 13 L 30 3 L 40 3 L 50 5" fill="none" stroke="url(#spark-grad-dc212d00)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source, multi-cloud infrastructure platform that enables architects to build, deploy, and manage resources using general-purpose programming languages. Supports TypeScript, Go, Python, C#, and Java, using real language constructs like loops, functions, and standard testing libraries.
-#### Terraform (3)
+#### Terraform (2)
 
 ##### Secrets
 
@@ -500,11 +493,6 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
   - **(2026)** [packer.io docs](https://developer.hashicorp.com/packer/docs) <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official documentation hub for Packer, containing technical references for builders, provisioners, and post-processors. Details syntax configurations for HCL templates, dynamic plugins, and integrating container/VM deployment images directly into CI/CD pipelines.
 ## Infrastructure As Code (4)
 
-### AI Integrations
-
-#### Validation and Testing
-
-  - **(2024)** [AI Meets Terraform: Prompt Strategies for Test Generation](https://masterpoint.io/blog/ai-meets-tf-prompt-strategies-for-test-generation) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores LLM prompting strategies designed to automatically generate high-quality integration testing assertions for Terraform infrastructure codebases. Outlines systematic framework specifications to minimize manual testing overhead.
 ### AWS (2)
 
 #### Arch Study
@@ -615,7 +603,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 #### Terraform Cloud
 
   - **(2023)** [learn.hashicorp.com: Manage Private Environments with Terraform Cloud Agents](https://developer.hashicorp.com/terraform/tutorials/cloud/cloud-agents) <span class='md-tag md-tag--warning'>[BASH CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A guide on deploying and configuring lightweight Terraform Cloud Agents inside secure, isolated local environments. Enables enterprises to provision private subnetworks and local systems securely without opening external ports.
-#### Validation and Testing (1)
+#### Validation and Testing
 
   - **(2024)** [howdykloudy.in: Implementing Shift Left for Terraform: An Introductory Guide 🌟](https://www.howdykloudy.in/blog/implementing-shift-left-for-terraform-an-introductory-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Introductory architectural roadmap to 'Shifting Left' inside infrastructure workflows. Promotes integrating semantic linters, static security engines (such as Checkov or Trivy), and cost projections (Infracost) directly inside native development sandboxes.
 ### Cloud Security
@@ -821,11 +809,6 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 #### Workload Identity
 
   - **(2023)** [**devblogs.microsoft.com/devops: Introduction to Azure DevOps Workload identity federation (OIDC) with Terraform**](https://devblogs.microsoft.com/devops/introduction-to-azure-devops-workload-identity-federation-oidc-with-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A comprehensive guide on configuring passwordless, secure OIDC authentication between Azure DevOps pipelines and Azure using Terraform. Eliminates the need for managing long-lived secrets, enhancing enterprise-grade compliance and security posture.
-### Serverless Integration
-
-#### Hybrid Automation (1)
-
-  - **(2019)** [**theburningmonk.com: Making Terraform and Serverless framework work together**](https://theburningmonk.com/2019/03/making-terraform-and-serverless-framework-work-together) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[ENTERPRISE-STABLE]</span> — A classic, influential case study analyzing the architecture of combining HashiCorp Terraform (for heavy resources like VPCs, databases, IAM) with Serverless Framework (for ephemeral Lambdas). Explores state output handoffs, parameter store structures, and pipeline coordination protocols. Live grounding confirms that while newer tools have merged these functions, this division of labor remains highly performant and stable.
 ### Software Development Kits
 
 #### CDKTF
@@ -836,7 +819,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 #### Providers (4)
 
   - **(2020)** [mitchellh/terraform-provider-multispace](https://github.com/mitchellh/terraform-provider-multispace) <span class='md-tag md-tag--info'>⭐ 148</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-94e3b389" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 11 L 20 10 L 30 11 L 40 7 L 50 2" fill="none" stroke="url(#spark-grad-94e3b389)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly specialized custom provider allowing interaction with external workspaces within a single run. Solves state dependency sharing patterns dynamically, conceptualized by Mitchell Hashimoto.
-### Terraform (4)
+### Terraform (3)
 
 #### AWS Integration
 
@@ -965,7 +948,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
 
   - **(2023)** [==github.com/PacoVK/tapir==](https://github.com/PacoVK/tapir) <span class='md-tag md-tag--info'>⭐ 237</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-f189d6ee" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 7 L 10 10 L 20 11 L 30 4 L 40 13 L 50 4" fill="none" stroke="url(#spark-grad-f189d6ee)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — An open-source utility designed to render interactive visual representations of Terraform execution plans. Helps teams review deep changes, resource recreations, and infrastructure impacts in a browser dashboard before approvals.
   - **(2024)** [terraform-docs.io](https://terraform-docs.io/user-guide/introduction) <span class='md-tag md-tag--warning'>[GO CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official user guide for `terraform-docs`, the standard utility used to auto-generate markdown-formatted documentation from HCL module files. Highlights support for custom templates, flexible output schemas (JSON, YAML, XML), and continuous integration pre-commit hooks.
-#### Validation and Testing (2)
+#### Validation and Testing (1)
 
   - **(2024)** [mattias.engineer: Terraform Variable Cross Validation](https://mattias.engineer/blog/2024/terraform-variable-cross-validation) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Outlines progressive methodologies for variable validation block declarations. Discusses cross-variable dependencies and structural validation patterns that ensure dynamic validation constraints are applied before triggering execution phases.
   - **(2024)** [mattias.engineer: A Comprehensive Guide to Testing in Terraform: Keep your tests, validations, checks, and policies in order 🌟](https://mattias.engineer/posts/terraform-testing-and-validation) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An outstanding, comprehensive architectural exploration of HCL validation layers. Compares variable validations, dynamic resource checks, state-level policy engines, and the native `terraform test` testing suite to build reliable codebases.
@@ -1095,7 +1078,7 @@ description: "Top Terraform resources for 2026, AI-ranked: tfenv, terraform-cdk 
   - **(2023)** [==AWS Lambda the Terraform Way==](https://github.com/nsriram/lambda-the-terraform-way) <span class='md-tag md-tag--info'>⭐ 1260</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-8a88e588" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 4 L 10 13 L 20 13 L 30 3 L 40 6 L 50 5" fill="none" stroke="url(#spark-grad-8a88e588)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="5" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A widely starred open-source template repository outlining best practices for packaging, versioning, and deploying AWS Lambda functions natively using Terraform. Eliminates dependencies on external serverless frameworks by leveraging HCL zip archiving capabilities.
 
 ---
-💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
+💡 **Explore Related:** [Securityascode](./securityascode.md) | [Ansible](./ansible.md) | [Crossplane](./crossplane.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
