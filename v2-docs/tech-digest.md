@@ -206,16 +206,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-12 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | Velero is the de facto industry standard for backing up and restoring Kubernetes persistent volumes and cluster state. |
-    | 2026-06-10 | [github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator) | 🟡 high | Crunchy Postgres Operator is a leading enterprise-grade solution that automates highly available, declarative database orchestration on Kubernetes. |
-    | 2026-06-01 | [**Debezium**:](https://debezium.io) | 🟡 high | Debezium is the industry-standard log-based Change Data Capture (CDC) platform, powering modern real-time event-driven data pipelines. |
-    | 2026-06-01 | [Apache Flink](https://flink.apache.org) | 🟡 high | Apache Flink is the leading distributed engine for real-time, stateful stream processing across global enterprise architectures. |
-    | 2026-06-01 | [Longhorn](https://longhorn.io) | 🔴 critical | Longhorn is a CNCF-graduated, highly resilient distributed block storage engine designed specifically for Kubernetes workloads. |
-    | 2026-06-01 | [OpenEBS](https://openebs.io) | 🟡 high | OpenEBS is a versatile Container Attached Storage (CAS) platform that simplifies dynamic local and cloud-attached volume provisioning on Kubernetes. |
-    | 2026-06-01 | [strimzi.io](https://strimzi.io) | 🔴 critical | Strimzi is the premier CNCF project for running, securing, and managing production-grade Apache Kafka clusters natively in Kubernetes. |
-    | 2026-06-01 | [min.io](https://www.min.io) | 🔴 critical | MinIO is the standard-bearer for high-performance, S3-compatible private object storage engineered natively for Kubernetes workloads. |
-    | 2026-06-01 | [Redpanda 🌟](https://www.redpanda.com) | 🟡 high | Redpanda represents a massive technical leap, offering a JVM-free, C++ powered Kafka-compatible streaming engine built on a thread-per-core model. |
-    | 2026-06-12 | [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) | 🟡 high | The Zalando Postgres Operator is a highly trusted, production-proven standard for orchestrating resilient, HA PostgreSQL clusters on Kubernetes. |
+    | 2026-06-12 | [Zalando Postgres Operator](https://github.com/zalando/postgres-operator) | 🔴 critical | The industry-standard operator for deploying highly available PostgreSQL clusters with Patroni on Kubernetes. |
+    | 2026-06-12 | [github.com/vmware-tanzu/velero](https://github.com/velero-io/velero) | 🔴 critical | The de facto open-source standard for backing up, restoring, and migrating Kubernetes cluster resources and persistent volumes. |
+    | 2026-06-01 | [**Debezium**:](https://debezium.io) | 🟡 high | The industry-standard platform for log-based Change Data Capture (CDC), enabling real-time streaming of database modifications. |
+    | 2026-06-01 | [Apache Flink](https://flink.apache.org) | 🔴 critical | The leading framework for stateful stream processing, offering sub-millisecond execution times for real-time event logs. |
+    | 2026-06-01 | [Apache Kafka](https://kafka.apache.org) | 🔴 critical | The de facto industry-standard distributed event streaming platform used by thousands of enterprises. |
+    | 2026-06-01 | [Longhorn](https://longhorn.io) | 🔴 critical | A graduated CNCF project providing lightweight, highly available, and reliable distributed block storage built natively for Kubernetes. |
+    | 2026-06-01 | [OpenEBS](https://openebs.io) | 🟡 high | A leading Container Attached Storage (CAS) system that simplifies dynamic local and cloud-attached volume provisioning in Kubernetes. |
+    | 2026-06-01 | [strimzi.io](https://strimzi.io) | 🔴 critical | The premier CNCF project for running Apache Kafka natively on Kubernetes using the Operator pattern. |
+    | 2026-06-01 | [min.io](https://www.min.io) | 🔴 critical | The industry-standard, high-performance, S3-compatible object storage platform optimized for cloud-native Kubernetes deployments. |
+    | 2026-06-01 | [Redpanda 🌟](https://www.redpanda.com) | 🟡 high | A modern, high-performance Kafka-compatible streaming platform written in C++ that eliminates JVM overhead and ZooKeeper dependencies. |
 
 === "Last 6 Months"
 
@@ -542,46 +542,46 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | As the industry standard for GitOps-based continuous delivery, Argo CD is vital for synchronizing live Kubernetes cluster states with declarative Git configurations. |
-    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 is a foundational CNCF graduated project that implements a highly parallelized, modular GitOps controller architecture for enterprise-grade reconciliation. |
-    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger represents a major paradigm shift in CI/CD by replacing brittle YAML pipelines with portable, code-driven workflows executed on BuildKit. |
-    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton Pipelines provides the definitive Kubernetes-native CI engine using custom resource definitions to run modular, containerized build steps. |
-    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | The tofu-controller natively brings GitOps principles to OpenTofu and Terraform, standardizing infrastructure-as-code execution within Kubernetes control planes. |
-    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🟡 high | Helm remains the indispensable package manager for Kubernetes, defining how cloud-native applications are structured, versioned, and shared across environments. |
-    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Keptn bridges continuous delivery and operations by orchestrating SLO-based quality gates and automated canary promotions using cloud-native control planes. |
-    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🟡 high | Integrating ApplicationSets directly into the Argo CD UI greatly simplifies the observability and visualization of complex, multi-tenant GitOps topologies. |
-    | 2026-06-08 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | This plugin is critical for hybrid enterprises modernizing legacy workloads, allowing Jenkins to dynamically scale isolated executor pods directly on Kubernetes. |
-    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube introduces a next-generation package manager for Kubernetes, significantly improving package discovery, automated updates, and dependency management. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | The definitive industry standard for Kubernetes-native GitOps, enabling declarative, secure, and continuous application delivery. |
+    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | A core CNCF GitOps engine that provides highly parallelized and decoupled multi-tenant reconciliation for Kubernetes clusters. |
+    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger introduces a paradigm shift by replacing complex, vendor-locked YAML pipelines with portable, code-based CI/CD environments built on BuildKit. |
+    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | A powerful Kubernetes-native CI/CD framework that uses Custom Resource Definitions to standardize decentralized, step-based pipeline execution. |
+    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Extends GitOps mechanics to modern infrastructure-as-code, allowing teams to reconcile OpenTofu and Terraform resources natively in-cluster. |
+    | 2026-06-13 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | The highly scalable, decentralized CI/CD platform driving Kubernetes' own complex development ecosystem and open-source governance. |
+    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🔴 critical | The foundational package manager for Kubernetes that powers modern declarative deployments and serves as a vital component in GitOps pipelines. |
+    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Implements advanced cloud-native application lifecycle management using automated, SLO-driven deployment evaluations and promotions. |
+    | 2026-06-08 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | Bridges legacy Jenkins workloads with modern cloud-native architecture by dynamically scaling disposable worker pods directly inside Kubernetes. |
+    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🔵 medium | A next-generation Kubernetes package manager seeking to simplify deployment patterns and automatic updates compared to legacy tools. |
 
 === "Last 6 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the undisputed industry standard for declarative, GitOps-based continuous delivery on Kubernetes clusters. |
-    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 is a foundational CNCF-graduated project that provides highly decoupled, automated reconciliation for GitOps-centric platforms. |
-    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🔴 critical | Helm remains the ubiquitous package manager for Kubernetes, serving as the packaging bedrock for almost all modern cloud-native deployment pipelines. |
-    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🔴 critical | Tekton Pipelines is a major CNCF CI/CD framework that standardizes cloud-native, container-first pipeline construction natively through CRDs. |
-    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🟡 high | Dagger introduces a powerful paradigm shift in CI/CD by replacing rigid YAML setups with pipeline configurations written in general-purpose programming languages via BuildKit. |
-    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | The tofu-controller bridges infrastructure-as-code and GitOps by natively reconciling OpenTofu and Terraform resources directly inside Kubernetes. |
-    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Keptn advances automated lifecycle orchestration by integrating SLO-based evaluations and standardized canary promotions into the release loop. |
-    | 2026-06-13 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Prow provides an incredibly powerful, Kubernetes-native CI/CD engine built specifically to govern and scale large-source cloud-native ecosystems. |
-    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube is a highly promising, next-generation Kubernetes package manager written in Go that challenges legacy tools with simplified updates and dependency routing. |
-    | 2026-06-08 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | The Jenkins Kubernetes plugin is a critical bridge for enterprise migration, allowing legacy pipelines to execute inside dynamically provisioned, isolated cloud-native environments. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | The absolute industry standard for declarative GitOps continuous delivery on Kubernetes clusters, securing widespread enterprise adoption. |
+    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Rebuilt from the ground up as the GitOps Toolkit, providing highly decoupled, parallel reconciliation of Kubernetes configurations. |
+    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🟡 high | A highly novel devkit that replaces complex YAML pipelines with code-based execution engines running natively on BuildKit. |
+    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Directly reconciles OpenTofu and Terraform configurations natively within Kubernetes using standard GitOps principles. |
+    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Provides the foundational Kubernetes-native, declarative CI/CD framework using modular Custom Resource Definitions. |
+    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🟡 high | The indispensable package manager and templating standard for versioning and deploying Kubernetes resources. |
+    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | An enterprise-grade orchestration control plane enabling SLO-driven automated canary validation and application life cycles. |
+    | 2026-06-13 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | A powerful Kubernetes-native engine designed specifically to handle policy-driven, large-scale open-source project governance. |
+    | 2026-06-08 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | A vital enterprise bridge that dynamically scales resources by provisioning isolated Jenkins worker pods on-demand inside Kubernetes. |
+    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🔵 medium | An emerging next-generation Kubernetes package manager written in Go that simplifies cloud-native dependency management. |
 
 === "Last 12 Months"
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | De facto industry standard for declarative GitOps continuous delivery on Kubernetes. |
-    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Core CNCF GitOps engine enabling highly parallelized, decoupled, and secure cluster state reconciliation. |
-    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🔴 critical | The absolute standard for packaging, dependency management, and templating Kubernetes resources across CI/CD pipelines. |
-    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🟡 high | A major paradigm shift in CI/CD, enabling portable, multi-language pipelines executed natively on BuildKit without YAML sprawl. |
-    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | Brings the power of GitOps to infrastructure-as-code by natively reconciling OpenTofu inside Kubernetes. |
-    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | CNCF-hosted framework for building decentralized, Kubernetes-native CI/CD pipelines using custom resources. |
-    | 2025-06-01 | [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc) | 🟡 high | Enables GitOps practices for legacy Jenkins infrastructure by managing the entire controller state via a single configuration file. |
-    | 2026-06-08 | [kubernetes-plugin: Kubernetes plugin for Jenkins 🌟](https://github.com/jenkinsci/kubernetes-plugin) | 🟡 high | Critical for scaling legacy CI workloads by dynamically provisioning on-demand build agent pods directly inside Kubernetes. |
-    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Enterprise-grade CNCF control plane that automates SLO-based evaluations and continuous delivery promotions. |
-    | 2026-06-13 | [Prow](https://github.com/kubernetes/test-infra/tree/master/prow) | 🟡 high | Powerful Kubernetes-native CI/CD engine built specifically to govern massive-scale open-source project repositories. |
+    | 2026-06-14 | [Helm](https://nubenetes.com/helm) | 🔴 critical | As the de facto package manager for Kubernetes, Helm remains the core standard for packaging and deploying cloud-native applications. |
+    | 2026-06-14 | [feat(ui): Add AppSet to Application Resource Tree in Argo CD](https://github.com/argoproj/argo-cd/pull/26601) | 🔵 medium | This enhancement resolves a major observability bottleneck by mapping complex, multi-tenant ApplicationSet topologies directly in the Argo CD dashboard. |
+    | 2026-06-14 | [github: Tekton Pipelines](https://github.com/tektoncd/pipeline) | 🟡 high | Tekton provides the standard, highly scalable Kubernetes-native framework for building modular and declarative CI/CD pipelines. |
+    | 2026-06-14 | [dagger/dagger: Dagger is a portable devkit for CICD](https://github.com/dagger/dagger) | 🔴 critical | Dagger introduces a paradigm shift in CI/CD by replacing brittle YAML pipelines with portable, container-native code written in general-purpose languages. |
+    | 2026-06-14 | [github.com/glasskube/glasskube](https://github.com/glasskube/glasskube) | 🟡 high | Glasskube offers a next-generation approach to Kubernetes package management, streamlining installation, dependency resolution, and automated updates. |
+    | 2026-06-13 | [github: Flux Version 2](https://github.com/fluxcd/flux2) | 🔴 critical | Flux v2 is a foundational CNCF graduated project that defines modern GitOps continuous delivery through its powerful GitOps Toolkit controllers. |
+    | 2026-06-08 | [github.com/flux-iac/tofu-controller](https://github.com/flux-iac/tofu-controller) | 🟡 high | This controller natively bridges Infrastructure-as-Code and GitOps by enabling continuous, automated reconciliation of OpenTofu and Terraform resources. |
+    | 2026-06-01 | [Argo CD](https://argoproj.github.io/argo-cd) | 🔴 critical | Argo CD is the industry-standard declarative GitOps tool, vital for maintaining real-time alignment between Git configurations and active Kubernetes clusters. |
+    | 2025-06-01 | [Jenkins Configuration as Code](https://www.jenkins.io/projects/jcasc) | 🟡 high | Jenkins Configuration as Code modernizes traditional CI infrastructure by allowing entire Jenkins instances to be managed declaratively via YAML. |
+    | 2026-06-14 | [Keptn](https://nubenetes.com/keptn) | 🟡 high | Keptn shifts delivery quality-assurance left by providing a standardized, SLO-driven control plane for cloud-native application orchestration. |
 
 
 ## Observability, SRE & Testing
@@ -878,16 +878,16 @@ search:
 
     | Date | Resource | Impact | Why It Matters |
     | :--- | :--- | :---: | :--- |
-    | 2026-06-14 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🔴 critical | It acts as the secure, container-optimized base OS for Azure Kubernetes Service, minimizing footprint and maximizing security for cloud-native workloads. |
-    | 2026-06-05 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🟡 high | It brings GitOps principles to Azure API Management, enabling teams to automate the configuration and deployment of API gateways. |
-    | 2026-06-01 | [floci-az](https://github.com/floci-io/floci-az) | 🟡 high | It drastically simplifies the local development loop for cloud-native engineers by emulating core Azure services, including AKS and Functions, on a single local port. |
-    | 2026-06-02 | [From Prompt to Production: Open in VS Code for Terraform in Azure Copilot](https://techcommunity.microsoft.com/blog/azuretoolsblog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure-copilot/4494931) | 🟡 high | It merges generative AI with modern IaC practices by allowing developers to generate and open Terraform manifests directly from Azure Copilot in VS Code. |
-    | 2026-06-02 | [Azure Hub-and-Spoke Generally Available for HCP Vault Dedicated](https://www.hashicorp.com/blog/azure-hub-and-spoke-generally-available-for-hcp-vault-dedicated) | 🟡 high | It bridges enterprise secret management and secure networking by enabling managed HashiCorp Vault deployments within standard Azure hub-and-spoke architectures. |
-    | 2025-01-14 | [github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation](https://github.com/azure/mission-critical-online) | 🟡 high | It provides an industry-grade architectural blueprint for building resilient, zero-downtime, active-active cloud applications on Azure. |
-    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | It streamlines hybrid cloud-native testing by providing instant, automated sandbox environments for Azure Arc-enabled Kubernetes. |
-    | 2026-06-02 | [Azure Update 22nd May 2026](https://www.youtube.com/watch?v=pMfG-vYvnv8&feature=youtu.be) | 🔵 medium | This update highlights critical cloud-native advancements, specifically the automatic instrumentation of Azure Kubernetes Service with Application Insights. |
-    | 2026-06-10 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🔵 medium | It delivers the foundational open-source toolset for organizations to automate, standardize, and govern cloud financial operations across Azure. |
-    | 2026-06-14 | [Bicep](https://github.com/Azure/bicep) | 🟡 high | It serves as the premier native declarative infrastructure-as-code solution for Azure, simplifying resource provisioning over complex ARM templates. |
+    | 2026-06-14 | [github.com/microsoft/CBL-Mariner](https://github.com/microsoft/azurelinux) | 🔴 critical | Provides a secure, lightweight, and container-optimized base operating system designed specifically to minimize overhead and maximize security inside AKS. |
+    | 2025-01-14 | [github.com/azure/mission-critical-online: Welcome to Azure Mission-Critical' Online Reference Implementation](https://github.com/azure/mission-critical-online) | 🔴 critical | Offers an industry-grade active-active reference template for engineering highly resilient, zero-downtime, cloud-native applications on Azure. |
+    | 2026-06-05 | [github.com/Azure/apiops 🌟](https://github.com/Azure/apiops) | 🟡 high | Brings declarative GitOps principles to Azure API Management, automating API extraction, publishing, and deployments across environments. |
+    | 2026-06-01 | [azurearcjumpstart.io](https://jumpstart.azure.com) | 🟡 high | Accelerates enterprise hybrid and multi-cloud strategies by providing automated, hands-on deployment sandboxes for Azure Arc-enabled Kubernetes. |
+    | 2026-06-02 | [Azure Hub-and-Spoke Generally Available for HCP Vault Dedicated](https://www.hashicorp.com/blog/azure-hub-and-spoke-generally-available-for-hcp-vault-dedicated) | 🟡 high | Establishes a secure enterprise integration pattern by making HashiCorp Vault Dedicated natively compatible with Azure hub-and-spoke networking architectures. |
+    | 2026-06-14 | [Bicep](https://github.com/Azure/bicep) | 🟡 high | Serves as the modern standard for declarative Infrastructure as Code on Azure, simplifying and modularizing resource provisioning over complex ARM JSON. |
+    | 2026-06-10 | [github.com/microsoft/finops-toolkit](https://github.com/microsoft/finops-toolkit) | 🟡 high | Standardizes cloud financial operations and cost management governance across enterprise-scale Azure environments. |
+    | 2026-06-02 | [Azure Update 22nd May 2026](https://www.youtube.com/watch?v=pMfG-vYvnv8&feature=youtu.be) | 🟡 high | Tracks vital cloud-native platform advancements, including automatic Application Insights telemetry instrumentation for Azure Kubernetes Service. |
+    | 2026-06-01 | [floci-az](https://github.com/floci-io/floci-az) | 🔵 medium | Significantly improves developer inner-loop productivity by emulating a wide suite of Azure services like AKS, Cosmos DB, and Key Vault locally. |
+    | 2026-06-02 | [From Prompt to Production: Open in VS Code for Terraform in Azure Copilot](https://techcommunity.microsoft.com/blog/azuretoolsblog/from-prompt-to-production-open-in-vs-code-for-terraform-in-azure-copilot/4494931) | 🔵 medium | Signals a paradigm shift in developer experience by integrating generative AI prompts directly with local VS Code Terraform authoring workflows. |
 
 === "Last 6 Months"
 

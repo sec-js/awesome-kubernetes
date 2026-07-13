@@ -9,6 +9,14 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 !!! info "Architectural Context"
     Detailed reference for AWS Security in the context of Cloud Providers (Hyperscalers).
 
+## AWS
+
+### Multi-account Setup
+
+#### Governance
+
+  - **(2023)** [aws.amazon.com: AWS Control Tower](https://aws.amazon.com/controltower) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Official AWS product reference for AWS Control Tower, a managed service that streamlines multi-account governance and landing zone orchestration. It details how the platform enforces automated guardrails, visualizes enterprise health, and coordinates with AWS Organizations for centralized billing and policy compliance.
+  - **(2022)** [aws.amazon.com: New – AWS Control Tower Account Factory for Terraform](https://aws.amazon.com/blogs/aws/new-aws-control-tower-account-factory-for-terraform) <span class='md-tag md-tag--warning'>[HCL CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An analytical introduction to the AWS Control Tower Account Factory for Terraform (AFT), enabling GitOps-driven deployment of AWS accounts. Discusses custom pipeline orchestration and landing zone configurations that maintain strict security compliance metrics across large organizations.
 ## Architectural Foundations
 
 ### Kubernetes Tools
@@ -30,7 +38,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(None)** [](https://aws.amazon.com/blogs/security/how-to-automatically-update-your-security-groups-for-amazon-cloudfront-and-aws-waf-by-using-aws-lambda)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering aws.amazon.com in the Kubernetes Tools ecosystem.
 ## Cloud Architecture
 
-### AWS
+### AWS (1)
 
 #### Cryptography
 
@@ -103,6 +111,13 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 
   - **(2024)** [Organizing Your AWS Environment Using Multiple Accounts (white paper for best practices)](https://docs.aws.amazon.com/whitepapers/latest/organizing-your-aws-environment/organizing-your-aws-environment.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The official AWS framework defining multi-account best practices using AWS Organizations and AWS Control Tower. It outlines critical isolation patterns for security, billing, and operational autonomy. Architecturally, it serves as the foundation for modern enterprise landing zones, ensuring strict blast-radius limitation.
   - **(2024)** [blog.wut.dev: Moving AWS Accounts and OUs Within An Organization - Not So Simple!](https://wut.dev/blog/2024/07/05/moving-aws-accounts-within-organization.html) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A highly practical analysis of the pitfalls and administrative hurdles encountered when migrating AWS accounts between Organizational Units (OUs) or organizations. It examines the operational impact on Service Control Policies (SCPs), resource shares, CloudFormation StackSets, and global integrations during transition phases.
+## Cloud Engineering
+
+### Devsecops
+
+#### Security
+
+  - **(2024)** [Avoiding Mistakes with AWS OIDC Integration Conditions](https://www.wiz.io/blog/avoiding-mistakes-with-aws-oidc-integration-conditions) <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A security deep dive into AWS IAM OIDC trust relationships. Explains how misconfigured OIDC settings can allow unauthorized actions in GitHub Actions pipelines and outlines steps to prevent account compromise.
 ## Cloud Native Platforms
 
 ### Azure
@@ -110,14 +125,14 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
 #### Security Automation
 
   - **(2024)** [Automated Let's Encrypt Certificates in Azure Key Vault with ACME Bot](https://cloudbuild.co.uk/free-automated-lets-encrypt-certificates-in-azure-key-vault-with-acme-bot-a-step-by-step-guide) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Step-by-step instructional resource on deploying ACME Bot inside Azure. Automates key lifecycles of Let's Encrypt certificates directly into secure Key Vaults.
-## Devsecops
+## Devsecops (1)
 
 ### Policy As Code
 
 #### Open Policy Agent
 
   - **(2022)** [Realize Policy-as-Code with AWS Cloud Development Kit through Open Policy Agent 🌟](https://aws.amazon.com/blogs/opensource/realize-policy-as-code-with-aws-cloud-development-kit-through-open-policy-agent) <span class='md-tag md-tag--warning'>[TYPESCRIPT/REGO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A detailed walk-through demonstrating Policy-as-Code setups within AWS CDK deployment models using Open Policy Agent (OPA). Teaches engineers how to compile cloud infrastructure representations and parse them against Rego policies to catch insecure setups before resource creation.
-## Security
+## Security (1)
 
 ### Identity and Access
 
@@ -186,7 +201,7 @@ description: "Top AWS Security resources for 2026, AI-ranked: AWS WAF sample rul
   - **(2021)** [k21academy.com: AWS Secrets Manager](https://k21academy.com/aws-cloud/aws-secrets-manager) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A foundational technical guide to the architecture and operational model of AWS Secrets Manager. The article discusses integration mechanics with AWS RDS, IAM authorization policies, automated rotation via pre-configured Lambda templates, and encryption envelope methods using KMS.
 
 ---
-💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [Managed Kubernetes In Public Cloud](./managed-kubernetes-in-public-cloud.md)
+💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [AWS Storage](./aws-storage.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 

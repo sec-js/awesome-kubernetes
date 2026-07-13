@@ -147,7 +147,7 @@ description: "Curated, AI-ranked Finops resources for the 2026 Cloud Native arch
   - **(2026)** [Tether (USDt)](https://tether.to) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The main portal for the Tether (USDt) stablecoin, mapping out collateral verifications, multi-blockchain compatibility layers, and institutional fiat liquidity standards. Important for distributed ledger payments and micro-payment applications.
 
 ---
-💡 **Explore Related:** [Appointment Scheduling](./appointment-scheduling.md) | [Newsfeeds](./newsfeeds.md) | [Recruitment](./recruitment.md)
+💡 **Explore Related:** [HR](./hr.md) | [Newsfeeds](./newsfeeds.md) | [Workfromhome](./workfromhome.md)
 
-🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
+🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
 
