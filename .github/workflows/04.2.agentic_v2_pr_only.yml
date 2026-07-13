@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Repository Synchronization
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           ref: develop
           fetch-depth: 0
@@ -35,7 +35,7 @@ jobs:
 
       - name: Restore Incremental Inventory Cache (Mandate 22)
         if: ${{ github.event.inputs.restore_cache == 'true' }}
-        uses: actions/cache/restore@v5
+        uses: actions/cache/restore@v6
         with:
           path: data/inventory.yaml
           key: inventory-v2-${{ github.run_id }}-${{ github.run_attempt }}
