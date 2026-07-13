@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [[2.9.60]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.60) - 2026-07-13
+
+### Added
+- **Compile-time Safety Assertions for Injections**: Added permanent compiler assertions in `v2_optimizer.py` verifying that JCasC, Pipeline Principles, Best Practices, and OpenShift callout boxes are successfully merged into the V2 Jenkins page, failing the build immediately on any silent regression.
+
+### Fixed
+- **Jenkins V2 Featured Callout Boxes Restoration**: Restored the missing Configuration-as-Code and Pipeline callout boxes in `v2-docs/jenkins.md` by updating replacement strings to match the newly normalized headings (`### Configuration As Code` and `## CICD`).
+- **Introduction Gold Nuggets Precedence**: Fixed an operator precedence bug in the `is_gold` check (`is_intro and (stars or 0) >= 4` instead of `is_intro and stars or 0 >= 4`), cleaning up incorrect callout boxes for lower-rated resources on `introduction.md`.
+- **Health Checker Checkpoint & Progress Persistence**: Added progress checkpointing (`health_check_checkpoint.json`) to persist state across batches and prevent duplication/redos after network validation timeouts.
+- **Safer CLI Triage in GHA**: Hardened the GitHub Actions issue triage query against NoneType parser failures when no open issues are found.
+- **Semaphore UI Link Correction & Migration**: Updated Semaphore UI references to the official `https://semaphoreui.com/` domain, consolidating duplicate domains in the central database.
+
 ## [[2.9.48]](https://github.com/nubenetes/awesome-kubernetes/releases/tag/v2.9.48) - 2026-06-23
 
 ### Fixed
