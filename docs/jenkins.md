@@ -427,7 +427,7 @@ jenkinsci CloudBees' advice is to use build tool features when possible (Maven/G
 - [cloudbees.com: The Two Most Common Issues with Jenkins and How to Fix Them 🌟](https://www.cloudbees.com/blog/parallelism-and-distributed-builds-jenkins) Jenkins is a fantastic CI/CD solution but it has a significant weak point: Managing & scaling Jenkins for the enterprise is an uphill battle. Tanya Jacob shares the 2 most common issues we hear from enterprises using Jenkins & how to fix them.
 - [cloudbees.com: Enterprise JVM Administration and Jenkins Performance 🌟](https://www.cloudbees.com/blog/enterprise-jvm-administration-and-jenkins-performance)
 - [support.cloudbees.com: Troubleshooting Jenkins Performance](https://support.cloudbees.com/hc/en-us/articles/204856094-Troubleshooting-Jenkins-Performance) Exhaustive reference for debugging heap usage, thread dumps, garbage collection pauses, and pipeline serialization bottlenecks.
-- [plugins.jenkins.io/jenkins-health-advisor-by-cloudbees: Jenkins Health Advisor by CloudBees](https://plugins.jenkins.io/jenkins-health-advisor-by-cloudbees) Automatically scans Jenkins controllers for known issues, security vulnerabilities, and performance anomalies.
+- [plugins.jenkins.io/jenkins-health-advisor-by-cloudbees: Jenkins Health Advisor by CloudBees](https://plugins.jenkins.io/cloudbees-jenkins-advisor) Automatically scans Jenkins controllers for known issues, security vulnerabilities, and performance anomalies.
 
 ## Jenkins Security
 
