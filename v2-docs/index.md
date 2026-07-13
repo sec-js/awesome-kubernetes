@@ -88,9 +88,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18663 total resources analyzed.
-    - **V2 Elite Selection**: 14542 candidates identified (77.92% density ratio).
-    - **AI Enrichment Coverage**: 14536 / 14542 (99.96%)
+    - **V1 Base Inventory**: 18662 total resources analyzed.
+    - **V2 Elite Selection**: 14541 candidates identified (77.92% density ratio).
+    - **AI Enrichment Coverage**: 14535 / 14541 (99.96%)
     - **GitHub Metadata Coverage**: 1764 / 1764 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -403,7 +403,7 @@ Every technical label across Nubenetes, sized by how many resources carry it. Cl
 <a class="v2-heat-tag v2-heat-4" href="/tags/#case-study" title="117 resources">Case Study<span class="v2-heat-n">117</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="7513 resources">Community-Tool<span class="v2-heat-n">7513</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="7512 resources">Community-Tool<span class="v2-heat-n">7512</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1139 resources">De Facto Standard<span class="v2-heat-n">1139</span></a>

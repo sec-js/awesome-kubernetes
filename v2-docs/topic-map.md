@@ -165,7 +165,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 <div class="topic-heatmap__row">
 <div class="topic-heatmap__dim">Engineering Pipeline</div>
 <div class="topic-heatmap__cells">
-<a class="topic-heatcell th-5" href="./jenkins/" title="Jenkins — 260 resources"><span class="topic-heatcell__name">Jenkins</span><span class="topic-heatcell__n">260</span></a>
+<a class="topic-heatcell th-5" href="./jenkins/" title="Jenkins — 259 resources"><span class="topic-heatcell__name">Jenkins</span><span class="topic-heatcell__n">259</span></a>
 <a class="topic-heatcell th-5" href="./gitops/" title="Gitops — 117 resources"><span class="topic-heatcell__name">Gitops</span><span class="topic-heatcell__n">117</span></a>
 <a class="topic-heatcell th-4" href="./cicd/" title="CI/CD — 76 resources"><span class="topic-heatcell__name">CI/CD</span><span class="topic-heatcell__n">76</span></a>
 <a class="topic-heatcell th-4" href="./jenkins-alternatives/" title="Jenkins Alternatives — 75 resources"><span class="topic-heatcell__name">Jenkins Alternatives</span><span class="topic-heatcell__n">75</span></a>
@@ -400,7 +400,7 @@ Each tile is a category; the warmer the colour, the more AI-curated resources it
 - **[Flux](./flux.md)** <span class="topic-count">23</span>
 - **[Gitops](./gitops.md)** <span class="topic-count">117</span>
 - **[Jenkins Alternatives](./jenkins-alternatives.md)** <span class="topic-count">75</span>
-- **[Jenkins](./jenkins.md)** <span class="topic-count">260</span>
+- **[Jenkins](./jenkins.md)** <span class="topic-count">259</span>
 - **[Keptn](./keptn.md)** <span class="topic-count">9</span>
 - **[Openshift Pipelines](./openshift-pipelines.md)** <span class="topic-count">33</span>
 - **[Registries](./registries.md)** <span class="topic-count">35</span>

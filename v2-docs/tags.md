@@ -34,7 +34,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 <a class="v2-heat-tag v2-heat-4" href="#case-study" title="117 resources">Case Study<span class="v2-heat-n">117</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-6" href="#community-tool" title="7513 resources">Community-Tool<span class="v2-heat-n">7513</span></a>
+<a class="v2-heat-tag v2-heat-6" href="#community-tool" title="7512 resources">Community-Tool<span class="v2-heat-n">7512</span></a>
 <a class="v2-heat-tag v2-heat-2" href="#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
 <a class="v2-heat-tag v2-heat-1" href="#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-5" href="#de-facto-standard" title="1139 resources">De Facto Standard<span class="v2-heat-n">1139</span></a>
@@ -168,7 +168,7 @@ Bigger, warmer labels cover more resources. Click any label to jump to its secti
 1. [Emerging](#emerging) (82 resources)
 1. [Guide](#guide) (1082 resources)
 1. [Case Study](#case-study) (117 resources)
-1. [Community-Tool](#community-tool) (7513 resources)
+1. [Community-Tool](#community-tool) (7512 resources)
 1. [Legacy](#legacy) (554 resources)
 1. [Spanish Content](#spanish-content) (208 resources)
 
@@ -729,7 +729,7 @@ Resources indexed by their primary source language or document format.
 ## Community-Tool {#community-tool}
 
 <details markdown="1">
-<summary>Click to view top 100 of 7513 resources under Community-Tool</summary>
+<summary>Click to view top 100 of 7512 resources under Community-Tool</summary>
 
   - **(2026)** [github.com/openshift/hive](https://github.com/openshift/hive) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./ocp4.md)*
   - **(2026)** [SquadcastHub/awesome-sre-tools](https://github.com/SquadcastHub/awesome-sre-tools) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[MARKDOWN CONTENT]</span> — *Go to [Section](./other-awesome-lists.md)*
@@ -832,7 +832,7 @@ Resources indexed by their primary source language or document format.
   - **(2025)** [SQL Police Department](https://sqlpd.com) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — *Go to [Section](./elearning.md)*
   - **(2024)** [kubernetes-sigs: Trimaran: Load-aware scheduling plugins 🌟](https://github.com/kubernetes-sigs/scheduler-plugins/tree/master/pkg/trimaran) 🌟🌟🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> — *Go to [Section](./kubernetes-tools.md)*
 
-*... and 7413 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
+*... and 7412 more resources. For the full exhaustive list, search the [V1 Historical Archive](/v1/).*
 </details>
 
 </div>
