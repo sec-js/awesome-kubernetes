@@ -1927,6 +1927,13 @@ class V2VisionEngine:
     </center>
 """
                 _body += media_section
+                
+                # Permanent Safeguard Validation (Mandate check)
+                # Enforce that critical callout injections were successfully merged and did not fail silently due to heading schema drift.
+                assert "Jenkins Configuration as Code (CasC) Architectural Reference" in _body, "Safety assertion failed: JCasC callout injection was skipped in V2 jenkins.md!"
+                assert "Pipeline as Code with Jenkins: Architectural Core Principles" in _body, "Safety assertion failed: Jenkins Pipeline principles callout was skipped in V2 jenkins.md!"
+                assert "Jenkins Pipeline Best Practices" in _body, "Safety assertion failed: Jenkins Pipeline best practices callout was skipped in V2 jenkins.md!"
+                assert "Building Declarative Pipelines with OpenShift" in _body, "Safety assertion failed: OpenShift pipeline callout was skipped in V2 jenkins.md!"
             # The flagship "Awesome Lists" page gets a high-impact hero + a grid
             # of its categories (auto-derived from the rendered H2 sections).
             if f_name == "other-awesome-lists.md":
