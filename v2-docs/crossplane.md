@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Crossplane resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Hardened Infrastructure)."
+---
 # Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions
 
 !!! tip "Nubenetes V2 Elite Portal"
@@ -6,23 +9,10 @@
 !!! info "Architectural Context"
     Detailed reference for Crossplane. A Universal Control Plane API for Cloud Computing. Crossplane Workloads Definitions in the context of Hardened Infrastructure.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud](https://medium.com/dzerolabs/using-crossplane-to-provision-a-kubernetes-cluster-in-google-cloud-cf5374d765ee)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering medium: Using Crossplane to Provision a Kubernetes Cluster in Google Cloud in the Kubernetes Tools ecosystem.
-  - [faun.pub: Defining Infrastructure Declaratively with Crossplane](https://faun.pub/defining-infrastructure-declaratively-with-crossplane-eb9e0a98ae38)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering faun.pub: Defining Infrastructure Declaratively with Crossplane in the Kubernetes Tools ecosystem.
 ## GitOps and CICD
 
 ### GitOps
 
-#### FluxCD
-
-##### Crossplane
-
-  - **(2021)** [itnext.io: GitOpsify Cloud Infrastructure with Crossplane and Flux](https://itnext.io/gitopsify-cloud-infrastructure-with-crossplane-and-flux-d605d3043452) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Details the direct implementation of GitOps pipelines using Flux CD as the reconciliation engine to manage cloud infrastructure generated via Crossplane. By declarative versioning of Crossplane custom resources in Git, engineers establish an automated feedback loop where changes are continuously reconciled against live AWS, GCP, or Azure endpoints.
 #### Methodologies
 
   - **(2022)** [codefresh.io: Using GitOps for Infrastructure and Applications With Crossplane and Argo CD](https://octopus.com/devops/gitops) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A strategic evaluation of GitOps workflows and state-reconciliation mechanisms for infrastructure and applications. By contrasting push vs. pull GitOps pipelines (e.g., using Argo CD or Octopus Deploy with Crossplane), the guide highlights methods for treating Kubernetes as the source of truth for all environment mutations.
@@ -30,11 +20,8 @@
 
 ### Control Planes
 
-#### Crossplane (1)
+#### Crossplane
 
-##### Code Samples
-
-  - **(2021)** [askmeegs/yaml-your-cloud](https://github.com/askmeegs/yaml-your-cloud) <span class='md-tag md-tag--info'>⭐ 6</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-803460be" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 6 L 10 7 L 20 9 L 30 5 L 40 2 L 50 11" fill="none" stroke="url(#spark-grad-803460be)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="11" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Code repository designed as a companion to the 'YAML your cloud' presentation, offering practical Kubernetes manifest examples and Crossplane configurations. It showcases foundational multi-cloud provider settings, composition patterns, and claims structures used in active training environments.
 ##### History
 
   - **(2019)** [Crossplane, a Universal Control Plane API for Cloud Computing](https://www.infoq.com/news/2019/01/upbound-crossplane) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Features the initial release and architectural goals of Crossplane as a universal control plane API designed to transcend traditional Infrastructure as Code (IaC) architectures. Discusses the early-stage vision of running custom resource definitions in Kubernetes to manage heterogeneous cloud providers, establishing the foundation of modern Platform Engineering.
@@ -56,12 +43,9 @@
 ##### Reference Architectures
 
   - **(2023)** [upbound/platform-ref-multi-k8s: Upbound's reference platform for multi-cloud' Kubernetes with Crossplane](https://github.com/upbound/platform-ref-multi-k8s) <span class='md-tag md-tag--info'>⭐ 66</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-cbef00ae" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 3 L 10 2 L 20 10 L 30 11 L 40 12 L 50 4" fill="none" stroke="url(#spark-grad-cbef00ae)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="4" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[YAML CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟 <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A blueprint repository illustrating standard compositions and platform-ref layouts for deploying multi-cloud Kubernetes clusters using Crossplane. Provides direct, working configurations for credential partitioning, identity federation, and modular configuration hierarchies that conform to the Upbound control plane architecture.
-### Developer Experience
-
-#### Kubernetes Usability
-
-  - **(2021)** [itnext.io: Why do developers find Kubernetes so hard?](https://itnext.io/why-do-developers-find-kubernetes-hard-6532e8d6ce7f) <span class='md-tag md-tag--warning'>[AGNOSTIC CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Diagnoses the cognitive load and operational hurdles associated with exposing raw Kubernetes interfaces directly to application developers. It analyzes the friction created by complex network topologies, YAML verbosity, and security policies, making the case for platform abstraction layers and custom developer portals.
 
 ---
-💡 **Explore Related:** [IaC](./iac.md) | [Terraform](./terraform.md) | [Chef](./chef.md)
+💡 **Explore Related:** [Devsecops](./devsecops.md) | [Securityascode](./securityascode.md) | [IaC](./iac.md)
+
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

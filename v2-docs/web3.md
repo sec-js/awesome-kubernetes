@@ -1,3 +1,6 @@
+---
+description: "Curated, AI-ranked Web3 resources for the 2026 Cloud Native architect: top-tier tools, guides and references (Developer Ecosystem)."
+---
 # Web 3
 
 !!! tip "Nubenetes V2 Elite Portal"
@@ -6,13 +9,6 @@
 !!! info "Architectural Context"
     Detailed reference for Web 3 in the context of Developer Ecosystem.
 
-## Architectural Foundations
-
-### Kubernetes Tools
-
-#### General Reference
-
-  - [blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English](https://blog.suhailkakar.com/web-30-terms-and-their-definitions-in-plain-english)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering blog.suhailkakar.com: Web 3.0 Terms and Their Definitions in Plain English in the Kubernetes Tools ecosystem.
 ## Emerging Paradigms
 
 ### Web3 Architecture
@@ -30,5 +26,7 @@
   - **(2021)** [wired.com: The Father of Web3 Wants You to Trust Less](https://www.wired.com/story/web3-gavin-wood-interview) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An interview with Ethereum co-founder and Polkadot creator Gavin Wood on the engineering philosophy behind Web3. Wood details the transition from trusting centralized authorities to relying on cryptographic truth, smart contracts, and decentralized state machines to enforce transparency.
 
 ---
-💡 **Explore Related:** [Angular](./angular.md) | [Python](./python.md) | [Dom](./dom.md)
+💡 **Explore Related:** [Javascript](./javascript.md) | [Dotnet](./dotnet.md) | [Embedded Servlet Containers](./embedded-servlet-containers.md)
+
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

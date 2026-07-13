@@ -22,7 +22,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 
 #### AWS Lambda
 
-  - **(2024)** [you can use Python with AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span> <span class='md-tag md-tag--primary'>[DOCUMENTATION]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative documentation for designing, packaging, and optimizing Python functions running inside AWS Lambda. Detail runtime limits, library dependencies, and context executions.
+  - **(2023)** [Security Overview of AWS Lambda](https://d1.awsstatic.com/whitepapers/Overview-AWS-Lambda-Security.pdf) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--secondary'>[CASE STUDY]</span> <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — The authoritative AWS security whitepaper detailing the multi-tenant isolation architectures of Firecracker microVMs. Explores IAM execution policies, VPC security group associations, and transport encryption controls.
   - **(2021)** [dashbird.io: Deploying AWS Lambda with Docker Containers: I Gave it a Try and Here’s My Review](https://dashbird.io/blog/deploying-aws-lambda-with-docker) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — An engineering review of packaging and deploying AWS Lambda targets as OCI-compliant Docker containers. Analyzes cold-start impacts, image composition strategies, and orchestration workflow modifications.
   - **(2021)** [aws.amazon.com: Operating Lambda: Understanding event-driven architecture – Part 1](https://aws.amazon.com/blogs/compute/operating-lambda-understanding-event-driven-architecture-part-1) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — A foundational multi-part operational guide from AWS technical evangelists focusing on event-driven serverless architectures. Explores decoupled communication, idempotent execution, and event processing.
   - **(2021)** [aws.amazon.com: Optimizing Lambda functions packaged as container images](https://aws.amazon.com/es/blogs/compute/optimizing-lambda-functions-packaged-as-container-images) <span class='md-tag md-tag--warning'>[NONE CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Highly technical optimization guide for serverless containers. Focuses on cache warming, base image choices, and reducing multi-tier image footprints to minimize cold start latency.
@@ -63,6 +63,13 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 #### AWS SAM Pipelines
 
   - **(2021)** [Introducing AWS SAM Pipelines: Automatically generate deployment pipelines for serverless applications](https://aws.amazon.com/blogs/compute/introducing-aws-sam-pipelines-automatically-generate-deployment-pipelines-for-serverless-applications) <span class='md-tag md-tag--warning'>[YAML CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Introduces AWS SAM Pipelines, a feature within the Serverless Application Model CLI that auto-generates multi-stage CI/CD pipelines. It supports integration with Jenkins, GitLab, GitHub Actions, and Bitbucket, standardizing infrastructure-as-code deployment procedures across corporate accounts.
+## Infrastructure
+
+### Automation
+
+#### AWS Lambda and EventBridge
+
+  - **(2024)** [How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video)](https://repost.aws/knowledge-center/start-stop-lambda-eventbridge)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — An operational video walkthrough demonstrating serverless compute cost-reduction routines. Details how to coordinate AWS Lambda with EventBridge cron schedules to automate lifecycle actions for EC2 fleets.
 ## Infrastructure as Code
 
 ### AWS CDK
@@ -96,6 +103,16 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
   - **(2021)** [tutorialsdojo.com: Real-time Monitoring of 5XX Errors using AWS Lambda, CloudWatch Logs and Slack](https://tutorialsdojo.com/real-time-monitoring-of-5xx-errors-using-aws-lambda-cloudwatch-logs-slack) <span class='md-tag md-tag--warning'>[PYTHON CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> <span class='md-tag md-tag--secondary'>[GUIDE]</span> — Provides an implementation guide for parsing AWS CloudWatch logs in real-time. Leverages subscription filters and Lambda to extract system-level 5XX errors, instantly routing rich-formatted exception payloads directly to Slack webhooks for rapid operational triage.
 ## Security and Governance
 
+### IAM and Access Control
+
+#### ABAC
+
+  - **(2022)** [aws.amazon.com: Scaling AWS Lambda permissions with Attribute-Based Access Control (ABAC)](https://aws.amazon.com/blogs/compute/scaling-aws-lambda-permissions-with-attribute-based-access-control-abac) <span class='md-tag md-tag--warning'>[JSON CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Explores Attribute-Based Access Control (ABAC) strategies to scale AWS Lambda permission management in complex enterprise accounts. Uses resource tags and IAM policies to authorize Lambda actions, avoiding the overhead of managing extensive role definitions.
+### Kubernetes Compliance
+
+#### Infrastructure Translation
+
+  - **(2023)** [==github.com/awslabs/specctl==](https://github.com/awslabs/specctl) <span class='md-tag md-tag--info'>⭐ 258</span> <svg class="v2-sparkline" width="50" height="15" viewBox="0 0 50 15" style="vertical-align: middle; display: inline-block; margin-left: 6px;" title="Activity Trend"><defs><linearGradient id="spark-grad-652425c6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="rgba(34, 211, 238, 0.2)" /><stop offset="100%" stop-color="var(--md-accent-fg-color)" /></linearGradient></defs><path class="v2-sparkline-path" d="M 0 2 L 10 10 L 20 10 L 30 7 L 40 12 L 50 2" fill="none" stroke="url(#spark-grad-652425c6)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /><circle cx="50" cy="2" r="2" fill="var(--md-accent-fg-color)" /></svg> <span class='md-tag md-tag--warning'>[GO CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span> 🌟🌟🌟🌟🌟 <span class='md-tag md-tag--success'>[DE FACTO STANDARD]</span> — A specialized security tool developed by AWS Labs to parse, extract, and map standard Kubernetes manifest objects or ECS task definitions directly into AWS infrastructure controls. Analyzes security and network isolation requirements.
 ### Secret Management
 
 #### Go Runtime
@@ -139,6 +156,11 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
 #### Data Management
 
   - **(2022)** [Data Caching Across Microservices in a Serverless Architecture](https://aws.amazon.com/blogs/architecture/data-caching-across-microservices-in-a-serverless-architecture) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span> <span class='md-tag md-tag--critical'>[ADVANCED LEVEL]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Evaluates architectural strategies for distributed caching within serverless applications. It highlights the use of Amazon ElastiCache (Redis) and DynamoDB Accelerator (DAX) to alleviate performance bottlenecks, reduce database round-trips, and maintain low latency in ultra-elastic stateless execution environments.
+### Databases
+
+#### Selection Criteria
+
+  - **(2023)** [theserverlessmindset.com: Choosing the Best Database for Your Serverless Project](https://www.theserverlessmindset.com/p/best-serverless-database) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — Provides a comprehensive comparison of serverless-friendly databases, covering DynamoDB, Aurora Serverless, Supabase, and PlanetScale. Focuses on scaling limits, execution connection limits, cold-start latency, and transactional suitability.
 ### Event-Driven
 
 #### Design Patterns
@@ -156,7 +178,7 @@ description: "Curated, AI-ranked AWS Serverless resources for the 2026 Cloud Nat
   - **(2024)** [AWS Step Functions](https://aws.amazon.com/step-functions) <span class='md-tag md-tag--warning'>[N/A CONTENT]</span>  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A managed serverless orchestration service that simplifies state machine design for multi-step microservices. It coordinates complex distributed workflows, manages execution state, handles built-in retries, and integrates natively with over 200 AWS services to prevent deep nesting of Lambda functions.
 
 ---
-💡 **Explore Related:** [Googlecloudplatform](./GoogleCloudPlatform.md) | [Edge Computing](./edge-computing.md) | [Oraclecloud](./oraclecloud.md)
+💡 **Explore Related:** [AWS](./aws.md) | [Azure](./azure.md) | [AWS Security](./aws-security.md)
 
-🔗 **See Also:** [About](./about.md) | [Postman](./postman.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 

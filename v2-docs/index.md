@@ -88,9 +88,9 @@
     2. **Standard Layer (Mapped)**: Resources identified as candidates for Elite status but pending deep AI analysis.
 
     **Current Inventory Coverage:**
-    - **V1 Base Inventory**: 18659 total resources analyzed.
-    - **V2 Elite Selection**: 14535 candidates identified (77.9% density ratio).
-    - **AI Enrichment Coverage**: 14535 / 14535 (100.0%)
+    - **V1 Base Inventory**: 18660 total resources analyzed.
+    - **V2 Elite Selection**: 14542 candidates identified (77.93% density ratio).
+    - **AI Enrichment Coverage**: 14536 / 14542 (99.96%)
     - **GitHub Metadata Coverage**: 1764 / 1764 (100.0%) - *Critical for Maturity Tagging*
     - **Status**: The system is incrementally processing pending resources to complete the knowledge graph.
 
@@ -380,81 +380,152 @@
 Every technical label across Nubenetes, sized by how many resources carry it. Click any label to open it on the [Technical Tags](/tags/) page.
 
 <div class="v2-tag-heatmap">
-<a class="v2-heat-tag v2-heat-3" href="/tags/#agnostic-content" title="23 resources">Agnostic<span class="v2-heat-n">23</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#agnostic-content" title="61 resources">Agnostic<span class="v2-heat-n">61</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#ansible-content" title="3 resources">Ansible<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#any-content" title="1 resources">Any<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#apacheconf-content" title="1 resources">Apacheconf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#asciidoc-content" title="1 resources">Asciidoc<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#awk-content" title="3 resources">Awk<span class="v2-heat-n">3</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ballerina-content" title="1 resources">Ballerina<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#bash-content" title="9 resources">Bash<span class="v2-heat-n">9</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#bash-yaml-content" title="1 resources">Bash/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#bicep-content" title="3 resources">Bicep<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#c-content" title="3 resources">C<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#bash-content" title="110 resources">Bash<span class="v2-heat-n">110</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#bash-arm-content" title="1 resources">Bash/Arm<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#bash-python-content" title="1 resources">Bash/Python<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#bash-yaml-content" title="2 resources">Bash/Yaml<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#bicep-content" title="18 resources">Bicep<span class="v2-heat-n">18</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#c-content" title="29 resources">C<span class="v2-heat-n">29</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#c-sharp-python-js-content" title="1 resources">C# / Python / Js<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#c-sharp-content" title="17 resources">C#<span class="v2-heat-n">17</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#c-sharp-content" title="30 resources">C#<span class="v2-heat-n">30</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#c-plus-plus-go-python-content" title="1 resources">C++ / Go / Python<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#c-plus-plus-go-content" title="1 resources">C++ / Go<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#c-plus-plus-content" title="2 resources">C++<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#case-study" title="39 resources">Case Study<span class="v2-heat-n">39</span></a>
-<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="1764 resources">Community-Tool<span class="v2-heat-n">1764</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#conceptual-content" title="12 resources">Conceptual<span class="v2-heat-n">12</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="323 resources">De Facto Standard<span class="v2-heat-n">323</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#c-plus-plus-content" title="22 resources">C++<span class="v2-heat-n">22</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#c-bash-content" title="1 resources">C/Bash<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#c-c-plus-plus-content" title="1 resources">C/C++<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#case-study" title="117 resources">Case Study<span class="v2-heat-n">117</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#chinese-content" title="1 resources">Chinese<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#clojure-content" title="1 resources">Clojure<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-6" href="/tags/#community-tool" title="7513 resources">Community-Tool<span class="v2-heat-n">7513</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#conceptual-content" title="13 resources">Conceptual<span class="v2-heat-n">13</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#dart-content" title="1 resources">Dart<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#de-facto-standard" title="1139 resources">De Facto Standard<span class="v2-heat-n">1139</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#docker-content" title="1 resources">Docker<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#dockerfile-content" title="8 resources">Dockerfile<span class="v2-heat-n">8</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#docker-shell-content" title="1 resources">Docker/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#dockerfile-content" title="21 resources">Dockerfile<span class="v2-heat-n">21</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#dockerfile-shell-content" title="1 resources">Dockerfile/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#elixir-content" title="1 resources">Elixir<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#emerging" title="14 resources">Emerging<span class="v2-heat-n">14</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="368 resources">Enterprise-Stable<span class="v2-heat-n">368</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#emerging" title="82 resources">Emerging<span class="v2-heat-n">82</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#enterprise-stable" title="1107 resources">Enterprise-Stable<span class="v2-heat-n">1107</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#erlang-content" title="1 resources">Erlang<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#flux-content" title="1 resources">Flux<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#french-content" title="3 resources">French<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#german-content" title="1 resources">German<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#go-javascript-content" title="2 resources">Go / Javascript<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="1 resources">Go / Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="320 resources">Go<span class="v2-heat-n">320</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content-2" title="1 resources">Go/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="11 resources">Groovy<span class="v2-heat-n">11</span></a>
-<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="266 resources">Guide<span class="v2-heat-n">266</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#haskell-content" title="2 resources">Haskell<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#hcl-content" title="39 resources">Hcl<span class="v2-heat-n">39</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#html-content" title="3 resources">Html<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#go-yaml-content" title="2 resources">Go / Yaml<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#go-content" title="1050 resources">Go<span class="v2-heat-n">1050</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#go-bash-content" title="1 resources">Go/Bash<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#go-markdown-content" title="1 resources">Go/Markdown<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#go-rego-content" title="1 resources">Go/Rego<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#go-typescript-content" title="1 resources">Go/Typescript<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#go-yaml-content-2" title="3 resources">Go/Yaml<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#groovy-content" title="59 resources">Groovy<span class="v2-heat-n">59</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-hcl-content" title="1 resources">Groovy/Hcl<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#groovy-yaml-content" title="1 resources">Groovy/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#guide" title="1082 resources">Guide<span class="v2-heat-n">1082</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#haskell-content" title="4 resources">Haskell<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#hcl-content" title="228 resources">Hcl<span class="v2-heat-n">228</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#hcl-packer-content" title="1 resources">Hcl/Packer<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#hcl-yaml-content" title="4 resources">Hcl/Yaml<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#helm-content" title="1 resources">Helm<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#html-content" title="36 resources">Html<span class="v2-heat-n">36</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#image-pdf-content" title="1 resources">Image/Pdf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#ini-content" title="1 resources">Ini<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#ini-yaml-content" title="1 resources">Ini/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#java-english-content" title="1 resources">Java / English<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-go-node-js-content" title="1 resources">Java / Go / Node.Js<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#java-yaml-content" title="2 resources">Java / Yaml<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#java-content" title="184 resources">Java<span class="v2-heat-n">184</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#javascript-content" title="32 resources">Javascript<span class="v2-heat-n">32</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#java-content" title="452 resources">Java<span class="v2-heat-n">452</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#java-c-plus-plus-content" title="1 resources">Java/C++<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#javascript-content" title="138 resources">Javascript<span class="v2-heat-n">138</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#javascript-shell-content" title="1 resources">Javascript/Shell<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#javascript-webassembly-content" title="1 resources">Javascript/Webassembly<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#json-content" title="1 resources">Json<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#jsonnet-content" title="2 resources">Jsonnet<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#kql-content" title="2 resources">Kql<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#legacy" title="117 resources">Legacy<span class="v2-heat-n">117</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="1 resources">Lua<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="69 resources">Markdown<span class="v2-heat-n">69</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#javascript-typescript-content" title="2 resources">Javascript/Typescript<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#json-content" title="22 resources">Json<span class="v2-heat-n">22</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#jsonnet-content" title="5 resources">Jsonnet<span class="v2-heat-n">5</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#kotlin-content" title="4 resources">Kotlin<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#kql-content" title="5 resources">Kql<span class="v2-heat-n">5</span></a>
+<a class="v2-heat-tag v2-heat-5" href="/tags/#legacy" title="555 resources">Legacy<span class="v2-heat-n">555</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#lua-content" title="2 resources">Lua<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#makefile-content" title="1 resources">Makefile<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#markdown-content" title="346 resources">Markdown<span class="v2-heat-n">346</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-images-content" title="1 resources">Markdown/Images<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#markdown-shell-content" title="1 resources">Markdown/Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#multi-content" title="2 resources">Multi<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#nginx-conf-content" title="1 resources">Nginx Conf<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#nix-content" title="2 resources">Nix<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-2" href="/tags/#node-js-content" title="3 resources">Node.Js<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#pdf-content" title="1 resources">Pdf<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#php-content" title="1 resources">Php<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#powershell-content" title="3 resources">Powershell<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#promql-content" title="1 resources">Promql<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#norwegian-content" title="1 resources">Norwegian<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#objective-c-content" title="1 resources">Objective-C<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#ocaml-content" title="1 resources">Ocaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#pdf-content" title="11 resources">Pdf<span class="v2-heat-n">11</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#perl-content" title="2 resources">Perl<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#php-content" title="4 resources">Php<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#powershell-sql-content" title="1 resources">Powershell / Sql<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#powershell-content" title="67 resources">Powershell<span class="v2-heat-n">67</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#powershell-bash-content" title="1 resources">Powershell/Bash<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#powershell-cli-content" title="3 resources">Powershell/Cli<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#promql-content" title="3 resources">Promql<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#proprietary-content" title="1 resources">Proprietary<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#protobuf-content" title="1 resources">Protobuf<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#python-c-plus-plus-content" title="1 resources">Python / C++<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#python-content" title="95 resources">Python<span class="v2-heat-n">95</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#python-go-content" title="1 resources">Python / Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#python-content" title="385 resources">Python<span class="v2-heat-n">385</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#python-ansible-content" title="1 resources">Python/Ansible<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#python-go-content-2" title="1 resources">Python/Go<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#python-shell-content" title="2 resources">Python/Shell<span class="v2-heat-n">2</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#python-terraform-content" title="1 resources">Python/Terraform<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#python-yaml-content" title="1 resources">Python/Yaml<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#rego-content" title="1 resources">Rego<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#ruby-content" title="1 resources">Ruby<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#rust-content" title="18 resources">Rust<span class="v2-heat-n">18</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#scala-content" title="3 resources">Scala<span class="v2-heat-n">3</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#shell-content" title="29 resources">Shell<span class="v2-heat-n">29</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#spanish-content" title="31 resources">Spanish<span class="v2-heat-n">31</span></a>
-<a class="v2-heat-tag v2-heat-2" href="/tags/#sql-content" title="4 resources">Sql<span class="v2-heat-n">4</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#terraform-content" title="2 resources">Terraform<span class="v2-heat-n">2</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#terraform-yaml-content" title="1 resources">Terraform/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#python-yaml-content" title="3 resources">Python/Yaml<span class="v2-heat-n">3</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#r-content" title="1 resources">R<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#regex-content" title="1 resources">Regex<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#rego-content" title="10 resources">Rego<span class="v2-heat-n">10</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#robot-content" title="1 resources">Robot<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#ruby-content" title="20 resources">Ruby<span class="v2-heat-n">20</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#rust-content" title="39 resources">Rust<span class="v2-heat-n">39</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#scala-content" title="4 resources">Scala<span class="v2-heat-n">4</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#sed-content" title="1 resources">Sed<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#sentinel-content" title="1 resources">Sentinel<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#shell-content" title="182 resources">Shell<span class="v2-heat-n">182</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#shell-ansible-content" title="1 resources">Shell/Ansible<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#shell-dockerfile-content" title="2 resources">Shell/Dockerfile<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#shell-yaml-content" title="1 resources">Shell/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#smarty-content" title="2 resources">Smarty<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#spanish-content" title="209 resources">Spanish<span class="v2-heat-n">209</span></a>
+<a class="v2-heat-tag v2-heat-3" href="/tags/#sql-content" title="43 resources">Sql<span class="v2-heat-n">43</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#sql-typescript-content" title="1 resources">Sql/Typescript<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#sql-yaml-content" title="1 resources">Sql/Yaml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#terraform-content" title="8 resources">Terraform<span class="v2-heat-n">8</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#typescript-go-content" title="1 resources">Typescript / Go<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-3" href="/tags/#typescript-content" title="36 resources">Typescript<span class="v2-heat-n">36</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#typescript-rust-content" title="1 resources">Typescript / Rust<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#typescript-content" title="195 resources">Typescript<span class="v2-heat-n">195</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#typescript-elixir-content" title="1 resources">Typescript/Elixir<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#typescript-rego-content" title="1 resources">Typescript/Rego<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#vim-script-content" title="1 resources">Vim Script<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#viml-content" title="1 resources">Viml<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#webassembly-content" title="1 resources">Webassembly<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#xml-content" title="5 resources">Xml<span class="v2-heat-n">5</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-c-sharp-content" title="1 resources">Yaml / C#<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-go-content" title="1 resources">Yaml / Go<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-4" href="/tags/#yaml-content" title="157 resources">Yaml<span class="v2-heat-n">157</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-bash-content" title="1 resources">Yaml/Bash<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-go-content-2" title="1 resources">Yaml/Go<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-hcl-content" title="1 resources">Yaml/Hcl<span class="v2-heat-n">1</span></a>
-<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-helm-content" title="1 resources">Yaml/Helm<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-rego-content" title="1 resources">Yaml / Rego<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-shell-content" title="1 resources">Yaml / Shell<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-4" href="/tags/#yaml-content" title="417 resources">Yaml<span class="v2-heat-n">417</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-bash-content" title="2 resources">Yaml/Bash<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-go-content-2" title="2 resources">Yaml/Go<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-hcl-content" title="2 resources">Yaml/Hcl<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-helm-content" title="2 resources">Yaml/Helm<span class="v2-heat-n">2</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-jinja2-content" title="1 resources">Yaml/Jinja2<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-markdown-content" title="1 resources">Yaml/Markdown<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-python-content" title="1 resources">Yaml/Python<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-shell-content-2" title="1 resources">Yaml/Shell<span class="v2-heat-n">1</span></a>
 <a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-terraform-content" title="1 resources">Yaml/Terraform<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-1" href="/tags/#yaml-vagrantfile-content" title="1 resources">Yaml/Vagrantfile<span class="v2-heat-n">1</span></a>
+<a class="v2-heat-tag v2-heat-2" href="/tags/#yml-content" title="4 resources">Yml<span class="v2-heat-n">4</span></a>
 </div>
 
 ---

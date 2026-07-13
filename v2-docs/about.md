@@ -139,6 +139,43 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Postman remains a prominent API collaboration platform. It offers developers comprehensive tools to design, mock, test, document, and monitor APIs within an intuitive, team-oriented development lifecycle workspace.
 
+#### Swagger Codegen
+
+??? note "Swagger Codegen"
+    **[Access Resource](https://github.com/swagger-api/swagger-codegen)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    Automatic generation of API client libraries and server stubs from OpenAPI/Swagger specifications.
+
+### CICD and Pipelines
+
+#### Azure Pipelines
+
+??? note "Azure Pipelines"
+    **[Access Resource](https://learn.microsoft.com/en-us/azure/devops/pipelines)** 🌟🌟🌟🌟 | Level: None
+    
+    Cloud-hosted CI/CD pipeline service by Microsoft, supporting both Windows, Linux, and macOS environments.
+
+#### Jenkins CLI
+
+??? note "Jenkins CLI"
+    **[Access Resource](https://www.jenkins.io/doc/book/managing/cli)** 🌟🌟🌟🌟 | Level: Intermediate
+    
+    The official command-line runtime interface for administering remote Jenkins controller servers. Allows automated shell execution of administrative tasks, plugin updates, diagnostic tracing, and build queue interventions.
+
+#### Jenkins JCasC
+
+??? note "Jenkins Configuration as Code"
+    **[Access Resource](https://www.jenkins.io/projects/jcasc)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Core configuration portal resource emphasizing JCasC's role in establishing single-source-of-truth configuration files. It eliminates configuration drift through central, repeatable environments.
+
+#### Jenkins REST API
+
+??? note "Jenkins Remote Access API"
+    **[Access Resource](https://www.jenkins.io/doc/book/using/remote-access-api)** 🌟🌟🌟🌟 | Level: None
+    
+    Official documentation for Jenkins RESTful API integration, enabling remote control, status querying, and programmatic pipeline orchestration.
+
 ### Configuration Management
 
 #### Ansible AWX
@@ -155,6 +192,15 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     Official documentation for the cornerstone `kubernetes.core.k8s` module. It allows direct, declarative definition of Kubernetes objects inside Ansible playbooks using native YAML manifest definitions, enabling a blended hybrid orchestration pattern.
 
+### GitOps
+
+#### Argo CD
+
+??? note "Argo CD"
+    **[Access Resource](https://argoproj.github.io/argo-cd)** 🌟🌟🌟🌟🌟 | Level: Intermediate
+    
+    The absolute industry standard for GitOps-based continuous delivery on Kubernetes. Argo CD synchronizes active cluster states with declarative configurations stored in git repositories, providing robust drift correction, visual dashboarding, and audit controls.
+
 ### Infrastructure as Code
 
 #### Terraform Boilerplates
@@ -164,9 +210,39 @@ While certifications like CKA are prominent on CVs, they are frequently utilized
     
     A library of enterprise-stable Terraform templates configured specifically for modern Kubernetes environments (EKS, GKE, AKS). Includes pre-tested infrastructure specifications for VPC topologies, private nodes, and dynamic ingress setups.
 
+#### Terraform Provider
+
+??? note "Terraform Kubernetes Provider"
+    **[Access Resource](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs)** 🌟🌟🌟🌟 | Level: None
+    
+    Official Kubernetes provider for Terraform, enabling declarative deployment and management of Kubernetes resources using HashiCorp Configuration Language (HCL).
+
+### Package Management
+
+#### Helm
+
+??? note "Helm"
+    **[Access Resource](https://github.com/helm/helm)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    Official Go implementation of the Helm client, acting as the package manager for Kubernetes. Helm manages complex application definitions through charts, providing repeatable deployments, in-place upgrades, and robust rollback capabilities.
+
+### Templating Engine
+
+#### Jinja
+
+??? note "jinja 🌟"
+    **[Access Resource](https://github.com/pallets/jinja)** 🌟🌟🌟🌟🌟 | Level: Advanced
+    
+    The official repository for Jinja, the ubiquitous Python-based templating engine. Jinja underpins all dynamic evaluation structures inside Ansible, enabling programmatic infrastructure assembly.
+
+## Kubernetes Tools
+
+### General Reference
+
+  - [DZone: Defining Day-2 Operations](https://dzone.com/articles/defining-day-2-operations)  <span class='md-tag md-tag--info'>[COMMUNITY-TOOL]</span> — A curated technical resource and architectural guide covering ==DZone: Defining Day-2 Operations== in the Kubernetes Tools ecosystem.
 
 ---
-💡 **Explore Related:** [Demos](./demos.md) | [Kubernetes](./kubernetes.md) | [Kubernetes Tools](./kubernetes-tools.md)
+💡 **Explore Related:** [Other Awesome Lists](./other-awesome-lists.md) | [AWS Architecture](./aws-architecture.md) | [AWS Tools Scripts](./aws-tools-scripts.md)
 
-🔗 **See Also:** [Postman](./postman.md) | [Angular](./angular.md)
+🔗 **See Also:** [Kubernetes Backup Migrations](./kubernetes-backup-migrations.md) | [OCP 4](./ocp4.md)
 
